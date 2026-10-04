@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.ladders",
+  "mod_name": "Climbable Ladders",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "climb",
+        "source": "Climb",
+        "translation": "오르기",
+        "match_mode": "exact",
+        "note": "사다리 상호작용 메뉴"
+      }
+    ]
+  }
+}

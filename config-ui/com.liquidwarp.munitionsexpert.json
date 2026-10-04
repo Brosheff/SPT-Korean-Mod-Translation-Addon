@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.liquidwarp.munitionsexpert",
+  "plugin_name": "IcyClawz.MunitionsExpert",
+  "_note": "MODS.zip phase 3 source-audited F12 Configuration Manager display-only Korean translation. Includes the upstream empty ConfigDefinition key used by the master enable toggle.",
+  "categories": [
+    {
+      "source": "Colorize Icon Backgrounds",
+      "translation": "아이콘 배경 색상 표시"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Colorize Icon Backgrounds",
+      "key": "",
+      "source_display_name": "",
+      "source_description": "",
+      "translation_display_name": "탄약 아이콘 배경 색상 사용",
+      "translation_description": "관통 가능한 방탄 등급에 따라 탄약 아이콘 배경을 색상으로 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Colorize Icon Backgrounds",
+      "key": "Unarmored",
+      "source_display_name": "Unarmored",
+      "source_description": "",
+      "translation_display_name": "비장갑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Blue",
+          "translation": "파란색"
+        },
+        {
+          "source": "Brown",
+          "translation": "갈색"
+        },
+        {
+          "source": "Cyan",
+          "translation": "청록색"
+        },
+        {
+          "source": "Gray",
+          "translation": "회색"
+        },
+        {
+          "source": "Green",
+          "translation": "녹색"
+        },
+        {
+          "source": "Magenta",
+          "translation": "마젠타"
+        },
+        {
+          "source": "Orange",
+          "translation": "주황색"
+        },
+        {
+          "source": "Pink",
+          "translation": "분홍색"
+        },
+        {
+          "source": "Purple",
+          "translation": "보라색"
+        },
+        {
+          "source": "Red",
+          "translation": "빨간색"
+        },
+        {
+          "source": "Silver",
+          "translation": "은색"
+        },
+        {
+          "source": "Tan",
+          "translation": "황갈색"
+        },
+        {
+          "source": "Violet",
+          "translation": "보랏빛"
+        },
+        {
+          "source": "Yellow",
+          "translation": "노란색"
+        }
+      ]
+    },
+    {
+      "section": "Colorize Icon Backgrounds",
+      "key": "Class 1",
+      "source_display_name": "Class 1",
+      "source_description": "",
+      "translation_display_name": "방탄 등급 1",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Blue",
+          "translation": "파란색"
+        },
+        {
+          "source": "Brown",
+          "translation": "갈색"
+        },
+        {
+          "source": "Cyan",
+          "translation": "청록색"
+        },
+        {
+          "source": "Gray",
+          "translation": "회색"
+        },
+        {
+          "source": "Green",
+          "translation": "녹색"
+        },
+        {
+          "source": "Magenta",
+          "translation": "마젠타"
+        },
+        {
+          "source": "Orange",
+          "translation": "주황색"
+        },
+        {
+          "source": "Pink",
+          "translation": "분홍색"
+        },
+        {
+          "source": "Purple",
+          "translation": "보라색"
+        },
+        {
+          "source": "Red",
+          "translation": "빨간색"
+        },
+        {
+          "source": "Silver",
+          "translation": "은색"
+        },
+        {
+          "source": "Tan",
+          "translation": "황갈색"
+        },
+        {
+          "source": "Violet",
+          "translation": "보랏빛"
+        },
+        {
+          "source": "Yellow",
+          "translation": "노란색"
+        }
+      ]
+    },
+    {
+      "section": "Colorize Icon Backgrounds",
+      "key": "Class 2",
+      "source_display_name": "Class 2",
+      "source_description": "",
+      "translation_display_name": "방탄 등급 2",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Blue",
+          "translation": "파란색"
+        },
+        {
+          "source": "Brown",
+          "translation": "갈색"
+        },
+        {
+          "source": "Cyan",
+          "translation": "청록색"
+        },
+        {
+          "source": "Gray",
+          "translation": "회색"
+        },
+        {
+          "source": "Green",
+          "translation": "녹색"
+        },
+        {
+          "source": "Magenta",
+          "translation": "마젠타"
+        },
+        {
+          "source": "Orange",
+          "translation": "주황색"
+        },
+        {
+          "source": "Pink",
+          "translation": "분홍색"
+        },
+        {
+          "source": "Purple",
+          "translation": "보라색"
+        },
+        {
+          "source": "Red",
+          "translation": "빨간색"
+        },
+        {
+          "source": "Silver",
+          "translation": "은색"
+        },
+        {
+          "source": "Tan",
+          "translation": "황갈색"
+        },
+        {
+          "source": "Violet",
+          "translation": "보랏빛"
+        },
+        {
+          "source": "Yellow",
+          "translation": "노란색"
+        }
+      ]
+    },
+    {
+      "section": "Colorize Icon Backgrounds",
+      "key": "Class 3",
+      "source_display_name": "Class 3",
+      "source_description": "",
+      "translation_display_name": "방탄 등급 3",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Blue",
+          "translation": "파란색"
+        },
+        {
+          "source": "Brown",
+          "translation": "갈색"
+        },
+        {
+          "source": "Cyan",
+          "translation": "청록색"
+        },
+        {
+          "source": "Gray",
+          "translation": "회색"
+        },
+        {
+          "source": "Green",
+          "translation": "녹색"
+        },
+        {
+          "source": "Magenta",
+          "translation": "마젠타"
+        },
+        {
+          "source": "Orange",
+          "translation": "주황색"
+        },
+        {
+          "source": "Pink",
+          "translation": "분홍색"
+        },
+        {
+          "source": "Purple",
+          "translation": "보라색"
+        },
+        {
+          "source": "Red",
+          "translation": "빨간색"
+        },
+        {
+          "source": "Silver",
+          "translation": "은색"
+        },
+        {
+          "source": "Tan",
+          "translation": "황갈색"
+        },
+        {
+          "source": "Violet",
+          "translation": "보랏빛"
+        },
+        {
+          "source": "Yellow",
+          "translation": "노란색"
+        }
+      ]
+    },
+    {
+      "section": "Colorize Icon Backgrounds",
+      "key": "Class 4",
+      "source_display_name": "Class 4",
+      "source_description": "",
+      "translation_display_name": "방탄 등급 4",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Blue",
+          "translation": "파란색"
+        },
+        {
+          "source": "Brown",
+          "translation": "갈색"
+        },
+        {
+          "source": "Cyan",
+          "translation": "청록색"
+        },
+        {
+          "source": "Gray",
+          "translation": "회색"
+        },
+        {
+          "source": "Green",
+          "translation": "녹색"
+        },
+        {
+          "source": "Magenta",
+          "translation": "마젠타"
+        },
+        {
+          "source": "Orange",
+          "translation": "주황색"
+        },
+        {
+          "source": "Pink",
+          "translation": "분홍색"
+        },
+        {
+          "source": "Purple",
+          "translation": "보라색"
+        },
+        {
+          "source": "Red",
+          "translation": "빨간색"
+        },
+        {
+          "source": "Silver",
+          "translation": "은색"
+        },
+        {
+          "source": "Tan",
+          "translation": "황갈색"
+        },
+        {
+          "source": "Violet",
+          "translation": "보랏빛"
+        },
+        {
+          "source": "Yellow",
+          "translation": "노란색"
+        }
+      ]
+    },
+    {
+      "section": "Colorize Icon Backgrounds",
+      "key": "Class 5",
+      "source_display_name": "Class 5",
+      "source_description": "",
+      "translation_display_name": "방탄 등급 5",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Blue",
+          "translation": "파란색"
+        },
+        {
+          "source": "Brown",
+          "translation": "갈색"
+        },
+        {
+          "source": "Cyan",
+          "translation": "청록색"
+        },
+        {
+          "source": "Gray",
+          "translation": "회색"
+        },
+        {
+          "source": "Green",
+          "translation": "녹색"
+        },
+        {
+          "source": "Magenta",
+          "translation": "마젠타"
+        },
+        {
+          "source": "Orange",
+          "translation": "주황색"
+        },
+        {
+          "source": "Pink",
+          "translation": "분홍색"
+        },
+        {
+          "source": "Purple",
+          "translation": "보라색"
+        },
+        {
+          "source": "Red",
+          "translation": "빨간색"
+        },
+        {
+          "source": "Silver",
+          "translation": "은색"
+        },
+        {
+          "source": "Tan",
+          "translation": "황갈색"
+        },
+        {
+          "source": "Violet",
+          "translation": "보랏빛"
+        },
+        {
+          "source": "Yellow",
+          "translation": "노란색"
+        }
+      ]
+    },
+    {
+      "section": "Colorize Icon Backgrounds",
+      "key": "Class 6+",
+      "source_display_name": "Class 6+",
+      "source_description": "",
+      "translation_display_name": "방탄 등급 6+",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Blue",
+          "translation": "파란색"
+        },
+        {
+          "source": "Brown",
+          "translation": "갈색"
+        },
+        {
+          "source": "Cyan",
+          "translation": "청록색"
+        },
+        {
+          "source": "Gray",
+          "translation": "회색"
+        },
+        {
+          "source": "Green",
+          "translation": "녹색"
+        },
+        {
+          "source": "Magenta",
+          "translation": "마젠타"
+        },
+        {
+          "source": "Orange",
+          "translation": "주황색"
+        },
+        {
+          "source": "Pink",
+          "translation": "분홍색"
+        },
+        {
+          "source": "Purple",
+          "translation": "보라색"
+        },
+        {
+          "source": "Red",
+          "translation": "빨간색"
+        },
+        {
+          "source": "Silver",
+          "translation": "은색"
+        },
+        {
+          "source": "Tan",
+          "translation": "황갈색"
+        },
+        {
+          "source": "Violet",
+          "translation": "보랏빛"
+        },
+        {
+          "source": "Yellow",
+          "translation": "노란색"
+        }
+      ]
+    }
+  ]
+}

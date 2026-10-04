@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.lennoxp90.coti",
+  "plugin_name": "SPT-COTI-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Controls",
+      "translation": "조작"
+    },
+    {
+      "source": "Debug",
+      "translation": "디버그"
+    },
+    {
+      "source": "Image",
+      "translation": "화면 효과"
+    },
+    {
+      "source": "Mask Editor",
+      "translation": "마스크 편집기"
+    },
+    {
+      "source": "Mask Editor Window",
+      "translation": "마스크 편집기 창"
+    },
+    {
+      "source": "Tuner Window",
+      "translation": "조정 창"
+    },
+    {
+      "source": "Mask Editor Keys",
+      "translation": "마스크 편집기 키"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Controls",
+      "key": "Power Toggle",
+      "source_display_name": "Power Toggle",
+      "source_description": "Switches the ECOTI on and off without touching the night vision device. Keep a modifier: EFT does not require an exact match on its own binds, so a bare N would toggle the goggles as well.",
+      "translation_display_name": "강도 전환",
+      "translation_description": "야간투시경 자체는 그대로 둔 채 ECOTI만 켜고 끄는 단축키입니다. EFT는 키 조합을 정확히 일치시키지 않으므로 N 단독처럼 NVG 키와 겹치지 않게 보조키를 함께 지정하는 것이 안전합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Dump Frames",
+      "source_display_name": "Dump Frames",
+      "source_description": "Writes this many frames of every thermal render target to coti-dumps/ as PNGs, with per-channel statistics in the log, then stops. Change the number to start a fresh batch. Live, because the alternative was a rebuild per attempt: dumpFrames is a compiled-in default and nothing else on this panel can reach it. The channel MEANS are the point - under a grayscale palette a real thermal render has neutral means and a lit one is colour-cast, which is the check four in-raid screenshot comparisons could not settle.",
+      "translation_display_name": "덤프 프레임",
+      "translation_description": "지정한 수만큼의 열상 렌더 타깃 프레임을 coti-dumps/ 폴더에 PNG로 저장하고 채널 통계를 로그에 기록합니다. 값을 바꾸면 새 덤프 작업을 시작합니다. 개발·화면 분석용 기능입니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Enable Pose Modifier",
+      "source_display_name": "Enable Pose Modifier",
+      "source_description": "Arms the tuner's keyboard shortcut, which moves the ECOTI on the night vision device while you have it open in the inventory. Off by default: it binds keys that are otherwise free. The pose editor's own on-screen buttons, opened from the inspect window's COTI Pose button, work regardless of this setting.",
+      "translation_display_name": "자세 보조키 활성화",
+      "translation_description": "인벤토리에서 ECOTI 위치를 키보드로 조정하는 튜너 단축키를 활성화합니다. 기본값은 꺼짐입니다. 인스펙트 창의 COTI Pose 버튼으로 여는 화면 버튼은 이 설정과 무관하게 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Pose Preview Light",
+      "source_display_name": "Pose Preview Light",
+      "source_description": "Lights the pose editor's preview. Without it the model renders as a flat black silhouette. Turn it off if it visibly brightens the game's own inspect view - the light has to share the inspect model's layers, so that is a possible side effect.",
+      "translation_display_name": "자세 미리보기 광원",
+      "translation_description": "자세 편집기 미리보기 모델에 조명을 켭니다. 끄면 모델이 검은 실루엣처럼 보일 수 있습니다. 게임의 인스펙트 화면까지 밝아지는 부작용이 보이면 끕니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Tuner Modifier",
+      "source_display_name": "Tuner Modifier",
+      "source_description": "Held while using the tuner keys, then arrows to move, PageUp/PageDown for depth, ,/. to roll, [/] to pitch, ;/' to yaw, -/= to scale.",
+      "translation_display_name": "조정기 보조키",
+      "translation_description": "자세 튜너 조작키와 함께 누를 보조키입니다. 화살표는 이동, PageUp/PageDown은 깊이, ,/.는 롤, [/]는 피치, ;/'는 요, -/=는 크기를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Tuner Step (degrees)",
+      "source_display_name": "Tuner Step (degrees)",
+      "source_description": "Rotation per keypress or pose editor button press. Hold Shift while tuning for a fifth of this.",
+      "translation_display_name": "회전 조정 단위 (도)",
+      "translation_description": "키 또는 자세 편집기 버튼을 한 번 누를 때 회전하는 각도입니다. Shift를 누르면 이 값의 1/5 단위로 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Tuner Step (mm)",
+      "source_display_name": "Tuner Step (mm)",
+      "source_description": "Distance per keypress or pose editor button press. Hold Shift while tuning for a quarter of this.",
+      "translation_display_name": "위치 조정 단위 (mm)",
+      "translation_description": "키 또는 자세 편집기 버튼을 한 번 누를 때 이동하는 거리입니다. Shift를 누르면 이 값의 1/4 단위로 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Tuner Step (scale)",
+      "source_display_name": "Tuner Step (scale)",
+      "source_description": "Uniform scale per keypress or pose editor button press, as a fraction of true size. Scaling grows the device around the mount bone, so the position needs a small re-nudge afterwards - scale first, then position. Hold Shift while tuning for a quarter of this.",
+      "translation_display_name": "조정기 단계 (배율)",
+      "translation_description": "키 또는 자세 편집기 버튼을 한 번 누를 때 적용되는 균일 크기 변화량입니다. 먼저 크기를 맞춘 뒤 위치를 다시 조정하는 것이 좋습니다. Shift를 누르면 이 값의 1/4 단위로 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Verbose Logging",
+      "source_display_name": "Verbose Logging",
+      "source_description": "Writes detailed diagnostics to the BepInEx log.",
+      "translation_display_name": "상세 로그 출력",
+      "translation_description": "BepInEx 로그에 상세 진단 정보를 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Depth Fade",
+      "source_display_name": "Depth Fade",
+      "source_description": "ThermalVisionUtilities.DepthFade - the game's own depth-based fade.",
+      "translation_display_name": "열상 거리 감쇠",
+      "translation_description": "깊이/거리에 따라 열상 효과가 약해지는 정도를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Master switch for the thermal overlay.",
+      "translation_display_name": "활성화",
+      "translation_description": "COTI 열상 오버레이 전체 기능을 켜거나 끕니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Heat Threshold",
+      "source_display_name": "Heat Threshold",
+      "source_description": "How hot something must be before it shows. Anything cooler contributes nothing, which is what lets the night vision image show through - raise this if the overlay washes the picture out, lower it to pick up cooler things.",
+      "translation_display_name": "열원 감지 기준값",
+      "translation_description": "열상 오버레이에 표시할 최소 열 강도입니다. 값보다 차가운 대상은 표시되지 않아 야간투시 화면이 더 잘 보입니다. 화면이 열상으로 너무 덮이면 올리고, 더 차가운 대상을 잡고 싶으면 낮춥니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Magnified Intensity Scale",
+      "source_display_name": "Magnified Intensity Scale",
+      "source_description": "Fraction of Overlay Intensity used inside a magnified scope. Lower it if hot edges there read as a solid mass.",
+      "translation_display_name": "배율 조준 시 열상 강도 배율",
+      "translation_description": "배율 조준경 안에서 사용할 열상 밝기 배율입니다. 배율 화면의 열원 윤곽이 한 덩어리처럼 뭉치면 낮춥니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Magnify With Optic",
+      "source_display_name": "Magnify With Optic",
+      "source_description": "Renders a second thermal pass matched to a magnified scope, so heat lines up with what the scope shows instead of with the 1x view around it, and keeps the 1x heat off the lens. Off by default: the COTI is an offset sensor looking downrange on its own axis, so a 1x thermal is what it would really produce. Costs a second scene render while aiming. Non-magnified sights are unaffected either way. If Borkel's scope blur is on, this spends that render aligning heat onto a deliberately blurred picture.",
+      "translation_display_name": "배율 조준경에 맞춰 열상 확대",
+      "translation_description": "배율 조준경에 맞춘 두 번째 열상 렌더를 사용해 열원이 조준경 화면과 정확히 맞도록 합니다. 실제 COTI는 자체 축을 보는 1배 센서라 기본값은 꺼짐이며, 활성화하면 조준 중 추가 장면 렌더 비용이 발생합니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Main Tex Color Coef",
+      "source_display_name": "Main Tex Color Coef",
+      "source_description": "ThermalVisionUtilities.ValuesCoefs.MainTexColorCoef - the game's own thermal colour coefficient.",
+      "translation_display_name": "열상 주 텍스처 색상 계수",
+      "translation_description": "게임의 열상 처리에 사용되는 주 텍스처 색상 계수를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Minimum Temperature Value",
+      "source_display_name": "Minimum Temperature Value",
+      "source_description": "ThermalVisionUtilities.ValuesCoefs.MinimumTemperatureValue - the game's own thermal floor coefficient.",
+      "translation_display_name": "열상 최저 온도 계수",
+      "translation_description": "게임의 열상 처리에 사용되는 최저 온도 계수를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Motion Blurred",
+      "source_display_name": "Motion Blurred",
+      "source_description": "ThermalVision.IsMotionBlurred.",
+      "translation_display_name": "열상 모션 블러",
+      "translation_description": "열상 화면에 모션 블러 효과를 적용할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Noisy",
+      "source_display_name": "Noisy",
+      "source_description": "ThermalVision.IsNoisy.",
+      "translation_display_name": "열상 노이즈",
+      "translation_description": "열상 화면에 노이즈 효과를 적용할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Outline Mix",
+      "source_display_name": "Outline Mix",
+      "source_description": "0% is solid hot shapes, 100% is edge-only contours.",
+      "translation_display_name": "열상 윤곽선 비율",
+      "translation_description": "열상 표현에서 내부가 채워진 뜨거운 형상과 윤곽선만 보이는 형상의 혼합 비율입니다. 0%는 내부 채움, 100%는 윤곽선만 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Outline Width",
+      "source_display_name": "Outline Width",
+      "source_description": "Contour thickness in texels of the thermal target, when Outline Mix is above 0.",
+      "translation_display_name": "윤곽선 너비",
+      "translation_description": "윤곽 혼합이 0보다 클 때 열상 대상에 그려지는 윤곽선의 두께를 텍셀 단위로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Overlay Intensity",
+      "source_display_name": "Overlay Intensity",
+      "source_description": "Brightness of the heat that does show. Lower this if hot bodies read as solid blobs rather than shapes.",
+      "translation_display_name": "오버레이 강도",
+      "translation_description": "감지된 열원의 표시 밝기입니다. 뜨거운 대상이 형태 없이 덩어리처럼 보이면 낮춥니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Palette",
+      "source_display_name": "Palette",
+      "source_description": "Ramp palette mapping heat to colour - Fusion, Rainbow, WhiteHot, BlackHot. Empty leaves the current palette alone.",
+      "translation_display_name": "열상 색상 팔레트",
+      "translation_description": "온도를 색상으로 변환할 열상 팔레트를 선택합니다. Fusion, Rainbow, WhiteHot, BlackHot 등을 사용할 수 있으며 비워 두면 현재 팔레트를 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Pixelated",
+      "source_display_name": "Pixelated",
+      "source_description": "ThermalVision.IsPixelated.",
+      "translation_display_name": "열상 픽셀화",
+      "translation_description": "열상 화면에 픽셀화 효과를 적용할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Ramp Shift",
+      "source_display_name": "Ramp Shift",
+      "source_description": "Shifts where the ramp palette is sampled. Vanilla default 0.",
+      "translation_display_name": "열상 팔레트 위치 이동",
+      "translation_description": "열상 팔레트 램프에서 색상을 샘플링하는 위치를 이동합니다. 게임 기본값은 0입니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Sensor Refresh (Hz)",
+      "source_display_name": "Sensor Refresh (Hz)",
+      "source_description": "The sensor's simulated refresh. The thermal image is captured at this rate and the held copy is re-blitted in between, which is what a low-refresh core looks like. Set 0 to disable the hold entirely and capture every frame. This is NOT a render cap and costs no extra rendering either way - the camera renders every frame regardless.",
+      "translation_display_name": "센서 갱신 빈도 (Hz)",
+      "translation_description": "열상 센서의 가상 갱신 빈도입니다. 이 주기로 새 열상 프레임을 캡처하고 그 사이에는 이전 영상을 유지합니다. 0이면 유지 기능을 끄고 매 프레임 갱신합니다. 실제 렌더링 프레임 제한은 아닙니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Sensor Resolution (rows)",
+      "source_display_name": "Sensor Resolution (rows)",
+      "source_description": "Vertical resolution of the thermal render. Raising it is what recovers DISTANT contacts: a target far enough away covers only a fraction of a texel, its heat is averaged with the cold background, and below about a quarter coverage it falls under the heat threshold and contributes nothing at all - so it dims, flickers as it moves, and eventually vanishes. At 576 a man at 300 m already swings between a fifth of full brightness and full brightness depending on where he lands on the texel grid. Costs fill rate, which measurement says is not the bottleneck - the second camera is bound by CPU-side culling and draw submission, and those do not change with resolution. Contour thickness is scaled to match, so the picture keeps its look. The values BELOW 576 are a test aid rather than a setting: angular size in texels is (size / range) x (rows / fov), so halving the rows is identical to doubling the range. 288 at 50 m shows what 576 does at 100 m, which is how the failure can be provoked on a sightline you actually have.",
+      "translation_display_name": "센서 세로 해상도 (행)",
+      "translation_description": "열상 렌더의 세로 해상도입니다. 값을 높이면 먼 거리의 작은 열원이 텍셀에 묻혀 사라지는 현상을 줄일 수 있습니다. 해상도를 높여도 주 병목은 CPU 측 컬링·드로우 제출이므로 영향은 제한적이며, 윤곽 두께는 해상도에 맞춰 보정됩니다. 576 미만 값은 주로 거리별 감지 실패를 재현하는 테스트용입니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Unsharp Bias",
+      "source_display_name": "Unsharp Bias",
+      "source_description": "ThermalVision.UnsharpBias, the edge-dominance lever. Vanilla default 2.",
+      "translation_display_name": "언샵 가장자리 강조",
+      "translation_description": "열상 언샵 처리에서 가장자리 강조 정도를 조절합니다. 게임 기본값은 2입니다.",
+      "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Unsharp Radius Blur",
+      "source_display_name": "Unsharp Radius Blur",
+      "source_description": "ThermalVision.UnsharpRadiusBlur. Vanilla default 5.",
+      "translation_display_name": "언샵 블러 반경",
+      "translation_description": "열상 언샵 처리의 블러 반경입니다. 게임 기본값은 5입니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor",
+      "key": "Open",
+      "source_display_name": "Open",
+      "source_description": "Opens the thermal circle editor. It stays open after this menu closes, so you can drop your goggles and adjust the circle while looking through them.",
+      "translation_display_name": "열기",
+      "translation_description": "열상 원형 마스크 편집기를 엽니다. F12 메뉴를 닫아도 편집기는 유지되어 NVG를 내려놓은 상태에서 실제 화면을 보며 조정할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Window",
+      "key": "X",
+      "source_display_name": "X",
+      "source_description": "Mask editor window position. Set by dragging the window; not meant to be hand-edited.",
+      "translation_display_name": "창 가로 위치",
+      "translation_description": "마스크 편집기 창의 가로 위치입니다. 창을 드래그하면 자동으로 저장되며 직접 수정할 필요가 없습니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Window",
+      "key": "Y",
+      "source_display_name": "Y",
+      "source_description": "Mask editor window position. Set by dragging the window; not meant to be hand-edited.",
+      "translation_display_name": "창 세로 위치",
+      "translation_description": "마스크 편집기 창의 세로 위치입니다. 창을 드래그하면 자동으로 저장되며 직접 수정할 필요가 없습니다.",
+      "values": []
+    },
+    {
+      "section": "Tuner Window",
+      "key": "Height",
+      "source_display_name": "Height",
+      "source_description": "Pose editor window size. Set by dragging the resize grip; not meant to be hand-edited.",
+      "translation_display_name": "창 높이",
+      "translation_description": "포즈 편집기 창의 높이입니다. 크기 조절 손잡이로 변경되며 직접 수정할 필요가 없습니다.",
+      "values": []
+    },
+    {
+      "section": "Tuner Window",
+      "key": "Width",
+      "source_display_name": "Width",
+      "source_description": "Pose editor window size. Set by dragging the resize grip; not meant to be hand-edited.",
+      "translation_display_name": "창 너비",
+      "translation_description": "포즈 편집기 창의 너비입니다. 크기 조절 손잡이로 변경되며 직접 수정할 필요가 없습니다.",
+      "values": []
+    },
+    {
+      "section": "Tuner Window",
+      "key": "X",
+      "source_display_name": "X",
+      "source_description": "Pose editor window position. Set by dragging the window; not meant to be hand-edited.",
+      "translation_display_name": "창 가로 위치",
+      "translation_description": "포즈 편집기 창의 가로 위치입니다. 창을 드래그하면 자동으로 저장되며 직접 수정할 필요가 없습니다.",
+      "values": []
+    },
+    {
+      "section": "Tuner Window",
+      "key": "Y",
+      "source_display_name": "Y",
+      "source_description": "Pose editor window position. Set by dragging the window; not meant to be hand-edited.",
+      "translation_display_name": "창 세로 위치",
+      "translation_description": "포즈 편집기 창의 세로 위치입니다. 창을 드래그하면 자동으로 저장되며 직접 수정할 필요가 없습니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Centre Up",
+      "source_display_name": "Centre Up",
+      "source_description": "Moves the circle up the screen.",
+      "translation_display_name": "중심 위로 이동",
+      "translation_description": "원형 마스크의 중심을 화면 위쪽으로 이동합니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Centre Down",
+      "source_display_name": "Centre Down",
+      "source_description": "Moves the circle down the screen.",
+      "translation_display_name": "중심 아래로 이동",
+      "translation_description": "원형 마스크의 중심을 화면 아래쪽으로 이동합니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Centre Left",
+      "source_display_name": "Centre Left",
+      "source_description": "Moves the circle left.",
+      "translation_display_name": "중심 왼쪽으로 이동",
+      "translation_description": "원형 마스크의 중심을 왼쪽으로 이동합니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Centre Right",
+      "source_display_name": "Centre Right",
+      "source_description": "Moves the circle right.",
+      "translation_display_name": "중심 오른쪽으로 이동",
+      "translation_description": "원형 마스크의 중심을 오른쪽으로 이동합니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Radius Grow",
+      "source_display_name": "Radius Grow",
+      "source_description": "Makes the circle bigger.",
+      "translation_display_name": "반경 확대",
+      "translation_description": "원형 마스크의 크기를 키웁니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Radius Shrink",
+      "source_display_name": "Radius Shrink",
+      "source_description": "Makes the circle smaller.",
+      "translation_display_name": "반경 축소",
+      "translation_description": "원형 마스크의 크기를 줄입니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Edge Softer",
+      "source_display_name": "Edge Softer",
+      "source_description": "Widens the fade at the circle's rim.",
+      "translation_display_name": "가장자리 페이드 확대",
+      "translation_description": "원형 마스크 가장자리의 페이드 영역을 넓혀 경계를 더 부드럽게 만듭니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Edge Harder",
+      "source_display_name": "Edge Harder",
+      "source_description": "Narrows the fade. At zero the rim is a hard cut, which is a legitimate look rather than a fault.",
+      "translation_display_name": "가장자리 페이드 축소",
+      "translation_description": "가장자리의 페이드 영역을 좁힙니다. 0에서는 경계가 선명하게 잘리며, 이는 오류가 아니라 정상적인 표현입니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Reset",
+      "source_display_name": "Reset",
+      "source_description": "Discards this session's changes and returns to the values the server holds.",
+      "translation_display_name": "초기화",
+      "translation_description": "이번 편집에서 변경한 값을 버리고 서버에 저장된 값으로 되돌립니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Publish",
+      "source_display_name": "Publish",
+      "source_description": "Writes the current circle to the device's file on the server.",
+      "translation_display_name": "서버에 저장",
+      "translation_description": "현재 원형 마스크 설정을 서버의 장치 파일에 저장합니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Close",
+      "source_display_name": "Close",
+      "source_description": "Closes this window.",
+      "translation_display_name": "닫기",
+      "translation_description": "이 창을 닫습니다.",
+      "values": []
+    },
+    {
+      "section": "Mask Editor Keys",
+      "key": "Fine Modifier",
+      "source_display_name": "Fine Modifier",
+      "source_description": "Hold for a smaller step. Deliberately not Shift: with NumLock on, Windows makes Shift+keypad report as the arrow keys instead, so a Shift-based modifier never fires for these bindings.",
+      "translation_display_name": "미세 조정 보조키",
+      "translation_description": "더 작은 단위로 조정할 때 누르고 있는 보조키입니다. NumLock이 켜진 Windows에서는 Shift+숫자 키패드가 화살표 키로 인식되므로 Shift는 의도적으로 사용하지 않습니다.",
+      "values": []
+    }
+  ]
+}

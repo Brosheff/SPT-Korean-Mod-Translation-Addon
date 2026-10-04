@@ -1,0 +1,25 @@
+# .NET build output
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Distribution output
+_dist/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Visual Studio / IDE state
+.vs/
+*.user
+*.suo
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Local upload/staging workspace
+/Upload/

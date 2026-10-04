@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_c97439a52a37",
+  "mod_name": "More Cases Updated",
+  "channels": {
+    "locale": [
+      {
+        "key": "0e467959521c90b58551ed4b Name",
+        "source": "T H I C C Medcase",
+        "translation": "T H I C C 의료 가방",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "0e467959521c90b58551ed4b ShortName",
+        "source": "T H I C C Medcase",
+        "translation": "T H I C C 의료품"
+      },
+      {
+        "key": "0e467959521c90b58551ed4b Description",
+        "source": "Nobody believed Therapist when she said she could store all her stock inside one simple container. Now you know the secret.",
+        "translation": "테라피스트가 그 많은 재고를 단순한 컨테이너 하나에 전부 보관할 수 있다고 했을 때는 아무도 믿지 않았습니다. 이제 그 비밀을 알게 되었습니다."
+      },
+      {
+        "key": "1a1d09be383400a9066af46e Name",
+        "source": "Safe",
+        "translation": "금고"
+      },
+      {
+        "key": "1a1d09be383400a9066af46e Description",
+        "source": "A safe for keeping all your valuable items, money and jewelry... safe.",
+        "translation": "귀중품, 돈, 보석을 안전하게 보관할 수 있는 금고입니다... 정말 안전하게 말입니다."
+      },
+      {
+        "key": "22d6ba32465bfbc078635969 Name",
+        "source": "Equipment Cabinet",
+        "translation": "장비 캐비닛"
+      },
+      {
+        "key": "22d6ba32465bfbc078635969 ShortName",
+        "source": "Cabinet",
+        "translation": "캐비닛"
+      },
+      {
+        "key": "22d6ba32465bfbc078635969 Description",
+        "source": "A cabinet specifically designed to contain equipment for your PMC. Probably stolen from one of EMERCOM medical units.",
+        "translation": "PMC 장비를 보관하도록 특별히 설계된 캐비닛입니다. 아마 비상사태부 의료부대 중 한 곳에서 훔쳐온 물건일 겁니다."
+      },
+      {
+        "key": "59f1025004422c759b64be03 Name",
+        "source": "Fridge RZRV-98",
+        "translation": "RZRV-98 냉장고"
+      },
+      {
+        "key": "59f1025004422c759b64be03 ShortName",
+        "source": "Fridge",
+        "translation": "냉장고"
+      },
+      {
+        "key": "59f1025004422c759b64be03 Description",
+        "source": "Fridge RZRV-98, found randomly by Jaeger while mushroom hunting in the woods. It's still perfectly working... unbelievable!",
+        "translation": "삼림에서 버섯을 따던 예거가 우연히 발견한 RZRV-98 냉장고입니다. 아직도 완벽하게 작동합니다... 믿기 힘들 정도입니다!"
+      },
+      {
+        "key": "73dbd7194e6ec50ef1f6218b Name",
+        "source": "T H I C C Ammunition case",
+        "translation": "T H I C C 탄약 상자"
+      },
+      {
+        "key": "73dbd7194e6ec50ef1f6218b Description",
+        "source": "\"I'M OUT OF AMMO!\" words never spoken by the carrier of this mighty enlarged ammunition container.",
+        "translation": "이 거대한 확장형 탄약 컨테이너를 들고 다니는 사람에게서는 “탄약이 떨어졌어!”라는 말을 들을 일이 없습니다."
+      },
+      {
+        "key": "85b220667456d433db894c03 Name",
+        "source": "T H I C C Grenade case",
+        "translation": "T H I C C 수류탄 보관함"
+      },
+      {
+        "key": "85b220667456d433db894c03 ShortName",
+        "source": "T H I C C Grenade",
+        "translation": "T H I C C 수류탄"
+      },
+      {
+        "key": "85b220667456d433db894c03 Description",
+        "source": "There have been rumors around Tarkov that a big explosion happened somewhere, and no one has a clue why. Apparently, one PMC went missing for weeks recently, and it's thought that he had a grenade box like this one and accidentally set off a grenade inside it.",
+        "translation": "타르코프 어딘가에서 큰 폭발이 있었다는 소문이 돌지만, 원인은 아무도 모릅니다. 최근 한 PMC가 몇 주 동안 실종됐는데, 이와 같은 유탄 상자를 갖고 있다가 안에서 실수로 유탄을 터뜨렸다는 이야기가 있습니다."
+      },
+      {
+        "key": "9356c871d08f21db38e4c6ec Name",
+        "source": "Toolbox",
+        "translation": "공구함"
+      },
+      {
+        "key": "9356c871d08f21db38e4c6ec ShortName",
+        "source": "Toolbox",
+        "translation": "공구 상자"
+      },
+      {
+        "key": "9356c871d08f21db38e4c6ec Description",
+        "source": "When he started his business, Skier didn't know where to put all his junk/random items. He began using this toolbox, stashing all sorts of things in it. It's always been handy for him, but now he owns massive warehouses run by hundreds of workers. You can make good use of it if you want!",
+        "translation": "사업을 시작했을 때 스키어는 온갖 잡동사니를 어디에 둘지 몰랐습니다. 그래서 이 공구함을 쓰기 시작해 갖가지 물건을 쑤셔 넣었죠. 늘 요긴하게 썼지만, 이제는 수백 명의 직원이 관리하는 거대한 창고들을 소유하고 있습니다. 원하신다면 당신이 유용하게 써도 좋습니다!"
+      },
+      {
+        "key": "992d9b71d76828181f7b87ea Name",
+        "source": "T H I C C Weapon Modifications case",
+        "translation": "T H I C C 무기 부품 케이스"
+      },
+      {
+        "key": "992d9b71d76828181f7b87ea Description",
+        "source": "A case specifically designed to contain weapon modifications. But now it's THICC...",
+        "translation": "무기 부품을 보관하도록 특별히 설계된 케이스입니다. 그런데 이제 THICC해졌습니다..."
+      },
+      {
+        "key": "a3c2c001eb04d2cc82bd8983 Name",
+        "source": "Weapon Rack",
+        "translation": "무기 거치대"
+      },
+      {
+        "key": "a3c2c001eb04d2cc82bd8983 ShortName",
+        "source": "Weapon Rack",
+        "translation": "무기 거치대"
+      },
+      {
+        "key": "a3c2c001eb04d2cc82bd8983 Description",
+        "source": "Every time you visited Prapor, you couldn't help but notice the weapon racks neatly arranged in his warehouse, each with a variety of weapons ready to be sold. The availability of weapons has been scarce for years now, which is why he always had a few empty racks set aside. Now, he's selling those too, offering an immense amount of space for your own weapons!",
+        "translation": "프라퍼를 찾아갈 때마다 그의 창고에 가지런히 놓인 무기 거치대가 눈에 들어왔을 겁니다. 각 거치대에는 판매할 온갖 무기가 올려져 있었죠. 몇 년째 무기 수급이 부족해지면서 비어 있는 거치대도 몇 개 따로 빼두곤 했습니다. 이제는 그 빈 거치대까지 팔고 있습니다. 당신의 무기를 엄청나게 많이 보관할 수 있습니다!"
+      },
+      {
+        "key": "ba68f0abbfb06ff3a261cb5f Name",
+        "source": "Equipment Chair",
+        "translation": "장비 의자"
+      },
+      {
+        "key": "ba68f0abbfb06ff3a261cb5f ShortName",
+        "source": "Chair",
+        "translation": "의자"
+      },
+      {
+        "key": "ba68f0abbfb06ff3a261cb5f Description",
+        "source": "Anyone with a confused or cluttered mind, anyone who's always in a rush, anyone who has no more room in their closet, can only rely on one thing... the chair! Ragman was taken aback when you told him that instead of a closet, you'd rather just have a chair to pile up all your gear.",
+        "translation": "머릿속이 복잡하거나 물건 정리가 안 되는 사람, 늘 바쁜 사람, 옷장에 더 이상 공간이 없는 사람이 의지할 수 있는 건 딱 하나입니다... 의자죠! 장비를 쌓아둘 옷장 대신 그냥 의자 하나면 된다고 했을 때 래그맨도 꽤 당황했습니다."
+      },
+      {
+        "key": "c2f666728bc6cf04292861dc Name",
+        "source": "Weapon Modifications case",
+        "translation": "무기 부품 케이스"
+      },
+      {
+        "key": "c2f666728bc6cf04292861dc Description",
+        "source": "A case specifically designed to contain weapon modifications.",
+        "translation": "무기 부품을 보관하도록 특별히 설계된 케이스입니다."
+      },
+      {
+        "key": "c2f666728bc6cf04292861dc ShortName",
+        "source": "Mods Case",
+        "translation": "부품 케이스"
+      },
+      {
+        "key": "992d9b71d76828181f7b87ea ShortName",
+        "source": "T H I C C Mods Case",
+        "translation": "T H I C C 부품 케이스"
+      },
+      {
+        "key": "1a1d09be383400a9066af46e ShortName",
+        "source": "Safe",
+        "translation": "금고"
+      },
+      {
+        "key": "73dbd7194e6ec50ef1f6218b ShortName",
+        "source": "T H I C C Ammo",
+        "translation": "T H I C C 탄약"
+      }
+    ]
+  }
+}

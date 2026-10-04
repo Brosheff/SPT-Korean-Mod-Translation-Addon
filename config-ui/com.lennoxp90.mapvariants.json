@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.lennoxp90.mapvariants",
+  "plugin_name": "MapVariants",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "PromptSelection",
+      "source_display_name": "PromptSelection",
+      "source_description": null,
+      "translation_display_name": "맵 버전 선택 묻기",
+      "translation_description": "백포트가 설치된 맵을 고르면 어떤 버전을 불러올지 묻습니다. 이 선택은 해당 레이드에만 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "DefaultSelection",
+      "source_display_name": "DefaultSelection",
+      "source_description": null,
+      "translation_display_name": "기본 맵 버전",
+      "translation_description": "선택창을 사용하지 않을 때 불러올 맵 버전과 이동 시 우선 제안할 버전입니다.",
+      "values": [
+        {
+          "source": "Manimal",
+          "translation": "Manimal"
+        },
+        {
+          "source": "Vanilla",
+          "translation": "기본"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.ydlonewolf.rook",
+  "mod_name": "Rook",
+  "channels": {
+    "locale": [
+      {
+        "key": "4d1fab0083bc90caa73b4a23",
+        "source": "HK416C",
+        "translation": "HK416C",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "4d1fab0083bc90caa73b4a23 Name",
+        "source": "HK416C",
+        "translation": "HK416C",
+        "display_type": "default"
+      },
+      {
+        "key": "1c548d187da5455744a9a32c",
+        "source": "Tactical",
+        "translation": "전술형",
+        "display_type": "default"
+      },
+      {
+        "key": "1c548d187da5455744a9a32c Name",
+        "source": "Tactical",
+        "translation": "전술형",
+        "display_type": "default"
+      },
+      {
+        "key": "f97e0b234076371fc057fbd8",
+        "source": "MK12 SPR Mod 0",
+        "translation": "MK12 SPR Mod 0",
+        "display_type": "default"
+      },
+      {
+        "key": "f97e0b234076371fc057fbd8 Name",
+        "source": "MK12 SPR Mod 0",
+        "translation": "MK12 SPR Mod 0",
+        "display_type": "default"
+      },
+      {
+        "key": "894ca7ae8ad0cc8e2ae7dc60",
+        "source": "SOPMOD Block I",
+        "translation": "SOPMOD Block I",
+        "display_type": "default"
+      },
+      {
+        "key": "894ca7ae8ad0cc8e2ae7dc60 Name",
+        "source": "SOPMOD Block I",
+        "translation": "SOPMOD Block I",
+        "display_type": "default"
+      },
+      {
+        "key": "808afb9673ed9303580193ef",
+        "source": "Micro",
+        "translation": "마이크로",
+        "display_type": "default"
+      },
+      {
+        "key": "808afb9673ed9303580193ef Name",
+        "source": "Micro",
+        "translation": "마이크로",
+        "display_type": "default"
+      },
+      {
+        "key": "dd743ea1a8fdf4cb2c3e1bcf",
+        "source": "Skifs AK-103",
+        "translation": "스키프의 AK-103",
+        "display_type": "default"
+      },
+      {
+        "key": "dd743ea1a8fdf4cb2c3e1bcf Name",
+        "source": "Skifs AK-103",
+        "translation": "스키프의 AK-103",
+        "display_type": "default"
+      },
+      {
+        "key": "318df84d7b95539f88c52d16",
+        "source": "Mikes M4A1",
+        "translation": "마이크의 M4A1",
+        "display_type": "default"
+      },
+      {
+        "key": "318df84d7b95539f88c52d16 Name",
+        "source": "Mikes M4A1",
+        "translation": "마이크의 M4A1",
+        "display_type": "default"
+      },
+      {
+        "key": "127606d2a201b46bf95ca440",
+        "source": "Serb",
+        "translation": "세르브",
+        "display_type": "default"
+      },
+      {
+        "key": "127606d2a201b46bf95ca440 Name",
+        "source": "Serb",
+        "translation": "세르브",
+        "display_type": "default"
+      },
+      {
+        "key": "942995886edf35518d13f2ec",
+        "source": "Demon",
+        "translation": "데몬",
+        "display_type": "default"
+      },
+      {
+        "key": "942995886edf35518d13f2ec Name",
+        "source": "Demon",
+        "translation": "데몬",
+        "display_type": "default"
+      },
+      {
+        "key": "553882cf1096d23ee457a9e5",
+        "source": "Borz",
+        "translation": "보르즈",
+        "display_type": "default"
+      },
+      {
+        "key": "553882cf1096d23ee457a9e5 Name",
+        "source": "Borz",
+        "translation": "보르즈",
+        "display_type": "default"
+      },
+      {
+        "key": "41e81eacf9e3f0ba84e0abee",
+        "source": "Voron",
+        "translation": "보론",
+        "display_type": "default"
+      },
+      {
+        "key": "41e81eacf9e3f0ba84e0abee Name",
+        "source": "Voron",
+        "translation": "보론",
+        "display_type": "default"
+      },
+      {
+        "key": "36b025c4fd2af72c129cceca",
+        "source": "Barmaley",
+        "translation": "바르말레이",
+        "display_type": "default"
+      },
+      {
+        "key": "36b025c4fd2af72c129cceca Name",
+        "source": "Barmaley",
+        "translation": "바르말레이",
+        "display_type": "default"
+      },
+      {
+        "key": "8009548aec5ae5751f1b2c67",
+        "source": "Mouse",
+        "translation": "마우스",
+        "display_type": "default"
+      },
+      {
+        "key": "8009548aec5ae5751f1b2c67 Name",
+        "source": "Mouse",
+        "translation": "마우스",
+        "display_type": "default"
+      },
+      {
+        "key": "884f911a34ad1d3d794fb551",
+        "source": "Rook's M4A1 URGI I",
+        "translation": "룩의 M4A1 URGI I",
+        "display_type": "default"
+      },
+      {
+        "key": "884f911a34ad1d3d794fb551 Name",
+        "source": "Rook's M4A1 URGI I",
+        "translation": "룩의 M4A1 URGI I",
+        "display_type": "default"
+      },
+      {
+        "key": "1eee3d6cb3c1f53758262515",
+        "source": "Tactical Howa Type 20",
+        "translation": "전술형 Howa Type 20",
+        "display_type": "default"
+      },
+      {
+        "key": "1eee3d6cb3c1f53758262515 Name",
+        "source": "Tactical Howa Type 20",
+        "translation": "전술형 Howa Type 20",
+        "display_type": "default"
+      },
+      {
+        "key": "0cb196d50cf73f18623344e3",
+        "source": "MK 18 Mod 0",
+        "translation": "MK 18 Mod 0",
+        "display_type": "default"
+      },
+      {
+        "key": "0cb196d50cf73f18623344e3 Name",
+        "source": "MK 18 Mod 0",
+        "translation": "MK 18 Mod 0",
+        "display_type": "default"
+      },
+      {
+        "key": "3b1060280180086c4174fdf4",
+        "source": "MK18 Mod 1",
+        "translation": "MK18 Mod 1",
+        "display_type": "default"
+      },
+      {
+        "key": "3b1060280180086c4174fdf4 Name",
+        "source": "MK18 Mod 1",
+        "translation": "MK18 Mod 1",
+        "display_type": "default"
+      },
+      {
+        "key": "c56378f10315445267abb0ca",
+        "source": "Patrol V2",
+        "translation": "순찰형 V2",
+        "display_type": "default"
+      },
+      {
+        "key": "c56378f10315445267abb0ca Name",
+        "source": "Patrol V2",
+        "translation": "순찰형 V2",
+        "display_type": "default"
+      },
+      {
+        "key": "31b7b9fbe396280f867782d6",
+        "source": "M16A4 Fallujah",
+        "translation": "M16A4 팔루자",
+        "display_type": "default"
+      },
+      {
+        "key": "31b7b9fbe396280f867782d6 Name",
+        "source": "M16A4 Fallujah",
+        "translation": "M16A4 팔루자",
+        "display_type": "default"
+      },
+      {
+        "key": "133cbb420d375c6d59a45535",
+        "source": "M4 Carbine",
+        "translation": "M4 카빈",
+        "display_type": "default"
+      },
+      {
+        "key": "133cbb420d375c6d59a45535 Name",
+        "source": "M4 Carbine",
+        "translation": "M4 카빈",
+        "display_type": "default"
+      },
+      {
+        "key": "738b699df67997b7da3c3f39",
+        "source": "Colt Model 653",
+        "translation": "콜트 Model 653",
+        "display_type": "default"
+      },
+      {
+        "key": "738b699df67997b7da3c3f39 Name",
+        "source": "Colt Model 653",
+        "translation": "콜트 Model 653",
+        "display_type": "default"
+      },
+      {
+        "key": "5ae158b83c373371b52bf033",
+        "source": "Tactical QBZ-191",
+        "translation": "전술형 QBZ-191",
+        "display_type": "default"
+      },
+      {
+        "key": "5ae158b83c373371b52bf033 Name",
+        "source": "Tactical QBZ-191",
+        "translation": "전술형 QBZ-191",
+        "display_type": "default"
+      },
+      {
+        "key": "504bf84965adc6cbcde029ca",
+        "source": "LVOA-C Custom",
+        "translation": "LVOA-C 커스텀",
+        "display_type": "default"
+      },
+      {
+        "key": "504bf84965adc6cbcde029ca Name",
+        "source": "LVOA-C Custom",
+        "translation": "LVOA-C 커스텀",
+        "display_type": "default"
+      },
+      {
+        "key": "ddc2c776bdce534d72f61ac6",
+        "source": "Tactical GP",
+        "translation": "전술형 GP",
+        "display_type": "default"
+      },
+      {
+        "key": "ddc2c776bdce534d72f61ac6 Name",
+        "source": "Tactical GP",
+        "translation": "전술형 GP",
+        "display_type": "default"
+      },
+      {
+        "key": "dcc55470e5bdd3fd30a26706",
+        "source": "Tactical FDE",
+        "translation": "전술형 사막색",
+        "display_type": "default"
+      },
+      {
+        "key": "dcc55470e5bdd3fd30a26706 Name",
+        "source": "Tactical FDE",
+        "translation": "전술형 사막색",
+        "display_type": "default"
+      },
+      {
+        "key": "159c4c43bfe73f82aa1847a0",
+        "source": "G36K KAC Tactical",
+        "translation": "G36K KAC 전술형",
+        "display_type": "default"
+      },
+      {
+        "key": "159c4c43bfe73f82aa1847a0 Name",
+        "source": "G36K KAC Tactical",
+        "translation": "G36K KAC 전술형",
+        "display_type": "default"
+      },
+      {
+        "key": "d0d81740698275d8469427a6",
+        "source": "M16A2E3 DMR",
+        "translation": "M16A2E3 DMR",
+        "display_type": "default"
+      },
+      {
+        "key": "d0d81740698275d8469427a6 Name",
+        "source": "M16A2E3 DMR",
+        "translation": "M16A2E3 DMR",
+        "display_type": "default"
+      },
+      {
+        "key": "b2331cfc3c1a3d96f214a18a",
+        "source": "RECCE LMG",
+        "translation": "RECCE LMG",
+        "display_type": "default"
+      },
+      {
+        "key": "b2331cfc3c1a3d96f214a18a Name",
+        "source": "RECCE LMG",
+        "translation": "RECCE LMG",
+        "display_type": "default"
+      },
+      {
+        "key": "ad47573f3b3e2cc4053787b9",
+        "source": "Tactical RPD",
+        "translation": "전술형 RPD",
+        "display_type": "default"
+      },
+      {
+        "key": "ad47573f3b3e2cc4053787b9 Name",
+        "source": "Tactical RPD",
+        "translation": "전술형 RPD",
+        "display_type": "default"
+      },
+      {
+        "key": "dcdf00a4152162e03cc96ba0",
+        "source": "Tactical RPDN",
+        "translation": "전술형 RPDN",
+        "display_type": "default"
+      },
+      {
+        "key": "dcdf00a4152162e03cc96ba0 Name",
+        "source": "Tactical RPDN",
+        "translation": "전술형 RPDN",
+        "display_type": "default"
+      },
+      {
+        "key": "d7c95f05605698a3ed902fb6",
+        "source": "MG36",
+        "translation": "MG36",
+        "display_type": "default"
+      },
+      {
+        "key": "d7c95f05605698a3ed902fb6 Name",
+        "source": "MG36",
+        "translation": "MG36",
+        "display_type": "default"
+      },
+      {
+        "key": "dfe1122168ea3e6f40632371",
+        "source": "G36K Tactical",
+        "translation": "G36K 전술형",
+        "display_type": "default"
+      },
+      {
+        "key": "dfe1122168ea3e6f40632371 Name",
+        "source": "G36K Tactical",
+        "translation": "G36K 전술형",
+        "display_type": "default"
+      },
+      {
+        "key": "5525a557cfc31d71f9f67640",
+        "source": "G36K Tactical V2",
+        "translation": "G36K 전술형 V2",
+        "display_type": "default"
+      },
+      {
+        "key": "5525a557cfc31d71f9f67640 Name",
+        "source": "G36K Tactical V2",
+        "translation": "G36K 전술형 V2",
+        "display_type": "default"
+      },
+      {
+        "key": "0e1633e49dc3f31f5a91da28",
+        "source": "M110 Tactical",
+        "translation": "M110 전술형",
+        "display_type": "default"
+      },
+      {
+        "key": "0e1633e49dc3f31f5a91da28 Name",
+        "source": "M110 Tactical",
+        "translation": "M110 전술형",
+        "display_type": "default"
+      },
+      {
+        "key": "665389e0a4a7835fc80d762c",
+        "source": "TKPD Tactical",
+        "translation": "TKPD 전술형",
+        "display_type": "default"
+      },
+      {
+        "key": "665389e0a4a7835fc80d762c Name",
+        "source": "TKPD Tactical",
+        "translation": "TKPD 전술형",
+        "display_type": "default"
+      },
+      {
+        "key": "7b9c6d94012700c0b482cf16",
+        "source": "Tactical DI",
+        "translation": "전술형 DI",
+        "display_type": "default"
+      },
+      {
+        "key": "7b9c6d94012700c0b482cf16 Name",
+        "source": "Tactical DI",
+        "translation": "전술형 DI",
+        "display_type": "default"
+      },
+      {
+        "key": "166e1ed079a2a02971b2acbf",
+        "source": "Tactical 12K",
+        "translation": "전술형 12K",
+        "display_type": "default"
+      },
+      {
+        "key": "166e1ed079a2a02971b2acbf Name",
+        "source": "Tactical 12K",
+        "translation": "전술형 12K",
+        "display_type": "default"
+      },
+      {
+        "key": "6902919683af6cabeaa96d60",
+        "source": "Tactical 308",
+        "translation": "전술형 308",
+        "display_type": "default"
+      },
+      {
+        "key": "6902919683af6cabeaa96d60 Name",
+        "source": "Tactical 308",
+        "translation": "전술형 308",
+        "display_type": "default"
+      },
+      {
+        "key": "0918ea6fd2300070ade9aee5",
+        "source": "Colt Model 733",
+        "translation": "콜트 Model 733",
+        "display_type": "default"
+      },
+      {
+        "key": "0918ea6fd2300070ade9aee5 Name",
+        "source": "Colt Model 733",
+        "translation": "콜트 Model 733",
+        "display_type": "default"
+      },
+      {
+        "key": "91562ca4d2cc82e81a5a175d",
+        "source": "Colt Model 727",
+        "translation": "콜트 Model 727",
+        "display_type": "default"
+      },
+      {
+        "key": "91562ca4d2cc82e81a5a175d Name",
+        "source": "Colt Model 727",
+        "translation": "콜트 Model 727",
+        "display_type": "default"
+      },
+      {
+        "key": "d0b491725c1c3997a5235c5d",
+        "source": "CAR-15",
+        "translation": "CAR-15",
+        "display_type": "default"
+      },
+      {
+        "key": "d0b491725c1c3997a5235c5d Name",
+        "source": "CAR-15",
+        "translation": "CAR-15",
+        "display_type": "default"
+      },
+      {
+        "key": "28cc62227181902cef18a10b FullName",
+        "source": "Rook",
+        "translation": "룩",
+        "display_type": "default"
+      },
+      {
+        "key": "28cc62227181902cef18a10b FirstName",
+        "source": "Rook",
+        "translation": "룩",
+        "display_type": "default"
+      },
+      {
+        "key": "28cc62227181902cef18a10b Nickname",
+        "source": "Rook",
+        "translation": "룩",
+        "display_type": "default"
+      },
+      {
+        "key": "28cc62227181902cef18a10b Location",
+        "source": "REDACTED",
+        "translation": "기밀",
+        "display_type": "default"
+      },
+      {
+        "key": "28cc62227181902cef18a10b Description",
+        "source": "Former Black Division operative and Contract Wars veteran. After piecing together enough of TerraGroup's operations in Norvinsk to know he was expendable, Rook disappeared and built an independent supply network, moving weapons and equipment to PMCs looking for a way out of T*****.",
+        "translation": "블랙 디비전의 전직 요원이자 Contract Wars 참전 용사입니다. 노르빈스크에서 벌어진 테라그룹의 작전을 충분히 파악한 끝에 자신이 언제든 버려질 수 있는 존재라는 걸 깨달은 룩은 자취를 감추고 독립적인 보급망을 구축했습니다. 현재는 T*****에서 빠져나갈 방법을 찾는 PMC들에게 무기와 장비를 공급하고 있습니다.",
+        "display_type": "default"
+      }
+    ]
+  }
+}

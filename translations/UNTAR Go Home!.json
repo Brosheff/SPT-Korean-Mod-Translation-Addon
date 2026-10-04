@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.untar.tacticaltoaster",
+  "mod_name": "UNTAR Go Home!",
+  "channels": {
+    "locale": [
+      {
+        "key": "ScavRole/UNTAR",
+        "source": "UNTAR",
+        "translation": "UNTAR",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

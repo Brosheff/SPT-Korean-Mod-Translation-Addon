@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.munitionsexpert",
+  "mod_name": "Munitions Expert - Reloaded",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "armor_damage",
+        "source": "Armor damage",
+        "translation": "방탄복 피해량",
+        "match_mode": "exact",
+        "note": "AmmoTemplateExtensions hard-coded item attribute label"
+      },
+      {
+        "id": "fragmentation_chance",
+        "source": "Fragmentation chance",
+        "translation": "파편화 확률",
+        "match_mode": "exact",
+        "note": "AmmoTemplateExtensions hard-coded item attribute label"
+      },
+      {
+        "id": "ricochet_chance",
+        "source": "Ricochet chance",
+        "translation": "도탄 확률",
+        "match_mode": "exact",
+        "note": "AmmoTemplateExtensions hard-coded item attribute label"
+      }
+    ]
+  }
+}

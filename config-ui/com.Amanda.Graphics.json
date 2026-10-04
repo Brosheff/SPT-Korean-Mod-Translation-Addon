@@ -1,0 +1,2063 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.Amanda.Graphics",
+  "plugin_name": "AmandsGraphics-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "AmandsGraphics Cinematic",
+      "translation": "AmandsGraphics 시네마틱"
+    },
+    {
+      "source": "AmandsGraphics Experimental",
+      "translation": "AmandsGraphics 실험적 기능"
+    },
+    {
+      "source": "AmandsGraphics Features",
+      "translation": "AmandsGraphics 기능"
+    },
+    {
+      "source": "AmandsGraphics LightColor",
+      "translation": "AmandsGraphics 광원 색상"
+    },
+    {
+      "source": "Customs",
+      "translation": "세관"
+    },
+    {
+      "source": "Factory",
+      "translation": "공장"
+    },
+    {
+      "source": "FactoryNight",
+      "translation": "공장 (야간)"
+    },
+    {
+      "source": "GroundZero",
+      "translation": "그라운드 제로"
+    },
+    {
+      "source": "Hideout",
+      "translation": "은신처"
+    },
+    {
+      "source": "Interchange",
+      "translation": "인터체인지"
+    },
+    {
+      "source": "Labs",
+      "translation": "연구소"
+    },
+    {
+      "source": "Lighthouse",
+      "translation": "등대"
+    },
+    {
+      "source": "Reserve",
+      "translation": "리저브"
+    },
+    {
+      "source": "Shoreline",
+      "translation": "해안선"
+    },
+    {
+      "source": "Streets",
+      "translation": "타르코프 시내"
+    },
+    {
+      "source": "Woods",
+      "translation": "삼림"
+    }
+  ],
+  "entries": [
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "DOF KernelSize",
+      "source_display_name": "DOF KernelSize",
+      "source_description": "This setting determines the maximum radius of bokeh",
+      "translation_display_name": "심도 보케 커널 크기",
+      "translation_description": "심도 효과에서 보케 블러가 퍼질 수 있는 최대 반경을 설정합니다.",
+      "values": [
+        {
+          "source": "Small",
+          "translation": "작게"
+        },
+        {
+          "source": "Medium",
+          "translation": "중간"
+        },
+        {
+          "source": "Large",
+          "translation": "크게"
+        },
+        {
+          "source": "VeryLarge",
+          "translation": "매우 크게"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "HBAO",
+      "source_display_name": "HBAO",
+      "source_description": null,
+      "translation_display_name": "HBAO 활성화",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "HBAO Albedo Multiplier",
+      "source_display_name": "HBAO Albedo Multiplier",
+      "source_description": null,
+      "translation_display_name": "HBAO 알베도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "HBAO Intensity",
+      "source_display_name": "HBAO Intensity",
+      "source_description": null,
+      "translation_display_name": "HBAO 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "HBAO Saturation",
+      "source_display_name": "HBAO Saturation",
+      "source_description": null,
+      "translation_display_name": "HBAO 채도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "MotionBlur",
+      "source_display_name": "MotionBlur",
+      "source_description": "Motion Blur needs anti-aliasing set to TAA to work as intended",
+      "translation_display_name": "모션 블러",
+      "translation_description": "의도한 모션 블러 효과를 사용하려면 게임 안티앨리어싱을 TAA로 설정해야 합니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "MotionBlur SampleCount",
+      "source_display_name": "MotionBlur SampleCount",
+      "source_description": null,
+      "translation_display_name": "모션 블러 샘플 수",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "MotionBlur ShutterAngle",
+      "source_display_name": "MotionBlur ShutterAngle",
+      "source_description": null,
+      "translation_display_name": "모션 블러 셔터 각도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF Aperture 1x",
+      "source_display_name": "OpticDOF Aperture 1x",
+      "source_description": "The smaller the value is, the shallower the depth of field is at 1x zoom",
+      "translation_display_name": "조준경 심도 조리개 1x",
+      "translation_description": "1배율에서 조준경 심도 효과의 조리개 값을 설정합니다. 값이 작을수록 피사계 심도가 얕아집니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF Aperture 2x",
+      "source_display_name": "OpticDOF Aperture 2x",
+      "source_description": "The smaller the value is, the shallower the depth of field is at 2x zoom",
+      "translation_display_name": "조준경 심도 조리개 2x",
+      "translation_description": "2배율에서 조준경 심도 효과의 조리개 값을 설정합니다. 값이 작을수록 피사계 심도가 얕아집니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF Aperture 4x",
+      "source_display_name": "OpticDOF Aperture 4x",
+      "source_description": "The smaller the value is, the shallower the depth of field is at 4x zoom",
+      "translation_display_name": "조준경 심도 조리개 4x",
+      "translation_description": "4배율에서 조준경 심도 효과의 조리개 값을 설정합니다. 값이 작을수록 피사계 심도가 얕아집니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF Aperture 6x",
+      "source_display_name": "OpticDOF Aperture 6x",
+      "source_description": "The smaller the value is, the shallower the depth of field is at 6x zoom and above",
+      "translation_display_name": "조준경 심도 조리개 6x",
+      "translation_description": "6배율 이상에서 조준경 심도 효과의 조리개 값을 설정합니다. 값이 작을수록 피사계 심도가 얕아집니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF Distance Speed",
+      "source_display_name": "OpticDOF Distance Speed",
+      "source_description": "Distance animation speed",
+      "translation_display_name": "조준경 심도 거리 속도",
+      "translation_description": "조준경 심도 거리 속도 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF FocalLength",
+      "source_display_name": "OpticDOF FocalLength",
+      "source_description": null,
+      "translation_display_name": "조준경 심도 초점 거리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF FocalLength Mode",
+      "source_display_name": "OpticDOF FocalLength Mode",
+      "source_description": null,
+      "translation_display_name": "조준경 심도 초점 거리 방식",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Math",
+          "translation": "자동 계산"
+        },
+        {
+          "source": "FixedValue",
+          "translation": "고정값"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF KernelSize",
+      "source_display_name": "OpticDOF KernelSize",
+      "source_description": "This setting determines the maximum radius of bokeh",
+      "translation_display_name": "조준경 심도 보케 커널 크기",
+      "translation_description": "조준경 심도 효과에서 보케 블러가 퍼질 수 있는 최대 반경을 설정합니다.",
+      "values": [
+        {
+          "source": "Small",
+          "translation": "작게"
+        },
+        {
+          "source": "Medium",
+          "translation": "중간"
+        },
+        {
+          "source": "Large",
+          "translation": "크게"
+        },
+        {
+          "source": "VeryLarge",
+          "translation": "매우 크게"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF OpticZoom",
+      "source_display_name": "OpticDOF OpticZoom",
+      "source_description": "OpticDepthOfField will be enabled if the zoom is greater than or equal to this value",
+      "translation_display_name": "조준경 심도 조준경 확대/축소",
+      "translation_description": "조준 배율이 이 값 이상일 때 조준경 심도 효과를 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF Raycast Distance",
+      "source_display_name": "OpticDOF Raycast Distance",
+      "source_description": "The max distance the ray should check for collisions",
+      "translation_display_name": "조준경 심도 레이캐스트 거리",
+      "translation_description": "조준경 심도 효과가 충돌 대상을 찾기 위해 레이캐스트를 검사할 최대 거리입니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF Raycast Quality",
+      "source_display_name": "OpticDOF Raycast Quality",
+      "source_description": "Low: Simple LowPoly Raycast\n High: HighPoly Raycast and Target Detection\n Foliage: 2 Raycasts Targets have priority behind foliage",
+      "translation_display_name": "조준경 심도 레이캐스트 품질",
+      "translation_description": "조준경 심도 효과의 레이캐스트 품질입니다. Low는 저폴리곤 단일 검사, High는 고폴리곤 검사와 대상 감지, Foliage는 두 번 검사하여 수풀 뒤 대상에 우선순위를 둡니다.",
+      "values": [
+        {
+          "source": "Low",
+          "translation": "낮음"
+        },
+        {
+          "source": "High",
+          "translation": "높음"
+        },
+        {
+          "source": "Foliage",
+          "translation": "수풀 고려"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF Speed",
+      "source_display_name": "OpticDOF Speed",
+      "source_description": "Animation speed",
+      "translation_display_name": "조준경 심도 속도",
+      "translation_description": "조준경 심도 속도을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDOF Target Distance",
+      "source_display_name": "OpticDOF Target Distance",
+      "source_description": "Aiming distance window on spotted target in cm",
+      "translation_display_name": "조준경 심도 표적 거리",
+      "translation_description": "감지된 표적을 기준으로 초점을 맞출 거리 범위를 센티미터 단위로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "OpticDepthOfField",
+      "source_display_name": "OpticDepthOfField",
+      "source_description": "High-Quality Color needs to be Enabled on Graphics Settings\"",
+      "translation_display_name": "조준경 심도 효과",
+      "translation_description": "그래픽 설정에서 고품질 색상(High-Quality Color)을 활성화해야 정상적으로 동작합니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        },
+        {
+          "source": "HoldingBreathOnly",
+          "translation": "숨 참을 때만"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "SurroundDOF Aperture",
+      "source_display_name": "SurroundDOF Aperture",
+      "source_description": "The smaller the value is, the shallower the depth of field is",
+      "translation_display_name": "주변 심도 조리개",
+      "translation_description": "값이 작을수록 피사계 심도가 얕아집니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "SurroundDOF FocalLength",
+      "source_display_name": "SurroundDOF FocalLength",
+      "source_description": "The larger the value is, the shallower the depth of field is",
+      "translation_display_name": "주변 심도 초점 거리",
+      "translation_description": "값이 클수록 피사계 심도가 얕아집니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "SurroundDOF FocalLength Off",
+      "source_display_name": "SurroundDOF FocalLength Off",
+      "source_description": "The larger the value is, the shallower the depth of field is. Used by animation to determinate what's considered off",
+      "translation_display_name": "주변 심도 비활성 기준 초점 거리",
+      "translation_description": "주변 심도 효과 애니메이션에서 비활성 상태로 간주할 초점 거리입니다. 값이 클수록 피사계 심도가 얕아집니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "SurroundDOF OpticZoom",
+      "source_display_name": "SurroundDOF OpticZoom",
+      "source_description": "DepthOfField will be enabled if the zoom is greater than or equal to this value",
+      "translation_display_name": "주변 심도 효과 시작 조준 배율",
+      "translation_description": "조준 배율이 이 값 이상일 때 주변 심도 효과를 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "SurroundDOF Speed",
+      "source_display_name": "SurroundDOF Speed",
+      "source_description": "Animation speed",
+      "translation_display_name": "주변 심도 전환 속도",
+      "translation_description": "주변 심도 전환 속도을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "SurroundDepthOfField",
+      "source_display_name": "SurroundDepthOfField",
+      "source_description": "High-Quality Color needs to be Enabled on Graphics Settings",
+      "translation_display_name": "주변 심도 효과",
+      "translation_description": "그래픽 설정에서 고품질 색상(High-Quality Color)을 활성화해야 정상적으로 동작합니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        },
+        {
+          "source": "HoldingBreathOnly",
+          "translation": "숨 참을 때만"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "UIDOF Aperture",
+      "source_display_name": "UIDOF Aperture",
+      "source_description": "The smaller the value is, the shallower the depth of field is",
+      "translation_display_name": "UI 심도 조리개",
+      "translation_description": "값이 작을수록 피사계 심도가 얕아집니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "UIDOF Distance",
+      "source_display_name": "UIDOF Distance",
+      "source_description": "Focus point distance",
+      "translation_display_name": "UI 심도 초점 거리",
+      "translation_description": "UI 심도 효과가 초점을 맞출 지점까지의 거리를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "UIDOF FocalLength",
+      "source_display_name": "UIDOF FocalLength",
+      "source_description": "The larger the value is, the shallower the depth of field is",
+      "translation_display_name": "UI 심도 초점 거리",
+      "translation_description": "값이 클수록 피사계 심도가 얕아집니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "UIDOF Speed",
+      "source_display_name": "UIDOF Speed",
+      "source_description": "Animation speed",
+      "translation_display_name": "UI 심도 전환 속도",
+      "translation_description": "UI 심도 전환 속도을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "UIDepthOfField",
+      "source_display_name": "UIDepthOfField",
+      "source_description": "High-Quality Color needs to be Enabled on Graphics Settings\"",
+      "translation_display_name": "UI 심도 효과",
+      "translation_description": "그래픽 설정에서 고품질 색상(High-Quality Color)을 활성화해야 정상적으로 동작합니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDOF Aperture",
+      "source_display_name": "WeaponDOF Aperture",
+      "source_description": null,
+      "translation_display_name": "무기 심도 조리개",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDOF BlurSampleCount",
+      "source_display_name": "WeaponDOF BlurSampleCount",
+      "source_description": null,
+      "translation_display_name": "무기 심도 블러 샘플 수",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Low",
+          "translation": "낮음"
+        },
+        {
+          "source": "Medium",
+          "translation": "중간"
+        },
+        {
+          "source": "High",
+          "translation": "높음"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDOF IronSight Blur",
+      "source_display_name": "WeaponDOF IronSight Blur",
+      "source_description": "Max Blur Size when aiming with iron sights",
+      "translation_display_name": "무기 심도 기계식 조준기 블러",
+      "translation_description": "기계식 조준기로 조준할 때 무기 심도 효과의 최대 블러 크기입니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDOF IronSight FocalLength",
+      "source_display_name": "WeaponDOF IronSight FocalLength",
+      "source_description": null,
+      "translation_display_name": "무기 심도 기계식 조준기 초점 거리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDOF NVG Blur",
+      "source_display_name": "WeaponDOF NVG Blur",
+      "source_description": "Max Blur Size when aiming with sights",
+      "translation_display_name": "무기 심도 야간투시경 블러",
+      "translation_description": "야간투시경 사용 중 조준할 때 무기 심도 효과의 최대 블러 크기입니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDOF NVG FocalLength",
+      "source_display_name": "WeaponDOF NVG FocalLength",
+      "source_description": null,
+      "translation_display_name": "무기 심도 NVG 초점 거리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDOF Sight Blur",
+      "source_display_name": "WeaponDOF Sight Blur",
+      "source_description": "Max Blur Size when aiming with sights",
+      "translation_display_name": "무기 심도 조준경 블러",
+      "translation_description": "조준경으로 조준할 때 무기 심도 효과의 최대 블러 크기입니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDOF Sight FocalLength",
+      "source_display_name": "WeaponDOF Sight FocalLength",
+      "source_description": null,
+      "translation_display_name": "무기 심도 조준기 초점 거리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDOF Speed",
+      "source_display_name": "WeaponDOF Speed",
+      "source_description": "Animation speed",
+      "translation_display_name": "무기 심도 속도",
+      "translation_description": "무기 심도 속도을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDOF Weapon Blur",
+      "source_display_name": "WeaponDOF Weapon Blur",
+      "source_description": "Max Blur Size",
+      "translation_display_name": "무기 심도 무기 블러",
+      "translation_description": "무기 심도 무기 블러을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDOF Weapon FocalLength",
+      "source_display_name": "WeaponDOF Weapon FocalLength",
+      "source_description": null,
+      "translation_display_name": "무기 심도 무기 초점 거리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Cinematic",
+      "key": "WeaponDepthOfField",
+      "source_display_name": "WeaponDepthOfField",
+      "source_description": null,
+      "translation_display_name": "무기 심도 효과",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "ChromaticAberration",
+      "source_display_name": "ChromaticAberration",
+      "source_description": null,
+      "translation_display_name": "색수차",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "ChromaticAberration Power",
+      "source_display_name": "ChromaticAberration Power",
+      "source_description": null,
+      "translation_display_name": "색수차 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "ChromaticAberration Speed",
+      "source_display_name": "ChromaticAberration Speed",
+      "source_description": null,
+      "translation_display_name": "색수차 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "Flashlight",
+      "source_display_name": "Flashlight",
+      "source_description": "EXPERIMENTAL",
+      "translation_display_name": "손전등 효과",
+      "translation_description": "실험 단계의 손전등 시각 효과를 활성화합니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "Flashlight ExtinctionCoef",
+      "source_display_name": "Flashlight ExtinctionCoef",
+      "source_description": "Volumetric extinction coefficient",
+      "translation_display_name": "손전등 볼류메트릭 감쇠 계수",
+      "translation_description": "손전등 볼류메트릭 효과의 빛 감쇠 계수를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "Flashlight Range",
+      "source_display_name": "Flashlight Range",
+      "source_description": "Flashlights range multiplier",
+      "translation_display_name": "손전등 범위",
+      "translation_description": "손전등의 조사 거리에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "HealthEffect Hit",
+      "source_display_name": "HealthEffect Hit",
+      "source_description": null,
+      "translation_display_name": "피격 시 화면 효과",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "HealthEffect Pain",
+      "source_display_name": "HealthEffect Pain",
+      "source_description": null,
+      "translation_display_name": "체력 효과 통증",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "HealthEffect Painkiller",
+      "source_display_name": "HealthEffect Painkiller",
+      "source_description": null,
+      "translation_display_name": "체력 효과 진통제",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "MysticalGlow",
+      "source_display_name": "MysticalGlow",
+      "source_description": null,
+      "translation_display_name": "광원 글로우 효과",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "MysticalGlow Intensity",
+      "source_display_name": "MysticalGlow Intensity",
+      "source_description": null,
+      "translation_display_name": "광원 글로우 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "NVG",
+      "source_display_name": "NVG",
+      "source_description": "EXPERIMENTAL",
+      "translation_display_name": "야간투시경 효과",
+      "translation_description": "실험 단계의 야간투시경 시각 효과를 활성화합니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "NVG AmbientContrast",
+      "source_display_name": "NVG AmbientContrast",
+      "source_description": null,
+      "translation_display_name": "NVG 환경 대비",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "NVG Moon LightIntensity",
+      "source_display_name": "NVG Moon LightIntensity",
+      "source_description": null,
+      "translation_display_name": "NVG 달 광원 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "NVG Noise Intensity",
+      "source_display_name": "NVG Noise Intensity",
+      "source_description": null,
+      "translation_display_name": "NVG 노이즈 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "NVG Original Color",
+      "source_display_name": "NVG Original Color",
+      "source_description": "Enables back all default color filters",
+      "translation_display_name": "NVG 기본 색상",
+      "translation_description": "NVG 기본 색상 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "NVG Original Sky Color",
+      "source_display_name": "NVG Original Sky Color",
+      "source_description": "Enables back the default sky color for NVG",
+      "translation_display_name": "NVG 기본 하늘 색상",
+      "translation_description": "NVG 기본 하늘 색상 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "NVG Tonemap",
+      "source_display_name": "NVG Tonemap",
+      "source_description": null,
+      "translation_display_name": "야간투시경 톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "Night AmbientAmbientContrast",
+      "source_display_name": "Night AmbientAmbientContrast",
+      "source_description": null,
+      "translation_display_name": "야간 환경음 환경 대비",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "Night AmbientLight",
+      "source_display_name": "Night AmbientLight",
+      "source_description": null,
+      "translation_display_name": "야간 환경광",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "On",
+          "translation": "켬"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "Painkiller Saturation",
+      "source_display_name": "Painkiller Saturation",
+      "source_description": null,
+      "translation_display_name": "진통제 채도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "SkyBrightness",
+      "source_display_name": "SkyBrightness",
+      "source_description": null,
+      "translation_display_name": "하늘 밝기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Experimental",
+      "key": "SunMeshBrightness",
+      "source_display_name": "SunMeshBrightness",
+      "source_description": null,
+      "translation_display_name": "태양 메쉬 밝기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "Bloom Intensity",
+      "source_display_name": "Bloom Intensity",
+      "source_description": null,
+      "translation_display_name": "블룸 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "Brightness",
+      "source_display_name": "Brightness",
+      "source_description": "EXPERIMENTAL",
+      "translation_display_name": "밝기",
+      "translation_description": "실험 단계의 화면 밝기 조정 기능입니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "DebugMode",
+      "source_display_name": "DebugMode",
+      "source_description": "Shift + Insert will toggle only the selected DebugMode feature",
+      "translation_display_name": "디버그 모드",
+      "translation_description": "Shift+Insert로 선택한 디버그 기능만 켜거나 끕니다.",
+      "values": [
+        {
+          "source": "Flashlight",
+          "translation": "손전등"
+        },
+        {
+          "source": "NVG",
+          "translation": "야간투시경"
+        },
+        {
+          "source": "NVGOriginalColor",
+          "translation": "야간투시경 원본 색상"
+        },
+        {
+          "source": "NightAmbientLight",
+          "translation": "야간 주변광"
+        },
+        {
+          "source": "HBAO",
+          "translation": "HBAO"
+        },
+        {
+          "source": "MysticalGlow",
+          "translation": "미스티컬 글로우"
+        },
+        {
+          "source": "DefaultToACES",
+          "translation": "기본값 → ACES"
+        },
+        {
+          "source": "DefaultToFilmic",
+          "translation": "기본값 → 필믹"
+        },
+        {
+          "source": "ACESToFilmic",
+          "translation": "ACES → 필믹"
+        },
+        {
+          "source": "useLut",
+          "translation": "LUT 사용"
+        },
+        {
+          "source": "CC_Vintage",
+          "translation": "CC_Vintage"
+        },
+        {
+          "source": "CC_Sharpen",
+          "translation": "CC_Sharpen"
+        },
+        {
+          "source": "GlobalFog",
+          "translation": "전역 안개"
+        },
+        {
+          "source": "ColorCorrectionCurves",
+          "translation": "색 보정 커브"
+        },
+        {
+          "source": "LightsUseLinearIntensity",
+          "translation": "조명 선형 강도 사용"
+        },
+        {
+          "source": "SunColor",
+          "translation": "태양 색상"
+        },
+        {
+          "source": "SkyColor",
+          "translation": "하늘 색상"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "GraphicsToggle",
+      "source_display_name": "GraphicsToggle",
+      "source_description": null,
+      "translation_display_name": "그래픽 효과 전환",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "LightsUseLinearIntensity",
+      "source_display_name": "LightsUseLinearIntensity",
+      "source_description": null,
+      "translation_display_name": "광원 선형 강도 사용",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "SkyColor",
+      "source_display_name": "SkyColor",
+      "source_description": null,
+      "translation_display_name": "하늘 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "SunColor",
+      "source_display_name": "SunColor",
+      "source_description": null,
+      "translation_display_name": "태양 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        },
+        {
+          "source": "PerMap",
+          "translation": "맵별"
+        }
+      ]
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "Use BSG CC_Sharpen",
+      "source_display_name": "Use BSG CC_Sharpen",
+      "source_description": "Enabling this will revert the mod changes",
+      "translation_display_name": "BSG 샤픈 색보정 사용",
+      "translation_description": "활성화하면 모드가 변경한 샤픈 색보정 대신 BSG 기본 효과로 되돌립니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "Use BSG CC_Vintage",
+      "source_display_name": "Use BSG CC_Vintage",
+      "source_description": "Enabling this will revert the mod changes",
+      "translation_display_name": "BSG 빈티지 색보정 사용",
+      "translation_description": "활성화하면 모드가 변경한 빈티지 색보정 대신 BSG 기본 효과로 되돌립니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "Use BSG ColorCorrection",
+      "source_display_name": "Use BSG ColorCorrection",
+      "source_description": "Enabling this will revert the mod changes",
+      "translation_display_name": "BSG 색상 보정 사용",
+      "translation_description": "활성화하면 모드가 변경한 색상 보정 대신 BSG 기본 색상 보정 동작으로 되돌립니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "Use BSG GlobalFog",
+      "source_display_name": "Use BSG GlobalFog",
+      "source_description": "Enabling this will revert the mod changes",
+      "translation_display_name": "BSG 전역 안개 사용",
+      "translation_description": "활성화하면 모드가 변경한 전역 안개 대신 BSG 기본 전역 안개 동작으로 되돌립니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics Features",
+      "key": "Use BSG LUT",
+      "source_display_name": "Use BSG LUT",
+      "source_description": "Enabling this will revert the mod changes",
+      "translation_display_name": "BSG LUT 사용",
+      "translation_description": "활성화하면 모드가 변경한 LUT 대신 BSG 기본 LUT 동작으로 되돌립니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics LightColor",
+      "key": "Index0",
+      "source_display_name": "Index0",
+      "source_description": null,
+      "translation_display_name": "색상 슬롯 0",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics LightColor",
+      "key": "Index1",
+      "source_display_name": "Index1",
+      "source_description": null,
+      "translation_display_name": "색상 슬롯 1",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics LightColor",
+      "key": "Index2",
+      "source_display_name": "Index2",
+      "source_description": null,
+      "translation_display_name": "색상 슬롯 2",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics LightColor",
+      "key": "Index3",
+      "source_display_name": "Index3",
+      "source_description": null,
+      "translation_display_name": "색상 슬롯 3",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics LightColor",
+      "key": "Index4",
+      "source_display_name": "Index4",
+      "source_description": null,
+      "translation_display_name": "색상 슬롯 4",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsGraphics LightColor",
+      "key": "Index5",
+      "source_display_name": "Index5",
+      "source_description": null,
+      "translation_display_name": "색상 슬롯 5",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Customs",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Customs",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Customs",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Customs",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Customs",
+      "key": "Fog Level",
+      "source_display_name": "Fog Level",
+      "source_description": null,
+      "translation_display_name": "안개 수준",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Customs",
+      "key": "MysticalGlow Intensity",
+      "source_display_name": "MysticalGlow Intensity",
+      "source_description": null,
+      "translation_display_name": "광원 글로우 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Customs",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "Factory",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Factory",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Factory",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Factory",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Factory",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "FactoryNight",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "FactoryNight",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "FactoryNight",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "FactoryNight",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "FactoryNight",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "GroundZero",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "GroundZero",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "GroundZero",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "GroundZero",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "GroundZero",
+      "key": "Fog Level",
+      "source_display_name": "Fog Level",
+      "source_description": null,
+      "translation_display_name": "안개 수준",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "GroundZero",
+      "key": "MysticalGlow Intensity",
+      "source_display_name": "MysticalGlow Intensity",
+      "source_description": null,
+      "translation_display_name": "광원 글로우 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "GroundZero",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "Hideout",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Hideout",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Hideout",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Hideout",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Hideout",
+      "key": "SkyColor",
+      "source_display_name": "SkyColor",
+      "source_description": null,
+      "translation_display_name": "하늘 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Hideout",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "Interchange",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Interchange",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Interchange",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Interchange",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Interchange",
+      "key": "Fog Level",
+      "source_display_name": "Fog Level",
+      "source_description": null,
+      "translation_display_name": "안개 수준",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Interchange",
+      "key": "MysticalGlow Intensity",
+      "source_display_name": "MysticalGlow Intensity",
+      "source_description": null,
+      "translation_display_name": "광원 글로우 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Interchange",
+      "key": "NVG AmbientContrast",
+      "source_display_name": "NVG AmbientContrast",
+      "source_description": null,
+      "translation_display_name": "NVG 환경 대비",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Interchange",
+      "key": "NVG Noise Intensity",
+      "source_display_name": "NVG Noise Intensity",
+      "source_description": null,
+      "translation_display_name": "NVG 노이즈 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Interchange",
+      "key": "NVG Original Sky Color",
+      "source_display_name": "NVG Original Sky Color",
+      "source_description": "Enables back the default sky color for NVG",
+      "translation_display_name": "NVG 기본 하늘 색상",
+      "translation_description": "NVG 기본 하늘 색상 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Interchange",
+      "key": "Night AmbientAmbientContrast",
+      "source_display_name": "Night AmbientAmbientContrast",
+      "source_description": null,
+      "translation_display_name": "야간 환경음 환경 대비",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Interchange",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "Labs",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Labs",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Labs",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Labs",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Labs",
+      "key": "HBAO Albedo Multiplier",
+      "source_display_name": "HBAO Albedo Multiplier",
+      "source_description": null,
+      "translation_display_name": "HBAO 알베도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Labs",
+      "key": "HBAO Intensity",
+      "source_display_name": "HBAO Intensity",
+      "source_description": null,
+      "translation_display_name": "HBAO 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Labs",
+      "key": "HBAO Saturation",
+      "source_display_name": "HBAO Saturation",
+      "source_description": null,
+      "translation_display_name": "HBAO 채도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Labs",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "Lighthouse",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Lighthouse",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Lighthouse",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Lighthouse",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Lighthouse",
+      "key": "Fog Level",
+      "source_display_name": "Fog Level",
+      "source_description": null,
+      "translation_display_name": "안개 수준",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Lighthouse",
+      "key": "MysticalGlow Intensity",
+      "source_display_name": "MysticalGlow Intensity",
+      "source_description": null,
+      "translation_display_name": "광원 글로우 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Lighthouse",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "Reserve",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Reserve",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Reserve",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Reserve",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Reserve",
+      "key": "Fog Level",
+      "source_display_name": "Fog Level",
+      "source_description": null,
+      "translation_display_name": "안개 수준",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Reserve",
+      "key": "MysticalGlow Intensity",
+      "source_display_name": "MysticalGlow Intensity",
+      "source_description": null,
+      "translation_display_name": "광원 글로우 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Reserve",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "Shoreline",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Shoreline",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Shoreline",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Shoreline",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Shoreline",
+      "key": "Fog Level",
+      "source_display_name": "Fog Level",
+      "source_description": null,
+      "translation_display_name": "안개 수준",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Shoreline",
+      "key": "MysticalGlow Intensity",
+      "source_display_name": "MysticalGlow Intensity",
+      "source_description": null,
+      "translation_display_name": "광원 글로우 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Shoreline",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "Streets",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Streets",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Streets",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Streets",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Streets",
+      "key": "Fog Level",
+      "source_display_name": "Fog Level",
+      "source_description": null,
+      "translation_display_name": "안개 수준",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Streets",
+      "key": "MysticalGlow Intensity",
+      "source_display_name": "MysticalGlow Intensity",
+      "source_description": null,
+      "translation_display_name": "광원 글로우 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Streets",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    },
+    {
+      "section": "Woods",
+      "key": "ACES",
+      "source_display_name": "ACES",
+      "source_description": null,
+      "translation_display_name": "ACES",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Woods",
+      "key": "ACESS",
+      "source_display_name": "ACESS",
+      "source_description": null,
+      "translation_display_name": "ACES 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Woods",
+      "key": "Filmic",
+      "source_display_name": "Filmic",
+      "source_description": null,
+      "translation_display_name": "Filmic 톤 매핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Woods",
+      "key": "FilmicS",
+      "source_display_name": "FilmicS",
+      "source_description": null,
+      "translation_display_name": "Filmic 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Woods",
+      "key": "Fog Level",
+      "source_display_name": "Fog Level",
+      "source_description": null,
+      "translation_display_name": "안개 수준",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Woods",
+      "key": "MysticalGlow Intensity",
+      "source_display_name": "MysticalGlow Intensity",
+      "source_description": null,
+      "translation_display_name": "광원 글로우 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Woods",
+      "key": "Tonemap",
+      "source_display_name": "Tonemap",
+      "source_description": null,
+      "translation_display_name": "톤 매핑",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "ACES",
+          "translation": "ACES"
+        },
+        {
+          "source": "Filmic",
+          "translation": "필믹"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,894 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.pein.camerarecoilmod",
+  "plugin_name": "SPTRecoilRework-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "00. Debug",
+      "translation": "00. 디버그"
+    },
+    {
+      "source": "01. General",
+      "translation": "01. 일반"
+    },
+    {
+      "source": "02. Real Recoil",
+      "translation": "02. 실제 반동"
+    },
+    {
+      "source": "03. Camera Recoil",
+      "translation": "03. 카메라 반동"
+    },
+    {
+      "source": "04. Additional Camera Recoil",
+      "translation": "04. 추가 카메라 반동"
+    },
+    {
+      "source": "05. Recoil Settings",
+      "translation": "05. 반동 설정"
+    },
+    {
+      "source": "06. Pistol Recoil Settings",
+      "translation": "06. 권총 반동 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "*",
+      "key": "Additional Camera Recoil",
+      "source_display_name": "Additional Camera Recoil",
+      "source_description": "Enables additional camera recoil.",
+      "translation_display_name": "추가 카메라 반동",
+      "translation_description": "추가 카메라 반동 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Additional Recoil Ironsight Multiplier",
+      "source_display_name": "Additional Recoil Ironsight Multiplier",
+      "source_description": "Multiplier for additional recoil when using ironsights.",
+      "translation_display_name": "기계식 조준기 사용 시 추가 반동 배율",
+      "translation_description": "기계식 조준기로 조준할 때 추가 반동에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Additional Recoil Optics Multiplier",
+      "source_display_name": "Additional Recoil Optics Multiplier",
+      "source_description": "Multiplier for additional recoil when using optics.",
+      "translation_display_name": "광학 조준경 사용 시 추가 반동 배율",
+      "translation_description": "광학 조준경으로 조준할 때 추가 반동에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Allow Dynamic Adjustments",
+      "source_display_name": "Allow Dynamic Adjustments",
+      "source_description": "Allows dynamic adjustment of multiplier, damping and return speed values based on the equipped weapon's recoil values.",
+      "translation_display_name": "상황별 동적 반동 조정 허용",
+      "translation_description": "장착 무기의 반동 수치에 따라 반동 배율, 감쇠, 복귀 속도를 동적으로 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Allow Lean Camera Tilt",
+      "source_display_name": "Allow Lean Camera Tilt",
+      "source_description": "Toggles whether the camera rotates during leaning.",
+      "translation_display_name": "기울이기 시 카메라 기울기 허용",
+      "translation_description": "기울이기 시 카메라 기울기 허용 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Allow Vanilla Stable Recoil",
+      "source_display_name": "Allow Vanilla Stable Recoil",
+      "source_description": "Allows vanilla recoil stabilization. Affected by hand rotation recoil settings.",
+      "translation_display_name": "기본 게임의 안정화 반동 허용",
+      "translation_description": "기본 게임의 반동 안정화 기능을 허용합니다. 손 회전 반동 설정의 영향을 받습니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Alternate Real Recoil Spring Damping",
+      "source_display_name": "Alternate Real Recoil Spring Damping",
+      "source_description": null,
+      "translation_display_name": "대체 실제 반동 스프링 감쇠",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Alternate Real Recoil Spring Speed",
+      "source_display_name": "Alternate Real Recoil Spring Speed",
+      "source_description": null,
+      "translation_display_name": "대체 실제 반동 스프링 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Alternate Real Recoil Spring Stiffness",
+      "source_display_name": "Alternate Real Recoil Spring Stiffness",
+      "source_description": null,
+      "translation_display_name": "대체 실제 반동 스프링 강성",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Recoil Damping",
+      "source_display_name": "Camera Recoil Damping",
+      "source_description": "Camera recoil damping.",
+      "translation_display_name": "카메라 반동 감쇠",
+      "translation_description": "카메라 반동의 감쇠 정도를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Recoil Intensity",
+      "source_display_name": "Camera Recoil Intensity",
+      "source_description": "Camera recoil intensity.",
+      "translation_display_name": "카메라 반동 강도",
+      "translation_description": "카메라 반동의 강도를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Recoil Return Speed",
+      "source_display_name": "Camera Recoil Return Speed",
+      "source_description": "Camera recoil return speed.",
+      "translation_display_name": "카메라 반동 복귀 속도",
+      "translation_description": "카메라 반동이 원래 방향으로 돌아오는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Recoil Side Mult",
+      "source_display_name": "Camera Recoil Side Mult",
+      "source_description": "Multiplier for sideways camera recoil.",
+      "translation_display_name": "카메라 반동 좌우 배율",
+      "translation_description": "카메라 반동 좌우 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Recoil Up Mult",
+      "source_display_name": "Camera Recoil Up Mult",
+      "source_description": "Multiplier for vertical camera recoil",
+      "translation_display_name": "카메라 반동 위 배율",
+      "translation_description": "카메라 반동 위 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Snap Speed",
+      "source_display_name": "Camera Snap Speed",
+      "source_description": "Speed at which the weapon's ADS position adjusts to follow the weapon's rotational recoil.",
+      "translation_display_name": "카메라 스냅 속도",
+      "translation_description": "무기의 회전 반동을 따라가도록 ADS 위치가 보정되는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Spring Damping",
+      "source_display_name": "Camera Spring Damping",
+      "source_description": "Damping of the camera spring",
+      "translation_display_name": "카메라 스프링 감쇠",
+      "translation_description": "카메라 스프링 감쇠 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Spring Direction",
+      "source_display_name": "Camera Spring Direction",
+      "source_description": "Direction of the camera spring. X = pitch, Y = yaw, Z = roll",
+      "translation_display_name": "카메라 스프링 방향",
+      "translation_description": "카메라 스프링이 작용할 방향입니다. X는 피치, Y는 요, Z는 롤입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Spring Horizontal Min/Max",
+      "source_display_name": "Camera Spring Horizontal Min/Max",
+      "source_description": "Minimum/maximum horizontal force for camera spring.",
+      "translation_display_name": "카메라 스프링 수평 최소/최대",
+      "translation_description": "카메라 스프링에 적용할 수평 힘의 최소값과 최대값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Spring Rotation Min/Max",
+      "source_display_name": "Camera Spring Rotation Min/Max",
+      "source_description": "Minimum/maximum rotation for camera spring.",
+      "translation_display_name": "카메라 스프링 회전 최소/최대",
+      "translation_description": "카메라 스프링 회전량의 최소값과 최대값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Spring Speed",
+      "source_display_name": "Camera Spring Speed",
+      "source_description": "Speed of the camera spring",
+      "translation_display_name": "카메라 스프링 속도",
+      "translation_description": "카메라 스프링 속도 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Spring Stiffness",
+      "source_display_name": "Camera Spring Stiffness",
+      "source_description": "Stiffness of the camera spring",
+      "translation_display_name": "카메라 스프링 강성",
+      "translation_description": "카메라 스프링 강성 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Camera Spring Vertical Min/Max",
+      "source_display_name": "Camera Spring Vertical Min/Max",
+      "source_description": "Minimum/maximum vertical force for camera spring.",
+      "translation_display_name": "카메라 스프링 수직 최소/최대",
+      "translation_description": "카메라 스프링에 적용할 수직 힘의 최소값과 최대값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Carbine Real Recoil Multiplier",
+      "source_display_name": "Carbine Real Recoil Multiplier",
+      "source_description": "Real recoil multiplier for carbines.",
+      "translation_display_name": "카빈 실제 반동 배율",
+      "translation_description": "카빈 실제 반동 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Dynamic Damping Multiplier Range",
+      "source_display_name": "Dynamic Damping Multiplier Range",
+      "source_description": "Minimum and maximum modifier used for upwards recoil angle multiplier.",
+      "translation_display_name": "동적 감쇠 배율 범위",
+      "translation_description": "동적 감쇠 배율 범위 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Dynamic Multiplier Range",
+      "source_display_name": "Dynamic Multiplier Range",
+      "source_description": "Minimum and maximum modifier used for upwards recoil angle multiplier.",
+      "translation_display_name": "동적 배율 범위",
+      "translation_description": "동적 배율 범위 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Dynamic Recoil Range",
+      "source_display_name": "Dynamic Recoil Range",
+      "source_description": "Minimum and maximum VERTICAL RECOIL values used for dynamic range. Dynamic recoil adjustments begin at X and end at Y.",
+      "translation_display_name": "동적 반동 범위",
+      "translation_description": "동적 반동 보정에 사용할 수직 반동 최소/최대 범위입니다. X에서 보정을 시작해 Y에서 최대 보정에 도달합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Dynamic Return Speed Multiplier Range",
+      "source_display_name": "Dynamic Return Speed Multiplier Range",
+      "source_description": "Minimum and maximum modifier used for upwards recoil angle multiplier.",
+      "translation_display_name": "동적 복귀 속도 배율 범위",
+      "translation_description": "동적 복귀 속도 배율 범위 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Enable Alternate Real Recoil",
+      "source_display_name": "Enable Alternate Real Recoil",
+      "source_description": "Enables an alternate version of real recoil that uses a spring based system and has auto-compensation.",
+      "translation_display_name": "대체 실제 반동 활성화",
+      "translation_description": "대체 실제 반동 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Enable Camera Spring",
+      "source_display_name": "Enable Camera Spring",
+      "source_description": "Enables camera spring",
+      "translation_display_name": "카메라 스프링 활성화",
+      "translation_description": "카메라 스프링 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Enable Crank Recoil",
+      "source_display_name": "Enable Crank Recoil",
+      "source_description": "Toggles whether your weapon recoils toward the screen.",
+      "translation_display_name": "크랭크 반동 방식 활성화",
+      "translation_description": "크랭크 반동 방식 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Enable Debug",
+      "source_display_name": "Enable Debug",
+      "source_description": "Enables debug logging.",
+      "translation_display_name": "디버그 활성화",
+      "translation_description": "디버그 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Enable Fast Spring",
+      "source_display_name": "Enable Fast Spring",
+      "source_description": "Enables fast additional camera recoil.",
+      "translation_display_name": "빠른 스프링 활성화",
+      "translation_description": "빠른 스프링 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Enable Real Recoil",
+      "source_display_name": "Enable Real Recoil",
+      "source_description": "Enables real recoil, which simulates recoil by physically rotating the camera. The amount depends on your weapon's recoil stats and the multipliers below.",
+      "translation_display_name": "실제 반동 활성화",
+      "translation_description": "카메라를 물리적으로 회전시켜 실제 반동을 모사하는 기능을 켭니다. 반동 크기는 무기의 반동 수치와 아래 배율 설정에 따라 결정됩니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Enable Slow Spring",
+      "source_display_name": "Enable Slow Spring",
+      "source_description": "Enables slow additional camera recoil. Just in case you need an additional spring to control.",
+      "translation_display_name": "느린 스프링 활성화",
+      "translation_description": "느린 스프링 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Enable Weapon Class Multipliers",
+      "source_display_name": "Enable Weapon Class Multipliers",
+      "source_description": "Enables class specific real recoil multipliers. Recommended to keep enabled since pistols have insane recoil values.",
+      "translation_display_name": "무기 종류별 반동 배율 활성화",
+      "translation_description": "무기 종류별 반동 배율 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Enable Weapon Sway",
+      "source_display_name": "Enable Weapon Sway",
+      "source_description": "Enables weapon sway when moving.",
+      "translation_display_name": "무기 흔들림 활성화",
+      "translation_description": "이동 중 무기 흔들림 효과를 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Fast Horizontal Mult Min/Max",
+      "source_display_name": "Fast Horizontal Mult Min/Max",
+      "source_description": "Minimum/maximum horizontal force multiplier for fast recoil spring.",
+      "translation_display_name": "빠른 수평 배율 최소/최대",
+      "translation_description": "빠른 수평 배율 최소/최대 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Fast Spring Damping",
+      "source_display_name": "Fast Spring Damping",
+      "source_description": "Damping of the fast spring",
+      "translation_display_name": "빠른 스프링 감쇠",
+      "translation_description": "빠른 스프링 감쇠 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Fast Spring Direction Angle",
+      "source_display_name": "Fast Spring Direction Angle",
+      "source_description": "Minimum/maximum angle for fast recoil spring. X = minimum, Y = maximum, 0 - right, 90 - up, 180 - left, 270 - down.",
+      "translation_display_name": "빠른 반동 스프링 방향 범위",
+      "translation_description": "빠른 반동 스프링이 작용할 방향 각도의 최소/최대값입니다. X는 최소, Y는 최대이며 0°=오른쪽, 90°=위, 180°=왼쪽, 270°=아래입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Fast Spring Real Recoil Direction Normalize",
+      "source_display_name": "Fast Spring Real Recoil Direction Normalize",
+      "source_description": "Normalizes real recoil force for fast spring which makes every weapon apply the same amount of force to the spring.",
+      "translation_display_name": "빠른 스프링에 실제 반동 힘 정규화",
+      "translation_description": "빠른 스프링에 전달되는 실제 반동 힘을 정규화해 무기별 반동 크기 차이와 무관하게 비슷한 힘이 스프링에 적용되도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Fast Spring Real Recoil Horizontal Min/Max",
+      "source_display_name": "Fast Spring Real Recoil Horizontal Min/Max",
+      "source_description": "Multiplier range for horizontal recoil. X = minimum, Y = maximum.",
+      "translation_display_name": "빠른 스프링 실제 반동 수평 최소/최대",
+      "translation_description": "빠른 스프링 실제 반동 수평 최소/최대 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Fast Spring Real Recoil Vertical Min/Max",
+      "source_display_name": "Fast Spring Real Recoil Vertical Min/Max",
+      "source_description": "Multiplier range for vertical recoil. X = minimum, Y = maximum.",
+      "translation_display_name": "빠른 스프링 실제 반동 수직 최소/최대",
+      "translation_description": "빠른 스프링 실제 반동 수직 최소/최대 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Fast Spring Speed",
+      "source_display_name": "Fast Spring Speed",
+      "source_description": "Speed of the fast spring",
+      "translation_display_name": "빠른 스프링 속도",
+      "translation_description": "빠른 스프링 속도 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Fast Spring Stiffness",
+      "source_display_name": "Fast Spring Stiffness",
+      "source_description": "Stiffness of the fast spring",
+      "translation_display_name": "빠른 스프링 강성",
+      "translation_description": "빠른 스프링 강성 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Fast Spring Use Real Recoil",
+      "source_display_name": "Fast Spring Use Real Recoil",
+      "source_description": "Makes fast spring use real recoil direction for impulse direction.",
+      "translation_display_name": "빠른 스프링 사용 실제 반동",
+      "translation_description": "빠른 반동 스프링의 충격 방향에 실제 반동 방향을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Fast Vertical Mult Min/Max",
+      "source_display_name": "Fast Vertical Mult Min/Max",
+      "source_description": "Minimum/maximum vertical force multiplier for fast recoil spring.",
+      "translation_display_name": "빠른 수직 배율 최소/최대",
+      "translation_description": "빠른 수직 배율 최소/최대 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Grenade Launcher Real Recoil Multiplier",
+      "source_display_name": "Grenade Launcher Real Recoil Multiplier",
+      "source_description": "Real recoil multiplier for grenade launchers.",
+      "translation_display_name": "유탄발사기 실제 반동 배율",
+      "translation_description": "유탄발사기 실제 반동 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Hipfire Penalty Mult (Laser Off)",
+      "source_display_name": "Hipfire Penalty Mult (Laser Off)",
+      "source_description": "Changes the hipfire penalty multiplier when tactical devices are turned off.",
+      "translation_display_name": "지향 사격 불이익 배율 (레이저 미사용 시)",
+      "translation_description": "전술 장비가 꺼져 있을 때 지향 사격 정확도 페널티에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Hipfire Penalty Mult (Laser On)",
+      "source_display_name": "Hipfire Penalty Mult (Laser On)",
+      "source_description": "Changes the hipfire penalty multiplier when tactical devices are turned on.",
+      "translation_display_name": "지향 사격 불이익 배율 (레이저 사용 시)",
+      "translation_description": "전술 장비가 켜져 있을 때 지향 사격 정확도 페널티에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Machine Gun Real Recoil Multiplier",
+      "source_display_name": "Machine Gun Real Recoil Multiplier",
+      "source_description": "Real recoil multiplier for machine guns.",
+      "translation_display_name": "기관총 실제 반동 배율",
+      "translation_description": "기관총 실제 반동 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Marksman Real Recoil Multiplier",
+      "source_display_name": "Marksman Real Recoil Multiplier",
+      "source_description": "Real recoil multiplier for marksman rifles.",
+      "translation_display_name": "지정사수소총 실제 반동 배율",
+      "translation_description": "지정사수소총 실제 반동 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Pistol Camera Snap Speed",
+      "source_display_name": "Pistol Camera Snap Speed",
+      "source_description": "Speed at which the weapon's ADS position adjusts to follow the weapon's rotational recoil.",
+      "translation_display_name": "권총 카메라 스냅 속도",
+      "translation_description": "권총의 회전 반동을 따라가도록 ADS 위치가 보정되는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Pistol Real Recoil Multiplier",
+      "source_display_name": "Pistol Real Recoil Multiplier",
+      "source_description": "Real recoil multiplier for pistols.",
+      "translation_display_name": "권총 실제 반동 배율",
+      "translation_description": "권총 실제 반동 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Pistol Recoil Position Backwards Mult",
+      "source_display_name": "Pistol Recoil Position Backwards Mult",
+      "source_description": "Multiplier for backwards recoil.",
+      "translation_display_name": "권총 반동 위치 역방향 배율",
+      "translation_description": "권총 반동 위치 역방향 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Pistol Recoil Position Damping",
+      "source_display_name": "Pistol Recoil Position Damping",
+      "source_description": "Recoil position damping.",
+      "translation_display_name": "권총 반동 위치 감쇠",
+      "translation_description": "권총 위치 반동의 감쇠 정도를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Pistol Recoil Position Intensity",
+      "source_display_name": "Pistol Recoil Position Intensity",
+      "source_description": "Recoil position intensity. Consider it an additional multiplier.",
+      "translation_display_name": "권총 반동 위치 강도",
+      "translation_description": "권총의 위치 기반 반동 강도에 추가로 적용되는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Pistol Recoil Position Return Speed",
+      "source_display_name": "Pistol Recoil Position Return Speed",
+      "source_description": "Recoil position return speed.",
+      "translation_display_name": "권총 반동 위치 복귀 속도",
+      "translation_description": "권총 위치 반동이 원래 위치로 돌아오는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Pistol Recoil Rotation Damping",
+      "source_display_name": "Pistol Recoil Rotation Damping",
+      "source_description": "Recoil angle damping.",
+      "translation_display_name": "권총 반동 회전 감쇠",
+      "translation_description": "권총 회전 반동 각도의 감쇠 정도를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Pistol Recoil Rotation Return Speed",
+      "source_display_name": "Pistol Recoil Rotation Return Speed",
+      "source_description": "Recoil angle return speed.",
+      "translation_display_name": "권총 반동 회전 복귀 속도",
+      "translation_description": "권총 회전 반동 각도가 원래 방향으로 돌아오는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Pistol Recoil Rotation Side Mult",
+      "source_display_name": "Pistol Recoil Rotation Side Mult",
+      "source_description": "Sideways angle recoil multiplier.",
+      "translation_display_name": "권총 반동 회전 좌우 배율",
+      "translation_description": "권총 회전 반동의 좌우 각도에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Pistol Recoil Rotation Up Mult",
+      "source_display_name": "Pistol Recoil Rotation Up Mult",
+      "source_description": "Upwards angle recoil multiplier.",
+      "translation_display_name": "권총 반동 회전 위 배율",
+      "translation_description": "권총 회전 반동의 위쪽 각도에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Real Recoil Aiming Multiplier",
+      "source_display_name": "Real Recoil Aiming Multiplier",
+      "source_description": "Changes the amount of recoil while aiming.",
+      "translation_display_name": "조준 중 실제 반동 배율",
+      "translation_description": "조준 중 실제 반동에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Real Recoil Crouch Multiplier",
+      "source_display_name": "Real Recoil Crouch Multiplier",
+      "source_description": "Changes the amount of recoil while crouching.",
+      "translation_display_name": "앉은 자세 실제 반동 배율",
+      "translation_description": "앉은 자세에서 실제 반동에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Real Recoil Decay Speed",
+      "source_display_name": "Real Recoil Decay Speed",
+      "source_description": "Real recoil decay speed.",
+      "translation_display_name": "실제 반동 감쇠 속도",
+      "translation_description": "실제 반동이 시간에 따라 줄어드는 속도를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Real Recoil Horizontal Mult",
+      "source_display_name": "Real Recoil Horizontal Mult",
+      "source_description": "Real recoil horizontal multiplier.",
+      "translation_display_name": "실제 반동 수평 배율",
+      "translation_description": "실제 반동의 수평 성분에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Real Recoil Mounted Multiplier",
+      "source_display_name": "Real Recoil Mounted Multiplier",
+      "source_description": "Changes the amount of recoil while mounted or using a bipod.",
+      "translation_display_name": "거치 상태 실제 반동 배율",
+      "translation_description": "거치 또는 양각대 사용 중 실제 반동에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Real Recoil Prone Multiplier",
+      "source_display_name": "Real Recoil Prone Multiplier",
+      "source_description": "Changes the amount of recoil while prone.",
+      "translation_display_name": "엎드린 자세 실제 반동 배율",
+      "translation_description": "엎드린 자세에서 실제 반동에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Real Recoil Vertical Mult",
+      "source_display_name": "Real Recoil Vertical Mult",
+      "source_description": "Real recoil vertical multiplier.",
+      "translation_display_name": "실제 반동 수직 배율",
+      "translation_description": "실제 반동의 수직 성분에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Recoil Position Backwards Mult",
+      "source_display_name": "Recoil Position Backwards Mult",
+      "source_description": "Multiplier for backwards hand recoil.",
+      "translation_display_name": "반동 위치 역방향 배율",
+      "translation_description": "반동 위치 역방향 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Recoil Position Damping",
+      "source_display_name": "Recoil Position Damping",
+      "source_description": "Hand recoil damping.",
+      "translation_display_name": "반동 위치 감쇠",
+      "translation_description": "손 위치 반동의 감쇠 정도를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Recoil Position Intensity",
+      "source_display_name": "Recoil Position Intensity",
+      "source_description": "Recoil intensity. Consider it an additional multiplier.",
+      "translation_display_name": "반동 위치 강도",
+      "translation_description": "손 위치 기반 반동 강도에 추가로 적용되는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Recoil Position Return Speed",
+      "source_display_name": "Recoil Position Return Speed",
+      "source_description": "Hand recoil return speed.",
+      "translation_display_name": "반동 위치 복귀 속도",
+      "translation_description": "손 위치 반동이 원래 위치로 돌아오는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Recoil Rotation Damping",
+      "source_display_name": "Recoil Rotation Damping",
+      "source_description": "Hand recoil damping.",
+      "translation_display_name": "반동 회전 감쇠",
+      "translation_description": "손 회전 반동의 감쇠 정도를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Recoil Rotation Return Speed",
+      "source_display_name": "Recoil Rotation Return Speed",
+      "source_description": "Hand recoil return speed.",
+      "translation_display_name": "반동 회전 복귀 속도",
+      "translation_description": "손 회전 반동이 원래 방향으로 돌아오는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Recoil Rotation Side Mult",
+      "source_display_name": "Recoil Rotation Side Mult",
+      "source_description": "Multiplier for sideways hand recoil.",
+      "translation_display_name": "반동 회전 좌우 배율",
+      "translation_description": "반동 회전 좌우 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Recoil Rotation Up Mult",
+      "source_display_name": "Recoil Rotation Up Mult",
+      "source_description": "Multiplier for hand recoil angle up/down.",
+      "translation_display_name": "반동 회전 위 배율",
+      "translation_description": "반동 회전 위 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Rifle Real Recoil Multiplier",
+      "source_display_name": "Rifle Real Recoil Multiplier",
+      "source_description": "Real recoil multiplier for rifles.",
+      "translation_display_name": "소총 실제 반동 배율",
+      "translation_description": "소총 실제 반동 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Roll Aiming Multiplier",
+      "source_display_name": "Roll Aiming Multiplier",
+      "source_description": "Visual recoil roll multiplier while aiming",
+      "translation_display_name": "조준 중 시각 반동 롤 배율",
+      "translation_description": "조준 상태의 시각 반동 롤(좌우 기울어짐)에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Roll Multiplier",
+      "source_display_name": "Roll Multiplier",
+      "source_description": "Visual recoil roll multiplier while not aiming.",
+      "translation_display_name": "비조준 시 시각 반동 롤 배율",
+      "translation_description": "비조준 상태의 시각 반동 롤(좌우 기울어짐)에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Roll Speed Multiplier",
+      "source_display_name": "Roll Speed Multiplier",
+      "source_description": "Visual recoil roll speed multiplier",
+      "translation_display_name": "롤 속도 배율",
+      "translation_description": "시각적 반동의 좌우 롤 회전 속도에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "SMG Real Recoil Multiplier",
+      "source_display_name": "SMG Real Recoil Multiplier",
+      "source_description": "Real recoil multiplier for SMGs.",
+      "translation_display_name": "기관단총 실제 반동 배율",
+      "translation_description": "기관단총 실제 반동 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Shotgun Real Recoil Multiplier",
+      "source_display_name": "Shotgun Real Recoil Multiplier",
+      "source_description": "Real recoil multiplier for shotguns.",
+      "translation_display_name": "산탄총 실제 반동 배율",
+      "translation_description": "산탄총 실제 반동 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Slow Spring Damping",
+      "source_display_name": "Slow Spring Damping",
+      "source_description": "Damping of the slow spring",
+      "translation_display_name": "느린 스프링 감쇠",
+      "translation_description": "느린 스프링 감쇠 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Slow Spring Direction Angle",
+      "source_display_name": "Slow Spring Direction Angle",
+      "source_description": "Minimum/maximum angle for slow recoil spring. X = minimum, Y = maximum, 0 - right, 90 - up, 180 - left, 270 - down.",
+      "translation_display_name": "느린 반동 스프링 방향 범위",
+      "translation_description": "느린 반동 스프링이 작용할 방향 각도의 최소/최대값입니다. X는 최소, Y는 최대이며 0°=오른쪽, 90°=위, 180°=왼쪽, 270°=아래입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Slow Spring Horizontal Mult Min/Max",
+      "source_display_name": "Slow Spring Horizontal Mult Min/Max",
+      "source_description": "Minimum/maximum horizontal force multiplier for slow recoil spring.",
+      "translation_display_name": "느린 스프링 수평 배율 최소/최대",
+      "translation_description": "느린 스프링 수평 배율 최소/최대 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Slow Spring Real Recoil Direction Normalize",
+      "source_display_name": "Slow Spring Real Recoil Direction Normalize",
+      "source_description": "Normalizes real recoil force for slow spring which makes every weapon apply the same amount of force to the spring.",
+      "translation_display_name": "느린 스프링에 실제 반동 힘 정규화",
+      "translation_description": "느린 스프링에 전달되는 실제 반동 힘을 정규화해 무기별 반동 크기 차이와 무관하게 비슷한 힘이 스프링에 적용되도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Slow Spring Real Recoil Horizontal Min/Max",
+      "source_display_name": "Slow Spring Real Recoil Horizontal Min/Max",
+      "source_description": "Multiplier range for horizontal recoil. X = minimum, Y = maximum.",
+      "translation_display_name": "느린 스프링 실제 반동 수평 최소/최대",
+      "translation_description": "느린 스프링 실제 반동 수평 최소/최대 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Slow Spring Real Recoil Vertical Min/Max",
+      "source_display_name": "Slow Spring Real Recoil Vertical Min/Max",
+      "source_description": "Multiplier range for vertical recoil. X = minimum, Y = maximum.",
+      "translation_display_name": "느린 스프링 실제 반동 수직 최소/최대",
+      "translation_description": "느린 스프링 실제 반동 수직 최소/최대 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Slow Spring Speed",
+      "source_display_name": "Slow Spring Speed",
+      "source_description": "Speed of the slow spring",
+      "translation_display_name": "느린 스프링 속도",
+      "translation_description": "느린 스프링 속도 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Slow Spring Stiffness",
+      "source_display_name": "Slow Spring Stiffness",
+      "source_description": "Stiffness of the slow spring",
+      "translation_display_name": "느린 스프링 강성",
+      "translation_description": "느린 스프링 강성 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Slow Spring Use Real Recoil",
+      "source_display_name": "Slow Spring Use Real Recoil",
+      "source_description": "Makes slow spring use real recoil direction for impulse direction.",
+      "translation_display_name": "느린 스프링 사용 실제 반동",
+      "translation_description": "느린 반동 스프링의 충격 방향에 실제 반동 방향을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Slow Spring Vertical Mult Min/Max",
+      "source_display_name": "Slow Spring Vertical Mult Min/Max",
+      "source_description": "Minimum/maximum vertical force multiplier for slow recoil spring.",
+      "translation_display_name": "느린 스프링 수직 배율 최소/최대",
+      "translation_description": "느린 스프링 수직 배율 최소/최대 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Sniper Real Recoil Multiplier",
+      "source_display_name": "Sniper Real Recoil Multiplier",
+      "source_description": "Real recoil multiplier for sniper rifles.",
+      "translation_display_name": "저격수 실제 반동 배율",
+      "translation_description": "저격수 실제 반동 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Use 1.7.2 Recoil Values",
+      "source_display_name": "Use 1.7.2 Recoil Values",
+      "source_description": "(TEMPORARY) Makes real recoil use 1.7.2 values (for the most part) for calculating real recoil force amounts. Requires config changes. Baseline settings: Vertical mult: 2.0, Horizontal mult: 0.7, All category multipliers on their default values (Reset)",
+      "translation_display_name": "1.7.2 반동 값 사용",
+      "translation_description": "임시 호환 옵션입니다. 실제 반동 힘 계산에 대부분 1.7.2 버전 값을 사용합니다. 기준 설정은 수직 배율 2.0, 수평 배율 0.7, 무기 분류별 배율 기본값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Weapon Sway Multiplier",
+      "source_display_name": "Weapon Sway Multiplier",
+      "source_description": "Multiplier for weapon sway. X = horizontal, Y = vertical.",
+      "translation_display_name": "무기 흔들림 배율",
+      "translation_description": "무기 흔들림 배율 값을 설정합니다.",
+      "values": []
+    }
+  ]
+}

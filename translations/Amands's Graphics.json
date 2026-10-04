@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "AmandsGraphics",
+  "mod_name": "Amands's Graphics",
+  "channels": {
+    "error_screens": [
+      {
+        "id": "hq_color_title",
+        "source": "High-Quality Color is Off",
+        "translation": "고품질 색상(High-Quality Color)이 꺼져 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hq_color_body",
+        "source": "Enable High-Quality Color on Graphics Settings for SurroundDOF, UIDOF and OpticDOF to work as intended",
+        "translation": "SurroundDOF, UIDOF, OpticDOF가 정상적으로 작동하려면 그래픽 설정에서 고품질 색상(High-Quality Color)을 활성화하세요.",
+        "match_mode": "exact"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "amands_on",
+        "source": "<b>ON</b>",
+        "translation": "<b>켜짐</b>",
+        "match_mode": "exact",
+        "note": "Amands Graphics 상태 오버레이"
+      },
+      {
+        "id": "amands_off",
+        "source": "<b>OFF</b>",
+        "translation": "<b>꺼짐</b>",
+        "match_mode": "exact",
+        "note": "Amands Graphics 상태 오버레이"
+      }
+    ]
+  }
+}

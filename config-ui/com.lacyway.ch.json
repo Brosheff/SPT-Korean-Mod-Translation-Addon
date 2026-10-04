@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.lacyway.ch",
+  "plugin_name": "ContinuousHealing-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "1. Settings",
+      "translation": "1. 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. Settings",
+      "key": "Heal Delay",
+      "source_display_name": "Heal Delay",
+      "source_description": "The delay between every heal on each limb. Game default is 2, set to 0 to use intended Continuous Healing behavior.",
+      "translation_display_name": "연속 치료 간격",
+      "translation_description": "한 부위 치료가 끝난 뒤 다음 부위를 치료하기까지의 대기 시간입니다. 게임 기본값은 2초이며, 모드가 의도한 즉시 연속 치료는 0으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Settings",
+      "key": "Heal Limbs",
+      "source_display_name": "Heal Limbs",
+      "source_description": "If using surgery kits should also be continuous.\nNOTE: Animation does not loop.",
+      "translation_display_name": "사지 연속 치료",
+      "translation_description": "수술 키트 사용도 여러 부위를 연속으로 치료하도록 합니다. 수술 애니메이션 자체는 반복 재생되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "1. Settings",
+      "key": "Reset Animations",
+      "source_display_name": "Reset Animations",
+      "source_description": "If a new animaton should be played between every limb being healed. This does not affect the speed at which you heal.",
+      "translation_display_name": "초기화 애니메이션",
+      "translation_description": "부위를 바꿔 치료할 때마다 새 치료 애니메이션을 시작할지 설정합니다. 실제 치료 속도에는 영향을 주지 않습니다.",
+      "values": []
+    }
+  ]
+}

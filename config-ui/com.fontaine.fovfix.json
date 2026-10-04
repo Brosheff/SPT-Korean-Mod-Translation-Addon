@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.fontaine.fovfix",
+  "plugin_name": "Fontaine-FOVFix",
+  "_note": "MODS.zip phase 3 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "1. Player Camera ADS FOV",
+      "translation": "1. 플레이어 카메라 ADS FOV"
+    },
+    {
+      "source": "2. ADS Player Camera Position",
+      "translation": "2. ADS 플레이어 카메라 위치"
+    },
+    {
+      "source": "3. Toggleable Zoom",
+      "translation": "3. 전환식 줌"
+    },
+    {
+      "source": "4. Mouse Sensitivity.",
+      "translation": "4. 마우스 감도"
+    },
+    {
+      "source": "5. Camera Speed",
+      "translation": "5. 카메라 속도"
+    },
+    {
+      "source": "6. Camera Settings",
+      "translation": "6. 카메라 설정"
+    },
+    {
+      "source": ".0. Testing",
+      "translation": ".0. 테스트"
+    }
+  ],
+  "entries": [
+    {
+      "section": ".0. Testing",
+      "key": "test 1",
+      "source_display_name": "test 1",
+      "source_description": "",
+      "translation_display_name": "테스트 1",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": ".0. Testing",
+      "key": "test 2",
+      "source_display_name": "test 2",
+      "source_description": "",
+      "translation_display_name": "테스트 2",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": ".0. Testing",
+      "key": "test 3",
+      "source_display_name": "test 3",
+      "source_description": "",
+      "translation_display_name": "테스트 3",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": ".0. Testing",
+      "key": "test 4",
+      "source_display_name": "test 4",
+      "source_description": "",
+      "translation_display_name": "테스트 4",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Player Camera ADS FOV",
+      "key": "Optic FOV Multi",
+      "source_display_name": "Optic FOV Multi",
+      "source_description": "Lower Multi = Lower FOV So More Zoom.",
+      "translation_display_name": "광학 조준경 FOV 배율",
+      "translation_description": "배율 값을 낮출수록 FOV가 좁아져 더 크게 확대됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. Player Camera ADS FOV",
+      "key": "Unmagnified Sight FOV Multi",
+      "source_display_name": "Unmagnified Sight FOV Multi",
+      "source_description": "Lower Multi = Lower FOV So More Zoom.",
+      "translation_display_name": "비배율 조준기 FOV 배율",
+      "translation_description": "배율 값을 낮출수록 FOV가 좁아져 더 크게 확대됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. ADS Player Camera Position",
+      "key": "Increase Camera Offset Key",
+      "source_display_name": "Increase Camera Offset Key",
+      "source_description": "",
+      "translation_display_name": "카메라 오프셋 증가 키",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "2. ADS Player Camera Position",
+      "key": "Decrease Camera Offset Key",
+      "source_display_name": "Decrease Camera Offset Key",
+      "source_description": "",
+      "translation_display_name": "카메라 오프셋 감소 키",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "2. ADS Player Camera Position",
+      "key": "Optic Camera Distance Offset",
+      "source_display_name": "Optic Camera Distance Offset",
+      "source_description": "Distance Of The Camera To Optics When ADSed. Lower = Closer To Optic.",
+      "translation_display_name": "광학 조준경 카메라 거리 오프셋",
+      "translation_description": "ADS 중 카메라와 광학 조준경 사이의 거리를 조절합니다. 값이 낮을수록 조준경에 더 가까워집니다.",
+      "values": []
+    },
+    {
+      "section": "2. ADS Player Camera Position",
+      "key": "Non-Optic Camera Distance Offset",
+      "source_display_name": "Non-Optic Camera Distance Offset",
+      "source_description": "Distance Of The Camera To Sights When ADSed. Lower = Closer To Optic.",
+      "translation_display_name": "비광학 조준기 카메라 거리 오프셋",
+      "translation_description": "ADS 중 카메라와 조준기 사이의 거리를 조절합니다. 값이 낮을수록 조준기에 더 가까워집니다.",
+      "values": []
+    },
+    {
+      "section": "2. ADS Player Camera Position",
+      "key": "Pistol Camera Distance Offset",
+      "source_display_name": "Pistol Camera Distance Offset",
+      "source_description": "Distance Of The Camera To Sights When ADSed. Lower = Closer To Optic.",
+      "translation_display_name": "권총 카메라 거리 오프셋",
+      "translation_description": "ADS 중 카메라와 조준기 사이의 거리를 조절합니다. 값이 낮을수록 조준기에 더 가까워집니다.",
+      "values": []
+    },
+    {
+      "section": "2. ADS Player Camera Position",
+      "key": "Rifle Left Shoulder Offset",
+      "source_display_name": "Rifle Left Shoulder Offset",
+      "source_description": "Distance Of The Camera To Sights When ADSed. Lower = Closer To Optic. Set Till Left Shoulder Offset Matches Right Shoulder, Will Depend On Your Set Up. Does Not Apply If Realism Stances Are Enabled.",
+      "translation_display_name": "소총 왼쪽 어깨 오프셋",
+      "translation_description": "ADS 중 카메라와 조준기 사이의 거리를 조절합니다. 값이 낮을수록 조준기에 더 가까워집니다. 왼쪽 어깨 조준 위치가 오른쪽 어깨와 맞도록 조정하십시오. 사용하는 설정에 따라 값이 달라질 수 있으며, Realism 자세 기능이 활성화된 경우에는 적용되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "2. ADS Player Camera Position",
+      "key": "Pistol Left Shoulder Offset",
+      "source_display_name": "Pistol Left Shoulder Offset",
+      "source_description": "Distance Of The Camera To Sights When ADSed. Lower = Closer To Optic. Set Till Left Shoulder Offset Matches Right Shoulder, Will Depend On Your Set Up. Does Not Apply If Realism Stances Are Enabled.",
+      "translation_display_name": "권총 왼쪽 어깨 오프셋",
+      "translation_description": "ADS 중 카메라와 조준기 사이의 거리를 조절합니다. 값이 낮을수록 조준기에 더 가까워집니다. 왼쪽 어깨 조준 위치가 오른쪽 어깨와 맞도록 조정하십시오. 사용하는 설정에 따라 값이 달라질 수 있으며, Realism 자세 기능이 활성화된 경우에는 적용되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Toggleable Zoom",
+      "key": "Zoom Toggle",
+      "source_display_name": "Zoom Toggle",
+      "source_description": "Toggle To Zoom.",
+      "translation_display_name": "줌 전환",
+      "translation_description": "줌을 전환합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Toggleable Zoom",
+      "key": "Hold To Zoom",
+      "source_display_name": "Hold To Zoom",
+      "source_description": "Change Zoom To A Hold Keybind.",
+      "translation_display_name": "길게 눌러 줌",
+      "translation_description": "줌 전환을 키를 누르고 있는 동안만 작동하도록 변경합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Toggleable Zoom",
+      "key": "Cancel Zoom On Un-ADS",
+      "source_display_name": "Cancel Zoom On Un-ADS",
+      "source_description": "Cancels Toggle Zoom When Un-ADSing If Not Using Hold To Zoom",
+      "translation_display_name": "ADS 해제 시 줌 취소",
+      "translation_description": "길게 눌러 줌을 사용하지 않을 때 ADS를 해제하면 전환식 줌을 취소합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Toggleable Zoom",
+      "key": "Enable Toggle Zoom On Hold-Breath",
+      "source_display_name": "Enable Toggle Zoom On Hold-Breath",
+      "source_description": "Toggle Zoom Will Activated When Holding Breath Only.",
+      "translation_display_name": "숨 참기 중 전환식 줌 사용",
+      "translation_description": "숨을 참고 있을 때만 전환식 줌을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Toggleable Zoom",
+      "key": "Optics Toggle FOV Multi",
+      "source_display_name": "Optics Toggle FOV Multi",
+      "source_description": "FOV Multiplier When Aiming With Optic.",
+      "translation_display_name": "광학 조준경 전환 줌 FOV 배율",
+      "translation_description": "광학 조준경으로 조준할 때 전환식 줌의 FOV 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Toggleable Zoom",
+      "key": "Non-Optics Toggle FOV Multi",
+      "source_display_name": "Non-Optics Toggle FOV Multi",
+      "source_description": "FOV Multiplier When Aiming with Non-Optic Or Not Aiming.",
+      "translation_display_name": "비광학 조준기 전환 줌 FOV 배율",
+      "translation_description": "비광학 조준기로 조준하거나 조준하지 않을 때 전환식 줌의 FOV 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Toggleable Zoom",
+      "key": "Un-Aimed Toggle FOV Multi",
+      "source_display_name": "Un-Aimed Toggle FOV Multi",
+      "source_description": "FOV Multiplier When Aiming with Non-Optic Or Not Aiming.",
+      "translation_display_name": "비조준 전환 줌 FOV 배율",
+      "translation_description": "비광학 조준기로 조준하거나 조준하지 않을 때 전환식 줌의 FOV 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Toggleable Zoom",
+      "key": "Non-Optics Toggle Zoom Sens Multi",
+      "source_display_name": "Non-Optics Toggle Zoom Sens Multi",
+      "source_description": "Sens Modifier When Zoom Is Toggled.",
+      "translation_display_name": "비광학 조준기 전환 줌 감도 배율",
+      "translation_description": "전환식 줌이 활성화되었을 때의 마우스 감도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Toggleable Zoom",
+      "key": "Un-Aimed Toggle Zoom Sens Multi",
+      "source_display_name": "Un-Aimed Toggle Zoom Sens Multi",
+      "source_description": "Sens Modifier When Zoom Is Toggled.",
+      "translation_display_name": "비조준 전환 줌 감도 배율",
+      "translation_description": "전환식 줌이 활성화되었을 때의 마우스 감도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Toggleable Zoom",
+      "key": "Optics Toggle Zoom Sens Multi",
+      "source_display_name": "Optics Toggle Zoom Sens Multi",
+      "source_description": "Sens Modifier When Zoom Toggled.",
+      "translation_display_name": "광학 조준경 전환 줌 감도 배율",
+      "translation_description": "전환식 줌이 활성화되었을 때의 마우스 감도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "Change Mouse Sensitivity",
+      "source_display_name": "Change Mouse Sensitivity",
+      "source_description": "Sets Mouse Sensitivity Based On The Scope's Current Magnificaiton. Non-Optical Sights Are Treated The Same As 1x.",
+      "translation_display_name": "마우스 감도 변경",
+      "translation_description": "조준경의 현재 배율에 따라 마우스 감도를 설정합니다. 비광학 조준기는 1배율과 동일하게 취급합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "Unmagnified Sight Sens Multi",
+      "source_display_name": "Unmagnified Sight Sens Multi",
+      "source_description": "",
+      "translation_display_name": "비배율 조준기 감도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "1x Sens Multi",
+      "source_display_name": "1x Sens Multi",
+      "source_description": "",
+      "translation_display_name": "1배율 감도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "2x Sens Multi",
+      "source_display_name": "2x Sens Multi",
+      "source_description": "",
+      "translation_display_name": "2배율 감도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "3x Sens Multi",
+      "source_display_name": "3x Sens Multi",
+      "source_description": "",
+      "translation_display_name": "3배율 감도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "4x Sens Multi",
+      "source_display_name": "4x Sens Multi",
+      "source_description": "",
+      "translation_display_name": "4배율 감도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "5x Sens Multi",
+      "source_display_name": "5x Sens Multi",
+      "source_description": "",
+      "translation_display_name": "5배율 감도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "6x Sens Multi",
+      "source_display_name": "6x Sens Multi",
+      "source_description": "",
+      "translation_display_name": "6배율 감도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "8x Sens Multi",
+      "source_display_name": "8x Sens Multi",
+      "source_description": "",
+      "translation_display_name": "8배율 감도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "10x Sens Multi",
+      "source_display_name": "10x Sens Multi",
+      "source_description": "",
+      "translation_display_name": "10배율 감도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "12x Sens Multi",
+      "source_display_name": "12x Sens Multi",
+      "source_description": "",
+      "translation_display_name": "12배율 감도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Mouse Sensitivity.",
+      "key": "High Sens Multi",
+      "source_display_name": "High Sens Multi",
+      "source_description": "",
+      "translation_display_name": "고배율 감도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "6. Camera Settings",
+      "key": "Rifle Camera X Offset",
+      "source_display_name": "Rifle Camera X Offset",
+      "source_description": "Moves the player camera relative to the player's hands. Don't recommend changing.",
+      "translation_display_name": "소총 카메라 X 오프셋",
+      "translation_description": "플레이어의 손을 기준으로 카메라 위치를 이동합니다. 변경을 권장하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "6. Camera Settings",
+      "key": "Rifle Camera Y Offset",
+      "source_display_name": "Rifle Camera Y Offset",
+      "source_description": "Moves the player camera relative to the player's hands. Don't recommend changing.",
+      "translation_display_name": "소총 카메라 Y 오프셋",
+      "translation_description": "플레이어의 손을 기준으로 카메라 위치를 이동합니다. 변경을 권장하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "6. Camera Settings",
+      "key": "Rifle Camera Z Offset (Formerly Hud FOV)",
+      "source_display_name": "Rifle Camera Z Offset (Formerly Hud FOV)",
+      "source_description": "How Far Away The Player Camera Is From The Player's Arms And Weapon, Making Them Appear Closer/Larger Or Further Away/Smaller",
+      "translation_display_name": "소총 카메라 Z 오프셋 (이전 HUD FOV)",
+      "translation_description": "플레이어의 팔과 무기에서 카메라가 얼마나 떨어져 있는지 조절합니다. 값에 따라 팔과 무기가 더 가깝고 크게 보이거나 더 멀고 작게 보입니다.",
+      "values": []
+    },
+    {
+      "section": "6. Camera Settings",
+      "key": "Pistol Camera X Offset",
+      "source_display_name": "Pistol Camera X Offset",
+      "source_description": "Moves the player camera relative to the player's hands. Don't recommend changing.",
+      "translation_display_name": "권총 카메라 X 오프셋",
+      "translation_description": "플레이어의 손을 기준으로 카메라 위치를 이동합니다. 변경을 권장하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "6. Camera Settings",
+      "key": "Pistol Camera Y Offset",
+      "source_display_name": "Pistol Camera Y Offset",
+      "source_description": "Moves the player camera relative to the player's hands. Don't recommend changing.",
+      "translation_display_name": "권총 카메라 Y 오프셋",
+      "translation_description": "플레이어의 손을 기준으로 카메라 위치를 이동합니다. 변경을 권장하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "6. Camera Settings",
+      "key": "Pistol Camera Z Offset (Formerly Hud FOV)",
+      "source_display_name": "Pistol Camera Z Offset (Formerly Hud FOV)",
+      "source_description": "How Far Away The Player Camera Is From The Player's Arms And Weapon, Making Them Appear Closer/Larger Or Further Away/Smaller",
+      "translation_display_name": "권총 카메라 Z 오프셋 (이전 HUD FOV)",
+      "translation_description": "플레이어의 팔과 무기에서 카메라가 얼마나 떨어져 있는지 조절합니다. 값에 따라 팔과 무기가 더 가깝고 크게 보이거나 더 멀고 작게 보입니다.",
+      "values": []
+    },
+    {
+      "section": "6. Camera Settings",
+      "key": "Enable FOV Scale Fix",
+      "source_display_name": "Enable FOV Scale Fix",
+      "source_description": "Lower Value = More Viewmodel Distortion.",
+      "translation_display_name": "FOV 스케일 보정 사용",
+      "translation_description": "값이 낮을수록 뷰모델 왜곡이 커집니다.",
+      "values": []
+    },
+    {
+      "section": "6. Camera Settings",
+      "key": "FOV Scale",
+      "source_display_name": "FOV Scale",
+      "source_description": "Viewmodel FOV. A Value Of One Reduces The Distortion Caused By Higher FOV Settings, Significantly Reducing Issues With Laser Misallignment And Optics Recoil. Does Make Weapon Postion And Scale Look Different.",
+      "translation_display_name": "FOV 스케일",
+      "translation_description": "뷰모델 FOV입니다. 값 1은 높은 FOV 설정으로 인한 왜곡을 줄여 레이저 정렬 불일치와 광학 조준경 반동 문제를 크게 줄입니다. 대신 무기의 위치와 크기가 다르게 보일 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "6. Camera Settings",
+      "key": "Free Look Angle",
+      "source_display_name": "Free Look Angle",
+      "source_description": "How Far You Can Turn Your Head Left/Right Without Turning Your Body.",
+      "translation_display_name": "자유 시점 각도",
+      "translation_description": "몸을 돌리지 않고 머리를 좌우로 돌릴 수 있는 최대 각도를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Rfile Camera Speed",
+      "source_display_name": "Rfile Camera Speed",
+      "source_description": "Global Multi For The Speed Of ADS Camera Transitions For Rifles Without Optics. A Low Value Can Be Used To Smoothen Out The Overly Snappy Transitions Some Scope And Weapon Combinations Can Have At High FOV.",
+      "translation_display_name": "소총 카메라 속도",
+      "translation_description": "광학 조준경이 없는 소총의 ADS 카메라 전환 속도 전역 배율입니다. 값을 낮추면 높은 FOV에서 일부 무기와 조준경 조합의 지나치게 빠른 전환을 부드럽게 만들 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Pistol Camera Speed",
+      "source_display_name": "Pistol Camera Speed",
+      "source_description": "Global Multi For The Speed Of ADS Camera Transitions For Pistols. A Low Value Can Be Used To Smoothen Out The Overly Snappy Transitions Some Weapons Can Have At High FOV.",
+      "translation_display_name": "권총 카메라 속도",
+      "translation_description": "권총의 ADS 카메라 전환 속도 전역 배율입니다. 값을 낮추면 높은 FOV에서 일부 무기의 지나치게 빠른 전환을 부드럽게 만들 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Optic Camera Speed",
+      "source_display_name": "Optic Camera Speed",
+      "source_description": "Global Multi For The Speed Of ADS Camera Transitions For Rifels With Optics. A Low Value Can Be Used To Smoothen Out The Overly Snappy Transitions Some Scope And Weapon Combinations Can Have At High FOV.",
+      "translation_display_name": "광학 조준경 카메라 속도",
+      "translation_description": "광학 조준경을 장착한 소총의 ADS 카메라 전환 속도 전역 배율입니다. 값을 낮추면 높은 FOV에서 일부 무기와 조준경 조합의 지나치게 빠른 전환을 부드럽게 만들 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Rfile Camera Aim Speed X-Axis",
+      "source_display_name": "Rfile Camera Aim Speed X-Axis",
+      "source_description": "The Speed Of The Player Camera When Aiming For The X-Axis Specifically",
+      "translation_display_name": "소총 조준 카메라 X축 속도",
+      "translation_description": "조준할 때 플레이어 카메라의 X축 이동 속도를 개별적으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Pistol Camera Aim Speed X-Axis",
+      "source_display_name": "Pistol Camera Aim Speed X-Axis",
+      "source_description": "The Speed Of The Player Camera When Aiming For The X-Axis Specifically",
+      "translation_display_name": "권총 조준 카메라 X축 속도",
+      "translation_description": "조준할 때 플레이어 카메라의 X축 이동 속도를 개별적으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Camera Un-Aim Speed X-Axis",
+      "source_display_name": "Camera Un-Aim Speed X-Axis",
+      "source_description": "The Speed Of The Player Camera When Un-Aiming For The X-Axis Specifically",
+      "translation_display_name": "조준 해제 카메라 X축 속도",
+      "translation_description": "조준을 해제할 때 플레이어 카메라의 X축 이동 속도를 개별적으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Rifle Camera Aim Speed Y-Axis",
+      "source_display_name": "Rifle Camera Aim Speed Y-Axis",
+      "source_description": "The Speed Of The Player Camera When Aiming For The Y-Axis Specifically",
+      "translation_display_name": "소총 조준 카메라 Y축 속도",
+      "translation_description": "조준할 때 플레이어 카메라의 Y축 이동 속도를 개별적으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Pistol Camera Aim Speed Y-Axis",
+      "source_display_name": "Pistol Camera Aim Speed Y-Axis",
+      "source_description": "The Speed Of The Player Camera When Aiming For The Y-Axis Specifically",
+      "translation_display_name": "권총 조준 카메라 Y축 속도",
+      "translation_description": "조준할 때 플레이어 카메라의 Y축 이동 속도를 개별적으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Camera Un-Aim Speed Y-Axis",
+      "source_display_name": "Camera Un-Aim Speed Y-Axis",
+      "source_description": "The Speed Of The Player Camera When Un-Aiming For The Y-Axis Specifically",
+      "translation_display_name": "조준 해제 카메라 Y축 속도",
+      "translation_description": "조준을 해제할 때 플레이어 카메라의 Y축 이동 속도를 개별적으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Rifle Camera Aim Speed Z-Axis",
+      "source_display_name": "Rifle Camera Aim Speed Z-Axis",
+      "source_description": "The Speed Of The Player Camera When Aiming For The Z-Axis Specifically",
+      "translation_display_name": "소총 조준 카메라 Z축 속도",
+      "translation_description": "조준할 때 플레이어 카메라의 Z축 이동 속도를 개별적으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Pistol Camera Aim Speed Z-Axis",
+      "source_display_name": "Pistol Camera Aim Speed Z-Axis",
+      "source_description": "The Speed Of The Player Camera When Aiming For The Z-Axis Specifically",
+      "translation_display_name": "권총 조준 카메라 Z축 속도",
+      "translation_description": "조준할 때 플레이어 카메라의 Z축 이동 속도를 개별적으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Camera Speed",
+      "key": "Camera Un-Aim Speed Z-Axis",
+      "source_display_name": "Camera Un-Aim Speed Z-Axis",
+      "source_description": "The Speed Of The Player Camera When Un-Aiming For The Z-Axis Specifically",
+      "translation_display_name": "조준 해제 카메라 Z축 속도",
+      "translation_description": "조준을 해제할 때 플레이어 카메라의 Z축 이동 속도를 개별적으로 설정합니다.",
+      "values": []
+    }
+  ]
+}

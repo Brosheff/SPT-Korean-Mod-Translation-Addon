@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "RaidReview",
+  "mod_name": "Raid Review",
+  "channels": {
+    "notifications": [
+      {
+        "id": "recording_completed",
+        "source": "Raid Review Recording Completed",
+        "translation": "레이드 리뷰 기록 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "recording_started",
+        "source": "Raid Review Recording Started",
+        "translation": "레이드 리뷰 기록 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "server_connected",
+        "source": "Raid Review Server Connected",
+        "translation": "레이드 리뷰 서버 연결됨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "server_connect_failed",
+        "source": "Raid Review - Unable to Connect To Server",
+        "translation": "레이드 리뷰 - 서버에 연결할 수 없습니다.",
+        "match_mode": "exact"
+      }
+    ],
+    "error_screens": [
+      {
+        "id": "server_error_title",
+        "source": "Raid Review - Server Connection Error",
+        "translation": "레이드 리뷰 - 서버 연결 오류",
+        "match_mode": "exact"
+      },
+      {
+        "id": "server_error_body",
+        "source": "Raid Review was unable to connect to the Websocket server, please check 'Server IP' in the F12 menu and restart game.",
+        "translation": "레이드 리뷰가 WebSocket 서버에 연결하지 못했습니다. F12 메뉴의 'Server IP' 설정을 확인한 뒤 게임을 다시 시작하세요.",
+        "match_mode": "exact"
+      }
+    ],
+    "locale_additions": [
+      {
+        "id": "raid_review",
+        "source": "RAID REVIEW",
+        "translation": "레이드 리뷰",
+        "match_mode": "exact",
+        "note": "메인 메뉴에 추가되는 Raid Review 버튼",
+        "key": "RAID REVIEW"
+      }
+    ]
+  }
+}

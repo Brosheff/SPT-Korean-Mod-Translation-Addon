@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.tyfon.wikilinks",
+  "plugin_name": "WikiLinks",
+  "_note": "SOURCE3 WikiLinks 2.0.0 F12 Configuration Manager display-only Korean translation.",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Enable Context Menu",
+      "source_display_name": "Enable Context Menu",
+      "source_description": "Show Open Wiki option in context menu for all items",
+      "translation_display_name": "컨텍스트 메뉴 위키 링크",
+      "translation_description": "모든 아이템의 컨텍스트 메뉴에 위키 열기 항목을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Quest Button",
+      "source_display_name": "Enable Quest Button",
+      "source_description": "Show Open Wiki button in quest descriptions",
+      "translation_display_name": "퀘스트 위키 버튼",
+      "translation_description": "퀘스트 설명에 위키 열기 버튼을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Use Localized Links",
+      "source_display_name": "Use Localized Links",
+      "source_description": "Links will go to your language's version of the page instead of English. Be warned that many pages are not translated and may not exist in your language.",
+      "translation_display_name": "현재 언어 위키 링크 사용",
+      "translation_description": "영문 페이지 대신 현재 게임 언어에 해당하는 위키 페이지로 연결합니다. 번역되지 않았거나 해당 언어 페이지가 존재하지 않는 문서가 많을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Use Wayback Machine",
+      "source_display_name": "Use Wayback Machine",
+      "source_description": "Use the Wayback Machine to get a link to the page as it was on the beta version of the game. This also takes slightly longer to open the webpage.",
+      "translation_display_name": "웨이백 머신 사용",
+      "translation_description": "게임 베타 버전 당시의 페이지를 웨이백 머신에서 찾아 엽니다. 웹페이지가 열리는 데 시간이 조금 더 걸립니다.",
+      "values": []
+    }
+  ]
+}

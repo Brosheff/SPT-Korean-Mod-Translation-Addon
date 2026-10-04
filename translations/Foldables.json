@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.ozen.foldables",
+  "mod_name": "Foldables",
+  "channels": {
+    "locale": [
+      {
+        "key": "Container is folded",
+        "source": "Container is folded",
+        "translation": "컨테이너가 접혀 있습니다",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Item is folded and can't unfold in place",
+        "source": "Item is folded and can't unfold in place",
+        "translation": "아이템이 접혀 있어 현재 위치에서 펼칠 수 없습니다"
+      },
+      {
+        "key": "Cannot fold the item now",
+        "source": "Cannot fold the item now",
+        "translation": "지금은 아이템을 접을 수 없습니다"
+      },
+      {
+        "key": "Cannot fold the item while moving",
+        "source": "Cannot fold the item while moving",
+        "translation": "이동 중에는 아이템을 접을 수 없습니다"
+      },
+      {
+        "key": "Cannot fold the container with items inside",
+        "source": "Cannot fold the container with items inside",
+        "translation": "내용물이 들어 있는 컨테이너는 접을 수 없습니다"
+      },
+      {
+        "key": "Cannot fold the container with unsearched items inside",
+        "source": "Cannot fold the container with unsearched items inside",
+        "translation": "검색하지 않은 아이템이 들어 있는 컨테이너는 접을 수 없습니다"
+      },
+      {
+        "key": "Cannot fold while the item is equipped",
+        "source": "Cannot fold while the item is equipped",
+        "translation": "장착 중인 아이템은 접을 수 없습니다"
+      },
+      {
+        "key": "Do you want to spill the contents of {0} and fold?",
+        "source": "Do you want to spill the contents of {0} and fold?",
+        "translation": "{0}의 내용물을 꺼내고 접으시겠습니까?"
+      },
+      {
+        "key": " (Folded)",
+        "source": " (Folded)",
+        "translation": " (접힘)"
+      }
+    ]
+  }
+}

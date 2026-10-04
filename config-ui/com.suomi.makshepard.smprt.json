@@ -1,0 +1,761 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.suomi.makshepard.smprt",
+  "plugin_name": "S&M-PRT",
+  "_note": "SOURCE3 Suomi-PRT 1.0.2 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "0. Interface",
+      "translation": "0. 인터페이스"
+    },
+    {
+      "source": "1. Hotkeys",
+      "translation": "1. 단축키"
+    },
+    {
+      "source": "2. Volume",
+      "translation": "2. 음량"
+    },
+    {
+      "source": "3. Radio",
+      "translation": "3. 무전기"
+    },
+    {
+      "source": "4. Notifications",
+      "translation": "4. 알림"
+    },
+    {
+      "source": "5. Indicators",
+      "translation": "5. 표시기"
+    },
+    {
+      "source": "6. Colors",
+      "translation": "6. 색상"
+    },
+    {
+      "source": "7. Raid Recordings",
+      "translation": "7. 레이드 녹음"
+    },
+    {
+      "source": "8. Developer",
+      "translation": "8. 개발자"
+    }
+  ],
+  "entries": [
+    {
+      "section": "0. Interface",
+      "key": "UI Style",
+      "source_display_name": "UI Style",
+      "source_description": "Classic is the look from previous versions and never changes. Instrument is the military-radio redesign. Switching takes effect immediately, no restart needed.",
+      "translation_display_name": "UI 스타일",
+      "translation_description": "Classic은 이전 버전의 화면 구성을 그대로 유지합니다. Instrument는 군용 무전기 형태로 재설계된 UI입니다. 변경 사항은 즉시 적용되며 재시작할 필요가 없습니다.",
+      "values": [
+        {
+          "source": "Classic",
+          "translation": "클래식"
+        },
+        {
+          "source": "Instrument",
+          "translation": "계기판"
+        }
+      ]
+    },
+    {
+      "section": "2. Volume",
+      "key": "Transmission Cues",
+      "source_display_name": "Transmission Cues",
+      "source_description": "Start and end cues for transmitting and receiving. Classic uses the four recorded sets shared between the radios. PerRadio synthesises an individual cue for each of the thirteen: a PTT click plus the tone its signalling family would use, shaped by that radio own passband. The recorded files are kept either way.",
+      "translation_display_name": "송수신 신호음",
+      "translation_description": "송신과 수신의 시작·종료 신호음을 설정합니다. Classic은 여러 무전기가 공유하는 기존 녹음 신호음 4세트를 사용합니다. PerRadio는 13종 무전기마다 PTT 클릭음과 해당 신호 방식에 맞는 음을 각 무전기의 통과 대역에 맞춰 합성합니다. 어떤 설정을 사용해도 기존 녹음 파일은 유지됩니다.",
+      "values": [
+        {
+          "source": "Classic",
+          "translation": "클래식"
+        },
+        {
+          "source": "PerRadio",
+          "translation": "규격별"
+        },
+        {
+          "source": "PerRadioAlt",
+          "translation": "시대별"
+        },
+        {
+          "source": "PerRadioAlt2",
+          "translation": "구조별"
+        }
+      ]
+    },
+    {
+      "section": "3. Radio",
+      "key": "Interference Character",
+      "source_display_name": "Interference Character",
+      "source_description": "How radios degrade at the edge of range. Classic is the behaviour from previous versions: one hiss curve for every radio. PerFamily makes it depend on the set - digital radios (DMR, TETRA, P25) stay clean and then drop whole words instead of hissing, analogue ones fade into noise, military ones keep a low noise floor. Does not change the radios themselves, only how their loss of signal sounds.",
+      "translation_display_name": "전파 방해 특성",
+      "translation_description": "통신 거리 끝부분에서 신호가 무너지는 방식을 설정합니다. Classic은 모든 무전기에 같은 잡음 곡선을 사용합니다. PerFamily는 장비의 신호 방식에 따라 달라져 디지털 무전기(DMR, TETRA, P25)는 깨끗한 신호를 유지하다 단어 단위로 끊기고, 아날로그는 점차 잡음에 묻히며, 군용 장비는 낮은 잡음 바닥을 유지합니다. 무전기의 성능 자체가 아니라 신호 손실이 들리는 방식만 바뀝니다.",
+      "values": [
+        {
+          "source": "Classic",
+          "translation": "클래식"
+        },
+        {
+          "source": "PerFamily",
+          "translation": "신호 방식별"
+        },
+        {
+          "source": "PerBand",
+          "translation": "대역별"
+        },
+        {
+          "source": "PerPower",
+          "translation": "출력별"
+        }
+      ]
+    },
+    {
+      "section": "0. Interface",
+      "key": "Signal Readout (Instrument)",
+      "source_display_name": "Signal Readout (Instrument)",
+      "source_description": "Signal presentation in the Instrument style. SMeter = needle across an S1-S9 scale with the figure in dBm. Bars = a segmented strip. Dbm = the number only. ArcGauge = a curved scale. VuNeedle = a boxed analogue meter. Ignored while UI Style is Classic.",
+      "translation_display_name": "신호 표시 방식 (계기판)",
+      "translation_description": "계기판 스타일의 신호 표시 방식을 설정합니다. SMeter는 S1-S9 눈금과 dBm 수치를 쓰는 바늘식 계기, Bars는 분할 막대, Dbm은 수치만, ArcGauge는 원호형 눈금, VuNeedle은 상자형 아날로그 바늘 계기입니다. UI 스타일이 Classic이면 적용되지 않습니다.",
+      "values": [
+        {
+          "source": "SMeter",
+          "translation": "S미터"
+        },
+        {
+          "source": "Bars",
+          "translation": "막대"
+        },
+        {
+          "source": "Dbm",
+          "translation": "dBm"
+        },
+        {
+          "source": "ArcGauge",
+          "translation": "원호 게이지"
+        },
+        {
+          "source": "VuNeedle",
+          "translation": "VU 바늘"
+        }
+      ]
+    },
+    {
+      "section": "0. Interface",
+      "key": "State Readout (Instrument)",
+      "source_display_name": "State Readout (Instrument)",
+      "source_description": "How TX / RX / PWR / DUP are shown in the Instrument style. LcdReadout = lettering on a plate. Dots and Blocks = a lamp beside each caption. Stencil = painted markings. Pills = filled plates. Ignored while UI Style is Classic.",
+      "translation_display_name": "상태 표시 방식 (계기판)",
+      "translation_description": "계기판 스타일에서 TX / RX / PWR / DUP 상태를 표시하는 방식을 설정합니다. LcdReadout은 판 위의 글자, Dots와 Blocks는 각 상태 옆의 표시등, Stencil은 도색된 표식, Pills는 채워진 판 형태입니다. UI 스타일이 Classic이면 적용되지 않습니다.",
+      "values": [
+        {
+          "source": "LcdReadout",
+          "translation": "LCD 표시"
+        },
+        {
+          "source": "Dots",
+          "translation": "점"
+        },
+        {
+          "source": "Blocks",
+          "translation": "블록"
+        },
+        {
+          "source": "Stencil",
+          "translation": "스텐실"
+        },
+        {
+          "source": "Pills",
+          "translation": "플레이트"
+        }
+      ]
+    },
+    {
+      "section": "0. Interface",
+      "key": "Battery Readout (Instrument)",
+      "source_display_name": "Battery Readout (Instrument)",
+      "source_description": "How battery charge is shown in the Instrument style. Segments = a segmented bar with the figure. Percent = the figure only. Volts = nominal pack voltage instead of a percentage. Only visible when a battery mod gives the radio battery slots.",
+      "translation_display_name": "배터리 표시 방식 (계기판)",
+      "translation_description": "계기판 스타일의 배터리 잔량 표시 방식을 설정합니다. Segments는 수치가 포함된 분할 막대, Percent는 백분율 수치만, Volts는 백분율 대신 배터리 팩의 공칭 전압을 표시합니다. 배터리 모드가 무전기에 배터리 슬롯을 추가한 경우에만 표시됩니다.",
+      "values": [
+        {
+          "source": "Segments",
+          "translation": "분할 막대"
+        },
+        {
+          "source": "Percent",
+          "translation": "백분율"
+        },
+        {
+          "source": "Volts",
+          "translation": "전압"
+        }
+      ]
+    },
+    {
+      "section": "0. Interface",
+      "key": "Radio Nameplate (Instrument)",
+      "source_display_name": "Radio Nameplate (Instrument)",
+      "source_description": "Show the model and tier of the active radio on the chassis. Off by default: you already know which radio you are carrying, and the row costs vertical space in the corner of the screen.",
+      "translation_display_name": "무전기 명판 (계기판)",
+      "translation_description": "계기판에 현재 사용 중인 무전기의 모델명과 등급을 표시합니다. 기본값은 꺼짐입니다. 어떤 무전기를 들고 있는지 이미 알 수 있고, 화면 구석의 세로 공간을 추가로 차지하기 때문입니다.",
+      "values": []
+    },
+    {
+      "section": "0. Interface",
+      "key": "Preview Scale",
+      "source_display_name": "Preview Scale",
+      "source_description": "How much the settings preview magnifies the chassis. Affects the preview only, never the HUD in a raid.",
+      "translation_display_name": "미리보기 배율",
+      "translation_description": "설정 화면의 무전기 본체 미리보기 확대 배율입니다. 미리보기에만 영향을 주며 레이드 중 HUD에는 적용되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "1. Hotkeys",
+      "key": "Toggle Radio",
+      "source_display_name": "Toggle Radio",
+      "source_description": "Turn the radio on/off (default: K)",
+      "translation_display_name": "무전기 켜기/끄기",
+      "translation_description": "무전기를 켜거나 끕니다. 기본 VOIP 키가 K일 때 기본 조합은 Right Ctrl + K입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Hotkeys",
+      "key": "Select Radio",
+      "source_display_name": "Select Radio",
+      "source_description": "Switch to another radio if you're carrying more than one",
+      "translation_display_name": "무전기 선택",
+      "translation_description": "사용 가능한 무전기를 둘 이상 휴대 중일 때 다른 무전기로 전환합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Hotkeys",
+      "key": "Half-duplex / Duplex Mode",
+      "source_display_name": "Half-duplex / Duplex Mode",
+      "source_description": "Toggle Half-duplex/Duplex (whether you can hear others while transmitting; not available on every radio)",
+      "translation_display_name": "반이중 / 이중 통신 모드",
+      "translation_description": "반이중/이중 통신 모드를 전환합니다. 송신 중 다른 사람의 음성을 들을 수 있는지 결정하며, 모든 무전기가 이 기능을 지원하는 것은 아닙니다.",
+      "values": []
+    },
+    {
+      "section": "2. Volume",
+      "key": "Receive Volume",
+      "source_display_name": "Receive Volume",
+      "source_description": "Volume of the other person's voice as heard over the radio. Above 1 boosts quiet voices but may introduce distortion.",
+      "translation_display_name": "수신 음량",
+      "translation_description": "무전기로 들리는 다른 사람의 음성 크기입니다. 1보다 높이면 작은 목소리를 증폭할 수 있지만 왜곡이 생길 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "2. Volume",
+      "key": "Noise Volume",
+      "source_display_name": "Noise Volume",
+      "source_description": "Radio static/noise volume (minimum 5%, default 1)",
+      "translation_display_name": "잡음 음량",
+      "translation_description": "무전기 지직거림/잡음의 음량입니다. 최소 5%, 기본값은 1입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Volume",
+      "key": "Sound Volume",
+      "source_display_name": "Sound Volume",
+      "source_description": "Volume of radio sound effects (on/off clicks, start/end of transmission)",
+      "translation_display_name": "효과음 음량",
+      "translation_description": "무전기 켜기/끄기, 송수신 시작/종료 같은 효과음의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Radio",
+      "key": "UI Language",
+      "source_display_name": "UI Language",
+      "source_description": "Language used for on-screen notifications and the Raid Recordings browser. 'Auto' follows the game's current language.",
+      "translation_display_name": "UI 언어",
+      "translation_description": "화면 알림과 레이드 녹음 브라우저에 사용할 언어입니다. Auto는 현재 게임 언어를 따릅니다.",
+      "values": [
+        {
+          "source": "Auto",
+          "translation": "자동"
+        },
+        {
+          "source": "Russian",
+          "translation": "러시아어"
+        },
+        {
+          "source": "English",
+          "translation": "영어"
+        },
+        {
+          "source": "German",
+          "translation": "독일어"
+        },
+        {
+          "source": "Spanish",
+          "translation": "스페인어"
+        },
+        {
+          "source": "French",
+          "translation": "프랑스어"
+        },
+        {
+          "source": "Polish",
+          "translation": "폴란드어"
+        },
+        {
+          "source": "Italian",
+          "translation": "이탈리아어"
+        },
+        {
+          "source": "Czech",
+          "translation": "체코어"
+        }
+      ]
+    },
+    {
+      "section": "3. Radio",
+      "key": "Ambient Combat Sound (Experimental)",
+      "source_display_name": "Ambient Combat Sound (Experimental)",
+      "source_description": "Simulated background combat sound in the radio channel: if there was recent gunfire near the speaker, a procedural crackle is mixed into their transmission. This is a SIMULATION (proximity gunfire detection), not real ambient audio capture.",
+      "translation_display_name": "주변 전투음 (실험적)",
+      "translation_description": "무전 채널에 주변 전투음을 모사합니다. 말하는 사람 근처에서 최근 총성이 감지되면 절차적으로 생성한 잡음을 송신 음성에 섞습니다. 실제 주변 소리를 녹음하는 기능이 아니라 근거리 총성을 감지해 시뮬레이션하는 기능입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Notifications",
+      "key": "Show Notifications",
+      "source_display_name": "Show Notifications",
+      "source_description": "Show on-screen notifications about radio state (on/off, selection, mode). Custom overlay, no vanilla notification sound.",
+      "translation_display_name": "알림 표시",
+      "translation_description": "무전기 켜짐/꺼짐, 선택, 통신 모드 같은 상태 알림을 화면에 표시합니다. 바닐라 알림이 아닌 전용 오버레이를 사용하며 바닐라 알림음은 재생하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Notifications",
+      "key": "Notification Style",
+      "source_display_name": "Notification Style",
+      "source_description": "Look of the on-screen notifications. 'Themed' is the full military panel with a type tag and a remaining-time bar; 'Minimal' is just an accent stripe and the message. The 'Compact' variants of each are narrower with a smaller font, for less screen clutter. Colours always follow the BEAR/USEC theme.",
+      "translation_display_name": "알림 스타일",
+      "translation_description": "화면 알림의 외형입니다. Themed는 종류 태그와 남은 시간 막대가 있는 전체 군용 패널, Minimal은 강조선과 메시지만 표시합니다. 각 Compact 변형은 폭과 글꼴이 더 작아 화면을 덜 가립니다. 색상은 항상 BEAR/USEC 테마를 따릅니다.",
+      "values": [
+        {
+          "source": "Themed",
+          "translation": "테마형"
+        },
+        {
+          "source": "ThemedCompact",
+          "translation": "테마형 (컴팩트)"
+        },
+        {
+          "source": "Minimal",
+          "translation": "미니멀"
+        },
+        {
+          "source": "MinimalCompact",
+          "translation": "미니멀 (컴팩트)"
+        },
+        {
+          "source": "Strip",
+          "translation": "스트립"
+        },
+        {
+          "source": "StripCompact",
+          "translation": "스트립 (컴팩트)"
+        },
+        {
+          "source": "Plate",
+          "translation": "플레이트"
+        }
+      ]
+    },
+    {
+      "section": "4. Notifications",
+      "key": "Notification Theme",
+      "source_display_name": "Notification Theme",
+      "source_description": "Colour scheme of the notifications. 'FollowWindow' uses the same faction theme as the Raid Recordings window; BEAR/USEC pins them independently, so you can pair a USEC window with BEAR notifications.",
+      "translation_display_name": "알림 테마",
+      "translation_description": "알림의 색상 테마입니다. FollowWindow는 레이드 녹음 창과 같은 진영 테마를 사용하며, BEAR/USEC를 선택하면 창과 별개로 알림 테마를 고정할 수 있습니다.",
+      "values": [
+        {
+          "source": "FollowWindow",
+          "translation": "창 테마 따름"
+        },
+        {
+          "source": "BEAR",
+          "translation": "BEAR"
+        },
+        {
+          "source": "USEC",
+          "translation": "USEC"
+        }
+      ]
+    },
+    {
+      "section": "4. Notifications",
+      "key": "Notification Opacity",
+      "source_display_name": "Notification Opacity",
+      "source_description": "Overall opacity of the notification panels. Lower values make them less obtrusive during a raid.",
+      "translation_display_name": "알림 불투명도",
+      "translation_description": "알림 패널 전체의 불투명도입니다. 값을 낮추면 레이드 중 화면을 덜 가립니다.",
+      "values": []
+    },
+    {
+      "section": "4. Notifications",
+      "key": "Notification Scale",
+      "source_display_name": "Notification Scale",
+      "source_description": "Size of the on-screen notification popups.",
+      "translation_display_name": "알림 크기",
+      "translation_description": "화면에 표시되는 알림 팝업의 크기입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Indicator Style",
+      "source_display_name": "Indicator Style",
+      "source_description": "Dots = classic round lamps only. Blocks = angular military segments only. Badges = only the labelled ON AIR / RECEIVING meters driven by live audio levels. FullDots = round lamps plus those meters. FullBadges = angular segments plus those meters.",
+      "translation_display_name": "표시기 스타일",
+      "translation_description": "Dots는 원형 표시등만, Blocks는 각진 군용 표시등만 표시합니다. Badges는 실제 음성 레벨에 반응하는 ON AIR / RECEIVING 계기만 표시합니다. FullDots는 원형 표시등과 계기를, FullBadges는 각진 표시등과 계기를 함께 표시합니다.",
+      "values": [
+        {
+          "source": "Dots",
+          "translation": "점"
+        },
+        {
+          "source": "Blocks",
+          "translation": "블록"
+        },
+        {
+          "source": "Badges",
+          "translation": "배지"
+        },
+        {
+          "source": "FullDots",
+          "translation": "점 + 계기"
+        },
+        {
+          "source": "FullBadges",
+          "translation": "블록 + 계기"
+        }
+      ]
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Indicator Scale",
+      "source_display_name": "Indicator Scale",
+      "source_description": "Size of the on-screen status indicators (dots/badges/battery/signal). Does not affect the Raid Recordings window, which already resizes by dragging its corner.",
+      "translation_display_name": "표시기 크기",
+      "translation_description": "화면 상태 표시기(점/배지/배터리/신호)의 크기입니다. 모서리를 끌어 직접 크기를 조절할 수 있는 레이드 녹음 창에는 영향을 주지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Indicator Opacity",
+      "source_display_name": "Indicator Opacity",
+      "source_description": "Opacity of the status dots (minimum 5%)",
+      "translation_display_name": "표시기 불투명도",
+      "translation_description": "상태 표시기의 불투명도입니다. 최소 5%입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Fade Indicators When Idle",
+      "source_display_name": "Fade Indicators When Idle",
+      "source_description": "Dim the indicators down while nothing is happening on the channel, and bring them back to full brightness on activity. Reduces visual clutter during quiet stretches.",
+      "translation_display_name": "대기 중 표시기 흐리게",
+      "translation_description": "채널에 아무 활동이 없을 때 표시기를 흐리게 하고, 활동이 생기면 다시 선명하게 표시합니다. 조용한 상황에서 화면을 덜 가립니다.",
+      "values": []
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Power Indicator",
+      "source_display_name": "Power Indicator",
+      "source_description": "Small dot showing whether the radio is on (green) or off (gray)",
+      "translation_display_name": "전원 표시기",
+      "translation_description": "무전기가 켜졌는지(녹색) 꺼졌는지(회색) 보여 주는 작은 표시등입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Talking Indicator",
+      "source_display_name": "Talking Indicator",
+      "source_description": "Dot that appears only while YOU are transmitting on the radio.",
+      "translation_display_name": "송신 표시기",
+      "translation_description": "내가 무전기로 송신하고 있을 때만 나타나는 표시등입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Channel Busy Indicator",
+      "source_display_name": "Channel Busy Indicator",
+      "source_description": "Red dot that appears only while someone is transmitting on your frequency.",
+      "translation_display_name": "채널 사용 중 표시기",
+      "translation_description": "현재 주파수에서 다른 사람이 송신 중일 때만 나타나는 빨간 표시등입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Half-duplex/Duplex Indicator",
+      "source_display_name": "Half-duplex/Duplex Indicator",
+      "source_description": "Small dot showing the current Half-duplex/Duplex mode. Only visible while the radio is on.",
+      "translation_display_name": "반이중/이중 통신 표시기",
+      "translation_description": "현재 반이중/이중 통신 모드를 보여 주는 작은 표시등입니다. 무전기가 켜져 있을 때만 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Signal Strength Indicator",
+      "source_display_name": "Signal Strength Indicator",
+      "source_description": "Shows signal quality of the current incoming transmission (see style below). Only appears while you can actually hear someone. Independent toggle from the other indicators.",
+      "translation_display_name": "신호 세기 표시기",
+      "translation_description": "현재 수신 중인 통신의 신호 품질을 표시합니다. 실제로 다른 사람의 음성이 들릴 때만 나타나며, 다른 상태 표시기와 별도로 켜고 끌 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Signal Indicator Style",
+      "source_display_name": "Signal Indicator Style",
+      "source_description": "Bar = a single fillable strip. AntennaBars = classic phone-style signal bars.",
+      "translation_display_name": "신호 표시기 스타일",
+      "translation_description": "Bar는 하나의 채움 막대, AntennaBars는 휴대전화처럼 단계가 올라가는 신호 막대를 사용합니다.",
+      "values": [
+        {
+          "source": "Bar",
+          "translation": "막대"
+        },
+        {
+          "source": "AntennaBars",
+          "translation": "안테나 막대"
+        }
+      ]
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Show Battery Charge",
+      "source_display_name": "Show Battery Charge",
+      "source_description": "Show the active radio's battery charge on screen. Only appears when a battery mod (e.g. Batteries Not Included) actually gives the radio battery slots — without one there is nothing to display.",
+      "translation_display_name": "배터리 잔량 표시",
+      "translation_description": "현재 무전기의 배터리 잔량을 화면에 표시합니다. 배터리 모드(예: Batteries Not Included)가 실제로 무전기에 배터리 슬롯을 추가했을 때만 나타납니다.",
+      "values": []
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Battery Indicator Style",
+      "source_display_name": "Battery Indicator Style",
+      "source_description": "Cell = a battery pictogram with charge segments. Bar = a thin segmented strip. Percent = numeric readout only. CellAndPercent / BarAndPercent add the number next to the pictogram or strip. Shown only while the radio is on.",
+      "translation_display_name": "배터리 표시기 스타일",
+      "translation_description": "Cell은 충전 구간이 있는 배터리 그림, Bar는 얇은 분할 막대, Percent는 숫자만 표시합니다. CellAndPercent / BarAndPercent는 그림 또는 막대 옆에 수치를 함께 표시합니다. 무전기가 켜져 있을 때만 나타납니다.",
+      "values": [
+        {
+          "source": "Cell",
+          "translation": "배터리 셀"
+        },
+        {
+          "source": "Bar",
+          "translation": "막대"
+        },
+        {
+          "source": "Percent",
+          "translation": "백분율"
+        },
+        {
+          "source": "CellAndPercent",
+          "translation": "배터리 셀 + 백분율"
+        },
+        {
+          "source": "BarAndPercent",
+          "translation": "막대 + 백분율"
+        }
+      ]
+    },
+    {
+      "section": "5. Indicators",
+      "key": "Radio Tuning Sweep",
+      "source_display_name": "Radio Tuning Sweep",
+      "source_description": "Show a brief frequency-dial sweep on screen when switching between radios. Purely cosmetic — it changes nothing about how the radio works.",
+      "translation_display_name": "무전기 튜닝 스윕",
+      "translation_description": "무전기를 전환할 때 짧은 주파수 다이얼 탐색 연출을 표시합니다. 시각 효과일 뿐 무전기 동작에는 영향을 주지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "6. Colors",
+      "key": "Radio-On Color",
+      "source_display_name": "Radio-On Color",
+      "source_description": "Color used for the Power indicator (radio on) and the matching notification text",
+      "translation_display_name": "무전기 켜짐 색상",
+      "translation_description": "전원 표시기(무전기 켜짐)와 대응하는 알림 글자에 사용할 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "6. Colors",
+      "key": "Talking Indicator Color",
+      "source_display_name": "Talking Indicator Color",
+      "source_description": "Color used for the Talking indicator (you are transmitting)",
+      "translation_display_name": "송신 표시기 색상",
+      "translation_description": "내가 송신 중일 때의 송신 표시기 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "6. Colors",
+      "key": "Channel Busy Color",
+      "source_display_name": "Channel Busy Color",
+      "source_description": "Color used for the Channel Busy indicator",
+      "translation_display_name": "채널 사용 중 색상",
+      "translation_description": "채널 사용 중 표시기의 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "6. Colors",
+      "key": "Duplex Mode Color",
+      "source_display_name": "Duplex Mode Color",
+      "source_description": "Color used for the Half-duplex/Duplex indicator (Duplex) and the matching notification text",
+      "translation_display_name": "이중 통신 모드 색상",
+      "translation_description": "이중 통신 상태 표시기와 대응하는 알림 글자에 사용할 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "6. Colors",
+      "key": "Signal Bar Fill Color",
+      "source_display_name": "Signal Bar Fill Color",
+      "source_description": "Fill color of the signal strength indicator (bar or antenna style)",
+      "translation_display_name": "신호 막대 채움 색상",
+      "translation_description": "막대형 또는 안테나형 신호 세기 표시기의 채움 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "6. Colors",
+      "key": "Radio Selection Color",
+      "source_display_name": "Radio Selection Color",
+      "source_description": "Color used for radio-selection notification text",
+      "translation_display_name": "무전기 선택 색상",
+      "translation_description": "무전기 선택 알림 글자에 사용할 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Raid Recordings",
+      "key": "Open Raid Recordings",
+      "source_display_name": "Open Raid Recordings",
+      "source_description": "Key (or key combination) to open/close the Raid Recordings browser, where you can play back recorded radio comms from past raids.",
+      "translation_display_name": "레이드 녹음 열기",
+      "translation_description": "과거 레이드에서 녹음된 무전 통신을 재생할 수 있는 레이드 녹음 브라우저를 열거나 닫는 키 또는 키 조합입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Raid Recordings",
+      "key": "Record Radio Comms",
+      "source_display_name": "Record Radio Comms",
+      "source_description": "Record everything you hear over the radio during a raid to a WAV file, so you can listen back to it afterwards. Off by default — opt in if you want it. Recordings are saved under the plugin folder in a 'PRT-Records' subfolder.",
+      "translation_display_name": "무전 통신 녹음",
+      "translation_description": "레이드 중 무전기로 듣는 모든 통신을 WAV 파일로 녹음해 나중에 다시 들을 수 있게 합니다. 기본값은 꺼짐이며 원하는 경우에만 켜세요. 녹음은 플러그인 폴더의 'PRT-Records' 하위 폴더에 저장됩니다.",
+      "values": []
+    },
+    {
+      "section": "7. Raid Recordings",
+      "key": "Window Theme",
+      "source_display_name": "Window Theme",
+      "source_description": "Visual theme of the Raid Recordings window. 'Auto' follows your character's faction: BEAR shows a Russian Armed Forces field terminal, USEC shows a UNTAR peacekeeping console.",
+      "translation_display_name": "창 테마",
+      "translation_description": "레이드 녹음 창의 시각 테마입니다. Auto는 캐릭터 진영을 따릅니다. BEAR는 러시아군 야전 단말기, USEC는 UNTAR 평화유지군 콘솔 형태로 표시됩니다.",
+      "values": [
+        {
+          "source": "Auto",
+          "translation": "자동"
+        },
+        {
+          "source": "BEAR",
+          "translation": "BEAR"
+        },
+        {
+          "source": "USEC",
+          "translation": "USEC"
+        },
+        {
+          "source": "UNTAR",
+          "translation": "UNTAR"
+        },
+        {
+          "source": "RUAF",
+          "translation": "RUAF"
+        },
+        {
+          "source": "BlackDivision",
+          "translation": "블랙 디비전"
+        },
+        {
+          "source": "TerraGroup",
+          "translation": "테라그룹"
+        },
+        {
+          "source": "SCAV",
+          "translation": "스캐브"
+        }
+      ]
+    },
+    {
+      "section": "7. Raid Recordings",
+      "key": "Spectrogram View",
+      "source_display_name": "Spectrogram View",
+      "source_description": "Draw the recording as a spectrogram (frequency content over time) instead of a peak waveform. Speech and static look clearly different, making it easier to spot where someone is actually talking.",
+      "translation_display_name": "스펙트로그램 표시",
+      "translation_description": "녹음을 피크 파형 대신 시간에 따른 주파수 성분을 보여 주는 스펙트로그램으로 표시합니다. 음성과 잡음의 모양이 뚜렷하게 달라 실제 대화 구간을 찾기 쉽습니다.",
+      "values": []
+    },
+    {
+      "section": "7. Raid Recordings",
+      "key": "Auto-Cleanup Frequency",
+      "source_display_name": "Auto-Cleanup Frequency",
+      "source_description": "Automatically delete all saved raid recordings after this many completed raids. 'Never' keeps everything until you clear manually.",
+      "translation_display_name": "자동 정리 주기",
+      "translation_description": "완료한 레이드 수를 기준으로 저장된 레이드 녹음을 자동 삭제합니다. Never를 선택하면 직접 지울 때까지 모든 녹음을 보관합니다.",
+      "values": [
+        {
+          "source": "Never",
+          "translation": "사용 안 함"
+        },
+        {
+          "source": "EveryRaid",
+          "translation": "매 레이드"
+        },
+        {
+          "source": "Every3Raids",
+          "translation": "3레이드마다"
+        },
+        {
+          "source": "Every5Raids",
+          "translation": "5레이드마다"
+        },
+        {
+          "source": "Every10Raids",
+          "translation": "10레이드마다"
+        }
+      ]
+    },
+    {
+      "section": "7. Raid Recordings",
+      "key": "Clear All Recordings Now",
+      "source_display_name": "Clear All Recordings Now",
+      "source_description": "Deletes every saved raid recording immediately.",
+      "translation_display_name": "모든 녹음 즉시 삭제",
+      "translation_description": "저장된 모든 레이드 녹음을 즉시 삭제합니다.",
+      "values": []
+    },
+    {
+      "section": "8. Developer",
+      "key": "Verbose Logging",
+      "source_display_name": "Verbose Logging",
+      "source_description": "Log detailed per-frame/per-event debug info to the BepInEx console and prt-fika.log. Only enable when troubleshooting an issue — leave off for normal play to keep the log file small.",
+      "translation_display_name": "상세 로그",
+      "translation_description": "프레임/이벤트별 상세 디버그 정보를 BepInEx 콘솔과 prt-fika.log에 기록합니다. 문제를 진단할 때만 켜고 평소에는 로그 파일이 커지지 않도록 꺼 두세요.",
+      "values": []
+    },
+    {
+      "section": "8. Developer",
+      "key": "Battery Drain Multiplier",
+      "source_display_name": "Battery Drain Multiplier",
+      "source_description": "Speeds up or slows down how fast the radio battery drains, for testing. 1 = normal. Changes are only picked up outside a raid, so the rate cannot be altered mid-raid.",
+      "translation_display_name": "배터리 소모 배율",
+      "translation_description": "테스트용 배터리 소모 속도 배율입니다. 1이 정상 속도입니다. 변경 사항은 레이드 밖에서만 반영되므로 레이드 도중에는 소모 속도를 바꿀 수 없습니다.",
+      "values": []
+    }
+  ]
+}

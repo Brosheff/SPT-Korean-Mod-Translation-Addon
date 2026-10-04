@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.tarkin.doordash",
+  "plugin_name": "spt-doordash-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Logic",
+      "translation": "동작 규칙"
+    },
+    {
+      "source": "Physical Door",
+      "translation": "물리 문 효과"
+    },
+    {
+      "source": "Player Effect",
+      "translation": "플레이어 효과"
+    },
+    {
+      "source": "Sprint Ram",
+      "translation": "달리기 충돌"
+    }
+  ],
+  "entries": [
+    {
+      "section": "*",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": null,
+      "translation_display_name": "달리기 문 돌파 활성화",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Logic",
+      "key": "Breach Locked",
+      "source_display_name": "Breach Locked",
+      "source_description": null,
+      "translation_display_name": "잠긴 문도 돌파 허용",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Physical Door",
+      "key": "Chance To Dislodge On Breach",
+      "source_display_name": "Chance To Dislodge On Breach",
+      "source_description": null,
+      "translation_display_name": "발차기 시 문짝 이탈 확률",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Physical Door",
+      "key": "Dislodge Force",
+      "source_display_name": "Dislodge Force",
+      "source_description": null,
+      "translation_display_name": "이탈한 문짝에 가할 힘",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Player Effect",
+      "key": "BodyPartToHurt",
+      "source_display_name": "BodyPartToHurt",
+      "source_description": null,
+      "translation_display_name": "돌진 피해를 받을 신체 부위",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Head",
+          "translation": "머리"
+        },
+        {
+          "source": "Chest",
+          "translation": "흉부"
+        },
+        {
+          "source": "Stomach",
+          "translation": "복부"
+        },
+        {
+          "source": "LeftArm",
+          "translation": "왼팔"
+        },
+        {
+          "source": "RightArm",
+          "translation": "오른팔"
+        },
+        {
+          "source": "LeftLeg",
+          "translation": "왼다리"
+        },
+        {
+          "source": "RightLeg",
+          "translation": "오른다리"
+        },
+        {
+          "source": "Common",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Player Effect",
+      "key": "Burn Stamina",
+      "source_display_name": "Burn Stamina",
+      "source_description": null,
+      "translation_display_name": "돌진 시 스태미나 소모",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Player Effect",
+      "key": "Contusion Strength",
+      "source_display_name": "Contusion Strength",
+      "source_description": null,
+      "translation_display_name": "돌진 후 뇌진탕 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Player Effect",
+      "key": "Contusion Time",
+      "source_display_name": "Contusion Time",
+      "source_description": null,
+      "translation_display_name": "돌진 후 뇌진탕 지속 시간",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Player Effect",
+      "key": "Health Damage",
+      "source_display_name": "Health Damage",
+      "source_description": null,
+      "translation_display_name": "돌진 기본 체력 피해",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Player Effect",
+      "key": "LockedBreachDamageMultiplier",
+      "source_display_name": "LockedBreachDamageMultiplier",
+      "source_description": null,
+      "translation_display_name": "잠긴 문 돌진 피해 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Player Effect",
+      "key": "Recoil Camera",
+      "source_display_name": "Recoil Camera",
+      "source_description": null,
+      "translation_display_name": "돌진 후 카메라 흔들림 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Player Effect",
+      "key": "Recoil Hands",
+      "source_display_name": "Recoil Hands",
+      "source_description": null,
+      "translation_display_name": "돌진 후 손 흔들림 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Sprint Ram",
+      "key": "SphereCastDistance",
+      "source_display_name": "SphereCastDistance",
+      "source_description": null,
+      "translation_display_name": "문 감지 거리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Sprint Ram",
+      "key": "SphereCastRadius",
+      "source_display_name": "SphereCastRadius",
+      "source_description": null,
+      "translation_display_name": "문 감지 반경",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Sprint Ram",
+      "key": "Velocity Threshold",
+      "source_display_name": "Velocity Threshold",
+      "source_description": null,
+      "translation_display_name": "돌진 판정 최소 속도 제곱값",
+      "translation_description": "",
+      "values": []
+    }
+  ]
+}

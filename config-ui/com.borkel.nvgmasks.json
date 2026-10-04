@@ -1,0 +1,1085 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.borkel.nvgmasks",
+  "plugin_name": "RealisticNVG-client-2-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified. Includes data-driven NVG, lens-layout and thermal settings generated at runtime.",
+  "categories": [
+    {
+      "source": "00. Miscellaneous",
+      "translation": "00. 기타"
+    },
+    {
+      "source": "01. Global",
+      "translation": "01. 전체 설정"
+    },
+    {
+      "source": "02. Gain control",
+      "translation": "02. 게인 제어"
+    },
+    {
+      "source": "03. Illumination",
+      "translation": "03. IR 조명"
+    },
+    {
+      "source": "04. NVG Sight Dimmer - Vultify",
+      "translation": "04. NVG 조준기 자동 감광 - Vultify"
+    },
+    {
+      "source": "20. Modded NVGs - DTNVS (Green)",
+      "translation": "20. 모드 NVG - DTNVS (Green)"
+    },
+    {
+      "source": "20. Modded NVGs - DTNVS (White)",
+      "translation": "20. 모드 NVG - DTNVS (White)"
+    },
+    {
+      "source": "20. Modded NVGs - GPNVG-18 ISB",
+      "translation": "20. 모드 NVG - GPNVG-18 ISB"
+    },
+    {
+      "source": "10. Vanilla NVGs - GPNVG-18",
+      "translation": "10. 기본 NVG - GPNVG-18"
+    },
+    {
+      "source": "10. Vanilla NVGs - N-15",
+      "translation": "10. 기본 NVG - N-15"
+    },
+    {
+      "source": "10. Vanilla NVGs - PNV-10T",
+      "translation": "10. 기본 NVG - PNV-10T"
+    },
+    {
+      "source": "10. Vanilla NVGs - PNV-57E",
+      "translation": "10. 기본 NVG - PNV-57E"
+    },
+    {
+      "source": "10. Vanilla NVGs - PVS-14",
+      "translation": "10. 기본 NVG - PVS-14"
+    },
+    {
+      "source": "20. Modded NVGs - PVS-31A GRN PHOS",
+      "translation": "20. 모드 NVG - PVS-31A GRN PHOS"
+    },
+    {
+      "source": "20. Modded NVGs - PVS-31A ISB FDE",
+      "translation": "20. 모드 NVG - PVS-31A ISB FDE"
+    },
+    {
+      "source": "20. Modded NVGs - PVS-31A ISB WHITE",
+      "translation": "20. 모드 NVG - PVS-31A ISB WHITE"
+    },
+    {
+      "source": "20. Modded NVGs - PVS-31A",
+      "translation": "20. 모드 NVG - PVS-31A"
+    },
+    {
+      "source": "T-7 Thermal",
+      "translation": "T-7 열상"
+    },
+    {
+      "source": "Lens Layout - Binocular",
+      "translation": "렌즈 배치 - 쌍안"
+    },
+    {
+      "source": "Lens Layout - Monocular",
+      "translation": "렌즈 배치 - 단안"
+    },
+    {
+      "source": "Lens Layout - Quad NODs",
+      "translation": "렌즈 배치 - 4안"
+    }
+  ],
+  "entries": [
+    {
+      "section": "*",
+      "key": "1. Enable FPS Stuck",
+      "source_display_name": "1. Enable FPS Stuck",
+      "source_description": "Enables FPS limiter for this device",
+      "translation_display_name": "1. FPS 제한 사용",
+      "translation_description": "이 장치에 프레임률 제한을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "1. Enable NVG sight dimming",
+      "source_display_name": "1. Enable NVG sight dimming",
+      "source_description": "Automatically dims illuminated weapon sights while night vision is active.",
+      "translation_display_name": "1. NVG 조준기 자동 감광",
+      "translation_description": "야간투시경을 사용하는 동안 발광식 무기 조준기의 밝기를 자동으로 낮춥니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "1. Increase manual gain",
+      "source_display_name": "1. Increase manual gain",
+      "source_description": "Hold to restore the maximum exposure available to automatic gain.",
+      "translation_display_name": "1. 수동 게인 증가",
+      "translation_description": "키를 누르고 있는 동안 자동 게인이 사용할 수 있는 최대 노출 한도를 높여 원래 최대값으로 복원합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "1. Mask size multiplier",
+      "source_display_name": "1. Mask size multiplier",
+      "source_description": "Applies size multiplier to all masks",
+      "translation_display_name": "1. 마스크 크기 배율",
+      "translation_description": "모든 NVG 마스크의 표시 크기에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 Tube - Phosphor red",
+      "source_display_name": "10 Tube - Phosphor red",
+      "source_description": "Red component of the single phosphor color.",
+      "translation_display_name": "10 튜브 - 형광체 적색",
+      "translation_description": "단일 형광체 색상에서 적색 성분의 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 Tube 1 - Enabled",
+      "source_display_name": "10 Tube 1 - Enabled",
+      "source_description": "Include this tube in the layout.",
+      "translation_display_name": "10 튜브 1 - 사용",
+      "translation_description": "이 튜브를 렌즈 배치에 포함합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "11 Tube - Phosphor green",
+      "source_display_name": "11 Tube - Phosphor green",
+      "source_description": "Green component of the single phosphor color.",
+      "translation_display_name": "11 튜브 - 형광체 녹색",
+      "translation_description": "단일 형광체 색상에서 녹색 성분의 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "11 Tube 1 - Center X",
+      "source_display_name": "11 Tube 1 - Center X",
+      "source_description": "Horizontal center in optic-texture UV coordinates.",
+      "translation_display_name": "11 튜브 1 - 중심 X",
+      "translation_description": "광학 텍스처 UV 좌표에서 이 튜브의 가로 중심 위치입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "12 Tube - Phosphor blue",
+      "source_display_name": "12 Tube - Phosphor blue",
+      "source_description": "Blue component of the single phosphor color.",
+      "translation_display_name": "12 튜브 - 형광체 청색",
+      "translation_description": "단일 형광체 색상에서 청색 성분의 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "12 Tube 1 - Center Y",
+      "source_display_name": "12 Tube 1 - Center Y",
+      "source_description": "Vertical center in optic-texture UV coordinates.",
+      "translation_display_name": "12 튜브 1 - 중심 Y",
+      "translation_description": "광학 텍스처 UV 좌표에서 이 튜브의 세로 중심 위치입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "13 Tube 1 - Radius",
+      "source_display_name": "13 Tube 1 - Radius",
+      "source_description": "Tube radius measured in optic-texture heights.",
+      "translation_display_name": "13 튜브 1 - 반경",
+      "translation_description": "광학 텍스처 높이를 기준으로 한 튜브 반경입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "14 Tube - Spectral sensitivity red",
+      "source_display_name": "14 Tube - Spectral sensitivity red",
+      "source_description": "Relative sensitivity to the red input channel; RGB weights are normalized by the shader.",
+      "translation_display_name": "14 튜브 - 적색 스펙트럼 감도",
+      "translation_description": "입력 영상의 적색 채널에 대한 상대 감도입니다. RGB 가중치는 셰이더에서 정규화됩니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "14 Tube 1 - Distortion multiplier",
+      "source_display_name": "14 Tube 1 - Distortion multiplier",
+      "source_description": "Multiplier for edge distortion on this tube.",
+      "translation_display_name": "14 튜브 1 - 왜곡 배율",
+      "translation_description": "이 튜브의 가장자리 왜곡에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "15 Tube - Spectral sensitivity green",
+      "source_display_name": "15 Tube - Spectral sensitivity green",
+      "source_description": "Relative sensitivity to the green input channel; RGB weights are normalized by the shader.",
+      "translation_display_name": "15 튜브 - 녹색 스펙트럼 감도",
+      "translation_description": "입력 영상의 녹색 채널에 대한 상대 감도입니다. RGB 가중치는 셰이더에서 정규화됩니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "15 Tube 1 - Fusion group",
+      "source_display_name": "15 Tube 1 - Fusion group",
+      "source_description": "Overlapping tubes in the same group fuse visually; different groups keep a physical boundary.",
+      "translation_display_name": "15 튜브 1 - 융합 그룹",
+      "translation_description": "겹치는 튜브가 같은 그룹이면 시각적으로 하나로 이어지고, 다른 그룹이면 물리적 경계를 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "16 Tube - Spectral sensitivity blue",
+      "source_display_name": "16 Tube - Spectral sensitivity blue",
+      "source_description": "Relative sensitivity to the blue input channel; RGB weights are normalized by the shader.",
+      "translation_display_name": "16 튜브 - 청색 스펙트럼 감도",
+      "translation_description": "입력 영상의 청색 채널에 대한 상대 감도입니다. RGB 가중치는 셰이더에서 정규화됩니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "16 Tube 1 - Vignette multiplier",
+      "source_display_name": "16 Tube 1 - Vignette multiplier",
+      "source_description": "Multiplier for edge vignette on this tube.",
+      "translation_display_name": "16 튜브 1 - 비네팅 배율",
+      "translation_description": "이 튜브의 가장자리 비네팅에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "2. Decrease manual gain",
+      "source_display_name": "2. Decrease manual gain",
+      "source_description": "Hold to lower the maximum exposure available to automatic gain.",
+      "translation_display_name": "2. 수동 게인 감소",
+      "translation_description": "키를 누르고 있는 동안 자동 게인이 사용할 수 있는 최대 노출 한도를 낮춥니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "2. Gain multiplier",
+      "source_display_name": "2. Gain multiplier",
+      "source_description": "Final visual gain multiplier used to compensate for display or post-processing settings.",
+      "translation_display_name": "2. 최종 게인 배율",
+      "translation_description": "디스플레이나 후처리 설정을 보정하기 위해 최종 NVG 영상 밝기에 적용하는 게인 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "2. Holographic and red dot brightness",
+      "source_display_name": "2. Holographic and red dot brightness",
+      "source_description": "Brightness multiplier used for holographic and red dot sights with NVGs. Zero turns the reticle off.",
+      "translation_display_name": "2. 홀로/레드도트 조준선 밝기",
+      "translation_description": "NVG 사용 중 홀로그램 및 레드도트 조준선에 적용할 밝기 배율입니다. 0이면 조준선이 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "2. Minimum FPS",
+      "source_display_name": "2. Minimum FPS",
+      "source_description": "Minimum FPS for this device",
+      "translation_display_name": "2. 최소 FPS",
+      "translation_description": "이 장치의 프레임률 제한에서 사용할 최소 FPS입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "20 Exposure - Automatic gain",
+      "source_display_name": "20 Exposure - Automatic gain",
+      "source_description": "Use target luminance to reduce gain when the scene is bright.",
+      "translation_display_name": "20 노출 - 자동 게인",
+      "translation_description": "장면이 밝을 때 목표 휘도를 기준으로 게인을 자동으로 낮춥니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "20 Exposure - Manual gain control",
+      "source_display_name": "20 Exposure - Manual gain control",
+      "source_description": "Allow the gain keys to lower or restore the maximum exposure available to automatic gain.",
+      "translation_display_name": "20 노출 - 수동 게인 제어",
+      "translation_description": "게인 조절 키로 자동 게인이 사용할 수 있는 최대 노출 한도를 낮추거나 복원할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "20 Tube 2 - Enabled",
+      "source_display_name": "20 Tube 2 - Enabled",
+      "source_description": "Include this tube in the layout.",
+      "translation_display_name": "20 튜브 2 - 사용",
+      "translation_description": "이 튜브를 렌즈 배치에 포함합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "21 Exposure - Target luminance",
+      "source_display_name": "21 Exposure - Target luminance",
+      "source_description": "Average aperture luminance targeted by automatic gain.",
+      "translation_display_name": "21 노출 - 목표 휘도",
+      "translation_description": "자동 게인이 맞추려는 평균 조리개 휘도 목표값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "21 Tube 2 - Center X",
+      "source_display_name": "21 Tube 2 - Center X",
+      "source_description": "Horizontal center in optic-texture UV coordinates.",
+      "translation_display_name": "21 튜브 2 - 중심 X",
+      "translation_description": "광학 텍스처 UV 좌표에서 이 튜브의 가로 중심 위치입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "22 Exposure - Minimum EV",
+      "source_display_name": "22 Exposure - Minimum EV",
+      "source_description": "Lowest automatic exposure correction in bright scenes.",
+      "translation_display_name": "22 노출 - 최소 EV",
+      "translation_description": "밝은 장면에서 자동 노출 보정이 내려갈 수 있는 최소 EV입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "22 Tube 2 - Center Y",
+      "source_display_name": "22 Tube 2 - Center Y",
+      "source_description": "Vertical center in optic-texture UV coordinates.",
+      "translation_display_name": "22 튜브 2 - 중심 Y",
+      "translation_description": "광학 텍스처 UV 좌표에서 이 튜브의 세로 중심 위치입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "23 Exposure - Maximum EV",
+      "source_display_name": "23 Exposure - Maximum EV",
+      "source_description": "Highest automatic exposure correction in dark scenes.",
+      "translation_display_name": "23 노출 - 최대 EV",
+      "translation_description": "어두운 장면에서 자동 노출 보정이 올라갈 수 있는 최대 EV입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "23 Tube 2 - Radius",
+      "source_display_name": "23 Tube 2 - Radius",
+      "source_description": "Tube radius measured in optic-texture heights.",
+      "translation_display_name": "23 튜브 2 - 반경",
+      "translation_description": "광학 텍스처 높이를 기준으로 한 튜브 반경입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "24 Exposure - Bright scene speed",
+      "source_display_name": "24 Exposure - Bright scene speed",
+      "source_description": "Speed at which gain is reduced.",
+      "translation_display_name": "24 노출 - 밝은 장면 조정 속도",
+      "translation_description": "밝은 장면에서 게인을 낮추는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "24 Tube 2 - Distortion multiplier",
+      "source_display_name": "24 Tube 2 - Distortion multiplier",
+      "source_description": "Multiplier for edge distortion on this tube.",
+      "translation_display_name": "24 튜브 2 - 왜곡 배율",
+      "translation_description": "이 튜브의 가장자리 왜곡에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "25 Exposure - Dark scene speed",
+      "source_display_name": "25 Exposure - Dark scene speed",
+      "source_description": "Speed at which gain recovers in darkness.",
+      "translation_display_name": "25 노출 - 어두운 장면 복원 속도",
+      "translation_description": "어두워졌을 때 게인이 다시 올라가는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "25 Tube 2 - Fusion group",
+      "source_display_name": "25 Tube 2 - Fusion group",
+      "source_description": "Overlapping tubes in the same group fuse visually; different groups keep a physical boundary.",
+      "translation_display_name": "25 튜브 2 - 융합 그룹",
+      "translation_description": "겹치는 튜브가 같은 그룹이면 시각적으로 하나로 이어지고, 다른 그룹이면 물리적 경계를 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "26 Exposure - Highlight protection",
+      "source_display_name": "26 Exposure - Highlight protection",
+      "source_description": "Makes bright pixels influence metering more strongly.",
+      "translation_display_name": "26 노출 - 하이라이트 보호",
+      "translation_description": "밝은 픽셀이 노출 측광에 더 큰 영향을 주게 하여 과도한 밝기를 억제합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "26 Tube 2 - Vignette multiplier",
+      "source_display_name": "26 Tube 2 - Vignette multiplier",
+      "source_description": "Multiplier for edge vignette on this tube.",
+      "translation_display_name": "26 튜브 2 - 비네팅 배율",
+      "translation_description": "이 튜브의 가장자리 비네팅에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "3. Allow ambient change",
+      "source_display_name": "3. Allow ambient change",
+      "source_description": "Toggles whether night vision affects ambient lighting.",
+      "translation_display_name": "3. 주변광 변화 허용",
+      "translation_description": "야간투시경이 주변광(ambient lighting)에 영향을 줄 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "3. Manual gain speed",
+      "source_display_name": "3. Manual gain speed",
+      "source_description": "Continuous manual gain adjustment speed in EV per second.",
+      "translation_display_name": "3. 수동 게인 조절 속도",
+      "translation_description": "수동 게인 키를 누르고 있을 때 최대 노출 한도를 초당 몇 EV씩 조정할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "3. Maximum FPS",
+      "source_display_name": "3. Maximum FPS",
+      "source_description": "Maximum FPS for this device",
+      "translation_display_name": "3. 최대 FPS",
+      "translation_description": "이 장치의 프레임률 제한에서 사용할 최대 FPS입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "3. Scope reticle brightness",
+      "source_display_name": "3. Scope reticle brightness",
+      "source_description": "Brightness multiplier used for illuminated scope reticles with NVGs. Zero turns the reticle off.",
+      "translation_display_name": "3. 조준경 조준선 밝기",
+      "translation_description": "NVG 사용 중 발광식 조준경 조준선에 적용할 밝기 배율입니다. 0이면 조준선이 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "30 Tube 3 - Enabled",
+      "source_display_name": "30 Tube 3 - Enabled",
+      "source_description": "Include this tube in the layout.",
+      "translation_display_name": "30 튜브 3 - 사용",
+      "translation_description": "이 튜브를 렌즈 배치에 포함합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "31 Near focus - Full blur distance",
+      "source_display_name": "31 Near focus - Full blur distance",
+      "source_description": "Distance at which near blur is strongest.",
+      "translation_display_name": "31 근거리 초점 - 최대 흐림 거리",
+      "translation_description": "근거리 흐림 효과가 가장 강하게 적용되는 거리입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "31 Tube 3 - Center X",
+      "source_display_name": "31 Tube 3 - Center X",
+      "source_description": "Horizontal center in optic-texture UV coordinates.",
+      "translation_display_name": "31 튜브 3 - 중심 X",
+      "translation_description": "광학 텍스처 UV 좌표에서 이 튜브의 가로 중심 위치입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "32 Near focus - Sharp distance",
+      "source_display_name": "32 Near focus - Sharp distance",
+      "source_description": "Distance at which the scene becomes sharp.",
+      "translation_display_name": "32 근거리 초점 - 선명해지는 거리",
+      "translation_description": "장면이 다시 선명하게 보이기 시작하는 거리입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "32 Tube 3 - Center Y",
+      "source_display_name": "32 Tube 3 - Center Y",
+      "source_description": "Vertical center in optic-texture UV coordinates.",
+      "translation_display_name": "32 튜브 3 - 중심 Y",
+      "translation_description": "광학 텍스처 UV 좌표에서 이 튜브의 세로 중심 위치입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "33 Near focus - Strength",
+      "source_display_name": "33 Near focus - Strength",
+      "source_description": "Blend strength of near-object blur.",
+      "translation_display_name": "33 근거리 초점 - 흐림 강도",
+      "translation_description": "가까운 물체에 적용하는 흐림 효과의 혼합 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "33 Tube 3 - Radius",
+      "source_display_name": "33 Tube 3 - Radius",
+      "source_description": "Tube radius measured in optic-texture heights.",
+      "translation_display_name": "33 튜브 3 - 반경",
+      "translation_description": "광학 텍스처 높이를 기준으로 한 튜브 반경입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "34 Near focus - Radius pixels",
+      "source_display_name": "34 Near focus - Radius pixels",
+      "source_description": "Full-resolution blur radius.",
+      "translation_display_name": "34 근거리 초점 - 흐림 반경(픽셀)",
+      "translation_description": "전체 해상도 기준 흐림 반경(픽셀)입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "34 Tube 3 - Distortion multiplier",
+      "source_display_name": "34 Tube 3 - Distortion multiplier",
+      "source_description": "Multiplier for edge distortion on this tube.",
+      "translation_display_name": "34 튜브 3 - 왜곡 배율",
+      "translation_description": "이 튜브의 가장자리 왜곡에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "35 Tube 3 - Fusion group",
+      "source_display_name": "35 Tube 3 - Fusion group",
+      "source_description": "Overlapping tubes in the same group fuse visually; different groups keep a physical boundary.",
+      "translation_display_name": "35 튜브 3 - 융합 그룹",
+      "translation_description": "겹치는 튜브가 같은 그룹이면 시각적으로 하나로 이어지고, 다른 그룹이면 물리적 경계를 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "36 Tube 3 - Vignette multiplier",
+      "source_display_name": "36 Tube 3 - Vignette multiplier",
+      "source_description": "Multiplier for edge vignette on this tube.",
+      "translation_display_name": "36 튜브 3 - 비네팅 배율",
+      "translation_description": "이 튜브의 가장자리 비네팅에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "4. ACOG and baked scope reticle brightness",
+      "source_display_name": "4. ACOG and baked scope reticle brightness",
+      "source_description": "Brightness multiplier used for reticles baked into optic lens textures with NVGs. Zero turns the reticle off.",
+      "translation_display_name": "4. ACOG/텍스처 내장 조준선 밝기",
+      "translation_description": "NVG 사용 중 광학 렌즈 텍스처에 직접 포함된 조준선에 적용할 밝기 배율입니다. 0이면 조준선이 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "4. Built-in Amands NVG fallback",
+      "source_display_name": "4. Built-in Amands NVG fallback",
+      "source_description": "Reproduces Amands Graphics NVG post-processing when Amands Graphics is not installed.",
+      "translation_display_name": "4. 내장 Amands NVG 대체 효과",
+      "translation_description": "Amands Graphics가 설치되지 않았을 때 모드가 자체적으로 Amands Graphics의 NVG 후처리 효과를 재현합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "4. Pixelated",
+      "source_display_name": "4. Pixelated",
+      "source_description": "Sets whether the device's vision should be pixelated",
+      "translation_display_name": "4. 픽셀화",
+      "translation_description": "이 열상 장치 화면에 픽셀화 효과를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "40 Tube 4 - Enabled",
+      "source_display_name": "40 Tube 4 - Enabled",
+      "source_description": "Include this tube in the layout.",
+      "translation_display_name": "40 튜브 4 - 사용",
+      "translation_description": "이 튜브를 렌즈 배치에 포함합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "41 Haze - Blur radius pixels",
+      "source_display_name": "41 Haze - Blur radius pixels",
+      "source_description": "Blur radius used by the optical haze.",
+      "translation_display_name": "41 헤이즈 - 흐림 반경(픽셀)",
+      "translation_description": "광학 헤이즈에 사용하는 흐림 반경(픽셀)입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "41 Tube 4 - Center X",
+      "source_display_name": "41 Tube 4 - Center X",
+      "source_description": "Horizontal center in optic-texture UV coordinates.",
+      "translation_display_name": "41 튜브 4 - 중심 X",
+      "translation_description": "광학 텍스처 UV 좌표에서 이 튜브의 가로 중심 위치입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "42 Haze - Center strength",
+      "source_display_name": "42 Haze - Center strength",
+      "source_description": "Haze strength near the center of each tube.",
+      "translation_display_name": "42 헤이즈 - 중앙 강도",
+      "translation_description": "각 튜브 중앙 부근의 헤이즈 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "42 Tube 4 - Center Y",
+      "source_display_name": "42 Tube 4 - Center Y",
+      "source_description": "Vertical center in optic-texture UV coordinates.",
+      "translation_display_name": "42 튜브 4 - 중심 Y",
+      "translation_description": "광학 텍스처 UV 좌표에서 이 튜브의 세로 중심 위치입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "43 Haze - Edge strength",
+      "source_display_name": "43 Haze - Edge strength",
+      "source_description": "Haze strength near tube edges.",
+      "translation_display_name": "43 헤이즈 - 가장자리 강도",
+      "translation_description": "튜브 가장자리 부근의 헤이즈 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "43 Tube 4 - Radius",
+      "source_display_name": "43 Tube 4 - Radius",
+      "source_description": "Tube radius measured in optic-texture heights.",
+      "translation_display_name": "43 튜브 4 - 반경",
+      "translation_description": "광학 텍스처 높이를 기준으로 한 튜브 반경입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "44 Haze - Edge width pixels",
+      "source_display_name": "44 Haze - Edge width pixels",
+      "source_description": "Width of the edge-haze region.",
+      "translation_display_name": "44 헤이즈 - 가장자리 폭(픽셀)",
+      "translation_description": "가장자리 헤이즈가 적용되는 영역의 폭(픽셀)입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "44 Tube 4 - Distortion multiplier",
+      "source_display_name": "44 Tube 4 - Distortion multiplier",
+      "source_description": "Multiplier for edge distortion on this tube.",
+      "translation_display_name": "44 튜브 4 - 왜곡 배율",
+      "translation_description": "이 튜브의 가장자리 왜곡에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "45 Haze - Falloff",
+      "source_display_name": "45 Haze - Falloff",
+      "source_description": "Shape of the edge-haze transition.",
+      "translation_display_name": "45 헤이즈 - 감쇠",
+      "translation_description": "가장자리 헤이즈가 전환되며 감쇠하는 형태를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "45 Tube 4 - Fusion group",
+      "source_display_name": "45 Tube 4 - Fusion group",
+      "source_description": "Overlapping tubes in the same group fuse visually; different groups keep a physical boundary.",
+      "translation_display_name": "45 튜브 4 - 융합 그룹",
+      "translation_description": "겹치는 튜브가 같은 그룹이면 시각적으로 하나로 이어지고, 다른 그룹이면 물리적 경계를 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "46 Haze - Veil strength",
+      "source_display_name": "46 Haze - Veil strength",
+      "source_description": "Additional broad light veil near tube edges.",
+      "translation_display_name": "46 헤이즈 - 베일 강도",
+      "translation_description": "튜브 가장자리 부근에 넓게 더해지는 빛 베일 효과의 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "46 Tube 4 - Vignette multiplier",
+      "source_display_name": "46 Tube 4 - Vignette multiplier",
+      "source_description": "Multiplier for edge vignette on this tube.",
+      "translation_display_name": "46 튜브 4 - 비네팅 배율",
+      "translation_description": "이 튜브의 가장자리 비네팅에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "47 Haze - Chromatic aberration pixels",
+      "source_display_name": "47 Haze - Chromatic aberration pixels",
+      "source_description": "Red/blue separation near tube edges.",
+      "translation_display_name": "47 헤이즈 - 색수차(픽셀)",
+      "translation_description": "튜브 가장자리에서 적색/청색 채널이 벌어지는 색수차 크기(픽셀)입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "5. Enable near focus",
+      "source_display_name": "5. Enable near focus",
+      "source_description": "Enable near-object depth-of-field blur for all NVGs.",
+      "translation_display_name": "5. 근거리 초점 효과 사용",
+      "translation_description": "모든 NVG에서 가까운 물체에 심도 기반 흐림 효과를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "5. Vertical thermal resolution",
+      "source_display_name": "5. Vertical thermal resolution",
+      "source_description": "Vertical pixel resolution inside the T-7 display area. Block count is adjusted automatically for the current screen aspect ratio.",
+      "translation_display_name": "5. 열상 수직 해상도",
+      "translation_description": "T-7 표시 영역 내부의 세로 픽셀 해상도입니다. 가로 블록 수는 현재 화면 비율에 맞춰 자동으로 조정됩니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "51 Bloom - Threshold",
+      "source_display_name": "51 Bloom - Threshold",
+      "source_description": "Input luminance required to generate bloom.",
+      "translation_display_name": "51 블룸 - 임계 휘도",
+      "translation_description": "블룸이 발생하기 시작하는 입력 휘도 기준값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "52 Bloom - Soft knee",
+      "source_display_name": "52 Bloom - Soft knee",
+      "source_description": "Softness around the bloom threshold.",
+      "translation_display_name": "52 블룸 - 소프트 니",
+      "translation_description": "블룸 임계값 주변의 전환을 얼마나 부드럽게 할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "53 Bloom - Intensity",
+      "source_display_name": "53 Bloom - Intensity",
+      "source_description": "Strength of phosphor glow.",
+      "translation_display_name": "53 블룸 - 강도",
+      "translation_description": "형광체 발광 블룸의 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "54 Bloom - Radius pixels",
+      "source_display_name": "54 Bloom - Radius pixels",
+      "source_description": "Radius of the main glow.",
+      "translation_display_name": "54 블룸 - 반경(픽셀)",
+      "translation_description": "주 발광 효과의 반경(픽셀)입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "55 Bloom - Wide radius pixels",
+      "source_display_name": "55 Bloom - Wide radius pixels",
+      "source_description": "Radius of the broad secondary glow.",
+      "translation_display_name": "55 블룸 - 광역 반경(픽셀)",
+      "translation_description": "넓게 퍼지는 보조 발광 효과의 반경(픽셀)입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "6. Enable optical haze",
+      "source_display_name": "6. Enable optical haze",
+      "source_description": "Enable edge haze and optical veil for all NVGs.",
+      "translation_display_name": "6. 광학 헤이즈 사용",
+      "translation_description": "모든 NVG에서 튜브 가장자리 헤이즈와 광학 베일 효과를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "6. Noisy",
+      "source_display_name": "6. Noisy",
+      "source_description": "Sets whether the device's vision should be noisy",
+      "translation_display_name": "6. 노이즈 효과",
+      "translation_description": "이 열상 장치 화면에 노이즈 효과를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "60 Noise - Intensity",
+      "source_display_name": "60 Noise - Intensity",
+      "source_description": "Scales read, shot and coarse noise together while preserving their profile-defined balance.",
+      "translation_display_name": "60 노이즈 - 전체 강도",
+      "translation_description": "프로필에 정의된 각 노이즈의 상대 비율은 유지하면서 리드/샷/거친 노이즈를 함께 증감합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "63 Noise - Fixed pattern",
+      "source_display_name": "63 Noise - Fixed pattern",
+      "source_description": "Stationary spatial gain variation.",
+      "translation_display_name": "63 노이즈 - 고정 패턴",
+      "translation_description": "화면 위치에 고정된 공간적 게인 편차의 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "64 Noise - Scintillation strength",
+      "source_display_name": "64 Noise - Scintillation strength",
+      "source_description": "Brightness of scintillation events.",
+      "translation_display_name": "64 노이즈 - 섬광 점 강도",
+      "translation_description": "순간적으로 나타나는 섬광 점(scintillation)의 밝기입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "65 Noise - Scintillation density",
+      "source_display_name": "65 Noise - Scintillation density",
+      "source_description": "Number of one-to-three-pixel scintillation events; zero disables them.",
+      "translation_display_name": "65 노이즈 - 섬광 점 밀도",
+      "translation_description": "1~3픽셀 크기의 섬광 점이 나타나는 밀도입니다. 0이면 비활성화됩니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "66 Noise - Full visibility luminance",
+      "source_display_name": "66 Noise - Full visibility luminance",
+      "source_description": "Absolute pre-gain scene luminance below which noise is fully visible.",
+      "translation_display_name": "66 노이즈 - 완전 표시 휘도",
+      "translation_description": "게인 적용 전 장면 휘도가 이 값보다 낮으면 노이즈가 완전히 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "67 Noise - Hidden luminance",
+      "source_display_name": "67 Noise - Hidden luminance",
+      "source_description": "Absolute pre-gain scene luminance above which noise and scintillation disappear.",
+      "translation_display_name": "67 노이즈 - 숨김 휘도",
+      "translation_description": "게인 적용 전 장면 휘도가 이 값보다 높으면 노이즈와 섬광 점이 사라집니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "68 Noise - Grain pixel size",
+      "source_display_name": "68 Noise - Grain pixel size",
+      "source_description": "Pixel size of fine and coarse noise; scintillation size is independent.",
+      "translation_display_name": "68 노이즈 - 그레인 픽셀 크기",
+      "translation_description": "미세/거친 노이즈의 픽셀 크기입니다. 섬광 점 크기는 이 값과 별개입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "69 Noise - Refresh rate",
+      "source_display_name": "69 Noise - Refresh rate",
+      "source_description": "Distinct procedural noise frames per second.",
+      "translation_display_name": "69 노이즈 - 갱신률",
+      "translation_description": "초당 새로 생성되는 절차적 노이즈 프레임 수입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "7. Enable bloom",
+      "source_display_name": "7. Enable bloom",
+      "source_description": "Enable phosphor glow around bright sources for all NVGs.",
+      "translation_display_name": "7. 블룸 사용",
+      "translation_description": "모든 NVG에서 밝은 광원 주변에 형광체 발광 블룸 효과를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "7. Motion Blurred",
+      "source_display_name": "7. Motion Blurred",
+      "source_description": "Sets whether the device's vision should have motion blur",
+      "translation_display_name": "7. 모션 블러",
+      "translation_description": "이 열상 장치 화면에 모션 블러를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "70 Optics - Lens layout",
+      "source_display_name": "70 Optics - Lens layout",
+      "source_description": "Data-driven lens layout used for this device.",
+      "translation_display_name": "70 광학계 - 렌즈 배치",
+      "translation_description": "이 장치에 사용할 데이터 기반 렌즈/튜브 배치를 선택합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "70 Optics - Scale",
+      "source_display_name": "70 Optics - Scale",
+      "source_description": "Scale of lens and housing textures.",
+      "translation_display_name": "70 광학계 - 크기 배율",
+      "translation_description": "렌즈 및 하우징 텍스처의 크기 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "70 Optics - Texture center X",
+      "source_display_name": "70 Optics - Texture center X",
+      "source_description": "Horizontal screen-space center shared by the lens texture, housing mask and tube layout.",
+      "translation_display_name": "70 광학계 - 텍스처 중심 X",
+      "translation_description": "렌즈 텍스처, 하우징 마스크, 튜브 배치가 공유하는 화면상의 가로 중심 위치입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "70 Optics - Texture center Y",
+      "source_display_name": "70 Optics - Texture center Y",
+      "source_description": "Vertical screen-space center shared by the lens texture, housing mask and tube layout.",
+      "translation_display_name": "70 광학계 - 텍스처 중심 Y",
+      "translation_description": "렌즈 텍스처, 하우징 마스크, 튜브 배치가 공유하는 화면상의 세로 중심 위치입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "72 Optics - Distortion strength pixels",
+      "source_display_name": "72 Optics - Distortion strength pixels",
+      "source_description": "Radial displacement at tube edges.",
+      "translation_display_name": "72 광학계 - 왜곡 강도(픽셀)",
+      "translation_description": "튜브 가장자리에서 적용되는 방사형 위치 변위의 크기(픽셀)입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "73 Optics - Distortion width pixels",
+      "source_display_name": "73 Optics - Distortion width pixels",
+      "source_description": "Width of the distorted edge region.",
+      "translation_display_name": "73 광학계 - 왜곡 영역 폭(픽셀)",
+      "translation_description": "가장자리 왜곡이 적용되는 영역의 폭(픽셀)입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "74 Optics - Distortion falloff",
+      "source_display_name": "74 Optics - Distortion falloff",
+      "source_description": "Shape of edge-distortion decay.",
+      "translation_display_name": "74 광학계 - 왜곡 감쇠",
+      "translation_description": "가장자리 왜곡이 안쪽으로 감쇠하는 형태를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "75 Optics - Seam width",
+      "source_display_name": "75 Optics - Seam width",
+      "source_description": "Width of boundaries between GPNVG tubes.",
+      "translation_display_name": "75 광학계 - 튜브 경계 폭",
+      "translation_description": "GPNVG 각 튜브 사이 물리적 경계의 폭입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "76 Optics - Seam opacity",
+      "source_display_name": "76 Optics - Seam opacity",
+      "source_description": "Darkness of boundaries between GPNVG tubes.",
+      "translation_display_name": "76 광학계 - 튜브 경계 어두움",
+      "translation_description": "GPNVG 각 튜브 사이 경계를 얼마나 어둡게 표시할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "78 Optics - Vignette width",
+      "source_display_name": "78 Optics - Vignette width",
+      "source_description": "Width of per-tube edge darkening.",
+      "translation_display_name": "78 광학계 - 비네팅 폭",
+      "translation_description": "각 튜브 가장자리의 어두워지는 비네팅 영역 폭입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "79 Optics - Vignette strength",
+      "source_display_name": "79 Optics - Vignette strength",
+      "source_description": "Strength of per-tube edge darkening.",
+      "translation_display_name": "79 광학계 - 비네팅 강도",
+      "translation_description": "각 튜브 가장자리 비네팅의 어두워지는 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "8. Enable lens edge distortion",
+      "source_display_name": "8. Enable lens edge distortion",
+      "source_description": "Enable distortion around individual tube edges for all NVGs.",
+      "translation_display_name": "8. 렌즈 가장자리 왜곡 사용",
+      "translation_description": "모든 NVG에서 각 튜브 렌즈 가장자리의 왜곡 효과를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "80 Optics - Vignette falloff",
+      "source_display_name": "80 Optics - Vignette falloff",
+      "source_description": "Shape of per-tube edge darkening.",
+      "translation_display_name": "80 광학계 - 비네팅 감쇠",
+      "translation_description": "각 튜브 가장자리 비네팅의 감쇠 형태를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "9. Enable lens vignette",
+      "source_display_name": "9. Enable lens vignette",
+      "source_description": "Enable per-tube outer vignette for all NVGs.",
+      "translation_display_name": "9. 렌즈 비네팅 사용",
+      "translation_description": "모든 NVG에서 각 튜브 바깥쪽 가장자리에 비네팅을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Enable Debug Logging",
+      "source_display_name": "Enable Debug Logging",
+      "source_description": "Enables debug logging.",
+      "translation_display_name": "디버그 로그 사용",
+      "translation_description": "모드의 디버그 로그 출력을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "IR flashlight brightness multiplier",
+      "source_display_name": "IR flashlight brightness multiplier",
+      "source_description": "Brightness multiplier for IR flashlights",
+      "translation_display_name": "IR 손전등 밝기 배율",
+      "translation_description": "IR 손전등 밝기에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "IR flashlight range multiplier",
+      "source_display_name": "IR flashlight range multiplier",
+      "source_description": "Range multiplier for IR flashlights",
+      "translation_display_name": "IR 손전등 조사 거리 배율",
+      "translation_description": "IR 손전등의 조사 거리에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "IR laser brightness multiplier",
+      "source_display_name": "IR laser brightness multiplier",
+      "source_description": "Brightness multiplier for the IR laser beam and impact point",
+      "translation_display_name": "IR 레이저 밝기 배율",
+      "translation_description": "IR 레이저 빔과 조사점 밝기에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "IR laser point close size multiplier",
+      "source_display_name": "IR laser point close size multiplier",
+      "source_description": "Point size multiplier for IR lasers",
+      "translation_display_name": "IR 레이저 근거리 조사점 크기 배율",
+      "translation_description": "가까운 거리에서 IR 레이저 조사점 크기에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "IR laser point far size multiplier",
+      "source_display_name": "IR laser point far size multiplier",
+      "source_description": "Point size multiplier for IR lasers",
+      "translation_display_name": "IR 레이저 원거리 조사점 크기 배율",
+      "translation_description": "먼 거리에서 IR 레이저 조사점 크기에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "IR laser range multiplier",
+      "source_display_name": "IR laser range multiplier",
+      "source_description": "Range multiplier for IR lasers",
+      "translation_display_name": "IR 레이저 거리 배율",
+      "translation_description": "IR 레이저의 표시 거리에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Sprint toggles tactical devices. DO NOT USE WITH FIKA.",
+      "source_display_name": "Sprint toggles tactical devices. DO NOT USE WITH FIKA.",
+      "source_description": "Sprinting will toggle tactical devices until you stop sprinting, this mitigates the IR lights being visible outside of the NVGs. I recommend enabling this feature.",
+      "translation_display_name": "달리기 중 전술 장비 토글 (Fika와 함께 사용 금지)",
+      "translation_description": "달리는 동안 전술 장비를 전환해 IR 조명이 NVG 밖에서도 보이는 문제를 줄입니다. 달리기를 멈추면 다시 전환됩니다. 제작자는 활성화를 권장하지만 Fika와 함께 사용하면 안 됩니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Visible laser intensity with NVGs",
+      "source_display_name": "Visible laser intensity with NVGs",
+      "source_description": "Beam and impact-point intensity of visible lasers while NVGs are active, relative to vanilla. Does not affect visible lasers while NVGs are off.",
+      "translation_display_name": "NVG 사용 중 가시광 레이저 강도",
+      "translation_description": "NVG를 사용하는 동안 가시광 레이저의 빔과 조사점 강도를 기본 게임 대비 배율로 조정합니다. NVG가 꺼져 있을 때는 영향을 주지 않습니다.",
+      "values": []
+    }
+  ]
+}

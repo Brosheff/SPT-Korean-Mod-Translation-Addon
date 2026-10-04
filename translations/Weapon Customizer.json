@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "WeaponCustomizer",
+  "mod_name": "Weapon Customizer",
+  "channels": {
+    "notifications": [
+      {
+        "id": "save_failed",
+        "source": "Failed to save weapon customization - check the server",
+        "translation": "무기 커스터마이징 저장에 실패했습니다. 서버 상태를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "load_failed",
+        "source": "Failed to load Weapon Customizations - check the server",
+        "translation": "무기 커스터마이징을 불러오지 못했습니다. 서버 상태를 확인하세요.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

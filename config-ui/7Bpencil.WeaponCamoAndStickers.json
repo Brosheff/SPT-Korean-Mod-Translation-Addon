@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "7Bpencil.WeaponCamoAndStickers",
+  "plugin_name": "7Bpencil.WeaponCamoAndStickers",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Source verified against Weapon Camo & Stickers 1.19.0 Plugin.cs. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Main",
+      "translation": "기본"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Main",
+      "key": "Camo Editor | Keybinds | Move",
+      "source_display_name": "Camo Editor | Keybinds | Move",
+      "source_description": "",
+      "translation_display_name": "위장 편집기 | 단축키 | 이동",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Camo Editor | Keybinds | Rotate",
+      "source_display_name": "Camo Editor | Keybinds | Rotate",
+      "source_description": "",
+      "translation_display_name": "위장 편집기 | 단축키 | 회전",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Camo Editor | Keybinds | Scale",
+      "source_display_name": "Camo Editor | Keybinds | Scale",
+      "source_description": "",
+      "translation_display_name": "위장 편집기 | 단축키 | 크기 조절",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Camo Editor | UI Scale",
+      "source_display_name": "Camo Editor | UI Scale",
+      "source_description": "",
+      "translation_display_name": "위장 편집기 | UI 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Raid | Camo Spawn Chance | Goons",
+      "source_display_name": "Raid | Camo Spawn Chance | Goons",
+      "source_description": "",
+      "translation_display_name": "레이드 | 위장 적용 확률 | 군즈",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Raid | Camo Spawn Chance | Other Bosses",
+      "source_display_name": "Raid | Camo Spawn Chance | Other Bosses",
+      "source_description": "",
+      "translation_display_name": "레이드 | 위장 적용 확률 | 기타 보스",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Raid | Camo Spawn Chance | PMC",
+      "source_display_name": "Raid | Camo Spawn Chance | PMC",
+      "source_description": "",
+      "translation_display_name": "레이드 | 위장 적용 확률 | PMC",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Raid | Camo Spawn Chance | Scavs",
+      "source_display_name": "Raid | Camo Spawn Chance | Scavs",
+      "source_description": "",
+      "translation_display_name": "레이드 | 위장 적용 확률 | 스캐브",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Video | Play Audio",
+      "source_display_name": "Video | Play Audio",
+      "source_description": "",
+      "translation_display_name": "비디오 | 오디오 재생",
+      "translation_description": "",
+      "values": []
+    }
+  ]
+}

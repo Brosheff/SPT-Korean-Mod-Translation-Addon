@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_9f17ac9dfc64",
+  "mod_name": "Content Backport - Prestiges",
+  "channels": {
+    "locale": [
+      {
+        "key": "68d3fe84757f8967ec09099b name",
+        "source": "Five Plus",
+        "translation": "파이브 플러스",
+        "match_mode": "item_decorated",
+        "display_type": "achievement_title"
+      },
+      {
+        "key": "68d3fe84757f8967ec09099b description",
+        "source": "Earn the Prestige level 5",
+        "translation": "프레스티지 레벨 5 달성하기",
+        "display_type": "achievement_description"
+      },
+      {
+        "key": "68d3ff840531ed76e808866c name",
+        "source": "No Limit to Perfection",
+        "translation": "완벽에는 한계가 없다",
+        "display_type": "achievement_title"
+      },
+      {
+        "key": "68d3ff840531ed76e808866c description",
+        "source": "Earn the Prestige level 6",
+        "translation": "프레스티지 레벨 6 달성하기",
+        "display_type": "achievement_description"
+      },
+      {
+        "key": "6a1eee3b05093d36676983fd",
+        "source": "Hand over found in raid Scav figurine",
+        "translation": "레이드에서 발견한 스캐브 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1eee3b26d55028ef5f6b23",
+        "source": "Hand over found in raid Trader figurine",
+        "translation": "레이드에서 발견한 상인 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1eee3b46559854e1d6e4a1",
+        "source": "Hand over any Scav figurine",
+        "translation": "스캐브 피규어 아무거나 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1eee3b72ccb93b7906f718",
+        "source": "Hand over any Boss figurine",
+        "translation": "보스 피규어 아무거나 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1eee3b8123f3c6cd43d531",
+        "source": "Hand over found in raid Boss figurine",
+        "translation": "레이드에서 발견한 보스 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1eee3b81288e52b4a89e32",
+        "source": "Hand over found in raid Scav figurine",
+        "translation": "레이드에서 발견한 스캐브 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1eee3b8d3c4959956cc634",
+        "source": "Hand over found in raid Trader figurine",
+        "translation": "레이드에서 발견한 상인 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1eee3bbb253cf2af68b9f9",
+        "source": "Hand over found in raid PMC figurine",
+        "translation": "레이드에서 발견한 PMC 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1eee3bc9bb7cec03e980f2",
+        "source": "Hand over any PMC figurine",
+        "translation": "PMC 피규어 아무거나 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1eee3bdb2afb97ab0d8826",
+        "source": "Hand over found in raid Boss figurine",
+        "translation": "레이드에서 발견한 보스 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1eee3bf653433c4a37cfe3",
+        "source": "Hand over any Trader figurine",
+        "translation": "상인 피규어 아무거나 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1eee3bff2fbbbd4b5b3a1a",
+        "source": "Hand over found in raid PMC figurine",
+        "translation": "레이드에서 발견한 PMC 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1efef0158ede62262bb019",
+        "source": "Hand over found in raid PMC figurine",
+        "translation": "레이드에서 발견한 PMC 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1efef071747c9c6fa7105d",
+        "source": "Hand over found in raid Trader figurine",
+        "translation": "레이드에서 발견한 상인 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1efef081b380589cd69cbc",
+        "source": "Hand over found in raid Scav figurine",
+        "translation": "레이드에서 발견한 스캐브 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1efef0b9046f4577d850d1",
+        "source": "Hand over found in raid Boss figurine",
+        "translation": "레이드에서 발견한 보스 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a1f02989603b67417d55dcb",
+        "source": "Eliminate hooded men",
+        "translation": "후드를 쓴 자들 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a6528d19363eee246875ae8",
+        "source": "Hand over the found in raid item: Dunduk floppy disk",
+        "translation": "레이드에서 발견한 Dunduk 플로피 디스크 건네주기"
+      },
+      {
+        "key": "6a6528d19363eee246875aea",
+        "source": "Hand over the found in raid item: DesmondPilak CD",
+        "translation": "레이드에서 발견한 DesmondPilak CD 건네주기"
+      },
+      {
+        "key": "6a6528d19363eee246875aee",
+        "source": "Hand over the found in raid item: SheefGG piggy bank",
+        "translation": "레이드에서 발견한 SheefGG 돼지저금통 건네주기"
+      },
+      {
+        "key": "693c3a908ad994118b846d63",
+        "source": "Hand over the found in raid item: Nut Sack balaclava",
+        "translation": "레이드에서 발견한 Nut Sack 발라클라바 건네주기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "693c3a9fc17c9edbfc58325a",
+        "source": "Hand over the found in raid item: Mazoni golden dumbbell",
+        "translation": "레이드에서 발견한 Mazoni 황금 덤벨 건네주기"
+      },
+      {
+        "key": "693c3aacf0cd3ec97007f2c1",
+        "source": "Hand over the found in raid item: Tigzresq splint",
+        "translation": "레이드에서 발견한 Tigzresq 부목 건네주기"
+      },
+      {
+        "key": "693c3ab82b0477e3de2b2312",
+        "source": "Hand over the found in raid item: Domontovich ushanka hat",
+        "translation": "레이드에서 발견한 Domontovich 우샨카 모자 건네주기"
+      },
+      {
+        "key": "68d3eabc22a258476b064851 description",
+        "source": "Heya, brother! You probably already know what this is about. Yes, those same lists you really can't afford to drop out of.\n\nSo what does that mean? That's right, we keep working and showing just how good we are. The tasks are the same, just with a few small changes.\n\nYup, it gets harder each time, but isn't that how life always is?\n\nAlright, get to work.",
+        "translation": "안녕, 형제! 무슨 일인지 이미 알고 있겠지. 그래, 절대로 밀려나면 안 되는 바로 그 명단 말이야.\n\n그게 무슨 뜻이냐고? 맞아, 계속 일하면서 우리가 얼마나 잘하는지 보여주는 거지. 해야 할 일은 같고, 몇 가지 작은 변화만 있어.\n\n그래, 할 때마다 더 어려워지지만 인생이 원래 그렇지 않겠어?\n\n좋아, 일 시작해.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "68d3eabc22a258476b064851 name",
+        "source": "New Beginning",
+        "translation": "새로운 시작",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "68d3eabc22a258476b064851 successMessageText",
+        "source": "I knew you'd handle it! No wonder you're not dragging along at the very bottom of those lists.",
+        "translation": "역시 해낼 줄 알았어! 그 명단 맨 밑바닥에서 질질 끌고 있지 않은 데는 다 이유가 있지."
+      },
+      {
+        "key": "69512f5beb8b627e407bef28",
+        "source": "Eliminate PMC operatives",
+        "translation": "PMC 요원 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef2b",
+        "source": "Use the transit from The Lab to Streets of Tarkov",
+        "translation": "연구소에서 타르코프 시내로 이어지는 환승 이용하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef2d",
+        "source": "Hand over the found in raid item: BEAR operative figurine",
+        "translation": "레이드에서 발견한 BEAR 요원 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef26",
+        "source": "Hand over the found in raid item: Politician Mutkevich figurine",
+        "translation": "레이드에서 발견한 정치인 Mutkevich 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef2a",
+        "source": "Hand over the found in raid item: Killa figurine",
+        "translation": "레이드에서 발견한 Killa 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef1a",
+        "source": "Hand over the found in raid item: Reshala figurine",
+        "translation": "레이드에서 발견한 Reshala 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef27",
+        "source": "Hand over the found in raid item: Ryzhy figurine",
+        "translation": "레이드에서 발견한 Ryzhy 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef1f",
+        "source": "Hand over the found in raid item: Scav figurine",
+        "translation": "레이드에서 발견한 스캐브 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef2c",
+        "source": "Hand over the found in raid item: Tagilla figurine",
+        "translation": "레이드에서 발견한 Tagilla 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef1d",
+        "source": "Hand over the found in raid item: USEC operative figurine",
+        "translation": "레이드에서 발견한 USEC 요원 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef1b",
+        "source": "Hand over the found in raid item: Cultist figurine",
+        "translation": "레이드에서 발견한 컬티스트 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef1e",
+        "source": "Hand over the found in raid item: Den figurine",
+        "translation": "레이드에서 발견한 Den 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef24",
+        "source": "Eliminate Rogues",
+        "translation": "로그 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef29",
+        "source": "Use the transit from Streets of Tarkov to Interchange",
+        "translation": "타르코프 시내에서 인터체인지로 이어지는 환승 이용하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef30",
+        "source": "Use the transit from Interchange to Customs",
+        "translation": "인터체인지에서 세관으로 이어지는 환승 이용하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef31",
+        "source": "Survive and extract from Customs",
+        "translation": "세관에서 생존하여 탈출하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69512f5beb8b627e407bef32",
+        "source": "Locate and neutralize any Boss",
+        "translation": "보스 아무나 찾아 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "68d3eb2b2712147eab000f21 description",
+        "source": "Hello-hello! I won't waste your time, let's get straight to the point.\n\nOur reputation is holding strong, but we want more and better, right? So we can't afford to slack off.\n\nThe lists are updated all the time, and we can make it to the very top. All you have to do is complete everything on the list.\n\nYes, it's tough, yes, it takes a while, but the reward matches the effort.",
+        "translation": "안녕안녕! 시간 낭비는 하지 말고 바로 본론으로 가자.\n\n우리 평판은 탄탄하게 유지되고 있지만, 더 높고 더 좋은 걸 원하잖아? 그러니 느슨해질 순 없지.\n\n명단은 계속 갱신되고 있고, 우리는 맨 꼭대기까지 갈 수 있어. 네가 할 일은 명단에 있는 걸 전부 끝내는 것뿐이야.\n\n그래, 어렵고 시간도 걸리지만 보상도 그만큼 값어치가 있어.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "68d3eb2b2712147eab000f21 name",
+        "source": "New Beginning",
+        "translation": "새로운 시작",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "68d3eb2b2712147eab000f21 successMessageText",
+        "source": "I knew you wouldn't let me down! You and I make a great team, right?",
+        "translation": "실망시키지 않을 줄 알았어! 우리 둘이 꽤 좋은 팀이지, 안 그래?"
+      },
+      {
+        "key": "69513b151dfe9cfec5e48090",
+        "source": "Eliminate PMC operatives",
+        "translation": "PMC 요원 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e4807c",
+        "source": "Use the transit from The Lab to Streets of Tarkov",
+        "translation": "연구소에서 타르코프 시내로 이어지는 환승 이용하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e4808f",
+        "source": "Hand over the found in raid item: BEAR operative figurine",
+        "translation": "레이드에서 발견한 BEAR 요원 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e48085",
+        "source": "Hand over the found in raid item: Politician Mutkevich figurine",
+        "translation": "레이드에서 발견한 정치인 Mutkevich 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e48083",
+        "source": "Hand over the found in raid item: Killa figurine",
+        "translation": "레이드에서 발견한 Killa 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e48092",
+        "source": "Hand over the found in raid item: Reshala figurine",
+        "translation": "레이드에서 발견한 Reshala 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e4807d",
+        "source": "Hand over the found in raid item: Ryzhy figurine",
+        "translation": "레이드에서 발견한 Ryzhy 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e4807f",
+        "source": "Hand over the found in raid item: Scav figurine",
+        "translation": "레이드에서 발견한 스캐브 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e48082",
+        "source": "Hand over the found in raid item: Tagilla figurine",
+        "translation": "레이드에서 발견한 Tagilla 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e4808a",
+        "source": "Hand over the found in raid item: USEC operative figurine",
+        "translation": "레이드에서 발견한 USEC 요원 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e48087",
+        "source": "Hand over the found in raid item: Cultist figurine",
+        "translation": "레이드에서 발견한 컬티스트 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e48091",
+        "source": "Hand over the found in raid item: Den figurine",
+        "translation": "레이드에서 발견한 Den 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e48089",
+        "source": "Eliminate Rogues",
+        "translation": "로그 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e4808b",
+        "source": "Use the transit from Streets of Tarkov to Interchange",
+        "translation": "타르코프 시내에서 인터체인지로 이어지는 환승 이용하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e4808d",
+        "source": "Use the transit from Interchange to Customs",
+        "translation": "인터체인지에서 세관으로 이어지는 환승 이용하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e48086",
+        "source": "Use the transit from Customs to Reserve",
+        "translation": "세관에서 리저브로 이어지는 환승 이용하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e48094",
+        "source": "Survive and extract from Reserve",
+        "translation": "리저브에서 생존하여 탈출하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69513b151dfe9cfec5e4807e",
+        "source": "Locate and neutralize any Boss with a headshot",
+        "translation": "보스 아무나 찾아 헤드샷으로 처치하기",
+        "display_type": "quest_objective"
+      }
+    ]
+  }
+}

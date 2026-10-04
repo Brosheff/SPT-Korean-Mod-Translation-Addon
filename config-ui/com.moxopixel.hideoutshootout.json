@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.moxopixel.hideoutshootout",
+  "plugin_name": "MoxoPixel-HideoutShootout",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Diagnostics",
+      "translation": "2. 진단"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Spawn Scav Hotkey",
+      "source_display_name": "Spawn Scav Hotkey",
+      "source_description": null,
+      "translation_display_name": "스캐브 생성 단축키",
+      "translation_description": "은신처 사격장에서 스캐브 표적을 생성하거나 현재 표적을 교체하는 키입니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Bot Spawn Distance",
+      "source_display_name": "Bot Spawn Distance",
+      "source_description": null,
+      "translation_display_name": "봇 생성 거리",
+      "translation_description": "스캐브를 플레이어 앞쪽에 생성할 거리입니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Face Scav Toward Player",
+      "source_display_name": "Face Scav Toward Player",
+      "source_description": null,
+      "translation_display_name": "스캐브가 플레이어를 바라보게 함",
+      "translation_description": "생성된 스캐브가 플레이어를 향하도록 회전시킵니다.",
+      "values": []
+    },
+    {
+      "section": "2. Diagnostics",
+      "key": "Enable Spawn Diagnostics",
+      "source_display_name": "Enable Spawn Diagnostics",
+      "source_description": null,
+      "translation_display_name": "생성 진단 사용",
+      "translation_description": "은신처 봇 생성 파이프라인을 로그에 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Diagnostics",
+      "key": "Enable Renderer Diagnostics",
+      "source_display_name": "Enable Renderer Diagnostics",
+      "source_description": null,
+      "translation_display_name": "렌더러 진단 사용",
+      "translation_description": "생성된 스캐브의 렌더러 상태를 활성화 시점과 2초 후에 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Diagnostics",
+      "key": "Enable Harmony Patch Diagnostics",
+      "source_display_name": "Enable Harmony Patch Diagnostics",
+      "source_description": null,
+      "translation_display_name": "Harmony 패치 진단 사용",
+      "translation_description": "LocalPlayer.Create를 패치한 모드를 기록합니다.",
+      "values": []
+    }
+  ]
+}

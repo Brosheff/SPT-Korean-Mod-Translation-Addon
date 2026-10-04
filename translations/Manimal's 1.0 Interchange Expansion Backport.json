@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_69c5ddfe1691",
+  "mod_name": "Manimal's 1.0 Interchange Expansion Backport",
+  "channels": {
+    "locale": [
+      {
+        "key": "6877c84d020406d3ea060551 Name",
+        "source": "ARRS station mechanic's notes",
+        "translation": "ARRS 기지 정비사의 메모",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6877c84d020406d3ea060551 Description",
+        "source": "A note from the mechanic at the ARRS station detailing how to roll back the 14-4 KORD station settings to a backup state.",
+        "translation": "14-4 KORD 기지의 설정을 백업 상태로 롤백하는 방법이 적힌 ARRS 기지 정비사의 메모입니다."
+      },
+      {
+        "key": "6877c84d020406d3ea060551_Note_Page1_Text1",
+        "source": "<align=\"center\"><size=20>The new software still hasn’t been launched.\nWhile all this crap goes on, the rollback to backup\nsettings has been assigned to the button under the desk.\nWhat else can we do? These morons have already accidentally\nrolled back 4 times because no one understands how this shit\nactually works!\nSo for now, the reboot is on the button.\nDo NOT touch the button under the desk!!!\nAnyone who does gets a fine!</size></align>",
+        "translation": "<align=\"center\"><size=20>새 소프트웨어는 아직도 가동되지 않았다.\n이 난리가 계속되는 동안에는 백업 설정으로\n롤백하는 기능을 책상 아래 버튼에 연결해뒀다.\n달리 뭘 어쩌겠나? 이 멍청이들은 이게 대체\n어떻게 돌아가는지도 몰라서 벌써 실수로\n4번이나 롤백해버렸다!\n그러니 당분간 재부팅은 그 버튼으로 한다.\n책상 아래 버튼은 절대로 누르지 마라!!!\n누르는 놈은 벌금이다!</size></align>"
+      },
+      {
+        "key": "688895322f6b5b76380e6af5 Name",
+        "source": "Mysterious audio tape",
+        "translation": "수상한 오디오 테이프"
+      },
+      {
+        "key": "688895322f6b5b76380e6af5 Description",
+        "source": "An audio tape that somehow ended up in the safe at station 14-4 KORD. Either someone slipped it in unnoticed when the server room’s cooling system was activated, or <i>they</i> already knew what would happen.",
+        "translation": "14-4 KORD 기지의 금고에 어쩌다 들어가 있던 오디오 테이프입니다. 누군가 서버실 냉각 시스템이 가동될 때 몰래 넣었거나, 아니면 <i>그들</i>은 이미 무슨 일이 일어날지 알고 있었던 모양입니다."
+      },
+      {
+        "key": "6888958794cca0a80b070ae9 Name",
+        "source": "Audio tape with report",
+        "translation": "보고 내용이 담긴 오디오 테이프"
+      },
+      {
+        "key": "6888958794cca0a80b070ae9 Description",
+        "source": "An audio tape recording the conversations between the Gnezdo outpost fighters and the Bogatyr squad.",
+        "translation": "그네즈도 전초기지 전투원들과 보가티르 분대 사이의 대화를 녹음한 오디오 테이프입니다."
+      },
+      {
+        "key": "6888965ac122cae7a20765fa Name",
+        "source": "Voevoda's thoughts audio tape",
+        "translation": "보예보다의 독백 오디오 테이프"
+      },
+      {
+        "key": "6888965ac122cae7a20765fa Description",
+        "source": "This recording seems to capture one of Voevoda’s reflections on the causes of the Tarkov conflict.",
+        "translation": "보예보다가 타르코프 분쟁의 원인에 대해 생각을 털어놓은 내용이 녹음된 것으로 보입니다."
+      },
+      {
+        "key": "68d2f69e91c2fa84e2044a08 Name",
+        "source": "First piece of code note",
+        "translation": "암호 메모 첫 번째 조각"
+      },
+      {
+        "key": "68d2f69e91c2fa84e2044a08 Description",
+        "source": "Someone tore a note containing a number or code. Without the other half, it’s useless.",
+        "translation": "누군가 숫자나 암호가 적힌 메모를 찢어놓았습니다. 다른 절반이 없으면 쓸모가 없습니다."
+      },
+      {
+        "key": "68d2f7334aae290cf704e36d Name",
+        "source": "BEAR note from the outpost behind Ultra",
+        "translation": "울트라 뒤편 전초기지의 BEAR 메모"
+      },
+      {
+        "key": "68d2f7334aae290cf704e36d Description",
+        "source": "Someone left their notes at the Gnezdo outpost.",
+        "translation": "누군가 그네즈도 전초기지에 남긴 메모입니다."
+      },
+      {
+        "key": "68d2f7334aae290cf704e36d_Note_Page1_Text1",
+        "source": "<width=75%><size=18>We've been waiting for the Bogatyr squad for the second day.\nWhen they came on the radio, they reported\nthat there are problems. It even got on the recording,\nlooks like some morons decided\nto hijack their gear.\nBut the Bogatyrs will drop the Scavs in no time.\n\nBut our commander for some fucking reason\ndecided to jump into action, picked fighters\nspecifically from the newly arrived.\nThey left all the old hands on watch\nand took off.\n\nDidn't explain anything, as always.\nBut the whole thing is weird, that's for sure.\nNeed to find out <u>what's up</u></size></width>",
+        "translation": "<width=75%><size=18>보가티르 분대를 기다린 지 이틀째다.\n무전이 왔을 때는\n문제가 생겼다고 보고했다. 녹음까지 남았는데,\n어떤 머저리들이 놈들 장비를\n가로채려 한 모양이다.\n그래도 보가티르라면 스캐브 따윈 금방 정리하겠지.\n\n그런데 우리 지휘관은 대체 무슨 생각인지\n직접 뛰어들기로 하더니, 하필\n막 도착한 신참들만 골라 데려갔다.\n고참들은 전부 경계에 남겨두고\n출발해버렸다.\n\n늘 그렇듯 설명도 없었다.\n하지만 확실히 뭔가 이상하다.\n<u>무슨 일인지</u> 알아봐야겠다.</size></width>"
+      },
+      {
+        "key": "68d2f77e5f98276b7503c330 Name",
+        "source": "Map with triangulated signal",
+        "translation": "신호 삼각측량 표시가 된 지도"
+      },
+      {
+        "key": "68d2f77e5f98276b7503c330 Description",
+        "source": "One of the BEARs in the Gnezdo camp clearly tried to triangulate Bogatyr squad's signal. According to the map, the signal came from the eastern part of the nature reserve.",
+        "translation": "그네즈도 야영지의 BEAR 대원 중 한 명이 보가티르 분대의 신호를 삼각측량하려 한 것이 분명합니다. 지도에 따르면 신호는 자연보호구역 동쪽에서 잡혔습니다."
+      },
+      {
+        "key": "68d2f85af63f06b7590ce310 Name",
+        "source": "Strelets' note",
+        "translation": "스트렐레츠의 메모"
+      },
+      {
+        "key": "68d2f85af63f06b7590ce310 Description",
+        "source": "In this note, Strelets tries to convince Den to mend ties with Voevoda. There’s also a code scribbled in the corner. It might come in handy.",
+        "translation": "이 메모에서 스트렐레츠는 덴에게 보예보다와의 관계를 회복하라고 설득하고 있습니다. 구석에는 암호도 하나 적혀 있습니다. 쓸모가 있을지도 모릅니다."
+      },
+      {
+        "key": "68d2f85af63f06b7590ce310_Note_Page1_Text1",
+        "source": "<width=75%><size=20>I used to think Batya was a bit\nover the top. But after today,\nI changed my mind. He saved both our asses today!\n\nHardly anyone from the other squads would’ve\nmade it back, but Batya did. And he pulled us out!\nSo we’ve got no choice but to listen to him and follow him, Den.\nYou’d better forget about your little grudge,\nbecause Voevoda knows what he’s doing.\n\n<align=\"right\"><b>27.893.2000</b></size></align></width>",
+        "translation": "<width=75%><size=20>난 예전엔 바탸가 좀\n지나치다고 생각했어. 하지만 오늘 일을 겪고\n생각이 바뀌었다. 오늘 우리 둘 다 그 사람이 살렸어!\n\n다른 분대였으면 거의 누구도\n살아서 못 돌아왔을 텐데, 바탸는 해냈어. 우리까지 끌고 나왔지!\n그러니 이제 우린 그 사람 말을 듣고 따라야 해, 덴.\n그 사소한 앙금은 잊는 게 좋아.\n보예보다는 자기가 뭘 하는지 알고 있으니까.\n\n<align=\"right\"><b>27.893.2000</b></size></align></width>"
+      },
+      {
+        "key": "68d302814aae290cf704e375 Name",
+        "source": "Bogatyr squad operations report",
+        "translation": "보가티르 분대 작전 보고서"
+      },
+      {
+        "key": "68d302814aae290cf704e375 Description",
+        "source": "The documents describe several operations carried out by the Bogatyr squad.",
+        "translation": "보가티르 분대가 수행한 여러 작전의 내용이 기록된 문서입니다."
+      },
+      {
+        "key": "68d302814aae290cf704e375_Note_Page1_Text1",
+        "source": "<width=75%><size=20>Apr. 14: The Bogatyr group intercepted intel on an upcoming USEC operation to evacuate a TerraGroup informant using surface vessels in the Gulf of Finland, near Vidny Island.\n\nThe group’s commander, callsign Voevoda, decided to intercept the target on his own initiative. In his personal report, Voevoda justified the decision by citing a lack of time for coordination and preparation of an official strike team.\n\nThe Bogatyrs set up an ambush near an abandoned barge by Vidny Island and successfully captured the informant. The enemy was eliminated with no casualties on the Bogatyr side. The informant was later extracted to the handoff point for a BEAR reserve unit.</size></width>",
+        "translation": "<width=75%><size=20>4월 14일: 보가티르 그룹은 비드니 섬 인근 핀란드만에서 수상 선박을 이용해 테라그룹 정보원을 탈출시키려는 USEC 작전 정보를 입수했다.\n\n그룹 지휘관, 호출부호 보예보다는 독자적으로 목표를 차단하기로 결정했다. 보예보다는 개인 보고서에서 지휘부와 조율하고 정식 타격대를 준비할 시간이 부족했다는 점을 결정의 근거로 들었다.\n\n보가티르 분대는 비드니 섬 근처의 버려진 바지선 인근에 매복을 설치해 정보원을 성공적으로 생포했다. 적은 전멸했으며 보가티르 측 사상자는 없었다. 이후 정보원은 BEAR 예비부대 인계 지점으로 후송됐다.</size></width>"
+      },
+      {
+        "key": "68d302814aae290cf704e375_Note_Page2_Text1",
+        "source": "<width=75%><size=20>Mar. 25 - Mar. 27: The Bogatyr squad was assigned to locate and extract a TerraGroup asset. The target was not found at the designated coordinates, and due to radio silence, it was impossible to coordinate further actions with command.\n\nAccording to the plan, the group was to withdraw and report mission failure. However, the commander (callsign Voevoda) chose to continue the search and successfully identified the asset’s new location.\n\nFrom Mar. 26 to Mar. 27, the Bogatyr squad conducted surveillance on the convoy transporting the target and prepared for an assault. On Mar. 27, the asset was captured. The group then relocated and established a comms point to file the report. The commander confirmed multiple wounded and one KIA. Enemy forces were neutralized, and the asset was handed over to headquarters on Mar. 29.</size></width>",
+        "translation": "<width=75%><size=20>3월 25일~3월 27일: 보가티르 분대는 테라그룹 자산을 찾아 확보하는 임무를 부여받았다. 지정 좌표에서 목표를 발견하지 못했고 무선 침묵 상태였기 때문에 지휘부와 후속 행동을 조율할 수 없었다.\n\n계획상 분대는 철수한 뒤 임무 실패를 보고해야 했다. 그러나 지휘관(호출부호 보예보다)은 수색을 계속하기로 결정했고, 목표의 새로운 위치를 성공적으로 확인했다.\n\n3월 26일부터 27일까지 보가티르 분대는 목표를 수송하는 호송대를 감시하며 강습을 준비했다. 3월 27일 자산 확보에 성공했다. 이후 분대는 이동해 통신 지점을 구축하고 보고를 전송했다. 지휘관은 다수의 부상자와 전사자 1명을 확인했다. 적 병력은 제거됐고, 자산은 3월 29일 본부에 인계됐다.</size></width>"
+      },
+      {
+        "key": "68d3054f0c834c20c00a81da Name",
+        "source": "Moreman's personnel file",
+        "translation": "모레만의 인사 파일"
+      },
+      {
+        "key": "68d3054f0c834c20c00a81da Description",
+        "source": "The file notes Moreman’s service locations and personality traits.",
+        "translation": "모레만의 복무 지역과 성격적 특성이 기록된 인사 파일입니다."
+      },
+      {
+        "key": "68d3054f0c834c20c00a81da_Note_Page1_Text1",
+        "source": "<width=65%><space=7em><b>Full name:</b> Igor Valeryevich Nezlobin\n<space=7em><b>Date of birth:</b> 16.05.1978\n<space=7em><b>Place of birth:</b> Murmansk\n<space=7em><b>Marital status:</b> Single\n<space=7em><b>Children:</b> None\n\n\n\n<b>MOS:</b> Communications Engineer\n<b>Rank in RUAF:</b> Senior Lieutenant\n<b>Callsign:</b> Moreman\n\n\n<b>Combat experience:</b>\nAfter completing conscript service in the Urals, he remained in the army. In 1999, he was deployed to the Chechen Republic for combat operations. Participated in the capture of Grozny and in battles for the Shatoy district center. Awarded the Suvorov Medal and the 2nd Class Medal “For Military Valor” for his actions during the Second Chechen Campaign.\n\n<b>Personal assessment:</b>\nDisciplined, resilient, and respectful of hierarchy. Quickly establishes trust among troops. Former comrades praise his straightforward communication and ability to boost morale of less experienced soldiers.</width>",
+        "translation": "<width=65%><space=7em><b>성명:</b> 이고리 발레리예비치 네즐로빈\n<space=7em><b>생년월일:</b> 16.05.1978\n<space=7em><b>출생지:</b> 무르만스크\n<space=7em><b>혼인 상태:</b> 미혼\n<space=7em><b>자녀:</b> 없음\n\n\n\n<b>군사특기:</b> 통신 공병\n<b>러시아 연방군 계급:</b> 상위\n<b>호출부호:</b> 모레만\n\n\n<b>전투 경력:</b>\n우랄 지역에서 징집 복무를 마친 뒤 군에 잔류했다. 1999년 전투 작전을 위해 체첸 공화국에 파견됐다. 그로즈니 점령 작전과 샤토이 지구 중심지 전투에 참가했다. 제2차 체첸 전쟁에서의 공적으로 수보로프 메달과 2급 「군사 용맹」 메달을 수훈했다.\n\n<b>개인 평가:</b>\n규율이 잡혀 있고 인내심이 강하며 위계질서를 존중한다. 병사들 사이에서 빠르게 신뢰를 얻는다. 과거 전우들은 그의 솔직한 소통 방식과 경험이 적은 병사들의 사기를 끌어올리는 능력을 높이 평가한다.</width>"
+      },
+      {
+        "key": "68d3059318d70f97e704ad7f Name",
+        "source": "Voevoda's personnel file",
+        "translation": "보예보다의 인사 파일"
+      },
+      {
+        "key": "68d3059318d70f97e704ad7f Description",
+        "source": "According to the file, Voevoda has a very impressive service record.",
+        "translation": "파일에 따르면 보예보다는 매우 인상적인 복무 경력을 지니고 있습니다."
+      },
+      {
+        "key": "68d3059318d70f97e704ad7f_Note_Page1_Text1",
+        "source": "<width=65%><space=7em><b>Full name:</b>  Dmitri Vladimirovich Orlov\n<space=7em><b>Date of birth:</b> 19.03.1975\n<space=7em><b>Place of birth:</b> Begezhan, Kostanay Region (since 1991, Kazakhstan)\n<space=7em><b>Marital status:</b> Divorced\n<space=7em><b>Children:</b> None\n\n\n\n<b>MOS:</b> Platoon Commander\n<b>Rank in RUAF:</b> Captain (retired)\n<b>Callsign:</b> Voevoda\n\n\n<b>Combat experience:</b>\nAfter completing conscript service in the Vologda region, he remained in the army. In 1994, during the First Chechen Campaign, he was assigned to the Kizlyar troop group and took part in the assault on Grozny from the northern direction. During the assault, his platoon, under the command of Dmitri Vladimirovich, was encircled along with the 1st and 2nd battalions of the 131st Motor Rifle Brigade. While breaking out, all platoon members were killed or wounded, while Dmitri sustained serious injuries (noted in medical records) and was sent for treatment and rehabilitation.\n\nIn 1999, following militant incursions into Dagestan, he volunteered for the Second Chechen Campaign, personally taking part in the assault on Grozny.\n\nFor exceptional service during both Chechen campaigns, he was promoted to Captain and awarded the Order of Courage and the Medal \"For Bravery\" twice.\n\n\n<b>Personal assessment:</b>\nInitiative-driven, responsible, but prone to acting independently. May break hierarchy if his subordinates or civilians are at risk. Conducts high-quality training of personnel. Former comrades give exclusively positive feedback, affectionately referring to Dmitri Vladimirovich as “Batya” (“Father”).</width>",
+        "translation": "<width=65%><space=7em><b>성명:</b> 드미트리 블라디미로비치 오를로프\n<space=7em><b>생년월일:</b> 19.03.1975\n<space=7em><b>출생지:</b> 베게잔, 코스타나이 지역(1991년 이후 카자흐스탄)\n<space=7em><b>혼인 상태:</b> 이혼\n<space=7em><b>자녀:</b> 없음\n\n\n\n<b>군사특기:</b> 소대장\n<b>러시아 연방군 계급:</b> 대위(전역)\n<b>호출부호:</b> 보예보다\n\n\n<b>전투 경력:</b>\n볼로그다 지역에서 징집 복무를 마친 뒤 군에 잔류했다. 1994년 제1차 체첸 전쟁 당시 키즐랴르 부대집단에 배속되어 북부 방향에서 그로즈니 강습에 참가했다. 강습 중 드미트리 블라디미로비치가 지휘하던 소대는 제131차량화소총여단 제1·2대대와 함께 포위됐다. 포위망 돌파 과정에서 소대원 전원이 전사하거나 부상했고, 드미트리 본인도 중상을 입어(의무기록에 기재) 치료와 재활을 위해 후송됐다.\n\n1999년 무장세력의 다게스탄 침입 이후 제2차 체첸 전쟁에 자원했고, 그로즈니 강습에 직접 참가했다.\n\n두 차례 체첸 전쟁에서의 뛰어난 복무 공적으로 대위로 진급했으며 용기 훈장과 「용맹」 메달을 두 차례 수훈했다.\n\n\n<b>개인 평가:</b>\n주도적이고 책임감이 강하지만 독단적으로 행동하는 경향이 있다. 부하나 민간인이 위험에 처하면 위계질서를 어길 수 있다. 인원 교육 수준이 높다. 과거 전우들은 드미트리 블라디미로비치를 전적으로 긍정적으로 평가하며, 애칭으로 “바탸”(“아버지”)라고 부른다.</width>"
+      },
+      {
+        "key": "68d305c35f98276b7503c336 Name",
+        "source": "Taran's personnel file",
+        "translation": "타란의 인사 파일"
+      },
+      {
+        "key": "68d305c35f98276b7503c336 Description",
+        "source": "The file shows that Taran is younger than the other members of the squad, but still has considerable combat experience.",
+        "translation": "파일을 보면 타란은 분대의 다른 대원들보다 젊지만 상당한 전투 경험을 갖고 있습니다."
+      },
+      {
+        "key": "68d305c35f98276b7503c336_Note_Page1_Text1",
+        "source": "<width=65%><space=7em><b>Full name:</b> Artur Georgievich Gelovani\n<space=7em><b>Date of birth:</b> 19.08.82\n<space=7em><b>Place of birth:</b> Ordzhonikidze (renamed Vladikavkaz in 1990)\n<space=7em><b>Marital status:</b> Married\n<space=7em><b>Children:</b> None\n\n\n\n<b>MOS:</b> Machine gunner\n<b>Rank in RUAF:</b> Lieutenant\n<b>Callsign:</b> Taran\n\n\n<b>Combat experience:</b>\nServed his mandatory term in special forces in the Caucasus. Due to his age, was not cleared for participation in the Second Chechen Campaign. After service, joined the Ministry of Internal Affairs in Vladikavkaz and was accepted into the FSB in 2002. Took part in the counter-terrorist operation in Beslan in 2004 and the operation to eliminate Shamil Basayev in 2006.\n\n\n<b>Personal assessment:</b>\nDisciplined and resilient under stress. Though underage during the Chechen campaigns, actively participated in debris clearance and medical assistance. Completed advanced medical training prior to conscription. Married in 2001 and maintains a strong family relationship.</width>",
+        "translation": "<width=65%><space=7em><b>성명:</b> 아르투르 게오르기예비치 겔로바니\n<space=7em><b>생년월일:</b> 19.08.82\n<space=7em><b>출생지:</b> 오르조니키제(1990년 블라디캅카스로 개칭)\n<space=7em><b>혼인 상태:</b> 기혼\n<space=7em><b>자녀:</b> 없음\n\n\n\n<b>군사특기:</b> 기관총 사수\n<b>러시아 연방군 계급:</b> 중위\n<b>호출부호:</b> 타란\n\n\n<b>전투 경력:</b>\n캅카스 지역 특수부대에서 의무복무를 수행했다. 나이 때문에 제2차 체첸 전쟁 참가는 허가받지 못했다. 전역 후 블라디캅카스 내무부에 입직했고 2002년 FSB에 선발됐다. 2004년 베슬란 대테러 작전과 2006년 샤밀 바사예프 제거 작전에 참가했다.\n\n\n<b>개인 평가:</b>\n규율이 잡혀 있고 압박 상황에서도 침착하다. 체첸 전쟁 당시 미성년이었음에도 잔해 제거와 의료 지원에 적극 참여했다. 징집 전에 고급 의료 교육을 이수했다. 2001년 결혼했으며 가족 관계가 돈독하다.</width>"
+      },
+      {
+        "key": "68d305fc8c12620073059936 Name",
+        "source": "Strelets' personnel file",
+        "translation": "스트렐레츠의 인사 파일"
+      },
+      {
+        "key": "68d305fc8c12620073059936 Description",
+        "source": "It seems Strelets possessed exceptional shooting skills, which is why he didn’t change his specialty despite his age.",
+        "translation": "스트렐레츠는 뛰어난 사격 실력을 지녔던 것으로 보이며, 나이가 들었음에도 특기를 바꾸지 않은 이유도 그 때문인 듯합니다."
+      },
+      {
+        "key": "68d305fc8c12620073059936_Note_Page1_Text1",
+        "source": "<width=65%><space=7em><b>Full name:</b> Igor Dmitrievich Lazarev\n<space=7em><b>Date of birth:</b> 08.12.1974\n<space=7em><b>Place of birth:</b> Pushkin, Leningrad Region\n<space=7em><b>Marital status:</b> Divorced\n<space=7em><b>Children:</b> Yes\n\n\n\n<b>MOS:</b> Sniper\n<b>Rank in RUAF:</b> Senior Sergeant\n<b>Callsign:</b> Strelets\n\n\n<b>Combat experience:</b>\nDuring his conscript service in the Leningrad Region he showed outstanding sniper skills and remained in the army, working on personnel training. He took part in the First Chechen Campaign but was wounded (noted in medical records) and after rehabilitation was assigned as a consultant to FSB units, OMON and SOBR. He did not participate in the Second Chechen Campaign, but many of Igor Dmitrievich’s trainees were awarded decorations in various conflicts.\n\n\n<b>Personal assessment:</b>\nDisciplined, respects the chain of command. Among trainees and colleagues he has a reputation as a unique specialist capable of significantly increasing the effectiveness of combat teams even in field conditions.</width>",
+        "translation": "<width=65%><space=7em><b>성명:</b> 이고리 드미트리예비치 라자레프\n<space=7em><b>생년월일:</b> 08.12.1974\n<space=7em><b>출생지:</b> 레닌그라드주 푸시킨\n<space=7em><b>혼인 상태:</b> 이혼\n<space=7em><b>자녀:</b> 있음\n\n\n\n<b>군사특기:</b> 저격수\n<b>러시아 연방군 계급:</b> 상사\n<b>호출부호:</b> 스트렐레츠\n\n\n<b>전투 경력:</b>\n레닌그라드주에서 징집 복무 중 뛰어난 저격 능력을 보여 군에 잔류했으며 인원 교육을 담당했다. 제1차 체첸 전쟁에 참가했으나 부상을 입었고(의무기록에 기재), 재활 후 FSB 부대와 OMON, SOBR의 자문관으로 배치됐다. 제2차 체첸 전쟁에는 참가하지 않았지만 이고리 드미트리예비치에게 교육받은 인원 중 다수가 여러 분쟁에서 훈장을 받았다.\n\n\n<b>개인 평가:</b>\n규율이 잡혀 있고 지휘 체계를 존중한다. 교육생과 동료들 사이에서는 야전 상황에서도 전투팀의 효율을 크게 높일 수 있는 독보적인 전문가로 평가받는다.</width>"
+      },
+      {
+        "key": "68e63d4794fb983cb7098d2d Name",
+        "source": "EMERCOM leaflet",
+        "translation": "비상사태부 전단"
+      },
+      {
+        "key": "68e63d4794fb983cb7098d2d Description",
+        "source": "A flyer that describes the aftermath of the EMP blast and includes official safety recommendations. Such flyers became a common sight across the city after the explosion.",
+        "translation": "EMP 폭발 이후의 상황과 공식 안전 권고 사항이 적힌 전단입니다. 폭발 이후 도시 곳곳에서 이런 전단을 흔히 볼 수 있게 되었습니다."
+      },
+      {
+        "key": "68e63d4794fb983cb7098d2d_Note_Page1_Text1",
+        "source": "<width=60%><align=\"center\"><size=28><b>CIVIL DEFENSE</b></size>\n<size=22><b>Evacuation of Tarkov’s Population</b></size></align>\n<align=\"center\"> ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲\n\n<size=22><b>EMP and Its Effects</b></size></align>\n\nAn EMP (electromagnetic pulse) is used in electromagnetic weaponry (EMW).\n\nAn EMP is designed to disable electrical and electronic equipment and disrupt communication channels.\n\nThe consequences of an EMP strike include the total failure of all unshielded equipment.\n\nAfter an EMP event, communication can only be maintained using analog methods and paper media.\n\n<b>Stay alert! Trust only verified information from official sources.</b>\n\n<align=\"center\"> ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲\n\n<size=22><b>Items to Take During Evacuation</b></size>\n ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲</align>\n\n• Documents and money  • Supply of food and water    • Personal hygiene items\n\n• Clothing         • Disposable utensils, knife   • Candle, matches, lighter\n\n• Repair kit          • Flashlight and spare batteries • First aid kit\n\n<align=\"center\"> ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲\n\n<size=22><b>Actions to Take When Evacuation Is Announced</b></size>\n ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲</align>\n\nTAKE your documents and a pre-packed emergency bag with all essentials\n\nTurn off all electrical appliances, SHUT OFF water and gas lines, CLOSE windows, your apartment or house\n\nARRIVE at the designated evacuation assembly point (EAP), register, and receive personal protective equipment\n\nDEPART to a safe area using any available means of evacuation\n\nARRIVE at the evacuation reception point, obtain your permit\n\nPROCEED to the temporary accommodation site</width>",
+        "translation": "<width=60%><align=\"center\"><size=28><b>민방위</b></size>\n<size=22><b>타르코프 주민 대피</b></size></align>\n<align=\"center\"> ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲\n\n<size=22><b>EMP와 그 영향</b></size></align>\n\nEMP(전자기 펄스)는 전자기 무기(EMW)에 사용됩니다.\n\nEMP는 전기·전자 장비를 무력화하고 통신 채널을 교란하도록 설계되었습니다.\n\nEMP 공격의 결과로 차폐되지 않은 모든 장비가 완전히 고장날 수 있습니다.\n\nEMP 발생 이후 통신은 아날로그 방식과 종이 매체를 통해서만 유지할 수 있습니다.\n\n<b>경계를 늦추지 마십시오! 공식 출처의 검증된 정보만 신뢰하십시오.</b>\n\n<align=\"center\"> ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲\n\n<size=22><b>대피 시 지참 물품</b></size>\n ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲</align>\n\n• 서류와 현금  • 식량 및 식수    • 개인 위생용품\n\n• 의류      • 일회용 식기, 칼  • 양초, 성냥, 라이터\n\n• 수리 키트    • 손전등과 예비 배터리 • 구급상자\n\n<align=\"center\"> ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲\n\n<size=22><b>대피 명령 발령 시 행동 요령</b></size>\n ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲</align>\n\n서류와 필수품을 미리 챙긴 비상 가방을 지참하십시오.\n\n모든 전기제품을 끄고, 수도와 가스 밸브를 잠근 뒤 창문과 주택의 문을 닫으십시오.\n\n지정된 대피 집결지(EAP)에 도착해 등록하고 개인보호장비를 지급받으십시오.\n\n이용 가능한 모든 대피 수단을 이용해 안전 구역으로 이동하십시오.\n\n대피 접수 지점에 도착해 허가증을 발급받으십시오.\n\n임시 숙소로 이동하십시오.</width>"
+      },
+      {
+        "key": "6a31807f17005505b70d5827 Name",
+        "source": "Financial documents",
+        "translation": "재무 문서"
+      },
+      {
+        "key": "6a31807f17005505b70d5827 Description",
+        "source": "Financial reports from TerraGroup and its affiliated companies. There's bound to be plenty of inconsistencies and evidence hidden inside, but are you really willing to spend hours of your life reading dry financial paperwork?\n\nCan be found on: \n- Customs\n- Streets of Tarkov\n- Interchange",
+        "translation": "테라그룹과 계열사들의 재무 보고서입니다. 분명 수많은 불일치와 증거가 숨어 있겠지만, 정말 몇 시간씩 따분한 재무 서류를 읽을 생각이 있으십니까?\n\n발견 가능 지역:\n- 세관\n- 타르코프 시내\n- 인터체인지"
+      },
+      {
+        "key": "6a31824878450ec91c0ea1ae Name",
+        "source": "Blueprints and technical documentation",
+        "translation": "설계도 및 기술 문서"
+      },
+      {
+        "key": "6a31824878450ec91c0ea1ae Description",
+        "source": "Blueprints and technical documentation belonging to TerraGroup. For convenience, all of the data has also been backed up onto a disk.\n\nCan be found on: \n- Interchange\n- Factory\n- The Labyrinth",
+        "translation": "테라그룹 소유의 설계도와 기술 문서입니다. 편의를 위해 모든 데이터가 디스크에도 백업되어 있습니다.\n\n발견 가능 지역:\n- 인터체인지\n- 공장\n- 미궁"
+      },
+      {
+        "key": "6a609ac4f58fcc8978057b75 Name",
+        "source": "Law of the Jungle",
+        "translation": "정글의 법칙"
+      },
+      {
+        "key": "6a609ac4f58fcc8978057b75 Description",
+        "source": "Even Scavs have their own code. Fence makes sure it's respected, and he can make life very difficult for anyone who chooses to ignore it.\n\nThe first and most important rule – Scavs don't shoot their own!\nAt least not first.",
+        "translation": "스캐브에게도 나름의 규칙이 있습니다. 펜스는 그 규칙이 지켜지도록 관리하며, 이를 무시하는 자의 삶을 아주 고달프게 만들 수도 있습니다.\n\n첫 번째이자 가장 중요한 규칙은 스캐브는 자기편을 쏘지 않는다는 것입니다!\n적어도 먼저 쏘지는 않습니다."
+      },
+      {
+        "key": "6a609acf5cc248b1670be7aa Name",
+        "source": "Fence Reputation",
+        "translation": "펜스 평판"
+      },
+      {
+        "key": "6a609acf5cc248b1670be7aa Description",
+        "source": "A high reputation with Fence lets you play as a Scav more often, gives your Scav better gear and more extraction points, and unlocks many other benefits.\n\nTo increase your Fence reputation, complete his tasks, use vehicle and co-op extractions, successfully extract from raids, and eliminate hostile PMCs while playing as a Scav.",
+        "translation": "펜스와 높은 평판을 유지하면 스캐브로 더 자주 플레이할 수 있고, 스캐브의 장비가 좋아지며 탈출 지점이 늘어나는 등 여러 혜택이 해금됩니다.\n\n펜스 평판을 올리려면 그의 임무를 완료하고, 차량 및 협동 탈출구를 이용하고, 레이드에서 성공적으로 탈출하며, 스캐브로 플레이하는 동안 적대적인 PMC를 처치하십시오."
+      },
+      {
+        "key": "TapesText/sound_info_recorder_tape_cultists",
+        "source": "<color=#515352>Priest:</color>\nThe new masters of the world are already here, and the process has begun… The New World has started to take shape, and the Wardens have already been chosen.\n\n<color=#515352>Priest:</color>\nKnow that the Eye of the World has been watching you for a long time, and all… all your deeds are imprinted in the memory that the Wardens will carry from the old world into the new. Soon, it will be the only thing of value.\n\n<color=#515352>Priest:</color>\nI knew you would come here. It was all foretold. We awaited the Blind One who would help us prepare everything for the Riders of the Arrival. And in you… we found him.\n\n<color=#515352>Priest:</color>\nBehold the power of The Unheard before it is too late…",
+        "translation": "<color=#515352>사제:</color>\n새로운 세상의 주인들은 이미 이곳에 와 있고, 과정은 시작되었다… 새로운 세계가 모습을 갖추기 시작했고, 수호자들은 이미 선택되었다.\n\n<color=#515352>사제:</color>\n명심하라. 세계의 눈은 오래전부터 너를 지켜보고 있었으며, 네 모든… 모든 행위는 수호자들이 옛 세계에서 새 세계로 가져갈 기억에 새겨져 있다. 머지않아 그것만이 유일한 가치가 될 것이다.\n\n<color=#515352>사제:</color>\n네가 이곳에 올 줄 알고 있었다. 모든 것은 예언되어 있었다. 우리는 도래의 기수들을 맞을 준비를 도울 눈먼 자를 기다렸다. 그리고 너에게서… 그를 찾았다.\n\n<color=#515352>사제:</color>\n너무 늦기 전에 들리지 않는 자의 힘을 목도하라…"
+      },
+      {
+        "key": "TapesText/sound_info_recorder_tape_voevoda_01",
+        "source": "<color=#515352>Voevoda:</color>\nTo the commander of the Gnezdo base. Reporting. After the combat task was completed, someone detonated an explosive. We have casualties among USEC operators and civilians. One of ours is critically wounded, the rest have light injuries. Assistance required. I repeat, assistance required!",
+        "translation": "<color=#515352>보예보다:</color>\n그네즈도 기지 지휘관에게 보고한다. 전투 임무 완료 후 누군가 폭발물을 기폭했다. USEC 요원과 민간인 측에 사상자가 발생했다. 우리 쪽은 한 명이 중상, 나머지는 경상이다. 지원이 필요하다. 반복한다, 지원이 필요하다!"
+      },
+      {
+        "key": "TapesText/sound_info_recorder_tape_voevoda_02",
+        "source": "<color=#515352>Voevoda:</color>\nAhem… I never kept a diary. Thought it was a stupid idea. But now I feel like I should share my thoughts with someone.\n\n<color=#515352>Voevoda:</color>\nThe Bogatyrs got into a bad mess. Some of my boys are dead, others wounded. Maybe that is why I keep thinking this is not an accident.\n\n<color=#515352>Voevoda:</color>\nThis is not only happening here. Tarkov, conflicts in the Middle East, hunger, poverty, global warming…\n\n<color=#515352>Voevoda:</color>\nPeople seem to be going mad! But strangely, it’s very sudden. A decent family man turns and shoots his little girls. It's the same here. Tarkov used to be a prosperous city. People came here on purpose. Then… the sore burst and it spilled out…\n\n<color=#515352>Voevoda:</color>\nWhat if it’s the Earth itself trying to rid itself of the filth, this humanity virus? People only harm this planet. Maybe this is the end for all of us?\n\n<color=#515352>Voevoda:</color>\nI do not know. But those thoughts just keep coming. End transmission.",
+        "translation": "<color=#515352>보예보다:</color>\n흠… 난 일기를 써본 적이 없다. 바보 같은 짓이라고 생각했지. 하지만 지금은 누군가에게 내 생각을 털어놓아야 할 것 같다.\n\n<color=#515352>보예보다:</color>\n보가티르가 크게 당했다. 내 부하들 몇은 죽고, 몇은 다쳤다. 그래서인지 자꾸 이게 우연이 아니라는 생각이 든다.\n\n<color=#515352>보예보다:</color>\n이곳에서만 벌어지는 일도 아니다. 타르코프, 중동의 분쟁, 기아, 빈곤, 지구온난화…\n\n<color=#515352>보예보다:</color>\n사람들이 미쳐가는 것 같아! 그런데 이상하게도 너무 갑작스럽다. 멀쩡한 가장이 돌아서서 어린 딸들에게 총을 쏘지. 여기도 똑같아. 타르코프는 한때 번영하던 도시였다. 사람들이 일부러 찾아오던 곳이었지. 그러다… 종기가 터지듯 모든 게 쏟아져 나왔다…\n\n<color=#515352>보예보다:</color>\n어쩌면 지구 자체가 오물, 이 인류라는 바이러스를 없애려는 건 아닐까? 인간은 이 행성에 해만 끼친다. 어쩌면 이게 우리 모두의 끝일지도 모르지.\n\n<color=#515352>보예보다:</color>\n모르겠다. 하지만 이런 생각이 자꾸 떠오른다. 송신 종료."
+      },
+      {
+        "key": "interchange_secret_extraction",
+        "source": "Smugglers' Tunnel",
+        "translation": "밀수꾼의 터널"
+      },
+      {
+        "key": "shopping_sniper_exit",
+        "source": "Path to River (Flare)",
+        "translation": "강으로 가는 길 (신호탄)"
+      },
+      {
+        "key": "6888958794cca0a80b070ae9 ShortName",
+        "source": "Report",
+        "translation": "보고서",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68e63d4794fb983cb7098d2d ShortName",
+        "source": "EMERCOM",
+        "translation": "이머컴",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "688895322f6b5b76380e6af5 ShortName",
+        "source": "Mys. tape",
+        "translation": "의문의 테이프",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6888965ac122cae7a20765fa ShortName",
+        "source": "Voevoda",
+        "translation": "보예보다",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68d2f7334aae290cf704e36d ShortName",
+        "source": "Outpost",
+        "translation": "전초기지",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68d2f77e5f98276b7503c330 ShortName",
+        "source": "Signal m.",
+        "translation": "신호 지도",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68d2f85af63f06b7590ce310 ShortName",
+        "source": "Strelets",
+        "translation": "스트렐레츠",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68d302814aae290cf704e375 ShortName",
+        "source": "Bogatyr",
+        "translation": "보가티르",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68d3054f0c834c20c00a81da ShortName",
+        "source": "Moreman file",
+        "translation": "모어맨 인사 기록",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68d3059318d70f97e704ad7f ShortName",
+        "source": "Voevoda file",
+        "translation": "보예보다 인사 기록",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68d305c35f98276b7503c336 ShortName",
+        "source": "Taran file",
+        "translation": "타란 인사 기록",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68d305fc8c12620073059936 ShortName",
+        "source": "Strelets file",
+        "translation": "스트렐레츠 인사 기록",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a31807f17005505b70d5827 ShortName",
+        "source": "Finances",
+        "translation": "재무 서류",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a31824878450ec91c0ea1ae ShortName",
+        "source": "Blueprints",
+        "translation": "설계도",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ]
+  }
+}

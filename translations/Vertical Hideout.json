@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.hideoutuirevamp",
+  "mod_name": "Vertical Hideout",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "operatable",
+        "source": "OPERATABLE",
+        "translation": "작동형",
+        "match_mode": "exact",
+        "note": "은신처 시설 분류 탭"
+      },
+      {
+        "id": "passive",
+        "source": "PASSIVE",
+        "translation": "수동형",
+        "match_mode": "exact",
+        "note": "은신처 시설 분류 탭"
+      }
+    ]
+  }
+}

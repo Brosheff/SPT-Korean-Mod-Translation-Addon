@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "ekky.raidreview",
+  "plugin_name": "SPT-RaidReview-4.1.X",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Legacy Integrations",
+      "translation": "구버전 연동"
+    },
+    {
+      "source": "Main",
+      "translation": "주요 설정"
+    },
+    {
+      "source": "Server",
+      "translation": "서버"
+    },
+    {
+      "source": "Tracking Settings",
+      "translation": "추적 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Legacy Integrations",
+      "key": "Enable legacy Phobos integration",
+      "source_display_name": "Enable legacy Phobos integration",
+      "source_description": "Captures bot-objective data from the legacy upstream Phobos mod (com.janky.phobos). NO SUPPORT — uses reflection (the mod doesn't expose a public API). Disable if you see errors.",
+      "translation_display_name": "구버전 Phobos 연동 활성화",
+      "translation_description": "구버전 Phobos 모드에서 봇 목표 데이터를 가져옵니다. 공개 API가 없어 리플렉션을 사용하는 비지원 호환 기능이므로 오류가 나면 끄는 것이 좋습니다.",
+      "values": []
+    },
+    {
+      "section": "Legacy Integrations",
+      "key": "Enable legacy QuestingBots integration",
+      "source_display_name": "Enable legacy QuestingBots integration",
+      "source_description": "Only used with QuestingBots older than 0.11.0 (newer versions use the official interop API, always enabled). NO SUPPORT — uses reflection. Disable if you see errors.",
+      "translation_display_name": "구버전 퀘스트 행동 봇 연동 활성화",
+      "translation_description": "QuestingBots 0.11.0 이전 버전과 연동할 때만 사용합니다. 최신 버전은 공식 상호운용 API를 사용하므로 이 옵션이 필요 없습니다. 비지원 리플렉션 기능이므로 오류가 나면 끕니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Insert Menu Item",
+      "source_display_name": "Insert Menu Item",
+      "source_description": "Enables menu item to open the web client.",
+      "translation_display_name": "삽입 메뉴 아이템",
+      "translation_description": "삽입 메뉴 아이템 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Open Webpage Keybind",
+      "source_display_name": "Open Webpage Keybind",
+      "source_description": "Keybind to open the web client.",
+      "translation_display_name": "리뷰 웹페이지 열기 단축키",
+      "translation_description": "리뷰 웹페이지 열기 단축키: 사용할 키를 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Recording Notification",
+      "source_display_name": "Recording Notification",
+      "source_description": "Enables notifications as recording starts and ends.",
+      "translation_display_name": "기록 알림",
+      "translation_description": "기록 알림 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Server",
+      "key": "1. Server IP",
+      "source_display_name": "1. Server IP",
+      "source_description": "IP address of the server.",
+      "translation_display_name": "1. 서버 IP 주소",
+      "translation_description": "Raid Review 서버의 IP 주소를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Server",
+      "key": "2. Server WS Port",
+      "source_display_name": "2. Server WS Port",
+      "source_description": "Listen port of the raid review websocket server.",
+      "translation_display_name": "2. 서버 WebSocket 포트",
+      "translation_description": "Raid Review WebSocket 서버가 연결을 받을 포트를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Server",
+      "key": "3. Server HTTP Port",
+      "source_display_name": "3. Server HTTP Port",
+      "source_description": "Listen port of the raid review http server.",
+      "translation_display_name": "3. 서버 HTTP 포트",
+      "translation_description": "Raid Review HTTP 서버가 연결을 받을 포트를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Server",
+      "key": "4. TLS",
+      "source_display_name": "4. TLS",
+      "source_description": "Enable if you are using an SSL Certificate infront of your http server.",
+      "translation_display_name": "4. TLS 사용",
+      "translation_description": "HTTP 서버 앞단에서 SSL 인증서를 사용하고 있다면 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Server",
+      "key": "5. Enable Recording",
+      "source_display_name": "5. Enable Recording",
+      "source_description": "[WARNING] Only disable if you want to stop all data from being sent to raid review, requires restart.",
+      "translation_display_name": "5. 기록 활성화",
+      "translation_description": "Raid Review로 보내는 모든 데이터 기록을 켜거나 끕니다. 기록을 완전히 중단할 때만 끄며, 변경 후 재시작이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Tracking Settings",
+      "key": "Ballistics Tracking",
+      "source_display_name": "Ballistics Tracking",
+      "source_description": "Enables location tracking of ballistics.",
+      "translation_display_name": "탄도 정보 기록",
+      "translation_description": "탄도 정보 기록 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Tracking Settings",
+      "key": "Kill Tracking",
+      "source_display_name": "Kill Tracking",
+      "source_description": "Enables location tracking of kills.",
+      "translation_display_name": "처치 추적",
+      "translation_description": "처치 추적 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Tracking Settings",
+      "key": "Loot Tracking",
+      "source_display_name": "Loot Tracking",
+      "source_description": "Enables location tracking of lootings.",
+      "translation_display_name": "루팅 추적",
+      "translation_description": "루팅 추적 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Tracking Settings",
+      "key": "Player Tracking",
+      "source_display_name": "Player Tracking",
+      "source_description": "Enables location tracking of players and bots.",
+      "translation_display_name": "플레이어 추적",
+      "translation_description": "플레이어 추적 여부를 설정합니다.",
+      "values": []
+    }
+  ]
+}

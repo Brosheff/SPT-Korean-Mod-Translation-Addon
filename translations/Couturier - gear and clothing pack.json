@@ -1,0 +1,2014 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_couturier_204",
+  "mod_name": "Couturier - gear and clothing pack",
+  "channels": {
+    "locale": [
+      {
+        "key": "66eeef8b2a166b73dc0671e8 FullName",
+        "source": "François",
+        "translation": "프랑수아",
+        "match_mode": "exact"
+      },
+      {
+        "key": "66eeef8b2a166b73dc0671e8 FirstName",
+        "source": "Couturier",
+        "translation": "쿠튀리에",
+        "match_mode": "exact"
+      },
+      {
+        "key": "66eeef8b2a166b73dc0671e8 Nickname",
+        "source": "Couturier",
+        "translation": "쿠튀리에",
+        "match_mode": "exact"
+      },
+      {
+        "key": "66eeef8b2a166b73dc0671e8 Location",
+        "source": "Maison de couture",
+        "translation": "쿠튀르 하우스",
+        "match_mode": "exact"
+      },
+      {
+        "key": "66eeef8b2a166b73dc0671e8 Description",
+        "source": "Only fine fashion here",
+        "translation": "이곳에서는 최고급 패션만 취급합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000001 Name",
+        "source": "Butan field shirt",
+        "translation": "Butan 야전 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000001 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000001 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000004 Name",
+        "source": "VSR-93 Barvikha Spring shirt",
+        "translation": "VSR-93 Barvikha Spring 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000004 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000004 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000007 Name",
+        "source": "KLMK field shirt",
+        "translation": "KLMK 야전 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000007 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000007 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f1000000000a Name",
+        "source": "Granite field shirt",
+        "translation": "Granite 야전 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f1000000000a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f1000000000a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f1000000000d Name",
+        "source": "A-TACS FG Patrol",
+        "translation": "A-TACS FG 패트롤 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f1000000000d ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f1000000000d Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000010 Name",
+        "source": "대한민국 해병대 Patrol",
+        "translation": "대한민국 해병대 패트롤 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000010 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000010 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000013 Name",
+        "source": "KekTek Overgrown Patrol",
+        "translation": "KekTek Overgrown 패트롤 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000013 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000013 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000016 Name",
+        "source": "Urban Rubble Patrol",
+        "translation": "Urban Rubble 패트롤 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000016 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5e0c10f10000000016 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e9cb40c10f10000000019 Name",
+        "source": "Beer-o-zaurus Tactical T-Shirt",
+        "translation": "Beer-o-zaurus 전술 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e9cb40c10f10000000019 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e9cb40c10f10000000019 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f10000100001 Name",
+        "source": "VSR-98 Flora T-Shirt",
+        "translation": "VSR-98 Flora 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f10000100001 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f10000100001 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f10000000001 Name",
+        "source": "EMR Desert T-Shirt",
+        "translation": "EMR Desert 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f10000000001 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f10000000001 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f10000000004 Name",
+        "source": "EMR Spring T-Shirt",
+        "translation": "EMR Spring 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f10000000004 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f10000000004 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f1000000000a Name",
+        "source": "KLMK T-Shirt",
+        "translation": "KLMK 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f1000000000a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f1000000000a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f1000000000d Name",
+        "source": "Moh Arid T-Shirt",
+        "translation": "Moh Arid 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f1000000000d ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f278a0c10f1000000000d Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000004 Name",
+        "source": "ESTDCU Desert T-Shirt",
+        "translation": "ESTDCU Desert 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000004 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000004 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000007 Name",
+        "source": "Flektarn T-Shirt",
+        "translation": "Flektarn 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000007 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000007 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f1000000000a Name",
+        "source": "Lizard Camo T-Shirt",
+        "translation": "Lizard Camo 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f1000000000a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f1000000000a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f1000000000d Name",
+        "source": "MM14 T-Shirt",
+        "translation": "MM14 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f1000000000d ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f1000000000d Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000010 Name",
+        "source": "MTP T-Shirt",
+        "translation": "MTP 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000010 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000010 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000013 Name",
+        "source": "Multitarn T-Shirt",
+        "translation": "Multitarn 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000013 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000013 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000016 Name",
+        "source": "UCP T-Shirt",
+        "translation": "UCP 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000016 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000016 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000019 Name",
+        "source": "Urban Rubble T-Shirt",
+        "translation": "Urban Rubble 티셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000019 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f4e6f0c10f10000000019 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f10000000001 Name",
+        "source": "Badlands Combat Shirt",
+        "translation": "Badlands 전투 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f10000000001 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f10000000001 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f10000000004 Name",
+        "source": "CCE Combat Shirt",
+        "translation": "CCE 전투 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f10000000004 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f10000000004 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f10000000007 Name",
+        "source": "MM14 Combat Shirt",
+        "translation": "MM14 전투 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f10000000007 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f10000000007 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000000a Name",
+        "source": "Vegetato Combat Shirt",
+        "translation": "Vegetato 전투 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000000a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000000a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000100a Name",
+        "source": "ESTDCU Combat Shirt",
+        "translation": "ESTDCU 전투 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000100a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000100a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000200a Name",
+        "source": "MARPAT Combat Shirt",
+        "translation": "MARPAT 전투 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000200a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000200a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000300a Name",
+        "source": "Flektarn Combat Shirt",
+        "translation": "Flektarn 전투 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000300a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000300a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000400a Name",
+        "source": "Multitarn Combat Shirt",
+        "translation": "Multitarn 전투 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000400a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689fc34f0c10f1000000400a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a07be10c10f10000000001 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a07be10c10f10000000001 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a07be10c10f10000000004 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a07be10c10f10000000004 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a07be10c10f10000000007 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a07be10c10f10000000007 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a07be10c10f1000000000a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a07be10c10f1000000000a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a07be10c10f1000000000d ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a07be10c10f1000000000d Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f1000000005b ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f1000000005b Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f1000000005e ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f1000000005e Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f10000000061 Name",
+        "source": "Softshell Navy Blue",
+        "translation": "소프트쉘 (네이비 블루)",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f10000000061 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f10000000061 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f10000000064 Name",
+        "source": "Softshell MC Woodland",
+        "translation": "소프트쉘 (MC Woodland)",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f10000000064 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f10000000064 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f10000000067 Name",
+        "source": "Softshell Orange",
+        "translation": "소프트쉘 (주황색)",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f10000000067 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f10000000067 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f1000000006a Name",
+        "source": "Softshell Hunter",
+        "translation": "소프트쉘 (Hunter)",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f1000000006a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b063860c10f1000000006a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68bd4b050c10f1000000006d Name",
+        "source": "Digital Tigerstripe Hawaii Shirt",
+        "translation": "Digital Tigerstripe 하와이안 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68bd4b050c10f1000000006d ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68bd4b050c10f1000000006d Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68bd4b050c10f10000000070 Name",
+        "source": "Floral Hawaii Shirt",
+        "translation": "Floral 하와이안 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68bd4b050c10f10000000070 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68bd4b050c10f10000000070 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68bd4b050c10f10000000073 Name",
+        "source": "Green Flowers Hawaii Shirt",
+        "translation": "녹색 꽃무늬 하와이안 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68bd4b050c10f10000000073 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68bd4b050c10f10000000073 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c4562a0c10f10000000001 Name",
+        "source": "Moh SSO Top",
+        "translation": "Moh SSO 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c4562a0c10f10000000001 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c4562a0c10f10000000001 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c4562a0c10f10000000007 Name",
+        "source": "Partizan-M SSO Top",
+        "translation": "Partizan-M SSO 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c4562a0c10f10000000007 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c4562a0c10f10000000007 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c860f90c10f1000000000a Name",
+        "source": "Border Service Telnik",
+        "translation": "Border Service 텔니크",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c860f90c10f1000000000a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c860f90c10f1000000000a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c860f90c10f1000000000d Name",
+        "source": "EMERCOM Telnik",
+        "translation": "EMERCOM 텔니크",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c860f90c10f1000000000d ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c860f90c10f1000000000d Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f10000000001 Name",
+        "source": "ERDL AC Shirt",
+        "translation": "ERDL AC 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f10000000001 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f10000000001 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f10000000004 Name",
+        "source": "MAD21 AC Shirt",
+        "translation": "MAD21 AC 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f10000000004 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f10000000004 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f10000000007 Name",
+        "source": "Greek Lizard AC Shirt",
+        "translation": "Greek Lizard AC 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f10000000007 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f10000000007 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f1000000000a Name",
+        "source": "M2021 AC Shirt",
+        "translation": "M2021 AC 셔츠",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f1000000000a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c912b50c10f1000000000a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cd4d140c10f10000000001 Name",
+        "source": "A-TACS iX Parka",
+        "translation": "A-TACS iX 파카",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cd4d140c10f10000000001 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cd4d140c10f10000000001 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cd4d140c10f10000000004 Name",
+        "source": "Softshell M90",
+        "translation": "소프트쉘 (M90)",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cd4d140c10f10000000004 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cd4d140c10f10000000004 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f10000000001 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f10000000001 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f10000000004 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f10000000004 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f10000000007 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f10000000007 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f1000000000a ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f1000000000a Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f1000000000d ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f1000000000d Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f10000000010 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ce74760c10f10000000010 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cea73d258e5fafb10b0079 Name",
+        "source": "M81 Parka",
+        "translation": "M81 파카",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cea73d258e5fafb10b0079 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cea73d258e5fafb10b0079 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cea73d258e5fafb10b0078 Name",
+        "source": "Penncott Snowdrift Parka",
+        "translation": "Penncott Snowdrift 파카",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cea73d258e5fafb10b0078 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cea73d258e5fafb10b0078 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68e55df528ca4aaf459f50f9 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68e55df528ca4aaf459f50f9 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68e5f725e6b5790b252bfcd4 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68e5f725e6b5790b252bfcd4 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690509158e654c307a6f844d ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690509158e654c307a6f844d Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690508fe6db8876637f2a5f5 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690508fe6db8876637f2a5f5 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690508db63acbc736f8c1ba2 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690508db63acbc736f8c1ba2 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000043 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000043 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000052 Name",
+        "source": "Windshirt Flektarn",
+        "translation": "윈드셔츠 Flektarn",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000052 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000052 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000037 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000037 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f1000000001c ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f1000000001c Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f1000000001f ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f1000000001f Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000025 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000025 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f1000000002b ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f1000000002b Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000031 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000031 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000049 ShortName",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에 상의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996be290c10f10000000049 Description",
+        "source": "Couturier's top",
+        "translation": "쿠튀리에의 상의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5b0c10f10000000001 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5b0c10f10000000001 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5b0c10f10000000003 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5b0c10f10000000003 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5b0c10f10000000005 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5b0c10f10000000005 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5b0c10f10000000007 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0c5b0c10f10000000007 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0e4c0c10f10000000009 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0e4c0c10f10000000009 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0e4c0c10f1000000000b ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0e4c0c10f1000000000b Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0e4c0c10f1000000000d ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0e4c0c10f1000000000d Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0e4c0c10f1000000000f ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688e0e4c0c10f1000000000f Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688eaca30c10f10000000011 Name",
+        "source": "Crayfish Tactical Shorts",
+        "translation": "Crayfish 전술 반바지",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688eaca30c10f10000000011 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "688eaca30c10f10000000011 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f11400c10f10000000001 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f11400c10f10000000001 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f11400c10f10000000005 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f11400c10f10000000005 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f11400c10f10000000007 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f11400c10f10000000007 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f11400c10f10000000009 Name",
+        "source": "Zaslon FDE",
+        "translation": "Zaslon 사막색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f11400c10f10000000009 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f11400c10f10000000009 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f11400c10f1000000000b ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f11400c10f1000000000b Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f10000000001 Name",
+        "source": "AC FDE",
+        "translation": "AC 사막색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f10000000001 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f10000000001 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f10000000003 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f10000000003 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f10000000005 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f10000000005 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f10000000009 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f10000000009 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f1000000000b ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f1000000000b Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f1000000100b Name",
+        "source": "Gen.2 Brown",
+        "translation": "Gen.2 갈색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f1000000100b ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "689f9db40c10f1000000100b Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a6b75b0c10f1000000000b ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a6b75b0c10f1000000000b Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a6b75b0c10f1000002000b ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a6b75b0c10f1000002000b Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b060d40c10f1000000002b ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b060d40c10f1000000002b Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b060d40c10f10000000029 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b060d40c10f10000000029 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f10000000029 Name",
+        "source": "Centurion Gray",
+        "translation": "Centurion 회색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f10000000029 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f10000000029 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f1000000002b ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f1000000002b Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f1000000002d ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f1000000002d Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f1000000002f ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f1000000002f Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f10000000031 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f10000000031 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f10000000033 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f10000000033 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f10000000035 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f10000000035 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f10000000037 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b062090c10f10000000037 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b093d70c10f10000000039 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b093d70c10f10000000039 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b093d70c10f1000000003b ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b093d70c10f1000000003b Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b093d70c10f1000000003d ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68b093d70c10f1000000003d Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c425d30c10f10000000001 Name",
+        "source": "Blue Flowers Shorts",
+        "translation": "파란 꽃무늬 반바지",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c425d30c10f10000000001 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c425d30c10f10000000001 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c425d30c10f10000000003 Name",
+        "source": "Green flowers Shorts",
+        "translation": "녹색 꽃무늬 반바지",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c425d30c10f10000000003 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c425d30c10f10000000003 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c843c50c10f10000000001 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c843c50c10f10000000001 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c843c50c10f10000000005 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c843c50c10f10000000005 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c843c50c10f10000000007 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c843c50c10f10000000007 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c91a300c10f10000000001 Name",
+        "source": "Tac Life Black",
+        "translation": "Tac Life 검은색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c91a300c10f10000000001 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c91a300c10f10000000001 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c91a300c10f10000000003 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68c91a300c10f10000000003 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cbf33f0c10f10000000001 Name",
+        "source": "Bear Black",
+        "translation": "Bear 검은색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cbf33f0c10f10000000001 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cbf33f0c10f10000000001 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cbf33f0c10f10000000003 Name",
+        "source": "Bear Coyote",
+        "translation": "Bear 코요테 브라운",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cbf33f0c10f10000000003 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cbf33f0c10f10000000003 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cd4c570c10f10000000001 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cd4c570c10f10000000001 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cda47f3df8f1e5958bf66c ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68cda47f3df8f1e5958bf66c Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68f0a589842c7a41a00113bf Name",
+        "source": "Winter Hunter Pants",
+        "translation": "Winter Hunter 바지",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68f0a589842c7a41a00113bf ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68f0a589842c7a41a00113bf Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690509454f500153fc5c0e7b ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690509454f500153fc5c0e7b Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6905094d2269ee40890d6f11 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6905094d2269ee40890d6f11 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690509507bc7b625bc6f83af ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690509507bc7b625bc6f83af Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000013 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000013 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000015 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000015 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f1000000001f ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f1000000001f Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000021 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000021 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000025 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000025 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f1000000003b ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f1000000003b Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000041 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000041 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000019 ShortName",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에 하의",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6996ca460c10f10000000019 Description",
+        "source": "Couturier's bottom",
+        "translation": "쿠튀리에의 하의입니다.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

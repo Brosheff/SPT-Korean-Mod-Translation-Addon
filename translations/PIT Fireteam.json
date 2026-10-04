@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "pitfireteam.trader.locale",
+  "mod_name": "PIT Fireteam",
+  "channels": {
+    "locale": [
+      {
+        "key": "67d3a28a3d6f4f7dbd09ed13 Nickname",
+        "source": "-P|T- Comms",
+        "translation": "-P|T- 통신",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "67d3a28a3d6f4f7dbd09ed13 FirstName",
+        "source": "-P|T- Comms",
+        "translation": "-P|T- 통신",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "67d3a28a3d6f4f7dbd09ed13 FullName",
+        "source": "-P|T- Comms",
+        "translation": "-P|T- 통신",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "67d3a28a3d6f4f7dbd09ed13 Location",
+        "source": "Friendly Squad Logistics",
+        "translation": "아군 분대 보급",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "67d3a28a3d6f4f7dbd09ed13 Description",
+        "source": "Handles item transfers from your squadmates.",
+        "translation": "분대원이 보내는 물품의 전달을 담당합니다.",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ]
+  }
+}

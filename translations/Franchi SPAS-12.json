@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_4ab32b40f921",
+  "mod_name": "Franchi SPAS-12",
+  "channels": {
+    "locale": [
+      {
+        "key": "6a22b76bbe1815d0c5c0f903 Name",
+        "source": "Franchi SPAS-12 12ga dual-mode shotgun",
+        "translation": "프랑키 SPAS-12 12게이지 듀얼 모드 산탄총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6a22b76bbe1815d0c5c0f903 Description",
+        "source": "The SPAS-12 (Special Purpose Automatic Shotgun, 12 gauge) was designed in the late 70's as a combat shotgun for use by global military and police forces before later being superseded by the SPAS-15 in 2000. The SPAS was designed with both pump action, intended for use with low-pressure rounds like less-lethals or tear gas, and semi auto, intended for use with normal slugs or buckshot rounds. Manufactured by Franchi",
+        "translation": "SPAS-12(Special Purpose Automatic Shotgun, 12 gauge)는 1970년대 후반 전 세계 군 및 경찰 병력이 사용하기 위한 전투 산탄총으로 설계되었으며, 이후 2000년에 SPAS-15로 대체되었습니다. SPAS는 저압탄, 비살상탄, 최루탄 같은 탄약을 사용할 수 있는 펌프 액션 방식과 일반 슬러그탄 또는 벅샷탄을 사용할 수 있는 반자동 방식을 모두 갖춘 듀얼 모드 산탄총입니다. 프랑키에서 제조했습니다."
+      },
+      {
+        "key": "6a22f878be1815d0c5c0f907 Name",
+        "source": "SPAS-12 polymer grip",
+        "translation": "SPAS-12 폴리머 권총손잡이"
+      },
+      {
+        "key": "6a22f878be1815d0c5c0f907 Description",
+        "source": "A polymer grip for the Franchi SPAS-12 combat shotgun.",
+        "translation": "프랑키 SPAS-12 전투 산탄총용 폴리머 권총손잡이입니다."
+      },
+      {
+        "key": "6a22f92bbe1815d0c5c0f909 Name",
+        "source": "SPAS-12 12ga 8-shell magazine",
+        "translation": "8발, SPAS-12 12게이지 탄창 튜브"
+      },
+      {
+        "key": "6a22f92bbe1815d0c5c0f909 Description",
+        "source": "An 8-shell magazine tube for the SPAS-12 12-gauge shotgun.",
+        "translation": "SPAS-12 12게이지 산탄총용 8발 탄창 튜브입니다."
+      },
+      {
+        "key": "6a22f99ebe1815d0c5c0f90b Name",
+        "source": "SPAS-12 top rail with shell holder",
+        "translation": "SPAS-12 탄약 홀더 일체형 상단 레일"
+      },
+      {
+        "key": "6a22f99ebe1815d0c5c0f90b ShortName",
+        "source": "SPAS-12 Rail",
+        "translation": "SPAS-12"
+      },
+      {
+        "key": "6a22f99ebe1815d0c5c0f90b Description",
+        "source": "A Picatinny rail for mounting scopes on the SPAS-12 shotgun with an integrated shell holder.",
+        "translation": "SPAS-12 산탄총에 조준경을 장착하기 위한 피카티니 레일입니다. 일체형 탄약 홀더가 포함되어 있습니다."
+      },
+      {
+        "key": "6a22fa78be1815d0c5c0f90f Name",
+        "source": "SPAS-12 470mm 12ga barrel",
+        "translation": "SPAS-12 470mm 12게이지 총열"
+      },
+      {
+        "key": "6a22fa78be1815d0c5c0f90f Description",
+        "source": "A standard 470mm barrel for the SPAS-12 12 gauge combat shotgun.",
+        "translation": "SPAS-12 12게이지 전투 산탄총용 표준 470mm 총열입니다."
+      },
+      {
+        "key": "6a22f74bbe1815d0c5c0f905 Name",
+        "source": "SPAS-12 polymer handguard",
+        "translation": "SPAS-12 polymer 총열덮개"
+      },
+      {
+        "key": "6a22f74bbe1815d0c5c0f905 Description",
+        "source": "A standard polymer forend designed for the Franchi SPAS-12 combat shotgun.",
+        "translation": "프랑키 SPAS-12 전투 산탄총용 표준 폴리머 총열덮개입니다."
+      },
+      {
+        "key": "6a22f9ddbe1815d0c5c0f90d Name",
+        "source": "SPAS-12 rear sight",
+        "translation": "SPAS-12 가늠자"
+      },
+      {
+        "key": "6a22f9ddbe1815d0c5c0f90d Description",
+        "source": "A standard rear sight for the SPAS-12.",
+        "translation": "SPAS-12용 표준 가늠자입니다."
+      },
+      {
+        "key": "6a2346cea7592c0b0da6207f Name",
+        "source": "SPAS-12 Folding stock",
+        "translation": "SPAS-12 Folding 개머리판"
+      },
+      {
+        "key": "6a2346cea7592c0b0da6207f Description",
+        "source": "The folding stock for the SPAS-12 shotgun.",
+        "translation": "SPAS-12 산탄총용 접이식 개머리판입니다."
+      },
+      {
+        "key": "6a22f9ddbe1815d0c5c0f90d ShortName",
+        "source": "SPAS-12 RS",
+        "translation": "SPAS-12 가늠자",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ]
+  }
+}

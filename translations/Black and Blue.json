@@ -1,0 +1,661 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.c11.blackandblue",
+  "mod_name": "Black and Blue",
+  "channels": {
+    "locale": [
+      {
+        "key": "6911576b4f0bfef624403558 Name",
+        "source": "AR-15 Magpul CTR Carbine stock (UN-Black)",
+        "translation": "AR-15 맥풀 CTR 카빈 개머리판 (UN-검은색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6911576b4f0bfef624403558 ShortName",
+        "source": "CTR UN",
+        "translation": "CTR UN"
+      },
+      {
+        "key": "6911576b4f0bfef624403558 Description",
+        "source": "A standard Magpul CTR Stock, hastily spray painted for a peacekeeping deployment",
+        "translation": "평화유지 임무를 위해 급히 스프레이로 도색한 표준 맥풀 CTR 개머리판입니다."
+      },
+      {
+        "key": "6911587995bf705b268e00d6 Name",
+        "source": "AR-15 Magpul CTR Carbine stock (UN-Blue)",
+        "translation": "AR-15 맥풀 CTR 카빈 개머리판 (UN-파란색)"
+      },
+      {
+        "key": "6911587995bf705b268e00d6 ShortName",
+        "source": "CTR UN Blue",
+        "translation": "CTR UN 파란색"
+      },
+      {
+        "key": "6911587995bf705b268e00d6 Description",
+        "source": "A custom issued Magpul stock in UN Blue, for the Tier One operators deployed to the Tarkov Region in Peacekeeping roles",
+        "translation": "타르코프 지역의 평화유지 임무에 배치된 티어 1 특수작전 요원들에게 지급되는 UN 파란색 맥풀 커스텀 개머리판입니다."
+      },
+      {
+        "key": "691158fa357b6ed1c6c499a2 Name",
+        "source": "AR-15 LMT SOPMOD stock (UN-Black)",
+        "translation": "AR-15 LMT SOPMOD 개머리판 (UN-검은색)"
+      },
+      {
+        "key": "691158fa357b6ed1c6c499a2 ShortName",
+        "source": "SOPMOD UN",
+        "translation": "SOPMOD UN"
+      },
+      {
+        "key": "691158fa357b6ed1c6c499a2 Description",
+        "source": "A standard LMT Sopmod Stock, hastily spray painted for a peacekeeping deployment",
+        "translation": "평화유지 임무를 위해 급히 스프레이로 도색한 표준 LMT SOPMOD 개머리판입니다."
+      },
+      {
+        "key": "69115989098d91ae48210edd Name",
+        "source": "AR-15 LMT SOPMOD stock (UN-Blue)",
+        "translation": "AR-15 LMT SOPMOD 개머리판 (UN-파란색)"
+      },
+      {
+        "key": "69115989098d91ae48210edd ShortName",
+        "source": "SOPMOD UN Blue",
+        "translation": "SOPMOD UN 파란색"
+      },
+      {
+        "key": "69115989098d91ae48210edd Description",
+        "source": "A custom issued LMT stock in UN Blue, for the Tier One operators deployed to the Tarkov Region in Peacekeeping roles",
+        "translation": "타르코프 지역의 평화유지 임무에 배치된 티어 1 특수작전 요원들에게 지급되는 UN 파란색 LMT 커스텀 개머리판입니다."
+      },
+      {
+        "key": "6aaac32f302abb38af070619 Name",
+        "source": "AR-15 Colt A2 pistol grip (UN)",
+        "translation": "AR-15 콜트 A2 권총손잡이 (UN)"
+      },
+      {
+        "key": "6aaac32f302abb38af070619 ShortName",
+        "source": "A2",
+        "translation": "A2"
+      },
+      {
+        "key": "6aaac32f302abb38af070619 Description",
+        "source": "The Colt A2 polymer pistol grip can be installed on any weapon compatible with AR-15 grips. Standard-issue for all AR-15-based weapons of US Army, USMC and now UNTAR.",
+        "translation": "콜트 A2 폴리머 권총손잡이는 AR-15 계열 손잡이와 호환되는 모든 화기에 장착할 수 있습니다. 미 육군과 미 해병대의 AR-15 기반 화기에 이어 현재는 UNTAR에서도 제식으로 지급됩니다."
+      },
+      {
+        "key": "6aaac39d3ad50cd24207061b Name",
+        "source": "AR-15 Colt A2 pistol grip (UN Blue)",
+        "translation": "AR-15 콜트 A2 권총손잡이 (UN 파란색)"
+      },
+      {
+        "key": "6aaac39d3ad50cd24207061b ShortName",
+        "source": "A2 B",
+        "translation": "A2 B"
+      },
+      {
+        "key": "6aaac39d3ad50cd24207061b Description",
+        "source": "The Colt A2 polymer pistol grip can be installed on any weapon compatible with AR-15 grips. Standard-issue for all AR-15-based weapons of US Army, USMC and now UNTAR.",
+        "translation": "콜트 A2 폴리머 권총손잡이는 AR-15 계열 손잡이와 호환되는 모든 화기에 장착할 수 있습니다. 미 육군과 미 해병대의 AR-15 기반 화기에 이어 현재는 UNTAR에서도 제식으로 지급됩니다."
+      },
+      {
+        "key": "691159fac235f3be2294951c Name",
+        "source": "AR-15 Colt M4 Carbine Length handguard (UN-Blue)",
+        "translation": "AR-15 콜트 M4 카빈 길이 총열덮개 (UN-파란색)"
+      },
+      {
+        "key": "691159fac235f3be2294951c ShortName",
+        "source": "Colt UN Blue",
+        "translation": "콜트 UN 파란색"
+      },
+      {
+        "key": "691159fac235f3be2294951c Description",
+        "source": "A custom painted Colt Handguard in UN Blue, for the troops deployed to the Tarkov Region in Peacekeeping roles",
+        "translation": "타르코프 지역에서 평화유지 임무를 수행하는 병력을 위해 UN 파란색으로 특수 도색한 콜트 총열덮개입니다."
+      },
+      {
+        "key": "69115b42cbf75728b7349084 Name",
+        "source": "AR-15 Colt M4 Carbine Length lower handguard (UN-Blue)",
+        "translation": "AR-15 콜트 M4 카빈 길이 하부 총열덮개 (UN-파란색)"
+      },
+      {
+        "key": "69115b42cbf75728b7349084 ShortName",
+        "source": "Colt UN Blue Low",
+        "translation": "콜트 UN 파란색 하부"
+      },
+      {
+        "key": "69115b42cbf75728b7349084 Description",
+        "source": "A custom painted lower Colt Handguard in UN Blue, for the troops deployed to the Tarkov Region in Peacekeeping roles",
+        "translation": "타르코프 지역에서 평화유지 임무를 수행하는 병력을 위해 UN 파란색으로 특수 도색한 콜트 하부 총열덮개입니다."
+      },
+      {
+        "key": "69115be6ba85d671e413cc34 Name",
+        "source": "AR-15 Colt M4 Fixed Stock (UN-Black)",
+        "translation": "AR-15 콜트 M4 고정식 개머리판 (UN-검은색)"
+      },
+      {
+        "key": "69115be6ba85d671e413cc34 ShortName",
+        "source": "Colt UN Black Fixed",
+        "translation": "콜트 UN 검은색 고정식"
+      },
+      {
+        "key": "69115be6ba85d671e413cc34 Description",
+        "source": "A standard Colt Fixed Stock, hastily spray painted for a peacekeeping deployment",
+        "translation": "평화유지 임무를 위해 급히 스프레이로 도색한 표준 콜트 고정식 개머리판입니다."
+      },
+      {
+        "key": "69115d5ee43d0750688fdf55 Name",
+        "source": "AR-15 Colt M4 Fixed Stock (UN-Blue)",
+        "translation": "AR-15 콜트 M4 고정식 개머리판 (UN-파란색)"
+      },
+      {
+        "key": "69115d5ee43d0750688fdf55 ShortName",
+        "source": "Colt UN Blue Fixed",
+        "translation": "콜트 UN 파란색 고정식"
+      },
+      {
+        "key": "69115d5ee43d0750688fdf55 Description",
+        "source": "A custom painted Colt fixed stock in UN Blue, for the troops deployed to the Tarkov Region in Peacekeeping roles",
+        "translation": "타르코프 지역에서 평화유지 임무를 수행하는 병력을 위해 UN 파란색으로 특수 도색한 콜트 고정식 개머리판입니다."
+      },
+      {
+        "key": "69115d79ee9f1b63fd3afe4e Name",
+        "source": "Crye Precision AVS plate carrier (UN)",
+        "translation": "크라이 프리시전 AVS 플레이트 캐리어 (UN)"
+      },
+      {
+        "key": "69115d79ee9f1b63fd3afe4e ShortName",
+        "source": "AVS UN",
+        "translation": "AVS UN"
+      },
+      {
+        "key": "69115d79ee9f1b63fd3afe4e Description",
+        "source": "A Crye Precision Adaptive Vest System in UN blue, with MultiCam Black pouches. Worn by the handful of elite special operations advisors attached to UNTAR in the Tarkov region.",
+        "translation": "UN 파란색으로 제작하고 멀티캠 블랙 파우치를 장착한 크라이 프리시전(Crye Precision) Adaptive Vest System입니다. 타르코프 지역의 UNTAR에 배속된 소수의 정예 특수작전 고문관들이 착용합니다."
+      },
+      {
+        "key": "6aabee5b9e48e736c407061e Name",
+        "source": "London Bridge Trading LBT-6094A plate carrier (UN-Blue)",
+        "translation": "런던 브리지 트레이딩 LBT-6094A 플레이트 캐리어 (UN-파란색)"
+      },
+      {
+        "key": "6aabee5b9e48e736c407061e ShortName",
+        "source": "LBT UN",
+        "translation": "LBT UN"
+      },
+      {
+        "key": "6aabee5b9e48e736c407061e Description",
+        "source": "An LBT-6094A plate carrier in UN blue, retaining the full soft armor package front, back and along both sides of the cummerbund. Heavier than the slick carriers it replaced, and considerably harder to shoot through.",
+        "translation": "UN 파란색 LBT-6094A 플레이트 캐리어로, 전면과 후면 및 커머번드 양 측면까지 연질 방탄재를 온전히 유지합니다. 대체된 경량 캐리어보다 무겁지만, 그만큼 관통하기 훨씬 어렵습니다."
+      },
+      {
+        "key": "6aabf01cae28ca69d307062b Name",
+        "source": "Crye Precision Jumpable Plate Carrier 2.0 (UN-Blue)",
+        "translation": "크라이 프리시전 JPC 2.0 플레이트 캐리어 (UN-파란색)"
+      },
+      {
+        "key": "6aabf01cae28ca69d307062b ShortName",
+        "source": "JPC UN",
+        "translation": "JPC UN"
+      },
+      {
+        "key": "6aabf01cae28ca69d307062b Description",
+        "source": "The lightest carrier UNTAR issues: a Crye JPC 2.0 in UN blue, stripped to front and back plate bags with minimal soft armor behind them. Chosen by advisors who would rather move fast than take a hit.",
+        "translation": "UNTAR가 지급하는 가장 가벼운 캐리어입니다. UN 파란색 크라이 JPC 2.0에서 전·후면 플레이트 백과 그 뒤의 최소한의 연질 방탄재만 남긴 구성입니다. 피격을 버티기보다 빠르게 움직이기를 원하는 고문관들이 선택합니다."
+      },
+      {
+        "key": "690d5e70bd28bd5dc7f59ce5 name",
+        "source": "Ops-Core FAST MT Super High Cut helmet (UN)",
+        "translation": "옵스코어 FAST MT 슈퍼 하이컷 헬멧 (UN)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "690d5e70bd28bd5dc7f59ce5 shortName",
+        "source": "Ops-Core UN",
+        "translation": "옵스코어 UN"
+      },
+      {
+        "key": "690d5e70bd28bd5dc7f59ce5 description",
+        "source": "A special issue Ops Core helmet for high ranking peacekeeprs",
+        "translation": "고위급 평화유지군에 특별 지급되는 옵스코어(Ops-Core) 헬멧입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "6911576b4f0bfef624403558 name",
+        "source": "AR-15 Magpul CTR Carbine stock (UN-Black)",
+        "translation": "AR-15 맥풀 CTR 카빈 개머리판 (UN-검은색)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "6911576b4f0bfef624403558 shortName",
+        "source": "CTR UN",
+        "translation": "CTR UN"
+      },
+      {
+        "key": "6911576b4f0bfef624403558 description",
+        "source": "A standard Magpul CTR Stock, hastily spray painted for a peacekeeping deployment",
+        "translation": "평화유지 임무를 위해 급히 스프레이로 도색한 표준 맥풀 CTR 개머리판입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "6911587995bf705b268e00d6 name",
+        "source": "AR-15 Magpul CTR Carbine stock (UN-Blue)",
+        "translation": "AR-15 맥풀 CTR 카빈 개머리판 (UN-파란색)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "6911587995bf705b268e00d6 shortName",
+        "source": "CTR UN Blue",
+        "translation": "CTR UN 파란색"
+      },
+      {
+        "key": "6911587995bf705b268e00d6 description",
+        "source": "A custom issued Magpul stock in UN Blue, for the Tier One operators deployed to the Tarkov Region in Peacekeeping roles",
+        "translation": "타르코프 지역의 평화유지 임무에 배치된 티어 1 특수작전 요원들에게 지급되는 UN 파란색 맥풀 커스텀 개머리판입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "691158fa357b6ed1c6c499a2 name",
+        "source": "AR-15 LMT SOPMOD stock (UN-Black)",
+        "translation": "AR-15 LMT SOPMOD 개머리판 (UN-검은색)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "691158fa357b6ed1c6c499a2 shortName",
+        "source": "SOPMOD UN",
+        "translation": "SOPMOD UN"
+      },
+      {
+        "key": "691158fa357b6ed1c6c499a2 description",
+        "source": "A standard LMT Sopmod Stock, hastily spray painted for a peacekeeping deployment",
+        "translation": "평화유지 임무를 위해 급히 스프레이로 도색한 표준 LMT SOPMOD 개머리판입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "69115989098d91ae48210edd name",
+        "source": "AR-15 LMT SOPMOD stock (UN-Blue)",
+        "translation": "AR-15 LMT SOPMOD 개머리판 (UN-파란색)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "69115989098d91ae48210edd shortName",
+        "source": "SOPMOD UN Blue",
+        "translation": "SOPMOD UN 파란색"
+      },
+      {
+        "key": "69115989098d91ae48210edd description",
+        "source": "A custom issued LMT stock in UN Blue, for the Tier One operators deployed to the Tarkov Region in Peacekeeping roles",
+        "translation": "타르코프 지역의 평화유지 임무에 배치된 티어 1 특수작전 요원들에게 지급되는 UN 파란색 LMT 커스텀 개머리판입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "691159fac235f3be2294951c name",
+        "source": "AR-15 Colt M4 Carbine Length handguard (UN-Blue)",
+        "translation": "AR-15 콜트 M4 카빈 길이 총열덮개 (UN-파란색)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "691159fac235f3be2294951c shortName",
+        "source": "Colt UN Blue",
+        "translation": "콜트 UN 파란색"
+      },
+      {
+        "key": "691159fac235f3be2294951c description",
+        "source": "A custom painted Colt Handguard in UN Blue, for the troops deployed to the Tarkov Region in Peacekeeping roles",
+        "translation": "타르코프 지역에서 평화유지 임무를 수행하는 병력을 위해 UN 파란색으로 특수 도색한 콜트 총열덮개입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "69115b42cbf75728b7349084 name",
+        "source": "AR-15 Colt M4 Carbine Length lower handguard (UN-Blue)",
+        "translation": "AR-15 콜트 M4 카빈 길이 하부 총열덮개 (UN-파란색)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "69115b42cbf75728b7349084 shortName",
+        "source": "Colt UN Blue Low",
+        "translation": "콜트 UN 파란색 하부"
+      },
+      {
+        "key": "69115b42cbf75728b7349084 description",
+        "source": "A custom painted lower Colt Handguard in UN Blue, for the troops deployed to the Tarkov Region in Peacekeeping roles",
+        "translation": "타르코프 지역에서 평화유지 임무를 수행하는 병력을 위해 UN 파란색으로 특수 도색한 콜트 하부 총열덮개입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "69115be6ba85d671e413cc34 name",
+        "source": "AR-15 Colt M4 Fixed Stock (UN-Black)",
+        "translation": "AR-15 콜트 M4 고정식 개머리판 (UN-검은색)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "69115be6ba85d671e413cc34 shortName",
+        "source": "Colt UN Black Fixed",
+        "translation": "콜트 UN 검은색 고정식"
+      },
+      {
+        "key": "69115be6ba85d671e413cc34 description",
+        "source": "A standard Colt Fixed Stock, hastily spray painted for a peacekeeping deployment",
+        "translation": "평화유지 임무를 위해 급히 스프레이로 도색한 표준 콜트 고정식 개머리판입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "69115d5ee43d0750688fdf55 name",
+        "source": "AR-15 Colt M4 Fixed Stock (UN-Blue)",
+        "translation": "AR-15 콜트 M4 고정식 개머리판 (UN-파란색)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "69115d5ee43d0750688fdf55 shortName",
+        "source": "Colt UN Blue Fixed",
+        "translation": "콜트 UN 파란색 고정식"
+      },
+      {
+        "key": "69115d5ee43d0750688fdf55 description",
+        "source": "A custom painted Colt fixed stock in UN Blue, for the troops deployed to the Tarkov Region in Peacekeeping roles",
+        "translation": "타르코프 지역에서 평화유지 임무를 수행하는 병력을 위해 UN 파란색으로 특수 도색한 콜트 고정식 개머리판입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "69115d79ee9f1b63fd3afe4e name",
+        "source": "Crye Precision JPC Plate Carrier (UN-Blue)",
+        "translation": "크라이 프리시전 JPC 플레이트 캐리어 (UN-파란색)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "69115d79ee9f1b63fd3afe4e shortName",
+        "source": "Crye JPC UN",
+        "translation": "크라이 JPC UN"
+      },
+      {
+        "key": "69115d79ee9f1b63fd3afe4e description",
+        "source": "A one-of-a-kind Crye Precision JPC Plate carrier. Custom sewed plate bags with Multicam Black Crye Pouches. Only ever issued to a secret SMU unit within the Tarkov Territory.",
+        "translation": "단 하나뿐인 크라이 프리시전 JPC 플레이트 캐리어입니다. 커스텀 봉제한 플레이트 백에 멀티캠 블랙 크라이 파우치를 달았습니다. 타르코프 지역 안의 비밀 특수임무부대(SMU)에만 지급된 장비입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "5c1fd66286f7743c7b261f7b",
+        "source": "Eliminate Scavs while wearing a UN uniform (UNTAR helmet, UNTAR body armor, M4A1 rifle) on Woods",
+        "translation": "삼림에서 UN 제복(UNTAR 헬멧, UNTAR 방탄복, M4A1 소총)을 착용한 상태로 스캐브 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "5c1b713486f77413bc250406",
+        "source": "Eliminate Scavs while wearing a UN uniform (UNTAR helmet, UNTAR body armor, M4A1 rifle) on Customs",
+        "translation": "세관에서 UN 제복(UNTAR 헬멧, UNTAR 방탄복, M4A1 소총)을 착용한 상태로 스캐브 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "5c1b713986f77470d8650910",
+        "source": "Eliminate Scavs while wearing a UN uniform (UNTAR helmet, UNTAR body armor, M4A1 rifle) on Interchange",
+        "translation": "인터체인지에서 UN 제복(UNTAR 헬멧, UNTAR 방탄복, M4A1 소총)을 착용한 상태로 스캐브 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "5c1b713f86f774719c22e8a0",
+        "source": "Eliminate Scavs while wearing a UN uniform (UNTAR helmet, UNTAR body armor, M4A1 rifle) on Shoreline",
+        "translation": "해안선에서 UN 제복(UNTAR 헬멧, UNTAR 방탄복, M4A1 소총)을 착용한 상태로 스캐브 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "63aec4fe6d6c3377e64b9f39",
+        "source": "Eliminate Scavs while wearing a UN uniform (UNTAR helmet, UNTAR body armor, M4A1 rifle) on Streets of Tarkov",
+        "translation": "타르코프의 거리에서 UN 제복(UNTAR 헬멧, UNTAR 방탄복, M4A1 소총)을 착용한 상태로 스캐브 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "65e08aa9f5879b2586d5fd4c",
+        "source": "Eliminate Scavs while wearing a UN uniform (UNTAR helmet, UNTAR body armor, M4A1 rifle) on Ground Zero",
+        "translation": "그라운드 제로에서 UN 제복(UNTAR 헬멧, UNTAR 방탄복, M4A1 소총)을 착용한 상태로 스캐브 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "5c9a170386f77438c80164eb",
+        "source": "Eliminate Scavs while wearing a UN uniform (UNTAR body armor and UNTAR helmet) on Shoreline",
+        "translation": "해안선에서 UN 제복(UNTAR 방탄복 및 UNTAR 헬멧)을 착용한 상태로 스캐브 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6aad6cdab3638040a6070631 Name",
+        "source": "Crye G3 UN Blue",
+        "translation": "크라이 G3 UN 파란색",
+        "display_type": "item_name"
+      },
+      {
+        "key": "6aad6cdab3638040a6070631 Description",
+        "source": "Blueberry",
+        "translation": "블루베리",
+        "display_type": "item_description"
+      },
+      {
+        "key": "6aad6cdab3638040a6070631",
+        "source": "Crye G3 UN Blue",
+        "translation": "크라이 G3 UN 파란색",
+        "display_type": "item_name"
+      },
+      {
+        "key": "6678d64260f8e3d1b6fce1a2 name",
+        "source": "Peacekeeping Mission - Part 2",
+        "translation": "평화 유지 임무 - 파트 2",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6678d64260f8e3d1b6fce1a2 description",
+        "source": "Hello again. The blue kit you have been wearing did its job, and my superiors have noticed. Now they want to see it done properly. A rifle assembled from UNTAR-issued furniture, start to finish - stock, handguard and grip, no mixing in whatever you scraped off a corpse. Full UNTAR protection, helmet and vest. Take that rifle into the zone and put down fifteen Scavs with it. I want the reports to say the peacekeepers did this, not some contractor in borrowed blue.",
+        "translation": "또 만났군. 그동안 입고 다닌 파란 장비가 제 역할을 했고, 윗선에서도 주목했소. 이제는 제대로 해내는 모습을 보고 싶어 하오. UNTAR 지급 부품만으로 처음부터 끝까지 조립한 소총이 필요하오. 개머리판, 총열덮개, 권총손잡이까지 전부 말이오. 시체에서 주워온 부품 따위를 섞지 마시오. 방호 장비도 UNTAR 정식으로, 헬멧과 방탄복을 갖추시오. 그 소총을 작전 구역에 들고 가 스캐브 열다섯을 처리하시오. 보고서에는 빌린 파란 장비를 걸친 용병이 아니라 평화유지군이 해냈다고 적혀야 하오.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6678d64260f8e3d1b6fce1a2 note",
+        "source": "Eliminate 15 Scavs using an M4A1 fitted with a UN stock, handguard and pistol grip, while wearing an UNTAR helmet and body armor.",
+        "translation": "UNTAR 헬멧과 방탄복을 착용하고 UN 개머리판, 총열덮개, 권총손잡이를 장착한 M4A1으로 스캐브 15명 처치하기"
+      },
+      {
+        "key": "6678d64260f8e3d1b6fce1a2 startedMessageText",
+        "source": "Consider it done. The rifle is already built.",
+        "translation": "알겠습니다. 소총은 이미 조립해 뒀습니다."
+      },
+      {
+        "key": "6678d64260f8e3d1b6fce1a2 successMessageText",
+        "source": "Fifteen confirmed, all with the blue rifle. Your superiors can have their photographs.",
+        "translation": "열다섯 명 모두 그 파란 소총으로 처리한 게 확인됐소. 당신 윗선에는 사진을 넘겨도 되겠군."
+      },
+      {
+        "key": "6678d64260f8e3d1b6fce1a2 failMessageText",
+        "source": "You came back with a mixed rifle and a mixed story. Neither is any use to me.",
+        "translation": "뒤섞은 소총에 뒤섞은 이야기를 들고 돌아왔군. 둘 다 내겐 쓸모없소."
+      },
+      {
+        "key": "6678d64260f8e3d1b6fce1a2 acceptPlayerMessage",
+        "source": "I will put the rifle together.",
+        "translation": "소총을 맞춰 보겠습니다."
+      },
+      {
+        "key": "6678d64260f8e3d1b6fce1a2 declinePlayerMessage",
+        "source": "I am not a walking advertisement for your quartermaster.",
+        "translation": "당신네 보급관의 걸어 다니는 광고판 노릇은 사양하겠습니다."
+      },
+      {
+        "key": "6678d64260f8e3d1b6fce1a2 completePlayerMessage",
+        "source": "It is done. The rifle held up.",
+        "translation": "끝냈습니다. 소총도 잘 버텼습니다."
+      },
+      {
+        "key": "6678d64260f8e3d1b6fce1a2 changeQuestMessageText",
+        "source": "The parameters have changed. Read them again before you go out.",
+        "translation": "조건이 바뀌었소. 나가기 전에 다시 읽어보시오."
+      },
+      {
+        "key": "a395ea686c16f1fc8f321c81 name",
+        "source": "Peacekeeping Mission - Part 3",
+        "translation": "평화 유지 임무 - 파트 3"
+      },
+      {
+        "key": "a395ea686c16f1fc8f321c81 description",
+        "source": "The advisors attached to us do not carry standard-issue anything. They carry what fits, and they cut their own helmets down so the headsets sit right. If you want to be counted among them, show me you can work against people who shoot back. Any 5.56 rifle you like - I do not care what receiver it is built on - but the stock and grip come from us. No handguard requirement this time; you will want your own rails. UNTAR vest, high cut helmet, twenty PMCs. Then we talk about what else I can sell you.",
+        "translation": "우리 쪽에 배속된 고문관들은 제식품이라고 아무거나 쓰지 않소. 자기 몸에 맞는 걸 고르고, 헤드셋이 제대로 자리 잡도록 헬멧도 직접 잘라 쓰지. 그들과 한 부류로 인정받고 싶다면 반격해오는 상대를 상대로도 일할 수 있다는 걸 보여주시오. 5.56 소총은 무엇이든 좋소. 어떤 리시버로 만든 건지는 상관없소. 하지만 개머리판과 권총손잡이는 우리 지급품을 쓰시오. 이번에는 총열덮개 제한은 없소. 당신이 쓰던 레일이 필요할 테니까. UNTAR 조끼, 하이컷 헬멧, PMC 스무 명. 그다음에 내가 뭘 더 팔 수 있을지 이야기해 봅시다.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "a395ea686c16f1fc8f321c81 note",
+        "source": "Eliminate 20 PMCs using any 5.56x45 weapon fitted with a UN stock and pistol grip, while wearing an UNTAR vest and a high cut helmet.",
+        "translation": "UNTAR 조끼와 하이컷 헬멧을 착용하고 UN 개머리판과 권총손잡이를 장착한 5.56x45 화기로 PMC 20명 처치하기"
+      },
+      {
+        "key": "a395ea686c16f1fc8f321c81 startedMessageText",
+        "source": "Twenty PMCs. Any 5.56. Understood.",
+        "translation": "PMC 스무 명. 5.56이면 아무거나. 알겠습니다."
+      },
+      {
+        "key": "a395ea686c16f1fc8f321c81 successMessageText",
+        "source": "You shoot like the advisors do. I have moved some things to the front of the shelf for you.",
+        "translation": "고문관들처럼 쏘는군. 당신을 위해 몇 가지 물건을 진열대 앞으로 옮겨뒀소."
+      },
+      {
+        "key": "a395ea686c16f1fc8f321c81 failMessageText",
+        "source": "You went out dressed as something you are not. Try again when you have the discipline.",
+        "translation": "자기 것이 아닌 모습을 흉내 내고 나갔군. 규율을 갖춘 뒤 다시 해보시오."
+      },
+      {
+        "key": "a395ea686c16f1fc8f321c81 acceptPlayerMessage",
+        "source": "I will build it my way, with your furniture on it.",
+        "translation": "제 방식대로 조립하되, 당신네 부품을 달겠습니다."
+      },
+      {
+        "key": "a395ea686c16f1fc8f321c81 declinePlayerMessage",
+        "source": "I do not need to be counted among anyone.",
+        "translation": "누구의 일원으로 인정받을 필요는 없습니다."
+      },
+      {
+        "key": "a395ea686c16f1fc8f321c81 completePlayerMessage",
+        "source": "Twenty down. Show me the shelf.",
+        "translation": "스무 명 처리했습니다. 진열대를 보여주시죠."
+      },
+      {
+        "key": "a395ea686c16f1fc8f321c81 changeQuestMessageText",
+        "source": "New parameters. The requirements have moved.",
+        "translation": "새 조건이오. 요구사항이 바뀌었소."
+      },
+      {
+        "key": "9f3a88d30d97be7598b99e74 name",
+        "source": "Peacekeeping Mission - Part 4",
+        "translation": "평화 유지 임무 - 파트 4"
+      },
+      {
+        "key": "9f3a88d30d97be7598b99e74 description",
+        "source": "Everything I have asked of you so far happened in daylight, where the blue is easy to see. That is the point of blue. Now I need to know whether the kit works when nobody is meant to see you at all. Plated carrier - and I mean plated, soft armor alone will not count. A 7.62x51 rifle with our stock and grip on it. Between last light and first light, twelve bodies, and I do not care whose they are. There is a rig I have been holding back that only makes sense after you have done this.",
+        "translation": "지금까지 부탁한 건 전부 대낮에 했소. 파란색이 잘 보이는 때 말이오. 그게 파란색을 쓰는 이유요. 이제 아무도 당신을 봐서는 안 되는 때에도 그 장비가 제 역할을 하는지 확인해야겠소. 플레이트 캐리어를 입으시오. 말 그대로 플레이트를 넣은 상태여야 하고, 연질 방탄재만으로는 인정하지 않겠소. 우리 개머리판과 권총손잡이를 단 7.62x51 소총을 쓰시오. 해가 완전히 진 뒤부터 동트기 전까지 열두 명, 누구인지는 상관없소. 이 일을 끝낸 뒤에나 내놓을 수 있는 리그를 하나 아껴두고 있소.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "9f3a88d30d97be7598b99e74 note",
+        "source": "Eliminate 12 targets at night using a 7.62x51 weapon fitted with a UN stock and pistol grip, while wearing a UN plate carrier with plates installed.",
+        "translation": "플레이트를 장착한 UN 플레이트 캐리어를 착용하고 UN 개머리판과 권총손잡이를 장착한 7.62x51 화기로 야간에 표적 12명 처치하기"
+      },
+      {
+        "key": "9f3a88d30d97be7598b99e74 startedMessageText",
+        "source": "Night work. The plates go in tonight.",
+        "translation": "야간 작업이군요. 오늘 밤은 플레이트를 넣겠습니다."
+      },
+      {
+        "key": "9f3a88d30d97be7598b99e74 successMessageText",
+        "source": "Twelve, in the dark, and you came back. The AVS is yours to buy.",
+        "translation": "어둠 속에서 열둘, 그리고 살아 돌아왔군. 이제 AVS를 살 수 있소."
+      },
+      {
+        "key": "9f3a88d30d97be7598b99e74 failMessageText",
+        "source": "You went out light and it cost you. Plates, next time.",
+        "translation": "가볍게 나갔다가 대가를 치렀군. 다음에는 플레이트를 넣으시오."
+      },
+      {
+        "key": "9f3a88d30d97be7598b99e74 acceptPlayerMessage",
+        "source": "I will run it plated.",
+        "translation": "플레이트를 넣고 나가겠습니다."
+      },
+      {
+        "key": "9f3a88d30d97be7598b99e74 declinePlayerMessage",
+        "source": "I do not work nights for anyone.",
+        "translation": "누구를 위해서도 야간 근무는 하지 않습니다."
+      },
+      {
+        "key": "9f3a88d30d97be7598b99e74 completePlayerMessage",
+        "source": "Twelve in the dark. Open the case.",
+        "translation": "어둠 속에서 열둘 처리했습니다. 케이스를 열어주시죠."
+      },
+      {
+        "key": "9f3a88d30d97be7598b99e74 changeQuestMessageText",
+        "source": "Read the new parameters before you go out again.",
+        "translation": "다시 나가기 전에 새 조건을 읽어보시오."
+      },
+      {
+        "key": "7c35b2377ae5c79e5c67173f name",
+        "source": "Peacekeeping Mission - Part 5",
+        "translation": "평화 유지 임무 - 파트 5"
+      },
+      {
+        "key": "7c35b2377ae5c79e5c67173f description",
+        "source": "There are men in this zone who have made themselves kings of a factory floor or a stretch of woods, and every one of them has an opinion about the blue helmets. I would like those opinions revised. Five of them. Wear one of our carriers so there is no ambiguity about who did it, and carry at least one piece of our furniture on whatever you bring. I am not particular about the rest. When it is finished there is a pair of trousers in my back room that nobody has been authorised to wear yet.",
+        "translation": "이 구역에는 공장 바닥 하나나 숲 한 조각을 차지하고 왕 노릇 하는 자들이 있고, 하나같이 파란 헬멧에 대해 할 말이 많더군. 그 의견을 좀 고쳐주고 싶소. 다섯 명이오. 누가 한 일인지 헷갈리지 않게 우리 플레이트 캐리어 중 하나를 입고, 무엇을 들고 가든 우리 부품을 최소 하나는 달고 가시오. 나머지는 상관없소. 끝내고 나면 아직 누구에게도 착용 허가가 나지 않은 바지 한 벌이 내 뒷방에 있소.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "7c35b2377ae5c79e5c67173f note",
+        "source": "Eliminate 5 bosses while wearing a UN plate carrier and using a weapon fitted with at least one UN part.",
+        "translation": "UN 플레이트 캐리어를 착용하고 UN 부품을 하나 이상 장착한 화기로 보스 5명 처치하기"
+      },
+      {
+        "key": "7c35b2377ae5c79e5c67173f startedMessageText",
+        "source": "Five kings. I will start with the closest one.",
+        "translation": "왕 다섯 명. 가장 가까운 놈부터 시작하겠습니다."
+      },
+      {
+        "key": "7c35b2377ae5c79e5c67173f successMessageText",
+        "source": "Five. The zone is quieter and the trousers are yours.",
+        "translation": "다섯. 구역이 좀 조용해졌고 바지는 당신 것이오."
+      },
+      {
+        "key": "7c35b2377ae5c79e5c67173f failMessageText",
+        "source": "They are still out there telling the story their way.",
+        "translation": "놈들은 아직 밖에서 자기들 방식대로 이야기를 떠들고 있소."
+      },
+      {
+        "key": "7c35b2377ae5c79e5c67173f acceptPlayerMessage",
+        "source": "I will go and revise some opinions.",
+        "translation": "가서 몇몇 의견을 고쳐놓겠습니다."
+      },
+      {
+        "key": "7c35b2377ae5c79e5c67173f declinePlayerMessage",
+        "source": "Hunting warlords was not in the brief.",
+        "translation": "군벌 사냥은 브리핑에 없었습니다."
+      },
+      {
+        "key": "7c35b2377ae5c79e5c67173f completePlayerMessage",
+        "source": "Five down. Where are these trousers.",
+        "translation": "다섯 처리했습니다. 그 바지는 어디 있습니까?"
+      },
+      {
+        "key": "7c35b2377ae5c79e5c67173f changeQuestMessageText",
+        "source": "The target list has changed. Check it again.",
+        "translation": "표적 목록이 바뀌었소. 다시 확인하시오."
+      },
+      {
+        "key": "f401d0dd2aabc00da4173088",
+        "source": "Eliminate Scavs with a fully UN-furnished M4A1 while in UNTAR protection",
+        "translation": "UNTAR 방호 장비를 착용하고 UN 부품을 완전히 갖춘 M4A1으로 스캐브 처치하기"
+      },
+      {
+        "key": "28219fbd8065a7d28a050225",
+        "source": "Eliminate PMCs with a 5.56 weapon using UN stock and grip, in an UNTAR vest and high cut helmet",
+        "translation": "UNTAR 조끼와 하이컷 헬멧을 착용하고 UN 개머리판과 권총손잡이를 장착한 5.56 화기로 PMC 처치하기"
+      },
+      {
+        "key": "ed364cbb568fc71ceed0aacf",
+        "source": "Eliminate targets at night with a 7.62x51 weapon using UN stock and grip, in a plated UN carrier",
+        "translation": "플레이트를 장착한 UN 캐리어를 착용하고 UN 개머리판과 권총손잡이를 장착한 7.62x51 화기로 야간에 표적 처치하기"
+      },
+      {
+        "key": "224e9e97988829b20b8a5667",
+        "source": "Eliminate bosses while wearing a UN carrier and using a weapon with a UN part",
+        "translation": "UN 캐리어를 착용하고 UN 부품을 장착한 화기로 보스 처치하기"
+      }
+    ]
+  }
+}

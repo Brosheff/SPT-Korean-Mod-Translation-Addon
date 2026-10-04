@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_158ca5b8c626",
+  "mod_name": "WTT-ServerCommonLib",
+  "channels": {
+    "locale": [
+      {
+        "key": "CANT_SALVAGE_WHILE_MOVING",
+        "source": "You can't salvage while moving",
+        "translation": "이동 중에는 분해할 수 없습니다",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "SALVAGE_ZONE",
+        "source": "Salvage",
+        "translation": "분해"
+      },
+      {
+        "key": "SALVAGING_OBJECTIVE",
+        "source": "Salvaging objective {0:F1}",
+        "translation": "분해 목표 {0:F1}"
+      },
+      {
+        "key": "YOU_NEED_ITEM_TO_SALVAGE",
+        "source": "You need a {0} to salvage",
+        "translation": "분해하려면 {0}이(가) 필요합니다"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.tyfon.autodeposit",
+  "plugin_name": "AutoDeposit-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "1. Buttons",
+      "translation": "1. 버튼"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. Buttons",
+      "key": "Backpack",
+      "source_display_name": "Backpack",
+      "source_description": "Whether to show the autodeposit button on your backpack",
+      "translation_display_name": "배낭",
+      "translation_description": "배낭 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Buttons",
+      "key": "Pockets",
+      "source_display_name": "Pockets",
+      "source_description": "Whether to show the autodeposit button on your pockets",
+      "translation_display_name": "주머니",
+      "translation_description": "주머니 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Buttons",
+      "key": "Rig",
+      "source_display_name": "Rig",
+      "source_description": "Whether to show the autodeposit button on your rig",
+      "translation_display_name": "리그",
+      "translation_description": "리그 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Buttons",
+      "key": "Secure Container",
+      "source_display_name": "Secure Container",
+      "source_description": "Whether to show the autodeposit button on your secure container",
+      "translation_display_name": "보안 컨테이너",
+      "translation_description": "보안 컨테이너 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Buttons",
+      "key": "Transfer Screen",
+      "source_display_name": "Transfer Screen",
+      "source_description": "Whether to show the autodeposit button on the transfer screen",
+      "translation_display_name": "전송 화면",
+      "translation_description": "전송 화면 여부를 설정합니다.",
+      "values": []
+    }
+  ]
+}

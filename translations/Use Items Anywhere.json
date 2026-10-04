@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.useitemsanywhere",
+  "mod_name": "Use Items Anywhere",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "r001",
+        "source": "Unable to edit this slot list.",
+        "translation": "이 슬롯 목록은 편집할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r002",
+        "source": "ACCESSING ITEM  •  ",
+        "translation": "아이템 접근 중  •  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r003",
+        "source": "IN USE",
+        "translation": "사용 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r004",
+        "source": "CURRENT ITEM  •  NEXT ITEM QUEUED",
+        "translation": "현재 아이템  •  다음 아이템 대기 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r005",
+        "source": "THE NEXT ITEM WILL START AFTER THE CURRENT USE FINISHES",
+        "translation": "현재 아이템 사용이 끝나면 다음 아이템 사용을 시작합니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r006",
+        "source": "PRESS ",
+        "translation": "누르기: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r007",
+        "source": " TO CANCEL",
+        "translation": " - 취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r008",
+        "source": "NEXT: ",
+        "translation": "다음: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r009",
+        "source": "ITEM READY",
+        "translation": "아이템 준비 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r010",
+        "source": "ACCESS CANCELLED",
+        "translation": "접근 취소됨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r011",
+        "source": "READY",
+        "translation": "준비 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r012",
+        "source": "CENTER TO CANCEL",
+        "translation": "가운데로 이동해 취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r013",
+        "source": "CANCEL",
+        "translation": "취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r014",
+        "source": "PAGE ",
+        "translation": "페이지 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r015",
+        "source": "   •   MOUSE WHEEL     ",
+        "translation": "   •   마우스 휠     ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r016",
+        "source": "Unassigned",
+        "translation": "미지정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r017",
+        "source": "All Medical",
+        "translation": "모든 의료품",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r018",
+        "source": "Light-Bleed Treatment",
+        "translation": "경미한 출혈 치료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r019",
+        "source": "Heavy-Bleed Treatment",
+        "translation": "심한 출혈 치료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r020",
+        "source": "Fracture Treatment",
+        "translation": "골절 치료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r021",
+        "source": "Food/Drink",
+        "translation": "음식/음료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r022",
+        "source": "FIREARM CONTROLS",
+        "translation": "총기 조작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r023",
+        "source": "NO CONTROLS\nAVAILABLE",
+        "translation": "사용 가능한 조작 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r024",
+        "source": "EQUIP A FIREARM WITH SELECTABLE CONTROLS",
+        "translation": "조작 가능한 총기를 장착하세요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r025",
+        "source": "LMB SELECT / TOGGLE   •   MMB DEVICE MODE   •   RELEASE / ESC / RMB CLOSE",
+        "translation": "LMB 선택/전환   •   MMB 장치 모드   •   놓기 / ESC / RMB 닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r026",
+        "source": "FIRE MODE AND DEVICES APPLY IMMEDIATELY",
+        "translation": "사격 모드와 장치 설정은 즉시 적용됩니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r027",
+        "source": "IGNORE",
+        "translation": "무시",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r028",
+        "source": "REPLACE",
+        "translation": "교체",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r029",
+        "source": "QUEUE ONE",
+        "translation": "1개 대기열",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r030",
+        "source": "OPEN WHEEL",
+        "translation": "휠 열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r031",
+        "source": "UNKNOWN",
+        "translation": "알 수 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r032",
+        "source": "OFF",
+        "translation": "꺼짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r033",
+        "source": "LOWEST RESOURCE",
+        "translation": "잔량 낮은 것 우선",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r034",
+        "source": "HIGHEST RESOURCE",
+        "translation": "잔량 높은 것 우선",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r035",
+        "source": "FASTEST ACCESS",
+        "translation": "접근 빠른 것 우선",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r036",
+        "source": "LMB CONFIRM   •   MMB FAVORITE / REMOVE NEXT   •   ESC / RIGHT CLICK TO CLOSE",
+        "translation": "LMB 확인   •   MMB 즐겨찾기 / 다음 항목 제거   •   ESC / 우클릭 닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r037",
+        "source": "RELEASE TO USE   •   MMB FAVORITE / REMOVE NEXT   •   ESC / RIGHT CLICK TO CANCEL",
+        "translation": "놓아서 사용   •   MMB 즐겨찾기 / 다음 항목 제거   •   ESC / 우클릭 취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r038",
+        "source": "PENDING: ",
+        "translation": "대기: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r039",
+        "source": "   •   GROUP: ",
+        "translation": "   •   그룹: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r040",
+        "source": "NONE",
+        "translation": "없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r041",
+        "source": "CURRENT: ",
+        "translation": "현재: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r042",
+        "source": "   •   NEXT: ",
+        "translation": "   •   다음: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r043",
+        "source": "CATEGORY SLOTS",
+        "translation": "카테고리 슬롯",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r044",
+        "source": "QUICK USE",
+        "translation": "빠른 사용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r045",
+        "source": "NO ITEMS\nAVAILABLE",
+        "translation": "사용 가능한 아이템 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r046",
+        "source": "CHECK YOUR LOADOUT",
+        "translation": "장비 구성을 확인하세요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r047",
+        "source": "CATEGORY  ",
+        "translation": "카테고리  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r048",
+        "source": "STATUS  ",
+        "translation": "상태  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r049",
+        "source": "SOURCE  ",
+        "translation": "위치  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r050",
+        "source": "FAVORITE ITEM",
+        "translation": "즐겨찾기 아이템",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r051",
+        "source": "SELECT A DEVICE",
+        "translation": "장치를 선택하세요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r052",
+        "source": "DEVICE UNAVAILABLE",
+        "translation": "장치 사용 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r053",
+        "source": "CURRENT FIRE MODE",
+        "translation": "현재 사격 모드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r054",
+        "source": "LMB: SELECT FIRE MODE",
+        "translation": "LMB: 사격 모드 선택",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r055",
+        "source": "LMB TOGGLE ALL\nMMB NEXT MODES",
+        "translation": "LMB 전체 전환\nMMB 다음 모드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r056",
+        "source": "LMB: TOGGLE ALL",
+        "translation": "LMB: 전체 전환",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r057",
+        "source": "LMB TOGGLE\nMMB NEXT MODE",
+        "translation": "LMB 전환\nMMB 다음 모드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r058",
+        "source": "LMB: TOGGLE",
+        "translation": "LMB: 전환",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r059",
+        "source": "MMB: REMOVE NEXT ITEM",
+        "translation": "MMB: 다음 아이템 제거",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r060",
+        "source": "CURRENT ITEM  •  ACCESS IN PROGRESS",
+        "translation": "현재 아이템  •  접근 진행 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r061",
+        "source": "LMB: CLOSE",
+        "translation": "LMB: 닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r062",
+        "source": "CURRENTLY PENDING  •  LMB: KEEP",
+        "translation": "현재 대기 중  •  LMB: 유지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r063",
+        "source": "LMB: REPLACE",
+        "translation": "LMB: 교체",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r064",
+        "source": "ITEM UNAVAILABLE",
+        "translation": "아이템 사용 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r065",
+        "source": "CURRENTLY PENDING",
+        "translation": "현재 대기 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r066",
+        "source": "RELEASE TO QUEUE",
+        "translation": "놓아서 대기열 추가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r067",
+        "source": "RELEASE TO REPLACE",
+        "translation": "놓아서 교체",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r068",
+        "source": "MMB: UNFAVORITE",
+        "translation": "MMB: 즐겨찾기 해제",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r069",
+        "source": "MMB: FAVORITE",
+        "translation": "MMB: 즐겨찾기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r070",
+        "source": "NEXT",
+        "translation": "다음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r071",
+        "source": "ACCESSING",
+        "translation": "접근 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r072",
+        "source": "EMPTY",
+        "translation": "비어 있음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r073",
+        "source": "UNAVAILABLE",
+        "translation": "사용 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r074",
+        "source": "DUR ",
+        "translation": "내구도 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r075",
+        "source": " RDS",
+        "translation": " 발",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r076",
+        "source": "ALL DEVICES",
+        "translation": "모든 장치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r077",
+        "source": "CURRENT",
+        "translation": "현재",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r078",
+        "source": "SELECT",
+        "translation": "선택",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r079",
+        "source": "ON",
+        "translation": "켜짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r080",
+        "source": "FULL AUTO",
+        "translation": "완전 자동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r081",
+        "source": "SINGLE SHOT",
+        "translation": "단발",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r082",
+        "source": "DOUBLE TAP",
+        "translation": "2점사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r083",
+        "source": "BURST",
+        "translation": "점사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r084",
+        "source": "DOUBLE ACTION",
+        "translation": "더블 액션",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r085",
+        "source": "SEMI AUTO",
+        "translation": "반자동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r086",
+        "source": "s ACCESS",
+        "translation": "초 접근",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r087",
+        "source": "ACCESS ",
+        "translation": "접근 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r088",
+        "source": "\nBASE DELAY ",
+        "translation": "\n기본 지연 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r089",
+        "source": "\nBASE ",
+        "translation": "\n기본 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r090",
+        "source": "s + NESTED ",
+        "translation": "초 + 중첩 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r091",
+        "source": "BASE ACCESS DELAY  ",
+        "translation": "기본 접근 지연  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r092",
+        "source": "s NESTED  •  ",
+        "translation": "초 중첩  •  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r093",
+        "source": "LAYER",
+        "translation": "단계",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r094",
+        "source": "LAYERS",
+        "translation": "단계",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r095",
+        "source": "POCKETS",
+        "translation": "주머니",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r096",
+        "source": "TACTICAL VEST",
+        "translation": "전술 조끼",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r097",
+        "source": "ARM BAND",
+        "translation": "완장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r098",
+        "source": "BACKPACK",
+        "translation": "배낭",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r099",
+        "source": "SECURE CONTAINER",
+        "translation": "보안 컨테이너",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

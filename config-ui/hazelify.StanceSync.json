@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "hazelify.StanceSync",
+  "plugin_name": "hazelify.StanceSync",
+  "_note": "SOURCE3 source-audited SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Core",
+      "translation": "핵심"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Core",
+      "key": "Sync leaning with shoulder swapping?",
+      "source_display_name": "Sync leaning with shoulder swapping?",
+      "source_description": "If leaning left, should the character automatically shoulder swap?",
+      "translation_display_name": "기울이기와 견착 전환 동기화",
+      "translation_description": "왼쪽으로 기울일 때 캐릭터가 자동으로 반대쪽 어깨로 견착을 전환할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Core",
+      "key": "Sync leaning reset?",
+      "source_display_name": "Sync leaning reset?",
+      "source_description": "If no longer leaning left, should the character automatically reset the shoulder swap?",
+      "translation_display_name": "기울이기 해제 시 견착 복원 동기화",
+      "translation_description": "왼쪽 기울이기를 해제했을 때 캐릭터의 견착 위치도 자동으로 원래대로 되돌릴지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Core",
+      "key": "Disable synced lean while aiming?",
+      "source_display_name": "Disable synced lean while aiming?",
+      "source_description": "If aiming down sights, disable synchronized leaning completely.",
+      "translation_display_name": "조준 중 동기화 기울이기 비활성화",
+      "translation_description": "정조준 중에는 견착 전환과 기울이기의 동기화를 완전히 비활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Core",
+      "key": "Disable synced lean during optic ADS?",
+      "source_display_name": "Disable synced lean during optic ADS?",
+      "source_description": "If aiming down sights, only disable synchronized leaning while aiming with a magnified optic.All other optics, such as red dots, collimators, or iron sights will allow synchronized leaning.\n\nThis will override `Disable synced lean while aiming?`. If you want to disable synchronized leaning while aiming with ANY optic, enable the other option and disable this one.\nIf this option is enabled, but `Disable synced lean while aiming?` is not enabled, sync behavior will default to always working.",
+      "translation_display_name": "배율 조준경 조준 중 동기화 기울이기 비활성화",
+      "translation_description": "정조준 중 배율 조준경을 사용할 때만 견착 전환과 기울이기의 동기화를 비활성화합니다. 레드닷, 콜리메이터, 기계식 조준기 등 다른 조준 장치에서는 동기화가 유지됩니다.\n\n이 설정은 `조준 중 동기화 기울이기 비활성화`보다 우선합니다. 어떤 조준 장치를 사용하든 정조준 중 동기화를 끄려면 다른 설정을 활성화하고 이 설정은 비활성화하십시오.\n이 설정만 활성화된 경우에는 배율 조준경을 사용하지 않을 때 동기화가 항상 작동합니다.",
+      "values": []
+    }
+  ]
+}

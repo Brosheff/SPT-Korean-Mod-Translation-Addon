@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.maschine.WeaponBuilderSearch",
+  "plugin_name": "WeaponBuilderSearch-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Enable attachment search in the weapon builder dropdown.",
+      "translation_display_name": "활성화",
+      "translation_description": "활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "MinItemsForSearch",
+      "source_display_name": "MinItemsForSearch",
+      "source_description": "Show the search field only when at least this many attachments are listed.",
+      "translation_display_name": "검색창 표시 최소 부품 수",
+      "translation_description": "무기 빌더의 부착물 목록에 이 수 이상이 있을 때만 검색창을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "SearchBarPosition",
+      "source_display_name": "SearchBarPosition",
+      "source_description": "Where the search bar is placed relative to the attachment list.",
+      "translation_display_name": "검색 바 위치",
+      "translation_description": "부착물 목록을 기준으로 검색창을 어느 위치에 배치할지 선택합니다.",
+      "values": [
+        {
+          "source": "BelowAttachments",
+          "translation": "부착물 목록 아래"
+        },
+        {
+          "source": "AboveAttachments",
+          "translation": "부착물 목록 위"
+        }
+      ]
+    }
+  ]
+}

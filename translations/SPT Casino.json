@@ -1,0 +1,2668 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.mybutthasarash.sptcasino",
+  "mod_name": "SPT Casino",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "casino.common.001",
+        "source": "THE CASINO",
+        "translation": "카지노",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.002",
+        "source": "You have found the back room.\n\nBlackjack, hold'em and a single-zero wheel. They take the same roubles you would spend on ammunition, and they take them for good.\n\nA stake leaves your stash the moment you commit it. Winnings are paid straight back in. There is no chip balance and nothing to cash out.\n\nThe house keeps its edge whatever you do. Play with what you could lose in a raid.",
+        "translation": "뒷방을 찾으셨군요.\n\n블랙잭, 홀덤, 싱글 제로 룰렛이 준비되어 있습니다. 탄약에 쓸 수도 있었던 루블을 걸게 되며, 한번 건 판돈은 되돌릴 수 없습니다.\n\n판돈은 확정하는 순간 보관함에서 빠져나가고, 당첨금은 즉시 다시 지급됩니다. 별도의 칩 잔액이나 환전 절차는 없습니다.\n\n무엇을 하든 하우스의 우위는 유지됩니다. 레이드에서 잃어도 감당할 수 있는 만큼만 플레이하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.003",
+        "source": "CONTINUE",
+        "translation": "계속",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.004",
+        "source": "ON THE HOUSE",
+        "translation": "카지노 제공",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.005",
+        "source": "The casino was taken down for a day, and you may have wondered where it went.\n\nAn icon fix that worked perfectly on the machine it was written on turned out to work on almost nobody else's, and a couple of things came up behind it. They are all fixed.\n\nSorry for the wait. Have {amount} roubles on the house.\n\nIt is in your stash already. Spend it at whichever table you like.",
+        "translation": "카지노가 하루 동안 내려가 있어서 어디로 갔는지 궁금하셨을 겁니다.\n\n개발 환경에서는 완벽하게 작동하던 아이콘 수정이 다른 환경에서는 거의 작동하지 않았고, 그 뒤로 몇 가지 문제도 더 발견됐습니다. 지금은 모두 수정했습니다.\n\n기다리게 해서 죄송합니다. 카지노에서 {amount}루블을 드립니다.\n\n이미 보관함에 넣어두었습니다. 원하는 테이블에서 사용하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.common.006",
+        "source": "The casino was taken down for a day, and you may have wondered where it went.\n\nAn icon fix that worked perfectly on the machine it was written on turned out to work on almost nobody else's, and a couple of things came up behind it. They are all fixed.\n\nSorry for the wait. Have {amount} roubles on the house.\n\nYour stash was too full to take all of it, so the rest is waiting in your messages.",
+        "translation": "카지노가 하루 동안 내려가 있어서 어디로 갔는지 궁금하셨을 겁니다.\n\n개발 환경에서는 완벽하게 작동하던 아이콘 수정이 다른 환경에서는 거의 작동하지 않았고, 그 뒤로 몇 가지 문제도 더 발견됐습니다. 지금은 모두 수정했습니다.\n\n기다리게 해서 죄송합니다. 카지노에서 {amount}루블을 드립니다.\n\n보관함 공간이 부족해 전부 넣지 못했습니다. 나머지는 메시지에서 수령할 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.common.007",
+        "source": "THANKS",
+        "translation": "감사합니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.008",
+        "source": "Pick a table.",
+        "translation": "게임을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.009",
+        "source": "SPT CASINO",
+        "translation": "SPT 카지노",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.010",
+        "source": "Escape closes the casino. At a table it brings you back here.",
+        "translation": "Escape 키를 누르면 카지노를 닫습니다. 게임 중에는 이 로비로 돌아옵니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.011",
+        "source": "CLOSE",
+        "translation": "닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.012",
+        "source": "BLACKJACK",
+        "translation": "블랙잭",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.013",
+        "source": "Twenty-one against the dealer.",
+        "translation": "딜러를 상대로 21을 만드는 게임입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.014",
+        "source": "POKER",
+        "translation": "포커",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.015",
+        "source": "No-limit hold'em against the house's regulars.",
+        "translation": "하우스 단골들을 상대로 하는 노리밋 홀덤입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.016",
+        "source": "ROULETTE",
+        "translation": "룰렛",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.017",
+        "source": "A single-zero wheel. 2.70% to the house, every bet.",
+        "translation": "싱글 제로 룰렛입니다. 모든 베팅의 하우스 엣지는 2.70%입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.018",
+        "source": "SLOTS",
+        "translation": "슬롯",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.019",
+        "source": "Five reels, 243 ways. Pull the handle.",
+        "translation": "5릴, 243웨이 슬롯입니다. 레버를 당기세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.020",
+        "source": "HORSE RACING",
+        "translation": "경마",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.021",
+        "source": "Eight runners, five ways to back them.",
+        "translation": "8마리의 경주마에 5가지 방식으로 베팅할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.022",
+        "source": "CASINO WAR",
+        "translation": "카지노 워",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.023",
+        "source": "High card wins. Tie? Go to war.",
+        "translation": "높은 카드가 이깁니다. 동점이면 워로 승부합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.024",
+        "source": "CASINO",
+        "translation": "카지노",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.common.025",
+        "source": "Roulette",
+        "translation": "룰렛",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.001",
+        "source": "DEALER",
+        "translation": "딜러",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.002",
+        "source": "PLACE\nYOUR BET",
+        "translation": "베팅\n하세요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.003",
+        "source": "STATS",
+        "translation": "통계",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.004",
+        "source": "LEAVE TABLE",
+        "translation": "테이블 나가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.005",
+        "source": "BET",
+        "translation": "베팅",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.006",
+        "source": "ALL IN",
+        "translation": "올인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.007",
+        "source": "DEAL",
+        "translation": "딜",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.008",
+        "source": "CANCEL",
+        "translation": "취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.009",
+        "source": "BET IT ALL",
+        "translation": "전액 베팅",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.010",
+        "source": "BET MAXIMUM",
+        "translation": "최대 한도 베팅",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.011",
+        "source": "HIT",
+        "translation": "히트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.012",
+        "source": "STAND",
+        "translation": "스탠드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.013",
+        "source": "DOUBLE",
+        "translation": "더블",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.014",
+        "source": "SPLIT",
+        "translation": "스플릿",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.015",
+        "source": "WIN",
+        "translation": "승리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.016",
+        "source": "LOSE",
+        "translation": "패배",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.017",
+        "source": "PUSH",
+        "translation": "무승부",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.018",
+        "source": "BUST",
+        "translation": "버스트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.019",
+        "source": "rounds",
+        "translation": "라운드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.020",
+        "source": "hands",
+        "translation": "핸드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.021",
+        "source": "w-l-p",
+        "translation": "승-패-무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.022",
+        "source": "of decided",
+        "translation": "승률",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.023",
+        "source": "blackjacks",
+        "translation": "블랙잭",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.024",
+        "source": "busts",
+        "translation": "버스트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.025",
+        "source": "streak / best",
+        "translation": "연승 / 최고",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.026",
+        "source": "staked",
+        "translation": "베팅",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.027",
+        "source": "returned",
+        "translation": "회수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.028",
+        "source": "net",
+        "translation": "순손익",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.029",
+        "source": "Type an amount to bet first.",
+        "translation": "먼저 베팅할 금액을 입력하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.030",
+        "source": "You have {held} {wallet}. That is more than you are carrying.",
+        "translation": "현재 {held} {wallet}을 보유 중입니다. 보유량보다 많이 베팅할 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.031",
+        "source": "The largest bet the table can take is {limit}.",
+        "translation": "이 테이블에서 받을 수 있는 최대 베팅액은 {limit}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.032",
+        "source": "You have no {wallet} to bet.",
+        "translation": "베팅할 {wallet}이(가) 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.033",
+        "source": "The smallest {wallet} bet is {min}, and you have {held}.",
+        "translation": "{wallet}의 최소 베팅액은 {min}이며, 현재 보유량은 {held}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.034",
+        "source": "Bet the table maximum?\n\n<size=32>{stake}  {wallet}</size>\n\n<size=17>you are carrying {held}</size>",
+        "translation": "테이블 최대 한도까지 베팅하시겠습니까?\n\n<size=32>{stake}  {wallet}</size>\n\n<size=17>보유량: {held}</size>",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.035",
+        "source": "Bet everything?\n\n<size=32>{stake}  {wallet}</size>",
+        "translation": "전부 베팅하시겠습니까?\n\n<size=32>{stake}  {wallet}</size>",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.036",
+        "source": "No answer from the server. Is it running?",
+        "translation": "서버에서 응답이 없습니다. 서버가 실행 중인지 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.037",
+        "source": "No answer from the server.",
+        "translation": "서버에서 응답이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.038",
+        "source": "No hands played yet.",
+        "translation": "아직 플레이한 핸드가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.039",
+        "source": "Nothing staked yet.",
+        "translation": "아직 베팅한 기록이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.040",
+        "source": "the table takes up to {ceiling}",
+        "translation": "테이블 최대 한도: {ceiling}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.041",
+        "source": "you have {held} -- not enough",
+        "translation": "보유량: {held} -- 부족함",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.042",
+        "source": "you have {held}",
+        "translation": "보유량: {held}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.043",
+        "source": "{value} soft",
+        "translation": "{value} 소프트",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.044",
+        "source": "No PMC profile for this session.",
+        "translation": "현재 세션의 PMC 프로필을 찾을 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.045",
+        "source": "Unknown currency '{wallet}'.",
+        "translation": "알 수 없는 화폐입니다: '{wallet}'.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.046",
+        "source": "A round is already in progress.",
+        "translation": "이미 진행 중인 라운드가 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.047",
+        "source": "The table takes up to {max} Roubles a hand.",
+        "translation": "한 판의 최대 베팅 한도는 {max} 루블입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.048",
+        "source": "The smallest Roubles bet is {min}.",
+        "translation": "루블 최소 베팅액은 {min}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.049",
+        "source": "The table takes up to {max} Dollars a hand.",
+        "translation": "한 판의 최대 베팅 한도는 {max} 달러입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.050",
+        "source": "The smallest Dollars bet is {min}.",
+        "translation": "달러 최소 베팅액은 {min}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.051",
+        "source": "The table takes up to {max} Euros a hand.",
+        "translation": "한 판의 최대 베팅 한도는 {max} 유로입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.052",
+        "source": "The smallest Euros bet is {min}.",
+        "translation": "유로 최소 베팅액은 {min}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.053",
+        "source": "The table takes up to {max} GP coins a hand.",
+        "translation": "한 판의 최대 베팅 한도는 {max} GP 코인입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.054",
+        "source": "The smallest GP coins bet is {min}.",
+        "translation": "GP 코인 최소 베팅액은 {min}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.055",
+        "source": "The table takes up to {max} Bitcoin a hand.",
+        "translation": "한 판의 최대 베팅 한도는 {max} 비트코인입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.056",
+        "source": "The smallest Bitcoin bet is {min}.",
+        "translation": "비트코인 최소 베팅액은 {min}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.057",
+        "source": "The table takes up to {max} Lega medals a hand.",
+        "translation": "한 판의 최대 베팅 한도는 {max} 레가 메달입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.058",
+        "source": "The smallest Lega medals bet is {min}.",
+        "translation": "레가 메달 최소 베팅액은 {min}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.059",
+        "source": "Not enough Roubles -- you have {held}.",
+        "translation": "루블이(가) 부족합니다. 현재 보유량: {held}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.060",
+        "source": "Not enough Roubles to Double.",
+        "translation": "더블할 루블이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.061",
+        "source": "Not enough Roubles to Split.",
+        "translation": "스플릿할 루블이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.062",
+        "source": "Not enough Dollars -- you have {held}.",
+        "translation": "달러이(가) 부족합니다. 현재 보유량: {held}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.063",
+        "source": "Not enough Dollars to Double.",
+        "translation": "더블할 달러이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.064",
+        "source": "Not enough Dollars to Split.",
+        "translation": "스플릿할 달러이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.065",
+        "source": "Not enough Euros -- you have {held}.",
+        "translation": "유로이(가) 부족합니다. 현재 보유량: {held}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.066",
+        "source": "Not enough Euros to Double.",
+        "translation": "더블할 유로이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.067",
+        "source": "Not enough Euros to Split.",
+        "translation": "스플릿할 유로이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.068",
+        "source": "Not enough GpCoins -- you have {held}.",
+        "translation": "GP 코인이(가) 부족합니다. 현재 보유량: {held}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.069",
+        "source": "Not enough GpCoins to Double.",
+        "translation": "더블할 GP 코인이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.070",
+        "source": "Not enough GpCoins to Split.",
+        "translation": "스플릿할 GP 코인이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.071",
+        "source": "Not enough Bitcoin -- you have {held}.",
+        "translation": "비트코인이(가) 부족합니다. 현재 보유량: {held}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.072",
+        "source": "Not enough Bitcoin to Double.",
+        "translation": "더블할 비트코인이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.073",
+        "source": "Not enough Bitcoin to Split.",
+        "translation": "스플릿할 비트코인이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.074",
+        "source": "Not enough LegaMedals -- you have {held}.",
+        "translation": "레가 메달이(가) 부족합니다. 현재 보유량: {held}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.075",
+        "source": "Not enough LegaMedals to Double.",
+        "translation": "더블할 레가 메달이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.076",
+        "source": "Not enough LegaMedals to Split.",
+        "translation": "스플릿할 레가 메달이(가) 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.077",
+        "source": "Unknown action '{action}'.",
+        "translation": "알 수 없는 액션입니다: '{action}'.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.078",
+        "source": "No round is in progress.",
+        "translation": "진행 중인 라운드가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.blackjack.079",
+        "source": "Discarded an unreadable outstanding stake of {amount} '{wallet}'.",
+        "translation": "읽을 수 없는 미정산 베팅 {amount} '{wallet}'을(를) 폐기했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.080",
+        "source": "Refunded {amount} {wallet} from a round that never finished.",
+        "translation": "완료되지 않은 라운드에서 {amount} {wallet}을(를) 환불했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.081",
+        "source": "Cannot {action} while the round is {phase}.",
+        "translation": "라운드 상태가 {phase}인 동안에는 {action}할 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.blackjack.082",
+        "source": "{action} is not legal on the current hand.",
+        "translation": "현재 핸드에서는 {action}할 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.exact.001",
+        "source": "NOT YET",
+        "translation": "아직 참가하지 않기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.002",
+        "source": "Could not sit down.",
+        "translation": "테이블에 참가하지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.003",
+        "source": "Could not deal.",
+        "translation": "카드를 나누지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.005",
+        "source": "SIT DOWN",
+        "translation": "테이블 참가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.006",
+        "source": "Waiting to deal.",
+        "translation": "딜을 기다리는 중입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.007",
+        "source": "Hand over.",
+        "translation": "핸드 종료.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.008",
+        "source": "YOU",
+        "translation": "나",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.009",
+        "source": "folded",
+        "translation": "폴드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.011",
+        "source": "LEAVE",
+        "translation": "자리에서 일어나기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.012",
+        "source": "FOLD",
+        "translation": "폴드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.013",
+        "source": "CHECK",
+        "translation": "체크",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.014",
+        "source": "PreFlop",
+        "translation": "프리플랍",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.015",
+        "source": "Flop",
+        "translation": "플랍",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.016",
+        "source": "Turn",
+        "translation": "턴",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.017",
+        "source": "River",
+        "translation": "리버",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.018",
+        "source": "Showdown",
+        "translation": "쇼다운",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.019",
+        "source": "Idle",
+        "translation": "대기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.021",
+        "source": "You are already at a table. Leave it first and take your chips.",
+        "translation": "이미 테이블에 참가 중입니다. 먼저 자리에서 일어나 칩을 회수하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.022",
+        "source": "A table seats 2 to 5, the player included.",
+        "translation": "테이블 인원은 플레이어를 포함해 2~5명이어야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.023",
+        "source": "The big blind has to be at least 2, so the small blind is a whole chip.",
+        "translation": "빅 블라인드는 최소 2여야 스몰 블라인드를 온전한 칩 단위로 설정할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.024",
+        "source": "You are not at a table. Sit down first.",
+        "translation": "테이블에 참가하지 않았습니다. 먼저 자리에 앉으세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.025",
+        "source": "A hand is already in progress.",
+        "translation": "이미 핸드가 진행 중입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.026",
+        "source": "You are out of chips. Leave the table and buy in again.",
+        "translation": "칩을 모두 잃었습니다. 자리에서 일어난 뒤 다시 바이인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.027",
+        "source": "You are not at a table.",
+        "translation": "테이블에 참가하고 있지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.028",
+        "source": "It is not your turn.",
+        "translation": "현재 당신의 차례가 아닙니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.exact.029",
+        "source": "Finish the hand before you stand up.",
+        "translation": "자리에서 일어나기 전에 현재 핸드를 끝내세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.poker.template.001",
+        "source": "This will take {amount} roubles from your stash and put it on the table as chips. Whatever is left when you stand up comes back.",
+        "translation": "보관함에서 {amount}루블을 가져와 테이블 칩으로 사용합니다. 자리에서 일어날 때 남은 칩은 다시 돌려받습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.002",
+        "source": "BUY IN FOR {amount}",
+        "translation": "{amount} 바이인",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.003",
+        "source": "5 seats, blinds 10k / 20k.     Buying in costs {amount} roubles from your stash ({bb} big blinds, set it in the F12 menu). You take back whatever is in front of you when you stand up.",
+        "translation": "5인 테이블, 블라인드 10k / 20k.     참가 비용은 보관함의 {amount}루블입니다 ({bb}빅 블라인드, F12 메뉴에서 설정). 자리에서 일어날 때 앞에 남은 칩을 돌려받습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.004",
+        "source": "Seat {index}",
+        "translation": "좌석 {index}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.005",
+        "source": "{stack}     all in",
+        "translation": "{stack}     올인",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.006",
+        "source": "{stack}     bet {committed}",
+        "translation": "{stack}     베팅 {committed}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.007",
+        "source": "CALL {amount}",
+        "translation": "콜 {amount}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.008",
+        "source": "RAISE TO {amount}",
+        "translation": "{amount}까지 레이즈",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.009",
+        "source": "ALL IN {amount}",
+        "translation": "올인 {amount}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.011",
+        "source": "A buy-in of {buyIn} is under ten big blinds. There would be nothing to play with.",
+        "translation": "바이인 {buyIn}은 10빅 블라인드보다 적습니다. 정상적으로 플레이할 수 있는 스택이 되지 않습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.012",
+        "source": "A {buyIn} chip buy-in cannot be paid in {label}, which takes {min} to {max}.",
+        "translation": "{label} 바이인은 {min}~{max} 범위만 가능하므로 {buyIn}칩 바이인은 결제할 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.013",
+        "source": "Not enough {label} -- you have {balance} and the buy-in is {buyIn}.",
+        "translation": "{label}이 부족합니다. 현재 {balance}을 보유하고 있으며 바이인은 {buyIn}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.014",
+        "source": "Unknown move '{move}'. Fold, Check, Call or Raise.",
+        "translation": "알 수 없는 행동입니다: '{move}'. 폴드, 체크, 콜 또는 레이즈를 사용하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.015",
+        "source": "Discarded an unreadable outstanding stack of {chips} '{wallet}'.",
+        "translation": "읽을 수 없는 미정산 스택 {chips} '{wallet}'을 폐기했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.template.016",
+        "source": "Gave back {chips} {wallet} from a session that never finished.",
+        "translation": "정상 종료되지 않은 세션에서 {chips} {wallet}을 돌려받았습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.poker.segment.001",
+        "source": "You win ",
+        "translation": "당신 승리: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.poker.segment.002",
+        "source": " wins ",
+        "translation": " 승리: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.poker.segment.003",
+        "source": " with ",
+        "translation": " / ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.poker.hand.001",
+        "source": "(?i:Royal flush)",
+        "translation": "로열 플러시",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.hand.002",
+        "source": "(?i:Straight flush,\\s*(?<rank>[a-z]+)\\s+high)",
+        "translation": "{rank} 하이 스트레이트 플러시",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.hand.003",
+        "source": "(?i:Four of a kind,\\s*(?<rank>[a-z]+))",
+        "translation": "{rank} 포카드",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.hand.004",
+        "source": "(?i:Full house,\\s*(?<trips>[a-z]+)\\s+over\\s+(?<pair>[a-z]+))",
+        "translation": "{trips} 풀하우스 ({pair})",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.hand.005",
+        "source": "(?i:Flush,\\s*(?<rank>[a-z]+)\\s+high)",
+        "translation": "{rank} 하이 플러시",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.hand.006",
+        "source": "(?i:Straight,\\s*(?<rank>[a-z]+)\\s+high)",
+        "translation": "{rank} 하이 스트레이트",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.hand.007",
+        "source": "(?i:Three of a kind,\\s*(?<rank>[a-z]+))",
+        "translation": "{rank} 트리플",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.hand.008",
+        "source": "(?i:Two pair,\\s*(?<high>[a-z]+)\\s+and\\s+(?<low>[a-z]+))",
+        "translation": "{high}, {low} 투 페어",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.hand.009",
+        "source": "(?i:Pair of\\s+(?<rank>[a-z]+))",
+        "translation": "{rank} 원 페어",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.hand.010",
+        "source": "(?i:\\b(?<rank>ace|king|queen|jack|ten|nine|eight|seven|six|five|four|three|two)\\s+high\\b)",
+        "translation": "{rank} 하이",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.001",
+        "source": "(?i:\\baces\\b)",
+        "translation": "에이스",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.002",
+        "source": "(?i:\\bace\\b)",
+        "translation": "에이스",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.003",
+        "source": "(?i:\\bkings\\b)",
+        "translation": "킹",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.004",
+        "source": "(?i:\\bking\\b)",
+        "translation": "킹",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.005",
+        "source": "(?i:\\bqueens\\b)",
+        "translation": "퀸",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.006",
+        "source": "(?i:\\bqueen\\b)",
+        "translation": "퀸",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.007",
+        "source": "(?i:\\bjacks\\b)",
+        "translation": "잭",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.008",
+        "source": "(?i:\\bjack\\b)",
+        "translation": "잭",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.009",
+        "source": "(?i:\\btens\\b)",
+        "translation": "10",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.010",
+        "source": "(?i:\\bten\\b)",
+        "translation": "10",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.011",
+        "source": "(?i:\\bnines\\b)",
+        "translation": "9",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.012",
+        "source": "(?i:\\bnine\\b)",
+        "translation": "9",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.013",
+        "source": "(?i:\\beights\\b)",
+        "translation": "8",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.014",
+        "source": "(?i:\\beight\\b)",
+        "translation": "8",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.015",
+        "source": "(?i:\\bsevens\\b)",
+        "translation": "7",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.016",
+        "source": "(?i:\\bseven\\b)",
+        "translation": "7",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.017",
+        "source": "(?i:\\bsixes\\b)",
+        "translation": "6",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.018",
+        "source": "(?i:\\bsix\\b)",
+        "translation": "6",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.019",
+        "source": "(?i:\\bfives\\b)",
+        "translation": "5",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.020",
+        "source": "(?i:\\bfive\\b)",
+        "translation": "5",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.021",
+        "source": "(?i:\\bfours\\b)",
+        "translation": "4",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.022",
+        "source": "(?i:\\bfour\\b)",
+        "translation": "4",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.023",
+        "source": "(?i:\\bthrees\\b)",
+        "translation": "3",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.024",
+        "source": "(?i:\\bthree\\b)",
+        "translation": "3",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.025",
+        "source": "(?i:\\btwos\\b)",
+        "translation": "2",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.rank.026",
+        "source": "(?i:\\btwo\\b)",
+        "translation": "2",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.poker.currency.001",
+        "source": "(?i:\\broubles\\b)",
+        "translation": "루블",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.exact.001",
+        "source": "OPEN A TABLE",
+        "translation": "테이블 열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.002",
+        "source": "NEXT SPIN",
+        "translation": "다음 스핀",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.003",
+        "source": "SPIN",
+        "translation": "스핀",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.004",
+        "source": "CLEAR",
+        "translation": "베팅 지우기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.005",
+        "source": "Cloth cleared. Place your bets.",
+        "translation": "베팅판을 비웠습니다. 베팅하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.006",
+        "source": "No more bets.",
+        "translation": "베팅 마감.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.007",
+        "source": "Not at a table.",
+        "translation": "테이블에 참가하지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.008",
+        "source": "Left-click to put a chip down, right-click to take one back.",
+        "translation": "왼쪽 클릭으로 칩을 놓고, 오른쪽 클릭으로 칩을 회수하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.009",
+        "source": "2 to 1",
+        "translation": "2 대 1",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.010",
+        "source": "1st 12",
+        "translation": "1~12",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.011",
+        "source": "2nd 12",
+        "translation": "13~24",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.012",
+        "source": "3rd 12",
+        "translation": "25~36",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.013",
+        "source": "EVEN",
+        "translation": "짝수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.014",
+        "source": "RED",
+        "translation": "빨강",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.015",
+        "source": "BLACK",
+        "translation": "검정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.016",
+        "source": "ODD",
+        "translation": "홀수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.017",
+        "source": "The wheel has turned. Clear the last spin first.",
+        "translation": "휠이 이미 돌아갔습니다. 이전 스핀 결과를 먼저 정리하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.018",
+        "source": "The wheel has turned.",
+        "translation": "휠이 이미 돌아갔습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.019",
+        "source": "The wheel has already turned.",
+        "translation": "휠이 이미 돌아갔습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.020",
+        "source": "Nothing is on the cloth.",
+        "translation": "베팅판에 걸린 칩이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.exact.021",
+        "source": "A bet needs chips on it.",
+        "translation": "베팅하려면 칩이 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.roulette.template.001",
+        "source": "Up {profit} on the spin.",
+        "translation": "이번 스핀에서 {profit} 이익.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.002",
+        "source": "Down {profit} on the spin.",
+        "translation": "이번 스핀에서 {profit} 손실.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.003",
+        "source": "{staked} on the cloth across {count} bet(s).  Right-click a spot to take a chip back.",
+        "translation": "베팅판에 {count}개 베팅, 총 {staked}. 오른쪽 클릭으로 해당 위치의 칩을 회수하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.004",
+        "source": "CHIP  {chip}          ON THE CLOTH  {staked}",
+        "translation": "칩  {chip}          총 베팅  {staked}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.005",
+        "source": "CHIP  {chip}",
+        "translation": "칩  {chip}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.006",
+        "source": "There is no bet called '{kind}'.",
+        "translation": "알 수 없는 베팅 유형입니다: '{kind}'.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.007",
+        "source": "That would put {total} on the cloth and you have {balance}.",
+        "translation": "그렇게 베팅하면 총 {total}이 되지만 현재 보유액은 {balance}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.008",
+        "source": "{kind} takes at most {max}; that would make {total}.",
+        "translation": "{kind} 베팅 한도는 최대 {max}이며, 그렇게 하면 {total}이 됩니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.009",
+        "source": "The table takes at most {max} on one spin.",
+        "translation": "한 번의 스핀에는 최대 {max}까지만 베팅할 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.010",
+        "source": "There is only room for {count} bets on the cloth.",
+        "translation": "베팅판에는 최대 {count}개의 베팅만 올릴 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.011",
+        "source": "You need {stake} to spin that and you have {balance}.",
+        "translation": "스핀하려면 {stake}이 필요하지만 현재 보유액은 {balance}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.012",
+        "source": "A spin was interrupted before it paid out. {amount} has been returned.",
+        "translation": "지급 전에 스핀이 중단되어 {amount}을 돌려드렸습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.013",
+        "source": "The smallest bet is {min}; {amount} is less.",
+        "translation": "최소 베팅액은 {min}입니다. 현재 베팅액은 {amount}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.014",
+        "source": "Bets go up in {step}; {amount} does not.",
+        "translation": "베팅액은 {step} 단위여야 합니다. 현재 베팅액 {amount}은 해당 단위에 맞지 않습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.016",
+        "source": "TopLine cannot be placed on {selection} -- there is no top line on a European wheel.",
+        "translation": "탑 라인 베팅은 {selection}에 놓을 수 없습니다. 유럽식 휠에는 탑 라인이 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.template.015",
+        "source": "{kind} cannot be placed on {selection}.",
+        "translation": "{kind} 베팅은 {selection}에 놓을 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.roulette.kind.001",
+        "source": "(?i:\\bStraight\\b)",
+        "translation": "스트레이트 업",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.002",
+        "source": "(?i:\\bSplit\\b)",
+        "translation": "스플릿",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.003",
+        "source": "(?i:\\bStreet\\b)",
+        "translation": "스트리트",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.004",
+        "source": "(?i:\\bCorner\\b)",
+        "translation": "코너",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.005",
+        "source": "(?i:\\bSixLine\\b)",
+        "translation": "식스 라인",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.006",
+        "source": "(?i:\\bColumn\\b)",
+        "translation": "컬럼",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.007",
+        "source": "(?i:\\bDozen\\b)",
+        "translation": "더즌",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.008",
+        "source": "(?i:\\bRed\\b)",
+        "translation": "빨강",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.009",
+        "source": "(?i:\\bBlack\\b)",
+        "translation": "검정",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.010",
+        "source": "(?i:\\bOdd\\b)",
+        "translation": "홀수",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.011",
+        "source": "(?i:\\bEven\\b)",
+        "translation": "짝수",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.012",
+        "source": "(?i:\\bLow\\b)",
+        "translation": "로우",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.013",
+        "source": "(?i:\\bHigh\\b)",
+        "translation": "하이",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.roulette.kind.014",
+        "source": "(?i:\\bTopLine\\b)",
+        "translation": "탑 라인",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.slots.001",
+        "source": "243 ways -- matching symbols in any position, from the leftmost reel.",
+        "translation": "243웨이 — 가장 왼쪽 릴부터 어느 위치든 같은 심볼이 이어지면 당첨됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.002",
+        "source": "AUTO",
+        "translation": "자동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.003",
+        "source": "STOP",
+        "translation": "정지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.004",
+        "source": "PAYTABLE",
+        "translation": "배당표",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.005",
+        "source": "The server has not said.",
+        "translation": "서버에서 아직 정보를 받지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.006",
+        "source": "x your stake, and again by how many ways it landed.",
+        "translation": "배당은 판돈 배수에 당첨된 조합 수를 다시 곱해 계산합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.007",
+        "source": "STAKE",
+        "translation": "판돈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.008",
+        "source": "No pulls yet.",
+        "translation": "아직 스핀 기록이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.009",
+        "source": "pulls",
+        "translation": "스핀",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.010",
+        "source": "w-l",
+        "translation": "당첨-꽝",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.011",
+        "source": "hit rate",
+        "translation": "당첨률",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.012",
+        "source": "best pull",
+        "translation": "최고 배수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.013",
+        "source": "jackpots",
+        "translation": "잭팟",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.014",
+        "source": "The server is not answering. The machine will not take a spin.",
+        "translation": "서버가 응답하지 않아 슬롯머신을 돌릴 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.015",
+        "source": "Press SPIN.",
+        "translation": "스핀을 누르세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.016",
+        "source": "Fetching the symbols from your install...",
+        "translation": "설치 파일에서 심볼을 불러오는 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.017",
+        "source": "Still fetching the symbols from your install.",
+        "translation": "아직 설치 파일에서 심볼을 불러오는 중입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.018",
+        "source": "The machine answered with nothing.",
+        "translation": "슬롯머신에서 결과를 받지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.019",
+        "source": "Nothing. Press SPIN.",
+        "translation": "당첨 없음. 스핀을 누르세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.020",
+        "source": "The spin settled, but this panel could not draw the result.",
+        "translation": "스핀 결과는 확정됐지만 화면에 결과를 표시하지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.021",
+        "source": "SOMETHING",
+        "translation": "알 수 없는 심볼",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.slots.022",
+        "source": "TARCOLA",
+        "translation": "타르콜라",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.023",
+        "source": "SALEWA",
+        "translation": "살레와",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.024",
+        "source": "MOONSHINE",
+        "translation": "밀주",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.025",
+        "source": "TETRIZ",
+        "translation": "테트리즈",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.026",
+        "source": "GOLD WATCH",
+        "translation": "금시계",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.027",
+        "source": "GOLD ROOSTER",
+        "translation": "금수탉",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.028",
+        "source": "GRAPHICS CARD",
+        "translation": "그래픽 카드",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.029",
+        "source": "BITCOIN",
+        "translation": "비트코인",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.030",
+        "source": "RED KEYCARD",
+        "translation": "빨간색 키카드",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.031",
+        "source": "JACKPOT ",
+        "translation": "잭팟 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.032",
+        "source": "HUGE WIN ",
+        "translation": "초대박 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.033",
+        "source": "BIG WIN ",
+        "translation": "대박 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.034",
+        "source": "WIN ",
+        "translation": "당첨 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.035",
+        "source": "There is nothing called '{wallet}' to play with.",
+        "translation": "'{wallet}' 통화로는 플레이할 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.slots.036",
+        "source": "A pull in {wallet} costs at least {min}.",
+        "translation": "{wallet} 스핀의 최소 판돈은 {min}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.slots.037",
+        "source": "A pull in {wallet} costs {min} to {max}.",
+        "translation": "{wallet} 스핀 판돈은 {min}~{max}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.slots.038",
+        "source": "That pull costs {stake} {wallet} and you have {balance}.",
+        "translation": "해당 스핀에는 {stake} {wallet}이 필요하지만 현재 보유액은 {balance}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.slots.039",
+        "source": "A pull was interrupted before it paid out. {amount} has been returned.",
+        "translation": "지급 전에 스핀이 중단되어 {amount}을 돌려드렸습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.slots.040",
+        "source": "A spin in {wallet} costs at least {min}.",
+        "translation": "{wallet} 스핀의 최소 판돈은 {min}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.slots.041",
+        "source": "A spin in {wallet} costs {min} to {max}.  Set to {clamped}.",
+        "translation": "{wallet} 스핀 판돈은 {min}~{max}입니다. {clamped}(으)로 조정했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.slots.042",
+        "source": "{reels} x {symbol} on {ways} way.",
+        "translation": "{symbol} {reels}개 × {ways}가지 조합.",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "casino.slots.043",
+        "source": "{reels} x {symbol} on {ways} ways.",
+        "translation": "{symbol} {reels}개 × {ways}가지 조합.",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "casino.slots.044",
+        "source": "  And {count} more.",
+        "translation": "  그 외 {count}개 당첨.",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "casino.slots.045",
+        "source": "  Showing {drawn} of {total} ways.",
+        "translation": "  총 {total}개 조합 중 {drawn}개 표시.",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "casino.slots.046",
+        "source": "(?i:\\bdollars\\b)",
+        "translation": "달러",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.slots.047",
+        "source": "(?i:\\beuros\\b)",
+        "translation": "유로",
+        "match_mode": "regex_segment"
+      }
+    ],
+    "server_messages": [
+      {
+        "id": "casino.blackjack.mail.01",
+        "source": "Your table winnings could not fit in your stash. ",
+        "translation": "보관함 공간이 부족해 테이블 당첨금을 넣지 못했습니다. ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.blackjack.mail.02",
+        "source": " Roubles attached.",
+        "translation": "루블이 메시지에 첨부되었습니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.blackjack.mail.03",
+        "source": " Dollars attached.",
+        "translation": "달러가 메시지에 첨부되었습니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.blackjack.mail.04",
+        "source": " Euros attached.",
+        "translation": "유로가 메시지에 첨부되었습니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.blackjack.mail.05",
+        "source": " GP coins attached.",
+        "translation": " GP 코인이 메시지에 첨부되었습니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.blackjack.mail.06",
+        "source": " Bitcoin attached.",
+        "translation": " 비트코인이 메시지에 첨부되었습니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.blackjack.mail.07",
+        "source": " Lega medals attached.",
+        "translation": " 레가 메달이 메시지에 첨부되었습니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.poker.mail.01",
+        "source": "Your chips would not fit in your stash. ",
+        "translation": "보관함 공간이 부족해 칩을 넣지 못했습니다. ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.slots.mail.01",
+        "source": "Your winnings would not fit in your stash. ",
+        "translation": "보관함 공간이 부족해 당첨금을 넣지 못했습니다. ",
+        "match_mode": "segment"
+      }
+    ],
+    "horse_racing_ui": [
+      {
+        "id": "casino.racing.001",
+        "source": "HORSE RACING",
+        "translation": "경마",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.002",
+        "source": "CLOSE",
+        "translation": "닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.003",
+        "source": "RUNNER",
+        "translation": "출주마",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.004",
+        "source": "FORM",
+        "translation": "우승 확률",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.005",
+        "source": "WIN",
+        "translation": "우승",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.006",
+        "source": "PLACE",
+        "translation": "2위권",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.007",
+        "source": "SHOW",
+        "translation": "3위권",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.008",
+        "source": "YOUR SLIP",
+        "translation": "베팅 슬립",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.009",
+        "source": "CLEAR",
+        "translation": "비우기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.010",
+        "source": "EXACTA  /  QUINELLA",
+        "translation": "쌍승  /  복승",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.011",
+        "source": "STAKE PER BET",
+        "translation": "베팅당 판돈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.012",
+        "source": "RUN THE RACE",
+        "translation": "경주 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.013",
+        "source": "COURSE",
+        "translation": "코스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.014",
+        "source": "Nothing on the slip.",
+        "translation": "베팅 슬립이 비어 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.015",
+        "source": "Pick your bets, then run the race.",
+        "translation": "베팅을 선택한 뒤 경주를 시작하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.016",
+        "source": "There is nothing on the slip.",
+        "translation": "베팅 슬립이 비어 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.017",
+        "source": "No course is selected.",
+        "translation": "선택된 코스가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.018",
+        "source": "The server did not answer. Nothing has been staked.",
+        "translation": "서버가 응답하지 않았습니다. 판돈은 차감되지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.019",
+        "source": "That slip was refused.",
+        "translation": "해당 베팅 슬립이 거부되었습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.020",
+        "source": "The race ran but the result could not be read. Your stash has been resynced.",
+        "translation": "경주는 진행됐지만 결과를 읽지 못했습니다. 보관함을 다시 동기화했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.021",
+        "source": "And they're off.",
+        "translation": "출발했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.022",
+        "source": "Eight runners.",
+        "translation": "출주마 8마리.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.023",
+        "source": "this course",
+        "translation": "현재 코스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.024",
+        "source": "THE DASH",
+        "translation": "단거리",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.025",
+        "source": "THE MILE",
+        "translation": "마일",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.026",
+        "source": "THE MARATHON",
+        "translation": "마라톤",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.027",
+        "source": "5 furlongs",
+        "translation": "5펄롱",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.028",
+        "source": "8 furlongs",
+        "translation": "8펄롱",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.029",
+        "source": "2 miles",
+        "translation": "2마일",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.030",
+        "source": "Pure speed. Over five furlongs a stayer has no time to get going.",
+        "translation": "순수한 스피드 승부. 5펄롱에서는 지구력형 말이 힘을 발휘할 시간이 없습니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.031",
+        "source": "Speed and stamina matter about equally. The all-rounder's race.",
+        "translation": "스피드와 지구력이 거의 똑같이 중요합니다. 올라운더를 위한 경주입니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.032",
+        "source": "Stamina decides it. The sprinters are walking by the end.",
+        "translation": "지구력이 승부를 가릅니다. 단거리형 말은 막판이면 걸어가다시피 합니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.033",
+        "source": " to the house on every bet, the same at every course.",
+        "translation": "를 모든 베팅에서 하우스가 가져가며, 모든 코스에 동일하게 적용됩니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.034",
+        "source": "GRAY GHOST",
+        "translation": "그레이 고스트",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.035",
+        "source": "DOLLAR SIGN",
+        "translation": "달러 사인",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.036",
+        "source": "FACTORY FLYER",
+        "translation": "팩토리 플라이어",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.037",
+        "source": "NIGHT RAIDER",
+        "translation": "나이트 레이더",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.038",
+        "source": "RESHALA'S PRIDE",
+        "translation": "르샬라스 프라이드",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.039",
+        "source": "SCAV LUCK",
+        "translation": "스캐브 럭",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.040",
+        "source": "LABS LIGHTNING",
+        "translation": "랩스 라이트닝",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.041",
+        "source": "LEFT BEHIND",
+        "translation": "레프트 비하인드",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.042",
+        "source": "1st",
+        "translation": "1위",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.043",
+        "source": "2nd",
+        "translation": "2위",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.044",
+        "source": "3rd",
+        "translation": "3위",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.045",
+        "source": "4th",
+        "translation": "4위",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.046",
+        "source": "5th",
+        "translation": "5위",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.047",
+        "source": "6th",
+        "translation": "6위",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.048",
+        "source": "7th",
+        "translation": "7위",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.049",
+        "source": "8th",
+        "translation": "8위",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.racing.050",
+        "source": "\\AWIN\\b",
+        "translation": "우승",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.racing.051",
+        "source": "\\APLACE\\b",
+        "translation": "2위권",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.racing.052",
+        "source": "\\ASHOW\\b",
+        "translation": "3위권",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.racing.053",
+        "source": "\\AEXACTA\\b",
+        "translation": "쌍승",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.racing.054",
+        "source": "\\AQUINELLA\\b",
+        "translation": "복승",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.racing.055",
+        "source": "A slip takes at most {max} bets.",
+        "translation": "베팅 슬립에는 최대 {max}개의 베팅만 담을 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.racing.056",
+        "source": "There is nothing called '{wallet}' to bet with.",
+        "translation": "'{wallet}' 통화로는 베팅할 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.racing.057",
+        "source": "There is no course here called '{track}'.",
+        "translation": "'{track}' 코스를 찾을 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.racing.058",
+        "source": "There is no bet here called '{kind}'.",
+        "translation": "'{kind}' 베팅 유형을 찾을 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.racing.059",
+        "source": "A bet in {label} is at least {min}.",
+        "translation": "{label} 베팅의 최소 판돈은 {min}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.racing.060",
+        "source": "A slip at {track} in {label} comes to at most {cap}, and this one is {total}.",
+        "translation": "{track}의 {label} 베팅 슬립 한도는 {cap}이며, 현재 합계는 {total}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.racing.061",
+        "source": "That slip costs {staked} {label} and you have {balance}.",
+        "translation": "해당 베팅 슬립에는 {staked} {label}이 필요하지만 현재 보유액은 {balance}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.racing.062",
+        "source": "A race was interrupted before it paid out. {amount} has been returned.",
+        "translation": "지급 전에 경주가 중단되어 {amount}을 돌려드렸습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.racing.063",
+        "source": "{winner} {name} wins.",
+        "translation": "{winner}번 {name} 우승.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.racing.064",
+        "source": "\\APAID (?<paid>[0-9,]+)\\s+\\(\\+(?<profit>[0-9,]+)\\)\\z",
+        "translation": "지급 {paid}   (+{profit})",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.racing.065",
+        "source": "\\APAID (?<paid>[0-9,]+)\\z",
+        "translation": "지급 {paid}",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.racing.066",
+        "source": "\\ANOTHING\\s+\\(-(?<staked>[0-9,]+)\\)\\z",
+        "translation": "적중 없음   (-{staked})",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.racing.067",
+        "source": "\\A(?<count>[0-9]+) bets?\\s+total (?<total>.+)\\z",
+        "translation": "베팅 {count}건   합계 {total}",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.racing.068",
+        "source": "That is not a bet this table takes: ",
+        "translation": "이 테이블에서 받을 수 없는 베팅입니다: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.069",
+        "source": "Win on ",
+        "translation": "우승 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.070",
+        "source": "Place on ",
+        "translation": "2위권 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.071",
+        "source": "Show on ",
+        "translation": "3위권 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.072",
+        "source": "Exacta on ",
+        "translation": "쌍승 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.073",
+        "source": "Quinella on ",
+        "translation": "복승 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "casino.racing.074",
+        "source": "(?i:\\broubles\\b)",
+        "translation": "루블",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.racing.075",
+        "source": "(?i:\\bdollars\\b)",
+        "translation": "달러",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.racing.076",
+        "source": "(?i:\\beuros\\b)",
+        "translation": "유로",
+        "match_mode": "regex_segment"
+      }
+    ],
+    "casino_war_ui": [
+      {
+        "id": "casino.war.001",
+        "source": "CASINO WAR",
+        "translation": "카지노 워",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.002",
+        "source": "DEALER",
+        "translation": "딜러",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.003",
+        "source": "YOU",
+        "translation": "나",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.004",
+        "source": "WAR",
+        "translation": "워",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.005",
+        "source": "STATS",
+        "translation": "통계",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.006",
+        "source": "LEAVE TABLE",
+        "translation": "테이블 나가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.007",
+        "source": "BET",
+        "translation": "베팅",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.008",
+        "source": "TIE BET",
+        "translation": "타이 베팅",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.009",
+        "source": "optional",
+        "translation": "선택",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.010",
+        "source": "DEAL",
+        "translation": "딜",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.011",
+        "source": "AUTO",
+        "translation": "자동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.012",
+        "source": "STOP",
+        "translation": "정지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.013",
+        "source": "TIE",
+        "translation": "타이",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.014",
+        "source": "YOU WIN",
+        "translation": "승리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.015",
+        "source": "DEALER WINS",
+        "translation": "딜러 승리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.016",
+        "source": "SURRENDERED",
+        "translation": "항복",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.017",
+        "source": "YOU WIN THE WAR",
+        "translation": "워 승리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.018",
+        "source": "DEALER WINS THE WAR",
+        "translation": "딜러 워 승리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.019",
+        "source": "Type an amount to bet first.",
+        "translation": "먼저 베팅할 금액을 입력하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.020",
+        "source": "No answer from the server. Is it running?",
+        "translation": "서버에서 응답이 없습니다. 서버가 실행 중인지 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.021",
+        "source": "No answer from the server.",
+        "translation": "서버에서 응답이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.022",
+        "source": "A fresh shoe: six decks, shuffled.",
+        "translation": "새 슈에 6덱을 섞었습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.023",
+        "source": "No PMC profile for this session.",
+        "translation": "현재 세션에서 PMC 프로필을 찾을 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.024",
+        "source": "The last hand tied. Go to war or surrender before dealing another.",
+        "translation": "직전 판이 타이로 끝났습니다. 다음 카드를 받기 전에 워를 진행하거나 항복하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.025",
+        "source": "There is no tie to decide.",
+        "translation": "결정할 타이 상황이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.026",
+        "source": "The raise could not be taken. You can still surrender.",
+        "translation": "추가 판돈을 가져올 수 없습니다. 아직 항복할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.027",
+        "source": "No hands played yet.",
+        "translation": "아직 플레이한 판이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.028",
+        "source": "hands",
+        "translation": "판",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.029",
+        "source": "won-lost",
+        "translation": "승-패",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.030",
+        "source": "ties",
+        "translation": "타이",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.031",
+        "source": "wars won-lost",
+        "translation": "워 승-패",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.032",
+        "source": "surrenders",
+        "translation": "항복",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.033",
+        "source": "tie bets won",
+        "translation": "타이 베팅 적중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.034",
+        "source": "streak / best",
+        "translation": "연승 / 최고",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.035",
+        "source": "staked",
+        "translation": "베팅액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.036",
+        "source": "returned",
+        "translation": "반환액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.037",
+        "source": "net",
+        "translation": "순손익",
+        "match_mode": "exact"
+      },
+      {
+        "id": "casino.war.038",
+        "source": "AUTO stopped: the table takes up to {ceiling} a bet.",
+        "translation": "자동 진행 중지: 한 번에 최대 {ceiling}까지 베팅할 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.039",
+        "source": "That hand costs {cost} RUB and you have {held}.",
+        "translation": "이번 판에는 {cost} RUB가 필요하지만 보유액은 {held}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.040",
+        "source": "AUTO stopped: the next hand costs {cost} RUB and you have {held}.",
+        "translation": "자동 진행 중지: 다음 판에는 {cost} RUB가 필요하지만 보유액은 {held}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.041",
+        "source": "That hand costs {cost} Roubles and you have {held}.",
+        "translation": "이번 판 필요 금액: {cost}루블. 보유액: {held}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.042",
+        "source": "The table takes {min} to {max} Roubles a hand.",
+        "translation": "한 판 베팅 한도는 {min}~{max}루블입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.043",
+        "source": "A tie bet is {min} to {max} Roubles, or nothing.",
+        "translation": "타이 베팅은 {min}~{max}루블이며, 하지 않아도 됩니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.044",
+        "source": "Going to war costs another {ante} Roubles and you have {balance}. You can still surrender.",
+        "translation": "워 진행 추가 비용: {ante}루블. 보유액: {balance}. 아직 항복할 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.045",
+        "source": "A hand was interrupted before it was settled. {amount} Roubles has been returned.",
+        "translation": "판이 정산되기 전에 중단되었습니다. 반환 금액: {amount}루블.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.046",
+        "source": "That hand costs {cost} USD and you have {held}.",
+        "translation": "이번 판에는 {cost} USD가 필요하지만 보유액은 {held}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.047",
+        "source": "AUTO stopped: the next hand costs {cost} USD and you have {held}.",
+        "translation": "자동 진행 중지: 다음 판에는 {cost} USD가 필요하지만 보유액은 {held}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.048",
+        "source": "That hand costs {cost} Dollars and you have {held}.",
+        "translation": "이번 판 필요 금액: {cost}달러. 보유액: {held}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.049",
+        "source": "The table takes {min} to {max} Dollars a hand.",
+        "translation": "한 판 베팅 한도는 {min}~{max}달러입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.050",
+        "source": "A tie bet is {min} to {max} Dollars, or nothing.",
+        "translation": "타이 베팅은 {min}~{max}달러이며, 하지 않아도 됩니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.051",
+        "source": "Going to war costs another {ante} Dollars and you have {balance}. You can still surrender.",
+        "translation": "워 진행 추가 비용: {ante}달러. 보유액: {balance}. 아직 항복할 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.052",
+        "source": "A hand was interrupted before it was settled. {amount} Dollars has been returned.",
+        "translation": "판이 정산되기 전에 중단되었습니다. 반환 금액: {amount}달러.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.053",
+        "source": "That hand costs {cost} EUR and you have {held}.",
+        "translation": "이번 판에는 {cost} EUR가 필요하지만 보유액은 {held}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.054",
+        "source": "AUTO stopped: the next hand costs {cost} EUR and you have {held}.",
+        "translation": "자동 진행 중지: 다음 판에는 {cost} EUR가 필요하지만 보유액은 {held}입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.055",
+        "source": "That hand costs {cost} Euros and you have {held}.",
+        "translation": "이번 판 필요 금액: {cost}유로. 보유액: {held}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.056",
+        "source": "The table takes {min} to {max} Euros a hand.",
+        "translation": "한 판 베팅 한도는 {min}~{max}유로입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.057",
+        "source": "A tie bet is {min} to {max} Euros, or nothing.",
+        "translation": "타이 베팅은 {min}~{max}유로이며, 하지 않아도 됩니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.058",
+        "source": "Going to war costs another {ante} Euros and you have {balance}. You can still surrender.",
+        "translation": "워 진행 추가 비용: {ante}유로. 보유액: {balance}. 아직 항복할 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.059",
+        "source": "A hand was interrupted before it was settled. {amount} Euros has been returned.",
+        "translation": "판이 정산되기 전에 중단되었습니다. 반환 금액: {amount}유로.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.060",
+        "source": "There is nothing called '{wallet}' to play with.",
+        "translation": "'{wallet}' 통화는 사용할 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.061",
+        "source": "'{choice}' is not an answer to a tie. Go to war or surrender.",
+        "translation": "'{choice}'은(는) 타이 상황에서 유효한 선택이 아닙니다. 워를 진행하거나 항복하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.062",
+        "source": "GO TO WAR  +{ante}",
+        "translation": "워 진행  +{ante}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.063",
+        "source": "SURRENDER  {back} BACK",
+        "translation": "항복  {back} 반환",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.064",
+        "source": "Go to war for {ante} more, or surrender and take back {back}.",
+        "translation": "워 진행: {ante} 추가 베팅 / 항복: {back} 반환.",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.065",
+        "source": "Go to war for {ante} more, or surrender and take back {back}.   tie bet paid {tie}",
+        "translation": "워 진행: {ante} 추가 베팅 / 항복: {back} 반환.   타이 베팅 지급: {tie}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.066",
+        "source": "^(?<profit>[+-]?[0-9,]+) (?<currency>RUB|USD|EUR)   tie bet paid (?<tie>[0-9,]+)$",
+        "translation": "{profit} {currency}   타이 베팅 지급: {tie}",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "casino.war.067",
+        "source": "up to {ceiling} a bet",
+        "translation": "한 번에 최대 {ceiling}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.068",
+        "source": "you have {held} -- not enough",
+        "translation": "보유액 {held} -- 부족함",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.069",
+        "source": "you have {held}",
+        "translation": "보유액 {held}",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.070",
+        "source": "TIE PAYS {pays} TO 1\n<size=60%>ON A TIE: GO TO WAR, OR SURRENDER HALF YOUR BET</size>",
+        "translation": "타이 적중 시 {pays}:1 지급\n<size=60%>타이 발생 시: 워를 진행하거나 베팅액의 절반을 돌려받고 항복</size>",
+        "match_mode": "template"
+      },
+      {
+        "id": "casino.war.071",
+        "source": "TIE PAYS {pays} TO 1\n<size=60%>ON A TIE: GO TO WAR, OR SURRENDER HALF YOUR BET\nHOUSE EDGE {edge}% GOING TO WAR</size>",
+        "translation": "타이 적중 시 {pays}:1 지급\n<size=60%>타이 발생 시: 워를 진행하거나 베팅액의 절반을 돌려받고 항복\n워 진행 시 하우스 엣지 {edge}%</size>",
+        "match_mode": "template"
+      }
+    ]
+  }
+}

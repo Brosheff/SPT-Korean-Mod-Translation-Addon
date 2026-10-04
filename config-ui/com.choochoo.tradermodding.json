@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.choochoo.tradermodding",
+  "plugin_name": "ChooChoo-TraderModding-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Price Tags",
+      "translation": "2. 가격표"
+    },
+    {
+      "source": "3. Build Cost",
+      "translation": "3. 조립 비용"
+    },
+    {
+      "source": "4. Highlight Items",
+      "translation": "4. 부품 강조"
+    },
+    {
+      "source": "5. Color Settings",
+      "translation": "5. 색상 설정"
+    },
+    {
+      "source": "6. Detaching Items",
+      "translation": "6. 부품 분리"
+    },
+    {
+      "source": "7. Invert Trader Only Items",
+      "translation": "7. 상인 판매품 필터 반전"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Color borders",
+      "source_display_name": "Color borders",
+      "source_description": "Color the borders of all mod slots in the preset screen according to availability",
+      "translation_display_name": "구매 가능 여부에 따라 슬롯 테두리 색상 표시",
+      "translation_description": "무기 프리셋 화면의 모든 부착물 슬롯 테두리를 구매 가능 여부에 따라 색상으로 구분합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Default to trader only view",
+      "source_display_name": "Default to trader only view",
+      "source_description": "When the edit preset screen opens for the first time after game launch, or after a raid, should it default to only show trader items?",
+      "translation_display_name": "기본 화면을 상인 판매품만 표시",
+      "translation_description": "게임 실행 후 처음 프리셋 편집 화면을 열거나 레이드에서 돌아온 뒤, 기본 필터를 상인 판매품만 보이도록 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Show attached items (Not buyable)",
+      "source_display_name": "Show attached items (Not buyable)",
+      "source_description": "Show items that are already attached to other weapons, but not currently purchasable from traders",
+      "translation_display_name": "다른 무기에 부착된 비구매 가능 부품 표시",
+      "translation_description": "다른 무기에 이미 부착되어 있지만 현재 상인에게서 구매할 수 없는 부품도 목록에 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Price Tags",
+      "key": "Abbreviate prices",
+      "source_display_name": "Abbreviate prices",
+      "source_description": "Abbreviate prices, f.e. 69420 becomes 69,4k",
+      "translation_display_name": "가격 축약 표기",
+      "translation_description": "가격을 짧게 표시합니다. 예: 69420 → 69.4k.",
+      "values": []
+    },
+    {
+      "section": "2. Price Tags",
+      "key": "Price tags on current weapon",
+      "source_display_name": "Price tags on current weapon",
+      "source_description": "Also show trader price tags of mods that are already on the weapon you are currently modding (Default off, looks cleaner to me)",
+      "translation_display_name": "현재 무기에 장착된 부품에도 가격 표시",
+      "translation_description": "현재 편집 중인 무기에 이미 붙어 있는 부품에도 상인 가격표를 표시합니다. 기본값은 꺼짐입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Price Tags",
+      "key": "Show flea price tags",
+      "source_display_name": "Show flea price tags",
+      "source_description": "Show flea market price tags if the item is not available from traders",
+      "translation_display_name": "상인 미판매품에 플리마켓 가격 표시",
+      "translation_description": "상인이 판매하지 않는 부품에는 플리마켓 가격표를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Price Tags",
+      "key": "Show price tags on items",
+      "source_display_name": "Show price tags on items",
+      "source_description": "Show trader price tags on mod icons",
+      "translation_display_name": "부품에 상인 가격 표시",
+      "translation_description": "부품에 상인 가격 표시 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Build Cost",
+      "key": "Build cost font size",
+      "source_display_name": "Build cost font size",
+      "source_description": "Font size for the build cost panel",
+      "translation_display_name": "총 조립 비용 글꼴 크기",
+      "translation_description": "총 조립 비용 글꼴 크기 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Build Cost",
+      "key": "Show build cost panel",
+      "source_display_name": "Show build cost panel",
+      "source_description": "Show build cost panel",
+      "translation_display_name": "총 조립 비용 패널 표시",
+      "translation_description": "총 조립 비용 패널 표시 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Highlight Items",
+      "key": "Highlight attached items",
+      "source_display_name": "Highlight attached items",
+      "source_description": "Highlight items that are already attached to other weapons (Doesn't work 100% perfectly)",
+      "translation_display_name": "다른 무기에 부착된 부품 강조",
+      "translation_description": "다른 무기에 이미 장착되어 있는 부품을 강조 표시합니다. 일부 경우에는 정확하지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Highlight Items",
+      "key": "Highlight items on current weapon",
+      "source_display_name": "Highlight items on current weapon",
+      "source_description": "Highlight items that are attached to the weapon you are currently modding",
+      "translation_display_name": "현재 무기 장착 부품 강조",
+      "translation_description": "현재 개조 중인 무기에 이미 장착된 부품을 강조 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Highlight Items",
+      "key": "Highlight usable items",
+      "source_display_name": "Highlight usable items",
+      "source_description": "Highlight directly usable (Ultimately not attached to any gun) items",
+      "translation_display_name": "즉시 사용 가능한 부품 강조",
+      "translation_description": "어떤 무기에도 장착되지 않아 바로 사용할 수 있는 부품을 강조 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Color Settings",
+      "key": "Color for attached items (Buyable)",
+      "source_display_name": "Color for attached items (Buyable)",
+      "source_description": "What color to use when highlighting attached items that you can buy from traders",
+      "translation_display_name": "구매 가능한 부착 부품 강조 색상",
+      "translation_description": "다른 무기에 부착되어 있지만 상인에게서 구매할 수 있는 부품을 강조할 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Color Settings",
+      "key": "Color for attached items (Not buyable)",
+      "source_display_name": "Color for attached items (Not buyable)",
+      "source_description": "What color to use when highlighting attached items that are NOT purchasable by traders",
+      "translation_display_name": "비구매 가능 부착 부품 강조 색상",
+      "translation_description": "다른 무기에 부착되어 있고 상인에게서 구매할 수 없는 부품을 강조할 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Color Settings",
+      "key": "Color for items on current weapon",
+      "source_display_name": "Color for items on current weapon",
+      "source_description": "What color to use when highlighting items that are already on the weapon you are currently modding",
+      "translation_display_name": "현재 무기 장착 부품 강조 색상",
+      "translation_description": "현재 편집 중인 무기에 이미 장착된 부품을 강조할 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Color Settings",
+      "key": "Color for usable items",
+      "source_display_name": "Color for usable items",
+      "source_description": "What color to use when highlighting usable items?",
+      "translation_display_name": "즉시 사용 가능한 부품 강조 색상",
+      "translation_description": "다른 총에 붙어 있지 않아 바로 사용할 수 있는 부품을 강조할 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "6. Detaching Items",
+      "key": "Also detach from equipped guns",
+      "source_display_name": "Also detach from equipped guns",
+      "source_description": "When detaching items in use, should we also rip them off your currently equipped guns? (Still prioritizes: Mods attached to other loose mods, then mods attached to guns in stash)",
+      "translation_display_name": "장비 중인 무기에서도 부품 분리 허용",
+      "translation_description": "사용 중인 부품을 자동으로 떼어올 때 현재 장비 중인 총에서도 분리하도록 허용합니다. 느슨한 부품에 붙은 모드, 보관함의 총에 붙은 모드 순으로 우선합니다.",
+      "values": []
+    },
+    {
+      "section": "7. Invert Trader Only Items",
+      "key": "HIDE all items from traders instead",
+      "source_display_name": "HIDE all items from traders instead",
+      "source_description": "Instead of showing ONLY trader items and your own, show NO trader items",
+      "translation_display_name": "상인 판매품을 반대로 모두 숨기기",
+      "translation_description": "상인 판매품만 표시하는 대신 상인이 판매하는 부품을 모두 숨기고 플레이어 보유품 중심으로 표시합니다.",
+      "values": []
+    }
+  ]
+}

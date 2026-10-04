@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.pein.shadowflickerfix",
+  "plugin_name": "Shadow Flicker Fix",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "1. Distant Shadows",
+      "translation": "1. 원거리 그림자"
+    },
+    {
+      "source": "2. Shadows",
+      "translation": "2. 그림자"
+    },
+    {
+      "source": "3. Shadows (Advanced)",
+      "translation": "3. 그림자 (고급)"
+    },
+    {
+      "source": "4. Anti-Aliasing",
+      "translation": "4. 안티앨리어싱"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. Distant Shadows",
+      "key": "Distant Shadow Resolution",
+      "source_display_name": "Distant Shadow Resolution",
+      "source_description": null,
+      "translation_display_name": "원거리 그림자 해상도",
+      "translation_description": "원거리 그림자 해상도를 변경합니다. 높은 값은 깜빡임을 줄이지만 약간의 성능 비용이 있습니다.",
+      "values": []
+    },
+    {
+      "section": "2. Shadows",
+      "key": "Enable Shadow Changes",
+      "source_display_name": "Enable Shadow Changes",
+      "source_description": null,
+      "translation_display_name": "그림자 변경 사용",
+      "translation_description": "그림자 설정 변경을 활성화합니다. 일부 설정은 FPS를 눈에 띄게 낮출 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "2. Shadows",
+      "key": "Shadow Cascades",
+      "source_display_name": "Shadow Cascades",
+      "source_description": null,
+      "translation_display_name": "그림자 캐스케이드",
+      "translation_description": "그림자 캐스케이드 수를 변경합니다.",
+      "values": [
+        {
+          "source": "Low",
+          "translation": "낮음"
+        },
+        {
+          "source": "High",
+          "translation": "높음"
+        }
+      ]
+    },
+    {
+      "section": "2. Shadows",
+      "key": "Shadow Quality",
+      "source_display_name": "Shadow Quality",
+      "source_description": null,
+      "translation_display_name": "그림자 품질",
+      "translation_description": "그림자 맵 해상도를 변경합니다. FPS가 감소할 수 있습니다.",
+      "values": [
+        {
+          "source": "Low",
+          "translation": "낮음"
+        },
+        {
+          "source": "Medium",
+          "translation": "중간"
+        },
+        {
+          "source": "High",
+          "translation": "높음"
+        },
+        {
+          "source": "VeryHigh",
+          "translation": "매우 높음"
+        }
+      ]
+    },
+    {
+      "section": "3. Shadows (Advanced)",
+      "key": "Enable Advanced Shadow Changes",
+      "source_display_name": "Enable Advanced Shadow Changes",
+      "source_description": null,
+      "translation_display_name": "고급 그림자 변경 사용",
+      "translation_description": "고급 그림자 설정을 활성화합니다. 기본 그림자 변경도 켜져 있어야 합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Shadows (Advanced)",
+      "key": "Shadow Decrease Factor",
+      "source_display_name": "Shadow Decrease Factor",
+      "source_description": null,
+      "translation_display_name": "그림자 감소 계수",
+      "translation_description": "값을 낮추면 그림자가 선명해지지만 FPS가 감소할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Shadows (Advanced)",
+      "key": "Minimum Shadow Distance",
+      "source_display_name": "Minimum Shadow Distance",
+      "source_description": null,
+      "translation_display_name": "최소 그림자 거리",
+      "translation_description": "최소 그림자 거리를 변경합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Shadows (Advanced)",
+      "key": "Shadow Interval 1",
+      "source_display_name": "Shadow Interval 1",
+      "source_description": null,
+      "translation_display_name": "그림자 전환 거리 1",
+      "translation_description": "그림자 품질이 다른 단계로 전환되기 시작하는 거리 범위를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Shadows (Advanced)",
+      "key": "Shadow Interval 2",
+      "source_display_name": "Shadow Interval 2",
+      "source_description": null,
+      "translation_display_name": "그림자 전환 거리 2",
+      "translation_description": "그림자 품질이 다른 단계로 전환되기 시작하는 거리 범위를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Anti-Aliasing",
+      "key": "SMAA",
+      "source_display_name": "SMAA",
+      "source_description": null,
+      "translation_display_name": "SMAA 사용",
+      "translation_description": "SMAA를 활성화합니다. 업스케일링과 함께 사용하면 화면이 흐려질 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Anti-Aliasing",
+      "key": "SMAA Quality",
+      "source_display_name": "SMAA Quality",
+      "source_description": null,
+      "translation_display_name": "SMAA 품질",
+      "translation_description": "SMAA 품질을 변경합니다.",
+      "values": [
+        {
+          "source": "Low",
+          "translation": "낮음"
+        },
+        {
+          "source": "Medium",
+          "translation": "중간"
+        },
+        {
+          "source": "High",
+          "translation": "높음"
+        }
+      ]
+    },
+    {
+      "section": "4. Anti-Aliasing",
+      "key": "Enable TAA Changes",
+      "source_display_name": "Enable TAA Changes",
+      "source_description": null,
+      "translation_display_name": "TAA 변경 사용",
+      "translation_description": "TAA 설정 변경을 활성화합니다. 1080p의 흐림을 줄이지만 앨리어싱이 늘 수 있으며 재시작이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Anti-Aliasing",
+      "key": "TAA Jitter Spread",
+      "source_display_name": "TAA Jitter Spread",
+      "source_description": null,
+      "translation_display_name": "TAA 지터 범위",
+      "translation_description": "TAA 지터 범위를 변경합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Anti-Aliasing",
+      "key": "TAA Motion Blending",
+      "source_display_name": "TAA Motion Blending",
+      "source_description": null,
+      "translation_display_name": "TAA 이동 블렌딩",
+      "translation_description": "TAA 이동 블렌딩 값을 변경합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Anti-Aliasing",
+      "key": "TAA Stationary Blending",
+      "source_display_name": "TAA Stationary Blending",
+      "source_description": null,
+      "translation_display_name": "TAA 정지 블렌딩",
+      "translation_description": "TAA 정지 블렌딩 값을 변경합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Anti-Aliasing",
+      "key": "TAA Sharpness",
+      "source_display_name": "TAA Sharpness",
+      "source_description": null,
+      "translation_display_name": "TAA 선명도",
+      "translation_description": "TAA 선명도를 변경합니다. 높은 값은 이동 중 불안정해질 수 있습니다.",
+      "values": []
+    }
+  ]
+}

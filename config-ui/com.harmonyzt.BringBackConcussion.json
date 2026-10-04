@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.harmonyzt.BringBackConcussion",
+  "plugin_name": "BringBackConcussion-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Audio",
+      "translation": "오디오"
+    },
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Misc",
+      "translation": "기타"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Audio",
+      "key": "Enable Death Headshot Sound",
+      "source_display_name": "Enable Death Headshot Sound",
+      "source_description": "Enable/Disable visor/helmet hit sound effect upon death from headshot",
+      "translation_display_name": "사망 헤드샷 소리 활성화",
+      "translation_description": "사망 헤드샷 소리 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Enable Death UI Sound",
+      "source_display_name": "Enable Death UI Sound",
+      "source_description": "Enable/Disable death UI sound",
+      "translation_display_name": "사망 UI 소리 활성화",
+      "translation_description": "사망 UI 소리 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Use More Random Helmet Hit Sounds",
+      "source_display_name": "Use More Random Helmet Hit Sounds",
+      "source_description": "If disabled, will not use random range for sounds to pick and just use one sound",
+      "translation_display_name": "헬멧 피격음을 더 다양하게 사용",
+      "translation_description": "헬멧 피격음을 여러 후보 중 무작위로 고릅니다. 끄면 하나의 고정된 소리만 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Concussion Duration",
+      "source_display_name": "Concussion Duration",
+      "source_description": "Determines how long the concussion lasts in seconds",
+      "translation_display_name": "뇌진탕 지속 시간",
+      "translation_description": "뇌진탕 효과가 지속되는 시간을 초 단위로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Concussion Strength",
+      "source_display_name": "Concussion Strength",
+      "source_description": "Determines the strength of concussion effect",
+      "translation_display_name": "뇌진탕 강도",
+      "translation_description": "뇌진탕 화면 효과의 강도를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Panic",
+      "source_display_name": "Panic",
+      "source_description": "Enable/Disable the chance of your character to panic under certain scenarios",
+      "translation_display_name": "공황",
+      "translation_description": "공황 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Tinnitus Effect",
+      "source_display_name": "Tinnitus Effect",
+      "source_description": "Enable/Disable tinnitus effect (tinnitus only occurs if no headset is equipped). To completely disable tinnitus, make sure you have Always Mitigate Tinnitus Effect checked",
+      "translation_display_name": "이명 효과",
+      "translation_description": "이명 효과 사용 여부를 설정합니다. 기본적으로 헤드셋을 착용하지 않았을 때만 이명이 발생합니다. 이명을 완전히 막으려면 「섬광·뇌진탕 동시 발생 시 이명 완화」도 활성화해야 합니다.",
+      "values": []
+    },
+    {
+      "section": "Misc",
+      "key": "Always Mitigate Tinnitus Effect",
+      "source_display_name": "Always Mitigate Tinnitus Effect",
+      "source_description": "Enable/Disable mitigation of tinnitus effect playing at all costs if you get flashed and contused at the same time",
+      "translation_display_name": "섬광·뇌진탕 동시 발생 시 이명 완화",
+      "translation_description": "섬광과 뇌진탕이 동시에 발생했을 때 이명 효과를 항상 완화하도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "Misc",
+      "key": "Frag Grenade Blindness Strength",
+      "source_display_name": "Frag Grenade Blindness Strength",
+      "source_description": "Enable/Disable strength of the blindness (very sensitive!)",
+      "translation_display_name": "파편 수류탄 실명 강도",
+      "translation_description": "파편 수류탄 실명 강도 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Misc",
+      "key": "Frag Grenades Always Concuss",
+      "source_display_name": "Frag Grenades Always Concuss",
+      "source_description": "Enable/Disable concussion by frag grenades. If disabled, will only use default BSG's logic for concussion from frag grenades",
+      "translation_display_name": "파편 수류탄이 항상 뇌진탕 유발",
+      "translation_description": "파편 수류탄 피격으로 모드의 뇌진탕 효과를 적용합니다. 끄면 BSG 기본 뇌진탕 판정만 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Misc",
+      "key": "Frag Grenades Blinds You",
+      "source_display_name": "Frag Grenades Blinds You",
+      "source_description": "Enable/Disable blindness by frag grenades",
+      "translation_display_name": "파편 수류탄 실명 효과 활성화",
+      "translation_description": "파편 수류탄 실명 효과 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Misc",
+      "key": "Headshot Blindness Strength",
+      "source_display_name": "Headshot Blindness Strength",
+      "source_description": "Enable/Disable strength of the blindness upon receiving headshot (very sensitive!)",
+      "translation_display_name": "헤드샷 실명 강도",
+      "translation_description": "헤드샷 실명 강도 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Misc",
+      "key": "Headshots Blinds You",
+      "source_display_name": "Headshots Blinds You",
+      "source_description": "Enable/Disable blindness by headshots",
+      "translation_display_name": "헤드샷 피격 시 실명 효과",
+      "translation_description": "헤드샷 피격 시 실명 효과 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Misc",
+      "key": "Ignore Tinnitus Equipment Checks",
+      "source_display_name": "Ignore Tinnitus Equipment Checks",
+      "source_description": "If enabled, tinnitus will play even if you have headset equipped. Overrides Tinnitus Effect setting when enabled.",
+      "translation_display_name": "헤드셋 착용 여부와 무관하게 이명 재생",
+      "translation_description": "헤드셋을 착용했는지 검사하지 않고 이명 효과를 재생합니다. 활성화하면 일반 이명 효과 설정의 장비 조건보다 우선합니다.",
+      "values": []
+    }
+  ]
+}

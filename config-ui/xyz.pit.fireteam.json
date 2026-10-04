@@ -1,0 +1,581 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "xyz.pit.fireteam",
+  "plugin_name": "SPT-PitFireTeam-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Miscellaneous",
+      "translation": "기타"
+    }
+  ],
+  "entries": [
+    {
+      "section": "*",
+      "key": "01 ScanDistance",
+      "source_display_name": "01 ScanDistance",
+      "source_description": null,
+      "translation_display_name": "01 탐색 거리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "02 FollowDistance",
+      "source_display_name": "02 FollowDistance",
+      "source_description": null,
+      "translation_display_name": "02 추종 거리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "02 PatrolRadius",
+      "source_display_name": "02 PatrolRadius",
+      "source_description": null,
+      "translation_display_name": "02 순찰 반경",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "03 EnemyRemember",
+      "source_display_name": "03 EnemyRemember",
+      "source_description": null,
+      "translation_display_name": "03 적 기억 시간",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "04 HealthMultiplier",
+      "source_display_name": "04 HealthMultiplier",
+      "source_description": null,
+      "translation_display_name": "04 체력 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "05 StatusSound",
+      "source_display_name": "05 StatusSound",
+      "source_description": null,
+      "translation_display_name": "05 상태 알림음",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "06 AutoDisplayCombatStatus",
+      "source_display_name": "06 AutoDisplayCombatStatus",
+      "source_description": null,
+      "translation_display_name": "06 교전 상태 자동 표시",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "06 AutoDisplayKillMarker",
+      "source_display_name": "06 AutoDisplayKillMarker",
+      "source_description": null,
+      "translation_display_name": "06 처치 표식 자동 표시",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "06 EnemyMarker",
+      "source_display_name": "06 EnemyMarker",
+      "source_description": null,
+      "translation_display_name": "06 적 표식",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "07 Pickup",
+      "source_display_name": "07 Pickup",
+      "source_description": null,
+      "translation_display_name": "07 습득",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "08 TieredPickup",
+      "source_display_name": "08 TieredPickup",
+      "source_description": null,
+      "translation_display_name": "08 단계별 아이템 습득",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "09 MaximumPickup",
+      "source_display_name": "09 MaximumPickup",
+      "source_description": null,
+      "translation_display_name": "09 최대 습득 수량",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 LootAllowGearSwapping",
+      "source_display_name": "10 LootAllowGearSwapping",
+      "source_description": null,
+      "translation_display_name": "10 루팅 허용 장비 교체",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 LootFilterFood",
+      "source_display_name": "10 LootFilterFood",
+      "source_description": null,
+      "translation_display_name": "10 루팅 필터 식량",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 LootFilterGear",
+      "source_display_name": "10 LootFilterGear",
+      "source_description": null,
+      "translation_display_name": "10 루팅 필터 장비",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 LootFilterMeds",
+      "source_display_name": "10 LootFilterMeds",
+      "source_description": null,
+      "translation_display_name": "10 루팅 필터 의약품",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 LootFilterValuables",
+      "source_display_name": "10 LootFilterValuables",
+      "source_description": null,
+      "translation_display_name": "10 루팅 필터 귀중품",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 LootFilterWeapons",
+      "source_display_name": "10 LootFilterWeapons",
+      "source_description": null,
+      "translation_display_name": "10 루팅 필터 무기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 LootMaximumPrice",
+      "source_display_name": "10 LootMaximumPrice",
+      "source_description": null,
+      "translation_display_name": "10 최대 루팅 가격",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 LootMinimumPrice",
+      "source_display_name": "10 LootMinimumPrice",
+      "source_description": null,
+      "translation_display_name": "10 최소 루팅 가격",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 RecruitPickup",
+      "source_display_name": "10 RecruitPickup",
+      "source_description": null,
+      "translation_display_name": "10 영입 시 아이템 습득",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 TeamEscape",
+      "source_display_name": "10 TeamEscape",
+      "source_description": null,
+      "translation_display_name": "10 팀 탈출",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "10 TeamEscapeUseAnyExtract",
+      "source_display_name": "10 TeamEscapeUseAnyExtract",
+      "source_description": null,
+      "translation_display_name": "10 팀 탈출 시 모든 탈출구 허용",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "11 NpcSendMessage",
+      "source_display_name": "11 NpcSendMessage",
+      "source_description": null,
+      "translation_display_name": "11 NPC 메시지 전송 기능",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "12 PitFireTeam",
+      "source_display_name": "12 PitFireTeam",
+      "source_description": null,
+      "translation_display_name": "12 분대 제어 기능",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "13 BadGuy",
+      "source_display_name": "13 BadGuy",
+      "source_description": null,
+      "translation_display_name": "13 적대 인원",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "13 FactionHostilities",
+      "source_display_name": "13 FactionHostilities",
+      "source_description": null,
+      "translation_display_name": "13 진영 간 적대 관계",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "14 EnglishBear",
+      "source_display_name": "14 EnglishBear",
+      "source_description": null,
+      "translation_display_name": "14 BEAR 영어 음성 사용",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "14 LoadoutManagement",
+      "source_display_name": "14 LoadoutManagement",
+      "source_description": null,
+      "translation_display_name": "14 로드아웃 관리",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Simple",
+          "translation": "간단"
+        },
+        {
+          "source": "Restricted",
+          "translation": "제한"
+        },
+        {
+          "source": "Immersive",
+          "translation": "몰입형"
+        },
+        {
+          "source": "Extreme",
+          "translation": "극한"
+        }
+      ]
+    },
+    {
+      "section": "*",
+      "key": "14 LoadoutManagementRestrictedGearMaintenance",
+      "source_display_name": "14 LoadoutManagementRestrictedGearMaintenance",
+      "source_description": null,
+      "translation_display_name": "14 제한 장비 유지 관리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "14 PmcArmbands",
+      "source_display_name": "14 PmcArmbands",
+      "source_description": null,
+      "translation_display_name": "14 PMC 완장 사용",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "15 BotGrenades",
+      "source_display_name": "15 BotGrenades",
+      "source_description": null,
+      "translation_display_name": "15 봇 수류탄 사용",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "15 RegroupRadius",
+      "source_display_name": "15 RegroupRadius",
+      "source_description": null,
+      "translation_display_name": "15 재집결 반경",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "16 PingSquad",
+      "source_display_name": "16 PingSquad",
+      "source_description": null,
+      "translation_display_name": "16 분대 핑",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "17 PingRadioVolume",
+      "source_display_name": "17 PingRadioVolume",
+      "source_description": null,
+      "translation_display_name": "17 핑 무전 음량",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 PingTime",
+      "source_display_name": "18 PingTime",
+      "source_description": null,
+      "translation_display_name": "18 핑 표시 시간",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportAlwaysHighlight",
+      "source_display_name": "18 StatusReportAlwaysHighlight",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고 항상 강조",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportFullHealthColor",
+      "source_display_name": "18 StatusReportFullHealthColor",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고 최대 체력 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportHealthColoring",
+      "source_display_name": "18 StatusReportHealthColoring",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고 체력별 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportHighlight",
+      "source_display_name": "18 StatusReportHighlight",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고 강조",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportHighlightColor",
+      "source_display_name": "18 StatusReportHighlightColor",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고 강조 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportLowHealthColor",
+      "source_display_name": "18 StatusReportLowHealthColor",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고 낮은 체력 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportMediumHealthColor",
+      "source_display_name": "18 StatusReportMediumHealthColor",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고 중간 체력 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportShowCombatStatus",
+      "source_display_name": "18 StatusReportShowCombatStatus",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고에 교전 상태 표시",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportShowDistance",
+      "source_display_name": "18 StatusReportShowDistance",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고에 거리 표시",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportShowHealth",
+      "source_display_name": "18 StatusReportShowHealth",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고에 체력 표시",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportShowName",
+      "source_display_name": "18 StatusReportShowName",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고에 이름 표시",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "18 StatusReportShowTactic",
+      "source_display_name": "18 StatusReportShowTactic",
+      "source_description": null,
+      "translation_display_name": "18 상태 보고에 전술 표시",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "19 EnemyContact",
+      "source_display_name": "19 EnemyContact",
+      "source_description": null,
+      "translation_display_name": "19 적 접촉",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "20 OverThere",
+      "source_display_name": "20 OverThere",
+      "source_description": null,
+      "translation_display_name": "20 위치 지정 명령",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "21 BotTeleport",
+      "source_display_name": "21 BotTeleport",
+      "source_description": null,
+      "translation_display_name": "21 봇 순간이동",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "22 BotHeal",
+      "source_display_name": "22 BotHeal",
+      "source_description": null,
+      "translation_display_name": "22 봇 치료",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "23 BotPrefetch",
+      "source_display_name": "23 BotPrefetch",
+      "source_description": null,
+      "translation_display_name": "23 봇 사전 로드",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "24 BotTalk",
+      "source_display_name": "24 BotTalk",
+      "source_description": null,
+      "translation_display_name": "24 봇 대화",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "25 SpawnPoint",
+      "source_display_name": "25 SpawnPoint",
+      "source_description": null,
+      "translation_display_name": "25 스폰 지점",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "26 GoToDistance",
+      "source_display_name": "26 GoToDistance",
+      "source_description": null,
+      "translation_display_name": "26 이동 명령 도달 거리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "HideUnSupportedCommands",
+      "source_display_name": "HideUnSupportedCommands",
+      "source_description": null,
+      "translation_display_name": "지원하지 않는 명령 숨기기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Miscellaneous",
+      "key": "27 BattleRecorder",
+      "source_display_name": "27 BattleRecorder",
+      "source_description": null,
+      "translation_display_name": "27 전투 기록기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Miscellaneous",
+      "key": "28 BattleRecorderSnapshotIntervalMs",
+      "source_display_name": "28 BattleRecorderSnapshotIntervalMs",
+      "source_description": null,
+      "translation_display_name": "28 전투 기록 스냅샷 간격(ms)",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "",
+      "key": "06 EnemyKilledDisplayTime",
+      "source_display_name": "Kill Display Time",
+      "source_description": "Time in seconds to display killed-enemy skull markers after Status Report or an automatic kill-marker trigger. The marker never displays longer than Kill Remember Time.",
+      "translation_display_name": "처치 표식 표시 시간",
+      "translation_description": "상태 보고 또는 자동 처치 표식이 발동한 뒤 처치한 적의 해골 표식을 표시할 시간(초)입니다. 표시는 \"처치 위치 기억 시간\"보다 오래 유지되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "",
+      "key": "06 EnemyKilledRetainTime",
+      "source_display_name": "Kill Remember Time",
+      "source_description": "Time in seconds to remember the position of an enemy killed by the player or a follower. This is also the maximum time a kill marker can remain visible.\nSet to 0 to disable killed-enemy markers.",
+      "translation_display_name": "처치 위치 기억 시간",
+      "translation_description": "플레이어나 분대원이 처치한 적의 위치를 기억할 시간(초)입니다. 처치 표식이 유지될 수 있는 최대 시간이기도 합니다.\n0으로 설정하면 처치한 적의 표식을 비활성화합니다.",
+      "values": []
+    }
+  ]
+}

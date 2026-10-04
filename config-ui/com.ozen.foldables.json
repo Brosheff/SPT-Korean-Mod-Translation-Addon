@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.ozen.foldables",
+  "plugin_name": "SPT-Foldables-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Experimental",
+      "translation": "실험적 기능"
+    },
+    {
+      "source": "General",
+      "translation": "일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Experimental",
+      "key": "Dragging Hotkey",
+      "source_display_name": "Dragging Hotkey",
+      "source_description": "Key used to fold/unfold while dragging",
+      "translation_display_name": "드래그 단축키",
+      "translation_description": "아이템을 드래그하는 동안 접기/펼치기에 사용할 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Experimental",
+      "key": "Fold While Dragging",
+      "source_display_name": "Fold While Dragging",
+      "source_description": "Enable folding/unfolding while dragging an item using a hotkey",
+      "translation_display_name": "접기 중 드래그",
+      "translation_description": "아이템을 드래그하는 동안 단축키로 접기/펼치기를 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Fold While Equipped",
+      "source_display_name": "Fold While Equipped",
+      "source_description": "Allow folding while gear is equipped",
+      "translation_display_name": "접기 중 장착됨",
+      "translation_description": "장비에 장착된 상태에서도 접을 수 있는 부품을 접거나 펼칠 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Spill Confirmation",
+      "source_display_name": "Spill Confirmation",
+      "source_description": "Confirm if player wants to spill non empty container items, if possible. If disabled, always spill items without asking",
+      "translation_display_name": "컨테이너 내용물 쏟기 확인",
+      "translation_description": "접을 때 비어 있지 않은 컨테이너의 내용물을 꺼내야 하는 경우 확인 창을 띄웁니다. 끄면 묻지 않고 바로 내용물을 꺼냅니다.",
+      "values": []
+    }
+  ]
+}

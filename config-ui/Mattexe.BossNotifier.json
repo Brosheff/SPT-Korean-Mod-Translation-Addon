@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "Mattexe.BossNotifier",
+  "plugin_name": "BossNotifier-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Intel Center Unlocks (4 means Disabled)",
+      "translation": "2. 정보 센터 해금 조건 (4 = 비활성화)"
+    },
+    {
+      "source": "3. Boss Markers",
+      "translation": "3. 보스 표식"
+    },
+    {
+      "source": "4. Black Division Markers",
+      "translation": "4. 블랙 디비전 표식"
+    },
+    {
+      "source": "4. UNTAR Markers",
+      "translation": "4. UNTAR 표식"
+    },
+    {
+      "source": "5. UNTAR Markers",
+      "translation": "5. UNTAR 표식"
+    },
+    {
+      "source": "4. RUAF Markers",
+      "translation": "4. RUAF 표식"
+    },
+    {
+      "source": "5. RUAF Markers",
+      "translation": "5. RUAF 표식"
+    },
+    {
+      "source": "6. RUAF Markers",
+      "translation": "6. RUAF 표식"
+    }
+  ],
+  "entries": [
+    {
+      "section": "*",
+      "key": "Marker Character",
+      "source_display_name": "Marker Character",
+      "source_description": null,
+      "translation_display_name": "표식 문자",
+      "translation_description": "이 그룹의 보스 표식에 사용할 문자를 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Marker Color",
+      "source_display_name": "Marker Color",
+      "source_description": null,
+      "translation_display_name": "표식 색상",
+      "translation_description": "이 그룹의 보스 표식 색상을 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Keyboard Shortcut",
+      "source_display_name": "Keyboard Shortcut",
+      "source_description": "Key to show boss notifications.",
+      "translation_display_name": "단축키",
+      "translation_description": "단축키: 사용할 키를 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Show Bosses on Raid Start",
+      "source_display_name": "Show Bosses on Raid Start",
+      "source_description": "Show boss notifications on raid start.",
+      "translation_display_name": "레이드 시작 시 보스 정보 표시",
+      "translation_description": "레이드 시작 시 보스 정보 표시 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Intel Center Unlocks (4 means Disabled)",
+      "key": "1. Intel Center Level Requirement",
+      "source_display_name": "1. Intel Center Level Requirement",
+      "source_description": "Level to unlock plain notifications at.",
+      "translation_display_name": "1. 정보 센터 레벨 요구 조건",
+      "translation_description": "일반 보스 알림을 표시하기 위해 필요한 정보 센터 레벨입니다. 4로 설정하면 이 해금 조건을 비활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Intel Center Unlocks (4 means Disabled)",
+      "key": "2. Intel Center Location Level Requirement",
+      "source_display_name": "2. Intel Center Location Level Requirement",
+      "source_description": "Unlocks showing boss spawn location in notification.",
+      "translation_display_name": "2. 정보 센터 위치 레벨 요구 조건",
+      "translation_description": "보스 알림에 스폰 위치를 표시하기 위해 필요한 정보 센터 레벨입니다. 4로 설정하면 이 기능을 비활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Intel Center Unlocks (4 means Disabled)",
+      "key": "3. Intel Center Detection Requirement",
+      "source_display_name": "3. Intel Center Detection Requirement",
+      "source_description": "Unlocks showing boss detected notification. (When you get near a boss)",
+      "translation_display_name": "3. 정보 센터 감지 요구 조건",
+      "translation_description": "보스에게 가까이 갔을 때 감지 알림을 표시하기 위해 필요한 정보 센터 레벨입니다. 4로 설정하면 이 기능을 비활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Boss Markers",
+      "key": "1. Enable Markers",
+      "source_display_name": "1. Enable Markers",
+      "source_description": "Show 3D markers above boss heads.",
+      "translation_display_name": "1. 표식 활성화",
+      "translation_description": "1. 표식 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Boss Markers",
+      "key": "10. Visibility Distance",
+      "source_display_name": "10. Visibility Distance",
+      "source_description": "Maximum distance (meters) to show markers.",
+      "translation_display_name": "10. 표시 거리",
+      "translation_description": "10. 표시 거리 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Boss Markers",
+      "key": "11. Marker Color",
+      "source_display_name": "11. Marker Color",
+      "source_description": "Color of boss markers (red by default).",
+      "translation_display_name": "11. 표식 색상",
+      "translation_description": "11. 표식 색상 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Boss Markers",
+      "key": "2. Toggle Markers Key",
+      "source_display_name": "2. Toggle Markers Key",
+      "source_description": "Key to toggle marker visibility.",
+      "translation_display_name": "2. 표식 전환 단축키",
+      "translation_description": "2. 표식 전환 단축키: 사용할 키를 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Boss Markers",
+      "key": "3. Show Through Walls",
+      "source_display_name": "3. Show Through Walls",
+      "source_description": "If enabled, markers are visible through walls. If disabled, markers only show when you have line of sight to the boss.",
+      "translation_display_name": "3. 벽 너머로 표식 표시",
+      "translation_description": "활성화하면 벽 너머의 보스 표식도 표시합니다. 비활성화하면 보스를 직접 볼 수 있을 때만 표식이 나타납니다.",
+      "values": []
+    },
+    {
+      "section": "3. Boss Markers",
+      "key": "4. Marker Character",
+      "source_display_name": "4. Marker Character",
+      "source_description": "Character to display as marker.",
+      "translation_display_name": "4. 표식 문자",
+      "translation_description": "보스 위치 표식에 사용할 문자를 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Boss Markers",
+      "key": "5. Show Boss Name",
+      "source_display_name": "5. Show Boss Name",
+      "source_description": "Show boss name on marker.",
+      "translation_display_name": "5. 보스 이름 표시",
+      "translation_description": "5. 보스 이름 표시 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Boss Markers",
+      "key": "6. Show Distance",
+      "source_display_name": "6. Show Distance",
+      "source_description": "Show distance to boss on marker.",
+      "translation_display_name": "6. 거리 표시",
+      "translation_description": "6. 거리 표시 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Boss Markers",
+      "key": "7. Marker Size",
+      "source_display_name": "7. Marker Size",
+      "source_description": "Font size of the marker.",
+      "translation_display_name": "7. 표식 크기",
+      "translation_description": "7. 표식 크기 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Boss Markers",
+      "key": "8. Base Scale",
+      "source_display_name": "8. Base Scale",
+      "source_description": "Base scale of markers.",
+      "translation_display_name": "8. 기본 배율",
+      "translation_description": "보스 위치 표식의 기본 크기 배율을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Boss Markers",
+      "key": "9. Max Scale",
+      "source_display_name": "9. Max Scale",
+      "source_description": "Maximum scale at far distances.",
+      "translation_display_name": "9. 최대 배율",
+      "translation_description": "9. 최대 배율 값을 설정합니다.",
+      "values": []
+    }
+  ]
+}

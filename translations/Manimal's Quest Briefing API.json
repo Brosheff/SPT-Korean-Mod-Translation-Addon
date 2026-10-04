@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.questbriefingapi",
+  "mod_name": "Manimal's Quest Briefing API",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "r001",
+        "source": "Playing",
+        "translation": "재생 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r002",
+        "source": "Finished",
+        "translation": "재생 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r003",
+        "source": "Paused",
+        "translation": "일시 정지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r004",
+        "source": "Waiting for quest view...",
+        "translation": "퀘스트 화면을 기다리는 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r005",
+        "source": "Recording not installed",
+        "translation": "녹음 파일이 설치되지 않음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r006",
+        "source": "Loading...",
+        "translation": "불러오는 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r007",
+        "source": "Briefing audio",
+        "translation": "브리핑 오디오",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r008",
+        "source": "Unable to load recording",
+        "translation": "녹음 파일을 불러올 수 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r009",
+        "source": "Connecting...",
+        "translation": "연결 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r010",
+        "source": "Stopped",
+        "translation": "정지됨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r011",
+        "source": "Play",
+        "translation": "재생",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r012",
+        "source": "Stop",
+        "translation": "정지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r013",
+        "source": "Replay",
+        "translation": "다시 재생",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

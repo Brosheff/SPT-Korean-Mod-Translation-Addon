@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "katrin0522.FastSellInFlea",
+  "plugin_name": "SPT-FastInFleaSell-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Settings",
+      "translation": "설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Settings",
+      "key": "Flea Market Price Preset",
+      "source_display_name": "Flea Market Price Preset",
+      "source_description": "Choose how your offer price will be based on market values",
+      "translation_display_name": "플리마켓 기준 가격 프리셋",
+      "translation_description": "판매 등록 가격을 플리마켓 시세의 어떤 기준값으로 계산할지 선택합니다.",
+      "values": [
+        {
+          "source": "None",
+          "translation": "없음"
+        },
+        {
+          "source": "Minimum",
+          "translation": "최저가"
+        },
+        {
+          "source": "Average",
+          "translation": "평균가"
+        },
+        {
+          "source": "Maximum",
+          "translation": "최고가"
+        }
+      ]
+    },
+    {
+      "section": "Settings",
+      "key": "Price Subtract Percent %",
+      "source_display_name": "Price Subtract Percent %",
+      "source_description": "The percent% to subtract from the fetched flea price before add offer.",
+      "translation_display_name": "가격 차감 퍼센트 %",
+      "translation_description": "가져온 플리마켓 가격에서 판매 등록 전에 지정한 백분율만큼 차감합니다.",
+      "values": []
+    },
+    {
+      "section": "Settings",
+      "key": "Price Subtract Value",
+      "source_display_name": "Price Subtract Value",
+      "source_description": "The amount to subtract from the fetched flea price before add offer.",
+      "translation_display_name": "가격 차감 값",
+      "translation_description": "가져온 플리마켓 가격에서 판매 등록 전에 고정 금액만큼 차감합니다.",
+      "values": []
+    },
+    {
+      "section": "Settings",
+      "key": "Quick Offer Hold Key",
+      "source_display_name": "Quick Offer Hold Key",
+      "source_description": "Hold this key to show quick offer adding when opened context menu",
+      "translation_display_name": "빠른 판매 등록 누름 단축키",
+      "translation_description": "아이템 컨텍스트 메뉴를 연 상태에서 이 키를 누르고 있으면 빠른 판매 등록 UI를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Settings",
+      "key": "Quick Offer Press Key When Hover",
+      "source_display_name": "Quick Offer Press Key When Hover",
+      "source_description": "Press keybind when hover on item",
+      "translation_display_name": "아이템 위에서 빠른 판매 등록 키 누르기",
+      "translation_description": "아이템 위에 마우스를 올린 상태에서 빠른 판매 등록을 실행할 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Settings",
+      "key": "Type Adjust Price",
+      "source_display_name": "Type Adjust Price",
+      "source_description": "TypeValue -> RawPrice - Value\nTypePercent -> RawPrice - percent%(RawPrice)",
+      "translation_display_name": "가격 조정 방식",
+      "translation_description": "가격 조정 방식을 선택합니다. TypeValue는 원가에서 지정 금액을 빼고, TypePercent는 원가에서 지정 백분율만큼 뺍니다.",
+      "values": [
+        {
+          "source": "Value",
+          "translation": "고정값"
+        },
+        {
+          "source": "Percent",
+          "translation": "백분율"
+        }
+      ]
+    }
+  ]
+}

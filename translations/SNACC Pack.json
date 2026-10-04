@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "source3.snacc",
+  "mod_name": "SNACC Pack",
+  "channels": {
+    "locale": [
+      {
+        "key": "690368af7c8f3768278de1b3 Name",
+        "source": "SNACC Pack",
+        "translation": "SNACC 팩",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "690368af7c8f3768278de1b3 ShortName",
+        "source": "SNACC",
+        "translation": "SNACC"
+      },
+      {
+        "key": "690368af7c8f3768278de1b3 Description",
+        "source": "Handy Lunch Bag, for all those goodies.",
+        "translation": "각종 먹을거리를 챙겨 다니기 좋은 간편한 도시락 가방입니다."
+      }
+    ]
+  }
+}

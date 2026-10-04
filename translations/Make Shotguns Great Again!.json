@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "source3.make_shotguns_great_again",
+  "mod_name": "Make Shotguns Great Again!",
+  "channels": {
+    "locale": [
+      {
+        "key": "69112e556c6d492d367d04aa Name",
+        "source": "12/70 Flechette Kinghunter ammo pack (25 pcs)",
+        "translation": "12/70 Flechette Kinghunter 탄약 팩 (25발)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "69112e556c6d492d367d04aa ShortName",
+        "source": "12/70 Flechette pack",
+        "translation": "12/70 Flechette pack"
+      },
+      {
+        "key": "69112e556c6d492d367d04aa Description",
+        "source": "A box of 12/70 Flechette Kinghunter shells, 25 pieces.",
+        "translation": "12/70 Flechette Kinghunter 산탄 25발이 들어 있는 탄약 팩입니다."
+      },
+      {
+        "key": "69111e8fab39296e6f0f310a Name",
+        "source": "12/70 Flechette Kinghunter",
+        "translation": "12/70 Flechette Kinghunter"
+      },
+      {
+        "key": "69111e8fab39296e6f0f310a ShortName",
+        "source": "12/70 Flechette",
+        "translation": "12/70 Flechette"
+      },
+      {
+        "key": "69111e8fab39296e6f0f310a Description",
+        "source": "A 12-gauge Flechette Kinghunter shell made in USA. The shell contains 10 flechettes made of tungsten alloy. You definitely don't want to be on the receiving end of the weapon loaded with it.",
+        "translation": "미국에서 제작된 12게이지 Flechette Kinghunter 산탄입니다. 탄피 안에는 텅스텐 합금으로 만든 플레셰트 10개가 들어 있습니다. 이 탄약을 장전한 무기의 표적이 되고 싶지는 않을 겁니다."
+      },
+      {
+        "key": "691098356f593043295f6ddc Name",
+        "source": "MP-12 12g single-shot rifle",
+        "translation": "MP-12 12게이지 단발 소총"
+      },
+      {
+        "key": "691098356f593043295f6ddc ShortName",
+        "source": "MP-12",
+        "translation": "MP-12"
+      },
+      {
+        "key": "691098356f593043295f6ddc Description",
+        "source": "MP-12 is the legendary Soviet single-barreled rifle. This gun behaves perfectly in all weather conditions, no breakdowns or failures have ever been identified.",
+        "translation": "MP-12는 전설적인 소련제 단발 소총입니다. 어떤 기상 조건에서도 안정적으로 작동하며, 고장이나 기능 불량이 확인된 적이 없다고 알려져 있습니다."
+      },
+      {
+        "key": "6995e5f38ebb130aec79e509 Name",
+        "source": "5.45x39mm 'Svalka' Anti-Drone Buckshot",
+        "translation": "5.45x39mm 'Svalka' Anti-Drone Buckshot"
+      },
+      {
+        "key": "6995e5f38ebb130aec79e509 ShortName",
+        "source": "5.45 AD",
+        "translation": "5.45 AD"
+      },
+      {
+        "key": "6995e5f38ebb130aec79e509 Description",
+        "source": "A field-expedient 5.45x39mm cartridge, handcrafted by frontline troops to counter small UAVs. The standard projectile has been replaced with a crimped plastic container holding lead buckshot. While effective against fragile electronics at point-blank range, it generates insufficient gas pressure to reliably cycle the bolt and rapidly fouls the barrel. High malfunction risk.",
+        "translation": "소형 무인항공기(UAV)에 대응하기 위해 최전선 병력이 현장에서 손수 개조한 5.45x39mm 탄약입니다. 기존 탄두 대신 납 산탄이 들어 있는 압착 플라스틱 용기를 사용합니다. 매우 가까운 거리에서는 취약한 전자장비에 효과적이지만, 가스 압력이 부족해 노리쇠를 안정적으로 작동시키지 못하며 총열 오염도 빠르게 진행됩니다. 기능 불량 위험이 높습니다."
+      },
+      {
+        "key": "6a8103f0d6a84f2c8b6e5104 Name",
+        "source": "MP-700 Shorty .700 Nitro Express 310mm Barrel",
+        "translation": "MP-700 쇼티 .700 Nitro Express 310mm 총열"
+      },
+      {
+        "key": "6a8103f0d6a84f2c8b6e5104 ShortName",
+        "source": "MP-700 Shorty 310mm",
+        "translation": "MP-700 쇼티 310mm"
+      },
+      {
+        "key": "6a8103f0d6a84f2c8b6e5104 Description",
+        "source": "A stubby 310mm .700 Nitro Express barrel for the sawed-off MP-700. Reinforced to survive the pressure of the massive cartridge, at the cost of even more weight up front. Manufactured by Holland & Holland.",
+        "translation": "절단형 MP-700용 짧은 310mm .700 Nitro Express 총열입니다. 거대한 탄약의 압력을 견딜 수 있도록 보강되어 있으며, 그 대가로 전방 무게가 더욱 증가했습니다. 홀랜드 & 홀랜드(Holland & Holland)에서 제조했습니다."
+      },
+      {
+        "key": "6910ffd279b844c344ce9cdf Name",
+        "source": "MP-153 12ga competition 13-shell magazine",
+        "translation": "13발, MP-153 12게이지 경기용 탄창"
+      },
+      {
+        "key": "6910ffd279b844c344ce9cdf ShortName",
+        "source": "MP153x13",
+        "translation": "MP153x13"
+      },
+      {
+        "key": "6910ffd279b844c344ce9cdf Description",
+        "source": "A custom made carbon fiber 13-shell magazine for the MP-153 12ga shotgun.",
+        "translation": "MP-153 12게이지 산탄총용으로 주문 제작된 탄소섬유 13발 탄창입니다."
+      },
+      {
+        "key": "6910dd763afa5d8fab09b27c Name",
+        "source": "SOK-12 12/76 Alliance Armament 30-round magazine",
+        "translation": "30발, 얼라이언스 아머먼트 SOK-12 12/76 탄창"
+      },
+      {
+        "key": "6910dd763afa5d8fab09b27c ShortName",
+        "source": "Alliance",
+        "translation": "얼라이언스"
+      },
+      {
+        "key": "6910dd763afa5d8fab09b27c Description",
+        "source": "The Alliance Armament 30-round magazine for SOK-12 and compatible weapons, intended for use with 12/76 or 12/70 shells.",
+        "translation": "SOK-12 및 호환 화기에 사용하는 얼라이언스 아머먼트(Alliance Armament) 30발 탄창입니다. 12/76 또는 12/70 산탄을 사용할 수 있도록 제작되었습니다."
+      },
+      {
+        "key": "6a7f3e0dc4a15b8e2d97401a Name",
+        "source": "Mossberg 590A1 12ga 508mm threaded barrel",
+        "translation": "모스버그 590A1 12게이지 508mm 나사산 총열"
+      },
+      {
+        "key": "6a7f3e0dc4a15b8e2d97401a ShortName",
+        "source": "590A1 508mm thr.",
+        "translation": "590A1 508mm 나사산"
+      },
+      {
+        "key": "6a7f3e0dc4a15b8e2d97401a Description",
+        "source": "A 20 inch (508mm) barrel for Mossberg 590A1 12 gauge pump-action shotgun, machined with muzzle threading at the front.",
+        "translation": "모스버그 590A1 12게이지 펌프액션 산탄총용 20인치(508mm) 총열입니다. 총구 앞쪽에 나사산이 가공되어 있습니다."
+      },
+      {
+        "key": "698924bf6dcd41ac313f5921 Name",
+        "source": "12/70 'Hellfire' hybrid buckshot",
+        "translation": "12/70 'Hellfire' hybrid buckshot"
+      },
+      {
+        "key": "698924bf6dcd41ac313f5921 ShortName",
+        "source": "12/70 Hellfire",
+        "translation": "12/70 Hellfire"
+      },
+      {
+        "key": "698924bf6dcd41ac313f5921 Description",
+        "source": "A vicious custom load mixing standard lead buckshot with zirconium-magnesium charges. Unlike traditional Dragon's Breath, the added lead weight allows this round to reliably cycle in semi-automatic shotguns. It offers the stopping power of buckshot with the psychological terror of a flamethrower. Warning: The burning magnesium will still rapidly destroy your barrel.",
+        "translation": "일반 납 산탄과 지르코늄-마그네슘 장약을 혼합한 흉악한 커스텀 탄약입니다. 기존 드래곤 브레스와 달리 납의 무게가 더해져 반자동 산탄총에서도 안정적으로 작동합니다. 산탄의 저지력과 화염방사기 같은 심리적 공포를 동시에 제공합니다. 주의: 연소하는 마그네슘은 여전히 총열을 빠르게 손상시킵니다."
+      },
+      {
+        "key": "699358094978fa2d65f4dcf3 Name",
+        "source": "12/70 'FRAG-12'",
+        "translation": "12/70 'FRAG-12'"
+      },
+      {
+        "key": "699358094978fa2d65f4dcf3 ShortName",
+        "source": "FRAG-12",
+        "translation": "FRAG-12"
+      },
+      {
+        "key": "699358094978fa2d65f4dcf3 Description",
+        "source": "An experimental military-grade 12-gauge shell containing a High-Explosive (HE) warhead. Designed for urban warfare to breach barricades and disable light vehicles. Upon impact, the warhead detonates, dealing massive explosive trauma and shredding armor plates. Due to its fin-stabilized flight, it is highly accurate at range. Warning: Firing at point-blank range may result in lethal splash damage to the operator.",
+        "translation": "고폭탄(HE) 탄두가 들어 있는 실험적인 군용 12게이지 산탄입니다. 시가전에서 장애물을 돌파하고 경차량을 무력화하기 위해 설계되었습니다. 탄두가 충돌하면 폭발해 막대한 폭발성 외상을 유발하고 방탄판을 파괴합니다. 날개 안정식 비행 구조 덕분에 원거리에서도 높은 정확도를 보입니다. 주의: 지나치게 가까운 거리에서 발사하면 폭발 피해로 사수 본인이 치명상을 입을 수 있습니다."
+      },
+      {
+        "key": "69111bf76c4be2b06bd0745c Name",
+        "source": "12/70 Magnum Express Kinghunter",
+        "translation": "12/70 Magnum Express Kinghunter"
+      },
+      {
+        "key": "69111bf76c4be2b06bd0745c ShortName",
+        "source": "12/70 Magnum",
+        "translation": "12/70 Magnum"
+      },
+      {
+        "key": "69111bf76c4be2b06bd0745c Description",
+        "source": "A 12-gauge Magnum Express Kinghunter shell made in USA. The shell contains 9 pellets. The shell is designed for hunting and self-defense.",
+        "translation": "미국에서 제작된 12게이지 Magnum Express Kinghunter 산탄입니다. 탄피 안에는 산탄 9개가 들어 있으며, 사냥과 자기방어용으로 설계되었습니다."
+      },
+      {
+        "key": "69111d386d6226b577e619b1 Name",
+        "source": "12/70 armor-piercing Slug “SVAROG”",
+        "translation": "12/70 armor-piercing Slug “SVAROG”"
+      },
+      {
+        "key": "69111d386d6226b577e619b1 ShortName",
+        "source": "12/70 SVAROG",
+        "translation": "12/70 SVAROG"
+      },
+      {
+        "key": "69111d386d6226b577e619b1 Description",
+        "source": "A 12-gauge armor-piercing Slug shell developed by SVAROG. The shell is designed to penetrate armor, stopping vehicles and penetrating targets behind cover.",
+        "translation": "SVAROG에서 개발한 12게이지 철갑 슬러그탄입니다. 장갑을 관통해 차량을 저지하거나 엄폐물 뒤의 표적을 관통하도록 설계되었습니다."
+      },
+      {
+        "key": "6911202ab8757755a4d62f3c Name",
+        "source": "12/70 7mm Buckshot Brass Case",
+        "translation": "12/70 7mm Buckshot Brass Case"
+      },
+      {
+        "key": "6911202ab8757755a4d62f3c ShortName",
+        "source": "12/70 Brass",
+        "translation": "12/70 Brass"
+      },
+      {
+        "key": "6911202ab8757755a4d62f3c Description",
+        "source": "A 12/70 buckshot with a brass case and a brass head. The brass case is reloadable and offers better corrosion resistance than steel cases. The brass head ensures reliable extraction and feeding in shotguns.",
+        "translation": "황동 탄피와 황동 베이스를 사용하는 12/70 산탄입니다. 황동 탄피는 재장전할 수 있으며 강철 탄피보다 부식에 강합니다. 황동 베이스는 산탄총에서 안정적인 배출과 급탄을 돕습니다."
+      },
+      {
+        "key": "69112cd943a7f706bc66b491 Name",
+        "source": "12/70 armor-piercing Slug “SVAROG” ammo pack (5 pcs)",
+        "translation": "12/70 armor-piercing Slug “SVAROG” 탄약 팩 (5발)"
+      },
+      {
+        "key": "69112cd943a7f706bc66b491 ShortName",
+        "source": "12/70 SVAROG pack",
+        "translation": "12/70 SVAROG pack"
+      },
+      {
+        "key": "69112cd943a7f706bc66b491 Description",
+        "source": "A box of 12/70 armor-piercing Slug “SVAROG” shells, 5 pieces.",
+        "translation": "12/70 armor-piercing Slug “SVAROG” 5발이 들어 있는 탄약 팩입니다."
+      },
+      {
+        "key": "6a8103d9e2f14c7b9a5d3e01 Name",
+        "source": "MP-700 Shorty .700 Nitro Express Double Rifle",
+        "translation": "MP-700 쇼티 .700 Nitro Express 쌍열 소총"
+      },
+      {
+        "key": "6a8103d9e2f14c7b9a5d3e01 ShortName",
+        "source": "MP-700 Shorty",
+        "translation": "MP-700 쇼티"
+      },
+      {
+        "key": "6a8103d9e2f14c7b9a5d3e01 Description",
+        "source": "A sawed-off variant of the MP-700 double-barreled rifle, re-chambered for .700 Nitro Express. Losing the stock and most of the barrel length trades accuracy for a devastatingly concealable hand cannon. Recoil is, unsurprisingly, brutal.",
+        "translation": "MP-700 쌍열 소총을 절단하고 .700 Nitro Express 탄약을 사용하도록 개조한 형태입니다. 개머리판과 총열 대부분을 잘라내 정확도를 희생한 대신, 숨기기 쉬우면서도 엄청난 위력을 내는 핸드 캐논이 되었습니다. 예상하셨겠지만 반동은 극심합니다."
+      },
+      {
+        "key": "6910d6c97e9a164e15f94d48 Name",
+        "source": "MP-12 12ga 600mm barrel",
+        "translation": "MP-12 12게이지 600mm 총열"
+      },
+      {
+        "key": "6910d6c97e9a164e15f94d48 ShortName",
+        "source": "MP-12 600mm",
+        "translation": "MP-12 600mm"
+      },
+      {
+        "key": "6910d6c97e9a164e15f94d48 Description",
+        "source": "A standard factory-produced 600mm barrel with a front sight for MP-12 12ga hunting rifles.",
+        "translation": "MP-12 12게이지 사냥용 소총에 사용하는 공장제 표준 600mm 총열입니다. 가늠쇠가 장착되어 있습니다."
+      },
+      {
+        "key": "6910ebc01b0a1cfdd5877581 Name",
+        "source": "KS-23M 23x75 6-shell magazine",
+        "translation": "6발, KS-23M 23x75 탄창"
+      },
+      {
+        "key": "6910ebc01b0a1cfdd5877581 ShortName",
+        "source": "KS-23Mx6",
+        "translation": "KS-23Mx6"
+      },
+      {
+        "key": "6910ebc01b0a1cfdd5877581 Description",
+        "source": "A 6-shell KS-23M 23x75 magazine.",
+        "translation": "KS-23M 23x75용 6발 탄창입니다."
+      },
+      {
+        "key": "6911031c1e9fa1008ce6e1aa Name",
+        "source": "12/70 Winchester Super-X 00 buckshot",
+        "translation": "12/70 Winchester Super-X 00 buckshot"
+      },
+      {
+        "key": "6911031c1e9fa1008ce6e1aa ShortName",
+        "source": "12/70 00",
+        "translation": "12/70 00"
+      },
+      {
+        "key": "6911031c1e9fa1008ce6e1aa Description",
+        "source": "A 12-gauge 00 buckshot shell by Winchester. The 00 buckshot is a 6-pellet shell, with each pellet being 8.4mm in diameter. The shell is designed for hunting and self-defense.",
+        "translation": "윈체스터(Winchester)에서 제작한 12게이지 00 벅샷입니다. 지름 8.4mm의 산탄 6개가 들어 있으며, 사냥과 자기방어용으로 설계되었습니다."
+      },
+      {
+        "key": "6910f8984a20c41289074652 Name",
+        "source": "Benelli M3 Keymod Handguard",
+        "translation": "베넬리 M3 KeyMod 총열덮개"
+      },
+      {
+        "key": "6910f8984a20c41289074652 ShortName",
+        "source": "M3 Keymod",
+        "translation": "M3 KeyMod"
+      },
+      {
+        "key": "6910f8984a20c41289074652 Description",
+        "source": "A Keymod handguard for the Benelli M3 shotgun, manufactured by Toni System.",
+        "translation": "토니 시스템(Toni System)에서 제조한 베넬리 M3 산탄총용 KeyMod 총열덮개입니다."
+      },
+      {
+        "key": "6910e8d90b57259e9dd34f78 Name",
+        "source": "MP-700 .700 Nitro Express Double Rifle 725mm Barrel",
+        "translation": "MP-700 .700 Nitro Express 쌍열 소총 725mm 총열"
+      },
+      {
+        "key": "6910e8d90b57259e9dd34f78 ShortName",
+        "source": "MP-700 725mm",
+        "translation": "MP-700 725mm"
+      },
+      {
+        "key": "6910e8d90b57259e9dd34f78 Description",
+        "source": "A 750mm long .700 Nitro Express barrel for MP-700 double-barreled rifle. Because of the pressure of the .700 Nitro Express cartridge, the barrel is extremely heavy. Manufactured by Holland & Holland.",
+        "translation": "MP-700 쌍열 소총용 750mm 길이의 .700 Nitro Express 총열입니다. .700 Nitro Express 탄약의 높은 압력을 견뎌야 하므로 총열은 매우 무겁습니다. 홀랜드 & 홀랜드(Holland & Holland)에서 제조했습니다."
+      },
+      {
+        "key": "6910e86bbcb9218635891ae2 Name",
+        "source": "MP-700 .700 Nitro Express Double Rifle",
+        "translation": "MP-700 .700 Nitro Express 쌍열 소총"
+      },
+      {
+        "key": "6910e86bbcb9218635891ae2 ShortName",
+        "source": "MP-700",
+        "translation": "MP-700"
+      },
+      {
+        "key": "6910e86bbcb9218635891ae2 Description",
+        "source": "The MP-700 is a double-barreled rifle chambered in .700 Nitro Express. It is a break-action rifle with two barrels. The rifle is equipped with open sights. The rifle is intended for hunting dangerous animals.",
+        "translation": "MP-700은 .700 Nitro Express 탄약을 사용하는 중절식 쌍열 소총입니다. 두 개의 총열과 기계식 조준기를 갖추고 있으며, 위험한 대형 동물을 사냥하기 위해 만들어졌습니다."
+      },
+      {
+        "key": "6a67d15e807645163d053cb0 Name",
+        "source": "ZiD SP-81 23x75 pistol",
+        "translation": "ZiD SP-81 23x75 권총"
+      },
+      {
+        "key": "6a67d15e807645163d053cb0 ShortName",
+        "source": "SP-81 DIY",
+        "translation": "SP-81 DIY"
+      },
+      {
+        "key": "6a67d15e807645163d053cb0 Description",
+        "source": "A modified version of the SP-81 signal pistol, re-chambered and reinforced to fire 23x75mm rounds. Originally designed by the V.A. Degtyarev Plant. Incompatible with flares and other signal ammunition.",
+        "translation": "SP-81 신호권총을 23x75mm 탄약을 발사할 수 있도록 재약실화하고 보강한 개조형입니다. 원형은 V.A. 데그차료프 공장에서 설계되었습니다. 조명탄을 비롯한 다른 신호탄과는 호환되지 않습니다."
+      },
+      {
+        "key": "6910e1cbbd20f63a9791742e Name",
+        "source": ".700 Nitro Express FMJ",
+        "translation": ".700 Nitro Express FMJ"
+      },
+      {
+        "key": "6910e1cbbd20f63a9791742e ShortName",
+        "source": ".700 FMJ",
+        "translation": ".700 FMJ"
+      },
+      {
+        "key": "6910e1cbbd20f63a9791742e Description",
+        "source": "The .700 Nitro Express (17.8×89mmR) is a big game rifle cartridge made by Holland & Holland, London, England. It was developed in 1988 by Jim Bell and William Feldstein and built by H&H. The recoil is substantial, and the rifle is only available from H&H as a bespoke item. The .700 Nitro Express is a straight rimmed cartridge designed for use in single-shot and double rifles.",
+        "translation": ".700 Nitro Express(17.8×89mmR)는 영국 런던의 홀랜드 & 홀랜드(Holland & Holland)가 제작하는 대형 사냥용 소총탄입니다. 1988년 짐 벨(Jim Bell)과 윌리엄 펠드스타인(William Feldstein)이 개발했고 H&H가 제작했습니다. 반동이 상당하며, 해당 소총은 H&H에서 주문 제작품으로만 구할 수 있습니다. .700 Nitro Express는 단발 및 쌍열 소총에 사용하도록 설계된 직선형 림드 탄약입니다."
+      }
+    ]
+  }
+}

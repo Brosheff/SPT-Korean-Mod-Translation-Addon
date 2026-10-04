@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.maschine.AutoCorpseSearch",
+  "plugin_name": "AutoCorpseSearch-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Picked-up Containers",
+      "translation": "획득한 컨테이너"
+    },
+    {
+      "source": "Search Order",
+      "translation": "수색 순서"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Resume Container Searches",
+      "source_display_name": "Resume Container Searches",
+      "source_description": "Automatically resume interrupted searches on regular loot containers when re-opening them.",
+      "translation_display_name": "일반 컨테이너 수색 이어서 진행",
+      "translation_description": "일반 루팅 컨테이너를 다시 열었을 때 중단된 수색이 있으면 자동으로 이어서 진행합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Resume Partial Search",
+      "source_display_name": "Resume Partial Search",
+      "source_description": "Automatically resume searching slots that were interrupted (items still hidden).",
+      "translation_display_name": "부분 수색 이어서 진행",
+      "translation_description": "수색이 중단되어 아직 아이템이 가려져 있는 슬롯의 수색을 자동으로 이어서 진행합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Use Double Search",
+      "source_display_name": "Use Double Search",
+      "source_description": "With the Attention elite skill the game allows two searches at once. On: the mod fills both slots, so looting goes faster, but while it does the search button on other containers stays greyed out. Off: the mod keeps to one search and leaves the second slot free for you. Without the elite skill this changes nothing.",
+      "translation_display_name": "두 번 수색 방식 사용",
+      "translation_description": "Attention 엘리트 스킬로 동시 수색 2칸을 사용할 수 있을 때 모드가 두 칸을 모두 자동으로 사용합니다. 켜면 루팅은 빨라지지만 다른 컨테이너의 수색 버튼이 잠시 비활성화됩니다. 끄면 한 칸만 사용해 두 번째 칸을 플레이어에게 남겨둡니다. 엘리트 스킬이 없으면 효과가 없습니다.",
+      "values": []
+    },
+    {
+      "section": "Picked-up Containers",
+      "key": "Only Own Containers",
+      "source_display_name": "Only Own Containers",
+      "source_description": "Restrict 'Search On Open' to containers you carry yourself. Turn off to also auto-search containers you open on a corpse or on the ground.",
+      "translation_display_name": "본인이 소유한 컨테이너만 적용",
+      "translation_description": "별도 창 자동 수색을 플레이어가 소지한 컨테이너에만 적용합니다. 끄면 시체나 바닥에서 연 컨테이너도 자동으로 수색합니다.",
+      "values": []
+    },
+    {
+      "section": "Picked-up Containers",
+      "key": "Search Equipped On Inventory Open",
+      "source_display_name": "Search Equipped On Inventory Open",
+      "source_description": "Catch-up: search an already equipped rig, backpack or belt that is still unsearched whenever the inventory screen opens.",
+      "translation_display_name": "인벤토리 열 때 미수색 장착품 자동 수색",
+      "translation_description": "이미 장착되어 있지만 아직 수색하지 않은 조끼, 배낭, 벨트가 있으면 인벤토리를 열 때 자동으로 수색합니다.",
+      "values": []
+    },
+    {
+      "section": "Picked-up Containers",
+      "key": "Search On Equip",
+      "source_display_name": "Search On Equip",
+      "source_description": "Automatically search a rig, backpack or belt the moment you equip it.",
+      "translation_display_name": "장착 시 자동 수색",
+      "translation_description": "조끼, 배낭, 벨트를 장착하는 즉시 해당 컨테이너를 자동으로 수색합니다.",
+      "values": []
+    },
+    {
+      "section": "Picked-up Containers",
+      "key": "Search On Open",
+      "source_display_name": "Search On Open",
+      "source_description": "Automatically search a container when you open it in its own window.",
+      "translation_display_name": "별도 창으로 열 때 자동 수색",
+      "translation_description": "컨테이너를 별도 창으로 열면 자동으로 수색을 시작합니다.",
+      "values": []
+    },
+    {
+      "section": "Search Order",
+      "key": "Backpack",
+      "source_display_name": "Backpack",
+      "source_description": "Priority order (lower number = searched first)",
+      "translation_display_name": "배낭",
+      "translation_description": "수색 우선순위입니다. 숫자가 낮을수록 먼저 수색합니다.",
+      "values": []
+    },
+    {
+      "section": "Search Order",
+      "key": "Belt (Armband Slot)",
+      "source_display_name": "Belt (Armband Slot)",
+      "source_description": "Priority order (lower number = searched first). Only does anything with a belt mod such as PackNStrap installed, which carries its belts in the armband slot. A plain armband is not searchable and is skipped.",
+      "translation_display_name": "벨트 (완장 슬롯)",
+      "translation_description": "벨트 수색 우선순위입니다. 숫자가 낮을수록 먼저 수색합니다. PackNStrap처럼 완장 슬롯을 벨트로 사용하는 모드가 있을 때만 적용되며, 일반 완장은 수색할 수 없어 건너뜁니다.",
+      "values": []
+    },
+    {
+      "section": "Search Order",
+      "key": "Chest Rig",
+      "source_display_name": "Chest Rig",
+      "source_description": "Priority order (lower number = searched first)",
+      "translation_display_name": "흉부 리그",
+      "translation_description": "수색 우선순위입니다. 숫자가 낮을수록 먼저 수색합니다.",
+      "values": []
+    },
+    {
+      "section": "Search Order",
+      "key": "Pockets",
+      "source_display_name": "Pockets",
+      "source_description": "Priority order (lower number = searched first)",
+      "translation_display_name": "주머니",
+      "translation_description": "수색 우선순위입니다. 숫자가 낮을수록 먼저 수색합니다.",
+      "values": []
+    }
+  ]
+}

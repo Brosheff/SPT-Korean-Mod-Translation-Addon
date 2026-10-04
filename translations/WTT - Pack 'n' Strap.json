@@ -1,0 +1,690 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_b776e1dd87a1",
+  "mod_name": "WTT - Pack 'n' Strap",
+  "channels": {
+    "locale": [
+      {
+        "key": "0c22fc270f59b28c064e1232 Name",
+        "source": "Small Scavenger's Case",
+        "translation": "소형 스캐브 케이스",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "0c22fc270f59b28c064e1232 ShortName",
+        "source": "Scav Case",
+        "translation": "스캐브 케이스"
+      },
+      {
+        "key": "0c22fc270f59b28c064e1232 Description",
+        "source": "A rugged case that can be used to store random barter items.",
+        "translation": "튼튼한 구조의 케이스로, 다양한 물물교환 아이템을 보관할 수 있습니다."
+      },
+      {
+        "key": "12403f74773f49be6a2d84b7 Name",
+        "source": "Small Medical Pouch",
+        "translation": "소형 의료 파우치"
+      },
+      {
+        "key": "12403f74773f49be6a2d84b7 ShortName",
+        "source": "Med Pouch",
+        "translation": "의료 파우치"
+      },
+      {
+        "key": "12403f74773f49be6a2d84b7 Description",
+        "source": "A small medical pouch that can be used to store medical items.",
+        "translation": "의료품을 수납할 수 있도록 설계된 소형 의료용 파우치입니다."
+      },
+      {
+        "key": "2eabd4da4ab194eb168e72d3 Name",
+        "source": "Small Key Ring",
+        "translation": "소형 열쇠고리"
+      },
+      {
+        "key": "2eabd4da4ab194eb168e72d3 ShortName",
+        "source": "Key Ring",
+        "translation": "열쇠"
+      },
+      {
+        "key": "2eabd4da4ab194eb168e72d3 Description",
+        "source": "A key ring that can hold a small number of keys.",
+        "translation": "소수의 열쇠를 묶어 휴대할 수 있는 열쇠고리입니다."
+      },
+      {
+        "key": "440de5d056825485a0cf3a19 Name",
+        "source": "Small Magazine Pouch",
+        "translation": "소형 탄창 파우치"
+      },
+      {
+        "key": "440de5d056825485a0cf3a19 ShortName",
+        "source": "Mag Pouch",
+        "translation": "탄창 파우치"
+      },
+      {
+        "key": "440de5d056825485a0cf3a19 Description",
+        "source": "A small fabric pouch that can be used to store magazines.",
+        "translation": "탄창을 수납할 수 있도록 제작된 소형 패브릭 파우치입니다."
+      },
+      {
+        "key": "669c10fa06c00c483c58537a Name",
+        "source": "Small Cash Box",
+        "translation": "소형 금고"
+      },
+      {
+        "key": "669c10fa06c00c483c58537a ShortName",
+        "source": "Cash Box",
+        "translation": "금고"
+      },
+      {
+        "key": "669c10fa06c00c483c58537a Description",
+        "source": "A small lockable box meant for storing cash and valuables.",
+        "translation": "현금과 귀중품을 보관할 수 있도록 제작된 소형 잠금식 금고입니다."
+      },
+      {
+        "key": "669c1a420c8342338269dd86 Name",
+        "source": "Vintage Thermaster Cooler",
+        "translation": "빈티지 써마스터 쿨러"
+      },
+      {
+        "key": "669c1a420c8342338269dd86 ShortName",
+        "source": "Thermaster",
+        "translation": "써마스터"
+      },
+      {
+        "key": "669c1a420c8342338269dd86 Description",
+        "source": "A retro camping cooler that can be used to store food or drinks.",
+        "translation": "레트로 캠핑용 쿨러로, 음식이나 음료를 보관할 수 있습니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017aef Name",
+        "source": "Fanny Pack",
+        "translation": "허리 힙색"
+      },
+      {
+        "key": "6761b213607f9a6f79017aef ShortName",
+        "source": "Fanny Pack",
+        "translation": "힙색"
+      },
+      {
+        "key": "6761b213607f9a6f79017aef Description",
+        "source": "A fanny pack that can be worn at the waist and carry a moderate amount of items.",
+        "translation": "허리에 착용할 수 있는 힙색으로, 소지품을 간편하게 휴대할 수 있습니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017af1 Name",
+        "source": "Citadel Industries General Purpose Utility Belt",
+        "translation": "시타델 인더스트리즈 유틸리티 전술 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017af1 ShortName",
+        "source": "Utility",
+        "translation": "유틸리티"
+      },
+      {
+        "key": "6761b213607f9a6f79017af1 Description",
+        "source": "A general purpose tactical belt manufactured by Citadel Industries.",
+        "translation": "시타델 인더스트리즈(Citadel Industries)에서 제작한 범용 전술 벨트로, 다양한 장비를 장착할 수 있도록 설계되었습니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017af2 Name",
+        "source": "Combat Solutions Pointman Assault Belt",
+        "translation": "컴뱃 솔루션 포인트맨 어썰터 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017af2 ShortName",
+        "source": "Pointman",
+        "translation": "포인트맨"
+      },
+      {
+        "key": "6761b213607f9a6f79017af2 Description",
+        "source": "A tactical belt with several pistol magazine pouches and a dump pouch manufactured by Combat Solutions.",
+        "translation": "컴뱃 솔루션(Combat Solutions)에서 제작한 전술 벨트로, 권총 탄창 파우치와 덤프 파우치가 포함되어 있습니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017af3 Name",
+        "source": "Polytech Orion Recon Belt",
+        "translation": "폴리텍 오리온 정찰 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017af3 ShortName",
+        "source": "Orion",
+        "translation": "오리온"
+      },
+      {
+        "key": "6761b213607f9a6f79017af3 Description",
+        "source": "A lightweight tactical recon belt manufactured by Polytech Industries.",
+        "translation": "폴리텍 인더스트리즈(Polytech Industries)에서 제작한 경량형 전술 정찰 벨트입니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017af4 Name",
+        "source": "LH-63 Duty Belt",
+        "translation": "LH-63 제식 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017af4 Description",
+        "source": "A Russian Federation duty belt that can carry a moderate amount of gear.",
+        "translation": "러시아 연방군 제식 벨트로, 다양한 전술 장비를 고정할 수 있습니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017af5 Name",
+        "source": "Rebel-9 Assaulter Belt (Camo)",
+        "translation": "레벨-9 어썰터 벨트 (카모)"
+      },
+      {
+        "key": "6761b213607f9a6f79017af5 ShortName",
+        "source": "Rebel-9",
+        "translation": "레벨-9"
+      },
+      {
+        "key": "6761b213607f9a6f79017af5 Description",
+        "source": "A mid-tier tactical belt that features a dump pouch. Camo variant.",
+        "translation": "레벨-9(Rebel-9)에서 제작한 전술 벨트로, 카모플라주 패턴이 적용된 버전입니다. 덤프 파우치가 포함되어 있습니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017af6 Name",
+        "source": "Rebel-9 Assaulter Belt (OD)",
+        "translation": "레벨-9 어썰터 벨트 (올리브 드랩)\n(Rebel-9 Assaulter Belt (올리브 드랩))"
+      },
+      {
+        "key": "6761b213607f9a6f79017af6 ShortName",
+        "source": "Rebel-9",
+        "translation": "레벨-9"
+      },
+      {
+        "key": "6761b213607f9a6f79017af6 Description",
+        "source": "A mid-tier tactical belt that features a dump pouch. Olive drab variant.",
+        "translation": "레벨-9(Rebel-9)에서 제작한 전술 벨트로, 올리브 드랩 색상 버전입니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017af7 Name",
+        "source": "Ferro Concepts Bison Assaulter Belt",
+        "translation": "바이슨 돌격용 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017af7 ShortName",
+        "source": "Assaulter",
+        "translation": "돌격용"
+      },
+      {
+        "key": "6761b213607f9a6f79017af7 Description",
+        "source": "A Ferro Bison assaulter belt.",
+        "translation": "페로(Ferro)에서 제작한 고급형 전술 벨트로, 내구성과 장비 장착 편의성이 뛰어납니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017af9 Name",
+        "source": "Crye Precision MRB Grenadier Belt",
+        "translation": "MRB 유탄수 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017af9 ShortName",
+        "source": "MRB Grenadier",
+        "translation": "MRB 유탄수"
+      },
+      {
+        "key": "6761b213607f9a6f79017af9 Description",
+        "source": "A Crye Precision MRB belt set up for a grenadier.",
+        "translation": "크라이 프리시전(Crye Precision)에서 제작한 MRB 전술 벨트로, 유탄수 장비 구성을 지원합니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017afa Name",
+        "source": "Crye Precision MRB VOG Grenadier Belt",
+        "translation": "MRB VOG 유탄수 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017afa ShortName",
+        "source": "VOG Grenadier",
+        "translation": "VOG 유탄수"
+      },
+      {
+        "key": "6761b213607f9a6f79017afa Description",
+        "source": "A Crye Precision MRB belt set up for a VOG grenadier.",
+        "translation": "크라이 프리시전(Crye Precision)에서 제작한 MRB 전술 벨트의 VOG 유탄수 전용 구성입니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017afb Name",
+        "source": "Ferro Concepts Grenadier Belt",
+        "translation": "그레네이디어 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017afb ShortName",
+        "source": "Grenadier",
+        "translation": "그레네이디어"
+      },
+      {
+        "key": "6761b213607f9a6f79017afb Description",
+        "source": "A Ferro Bison assaulter belt with a Tactical Tailor Grenadier bandolier.",
+        "translation": "페로(Ferro)의 바이슨 어썰터 벨트에 택티컬 테일러(Tactical Tailor) 그레네이디어 밴돌리어를 결합한 전술 벨트입니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017afc Name",
+        "source": "Ferro Concepts MARCH Assaulter Belt",
+        "translation": "MARCH 돌격용 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017afc ShortName",
+        "source": "MARCH Assaulter",
+        "translation": "MARCH 돌격용"
+      },
+      {
+        "key": "6761b213607f9a6f79017afc Description",
+        "source": "A Ferro Bison assaulter belt configured as a MARCH medic belt.",
+        "translation": "페로(Ferro)의 바이슨 어썰터 벨트를 기반으로 MARCH 메딕 벨트 구성으로 설정된 전술 벨트입니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017afd Name",
+        "source": "Crye Precision MRB LMG Belt",
+        "translation": "MRB 경기관총수 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017afd ShortName",
+        "source": "MRB LMG",
+        "translation": "MRB"
+      },
+      {
+        "key": "6761b213607f9a6f79017afd Description",
+        "source": "A Crye Precision MRB belt configured as an LMG gunners belt.",
+        "translation": "크라이 프리시전(Crye Precision)의 MRB 벨트를 기반으로 경기관총수 전용 장비 구성으로 설계된 벨트입니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017afe Name",
+        "source": "Competitor Belt",
+        "translation": "대회용 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017afe ShortName",
+        "source": "Comp Belt",
+        "translation": "대회용"
+      },
+      {
+        "key": "6761b213607f9a6f79017afe Description",
+        "source": "A practical pistol shooting competition belt.",
+        "translation": "실용 권총 사격 대회를 위해 설계된 경쟁용 벨트로, 탄창과 액세서리를 효율적으로 배치할 수 있습니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017aff Name",
+        "source": "Bison Rifleman Belt",
+        "translation": "바이슨 소총수 벨트"
+      },
+      {
+        "key": "6761b213607f9a6f79017aff ShortName",
+        "source": "Rifleman",
+        "translation": "소총수"
+      },
+      {
+        "key": "6761b213607f9a6f79017aff Description",
+        "source": "A Ferro Bison belt with a generic rifleman loadout.",
+        "translation": "페로(Ferro)에서 제작한 바이슨 벨트로, 일반 소총수 장비 구성을 갖춘 다목적 전술 벨트입니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017b65 Name",
+        "source": "Mobile Infirmary Secure Container",
+        "translation": "이동식 야전 의료 컨테이너"
+      },
+      {
+        "key": "6761b213607f9a6f79017b65 ShortName",
+        "source": "Infirmary",
+        "translation": "야전"
+      },
+      {
+        "key": "6761b213607f9a6f79017b65 Description",
+        "source": "A large securable container designed to safely store and carry a small amount of medical supplies in the field.",
+        "translation": "야전 환경에서 의료 물품을 안전하게 운반하고 보관할 수 있도록 설계된 대형 잠금식 컨테이너입니다."
+      },
+      {
+        "key": "6761b213607f9a6f79017b67 Name",
+        "source": "Omnitech Systems HEX-Case Pistol Carrier",
+        "translation": "옴니테크 시스템 헥스 권총 보관함"
+      },
+      {
+        "key": "6761b213607f9a6f79017b67 ShortName",
+        "source": "HEX",
+        "translation": "헥스"
+      },
+      {
+        "key": "6761b213607f9a6f79017b67 Description",
+        "source": "A bio-metric secured pistol carrying case manufactured by Omnitech Systems.",
+        "translation": "옴니테크 시스템(Omnitech Systems)에서 제작한 생체 인식 보안 기능이 적용된 권총 운반용 케이스입니다."
+      },
+      {
+        "key": "6807e54dc5a45c5443154a29 Name",
+        "source": "Bell Forge ToolMaster Utility Belt",
+        "translation": "벨 포지 툴마스터 범용 벨트"
+      },
+      {
+        "key": "6807e54dc5a45c5443154a29 ShortName",
+        "source": "ToolMaster",
+        "translation": "툴마스터"
+      },
+      {
+        "key": "6807e54dc5a45c5443154a29 Description",
+        "source": "A utility belt designed to carry a moderate amount of tools and supplies.",
+        "translation": "벨 포지(Bell Forge)에서 제작한 범용 벨트로, 적당한 양의 공구와 장비를 휴대할 수 있습니다."
+      },
+      {
+        "key": "68084891d93e159932d7e326 Name",
+        "source": "Apothecary Battlefield Trauma Belt",
+        "translation": "아포세커리 전장의료 벨트"
+      },
+      {
+        "key": "68084891d93e159932d7e326 ShortName",
+        "source": "Apothecary",
+        "translation": "아포세커리"
+      },
+      {
+        "key": "68084891d93e159932d7e326 Description",
+        "source": "A combat medic oriented belt that serves a dual-role with both dedicated medical and magazine storage capabilities.",
+        "translation": "전장의 위생병을 위한 전술 벨트로, 의료 장비와 탄창을 모두 수납할 수 있는 이중 역할 구성을 제공합니다."
+      },
+      {
+        "key": "680e8d81e16a7caa3dd10730 Name",
+        "source": "Kodiak Multi-purpose Utility Belt",
+        "translation": "코디악 다목적 범용 벨트"
+      },
+      {
+        "key": "680e8d81e16a7caa3dd10730 ShortName",
+        "source": "Kodiak",
+        "translation": "코디악"
+      },
+      {
+        "key": "680e8d81e16a7caa3dd10730 Description",
+        "source": "A medium tier multi-purpose utility belt that can carry ammunition, magazines, and tools for the end user.",
+        "translation": "중급 다목적 벨트로, 탄약, 탄창, 공구 등을 휴대할 수 있도록 설계되었습니다."
+      },
+      {
+        "key": "68170b2cb595bf820b60571a Name",
+        "source": "TYR Tactical Gunfighter Belt (Skirmisher)",
+        "translation": "티어 건파이터 벨트"
+      },
+      {
+        "key": "68170b2cb595bf820b60571a ShortName",
+        "source": "Gunfighter",
+        "translation": "티어"
+      },
+      {
+        "key": "68170b2cb595bf820b60571a Description",
+        "source": "The TYR Tactical Gunfighter belt is a classic belt system often used in both professional work and Civilian every-day carry situations. This specific belt is set up for light Reconnaissance and Skirmish operations.",
+        "translation": "티어(Tyr)에서 제작한 건파이터 벨트로, 경정찰 또는 의료 역할을 위한 경량 구성으로 설계되었습니다."
+      },
+      {
+        "key": "681baec29eb1732a417bd7dd Name",
+        "source": "Ferro Concepts Bison Breacher Belt",
+        "translation": "페로 컨셉츠 바이슨 브리처 벨트"
+      },
+      {
+        "key": "681baec29eb1732a417bd7dd ShortName",
+        "source": "Breacher",
+        "translation": "브리처"
+      },
+      {
+        "key": "681baec29eb1732a417bd7dd Description",
+        "source": "A Ferro Concepts Bison tactical belt setup for a breacher role.",
+        "translation": "페로 컨셉츠(Ferro Concepts)에서 제작한 바이슨 전술 벨트로, 문 파괴 및 침투 임무를 위한 브리처 전용 구성입니다."
+      },
+      {
+        "key": "681bb00c7fecf6d490b2fb3c Name",
+        "source": "TYR Tactical Raider Belt (Multicam Black)",
+        "translation": "티어 MCB 레이더 벨트 (멀티캠 블랙)"
+      },
+      {
+        "key": "681bb00c7fecf6d490b2fb3c ShortName",
+        "source": "Raider",
+        "translation": "레이더"
+      },
+      {
+        "key": "681bb00c7fecf6d490b2fb3c Description",
+        "source": "The TYR Tactical Gunfighter belt is a classic belt system often used in both professional work and Civilian every-day carry situations. This belt is set up for a general purpose tactical offensive role.",
+        "translation": "티어(Tyr) MCB 건파이터 벨트를 기반으로, 전술 공격 임무를 위해 구성된 범용 전술 벨트입니다."
+      },
+      {
+        "key": "681bcd300480896883303f71 Name",
+        "source": "Ferro Concepts Bison Belt (Wireman Edition)",
+        "translation": "페로 컨셉츠 바이슨 벨트 (와이어맨 에디션)"
+      },
+      {
+        "key": "681bcd300480896883303f71 ShortName",
+        "source": "Wireman",
+        "translation": "와이어맨"
+      },
+      {
+        "key": "681bcd300480896883303f71 Description",
+        "source": "A Ferro Concepts Bison Belt customized by an unknown operator.",
+        "translation": "페로 컨셉츠(Ferro Concepts)에서 제작한 바이슨 벨트로, 정체불명의 오퍼레이터가 개조한 특별 버전입니다."
+      },
+      {
+        "key": "681c17948a6e3fb72e221390 Name",
+        "source": "Vintage Fuel Container",
+        "translation": "빈티지 연료통"
+      },
+      {
+        "key": "681c17948a6e3fb72e221390 ShortName",
+        "source": "Fuel",
+        "translation": "연료통"
+      },
+      {
+        "key": "681c17948a6e3fb72e221390 Description",
+        "source": "Vintage WW1 fuel jug that can hold a moderate amount of fuel.",
+        "translation": "1차 세계대전 시기 스타일의 빈티지 연료통으로, 적당량의 연료를 보관할 수 있습니다."
+      },
+      {
+        "key": "681d117c2b345ac614614bf8 Name",
+        "source": "Mobile Food Cart",
+        "translation": "이동식 식품 카트"
+      },
+      {
+        "key": "681d117c2b345ac614614bf8 ShortName",
+        "source": "Food Cart",
+        "translation": "식품 카트"
+      },
+      {
+        "key": "681d117c2b345ac614614bf8 Description",
+        "source": "A mobile food cart that can store a moderate amount of consumables.",
+        "translation": "소모품을 적당히 보관할 수 있는 이동식 식품 카트입니다."
+      },
+      {
+        "key": "681d124d70b2418646a80fa3 Name",
+        "source": "Violin Case",
+        "translation": "바이올린 케이스"
+      },
+      {
+        "key": "681d124d70b2418646a80fa3 ShortName",
+        "source": "Violin Case",
+        "translation": "바이올린 케이스"
+      },
+      {
+        "key": "681d124d70b2418646a80fa3 Description",
+        "source": "A violin case that can store a rifle or two.",
+        "translation": "라이플 한두 자루정도 숨길 수 있는 바이올린 케이스입니다."
+      },
+      {
+        "key": "681d1395a5c2308fdcbcda92 Name",
+        "source": "Attachment Case",
+        "translation": "부착물 케이스"
+      },
+      {
+        "key": "681d1395a5c2308fdcbcda92 ShortName",
+        "source": "Attachment Case",
+        "translation": "부착물"
+      },
+      {
+        "key": "681d1395a5c2308fdcbcda92 Description",
+        "source": "A protective case that can safely store weapon attachments.",
+        "translation": "총기 부착물을 안전하게 보관할 수 있는 보호용 케이스입니다."
+      },
+      {
+        "key": "681d1448a0a20c9db8861321 Name",
+        "source": "Vintage Suitcase",
+        "translation": "빈티지 여행가방"
+      },
+      {
+        "key": "681d1448a0a20c9db8861321 ShortName",
+        "source": "Suitcase",
+        "translation": "여행가방"
+      },
+      {
+        "key": "681d1448a0a20c9db8861321 Description",
+        "source": "A vintage suitcase that can store a small amount of items.",
+        "translation": "소량의 물품을 보관할 수 있는 빈티지 스타일의 여행가방입니다."
+      },
+      {
+        "key": "681d1ef3db9fe57ea08ed67a Name",
+        "source": "Gun Safe",
+        "translation": "대형 총기 금고"
+      },
+      {
+        "key": "681d1ef3db9fe57ea08ed67a ShortName",
+        "source": "Gun Safe",
+        "translation": "총기 금고"
+      },
+      {
+        "key": "681d1ef3db9fe57ea08ed67a Description",
+        "source": "A large secured gun safe that can store a large amount of guns and attachments.",
+        "translation": "다수의 총기와 부착물을 안전하게 보관할 수 있는 대형 금고입니다."
+      },
+      {
+        "key": "681d2b9736545ba7dfd0847a Name",
+        "source": "Bell Forge Tools Mil-Spec Tool Case",
+        "translation": "벨 포지 툴스 밀스펙 공구 케이스"
+      },
+      {
+        "key": "681d2b9736545ba7dfd0847a ShortName",
+        "source": "Bell Forge",
+        "translation": "벨 포지"
+      },
+      {
+        "key": "681d2b9736545ba7dfd0847a Description",
+        "source": "A container that has been built to military specifications for securing and transporting tools.",
+        "translation": "군용 규격(Mil-Spec)으로 제작된 공구 보관 및 운반용 케이스입니다."
+      },
+      {
+        "key": "681d2d053de2e15f8b0b5081 Name",
+        "source": "Field Surgeon Secure Container",
+        "translation": "필드 서전 보안 컨테이너"
+      },
+      {
+        "key": "681d2d053de2e15f8b0b5081 ShortName",
+        "source": "Surgeon",
+        "translation": "서전"
+      },
+      {
+        "key": "681d2d053de2e15f8b0b5081 Description",
+        "source": "A securable container designed to safely store and carry a small amount of medical supplies in the field.",
+        "translation": "야전 환경에서 의료 물자를 안전하게 보관하고 운반할 수 있도록 설계된 보안형 컨테이너입니다."
+      },
+      {
+        "key": "6925918065a41e6b1e02a7d7 Name",
+        "source": "Vintage Lunch Box",
+        "translation": "빈티지 도시락통"
+      },
+      {
+        "key": "6925918065a41e6b1e02a7d7 ShortName",
+        "source": "Lunch Box",
+        "translation": "도시락통"
+      },
+      {
+        "key": "6925918065a41e6b1e02a7d7 Description",
+        "source": "A retro lunch box that can be used to store a small amount of food or drink.",
+        "translation": "음식이나 음료를 소량 보관할 수 있는 복고풍 도시락통입니다."
+      },
+      {
+        "key": "69352d5c409abe93d29321e4 Name",
+        "source": "TYR Tactical Gunfighter Belt (Assault, Olive Drab)",
+        "translation": "티어 전술 건파이터 벨트 (어썰트, 올리브 드랩)"
+      },
+      {
+        "key": "69352d5c409abe93d29321e4 ShortName",
+        "source": "Gunfighter",
+        "translation": "건파이터"
+      },
+      {
+        "key": "69352d5c409abe93d29321e4 Description",
+        "source": "The TYR Tactical Gunfighter belt is a classic belt system often used in both professional work and Civilian every-day carry situations. This specific belt is set up for light Reconnaissance and Skirmish operations.",
+        "translation": "티어 전술(TYR Tactical) 건파이터 벨트는 전문가의 업무 및 민간인의 일상 휴대(EDC) 상황 모두에서 흔히 사용되는 클래식 벨트 시스템입니다. 이 특정 벨트는 가벼운 정찰 및 교전 작전에 최적화되어 있습니다."
+      },
+      {
+        "key": "69364a368a4b47eeaf9ba4a3 Name",
+        "source": "WARTECH Warbelt Vector belt (Multicam)",
+        "translation": "WARTECH 워벨트 벡터 벨트 (멀티캠)"
+      },
+      {
+        "key": "69364a368a4b47eeaf9ba4a3 ShortName",
+        "source": "Vector",
+        "translation": "벡터"
+      },
+      {
+        "key": "69364a368a4b47eeaf9ba4a3 Description",
+        "source": "The Warbelt Vector belt is a tactical battle belt often used by Russian special forces due to its robust, modular design. Manufactured by WARTECH. Multicam version.",
+        "translation": "워벨트 벡터 벨트는 견고하고 모듈화된 설계 덕분에 러시아 특수부대에서 자주 사용하는 전술용 배틀 벨트입니다. WARTECH에서 제조하였으며, 멀티캠 버전입니다."
+      },
+      {
+        "key": "6a3c0e9643138b61c8739586 Name",
+        "source": "Small ballistic plate case",
+        "translation": "소형 방탄판 케이스"
+      },
+      {
+        "key": "6a3c0e9643138b61c8739586 ShortName",
+        "source": "Plates",
+        "translation": "방탄판"
+      },
+      {
+        "key": "6a3c0e9643138b61c8739586 Description",
+        "source": "A small carrying case that can hold several ballistic plates.",
+        "translation": "여러 장의 방탄판을 보관할 수 있는 소형 운반 케이스입니다."
+      },
+      {
+        "key": "9543bbe8083934dc3b1b1330 Name",
+        "source": "Small Tool Bag",
+        "translation": "소형 공구가방"
+      },
+      {
+        "key": "9543bbe8083934dc3b1b1330 ShortName",
+        "source": "Tool Bag",
+        "translation": "공구가방"
+      },
+      {
+        "key": "9543bbe8083934dc3b1b1330 Description",
+        "source": "A small repairman's tool bag that can be used for storing a small amount of tools.",
+        "translation": "소량의 공구를 보관할 수 있는 소형 수리공용 가방입니다."
+      },
+      {
+        "key": "ae9e418fd5d4c4eec4a0e6ea Name",
+        "source": "Small Ammunition Pouch",
+        "translation": "소형 탄약 파우치"
+      },
+      {
+        "key": "ae9e418fd5d4c4eec4a0e6ea ShortName",
+        "source": "Ammo Pouch",
+        "translation": "탄약 파우치"
+      },
+      {
+        "key": "ae9e418fd5d4c4eec4a0e6ea Description",
+        "source": "A small leather pouch that can be used to store munitions.",
+        "translation": "탄약을 수납하기 위해 제작된 소형 가죽 파우치입니다."
+      },
+      {
+        "key": "c29f11b2e63a089916739c96 Name",
+        "source": "Small Leather Docket",
+        "translation": "소형 가죽 서류지갑"
+      },
+      {
+        "key": "c29f11b2e63a089916739c96 ShortName",
+        "source": "Docket",
+        "translation": "서류지갑"
+      },
+      {
+        "key": "c29f11b2e63a089916739c96 Description",
+        "source": "A small leather docket that can be used to securely store important small items and currency.",
+        "translation": "작은 귀중품이나 현금을 안전하게 보관할 수 있는 소형 가죽 서류지갑입니다."
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "belt",
+        "source": "BELT",
+        "translation": "벨트",
+        "match_mode": "exact",
+        "note": "장비 화면 벨트 슬롯 라벨"
+      }
+    ]
+  }
+}

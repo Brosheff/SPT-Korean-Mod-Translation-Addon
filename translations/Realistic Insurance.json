@@ -1,0 +1,1324 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "RealisticInsurance",
+  "mod_name": "Realistic Insurance",
+  "channels": {
+    "npc_messages": [
+      {
+        "id": "ri.opener.001.prapor",
+        "source": "Sent a man out to your last known spot.",
+        "translation": "네 마지막 위치로 사람 하나 보냈다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.opener.002.prapor",
+        "source": "Had someone out there before the dust settled.",
+        "translation": "상황이 가라앉기도 전에 사람을 보내놨다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.opener.003.prapor",
+        "source": "Took my guy a while to find the place.",
+        "translation": "내 사람이 그 장소를 찾는 데 좀 걸렸어.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.opener.004.prapor",
+        "source": "My lot got out there as quick as they could.",
+        "translation": "내 사람들이 최대한 빨리 거기로 갔다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.opener.005.prapor",
+        "source": "So. Your kit.",
+        "translation": "그래. 네 장비 말인데.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.opener.006.therapist",
+        "source": "My people went out to collect what they could.",
+        "translation": "제 사람들이 회수할 수 있는 장비를 찾으러 갔습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.opener.007.therapist",
+        "source": "I had someone recover what was left of your equipment.",
+        "translation": "남아 있던 장비를 회수하도록 사람을 보냈습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.opener.008.therapist",
+        "source": "I've had a look at what came back.",
+        "translation": "돌아온 물건들을 확인해 봤습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.opener.009.therapist",
+        "source": "Another one of these, then.",
+        "translation": "또 이런 일이군요.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.opener.010.therapist",
+        "source": "You really must stop doing this to yourself.",
+        "translation": "정말 이런 일을 반복하지 않으셔야 합니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_none.011.prapor",
+        "source": "There was nothing left worth carrying back.",
+        "translation": "가져올 만한 건 아무것도 안 남아 있었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_none.012.prapor",
+        "source": "Empty. The whole lot of it, gone.",
+        "translation": "텅 비었어. 전부 사라졌다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_none.013.prapor",
+        "source": "Picked clean. I've got nothing for you.",
+        "translation": "싹 털렸어. 네게 돌려줄 게 없다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_little.014.prapor",
+        "source": "Scraps. That's all that was still lying there.",
+        "translation": "부스러기뿐이야. 남아 있던 건 그게 전부였다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_little.015.prapor",
+        "source": "You're getting a fraction of it back, and I'm being generous.",
+        "translation": "일부만 돌려받는 거다. 이것도 많이 쳐준 거야.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_little.016.prapor",
+        "source": "Not much survived. Don't shoot the messenger.",
+        "translation": "남은 게 별로 없다. 소식 전하는 사람한테 화풀이하진 마.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_half.017.prapor",
+        "source": "About half of it is here. Could be worse.",
+        "translation": "절반 정도는 여기 있다. 이 정도면 더 나쁠 수도 있었지.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_half.018.prapor",
+        "source": "They left more than I expected.",
+        "translation": "생각보다 많이 남겨뒀더군.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_half.019.prapor",
+        "source": "Call it an even split with whoever got there first.",
+        "translation": "먼저 도착한 놈이랑 반씩 나눠 가졌다고 생각해.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_most.020.prapor",
+        "source": "Most of it is here. They were in a hurry.",
+        "translation": "대부분 여기 있다. 급하게 챙겨 갔던 모양이야.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_most.021.prapor",
+        "source": "You're getting nearly all of it back.",
+        "translation": "거의 전부 돌려받는 거다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_most.022.prapor",
+        "source": "Only a couple of pieces missing. You'll live.",
+        "translation": "몇 개만 빠졌다. 그 정도면 살 만하지.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_all.023.prapor",
+        "source": "Every last piece of it. Don't get used to it.",
+        "translation": "마지막 한 조각까지 전부다. 이런 운에 익숙해지진 마.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_all.024.prapor",
+        "source": "All of it. Nobody touched a thing.",
+        "translation": "전부 다 있다. 아무도 손대지 않았어.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_all.025.prapor",
+        "source": "The whole kit, exactly as you left it.",
+        "translation": "네가 두고 간 그대로, 장비 전부다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.outcome_none.026.therapist",
+        "source": "I'm afraid there was nothing left to recover.",
+        "translation": "안타깝지만 회수할 수 있는 것이 아무것도 남아 있지 않았습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_none.027.therapist",
+        "source": "Not a single piece of it survived.",
+        "translation": "장비가 하나도 남아 있지 않았습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_none.028.therapist",
+        "source": "There was simply nothing to bring back.",
+        "translation": "가져올 수 있는 것이 전혀 없었습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_little.029.therapist",
+        "source": "Only a small part of it was still there.",
+        "translation": "아주 일부만 그 자리에 남아 있었습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_little.030.therapist",
+        "source": "What I'm returning is barely worth the paperwork.",
+        "translation": "돌려드리는 물건은 서류 작업이 아까울 정도로 적습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_little.031.therapist",
+        "source": "Very little of your equipment survived, I'm sorry to say.",
+        "translation": "유감이지만 남은 장비가 거의 없습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_half.032.therapist",
+        "source": "Roughly half of your equipment came back.",
+        "translation": "장비의 절반 정도가 돌아왔습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_half.033.therapist",
+        "source": "A fair portion of it survived.",
+        "translation": "상당 부분은 무사히 남아 있었습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_half.034.therapist",
+        "source": "Some of it was still there. Not all, but some.",
+        "translation": "일부는 아직 그곳에 있었습니다. 전부는 아니지만요.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_most.035.therapist",
+        "source": "Nearly all of your equipment has been returned.",
+        "translation": "장비 대부분이 회수되었습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_most.036.therapist",
+        "source": "Very little of it is actually missing.",
+        "translation": "실제로 없어진 것은 아주 적습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_most.037.therapist",
+        "source": "Almost everything is here. A small loss, this time.",
+        "translation": "거의 전부 여기 있습니다. 이번에는 손실이 크지 않군요.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_all.038.therapist",
+        "source": "Everything came back, untouched.",
+        "translation": "모든 장비가 손대지 않은 상태로 돌아왔습니다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_all.039.therapist",
+        "source": "Your kit is complete. Do try to keep it that way.",
+        "translation": "장비가 전부 돌아왔습니다. 다음에는 그렇게 유지해 보세요.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.outcome_all.040.therapist",
+        "source": "All of it recovered. You were fortunate.",
+        "translation": "전부 회수되었습니다. 운이 좋으셨군요.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.pmc_extracted.041.prapor",
+        "source": "Whoever put you down walked out with the rest.",
+        "translation": "널 쓰러뜨린 놈이 나머지를 챙겨서 빠져나갔다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.pmc_extracted.042.therapist",
+        "source": "Whoever put you down walked out with the rest.",
+        "translation": "널 쓰러뜨린 놈이 나머지를 챙겨서 빠져나갔다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.pmc_extracted.043.prapor",
+        "source": "The one who got you knew exactly what he was looking at, and he made it to an exit.",
+        "translation": "널 잡은 놈은 뭘 챙겨야 하는지 정확히 알았고, 탈출에도 성공했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.pmc_extracted.044.therapist",
+        "source": "The one who got you knew exactly what he was looking at, and he made it to an exit.",
+        "translation": "널 잡은 놈은 뭘 챙겨야 하는지 정확히 알았고, 탈출에도 성공했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.pmc_extracted.045.prapor",
+        "source": "A PMC did it, and he was long gone before anyone got there.",
+        "translation": "PMC 소행이다. 사람들이 도착하기도 전에 이미 멀리 빠져나갔어.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.pmc_extracted.046.therapist",
+        "source": "A PMC did it, and he was long gone before anyone got there.",
+        "translation": "PMC 소행이다. 사람들이 도착하기도 전에 이미 멀리 빠져나갔어.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.pmc_died.047.prapor",
+        "source": "The one who killed you never made it out himself.",
+        "translation": "널 죽인 놈도 결국 빠져나가지 못했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.pmc_died.048.therapist",
+        "source": "The one who killed you never made it out himself.",
+        "translation": "널 죽인 놈도 결국 빠져나가지 못했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.pmc_died.049.prapor",
+        "source": "Whoever shot you died not long after. That is the only reason you're seeing any of this.",
+        "translation": "널 쏜 놈도 얼마 지나지 않아 죽었다. 네가 이 물건들을 다시 보는 이유는 그거다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.pmc_died.050.therapist",
+        "source": "Whoever shot you died not long after. That is the only reason you're seeing any of this.",
+        "translation": "널 쏜 놈도 얼마 지나지 않아 죽었다. 네가 이 물건들을 다시 보는 이유는 그거다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.pmc_died.051.prapor",
+        "source": "He took your kit and then somebody took his. Fair trade, in a way.",
+        "translation": "그놈이 네 장비를 가져갔고, 또 누군가 그놈의 장비를 가져갔다. 어떻게 보면 공평한 거래지.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.pmc_died.052.therapist",
+        "source": "He took your kit and then somebody took his. Fair trade, in a way.",
+        "translation": "그놈이 네 장비를 가져갔고, 또 누군가 그놈의 장비를 가져갔다. 어떻게 보면 공평한 거래지.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.player_scav_extracted.053.prapor",
+        "source": "A scav with a real head on his shoulders cleaned you out and got clear.",
+        "translation": "머리 좀 굴릴 줄 아는 스캐브가 네 물건을 털어 탈출했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.player_scav_extracted.054.therapist",
+        "source": "A scav with a real head on his shoulders cleaned you out and got clear.",
+        "translation": "머리 좀 굴릴 줄 아는 스캐브가 네 물건을 털어 탈출했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.player_scav_extracted.055.prapor",
+        "source": "Whoever was wearing that scav rig knew what all of it was worth.",
+        "translation": "그 스캐브 장비를 입고 있던 놈은 네 물건 값어치를 제대로 알고 있었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.player_scav_extracted.056.therapist",
+        "source": "Whoever was wearing that scav rig knew what all of it was worth.",
+        "translation": "그 스캐브 장비를 입고 있던 놈은 네 물건 값어치를 제대로 알고 있었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.player_scav_extracted.057.prapor",
+        "source": "That was no wild man. He took his pick and walked out.",
+        "translation": "그냥 떠돌이 스캐브가 아니었다. 챙길 것만 골라 들고 빠져나갔다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.player_scav_extracted.058.therapist",
+        "source": "That was no wild man. He took his pick and walked out.",
+        "translation": "그냥 떠돌이 스캐브가 아니었다. 챙길 것만 골라 들고 빠져나갔다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.player_scav_died.059.prapor",
+        "source": "The scav that got you was still picking through your kit when somebody else got him.",
+        "translation": "널 잡은 스캐브는 네 장비를 뒤지다가 다른 누군가에게 당했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.player_scav_died.060.therapist",
+        "source": "The scav that got you was still picking through your kit when somebody else got him.",
+        "translation": "널 잡은 스캐브는 네 장비를 뒤지다가 다른 누군가에게 당했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.player_scav_died.061.prapor",
+        "source": "He took his time over your body. It cost him.",
+        "translation": "네 시체를 뒤지는 데 시간을 너무 썼고, 그 대가를 치렀다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.player_scav_died.062.therapist",
+        "source": "He took his time over your body. It cost him.",
+        "translation": "네 시체를 뒤지는 데 시간을 너무 썼고, 그 대가를 치렀다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.player_scav_died.063.prapor",
+        "source": "Whoever it was, he never got clear with it.",
+        "translation": "누구였든 그 물건을 들고 빠져나가지는 못했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.player_scav_died.064.therapist",
+        "source": "Whoever it was, he never got clear with it.",
+        "translation": "누구였든 그 물건을 들고 빠져나가지는 못했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.scav_extracted.065.prapor",
+        "source": "A scav got you, took whatever caught his eye, and wandered off.",
+        "translation": "스캐브 하나가 널 잡고 눈에 띄는 것만 챙겨서 사라졌다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.scav_extracted.066.therapist",
+        "source": "A scav got you, took whatever caught his eye, and wandered off.",
+        "translation": "스캐브 하나가 널 잡고 눈에 띄는 것만 챙겨서 사라졌다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.scav_extracted.067.prapor",
+        "source": "Some wild man shot you and helped himself. No taste, thankfully.",
+        "translation": "떠돌이 스캐브가 널 쏘고 제멋대로 챙겨 갔다. 다행히 보는 눈은 없더군.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.scav_extracted.068.therapist",
+        "source": "Some wild man shot you and helped himself. No taste, thankfully.",
+        "translation": "떠돌이 스캐브가 널 쏘고 제멋대로 챙겨 갔다. 다행히 보는 눈은 없더군.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.scav_extracted.069.prapor",
+        "source": "A scav did it. They never do know what the good stuff is.",
+        "translation": "스캐브 소행이다. 좋은 물건이 뭔지는 늘 모르지.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.scav_extracted.070.therapist",
+        "source": "A scav did it. They never do know what the good stuff is.",
+        "translation": "스캐브 소행이다. 좋은 물건이 뭔지는 늘 모르지.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.scav_died.071.prapor",
+        "source": "The scav that killed you didn't last the hour.",
+        "translation": "널 죽인 스캐브는 한 시간도 못 버텼다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.scav_died.072.therapist",
+        "source": "The scav that killed you didn't last the hour.",
+        "translation": "널 죽인 스캐브는 한 시간도 못 버텼다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.scav_died.073.prapor",
+        "source": "He died a stone's throw from your body, still carrying it.",
+        "translation": "네 시체에서 얼마 떨어지지도 않은 곳에서, 네 물건을 든 채 죽었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.scav_died.074.therapist",
+        "source": "He died a stone's throw from your body, still carrying it.",
+        "translation": "네 시체에서 얼마 떨어지지도 않은 곳에서, 네 물건을 든 채 죽었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.scav_died.075.prapor",
+        "source": "Whatever he took off you, he didn't keep it long.",
+        "translation": "네게서 뭘 가져갔든 오래 가지고 있지는 못했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.scav_died.076.therapist",
+        "source": "Whatever he took off you, he didn't keep it long.",
+        "translation": "네게서 뭘 가져갔든 오래 가지고 있지는 못했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.boss_extracted.077.prapor",
+        "source": "You picked a fight with the wrong people. They kept what they liked.",
+        "translation": "건드리지 말아야 할 놈들과 싸웠군. 마음에 든 건 그들이 가져갔다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.boss_extracted.078.therapist",
+        "source": "You picked a fight with the wrong people. They kept what they liked.",
+        "translation": "건드리지 말아야 할 놈들과 싸웠군. 마음에 든 건 그들이 가져갔다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.boss_extracted.079.prapor",
+        "source": "That crowd doesn't leave much behind.",
+        "translation": "그런 놈들은 뒤에 별로 남겨두지 않는다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.boss_extracted.080.therapist",
+        "source": "That crowd doesn't leave much behind.",
+        "translation": "그런 놈들은 뒤에 별로 남겨두지 않는다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.boss_extracted.081.prapor",
+        "source": "Their kind hold the ground and take their time over a body.",
+        "translation": "그 부류는 자리를 지키면서 시체를 천천히 뒤진다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.boss_extracted.082.therapist",
+        "source": "Their kind hold the ground and take their time over a body.",
+        "translation": "그 부류는 자리를 지키면서 시체를 천천히 뒤진다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.boss_died.083.prapor",
+        "source": "Whatever is left of the man who killed you is lying next to you.",
+        "translation": "널 죽인 놈도 네 곁에 쓰러져 있었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.boss_died.084.therapist",
+        "source": "Whatever is left of the man who killed you is lying next to you.",
+        "translation": "널 죽인 놈도 네 곁에 쓰러져 있었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.boss_died.085.prapor",
+        "source": "His people held the ground, but he didn't walk away either.",
+        "translation": "그쪽 사람들이 자리를 지켰지만, 정작 그놈도 살아서 떠나진 못했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.boss_died.086.therapist",
+        "source": "His people held the ground, but he didn't walk away either.",
+        "translation": "그쪽 사람들이 자리를 지켰지만, 정작 그놈도 살아서 떠나진 못했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.boss_died.087.prapor",
+        "source": "He didn't outlive you by much.",
+        "translation": "그놈도 너보다 오래 살지는 못했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.boss_died.088.therapist",
+        "source": "He didn't outlive you by much.",
+        "translation": "그놈도 너보다 오래 살지는 못했다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.no_killer.089.prapor",
+        "source": "Nobody had been near it. It was lying exactly where you left it.",
+        "translation": "아무도 근처에 오지 않았다. 네가 두고 간 그대로 놓여 있었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.no_killer.090.therapist",
+        "source": "Nobody had been near it. It was lying exactly where you left it.",
+        "translation": "아무도 근처에 오지 않았다. 네가 두고 간 그대로 놓여 있었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.no_killer.091.prapor",
+        "source": "No one had touched any of it.",
+        "translation": "아무도 손대지 않았다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.no_killer.092.therapist",
+        "source": "No one had touched any of it.",
+        "translation": "아무도 손대지 않았다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.no_killer.093.prapor",
+        "source": "Whatever happened out there, it wasn't a person that did it.",
+        "translation": "밖에서 무슨 일이 있었든, 사람에게 당한 건 아니었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.no_killer.094.therapist",
+        "source": "Whatever happened out there, it wasn't a person that did it.",
+        "translation": "밖에서 무슨 일이 있었든, 사람에게 당한 건 아니었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.took_nothing.095.prapor",
+        "source": "Whoever killed you walked off without taking a thing - better equipped than you already, most likely.",
+        "translation": "널 죽인 놈은 아무것도 가져가지 않고 떠났다. 아마 이미 너보다 장비가 좋았겠지.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.took_nothing.096.therapist",
+        "source": "Whoever killed you walked off without taking a thing - better equipped than you already, most likely.",
+        "translation": "널 죽인 놈은 아무것도 가져가지 않고 떠났다. 아마 이미 너보다 장비가 좋았겠지.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.took_nothing.097.prapor",
+        "source": "He didn't want any of it. Make of that what you will.",
+        "translation": "그놈은 네 물건을 하나도 원하지 않았다. 그게 무슨 뜻인지는 알아서 생각해.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.took_nothing.098.therapist",
+        "source": "He didn't want any of it. Make of that what you will.",
+        "translation": "그놈은 네 물건을 하나도 원하지 않았다. 그게 무슨 뜻인지는 알아서 생각해.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.took_nothing.099.prapor",
+        "source": "Whoever it was left the lot where it fell and walked out.",
+        "translation": "누구였든 전부 떨어진 자리에 그대로 두고 빠져나갔다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.took_nothing.100.therapist",
+        "source": "Whoever it was left the lot where it fell and walked out.",
+        "translation": "누구였든 전부 떨어진 자리에 그대로 두고 빠져나갔다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.nothing_found.101.prapor",
+        "source": "Whatever was there had gone long before anyone arrived.",
+        "translation": "사람들이 도착하기 훨씬 전에 있던 물건이 전부 사라졌다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.nothing_found.102.therapist",
+        "source": "Whatever was there had gone long before anyone arrived.",
+        "translation": "사람들이 도착하기 훨씬 전에 있던 물건이 전부 사라졌다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.nothing_found.103.prapor",
+        "source": "Someone had already been through it.",
+        "translation": "누군가 이미 한바탕 뒤지고 간 뒤였다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.nothing_found.104.therapist",
+        "source": "Someone had already been through it.",
+        "translation": "누군가 이미 한바탕 뒤지고 간 뒤였다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.nothing_found.105.prapor",
+        "source": "There was nothing at the spot at all.",
+        "translation": "그 장소에는 아무것도 남아 있지 않았다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.nothing_found.106.therapist",
+        "source": "There was nothing at the spot at all.",
+        "translation": "그 장소에는 아무것도 남아 있지 않았다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.dropped.107.prapor",
+        "source": "The gear you'd left lying about came back on its own - nobody had been near it.",
+        "translation": "네가 따로 버려둔 장비는 그대로 돌아왔다. 아무도 근처에 가지 않았어.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.dropped.108.therapist",
+        "source": "The gear you'd left lying about came back on its own - nobody had been near it.",
+        "translation": "네가 따로 버려둔 장비는 그대로 돌아왔다. 아무도 근처에 가지 않았어.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.dropped.109.prapor",
+        "source": "Whatever you dropped before you went down was still sitting there.",
+        "translation": "쓰러지기 전에 버려둔 물건은 그대로 그 자리에 있었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.dropped.110.therapist",
+        "source": "Whatever you dropped before you went down was still sitting there.",
+        "translation": "쓰러지기 전에 버려둔 물건은 그대로 그 자리에 있었다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.dropped.111.prapor",
+        "source": "The pieces you'd stashed were untouched. Those are in there too.",
+        "translation": "네가 숨겨둔 물건은 손대지 않은 채 남아 있었다. 그것들도 같이 들어 있다.",
+        "match_mode": "segment",
+        "trader_id": "54cb50c76803fa8b248b4571"
+      },
+      {
+        "id": "ri.dropped.112.therapist",
+        "source": "The pieces you'd stashed were untouched. Those are in there too.",
+        "translation": "네가 숨겨둔 물건은 손대지 않은 채 남아 있었다. 그것들도 같이 들어 있다.",
+        "match_mode": "segment",
+        "trader_id": "54cb57776803fa99248b456e"
+      },
+      {
+        "id": "ri.lost_item.113.prapor",
+        "source": "Your {0} isn't coming back.",
+        "translation": "네 {0}은 돌아오지 않는다.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.lost_item.114.therapist",
+        "source": "Your {0} isn't coming back.",
+        "translation": "네 {0}은 돌아오지 않는다.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb57776803fa99248b456e",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.lost_item.115.prapor",
+        "source": "The {0} is gone for good.",
+        "translation": "{0}은 완전히 사라졌다.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.lost_item.116.therapist",
+        "source": "The {0} is gone for good.",
+        "translation": "{0}은 완전히 사라졌다.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb57776803fa99248b456e",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.lost_item.117.prapor",
+        "source": "Say goodbye to the {0}.",
+        "translation": "{0}과는 작별해라.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.lost_item.118.therapist",
+        "source": "Say goodbye to the {0}.",
+        "translation": "{0}과는 작별해라.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb57776803fa99248b456e",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.kept_item.119.prapor",
+        "source": "At least the {0} made it.",
+        "translation": "적어도 {0}은 무사히 돌아왔다.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.kept_item.120.therapist",
+        "source": "At least the {0} made it.",
+        "translation": "적어도 {0}은 무사히 돌아왔다.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb57776803fa99248b456e",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.kept_item.121.prapor",
+        "source": "Your {0} is in there.",
+        "translation": "네 {0}은 안에 들어 있다.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.kept_item.122.therapist",
+        "source": "Your {0} is in there.",
+        "translation": "네 {0}은 안에 들어 있다.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb57776803fa99248b456e",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.kept_item.123.prapor",
+        "source": "The {0} came through fine.",
+        "translation": "{0}은 무사히 돌아왔다.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.kept_item.124.therapist",
+        "source": "The {0} came through fine.",
+        "translation": "{0}은 무사히 돌아왔다.",
+        "match_mode": "segment_template",
+        "trader_id": "54cb57776803fa99248b456e",
+        "note": "{0} is the ItemHelper.GetItemName() output and is deliberately preserved unchanged."
+      },
+      {
+        "id": "ri.opener.011.modded_insurer",
+        "source": "Someone went out to recover your gear.",
+        "translation": "누군가 장비를 회수하러 갔습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.opener.012.modded_insurer",
+        "source": "The recovery is done.",
+        "translation": "회수 작업이 끝났습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.opener.013.modded_insurer",
+        "source": "Had a look at the spot where you went down.",
+        "translation": "당신이 쓰러진 장소를 확인했습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.opener.014.modded_insurer",
+        "source": "Here is what came back.",
+        "translation": "회수된 물건입니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.opener.015.modded_insurer",
+        "source": "Your claim has been processed.",
+        "translation": "보험 청구 처리가 완료되었습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_none.046.modded_insurer",
+        "source": "Nothing was recovered.",
+        "translation": "아무것도 회수되지 않았습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_none.047.modded_insurer",
+        "source": "The kit was stripped clean.",
+        "translation": "장비가 남김없이 털렸습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_none.048.modded_insurer",
+        "source": "There was nothing left at the scene.",
+        "translation": "현장에는 아무것도 남아 있지 않았습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_little.049.modded_insurer",
+        "source": "Only a little of it was still there.",
+        "translation": "아주 조금만 남아 있었습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_little.050.modded_insurer",
+        "source": "Most of your kit is gone.",
+        "translation": "장비 대부분이 사라졌습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_little.051.modded_insurer",
+        "source": "A small part of it was recovered.",
+        "translation": "일부만 회수되었습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_half.052.modded_insurer",
+        "source": "About half of it came back.",
+        "translation": "절반 정도가 돌아왔습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_half.053.modded_insurer",
+        "source": "A decent share of the kit was recovered.",
+        "translation": "장비의 상당 부분이 회수되었습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_half.054.modded_insurer",
+        "source": "Some of it survived, some of it did not.",
+        "translation": "일부는 남았고, 일부는 사라졌습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_most.055.modded_insurer",
+        "source": "Most of it came back.",
+        "translation": "대부분이 돌아왔습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_most.056.modded_insurer",
+        "source": "Only a few pieces are missing.",
+        "translation": "몇 개만 없어졌습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_most.057.modded_insurer",
+        "source": "Nearly the whole kit was recovered.",
+        "translation": "장비가 거의 전부 회수되었습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_all.058.modded_insurer",
+        "source": "Everything was recovered.",
+        "translation": "모든 장비가 회수되었습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_all.059.modded_insurer",
+        "source": "The whole kit came back untouched.",
+        "translation": "장비 전부가 손대지 않은 상태로 돌아왔습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.outcome_all.060.modded_insurer",
+        "source": "Nothing was missing.",
+        "translation": "없어진 물건은 없습니다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.pmc_extracted.061.modded_insurer",
+        "source": "Whoever put you down walked out with the rest.",
+        "translation": "널 쓰러뜨린 놈이 나머지를 챙겨서 빠져나갔다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.pmc_extracted.062.modded_insurer",
+        "source": "The one who got you knew exactly what he was looking at, and he made it to an exit.",
+        "translation": "널 잡은 놈은 뭘 챙겨야 하는지 정확히 알았고, 탈출에도 성공했다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.pmc_extracted.063.modded_insurer",
+        "source": "A PMC did it, and he was long gone before anyone got there.",
+        "translation": "PMC 소행이다. 사람들이 도착하기도 전에 이미 멀리 빠져나갔어.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.pmc_died.064.modded_insurer",
+        "source": "The one who killed you never made it out himself.",
+        "translation": "널 죽인 놈도 결국 빠져나가지 못했다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.pmc_died.065.modded_insurer",
+        "source": "Whoever shot you died not long after. That is the only reason you're seeing any of this.",
+        "translation": "널 쏜 놈도 얼마 지나지 않아 죽었다. 네가 이 물건들을 다시 보는 이유는 그거다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.pmc_died.066.modded_insurer",
+        "source": "He took your kit and then somebody took his. Fair trade, in a way.",
+        "translation": "그놈이 네 장비를 가져갔고, 또 누군가 그놈의 장비를 가져갔다. 어떻게 보면 공평한 거래지.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.player_scav_extracted.067.modded_insurer",
+        "source": "A scav with a real head on his shoulders cleaned you out and got clear.",
+        "translation": "머리 좀 굴릴 줄 아는 스캐브가 네 물건을 털어 탈출했다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.player_scav_extracted.068.modded_insurer",
+        "source": "Whoever was wearing that scav rig knew what all of it was worth.",
+        "translation": "그 스캐브 장비를 입고 있던 놈은 네 물건 값어치를 제대로 알고 있었다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.player_scav_extracted.069.modded_insurer",
+        "source": "That was no wild man. He took his pick and walked out.",
+        "translation": "그냥 떠돌이 스캐브가 아니었다. 챙길 것만 골라 들고 빠져나갔다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.player_scav_died.070.modded_insurer",
+        "source": "The scav that got you was still picking through your kit when somebody else got him.",
+        "translation": "널 잡은 스캐브는 네 장비를 뒤지다가 다른 누군가에게 당했다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.player_scav_died.071.modded_insurer",
+        "source": "He took his time over your body. It cost him.",
+        "translation": "네 시체를 뒤지는 데 시간을 너무 썼고, 그 대가를 치렀다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.player_scav_died.072.modded_insurer",
+        "source": "Whoever it was, he never got clear with it.",
+        "translation": "누구였든 그 물건을 들고 빠져나가지는 못했다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.scav_extracted.073.modded_insurer",
+        "source": "A scav got you, took whatever caught his eye, and wandered off.",
+        "translation": "스캐브 하나가 널 잡고 눈에 띄는 것만 챙겨서 사라졌다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.scav_extracted.074.modded_insurer",
+        "source": "Some wild man shot you and helped himself. No taste, thankfully.",
+        "translation": "떠돌이 스캐브가 널 쏘고 제멋대로 챙겨 갔다. 다행히 보는 눈은 없더군.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.scav_extracted.075.modded_insurer",
+        "source": "A scav did it. They never do know what the good stuff is.",
+        "translation": "스캐브 소행이다. 좋은 물건이 뭔지는 늘 모르지.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.scav_died.076.modded_insurer",
+        "source": "The scav that killed you didn't last the hour.",
+        "translation": "널 죽인 스캐브는 한 시간도 못 버텼다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.scav_died.077.modded_insurer",
+        "source": "He died a stone's throw from your body, still carrying it.",
+        "translation": "네 시체에서 얼마 떨어지지도 않은 곳에서, 네 물건을 든 채 죽었다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.scav_died.078.modded_insurer",
+        "source": "Whatever he took off you, he didn't keep it long.",
+        "translation": "네게서 뭘 가져갔든 오래 가지고 있지는 못했다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.boss_extracted.079.modded_insurer",
+        "source": "You picked a fight with the wrong people. They kept what they liked.",
+        "translation": "건드리지 말아야 할 놈들과 싸웠군. 마음에 든 건 그들이 가져갔다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.boss_extracted.080.modded_insurer",
+        "source": "That crowd doesn't leave much behind.",
+        "translation": "그런 놈들은 뒤에 별로 남겨두지 않는다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.boss_extracted.081.modded_insurer",
+        "source": "Their kind hold the ground and take their time over a body.",
+        "translation": "그 부류는 자리를 지키면서 시체를 천천히 뒤진다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.boss_died.082.modded_insurer",
+        "source": "Whatever is left of the man who killed you is lying next to you.",
+        "translation": "널 죽인 놈도 네 곁에 쓰러져 있었다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.boss_died.083.modded_insurer",
+        "source": "His people held the ground, but he didn't walk away either.",
+        "translation": "그쪽 사람들이 자리를 지켰지만, 정작 그놈도 살아서 떠나진 못했다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.boss_died.084.modded_insurer",
+        "source": "He didn't outlive you by much.",
+        "translation": "그놈도 너보다 오래 살지는 못했다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.no_killer.085.modded_insurer",
+        "source": "Nobody had been near it. It was lying exactly where you left it.",
+        "translation": "아무도 근처에 오지 않았다. 네가 두고 간 그대로 놓여 있었다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.no_killer.086.modded_insurer",
+        "source": "No one had touched any of it.",
+        "translation": "아무도 손대지 않았다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.no_killer.087.modded_insurer",
+        "source": "Whatever happened out there, it wasn't a person that did it.",
+        "translation": "밖에서 무슨 일이 있었든, 사람에게 당한 건 아니었다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.took_nothing.088.modded_insurer",
+        "source": "Whoever killed you walked off without taking a thing - better equipped than you already, most likely.",
+        "translation": "널 죽인 놈은 아무것도 가져가지 않고 떠났다. 아마 이미 너보다 장비가 좋았겠지.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.took_nothing.089.modded_insurer",
+        "source": "He didn't want any of it. Make of that what you will.",
+        "translation": "그놈은 네 물건을 하나도 원하지 않았다. 그게 무슨 뜻인지는 알아서 생각해.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.took_nothing.090.modded_insurer",
+        "source": "Whoever it was left the lot where it fell and walked out.",
+        "translation": "누구였든 전부 떨어진 자리에 그대로 두고 빠져나갔다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.nothing_found.091.modded_insurer",
+        "source": "Whatever was there had gone long before anyone arrived.",
+        "translation": "사람들이 도착하기 훨씬 전에 있던 물건이 전부 사라졌다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.nothing_found.092.modded_insurer",
+        "source": "Someone had already been through it.",
+        "translation": "누군가 이미 한바탕 뒤지고 간 뒤였다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.nothing_found.093.modded_insurer",
+        "source": "There was nothing at the spot at all.",
+        "translation": "그 장소에는 아무것도 남아 있지 않았다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.dropped.094.modded_insurer",
+        "source": "The gear you'd left lying about came back on its own - nobody had been near it.",
+        "translation": "네가 따로 버려둔 장비는 그대로 돌아왔다. 아무도 근처에 가지 않았어.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.dropped.095.modded_insurer",
+        "source": "Whatever you dropped before you went down was still sitting there.",
+        "translation": "쓰러지기 전에 버려둔 물건은 그대로 그 자리에 있었다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.dropped.096.modded_insurer",
+        "source": "The pieces you'd stashed were untouched. Those are in there too.",
+        "translation": "네가 숨겨둔 물건은 손대지 않은 채 남아 있었다. 그것들도 같이 들어 있다.",
+        "match_mode": "segment",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.lost_item.097.modded_insurer",
+        "source": "Your {0} isn't coming back.",
+        "translation": "네 {0}은 돌아오지 않는다.",
+        "match_mode": "segment_template",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.lost_item.098.modded_insurer",
+        "source": "The {0} is gone for good.",
+        "translation": "{0}은 완전히 사라졌다.",
+        "match_mode": "segment_template",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.lost_item.099.modded_insurer",
+        "source": "Say goodbye to the {0}.",
+        "translation": "{0}과는 작별해라.",
+        "match_mode": "segment_template",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.kept_item.100.modded_insurer",
+        "source": "At least the {0} made it.",
+        "translation": "적어도 {0}은 무사히 돌아왔다.",
+        "match_mode": "segment_template",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.kept_item.101.modded_insurer",
+        "source": "Your {0} is in there.",
+        "translation": "네 {0}은 안에 들어 있다.",
+        "match_mode": "segment_template",
+        "trader_id": "@modded_insurance_providers"
+      },
+      {
+        "id": "ri.kept_item.102.modded_insurer",
+        "source": "The {0} came through fine.",
+        "translation": "{0}은 무사히 돌아왔다.",
+        "match_mode": "segment_template",
+        "trader_id": "@modded_insurance_providers"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "hazelify.BushWhackerStandalone",
+  "plugin_name": "BushWhackerStandalone-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "BushWhacker",
+      "translation": "수풀 감속 제거"
+    }
+  ],
+  "entries": [
+    {
+      "section": "BushWhacker",
+      "key": "BushWhacker - On/Off",
+      "source_display_name": "BushWhacker - On/Off",
+      "source_description": "Enable BushWhacker - removes slowdown from bushes",
+      "translation_display_name": "수풀 이동 감속 제거",
+      "translation_description": "수풀 이동 감속 제거 여부를 설정합니다.",
+      "values": []
+    }
+  ]
+}

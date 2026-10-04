@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "xyz.drakia.quickmovetocontainer",
+  "plugin_name": "DrakiaXYZ-QuickMoveToContainer",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Target All Open Containers",
+      "source_display_name": "Target All Open Containers",
+      "source_description": null,
+      "translation_display_name": "열린 모든 컨테이너 대상으로 사용",
+      "translation_description": "열려 있는 모든 컨테이너를 순서대로 확인해 이동 대상을 찾습니다.",
+      "values": []
+    }
+  ]
+}

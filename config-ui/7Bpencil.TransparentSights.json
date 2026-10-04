@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "7Bpencil.TransparentSights",
+  "plugin_name": "SPT.TransparentSights-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Depth of Field",
+      "translation": "심도 효과"
+    },
+    {
+      "source": "Depth of Field Advanced",
+      "translation": "심도 효과 고급"
+    },
+    {
+      "source": "General",
+      "translation": "일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "*",
+      "key": "Aperture",
+      "source_display_name": "Aperture",
+      "source_description": null,
+      "translation_display_name": "조리개",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Blur Quality",
+      "source_display_name": "Blur Quality",
+      "source_description": null,
+      "translation_display_name": "블러 품질",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Blur Size",
+      "source_display_name": "Blur Size",
+      "source_description": null,
+      "translation_display_name": "블러 크기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Blur Size in Optic",
+      "source_display_name": "Blur Size in Optic",
+      "source_description": null,
+      "translation_display_name": "조준경 사용 시 블러 크기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Blur transparent sights",
+      "source_display_name": "Blur transparent sights",
+      "source_description": null,
+      "translation_display_name": "투명 조준기 블러 적용",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Disable transparency in optics",
+      "source_display_name": "Disable transparency in optics",
+      "source_description": null,
+      "translation_display_name": "조준경 사용 중 투명화 비활성화",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Focal Length",
+      "source_display_name": "Focal Length",
+      "source_description": null,
+      "translation_display_name": "초점 거리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Focal Size",
+      "source_display_name": "Focal Size",
+      "source_description": null,
+      "translation_display_name": "초점 크기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Foreground Overlap",
+      "source_display_name": "Foreground Overlap",
+      "source_description": null,
+      "translation_display_name": "전경 겹침",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Make entire weapon transparent",
+      "source_display_name": "Make entire weapon transparent",
+      "source_description": null,
+      "translation_display_name": "무기 전체 투명화",
+      "translation_description": "",
+      "values": []
+    }
+  ]
+}

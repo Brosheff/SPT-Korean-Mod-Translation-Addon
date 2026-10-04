@@ -1,0 +1,1649 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.tylevo.tacticalservicescontrol",
+  "mod_name": "Tylevo's Tactical Service Control",
+  "source_mod_version": "1.3.13",
+  "source_target_spt": "4.1.5",
+  "channels": {
+    "locale": [
+      {
+        "key": "66f51f3a0000000000000a01 Name",
+        "source": "TerraGroup TSC Uplink",
+        "translation": "테라그룹 TSC 업링크",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "66f51f3a0000000000000a01 ShortName",
+        "source": "TSC",
+        "translation": "TSC"
+      },
+      {
+        "key": "66f51f3a0000000000000a01 Description",
+        "source": "A compact Tactical Services Control device used to authorize TerraGroup field support packages.",
+        "translation": "테라그룹의 현장 지원 패키지를 승인하는 데 사용하는 소형 TSC 업링크 장치입니다."
+      },
+      {
+        "key": "66f51f3a0000000000000a60 FullName",
+        "source": "UH-60 Pilot",
+        "translation": "UH-60 파일럿"
+      },
+      {
+        "key": "66f51f3a0000000000000a60 FirstName",
+        "source": "UH-60",
+        "translation": "UH-60"
+      },
+      {
+        "key": "66f51f3a0000000000000a60 Nickname",
+        "source": "Pilot",
+        "translation": "파일럿"
+      },
+      {
+        "key": "66f51f3a0000000000000a60 Location",
+        "source": "Tactical Services Control",
+        "translation": "전술 서비스 통제"
+      },
+      {
+        "key": "66f51f3a0000000000000a60 Description",
+        "source": "TerraGroup tactical airlift pilot, TSC Uplink supplier, and cargo liaison.",
+        "translation": "테라그룹 전술 공수 파일럿이자 TSC 업링크 공급 및 화물 연락 담당자입니다."
+      },
+      {
+        "key": "66f51f3a0000000000000b01 name",
+        "source": "Open Channel",
+        "translation": "통신 채널 개방",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "66f51f3a0000000000000b01 description",
+        "source": "I have a contact who keeps aircraft working around Tarkov. Calls himself Pilot. His dispatch link has gone quiet, and I need a few basic parts to restore the channel. Bring me two bundles of wires and two capacitors. Whatever you already have will do. Once the line is working, I will introduce you. He needs someone on the ground who can follow through.",
+        "translation": "내가 아는 연락책이 하나 있어. 타르코프 주변에서 항공기를 굴리는 친구인데, 자신을 파일럿이라고 부르지. 그쪽 지휘 통신이 끊겨서 채널을 복구하려면 기본 부품 몇 개가 필요해. 전선 뭉치 두 개와 축전기 두 개를 가져와 줘. 원래 가지고 있던 물건이어도 상관없어. 회선이 복구되면 소개해 주지. 그쪽도 지상에서 일을 확실히 처리할 사람이 필요하거든.",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "66f51f3a0000000000000b01 startedMessageText",
+        "source": "Two bundles of wires and two capacitors. Bring them here and I will get the dispatch channel working.",
+        "translation": "전선 뭉치 두 개와 축전기 두 개야. 가져오면 지휘 통신 채널을 복구하지.",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b01 successMessageText",
+        "source": "The channel is stable. Pilot is expecting you. He can arrange support, but you will need a handset paired to his network first. Talk to him about putting one together.",
+        "translation": "채널이 안정됐어. 파일럿이 기다리고 있을 거야. 지원을 주선해 줄 수는 있지만, 먼저 그쪽 네트워크와 연동된 단말기가 필요해. 직접 얘기해서 하나 조립해 달라고 해.",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b01 failMessageText",
+        "source": "The work is still waiting. Come back when you are ready.",
+        "translation": "일은 아직 그대로야. 준비되면 다시 와.",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b01 acceptPlayerMessage",
+        "source": "I can do that.",
+        "translation": "알겠습니다. 해보죠.",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b01 declinePlayerMessage",
+        "source": "I'll come back when I'm ready.",
+        "translation": "준비되면 다시 오겠습니다.",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b01 completePlayerMessage",
+        "source": "The job is done.",
+        "translation": "일은 끝났습니다.",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b01 changeQuestMessageText",
+        "source": "The job is done.",
+        "translation": "일은 끝났습니다.",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b01 note",
+        "source": "Open Channel",
+        "translation": "통신 채널 개방",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a000000000000c102",
+        "source": "Hand over 2 Bundles of wires to Mechanic",
+        "translation": "메카닉에게 전선 뭉치 2개 건네주기",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a000000000000c103",
+        "source": "Hand over 2 Capacitors to Mechanic",
+        "translation": "메카닉에게 축전기 2개 건네주기",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source_path": "addons/pilot-questline/db/CustomQuests/5a7c2eca46aef81a7ca2145d/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b02 name",
+        "source": "Some Assembly Required",
+        "translation": "조립이 필요해",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "66f51f3a0000000000000b02 description",
+        "source": "Mechanic says you can be relied on. Good. I can put together a TSC handset, but I need something to build it from. Bring me one Broken GPhone smartphone, one set of Electronic components, and a Screwdriver. Used or bought makes no difference. Hand over those three things and this job is finished. I will assemble the handset here while we sort out the network.",
+        "translation": "메카닉이 믿을 만하다고 하더군. 좋아. TSC 단말기를 하나 조립할 수 있는데, 기반이 될 물건이 필요해. 고장 난 GPhone 스마트폰 하나, 전자 부품 한 세트, 드라이버 하나를 가져와. 쓰던 물건이든 산 물건이든 상관없어. 세 가지를 넘기면 이 일은 끝이야. 네트워크 문제를 정리하는 동안 단말기는 여기서 조립해 두지.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "66f51f3a0000000000000b02 startedMessageText",
+        "source": "One Broken GPhone, one set of Electronic components, and one Screwdriver. That is all I need for the assembly.",
+        "translation": "고장 난 GPhone 하나, 전자 부품 한 세트, 드라이버 하나. 조립에 필요한 건 그게 전부야.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b02 successMessageText",
+        "source": "That is everything. I can work with this. The handset will stay with me until we have a reliable signal for pairing. Come back for the radio job; once that connection is working, the TSC is yours.",
+        "translation": "전부 갖췄군. 이 정도면 충분해. 안정적인 신호를 확보해서 연동할 때까지 단말기는 내가 맡아 두지. 다음은 무선 통신 작업이야. 연결만 살아나면 TSC는 네 거다.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b02 failMessageText",
+        "source": "The work is still waiting. Come back when you are ready.",
+        "translation": "일은 아직 그대로야. 준비되면 다시 와.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b02 acceptPlayerMessage",
+        "source": "I can do that.",
+        "translation": "알겠습니다. 해보죠.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b02 declinePlayerMessage",
+        "source": "I'll come back when I'm ready.",
+        "translation": "준비되면 다시 오겠습니다.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b02 completePlayerMessage",
+        "source": "The job is done.",
+        "translation": "일은 끝났습니다.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b02 changeQuestMessageText",
+        "source": "The job is done.",
+        "translation": "일은 끝났습니다.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b02 note",
+        "source": "Some Assembly Required",
+        "translation": "조립이 필요해",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a000000000000c202",
+        "source": "Hand over 1 Broken GPhone smartphone to Pilot",
+        "translation": "파일럿에게 고장 난 GPhone 스마트폰 1개 건네주기",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a000000000000c203",
+        "source": "Hand over 1 Electronic components to Pilot",
+        "translation": "파일럿에게 전자 부품 1개 건네주기",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a000000000000c204",
+        "source": "Hand over 1 Screwdriver to Pilot",
+        "translation": "파일럿에게 드라이버 1개 건네주기",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b03 name",
+        "source": "Back on the Air",
+        "translation": "통신 재개",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "66f51f3a0000000000000b03 description",
+        "source": "The handset is assembled. Now we need a reliable link to get it online. Take this Radio repeater to the antenna at the weather station on Shoreline. Install it at the antenna's base and give it forty seconds to establish the connection. Then survive and extract from Shoreline and report back. I will pair your handset and hand it over. If you lose the repeater before installation, replacements are available from my shop for 20,000 roubles. A completed installation stays done; if you do not make it out afterward, survive a later Shoreline raid.",
+        "translation": "단말기 조립은 끝났어. 이제 온라인에 연결하려면 안정적인 통신 링크가 필요해. 이 무선 중계기를 해안선 기상관측소의 안테나로 가져가. 안테나 밑에 설치하고 연결이 잡힐 때까지 40초 동안 기다려. 그다음 해안선에서 생존해서 탈출한 뒤 돌아와 보고해. 단말기를 네트워크에 연동해서 넘겨주지. 설치 전에 중계기를 잃어버리면 내 상점에서 20,000루블에 다시 살 수 있어. 설치를 완료했다면 그 상태는 유지된다. 설치 후 탈출하지 못했더라도 나중에 해안선 레이드에서 생존해서 탈출하면 돼.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "66f51f3a0000000000000b03 startedMessageText",
+        "source": "The repeater is ready to collect. Install it at the weather-station antenna on Shoreline, then survive and extract. Keep the handset job in mind: the connection comes first.",
+        "translation": "중계기는 받아갈 수 있게 준비해 뒀어. 해안선 기상관측소 안테나에 설치한 다음 생존해서 탈출해. 단말기를 잊지 마. 먼저 연결부터 살려야 한다.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b03 successMessageText",
+        "source": "Signal is stable and your handset is paired. Here is your TerraGroup TSC Uplink, along with payment for the work. Replacements are available from my shop for 50,000 roubles. You can now purchase and request the available support packages. Service prices and authorization limits still apply.",
+        "translation": "신호가 안정됐고 단말기 연동도 끝났다. 여기 테라그룹 TSC 업링크와 작업 대금이야. 분실하면 내 상점에서 50,000루블에 새 단말기를 살 수 있어. 이제 이용 가능한 지원 패키지를 구매하고 요청할 수 있다. 서비스 가격과 승인 보유 한도는 그대로 적용돼.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b03 failMessageText",
+        "source": "The work is still waiting. Come back when you are ready.",
+        "translation": "일은 아직 그대로야. 준비되면 다시 와.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b03 acceptPlayerMessage",
+        "source": "I can do that.",
+        "translation": "알겠습니다. 해보죠.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b03 declinePlayerMessage",
+        "source": "I'll come back when I'm ready.",
+        "translation": "준비되면 다시 오겠습니다.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b03 completePlayerMessage",
+        "source": "The job is done.",
+        "translation": "일은 끝났습니다.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b03 changeQuestMessageText",
+        "source": "The job is done.",
+        "translation": "일은 끝났습니다.",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a0000000000000b03 note",
+        "source": "Back on the Air",
+        "translation": "통신 재개",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a000000000000c302",
+        "source": "Install a Radio repeater at the weather-station antenna on Shoreline",
+        "translation": "해안선 기상관측소 안테나에 무선 중계기 설치하기",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      },
+      {
+        "key": "66f51f3a000000000000c303",
+        "source": "Survive and extract from Shoreline after installing the repeater",
+        "translation": "중계기 설치 후 해안선에서 생존 후 탈출",
+        "trader_id": "66f51f3a0000000000000a60",
+        "source_path": "addons/pilot-questline/db/CustomQuests/66f51f3a0000000000000a60/Locales/en.json"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "tsc.ui.exact.001",
+        "source": "TERRAGROUP",
+        "translation": "테라그룹",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.002",
+        "source": "TACTICAL SERVICES",
+        "translation": "전술 지원 서비스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.003",
+        "source": "DEPLOY AUTHORIZATION",
+        "translation": "지원 승인 사용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.004",
+        "source": "Select a purchased service.",
+        "translation": "구매한 지원 서비스를 선택하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.005",
+        "source": "NO AUTHORIZATIONS HELD",
+        "translation": "보유한 지원 승인이 없습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.006",
+        "source": "BACKSPACE  CLOSE",
+        "translation": "BACKSPACE  닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.007",
+        "source": "TAP TO DEPLOY",
+        "translation": "눌러서 사용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.008",
+        "source": "BACKSPACE  CANCEL",
+        "translation": "BACKSPACE  취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.009",
+        "source": "UPLINK DEPLOY",
+        "translation": "업링크 지원 사용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.010",
+        "source": "ESTABLISHING SECURE LINK",
+        "translation": "보안 링크 연결 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.011",
+        "source": "UAV RECON LINK",
+        "translation": "UAV 정찰 링크",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.012",
+        "source": "ACTIVE",
+        "translation": "활성",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.013",
+        "source": "ENCRYPTED // LIVE FEED",
+        "translation": "암호화 // 실시간 수신",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.014",
+        "source": "FWD",
+        "translation": "전방",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.015",
+        "source": "AFT",
+        "translation": "후방",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.016",
+        "source": "TIME",
+        "translation": "시간",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.017",
+        "source": "RANGE",
+        "translation": "거리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.018",
+        "source": "CONTACTS",
+        "translation": "접촉",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.019",
+        "source": "NEXT SWEEP --.-s",
+        "translation": "다음 탐색 --.-초",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.020",
+        "source": "REQUESTER-LOCAL // LIVE HUD",
+        "translation": "요청자 전용 // 실시간 HUD",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.021",
+        "source": "DANGER CLOSE",
+        "translation": "위험 근접",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.022",
+        "source": "LOCAL SAFETY ADVISORY",
+        "translation": "지역 안전 경고",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.023",
+        "source": "A-10 STRAFE TASKED",
+        "translation": "A-10 기총소사 임무 할당",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.024",
+        "source": "GUN RUN APPROACHING YOUR AREA",
+        "translation": "기총소사기가 현재 지역으로 접근 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.025",
+        "source": "INBOUND SOON",
+        "translation": "곧 진입",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.026",
+        "source": "SEEK",
+        "translation": "즉시",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.027",
+        "source": "COVER NOW",
+        "translation": "엄폐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.028",
+        "source": "THIS CALL DOES NOT DELAY THE STRIKE",
+        "translation": "이 통화로 공격이 지연되지 않습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.029",
+        "source": "LINK LOST",
+        "translation": "연결 끊김",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.030",
+        "source": "UNKNOWN",
+        "translation": "알 수 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.031",
+        "source": "PICKUP",
+        "translation": "회수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.032",
+        "source": "CARGO ONLY",
+        "translation": "화물 전용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.033",
+        "source": "ONE PASS",
+        "translation": "1회",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.034",
+        "source": "TWO PASSES",
+        "translation": "2회",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.035",
+        "source": "READY",
+        "translation": "준비 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.036",
+        "source": "SPOTTER",
+        "translation": "표적지시",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.037",
+        "source": "UPLINK",
+        "translation": "업링크",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.038",
+        "source": "UH-60 SERVICES",
+        "translation": "UH-60 서비스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.039",
+        "source": "FIRE SUPPORT",
+        "translation": "화력 지원",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.040",
+        "source": "RECON",
+        "translation": "정찰",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.041",
+        "source": "SERVICES",
+        "translation": "서비스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.042",
+        "source": "A-10 STRAFE",
+        "translation": "A-10 기총소사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.043",
+        "source": "A-10 DOUBLE PASS",
+        "translation": "A-10 2회 기총소사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.044",
+        "source": "UH-60 EXTRACTION",
+        "translation": "UH-60 탈출",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.045",
+        "source": "UH-60 CARGO TRANSFER",
+        "translation": "UH-60 화물 이송",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.046",
+        "source": "UAV RECON",
+        "translation": "UAV 정찰",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.047",
+        "source": "UAV FOCUSED SWEEP",
+        "translation": "UAV 집중 탐색",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.048",
+        "source": "FOCUSED SWEEP",
+        "translation": "집중 탐색",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.049",
+        "source": "Authorize helicopter pickup. Aim to mark the LZ.",
+        "translation": "헬리콥터 회수를 승인합니다. 착륙 지점을 지정하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.050",
+        "source": "Dispatch cargo pickup. Handling is charged when items are loaded.",
+        "translation": "화물 회수 헬리콥터를 파견합니다. 물품 적재 시 취급 비용이 부과됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.051",
+        "source": "Authorize autocannon pass. Aim to mark the gun run.",
+        "translation": "기관포 기총소사를 승인합니다. 공격 경로를 지정하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.052",
+        "source": "Authorize two autocannon passes. Aim to mark the gun run.",
+        "translation": "기관포 기총소사 2회를 승인합니다. 공격 경로를 지정하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.053",
+        "source": "Authorize local recon scan from the Uplink.",
+        "translation": "업링크에서 주변 정찰 탐색을 승인합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.054",
+        "source": "Authorize narrow fast-refresh recon from the Uplink.",
+        "translation": "업링크에서 좁은 범위를 빠르게 갱신하는 정찰을 승인합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.055",
+        "source": "Authorize tactical support.",
+        "translation": "전술 지원을 승인합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.056",
+        "source": "Pilot",
+        "translation": "파일럿",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.057",
+        "source": "HISTORY",
+        "translation": "기록",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.058",
+        "source": "STASH BALANCE",
+        "translation": "보관함 잔액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.059",
+        "source": "SYNC",
+        "translation": "동기화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.060",
+        "source": "REFRESH",
+        "translation": "새로고침",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.061",
+        "source": "SERVICE / AVAILABILITY",
+        "translation": "서비스 / 이용 가능 여부",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.062",
+        "source": "COST",
+        "translation": "비용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.063",
+        "source": "HELD / LIMIT",
+        "translation": "보유 / 한도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.064",
+        "source": "REVIEW PURCHASE",
+        "translation": "구매 검토",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.065",
+        "source": "Refresh to load your services and stash balance.",
+        "translation": "새로고침하여 서비스와 보관함 잔액을 불러오십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.066",
+        "source": "PILOT / SERVICES",
+        "translation": "파일럿 / 서비스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.067",
+        "source": "CONFIRM PURCHASE",
+        "translation": "구매 확인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.068",
+        "source": "AUTHORIZATION COST",
+        "translation": "승인 비용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.069",
+        "source": "AFTER PURCHASE",
+        "translation": "구매 후",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.070",
+        "source": "CANCEL",
+        "translation": "취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.071",
+        "source": "CAS / A-10 THUNDERBOLT II",
+        "translation": "근접항공지원 / A-10 썬더볼트 II",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.072",
+        "source": "AIRLIFT / UH-60 BLACK HAWK",
+        "translation": "공수 / UH-60 블랙 호크",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.073",
+        "source": "LOGISTICS / UH-60 BLACK HAWK",
+        "translation": "군수 / UH-60 블랙 호크",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.074",
+        "source": "ISR / FOCUSED SWEEP",
+        "translation": "정보·감시·정찰 / 집중 탐색",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.075",
+        "source": "ISR / UAV RECONNAISSANCE",
+        "translation": "정보·감시·정찰 / UAV 정찰",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.076",
+        "source": "RECOVERY PRICE",
+        "translation": "복구 결제 금액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.077",
+        "source": "DISPATCH COST",
+        "translation": "파견 비용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.078",
+        "source": "Processing your purchase. Please wait.",
+        "translation": "구매를 처리 중입니다. 잠시 기다려 주십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.079",
+        "source": "Another purchase is being processed.",
+        "translation": "다른 구매를 처리 중입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.080",
+        "source": "Refreshing your stash and authorizations...",
+        "translation": "보관함과 지원 승인을 새로고침하는 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.081",
+        "source": "Refresh to load current prices and availability.",
+        "translation": "새로고침하여 현재 가격과 이용 가능 여부를 불러오십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.082",
+        "source": "A previous purchase needs recovery. Review it to continue without a second completed charge.",
+        "translation": "이전 구매를 복구해야 합니다. 중복 결제 없이 계속하려면 복구 내용을 검토하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.083",
+        "source": "This service is currently unavailable.",
+        "translation": "현재 이 서비스를 이용할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.084",
+        "source": "Authorization limit reached for this service.",
+        "translation": "이 서비스의 승인 보유 한도에 도달했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.085",
+        "source": "This service requires a stash payment source for pre-raid purchases.",
+        "translation": "레이드 전 구매에는 보관함 결제 수단이 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.086",
+        "source": "Not enough stash funds for this authorization.",
+        "translation": "이 승인을 구매하기 위한 보관함 자금이 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.087",
+        "source": "Cargo only. No PMC extraction. Sending items is included in the service price.",
+        "translation": "화물 전용 서비스입니다. PMC는 탈출하지 않습니다. 물품 이송 비용은 서비스 가격에 포함됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.088",
+        "source": "Adds one authorization. Deploy it from your Uplink menu in raid.",
+        "translation": "지원 승인 1개를 추가합니다. 레이드 중 업링크 메뉴에서 사용하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.089",
+        "source": "Call in one A-10 autocannon pass over your designated target.",
+        "translation": "지정한 표적에 A-10 기관포 기총소사 1회를 요청합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.090",
+        "source": "Two A-10 autocannon passes over your designated target.",
+        "translation": "지정한 표적에 A-10 기관포 기총소사 2회를 요청합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.091",
+        "source": "Request a UH-60 pickup at your marked landing zone.",
+        "translation": "지정한 착륙 지점으로 UH-60 회수를 요청합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.092",
+        "source": "Send cargo out of the raid by helicopter while you stay on the ground.",
+        "translation": "플레이어는 현장에 남고 화물만 헬리콥터로 레이드 밖으로 이송합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.093",
+        "source": "Request a focused sweep for nearby contacts.",
+        "translation": "주변 접촉 대상을 집중 탐색합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.094",
+        "source": "Scan the surrounding area for nearby contacts.",
+        "translation": "주변 지역의 접촉 대상을 탐색합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.095",
+        "source": "REVIEW PURCHASE RECOVERY",
+        "translation": "구매 복구 검토",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.096",
+        "source": "ORIGINAL PURCHASE PRICE",
+        "translation": "기존 구매 금액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.097",
+        "source": "CURRENT LIST PRICE",
+        "translation": "현재 판매 금액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.098",
+        "source": "UNAVAILABLE",
+        "translation": "사용 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.099",
+        "source": "PAYMENT RECOVERY",
+        "translation": "결제 복구",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.100",
+        "source": "NO DUPLICATE CHARGE",
+        "translation": "중복 결제 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.101",
+        "source": "Continue the interrupted purchase. Retrying cannot create a second completed charge.",
+        "translation": "중단된 구매를 계속합니다. 다시 시도해도 완료된 결제가 중복으로 발생하지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.102",
+        "source": "Purchase one authorization for a future raid. Payment is taken from your stash.",
+        "translation": "향후 레이드에서 사용할 지원 승인 1개를 구매합니다. 대금은 보관함에서 지불됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.103",
+        "source": "CARGO ONLY: This service does not extract your PMC. Sending items is included in the service price.",
+        "translation": "화물 전용: 이 서비스는 PMC를 탈출시키지 않습니다. 물품 이송 비용은 서비스 가격에 포함됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.104",
+        "source": "CONFIRM RETRY",
+        "translation": "재시도 확인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.105",
+        "source": "INSUFFICIENT FUNDS",
+        "translation": "자금 부족",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.106",
+        "source": "OUTCOME UNKNOWN",
+        "translation": "결과 확인 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.107",
+        "source": "CURRENCY INVALID",
+        "translation": "통화 설정 오류",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.108",
+        "source": "LOCKED",
+        "translation": "잠김",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.109",
+        "source": "LIMIT REACHED",
+        "translation": "한도 도달",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.110",
+        "source": "AVAILABLE",
+        "translation": "이용 가능",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.111",
+        "source": "PROCESSING PURCHASE",
+        "translation": "구매 처리 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.112",
+        "source": "SYNCING",
+        "translation": "동기화 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.113",
+        "source": "REFRESH TO CONTINUE",
+        "translation": "계속하려면 새로고침",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.114",
+        "source": "REVIEW RECOVERY",
+        "translation": "복구 검토",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.115",
+        "source": "SERVICE LOCKED",
+        "translation": "서비스 잠김",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.116",
+        "source": "PURCHASE HISTORY",
+        "translation": "구매 기록",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.117",
+        "source": "Recent completed authorization purchases.",
+        "translation": "최근 완료된 지원 승인 구매 내역입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.118",
+        "source": "PURCHASED (LOCAL TIME)",
+        "translation": "구매 시각 (현지 시간)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.119",
+        "source": "SERVICE",
+        "translation": "서비스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.120",
+        "source": "QUANTITY",
+        "translation": "수량",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.121",
+        "source": "TOTAL PAID",
+        "translation": "총 결제액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.122",
+        "source": "PREVIOUS",
+        "translation": "이전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.123",
+        "source": "NEXT",
+        "translation": "다음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.124",
+        "source": "Loading purchase history...",
+        "translation": "구매 기록을 불러오는 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.125",
+        "source": "Updating purchase history...",
+        "translation": "구매 기록을 갱신하는 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.126",
+        "source": "Purchase history is unavailable.\nREFRESH to load your recent purchases.",
+        "translation": "구매 기록을 불러올 수 없습니다.\n새로고침하여 최근 구매 내역을 불러오십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.127",
+        "source": "No recent purchases recorded.\nCompleted authorization purchases appear here.",
+        "translation": "최근 구매 기록이 없습니다.\n완료된 지원 승인 구매 내역이 여기에 표시됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.128",
+        "source": "TIME UNAVAILABLE",
+        "translation": "시간 확인 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.129",
+        "source": "UNKNOWN SERVICE",
+        "translation": "알 수 없는 서비스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.130",
+        "source": "Complete Back on the Air for Pilot",
+        "translation": "파일럿의 '통신 재개'를 완료하십시오",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.131",
+        "source": "All Fika players must update TSC to support service currencies",
+        "translation": "서비스 통화를 지원하려면 모든 Fika 플레이어가 TSC를 업데이트해야 합니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.132",
+        "source": "A-10 tasking is unavailable while Danger Close autonomous air operations are active.",
+        "translation": "Danger Close 자율 항공작전이 활성화된 동안에는 A-10 임무를 요청할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.133",
+        "source": "UH-60 cargo transfer is host-only in Fika. Non-host clients cannot purchase or deploy it.",
+        "translation": "Fika에서 UH-60 화물 이송은 호스트 전용입니다. 비호스트 클라이언트는 구매하거나 사용할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.134",
+        "source": "UH-60 cargo transfer is disabled because Enable mid-raid item transfer is off in F12.",
+        "translation": "F12에서 '레이드 중 물품 이송 활성화'가 꺼져 있어 UH-60 화물 이송을 사용할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.135",
+        "source": "AUTONOMOUS OPS",
+        "translation": "자율 작전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.136",
+        "source": "FIKA HOST ONLY",
+        "translation": "FIKA 호스트 전용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.137",
+        "source": "CARGO DISABLED",
+        "translation": "화물 이송 비활성화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.138",
+        "source": "AUTHORIZATION LIMIT REACHED",
+        "translation": "승인 한도 도달",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.139",
+        "source": "PURCHASE ALREADY PROCESSING",
+        "translation": "구매 처리 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.140",
+        "source": "SERVER PAYMENT UNAVAILABLE",
+        "translation": "서버 결제 사용 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.141",
+        "source": "PROFILE VERIFY FAILED",
+        "translation": "프로필 확인 실패",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.142",
+        "source": "SERVICE UNAVAILABLE",
+        "translation": "서비스 사용 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.143",
+        "source": "SERVER PAYMENT DISABLED",
+        "translation": "서버 결제 비활성화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.144",
+        "source": "PURCHASE CURRENCY CHANGED",
+        "translation": "구매 통화 변경됨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.145",
+        "source": "SERVER CURRENCY INVALID",
+        "translation": "서버 통화 설정 오류",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.146",
+        "source": "PROFILE SAVE FAILED",
+        "translation": "프로필 저장 실패",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.147",
+        "source": "AUTHORIZATION DENIED",
+        "translation": "승인 거부됨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.148",
+        "source": "No authorization was granted.",
+        "translation": "지원 승인이 발급되지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.149",
+        "source": "Deploy an existing authorization from the Uplink before buying more.",
+        "translation": "추가 구매 전에 업링크에서 보유 중인 승인을 하나 사용하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.150",
+        "source": "Wait a moment, then try the purchase again.",
+        "translation": "잠시 기다린 뒤 다시 구매하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.151",
+        "source": "Check the TSC server and dashboard connection.",
+        "translation": "TSC 서버와 대시보드 연결을 확인하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.152",
+        "source": "The server could not verify the active profile.",
+        "translation": "서버에서 현재 프로필을 확인하지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.153",
+        "source": "Use stash-backed payment or carried funds.",
+        "translation": "보관함 기반 결제 또는 휴대 중인 자금을 사용하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.154",
+        "source": "Refresh TSC pricing and confirm the purchase again.",
+        "translation": "TSC 가격 정보를 새로고침한 뒤 구매를 다시 확인하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.155",
+        "source": "The server administrator must select RUB, USD, EUR, GP, or BTC.",
+        "translation": "서버 관리자가 RUB, USD, EUR, GP 또는 BTC 중 하나를 선택해야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.156",
+        "source": "The debit could not be saved to the profile.",
+        "translation": "차감 내역을 프로필에 저장하지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.157",
+        "source": "Support station is busy. Wait for the current request or cooldown to finish.",
+        "translation": "지원 통제소가 사용 중입니다. 현재 요청 또는 재사용 대기시간이 끝날 때까지 기다리십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.158",
+        "source": "No active UAV recon link.",
+        "translation": "활성화된 UAV 정찰 링크가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.159",
+        "source": "Set payment mode to PhoneAuthorizations or Hybrid.",
+        "translation": "결제 방식을 PhoneAuthorizations 또는 Hybrid로 설정하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.160",
+        "source": "TSC TARGETING: Confirm with Middle Mouse or Enter. Cancel with Backspace.",
+        "translation": "TSC 표적지정: 마우스 가운데 버튼 또는 Enter로 확인합니다. Backspace로 취소합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.161",
+        "source": "TSC DIRECTION: Move the mouse, then confirm with Middle Mouse or Enter.",
+        "translation": "TSC 방향 지정: 마우스를 움직인 뒤 마우스 가운데 버튼 또는 Enter로 확인합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.162",
+        "source": "A-10 STRAFE INBOUND - SEEK COVER NOW!",
+        "translation": "A-10 기총소사 접근 중 - 즉시 엄폐하십시오!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.163",
+        "source": "A-10 warning received.",
+        "translation": "A-10 경고를 수신했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.164",
+        "source": "TSC UPLINK: A-10 tasking cancelled. Stand down.",
+        "translation": "TSC 업링크: A-10 임무가 취소됐습니다. 경계를 해제하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.165",
+        "source": "UH-60 cargo transfer is unavailable because the local player controller was not ready.",
+        "translation": "로컬 플레이어 컨트롤러가 준비되지 않아 UH-60 화물 이송을 사용할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.166",
+        "source": "UH-60 cargo transfer is temporarily unavailable to non-host Fika players because native cargo transactions and delivery are not synchronized with the raid host.",
+        "translation": "기본 화물 거래 및 배송이 레이드 호스트와 동기화되지 않으므로 비호스트 Fika 플레이어는 현재 UH-60 화물 이송을 사용할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.167",
+        "source": "UH-60 cargo transfer is unavailable on this raid. No native delivery controller was initialized.",
+        "translation": "이번 레이드에서는 UH-60 화물 이송을 사용할 수 없습니다. 기본 배송 컨트롤러가 초기화되지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.168",
+        "source": "UH-60 cargo transfer is not ready for this player. Nothing was removed from your inventory.",
+        "translation": "이 플레이어에게 UH-60 화물 이송이 준비되지 않았습니다. 인벤토리에서 제거된 물품은 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.169",
+        "source": "UH-60 cargo transfer could not be opened. Nothing was removed from your inventory.",
+        "translation": "UH-60 화물 이송 화면을 열지 못했습니다. 인벤토리에서 제거된 물품은 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.170",
+        "source": "AUTH REQ",
+        "translation": "승인 필요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.171",
+        "source": "A-10 strafe",
+        "translation": "A-10 기총소사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.172",
+        "source": "A-10 double pass",
+        "translation": "A-10 2회 기총소사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.173",
+        "source": "UH-60 extraction",
+        "translation": "UH-60 탈출",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.174",
+        "source": "UH-60 cargo transfer",
+        "translation": "UH-60 화물 이송",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.175",
+        "source": "UAV recon",
+        "translation": "UAV 정찰",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.176",
+        "source": "focused sweep",
+        "translation": "집중 탐색",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.exact.177",
+        "source": "fire support",
+        "translation": "화력 지원",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.dynamic.001",
+        "source": "Station busy. Ready in {MM}:{SS}.",
+        "translation": "지원 통제소 사용 중. {MM}:{SS} 후 준비됩니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.002",
+        "source": "Press [{key}] to purchase.",
+        "translation": "[{key}] 키를 눌러 구매하십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.003",
+        "source": "RELEASE [{key}] TO RESTORE WEAPON",
+        "translation": "무기로 돌아가려면 [{key}] 키를 놓으십시오",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.004",
+        "source": "ETA ~{seconds} SEC",
+        "translation": "도착 예정 ~{seconds}초",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.005",
+        "source": "[{key}] STOW / REOPEN UNTIL INBOUND",
+        "translation": "진입 전까지 [{key}] 수납 / 다시 열기",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.006",
+        "source": "NEXT SWEEP {seconds}s",
+        "translation": "다음 탐색 {seconds}초",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.007",
+        "source": "{seconds} SEC",
+        "translation": "{seconds}초",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.008",
+        "source": "{minutes} MIN",
+        "translation": "{minutes}분",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.009",
+        "source": "{duration}s / {range}m radius / scan {interval}s",
+        "translation": "{duration}초 / 반경 {range}m / {interval}초마다 탐색",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.010",
+        "source": "Recover the interrupted {service} purchase first.",
+        "translation": "먼저 중단된 {service} 구매를 복구하십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.011",
+        "source": "Latest {count} purchases returned. Older purchases are not shown.",
+        "translation": "최근 구매 {count}건을 불러왔습니다. 그보다 오래된 구매는 표시되지 않습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.012",
+        "source": "{first}-{last} OF {count} RECENT PURCHASES",
+        "translation": "최근 구매 {count}건 중 {first}-{last}",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.013",
+        "source": "PAGE {page} / {pages}",
+        "translation": "페이지 {page} / {pages}",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.014",
+        "source": "Synchronization failed: {message}",
+        "translation": "동기화 실패: {message}",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "tsc.ui.dynamic.015",
+        "source": "Recovering the interrupted {service} purchase...",
+        "translation": "중단된 {service} 구매를 복구하는 중...",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.016",
+        "source": "Submitting {service} purchase...",
+        "translation": "{service} 구매를 제출하는 중...",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.017",
+        "source": "{service} authorization purchased.",
+        "translation": "{service} 지원 승인을 구매했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.018",
+        "source": "The purchase outcome is uncertain ({message}). REFRESH, then review recovery for this service.",
+        "translation": "구매 결과를 확인할 수 없습니다 ({message}). 새로고침한 뒤 이 서비스의 복구 내용을 검토하십시오.",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "tsc.ui.dynamic.019",
+        "source": "Paid {amount}. {service} authorization ready. Press [{key}] to deploy from the Uplink.",
+        "translation": "{amount} 지불 완료. {service} 지원 승인이 준비됐습니다. 업링크에서 사용하려면 [{key}] 키를 누르십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.020",
+        "source": "{service} authorization ready. Press [{key}] to deploy from the Uplink.",
+        "translation": "{service} 지원 승인이 준비됐습니다. 업링크에서 사용하려면 [{key}] 키를 누르십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.021",
+        "source": "{service} authorization limit reached. You already hold {count}. Deploy one from the Uplink before buying more.",
+        "translation": "{service} 승인 보유 한도에 도달했습니다. 현재 {count}개를 보유 중입니다. 추가 구매 전에 업링크에서 하나를 사용하십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.022",
+        "source": "{service} authorization limit reached. Deploy one from the Uplink before buying more.",
+        "translation": "{service} 승인 보유 한도에 도달했습니다. 추가 구매 전에 업링크에서 하나를 사용하십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.023",
+        "source": "{service} authorization denied: {detail}",
+        "translation": "{service} 승인 거부: {detail}",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.024",
+        "source": "{service} is unavailable in the host's FireSupport settings.",
+        "translation": "호스트의 FireSupport 설정에서 {service} 서비스를 사용할 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.025",
+        "source": "{service} is unavailable: TerraGroup server config is not synced.",
+        "translation": "{service} 사용 불가: 테라그룹 서버 설정이 동기화되지 않았습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.026",
+        "source": "{count} held. Deploy one from the Uplink before buying more.",
+        "translation": "{count}개 보유 중입니다. 추가 구매 전에 업링크에서 하나를 사용하십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.027",
+        "source": "{balanceLabel}: {amount}.",
+        "translation": "{balanceLabel}: {amount}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.028",
+        "source": "{service} is disabled in host settings.",
+        "translation": "호스트 설정에서 {service} 서비스가 비활성화되어 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.029",
+        "source": "Server reason: {reason}.",
+        "translation": "서버 사유: {reason}.",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "tsc.ui.dynamic.030",
+        "source": "Fire support requires {cost}. {balanceLabel} are still syncing.",
+        "translation": "화력 지원에 {cost}이(가) 필요합니다. {balanceLabel} 정보는 아직 동기화 중입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.031",
+        "source": "Fire support requires {cost}. {balanceLabel}: {balance}.",
+        "translation": "화력 지원에 {cost}이(가) 필요합니다. {balanceLabel}: {balance}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.032",
+        "source": "{service} requires TerraGroup server payment confirmation.",
+        "translation": "{service} 서비스를 이용하려면 테라그룹 서버의 결제 확인이 필요합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.033",
+        "source": "{service} requires a TerraGroup phone authorization.",
+        "translation": "{service} 서비스를 이용하려면 테라그룹 전화기 지원 승인이 필요합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.034",
+        "source": "DANGER CLOSE: A-10 STRAFE TASKED. ETA ~{seconds}s. SEEK COVER.",
+        "translation": "위험 근접: A-10 기총소사 임무 할당. 약 {seconds}초 후 도착. 엄폐하십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.035",
+        "source": "TerraGroup TSC Uplink not found in SpecialSlot4.",
+        "translation": "SpecialSlot4에서 테라그룹 TSC 업링크를 찾을 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.dynamic.036",
+        "source": "TerraGroup TSC Uplink not found in carried inventory.",
+        "translation": "휴대 인벤토리에서 테라그룹 TSC 업링크를 찾을 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tsc.ui.dynamic.037",
+        "source": "TSC UPLINK: PHONE RINGING. Press [{key}] to answer.",
+        "translation": "TSC 업링크: 전화 수신 중. 받으려면 [{key}] 키를 누르십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.038",
+        "source": "TSC UPLINK: A-10 strafe expected in approximately {seconds} seconds. Seek cover.",
+        "translation": "TSC 업링크: 약 {seconds}초 후 A-10 기총소사가 예상됩니다. 엄폐하십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.039",
+        "source": "RECON LINK ACTIVE - {MM}:{SS} remaining.",
+        "translation": "정찰 링크 활성 - {MM}:{SS} 남음.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.040",
+        "source": "{service} active for {seconds}s.",
+        "translation": "{service} 활성화. 지속 시간 {seconds}초.",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.041",
+        "source": "Stash {currency}",
+        "translation": "보관함 {currency}",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.042",
+        "source": "Available {currency}",
+        "translation": "사용 가능 {currency}",
+        "match_mode": "template"
+      },
+      {
+        "id": "tsc.ui.dynamic.043",
+        "source": "Carried {currency}",
+        "translation": "휴대 {currency}",
+        "match_mode": "template"
+      }
+    ],
+    "npc_messages": [
+      {
+        "id": "tsc.pilot.mail.001",
+        "source": "^Cargo delivered\\. Your transferred items are ready for collection\\. Manifest (?<token>[0-9A-F]{12})\\.$",
+        "translation": "화물 배송 완료. 이송한 물품을 수령할 수 있다. 적하 목록 {token}.",
+        "match_mode": "regex_segment",
+        "trader_id": "66f51f3a0000000000000a60"
+      }
+    ]
+  }
+}

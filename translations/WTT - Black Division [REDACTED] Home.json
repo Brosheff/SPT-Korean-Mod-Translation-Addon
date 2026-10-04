@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.blackdiv.tacticaltoaster",
+  "mod_name": "WTT - Black Division [REDACTED] Home",
+  "channels": {
+    "locale": [
+      {
+        "key": "ScavRole/BlackDiv",
+        "source": "Black Div.",
+        "translation": "블랙 디비전",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

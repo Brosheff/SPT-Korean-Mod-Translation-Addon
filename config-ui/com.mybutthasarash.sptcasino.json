@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.mybutthasarash.sptcasino",
+  "plugin_name": "SPT Casino",
+  "categories": [
+    {
+      "source": "Menu",
+      "translation": "메뉴"
+    },
+    {
+      "source": "Poker",
+      "translation": "포커"
+    },
+    {
+      "source": "Slots",
+      "translation": "슬롯"
+    },
+    {
+      "source": "Horse Racing",
+      "translation": "경마"
+    },
+    {
+      "source": "Casino War",
+      "translation": "카지노 워"
+    },
+    {
+      "source": "Blackjack",
+      "translation": "블랙잭"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Menu",
+      "key": "Show the task-bar tab",
+      "source_display_name": "Show the task-bar tab",
+      "source_description": "Adds CASINO to the bar along the bottom of the menu, so the tables open from the hideout, the flea market or a trader screen and not just the main menu.",
+      "translation_display_name": "작업 표시줄 탭 표시",
+      "translation_description": "메뉴 하단 작업 표시줄에 CASINO 탭을 추가합니다. 메인 메뉴뿐 아니라 은신처, 벼룩시장, 상인 화면에서도 카지노를 열 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Menu",
+      "key": "Put the tab on the right",
+      "source_display_name": "Put the tab on the right",
+      "source_description": "Sits the tab with CHARACTER and the rest instead of beside MAIN MENU and HIDEOUT. The tab moves a second or two after this is changed.",
+      "translation_display_name": "탭을 오른쪽에 배치",
+      "translation_description": "CASINO 탭을 MAIN MENU와 HIDEOUT 옆이 아니라 CHARACTER 등이 있는 오른쪽 그룹에 배치합니다. 변경 후 1~2초 뒤에 탭이 이동합니다.",
+      "values": []
+    },
+    {
+      "section": "Poker",
+      "key": "Buy-in",
+      "source_display_name": "Buy-in",
+      "source_description": "What sitting down at the poker table costs, in roubles, and the size of the chip stack you get for it. The blinds stay at 10,000 / 20,000 whatever this is set to, so a smaller buy-in is a shorter stack and a livelier game rather than a cheaper one. The figure in brackets is how many big blinds deep that leaves you.",
+      "translation_display_name": "바이인",
+      "translation_description": "포커 테이블에 참가할 때 내는 루블과 그에 따라 받는 칩 스택의 크기입니다. 이 값과 관계없이 블라인드는 10,000 / 20,000으로 유지되므로, 바이인을 낮추면 게임이 싸지는 것이 아니라 스택이 짧아져 더 빠르게 진행됩니다. 괄호 안 숫자는 보유하게 되는 빅 블라인드 수입니다.",
+      "values": []
+    },
+    {
+      "section": "Slots",
+      "key": "No maximum stake",
+      "source_display_name": "No maximum stake",
+      "source_description": "Off by default. The slot machine caps a spin at 50,000 roubles (or 500 dollars or euros) because it pays up to a thousand times the stake, and a capped win is still 50,000,000. Turn this on to bet as much as you like. The minimum stake is unaffected.",
+      "translation_display_name": "최대 베팅액 제한 해제",
+      "translation_description": "기본값은 꺼짐입니다. 슬롯머신은 베팅액의 최대 1,000배를 지급하므로 1회 베팅을 50,000루블(또는 500달러/유로)로 제한합니다. 제한된 상태에서도 최대 당첨금은 50,000,000입니다. 켜면 원하는 만큼 베팅할 수 있습니다. 최소 베팅액은 바뀌지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Horse Racing",
+      "key": "No maximum slip total",
+      "source_display_name": "No maximum slip total",
+      "source_description": "Off by default. A slip is capped at 2,000,000 roubles (or 20,000 dollars or euros) in total, across every bet on it. Unlike the other tables' limits this one is arithmetic rather than caution -- the longest price on the card pays over 750 for one, and a bigger slip would overflow the payout -- so turning this on lifts the limit to that bound and no further. The minimum stake is unaffected.",
+      "translation_display_name": "베팅 슬립 총액 제한 해제",
+      "translation_description": "기본값은 꺼짐입니다. 하나의 베팅 슬립에 포함된 모든 베팅의 합계는 2,000,000루블(또는 20,000달러/유로)로 제한됩니다. 다른 테이블과 달리 이 제한은 안전 장치가 아니라 계산상 한계 때문입니다. 최고 배당이 750배를 넘으므로 더 큰 금액은 지급액 오버플로를 일으킬 수 있습니다. 켜면 계산 가능한 한도까지만 제한이 올라갑니다. 최소 베팅액은 바뀌지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Casino War",
+      "key": "No maximum bet",
+      "source_display_name": "No maximum bet",
+      "source_description": "Off by default. The war table takes up to 500,000 roubles (or 5,000 dollars or euros) on the main bet and the same on the tie bet. Turn this on to bet up to 100,000,000 on either. The minimum bet is unaffected.",
+      "translation_display_name": "최대 베팅 제한 해제",
+      "translation_description": "기본값은 꺼짐입니다. 카지노 워 테이블은 메인 베팅과 타이 베팅에 각각 최대 500,000루블(또는 5,000달러/유로)까지 받을 수 있습니다. 켜면 각 베팅에 최대 100,000,000까지 걸 수 있습니다. 최소 베팅액은 바뀌지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Blackjack",
+      "key": "Enforce the table maximum",
+      "source_display_name": "Enforce the table maximum",
+      "source_description": "Refuses a wager above the table limit instead of quietly trimming it.",
+      "translation_display_name": "테이블 최대 베팅액 적용",
+      "translation_description": "테이블 한도를 넘는 베팅을 자동으로 줄이지 않고 거부합니다.",
+      "values": []
+    }
+  ]
+}

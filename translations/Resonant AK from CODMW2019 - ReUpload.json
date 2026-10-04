@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "source3.ak_resonant",
+  "mod_name": "Resonant AK from CODMW2019 - ReUpload",
+  "channels": {
+    "locale": [
+      {
+        "key": "676cf3143a78aa252404fb73 Name",
+        "source": "Custom Barrel \"Resonant\" For AK Rifle",
+        "translation": "AK 소총용 \"공명\" 커스텀 총열",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "676cf3143a78aa252404fb73 ShortName",
+        "source": "ResonantBar",
+        "translation": "공명"
+      },
+      {
+        "key": "676cf3143a78aa252404fb73 Description",
+        "source": "Yeah you must come for this barrel and think it's cool,that's why you download and use this mod.",
+        "translation": "이 총열이 멋져 보여서 찾아오셨겠죠. 그래서 이 모드를 내려받아 사용하고 계신 것일 겁니다."
+      },
+      {
+        "key": "676cf3143a78aa252404fb74 Name",
+        "source": "Custom Stock \"Prototype\" For AKM Rifle",
+        "translation": "AKM 소총용 \"프로토타입\" 커스텀 개머리판"
+      },
+      {
+        "key": "676cf3143a78aa252404fb74 ShortName",
+        "source": "\"Prototype\"Fixed",
+        "translation": "\"프로토타입\""
+      },
+      {
+        "key": "676cf3143a78aa252404fb74 Description",
+        "source": "Special version of a custom stock.It seems not that special.",
+        "translation": "커스텀 개머리판의 특수형입니다. 그렇게 특별해 보이지는 않습니다."
+      },
+      {
+        "key": "676cf3143a78aa252404fb75 Name",
+        "source": "Custom Stock \"Prototype\" For AK103/AK74M Rifle",
+        "translation": "AK-103/AK-74M 소총용 \"프로토타입\" 커스텀 개머리판"
+      },
+      {
+        "key": "676cf3143a78aa252404fb75 ShortName",
+        "source": "\"Prototype\"AK103",
+        "translation": "\"프로토타입\" AK103"
+      },
+      {
+        "key": "676cf3143a78aa252404fb75 Description",
+        "source": "Special version of a custom stock.It seems not that special.Compatible with modernized AK rifle such as AK-103,AK-74M and AK-12.",
+        "translation": "커스텀 개머리판의 특수형입니다. 그렇게 특별해 보이지는 않습니다. AK-103, AK-74M, AK-12 같은 현대화 AK 소총과 호환됩니다."
+      },
+      {
+        "key": "676cf3143a78aa252404fb76 Name",
+        "source": "Custom Pistol Grip \"Stippled Grip\" For AK Rifle",
+        "translation": "AK 소총용 \"스티플링 그립\" 커스텀 권총손잡이"
+      },
+      {
+        "key": "676cf3143a78aa252404fb76 ShortName",
+        "source": "\"Stippled\"",
+        "translation": "\"스티플링\""
+      },
+      {
+        "key": "676cf3143a78aa252404fb76 Description",
+        "source": "Special version of a custom AK pistol grip.It seems not that special.",
+        "translation": "커스텀 AK 권총손잡이의 특수형입니다. 그렇게 특별해 보이지는 않습니다."
+      },
+      {
+        "key": "676cf3143a78aa252404fb77 Name",
+        "source": "Custom 7.62*39 Magazine \"Kendall Ballistics\" For AK Rifle",
+        "translation": "40발, 켄달 발리스틱스 AK 7.62x39 탄창"
+      },
+      {
+        "key": "676cf3143a78aa252404fb77 ShortName",
+        "source": "KB 40rd",
+        "translation": "KB 40발"
+      },
+      {
+        "key": "676cf3143a78aa252404fb77 Description",
+        "source": "Enhanced 40rd extended mag with the \"Sleight of Hand\" feature which allows user to reload faster than normal AK magazine.",
+        "translation": "\"빠른 손놀림(Sleight of Hand)\" 기능을 적용한 강화형 40발 확장 탄창으로, 일반 AK 탄창보다 더 빠르게 재장전할 수 있습니다."
+      },
+      {
+        "key": "676cf3143a78aa252404fb78 Name",
+        "source": "Custom Foregrip \"Resonant\"",
+        "translation": "\"공명\" 커스텀 전방손잡이"
+      },
+      {
+        "key": "676cf3143a78aa252404fb78 ShortName",
+        "source": "Resonant FG",
+        "translation": "공명"
+      },
+      {
+        "key": "676cf3143a78aa252404fb78 Description",
+        "source": "Very light and tough foregrip.Provides excellent handling and recoil control.",
+        "translation": "매우 가볍고 튼튼한 전방손잡이입니다. 뛰어난 조작성과 반동 제어 성능을 제공합니다."
+      },
+      {
+        "key": "676cf3143a78aa252404fb79 Name",
+        "source": "Custom Mount Dovetail \"Resonant\" For AK Rifle",
+        "translation": "AK 소총용 \"공명\" 커스텀 도브테일 마운트"
+      },
+      {
+        "key": "676cf3143a78aa252404fb79 ShortName",
+        "source": "Resonant Rail",
+        "translation": "공명"
+      },
+      {
+        "key": "676cf3143a78aa252404fb79 Description",
+        "source": "Special version of a custom AK dovetail mount.It seems not that special.",
+        "translation": "커스텀 AK 도브테일 마운트의 특수형입니다. 그렇게 특별해 보이지는 않습니다."
+      },
+      {
+        "key": "676cf3143a78aa252404fb7a Name",
+        "source": "OKP-7 \"Resonant\" Special Version",
+        "translation": "OKP-7 \"공명\" 특수형"
+      },
+      {
+        "key": "676cf3143a78aa252404fb7a ShortName",
+        "source": "OKP-7 Resonant",
+        "translation": "OKP-7 공명"
+      },
+      {
+        "key": "676cf3143a78aa252404fb7a Description",
+        "source": "Special version of an OKP-7 reflex sight. Has a dot reticle by default.",
+        "translation": "OKP-7 도트 조준경의 특수형입니다. 기본적으로 도트 레티클을 사용합니다."
+      },
+      {
+        "key": "676cf3143a78aa252404fb7b Name",
+        "source": "Custom \"Resonant\" AK Rifle",
+        "translation": "\"공명\" 커스텀 AK 소총"
+      },
+      {
+        "key": "676cf3143a78aa252404fb7b ShortName",
+        "source": "Resonant",
+        "translation": "공명"
+      },
+      {
+        "key": "676cf3143a78aa252404fb7b Description",
+        "source": "The original EFT's AK rifles are too weak.This one is an advanced version and may be a good late-game rifle.",
+        "translation": "기본 EFT의 AK 소총은 너무 약합니다. 이 총은 강화형이며 후반부에 쓰기 좋은 소총이 될 수도 있습니다."
+      }
+    ]
+  }
+}

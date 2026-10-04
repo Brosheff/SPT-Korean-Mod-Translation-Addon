@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net48</TargetFramework><OutputType>Exe</OutputType><LangVersion>latest</LangVersion><ClientRoot Condition="'$(ClientRoot)' == ''">C:\spt 4.1</ClientRoot></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/MinimalLog.cs" Link="MinimalLog.cs" />
+    <Compile Remove="Fixtures/**/*.cs" />
+    <ProjectReference Include="Fixtures/Fixtures.csproj" />
+    <Compile Include="../../src/CasinoTextStyle.cs" Link="CasinoTextStyle.cs" />
+    <Compile Include="../../src/CasinoUiHooks.cs" Link="CasinoUiHooks.cs" />
+    <Compile Include="../../src/EditableProfiles.cs" Link="EditableProfiles.cs" />
+    <Compile Include="../../src/TextRules.cs" Link="TextRules.cs" />
+    <Compile Include="../../src/LocaleText.cs" Link="LocaleText.cs" />
+    <Compile Include="../../src/LocaleMode.cs" Link="LocaleMode.cs" />
+    <Reference Include="0Harmony"><HintPath>$(ClientRoot)/BepInEx/core/0Harmony.dll</HintPath></Reference>
+    <Reference Include="Newtonsoft.Json"><HintPath>$(ClientRoot)/EscapeFromTarkov_Data/Managed/Newtonsoft.Json.dll</HintPath></Reference>
+    <Reference Include="Mono.Cecil"><HintPath>$(ClientRoot)/BepInEx/core/Mono.Cecil.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

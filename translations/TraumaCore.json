@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.traumacore",
+  "mod_name": "TraumaCore",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "stop-dragging",
+        "source": "STOP DRAGGING",
+        "translation": "끌기 중지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "inspect-wounds",
+        "source": "INSPECT WOUNDS",
+        "translation": "상처 검사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "drag-body",
+        "source": "DRAG BODY",
+        "translation": "시체 끌기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "trajectories",
+        "source": "TRAJECTORIES",
+        "translation": "탄도 궤적",
+        "match_mode": "exact"
+      },
+      {
+        "id": "anatomy",
+        "source": "ANATOMY",
+        "translation": "해부 구조",
+        "match_mode": "exact"
+      },
+      {
+        "id": "anchors",
+        "source": "ANCHORS",
+        "translation": "기준점",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hide-back-hits",
+        "source": "HIDE BACK HITS",
+        "translation": "후면 피격 숨기기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "wound-inspection",
+        "source": "WOUND INSPECTION",
+        "translation": "상처 검사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "close",
+        "source": "CLOSE",
+        "translation": "닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "body-head",
+        "source": "Head",
+        "translation": "머리",
+        "match_mode": "segment"
+      },
+      {
+        "id": "body-chest",
+        "source": "Chest",
+        "translation": "흉부",
+        "match_mode": "segment"
+      },
+      {
+        "id": "body-stomach",
+        "source": "Stomach",
+        "translation": "복부",
+        "match_mode": "segment"
+      },
+      {
+        "id": "body-left-arm",
+        "source": "Left ?arm",
+        "translation": "왼팔",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "body-right-arm",
+        "source": "Right ?arm",
+        "translation": "오른팔",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "body-left-leg",
+        "source": "Left ?leg",
+        "translation": "왼다리",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "body-right-leg",
+        "source": "Right ?leg",
+        "translation": "오른다리",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "anatomy-heart",
+        "source": "Heart",
+        "translation": "심장",
+        "match_mode": "segment"
+      },
+      {
+        "id": "anatomy-brain",
+        "source": "Brain",
+        "translation": "뇌",
+        "match_mode": "segment"
+      },
+      {
+        "id": "anatomy-cervical-spine",
+        "source": "Cervical spine",
+        "translation": "경추",
+        "match_mode": "segment"
+      },
+      {
+        "id": "anatomy-thoracic-spine",
+        "source": "Thoracic spine",
+        "translation": "흉추",
+        "match_mode": "segment"
+      },
+      {
+        "id": "anatomy-ribcage",
+        "source": "Ribcage",
+        "translation": "흉곽",
+        "match_mode": "segment"
+      },
+      {
+        "id": "anatomy-skull",
+        "source": "Skull",
+        "translation": "두개골",
+        "match_mode": "segment"
+      },
+      {
+        "id": "anatomy-bone",
+        "source": "Bone",
+        "translation": "뼈",
+        "match_mode": "segment"
+      },
+      {
+        "id": "anatomy-exit-wound",
+        "source": "Exit wound",
+        "translation": "관통상",
+        "match_mode": "segment"
+      },
+      {
+        "id": "wound-depth",
+        "source": "(?<depth>[0-9]+)cm deep",
+        "translation": "{depth}cm 깊이",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "wound-depth-unknown",
+        "source": "Depth unknown",
+        "translation": "깊이 알 수 없음",
+        "match_mode": "segment"
+      },
+      {
+        "id": "death-direct-hit",
+        "source": "(?<count>[0-9]+) direct hits?: (?<damage>[0-9]+(?:\\.[0-9]+)?) damage",
+        "translation": "직접 피격 {count}회: 피해 {damage}",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "death-bleed-rate",
+        "source": "Bleed drain: (?<damage>[0-9]+(?:\\.[0-9]+)?) over (?<seconds>[0-9]+(?:\\.[0-9]+)?)s \\((?<rate>[0-9]+(?:\\.[0-9]+)?)/s\\)",
+        "translation": "출혈 손실: {damage}, {seconds}초 동안 ({rate}/초)",
+        "match_mode": "regex_segment",
+        "exclusive_group": "death-marker-bleed"
+      },
+      {
+        "id": "death-bleed-simple",
+        "source": "Bleed drain: (?<damage>[0-9]+(?:\\.[0-9]+)?)",
+        "translation": "출혈 손실: {damage}",
+        "match_mode": "regex_segment",
+        "exclusive_group": "death-marker-bleed"
+      },
+      {
+        "id": "bleed-report-title",
+        "source": "<b>BLEEDING REPORT - ",
+        "translation": "<b>출혈 보고서 - ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bleed-report-current-health",
+        "source": "Current health: ",
+        "translation": "현재 체력: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bleed-report-total",
+        "source": "Total bleed drain: ",
+        "translation": "총 출혈 손실: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bleed-report-light",
+        "source": "  Light/treatable wound drain: ",
+        "translation": "  경상/치료 가능 상처 손실: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bleed-report-heavy",
+        "source": "  Heavy/organ wound drain: ",
+        "translation": "  중상/장기 상처 손실: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bleed-report-estimated-time",
+        "source": "Estimated drain time: ",
+        "translation": "예상 손실 시간: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bleed-report-observed-time",
+        "source": "Observed drain time: ",
+        "translation": "관측 손실 시간: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bleed-report-seconds",
+        "source": " seconds",
+        "translation": "초",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bleed-report-estimated-rate",
+        "source": "Estimated drain rate: ",
+        "translation": "예상 손실 속도: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bleed-report-average-rate",
+        "source": "Average drain rate: ",
+        "translation": "평균 손실 속도: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bleed-report-unavailable",
+        "source": "Drain rate: unavailable for damage recorded before TraumaCore tracking",
+        "translation": "TraumaCore 추적 전에 기록된 피해라 출혈 손실 속도를 계산할 수 없습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "health-blood-loss-prefix",
+        "source": "Blood loss: ",
+        "translation": "혈액 손실: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "health-bruised",
+        "source": "Bruised",
+        "translation": "타박상",
+        "match_mode": "exact"
+      },
+      {
+        "id": "health-impact-shock",
+        "source": "Impact shock",
+        "translation": "충격 쇼크",
+        "match_mode": "exact"
+      },
+      {
+        "id": "health-spinal-fracture",
+        "source": "Spinal fracture",
+        "translation": "척추 골절",
+        "match_mode": "exact"
+      },
+      {
+        "id": "stim-description-full",
+        "source": "Advances active non-heart bleeds 90% toward clotting and halves all non-heart bleed damage while the stim is active, including new wounds. Does not affect heart hemorrhage.",
+        "translation": "활성화된 비심장 출혈의 응고 진행도를 90% 앞당기고, 자극제 효과가 지속되는 동안 새로 생긴 상처를 포함한 모든 비심장 출혈 피해를 절반으로 줄입니다. 심장 출혈에는 영향을 주지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "stim-description-duration",
+        "source": "Advances active non-heart bleeds 90% toward clotting and halves non-heart bleed damage for the stim's duration, including new wounds.",
+        "translation": "활성화된 비심장 출혈의 응고 진행도를 90% 앞당기고, 자극제 지속 시간 동안 새로 생긴 상처를 포함한 비심장 출혈 피해를 절반으로 줄입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "stim-non-heart-protection",
+        "source": "Non-heart bleed protection",
+        "translation": "비심장 출혈 보호",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

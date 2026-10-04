@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_0854f0495e35",
+  "mod_name": ".22lr Ammunition",
+  "channels": {
+    "locale": [
+      {
+        "key": "2b6a06054693ed3fa9c47542 Description",
+        "source": "A 40 grain premium competition .22LR cartridge traveling at 1080 fps. Engineered specifically for extreme cold weather reliability and match-grade accuracy used in Olympic Biathlon events.",
+        "translation": "1080fps로 비행하는 40그레인 프리미엄 경기용 .22LR 탄약입니다. 올림픽 바이애슬론에 사용되는 극저온 신뢰성과 매치급 명중률을 위해 설계되었습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "42fb193ffb1315101b1d0441 Description",
+        "source": "A 40 grain solid lead round nose .22LR cartridge traveling at 1090 fps. A reliable and consistent standard velocity round popular for target shooting and plinking.",
+        "translation": "1090fps로 비행하는 40그레인 납 라운드 노즈 .22LR 탄약입니다. 표적 사격과 플링킹에 널리 쓰이는 신뢰성 있고 일관적인 표준 속도 탄약입니다."
+      },
+      {
+        "key": "694c796b42ae52a1a940f8ba Description",
+        "source": "CCI Standard Velocity ammunition is loaded to the same velocity as CCI Green Tag and Pistol Match ammunition but priced less to help keep your training budget in line. The clean-burning propellant helps keep semi-automatic actions clean for longer shooting sessions. Can be used for plinking or competition training. This ammunition is new production and non-corrosive.",
+        "translation": "CCI Standard Velocity 탄약은 CCI Green Tag 및 Pistol Match 탄약과 동일한 속도로 장전되면서도, 훈련 예산을 절약할 수 있도록 더 저렴하게 책정되었습니다. 깨끗하게 연소되는 추진제는 반자동 총기 액션의 청결을 유지하여 더 긴 사격 세션을 가능하게 합니다. 유희용 사격(Plinking)이나 대회 훈련용으로 사용할 수 있습니다. 이 탄약은 신규 생산품이며 부식성 성분이 없습니다. CCI 사에서 제작하였습니다."
+      },
+      {
+        "key": "694efa39da82e820e540f8da Description",
+        "source": "CCI continues to set the standard for quality in the 22 Long Rifle (LR) cartridge. Newly manufactured by CCI, this load is designed for pest control such as killing rats, mice, and snakes at close range (under 15 feet).\n\nThis snake shot is an ideal load manufactured to the high standards that you’ve come to expect from CCI utilizing their clean burning propellants designed to keep actions cleaner. This cartridge is not intended to cycle semi-automatic firearms. (But for today only, it will)",
+        "translation": "CCI는 .22 Long Rifle (LR) 카트리지의 품질 표준을 계속해서 세워나가고 있습니다. CCI 사에서 신규 제조한 이 탄약은 근거리(15피트 미만)에서 쥐, 생쥐, 뱀과 같은 유해 동물을 구제하기 위해 설계되었습니다.\n\n이 뱀 사냥용 산탄(Snake shot)은 총기 액션을 깨끗하게 유지하도록 설계된 저잔여 추진제를 사용하는 등, 당신이 CCI에 기대하는 높은 수준으로 제작된 이상적인 탄약입니다. 본래 반자동 총기의 사이클을 작동시키도록 설계되지는 않았습니다. (하지만 오늘만은 작동할 것입니다.)"
+      },
+      {
+        "key": "69504d179eec4a16c140f8df Description",
+        "source": "Turn your plinking rifle or pistol into a Star Wars blaster with this one easy step.",
+        "translation": "이 간단한 단계 하나만으로 당신의 연습용 소총이나 권총을 스타워즈 블래스터로 바꿔보십시오. 파이니 마운틴(Piney Mountain) 사에서 제작하였습니다."
+      },
+      {
+        "key": "69e164b6a49a3fc18dff1845 Name",
+        "source": "50-round box of .22 Eley Sport",
+        "translation": ".22 Eley Sport 탄약 팩 (50발)"
+      },
+      {
+        "key": "69e164b6a49a3fc18dff1845 Description",
+        "source": "A cardboard box containing 50 rounds of .22LR Eley Sport ammunition.",
+        "translation": ".22 Eley Sport 탄약 50발이 들어 있는 종이 상자입니다."
+      },
+      {
+        "key": "69f2959e00bfd73b3de34f64 Name",
+        "source": "40mm XM-1822 Beehive",
+        "translation": "40mm XM-1822 비하이브"
+      },
+      {
+        "key": "69f2959e00bfd73b3de34f64 Description",
+        "source": "A 40mm shell containing 18 rounds of .22LR ammunition tracer rounds. PROTECT THE HIVE",
+        "translation": ".22LR 예광탄 18발을 담은 40mm 포탄입니다. 벌집을 지키십시오."
+      },
+      {
+        "key": "b972903f30708cd41c8265ba Description",
+        "source": "A 31 grain polymer-coated .22LR cartridge traveling at a blistering 1550 fps. The lightweight bullet and high velocity give it slightly better penetration and flesh damage, while the polymer coating reduces barrel fouling.",
+        "translation": "1550fps의 매우 빠른 속도로 비행하는 31그레인 폴리머 코팅 .22LR 탄약입니다. 가벼운 탄자와 높은 속도로 관통력과 살상력이 약간 향상되며, 폴리머 코팅은 총열 오염을 줄여줍니다."
+      },
+      {
+        "key": "e8e8cdc108d343708aa07b2d Description",
+        "source": "A 40 grain lubricated lead round nose .22LR cartridge traveling at 1073 fps. A highly regarded training ammunition known for its reliability and tight groupings.",
+        "translation": "1073fps로 비행하는 40그레인 윤활 납 라운드 노즈 .22LR 탄약입니다. 신뢰성과 촘촘한 탄착군으로 평가받는 훈련용 탄약입니다."
+      },
+      {
+        "key": "694ef9c8bc499b141d40f8d7 Description",
+        "source": "Want something that shoots flat and anchors varmints fast? Fill your mag with CCI® Minimag® 22 LR. The loads smoke out the muzzle at 1,640 fps and are loaded within industry standard pressures. They provide consistent, reliable performance thanks to CCI priming and brass. This performance comes at the cost of virtually non-existent penetration capability against any kind of armor.",
+        "translation": "탄도가 곧고 유해 조수를 신속하게 제압할 탄약을 찾으십니까? CCI® Minimag® 22 LR을 탄창에 채우십시오. 업계 표준 압력 범위 내에서 장전되며, 총구 속도는 초속 1,640피트에 달합니다. CCI 뇌관과 황동 탄피가 일관되고 신뢰할 수 있는 성능을 제공합니다. 다만 이러한 성능의 대가로, 어떤 종류의 방어구에도 관통력을 거의 발휘하지 못합니다."
+      },
+      {
+        "key": "69f291eaefe61a366be34f57 Name",
+        "source": "50-round box of .22 Eley Tenex Biathlon",
+        "translation": ".22 Eley Tenex Biathlon 탄약 팩 (50발)"
+      },
+      {
+        "key": "69f291eaefe61a366be34f57 Description",
+        "source": "A cardboard box containing 50 rounds of .22LR Eley Tenex Biathlon ammunition.",
+        "translation": ".22LR Eley Tenex Biathlon 탄약 50발이 들어 있는 종이 상자입니다."
+      },
+      {
+        "key": "69f292197231a3b514e34f59 Name",
+        "source": "100-round box of .22 CCI Minimag Hollowpoints",
+        "translation": ".22 CCI Minimag Hollowpoints 탄약 팩 (100발)"
+      },
+      {
+        "key": "69f292197231a3b514e34f59 Description",
+        "source": "A cardboard box containing 100 rounds of .22LR CCI Minimag Copper Hollowpoints ammunition.",
+        "translation": ".22LR CCI Minimag 구리 할로 포인트 탄약 100발이 들어 있는 종이 상자입니다."
+      },
+      {
+        "key": "69f2925e692935d7f1e34f5b Name",
+        "source": "50-round box of Lapua SK Standard Plus",
+        "translation": "Lapua SK Standard Plus 탄약 팩 (50발)"
+      },
+      {
+        "key": "69f2925e692935d7f1e34f5b Description",
+        "source": "A cardboard box containing 50 rounds of Lapua SK Standard Plus ammunition.",
+        "translation": "Lapua SK Standard Plus 탄약 50발이 들어 있는 종이 상자입니다."
+      }
+    ]
+  }
+}

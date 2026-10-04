@@ -1,0 +1,764 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "BossNotifier",
+  "mod_name": "BossNotifier",
+  "channels": {
+    "notifications": [
+      {
+        "id": "no_bosses",
+        "source": "No Bosses Located",
+        "translation": "위치가 확인된 보스가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "markers_on",
+        "source": "Boss Markers: ON",
+        "translation": "보스 마커: 켜짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "markers_off",
+        "source": "Boss Markers: OFF",
+        "translation": "보스 마커: 꺼짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "vicinity_single",
+        "source": "{name} has been detected in your vicinity.",
+        "translation": "주변에서 {name} 감지됨.",
+        "match_mode": "template"
+      },
+      {
+        "id": "vicinity_plural",
+        "source": "{name} have been detected in your vicinity.",
+        "translation": "주변에서 {name} 감지됨.",
+        "match_mode": "template"
+      },
+      {
+        "id": "eliminated_single",
+        "source": "{boss} has been eliminated. ☠",
+        "translation": "{boss} 처치됨. ☠",
+        "match_mode": "template"
+      },
+      {
+        "id": "eliminated_plural",
+        "source": "{boss} have been eliminated. ☠",
+        "translation": "{boss} 처치됨. ☠",
+        "match_mode": "template"
+      },
+      {
+        "id": "located_single",
+        "source": "{boss} has been located.",
+        "translation": "{boss} 위치 확인됨.",
+        "match_mode": "template"
+      },
+      {
+        "id": "located_plural",
+        "source": "{boss} have been located.",
+        "translation": "{boss} 위치 확인됨.",
+        "match_mode": "template"
+      },
+      {
+        "id": "located_single_detected",
+        "source": "{boss} has been located. ✓",
+        "translation": "{boss} 위치 확인됨. ✓",
+        "match_mode": "template"
+      },
+      {
+        "id": "located_plural_detected",
+        "source": "{boss} have been located. ✓",
+        "translation": "{boss} 위치 확인됨. ✓",
+        "match_mode": "template"
+      },
+      {
+        "id": "located_near_single",
+        "source": "{boss} has been located near {location}.",
+        "translation": "{boss} 위치 확인됨: {location} 인근.",
+        "match_mode": "template"
+      },
+      {
+        "id": "located_near_plural",
+        "source": "{boss} have been located near {location}.",
+        "translation": "{boss} 위치 확인됨: {location} 인근.",
+        "match_mode": "template"
+      },
+      {
+        "id": "located_near_single_detected",
+        "source": "{boss} has been located near {location}. ✓",
+        "translation": "{boss} 위치 확인됨: {location} 인근. ✓",
+        "match_mode": "template"
+      },
+      {
+        "id": "located_near_plural_detected",
+        "source": "{boss} have been located near {location}. ✓",
+        "translation": "{boss} 위치 확인됨: {location} 인근. ✓",
+        "match_mode": "template"
+      }
+    ],
+    "notification_terms": [
+      {
+        "id": "term_001",
+        "source": "Treatment Containers",
+        "translation": "정수장 컨테이너 구역",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_002",
+        "source": "Forest Gas Station",
+        "translation": "숲 주유소",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_003",
+        "source": "Concordia Parking",
+        "translation": "콘코르디아 주차장",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_004",
+        "source": "Old Construction",
+        "translation": "구 공사장",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_005",
+        "source": "Destroyed House",
+        "translation": "파괴된 주택",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_006",
+        "source": "Old Gas Station",
+        "translation": "구 주유소",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_007",
+        "source": "Roof Containers",
+        "translation": "컨테이너 지붕",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_008",
+        "source": "Sanatorium East",
+        "translation": "요양소 동관",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_009",
+        "source": "Sanatorium West",
+        "translation": "요양소 서관",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_010",
+        "source": "Treatment Beach",
+        "translation": "정수장 해변",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_011",
+        "source": "Treatment Rocks",
+        "translation": "정수장 바위 지대",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_012",
+        "source": "Weather Station",
+        "translation": "기상 관측소",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_013",
+        "source": "Black Division",
+        "translation": "블랙 디비전",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_014",
+        "source": "Broken Village",
+        "translation": "폐허 마을",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_015",
+        "source": "Bunker Storage",
+        "translation": "벙커 창고",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_016",
+        "source": "Center Floor 1",
+        "translation": "중앙 1층",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_017",
+        "source": "Center Floor 2",
+        "translation": "중앙 2층",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_018",
+        "source": "Factory Center",
+        "translation": "공장 중앙",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_019",
+        "source": "RUAF Roadblock",
+        "translation": "RUAF 검문소",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_020",
+        "source": "Power Station",
+        "translation": "발전소",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_021",
+        "source": "Blood Hounds",
+        "translation": "블러드하운드",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_022",
+        "source": "Car Showroom",
+        "translation": "자동차 전시장",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_023",
+        "source": "Construction",
+        "translation": "공사장",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_024",
+        "source": "Factory Side",
+        "translation": "공장 측면",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_025",
+        "source": "Forest Truck",
+        "translation": "숲 트럭",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_026",
+        "source": "Green Houses",
+        "translation": "온실",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_027",
+        "source": "IDEA Parking",
+        "translation": "IDEA 주차장",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_028",
+        "source": "Rail Storage",
+        "translation": "철도 창고",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_029",
+        "source": "Stone Bunker",
+        "translation": "석조 벙커",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_030",
+        "source": "White Knight",
+        "translation": "화이트 나이트",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_031",
+        "source": "Bus Station",
+        "translation": "버스 터미널",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_032",
+        "source": "Crazy Scavs",
+        "translation": "미친 스캐브",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_033",
+        "source": "Gas Station",
+        "translation": "주유소",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_034",
+        "source": "OLI Parking",
+        "translation": "OLI 주차장",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_035",
+        "source": "Santa Claus",
+        "translation": "산타클로스",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_036",
+        "source": "Sniper Peak",
+        "translation": "저격수 봉우리",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_037",
+        "source": "Sub Command",
+        "translation": "지하 지휘소",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_038",
+        "source": "Sub Storage",
+        "translation": "지하 창고",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_039",
+        "source": "Wood Cutter",
+        "translation": "제재소",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_040",
+        "source": "Black Pawn",
+        "translation": "블랙 폰",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_041",
+        "source": "Checkpoint",
+        "translation": "검문소",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_042",
+        "source": "Containers",
+        "translation": "컨테이너 구역",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_043",
+        "source": "Crossroads",
+        "translation": "교차로",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_044",
+        "source": "Helicopter",
+        "translation": "헬리콥터",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_045",
+        "source": "High Rocks",
+        "translation": "높은 바위",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_046",
+        "source": "Mini House",
+        "translation": "작은 집",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_047",
+        "source": "Roof Beach",
+        "translation": "해변 지붕",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_048",
+        "source": "Roof Rocks",
+        "translation": "바위 지붕",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_049",
+        "source": "Big Rocks",
+        "translation": "큰 바위",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_050",
+        "source": "Concordia",
+        "translation": "콘코르디아",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_051",
+        "source": "Dormitory",
+        "translation": "기숙사",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_052",
+        "source": "Long Road",
+        "translation": "긴 도로",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_053",
+        "source": "Old House",
+        "translation": "구 주택",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_054",
+        "source": "Red House",
+        "translation": "빨간 집",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_055",
+        "source": "Scav Base",
+        "translation": "스캐브 기지",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_056",
+        "source": "Smugglers",
+        "translation": "밀수꾼 구역",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_057",
+        "source": "USEC Base",
+        "translation": "USEC 기지",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_058",
+        "source": "Barracks",
+        "translation": "막사",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_059",
+        "source": "Basement",
+        "translation": "지하",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_060",
+        "source": "Cardinal",
+        "translation": "카디널",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_061",
+        "source": "Cultists",
+        "translation": "컬티스트",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_062",
+        "source": "Railways",
+        "translation": "철도",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_063",
+        "source": "Customs",
+        "translation": "세관",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_064",
+        "source": "Factory",
+        "translation": "공장",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_065",
+        "source": "Floor 1",
+        "translation": "1층",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_066",
+        "source": "Floor 2",
+        "translation": "2층",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_067",
+        "source": "Hotel 1",
+        "translation": "호텔 1",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_068",
+        "source": "Hotel 2",
+        "translation": "호텔 2",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_069",
+        "source": "Klimova",
+        "translation": "클리모바",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_070",
+        "source": "Village",
+        "translation": "마을",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_071",
+        "source": "Bridge",
+        "translation": "다리",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_072",
+        "source": "Bunker",
+        "translation": "벙커",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_073",
+        "source": "Chalet",
+        "translation": "샬레",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_074",
+        "source": "Cinema",
+        "translation": "영화관",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_075",
+        "source": "Column",
+        "translation": "기둥",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_076",
+        "source": "Forest",
+        "translation": "숲",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_077",
+        "source": "Gate 1",
+        "translation": "게이트 1",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_078",
+        "source": "Gate 2",
+        "translation": "게이트 2",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_079",
+        "source": "Goshan",
+        "translation": "고샨",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_080",
+        "source": "Island",
+        "translation": "섬",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_081",
+        "source": "Rogues",
+        "translation": "로그",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_082",
+        "source": "Trucks",
+        "translation": "트럭 구역",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_083",
+        "source": "Tunnel",
+        "translation": "터널",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_084",
+        "source": "Depot",
+        "translation": "창고",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_085",
+        "source": "Goons",
+        "translation": "군즈",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_086",
+        "source": "House",
+        "translation": "주택",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_087",
+        "source": "Rocks",
+        "translation": "바위 지대",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_088",
+        "source": "Stilo",
+        "translation": "스틸로",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_089",
+        "source": "Pass",
+        "translation": "고개",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_090",
+        "source": "Pier",
+        "translation": "부두",
+        "match_mode": "segment"
+      },
+      {
+        "id": "term_091",
+        "source": "Road",
+        "translation": "도로",
+        "match_mode": "segment"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "marker_01",
+        "source": "Senior Rifleman",
+        "translation": "선임 소총수",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_02",
+        "source": "Black Division",
+        "translation": "블랙 디비전",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_03",
+        "source": "Machinegunner",
+        "translation": "기관총수",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_04",
+        "source": "Autorifleman",
+        "translation": "자동소총수",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_05",
+        "source": "Blood Hounds",
+        "translation": "블러드하운드",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_06",
+        "source": "Crazy Scavs",
+        "translation": "미친 스캐브",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_07",
+        "source": "Santa Claus",
+        "translation": "산타클로스",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_08",
+        "source": "Grenadier",
+        "translation": "척탄병",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_09",
+        "source": "Breacher",
+        "translation": "돌입병",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_10",
+        "source": "Cultists",
+        "translation": "컬티스트",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_11",
+        "source": "Follower",
+        "translation": "대원",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_12",
+        "source": "Marksman",
+        "translation": "지정사수",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_13",
+        "source": "Rifleman",
+        "translation": "소총수",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_14",
+        "source": "Assault",
+        "translation": "돌격병",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_15",
+        "source": "Officer",
+        "translation": "장교",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_16",
+        "source": "Support",
+        "translation": "지원병",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_17",
+        "source": "Leader",
+        "translation": "지휘관",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_18",
+        "source": "Rogues",
+        "translation": "로그",
+        "match_mode": "segment"
+      },
+      {
+        "id": "marker_19",
+        "source": "Goons",
+        "translation": "군즈",
+        "match_mode": "segment"
+      }
+    ]
+  }
+}

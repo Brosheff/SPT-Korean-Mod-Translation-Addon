@@ -1,0 +1,4072 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "DynamicMaps",
+  "mod_name": "Dynamic Maps",
+  "channels": {
+    "locale": [
+      {
+        "key": "6738034a9713b5f42b4a8b78 Description",
+        "source": "A map of Reserve. For when you need to know where you are on the best map, and you think it's still 2020.",
+        "translation": "리저브 지도입니다. 최고의 맵에서 현재 위치를 확인해야 하고, 아직도 2020년인 줄 안다면 유용합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6738034e9d22459ad7cd1b81 Name",
+        "source": "Laboratory plan map",
+        "translation": "연구소 평면도"
+      },
+      {
+        "key": "6738034e9d22459ad7cd1b81 Description",
+        "source": "A map of Laboratory. Thank god this isn't live, or you'd never need this map because you would get head-eyes'd in 0.3 seconds off spawn.",
+        "translation": "연구소 지도입니다. 다행히 라이브 서버가 아니니 이 지도가 쓸모없어질 일은 없겠네요. 라이브였다면 스폰 후 0.3초 만에 눈과 머리에 총을 맞았을 테니까요."
+      },
+      {
+        "key": "6738035350b24a4ae4a57997 Description",
+        "source": "A map of Lighthouse. This should help you navigate this map..oh wait. The design is so straightforward you don't really need a map. Such map design. Wow. 10/10.\n\n NOTICE: Does not include a map of the mines to Lightkeeper. Git gud.",
+        "translation": "등대 지도입니다. 길 찾는 데 도움이 될 겁니다... 잠깐, 구조가 너무 직선적이라 사실 지도도 필요 없겠군요. 대단한 맵 디자인입니다. 와. 10/10.\n\n주의: 라이트키퍼로 가는 지뢰밭 지도는 포함되어 있지 않습니다. 실력을 키우세요."
+      },
+      {
+        "key": "68f1ad32317cc52f4c0b6fae Name",
+        "source": "Labyrinth plan map",
+        "translation": "미궁 평면도"
+      },
+      {
+        "key": "68f1ad32317cc52f4c0b6fae Description",
+        "source": "A map of Labyrinth. Ignore the fact there's two separate Ground Zero maps but they're the same. Crazy.",
+        "translation": "미궁 지도입니다. 그라운드 제로 지도가 두 장인데 사실 같은 지도라는 점은 무시하세요. 참 대단합니다."
+      },
+      {
+        "key": "6738033eb7305d3bdafe9518 Name",
+        "source": "Ground Zero plan map",
+        "translation": "그라운드 제로 평면도",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6738033eb7305d3bdafe9518 Description",
+        "source": "A map of Ground Zero. Ignore the fact there's two separate Ground Zero maps but they're the same. Crazy.",
+        "translation": "그라운드 제로 지도입니다. 그라운드 제로가 두 지역으로 나뉘어 있는데 지도는 같다는 사실은 무시하세요. 참 별일입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "673803448cb3819668d77b1b Name",
+        "source": "Streets of Tarkov plan map",
+        "translation": "타르코프 시내 평면도",
+        "match_mode": "exact"
+      },
+      {
+        "key": "673803448cb3819668d77b1b Description",
+        "source": "A map of Streets of Tarkov. Some say it's the best map, but only if you have a nasa pc.",
+        "translation": "타르코프 시내 지도입니다. NASA급 컴퓨터가 있어야 최고의 지역이라는 사람들도 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6738034a9713b5f42b4a8b78 Name",
+        "source": "Reserve plan map",
+        "translation": "리저브 평면도",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6738035350b24a4ae4a57997 Name",
+        "source": "Lighthouse plan map",
+        "translation": "등대 평면도",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6738033eb7305d3bdafe9518 ShortName",
+        "source": "Ground Zero",
+        "translation": "그라운드 제로",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "673803448cb3819668d77b1b ShortName",
+        "source": "Streets of Tarkov",
+        "translation": "타르코프 시내",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6738034a9713b5f42b4a8b78 ShortName",
+        "source": "Reserve",
+        "translation": "리저브",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6738034e9d22459ad7cd1b81 ShortName",
+        "source": "Laboratory",
+        "translation": "연구소",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6738035350b24a4ae4a57997 ShortName",
+        "source": "Lighthouse",
+        "translation": "등대",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68f1ad32317cc52f4c0b6fae ShortName",
+        "source": "Labyrinth",
+        "translation": "미궁",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ],
+    "custom_ui": [
+      {
+        "id": "map_select_label",
+        "source": "Select a Map",
+        "translation": "지도 선택",
+        "match_mode": "exact",
+        "note": "지도 선택 드롭다운의 고정 라벨"
+      },
+      {
+        "id": "cursor_prefix",
+        "source": "Cursor: ",
+        "translation": "커서: ",
+        "match_mode": "exact",
+        "note": "매 프레임 갱신되는 커서 좌표 접두사"
+      },
+      {
+        "id": "player_prefix",
+        "source": "Player: ",
+        "translation": "플레이어: ",
+        "match_mode": "exact",
+        "note": "매 프레임 갱신되는 플레이어 좌표 접두사"
+      },
+      {
+        "id": "level_prefix",
+        "source": "Level ",
+        "translation": "지도 층 ",
+        "match_mode": "exact",
+        "note": "층 선택 슬라이더 라벨 접두사"
+      }
+    ],
+    "map_content": [
+      {
+        "id": "map_negotiation_room",
+        "source": "\"Negotiation\" Room",
+        "translation": "\"협상\" 방",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_1st_floor_alarm_console",
+        "source": "1st Floor Alarm Console",
+        "translation": "1층 경보 제어반",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_2nd_floor_alarm_console",
+        "source": "2nd Floor Alarm Console",
+        "translation": "2층 경보 제어반",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_abandoned_factory",
+        "source": "Abandoned Factory",
+        "translation": "버려진 공장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_abandoned_factory_marked_room",
+        "source": "Abandoned Factory Marked Room",
+        "translation": "버려진 공장 마크방",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_adik",
+        "source": "ADIK",
+        "translation": "아딕",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_admin",
+        "source": "Admin",
+        "translation": "관리동",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_admin_basement",
+        "source": "Admin Basement",
+        "translation": "관리동 지하",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_administration_gate",
+        "source": "Administration Gate",
+        "translation": "관리 구역 게이트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_airdrop",
+        "source": "Airdrop",
+        "translation": "에어드롭",
+        "match_mode": "exact",
+        "note": "dynamic marker"
+      },
+      {
+        "id": "map_alarm_switch",
+        "source": "Alarm Switch",
+        "translation": "경보 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_archive_room",
+        "source": "Archive Room",
+        "translation": "기록 보관실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_arena",
+        "source": "Arena",
+        "translation": "아레나",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_ariadne_s_path",
+        "source": "Ariadne's Path",
+        "translation": "아리아드네의 길",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_armored_train",
+        "source": "Armored Train",
+        "translation": "장갑열차",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_arsenal_storage",
+        "source": "Arsenal Storage",
+        "translation": "무기고 창고",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_asap_winery",
+        "source": "ASAP Winery",
+        "translation": "ASAP 와이너리",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_aspect_company_office",
+        "source": "Aspect Company Office",
+        "translation": "애스펙트 회사 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_avokado",
+        "source": "Avokado",
+        "translation": "아보카도",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_backup_hideout",
+        "source": "Backup Hideout",
+        "translation": "예비 은신처",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_barracks",
+        "source": "Barracks",
+        "translation": "막사",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_beluga",
+        "source": "Beluga",
+        "translation": "벨루가",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_beluga_restaurant_director_s_office",
+        "source": "Beluga Restaurant Director's Office",
+        "translation": "벨루가 레스토랑 책임자 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_big_red",
+        "source": "Big Red",
+        "translation": "빅 레드",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_bilbo_coffee",
+        "source": "Bilbo Coffee",
+        "translation": "빌보 커피",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_bizarro",
+        "source": "Bizarro",
+        "translation": "비자로",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_black_bishop",
+        "source": "Black Bishop",
+        "translation": "블랙 비숍",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_black_knight",
+        "source": "Black Knight",
+        "translation": "블랙 나이트",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_black_pawn",
+        "source": "Black Pawn",
+        "translation": "블랙 폰",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_blowtorch",
+        "source": "Blowtorch",
+        "translation": "블로토치",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_blue_containers",
+        "source": "Blue Containers",
+        "translation": "파란 컨테이너",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_boat",
+        "source": "Boat",
+        "translation": "보트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_boathouses",
+        "source": "Boathouses",
+        "translation": "보트 창고",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_boiler_room_basement_co_op",
+        "source": "Boiler Room Basement (Co-op)",
+        "translation": "보일러실 지하 (협동)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_boilers",
+        "source": "Boilers",
+        "translation": "보일러실",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_book_store",
+        "source": "Book Store",
+        "translation": "서점",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_boots_4_life",
+        "source": "Boots 4 Life",
+        "translation": "부츠 포 라이프",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_breach_room",
+        "source": "Breach Room",
+        "translation": "돌파실",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_bridge_v_ex",
+        "source": "Bridge V-Ex",
+        "translation": "다리 차량 탈출구",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_brutal",
+        "source": "Brutal",
+        "translation": "브루탈",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_bunker",
+        "source": "Bunker",
+        "translation": "벙커",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_bunker_hermetic_door",
+        "source": "Bunker Hermetic Door",
+        "translation": "벙커 밀폐문",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_bunker_hermetic_door_power",
+        "source": "Bunker Hermetic Door Power",
+        "translation": "벙커 밀폐문 전원",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_burger_house",
+        "source": "Burger House",
+        "translation": "버거 하우스",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_burger_spot",
+        "source": "Burger Spot",
+        "translation": "버거 스팟",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_bus_station",
+        "source": "Bus Station",
+        "translation": "버스 터미널",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_bus_stop",
+        "source": "Bus Stop",
+        "translation": "버스 정류장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_cabins",
+        "source": "Cabins",
+        "translation": "오두막",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_camera_bunker_door",
+        "source": "Camera Bunker Door",
+        "translation": "카메라 벙커 문",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_capital_insight",
+        "source": "Capital Insight",
+        "translation": "캐피털 인사이트",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_car_dealership_closed_section",
+        "source": "Car Dealership Closed Section",
+        "translation": "자동차 대리점 폐쇄 구역",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_car_dealership_director_s_office",
+        "source": "Car Dealership Director's Office",
+        "translation": "자동차 대리점 책임자 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_card_with_a_blue_marking",
+        "source": "Card with a Blue Marking",
+        "translation": "파란 표시가 있는 카드",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_cardinal_apartment_complex_parking",
+        "source": "Cardinal Apartment Complex Parking",
+        "translation": "카디널 아파트 단지 주차장",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_cardinal_apartments",
+        "source": "Cardinal Apartments",
+        "translation": "카디널 아파트",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_cardinal_bank",
+        "source": "Cardinal Bank",
+        "translation": "카디널 은행",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_cargo_container_mesh_door",
+        "source": "Cargo Container Mesh Door",
+        "translation": "화물 컨테이너 철망문",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_cargo_containers",
+        "source": "Cargo Containers",
+        "translation": "화물 컨테이너",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_cargo_elevator",
+        "source": "Cargo Elevator",
+        "translation": "화물 엘리베이터",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_cellars",
+        "source": "Cellars",
+        "translation": "지하실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_checkpoint",
+        "source": "Checkpoint",
+        "translation": "검문소",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_checkpoint_fence",
+        "source": "Checkpoint Fence",
+        "translation": "검문소 울타리",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_chekannaya_apartment_15",
+        "source": "Chekannaya Apartment 15",
+        "translation": "체칸나야 아파트 15호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_chekannaya_st",
+        "source": "Chekannaya St.",
+        "translation": "체칸나야 거리",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_cinema",
+        "source": "Cinema",
+        "translation": "영화관",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_cliff_descent",
+        "source": "Cliff Descent",
+        "translation": "절벽 하강 지점",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_climber_s_trail",
+        "source": "Climber's Trail",
+        "translation": "등반로",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_coffee_joy",
+        "source": "Coffee Joy",
+        "translation": "커피 조이",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_collapsed_crane",
+        "source": "Collapsed Crane",
+        "translation": "붕괴된 크레인",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_company_director_room",
+        "source": "Company Director Room",
+        "translation": "회사 책임자실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_concordia",
+        "source": "Concordia",
+        "translation": "콘코르디아",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_concordia_apartment_34",
+        "source": "Concordia Apartment 34",
+        "translation": "콘코르디아 아파트 34호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_concordia_apartment_63",
+        "source": "Concordia Apartment 63",
+        "translation": "콘코르디아 아파트 63호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_concordia_apartment_64",
+        "source": "Concordia Apartment 64",
+        "translation": "콘코르디아 아파트 64호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_concordia_apartment_64_office",
+        "source": "Concordia Apartment 64 Office",
+        "translation": "콘코르디아 아파트 64호 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_concordia_apartment_8",
+        "source": "Concordia Apartment 8",
+        "translation": "콘코르디아 아파트 8호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_concordia_apartment_8_home_cinema",
+        "source": "Concordia Apartment 8 Home Cinema",
+        "translation": "콘코르디아 아파트 8호 홈 시네마",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_concordia_security",
+        "source": "Concordia Security",
+        "translation": "콘코르디아 보안실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_conference_room",
+        "source": "Conference Room",
+        "translation": "회의실",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_connector",
+        "source": "Connector",
+        "translation": "연결 통로",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_construction",
+        "source": "Construction",
+        "translation": "공사장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_construction_site_bunkhouse",
+        "source": "Construction Site Bunkhouse",
+        "translation": "공사장 막사",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_convenience",
+        "source": "Convenience",
+        "translation": "편의점",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_convenience_store_storage_room",
+        "source": "Convenience Store Storage Room",
+        "translation": "편의점 창고",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_convoy",
+        "source": "Convoy",
+        "translation": "호송대",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_corner_restaurant",
+        "source": "Corner Restaurant",
+        "translation": "코너 레스토랑",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_corpse_room_key",
+        "source": "Corpse Room Key",
+        "translation": "시체실 열쇠",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_cottage_back_door",
+        "source": "Cottage Back Door",
+        "translation": "별장 뒷문",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_cottages",
+        "source": "Cottages",
+        "translation": "별장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_courtyard",
+        "source": "Courtyard",
+        "translation": "안뜰",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_courtyard_gate",
+        "source": "Courtyard Gate",
+        "translation": "안뜰 게이트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_crackhouse",
+        "source": "Crackhouse",
+        "translation": "크랙하우스",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_crane",
+        "source": "Crane",
+        "translation": "크레인",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_crash_site",
+        "source": "Crash Site",
+        "translation": "추락 지점",
+        "match_mode": "exact",
+        "note": "built-in map label, built-in static marker"
+      },
+      {
+        "id": "map_crashed_helicopter",
+        "source": "Crashed Helicopter",
+        "translation": "추락한 헬리콥터",
+        "match_mode": "exact",
+        "note": "dynamic marker"
+      },
+      {
+        "id": "map_crossroads",
+        "source": "Crossroads",
+        "translation": "교차로",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_cultist_village",
+        "source": "Cultist Village",
+        "translation": "컬티스트 마을",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_customs_tarkovdev",
+        "source": "Customs (TarkovDev)",
+        "translation": "세관 (TarkovDev)",
+        "match_mode": "exact",
+        "note": "map display name"
+      },
+      {
+        "id": "map_d_2_open_switch",
+        "source": "D-2 Open Switch",
+        "translation": "D-2 개방 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_d_2_power_switch",
+        "source": "D-2 Power Switch",
+        "translation": "D-2 전원 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_damaged_house",
+        "source": "Damaged House",
+        "translation": "파손된 주택",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_dead_man_s_place",
+        "source": "Dead Man's Place",
+        "translation": "죽은 자의 장소",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dead_tree",
+        "source": "Dead Tree",
+        "translation": "죽은 나무",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_depot",
+        "source": "Depot",
+        "translation": "창고",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_depot_hermetic_door",
+        "source": "Depot Hermetic Door",
+        "translation": "창고 밀폐문",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_diner",
+        "source": "Diner",
+        "translation": "식당",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_dino_clothes",
+        "source": "Dino Clothes",
+        "translation": "다이노 의류점",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_disable_parking_gate_alarm",
+        "source": "Disable Parking Gate Alarm",
+        "translation": "주차장 게이트 경보 해제",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dom",
+        "source": "Dom",
+        "translation": "돔",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_dome",
+        "source": "Dome",
+        "translation": "돔",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_dorm_103",
+        "source": "Dorm 103",
+        "translation": "기숙사 103호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_104",
+        "source": "Dorm 104",
+        "translation": "기숙사 104호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_105",
+        "source": "Dorm 105",
+        "translation": "기숙사 105호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_108",
+        "source": "Dorm 108",
+        "translation": "기숙사 108호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_110",
+        "source": "Dorm 110",
+        "translation": "기숙사 110호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_114",
+        "source": "Dorm 114",
+        "translation": "기숙사 114호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_118",
+        "source": "Dorm 118",
+        "translation": "기숙사 118호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_203",
+        "source": "Dorm 203",
+        "translation": "기숙사 203호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_204",
+        "source": "Dorm 204",
+        "translation": "기숙사 204호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_206",
+        "source": "Dorm 206",
+        "translation": "기숙사 206호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_214",
+        "source": "Dorm 214",
+        "translation": "기숙사 214호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_218",
+        "source": "Dorm 218",
+        "translation": "기숙사 218호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_220",
+        "source": "Dorm 220",
+        "translation": "기숙사 220호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_303",
+        "source": "Dorm 303",
+        "translation": "기숙사 303호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_306",
+        "source": "Dorm 306",
+        "translation": "기숙사 306호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_308",
+        "source": "Dorm 308",
+        "translation": "기숙사 308호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_314_marked_room",
+        "source": "Dorm 314 Marked Room",
+        "translation": "기숙사 314호 마크방",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_315",
+        "source": "Dorm 315",
+        "translation": "기숙사 315호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorm_guard_desk",
+        "source": "Dorm Guard Desk",
+        "translation": "기숙사 경비 데스크",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_dorms",
+        "source": "Dorms",
+        "translation": "기숙사",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_dorms_v_ex",
+        "source": "Dorms V-Ex",
+        "translation": "기숙사 차량 탈출구",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_drug_lab",
+        "source": "Drug Lab",
+        "translation": "마약 연구실",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_e1_bunkers",
+        "source": "E1 Bunkers",
+        "translation": "E1 벙커",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_e2_bunkers",
+        "source": "E2 Bunkers",
+        "translation": "E2 벙커",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_east_halls",
+        "source": "East Halls",
+        "translation": "동쪽 복도",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_east_wing",
+        "source": "East Wing",
+        "translation": "동관",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_east_wing_gym_entrance",
+        "source": "East Wing Gym Entrance",
+        "translation": "동관 체육관 입구",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_east_wing_office_107",
+        "source": "East Wing Office 107",
+        "translation": "동관 107호 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_room_205",
+        "source": "East Wing Room 205",
+        "translation": "동관 205호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_room_206",
+        "source": "East Wing Room 206",
+        "translation": "동관 206호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_room_222",
+        "source": "East Wing Room 222",
+        "translation": "동관 222호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_room_226",
+        "source": "East Wing Room 226",
+        "translation": "동관 226호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_room_306",
+        "source": "East Wing Room 306",
+        "translation": "동관 306호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_room_308",
+        "source": "East Wing Room 308",
+        "translation": "동관 308호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_room_310",
+        "source": "East Wing Room 310",
+        "translation": "동관 310호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_room_313",
+        "source": "East Wing Room 313",
+        "translation": "동관 313호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_room_314",
+        "source": "East Wing Room 314",
+        "translation": "동관 314호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_room_316",
+        "source": "East Wing Room 316",
+        "translation": "동관 316호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_room_328",
+        "source": "East Wing Room 328",
+        "translation": "동관 328호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_east_wing_sanitar_s_office",
+        "source": "East Wing Sanitar's Office",
+        "translation": "동관 새니타 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_eastern_rocks",
+        "source": "Eastern Rocks",
+        "translation": "동쪽 바위 지대",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_eastland",
+        "source": "Eastland",
+        "translation": "이스트랜드",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_elemental_global",
+        "source": "Elemental Global",
+        "translation": "엘리멘털 글로벌",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_emercom_checkpoint",
+        "source": "Emercom Checkpoint",
+        "translation": "EMERCOM 검문소",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_emercom_medical_unit",
+        "source": "Emercom Medical Unit",
+        "translation": "EMERCOM 의료 구역",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_empire",
+        "source": "Empire",
+        "translation": "엠파이어",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_entrance_to_catacombs",
+        "source": "Entrance to Catacombs",
+        "translation": "지하 묘지 입구",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_exit_to_woods",
+        "source": "Exit to Woods",
+        "translation": "삼림으로 이동",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_expo_checkpoint",
+        "source": "Expo Checkpoint",
+        "translation": "엑스포 검문소",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_factory_tarkovdev",
+        "source": "Factory (TarkovDev)",
+        "translation": "공장 (TarkovDev)",
+        "match_mode": "exact",
+        "note": "map display name"
+      },
+      {
+        "id": "map_factory_far_corner",
+        "source": "Factory Far Corner",
+        "translation": "공장 먼 구석",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_factory_shacks",
+        "source": "Factory Shacks",
+        "translation": "공장 판잣집",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_factory_shortcut",
+        "source": "Factory Shortcut",
+        "translation": "공장 지름길",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_family_market",
+        "source": "Family Market",
+        "translation": "패밀리 마켓",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_fashion_store",
+        "source": "Fashion Store",
+        "translation": "의류점",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_father_sons",
+        "source": "Father & Sons",
+        "translation": "파더 앤 선즈",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_figaro",
+        "source": "Figaro",
+        "translation": "피가로",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_financial_institution_office",
+        "source": "Financial Institution Office",
+        "translation": "금융기관 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_financial_institution_small_office",
+        "source": "Financial Institution Small Office",
+        "translation": "금융기관 소형 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_fire_trap_switch",
+        "source": "Fire Trap Switch",
+        "translation": "화염 함정 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_forklifts",
+        "source": "Forklifts",
+        "translation": "지게차 구역",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_fortress",
+        "source": "Fortress",
+        "translation": "요새",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_four_camp",
+        "source": "Four Camp",
+        "translation": "포 캠프",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_friendship_bridge_co_op",
+        "source": "Friendship Bridge (Co-Op)",
+        "translation": "우정의 다리 (협동)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_fusion",
+        "source": "Fusion",
+        "translation": "퓨전",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_gagrin_hotel",
+        "source": "GAGRIN Hotel",
+        "translation": "가가린 호텔",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_garage",
+        "source": "Garage",
+        "translation": "차고",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_garage_a",
+        "source": "Garage A",
+        "translation": "A 차고",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_garage_b",
+        "source": "Garage B",
+        "translation": "B 차고",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_garage_c",
+        "source": "Garage C",
+        "translation": "C 차고",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_garage_d",
+        "source": "Garage D",
+        "translation": "D 차고",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_gas_station",
+        "source": "Gas Station",
+        "translation": "주유소",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_gas_station_office",
+        "source": "Gas Station Office",
+        "translation": "주유소 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_gas_station_storage_room",
+        "source": "Gas Station Storage Room",
+        "translation": "주유소 창고",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_gate_0",
+        "source": "Gate 0",
+        "translation": "0번 게이트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_gate_3",
+        "source": "Gate 3",
+        "translation": "3번 게이트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_generic",
+        "source": "Generic",
+        "translation": "제네릭",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_german",
+        "source": "German",
+        "translation": "게르만",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_glass_hall",
+        "source": "Glass Hall",
+        "translation": "유리 복도",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_go_kart",
+        "source": "Go Kart",
+        "translation": "고카트",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_goshan",
+        "source": "Goshan",
+        "translation": "고샨",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_grand_chalet",
+        "source": "Grand Chalet",
+        "translation": "그랜드 샬레",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_ground_zero_tarkovdev",
+        "source": "Ground Zero (TarkovDev)",
+        "translation": "그라운드 제로 (TarkovDev)",
+        "match_mode": "exact",
+        "note": "map display name"
+      },
+      {
+        "id": "map_grumpy_s_hideout",
+        "source": "Grumpy's hideout",
+        "translation": "그럼피의 은신처",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_gunner_nest",
+        "source": "Gunner Nest",
+        "translation": "사수 진지",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_hangar_gate",
+        "source": "Hangar Gate",
+        "translation": "격납고 게이트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_heating_pipe",
+        "source": "Heating Pipe",
+        "translation": "난방 배관",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_heli_crash",
+        "source": "Heli Crash",
+        "translation": "헬기 추락지",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_hep_station_storage_room",
+        "source": "HEP Station Storage Room",
+        "translation": "수력발전소 창고",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_hidden_stash",
+        "source": "Hidden Stash",
+        "translation": "숨겨진 은닉처",
+        "match_mode": "exact",
+        "note": "dynamic marker"
+      },
+      {
+        "id": "map_hideout_under_the_landing_stage",
+        "source": "Hideout Under the Landing Stage",
+        "translation": "선착장 아래 은신처",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_highway_construction",
+        "source": "Highway Construction",
+        "translation": "고속도로 공사장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_hillside",
+        "source": "Hillside",
+        "translation": "언덕",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_hillside_house",
+        "source": "Hillside House",
+        "translation": "언덕 주택",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_hive",
+        "source": "Hive",
+        "translation": "하이브",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_hole_in_the_fence",
+        "source": "Hole in the Fence",
+        "translation": "울타리 구멍",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_hole_in_the_wall_by_the_mountains",
+        "source": "Hole in the Wall by the Mountains",
+        "translation": "산기슭 벽의 구멍",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_horse_restaurant_toilet",
+        "source": "Horse Restaurant Toilet",
+        "translation": "호스 레스토랑 화장실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_idea_tower",
+        "source": "IDEA Tower",
+        "translation": "IDEA 타워",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_industrial_zone_gates",
+        "source": "Industrial Zone Gates",
+        "translation": "산업 지대 게이트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_infirmary_blue",
+        "source": "Infirmary (Blue)",
+        "translation": "의무실 (파랑)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_inside_saferoom_exfil_switch",
+        "source": "Inside Saferoom Exfil Switch",
+        "translation": "안전실 내부 탈출 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_interchange_tarkovdev",
+        "source": "Interchange (TarkovDev)",
+        "translation": "인터체인지 (TarkovDev)",
+        "match_mode": "exact",
+        "note": "map display name"
+      },
+      {
+        "id": "map_intourist",
+        "source": "Intourist",
+        "translation": "인투리스트",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_iron_gate",
+        "source": "Iron Gate",
+        "translation": "철문",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_island",
+        "source": "Island",
+        "translation": "섬",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_jacob_jacob",
+        "source": "Jacob & Jacob",
+        "translation": "제이콥 앤 제이콥",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_jaeger_s_camp",
+        "source": "Jaeger's Camp",
+        "translation": "예거 캠프",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_junk_bridge",
+        "source": "Junk Bridge",
+        "translation": "고물 다리",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_k_buildings",
+        "source": "K Buildings",
+        "translation": "K 건물",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_kamchatskaya_st",
+        "source": "Kamchatskaya St.",
+        "translation": "캄차츠카야 거리",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_key_1",
+        "source": "Key 1",
+        "translation": "1번 열쇠",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_key_2",
+        "source": "Key 2",
+        "translation": "2번 열쇠",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_key_3",
+        "source": "Key 3",
+        "translation": "3번 열쇠",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_key_4",
+        "source": "Key 4",
+        "translation": "4번 열쇠",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_kiba",
+        "source": "Kiba",
+        "translation": "키바",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_kiba_arms_inner_grate",
+        "source": "Kiba Arms Inner Grate",
+        "translation": "키바 암즈 내부 철문",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_kiba_arms_outer_door",
+        "source": "Kiba Arms Outer Door",
+        "translation": "키바 암즈 외부 문",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_kilmov_shopping_mall",
+        "source": "Kilmov Shopping Mall",
+        "translation": "클리모프 쇼핑몰",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_kilmov_st",
+        "source": "Kilmov St.",
+        "translation": "클리모프 거리",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_klimov_shopping_mall_exfil",
+        "source": "Klimov Shopping Mall Exfil",
+        "translation": "클리모프 쇼핑몰 탈출구",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_klimov_street_flare",
+        "source": "Klimov Street (Flare)",
+        "translation": "클리모프 거리 (신호탄)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_kostin",
+        "source": "Kostin",
+        "translation": "코스틴",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_labs_tarkovdev",
+        "source": "Labs (TarkovDev)",
+        "translation": "연구소 (TarkovDev)",
+        "match_mode": "exact",
+        "note": "map display name"
+      },
+      {
+        "id": "map_labyrinth",
+        "source": "Labyrinth",
+        "translation": "미궁",
+        "match_mode": "exact",
+        "note": "map display name"
+      },
+      {
+        "id": "map_labyrinth_key",
+        "source": "Labyrinth Key",
+        "translation": "미궁 열쇠",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_leon_s_hideout",
+        "source": "Leon's hideout",
+        "translation": "레온의 은신처",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_lerm_expo",
+        "source": "LERM Expo",
+        "translation": "LERM 엑스포",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_lexos",
+        "source": "Lexos",
+        "translation": "렉소스",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_lighthouse",
+        "source": "Lighthouse",
+        "translation": "등대",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_lighthouse_tarkovdata",
+        "source": "Lighthouse (TarkovData)",
+        "translation": "등대 (TarkovData)",
+        "match_mode": "exact",
+        "note": "map display name"
+      },
+      {
+        "id": "map_lightkeeper_island",
+        "source": "Lightkeeper Island",
+        "translation": "라이트키퍼 섬",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_locked_office",
+        "source": "Locked Office",
+        "translation": "잠긴 사무실",
+        "match_mode": "exact",
+        "note": "built-in map label, built-in static marker"
+      },
+      {
+        "id": "map_lumber",
+        "source": "Lumber",
+        "translation": "목재 적재장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_m_showroom",
+        "source": "M Showroom",
+        "translation": "M 쇼룸",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_main_bridge",
+        "source": "Main Bridge",
+        "translation": "메인 다리",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_main_elevator",
+        "source": "Main Elevator",
+        "translation": "메인 엘리베이터",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_main_elevator_power_button",
+        "source": "Main Elevator Power Button",
+        "translation": "메인 엘리베이터 전원 버튼",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_main_office",
+        "source": "Main Office",
+        "translation": "메인 사무실",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_main_power_switch",
+        "source": "Main Power Switch",
+        "translation": "메인 전원 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_malevecha_st",
+        "source": "Malevecha St.",
+        "translation": "말레비차 거리",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_mantis",
+        "source": "Mantis",
+        "translation": "맨티스",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_marked_hotel",
+        "source": "Marked Hotel",
+        "translation": "마크드 호텔",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_mcdaniels",
+        "source": "McDaniels",
+        "translation": "맥대니얼스",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_mechanic",
+        "source": "Mechanic",
+        "translation": "정비소",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_med_tent",
+        "source": "Med Tent",
+        "translation": "의료 텐트",
+        "match_mode": "exact",
+        "note": "built-in map label, built-in static marker"
+      },
+      {
+        "id": "map_med_tent_gate",
+        "source": "Med Tent Gate",
+        "translation": "의료 텐트 게이트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_medical_block_elevator",
+        "source": "Medical Block Elevator",
+        "translation": "의료동 엘리베이터",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_medical_block_elevator_power",
+        "source": "Medical Block Elevator Power",
+        "translation": "의료동 엘리베이터 전원",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_merin_trunk",
+        "source": "Merin Trunk",
+        "translation": "메린 차량 트렁크",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_military_base_cp",
+        "source": "Military Base CP",
+        "translation": "군사 기지 검문소",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_military_camp",
+        "source": "Military Camp",
+        "translation": "군사 캠프",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_military_checkpoint",
+        "source": "Military Checkpoint",
+        "translation": "군사 검문소",
+        "match_mode": "exact",
+        "note": "built-in map label, built-in static marker"
+      },
+      {
+        "id": "map_mira_ave_flare",
+        "source": "Mira Ave (Flare)",
+        "translation": "미라 애비뉴 (신호탄)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_mode7",
+        "source": "Mode7",
+        "translation": "모드7",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_mountain_bunker",
+        "source": "Mountain Bunker",
+        "translation": "산악 벙커",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_mountain_pass",
+        "source": "Mountain Pass",
+        "translation": "산길",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_mountain_stash",
+        "source": "Mountain Stash",
+        "translation": "산악 은닉처",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_mvd_academy_entrance_hall_guard_room",
+        "source": "MVD Academy Entrance Hall Guard Room",
+        "translation": "MVD 아카데미 입구 경비실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_mysterious_marked_room",
+        "source": "Mysterious Marked Room",
+        "translation": "수상한 마크방",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_nakatani",
+        "source": "Nakatani",
+        "translation": "나카타니",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_nakatani_basement_stairs",
+        "source": "Nakatani Basement Stairs",
+        "translation": "나카타니 지하 계단",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_near_kamchatskaya_arch",
+        "source": "Near Kamchatskaya Arch",
+        "translation": "캄차츠카야 아치 근처",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_necruspharm_pharmacy",
+        "source": "NecrusPharm Pharmacy",
+        "translation": "네크루스팜 약국",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_new_gas",
+        "source": "New Gas",
+        "translation": "신 주유소",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_nikitskaya_st",
+        "source": "Nikitskaya St.",
+        "translation": "니키츠카야 거리",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_nizhnyaya_st",
+        "source": "Nizhnyaya St.",
+        "translation": "니즈냐야 거리",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_nortex",
+        "source": "Nortex",
+        "translation": "노텍스",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_north_stairs",
+        "source": "North Stairs",
+        "translation": "북쪽 계단",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_northern_checkpoint",
+        "source": "Northern Checkpoint",
+        "translation": "북쪽 검문소",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_northern_un_roadblock",
+        "source": "Northern UN Roadblock",
+        "translation": "북쪽 UN 검문소",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_oasis",
+        "source": "Oasis",
+        "translation": "오아시스",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_object_11sr_saferoom",
+        "source": "Object #11SR Saferoom",
+        "translation": "Object #11SR 안전실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_object_14_container_switch",
+        "source": "Object 14 Container Switch",
+        "translation": "Object 14 컨테이너 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_observation_room_key",
+        "source": "Observation Room Key",
+        "translation": "관찰실 열쇠",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_office",
+        "source": "Office",
+        "translation": "사무실",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_office_window",
+        "source": "Office Window",
+        "translation": "사무실 창문",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_old_construction",
+        "source": "Old Construction",
+        "translation": "구 공사장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_old_gas",
+        "source": "Old Gas",
+        "translation": "구 주유소",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_old_gas_station",
+        "source": "Old Gas Station",
+        "translation": "구 주유소",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_old_gas_station_gate",
+        "source": "Old Gas Station Gate",
+        "translation": "구 주유소 게이트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_old_house",
+        "source": "Old House",
+        "translation": "구 주택",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_old_railway_depot",
+        "source": "Old Railway Depot",
+        "translation": "구 철도 차량기지",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_old_road_gate",
+        "source": "Old Road Gate",
+        "translation": "구 도로 게이트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_old_sawmill",
+        "source": "Old Sawmill",
+        "translation": "구 제재소",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_oli_admin_office",
+        "source": "OLI Admin Office",
+        "translation": "OLI 관리 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_oli_logistics_office",
+        "source": "OLI Logistics Office",
+        "translation": "OLI 물류 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_oli_outlet_utility_room",
+        "source": "OLI Outlet Utility Room",
+        "translation": "OLI 아웃렛 설비실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_oli_tower",
+        "source": "OLI Tower",
+        "translation": "OLI 타워",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_open_parking_gate",
+        "source": "Open Parking Gate",
+        "translation": "주차장 게이트 열기",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_operating_room",
+        "source": "Operating Room",
+        "translation": "수술실",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_orange_tanker_truck",
+        "source": "Orange Tanker Truck",
+        "translation": "주황색 탱커 트럭",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_outskirts",
+        "source": "Outskirts",
+        "translation": "외곽",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_papillon",
+        "source": "Papillon",
+        "translation": "파피용",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_parking_gate",
+        "source": "Parking Gate",
+        "translation": "주차장 게이트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_passage_between_rocks",
+        "source": "Passage Between Rocks",
+        "translation": "바위 사이 통로",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_passage_by_the_lake_secret",
+        "source": "Passage by the Lake (Secret)",
+        "translation": "호숫가 통로 (비밀)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_path_to_lighthouse",
+        "source": "Path to Lighthouse",
+        "translation": "등대로 가는 길",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_path_to_shoreline",
+        "source": "Path to Shoreline",
+        "translation": "해안선으로 가는 길",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_pe_teacher_s_office",
+        "source": "PE Teacher's Office",
+        "translation": "체육 교사 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_pharmacy_1",
+        "source": "Pharmacy 1",
+        "translation": "1번 약국",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_pharmacy_2",
+        "source": "Pharmacy 2",
+        "translation": "2번 약국",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_pharmacy_3",
+        "source": "Pharmacy 3",
+        "translation": "3번 약국",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_philly_cute",
+        "source": "Philly Cute",
+        "translation": "필리 큐트",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_pier",
+        "source": "Pier",
+        "translation": "부두",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_pier_boat",
+        "source": "Pier Boat",
+        "translation": "부두 보트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_pikes_peak_resort",
+        "source": "Pikes Peak Resort",
+        "translation": "파이크스 피크 리조트",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_pinewood_basement_co_op",
+        "source": "Pinewood Basement (Co-Op)",
+        "translation": "파인우드 지하 (협동)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_pinewood_hotel",
+        "source": "Pinewood Hotel",
+        "translation": "파인우드 호텔",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_pinewood_hotel_room_215",
+        "source": "Pinewood Hotel Room 215",
+        "translation": "파인우드 호텔 215호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_pipes",
+        "source": "Pipes",
+        "translation": "배관",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_pit",
+        "source": "Pit",
+        "translation": "구덩이",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_plant_1",
+        "source": "Plant 1",
+        "translation": "1공장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_plant_2",
+        "source": "Plant 2",
+        "translation": "2공장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_plant_3",
+        "source": "Plant 3",
+        "translation": "3공장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_platform",
+        "source": "Platform",
+        "translation": "플랫폼",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_police_car",
+        "source": "Police Car",
+        "translation": "경찰차",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_police_cordon_v_ex",
+        "source": "Police Cordon V-Ex",
+        "translation": "경찰 통제선 차량 탈출구",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_ponds",
+        "source": "Ponds",
+        "translation": "연못",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_portable_bunkhouse",
+        "source": "Portable Bunkhouse",
+        "translation": "이동식 막사",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_portable_cabin",
+        "source": "Portable Cabin",
+        "translation": "이동식 오두막",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_post_office",
+        "source": "Post Office",
+        "translation": "우체국",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_power_line_passage_flare",
+        "source": "Power Line Passage (Flare)",
+        "translation": "송전선 통로 (신호탄)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_power_station",
+        "source": "Power Station",
+        "translation": "발전소",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_power_station_v_ex",
+        "source": "Power Station V-Ex",
+        "translation": "발전소 차량 탈출구",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_power_substation_utility_cabin",
+        "source": "Power Substation Utility Cabin",
+        "translation": "변전소 설비 오두막",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_powerline_tower",
+        "source": "Powerline Tower",
+        "translation": "송전탑",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_prestigio_cage",
+        "source": "Prestigio Cage",
+        "translation": "프레스티지오 케이지",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_pretty_lights",
+        "source": "Pretty Lights",
+        "translation": "프리티 라이츠",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_primorskij_49",
+        "source": "Primorskij 49",
+        "translation": "프리모르스키 49",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_primorsky_46_48_skybridge",
+        "source": "Primorsky 46-48 Skybridge",
+        "translation": "프리모르스키 46-48 스카이브리지",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_primorsky_48_apartment",
+        "source": "Primorsky 48 Apartment",
+        "translation": "프리모르스키 48번지 아파트",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_primorsky_ave_taxi_v_ex",
+        "source": "Primorsky Ave Taxi V-Ex",
+        "translation": "프리모르스키 대로 택시 차량 탈출구",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_primorsky_ave",
+        "source": "Primorsky Ave.",
+        "translation": "프리모르스키 대로",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_pumping_station",
+        "source": "Pumping Station",
+        "translation": "펌프장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_radar_station_commandant_room",
+        "source": "Radar Station Commandant Room",
+        "translation": "레이더 기지 지휘관실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_radio_tower",
+        "source": "Radio Tower",
+        "translation": "무전탑",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_rafters",
+        "source": "Rafters",
+        "translation": "서까래",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_railroad_passage_flare",
+        "source": "Railroad Passage (Flare)",
+        "translation": "철도 통로 (신호탄)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_railroad_to_military_base",
+        "source": "Railroad to Military Base",
+        "translation": "군사 기지행 철도",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_railroad_to_port",
+        "source": "Railroad to Port",
+        "translation": "항구행 철도",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_railroad_to_tarkov",
+        "source": "Railroad to Tarkov",
+        "translation": "타르코프행 철도",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_railway_bridge",
+        "source": "Railway Bridge",
+        "translation": "철도 다리",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_railway_bridge_to_tarkov_secret",
+        "source": "Railway Bridge to Tarkov (Secret)",
+        "translation": "타르코프행 철도 다리 (비밀)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_railway_exfil",
+        "source": "Railway Exfil",
+        "translation": "철도 탈출구",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_ramps",
+        "source": "Ramps",
+        "translation": "경사로",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_rasmussen",
+        "source": "Rasmussen",
+        "translation": "라스무센",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_razvedchikov_st",
+        "source": "Razvedchikov St.",
+        "translation": "라즈베드치코프 거리",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_rb_bk_marked_room",
+        "source": "RB-BK Marked Room",
+        "translation": "RB-BK 마크방",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_rb_pkpm_marked_room",
+        "source": "RB-PKPM Marked Room",
+        "translation": "RB-PKPM 마크방",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_rb_vo_marked_room",
+        "source": "RB-VO Marked Room",
+        "translation": "RB-VO 마크방",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_real_estate_agency_office",
+        "source": "Real Estate Agency Office",
+        "translation": "부동산 중개소 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_red_brick",
+        "source": "Red Brick",
+        "translation": "붉은 벽돌 건물",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_relaxation_room",
+        "source": "Relaxation Room",
+        "translation": "휴게실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_repair_shop",
+        "source": "Repair Shop",
+        "translation": "정비소",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_reserve_tarkovdata",
+        "source": "Reserve (TarkovData)",
+        "translation": "리저브 (TarkovData)",
+        "match_mode": "exact",
+        "note": "map display name"
+      },
+      {
+        "id": "map_residential_unit",
+        "source": "Residential Unit",
+        "translation": "거주 구역",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_resort",
+        "source": "Resort",
+        "translation": "리조트",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_revis",
+        "source": "Revis",
+        "translation": "레비스",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_road_to_customs",
+        "source": "Road to Customs",
+        "translation": "세관으로 가는 도로",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_road_to_military_base_v_ex",
+        "source": "Road to Military Base V-Ex",
+        "translation": "군사 기지로 가는 도로 차량 탈출구",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_road_to_north_v_ex",
+        "source": "Road to North V-Ex",
+        "translation": "북쪽으로 가는 도로 차량 탈출구",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_rogue_usec_barrack",
+        "source": "Rogue USEC Barrack",
+        "translation": "로그 USEC 막사",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_rogue_usec_stash",
+        "source": "Rogue USEC Stash",
+        "translation": "로그 USEC 은닉처",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_rogue_usec_workshop",
+        "source": "Rogue USEC Workshop",
+        "translation": "로그 USEC 작업장",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_ruaf_gate",
+        "source": "RUAF Gate",
+        "translation": "RUAF 게이트",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_ruaf_roadblock",
+        "source": "RUAF Roadblock",
+        "translation": "RUAF 검문소",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_ruined_road",
+        "source": "Ruined Road",
+        "translation": "파손된 도로",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_rusted_key_door",
+        "source": "Rusted Key Door",
+        "translation": "녹슨 열쇠 문",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_saferoom_exfil",
+        "source": "Saferoom Exfil",
+        "translation": "안전실 탈출구",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_saferoom_urinal_switch",
+        "source": "Saferoom Urinal Switch",
+        "translation": "안전실 소변기 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_sara",
+        "source": "SARA",
+        "translation": "사라",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_sawmill",
+        "source": "Sawmill",
+        "translation": "제재소",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_scav_bunker",
+        "source": "Scav Bunker",
+        "translation": "스캐브 벙커",
+        "match_mode": "exact",
+        "note": "built-in map label, built-in static marker"
+      },
+      {
+        "id": "map_scav_camp",
+        "source": "Scav Camp",
+        "translation": "스캐브 캠프",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_scav_camp_co_op",
+        "source": "Scav Camp (Co-Op)",
+        "translation": "스캐브 캠프 (협동)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_scav_checkpoint",
+        "source": "Scav Checkpoint",
+        "translation": "스캐브 검문소",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_scav_checkpoint_co_op",
+        "source": "Scav Checkpoint (Co-op)",
+        "translation": "스캐브 검문소 (협동)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_scav_farm",
+        "source": "Scav Farm",
+        "translation": "스캐브 농장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_scav_hideout_at_the_grotto",
+        "source": "Scav Hideout at the Grotto",
+        "translation": "동굴 스캐브 은신처",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_scav_house",
+        "source": "Scav House",
+        "translation": "스캐브 하우스",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_scav_island",
+        "source": "Scav Island",
+        "translation": "스캐브 섬",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_scav_lands_co_op",
+        "source": "Scav Lands (Co-Op)",
+        "translation": "스캐브 랜드 (협동)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_scav_town",
+        "source": "Scav Town",
+        "translation": "스캐브 마을",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_school",
+        "source": "School",
+        "translation": "학교",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_science_offices",
+        "source": "Science Offices",
+        "translation": "과학 연구실",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_security_2_yellow",
+        "source": "Security #2 (Yellow)",
+        "translation": "보안실 #2 (노랑)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_security_office_red",
+        "source": "Security Office (Red)",
+        "translation": "보안 사무실 (빨강)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_security_office_violet",
+        "source": "Security Office (Violet)",
+        "translation": "보안 사무실 (보라)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_sewage_conduit",
+        "source": "Sewage Conduit",
+        "translation": "하수도 수로",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_sewer_manhole",
+        "source": "Sewer Manhole",
+        "translation": "하수도 맨홀",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_sewer_river",
+        "source": "Sewer River",
+        "translation": "하수도 수로",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_shack",
+        "source": "Shack",
+        "translation": "판잣집",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_shared_bedroom",
+        "source": "Shared Bedroom",
+        "translation": "공용 침실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_shatun_s_hideout",
+        "source": "Shatun's hideout",
+        "translation": "샤툰의 은신처",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_shestyorochka",
+        "source": "Shestyorochka",
+        "translation": "셰스툐로치카",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_shiccos",
+        "source": "Shiccos",
+        "translation": "쉬코스",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_shipping_yard",
+        "source": "Shipping Yard",
+        "translation": "화물 적재장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_shoreline_tarkovdata",
+        "source": "Shoreline (TarkovData)",
+        "translation": "해안선 (TarkovData)",
+        "match_mode": "exact",
+        "note": "map display name"
+      },
+      {
+        "id": "map_shotgun_trap_switch",
+        "source": "Shotgun Trap Switch",
+        "translation": "산탄총 함정 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_side_tunnel_co_op",
+        "source": "Side Tunnel (Co-Op)",
+        "translation": "측면 터널 (협동)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_silos",
+        "source": "Silos",
+        "translation": "사일로",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_skeleton",
+        "source": "Skeleton",
+        "translation": "스켈레톤",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_sky_bridge",
+        "source": "Sky Bridge",
+        "translation": "스카이브리지",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_skyside",
+        "source": "Skyside",
+        "translation": "스카이사이드",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_smuggler_s_path_co_op",
+        "source": "Smuggler's Path (Co-op)",
+        "translation": "밀수꾼의 길 (협동)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_smugglers_basement",
+        "source": "Smugglers' Basement",
+        "translation": "밀수꾼 지하실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_smugglers_boat_secret",
+        "source": "Smugglers' Boat (Secret)",
+        "translation": "밀수꾼의 보트 (비밀)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_smugglers_bunker_secret",
+        "source": "Smugglers' Bunker (Secret)",
+        "translation": "밀수꾼 벙커 (비밀)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_smugglers_passage_secret",
+        "source": "Smugglers' Passage (Secret)",
+        "translation": "밀수꾼 통로 (비밀)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_smw_car",
+        "source": "SMW Car",
+        "translation": "SMW 차량",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_sniper_hill",
+        "source": "Sniper Hill",
+        "translation": "저격수 언덕",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_sniper_ridge",
+        "source": "Sniper Ridge",
+        "translation": "저격수 능선",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_sniper_roadblock",
+        "source": "Sniper Roadblock",
+        "translation": "저격수 검문소",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_sniper_rock",
+        "source": "Sniper Rock",
+        "translation": "저격수 바위",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_south_hotel",
+        "source": "South Hotel",
+        "translation": "사우스 호텔",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_south_stairs",
+        "source": "South Stairs",
+        "translation": "남쪽 계단",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_southern_road",
+        "source": "Southern Road",
+        "translation": "남쪽 도로",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_southern_road_landslide",
+        "source": "Southern Road Landslide",
+        "translation": "남쪽 도로 산사태 지점",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_sparja_express",
+        "source": "Sparja Express",
+        "translation": "스파르자 익스프레스",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_sparja_grocery",
+        "source": "Sparja Grocery",
+        "translation": "스파르자 식료품점",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_spiel",
+        "source": "Spiel",
+        "translation": "스필",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_sports",
+        "source": "Sports",
+        "translation": "스포츠",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_stair_landing",
+        "source": "Stair Landing",
+        "translation": "계단참",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_steam_trap_switch",
+        "source": "Steam Trap Switch",
+        "translation": "증기 함정 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_sterile_lab_green",
+        "source": "Sterile Lab (Green)",
+        "translation": "무균 연구실 (초록)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_storage",
+        "source": "Storage",
+        "translation": "창고",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_store_manager_s_office",
+        "source": "Store Manager's Office",
+        "translation": "상점 관리자실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_streamer_house",
+        "source": "Streamer House",
+        "translation": "스트리머 하우스",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_streets_of_tarkov_tarkovdata",
+        "source": "Streets of Tarkov (TarkovData)",
+        "translation": "타르코프 거리 (TarkovData)",
+        "match_mode": "exact",
+        "note": "map display name"
+      },
+      {
+        "id": "map_stylobate_building_elevator",
+        "source": "Stylobate Building Elevator",
+        "translation": "스타일로베이트 건물 엘리베이터",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_supply_department_director_s_office",
+        "source": "Supply Department Director's Office",
+        "translation": "보급 부서 책임자 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_sushi_huyushi",
+        "source": "Sushi Huyushi",
+        "translation": "스시 후유시",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_swamp",
+        "source": "Swamp",
+        "translation": "늪",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_tank_bridge",
+        "source": "Tank Bridge",
+        "translation": "전차 다리",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_tarbank",
+        "source": "Tarbank",
+        "translation": "타르뱅크",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_tarcone_director_s_office",
+        "source": "Tarcone Director's Office",
+        "translation": "타르콘 책임자 사무실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_tarducks",
+        "source": "Tarducks",
+        "translation": "타덕스",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_tarkovstar",
+        "source": "Tarkovstar",
+        "translation": "타르코프스타",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_tarmac",
+        "source": "Tarmac",
+        "translation": "활주로",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_tartowers_sales_office_secret",
+        "source": "Tartowers Sales Office (Secret)",
+        "translation": "타르타워스 판매 사무실 (비밀)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_techlight",
+        "source": "TECHLIGHT",
+        "translation": "테크라이트",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_telespot",
+        "source": "Telespot",
+        "translation": "텔레스팟",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_tennis_court",
+        "source": "Tennis Court",
+        "translation": "테니스 코트",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_teppakot_koener",
+        "source": "Teppakot / Koener",
+        "translation": "테파코트 / 코에너",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_terragroup",
+        "source": "TerraGroup",
+        "translation": "테라그룹",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_terragroup_manager_s_office",
+        "source": "TerraGroup Manager's Office",
+        "translation": "테라그룹 관리자실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_terragroup_meeting_room",
+        "source": "TerraGroup Meeting Room",
+        "translation": "테라그룹 회의실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_terragroup_science_offices",
+        "source": "TerraGroup Science Offices",
+        "translation": "테라그룹 과학 연구실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_terragroup_security_armory",
+        "source": "TerraGroup Security Armory",
+        "translation": "테라그룹 보안 무기고",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_terraroup_storage_room",
+        "source": "Terraroup Storage Room",
+        "translation": "TerraGroup 창고",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_test_room_black",
+        "source": "Test Room (Black)",
+        "translation": "시험실 (검정)",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_texho",
+        "source": "Texho",
+        "translation": "텍호",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_the_national",
+        "source": "The National",
+        "translation": "더 내셔널",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_the_way_up",
+        "source": "The Way Up",
+        "translation": "위로 가는 길",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_top_brand",
+        "source": "Top Brand",
+        "translation": "탑 브랜드",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_torture_room_key",
+        "source": "Torture Room Key",
+        "translation": "고문실 열쇠",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_toxic_pool_trap_switch",
+        "source": "Toxic Pool Trap Switch",
+        "translation": "독성 웅덩이 함정 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_toxic_puddle_switch",
+        "source": "Toxic Puddle Switch",
+        "translation": "독성 물웅덩이 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_trailer_park",
+        "source": "Trailer Park",
+        "translation": "트레일러 파크",
+        "match_mode": "exact",
+        "note": "built-in map label, built-in static marker"
+      },
+      {
+        "id": "map_trailer_park_portable_cabin",
+        "source": "Trailer Park Portable Cabin",
+        "translation": "트레일러 파크 이동식 오두막",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_trailer_park_workers_shack",
+        "source": "Trailer Park Workers' Shack",
+        "translation": "트레일러 파크 노동자 판잣집",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_train_depot",
+        "source": "Train Depot",
+        "translation": "철도 차량기지",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_train_station",
+        "source": "Train Station",
+        "translation": "기차역",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_train_yard",
+        "source": "Train Yard",
+        "translation": "철도 차량기지",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_transit_to_customs",
+        "source": "Transit to Customs",
+        "translation": "세관으로 이동",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_transit_to_factory",
+        "source": "Transit to Factory",
+        "translation": "공장으로 이동",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_transit_to_ground_zero",
+        "source": "Transit to Ground Zero",
+        "translation": "그라운드 제로로 이동",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_transit_to_interchange",
+        "source": "Transit to Interchange",
+        "translation": "인터체인지로 이동",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_transit_to_lighthouse",
+        "source": "Transit to Lighthouse",
+        "translation": "등대로 이동",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_transit_to_reserve",
+        "source": "Transit to Reserve",
+        "translation": "리저브로 이동",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_transit_to_shoreline",
+        "source": "Transit to Shoreline",
+        "translation": "해안선으로 이동",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_transit_to_streets_of_tarkov",
+        "source": "Transit to Streets of Tarkov",
+        "translation": "타르코프 거리로 이동",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_transit_to_the_lab",
+        "source": "Transit to The Lab",
+        "translation": "연구소로 이동",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_transit_to_woods",
+        "source": "Transit to Woods",
+        "translation": "삼림으로 이동",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_trend",
+        "source": "TRend",
+        "translation": "트렌드",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_tunnel",
+        "source": "Tunnel",
+        "translation": "터널",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_ultra_medical_storage",
+        "source": "ULTRA Medical Storage",
+        "translation": "울트라 의료 창고",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_un_roadblock",
+        "source": "UN Roadblock",
+        "translation": "UN 검문소",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_underground_parking_utility_room",
+        "source": "Underground Parking Utility Room",
+        "translation": "지하 주차장 설비실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_underground_stash",
+        "source": "Underground Stash",
+        "translation": "지하 은닉처",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_underway",
+        "source": "Underway",
+        "translation": "언더웨이",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_unity_credit_bank_cash_register",
+        "source": "Unity Credit Bank Cash Register",
+        "translation": "유니티 크레딧 뱅크 계산대",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_unknown_cabin",
+        "source": "Unknown Cabin",
+        "translation": "이름 없는 오두막",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_urban_clothes",
+        "source": "Urban Clothes",
+        "translation": "어반 의류점",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_usec_camp",
+        "source": "USEC Camp",
+        "translation": "USEC 캠프",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_usec_cottage_room",
+        "source": "USEC cottage room",
+        "translation": "USEC 별장 방",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_usec_stash",
+        "source": "USEC Stash",
+        "translation": "USEC 은닉처",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_utility_room",
+        "source": "Utility Room",
+        "translation": "설비실",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_valve_handwheel",
+        "source": "Valve Handwheel",
+        "translation": "밸브 핸드휠",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_ventilation_shaft",
+        "source": "Ventilation Shaft",
+        "translation": "환기구",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_verhnyaya_st",
+        "source": "Verhnyaya St.",
+        "translation": "베르흐냐야 거리",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_vet_clinic",
+        "source": "Vet Clinic",
+        "translation": "동물병원",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_viking",
+        "source": "Viking",
+        "translation": "바이킹",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_village",
+        "source": "Village",
+        "translation": "마을",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_voron_s_hideout",
+        "source": "Voron's hideout",
+        "translation": "보론의 은신처",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_voyage",
+        "source": "Voyage",
+        "translation": "보야지",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_wall_break",
+        "source": "Wall Break",
+        "translation": "무너진 벽",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_warehouse_17",
+        "source": "Warehouse 17",
+        "translation": "17번 창고",
+        "match_mode": "exact",
+        "note": "built-in map label, built-in static marker"
+      },
+      {
+        "id": "map_warehouse_3",
+        "source": "Warehouse 3",
+        "translation": "3번 창고",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_warehouse_4",
+        "source": "Warehouse 4",
+        "translation": "4번 창고",
+        "match_mode": "exact",
+        "note": "built-in map label, built-in static marker"
+      },
+      {
+        "id": "map_warehouse_7",
+        "source": "Warehouse 7",
+        "translation": "7번 창고",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_water_level_switch",
+        "source": "Water Level Switch",
+        "translation": "수위 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_water_treatment",
+        "source": "Water Treatment",
+        "translation": "정수 처리장",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_water_treatment_plant_storage_room",
+        "source": "Water Treatment Plant Storage Room",
+        "translation": "정수 처리장 창고",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_weapon_testing_area",
+        "source": "Weapon Testing Area",
+        "translation": "무기 시험장",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_weather_station",
+        "source": "Weather Station",
+        "translation": "기상 관측소",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_west_wing",
+        "source": "West Wing",
+        "translation": "서관",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_west_wing_room_104",
+        "source": "West Wing Room 104",
+        "translation": "서관 104호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_west_wing_room_112",
+        "source": "West Wing Room 112",
+        "translation": "서관 112호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_west_wing_room_203",
+        "source": "West Wing Room 203",
+        "translation": "서관 203호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_west_wing_room_205",
+        "source": "West Wing Room 205",
+        "translation": "서관 205호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_west_wing_room_216",
+        "source": "West Wing Room 216",
+        "translation": "서관 216호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_west_wing_room_218",
+        "source": "West Wing Room 218",
+        "translation": "서관 218호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_west_wing_room_219",
+        "source": "West Wing Room 219",
+        "translation": "서관 219호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_west_wing_room_220",
+        "source": "West Wing Room 220",
+        "translation": "서관 220호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_west_wing_room_222",
+        "source": "West Wing Room 222",
+        "translation": "서관 222호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_west_wing_room_223",
+        "source": "West Wing Room 223",
+        "translation": "서관 223호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_west_wing_room_301",
+        "source": "West Wing Room 301",
+        "translation": "서관 301호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_west_wing_room_306",
+        "source": "West Wing Room 306",
+        "translation": "서관 306호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_white_bishop",
+        "source": "White Bishop",
+        "translation": "화이트 비숍",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_white_king",
+        "source": "White King",
+        "translation": "화이트 킹",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_white_knight",
+        "source": "White Knight",
+        "translation": "화이트 나이트",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_white_pawn",
+        "source": "White Pawn",
+        "translation": "화이트 폰",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_white_queen",
+        "source": "White Queen",
+        "translation": "화이트 퀸",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_white_rook",
+        "source": "White Rook",
+        "translation": "화이트 룩",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_wood_room",
+        "source": "Wood Room",
+        "translation": "목재실",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_woods_tarkovdata",
+        "source": "Woods (TarkovData)",
+        "translation": "삼림 (TarkovData)",
+        "match_mode": "exact",
+        "note": "map display name"
+      },
+      {
+        "id": "map_x_ray_room",
+        "source": "X-Ray Room",
+        "translation": "엑스레이실",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_yotota_car",
+        "source": "Yotota Car",
+        "translation": "요토타 차량",
+        "match_mode": "exact",
+        "note": "built-in Dynamic Maps map label/marker"
+      },
+      {
+        "id": "map_yushka",
+        "source": "Yushka",
+        "translation": "유슈카",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_zb_013_switch",
+        "source": "ZB-013 Switch",
+        "translation": "ZB-013 스위치",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_zmeisky_3_apartment_8",
+        "source": "Zmeisky 3 Apartment 8",
+        "translation": "즈메이스키 3번지 아파트 8호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_zmeisky_5_apartment_20",
+        "source": "Zmeisky 5 Apartment 20",
+        "translation": "즈메이스키 5번지 아파트 20호",
+        "match_mode": "exact",
+        "note": "built-in static marker"
+      },
+      {
+        "id": "map_zmejskij_alley",
+        "source": "Zmejskij Alley",
+        "translation": "즈메이스키 골목",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_text",
+        "source": "АПТЕКА",
+        "translation": "약국",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_warehouse_bunkers",
+        "source": "д - Warehouse Bunkers",
+        "translation": "D - 창고 벙커",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_text_2",
+        "source": "ЗАКРЫТО НА РЕМОНТ",
+        "translation": "수리로 폐쇄",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_text_3",
+        "source": "МЕБЕЛЬ МК",
+        "translation": "가구 MK",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_",
+        "source": "НА-СВЯЗИ",
+        "translation": "나 스뱌지",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_text_4",
+        "source": "ПУШКИН",
+        "translation": "푸시킨",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map_text_5",
+        "source": "СКОРО ОТКРЫТИЕ",
+        "translation": "곧 개점",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "map__2",
+        "source": "ТАРЗДРАВ",
+        "translation": "타르즈드라프",
+        "match_mode": "exact",
+        "note": "built-in map proper name/store/street label"
+      },
+      {
+        "id": "map_text_6",
+        "source": "УЗЕЙ ИСТОРИИ",
+        "translation": "역사 박물관",
+        "match_mode": "exact",
+        "note": "built-in map label"
+      },
+      {
+        "id": "dmext_factory_classic_map",
+        "source": "Factory Classic",
+        "translation": "공장 (클래식)",
+        "match_mode": "exact",
+        "note": "DynamicMaps Extended map DisplayName"
+      },
+      {
+        "id": "dmext_interchange_backport_map",
+        "source": "Interchange (Manimal backport / current Tarkov.dev)",
+        "translation": "인터체인지 (Manimal 백포트 / 현재 Tarkov.dev)",
+        "match_mode": "exact",
+        "note": "DynamicMaps Extended map DisplayName"
+      },
+      {
+        "id": "dmext_labs_backport_map",
+        "source": "The Lab (Manimal expansion / current Tarkov.dev tiles)",
+        "translation": "연구소 (Manimal 확장 / 현재 Tarkov.dev 타일)",
+        "match_mode": "exact",
+        "note": "DynamicMaps Extended map DisplayName"
+      },
+      {
+        "id": "dmext_icebreaker_map",
+        "source": "Icebreaker (Tarkov.dev / TarkovBOT.eu)",
+        "translation": "쇄빙선 (Tarkov.dev / TarkovBOT.eu)",
+        "match_mode": "exact",
+        "note": "DynamicMaps Extended map DisplayName"
+      },
+      {
+        "id": "dmext_factory_office_building",
+        "source": "Office Building",
+        "translation": "사무동",
+        "match_mode": "exact",
+        "note": "DynamicMaps Extended Factory Classic map label"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "server_config_failed",
+        "source": "Failed to load Dynamic Maps server config - check the server",
+        "translation": "Dynamic Maps 서버 설정을 불러오지 못했습니다. 서버 상태를 확인하세요.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

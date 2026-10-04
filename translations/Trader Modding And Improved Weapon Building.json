@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "ChooChoo.TraderModding",
+  "mod_name": "Trader Modding And Improved Weapon Building",
+  "channels": {
+    "notifications": [
+      {
+        "id": "skip_flea",
+        "source": "Skipping flea item: {item}",
+        "translation": "플리마켓 아이템 건너뜀: {item}",
+        "match_mode": "template"
+      },
+      {
+        "id": "limit_reached",
+        "source": "{item} limit reached ({current}/{maximum})",
+        "translation": "{item} 구매 한도 도달 ({current}/{maximum})",
+        "match_mode": "template"
+      },
+      {
+        "id": "not_enough_money",
+        "source": "Not enough money for: {item}",
+        "translation": "구매 자금 부족: {item}",
+        "match_mode": "template"
+      },
+      {
+        "id": "bought",
+        "source": "Bought {item} for {cost}",
+        "translation": "{item} 구매 완료: {cost}",
+        "match_mode": "template"
+      },
+      {
+        "id": "detached",
+        "source": "Detached {item} from {parent}",
+        "translation": "{parent}에서 {item} 분리 완료",
+        "match_mode": "template"
+      },
+      {
+        "id": "detach_failed",
+        "source": "Detaching of {item} from {parent} failed!",
+        "translation": "{parent}에서 {item} 분리 실패!",
+        "match_mode": "template"
+      },
+      {
+        "id": "equipped_skip",
+        "source": "Did not detach {item}, because it is equipped!",
+        "translation": "장착 중인 아이템은 분리하지 않았습니다: {item}",
+        "match_mode": "template"
+      },
+      {
+        "id": "no_detach_target",
+        "source": "Could not find any appropriate item to detach!",
+        "translation": "분리할 수 있는 적절한 아이템을 찾지 못했습니다.",
+        "match_mode": "exact"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "detach",
+        "source": "DETACH MODS IN USE",
+        "translation": "사용 중인 부품 분리",
+        "match_mode": "exact",
+        "note": "현재 다른 장비에 장착된 부품을 분리하는 버튼"
+      },
+      {
+        "id": "quick_buy",
+        "source": "QUICK BUY ITEMS",
+        "translation": "아이템 빠른 구매",
+        "match_mode": "exact",
+        "note": "필요 아이템을 빠르게 구매하는 버튼"
+      },
+      {
+        "id": "build_cost_header",
+        "source": "Build Cost",
+        "translation": "조립 비용",
+        "match_mode": "segment",
+        "note": "무기 프리셋 화면의 커스텀 총 조립 비용 패널 제목"
+      }
+    ],
+    "locale_additions": [
+      {
+        "id": "trader_only",
+        "source": "Use only trader items",
+        "translation": "상인 아이템만 사용",
+        "match_mode": "exact",
+        "note": "무기 빌드에서 상인 판매 아이템만 사용",
+        "key": "Use only trader items"
+      },
+      {
+        "id": "trader_none",
+        "source": "Use NO trader items",
+        "translation": "상인 아이템 사용 안 함",
+        "match_mode": "exact",
+        "note": "상인 아이템을 제외하는 반전 옵션",
+        "key": "Use NO trader items"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.inku.inspectionlessmalfsreborn",
+  "plugin_name": "InspectionlessMalfsReborn-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Debug",
+      "translation": "2. 디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Mod Enabled",
+      "source_display_name": "Mod Enabled",
+      "source_description": "Enable or disable inspectionless malfunction identification.\nON - clear malfunctions without inspecting. OFF - vanilla EFT behavior.",
+      "translation_display_name": "모드 활성화",
+      "translation_description": "활성화하면 고장을 별도로 점검하지 않고 바로 식별·해결할 수 있습니다. 끄면 EFT 기본 고장 점검 방식으로 돌아갑니다.",
+      "values": []
+    },
+    {
+      "section": "2. Debug",
+      "key": "Debug Enabled",
+      "source_display_name": "Debug Enabled",
+      "source_description": "Enable/Disable debugging options.",
+      "translation_display_name": "디버그 활성화",
+      "translation_description": "디버그 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Debug",
+      "key": "Force Overheat",
+      "source_display_name": "Force Overheat",
+      "source_description": "Keybind to instantly overheat currently active weapon.",
+      "translation_display_name": "강제 과열",
+      "translation_description": "강제 과열: 사용할 키를 지정합니다.",
+      "values": []
+    }
+  ]
+}

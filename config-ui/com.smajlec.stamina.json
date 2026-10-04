@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.smajlec.stamina",
+  "plugin_name": "SmajlecStamina-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Main",
+      "translation": "주요 설정"
+    },
+    {
+      "source": "Require Stamina",
+      "translation": "스태미나 필요"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Main",
+      "key": "Disable Fatigue",
+      "source_display_name": "Disable Fatigue",
+      "source_description": "Disable Fatigue effect when exhausted",
+      "translation_display_name": "피로 효과 비활성화",
+      "translation_description": "스태미나가 고갈됐을 때 발생하는 피로 효과를 비활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Jog Speed",
+      "source_display_name": "Jog Speed",
+      "source_description": "Running speed when stamina is depleted",
+      "translation_display_name": "조깅 속도",
+      "translation_description": "스태미나가 고갈됐을 때 적용되는 달리기/조깅 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Sprint Downtime",
+      "source_display_name": "Sprint Downtime",
+      "source_description": "Time needed to start regenerating stamina after sprinting",
+      "translation_display_name": "달리기 후 회복 대기시간",
+      "translation_description": "달리기 후 회복 대기시간 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Require Stamina",
+      "key": "Jump",
+      "source_display_name": "Jump",
+      "source_description": "Require green stamina for jumping",
+      "translation_display_name": "점프 스태미나 설정",
+      "translation_description": "점프하려면 녹색 스태미나가 남아 있어야 하도록 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Require Stamina",
+      "key": "Vault",
+      "source_display_name": "Vault",
+      "source_description": "Require green stamina for vaulting",
+      "translation_display_name": "넘기 스태미나 설정",
+      "translation_description": "장애물 넘기를 사용하려면 녹색 스태미나가 남아 있어야 하도록 설정합니다.",
+      "values": []
+    }
+  ]
+}

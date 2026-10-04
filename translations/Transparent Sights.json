@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.transparentsights",
+  "mod_name": "Transparent Sights",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "off",
+        "source": "TRANSP. OFF",
+        "translation": "투명화 끔",
+        "match_mode": "exact",
+        "note": "조준경 투명화 모드: 비활성"
+      },
+      {
+        "id": "on",
+        "source": "TRANSP. ON",
+        "translation": "투명화 켬",
+        "match_mode": "exact",
+        "note": "조준경 투명화 모드: 활성"
+      },
+      {
+        "id": "mount",
+        "source": "TRANSP. ON + MOUNT",
+        "translation": "투명화 + 마운트",
+        "match_mode": "exact",
+        "note": "조준경 및 마운트 투명화 모드"
+      }
+    ]
+  }
+}

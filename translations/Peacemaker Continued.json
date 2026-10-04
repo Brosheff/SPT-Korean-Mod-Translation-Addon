@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "source3.peacemaker_weapon",
+  "mod_name": "Peacemaker Continued",
+  "channels": {
+    "locale": [
+      {
+        "key": "665152810b4c784f2258d7d0 Name",
+        "source": "Colt Single Action Army \"Peacemaker\" 11.43x33mmR Revolver",
+        "translation": "콜트 싱글 액션 아미 \"피스메이커\" 11.43x33mmR 리볼버",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "665152810b4c784f2258d7d0 ShortName",
+        "source": "Peacemaker",
+        "translation": "피스메이커"
+      },
+      {
+        "key": "665152810b4c784f2258d7d0 Description",
+        "source": "The Colt Single Action Army, also known as SAA, is a single-action revolver handgun. It was designed for the U.S. government service revolver trials of 1872 by Colt's Patent Firearms Manufacturing Company and was adopted as the standard-issued pistol of the U.S. Army from 1873 until 1892. Today, they are mainly bought as memorabilia by collectors and re-enactors. It is recommended to not load all 6 shot as the hammer wil hit the round even if it's not cocked (but that's real life). This one has engraving all over it, offering no tactical advantage whatsoever.",
+        "translation": "SAA라고도 알려진 콜트 싱글 액션 아미(Colt Single Action Army)는 싱글 액션 방식의 리볼버 권총입니다. 콜트 특허 화기 제조사(Colt’s Patent Firearms Manufacturing Company)가 1872년 미 정부의 제식 리볼버 시험을 위해 설계했으며, 1873년부터 1892년까지 미 육군의 제식 권총으로 채택되었습니다. 오늘날에는 주로 수집가와 재현 행사 참가자들이 기념품으로 구입합니다. 실제 총기에서는 해머를 코킹하지 않았더라도 탄약을 때릴 수 있으므로 6발을 모두 장전하지 않는 것이 권장됩니다. 이 개체는 전체에 화려한 조각이 새겨져 있지만, 전술적 이점은 전혀 없습니다."
+      },
+      {
+        "key": "665154c4019e9e7d5ad6d0cc Name",
+        "source": "Colt Single Action Army 6-Round Cylinder",
+        "translation": "콜트 싱글 액션 아미 6연발 실린더"
+      },
+      {
+        "key": "665154c4019e9e7d5ad6d0cc ShortName",
+        "source": "Colt SAA",
+        "translation": "콜트 SAA"
+      },
+      {
+        "key": "665154c4019e9e7d5ad6d0cc Description",
+        "source": "6-Round standard issue cylinder for the SAA. This one has been customized with intricate engraving.",
+        "translation": "SAA용 표준 6연발 실린더입니다. 이 개체에는 정교한 조각 장식이 추가되어 있습니다."
+      },
+      {
+        "key": "65f3e7fa6d952338bde17f8a Name",
+        "source": ".45 Colt +P",
+        "translation": ".45 Colt +P"
+      },
+      {
+        "key": "65f3e7fa6d952338bde17f8a ShortName",
+        "source": ".45C+P",
+        "translation": ".45C+P"
+      },
+      {
+        "key": "65f3e7fa6d952338bde17f8a Description",
+        "source": "The .45 Colt (11.43×33mmR), is a rimmed, straight-walled, handgun cartridge dating to 1872. The .45 Colt is loaded with black powder, but with recent years it is now loaded with a smokeless powder. Providing a powerful force with the cost of recoil.",
+        "translation": ".45 Colt(11.43×33mmR)는 1872년부터 사용된 림드 방식의 직선형 권총탄입니다. 과거에는 흑색화약을 사용했지만 현대에는 무연화약으로 장전됩니다. 강력한 위력을 제공하는 대신 반동도 상당합니다."
+      },
+      {
+        "key": "66515174b0b7affec08d22aa Name",
+        "source": ".45 Colt +P 20 Cartridges Pack",
+        "translation": ".45 Colt +P 탄약 팩 (20발)"
+      },
+      {
+        "key": "66515174b0b7affec08d22aa ShortName",
+        "source": ".45C+P",
+        "translation": ".45C+P"
+      },
+      {
+        "key": "66515174b0b7affec08d22aa Description",
+        "source": "A 20-round pack for .45 Colt cartridges.",
+        "translation": ".45 Colt 탄약 20발이 들어 있는 탄약 팩입니다."
+      }
+    ]
+  }
+}

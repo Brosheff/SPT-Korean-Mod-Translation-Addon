@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);LOCALE_DIAGNOSTICS</DefineConstants>
+    <TargetFramework>net48</TargetFramework><OutputType>Exe</OutputType><LangVersion>latest</LangVersion>
+    <ClientRoot Condition="'$(ClientRoot)' == ''">C:\spt 4.1</ClientRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/MinimalLog.cs" Link="MinimalLog.cs" />
+    <Compile Include="../../src/LocaleMode.cs" Link="LocaleMode.cs" />
+    <Compile Include="../../src/LocaleText.cs" Link="LocaleText.cs" />
+    <Compile Include="../../src/LocaleDisplayRules.cs" Link="LocaleDisplayRules.cs" />
+    <Compile Include="../../src/TextRules.cs" Link="TextRules.cs" />
+    <Compile Include="../../src/EditableProfiles.cs" Link="EditableProfiles.cs" />
+    <Compile Include="../../src/ClientLocaleModOverlay.cs" Link="ClientLocaleModOverlay.cs" />
+    <Compile Include="../../src/ConfigManagerProfiles.cs" Link="ConfigManagerProfiles.cs" />
+    <Reference Include="Newtonsoft.Json"><HintPath>$(ClientRoot)/EscapeFromTarkov_Data/Managed/Newtonsoft.Json.dll</HintPath></Reference>
+    <Reference Include="Mono.Cecil"><HintPath>$(ClientRoot)/BepInEx/core/Mono.Cecil.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

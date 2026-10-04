@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.harmonyzt.MusicExtender",
+  "plugin_name": "MusicExtender-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Music",
+      "translation": "음악"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Music",
+      "key": "Custom Music Only",
+      "source_display_name": "Custom Music Only",
+      "source_description": "REQUIRES RESTART. When enabled, only custom music will play. When disabled, custom music is mixed with the vanilla music.",
+      "translation_display_name": "사용자 음악 전용",
+      "translation_description": "활성화하면 사용자 음악만 재생하고, 비활성화하면 사용자 음악과 기본 게임 음악을 함께 사용합니다. 변경 후 재시작이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Music",
+      "key": "Play in Hideout",
+      "source_display_name": "Play in Hideout",
+      "source_description": "Will keep playing music once you enter hideout.",
+      "translation_display_name": "은신처에서도 음악 재생",
+      "translation_description": "은신처에 들어간 뒤에도 현재 재생 중인 음악을 계속 재생합니다.",
+      "values": []
+    }
+  ]
+}

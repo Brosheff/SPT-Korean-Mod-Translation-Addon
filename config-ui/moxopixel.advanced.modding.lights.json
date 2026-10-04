@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "moxopixel.advanced.modding.lights",
+  "plugin_name": "Advanced Modding Lights",
+  "_note": "SOURCE3 source-audited SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Directional Light",
+      "translation": "방향성 광원"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Enable Custom Lighting",
+      "source_display_name": "Enable Custom Lighting",
+      "source_description": "Enables enhanced lighting in weapon modding and build screens",
+      "translation_display_name": "사용자 지정 조명 활성화",
+      "translation_description": "무기 개조 및 빌드 화면에서 향상된 조명을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Directional Light",
+      "key": "Brightness",
+      "source_display_name": "Brightness",
+      "source_description": "Controls the brightness/intensity of the directional light (0.1 to 5.0)",
+      "translation_display_name": "밝기",
+      "translation_description": "방향성 광원의 밝기와 광량을 조절합니다. (0.1~5.0)",
+      "values": []
+    },
+    {
+      "section": "Directional Light",
+      "key": "Rotation X",
+      "source_display_name": "Rotation X",
+      "source_description": "X-axis rotation of the directional light in degrees (-180 to 180)",
+      "translation_display_name": "X축 회전",
+      "translation_description": "방향성 광원의 X축 회전 각도를 조절합니다. (-180~180도)",
+      "values": []
+    },
+    {
+      "section": "Directional Light",
+      "key": "Rotation Y",
+      "source_display_name": "Rotation Y",
+      "source_description": "Y-axis rotation of the directional light in degrees (-180 to 180)",
+      "translation_display_name": "Y축 회전",
+      "translation_description": "방향성 광원의 Y축 회전 각도를 조절합니다. (-180~180도)",
+      "values": []
+    }
+  ]
+}

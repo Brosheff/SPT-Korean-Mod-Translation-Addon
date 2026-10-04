@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_d8f459987cfa",
+  "mod_name": "Eco's WW2 Pack",
+  "channels": {
+    "locale": [
+      {
+        "key": "69e61fe28a819d09900d74e5 Name",
+        "source": "Carcano M1891 6.5x52 bolt-action rifle",
+        "translation": "Carcano M1891 6.5x52 볼트액션 소총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "69e61fe28a819d09900d74e5 Description",
+        "source": "Italian bolt-action rifle adopted in 1891, chambered in 6.5x52mm Carcano. Known for its accuracy and reliability, it saw extensive service during both World Wars.",
+        "translation": "1891년에 채택된 이탈리아제 볼트액션 소총으로, 6.5x52mm 카르카노 탄을 사용합니다. 명중률과 신뢰성으로 알려져 있으며, 두 차례의 세계 대전 동안 광범위하게 운용되었습니다."
+      },
+      {
+        "key": "69e63c4a8a819d09900d74e7 Name",
+        "source": "Carcano M1891 6.5x52mm Stripper Clip",
+        "translation": "6발, 카르카노 M1891 6.5x52mm 스트리퍼 클립"
+      },
+      {
+        "key": "69e63c4a8a819d09900d74e7 Description",
+        "source": "A 6-round stripper clip for the Carcano 1891 rifle",
+        "translation": "카르카노 1891 소총용 6발 스트리퍼 클립입니다."
+      },
+      {
+        "key": "69e7e81c9f8ab48734bccbd8 Name",
+        "source": "M1891 La Filotecnica 1917 riflescope",
+        "translation": "M1891 La Filotecnica 1917 소총 조준경"
+      },
+      {
+        "key": "69e7e81c9f8ab48734bccbd8 ShortName",
+        "source": "Filotecnica",
+        "translation": "필로테크니카"
+      },
+      {
+        "key": "69e7e81c9f8ab48734bccbd8 Description",
+        "source": "The “La Filotecnica Milano” telescope, the French models called “Scheibler” and “Amigues” (the APX Model 1916 was also used only by French snipers), were the only 3 significant versions distributed to Italian Sharpshooters during the Great War.",
+        "translation": "“라 필로테크니카 밀라노” 망원 조준경, 프랑스 모델인 “Scheibler”와 “Amigues”(APX Model 1916 역시 프랑스 저격수만 사용)는 제1차 세계 대전 당시 이탈리아 명사수들에게 지급된 세 가지 주요 형식이었습니다."
+      },
+      {
+        "key": "69edf6bcd573e25abc40203b Name",
+        "source": "Carcano M1891/38 6.5x52 bolt-action rifle",
+        "translation": "Carcano M1891/38 6.5x52 볼트액션 소총"
+      },
+      {
+        "key": "69edf6bcd573e25abc40203b Description",
+        "source": "A modified M1891 infantry rifle introduced in December 1939, identical to the M1938 short rifle, just produced from scratch in 6.5x52. It's fitted with 300m zeroed fixed sights and the M1938 knife bayonet can be attached to the muzzle",
+        "translation": "1939년 12월에 도입된 개량형 M1891 보병소총입니다. M1938 단소총과 동일한 형식이지만 6.5x52 탄용으로 새로 생산되었습니다. 300m 영점 고정식 조준기가 장착되어 있으며, 총구에는 M1938 단검식 총검을 부착할 수 있습니다."
+      },
+      {
+        "key": "69eea8b5a9682e6879a537d8 Name",
+        "source": "Carcano M1891 6.5x52 bolt-action carbine",
+        "translation": "Carcano M1891 6.5x52 볼트액션 카빈"
+      },
+      {
+        "key": "69eea8b5a9682e6879a537d8 ShortName",
+        "source": "M1891 Carbine",
+        "translation": "M1891 카빈"
+      },
+      {
+        "key": "69eea8b5a9682e6879a537d8 Description",
+        "source": "Adopted on 9 June 1893, for cavalry, carabinieri, and later for cyclists, it uses a walnut stock with a folding bayonet beneath the muzzle. the bolt handle was bent down. These guns were produced exclusively by the Brescia Arsenal until its foreclosure in 1922, then they got produced by other Arsenals (Terni and Gardone Val Trompia) and Private industries (F.N.A., Beretta). Informally nicknamed \"Cavalry Carcano\" or \"Moschetto\" (Italian for \"carbine\"), it was used by the Italian Army until the end of World War II, and by the Italian Navy until 1970. It was also used by the Italian Social Republic and various partisan groups during World War II, and by the Italian police forces until the 1980s.",
+        "translation": "1893년 6월 9일 기병, 카라비니에리, 이후 자전거병을 위해 채택된 모델입니다. 호두나무 개머리판을 사용하며, 총구 아래에는 접이식 총검이 장착되어 있습니다. 노리쇠 손잡이는 아래로 굽어 있습니다. 이 총기는 1922년 브레시아 조병창이 폐쇄될 때까지 그곳에서만 생산되었으며, 이후 테르니와 가르도네 발 트롬피아 조병창, 그리고 F.N.A.와 베레타 같은 민간 업체에서도 생산되었습니다. 비공식적으로는 “기병 카르카노” 또는 이탈리아어로 “카빈”을 뜻하는 “모스케토”라는 별명으로 불렸습니다. 제2차 세계 대전이 끝날 때까지 이탈리아 육군에서 사용되었고, 이탈리아 해군에서는 1970년까지 운용되었습니다. 또한 제2차 세계 대전 중 이탈리아 사회공화국과 여러 파르티잔 집단이 사용했으며, 이탈리아 경찰 조직에서도 1980년대까지 사용되었습니다."
+      },
+      {
+        "key": "69ff209a73bcef4c7fbb4cea Name",
+        "source": "Cei Rigotti 6.5x52 assault rifle",
+        "translation": "Cei Rigotti 6.5x52 돌격소총"
+      },
+      {
+        "key": "69ff209a73bcef4c7fbb4cea ShortName",
+        "source": "Cei Rigotti",
+        "translation": "체이 리고티"
+      },
+      {
+        "key": "69ff209a73bcef4c7fbb4cea Description",
+        "source": "The Cei-Rigotti (also known as the Cei gas rifle) is an early automatic rifle created in the final years of the 19th century by Amerigo Cei-Rigotti, an officer in the Royal Italian Army. Although the rifle was never officially adopted by any military, it was tested extensively by the Italian Army during the lead-up to the First World War.",
+        "translation": "체이-리고티(체이 가스 소총으로도 알려짐)는 19세기 말 이탈리아 왕립 육군 장교 아메리고 체이-리고티가 만든 초기 자동소총입니다. 어느 군에서도 공식 채택되지는 않았지만, 제1차 세계 대전 직전 이탈리아 육군에서 광범위한 시험을 거쳤습니다."
+      },
+      {
+        "key": "69ff3ca073bcef4c7fbb4cec Name",
+        "source": "Cei Rigotti M1895 6.5x52 15 round magazine",
+        "translation": "15발, Cei Rigotti M1895 6.5x52 탄창"
+      },
+      {
+        "key": "69ff3ca073bcef4c7fbb4cec Description",
+        "source": "A 15-round magazine for the Cei Rigotti M1895 rifle",
+        "translation": "체이 리고티 M1895 소총용 15발 탄창입니다."
+      },
+      {
+        "key": "6a06fa8af86e3e091872c100 Name",
+        "source": "M1928 Thompson .45 ACP 50-round drum magazine",
+        "translation": "50발, M1928 톰슨 .45 ACP 드럼 탄창"
+      },
+      {
+        "key": "6a06fa8af86e3e091872c100 ShortName",
+        "source": "M1928 Drum",
+        "translation": "M1928 드럼"
+      },
+      {
+        "key": "6a06fa8af86e3e091872c100 Description",
+        "source": "A 50-round drum magazine for the M1928 Thompson .45 ACP submachine gun",
+        "translation": "M1928 톰슨 .45 ACP 기관단총용 50발 드럼 탄창입니다."
+      },
+      {
+        "key": "6a06fad8f86e3e091872c102 Name",
+        "source": "M1928 Thompson .45 ACP 30-round magazine",
+        "translation": "30발, M1928 Thompson .45 ACP 탄창"
+      },
+      {
+        "key": "6a06fad8f86e3e091872c102 Description",
+        "source": "A 30-round stick magazine for the M1928 Thompson .45 ACP submachine gun",
+        "translation": "M1928 톰슨 .45 ACP 기관단총용 30발 막대형 탄창입니다."
+      },
+      {
+        "key": "6a06febcf86e3e091872c104 Name",
+        "source": "Thompson M1928A1 .45 ACP Submachine gun",
+        "translation": "Thompson M1928A1 .45 ACP 기관단총"
+      },
+      {
+        "key": "6a06febcf86e3e091872c104 Description",
+        "source": "The Thompson M1928A1 is an American submachine gun that was widely used during World War II. It is chambered in .45 ACP and features a distinctive drum magazine. The M1928A1 is known for its high rate of fire and reliability, making it a popular choice among soldiers and law enforcement officers alike.",
+        "translation": "톰슨 M1928A1은 제2차 세계 대전 중 널리 사용된 미국제 기관단총입니다. .45 ACP 탄을 사용하며, 특징적인 드럼 탄창을 장착할 수 있습니다. M1928A1은 높은 발사 속도와 신뢰성으로 알려져 있어 군인과 법집행기관 모두에게 인기 있는 선택지였습니다."
+      },
+      {
+        "key": "6a098cb486f368092e4252e1 Name",
+        "source": "Thompson M1A1 .45 ACP Submachine gun",
+        "translation": "Thompson M1A1 .45 ACP 기관단총"
+      },
+      {
+        "key": "6a098cb486f368092e4252e1 Description",
+        "source": "The M1 and M1A1, which had provisions for box magazines only, did not have cooling fins on the barrel, had a simplified rear sight, and employed a straight blowback action with the charging handle on the side of the receiver. The M1A1 was produced from 1942 to 1944, and was the most common variant of the Thompson. It was widely used by American and Allied forces during World War II, and continued to see service in various conflicts around the world for many years after the war.",
+        "translation": "M1 및 M1A1은 박스 탄창만 사용할 수 있도록 설계되었으며, 총열 냉각핀은 없고 후방 조준기는 단순화되었습니다. 또한 노리쇠 손잡이가 총몸 측면에 있는 단순 블로백 방식을 사용했습니다. M1A1은 1942년부터 1944년까지 생산되었고, 톰슨 계열 중 가장 흔한 파생형이었습니다. 제2차 세계 대전 동안 미군과 연합군에 의해 널리 사용되었으며, 전후에도 여러 분쟁 지역에서 오랫동안 운용되었습니다."
+      },
+      {
+        "key": "6a09f02c86f368092e4252e6 Name",
+        "source": "M1918A2 Browning .30-06 automatic rifle",
+        "translation": "M1918A2 브라우닝 .30-06 자동소총"
+      },
+      {
+        "key": "6a09f02c86f368092e4252e6 Description",
+        "source": "The final development of the M1918A2 was authorized on 30 June 1938. The FN-designed pistol grip and rate-reducer mechanism with two rates of automatic fire was shelved in favor of a rate-reducer mechanism designed by Springfield Armory, and housed in the butt stock. The Springfield Armory rate reducer also provided two selectable rates of fully automatic fire only, activated by engaging the selector toggle. Additionally, a skid-footed bipod was fitted to the muzzle end of the barrel, magazine guides were added to the front of the trigger guard, the hand guard was shortened, a heat shield was added to help the cooling process, a small separate stock rest (monopod) was included for attachment to the butt and the weapon's role was changed to that of a squad light machine gun. The BAR's rear sight scales were also modified to accommodate the newly standardized M2 ball ammunition with its lighter, flat-base bullet. The M1918A2's butt stock is approximately one inch (2.5 cm) longer than the M1918 BAR's butt stock. The M1918A2's barrel was also fitted with a new flash suppressor and fully adjustable iron sights. Towards the end of the war a barrel-mounted carrying handle was added",
+        "translation": "M1918A2의 최종 개량안은 1938년 6월 30일 승인되었습니다. FN이 설계한 권총손잡이와 2단 자동사격 속도 조절 장치는 보류되었고, 대신 스프링필드 조병창이 설계한 감속 장치가 개머리판 내부에 장착되었습니다. 이 감속 장치 역시 선택 레버 조작으로 두 가지 완전 자동 사격 속도를 선택할 수 있었습니다. 또한 총열 끝에는 미끄럼 방지 발이 달린 양각대가 장착되었고, 방아쇠울 앞쪽에는 탄창 가이드가 추가되었으며, 총열덮개는 짧아졌고 냉각을 돕는 방열판도 추가되었습니다. 개머리판에 부착할 수 있는 별도의 작은 지지대(모노포드)도 포함되었으며, 무기의 역할은 분대지원용 경기관총으로 변경되었습니다. BAR의 후방 조준기 눈금도 더 가볍고 평평한 탄두를 사용하는 표준화된 M2 볼 탄약에 맞게 수정되었습니다. M1918A2의 개머리판은 M1918 BAR의 개머리판보다 약 1인치(2.5cm) 더 깁니다. M1918A2의 총열에는 새로운 소염기와 완전 조절식 기계식 조준기도 장착되었습니다. 전쟁 말기에는 총열 장착식 운반 손잡이가 추가되었습니다."
+      },
+      {
+        "key": "6a0a256686f368092e4252e8 Description",
+        "source": "The .30-06 Springfield, also known as 7.62×63mm, is a rifle cartridge developed by the United States Army in 1906. It was the standard U.S. military cartridge for nearly 50 years and was widely used in various firearms, including the M1918 BAR, M1903 Springfield, and M1 Garand. The .30-06 AP M2 is an armor-piercing variant of the .30-06 Springfield cartridge, designed to penetrate body armor and light cover. It features a hardened steel core that allows it to maintain its shape and penetrate targets more effectively than standard ball ammunition.",
+        "translation": "7.62×63mm로도 알려진 .30-06 스프링필드는 1906년 미 육군이 개발한 소총탄입니다. 약 50년 동안 미군의 표준 군용 탄약으로 사용되었으며, M1918 BAR, M1903 스프링필드, M1 개런드 등 다양한 총기에 널리 쓰였습니다. .30-06 AP M2는 .30-06 스프링필드 탄약의 철갑탄 파생형으로, 방탄 장비와 가벼운 엄폐물을 관통하도록 설계되었습니다. 경화 강철 탄심을 사용하여 표준 보통탄보다 형태를 더 잘 유지하고 표적을 더 효과적으로 관통합니다."
+      },
+      {
+        "key": "6a0a25ee86f368092e4252ea Description",
+        "source": "The .30-06 Springfield, also known as 7.62×63mm, is a rifle cartridge developed by the United States Army in 1906. It was the standard U.S. military cartridge for nearly 50 years and was widely used in various firearms, including the M1918 BAR, M1903 Springfield, and M1 Garand. The .30-06 FMJ (Full Metal Jacket) is a standard ball ammunition variant of the .30-06 Springfield cartridge, featuring a lead core encased in a harder metal jacket. This design allows for reliable feeding and reduced barrel fouling while providing effective performance against unarmored targets.",
+        "translation": "7.62×63mm로도 알려진 .30-06 스프링필드는 1906년 미 육군이 개발한 소총탄입니다. 약 50년 동안 미군의 표준 군용 탄약으로 사용되었으며, M1918 BAR, M1903 스프링필드, M1 개런드 등 다양한 총기에 널리 쓰였습니다. .30-06 FMJ(풀 메탈 재킷)는 .30-06 스프링필드 탄약의 표준 보통탄 파생형으로, 납 탄심을 더 단단한 금속 피갑으로 감싼 구조입니다. 이 설계는 안정적인 급탄과 총열 오염 감소에 도움을 주며, 비장갑 표적을 상대로 효과적인 성능을 제공합니다."
+      },
+      {
+        "key": "6a0a271886f368092e4252ec Description",
+        "source": "The .30-06 Springfield, also known as 7.62×63mm, is a rifle cartridge developed by the United States Army in 1906. It was the standard U.S. military cartridge for nearly 50 years and was widely used in various firearms, including the M1918 BAR, M1903 Springfield, and M1 Garand. The .30-06 JHP (Jacketed Hollow Point) is a variant of the .30-06 Springfield cartridge, featuring a hollow point design for increased expansion and stopping power against unarmored targets.",
+        "translation": "7.62×63mm로도 알려진 .30-06 스프링필드는 1906년 미 육군이 개발한 소총탄입니다. 약 50년 동안 미군의 표준 군용 탄약으로 사용되었으며, M1918 BAR, M1903 스프링필드, M1 개런드 등 다양한 총기에 널리 쓰였습니다. .30-06 JHP(재킷드 할로 포인트)는 .30-06 스프링필드 탄약의 파생형으로, 비장갑 표적을 상대로 더 큰 팽창과 저지력을 내기 위한 할로 포인트 구조를 갖추고 있습니다."
+      },
+      {
+        "key": "6a0a27ee86f368092e4252ee Name",
+        "source": ".30-06 Springfield Red Tracer",
+        "translation": ".30-06 Springfield 적색 예광탄"
+      },
+      {
+        "key": "6a0a27ee86f368092e4252ee Description",
+        "source": "The .30-06 Springfield, also known as 7.62x63mm, is a rifle cartridge developed by the United States Army in 1906. It was the standard U.S. military cartridge for nearly 50 years and was widely used in various firearms, including the M1918 BAR, M1903 Springfield, and M1 Garand. The .30-06 Red Tracer is a variant of the .30-06 Springfield cartridge, featuring a red tracer design for increased visibility and targeting.",
+        "translation": ".30-06 Springfield(7.62x63mm)는 미 육군이 1906년에 개발한 소총탄입니다. 약 50년 동안 미군 표준 탄약으로 사용되었으며 M1918 BAR, M1903 Springfield, M1 Garand 등 다양한 총기에 쓰였습니다. .30-06 적색 예광탄은 시인성과 조준 보조 능력을 높이기 위해 적색 예광 기능을 갖춘 파생형입니다."
+      },
+      {
+        "key": "6a0a29d586f368092e4252f0 Name",
+        "source": "M1918A2 20-round magazine",
+        "translation": "20발, M1918A2 .30-06 탄창"
+      },
+      {
+        "key": "6a0a29d586f368092e4252f0 Description",
+        "source": "A 20-round magazine for the M1918A2 Browning .30-06 automatic rifle",
+        "translation": "M1918A2 브라우닝 .30-06 자동소총용 20발 탄창입니다."
+      },
+      {
+        "key": "6a0a363586f368092e4252f2 Name",
+        "source": "M1918A2 Bipod",
+        "translation": "M1918A2 양각대"
+      },
+      {
+        "key": "6a0a363586f368092e4252f2 ShortName",
+        "source": "M1918A2 Bipod",
+        "translation": "M1918A2 양각대"
+      },
+      {
+        "key": "6a0a363586f368092e4252f2 Description",
+        "source": "A bipod for the M1918A2 Browning .30-06 automatic rifle",
+        "translation": "M1918A2 브라우닝 .30-06 자동소총용 양각대입니다."
+      },
+      {
+        "key": "6a0b33c5263dc294754193ff Name",
+        "source": "Sturmgewehr 44 7.92x33mm Kurz Assault Rifle",
+        "translation": "Sturmgewehr 44 7.92x33mm Kurz 돌격소총"
+      },
+      {
+        "key": "6a0b33c5263dc294754193ff Description",
+        "source": "The StG 44 (abbreviation of Sturmgewehr 44) is a German assault rifle developed during World War II by Hugo Schmeisser. It is also known by its early designations as the MP 43 and MP 44 (Maschinenpistole 43 and 44). The StG 44 was an improvement of an earlier design, the Maschinenkarabiner 42(H). The StG 44 was the first successful assault rifle, with features including an intermediate cartridge, controllable automatic fire, a more compact design than a battle rifle with a higher rate of fire, and being designed primarily for hitting targets within a few hundred metres. Other rifles at the time were designed to hit targets at greater ranges, but this was found to be in excess of the range in which most combat engagements actually took place.",
+        "translation": "StG 44(Sturmgewehr 44의 약칭)는 제2차 세계 대전 중 후고 슈마이서가 개발한 독일제 돌격소총입니다. 초기 명칭인 MP 43 및 MP 44(Maschinenpistole 43 및 44)로도 알려져 있습니다. StG 44는 이전 설계인 Maschinenkarabiner 42(H)를 개선한 모델입니다. StG 44는 중간탄, 제어 가능한 자동사격, 전투소총보다 더 작은 구조와 더 높은 발사 속도, 수백 미터 이내의 표적 타격에 중점을 둔 설계 등을 갖춘 최초의 성공적인 돌격소총이었습니다. 당시 다른 소총들은 더 먼 거리의 표적을 맞히도록 설계되었지만, 실제 전투 교전 거리 대부분은 그보다 짧다는 점이 확인되었습니다."
+      },
+      {
+        "key": "6a0b88cfa02e563a2a145012 ShortName",
+        "source": "Tracer",
+        "translation": "예광탄"
+      },
+      {
+        "key": "6a0b88cfa02e563a2a145012 Description",
+        "source": "The 7.92×33mm Kurz (“short” in German) (designated as the 7.92 x 33 kurz by the C.I.P.) is a rimless bottlenecked intermediate rifle cartridge (German: Mittelpatrone) developed in Nazi Germany prior to and during World War II, specifically intended for development of the Sturmgewehr 44 (assault rifle). The ammunition is also referred to as 7.9mm Kurz (German: Kurz meaning \"short\"), 7.9 Kurz, 7.9mmK, or 8×33 Polte. The round was developed as a compromise between the longer 7.92×57mm full-power rifle cartridge and the 9×19mm Parabellum pistol cartridge.",
+        "translation": "7.92x33mm Kurz는 제2차 세계대전 이전과 전쟁 중 나치 독일에서 Sturmgewehr 44 돌격소총용으로 개발한 무테 병목형 중간탄입니다. Kurz는 독일어로 '짧은'을 뜻하며, C.I.P. 표기는 7.92 x 33 kurz입니다. 7.9mm Kurz, 7.9 Kurz, 7.9mmK, 8x33 Polte라고도 부릅니다. 더 긴 7.92x57mm 소총탄과 9x19mm Parabellum 권총탄 사이의 절충안으로 개발되었습니다."
+      },
+      {
+        "key": "6a0ce40499dfd9edaca1daa9 Name",
+        "source": "Karabiner 98 kurz 7.92x57mm bolt-action rifle",
+        "translation": "Karabiner 98 kurz 7.92x57mm 볼트액션 소총"
+      },
+      {
+        "key": "6a0ce40499dfd9edaca1daa9 Description",
+        "source": "The Karabiner 98 kurz (German: [kaʁaˈbiːnɐ ˌʔaxtʔʊntˈnɔʏntsɪç ˈkʊɐ̯ts]; 'carbine 98 short'), often abbreviated Karabiner 98k, Kar98k or K98k and also sometimes incorrectly referred to as a K98 (K98 is a Polish copy of the Kar98a), is a bolt-action rifle chambered for the 7.92×57mm Mauser cartridge. It was adopted on 21 June 1935 as the standard service rifle by the German Wehrmacht. It was one of the final developments in the long line of Mauser military rifles.",
+        "translation": "카라비너 98 쿠르츠(독일어 발음: [kaʁaˈbiːnɐ ˌʔaxtʔʊntˈnɔʏntsɪç ˈkʊɐ̯ts], “짧은 카빈 98”)는 흔히 Karabiner 98k, Kar98k 또는 K98k로 줄여 부르며, 때때로 K98이라고 잘못 불리기도 합니다. K98은 Kar98a의 폴란드제 복제품을 가리키는 명칭입니다. 이 소총은 7.92×57mm 마우저 탄을 사용하는 볼트액션 소총입니다. 1935년 6월 21일 독일 국방군의 표준 제식 소총으로 채택되었으며, 마우저 군용 소총 계보의 마지막 단계에 가까운 개발품 중 하나였습니다."
+      },
+      {
+        "key": "6a0ced4599dfd9edaca1daaa Name",
+        "source": "Karabiner 98 kurz 7.92x57mm 5-round Magazine",
+        "translation": "5발, 카라비너 98 쿠르츠 7.92x57mm 탄창"
+      },
+      {
+        "key": "6a0ced4599dfd9edaca1daaa Description",
+        "source": "A 5-round magazine for the Karabiner 98 kurz rifle",
+        "translation": "카라비너 98 쿠르츠 소총용 5발 탄창입니다."
+      },
+      {
+        "key": "6a0e3acb42723bcd0581cf86 Name",
+        "source": "RP-46 Rear Sight",
+        "translation": "RP-46 후방 조준기"
+      },
+      {
+        "key": "6a0e3acb42723bcd0581cf86 ShortName",
+        "source": "RP-46 RS",
+        "translation": "RP-46 후방가늠자"
+      },
+      {
+        "key": "6a0e3acb42723bcd0581cf86 Description",
+        "source": "A standard-issue rear sight for the RP-46 machine gun. Manufactured by V.A. Degtyarev Plant.",
+        "translation": "RP-46 기관총용 표준 지급 후방 조준기입니다. V.A. 데그차료프 공장에서 제작되었습니다."
+      },
+      {
+        "key": "6a0e3acb42723bcd0581cf87 Name",
+        "source": "RP-46 Picatinny Rail",
+        "translation": "RP-46 피카티니 레일"
+      },
+      {
+        "key": "6a0e3acb42723bcd0581cf87 ShortName",
+        "source": "RP-46 Rail",
+        "translation": "RP-46 레일"
+      },
+      {
+        "key": "6a0e3acb42723bcd0581cf87 Description",
+        "source": "Special Picatinny rail for the RP-46 machine gun.",
+        "translation": "RP-46 기관총용 특수 피카티니 레일입니다."
+      },
+      {
+        "key": "6a1ee17009ef9baf4bd3193b Name",
+        "source": "Karabiner 98 kurz 7.92x57mm 20-round Trench Magazine",
+        "translation": "20발, Karabiner 98 kurz 7.92x57mm 참호 탄창"
+      },
+      {
+        "key": "6a1ee17009ef9baf4bd3193b Description",
+        "source": "A 20-round magazine for the Karabiner 98 kurz rifle, meant for long periods of sustained fire in the trenches.",
+        "translation": "Karabiner 98 kurz 소총용 20발 탄창으로, 참호에서 장시간 지속사격을 하기 위해 제작되었습니다."
+      },
+      {
+        "key": "6a0b8880a02e563a2a145010 Name",
+        "source": "StG-44 30-round magazine",
+        "translation": "30발, StG-44 7.92x33mm 쿠르츠 탄창"
+      },
+      {
+        "key": "6a0b8880a02e563a2a145010 ShortName",
+        "source": "StG-44",
+        "translation": "StG-44"
+      },
+      {
+        "key": "6a0b8880a02e563a2a145010 Description",
+        "source": "A 30-round magazine for the StG-44 7.92×33mm Kurz Assault Rifle",
+        "translation": "StG-44 7.92x33mm 쿠르츠 돌격소총용 30발 탄창입니다."
+      },
+      {
+        "key": "69e63d858a819d09900d74e9 Description",
+        "source": "The 6.5x52mm Carcano, also known as the 6.5x52mm Parravicini–Carcano or 6.5x52mm Mannlicher–Carcano, is an Italian military 6.5 mm (.268 cal, actually 0.2675 inches) rimless bottle-necked rifle cartridge, developed from 1889 to 1891 and used in the Carcano 1891 rifle and many of its successors. A common synonym in American gun literature is '6.5mm Italian.' In American parlance, \"Carcano\" is frequently added to better distinguish it from the rimmed hunting cartridge 6.5x52mmR (U.S. version: .25-35 Winchester). Ballistically, its performance is very similar to that of the 6.5x54mm Mannlicher–Schönauer.",
+        "translation": "6.5x52mm Carcano는 6.5x52mm Parravicini–Carcano 또는 Mannlicher–Carcano라고도 불리는 이탈리아 군용 무테 병목형 소총탄입니다. 탄두 구경은 6.5mm(.268구경, 실제 0.2675인치)입니다. 1889년부터 1891년 사이에 개발되어 Carcano 1891 소총과 여러 후속 모델에 사용되었습니다. 미국 총기 문헌에서는 '6.5mm Italian'이라는 이름도 쓰며, 유테 사냥용 탄약인 6.5x52mmR(미국의 .25-35 Winchester)과 구분하기 위해 Carcano를 덧붙이기도 합니다. 탄도 성능은 6.5x54mm Mannlicher–Schönauer와 매우 비슷합니다."
+      },
+      {
+        "key": "6a0b879aa02e563a2a14500f Description",
+        "source": "The 7.92×33mm Kurz (“short” in German) (designated as the 7.92 x 33 kurz by the C.I.P.) is a rimless bottlenecked intermediate rifle cartridge (German: Mittelpatrone) developed in Nazi Germany prior to and during World War II, specifically intended for development of the Sturmgewehr 44 (assault rifle). The ammunition is also referred to as 7.9mm Kurz (German: Kurz meaning \"short\"), 7.9 Kurz, 7.9mmK, or 8×33 Polte. The round was developed as a compromise between the longer 7.92×57mm full-power rifle cartridge and the 9×19mm Parabellum pistol cartridge.",
+        "translation": "7.92x33mm Kurz는 제2차 세계대전 이전과 전쟁 중 나치 독일에서 Sturmgewehr 44 돌격소총용으로 개발한 무테 병목형 중간탄입니다. Kurz는 독일어로 '짧은'을 뜻하며, C.I.P. 표기는 7.92 x 33 kurz입니다. 7.9mm Kurz, 7.9 Kurz, 7.9mmK, 8x33 Polte라고도 부릅니다. 더 긴 7.92x57mm 소총탄과 9x19mm Parabellum 권총탄 사이의 절충안으로 개발되었습니다."
+      },
+      {
+        "key": "6a0b8a84a02e563a2a145014 Name",
+        "source": "StG-44 Rear Sight",
+        "translation": "StG-44 가늠자"
+      },
+      {
+        "key": "6a0b8a84a02e563a2a145014 Description",
+        "source": "Rear sight for the StG-44 assault rifle.",
+        "translation": "StG-44 돌격소총용 가늠자입니다."
+      },
+      {
+        "key": "6a0b9ddaa02e563a2a145016 Name",
+        "source": "StG-44 Zeiss ZF-4 Scope",
+        "translation": "StG-44 Zeiss ZF-4 조준경"
+      },
+      {
+        "key": "6a0b9ddaa02e563a2a145016 Description",
+        "source": "The Zeiss ZF-4 scope for the StG-44 assault rifle.",
+        "translation": "StG-44 돌격소총용 Zeiss ZF-4 조준경입니다."
+      },
+      {
+        "key": "6a0cf4b799dfd9edaca1daac Description",
+        "source": "The 7.92x57mm Mauser, also known as the 8mm Mauser, is a rimless bottlenecked rifle cartridge developed in Germany in the late 19th century. It was widely used by German forces during both World Wars and has since become a popular cartridge for hunting and target shooting. The FMJ (Full Metal Jacket) variant features a lead core encased in a harder metal shell, providing reliable feeding and penetration.",
+        "translation": "7.92x57mm Mauser(8mm Mauser)는 19세기 말 독일에서 개발된 무테 병목형 소총탄입니다. 두 차례의 세계대전에서 독일군이 널리 사용했으며, 이후 사냥과 표적 사격용으로도 인기를 얻었습니다. FMJ(풀 메탈 재킷) 파생형은 납심을 더 단단한 금속 외피로 감싸 안정적인 급탄과 관통 성능을 제공합니다."
+      },
+      {
+        "key": "6a0cf4b799dfd9edaca1daae Description",
+        "source": "The 7.92x57mm Mauser, also known as the 8mm Mauser, is a rimless bottlenecked rifle cartridge developed in Germany in the late 19th century. It was widely used by German forces during both World Wars and has since become a popular cartridge for hunting and target shooting. The SmK L’Spur variant features a pyrotechnic composition in the base of the bullet, which ignites upon firing, allowing the shooter to visually track the projectile's trajectory.",
+        "translation": "7.92x57mm Mauser(8mm Mauser)는 19세기 말 독일에서 개발된 무테 병목형 소총탄입니다. 두 차례의 세계대전에서 독일군이 널리 사용했으며, 이후 사냥과 표적 사격용으로도 인기를 얻었습니다. SmK L’Spur 파생형은 탄두 밑부분에 발사 시 점화되는 예광제를 넣어 사수가 탄도를 눈으로 추적할 수 있게 합니다."
+      },
+      {
+        "key": "6a0df23142723bcd0581cf82 Name",
+        "source": "Zeiss ZF39 4x26 Scope",
+        "translation": "Zeiss ZF39 4x26 조준경"
+      },
+      {
+        "key": "6a0df23142723bcd0581cf82 Description",
+        "source": "The Zeiss ZF39 4x26 Scope, used during World War II, was a standard issue for German snipers, providing enhanced accuracy and range.",
+        "translation": "제2차 세계대전 당시 독일 저격수에게 표준 지급되어 정확도와 사거리를 높여 주었던 Zeiss ZF39 4x26 조준경입니다."
+      },
+      {
+        "key": "6a0e3acb42723bcd0581cf85 Name",
+        "source": "Degtyaryov RP-46 7.62x54R light machinegun",
+        "translation": "Degtyaryov RP-46 7.62x54R 경기관총"
+      },
+      {
+        "key": "6a0e3acb42723bcd0581cf85 Description",
+        "source": "Metallic-belt fed version of the Degtyaryov machine gun adopted in 1946 with a heavier barrel to allow prolonged sustained fire. About 500 rounds could be fired continuously before the barrel had to be swapped or allowed to cool down. Also had a user-adjustable gas system, with three holes of varying diameters provided, to cope with varying environmental conditions and residue buildup. Although the empty weight of the RP-46 exceeded that of DP by 2.5 kg, when considered together with a single ammo box of 250 rounds, the RP-46 weighed 10 kg less than the DP together with the same amount of ammunition in DP pans. The RP-46 remained in Soviet service for 15 years before it was replaced (together with the SGM) by the PK machine gun",
+        "translation": "1946년에 채택된 데그탸료프 기관총의 금속 탄띠 급탄형입니다. 더 무거운 총열을 장착해 지속 사격 능력을 높였으며, 약 500발을 연속 사격한 뒤에는 총열을 교환하거나 냉각해야 했습니다. 환경과 오염 정도에 대응하도록 직경이 다른 구멍 세 개를 갖춘 사용자 조절식 가스 시스템도 장착했습니다. RP-46의 빈 무게는 DP보다 2.5kg 무거웠지만, 250발 탄약 상자 하나를 함께 계산하면 같은 탄수를 팬 탄창에 담은 DP보다 10kg 가벼웠습니다. 소련군에서 15년 동안 사용된 뒤 SGM과 함께 PK 기관총으로 대체되었습니다."
+      },
+      {
+        "key": "6a0f60b0fab0e58846b70bc2 Name",
+        "source": "K98K Rear Sight",
+        "translation": "K98K 가늠자"
+      },
+      {
+        "key": "6a0f60b0fab0e58846b70bc2 Description",
+        "source": "Rear sight for the K98K rifle.",
+        "translation": "K98K 소총용 가늠자입니다."
+      },
+      {
+        "key": "6a0f6123fab0e58846b70bc3 Name",
+        "source": "K98K Scope rail",
+        "translation": "K98K 조준경 레일"
+      },
+      {
+        "key": "6a0f6123fab0e58846b70bc3 Description",
+        "source": "Scope rail for the K98K rifle.",
+        "translation": "K98K 소총용 조준경 레일입니다."
+      },
+      {
+        "key": "6a0f913bfab0e58846b70bc7 Name",
+        "source": "StG-44 scope rail",
+        "translation": "StG-44 조준경 레일"
+      },
+      {
+        "key": "6a0f913bfab0e58846b70bc7 Description",
+        "source": "Scope rail for the StG-44 assault rifle.",
+        "translation": "StG-44 돌격소총용 조준경 레일입니다."
+      }
+    ]
+  }
+}

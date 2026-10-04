@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.Tetris.DeHazardifier",
+  "plugin_name": "Tyr-DeHazardifier-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "A - De-Hazardifier Enabler",
+      "translation": "A - 위험 요소 제거 기능"
+    },
+    {
+      "source": "A - De-Hazardifier Settings",
+      "translation": "A - 위험 요소 제거 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "A - De-Hazardifier Enabler",
+      "key": "A - De-Hazardifier Enabled",
+      "source_display_name": "A - De-Hazardifier Enabled",
+      "source_description": "Enables the De-Hazardifier.",
+      "translation_display_name": "A - 위험 요소 제거 기능 활성화",
+      "translation_description": "A - 위험 요소 제거 기능 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "A - De-Hazardifier Settings",
+      "key": "A - Minefield Disabler",
+      "source_display_name": "A - Minefield Disabler",
+      "source_description": "Disables minefields.",
+      "translation_display_name": "A - 지뢰밭 피해 비활성화",
+      "translation_description": "A - 지뢰밭 피해 비활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "A - De-Hazardifier Settings",
+      "key": "B - Claymore Mines Disabler",
+      "source_display_name": "B - Claymore Mines Disabler",
+      "source_description": "Disables claymore mines.",
+      "translation_display_name": "B - 클레이모어 지뢰 비활성화",
+      "translation_description": "B - 클레이모어 지뢰 비활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "A - De-Hazardifier Settings",
+      "key": "C - Claymore Mines Visuals Disabler",
+      "source_display_name": "C - Claymore Mines Visuals Disabler",
+      "source_description": "Disables visual model of claymore mines.",
+      "translation_display_name": "C - 클레이모어 시각 요소 비활성화",
+      "translation_description": "C - 클레이모어 시각 요소 비활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "A - De-Hazardifier Settings",
+      "key": "D - Barbed Wire Disabler",
+      "source_display_name": "D - Barbed Wire Disabler",
+      "source_description": "Disables barbed wire.",
+      "translation_display_name": "D - 철조망 피해 비활성화",
+      "translation_description": "D - 철조망 피해 비활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "A - De-Hazardifier Settings",
+      "key": "E - Barbed Wire Visuals Disabler",
+      "source_display_name": "E - Barbed Wire Visuals Disabler",
+      "source_description": "Disables visual model of barbed wire.",
+      "translation_display_name": "E - 철조망 시각 요소 비활성화",
+      "translation_description": "E - 철조망 시각 요소 비활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "A - De-Hazardifier Settings",
+      "key": "F - Sniper Border Zones Disabler",
+      "source_display_name": "F - Sniper Border Zones Disabler",
+      "source_description": "Disables sniper border zones.",
+      "translation_display_name": "F - 저격수 경계 구역 비활성화",
+      "translation_description": "F - 저격수 경계 구역 비활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "A - De-Hazardifier Settings",
+      "key": "G - Fire Damage Disabler",
+      "source_display_name": "G - Fire Damage Disabler",
+      "source_description": "Disables damage taken from standing in fire.",
+      "translation_display_name": "G - 화염 피해 비활성화",
+      "translation_description": "G - 화염 피해 비활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "A - De-Hazardifier Settings",
+      "key": "H - Labyrinth Traps Disabler",
+      "source_display_name": "H - Labyrinth Traps Disabler",
+      "source_description": "Disables labyrinth traps from being active.",
+      "translation_display_name": "H - 미궁 함정 비활성화",
+      "translation_description": "H - 미궁 함정 비활성화 여부를 설정합니다.",
+      "values": []
+    }
+  ]
+}

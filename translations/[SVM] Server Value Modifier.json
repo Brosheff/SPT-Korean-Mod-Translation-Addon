@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_680fc38fa7fa",
+  "mod_name": "[SVM] Server Value Modifier",
+  "channels": {
+    "locale": [
+      {
+        "key": "66a259bc0080c7eb925db101 Name",
+        "source": "Cultist jacket",
+        "translation": "컬티스트 재킷",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "66a259bc0080c7eb925db101 Description",
+        "source": "SVM's Unheard Clothing",
+        "translation": "SVM의 언허드 의류입니다."
+      },
+      {
+        "key": "66a259bc0080c7eb925db107 Name",
+        "source": "UnderTarmor jacket",
+        "translation": "언더타머 재킷"
+      },
+      {
+        "key": "66a259bc0080c7eb925db110 Name",
+        "source": "Old parka (Yellow)",
+        "translation": "낡은 파카 (노란색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925db113 Name",
+        "source": "Ragged vest (Blue)",
+        "translation": "해진 조끼 (파란색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925db116 Name",
+        "source": "Motorcycle jacket (White)",
+        "translation": "모터사이클 재킷 (흰색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925db119 Name",
+        "source": "Leather jacket",
+        "translation": "가죽 재킷"
+      },
+      {
+        "key": "66a259bc0080c7eb925db122 Name",
+        "source": "Hunting jacket",
+        "translation": "사냥 재킷"
+      },
+      {
+        "key": "66a259bc0080c7eb925db125 Name",
+        "source": "Old parka (Beige)",
+        "translation": "낡은 파카 (베이지색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925db128 Name",
+        "source": "Mutkevich t-shirt (Black)",
+        "translation": "무트케비치 티셔츠 (검은색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925db131 Name",
+        "source": "Mutkevich t-shirt (White)",
+        "translation": "무트케비치 티셔츠 (흰색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925db134 Name",
+        "source": "SBEU Mosquito t-shirt (Coyote)",
+        "translation": "SBEU 모스키토 티셔츠 (코요테 브라운)"
+      },
+      {
+        "key": "66a259bc0080c7eb925db137 Name",
+        "source": "SBEU Mosquito t-shirt (Olive)",
+        "translation": "SBEU 모스키토 티셔츠 (올리브색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925db140 Name",
+        "source": "Fucker & Motherfucker t-shirt",
+        "translation": "Fucker & Motherfucker 티셔츠"
+      },
+      {
+        "key": "66a259bc0080c7eb925db143 Name",
+        "source": "Saiga t-shirt",
+        "translation": "사이가 티셔츠"
+      },
+      {
+        "key": "66a259bc0080c7eb925db146 Name",
+        "source": "Knives Only t-shirt",
+        "translation": "나이프 전용 티셔츠"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc149 Name",
+        "source": "Jogging pants (Dark Blue)",
+        "translation": "조깅 바지 (다크 블루)"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc152 Name",
+        "source": "Cargo pants (Flecktarn)",
+        "translation": "카고 바지 (플렉타른)"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc155 Name",
+        "source": "Jeans with knee-pads",
+        "translation": "무릎 보호대가 달린 청바지"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc158 Name",
+        "source": "Sweatpants (Gray)",
+        "translation": "스웨트팬츠 (회색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc161 Name",
+        "source": "Skinny jeans (Black)",
+        "translation": "스키니 청바지 (검은색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc164 Name",
+        "source": "Hunting pants",
+        "translation": "사냥 바지"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc167 Name",
+        "source": "Cargo pants (Black)",
+        "translation": "카고 바지 (검은색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc170 Name",
+        "source": "Faded jeans",
+        "translation": "물 빠진 청바지"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc173 Name",
+        "source": "Cargo pants (Olive)",
+        "translation": "카고 바지 (올리브색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc176 Name",
+        "source": "USEC K4 (Dark Olive)",
+        "translation": "USEC K4 (다크 올리브)"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc179 Name",
+        "source": "USEC K4 (Green)",
+        "translation": "USEC K4 (녹색)"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc182 Name",
+        "source": "USEC K4 (Timber Brown)",
+        "translation": "USEC K4 (팀버 브라운)"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc185 Name",
+        "source": "BEAR Paladin (Coyote)",
+        "translation": "BEAR 팔라딘 (코요테 브라운)"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc188 Name",
+        "source": "BEAR Paladin (Ranger Green)",
+        "translation": "BEAR 팔라딘 (레인저 그린)"
+      },
+      {
+        "key": "66a259bc0080c7eb925dc191 Name",
+        "source": "BEAR Paladin (Tactical Olive)",
+        "translation": "BEAR 팔라딘 (택티컬 올리브)"
+      }
+    ]
+  }
+}

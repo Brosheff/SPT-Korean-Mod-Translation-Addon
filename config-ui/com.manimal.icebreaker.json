@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.manimal.icebreaker",
+  "plugin_name": "ManimalIcebreaker-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Experimental",
+      "translation": "실험적 기능"
+    },
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "VolumetricFog2",
+      "translation": "체적 안개"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Experimental",
+      "key": "InjectGeneratedCovers",
+      "source_display_name": "InjectGeneratedCovers",
+      "source_description": "EXPERIMENT: at raid load, replace the map's baked cover points with scanner-generated ones. adds ~10-30s to load. bots then use OUR points — for validating the custom-map baker",
+      "translation_display_name": "스캔으로 생성한 엄폐 지점 사용",
+      "translation_description": "실험 기능입니다. 레이드 로드 때 맵의 베이크된 엄폐 지점을 스캐너가 생성한 지점으로 바꿉니다. 로드 시간이 약 10~30초 늘고 봇이 새 지점을 사용합니다. 커스텀 맵 베이커 검증용입니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "AutoDumpOnRaidLoad",
+      "source_display_name": "AutoDumpOnRaidLoad",
+      "source_description": "dump the ai data right after the game restores it at raid load (icebreaker only — dev diagnostic)",
+      "translation_display_name": "레이드 로드 시 AI 데이터 자동 덤프",
+      "translation_description": "레이드 로드 때 게임이 AI 데이터를 복원한 직후 자동으로 덤프합니다. Icebreaker 개발·진단용 기능입니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "DumpHotkey",
+      "source_display_name": "DumpHotkey",
+      "source_description": "re-dump on demand mid-raid (icebreaker only; F9 is the fog tuner — bind something else)",
+      "translation_display_name": "AI 데이터 재덤프 단축키",
+      "translation_description": "레이드 도중 현재 AI 데이터를 다시 덤프하는 단축키입니다. F9는 안개 튜너에 사용되므로 다른 키를 지정하는 것이 좋습니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "GenerateHotkey",
+      "source_display_name": "GenerateHotkey",
+      "source_description": "run the prototype cover scanner on the current map and dump the result — freezes the game for a bit (icebreaker only)",
+      "translation_display_name": "엄폐 스캔·덤프 단축키",
+      "translation_description": "현재 맵에서 시험용 엄폐 지점 스캐너를 실행하고 결과를 덤프합니다. 실행 중 게임이 잠시 멈출 수 있는 개발용 기능입니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "IndentJson",
+      "source_display_name": "IndentJson",
+      "source_description": "pretty-print the json — files get roughly 3x bigger",
+      "translation_display_name": "JSON 들여쓰기",
+      "translation_description": "덤프 JSON을 사람이 읽기 쉽게 들여쓰기합니다. 파일 크기는 대략 3배로 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "AmbientBeds",
+      "source_display_name": "AmbientBeds",
+      "source_description": null,
+      "translation_display_name": "환경 배경음",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "AmbientIntensity",
+      "source_display_name": "AmbientIntensity",
+      "source_description": "flat ambient fill light — lifts shadowed areas out of black (no real bounce without a bake)",
+      "translation_display_name": "실내 환경광 밝기",
+      "translation_description": "실내 어두운 영역을 완전히 검게 보이지 않게 채워 주는 단순 환경광 밝기입니다. 베이크된 간접광을 대체하는 것은 아닙니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "Blizzard",
+      "source_display_name": "Blizzard",
+      "source_description": "permanent blizzard: pins WeatherDebug (snow/wind/fog) + raises the winter STORM state; also pins the TOD hour (live)",
+      "translation_display_name": "상시 눈보라 날씨",
+      "translation_description": "WeatherDebug의 눈·바람·안개와 겨울 STORM 상태를 고정해 상시 눈보라를 만듭니다. 시간대도 고정합니다. 레이드 중 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "CamDonorSkip",
+      "source_display_name": "CamDonorSkip",
+      "source_description": "comma-separated component type names the donor graft must skip (bisecting a bad graft component)",
+      "translation_display_name": "카메라 도너 이식에서 제외할 컴포넌트",
+      "translation_description": "카메라 도너 이식 과정에서 제외할 컴포넌트 타입 이름을 쉼표로 구분해 지정합니다. 문제가 있는 이식 컴포넌트를 좁혀 찾는 개발·진단용 설정입니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "CrewBlackDivision",
+      "source_display_name": "CrewBlackDivision",
+      "source_description": "spawn Black Division squads when the start-cutscene trigger is hit (needs the BlackDiv mod)",
+      "translation_display_name": "스토리 트리거에서 Black Division 분대 스폰",
+      "translation_description": "스토리 시작 컷신 트리거가 발생할 때 Black Division 분대를 생성합니다. BlackDiv 모드가 설치되어 있어야 합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "CrossCullDistance",
+      "source_display_name": "CrossCullDistance",
+      "source_description": "how close an out-of-volume interior group must be to still render (doorway/window sightlines) (live)",
+      "translation_display_name": "외부 실내 구역 유지 렌더 거리",
+      "translation_description": "현재 카메라가 들어 있지 않은 실내 그룹도 문·창문 너머로 보일 가능성이 있어 계속 렌더링할 최대 거리입니다. 레이드 중 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "CullDistanceScale",
+      "source_display_name": "CullDistanceScale",
+      "source_description": "distance-culling aggressiveness for small props (lower = culls closer = more fps) (live)",
+      "translation_display_name": "소형 오브젝트 컬링 거리 배율",
+      "translation_description": "작은 소품의 거리 컬링 강도입니다. 값을 낮추면 더 가까운 거리에서 컬링되어 성능이 좋아질 수 있습니다. 레이드 중 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "CutscenePlayerWedge",
+      "source_display_name": "CutscenePlayerWedge",
+      "source_description": "the cutscene's wedge actor wears YOUR character: his head, top and pants are replaced with the player's equipped meshes and all his gear (armor, helmet, nvg, gasmask) is hidden. off = the authored boss actor",
+      "translation_display_name": "컷신 배우에 플레이어 외형 적용",
+      "translation_description": "컷신의 대역 배우 외형을 현재 플레이어 캐릭터의 머리·상의·하의 메시로 교체하고 방어구, 헬멧, NVG, 방독면 같은 장비는 숨깁니다. 끄면 원래 제작된 보스 배우를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "DevMode",
+      "source_display_name": "DevMode",
+      "source_description": "developer tooling: on-screen tuners, scene probes, dump hotkeys and the diagnostic components. OFF for normal play — this does not affect logging, set LogLevels in BepInEx.cfg for that",
+      "translation_display_name": "개발자 모드",
+      "translation_description": "화면 튜너, 씬 프로브, 덤프 단축키와 진단 컴포넌트 같은 개발 도구를 활성화합니다. 일반 플레이에서는 끄는 것이 권장됩니다. 로그 수준에는 영향을 주지 않으며 로그는 BepInEx.cfg에서 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "DiagHotkeys",
+      "source_display_name": "DiagHotkeys",
+      "source_description": "enable the F1-F12 diagnostic hotkey suite (lights toggle, geo hide, batching tests, probes). OFF for normal play — F9 doubles as the fog tuner toggle and MUST not fight the lights toggle (live)",
+      "translation_display_name": "진단용 F1~F12 단축키 활성화",
+      "translation_description": "조명 전환, 지오메트리 숨기기, 배칭 테스트, 프로브 등 F1~F12 진단 단축키 묶음을 활성화합니다. 일반 플레이에서는 끄는 것이 좋습니다. F9는 안개 튜너와도 겹치므로 조명 전환과 충돌하지 않게 해야 합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "DoorBlizzardSounds",
+      "source_display_name": "DoorBlizzardSounds",
+      "source_description": "Play the retail wind loops through open exterior doors and the opened frozen hatch (live).",
+      "translation_display_name": "외부 문을 통한 눈보라 바람 소리",
+      "translation_description": "열린 외부 문과 열린 얼어붙은 해치를 통해 정식판 바람 반복음을 재생합니다. 레이드 중 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "DoorSoundBoost",
+      "source_display_name": "DoorSoundBoost",
+      "source_description": "gain multiplier for door open/close/squeak foley (ripped clips are mixed quiet; play volume clamps at 1.0)",
+      "translation_display_name": "문 효과음 음량 배율",
+      "translation_description": "문 열기·닫기·삐걱거림 효과음에 적용할 음량 배율입니다. 추출된 원본 클립이 조용하게 믹싱되어 있어 보정용으로 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "EnvironmentTriggers",
+      "source_display_name": "EnvironmentTriggers",
+      "source_description": "rebuild the retail indoor/outdoor switcher volumes (indoor sound banks, exposure, rain muffling)",
+      "translation_display_name": "실내/실외 환경 전환 볼륨 복원",
+      "translation_description": "정식판의 실내/실외 전환 볼륨을 재구성해 실내 사운드, 노출, 빗소리 감쇠 같은 환경 전환을 복원합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "ForceWinter",
+      "source_display_name": "ForceWinter",
+      "source_description": "force Winter season on icebreaker only (snowfall; other maps keep the server's season; needs WeatherSystem)",
+      "translation_display_name": "Icebreaker에서 겨울 계절 강제",
+      "translation_description": "Icebreaker 맵에서만 겨울 계절을 강제로 사용합니다. 다른 맵은 서버 계절을 그대로 따르며 WeatherSystem이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "HeliExfilCost",
+      "source_display_name": "HeliExfilCost",
+      "source_description": "euros the pilot charges to board the helicopter exfil, 0 for a free ride (read at raid start)",
+      "translation_display_name": "헬기 탈출 비용",
+      "translation_description": "헬기 탈출에 탑승할 때 조종사에게 지불할 유로 금액입니다. 0이면 무료이며 레이드 시작 시 값을 읽습니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "InteriorCrossCull",
+      "source_display_name": "InteriorCrossCull",
+      "source_description": "cull interior volumes (Indoor_01/02/03) wholesale when the camera is outside them, beyond CrossCullDistance — the ship-center fps fix (live)",
+      "translation_display_name": "다른 실내 구역 일괄 컬링",
+      "translation_description": "카메라가 특정 실내 볼륨 밖에 있고 CrossCullDistance보다 멀면 Indoor_01/02/03 내부 그룹 전체를 컬링합니다. 선박 중앙부 성능 개선용이며 레이드 중 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "LampIntensity",
+      "source_display_name": "LampIntensity",
+      "source_description": "brightness of the revived interior lamp lights (0 = lights fully OFF — a big GPU win, the emissives/flares carry the look)",
+      "translation_display_name": "실내 복원 조명 밝기",
+      "translation_description": "복원된 실내 조명의 밝기입니다. 0이면 실제 조명을 완전히 꺼 GPU 부하를 크게 줄이며, 발광 재질과 플레어만 남습니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "LampShadows",
+      "source_display_name": "LampShadows",
+      "source_description": "let the revived lamps cast realtime shadows — much prettier, much heavier (1500+ lights)",
+      "translation_display_name": "복원 조명 실시간 그림자",
+      "translation_description": "복원된 실내 조명이 실시간 그림자를 만들도록 합니다. 보기에는 좋아지지만 1,500개가 넘는 조명 때문에 성능 부담이 큽니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "LensFlares",
+      "source_display_name": "LensFlares",
+      "source_description": "restore the ~1100 retail lens flares (lamp glow sprites). OFF is a perf A/B lever — over a thousand flare components have measurable render cost. needs a raid restart",
+      "translation_display_name": "정식판 조명 렌즈 플레어 복원",
+      "translation_description": "정식판의 약 1,100개 조명 렌즈 플레어를 복원합니다. 많은 플레어 컴포넌트가 렌더 비용을 발생시키므로 성능 비교용으로 끌 수 있습니다. 변경 후 레이드 재시작이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "LightCullDistance",
+      "source_display_name": "LightCullDistance",
+      "source_description": "meters at which lamp lights finish fading to zero (live, lowering only — raising needs a raid restart). the 1581 lamps ride bsg's native CullingManager, which FADES intensity across an authored 50-80m window and never disables a light — this tightens that window, so far lamps stop costing GPU sooner (field report 08-09: lamp light cost measurably hurts GPU-bound players; LampIntensity 0 is the nuclear version). lower = more fps + darker distance, 80 = authored retail look",
+      "translation_display_name": "광원 컬링 거리",
+      "translation_description": "실내 조명이 완전히 0으로 페이드되는 거리(m)입니다. 낮추는 변경은 즉시 반영되지만 높이는 경우 레이드 재시작이 필요합니다. 낮을수록 먼 조명 GPU 비용이 줄지만 먼 곳이 어두워집니다. 80은 정식판에 가까운 거리입니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "LodBiasClamp",
+      "source_display_name": "LodBiasClamp",
+      "source_description": "override unity's LOD bias on this map (live). THE dense-view fps fix (08-08 FrameSplit hunt) — but NOT for the reason the name suggests: 97.5% of this map's 82k LODGroups are single-LOD, so bias here scales how far out props CULL, not mesh detail. lower = props cull nearer = fps; the LodCullFloor cap keeps near-cullers (furniture) from popping in plain sight. 0.7 + floor 0.01 is the tested sweet spot; -1 = hands off (the game's 2.0 = retail distances)",
+      "translation_display_name": "LOD 바이어스 제한",
+      "translation_description": "이 맵의 Unity LOD bias를 덮어씁니다. Icebreaker의 대부분 LODGroup은 단일 LOD라서 메시 품질보다 소품이 사라지는 거리에 주로 영향을 줍니다. 낮을수록 더 가까이에서 소품을 컬링해 성능이 좋아지고, LodCullFloor가 근거리 팝인을 제한합니다. -1은 게임 기본값을 그대로 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "LodCullFloor",
+      "source_display_name": "LodCullFloor",
+      "source_description": "FAR-tier cull cap (LIVE): beyond the near radius, props cull when smaller than this screen fraction. the proven fps lever — higher = earlier culls = more fps + more distant pop; -1 = retail cull heights. pairs with the near tier so aggression out here never touches whats in your face",
+      "translation_display_name": "원거리 LOD 컬링 화면 크기 기준",
+      "translation_description": "카메라에서 근거리 영역 밖에 있는 소품을 컬링할 화면 점유율 기준입니다. 값을 높이면 더 일찍 컬링되어 성능은 좋아지지만 원거리 팝인이 늘어납니다. -1은 정식판 기준을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "LodCullNearFloor",
+      "source_display_name": "LodCullNearFloor",
+      "source_description": "NEAR-tier cull cap (LIVE): inside LodCullNearRadius, props only vanish below this screen fraction — the anti-dither guarantee for furniture around you. -1 = retail heights near you",
+      "translation_display_name": "근거리 LOD 컬링 화면 크기 기준",
+      "translation_description": "카메라 근처 영역에서 소품을 컬링할 화면 점유율 기준입니다. 주변 가구가 눈앞에서 사라지는 현상을 막기 위한 완화 기준입니다. -1은 정식판 값을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "LodCullNearRadius",
+      "source_display_name": "LodCullNearRadius",
+      "source_description": "meters around the camera that count as the near tier while OUTDOORS (LIVE). cells re-tier when you cross a cell boundary",
+      "translation_display_name": "야외 근거리 LOD 영역 반경",
+      "translation_description": "야외에서 카메라 주변을 근거리 LOD 영역으로 취급할 반경(m)입니다. 셀 경계를 넘을 때 영역 분류가 갱신됩니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "LodCullNearRadiusIndoor",
+      "source_display_name": "LodCullNearRadiusIndoor",
+      "source_description": "near-tier radius while INDOORS (LIVE). corridor sightlines are short — a tighter bubble lets the far tier eat the rest of the deck",
+      "translation_display_name": "실내 근거리 LOD 영역 반경",
+      "translation_description": "실내에서 사용할 근거리 LOD 영역 반경입니다. 복도 시야가 짧아 야외보다 좁게 잡으면 먼 실내 구역을 더 적극적으로 컬링할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "LootCullRadius",
+      "source_display_name": "LootCullRadius",
+      "source_description": "meters at which loose LOOT stops rendering (LIVE). loot is exempted from the LOD cull entirely and culled by this radius instead, so it is visible at EVERY range inside it and simply gone outside — no fading, no dithering, no pop-in as you walk. lower = more fps in loot-dense views, higher = spot loot further out. this is a hard cutoff, so it is CHEAPER than letting hundreds of loot models render to subpixel size. 0 = off (loot follows the global LOD bias again, which at a low LodBiasClamp makes it vanish at about a third of the intended distance)",
+      "translation_display_name": "바닥 루팅 아이템 표시 반경",
+      "translation_description": "바닥에 놓인 루팅 아이템을 렌더링할 반경(m)입니다. 이 반경 안에서는 거리와 무관하게 표시하고 밖에서는 즉시 숨깁니다. 낮추면 루팅 아이템이 많은 장면의 성능이 좋아지지만 먼 아이템을 볼 수 없습니다. 0이면 별도 루팅 컬링을 끄고 전역 LOD 규칙을 따릅니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "MaxLodClamp",
+      "source_display_name": "MaxLodClamp",
+      "source_description": "force-skip LOD0 globally (live diagnostic). 1 = every LODGroup renders LOD1 or lower — brutal visually but if fps rockets, the dense-view cost is LOD0 mesh detail and lod bias tuning is the shipping fix. -1 = off",
+      "translation_display_name": "최고 상세 LOD 강제 건너뛰기",
+      "translation_description": "진단용으로 최고 상세 LOD0 사용을 강제로 제한합니다. 1이면 모든 LODGroup이 LOD1 이하를 사용해 화질이 크게 떨어집니다. 성능이 크게 오르면 LOD0 메시 복잡도가 병목이라는 뜻입니다. -1은 비활성화입니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "NativeCulling",
+      "source_display_name": "NativeCulling",
+      "source_description": "EXPERIMENTAL: run BSG's own 84k-cell retail culling bake instead of our 6 sidecar volumes. needs the 231MB 065281ec..._packed_cull.bytes in EscapeFromTarkov_Data\\StreamingAssets\\Culling_Data (NOT shipped in the mod zip) — silently falls back to the sidecars when the file is missing. much finer room-vs-room isolation indoors; tested slower overall in July (outdoor-heavy), re-trialing for interiors. needs a raid restart",
+      "translation_display_name": "BSG 정식판 컬링 베이크 사용",
+      "translation_description": "실험 기능입니다. 모드의 6개 사이드카 볼륨 대신 BSG 정식판의 약 84,000셀 컬링 베이크를 사용합니다. 지정된 231MB Culling_Data 파일이 필요하며 없으면 자동으로 사이드카 방식으로 돌아갑니다. 실내 구역 분리는 더 정밀하지만 전체 성능은 더 느릴 수 있습니다. 레이드 재시작이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "PasscodeTerminals",
+      "source_display_name": "PasscodeTerminals",
+      "source_description": "activate the authored passcode terminals + post-it code notes (needs the Author 9 passcode sidecar next to the dll)",
+      "translation_display_name": "비밀번호 단말기와 코드 메모 활성화",
+      "translation_description": "맵에 제작된 비밀번호 단말기와 포스트잇 코드 메모를 활성화합니다. DLL 옆에 Author 9 비밀번호 사이드카가 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "PcDriverEnabled",
+      "source_display_name": "PcDriverEnabled",
+      "source_description": "occlusion culling driver — flip OFF (live) to un-cull everything; the pop-in isolation tool: if pops stop with this off, the bake's sightline data is the culprit",
+      "translation_display_name": "PerfectCulling 가시성 컬링 활성화",
+      "translation_description": "PerfectCulling 기반 가시성 컬링을 켭니다. 레이드 중 끌 수 있으며, 끈 상태에서 팝인이 사라진다면 베이크된 가시선 데이터가 원인인지 확인하는 진단용으로도 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "RetailAIBake",
+      "source_display_name": "RetailAIBake",
+      "source_description": "load BSG's recovered baked AI data (covers/voxels/cores/patrols) instead of runtime generation; off or fill-failure = synthesized graph",
+      "translation_display_name": "복구된 BSG AI 베이크 데이터 사용",
+      "translation_description": "런타임에 AI 그래프를 새로 만들지 않고 복구된 BSG 정식판 AI 베이크 데이터(엄폐, 복셀, 코어, 순찰)를 불러옵니다. 끄거나 데이터 채우기에 실패하면 합성 그래프를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "ShadowProxyFix",
+      "source_display_name": "ShadowProxyFix",
+      "source_description": "enforce the retail shadow split at load: _SHADOW_ proxy meshes cast-only, their visual siblings cast nothing (double-cast shadows otherwise)",
+      "translation_display_name": "정식판 그림자 프록시 구성 복원",
+      "translation_description": "맵 로드 때 정식판의 그림자 구조를 복원해 _SHADOW_ 프록시 메시만 그림자를 만들고 대응하는 시각 메시의 그림자는 끕니다. 중복 그림자 렌더링을 방지합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "SnowGusts",
+      "source_display_name": "SnowGusts",
+      "source_description": "wind-driven sheets of blown snow around the player, on top of the native flakes (live)",
+      "translation_display_name": "바람에 날리는 추가 눈발 효과",
+      "translation_description": "기본 눈 입자 위에 플레이어 주변으로 바람에 날리는 눈발 시트를 추가합니다. 레이드 중 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "SpatialAudio",
+      "source_display_name": "SpatialAudio",
+      "source_description": "resurrect BSG's spatial audio (room/portal occlusion) from the recovered retail bake — needs the acoustics sidecar next to the dll",
+      "translation_display_name": "정식판 실내 공간 음향 복원",
+      "translation_description": "복구된 정식판 베이크를 사용해 방/포털 단위 공간 음향 차폐를 복원합니다. DLL 옆에 음향 사이드카 파일이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "SynthZones",
+      "source_display_name": "SynthZones",
+      "source_description": "comma-separated BotZone names to rebuild with GENERATED cover+patrol data while the rest of the map keeps the retail bake (needs RetailAIBake on); empty = all retail",
+      "translation_display_name": "AI 데이터를 재생성할 BotZone 목록",
+      "translation_description": "정식판 AI 베이크를 유지하면서 생성형 엄폐·순찰 데이터로 다시 만들 BotZone 이름을 쉼표로 구분해 지정합니다. RetailAIBake가 켜져 있어야 하며, 비워 두면 모든 구역에서 정식판 데이터를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "TimelineCutscene",
+      "source_display_name": "TimelineCutscene",
+      "source_description": "play the in-engine helicopter cutscene at the story trigger (falls back to the video if the cutscene scene/timeline is unavailable)",
+      "translation_display_name": "게임 엔진 헬기 컷신 사용",
+      "translation_description": "스토리 트리거에서 게임 엔진으로 구현된 헬기 컷신을 재생합니다. 컷신 씬이나 타임라인을 사용할 수 없으면 기존 영상 컷신으로 대체합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "TorchFlameOffset",
+      "source_display_name": "TorchFlameOffset",
+      "source_description": "blowtorch flame position on the torch mesh, meters (live)",
+      "translation_display_name": "토치 불꽃 오프셋",
+      "translation_description": "토치 메시에서 블로토치 불꽃의 위치를 미터 단위로 조정합니다. 레이드 중 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "TorchFlameRotation",
+      "source_display_name": "TorchFlameRotation",
+      "source_description": "blowtorch flame rotation on the torch mesh, euler degrees; the jet leaves along its local +Z (live)",
+      "translation_display_name": "토치 불꽃 회전",
+      "translation_description": "토치 메시에서 블로토치 불꽃의 회전을 오일러 각도로 조정합니다. 불꽃 제트는 로컬 +Z 방향으로 뻗습니다. 레이드 중 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "TorchFlameScale",
+      "source_display_name": "TorchFlameScale",
+      "source_description": "blowtorch flame size multiplier (live)",
+      "translation_display_name": "토치 불꽃 배율",
+      "translation_description": "블로토치 불꽃 크기 배율입니다. 레이드 중 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "TripwireChance",
+      "source_display_name": "TripwireChance",
+      "source_description": "per-marker chance a tripwire is armed this raid — each marker rolls independently, so the layout differs every raid (in coop the host's roll wins, broadcast by the fika sync addon)",
+      "translation_display_name": "트립와이어 확률",
+      "translation_description": "각 트립와이어 지점이 이번 레이드에서 활성화될 확률입니다. 지점마다 독립적으로 굴려 매 레이드 배치가 달라집니다. 협동에서는 호스트의 결과가 Fika 동기화 애드온을 통해 공유됩니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "TripwireTpl",
+      "source_display_name": "TripwireTpl",
+      "source_description": "grenade template planted on the wires (default: Manimal CS gas grenade)",
+      "translation_display_name": "트립와이어에 사용할 수류탄 TPL",
+      "translation_description": "트립와이어에 설치할 수류탄의 템플릿 ID(TPL)입니다. 기본값은 Manimal CS 가스 수류탄입니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "Tripwires",
+      "source_display_name": "Tripwires",
+      "source_description": "plant the authored grenade tripwires (manimal_tripwire* markers) at raid start",
+      "translation_display_name": "저작된 수류탄 트립와이어 배치",
+      "translation_description": "레이드 시작 때 맵에 제작되어 있는 manimal_tripwire* 지점에 수류탄 트립와이어를 배치합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "WeatherSystem",
+      "source_display_name": "WeatherSystem",
+      "source_description": "resurrect BSG's weather/sky stack (clouds, wind, rain/snow, time-of-day) from the recovered retail components (needs the Author 9 weather-asset bundle)",
+      "translation_display_name": "정식판 날씨·하늘 시스템 복원",
+      "translation_description": "복구된 정식판 컴포넌트로 구름, 바람, 비/눈, 시간대 등 날씨·하늘 시스템을 복원합니다. Author 9 날씨 에셋 번들이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Icebreaker",
+      "key": "WindIndoorFraction",
+      "source_display_name": "WindIndoorFraction",
+      "source_description": "how much of the outdoor wind bleeds through indoors (live; 0 = silent inside, 1 = full)",
+      "translation_display_name": "실내로 유입되는 바람 소리 비율",
+      "translation_description": "실외 바람 소리가 실내로 얼마나 들어올지 설정합니다. 0은 실내에서 무음, 1은 실외와 동일한 음량입니다. 레이드 중 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "VolumetricFog2",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "the REAL volumetric fog (Volumetric Fog & Mist 2, raymarched) — the ship's haze and light shafts. turn OFF for a few extra fps on weaker GPUs; the map still has its normal distance fog (live)",
+      "translation_display_name": "체적 안개 활성화",
+      "translation_description": "Volumetric Fog & Mist 2 기반의 레이마칭 체적 안개를 사용합니다. 선박 내부의 연무와 빛기둥을 만들며, 약한 GPU에서는 끄면 약간의 성능을 확보할 수 있습니다. 일반 거리 안개는 그대로 남습니다.",
+      "values": []
+    }
+  ]
+}

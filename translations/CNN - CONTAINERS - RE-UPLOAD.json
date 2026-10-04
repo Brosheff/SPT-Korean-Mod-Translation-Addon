@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_226ff0ec042f",
+  "mod_name": "CNN - CONTAINERS - RE-UPLOAD",
+  "channels": {
+    "locale": [
+      {
+        "key": "674a33573fef1c2943025680 Description",
+        "source": "A secret Black Division invention for maximum storage - the Onyx secured container.",
+        "translation": "최대의 수납공간을 위해 블랙 디비전이 비밀리에 개발한 오닉스 보안 컨테이너입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "683d0995deed9b8d4f897ec2 Name",
+        "source": "Gear Box",
+        "translation": "장비 상자"
+      },
+      {
+        "key": "683d0995deed9b8d4f897ec2 Description",
+        "source": "A gear storage box.",
+        "translation": "장비 보관 상자입니다."
+      },
+      {
+        "key": "683d09aadb9e219d2f7bd6e8 Name",
+        "source": "Mod Case",
+        "translation": "부품 케이스"
+      },
+      {
+        "key": "683d09aadb9e219d2f7bd6e8 Description",
+        "source": "A weapon mod storage case.",
+        "translation": "무기 부품 보관 케이스입니다."
+      },
+      {
+        "key": "683d09b347163b4e7eaecfb1 Name",
+        "source": "Recycled Ammo Bag",
+        "translation": "재활용 탄약 가방"
+      },
+      {
+        "key": "683d09b347163b4e7eaecfb1 Description",
+        "source": "A recycled IFAK to hold ammunition.",
+        "translation": "탄약을 보관하도록 재활용한 IFAK입니다."
+      },
+      {
+        "key": "683d09bda7c49f4eead357ec Name",
+        "source": "Recycled First Aid Kit",
+        "translation": "재활용 구급상자"
+      },
+      {
+        "key": "683d09bda7c49f4eead357ec Description",
+        "source": "A used and dirty first aid kit. It can be reused in a similar way.",
+        "translation": "낡고 더러운 구급상자입니다. 비슷한 용도로 다시 사용할 수 있습니다."
+      },
+      {
+        "key": "683d09c63c277dad20e4260b Name",
+        "source": "Small Portable Fridge",
+        "translation": "소형 휴대용 냉장고"
+      },
+      {
+        "key": "683d09c63c277dad20e4260b Description",
+        "source": "A small portable fridge.",
+        "translation": "소형 휴대용 냉장고입니다."
+      },
+      {
+        "key": "683d09cd0c8ec927b398b7b7 Name",
+        "source": "Small Toolbox",
+        "translation": "소형 공구함"
+      },
+      {
+        "key": "683d09cd0c8ec927b398b7b7 Description",
+        "source": "A small toolbox, probably stolen from a Scav.",
+        "translation": "작은 공구함입니다. 아마 스캐브에게서 훔친 물건일 겁니다."
+      },
+      {
+        "key": "683d09d8a1b2c3d4e5f60001 Name",
+        "source": "Secure Mapbook",
+        "translation": "보안 지도책"
+      },
+      {
+        "key": "683d09d8a1b2c3d4e5f60001 Description",
+        "source": "A meticulously crafted book designed for storing and organizing maps.",
+        "translation": "지도를 보관하고 정리하기 위해 정교하게 제작된 책입니다."
+      },
+      {
+        "key": "683d09e1f5a4b7c8d9e20003 Name",
+        "source": "Ruined Wooden Box",
+        "translation": "망가진 나무 상자"
+      },
+      {
+        "key": "683d09e1f5a4b7c8d9e20003 Description",
+        "source": "A worn-out wooden crate, still sturdy enough to store just about anything.",
+        "translation": "낡아빠진 나무 상자지만 여전히 거의 무엇이든 보관할 만큼 튼튼합니다."
+      },
+      {
+        "key": "674a33573fef1c2943025680 Name",
+        "source": "Secure Container Onyx",
+        "translation": "보안 컨테이너 오닉스"
+      },
+      {
+        "key": "683d09d8a1b2c3d4e5f60001 ShortName",
+        "source": "Mapbook",
+        "translation": "지도책"
+      }
+    ]
+  }
+}

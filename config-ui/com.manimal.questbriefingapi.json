@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.manimal.questbriefingapi",
+  "plugin_name": "Manimal-QuestBriefingAPI",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "Briefing Audio",
+      "translation": "브리핑 오디오"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Briefing Audio",
+      "key": "Enable briefing audio",
+      "source_display_name": "Enable briefing audio",
+      "source_description": null,
+      "translation_display_name": "브리핑 오디오 사용",
+      "translation_description": "등록된 퀘스트에서 브리핑 플레이어를 표시합니다. 끄면 오디오가 즉시 정지하고 플레이어가 숨겨집니다.",
+      "values": []
+    },
+    {
+      "section": "Briefing Audio",
+      "key": "Automatic playback",
+      "source_display_name": "Automatic playback",
+      "source_description": null,
+      "translation_display_name": "자동 재생",
+      "translation_description": "등록된 퀘스트를 선택하면 브리핑을 자동 재생합니다. 수동 재생을 원하면 끄세요.",
+      "values": []
+    },
+    {
+      "section": "Briefing Audio",
+      "key": "Volume",
+      "source_display_name": "Volume",
+      "source_description": null,
+      "translation_display_name": "볼륨",
+      "translation_description": "브리핑 볼륨입니다. 타르코프의 전체 및 인터페이스 볼륨 영향도 받습니다.",
+      "values": []
+    },
+    {
+      "section": "Briefing Audio",
+      "key": "Radio filter",
+      "source_display_name": "Radio filter",
+      "source_description": null,
+      "translation_display_name": "무전기 필터",
+      "translation_description": "브리핑 음성에 전화/무전기 주파수 대역 필터를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Briefing Audio",
+      "key": "Radio distortion",
+      "source_display_name": "Radio distortion",
+      "source_description": null,
+      "translation_display_name": "무전기 왜곡",
+      "translation_description": "무전기 필터 사용 시 약한 왜곡을 추가합니다. 0이면 더 깨끗한 전화 음색이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "Briefing Audio",
+      "key": "Radio clicks and static",
+      "source_display_name": "Radio clicks and static",
+      "source_description": null,
+      "translation_display_name": "무전 연결음 및 잡음",
+      "translation_description": "내레이션 전 연결음과 종료/정지 시 연결 해제음을 재생합니다.",
+      "values": []
+    }
+  ]
+}

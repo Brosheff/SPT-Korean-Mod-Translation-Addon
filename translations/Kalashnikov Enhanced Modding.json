@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_6150dc132e14",
+  "mod_name": "Kalashnikov Enhanced Modding",
+  "channels": {
+    "locale": [
+      {
+        "key": "67597e357ad45ed39b0fc14f Name",
+        "source": "545 Design red heat agressor upper",
+        "translation": "545 Design Red Heat Aggressor 상부 총열덮개",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e357ad45ed39b0fc14f Description",
+        "source": "545 Design red heat agressor upper handguard",
+        "translation": "545 Design의 Red Heat Aggressor 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc151 Name",
+        "source": "AKademia Dominator upper Handguard ",
+        "translation": "AKademia Dominator 상부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc151 ShortName",
+        "source": "Dominator upper",
+        "translation": "Dominator 상부"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc151 Description",
+        "source": "AKademia upper hanguard with a scope rail",
+        "translation": "조준경 레일이 달린 AKademia 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc152 Name",
+        "source": "Alfa arms Aspid Upper Handguard",
+        "translation": "Alfa Arms Aspid 상부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc152 Description",
+        "source": "Alfa arms Aspid Upper Handguard rail system , looks like the b30...",
+        "translation": "Alfa Arms Aspid 상부 총열덮개 레일 시스템입니다. B-30과 비슷한 형태입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc153 Name",
+        "source": "caa quad rail polymer (upper)",
+        "translation": "CAA 폴리머 쿼드 레일 상부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc153 Description",
+        "source": "caa quad rail polymer (upper) you can mount a scope lol",
+        "translation": "CAA 폴리머 쿼드 레일 상부 총열덮개입니다. 조준경도 장착할 수 있습니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc154 Name",
+        "source": "CNC GUNS ov gp upper",
+        "translation": "CNC Guns OV GP 상부"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc154 Description",
+        "source": "CNC guns ov gp upper part",
+        "translation": "CNC Guns OV GP 상부 부품입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc155 Name",
+        "source": "ak 74 plum polymer upper",
+        "translation": "AK-74 자두색 폴리머 상부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc155 Description",
+        "source": "standard ak upper handguard in plum color",
+        "translation": "자두색의 표준 AK 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc156 Name",
+        "source": "AK-74 Wood polymer upper handguard",
+        "translation": "AK-74 목재 폴리머 상부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc156 ShortName",
+        "source": "Wood std",
+        "translation": "목재 std"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc156 Description",
+        "source": "Standard ak upper handguard made of wood",
+        "translation": "목재로 제작된 표준 AK 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc157 Name",
+        "source": "AK-74 Standard polymer upper handguard",
+        "translation": "AK-74 표준 폴리머 상부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc157 Description",
+        "source": "Standard Ak upper handguard made of polymer",
+        "translation": "폴리머로 제작된 표준 AK 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc158 Name",
+        "source": "AKM standard wood upper",
+        "translation": "AKM 표준 목재 상부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc158 ShortName",
+        "source": "AKM wood",
+        "translation": "AKM 목재"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc158 Description",
+        "source": "Standard akm upper handguard made of wood",
+        "translation": "목재로 제작된 표준 AKM 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc159 Name",
+        "source": "khyber custom 'swiss cheese' grather gasblock cover",
+        "translation": "Khyber Custom 'Swiss Cheese' 강판형 가스 블록 커버"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc159 Description",
+        "source": "say cheese",
+        "translation": "치즈라고 해보세요."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15a Name",
+        "source": "Krebs UFM custom upper handguard",
+        "translation": "Krebs UFM 커스텀 상부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15a Description",
+        "source": "Krebs UFM custom upper handguard ",
+        "translation": "Krebs UFM 커스텀 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15b Name",
+        "source": "Magpull AK upper Handguard (Black)",
+        "translation": "Magpul AK 상부 총열덮개 (검은색)"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15b ShortName",
+        "source": "Magpull blk",
+        "translation": "맥풀 blk"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15b Description",
+        "source": "Magpull AK upper Handguard from MOE and Zhukov series",
+        "translation": "맥풀(Magpul) MOE 및 Zhukov 시리즈 AK 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15c Name",
+        "source": "Magpull AK upper Handguard (FDE)",
+        "translation": "Magpul AK 상부 총열덮개 (사막색)"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15c ShortName",
+        "source": "Magpull fde",
+        "translation": "맥풀 fde"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15c Description",
+        "source": "Magpull AK upper Handguard from MOE and Zhukov series in FDE color",
+        "translation": "사막색 맥풀(Magpul) MOE 및 Zhukov 시리즈 AK 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15d Name",
+        "source": "Magpull AK upper Handguard (Olive drab)",
+        "translation": "Magpul AK 상부 총열덮개 (올리브 드랩)"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15d ShortName",
+        "source": "Magpull od",
+        "translation": "맥풀 od"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15d Description",
+        "source": "Magpull AK upper Handguard from MOE and Zhukov series in a olive color",
+        "translation": "올리브색 맥풀(Magpul) MOE 및 Zhukov 시리즈 AK 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15e Name",
+        "source": "Magpull AK upper Handguard (Plum)",
+        "translation": "Magpul AK 상부 총열덮개 (플럼)"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15e ShortName",
+        "source": "Magpull plm",
+        "translation": "맥풀 plm"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15e Description",
+        "source": "Magpull AK upper Handguard from MOE and Zhukov series in plum color",
+        "translation": "자두색 맥풀(Magpul) MOE 및 Zhukov 시리즈 AK 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15f Name",
+        "source": "Magpull AK upper Handguard (Stealth Grey)",
+        "translation": "Magpul AK 상부 총열덮개 (스텔스 그레이)"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15f ShortName",
+        "source": "Magpull sg",
+        "translation": "맥풀 sg"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc15f Description",
+        "source": "Magpull AK upper Handguard from MOE and Zhukov series in dank grey color",
+        "translation": "짙은 회색 맥풀(Magpul) MOE 및 Zhukov 시리즈 AK 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc160 Name",
+        "source": "VPO-136 Standard upper handguard",
+        "translation": "VPO-136 표준 상부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc160 Description",
+        "source": "VPO-136 Standard upper handguard made of wood",
+        "translation": "목재로 제작된 VPO-136 표준 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc161 Name",
+        "source": "VPO-209 Standard upper handguard",
+        "translation": "VPO-209 표준 상부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc161 Description",
+        "source": "VPO-209 Standard upper handguard made of wood",
+        "translation": "목재로 제작된 VPO-209 표준 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc162 Name",
+        "source": "Strike Industries Trax 1 upper",
+        "translation": "Strike Industries TRAX 1 상부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc162 Description",
+        "source": "Trax 1 upper handguard",
+        "translation": "TRAX 1 상부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc163 Name",
+        "source": "Tdi x47 upper part",
+        "translation": "TDI X47 상부 부품"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc163 Description",
+        "source": "tdi x47 upper part screwed with a rail lol",
+        "translation": "레일로 고정하는 TDI X47 상부 부품입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc164 Name",
+        "source": "troy vent hole lower handguard",
+        "translation": "Troy 벤트 홀 하부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc164 Description",
+        "source": "lower handguard from the troy kit",
+        "translation": "Troy 키트의 하부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc165 Name",
+        "source": "vltor cmrd upper part",
+        "translation": "VLTOR CMRD 상부 부품"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc165 Description",
+        "source": "vltor cmrd upper part screwed and keymod",
+        "translation": "나사로 고정하며 KeyMod를 사용하는 VLTOR CMRD 상부 부품입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc166 Name",
+        "source": "ak vs-24 lower",
+        "translation": "AK VS-24 하부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc166 Description",
+        "source": "lower handguard complete this please",
+        "translation": "AK VS-24 하부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc167 Name",
+        "source": "ak vs-24 handguard (White)",
+        "translation": "ak vs-24 총열덮개 (White)"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc167 Description",
+        "source": "lower handguard in white complete this please",
+        "translation": "흰색 하부 총열덮개입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc168 Name",
+        "source": "zenitco b19 rail",
+        "translation": "Zenitco B-19 레일"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc168 Description",
+        "source": "zenitco b19 rail system compatible with B10M and B30",
+        "translation": "B-10M 및 B-30과 호환되는 Zenitco B-19 레일 시스템입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc169 Name",
+        "source": "zenitco b31 rail",
+        "translation": "Zenitco B-31 레일"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc169 Description",
+        "source": "zenitco b30 rail system compatible with B10M and B30",
+        "translation": "B-10M 및 B-30과 호환되는 Zenitco B-31 레일 시스템입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16a Name",
+        "source": "SLR Ion RD-704 lower handguard",
+        "translation": "SLR ION RD-704 하부 총열덮개"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16a Description",
+        "source": "SLR Ion handguard mlok i think",
+        "translation": "SLR ION M-LOK 총열덮개로 보입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16b Name",
+        "source": "AK-105 Standard 11 inch barrel",
+        "translation": "AK-105 표준 11인치 총열"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16b Description",
+        "source": "Standard carabine barrel for AK105 series, chambered in 5.45x39mm",
+        "translation": "5.45x39mm 탄을 사용하는 AK-105 계열용 표준 카빈 총열입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16c Name",
+        "source": "AK-102 5.56x45 Standard 11 inch barrel",
+        "translation": "AK-102 5.56x45 표준 11인치 총열"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16c Description",
+        "source": "Standard Short carabine barrel for AK102 chambered in 5.56 NATO",
+        "translation": "5.56 NATO 탄을 사용하는 AK-102용 표준 단축 카빈 총열입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16d Name",
+        "source": "AK-104 7.62x39 Standard 11 inch barrel",
+        "translation": "AK-104 7.62x39 표준 11인치 총열"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16d Description",
+        "source": "Standard Short carabine barrel for AK102 chambered in 7.62x39",
+        "translation": "7.62x39 탄을 사용하는 AK-104용 표준 단축 카빈 총열입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16e Name",
+        "source": "AK-74 standard 15 inch barrel",
+        "translation": "AK-74 표준 15인치 총열"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16e Description",
+        "source": "Standard barrel for AK74, fits perfectly other caliber by the way lol",
+        "translation": "AK-74용 표준 총열입니다. 다른 구경에도 잘 맞는다고 합니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16f Name",
+        "source": "AK-101 5.56x45 Standard 15 inch barrel",
+        "translation": "AK-101 5.56x45 표준 15인치 총열"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16f Description",
+        "source": "Standard rifle barrel for AK101 chambered in 5.56 NATO",
+        "translation": "5.56 NATO 탄을 사용하는 AK-101용 표준 소총 총열입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc170 Name",
+        "source": "AK-103 7.62x39 Standard 15 inch barrel",
+        "translation": "AK-103 7.62x39 표준 15인치 총열"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc170 Description",
+        "source": "Standard rifle barrel for AK103 chambered in 7.62x39mm",
+        "translation": "7.62x39mm 탄을 사용하는 AK-103용 표준 소총 총열입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc171 Name",
+        "source": "AKM standard 15 inch barrel",
+        "translation": "AKM 표준 15인치 총열"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc171 Description",
+        "source": "Standard barrel for AKM",
+        "translation": "AKM용 표준 총열입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc172 Name",
+        "source": "AK TEC Arms Custom 15\" Barrel",
+        "translation": "AK TEC Arms 커스텀 15인치 총열"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc172 ShortName",
+        "source": "AKTEC 15\"",
+        "translation": "AKTEC 15인치"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc172 Description",
+        "source": "Incredible ! A custom made barrel for an AK chambered in 7.62x39mm, designed and created by AK-Tec USA.\n fully cnc machined barrel assembly with ingenious design improving Accuracy, patented rear sight picatiny rail on the trunion allwos ffor easy mount of compact scopes, with a bolt-on gasblock front sight combinaison  Made in America in Aurora, CO",
+        "translation": "놀랍습니다! AK-Tec USA에서 설계·제작한 7.62x39mm AK용 커스텀 총열입니다. 완전 CNC 가공한 총열 어셈블리로 정확도를 높이는 독창적인 설계를 적용했습니다. 트러니언의 특허식 후방 피카티니 조준경 레일 덕분에 소형 조준경을 쉽게 장착할 수 있고, 볼트 고정식 가스 블록/가늠쇠 결합부를 사용합니다. 미국 콜로라도주 오로라에서 제작되었습니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc173 Name",
+        "source": "Rmp 3 siderail mount",
+        "translation": "RMP-3 측면 레일 마운트"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc173 Description",
+        "source": "rmp 3 siderail mount for ak N variants series",
+        "translation": "AK N 계열용 RMP-3 측면 레일 마운트입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc174 Name",
+        "source": "Rmp 5 siderail mount",
+        "translation": "RMP-5 측면 레일 마운트"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc174 Description",
+        "source": "rmp 5 siderail mount for ak N variants series",
+        "translation": "AK N 계열용 RMP-5 측면 레일 마운트입니다."
+      },
+      {
+        "key": "67597e817ad45ed39b0fc175 Name",
+        "source": "Rmp-pm siderail mount",
+        "translation": "RMP-PM 측면 레일 마운트"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc175 Description",
+        "source": "rmp-pm siderail mount from ak-100 series",
+        "translation": "AK-100 계열용 RMP-PM 측면 레일 마운트입니다."
+      },
+      {
+        "key": "57ffa9f424597772857ee844 Description",
+        "source": "The integrally machined B-11 foregrip is manufactured from aluminum alloy D16T with black coating and can be installed instead of the standard-issue foregrip on the AKS-74U. The foregrip is fitted with Picatinny rail mounts on three sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators. Manufactured by Zenit.",
+        "translation": "일체 가공된 B-11 전방 그립(총열덮개)은 D16T 알루미늄 합금으로 제작되었으며 검은색 코팅이 되어 있습니다. AKS-74U의 표준 전방 손잡이 대신 장착할 수 있고, 세 면에 피카티니 레일 마운트를 갖추어 전술 전방 손잡이, 손전등, 레이저 조준기 등 추가 장비를 설치할 수 있습니다. 제니트(Zenit)에서 제조했습니다."
+      },
+      {
+        "key": "5fbcc437d724d907e20bcd5c Name",
+        "source": "SIG lightweight stock for AK-100 Series",
+        "translation": "시그 사우어 AK-100 시리즈용 경량 개머리판"
+      },
+      {
+        "key": "5fbcc437d724d907e20bcd5c Description",
+        "source": "A custom created thin and lightweight stock from a SIG Mpx stock specially adapted for AK-100 series. ",
+        "translation": "SIG MPX 개머리판을 AK-100 시리즈에 맞게 특수 개조한 얇고 가벼운 주문 제작 개머리판입니다."
+      },
+      {
+        "key": "628a83c29179c324ed64943d Name",
+        "source": "SAG Mk.2 handguard",
+        "translation": "SAG Mk.2 총열덮개",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "628a83c29179c324ed64943d Description",
+        "source": "The Sureshot Armament Group Mk.2 for AK series, equipped with an M-LOK interface for the installation of additional devices and accessories and a picatinny rail on top for sights and tactical equipment mounting.",
+        "translation": "슈어샷 아머먼트 그룹(Sureshot Armament Group)의 AK 시리즈용 Mk.2 총열덮개입니다. 추가 장치와 액세서리를 장착할 수 있는 M-LOK 인터페이스와, 조준경 및 전술 장비를 장착할 수 있는 상단 피카티니 레일을 갖추고 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "628a83c29179c324ed64955a Name",
+        "source": "SAG Mk.2.1 handguard",
+        "translation": "SAG Mk.2.1 총열덮개",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "628a83c29179c324ed64955a Description",
+        "source": "The Sureshot Armament Group Mk.2.1 standard handguard for AK series, equipped with an M-LOK interface for the installation of additional devices and accessories and a picatinny rail on top for sights and tactical equipment mounting.",
+        "translation": "슈어샷 아머먼트 그룹(Sureshot Armament Group)의 AK 시리즈용 Mk.2.1 표준 총열덮개입니다. 추가 장치와 액세서리를 장착할 수 있는 M-LOK 인터페이스와, 조준경 및 전술 장비를 장착할 수 있는 상단 피카티니 레일을 갖추고 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "628a83c29179c324ed26955a Name",
+        "source": "SAG Mk.3 handguard",
+        "translation": "SAG Mk.3 총열덮개",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "628a83c29179c324ed26955a Description",
+        "source": "The Sureshot Armament Group Mk.3 handguard for AK, equipped with an M-LOK interface for the installation of additional devices and accessories and a picatinny rail on top for sights and tactical equipment mounting.",
+        "translation": "슈어샷 아머먼트 그룹(Sureshot Armament Group)의 AK용 Mk.3 총열덮개입니다. 추가 장치와 액세서리를 장착할 수 있는 M-LOK 인터페이스와, 조준경 및 전술 장비를 장착할 수 있는 상단 피카티니 레일을 갖추고 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "57ffa9f424597772857ee844 Name",
+        "source": "AKS-74U Zenit B-11 lightweight handguard",
+        "translation": "AKS-74U 제니트 B-11 경량 총열덮개",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "566cb2314bdc2d79388b4576 Name",
+        "source": "POPC AK100 to AR Stock adapter",
+        "translation": "POPC AK100용 AR 개머리판 어댑터",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "566cb2314bdc2d79388b4576 Description",
+        "source": "A specific AK100 to AR adapter for POPC.",
+        "translation": "POPC용 AK100-AR 전용 개머리판 어댑터입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "5649b2314bd2fd79388b4576 Name",
+        "source": "POPC AKM to AR Stock adapter",
+        "translation": "POPC AKM용 AR 개머리판 어댑터",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "5649b2314bd2fd79388b4576 Description",
+        "source": "A specific AKM to AR adapter for POPC.",
+        "translation": "POPC용 AKM-AR 전용 개머리판 어댑터입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "5d2c770c48f03543da07c100 Name",
+        "source": "POPC Gen 4 mount rail",
+        "translation": "POPC 4세대 마운트 레일",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "5d2c770c48f03543da07c100 Description",
+        "source": "4th generation Optic Mount Rail Base(POPC, Podstawa Optycznych Przyrzadow Celowniczych) of Polish Beryl weapon system with an integrated Picatinny rail, which can be installed on the new AKM to AR stock adapter. ",
+        "translation": "폴란드 베릴 무기 체계의 4세대 광학장비 마운트 레일 베이스(POPC, Podstawa Optycznych Przyrzadow Celowniczych)입니다. 피카티니 레일이 통합되어 있으며 신형 AKM-AR 개머리판 어댑터에 장착할 수 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "628b9be6cff66b70c662b14c Name",
+        "source": "SAG Mk.3 railed dust cover",
+        "translation": "SAG Mk.3 레일형 먼지덮개",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "628b9be6cff66b70c662b14c Description",
+        "source": "A standard-issue dust cover for AK rifles, manufactured by Sureshot Armament Group.",
+        "translation": "슈어샷 아머먼트 그룹(Sureshot Armament Group)에서 제작한 AK 소총용 표준 먼지덮개입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "5d2c33cc48f0355d95672c25 Name",
+        "source": "AK TWS Dog Leg Beryl-style Rail",
+        "translation": "AK TWS 도그 레그 베릴 스타일 레일",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "5d2c33cc48f0355d95672c25 Description",
+        "source": "The Texas Weapon Systems Dog Leg Beryl-style Rail with an integrated Picatinny rail is compatible with all models of Kalashnikov automatic rifles and carbines based on the AK platform.",
+        "translation": "텍사스 웨폰 시스템즈(Texas Weapon Systems)의 도그 레그 베릴 스타일 레일입니다. 피카티니 레일이 통합되어 있으며 AK 플랫폼을 기반으로 한 모든 칼라시니코프 자동소총 및 카빈 모델과 호환됩니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e357ad45ed39b0fc14f ShortName",
+        "source": "aggr. upp.",
+        "translation": "Aggressor 상부",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc152 ShortName",
+        "source": "Aspid up",
+        "translation": "Aspid 상부",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc155 ShortName",
+        "source": "plum plymr",
+        "translation": "플럼 폴리머",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc157 ShortName",
+        "source": "std plymr",
+        "translation": "표준 폴리머",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc163 ShortName",
+        "source": "X47 up",
+        "translation": "X47 상부",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc165 ShortName",
+        "source": "cmrd up",
+        "translation": "CMRD 상부",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16b ShortName",
+        "source": "AK105 11'",
+        "translation": "AK105 11인치",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16c ShortName",
+        "source": "AK102 11'",
+        "translation": "AK102 11인치",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16d ShortName",
+        "source": "AK104 11'",
+        "translation": "AK104 11인치",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16e ShortName",
+        "source": "AK74 15",
+        "translation": "AK74 15인치",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc16f ShortName",
+        "source": "AK101 15'",
+        "translation": "AK101 15인치",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc170 ShortName",
+        "source": "AK103 15'",
+        "translation": "AK103 15인치",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc171 ShortName",
+        "source": "AKM 15",
+        "translation": "AKM 15인치",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "57ffa9f424597772857ee844 ShortName",
+        "source": "B-11 light",
+        "translation": "B-11 경량",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "5fbcc437d724d907e20bcd5c ShortName",
+        "source": "SIG light ak100",
+        "translation": "SIG 경량 AK100",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "5d2c33cc48f0355d95672c25 ShortName",
+        "source": "Beryl Dog Leg Rail",
+        "translation": "Beryl Dog Leg",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67597e817ad45ed39b0fc159 ShortName",
+        "source": "khyber",
+        "translation": "카이버",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ]
+  }
+}

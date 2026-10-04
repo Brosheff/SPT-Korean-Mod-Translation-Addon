@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "source3.wtt_doomarcade",
+  "mod_name": "WTT - DoomArcade",
+  "channels": {
+    "locale": [
+      {
+        "key": "TURN_ON_ARCADE",
+        "source": "Turn On Arcade",
+        "translation": "아케이드 켜기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69ac519839d15e3196551ec7 name",
+        "source": "Interchangium Arcadium",
+        "translation": "인터체인지움 아케이디움"
+      },
+      {
+        "key": "69ac519839d15e3196551ec7 description",
+        "source": "Got a minute, merc? I’ve been digging through some pre-war maintenance docs and tripped on something interesting.\n\nBefore everything went to hell, some mall tycoon set up a tiny arcade in the Interchange mall. Not the stupid kiddie shit you’re thinking of – I’m talking proper old hardware, heavy CRTs, big cabinets, analog guts. Those machines used ridiculously overbuilt logic boards and power filtering. Stuff that can handle being battered, under‑volted, and still boot.\n\nI want one of those boards. Not just for nostalgia – those circuits are a perfect testbed for my signal experiments. That being said… I won’t lie, I’m curious what kind of junk people wasted their coins on before bullets became the only pocket change that matters.\n\nHead to Interchange and salvage me one of those boards. There are a few cabinets scattered near the entrances, but the one you're after is in one of the tech shops. Make sure you bring a toolset too, or you'll be leaving empty handed.",
+        "translation": "잠깐 시간 있나, 용병? 전쟁 전 정비 문서들을 뒤지다가 흥미로운 걸 하나 발견했네.\n\n모든 게 지옥으로 떨어지기 전, 어떤 쇼핑몰 거물이 인터체인지 몰에 조그만 오락실을 차려놨더군. 자네가 생각하는 애들 장난감 같은 건 아니네. 제대로 된 구식 장비 말일세. 무거운 CRT, 큼직한 캐비닛, 아날로그 부품들. 그 기계들은 터무니없을 만큼 과하게 설계된 로직 보드와 전원 필터를 썼더군. 얻어맞고 전압이 떨어져도 부팅은 되는 물건들이지.\n\n그 보드 하나가 필요하네. 단순히 향수 때문은 아니야. 그 회로는 내 신호 실험용 테스트베드로 딱 좋거든. 그래도… 솔직히 말하면 총알이 유일한 잔돈이 되기 전 사람들이 동전을 어디에 낭비했는지 좀 궁금하긴 하네.\n\n인터체인지로 가서 그 보드 하나를 떼어오게. 입구 근처에 캐비닛이 몇 대 흩어져 있지만, 자네가 찾을 건 기술 상점 중 한 곳에 있네. 공구 세트도 챙기게. 안 그러면 빈손으로 돌아오게 될 테니."
+      },
+      {
+        "key": "69ac519839d15e3196551ec7 startedMessageText",
+        "source": "There should be a few scattered arcade machines in Interchange – mostly near the entrances. I think I saw one in one of the tech shops as well, can't remember which one. Grab me the main board out of the one in the tech shop and bring it to me intact.",
+        "translation": "인터체인지에 아케이드 기계가 몇 대 흩어져 있을 걸세. 대부분 입구 근처일 거고, 기술 상점 중 한 곳에서도 본 기억이 있네. 어느 곳인지는 기억이 안 나는군. 기술 상점에 있는 기계에서 메인 보드를 떼어내 온전하게 가져오게."
+      },
+      {
+        "key": "69ac519839d15e3196551ec7 successMessageText",
+        "source": "Well, well… look at this dinosaur.\n\nTracks are scorched, caps are half‑dead, but the bones are intact. Plus, you actually managed not to drop it down a stairwell. I’m impressed.\n\nI’ll dump this into the tester, replace a few corpses, and see if the thing still remembers how to think. If it boots, we’ll have a solid platform for my signal sandbox… and maybe a peek into what passed for ‘fun’ before everything turned to shit.\n\nGood job. I’ll keep you in the loop if this relic does anything interesting.",
+        "translation": "이런, 이런… 이 공룡 좀 보게.\n\n트레이스는 그을렸고 커패시터는 반쯤 죽었지만, 뼈대는 멀쩡하군. 게다가 계단 아래로 떨어뜨리지도 않고 가져왔네. 꽤 하는데.\n\n테스터에 물려서 죽은 부품 몇 개 갈고, 이놈이 아직 생각하는 법을 기억하는지 보겠네. 부팅만 된다면 내 신호 실험용 샌드박스로 제법 괜찮은 기반이 되겠지… 그리고 세상이 엉망이 되기 전에 사람들이 뭘 ‘재미’라고 불렀는지도 조금 볼 수 있을 테고.\n\n잘했네. 이 유물이 뭔가 흥미로운 반응을 보이면 알려주지."
+      },
+      {
+        "key": "69ac519839d15e3196551ec7 failMessageText",
+        "source": "I can't believe you weren't able to get a simple board for me. What kind of mercenary can't follow the simplest of commands?",
+        "translation": "고작 보드 하나를 못 가져올 줄은 몰랐군. 가장 간단한 지시조차 못 따르는 용병이라니, 대체 무슨 용병인가?"
+      },
+      {
+        "key": "69ac519839d15e3196551ec7 completePlayerMessage",
+        "source": "Payment sent, transaction concluded. I'll be in touch when I get further on this circuit board.",
+        "translation": "대금은 보냈네. 거래는 끝났어. 이 회로 기판을 좀 더 파고들게 되면 연락하지."
+      },
+      {
+        "key": "69ac51b848f2a2745c551ecc name",
+        "source": "Reboot Sequence",
+        "translation": "재부팅 시퀀스"
+      },
+      {
+        "key": "69ac51b848f2a2745c551ecc description",
+        "source": "Remember that arcade board you hauled in? I’ve had it on life support ever since.\n\nIt boots… barely. No picture at first, just clicks and whining coils. After a bit of surgery, I got something that looks like a boot logo – distorted, half‑burned in, but proof of life nonetheless.\n\nThe problem is, the rest of the chain is missing. That board wants a very specific ecosystem: analog power, period‑correct sync, audio amp tuned for that old junk. If I jam it into my modern harness, it’ll either cook itself or sound like a dying modem.\n\nSo here’s the deal. You bring me the missing organs, I build a proper cradle.\n\nI'll need a CRT power supply module, and a dedicated audio amp board from any arcade or entertainment rig you can find. Head back to interchange with a toolset and salvage away.",
+        "translation": "전에 자네가 가져온 아케이드 보드 기억하나? 그 뒤로 계속 연명 장치에 매달아 놓고 있었네.\n\n부팅은 되네… 간신히. 처음엔 화면도 안 나오고 클릭 소리랑 코일 우는 소리만 났지. 좀 손을 본 뒤에는 부팅 로고 비슷한 게 나오더군. 왜곡되고 반쯤 타버린 흔적뿐이지만, 그래도 살아 있다는 증거지.\n\n문제는 나머지 체인이 없다는 거네. 그 보드는 아주 특정한 환경을 요구하더군. 아날로그 전원, 당시 규격에 맞는 동기 신호, 그 낡은 장비에 맞춘 오디오 앰프. 내 현대식 하니스에 억지로 물리면 스스로 타버리거나 죽어가는 모뎀 소리를 낼 걸세.\n\n그러니 이렇게 하지. 자네가 빠진 장기들을 가져오면 내가 제대로 된 기반을 만들어 보겠네.\n\nCRT 전원 모듈 하나와 아케이드든 오락 장비든 어디서든 전용 오디오 앰프 보드를 하나 찾아오게. 공구 세트를 들고 인터체인지로 돌아가서 뜯어오게."
+      },
+      {
+        "key": "69ac51b848f2a2745c551ecc startedMessageText",
+        "source": "Head to Interchange, find some more arcade cabinets and bring me those parts. I’ll wire the antique up the right way.",
+        "translation": "인터체인지로 가서 아케이드 캐비닛을 더 찾아보고 그 부품들을 가져오게. 이 골동품에 맞는 방식으로 제대로 배선해 보지."
+      },
+      {
+        "key": "69ac51b848f2a2745c551ecc successMessageText",
+        "source": "Now this is more like it.\n\nClean enough traces, matching connector footprints… and the audio board even uses the same filthy little amp family. It's nice to appreciate hand crafted circuitry over the machine printed junk that passes as a PCB nowadays. Whoever specced these machines wasn’t a complete idiot.\n\nWith this, I can rebuild the whole signal path end‑to‑end. Proper power, proper sync, proper sound. I’ll have to bodge some adapters and probably re‑cap half the stack, but that’s just time, flux, and profanity.\n\nYou did your part. I’ll take it from here and see if I can get more than a boot logo out of this corpse. If it behaves, we move to the fun stage.",
+        "translation": "그래, 이제 좀 그럴듯하군.\n\n트레이스는 충분히 깨끗하고 커넥터 패턴도 맞아. 오디오 보드도 똑같은 지저분한 소형 앰프 계열을 쓰는군. 요즘 PCB라고 나오는 기계로 찍어낸 쓰레기보다 이런 손수 설계한 회로를 보고 있으니 제법 감상할 맛이 나네. 이 기계를 설계한 놈들이 완전히 멍청하진 않았군.\n\n이거면 신호 경로 전체를 처음부터 끝까지 다시 만들 수 있겠네. 제대로 된 전원, 제대로 된 동기, 제대로 된 소리. 어댑터를 몇 개 억지로 맞추고 회로 절반의 커패시터를 갈아야 하겠지만, 그건 시간과 플럭스, 욕설이면 해결되지.\n\n자네 몫은 끝났네. 이제부터는 내가 맡아서 이 시체에서 부팅 로고 이상의 걸 뽑아낼 수 있는지 보겠네. 얌전히 작동해 준다면 다음은 재미있는 단계로 넘어가지."
+      },
+      {
+        "key": "69ac51b848f2a2745c551ecc failMessageText",
+        "source": "You seriously couldn't bother to get me the parts I need? I'll make sure to repay you in kind when you come whining for the next attachment you want to buy.",
+        "translation": "내가 필요한 부품 좀 가져오는 게 그렇게 귀찮았나? 다음에 자네가 사고 싶은 부착물 때문에 와서 징징댈 때 똑같이 갚아주지."
+      },
+      {
+        "key": "69ac51b848f2a2745c551ecc completePlayerMessage",
+        "source": "You managed to not screw it up twice in a row. I'll mark that on my calendar. Payment sent, until next time.",
+        "translation": "두 번 연속 망치지 않았군. 달력에 표시라도 해둬야겠네. 대금은 보냈어. 다음에 보지."
+      },
+      {
+        "key": "69ac51e30d558014f5551ed5 name",
+        "source": "Player 1 Ready",
+        "translation": "플레이어 1 준비 완료"
+      },
+      {
+        "key": "69ac51e30d558014f5551ed5 description",
+        "source": "Status report: the relic returns from the grave.\n\nTook some effort. Couple of nights re‑routing power, burning in caps, hand‑tuning, and screaming at a thirty‑year‑old service manual that was written in Polish of all things. But it boots pretty clean now.\n\nTurns out it’s not just some random coin‑eater. It’s running an old build of a game someone cooked up on the side – crude graphics, mean feedback loop, zero hand‑holding. My kind of software. I’ve been poking at the data and there’s a tag in the files that matches some other junk I’ve seen in local networks. Whoever wrote this thing was actually IN Tarkov.\n\nI’m going to assemble a full cabinet for myself – proper shell, controls, everything. Since you’ve been the one dragging parts out of live‑fire zones, I’ll make you an offer.\n\nYou bring me a decent electric motor for active cooling, a set of high‑tech components for a stable power stage, and a modern CPU I can cannibalize for a supervisor module. In return, I’ll build a second cabinet core you can mount in your own hideout.\n\nI’ll even leave my copy of that ‘doom’ project on there as a little… added value. Think of it as stress relief between raids. Or training, depending on how you look at it.",
+        "translation": "상황 보고. 그 유물이 무덤에서 돌아왔네.\n\n손이 좀 갔지. 전원 경로를 다시 짜고, 커패시터를 에이징하고, 손으로 조정하고, 하필 폴란드어로 쓰인 30년 묵은 정비 설명서에 소리 지르며 며칠 밤을 보냈네. 그래도 이제 제법 깔끔하게 부팅되는군.\n\n알고 보니 아무 동전이나 먹는 평범한 기계가 아니었네. 누군가 곁다리로 만든 오래된 게임 빌드가 돌아가고 있더군. 거친 그래픽, 가차없는 피드백 루프, 친절한 설명은 전혀 없음. 딱 내 취향이야. 데이터를 좀 뒤져봤는데 파일 안의 태그 하나가 로컬 네트워크에서 봤던 다른 잡동사니와 일치하더군. 이걸 만든 사람은 실제로 타르코프 안에 있었던 거네.\n\n내 몫으로 완전한 캐비닛을 하나 조립할 생각일세. 제대로 된 외형, 조작부, 전부 다. 실탄이 날아다니는 곳에서 부품을 끌어온 게 자네니까 제안을 하나 하지.\n\n능동 냉각용으로 쓸 만한 전기 모터 하나, 안정적인 전원부를 위한 하이테크 부품들, 그리고 관리 모듈로 뜯어 쓸 현대식 CPU를 가져오게. 그 대가로 자네 은신처에 설치할 수 있는 두 번째 캐비닛 코어를 만들어주지.\n\n내가 갖고 있는 그 ‘둠’ 프로젝트 복사본도… 부가 서비스로 넣어두겠네. 레이드 사이의 스트레스 해소용으로 생각하든, 훈련용으로 생각하든 자네 마음일세."
+      },
+      {
+        "key": "69ac51e30d558014f5551ed5 startedMessageText",
+        "source": "Get me all those parts, and hopefully I can cobble this together into something to help pass the time.",
+        "translation": "부품을 전부 가져오게. 잘만 하면 시간을 때울 만한 걸로 조립할 수 있을 걸세."
+      },
+      {
+        "key": "69ac51e30d558014f5551ed5 successMessageText",
+        "source": "Motor’s strong enough, high‑tech bits will keep the rails clean, and that CPU… well, it’s overkill, but it will be useful.\n\nI’ve already got my cabinet frame mocked up. Once I get this thing sorted out fully, I’ll spin up a twin core for you. You’ll get a build that can survive your hideout’s wiring and still push those old pixels the way they were meant to be seen.",
+        "translation": "모터는 충분히 강하고, 하이테크 부품이면 전원 레일을 안정적으로 유지할 수 있겠군. 그리고 그 CPU는… 과하긴 하지만 쓸 데는 있겠네.\n\n캐비닛 프레임은 이미 대충 만들어뒀네. 이걸 완전히 정리하고 나면 자네 몫으로 쌍둥이 코어 하나를 만들어주지. 자네 은신처의 배선에서도 버티고, 그 오래된 픽셀을 원래 보던 방식대로 밀어줄 만한 구성으로 말일세."
+      },
+      {
+        "key": "69ac51e30d558014f5551ed5 failMessageText",
+        "source": "A shopping list of parts, and you manage to fuck it up. What the hell man?",
+        "translation": "부품 몇 개 적어준 장보기 목록 하나를 망쳐버리다니. 대체 뭐 하는 건가?"
+      },
+      {
+        "key": "69ac51e30d558014f5551ed5 completePlayerMessage",
+        "source": "That’s everything I needed. I sent you something for your time.",
+        "translation": "필요한 건 전부 모였네. 수고비는 보내뒀어."
+      },
+      {
+        "key": "69ad83bed4e2e313bb51f516",
+        "source": "Hand over 1 found in raid Electric motor",
+        "translation": "레이드에서 발견한 전기 모터 1개 건네주기"
+      },
+      {
+        "key": "69ad83ef9c833bf8ae51f518",
+        "source": "Hand over 3 found in raid Electronic components",
+        "translation": "레이드에서 발견한 전자 부품 3개 건네주기"
+      },
+      {
+        "key": "69ad83eca21ee0a2ce51f517",
+        "source": "Hand over 1 found in raid PC CPU",
+        "translation": "레이드에서 발견한 PC CPU 1개 건네주기"
+      },
+      {
+        "key": "69dee8720d337cf6aa05b917 name",
+        "source": "Oh... That one's not for you.",
+        "translation": "아… 그건 자네 것이 아닐세."
+      },
+      {
+        "key": "69dee8720d337cf6aa05b917 description",
+        "source": "I managed to get that side project of ours fully functional. All that ancient scrap you pulled out paired nicely with our shiny new hardware, and we've got a fully functional arcade cabinet.\n\nWhat's that now? You thought you'd be getting the first cabinet? I, uh, assembled this cabinet for myself... I can't magically duplicate all those ancient parts now can I?\n\nI'm sure you can manage to salvage another set of boards from the cabinets, another power module, and bring me all the other odds and ends needed. Get me my shopping list and I’ll assemble the second cabinet core you can mount in your hideout.",
+        "translation": "우리 둘이 하던 그 곁다리 프로젝트, 완전히 작동하게 만들었네. 자네가 끌어온 고물들과 반짝이는 신형 부품이 제법 잘 맞아서, 이제 완전히 작동하는 아케이드 캐비닛 하나가 생겼지.\n\n뭐라고? 자네가 첫 번째 캐비닛을 받을 줄 알았나? 그게… 이 캐비닛은 내가 쓰려고 조립했네. 그 옛날 부품들을 마법처럼 복제할 수는 없지 않겠나?\n\n아케이드 기계에서 보드 한 세트를 더 뜯어오고, 전원 모듈도 하나 더 챙기고, 그 밖에 필요한 잡다한 부품들도 가져올 수 있을 걸세. 목록대로 가져오면 자네 은신처에 설치할 두 번째 캐비닛 코어를 조립해주지."
+      },
+      {
+        "key": "69dee8720d337cf6aa05b917 startedMessageText",
+        "source": "Head back to Interchange for round two - salvage all three parts and get me the rest of the tech I need.",
+        "translation": "인터체인지로 다시 가게. 이번엔 세 부품을 전부 회수하고 나머지 필요한 장비도 가져오게."
+      },
+      {
+        "key": "69dee8720d337cf6aa05b917 successMessageText",
+        "source": "That’s everything. Shouldn't take me long to get the second cabinet sorted, I'll send some guys over to install it at your place. Just don’t blame me if you lose more time on that screen than on actual jobs.",
+        "translation": "다 모였군. 두 번째 캐비닛을 정리하는 데 오래 걸리진 않을 걸세. 사람을 보내 자네 은신처에 설치하도록 하지. 실제 일보다 그 화면 앞에서 더 많은 시간을 보내게 돼도 내 탓은 하지 말게."
+      },
+      {
+        "key": "69dee8720d337cf6aa05b917 failMessageText",
+        "source": "Looks like no arcade cabinet for you! Enjoy watching the same show on Tarkov tv over and over and over again....",
+        "translation": "아케이드 캐비닛은 물 건너갔군! 타르코프 TV에서 똑같은 방송이나 계속, 또 계속 보고 있게나…"
+      },
+      {
+        "key": "69dee8720d337cf6aa05b917 completePlayerMessage",
+        "source": "My guys called, why is your hideout such a mess? They said they 'put it wherever they could clear the rubble to find space'. Whatever, live in squalor, the arcade will work well for you while you enjoy this lovely conflict we find ourselves in.",
+        "translation": "내 사람들이 연락했는데, 자네 은신처는 왜 그렇게 엉망인가? “잔해를 치우고 자리 나는 곳에 그냥 설치했다”고 하더군. 뭐, 폐허에서 살든 말든 자네 마음이지. 이 아름다운 분쟁을 즐기는 동안 아케이드 기계는 꽤 잘 돌아갈 걸세."
+      },
+      {
+        "key": "69dee91058127e349c05b923",
+        "source": "Hand over 1 found in raid Electric motor",
+        "translation": "레이드에서 발견한 전기 모터 1개 건네주기"
+      },
+      {
+        "key": "69dee90d07b197cecb05b922",
+        "source": "Hand over 3 found in raid Electronic components",
+        "translation": "레이드에서 발견한 전자 부품 3개 건네주기"
+      },
+      {
+        "key": "69dee90b6256bf7e5605b921",
+        "source": "Hand over 1 found in raid PC CPU",
+        "translation": "레이드에서 발견한 PC CPU 1개 건네주기"
+      },
+      {
+        "key": "6a050718b79a994add4fba60",
+        "source": "Complete the following tasks in a single raid:",
+        "translation": "다음 작업을 한 번의 레이드에서 완료하기:"
+      },
+      {
+        "key": "69ae0c8e82a9a4823651f520",
+        "source": "Salvage an Arcade Logic Board from an arcade cabinet in one of the tech shops in Interchange.",
+        "translation": "인터체인지 기술 상점 중 한 곳의 아케이드 기계에서 아케이드 로직 보드 회수하기"
+      },
+      {
+        "key": "6a0506ed519727382c36084b",
+        "source": "Stash the Arcade Logic Board in one of the metal shacks near Scav Camp.",
+        "translation": "스캐브 캠프 근처 금속 판잣집 중 한 곳에 아케이드 로직 보드 숨겨두기"
+      },
+      {
+        "key": "6a32fef733dd52c8b3e32590",
+        "source": "Complete the following tasks in a single raid:",
+        "translation": "다음 작업을 한 번의 레이드에서 완료하기:"
+      },
+      {
+        "key": "69bd6478449b9ae515d93f9d",
+        "source": "Salvage a CRT Power Module from an arcade cabinet in Interchange.",
+        "translation": "인터체인지의 아케이드 기계에서 CRT 전원 모듈 회수하기"
+      },
+      {
+        "key": "6a32fed673aae278d3c2799e",
+        "source": "Stash the CRT Power Module in one of the metal shacks near Scav Camp.",
+        "translation": "스캐브 캠프 근처 금속 판잣집 중 한 곳에 CRT 전원 모듈 숨겨두기"
+      },
+      {
+        "key": "6a32ff052ada360cff2cd825",
+        "source": "Complete the following tasks in a single raid:",
+        "translation": "다음 작업을 한 번의 레이드에서 완료하기:"
+      },
+      {
+        "key": "69bd64ac4510eec79cd93f9e",
+        "source": "Salvage an Arcade Audio Board from an arcade cabinet in Interchange.",
+        "translation": "인터체인지의 아케이드 기계에서 아케이드 오디오 보드 회수하기"
+      },
+      {
+        "key": "6a32fefe07ac119cce5e8e80",
+        "source": "Stash the Arcade Audio Board in one of the metal shacks near Scav Camp.",
+        "translation": "스캐브 캠프 근처 금속 판잣집 중 한 곳에 아케이드 오디오 보드 숨겨두기"
+      },
+      {
+        "key": "6a32fdcfe9adb3f4358f3d72",
+        "source": "Complete the following tasks in a single raid:",
+        "translation": "다음 작업을 한 번의 레이드에서 완료하기:"
+      },
+      {
+        "key": "69dee893ba407952d305b919",
+        "source": "Salvage an Arcade Logic Board from an arcade cabinet in Interchange.",
+        "translation": "인터체인지의 아케이드 기계에서 아케이드 로직 보드 회수하기"
+      },
+      {
+        "key": "6a32fdc3d43f157294d38548",
+        "source": "Stash the Arcade Logic Board in one of the metal shacks near Scav Camp.",
+        "translation": "스캐브 캠프 근처 금속 판잣집 중 한 곳에 아케이드 로직 보드 숨겨두기"
+      },
+      {
+        "key": "6a32fde327fc02ee211f2d7f",
+        "source": "Complete the following tasks in a single raid:",
+        "translation": "다음 작업을 한 번의 레이드에서 완료하기:"
+      },
+      {
+        "key": "69dee896fae82b6bc005b91a",
+        "source": "Salvage a CRT Power Module from an arcade cabinet in Interchange.",
+        "translation": "인터체인지의 아케이드 기계에서 CRT 전원 모듈 회수하기"
+      },
+      {
+        "key": "6a32fdda8c7d08790e4d2450",
+        "source": "Stash the CRT Power Module in one of the metal shacks near Scav Camp.",
+        "translation": "스캐브 캠프 근처 금속 판잣집 중 한 곳에 CRT 전원 모듈 숨겨두기"
+      },
+      {
+        "key": "6a32fdf631329014084305bd",
+        "source": "Complete the following tasks in a single raid:",
+        "translation": "다음 작업을 한 번의 레이드에서 완료하기:"
+      },
+      {
+        "key": "69ffabbca4ec51ac11f88ad2",
+        "source": "Salvage an Arcade Audio Board from an arcade cabinet in Interchange.",
+        "translation": "인터체인지의 아케이드 기계에서 아케이드 오디오 보드 회수하기"
+      },
+      {
+        "key": "6a32fdea9f52a4e1e7a4adff",
+        "source": "Stash the Arcade Audio Board in one of the metal shacks near Scav Camp.",
+        "translation": "스캐브 캠프 근처 금속 판잣집 중 한 곳에 아케이드 오디오 보드 숨겨두기"
+      },
+      {
+        "key": "69d4460dbea349d22013f92e Name",
+        "source": "Arcade Audio Board",
+        "translation": "아케이드 오디오 보드",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "69d4460dbea349d22013f92e ShortName",
+        "source": "Audio",
+        "translation": "오디오 보드"
+      },
+      {
+        "key": "69d4460dbea349d22013f92e Description",
+        "source": "A compact circuit board used in various audio device. It appears to handle signal routing, power regulation, and control logic for the unit’s sound system.",
+        "translation": "다양한 오디오 장치에 사용되는 소형 회로 기판입니다. 장치의 음향 시스템에서 신호 라우팅, 전원 조절 및 제어 로직을 담당하는 것으로 보입니다."
+      },
+      {
+        "key": "69d446ec4c8a6357f213f931 Name",
+        "source": "CRT Power Module",
+        "translation": "CRT 전원 모듈",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "69d446ec4c8a6357f213f931 ShortName",
+        "source": "PowerM",
+        "translation": "전원 모듈"
+      },
+      {
+        "key": "69d446ec4c8a6357f213f931 Description",
+        "source": "Sealed high-voltage power module for CRT displays. Converts mains AC to the thousands of volts needed for cathode ray tube operation, with integrated transformers and safety fusing.",
+        "translation": "CRT 디스플레이용 밀폐형 고전압 전원 모듈입니다. 상용 교류 전원을 음극선관 작동에 필요한 수천 볼트의 고전압으로 변환하며, 변압기와 안전 퓨즈가 내장되어 있습니다."
+      },
+      {
+        "key": "69d446192add7ebebf13f92f Name",
+        "source": "Arcade Logic Board",
+        "translation": "아케이드 로직 보드",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "69d446192add7ebebf13f92f ShortName",
+        "source": "Logic",
+        "translation": "로직 보드"
+      },
+      {
+        "key": "69d446192add7ebebf13f92f Description",
+        "source": "A multi-layer circuit assembly. It integrates core processing, memory, and interfacing components on densely packed boards specifically designed for vintage arcade cabinets.",
+        "translation": "다층 회로 기판 어셈블리입니다. 빈티지 아케이드 캐비닛용으로 설계된 고밀도 기판에 핵심 처리 장치, 메모리 및 인터페이스 부품이 통합되어 있습니다."
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "r000",
+        "source": "TARKOV",
+        "translation": "타르코프",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r001",
+        "source": "Classic Doom: Tech-base invasion to Hell across 3 episodes. Tight corridors, key hunts, and demon hordes in the original 1993 FPS.",
+        "translation": "클래식 DOOM. 3개 에피소드에 걸쳐 기술 기지 침공부터 지옥까지 이어집니다. 좁은 통로, 열쇠 찾기, 악마 무리가 원작 1993년 FPS의 핵심입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r002",
+        "source": "DOOM Shareware – Episode 1",
+        "translation": "DOOM 셰어웨어 – 에피소드 1",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r003",
+        "source": "Doom Shareware: Free episode 1 only (Knee-Deep in the Dead). Perfect intro to Doom's fast combat and maze exploration.",
+        "translation": "DOOM 셰어웨어: 무료 에피소드 1(Knee-Deep in the Dead)만 포함합니다. DOOM 특유의 빠른 전투와 미로 탐험을 처음 접하기 좋습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r004",
+        "source": "The Ultimate Doom: Original Doom + bonus episode 4 'Thy Flesh Consumed.' Shorter, deadlier maps for veterans.",
+        "translation": "The Ultimate DOOM: 원작 DOOM에 보너스 에피소드 4 'Thy Flesh Consumed'가 추가된 버전입니다. 숙련자를 위한 더 짧고 치명적인 맵들입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r005",
+        "source": "Doom II: Hell on Earth. Super shotgun debuts alongside revenants and arch-viles in a 32-map Hell invasion.",
+        "translation": "DOOM II: Hell on Earth. 슈퍼 샷건이 처음 등장하며 레버넌트와 아크바일이 추가된 32개 맵의 지옥 침공입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r006",
+        "source": "Final Doom: TNT Evilution. TeamTNT's 32 structured maps from marine base to fiery Hell finale.",
+        "translation": "Final DOOM: TNT Evilution. 해병 기지에서 불타는 지옥의 결말까지 이어지는 TeamTNT의 32개 맵입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r007",
+        "source": "Final Doom: Plutonia Experiment. 32 brutal slaughter maps heavy on chaingunners and tight fights.",
+        "translation": "Final DOOM: Plutonia Experiment. 체인거너 비중이 높고 좁은 교전이 이어지는 32개의 잔혹한 슬로터 맵입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r008",
+        "source": "No Rest for the Living: 9 dense Doom II maps from the XBLA era. Modern layouts with classic vanilla rules.",
+        "translation": "No Rest for the Living: XBLA 시대에 나온 밀도 높은 DOOM II 맵 9개입니다. 현대적인 레이아웃과 고전 바닐라 규칙을 결합했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r009",
+        "source": "Tarkov: Factory of Doom",
+        "translation": "타르코프: 둠의 공장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r010",
+        "source": "Tarkov Factory of Doom. Scavs roaming the industrial factory, while evil Tagilla lurks in the shadows. Are you Chad enough to make it to extract?",
+        "translation": "타르코프 둠의 공장. 산업 시설을 돌아다니는 스캐브들, 그림자 속에 도사리는 사악한 타길라. 과연 탈출까지 해낼 만큼 채드인가?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r011",
+        "source": "Army of Darkness Doom II. Groovy boomstick action and chainsaw mayhem in a Doom II total conversion.",
+        "translation": "Army of Darkness Doom II. DOOM II 토탈 컨버전에서 끝내주는 붐스틱 액션과 전기톱 난투를 즐길 수 있습니다.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

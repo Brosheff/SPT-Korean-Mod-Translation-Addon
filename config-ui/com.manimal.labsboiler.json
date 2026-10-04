@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.manimal.labsboiler",
+  "plugin_name": "Manimal-LabsBoiler",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "Lights",
+      "translation": "조명"
+    },
+    {
+      "source": "Keycard",
+      "translation": "키카드"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Lights",
+      "key": "LampIntensityScale",
+      "source_display_name": "LampIntensityScale",
+      "source_description": null,
+      "translation_display_name": "램프 밝기 배율",
+      "translation_description": "복구된 사무실 램프 밝기에 적용하는 실시간 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Lights",
+      "key": "LampBrightnessCap",
+      "source_display_name": "LampBrightnessCap",
+      "source_description": null,
+      "translation_display_name": "램프 밝기 상한",
+      "translation_description": "램프 밝기 상한입니다. 8은 제한 없음으로 원본과 동일합니다.",
+      "values": []
+    },
+    {
+      "section": "Lights",
+      "key": "ForceAllLampsOn",
+      "source_display_name": "ForceAllLampsOn",
+      "source_description": null,
+      "translation_display_name": "모든 램프 강제 점등",
+      "translation_description": "원본에서 꺼져 있는 램프까지 포함해 모든 사무실 램프를 켭니다. 레이드 시작 시 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Lights",
+      "key": "EmissiveBoost",
+      "source_display_name": "EmissiveBoost",
+      "source_description": null,
+      "translation_display_name": "발광 재질 배율",
+      "translation_description": "사무실 발광 머티리얼의 _EmissionVisibility 배율입니다. 레이드 중 실시간 조절됩니다.",
+      "values": []
+    },
+    {
+      "section": "Keycard",
+      "key": "SwipeAnchorX",
+      "source_display_name": "SwipeAnchorX",
+      "source_description": null,
+      "translation_display_name": "키카드 스와이프 기준점 X",
+      "translation_description": "키카드 스와이프 상호작용 기준점의 프록시 로컬 X 좌표입니다.",
+      "values": []
+    },
+    {
+      "section": "Keycard",
+      "key": "SwipeAnchorY",
+      "source_display_name": "SwipeAnchorY",
+      "source_description": null,
+      "translation_display_name": "키카드 스와이프 기준점 Y",
+      "translation_description": "키카드 스와이프 상호작용 기준점의 프록시 로컬 Y 좌표입니다.",
+      "values": []
+    },
+    {
+      "section": "Keycard",
+      "key": "SwipeAnchorZ",
+      "source_display_name": "SwipeAnchorZ",
+      "source_description": null,
+      "translation_display_name": "키카드 스와이프 기준점 Z",
+      "translation_description": "키카드 스와이프 상호작용 기준점의 프록시 로컬 Z 좌표입니다.",
+      "values": []
+    }
+  ]
+}

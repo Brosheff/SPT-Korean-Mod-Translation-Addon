@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "source3.vanguard",
+  "mod_name": "Vanguard",
+  "channels": {
+    "locale": [
+      {
+        "key": "6a7f68d5c0115729ea7437b3 Name",
+        "source": "Dead Air Sandman X 7.62x51 sound suppressor (Black)",
+        "translation": "데드 에어 샌드맨 X 7.62x51 소음기 (검은색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6a7f68d5c0115729ea7437b3 ShortName",
+        "source": "Sandman X",
+        "translation": "샌드맨 X"
+      },
+      {
+        "key": "6a7f68d5c0115729ea7437b3 Description",
+        "source": "The Sandman X is the pinnacle of Dead Air’s unwavering commitment to performance and an evolution to the venerable Sandman line. The Sandman X incorporates decades of research to give users the most pleasurable shooting experience possible by optimizing sound, balancing backpressure, and eliminating flash to increase performance for semi-automatic and bolt action rifles alike.",
+        "translation": "샌드맨 X는 성능에 대한 데드 에어(Dead Air)의 확고한 집념이 집약된 제품이자 유서 깊은 Sandman 계열의 진화형입니다. 수십 년간의 연구를 반영해 소음을 최적화하고 역압의 균형을 조절하며 총구 화염을 억제함으로써, 반자동 소총과 볼트액션 소총 모두에서 쾌적한 사격 경험과 높은 성능을 제공합니다."
+      },
+      {
+        "key": "6a7f72d3fa043ad7d87437b5 Name",
+        "source": "Dead Air Sandman X 7.62x51 sound suppressor (FDE)",
+        "translation": "데드 에어 샌드맨 X 7.62x51 소음기 (사막색)"
+      },
+      {
+        "key": "6a7f72d3fa043ad7d87437b5 ShortName",
+        "source": "Sandman X",
+        "translation": "샌드맨 X"
+      },
+      {
+        "key": "6a7f72d3fa043ad7d87437b5 Description",
+        "source": "The Sandman X is the pinnacle of Dead Air’s unwavering commitment to performance and an evolution to the venerable Sandman line. The Sandman X incorporates decades of research to give users the most pleasurable shooting experience possible by optimizing sound, balancing backpressure, and eliminating flash to increase performance for semi-automatic and bolt action rifles alike.",
+        "translation": "샌드맨 X는 성능에 대한 데드 에어(Dead Air)의 확고한 집념이 집약된 제품이자 유서 깊은 Sandman 계열의 진화형입니다. 수십 년간의 연구를 반영해 소음을 최적화하고 역압의 균형을 조절하며 총구 화염을 억제함으로써, 반자동 소총과 볼트액션 소총 모두에서 쾌적한 사격 경험과 높은 성능을 제공합니다."
+      },
+      {
+        "key": "68c72630d6a0551d04000001 Name",
+        "source": "Inforce WMLX Gen 3 +IR tactical flashlight (Black)",
+        "translation": "인포스 WMLX 3세대 +IR 전술 손전등 (검은색)"
+      },
+      {
+        "key": "68c72630d6a0551d04000001 ShortName",
+        "source": "WMLX",
+        "translation": "WMLX"
+      },
+      {
+        "key": "68c72630d6a0551d04000001 Description",
+        "source": "INFORCE has launched its latest iteration of weapon mounted lights with the WMLX White/IR Gen 3. The newest generation boasts superior brightness and power, providing more than twice the beam intensity of its predecessor on two 123a batteries.",
+        "translation": "인포스(INFORCE)는 무기 장착형 조명의 최신 모델인 WMLX 백색광/IR 3세대를 출시했습니다. 신세대 모델은 밝기와 출력이 크게 향상되어, 123A 배터리 2개를 사용할 때 이전 세대보다 두 배가 넘는 빔 강도를 제공합니다."
+      },
+      {
+        "key": "6a7f75904a71c836d07437b8 Name",
+        "source": "Inforce WMLX Gen 3 +IR tactical flashlight (Tan)",
+        "translation": "인포스 WMLX 3세대 +IR 전술 손전등 (황갈색)"
+      },
+      {
+        "key": "6a7f75904a71c836d07437b8 ShortName",
+        "source": "WMLX",
+        "translation": "WMLX"
+      },
+      {
+        "key": "6a7f75904a71c836d07437b8 Description",
+        "source": "INFORCE has launched its latest iteration of weapon mounted lights with the WMLX White/IR Gen 3. The newest generation boasts superior brightness and power, providing more than twice the beam intensity of its predecessor on two 123a batteries.",
+        "translation": "인포스(INFORCE)는 무기 장착형 조명의 최신 모델인 WMLX 백색광/IR 3세대를 출시했습니다. 신세대 모델은 밝기와 출력이 크게 향상되어, 123A 배터리 2개를 사용할 때 이전 세대보다 두 배가 넘는 빔 강도를 제공합니다."
+      }
+    ]
+  }
+}

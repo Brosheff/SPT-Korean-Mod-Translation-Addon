@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>SPT_Mod_Korean_Server</AssemblyName>
+    <RootNamespace>SPT_Mod_Korean_Server</RootNamespace>
+    <Version>1.0.0</Version>
+    <SPTPath Condition="'$(SPTPath)' == ''">$(SPT_PATH)</SPTPath>
+    <SPTPath Condition="'$(SPTPath)' != ''">$(SPTPath.TrimEnd('\'))</SPTPath>
+    <SPTRuntimePath>$(SPTPath)\SPT_Runtime</SPTRuntimePath>
+  </PropertyGroup>
+
+  <Target Name="ValidateSPTPath" BeforeTargets="BeforeBuild">
+    <Error Condition="'$(SPTPath)' == ''" Text="SPTPath is not set. e.g. -p:SPTPath=C:\SPT" />
+    <Error Condition="!Exists('$(SPTRuntimePath)\SPTarkov.Server.Core.dll')" Text="SPT 4.1.6 server references not found under $(SPTRuntimePath)" />
+  </Target>
+
+  <ItemGroup>
+    <Compile Include="../../src/MinimalLog.cs" Link="MinimalLog.cs" />
+    <Reference Include="SPTarkov.Server.Core"><HintPath>$(SPTRuntimePath)\SPTarkov.Server.Core.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SPTarkov.Common"><HintPath>$(SPTRuntimePath)\SPTarkov.Common.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SPTarkov.DI"><HintPath>$(SPTRuntimePath)\SPTarkov.DI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SemanticVersioning"><HintPath>$(SPTRuntimePath)\SemanticVersioning.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(SPTRuntimePath)\0Harmony.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

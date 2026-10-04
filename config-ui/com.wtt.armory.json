@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.wtt.armory",
+  "plugin_name": "WTT-Armory",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "Hyperburst",
+      "translation": "하이퍼버스트"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Hyperburst",
+      "key": "Hyperburst ROF Multi",
+      "source_display_name": "Hyperburst ROF Multi",
+      "source_description": null,
+      "translation_display_name": "하이퍼버스트 발사속도 배율",
+      "translation_description": "하이퍼버스트 동안의 발사속도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Hyperburst",
+      "key": "Hyperburst Recoil Multi",
+      "source_display_name": "Hyperburst Recoil Multi",
+      "source_description": null,
+      "translation_display_name": "하이퍼버스트 반동 배율",
+      "translation_description": "하이퍼버스트 동안의 반동 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Hyperburst",
+      "key": "Shot Reset Delay",
+      "source_display_name": "Shot Reset Delay",
+      "source_description": null,
+      "translation_display_name": "사격 리셋 지연",
+      "translation_description": "사격 종료 여부를 판정하기 위해 마지막 발사 후 기다리는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Hyperburst",
+      "key": "Hyperburst Shot Threshold",
+      "source_display_name": "Hyperburst Shot Threshold",
+      "source_description": null,
+      "translation_display_name": "하이퍼버스트 사격 임계값",
+      "translation_description": "하이퍼버스트가 끝나는 사격 횟수 기준입니다.",
+      "values": []
+    },
+    {
+      "section": "Hyperburst",
+      "key": "Hyperburst Shot Spread",
+      "source_display_name": "Hyperburst Shot Spread",
+      "source_description": null,
+      "translation_display_name": "하이퍼버스트 탄퍼짐",
+      "translation_description": "값이 높을수록 탄퍼짐이 커집니다.",
+      "values": []
+    }
+  ]
+}

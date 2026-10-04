@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.smajlec.lights",
+  "plugin_name": "SmajlecLights",
+  "_note": "SOURCE3 source-audited SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Main",
+      "translation": "주요 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Main",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Enable post-processing tweaks",
+      "translation_display_name": "활성화",
+      "translation_description": "후처리 보정을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Hotkey",
+      "source_display_name": "Hotkey",
+      "source_description": "Toggle tweaks on hotkey",
+      "translation_display_name": "단축키",
+      "translation_description": "후처리 보정을 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Brightness",
+      "source_display_name": "Brightness",
+      "source_description": "Added brightness",
+      "translation_display_name": "밝기",
+      "translation_description": "추가 밝기를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Exposure",
+      "source_display_name": "Exposure",
+      "source_description": "Extended exposure range, mainly affects dark areas",
+      "translation_display_name": "노출",
+      "translation_description": "노출 범위를 확장합니다. 주로 어두운 영역에 영향을 줍니다.",
+      "values": []
+    }
+  ]
+}

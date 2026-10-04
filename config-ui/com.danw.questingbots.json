@@ -1,0 +1,592 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.danw.questingbots",
+  "plugin_name": "SPTQuestingBots-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "AI Limiter",
+      "translation": "AI 제한"
+    },
+    {
+      "source": "Custom Quest Locations",
+      "translation": "사용자 지정 퀘스트 위치"
+    },
+    {
+      "source": "Debug",
+      "translation": "디버그"
+    },
+    {
+      "source": "Main",
+      "translation": "주요 설정"
+    },
+    {
+      "source": "Scav Spawn Restrictions",
+      "translation": "스캐브 스폰 제한"
+    }
+  ],
+  "entries": [
+    {
+      "section": "AI Limiter",
+      "key": "Bot Types that Cannot be Disabled",
+      "source_display_name": "Bot Types that Cannot be Disabled",
+      "source_description": "These bot types will never be disabled by the AI limiter",
+      "translation_display_name": "비활성화할 수 없는 봇 유형",
+      "translation_description": "여기에 지정한 봇 유형은 AI 제한기가 절대로 비활성화하지 않습니다.",
+      "values": [
+        {
+          "source": "SniperScavs",
+          "translation": "저격 스캐브"
+        },
+        {
+          "source": "Rogues",
+          "translation": "로그"
+        },
+        {
+          "source": "Raiders",
+          "translation": "레이더"
+        },
+        {
+          "source": "BossesAndFollowers",
+          "translation": "보스 및 호위병"
+        },
+        {
+          "source": "CustomBotTypes",
+          "translation": "사용자 지정 봇 유형"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Bots That Are Questing (m)",
+      "source_display_name": "Distance from Bots That Are Questing (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from other questing bots (typically PMC's and player Scavs)",
+      "translation_display_name": "퀘스트 수행 봇과의 거리 (m)",
+      "translation_description": "다른 퀘스트 수행 봇(주로 PMC와 플레이어 스캐브)에서 이 거리보다 멀리 떨어진 봇만 AI를 제한합니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players (m)",
+      "source_display_name": "Distance from Human Players (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player. This takes priority over the map-specific advanced settings.",
+      "translation_display_name": "플레이어와의 거리 (m)",
+      "translation_description": "사람 플레이어에서 이 거리보다 멀리 떨어진 봇만 AI를 제한합니다. 이 값은 맵별 고급 거리 설정보다 우선합니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players on Customs (m)",
+      "source_display_name": "Distance from Human Players on Customs (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player on Customs",
+      "translation_display_name": "세관: 플레이어와의 거리 (m)",
+      "translation_description": "세관에서 사람 플레이어로부터 이 거리보다 멀리 떨어진 봇만 AI 제한 대상이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players on Factory (m)",
+      "source_display_name": "Distance from Human Players on Factory (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player on Factory",
+      "translation_display_name": "공장: 플레이어와의 거리 (m)",
+      "translation_description": "공장에서 사람 플레이어로부터 이 거리보다 멀리 떨어진 봇만 AI 제한 대상이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players on GroundZero (m)",
+      "source_display_name": "Distance from Human Players on GroundZero (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player on GroundZero",
+      "translation_display_name": "그라운드 제로: 플레이어와의 거리 (m)",
+      "translation_description": "그라운드 제로에서 사람 플레이어로부터 이 거리보다 멀리 떨어진 봇만 AI 제한 대상이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players on Interchange (m)",
+      "source_display_name": "Distance from Human Players on Interchange (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player on Interchange",
+      "translation_display_name": "인터체인지: 플레이어와의 거리 (m)",
+      "translation_description": "인터체인지에서 사람 플레이어로부터 이 거리보다 멀리 떨어진 봇만 AI 제한 대상이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players on Labs (m)",
+      "source_display_name": "Distance from Human Players on Labs (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player on Labs",
+      "translation_display_name": "연구소: 플레이어와의 거리 (m)",
+      "translation_description": "연구소에서 사람 플레이어로부터 이 거리보다 멀리 떨어진 봇만 AI 제한 대상이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players on Labyrinth (m)",
+      "source_display_name": "Distance from Human Players on Labyrinth (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player on Labyrinth",
+      "translation_display_name": "미궁: 플레이어와의 거리 (m)",
+      "translation_description": "미궁에서 사람 플레이어로부터 이 거리보다 멀리 떨어진 봇만 AI 제한 대상이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players on Lighthouse (m)",
+      "source_display_name": "Distance from Human Players on Lighthouse (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player on Lighthouse",
+      "translation_display_name": "등대: 플레이어와의 거리 (m)",
+      "translation_description": "등대에서 사람 플레이어로부터 이 거리보다 멀리 떨어진 봇만 AI 제한 대상이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players on Reserve (m)",
+      "source_display_name": "Distance from Human Players on Reserve (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player on Reserve",
+      "translation_display_name": "리저브: 플레이어와의 거리 (m)",
+      "translation_description": "리저브에서 사람 플레이어로부터 이 거리보다 멀리 떨어진 봇만 AI 제한 대상이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players on Shoreline (m)",
+      "source_display_name": "Distance from Human Players on Shoreline (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player on Shoreline",
+      "translation_display_name": "해안선: 플레이어와의 거리 (m)",
+      "translation_description": "해안선에서 사람 플레이어로부터 이 거리보다 멀리 떨어진 봇만 AI 제한 대상이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players on Streets (m)",
+      "source_display_name": "Distance from Human Players on Streets (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player on Streets",
+      "translation_display_name": "타르코프 시내: 플레이어와의 거리 (m)",
+      "translation_description": "타르코프 시내에서 사람 플레이어로부터 이 거리보다 멀리 떨어진 봇만 AI 제한 대상이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Distance from Human Players on Woods (m)",
+      "source_display_name": "Distance from Human Players on Woods (m)",
+      "source_description": "AI will only be disabled if it's more than this distance from a human player on Woods",
+      "translation_display_name": "삼림: 플레이어와의 거리 (m)",
+      "translation_description": "삼림에서 사람 플레이어로부터 이 거리보다 멀리 떨어진 봇만 AI 제한 대상이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Enable AI Limiting",
+      "source_display_name": "Enable AI Limiting",
+      "source_description": "Improve FPS by minimizing CPU load for AI out of certain ranges",
+      "translation_display_name": "AI 제한 활성화",
+      "translation_description": "특정 거리 밖의 봇 AI 업데이트를 줄여 CPU 부하를 낮추고 FPS를 개선합니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Enable AI Limiting for Bots That Are Questing",
+      "source_display_name": "Enable AI Limiting for Bots That Are Questing",
+      "source_description": "Allow AI to be disabled for bots that are questing",
+      "translation_display_name": "퀘스트 수행 봇에도 AI 제한 적용",
+      "translation_description": "퀘스트 행동 중인 봇도 AI 제한 대상이 될 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Maps to Allow AI Limiting for Bots That Are Questing",
+      "source_display_name": "Maps to Allow AI Limiting for Bots That Are Questing",
+      "source_description": "Only allow AI to be disabled for bots that are questing on the selected maps",
+      "translation_display_name": "퀘스트 봇 AI 제한 허용 맵",
+      "translation_description": "선택한 맵에서만 퀘스트 행동 중인 봇에게 AI 제한을 적용합니다.",
+      "values": [
+        {
+          "source": "Customs",
+          "translation": "세관"
+        },
+        {
+          "source": "Factory",
+          "translation": "공장"
+        },
+        {
+          "source": "Interchange",
+          "translation": "인터체인지"
+        },
+        {
+          "source": "Labs",
+          "translation": "연구소"
+        },
+        {
+          "source": "Lighthouse",
+          "translation": "등대"
+        },
+        {
+          "source": "Reserve",
+          "translation": "리저브"
+        },
+        {
+          "source": "Shoreline",
+          "translation": "해안선"
+        },
+        {
+          "source": "Streets",
+          "translation": "타르코프 시내"
+        },
+        {
+          "source": "Woods",
+          "translation": "삼림"
+        },
+        {
+          "source": "GroundZero",
+          "translation": "그라운드 제로"
+        },
+        {
+          "source": "Labyrinth",
+          "translation": "미궁"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "AI Limiter",
+      "key": "Min Bots to Enable AI Limiting",
+      "source_display_name": "Min Bots to Enable AI Limiting",
+      "source_description": "AI will only be disabled if there are at least this number of bots on the map",
+      "translation_display_name": "AI 제한 시작 최소 봇 수",
+      "translation_description": "맵에 살아 있는 봇 수가 이 값 이상일 때만 AI 제한을 시작합니다.",
+      "values": []
+    },
+    {
+      "section": "Custom Quest Locations",
+      "key": "Display Current Location",
+      "source_display_name": "Display Current Location",
+      "source_description": "Display your current (x,y,z) coordinates on the screen",
+      "translation_display_name": "현재 좌표 표시",
+      "translation_description": "화면에 현재 위치의 X, Y, Z 좌표를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Custom Quest Locations",
+      "key": "Enable Quest Location Saving",
+      "source_display_name": "Enable Quest Location Saving",
+      "source_description": "Allow custom quest locations to be saved",
+      "translation_display_name": "퀘스트 위치 저장 활성화",
+      "translation_description": "사용자 지정 퀘스트 위치를 저장할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Custom Quest Locations",
+      "key": "Quest Location Name",
+      "source_display_name": "Quest Location Name",
+      "source_description": "Name of the next quest location that will be stored",
+      "translation_display_name": "퀘스트 위치 이름",
+      "translation_description": "다음에 저장할 사용자 지정 퀘스트 위치의 이름입니다.",
+      "values": []
+    },
+    {
+      "section": "Custom Quest Locations",
+      "key": "Store New Quest Location",
+      "source_display_name": "Store New Quest Location",
+      "source_description": "Store your current location as a quest location",
+      "translation_display_name": "새 퀘스트 위치 저장",
+      "translation_description": "현재 위치를 새 사용자 지정 퀘스트 위치로 저장합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Bot Filter",
+      "source_display_name": "Bot Filter",
+      "source_description": "Show debug info only for bots listed e.g 2,4",
+      "translation_display_name": "봇 필터",
+      "translation_description": "쉼표로 봇 번호를 지정해 해당 봇의 디버그 정보만 표시합니다. 예: 2,4",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Bot Path Overlay Types",
+      "source_display_name": "Bot Path Overlay Types",
+      "source_description": "The types of positions that will be shown for each bot that has path overlays enabled",
+      "translation_display_name": "봇 경로 오버레이 유형",
+      "translation_description": "경로 오버레이를 켠 봇에 대해 어떤 종류의 위치 표식을 표시할지 선택합니다.",
+      "values": [
+        {
+          "source": "QuestTarget",
+          "translation": "퀘스트 목표"
+        },
+        {
+          "source": "EFTTarget",
+          "translation": "EFT 목표"
+        },
+        {
+          "source": "EFTCurrentCorner",
+          "translation": "EFT 현재 코너"
+        },
+        {
+          "source": "AllEFT",
+          "translation": "모든 EFT 경로 지점"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Debug",
+      "key": "Display Current Time in Game",
+      "source_display_name": "Display Current Time in Game",
+      "source_description": "Display the current time in the game (HH:mm) on the screen",
+      "translation_display_name": "게임 내 현재 시간 표시",
+      "translation_description": "화면에 게임 내 현재 시간을 HH:mm 형식으로 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Enable Performance Benchmarking",
+      "source_display_name": "Enable Performance Benchmarking",
+      "source_description": "Measures performance of certain methods and saves a log at the end of each raid",
+      "translation_display_name": "성능 벤치마크 활성화",
+      "translation_description": "일부 메서드의 실행 성능을 측정하고 레이드 종료 시 벤치마크 로그를 저장합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Font Size for Quest Info",
+      "source_display_name": "Font Size for Quest Info",
+      "source_description": "Font Size for Quest Overlays",
+      "translation_display_name": "퀘스트 정보 글꼴 크기",
+      "translation_description": "퀘스트 정보 글꼴 크기 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Max Distance (m) to Show Quest Info",
+      "source_display_name": "Max Distance (m) to Show Quest Info",
+      "source_description": "Quest markers and info overlays will only be shown if the objective location is within this distance from you",
+      "translation_display_name": "퀘스트 정보를 표시할 최대 거리 (m)",
+      "translation_description": "퀘스트 목표가 플레이어에서 이 거리 안에 있을 때만 목표 표식과 정보 오버레이를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Show Bot Info Overlays",
+      "source_display_name": "Show Bot Info Overlays",
+      "source_description": "Show information about what each bot is doing",
+      "translation_display_name": "봇 정보 오버레이 표시",
+      "translation_description": "봇 정보 오버레이 표시 여부를 설정합니다.",
+      "values": [
+        {
+          "source": "QuestingLeaders",
+          "translation": "퀘스트 수행 리더"
+        },
+        {
+          "source": "QuestingFollowers",
+          "translation": "퀘스트 수행 추종자"
+        },
+        {
+          "source": "NonQuestingBots",
+          "translation": "비퀘스트 봇"
+        },
+        {
+          "source": "AllQuestingBots",
+          "translation": "모든 퀘스트 수행 봇"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Debug",
+      "key": "Show Bot Path Overlays",
+      "source_display_name": "Show Bot Path Overlays",
+      "source_description": "Create markers for Bot Path Overlay Types that bots of each selected type are following",
+      "translation_display_name": "봇 경로 정보 표시",
+      "translation_description": "선택한 봇 유형이 따라가는 경로의 주요 위치를 오버레이 표식으로 표시합니다.",
+      "values": [
+        {
+          "source": "QuestingLeaders",
+          "translation": "퀘스트 수행 리더"
+        },
+        {
+          "source": "QuestingFollowers",
+          "translation": "퀘스트 수행 추종자"
+        },
+        {
+          "source": "NonQuestingBots",
+          "translation": "비퀘스트 봇"
+        },
+        {
+          "source": "AllQuestingBots",
+          "translation": "모든 퀘스트 수행 봇"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Debug",
+      "key": "Show Bot Path Visualizations",
+      "source_display_name": "Show Bot Path Visualizations",
+      "source_description": "Draw the path that bots of each selected type are following",
+      "translation_display_name": "봇 경로 시각화 표시",
+      "translation_description": "선택한 봇 유형이 현재 따라가는 이동 경로를 선으로 시각화합니다.",
+      "values": [
+        {
+          "source": "QuestingLeaders",
+          "translation": "퀘스트 수행 리더"
+        },
+        {
+          "source": "QuestingFollowers",
+          "translation": "퀘스트 수행 추종자"
+        },
+        {
+          "source": "NonQuestingBots",
+          "translation": "비퀘스트 봇"
+        },
+        {
+          "source": "AllQuestingBots",
+          "translation": "모든 퀘스트 수행 봇"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Debug",
+      "key": "Show Quest Info Overlays",
+      "source_display_name": "Show Quest Info Overlays",
+      "source_description": "Show information about every nearby quest objective location",
+      "translation_display_name": "퀘스트 정보 오버레이 표시",
+      "translation_description": "퀘스트 정보 오버레이 표시 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Show Quest Info for Spawn-Search Quests",
+      "source_display_name": "Show Quest Info for Spawn-Search Quests",
+      "source_description": "Include quest markers and information for spawn-search quests like 'Spawn Point Wander' and 'Boss Hunter' quests",
+      "translation_display_name": "스폰 탐색형 퀘스트 정보도 표시",
+      "translation_description": "Spawn Point Wander, Boss Hunter처럼 생성 지점을 찾는 퀘스트도 퀘스트 표식과 정보에 포함합니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Allow Bots to Sprint while Questing",
+      "source_display_name": "Allow Bots to Sprint while Questing",
+      "source_description": "Allow bots to sprint while questing. This does not affect their ability to sprint when they're not questing.",
+      "translation_display_name": "퀘스트 이동 중 봇 달리기 허용",
+      "translation_description": "봇이 퀘스트 목표를 수행하며 이동할 때 달릴 수 있게 합니다. 퀘스트 행동을 하지 않을 때의 달리기에는 영향을 주지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Enable Questing",
+      "source_display_name": "Enable Questing",
+      "source_description": "Allow bots to quest",
+      "translation_display_name": "퀘스트 행동 활성화",
+      "translation_description": "봇이 퀘스트 목표를 수행하도록 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Sprinting Distance Limit from Objectives (m)",
+      "source_display_name": "Sprinting Distance Limit from Objectives (m)",
+      "source_description": "Bots will not be allowed to sprint if they are within this distance from their objective",
+      "translation_display_name": "목표 지점 주변 달리기 제한 거리 (m)",
+      "translation_description": "봇이 목표 지점에서 이 거리 안에 들어오면 달리지 못하게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Verbose Logging",
+      "source_display_name": "Verbose Logging",
+      "source_description": "Toggles verbose logging for the selected options",
+      "translation_display_name": "상세 로그 출력",
+      "translation_description": "선택된 기능에 대해 상세 로그를 출력합니다.",
+      "values": [
+        {
+          "source": "QuestingActions",
+          "translation": "퀘스트 행동"
+        },
+        {
+          "source": "QuestGeneration",
+          "translation": "퀘스트 생성"
+        },
+        {
+          "source": "SpawningAndDying",
+          "translation": "스폰 및 사망"
+        },
+        {
+          "source": "BotInitialization",
+          "translation": "봇 초기화"
+        },
+        {
+          "source": "BotHostilityChanges",
+          "translation": "봇 적대 관계 변경"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Scav Spawn Restrictions",
+      "key": "Enable Scav Spawn Restrictions",
+      "source_display_name": "Enable Scav Spawn Restrictions",
+      "source_description": "Restrict where and how frequently Scavs are allowed to spawn",
+      "translation_display_name": "스캐브 스폰 제한 활성화",
+      "translation_description": "스캐브가 생성될 수 있는 위치와 생성 빈도 제한을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Scav Spawn Restrictions",
+      "key": "Map Fraction for Scav Spawning Exclusion Radius",
+      "source_display_name": "Map Fraction for Scav Spawning Exclusion Radius",
+      "source_description": "Adjusts the distance (relative to the map size) that Scavs are allowed to spawn near human players, PMC's, and player Scavs",
+      "translation_display_name": "스캐브 스폰 제외 반경의 맵 비율",
+      "translation_description": "사람 플레이어, PMC, 플레이어 스캐브 주변에 스캐브가 생성되지 않도록 하는 반경을 맵 크기 대비 비율로 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "Scav Spawn Restrictions",
+      "key": "Max Alive Scavs",
+      "source_display_name": "Max Alive Scavs",
+      "source_description": "The maximum number of Scavs that can be alive at the same time (including Sniper Scavs)",
+      "translation_display_name": "동시 생존 스캐브 최대 수",
+      "translation_description": "저격 스캐브를 포함해 동시에 살아 있을 수 있는 스캐브의 최대 수입니다.",
+      "values": []
+    },
+    {
+      "section": "Scav Spawn Restrictions",
+      "key": "Permitted Scav Spawn Rate",
+      "source_display_name": "Permitted Scav Spawn Rate",
+      "source_description": "After the Scav spawn threshold is exceeded, only this number of Scavs will be allowed to spawn per minute (on average)",
+      "translation_display_name": "허용 스캐브 생성 속도",
+      "translation_description": "스캐브 생성 수가 제한 시작 기준을 넘은 뒤 평균적으로 분당 몇 명까지 새로 생성할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Scav Spawn Restrictions",
+      "key": "Threshold for Scav Spawn Rate Limit",
+      "source_display_name": "Threshold for Scav Spawn Rate Limit",
+      "source_description": "The Scav spawn rate limit will only be active after this many Scavs spawn in the raid",
+      "translation_display_name": "스캐브 스폰 비율 제한 기준",
+      "translation_description": "레이드에서 이 수만큼 스캐브가 생성된 뒤부터 분당 생성 속도 제한을 적용합니다.",
+      "values": []
+    }
+  ]
+}

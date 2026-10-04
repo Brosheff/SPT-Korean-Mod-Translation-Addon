@@ -1,0 +1,21 @@
+Ready-to-install ZIP layout produced by BUILD_DISTRIBUTION.ps1
+
+BepInEx/
+  plugins/
+    SPT_Mod_Korean_Addon/
+      SPT_Mod_Korean_Addon.dll
+      translations/
+      config-ui/
+      native-locales/
+        pitfireteam/
+          krx.json
+          kren.json
+SPT_Runtime/
+  user/
+    mods/
+      SPT_Mod_Korean_Server/
+        SPT_Mod_Korean_Server.dll
+
+SPT 4.1.6 server mods live under SPT_Runtime/user/mods. The server DLL must be at the top level of
+SPT_Runtime/user/mods/SPT_Mod_Korean_Server. The server addon walks four parents from that folder
+to the SPT root and then reads BepInEx/plugins/SPT_Mod_Korean_Addon/translations.

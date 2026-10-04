@@ -1,0 +1,533 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.hysocs.ragdollkinetics",
+  "plugin_name": "Ragdoll Kinetics",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "Ragdolls",
+      "translation": "래그돌"
+    },
+    {
+      "source": "AI Hit Response",
+      "translation": "AI 피격 반응"
+    },
+    {
+      "source": "Ragdoll Preview (Debug)",
+      "translation": "래그돌 미리보기 (디버그)"
+    },
+    {
+      "source": "Death Profile - Standing",
+      "translation": "사망 프로필 - 서기"
+    },
+    {
+      "source": "Death Profile - Crouching",
+      "translation": "사망 프로필 - 웅크리기"
+    },
+    {
+      "source": "Death Profile - Walking",
+      "translation": "사망 프로필 - 걷기"
+    },
+    {
+      "source": "Death Profile - Running",
+      "translation": "사망 프로필 - 달리기"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Ragdolls",
+      "key": "FutureAnimationDriver",
+      "source_display_name": "Future Animation Skeleton",
+      "source_description": null,
+      "translation_display_name": "미래 애니메이션 스켈레톤",
+      "translation_description": "사망 후 보이지 않는 스켈레톤에서 EFT 이동 애니메이션을 계속 실행해 시체 애니메이션 추적 대상으로 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdolls",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": null,
+      "translation_display_name": "활성화",
+      "translation_description": "Ragdoll Kinetics를 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdolls",
+      "key": "FreezeDelay",
+      "source_display_name": "Corpse Freeze Delay",
+      "source_description": null,
+      "translation_display_name": "시체 물리 고정 지연",
+      "translation_description": "EFT가 시체 물리를 고정하기 전까지의 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdolls",
+      "key": "ImpulseScale",
+      "source_display_name": "Fatal Impulse Scale",
+      "source_description": null,
+      "translation_display_name": "치명타 충격량 배율",
+      "translation_description": "EFT의 치명타 충격량과 캐시된 푸시에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdolls",
+      "key": "FatalPushDecay",
+      "source_display_name": "Fatal Push Decay",
+      "source_description": null,
+      "translation_display_name": "치명타 푸시 감쇠",
+      "translation_description": "캐시된 치명타 푸시 속도가 사라지는 데 걸리는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdolls",
+      "key": "RagdollMassScale",
+      "source_display_name": "Ragdoll Mass Scale",
+      "source_description": null,
+      "translation_display_name": "래그돌 질량 배율",
+      "translation_description": "원래 뼈별 질량 비율을 유지하면서 모든 래그돌 강체 질량에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdolls",
+      "key": "TeleportRagdollOnGlitch",
+      "source_display_name": "Teleport Ragdoll back on glitch",
+      "source_description": null,
+      "translation_display_name": "오류 시 래그돌 원위치",
+      "translation_description": "뼈 하나라도 35m 이상 튀어나가면 전체 래그돌을 저장된 사망 위치로 되돌립니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdolls",
+      "key": "DebugLogging",
+      "source_display_name": "Debug Logging",
+      "source_description": null,
+      "translation_display_name": "디버그 로그",
+      "translation_description": "상세 관절 진단을 BepInEx 로그에 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "AI Hit Response",
+      "key": "StabilizeAimWhenHit",
+      "source_display_name": "StabilizeAimWhenHit",
+      "source_description": null,
+      "translation_display_name": "피격 시 조준 안정화",
+      "translation_description": "AI가 이미 보고 있는 대상에게 피격될 때 조준 방향이 무작위로 튀는 현상을 방지합니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdoll Preview (Debug)",
+      "key": "Enabled",
+      "source_display_name": "Enable Preview Loop",
+      "source_description": null,
+      "translation_display_name": "미리보기 반복 사용",
+      "translation_description": "테스트 스캐브 하나를 계속 생성/이동/사망/정리합니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdoll Preview (Debug)",
+      "key": "Motion",
+      "source_display_name": "Motion",
+      "source_description": null,
+      "translation_display_name": "사망 전 동작",
+      "translation_description": "사망 직전에 재생할 애니메이션입니다.",
+      "values": [
+        {
+          "source": "Standing",
+          "translation": "서기"
+        },
+        {
+          "source": "Crouching",
+          "translation": "웅크리기"
+        },
+        {
+          "source": "Walking",
+          "translation": "걷기"
+        },
+        {
+          "source": "Running",
+          "translation": "달리기"
+        }
+      ]
+    },
+    {
+      "section": "Ragdoll Preview (Debug)",
+      "key": "RouteLength",
+      "source_display_name": "Route Length",
+      "source_description": null,
+      "translation_display_name": "경로 길이",
+      "translation_description": "미리보기 이동선 길이(미터)입니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdoll Preview (Debug)",
+      "key": "CorpseTime",
+      "source_display_name": "Corpse Display Time",
+      "source_description": null,
+      "translation_display_name": "시체 표시 시간",
+      "translation_description": "정리 후 재생성하기 전까지 각 래그돌을 표시하는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdoll Preview (Debug)",
+      "key": "PathTime",
+      "source_display_name": "Path Time",
+      "source_description": null,
+      "translation_display_name": "경로 이동 시간",
+      "translation_description": "봇이 표시된 경로를 이동할 수 있는 최대 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdoll Preview (Debug)",
+      "key": "KillTime",
+      "source_display_name": "Kill At Time",
+      "source_description": null,
+      "translation_display_name": "사망 시점",
+      "translation_description": "이동 시작 후 미리보기 봇을 사망시킬 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdoll Preview (Debug)",
+      "key": "Diagnostics",
+      "source_display_name": "Movement Diagnostics",
+      "source_description": null,
+      "translation_display_name": "이동 진단",
+      "translation_description": "미리보기 봇의 경로/이동 상태를 기록하고 경로 오차를 빨간색으로 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Ragdoll Preview (Debug)",
+      "key": "NativeDeathDiagnostics",
+      "source_display_name": "Native Death Diagnostics",
+      "source_description": null,
+      "translation_display_name": "네이티브 사망 진단",
+      "translation_description": "AI 사망 전후 프레임의 Unity 네이티브 프로파일러 마커를 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Standing",
+      "key": "MomentumScale",
+      "source_display_name": "Momentum Scale",
+      "source_description": null,
+      "translation_display_name": "운동량 배율",
+      "translation_description": "사망 시 유지되는 수평 속도의 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Standing",
+      "key": "MomentumDecay",
+      "source_display_name": "Momentum Decay",
+      "source_description": null,
+      "translation_display_name": "운동량 감쇠",
+      "translation_description": "상속된 수평 운동량이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Standing",
+      "key": "WorldFollowStrength",
+      "source_display_name": "World Follow Strength",
+      "source_description": null,
+      "translation_display_name": "월드 추적 강도",
+      "translation_description": "각 강체를 애니메이션 월드 위치로 끌어당기는 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Standing",
+      "key": "WorldFollowDecay",
+      "source_display_name": "World Follow Decay",
+      "source_description": null,
+      "translation_display_name": "월드 추적 감쇠",
+      "translation_description": "애니메이션 위치 추적이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Standing",
+      "key": "BoneReplayStrength",
+      "source_display_name": "Bone Replay Strength",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 강도",
+      "translation_description": "걷기/달리기 자세를 재생하는 상대 관절 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Standing",
+      "key": "BoneReplayDecay",
+      "source_display_name": "Bone Replay Decay",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 감쇠",
+      "translation_description": "상대 뼈 애니메이션 재생이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Standing",
+      "key": "BoneReplayMaximumTorque",
+      "source_display_name": "Bone Replay Maximum Torque",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 최대 토크",
+      "translation_description": "관절별 애니메이션 구동 최대 토크입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Standing",
+      "key": "JointLimitRange",
+      "source_display_name": "Joint Limit Range",
+      "source_description": null,
+      "translation_display_name": "관절 제한 범위",
+      "translation_description": "관절 제한 범위에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Standing",
+      "key": "JointLimitStiffness",
+      "source_display_name": "Joint Limit Stiffness",
+      "source_description": null,
+      "translation_display_name": "관절 제한 강성",
+      "translation_description": "관절 제한 스프링 강성입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Crouching",
+      "key": "MomentumScale",
+      "source_display_name": "Momentum Scale",
+      "source_description": null,
+      "translation_display_name": "운동량 배율",
+      "translation_description": "사망 시 유지되는 수평 속도의 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Crouching",
+      "key": "MomentumDecay",
+      "source_display_name": "Momentum Decay",
+      "source_description": null,
+      "translation_display_name": "운동량 감쇠",
+      "translation_description": "상속된 수평 운동량이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Crouching",
+      "key": "WorldFollowStrength",
+      "source_display_name": "World Follow Strength",
+      "source_description": null,
+      "translation_display_name": "월드 추적 강도",
+      "translation_description": "각 강체를 애니메이션 월드 위치로 끌어당기는 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Crouching",
+      "key": "WorldFollowDecay",
+      "source_display_name": "World Follow Decay",
+      "source_description": null,
+      "translation_display_name": "월드 추적 감쇠",
+      "translation_description": "애니메이션 위치 추적이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Crouching",
+      "key": "BoneReplayStrength",
+      "source_display_name": "Bone Replay Strength",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 강도",
+      "translation_description": "걷기/달리기 자세를 재생하는 상대 관절 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Crouching",
+      "key": "BoneReplayDecay",
+      "source_display_name": "Bone Replay Decay",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 감쇠",
+      "translation_description": "상대 뼈 애니메이션 재생이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Crouching",
+      "key": "BoneReplayMaximumTorque",
+      "source_display_name": "Bone Replay Maximum Torque",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 최대 토크",
+      "translation_description": "관절별 애니메이션 구동 최대 토크입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Crouching",
+      "key": "JointLimitRange",
+      "source_display_name": "Joint Limit Range",
+      "source_description": null,
+      "translation_display_name": "관절 제한 범위",
+      "translation_description": "관절 제한 범위에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Crouching",
+      "key": "JointLimitStiffness",
+      "source_display_name": "Joint Limit Stiffness",
+      "source_description": null,
+      "translation_display_name": "관절 제한 강성",
+      "translation_description": "관절 제한 스프링 강성입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Walking",
+      "key": "MomentumScale",
+      "source_display_name": "Momentum Scale",
+      "source_description": null,
+      "translation_display_name": "운동량 배율",
+      "translation_description": "사망 시 유지되는 수평 속도의 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Walking",
+      "key": "MomentumDecay",
+      "source_display_name": "Momentum Decay",
+      "source_description": null,
+      "translation_display_name": "운동량 감쇠",
+      "translation_description": "상속된 수평 운동량이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Walking",
+      "key": "WorldFollowStrength",
+      "source_display_name": "World Follow Strength",
+      "source_description": null,
+      "translation_display_name": "월드 추적 강도",
+      "translation_description": "각 강체를 애니메이션 월드 위치로 끌어당기는 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Walking",
+      "key": "WorldFollowDecay",
+      "source_display_name": "World Follow Decay",
+      "source_description": null,
+      "translation_display_name": "월드 추적 감쇠",
+      "translation_description": "애니메이션 위치 추적이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Walking",
+      "key": "BoneReplayStrength",
+      "source_display_name": "Bone Replay Strength",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 강도",
+      "translation_description": "걷기/달리기 자세를 재생하는 상대 관절 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Walking",
+      "key": "BoneReplayDecay",
+      "source_display_name": "Bone Replay Decay",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 감쇠",
+      "translation_description": "상대 뼈 애니메이션 재생이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Walking",
+      "key": "BoneReplayMaximumTorque",
+      "source_display_name": "Bone Replay Maximum Torque",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 최대 토크",
+      "translation_description": "관절별 애니메이션 구동 최대 토크입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Walking",
+      "key": "JointLimitRange",
+      "source_display_name": "Joint Limit Range",
+      "source_description": null,
+      "translation_display_name": "관절 제한 범위",
+      "translation_description": "관절 제한 범위에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Walking",
+      "key": "JointLimitStiffness",
+      "source_display_name": "Joint Limit Stiffness",
+      "source_description": null,
+      "translation_display_name": "관절 제한 강성",
+      "translation_description": "관절 제한 스프링 강성입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Running",
+      "key": "MomentumScale",
+      "source_display_name": "Momentum Scale",
+      "source_description": null,
+      "translation_display_name": "운동량 배율",
+      "translation_description": "사망 시 유지되는 수평 속도의 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Running",
+      "key": "MomentumDecay",
+      "source_display_name": "Momentum Decay",
+      "source_description": null,
+      "translation_display_name": "운동량 감쇠",
+      "translation_description": "상속된 수평 운동량이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Running",
+      "key": "WorldFollowStrength",
+      "source_display_name": "World Follow Strength",
+      "source_description": null,
+      "translation_display_name": "월드 추적 강도",
+      "translation_description": "각 강체를 애니메이션 월드 위치로 끌어당기는 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Running",
+      "key": "WorldFollowDecay",
+      "source_display_name": "World Follow Decay",
+      "source_description": null,
+      "translation_display_name": "월드 추적 감쇠",
+      "translation_description": "애니메이션 위치 추적이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Running",
+      "key": "BoneReplayStrength",
+      "source_display_name": "Bone Replay Strength",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 강도",
+      "translation_description": "걷기/달리기 자세를 재생하는 상대 관절 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Running",
+      "key": "BoneReplayDecay",
+      "source_display_name": "Bone Replay Decay",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 감쇠",
+      "translation_description": "상대 뼈 애니메이션 재생이 0으로 줄어드는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Running",
+      "key": "BoneReplayMaximumTorque",
+      "source_display_name": "Bone Replay Maximum Torque",
+      "source_description": null,
+      "translation_display_name": "뼈 재생 최대 토크",
+      "translation_description": "관절별 애니메이션 구동 최대 토크입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Running",
+      "key": "JointLimitRange",
+      "source_display_name": "Joint Limit Range",
+      "source_description": null,
+      "translation_display_name": "관절 제한 범위",
+      "translation_description": "관절 제한 범위에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Death Profile - Running",
+      "key": "JointLimitStiffness",
+      "source_display_name": "Joint Limit Stiffness",
+      "source_description": null,
+      "translation_display_name": "관절 제한 강성",
+      "translation_description": "관절 제한 스프링 강성입니다.",
+      "values": []
+    }
+  ]
+}

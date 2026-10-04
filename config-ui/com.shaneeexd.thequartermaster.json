@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.shaneeexd.thequartermaster",
+  "plugin_name": "The Quartermaster Client",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Tags",
+      "translation": "태그"
+    },
+    {
+      "source": "Community",
+      "translation": "커뮤니티"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "DebugLogging",
+      "source_display_name": "DebugLogging",
+      "source_description": "Enable debug logging for the client mod",
+      "translation_display_name": "디버그 로그",
+      "translation_description": "클라이언트 모드의 디버그 로그를 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Tags",
+      "key": "ShowScavengedTags",
+      "source_display_name": "ShowScavengedTags",
+      "source_description": "Show red skull tags on scavenged marketplace items",
+      "translation_display_name": "수집품 태그 표시",
+      "translation_description": "마켓에서 수집된 아이템에 빨간 해골 태그를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Tags",
+      "key": "ShowSellerTags",
+      "source_display_name": "ShowSellerTags",
+      "source_description": "Show green seller name tags on sold marketplace items",
+      "translation_display_name": "판매자 태그 표시",
+      "translation_description": "판매된 마켓 아이템에 판매자 이름의 녹색 태그를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Community",
+      "key": "CacheUrl",
+      "source_display_name": "CacheUrl",
+      "source_description": "URL for the VM community submissions cache",
+      "translation_display_name": "캐시 URL",
+      "translation_description": "VM 커뮤니티 제안 캐시의 URL입니다.",
+      "values": []
+    },
+    {
+      "section": "Community",
+      "key": "ApiBaseUrl",
+      "source_display_name": "ApiBaseUrl",
+      "source_description": "Base URL for the community API",
+      "translation_display_name": "API 기본 URL",
+      "translation_description": "커뮤니티 API의 기본 URL입니다.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.lacyway.hanb",
+  "plugin_name": "HandsAreNotBusy",
+  "_note": "SOURCE3 source-audited SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Keybind",
+      "translation": "키 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Keybind",
+      "key": "Reset Key",
+      "source_display_name": "Reset Key",
+      "source_description": "The key to reset the broken controller with.",
+      "translation_display_name": "재설정 키",
+      "translation_description": "동작이 꼬인 컨트롤러를 재설정할 키입니다.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.manimal.csgas",
+  "plugin_name": "Manimal-CSGas",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "Gas",
+      "translation": "가스"
+    },
+    {
+      "source": "Cough Animation",
+      "translation": "기침 애니메이션"
+    },
+    {
+      "source": "Volumetric",
+      "translation": "체적 가스"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Gas",
+      "key": "CoughIntervalSec",
+      "source_display_name": "CoughIntervalSec",
+      "source_description": null,
+      "translation_display_name": "기침 간격(초)",
+      "translation_description": "가스 구름 안에 있을 때 기침 사이의 간격입니다.",
+      "values": []
+    },
+    {
+      "section": "Gas",
+      "key": "ThoraxDamagePerSec",
+      "source_display_name": "ThoraxDamagePerSec",
+      "source_description": null,
+      "translation_display_name": "흉부 초당 피해",
+      "translation_description": "가스 안에서 질식으로 흉부에 가해지는 초당 피해입니다. 0이면 비활성화됩니다.",
+      "values": []
+    },
+    {
+      "section": "Gas",
+      "key": "TearsEnabled",
+      "source_display_name": "TearsEnabled",
+      "source_description": null,
+      "translation_display_name": "눈 자극 효과",
+      "translation_description": "눈 자극 화면 오버레이를 사용합니다. 렌더링 충돌 시 화면 이상을 막기 위한 비상 스위치입니다.",
+      "values": []
+    },
+    {
+      "section": "Gas",
+      "key": "TearsStrength",
+      "source_display_name": "TearsStrength",
+      "source_description": null,
+      "translation_display_name": "눈 자극 강도",
+      "translation_description": "가스 안에서 적용되는 눈 자극 비네트 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "Gas",
+      "key": "LongExposureIntoxication",
+      "source_display_name": "LongExposureIntoxication",
+      "source_description": null,
+      "translation_display_name": "장시간 노출 중독",
+      "translation_description": "장시간 노출 시 중독 효과를 적용합니다. 기본값은 꺼짐입니다.",
+      "values": []
+    },
+    {
+      "section": "Gas",
+      "key": "LongExposureSec",
+      "source_display_name": "LongExposureSec",
+      "source_description": null,
+      "translation_display_name": "장시간 노출 기준(초)",
+      "translation_description": "연속 노출을 장시간 노출로 간주하기까지의 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Gas",
+      "key": "RequiresLineOfSight",
+      "source_display_name": "RequiresLineOfSight",
+      "source_description": null,
+      "translation_display_name": "시야선 필요",
+      "translation_description": "플레이어와 가스 중심 사이에 벽이 있으면 효과를 차단합니다.",
+      "values": []
+    },
+    {
+      "section": "Gas",
+      "key": "ExtraGasMaskTpls",
+      "source_display_name": "ExtraGasMaskTpls",
+      "source_description": null,
+      "translation_display_name": "추가 방독면 TPL",
+      "translation_description": "가스를 완전히 차단할 추가 FaceCover TPL을 쉼표로 구분해 입력합니다.",
+      "values": []
+    },
+    {
+      "section": "Gas",
+      "key": "ExtraRespiratorTpls",
+      "source_display_name": "ExtraRespiratorTpls",
+      "source_description": null,
+      "translation_display_name": "추가 방진마스크 TPL",
+      "translation_description": "기침/체력 효과만 차단할 추가 FaceCover TPL을 쉼표로 구분해 입력합니다. 눈 자극은 남습니다.",
+      "values": []
+    },
+    {
+      "section": "Cough Animation",
+      "key": "Blend in time",
+      "source_display_name": "Blend in time",
+      "source_description": null,
+      "translation_display_name": "블렌드 인 시간",
+      "translation_description": "기침 애니메이션이 들어오는 데 걸리는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Cough Animation",
+      "key": "Blend out time",
+      "source_display_name": "Blend out time",
+      "source_description": null,
+      "translation_display_name": "블렌드 아웃 시간",
+      "translation_description": "기침 애니메이션에서 기본 자세로 돌아가는 데 걸리는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Cough Animation",
+      "key": "Blend out lead",
+      "source_display_name": "Blend out lead",
+      "source_description": null,
+      "translation_display_name": "블렌드 아웃 선행 시간",
+      "translation_description": "클립 종료 몇 초 전부터 블렌드 아웃을 시작할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Volumetric",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": null,
+      "translation_display_name": "체적 가스 사용",
+      "translation_description": "RShG-2 체적 폭발 레이캐스터를 이용한 방 채움형 가스 구름을 사용합니다. 끄면 단순 구형 구름을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Volumetric",
+      "key": "MaxRadiusM",
+      "source_display_name": "MaxRadiusM",
+      "source_description": null,
+      "translation_display_name": "최대 반경(m)",
+      "translation_description": "가스가 퍼지는 최대 거리입니다.",
+      "values": []
+    },
+    {
+      "section": "Volumetric",
+      "key": "GrowTimeSec",
+      "source_display_name": "GrowTimeSec",
+      "source_description": null,
+      "translation_display_name": "확산 시간(초)",
+      "translation_description": "구름이 최대 확산 범위에 도달하는 데 걸리는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Volumetric",
+      "key": "RayCount",
+      "source_display_name": "RayCount",
+      "source_description": null,
+      "translation_display_name": "레이 개수",
+      "translation_description": "수류탄 주변의 열린 공간을 탐색하는 레이 수입니다.",
+      "values": []
+    },
+    {
+      "section": "Volumetric",
+      "key": "ParticlesPerEmit",
+      "source_display_name": "ParticlesPerEmit",
+      "source_description": null,
+      "translation_display_name": "방출당 파티클 수",
+      "translation_description": "한 번의 방출 틱에 배치하는 연기 파티클 수입니다.",
+      "values": []
+    },
+    {
+      "section": "Volumetric",
+      "key": "EmitIntervalSec",
+      "source_display_name": "EmitIntervalSec",
+      "source_description": null,
+      "translation_display_name": "방출 간격(초)",
+      "translation_description": "가스 파티클 방출 틱 사이의 간격입니다.",
+      "values": []
+    },
+    {
+      "section": "Volumetric",
+      "key": "PointRadiusM",
+      "source_display_name": "PointRadiusM",
+      "source_description": null,
+      "translation_display_name": "구름 지점 반경(m)",
+      "translation_description": "구름 지점에서 이 거리 안에 있으면 가스 내부로 판정합니다.",
+      "values": []
+    },
+    {
+      "section": "Volumetric",
+      "key": "CloudOpacity",
+      "source_display_name": "CloudOpacity",
+      "source_description": null,
+      "translation_display_name": "구름 불투명도",
+      "translation_description": "가스 파티클의 알파값입니다. 새로 방출되는 구름에 적용됩니다.",
+      "values": []
+    }
+  ]
+}

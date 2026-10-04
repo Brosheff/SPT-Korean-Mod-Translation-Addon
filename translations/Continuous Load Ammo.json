@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "ContinuousLoadAmmo",
+  "mod_name": "Continuous Load Ammo",
+  "channels": {
+    "notifications": [
+      {
+        "id": "no_quickload",
+        "source": "No reachable ammo or magazines found for the current weapon",
+        "translation": "현재 무기에 장전할 수 있는 탄약이나 탄창을 찾지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "no_preset_load",
+        "source": "No reachable ammo or magazines found to load for preset: {preset}",
+        "translation": "프리셋을 장전할 수 있는 탄약이나 탄창을 찾지 못했습니다: {preset}",
+        "match_mode": "template"
+      },
+      {
+        "id": "loading",
+        "source": "Loading {target}",
+        "translation": "장전 중: {target}",
+        "match_mode": "template"
+      },
+      {
+        "id": "count_suffix",
+        "source": ", Count: ",
+        "translation": ", 수량: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "preset_in_raid",
+        "source": "Cannot create a new magazine preset while in-raid",
+        "translation": "레이드 중에는 새 탄창 프리셋을 만들 수 없습니다.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

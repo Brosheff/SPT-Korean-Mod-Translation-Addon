@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.ozen.continuousloadammo",
+  "plugin_name": "SPT-ContinuousLoadAmmo-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Quick Load",
+      "translation": "빠른 장전"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Inventory Tabs",
+      "source_display_name": "Inventory Tabs",
+      "source_description": "Do not interrupt loading ammo when switching inventory tabs (maps tab, tasks tab, etc.)",
+      "translation_display_name": "사용할 인벤토리 탭",
+      "translation_description": "지도·임무 등 다른 인벤토리 탭으로 전환해도 탄약 장전을 중단하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Mag Preset Fallback",
+      "source_display_name": "Mag Preset Fallback",
+      "source_description": "Fallback to quick load if magazine preset is unavailable",
+      "translation_display_name": "탄창 프리셋 대체 처리",
+      "translation_description": "사용할 수 있는 탄창 프리셋이 없으면 빠른 장전 방식으로 대체합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Reachable Places Only",
+      "source_display_name": "Reachable Places Only",
+      "source_description": "Allow loading ammo outside the inventory only when Magazine and Ammo is in your Vest, Pockets, or Secure Container",
+      "translation_display_name": "손이 닿는 보관 공간만 사용",
+      "translation_description": "인벤토리 화면 밖에서 연속 장전할 때 탄창과 탄약이 전술 조끼, 주머니 또는 보안 컨테이너에 있을 때만 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Speed Limit",
+      "source_display_name": "Speed Limit",
+      "source_description": "The speed limit, as a percentage of the walk speed, set to the player while loading ammo",
+      "translation_display_name": "속도 제한",
+      "translation_description": "탄약을 장전하는 동안 플레이어의 이동 속도를 평상시 걷기 속도의 백분율로 제한합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Load",
+      "key": "Hotkey",
+      "source_display_name": "Hotkey",
+      "source_description": "Key used to load ammo outside the inventory",
+      "translation_display_name": "단축키",
+      "translation_description": "단축키: 사용할 키를 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Load",
+      "key": "Mode",
+      "source_display_name": "Mode",
+      "source_description": "Highest Penetration Available - choose ammo that has the highest penetration power.\nLast Bullet in Magazine - prioritize the last ammo of the current weapon's magazine.\nLast Used Magazine Preset - load the last used magazine preset",
+      "translation_display_name": "방식",
+      "translation_description": "빠른 장전 탄약 선택 기준입니다. 최고 관통력은 보유 탄약 중 관통력이 가장 높은 탄을 선택하고, 탄창 마지막 탄은 현재 탄창의 마지막 탄종을 우선하며, 마지막 탄창 프리셋은 가장 최근에 사용한 프리셋을 불러옵니다.",
+      "values": [
+        {
+          "source": "Highest Penetration Available",
+          "translation": "관통력이 가장 높은 탄약"
+        },
+        {
+          "source": "HighestPenetration",
+          "translation": "관통력이 가장 높은 탄약"
+        },
+        {
+          "source": "Last Bullet in Magazine",
+          "translation": "현재 탄창의 마지막 탄약"
+        },
+        {
+          "source": "LastBulletMagazine",
+          "translation": "현재 탄창의 마지막 탄약"
+        },
+        {
+          "source": "Last Used Magazine Preset",
+          "translation": "마지막 사용 탄창 프리셋"
+        },
+        {
+          "source": "LastMagazinePreset",
+          "translation": "마지막 사용 탄창 프리셋"
+        }
+      ]
+    },
+    {
+      "section": "Quick Load",
+      "key": "Notify",
+      "source_display_name": "Notify",
+      "source_description": "When using Quick Load, notify the player of the ammo being loaded",
+      "translation_display_name": "연속 장전 알림",
+      "translation_description": "빠른 장전을 사용할 때 현재 장전 중인 탄약을 알림으로 표시합니다.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.hysocs.traumacore",
+  "plugin_name": "TraumaCore",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified. Audited against TraumaCore source including helper-generated entries.",
+  "categories": [
+    {
+      "source": "00 - Default Preset",
+      "translation": "00 - 기본 프리셋"
+    },
+    {
+      "source": "01 - Feature Toggles",
+      "translation": "01 - 기능 켜기/끄기"
+    },
+    {
+      "source": "02 - Global Damage",
+      "translation": "02 - 전체 피해 설정"
+    },
+    {
+      "source": "03 - Player Systems",
+      "translation": "03 - 플레이어 시스템"
+    },
+    {
+      "source": "04 - Scav / AI Systems",
+      "translation": "04 - 스캐브 / AI 시스템"
+    },
+    {
+      "source": "05 - Bleed Balance",
+      "translation": "05 - 출혈 밸런스"
+    },
+    {
+      "source": "06 - Damage Linkage",
+      "translation": "06 - 피해 연계"
+    },
+    {
+      "source": "09 - Debugging",
+      "translation": "09 - 디버그"
+    },
+    {
+      "source": "10 - Effect Testing",
+      "translation": "10 - 효과 테스트"
+    },
+    {
+      "source": "Wound Inspection",
+      "translation": "상처 검사"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Default Preset",
+      "key": "Restore Recommended Defaults",
+      "source_display_name": "Restore Recommended Defaults",
+      "source_description": "Restore every active TraumaCore setting to the curated code defaults.",
+      "translation_display_name": "권장 기본값 복원",
+      "translation_description": "현재 활성화된 TraumaCore 설정을 모드가 권장하는 기본값으로 모두 되돌립니다.",
+      "values": []
+    },
+    {
+      "section": "Feature Toggles",
+      "key": "CustomFragmentation",
+      "source_display_name": "Custom Fragmentation",
+      "source_description": "Replace EFT bullet fragmentation with TraumaCore wound paths.",
+      "translation_display_name": "사용자 정의 파편화",
+      "translation_description": "EFT의 기본 탄환 파편화 대신 TraumaCore의 상처 경로 기반 파편화를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Feature Toggles",
+      "key": "HitPressure",
+      "source_display_name": "Impact Shock / Hit Pressure",
+      "source_description": "Apply TraumaCore impact-shock health and camera effects.",
+      "translation_display_name": "충격 쇼크 / 피격 압력",
+      "translation_description": "TraumaCore의 충격 쇼크에 따른 체력 및 카메라 효과를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Feature Toggles",
+      "key": "DeathScreenReport",
+      "source_display_name": "Death-Screen Wound Report",
+      "source_description": "Track and display bullet wounds and bleeding on the death screen.",
+      "translation_display_name": "사망 화면 상처 보고서",
+      "translation_description": "총상과 출혈을 추적해 사망 화면에 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Wound Inspection",
+      "key": "Enable Corpse Wound Inspection",
+      "source_display_name": "Corpse Wound Inspection",
+      "source_description": "Add INSPECT WOUNDS to valid corpse interaction choices.",
+      "translation_display_name": "시체 상처 검사",
+      "translation_description": "검사 가능한 시체의 상호작용 메뉴에 상처 검사 항목을 추가합니다.",
+      "values": []
+    },
+    {
+      "section": "Feature Toggles",
+      "key": "CorpseDragging",
+      "source_display_name": "Corpse Dragging",
+      "source_description": "Add DRAG BODY to valid corpse interaction choices.",
+      "translation_display_name": "시체 끌기",
+      "translation_description": "끌 수 있는 시체의 상호작용 메뉴에 시체 끌기 항목을 추가합니다.",
+      "values": []
+    },
+    {
+      "section": "Feature Toggles",
+      "key": "PersistentBloodDecals",
+      "source_display_name": "Expanded Blood Decals",
+      "source_description": "Increase EFT's persistent blood-decal capacity.",
+      "translation_display_name": "혈흔 데칼 확장",
+      "translation_description": "EFT에서 유지되는 혈흔 데칼의 최대 수를 늘립니다.",
+      "values": []
+    },
+    {
+      "section": "Feature Toggles",
+      "key": "TraumaPresentation",
+      "source_display_name": "Trauma Audio / Screen Effects",
+      "source_description": "Control repeated trauma audio, screen blood, and death voices.",
+      "translation_display_name": "외상 음향 / 화면 효과",
+      "translation_description": "반복되는 외상 음향, 화면의 혈흔 효과, 사망 음성을 제어합니다.",
+      "values": []
+    },
+    {
+      "section": "Wound Inspection",
+      "key": "Show Trajectories",
+      "source_display_name": "Show Trajectories",
+      "source_description": "Show bullet trajectories when inspecting wounds.",
+      "translation_display_name": "탄도 경로 표시",
+      "translation_description": "상처를 검사할 때 탄환의 이동 경로를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Wound Inspection",
+      "key": "Show Anatomy",
+      "source_display_name": "Show Anatomy",
+      "source_description": "Show anatomy geometry when inspecting wounds.",
+      "translation_display_name": "해부 구조 표시",
+      "translation_description": "상처를 검사할 때 해부학 구조를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Wound Inspection",
+      "key": "Show Anchors",
+      "source_display_name": "Show Anchors",
+      "source_description": "Show ragdoll anchors when inspecting wounds.",
+      "translation_display_name": "래그돌 앵커 표시",
+      "translation_description": "상처를 검사할 때 래그돌 앵커를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Wound Inspection",
+      "key": "Hide Back Hits",
+      "source_display_name": "Hide Back Hits",
+      "source_description": "Hide wound markers on the far side of the inspected body.",
+      "translation_display_name": "반대편 피격 표시 숨김",
+      "translation_description": "검사 중인 시체의 반대편에 있는 상처 표식을 숨깁니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Enabled",
+      "source_display_name": "Anatomical Trauma / Bleeding",
+      "source_description": "Enable anatomical damage, wounds, bleeding, linkage, and fractures",
+      "translation_display_name": "해부학적 외상 / 출혈",
+      "translation_description": "해부학적 피해, 상처, 출혈, 피해 연계 및 골절 시스템을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Damage",
+      "key": "DirectDamagePercentV2",
+      "source_display_name": "Direct Bullet Damage",
+      "source_description": "Immediate bullet damage fraction before trauma",
+      "translation_display_name": "탄환 즉시 피해 비율",
+      "translation_description": "외상 계산 전에 즉시 적용되는 탄환 피해의 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Damage",
+      "key": "FullWoundTotalDamageMultiplier",
+      "source_display_name": "Full Wound Total Damage",
+      "source_description": "Target total damage from a full-depth bullet wound after its natural bleed completes, relative to EFT post-armor damage",
+      "translation_display_name": "완전 관통 상처 총 피해",
+      "translation_description": "완전 깊이의 총상이 자연 지혈될 때까지 입히는 총 피해를 EFT 방어구 관통 후 피해 대비 배율로 정합니다.",
+      "values": []
+    },
+    {
+      "section": "Damage",
+      "key": "EntireHeadFatal",
+      "source_display_name": "Entire Head Is Fatal",
+      "source_description": "Treat every penetrating hit to the head as a fatal brain hit",
+      "translation_display_name": "머리 관통은 모두 치명상",
+      "translation_description": "머리를 관통한 모든 피격을 치명적인 뇌 피격으로 처리합니다.",
+      "values": []
+    },
+    {
+      "section": "Damage",
+      "key": "HeadFullDamageDepth",
+      "source_display_name": "Head Full-Damage Depth",
+      "source_description": "Fraction of head depth needed for full wound damage",
+      "translation_display_name": "머리 최대 피해 깊이",
+      "translation_description": "총상이 최대 피해를 내는 데 필요한 머리 관통 깊이 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Damage",
+      "key": "HeadDamageFloor",
+      "source_display_name": "Head Damage Floor",
+      "source_description": "Minimum direct-damage fraction for a grazing head wound",
+      "translation_display_name": "머리 스침 피해 하한",
+      "translation_description": "머리를 얕게 스친 총상에도 적용할 최소 직접 피해 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Damage",
+      "key": "ChestFullDamageDepth",
+      "source_display_name": "Chest Full-Damage Depth",
+      "source_description": "Fraction of chest depth needed for full wound damage",
+      "translation_display_name": "흉부 최대 피해 깊이",
+      "translation_description": "총상이 최대 피해를 내는 데 필요한 흉부 관통 깊이 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Damage",
+      "key": "ChestDamageFloor",
+      "source_display_name": "Chest Damage Floor",
+      "source_description": "Minimum direct-damage fraction for a grazing chest wound",
+      "translation_display_name": "흉부 스침 피해 하한",
+      "translation_description": "흉부를 얕게 스친 총상에도 적용할 최소 직접 피해 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Visuals",
+      "key": "WorldBloodEffects",
+      "source_display_name": "Procedural World Blood",
+      "source_description": "Render procedural world-space blood particles from trauma wounds",
+      "translation_display_name": "절차적 월드 혈액 효과",
+      "translation_description": "외상 상처에서 발생한 혈액 입자를 월드 공간에 절차적으로 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "ForceFragmentation",
+      "source_display_name": "Force Fragmentation (100%)",
+      "source_description": "Force every eligible bullet wound to fragment for testing",
+      "translation_display_name": "파편화 강제 (100%)",
+      "translation_description": "테스트를 위해 파편화 가능한 모든 총상을 항상 파편화시킵니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "OrganESP",
+      "source_display_name": "Organ Hitbox ESP",
+      "source_description": "Render debug organ outlines",
+      "translation_display_name": "장기 히트박스 ESP",
+      "translation_description": "디버그용 장기 윤곽선을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "ShowCalibrationMannequin",
+      "source_display_name": "Show Calibration Mannequin",
+      "source_description": "Build a diagnostic mannequin from the closest entity's real skinned renderers and bind skeleton",
+      "translation_display_name": "보정 마네킹 표시",
+      "translation_description": "가장 가까운 개체의 실제 스킨 렌더러와 바인드 스켈레톤을 이용해 진단용 마네킹을 만듭니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "OrganESPRange",
+      "source_display_name": "ESP Culling Range",
+      "source_description": "Maximum debug ESP rendering distance in metres",
+      "translation_display_name": "ESP 표시 거리",
+      "translation_description": "디버그 ESP를 표시할 최대 거리(미터)입니다.",
+      "values": []
+    },
+    {
+      "section": "Visuals",
+      "key": "HeartOpacity",
+      "source_display_name": "Heart Opacity",
+      "source_description": "Opacity used by the organ ESP renderer",
+      "translation_display_name": "심장 투명도",
+      "translation_description": "장기 ESP에서 심장에 사용할 불투명도입니다.",
+      "values": []
+    },
+    {
+      "section": "Visuals",
+      "key": "BrainOpacity",
+      "source_display_name": "Brain Opacity",
+      "source_description": "Opacity used by the organ ESP renderer",
+      "translation_display_name": "뇌 투명도",
+      "translation_description": "장기 ESP에서 뇌에 사용할 불투명도입니다.",
+      "values": []
+    },
+    {
+      "section": "Visuals",
+      "key": "BoneOpacity",
+      "source_display_name": "Bone Opacity",
+      "source_description": "Opacity used by the organ ESP renderer",
+      "translation_display_name": "뼈 투명도",
+      "translation_description": "장기 ESP에서 뼈에 사용할 불투명도입니다.",
+      "values": []
+    },
+    {
+      "section": "Visuals",
+      "key": "RibcageOpacity",
+      "source_display_name": "Ribcage Opacity",
+      "source_description": "Opacity used by the organ ESP renderer",
+      "translation_display_name": "흉곽 투명도",
+      "translation_description": "장기 ESP에서 흉곽에 사용할 불투명도입니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "HitLogging",
+      "source_display_name": "Logging",
+      "source_description": "Write TraumaCore diagnostic, warning, and error messages to the log",
+      "translation_display_name": "진단 로그",
+      "translation_description": "TraumaCore의 진단, 경고 및 오류 메시지를 로그에 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "Target Balance",
+      "key": "PlayerDamageMultiplier",
+      "source_display_name": "Player Damage Multiplier",
+      "source_description": "Global multiplier for all trauma damage applied to human players",
+      "translation_display_name": "플레이어 외상 피해 배율",
+      "translation_description": "사람이 조작하는 플레이어에게 적용되는 모든 외상 피해의 전체 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Target Balance",
+      "key": "ScavDamageMultiplier",
+      "source_display_name": "Scav / AI Damage Multiplier",
+      "source_description": "Global multiplier for all trauma damage applied to AI/scavs",
+      "translation_display_name": "스캐브 / AI 외상 피해 배율",
+      "translation_description": "AI/스캐브에게 적용되는 모든 외상 피해의 전체 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Player Systems",
+      "key": "CustomBodyTrauma",
+      "source_display_name": "Use Custom Body Trauma",
+      "source_description": "Use custom wounds, organs, linkage and fractures on players",
+      "translation_display_name": "사용자 정의 신체 외상 사용",
+      "translation_description": "플레이어에게 사용자 정의 상처, 장기, 피해 연계 및 골절 시스템을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Scav Systems",
+      "key": "CustomBodyTrauma",
+      "source_display_name": "Use Custom Body Trauma",
+      "source_description": "Use custom wounds, organs, linkage and fractures on AI/scavs",
+      "translation_display_name": "사용자 정의 신체 외상 사용",
+      "translation_description": "AI/스캐브에게 사용자 정의 상처, 장기, 피해 연계 및 골절 시스템을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Player Hitboxes",
+      "key": "Brain",
+      "source_display_name": "Brain (Fatal)",
+      "source_description": "Enable fatal brain hits on players",
+      "translation_display_name": "뇌 (치명상)",
+      "translation_description": "플레이어의 뇌 피격을 치명상으로 처리합니다.",
+      "values": []
+    },
+    {
+      "section": "Player Hitboxes",
+      "key": "Heart",
+      "source_display_name": "Heart (Delayed Fatal)",
+      "source_description": "Enable heart wounds on players",
+      "translation_display_name": "심장 (지연 치명상)",
+      "translation_description": "플레이어에게 심장 상처를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Player Hitboxes",
+      "key": "CervicalSpine",
+      "source_display_name": "Cervical Spine (Fatal)",
+      "source_description": "Enable fatal upper-spine hits on players",
+      "translation_display_name": "경추 (치명상)",
+      "translation_description": "플레이어의 경추 피격을 치명상으로 처리합니다.",
+      "values": []
+    },
+    {
+      "section": "Player Hitboxes",
+      "key": "ThoracicSpine",
+      "source_display_name": "Thoracic Spine (Fracture)",
+      "source_description": "Enable chest-fracturing spine hits on players",
+      "translation_display_name": "흉추 (골절)",
+      "translation_description": "플레이어의 흉추 피격 시 흉부 골절을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Scav Hitboxes",
+      "key": "Brain",
+      "source_display_name": "Brain (Fatal)",
+      "source_description": "Enable fatal brain hits on AI/scavs",
+      "translation_display_name": "뇌 (치명상)",
+      "translation_description": "AI/스캐브의 뇌 피격을 치명상으로 처리합니다.",
+      "values": []
+    },
+    {
+      "section": "Scav Hitboxes",
+      "key": "Heart",
+      "source_display_name": "Heart (Delayed Fatal)",
+      "source_description": "Enable heart wounds on AI/scavs",
+      "translation_display_name": "심장 (지연 치명상)",
+      "translation_description": "AI/스캐브에게 심장 상처를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Scav Hitboxes",
+      "key": "CervicalSpine",
+      "source_display_name": "Cervical Spine (Fatal)",
+      "source_description": "Enable fatal upper-spine hits on AI/scavs",
+      "translation_display_name": "경추 (치명상)",
+      "translation_description": "AI/스캐브의 경추 피격을 치명상으로 처리합니다.",
+      "values": []
+    },
+    {
+      "section": "Scav Hitboxes",
+      "key": "ThoracicSpine",
+      "source_display_name": "Thoracic Spine (Fracture)",
+      "source_description": "Enable chest-fracturing spine hits on AI/scavs",
+      "translation_display_name": "흉추 (골절)",
+      "translation_description": "AI/스캐브의 흉추 피격 시 흉부 골절을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Bleeding",
+      "key": "NaturalClotDurationV2",
+      "source_display_name": "Non-Heart Clot Time",
+      "source_description": "Seconds after the last non-heart hit until the bleed clots completely",
+      "translation_display_name": "비심장 출혈 지혈 시간",
+      "translation_description": "심장 외 부위에 마지막으로 피격된 뒤 출혈이 완전히 응고되기까지 걸리는 시간(초)입니다.",
+      "values": []
+    },
+    {
+      "section": "Bleeding",
+      "key": "LightBleedDamageMultiplier",
+      "source_display_name": "Light Bleed Damage Multiplier",
+      "source_description": "Multiplier applied to all light-bleed damage",
+      "translation_display_name": "경출혈 피해 배율",
+      "translation_description": "모든 경출혈 피해에 적용되는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Bleeding",
+      "key": "HeavyBleedDamageMultiplier",
+      "source_display_name": "Heavy Bleed Damage Multiplier",
+      "source_description": "Multiplier applied to all heavy-bleed damage, including heart hemorrhage",
+      "translation_display_name": "중출혈 피해 배율",
+      "translation_description": "심장 출혈을 포함한 모든 중출혈 피해에 적용되는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Damage Linkage",
+      "key": "OneBlackedRetention",
+      "source_display_name": "1 Blacked Part Retention",
+      "source_description": "Damage retained after crossing one blacked part",
+      "translation_display_name": "블랙아웃 1부위 통과 후 피해 유지율",
+      "translation_description": "피해가 블랙아웃된 부위 1곳을 거쳐 전달될 때 유지되는 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Damage Linkage",
+      "key": "TwoBlackedRetention",
+      "source_display_name": "2 Blacked Parts Retention",
+      "source_description": "Damage retained after crossing two blacked parts",
+      "translation_display_name": "블랙아웃 2부위 통과 후 피해 유지율",
+      "translation_description": "피해가 블랙아웃된 부위 2곳을 거쳐 전달될 때 유지되는 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Damage Linkage",
+      "key": "ThreePlusBlackedRetention",
+      "source_display_name": "3+ Blacked Parts Retention",
+      "source_description": "Damage retained after crossing three or more blacked parts",
+      "translation_display_name": "블랙아웃 3부위 이상 통과 후 피해 유지율",
+      "translation_description": "피해가 블랙아웃된 부위 3곳 이상을 거쳐 전달될 때 유지되는 비율입니다.",
+      "values": []
+    },
+    {
+      "section": "Damage Linkage",
+      "key": "ArmLinkageMultiplierV2",
+      "source_display_name": "Arm Linkage",
+      "source_description": "Multiplier for damage shared or bypassed outward from an arm",
+      "translation_display_name": "팔 피해 연계 배율",
+      "translation_description": "팔에서 다른 부위로 공유되거나 우회 전달되는 피해의 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Damage Linkage",
+      "key": "LegLinkageMultiplier",
+      "source_display_name": "Leg Linkage",
+      "source_description": "Multiplier for damage shared or bypassed outward from a leg",
+      "translation_display_name": "다리 피해 연계 배율",
+      "translation_description": "다리에서 다른 부위로 공유되거나 우회 전달되는 피해의 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Damage Linkage",
+      "key": "StomachLinkageMultiplier",
+      "source_display_name": "Stomach Linkage",
+      "source_description": "Multiplier for damage shared or bypassed outward from the stomach",
+      "translation_display_name": "복부 피해 연계 배율",
+      "translation_description": "복부에서 다른 부위로 공유되거나 우회 전달되는 피해의 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "CalibrationPoseMode",
+      "source_display_name": "Calibration Mannequin Pose",
+      "source_description": "Switch the existing calibration mannequin between its captured source pose and EFT's T-pose clip.",
+      "translation_display_name": "보정 마네킹 자세",
+      "translation_description": "보정 마네킹의 자세를 캡처된 원본 자세와 EFT의 T-포즈 사이에서 전환합니다.",
+      "values": [
+        {
+          "source": "Recorded",
+          "translation": "기록된 자세"
+        },
+        {
+          "source": "TPose",
+          "translation": "T-포즈"
+        },
+        {
+          "source": "T-Pose",
+          "translation": "T-포즈"
+        }
+      ]
+    },
+    {
+      "section": "Effect Testing",
+      "key": "Apply Chest Bleed",
+      "source_display_name": "Apply Chest Bleed",
+      "source_description": "Adds one light chest wound. Available only while alive in a raid.",
+      "translation_display_name": "흉부 경출혈 적용",
+      "translation_description": "흉부에 경출혈 상처 1개를 추가합니다. 레이드에서 생존 중일 때만 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Effect Testing",
+      "key": "Apply Heavy Chest Bleed",
+      "source_display_name": "Apply Heavy Chest Bleed",
+      "source_description": "Adds one heavy chest wound for testing heavy-bleed treatment. Available only while alive in a raid.",
+      "translation_display_name": "흉부 중출혈 적용",
+      "translation_description": "중출혈 치료 테스트를 위해 흉부에 중출혈 상처 1개를 추가합니다. 레이드에서 생존 중일 때만 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Effect Testing",
+      "key": "Apply Heart Bleed",
+      "source_display_name": "Apply Heart Bleed",
+      "source_description": "Adds one permanent heavy heart wound. Available only while alive in a raid.",
+      "translation_display_name": "심장 출혈 적용",
+      "translation_description": "심장에 영구적인 중출혈 상처 1개를 추가합니다. 레이드에서 생존 중일 때만 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Effect Testing",
+      "key": "Apply Face Bleed",
+      "source_display_name": "Apply Face Bleed",
+      "source_description": "Adds one light treatable face wound. Available only while alive in a raid.",
+      "translation_display_name": "안면 경출혈 적용",
+      "translation_description": "치료 가능한 안면 경출혈 상처 1개를 추가합니다. 레이드에서 생존 중일 때만 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Effect Testing",
+      "key": "Apply Stomach Bleed",
+      "source_display_name": "Apply Stomach Bleed",
+      "source_description": "Adds one light stomach wound. Available only while alive in a raid.",
+      "translation_display_name": "복부 경출혈 적용",
+      "translation_description": "복부에 경출혈 상처 1개를 추가합니다. 레이드에서 생존 중일 때만 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Effect Testing",
+      "key": "Apply Arm Bleed",
+      "source_display_name": "Apply Arm Bleed",
+      "source_description": "Adds one light left-arm wound. Available only while alive in a raid.",
+      "translation_display_name": "팔 경출혈 적용",
+      "translation_description": "왼팔에 경출혈 상처 1개를 추가합니다. 레이드에서 생존 중일 때만 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Effect Testing",
+      "key": "Apply Leg Bleed",
+      "source_display_name": "Apply Leg Bleed",
+      "source_description": "Adds one light left-leg wound. Available only while alive in a raid.",
+      "translation_display_name": "다리 경출혈 적용",
+      "translation_description": "왼다리에 경출혈 상처 1개를 추가합니다. 레이드에서 생존 중일 때만 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Effect Testing",
+      "key": "Apply Bruised",
+      "source_display_name": "Apply Bruised",
+      "source_description": "Adds a 50-damage-equivalent armor bruise for 15 seconds. Available only while alive in a raid.",
+      "translation_display_name": "타박상 적용",
+      "translation_description": "피해 50 상당의 방어구 타박상 효과를 15초 동안 적용합니다. 레이드에서 생존 중일 때만 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Effect Testing",
+      "key": "Apply Spine Fracture",
+      "source_display_name": "Apply Spine Fracture",
+      "source_description": "Applies the native fracture effect to the chest. Available only while alive in a raid.",
+      "translation_display_name": "척추 골절 적용",
+      "translation_description": "흉부에 EFT 기본 골절 효과를 적용합니다. 레이드에서 생존 중일 때만 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Effect Testing",
+      "key": "Apply Hit Pressure",
+      "source_display_name": "Apply Hit Pressure",
+      "source_description": "Adds one hit-pressure stack for visual testing. Available only while alive in a raid.",
+      "translation_display_name": "피격 압력 적용",
+      "translation_description": "시각 효과 테스트를 위해 피격 압력 스택 1개를 추가합니다. 레이드에서 생존 중일 때만 사용할 수 있습니다.",
+      "values": []
+    }
+  ]
+}

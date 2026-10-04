@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.vinihns.makeshotgunsgreatagain",
+  "plugin_name": "Make Shotguns Great Again",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Malfunctions",
+      "translation": "기능 고장"
+    },
+    {
+      "source": "Dragon Breath",
+      "translation": "드래곤 브레스"
+    },
+    {
+      "source": "KS-23 Mount Calibration",
+      "translation": "KS-23 마운트 보정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Malfunctions",
+      "key": "Skip Inspection Before Clearing",
+      "source_display_name": "Skip Inspection Before Clearing",
+      "source_description": "Allow clearing weapon malfunctions without inspecting the weapon first.",
+      "translation_display_name": "해결 전 점검 생략",
+      "translation_description": "무기 기능 고장을 해결하기 전에 먼저 점검하지 않아도 되게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Malfunctions",
+      "key": "Remove Boss Forced Malfunctions",
+      "source_display_name": "Remove Boss Forced Malfunctions",
+      "source_description": "Prevent bosses from forcing a weapon malfunction on the player.",
+      "translation_display_name": "보스 강제 기능 고장 제거",
+      "translation_description": "보스가 플레이어 무기에 강제로 기능 고장을 일으키지 못하게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Dragon Breath",
+      "key": "Trails Enabled",
+      "source_display_name": "Trails Enabled",
+      "source_description": "Enable particle trails (burning streaks). Disable for better performance.",
+      "translation_display_name": "입자 궤적 활성화",
+      "translation_description": "불타는 줄무늬 형태의 입자 궤적을 활성화합니다. 성능을 높이려면 비활성화하십시오.",
+      "values": []
+    },
+    {
+      "section": "Dragon Breath",
+      "key": "Collision Enabled",
+      "source_display_name": "Collision Enabled",
+      "source_description": "Enable particle collision with walls (ricochet). Disable for better performance.",
+      "translation_display_name": "입자 충돌 활성화",
+      "translation_description": "입자가 벽과 충돌하여 도탄되는 효과를 활성화합니다. 성능을 높이려면 비활성화하십시오.",
+      "values": []
+    },
+    {
+      "section": "Dragon Breath",
+      "key": "Lights Enabled",
+      "source_display_name": "Lights Enabled",
+      "source_description": "Enable dynamic point lights on particles. Disable for better performance.",
+      "translation_display_name": "동적 조명 활성화",
+      "translation_description": "입자에 동적 점광원을 활성화합니다. 성능을 높이려면 비활성화하십시오.",
+      "values": []
+    },
+    {
+      "section": "Dragon Breath",
+      "key": "Max Particles",
+      "source_display_name": "Max Particles",
+      "source_description": "Maximum number of particles alive at the same time. Lower = better performance in full auto.",
+      "translation_display_name": "최대 입자 수",
+      "translation_description": "동시에 존재할 수 있는 최대 입자 수입니다. 값을 낮추면 완전자동 사격 시 성능이 향상됩니다.",
+      "values": []
+    },
+    {
+      "section": "Dragon Breath",
+      "key": "Particles Per Shot",
+      "source_display_name": "Particles Per Shot",
+      "source_description": "Number of spark particles spawned per shot (main burst). Lower = better performance.",
+      "translation_display_name": "발사당 입자 수",
+      "translation_description": "한 번 발사할 때 주 폭발 효과에서 생성되는 불꽃 입자 수입니다. 값을 낮추면 성능이 향상됩니다.",
+      "values": []
+    },
+    {
+      "section": "Dragon Breath",
+      "key": "Effect Duration",
+      "source_display_name": "Effect Duration",
+      "source_description": "Seconds before the effect GameObject is destroyed. Lower = less particle stacking.",
+      "translation_display_name": "효과 지속 시간",
+      "translation_description": "효과 GameObject가 제거되기까지의 시간(초)입니다. 값을 낮추면 입자가 겹쳐 쌓이는 현상이 줄어듭니다.",
+      "values": []
+    },
+    {
+      "section": "Dragon Breath",
+      "key": "Spread Angle",
+      "source_display_name": "Spread Angle",
+      "source_description": "Angle of the particle cone.",
+      "translation_display_name": "확산 각도",
+      "translation_description": "입자가 원뿔 형태로 퍼지는 각도입니다.",
+      "values": []
+    },
+    {
+      "section": "Dragon Breath",
+      "key": "Noise Strength",
+      "source_display_name": "Noise Strength",
+      "source_description": "Intensity of the turbulence/random movement.",
+      "translation_display_name": "난류 강도",
+      "translation_description": "입자의 난류 및 무작위 움직임 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "Dragon Breath",
+      "key": "Noise Frequency",
+      "source_display_name": "Noise Frequency",
+      "source_description": "Frequency of the turbulence.",
+      "translation_display_name": "난류 빈도",
+      "translation_description": "입자 난류가 변화하는 빈도입니다.",
+      "values": []
+    },
+    {
+      "section": "Dragon Breath",
+      "key": "Air Resistance",
+      "source_display_name": "Air Resistance",
+      "source_description": "How much the particles slow down over time (0-1). Higher = more cloud-like.",
+      "translation_display_name": "공기 저항",
+      "translation_description": "시간이 지날수록 입자가 감속하는 정도(0~1)입니다. 값이 높을수록 구름처럼 퍼집니다.",
+      "values": []
+    },
+    {
+      "section": "Dragon Breath",
+      "key": "Start Offset",
+      "source_display_name": "Start Offset",
+      "source_description": "How far from the muzzle the effect starts (meters).",
+      "translation_display_name": "효과 시작 거리",
+      "translation_description": "총구에서 얼마나 떨어진 지점부터 효과가 시작되는지 설정합니다(미터).",
+      "values": []
+    },
+    {
+      "section": "KS-23 Mount Calibration",
+      "key": "Enable Mount Alignment Fix",
+      "source_display_name": "Enable Mount Alignment Fix",
+      "source_description": "Apply a rotation offset to the KS-23 rail mount so optics zero matches the barrel.",
+      "translation_display_name": "마운트 정렬 보정 활성화",
+      "translation_description": "조준경의 영점과 총열 방향이 맞도록 KS-23 레일 마운트에 회전 보정값을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "KS-23 Mount Calibration",
+      "key": "Shot Pitch Correction",
+      "source_display_name": "Shot Pitch Correction",
+      "source_description": "Vertical shot correction in degrees while aiming the KS-23. Adjust at the shooting range until impacts match the reticle height. Applied per shot, changes take effect immediately.",
+      "translation_display_name": "수직 발사각 보정",
+      "translation_description": "KS-23 조준 시 탄착점을 수직 방향으로 보정하는 각도입니다. 사격장에서 탄착 높이가 레티클과 일치할 때까지 조정하십시오. 매 발사에 적용되며 변경값은 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "KS-23 Mount Calibration",
+      "key": "Shot Yaw Correction",
+      "source_display_name": "Shot Yaw Correction",
+      "source_description": "Horizontal shot correction in degrees while aiming the KS-23. Adjust at the shooting range until impacts match the reticle horizontally. Applied per shot, changes take effect immediately.",
+      "translation_display_name": "수평 발사각 보정",
+      "translation_description": "KS-23 조준 시 탄착점을 수평 방향으로 보정하는 각도입니다. 사격장에서 탄착 위치가 레티클과 수평으로 일치할 때까지 조정하십시오. 매 발사에 적용되며 변경값은 즉시 반영됩니다.",
+      "values": []
+    },
+    {
+      "section": "KS-23 Mount Calibration",
+      "key": "Debug Logging",
+      "source_display_name": "Debug Logging",
+      "source_description": "Log each applied shot correction to the BepInEx console.",
+      "translation_display_name": "디버그 로그",
+      "translation_description": "적용된 각 발사 보정값을 BepInEx 콘솔에 기록합니다.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "CookingGrenades",
+  "mod_name": "CookingGrenades 4.1",
+  "channels": {
+    "notifications": [
+      {
+        "id": "cooking_started",
+        "source": "Cooking Started",
+        "translation": "수류탄 쿠킹 시작",
+        "match_mode": "exact"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "warning_title",
+        "source": "Cooking Grenades Warning",
+        "translation": "수류탄 쿠킹 경고",
+        "match_mode": "exact"
+      },
+      {
+        "id": "warning_body",
+        "source": "[WARNING]\nCooking a grenade is extremely dangerous in real life. Time-delay setting may vary and fuzes may function before prescribed times. DO NOT \"COOK OFF\" the safety lever after pull ring with safety pin extraction. This action can lead to premature detonation of the grenade leading to severe injury, death.\nDo you acknowledge this warning and accept responsibility?",
+        "translation": "[경고]\n실제 상황에서 수류탄을 쿠킹하는 행위는 매우 위험합니다. 지연 시간은 정확하지 않을 수 있으며 신관이 예상보다 일찍 작동할 수 있습니다. 안전핀과 당김 고리를 제거한 뒤 안전 레버를 놓은 상태로 쿠킹하지 마십시오. 수류탄이 예상보다 일찍 폭발하여 중상 또는 사망에 이를 수 있습니다.\n이 경고를 확인했으며 그에 따른 책임을 본인이 부담하는 데 동의하십니까?",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

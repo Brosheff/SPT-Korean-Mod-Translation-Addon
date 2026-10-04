@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.ruafcomehome.tacticaltoaster",
+  "plugin_name": "RUAFComeHome-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "DEBUG",
+      "translation": "디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "DEBUG",
+      "key": "Spawn RUAF hunt",
+      "source_display_name": "Spawn RUAF hunt",
+      "source_description": "Spawn RUAF hunt",
+      "translation_display_name": "RUAF 추적 분대 스폰",
+      "translation_description": "디버그용으로 RUAF 추적 분대를 즉시 생성합니다.",
+      "values": []
+    },
+    {
+      "section": "DEBUG",
+      "key": "Spawn Rogue hunt",
+      "source_display_name": "Spawn Rogue hunt",
+      "source_description": "Spawn Rogue hunt",
+      "translation_display_name": "Rogue 추적 분대 스폰",
+      "translation_description": "디버그용으로 Rogue 추적 분대를 즉시 생성합니다.",
+      "values": []
+    }
+  ]
+}

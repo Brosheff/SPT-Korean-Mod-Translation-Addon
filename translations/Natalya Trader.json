@@ -1,0 +1,2018 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_ad343123d690",
+  "mod_name": "Natalya Trader",
+  "channels": {
+    "locale": [
+      {
+        "key": "6718b9704659993831ec9bce",
+        "source": "Obtain USEC PMC dogtags",
+        "translation": "USEC PMC 인식표 획득하기",
+        "match_mode": "item_decorated",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718b97064eff577c649e5b0 FirstName",
+        "source": "Natalya",
+        "translation": "나탈리아"
+      },
+      {
+        "key": "6718b97064eff577c649e5b0 Nickname",
+        "source": "Natalya",
+        "translation": "나탈리아"
+      },
+      {
+        "key": "6718b97064eff577c649e5b0 Location",
+        "source": "Unknown",
+        "translation": "알 수 없음"
+      },
+      {
+        "key": "674815ec0e1737c294820e25 Name",
+        "source": "Tac-Kek Face Mk6",
+        "translation": "택-켁 페이스 Mk6"
+      },
+      {
+        "key": "674815ec0e1737c294820e25 Description",
+        "source": "The Tac-Kek Heavy Trooper mask is an additional ballistic module for Ops-Core-type helmets, based on the famous movie universe. This is the way. Using advanced materials.",
+        "translation": "Tac-Kek 헤비 트루퍼 마스크는 유명 영화 세계관을 바탕으로 한 Ops-Core 계열 헬멧용 추가 방탄 모듈입니다. 이것이 길입니다. 고급 소재를 사용했습니다."
+      },
+      {
+        "key": "674815ec15d194e288db973c Name",
+        "source": "Level 4 Right Arm",
+        "translation": "레벨 4 우측 팔 소프트 아머"
+      },
+      {
+        "key": "674815ec15d194e288db973c Description",
+        "source": "Level 4 Right Arm Soft",
+        "translation": "레벨 4 우측 팔 소프트 아머입니다."
+      },
+      {
+        "key": "674815ec1cdb889b12c31100 Name",
+        "source": "Level 5 FB Plate",
+        "translation": "레벨 5 전면/후면 장갑판"
+      },
+      {
+        "key": "674815ec1cdb889b12c31100 ShortName",
+        "source": "L5 FB Plate",
+        "translation": "5등급 전후면 방탄판"
+      },
+      {
+        "key": "674815ec1cdb889b12c31100 Description",
+        "source": "Level 5 Front/Back Plate.",
+        "translation": "레벨 5 전면/후면 장갑판입니다."
+      },
+      {
+        "key": "674815ec31070cbae03365b2 Name",
+        "source": "Level 5 Soft Back",
+        "translation": "레벨 5 후면 소프트 아머"
+      },
+      {
+        "key": "674815ec31070cbae03365b2 Description",
+        "source": "Level 5 Back Soft",
+        "translation": "레벨 5 후면 소프트 아머입니다."
+      },
+      {
+        "key": "674815ec6117b257c6e111c8 Name",
+        "source": "Level 4 Soft Front",
+        "translation": "레벨 4 전면 소프트 아머"
+      },
+      {
+        "key": "674815ec6117b257c6e111c8 Description",
+        "source": "Level 4 Front Soft",
+        "translation": "레벨 4 전면 소프트 아머입니다."
+      },
+      {
+        "key": "674815ec6166071f5c4c0074 Name",
+        "source": "Level 6 S Plate",
+        "translation": "레벨 6 측면 장갑판"
+      },
+      {
+        "key": "674815ec6166071f5c4c0074 ShortName",
+        "source": "L6 S Plate",
+        "translation": "6등급 측면 방탄판"
+      },
+      {
+        "key": "674815ec6166071f5c4c0074 Description",
+        "source": "Level 6 Side Plate.",
+        "translation": "레벨 6 측면 장갑판입니다."
+      },
+      {
+        "key": "674815ec641a9f1bb68bab6d Name",
+        "source": "Level 4 Soft Back",
+        "translation": "레벨 4 후면 소프트 아머"
+      },
+      {
+        "key": "674815ec641a9f1bb68bab6d Description",
+        "source": "Level 4 Back Soft",
+        "translation": "레벨 4 후면 소프트 아머입니다."
+      },
+      {
+        "key": "674815ec89e3e2c55c654b08 Name",
+        "source": "Level 5 Left Side",
+        "translation": "레벨 5 좌측면 소프트 아머"
+      },
+      {
+        "key": "674815ec89e3e2c55c654b08 Description",
+        "source": "Level 5 Left Side Soft",
+        "translation": "레벨 5 좌측면 소프트 아머입니다."
+      },
+      {
+        "key": "674815ec8bf2e801d82c322e Name",
+        "source": "LBT-69D Condor",
+        "translation": "LBT-69D 콘도르"
+      },
+      {
+        "key": "674815ec8bf2e801d82c322e Description",
+        "source": "Heavy-duty ballistic shooting glasses with impact-resistant lenses. Advanced Prototype.",
+        "translation": "충격 방지 렌즈를 장착한 견고한 방탄 사격 안경입니다. 고급 프로토타입입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "674815ec8d8662dfb3fc1a3e Name",
+        "source": "Level 5 Soft Front",
+        "translation": "레벨 5 전면 소프트 아머"
+      },
+      {
+        "key": "674815ec8d8662dfb3fc1a3e Description",
+        "source": "Level 5 Front Soft",
+        "translation": "레벨 5 전면 소프트 아머입니다."
+      },
+      {
+        "key": "674815ecac9e7d07dd19b3b4 Name",
+        "source": "Level 5 S Plate",
+        "translation": "레벨 5 측면 장갑판"
+      },
+      {
+        "key": "674815ecac9e7d07dd19b3b4 ShortName",
+        "source": "L5 S Plate",
+        "translation": "5등급 측면 방탄판"
+      },
+      {
+        "key": "674815ecac9e7d07dd19b3b4 Description",
+        "source": "Level 5 Side Plate.",
+        "translation": "레벨 5 측면 장갑판입니다."
+      },
+      {
+        "key": "674815ecb107ad4bd99235e4 Name",
+        "source": "Mk6 Side Armour",
+        "translation": "Mk6 측면 장갑"
+      },
+      {
+        "key": "674815ecb107ad4bd99235e4 Description",
+        "source": "An additional armor module for the Ops-Core FAST helmet, protects the ears from shrapnel and small caliber ricochets. Using advanced materials.",
+        "translation": "Ops-Core FAST 헬멧용 추가 장갑 모듈입니다. 파편과 소구경 탄의 도탄으로부터 귀를 보호합니다. 고급 소재를 사용했습니다."
+      },
+      {
+        "key": "674815ecb438268ce97a5840 Name",
+        "source": "Level 4 S Plate",
+        "translation": "레벨 4 측면 장갑판"
+      },
+      {
+        "key": "674815ecb438268ce97a5840 ShortName",
+        "source": "L4 S Plate",
+        "translation": "4등급 측면 방탄판"
+      },
+      {
+        "key": "674815ecb438268ce97a5840 Description",
+        "source": "Level 4 Side Plate.",
+        "translation": "레벨 4 측면 장갑판입니다."
+      },
+      {
+        "key": "674815ecb6ec0fc993474613 Name",
+        "source": "Level 4 Groin Front",
+        "translation": "레벨 4 전면 서혜부 소프트 아머"
+      },
+      {
+        "key": "674815ecb6ec0fc993474613 Description",
+        "source": "Level 4 Groin Front Soft",
+        "translation": "레벨 4 전면 서혜부 소프트 아머입니다."
+      },
+      {
+        "key": "674815ecc8b88445f9a13188 Name",
+        "source": "Level 4 Groin Back",
+        "translation": "레벨 4 후면 서혜부 소프트 아머"
+      },
+      {
+        "key": "674815ecc8b88445f9a13188 Description",
+        "source": "Level 4 Groin Back Soft",
+        "translation": "레벨 4 후면 서혜부 소프트 아머입니다."
+      },
+      {
+        "key": "674815eccc95c1ad849a9b75 Name",
+        "source": "Level 6 FB Plate",
+        "translation": "레벨 6 전면/후면 장갑판"
+      },
+      {
+        "key": "674815eccc95c1ad849a9b75 ShortName",
+        "source": "L6 FB Plate",
+        "translation": "6등급 전후면 방탄판"
+      },
+      {
+        "key": "674815eccc95c1ad849a9b75 Description",
+        "source": "Level 6 Front/Back Plate.",
+        "translation": "레벨 6 전면/후면 장갑판입니다."
+      },
+      {
+        "key": "674815eccd14065e712fcea8 Name",
+        "source": "Level 4 Left Arm",
+        "translation": "레벨 4 좌측 팔 소프트 아머"
+      },
+      {
+        "key": "674815eccd14065e712fcea8 Description",
+        "source": "Level 4 Left Arm Soft",
+        "translation": "레벨 4 좌측 팔 소프트 아머입니다."
+      },
+      {
+        "key": "674815ecdb459a28b668fc79 Name",
+        "source": "Level 4 Left Side",
+        "translation": "레벨 4 좌측면 소프트 아머"
+      },
+      {
+        "key": "674815ecdb459a28b668fc79 Description",
+        "source": "Level 4 Left Side Soft",
+        "translation": "레벨 4 좌측면 소프트 아머입니다."
+      },
+      {
+        "key": "674815ecdddc59b1d72b2169 Name",
+        "source": "Level 5 Right Side",
+        "translation": "레벨 5 우측면 소프트 아머"
+      },
+      {
+        "key": "674815ecdddc59b1d72b2169 Description",
+        "source": "Level 5 Right Side Soft",
+        "translation": "레벨 5 우측면 소프트 아머입니다."
+      },
+      {
+        "key": "674815ece3ded39022053fae Name",
+        "source": "Level 4 Right Side",
+        "translation": "레벨 4 우측면 소프트 아머"
+      },
+      {
+        "key": "674815ece3ded39022053fae Description",
+        "source": "Level 4 Right Side Soft",
+        "translation": "레벨 4 우측면 소프트 아머입니다."
+      },
+      {
+        "key": "674815ecf20ca8e28a207007 Name",
+        "source": "Level 4 Collar",
+        "translation": "레벨 4 칼라 소프트 아머"
+      },
+      {
+        "key": "674815ecf20ca8e28a207007 Description",
+        "source": "Level 4 Collar Soft",
+        "translation": "레벨 4 칼라 소프트 아머입니다."
+      },
+      {
+        "key": "674815ecfa618fdddb714eb2 Name",
+        "source": "Level 4 FB Plate",
+        "translation": "레벨 4 전면/후면 장갑판"
+      },
+      {
+        "key": "674815ecfa618fdddb714eb2 ShortName",
+        "source": "L4 FB Plate",
+        "translation": "4등급 전후면 방탄판"
+      },
+      {
+        "key": "674815ecfa618fdddb714eb2 Description",
+        "source": "Level 4 Front/Back Plate.",
+        "translation": "레벨 4 전면/후면 장갑판입니다."
+      },
+      {
+        "key": "67481bf40d9547b0aedb624a Name",
+        "source": "Level 6 Soft Front",
+        "translation": "레벨 6 전면 소프트 아머"
+      },
+      {
+        "key": "67481bf40d9547b0aedb624a Description",
+        "source": "Level 6 Front Soft",
+        "translation": "레벨 6 전면 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf41c82c08a792913fa Name",
+        "source": "Level 6 Collar",
+        "translation": "레벨 6 칼라 소프트 아머"
+      },
+      {
+        "key": "67481bf41c82c08a792913fa Description",
+        "source": "Level 6 Collar Soft",
+        "translation": "레벨 6 칼라 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf456c6ae99674319e3 Name",
+        "source": "Level 6 Right Arm",
+        "translation": "레벨 6 우측 팔 소프트 아머"
+      },
+      {
+        "key": "67481bf456c6ae99674319e3 Description",
+        "source": "Level 6 Right Arm Soft",
+        "translation": "레벨 6 우측 팔 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf46267aa430cf15cd4 Name",
+        "source": "Level 6 Left Side",
+        "translation": "레벨 6 좌측면 소프트 아머"
+      },
+      {
+        "key": "67481bf46267aa430cf15cd4 Description",
+        "source": "Level 6 Left Side Soft",
+        "translation": "레벨 6 좌측면 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf46fa544e0d0357e7e Name",
+        "source": "Level 5 Left Arm",
+        "translation": "레벨 5 좌측 팔 소프트 아머"
+      },
+      {
+        "key": "67481bf46fa544e0d0357e7e Description",
+        "source": "Level 5 Left Arm Soft",
+        "translation": "레벨 5 좌측 팔 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf474ac349eced3014e Name",
+        "source": "Level 5 Right Arm",
+        "translation": "레벨 5 우측 팔 소프트 아머"
+      },
+      {
+        "key": "67481bf474ac349eced3014e Description",
+        "source": "Level 5 Right Arm Soft",
+        "translation": "레벨 5 우측 팔 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf486f9d98bbd700a6c Name",
+        "source": "Level 6 Left Arm",
+        "translation": "레벨 6 좌측 팔 소프트 아머"
+      },
+      {
+        "key": "67481bf486f9d98bbd700a6c Description",
+        "source": "Level 6 Left Arm Soft",
+        "translation": "레벨 6 좌측 팔 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf48712e0d318e274ce Name",
+        "source": "Level 6 Right Side",
+        "translation": "레벨 6 우측면 소프트 아머"
+      },
+      {
+        "key": "67481bf48712e0d318e274ce Description",
+        "source": "Level 6 Right Side Soft",
+        "translation": "레벨 6 우측면 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf499015cbb8dc01861 Name",
+        "source": "Level 6 Groin Back",
+        "translation": "레벨 6 후면 서혜부 소프트 아머"
+      },
+      {
+        "key": "67481bf499015cbb8dc01861 Description",
+        "source": "Level 6 Groin Back Soft",
+        "translation": "레벨 6 후면 서혜부 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf4c3dfefbad9cb28ac Name",
+        "source": "Level 6 Soft Back",
+        "translation": "레벨 6 후면 소프트 아머"
+      },
+      {
+        "key": "67481bf4c3dfefbad9cb28ac Description",
+        "source": "Level 6 Back Soft",
+        "translation": "레벨 6 후면 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf4c77efad1cb48527f Name",
+        "source": "Level 5 Collar",
+        "translation": "레벨 5 칼라 소프트 아머"
+      },
+      {
+        "key": "67481bf4c77efad1cb48527f Description",
+        "source": "Level 5 Collar Soft",
+        "translation": "레벨 5 칼라 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf4cc19dfda170096f1 Name",
+        "source": "Level 6 Groin Front",
+        "translation": "레벨 6 전면 서혜부 소프트 아머"
+      },
+      {
+        "key": "67481bf4cc19dfda170096f1 Description",
+        "source": "Level 6 Groin Front Soft",
+        "translation": "레벨 6 전면 서혜부 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf4cc9bed5d1db21528 Name",
+        "source": "Level 5 Groin Front",
+        "translation": "레벨 5 전면 서혜부 소프트 아머"
+      },
+      {
+        "key": "67481bf4cc9bed5d1db21528 Description",
+        "source": "Level 5 Groin Front Soft",
+        "translation": "레벨 5 전면 서혜부 소프트 아머입니다."
+      },
+      {
+        "key": "67481bf4faed67e9d5f30b6e Name",
+        "source": "Level 5 Groin Back",
+        "translation": "레벨 5 후면 서혜부 소프트 아머"
+      },
+      {
+        "key": "67481bf4faed67e9d5f30b6e Description",
+        "source": "Level 5 Groin Back Soft",
+        "translation": "레벨 5 후면 서혜부 소프트 아머입니다."
+      },
+      {
+        "key": "674888cc37cd20bcbef66a48 Name",
+        "source": "Tasmanian Tiger Trooper 35 Mk2",
+        "translation": "태즈매니안 타이거 트루퍼 35 Mk2"
+      },
+      {
+        "key": "674888cc37cd20bcbef66a48 Description",
+        "source": "The TT Trooper Light Pack 35 is a lightweight and functional 35 liter backpack from Tasmanian Tiger with a comfortable and ergonomic PaddenBack suspension system and anatomical shoulder straps. This updagrade version is straight outta R&D, lighter and holds more without impacting movement.",
+        "translation": "TT 트루퍼 라이트 팩 35는 태즈매니안 타이거의 가볍고 실용적인 35리터 배낭으로, 편안하고 인체공학적인 PaddenBack 등판 시스템과 신체 구조에 맞춘 어깨끈을 갖추었습니다. 이 R&D 개량형은 더 가벼우면서도 움직임에 영향을 주지 않고 더 많은 물품을 수납할 수 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "674974348af9189fcc136a7e Name",
+        "source": "AFAKv2 tactical individual first aid kit",
+        "translation": "AFAKv2 전술 개인 응급처치 키트"
+      },
+      {
+        "key": "674974348af9189fcc136a7e Description",
+        "source": "AFAKv2 (Adaptive First Aid Kit). A more advanced version of the IFAK individual first aid kit. The Mk2 simply revolves around treating bleeds and traumas removing any unnesscary components.",
+        "translation": "AFAKv2(개량형 응급처치 키트)는 IFAK 개인 응급처치 키트를 더욱 발전시킨 제품입니다. Mk2는 불필요한 구성품을 제거하고 출혈 및 외상 처치에 집중하도록 구성되어 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6749758d4506d299770ddcb2 Name",
+        "source": "IFAKv2 individual first aid kit",
+        "translation": "IFAKv2 개인 응급처치 키트"
+      },
+      {
+        "key": "6749758d4506d299770ddcb2 Description",
+        "source": "IFAKv2 is a personal medical kit issued to soldiers in service. The official first aid kit in the U.S. Marine Corps IFAK (Individual First Aid Kit of the United States Marine Corps). The Mk2 simply revolves around treating bleeds and traumas removing any unnesscary components.",
+        "translation": "IFAKv2는 복무 중인 병사에게 지급되는 개인 의료 키트입니다. 미 해병대의 공식 개인 응급처치 키트(IFAK)입니다. Mk2는 불필요한 구성품을 제거하고 출혈 및 외상 처치에 집중하도록 구성되어 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67e179c918736ce8a8093d5f Name",
+        "source": "OPS Core Top Soft",
+        "translation": "OPS 코어 상단 소프트 아머"
+      },
+      {
+        "key": "67e179c918736ce8a8093d5f Description",
+        "source": "OPS Core Top Soft Armour level6",
+        "translation": "OPS 코어 헬멧용 레벨 6 상단 소프트 아머입니다."
+      },
+      {
+        "key": "67e179c92d755ef8ae908854 Name",
+        "source": "Aluminum splint v2",
+        "translation": "알루미늄 부목 v2"
+      },
+      {
+        "key": "67e179c92d755ef8ae908854 ShortName",
+        "source": "Alu splint v2",
+        "translation": "알루미늄 부목 v2"
+      },
+      {
+        "key": "67e179c92d755ef8ae908854 Description",
+        "source": "An aluminum splint for fixing damaged bones in place.It's a bigger roll!",
+        "translation": "손상된 뼈를 제자리에 고정하는 알루미늄 부목입니다. 더 큰 롤 형태로 제작되었습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67e179c935563e326180ce7d Name",
+        "source": "Gen Pro 5",
+        "translation": "젠 프로 5"
+      },
+      {
+        "key": "67e179c935563e326180ce7d Description",
+        "source": "A Specially modified version of the IOTV Gen4 Full Protection armour, using advanced materials. Level 5 Protection.",
+        "translation": "고급 소재를 사용한 IOTV Gen4 풀 프로텍션 방탄복의 특수 개조형입니다. 레벨 5 방호를 제공합니다."
+      },
+      {
+        "key": "67e179c97ded878d55fb8d4c Name",
+        "source": "OPS Core Mk6 Helmet",
+        "translation": "OPS 코어 Mk6 헬멧"
+      },
+      {
+        "key": "67e179c97ded878d55fb8d4c Description",
+        "source": "OPS Core Mk6 Helmet With advanced materials.",
+        "translation": "고급 소재를 사용한 OPS 코어 Mk6 헬멧입니다."
+      },
+      {
+        "key": "67e179c98011d62426c9412d Name",
+        "source": "Gen Pro 4",
+        "translation": "젠 프로 4"
+      },
+      {
+        "key": "67e179c98011d62426c9412d Description",
+        "source": "A Specially modified version of the IOTV Gen4 Full Protection armour, using advanced materials. Level 4 Protection.",
+        "translation": "고급 소재를 사용한 IOTV Gen4 풀 프로텍션 방탄복의 특수 개조형입니다. 레벨 4 방호를 제공합니다."
+      },
+      {
+        "key": "67e179c98a64adc341e461ba Name",
+        "source": "OPS Core Nape Soft",
+        "translation": "OPS 코어 목덜미 소프트 아머"
+      },
+      {
+        "key": "67e179c98a64adc341e461ba Description",
+        "source": "OPS Core Nape Soft Armour level6",
+        "translation": "OPS 코어 헬멧용 레벨 6 목덜미 소프트 아머입니다."
+      },
+      {
+        "key": "67e179c99591ffcd472a270a Name",
+        "source": "Gen Pro 6",
+        "translation": "젠 프로 6"
+      },
+      {
+        "key": "67e179c99591ffcd472a270a Description",
+        "source": "A Specially modified version of the IOTV Gen4 Full Protection armour, using advanced materials. Level 6 Protection.",
+        "translation": "고급 소재를 사용한 IOTV Gen4 풀 프로텍션 방탄복의 특수 개조형입니다. 레벨 6 방호를 제공합니다."
+      },
+      {
+        "key": "67e179c9ff1e5acc5f7af6db Name",
+        "source": "CALOK-B hemostatic applicator v2",
+        "translation": "CALOK-B 지혈 어플리케이터 v2"
+      },
+      {
+        "key": "67e179c9ff1e5acc5f7af6db Description",
+        "source": "The CALOK-B applicator hemostatic agent allows you to inject hemostatic granules through a wound opening directly to the source of bleeding in just a few seconds. Just has a larger capacity for treating bleeds.",
+        "translation": "CALOK-B 주입식 지혈제는 상처 입구를 통해 지혈 과립을 출혈 부위에 직접 주입할 수 있게 해줍니다. 주입에는 몇 초밖에 걸리지 않습니다. 이 개량형은 출혈 처치를 위해 더 큰 용량을 갖추었습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "69134cc64dbd6823605fe7a5 Name",
+        "source": "Ops-Core SLAAP armor helmet plate (Tan) Mk6",
+        "translation": "Ops-Core SLAAP 장갑 헬멧 플레이트 (탄) Mk6"
+      },
+      {
+        "key": "69134cc64dbd6823605fe7a5 Description",
+        "source": "An additional armor module for the Ops-Core FAST helmet, made of a special polyethylene plate modified to work with Mk6 Ops Core Helmet.",
+        "translation": "Mk6 Ops Core 헬멧과 함께 작동하도록 개조된 특수 폴리에틸렌 플레이트로 만든 Ops-Core FAST 헬멧용 추가 장갑 모듈입니다."
+      },
+      {
+        "key": "6718b97058e531407e3e074f",
+        "source": "Kill anyone that moves",
+        "translation": "움직이는 것은 전부 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718b97069d84c2738f658fc name",
+        "source": "Pay Back I - Where it all began",
+        "translation": "복수 - 파트 1: 모든 것이 시작된 곳",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718b97069d84c2738f658fc description",
+        "source": "Those leeches are all over downtown tarkov, thin the herd....",
+        "translation": "그 거머리 같은 놈들이 타르코프 시내 곳곳에 깔렸어. 수를 좀 줄여.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718b97069d84c2738f658fc successMessageText",
+        "source": "It's done? About damn time. Onto the next part",
+        "translation": "끝났어? 진짜 오래 걸렸네. 다음 단계로 넘어가자."
+      },
+      {
+        "key": "6718b97081cdc78078d82eb4",
+        "source": "Kill 20 USEC PMC's",
+        "translation": "USEC PMC 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718b970a54d40b5ff5c5c9f",
+        "source": "Hand over the dogtags",
+        "translation": "인식표 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718b9709b5e53a98e6513f2 name",
+        "source": "Pay Back II - USEC",
+        "translation": "복수 - 파트 2: USEC",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718b9709b5e53a98e6513f2 description",
+        "source": "Those damn Americans, always sticking their noses in to what they shouldn't, punish them and bring back proof. Then and only then can we start the real purge....",
+        "translation": "그 빌어먹을 미국 놈들은 항상 끼어들지 말아야 할 곳에 코를 들이밀어. 놈들을 응징하고 증거를 가져와. 그래야 진짜 숙청을 시작할 수 있어....",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718b9709b5e53a98e6513f2 successMessageText",
+        "source": "It's done? About damn time. Onto the next part",
+        "translation": "끝났어? 진짜 오래 걸렸네. 다음 단계로 넘어가자."
+      },
+      {
+        "key": "6718c695b884bcd7b8fbe4e7",
+        "source": "Kill 20 scavs in the Factory while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 공장(Factory)에서 스캐브 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c695f8c9e020de18c937 name",
+        "source": "Pay Back III - Factory",
+        "translation": "복수 - 파트 3: 공장",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718c695f8c9e020de18c937 description",
+        "source": "Damn scavs ambushed me and my platoon mates using some civs to lure us in. All of my platoon dead they left me bleeding out after laughing at us and looting my comrades, its revenge time and I want you to put the fear into everyone in the region. Baba Yaga is here for vengeance! I need you too kill scavs in the factory but you must be wearing a Ghost balaclava, they will then know the ghost has come to punish them.....",
+        "translation": "빌어먹을 스캐브 놈들이 민간인을 미끼로 써서 나와 내 소대원들을 매복했어. 내 소대는 전멸했고, 놈들은 우릴 비웃고 전우들의 장비를 털어 간 뒤 날 피 흘리게 버려뒀지. 이제 복수할 시간이야. 이 지역 모든 놈들에게 공포를 심어줘. 바바 야가가 복수를 위해 왔다! 공장에서 스캐브를 사살해. 단, 반드시 고스트 발라클라바를 착용해야 해. 그래야 놈들이 고스트가 벌을 내리러 왔다는 걸 알게 되겠지.....",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718c695f8c9e020de18c937 successMessageText",
+        "source": "It's done? About damn time. Hopefully some witnesses can spread the word that the Ghost is hunting",
+        "translation": "끝났어? 진짜 오래 걸렸네. 목격자들이 고스트가 사냥 중이라는 소문을 퍼뜨려주면 좋겠어."
+      },
+      {
+        "key": "6718c695efe1a758003371dc",
+        "source": "Kill 20 scavs in the Customs Distric while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 세관(Customs) 구역에서 스캐브 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c695baf8881e33dd465a name",
+        "source": "Pay Back IV - Customs",
+        "translation": "복수 - 파트 4: 세관",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718c695baf8881e33dd465a description",
+        "source": "Next I want you to kill scavs in the customs district but again you must still be wearing a Ghost balaclava, they will then know the ghost has come to punish them.....",
+        "translation": "다음은 세관 구역의 스캐브들이야. 이번에도 고스트 발라클라바는 계속 착용해. 그래야 놈들이 고스트가 벌을 내리러 왔다는 걸 알게 되겠지.....",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718c695baf8881e33dd465a successMessageText",
+        "source": "It's done? Onto the next task",
+        "translation": "끝났어? 다음 임무로 넘어가자."
+      },
+      {
+        "key": "6718c695456953ea11312707",
+        "source": "Kill 20 scavs in the Woods Nature Reserve while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 삼림(Woods) 자연 보호 구역에서 스캐브 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c69596a8bb476964307c name",
+        "source": "Pay Back V - Woods",
+        "translation": "복수 - 파트 5: 삼림",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718c69596a8bb476964307c description",
+        "source": "Next I want you to kill scavs in the Woods Nature Reserve, keep that Ghost balaclava on, for in their last moments they need to see the Ghost...",
+        "translation": "다음은 삼림(Woods) 자연 보호 구역의 스캐브들이야. 고스트 발라클라바는 계속 쓰고 있어. 놈들이 마지막 순간에 고스트를 보게 해야 하니까...",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718c69596a8bb476964307c successMessageText",
+        "source": "It's done? Onto the next task",
+        "translation": "끝났어? 다음 임무로 넘어가자."
+      },
+      {
+        "key": "6718c695cab3d959b9395fc0",
+        "source": "Kill 20 scavs in the Interchange District while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 인터체인지(Interchange) 구역에서 스캐브 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c695c09d53e3019e2258 name",
+        "source": "Pay Back VI - Interchange",
+        "translation": "복수 - 파트 6: 인터체인지",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718c695c09d53e3019e2258 description",
+        "source": "That shopping mall was full of scum and pick pockets even before this area fell to chaos, Now its infested with rats as well, clear it out and keep that Ghost balaclava on..",
+        "translation": "그 쇼핑몰은 이 지역이 혼란에 빠지기 전부터 쓰레기들과 소매치기들로 가득했어. 이제는 쥐새끼들까지 들끓고 있지. 싹 정리하고 고스트 발라클라바는 계속 쓰고 있어..",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718c695c09d53e3019e2258 successMessageText",
+        "source": "It's done? Onto the next task",
+        "translation": "끝났어? 다음 임무로 넘어가자."
+      },
+      {
+        "key": "6718c69587ad10878edf5779",
+        "source": "Kill 20 scavs in the Streets of Tarkov while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 타르코프 시내(Streets of Tarkov)에서 스캐브 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c695f6d8888c6c65f020 name",
+        "source": "Pay Back VII - Streets",
+        "translation": "복수 - 파트 7: 타르코프 시내",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718c695f6d8888c6c65f020 description",
+        "source": "I had friends who lived round there, now there homes are looted, vandalised and spoiled. Clear the scavs out and keep that Ghost balaclava on..",
+        "translation": "그 근처에 살던 친구들이 있었어. 지금은 그들의 집이 약탈당하고, 훼손되고, 망가졌지. 스캐브들을 쓸어내고 고스트 발라클라바는 계속 쓰고 있어..",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718c695f6d8888c6c65f020 successMessageText",
+        "source": "It's done? Onto the next task",
+        "translation": "끝났어? 다음 임무로 넘어가자."
+      },
+      {
+        "key": "6718c695fd0b11612ccd878e",
+        "source": "Kill 20 scavs in the Shoreline District while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 해안선(Shoreline) 구역에서 스캐브 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c695e5da4e727be8a8cb name",
+        "source": "Pay Back VIII - Shoreline",
+        "translation": "복수 - 파트 8: 해안선",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718c695e5da4e727be8a8cb description",
+        "source": "Shoreline used to house a lot retired folk with all the cherished memories in their apartments, then came the scavs clear em out and keep that Ghost balaclava on..",
+        "translation": "해안선(Shoreline)에는 한때 추억이 깃든 아파트에서 살아가던 은퇴자들이 많았어. 그러다 스캐브들이 들이닥쳤지. 놈들을 쓸어내고 고스트 발라클라바는 계속 쓰고 있어..",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718c695e5da4e727be8a8cb successMessageText",
+        "source": "It's done? Onto the next task",
+        "translation": "끝났어? 다음 임무로 넘어가자."
+      },
+      {
+        "key": "6718c69517034c2187b3ea2f",
+        "source": "Kill 20 scavs in the Lighthouse District while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 등대(Lighthouse) 구역에서 스캐브 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c6959351620f69ceb764 name",
+        "source": "Pay Back IX - Lighthouse",
+        "translation": "복수 - 파트 9: 등대",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718c6959351620f69ceb764 description",
+        "source": "Lighthouse was a pit of a toffee nose idiots before the chaos, not sure if it's worse now but anyway clear out the scavs and keep that Ghost balaclava on..",
+        "translation": "등대(Lighthouse)는 혼란이 닥치기 전에도 콧대 높은 멍청이들 투성이인 구덩이 같은 곳이었어. 지금이 더 나쁜지는 모르겠지만, 어쨌든 스캐브들을 쓸어내고 고스트 발라클라바는 계속 쓰고 있어..",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718c6959351620f69ceb764 successMessageText",
+        "source": "It's done? Onto the next task",
+        "translation": "끝났어? 다음 임무로 넘어가자."
+      },
+      {
+        "key": "6718c9e8329bae2e7648a7a6",
+        "source": "Kill 20 scavs at the Reserve Base while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 리저브(Reserve) 기지에서 스캐브 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c9e8138349c071c13e4b name",
+        "source": "Pay Back X - Reserve",
+        "translation": "복수 - 파트 10: 리저브",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718c9e8138349c071c13e4b description",
+        "source": "I was based at the Reserve base before all this, good memories spoiled by filthy scavs, kill em all and keep that Ghost balaclava on..",
+        "translation": "이 모든 일이 벌어지기 전에는 리저브(Reserve) 기지에 배치돼 있었어. 좋은 기억들이 더러운 스캐브 놈들 때문에 망가졌지. 전부 죽이고 고스트 발라클라바는 계속 쓰고 있어..",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718c9e8138349c071c13e4b successMessageText",
+        "source": "It's done? Onto the next task",
+        "translation": "끝났어? 다음 임무로 넘어가자."
+      },
+      {
+        "key": "6718c9e8ece4edab3a3a31ea",
+        "source": "Kill 10 Raiders in the Labs while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 연구소(The Lab)에서 레이더 10명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c9e8f5365d301f434070 name",
+        "source": "Pay Back XI - Labs",
+        "translation": "복수 - 파트 11: 연구소",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718c9e8f5365d301f434070 description",
+        "source": "Raiders... I swear I know some of them but they still try and kill me, even worse than scavs, kill em and keep that Ghost balaclava on no one is safe from the Ghost..",
+        "translation": "레이더들... 맹세컨대 그중 몇 놈은 아는 얼굴인데, 그래도 날 죽이려 들어. 스캐브보다 더 지독한 놈들이야. 놈들을 죽이고 고스트 발라클라바는 계속 쓰고 있어. 고스트에게서 안전한 놈은 없어..",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718c9e8f5365d301f434070 successMessageText",
+        "source": "It's done? Onto the next task",
+        "translation": "끝났어? 다음 임무로 넘어가자."
+      },
+      {
+        "key": "6718c9e81bb9222b931e5473",
+        "source": "Kill 10 Cultists while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 컬티스트 10명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c9e8210bdd9faa2e2bc8 name",
+        "source": "Pay Back XII - Cultists",
+        "translation": "복수 - 파트 12: 컬티스트",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718c9e8210bdd9faa2e2bc8 description",
+        "source": "Chaos breeds weirdos these so called Cultists who commit atrocities all over the region need culling, kill em and keep that Ghost balaclava on no one is safe from the Ghost..",
+        "translation": "혼란은 이상한 놈들을 낳아. 이른바 컬티스트라는 놈들이 지역 곳곳에서 잔혹한 짓을 벌이고 있으니 수를 줄여야 해. 놈들을 죽이고 고스트 발라클라바는 계속 쓰고 있어. 고스트에게서 안전한 놈은 없어..",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718c9e8210bdd9faa2e2bc8 successMessageText",
+        "source": "It's done? Great time to cut the head off the snake",
+        "translation": "끝났어? 좋아. 이제 뱀의 머리를 칠 시간이야."
+      },
+      {
+        "key": "6718cbc9d1e319e14c3bd3ed",
+        "source": "Kill Tagilla while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 타길라 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c9e817b73ee75434ed5d",
+        "source": "Kill Killa while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 킬라 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c9e8e9fdb64acfbd8aed",
+        "source": "Kill Reshala while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 르샬라 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "68ff65a5a13830555b0af78f",
+        "source": "Kill Shturman while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 슈트르만 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c9e84262a8add8236997",
+        "source": "Kill Glukhar while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 글루하 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c9e8fafb34f1c377da9d",
+        "source": "Kill Sanitar while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 세니타 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c9e8d952a8543cdf52c9",
+        "source": "Kill Big Pipe while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 빅 파이프 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c9e83e0178562814b3d9",
+        "source": "Kill Birdeye while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 버드아이 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c9e85a0d1e122abaaaa1",
+        "source": "Kill Knight while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 나이트 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718cbc9956b4a43bc0f3266",
+        "source": "Kill Kollontay while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 콜론테이 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718cbc9a5658d5256ded8ac",
+        "source": "Kill Kaban while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 카반 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "68ff66ad70c4a9ce18131814",
+        "source": "Kill Partisan while wearing the Ghost balaclava",
+        "translation": "고스트 발라클라바를 착용한 상태로 파르티잔 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718c9e8dcd08967a6aa6961 name",
+        "source": "Pay Back XIII - Head of the snake",
+        "translation": "복수 - 파트 13: 뱀의 머리",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718c9e8dcd08967a6aa6961 description",
+        "source": "Tagilla, Killa, Reshala, Shturman, Glukhar, Sanitar, Big Pipe, Birdeye, Knight, Kollontay, Kaban and Partisan. Leaders born out from this mess, Cut them down! Baba Yaga has come for them....",
+        "translation": "타길라, 킬라, 르샬라, 슈트르만, 글루하, 세니타, 빅 파이프, 버드아이, 나이트, 콜론테이, 카반, 파르티잔. 이 혼란 속에서 태어난 우두머리들이야. 놈들을 베어 넘겨. 바바 야가가 놈들을 찾아왔다....",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718c9e8dcd08967a6aa6961 successMessageText",
+        "source": "It's done? About damn time. I Hope they learnt their lession. Onto the next area!",
+        "translation": "끝났어? 진짜 오래 걸렸네. 놈들이 교훈을 얻었길 바라. 다음 지역으로 가자!"
+      },
+      {
+        "key": "6718cbc936e57aeefd54ed96",
+        "source": "Hand over the Ghost",
+        "translation": "고스트 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718cbc90a1186c8b8f7b5dc name",
+        "source": "Pay Back XIV - The Ghost Retires",
+        "translation": "복수 - 파트 14: 고스트의 은퇴",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6718cbc90a1186c8b8f7b5dc description",
+        "source": "Baba Yaga must sleep now till the evils of Humanity rise again",
+        "translation": "인류의 악이 다시 일어날 때까지 바바 야가는 이제 잠들어야 해.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6718cbc90a1186c8b8f7b5dc successMessageText",
+        "source": "Thank you helping me avenge my fallen comrades and cleaning up the region. The people of tarkov owe you a very large debt, if we ever get to live here again.....",
+        "translation": "쓰러진 전우들의 복수를 돕고 이 지역을 정리해줘서 고마워. 언젠가 우리가 다시 여기서 살 수 있게 된다면, 타르코프 사람들은 너에게 아주 큰 빚을 지게 될 거야....."
+      },
+      {
+        "key": "67e179c31d48ae42bb0af275 name",
+        "source": "Weapons Training: Grenades",
+        "translation": "무기 훈련: 수류탄",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67e179c31d48ae42bb0af275 description",
+        "source": "To help you on this path of revenge your enacting for me, you need to learn some skills. First off Grenades",
+        "translation": "네가 날 위해 걷고 있는 이 복수의 길을 돕기 위해서는 몇 가지 기술을 익혀야 해. 먼저 수류탄이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67e179c31d48ae42bb0af275 startedMessageText",
+        "source": "Theres a knack to throwing grenades and making sure they don't bounce back to your feet, it's all in wrist. Well go get some practice and frag whoever you can find....",
+        "translation": "수류탄을 던질 때는 요령이 있어. 발밑으로 되튕기지 않게 하는 것도 전부 손목에 달렸지. 가서 연습 좀 하고, 눈에 띄는 놈들은 파편으로 날려버려...."
+      },
+      {
+        "key": "67e179c31d48ae42bb0af275 successMessageText",
+        "source": "Boom what a blast!!!",
+        "translation": "쾅, 제대로 터졌네!!!"
+      },
+      {
+        "key": "67e179c341a16bdd1fc39071",
+        "source": "Get 15 Kills with explosive hand Grenades",
+        "translation": "폭발성 수류탄으로 15명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67e179c3eff5c977ddd9f6bb name",
+        "source": "Weapons Training: Revolvers",
+        "translation": "무기 훈련: 리볼버",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67e179c3eff5c977ddd9f6bb description",
+        "source": "To help you on this path of revenge your enacting for me, you need to learn some skills. Revolvers.",
+        "translation": "네가 날 위해 걷고 있는 이 복수의 길을 돕기 위해서는 몇 가지 기술을 익혀야 해. 리볼버야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67e179c3eff5c977ddd9f6bb startedMessageText",
+        "source": "A good old revolver will never let you down, mostly. Downside is the reload time, but double points for the cool factor.",
+        "translation": "좋은 구식 리볼버는 절대 널 실망시키지 않아. 대체로는 말이지. 단점은 재장전 시간이지만, 멋 하나만큼은 두 배 점수야."
+      },
+      {
+        "key": "67e179c3eff5c977ddd9f6bb successMessageText",
+        "source": "Just like the wild west!",
+        "translation": "완전히 서부 개척 시대 같네!"
+      },
+      {
+        "key": "67e179c3c4202d67b228db2f",
+        "source": "Get 15 Kills with revolvers",
+        "translation": "리볼버로 15명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67e179c90d92884b7213dcd4 name",
+        "source": "Weapons Training: Pistols",
+        "translation": "무기 훈련: 권총",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67e179c90d92884b7213dcd4 description",
+        "source": "To help you on this path of revenge your enacting for me, you need to learn some skills. Pistols.",
+        "translation": "네가 날 위해 걷고 있는 이 복수의 길을 돕기 위해서는 몇 가지 기술을 익혀야 해. 권총이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67e179c90d92884b7213dcd4 startedMessageText",
+        "source": "Highly customisable, varied calibers. Any pistol is handy to have at arms reach and will likely save your life or make whoever you aiming at madder..",
+        "translation": "개조 폭이 넓고, 구경도 다양하지. 어떤 권총이든 손 닿는 곳에 있으면 도움이 돼. 목숨을 구해주거나, 네가 겨눈 놈을 더 열받게 만들 수도 있고.."
+      },
+      {
+        "key": "67e179c90d92884b7213dcd4 successMessageText",
+        "source": "A sidearm is always handy for those click moments.",
+        "translation": "딸깍거리는 순간에는 보조무기가 항상 쓸모 있지."
+      },
+      {
+        "key": "67e179c9451e2f1b4f3107ca",
+        "source": "Get 15 Kills with pistols",
+        "translation": "권총으로 15명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67e179c90968411e8f602ec5 name",
+        "source": "Weapons Training: Shotguns",
+        "translation": "무기 훈련: 산탄총",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67e179c90968411e8f602ec5 description",
+        "source": "To help you on this path of revenge your enacting for me, you need to learn some skills. Shotguns",
+        "translation": "네가 날 위해 걷고 있는 이 복수의 길을 돕기 위해서는 몇 가지 기술을 익혀야 해. 산탄총이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67e179c90968411e8f602ec5 startedMessageText",
+        "source": "So many different ammo types, the close combat king nothing like a close up buckshot in the chest or face.",
+        "translation": "탄약 종류가 정말 많지. 근접전의 왕이야. 가까운 거리에서 가슴이나 얼굴에 벅샷을 박아 넣는 것만 한 게 없어."
+      },
+      {
+        "key": "67e179c90968411e8f602ec5 successMessageText",
+        "source": "Versatile and powerful, always handy for close encounters.",
+        "translation": "다재다능하고 강력해. 근접전에서는 언제나 쓸모 있어."
+      },
+      {
+        "key": "67e179c9de2db664f5a8e9e9",
+        "source": "Get 15 Kills with shotties",
+        "translation": "산탄총으로 15명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67e6bf5f64e1ae8163b36930 name",
+        "source": "Weapons Training: SMG",
+        "translation": "무기 훈련: 기관단총",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67e6bf5f64e1ae8163b36930 description",
+        "source": "To help you on this path of revenge your enacting for me, you need to learn some skills. SMGs",
+        "translation": "네가 날 위해 걷고 있는 이 복수의 길을 돕기 위해서는 몇 가지 기술을 익혀야 해. 기관단총이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67e6bf5f64e1ae8163b36930 startedMessageText",
+        "source": "Best in controlled bursts, but the option to unload a full mag in seconds is very handy.",
+        "translation": "제어 사격으로 쏠 때 가장 좋지만, 몇 초 만에 탄창 하나를 비워버릴 수 있다는 선택지도 꽤 유용하지."
+      },
+      {
+        "key": "67e6bf5f64e1ae8163b36930 successMessageText",
+        "source": "Handy for many situations, short to medium ranges.",
+        "translation": "여러 상황에 쓸만해. 단거리부터 중거리까지 말이야."
+      },
+      {
+        "key": "67e6bf62209c5fbff30a2c4f",
+        "source": "Get 15 Kills with SMGs",
+        "translation": "기관단총으로 15명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67e6bf5f766b059688490eb5 name",
+        "source": "Weapons Training: Assault Carbine",
+        "translation": "무기 훈련: 돌격카빈",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67e6bf5f766b059688490eb5 description",
+        "source": "To help you on this path of revenge your enacting for me, you need to learn some skills. Assault Carbine",
+        "translation": "네가 날 위해 걷고 있는 이 복수의 길을 돕기 위해서는 몇 가지 기술을 익혀야 해. 돌격카빈이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67e6bf5f766b059688490eb5 startedMessageText",
+        "source": "Typically semi auto with a few exceptions also typically smaller and lighter than there rifle counterpart. But not always the case.",
+        "translation": "보통은 반자동이고, 예외도 몇 가지 있어. 대체로 소총형보다 작고 가볍지만, 항상 그런 건 아니야."
+      },
+      {
+        "key": "67e6bf5f766b059688490eb5 successMessageText",
+        "source": "Easier to handle, useful for any range of engagement.",
+        "translation": "다루기 쉽고, 어떤 교전 거리에서도 쓸만해."
+      },
+      {
+        "key": "67e6bf6252df50c6d6de8966",
+        "source": "Get 15 Kills with Assault Carbines",
+        "translation": "돌격카빈으로 15명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67e6bf5fde3db66c77d3265d name",
+        "source": "Weapons Training: Assault Rifle",
+        "translation": "무기 훈련: 돌격소총",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67e6bf5fde3db66c77d3265d description",
+        "source": "To help you on this path of revenge your enacting for me, you need to learn some skills. Assault Rifle",
+        "translation": "네가 날 위해 걷고 있는 이 복수의 길을 돕기 위해서는 몇 가지 기술을 익혀야 해. 돌격소총이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67e6bf5fde3db66c77d3265d startedMessageText",
+        "source": "From the versatile AK-47 to the SIG Spear, Assault rifles are the core of any armed force. With a wide variety of calibers.",
+        "translation": "다재다능한 AK-47부터 SIG Spear까지, 돌격소총은 모든 무장 조직의 핵심이야. 구경도 다양하지."
+      },
+      {
+        "key": "67e6bf5fde3db66c77d3265d successMessageText",
+        "source": "Some can be used as DMR for the range and switch to full auto for CQB.",
+        "translation": "몇몇은 거리에서는 DMR처럼 쓰고, 근접전에서는 완전자동으로 전환할 수도 있지."
+      },
+      {
+        "key": "67e6bf628af1d715de559a59",
+        "source": "Get 15 Kills with Assault Rifles",
+        "translation": "돌격소총으로 15명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67e6bf5f2117269e9358f5a4 name",
+        "source": "Weapons Training: Light Machine Gun",
+        "translation": "무기 훈련: 경기관총",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67e6bf5f2117269e9358f5a4 description",
+        "source": "To help you on this path of revenge your enacting for me, you need to learn some skills. LMGs",
+        "translation": "네가 날 위해 걷고 있는 이 복수의 길을 돕기 위해서는 몇 가지 기술을 익혀야 해. 경기관총이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67e6bf5f2117269e9358f5a4 startedMessageText",
+        "source": "Guns that made the line Spray and pray, or accuracy through volume of fire. The best portable tools for supression, can be cumbersome for CQB though.",
+        "translation": "뿌리고 기도하라는 말, 또는 화력 투사로 명중률을 대신한다는 말을 만든 총들이지. 제압용으로는 최고의 휴대식 도구지만, 근접전에서는 좀 거추장스러울 수 있어."
+      },
+      {
+        "key": "67e6bf5f2117269e9358f5a4 successMessageText",
+        "source": "One of my personal favourite types of weapons, go full rambo!",
+        "translation": "내가 개인적으로 가장 좋아하는 무기 종류 중 하나야. 람보처럼 쏴갈겨!"
+      },
+      {
+        "key": "67e6bf62dba92f44644ff091",
+        "source": "Get 15 Kills with LMGs",
+        "translation": "경기관총으로 15명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67e6bf62402832ce3b2b6295 name",
+        "source": "Weapons Training: DMR",
+        "translation": "무기 훈련: 지정사수 소총",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67e6bf62402832ce3b2b6295 description",
+        "source": "To help you on this path of revenge your enacting for me, you need to learn some skills. DMRs",
+        "translation": "네가 날 위해 걷고 있는 이 복수의 길을 돕기 위해서는 몇 가지 기술을 익혀야 해. 지정사수 소총이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67e6bf62402832ce3b2b6295 startedMessageText",
+        "source": "Usually heavy, with limited ammo capacity and typically semi auto, providing valuable overwatch for modern military platoons.",
+        "translation": "보통 무겁고, 탄약 용량은 제한적이며, 대체로 반자동이야. 현대 군 소대에 귀중한 감시 화력을 제공하지."
+      },
+      {
+        "key": "67e6bf62402832ce3b2b6295 successMessageText",
+        "source": "Everyone loves a DMR, my personal favourite is the G28/HK417.",
+        "translation": "누구나 DMR은 좋아하지. 내가 개인적으로 좋아하는 건 G28/HK417이야."
+      },
+      {
+        "key": "67e6bf629835d1b8db02abc6",
+        "source": "Get 15 Kills with DMRs",
+        "translation": "지정사수 소총으로 15명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67e6bf62fe900edc5b20451d name",
+        "source": "Weapons Training: Bolt-Action",
+        "translation": "무기 훈련: 볼트액션",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67e6bf62fe900edc5b20451d description",
+        "source": "To help you on this path of revenge your enacting for me, you need to learn some skills. Bolt-Actions",
+        "translation": "네가 날 위해 걷고 있는 이 복수의 길을 돕기 위해서는 몇 가지 기술을 익혀야 해. 볼트액션 소총이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67e6bf62fe900edc5b20451d startedMessageText",
+        "source": "The kings of precision ranged shots, when you absolutely need to vaporise someones face from 2 miles away.",
+        "translation": "정밀 장거리 사격의 왕이야. 2마일 밖에서 누군가의 얼굴을 반드시 날려버려야 할 때 쓰는 물건이지."
+      },
+      {
+        "key": "67e6bf62fe900edc5b20451d successMessageText",
+        "source": "Gotta be the M700 or SV-98 all day long.",
+        "translation": "하루 종일 써도 M700 아니면 SV-98이지."
+      },
+      {
+        "key": "67e6bf6285d49739b5723e89",
+        "source": "Get 15 Kills with bolt action rifles",
+        "translation": "볼트액션 소총으로 15명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a585a580900a3fe91a9c97 name",
+        "source": "Exfil Part 1",
+        "translation": "탈출 - 파트 1",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a585a580900a3fe91a9c97 description",
+        "source": "Merc get in here and shut the door, I need your help. A few of my old comrades are stuck in the city and they need help, and your going to be that help, take this gear and stash it for them to collect. The drop off zone is in the terragroup car park, at the back theres an old mattress and some ducting next to it. Just don't be seen can't have some scav steal it. Also mark the intersection with a MS2000 where it leads to inner streets area of Tarkov City. There aim is to get to the port facility known as Terminal, apparently they can escape and get back to their families.",
+        "translation": "용병, 이리 들어와 문 닫아. 네 도움이 필요해. 내 옛 전우 몇 명이 도시에 갇혀 있고, 도움이 필요해. 그리고 네가 그 도움이 될 거야. 이 장비를 가져가서 그들이 회수할 수 있게 숨겨둬. 투하 지점은 테라그룹 주차장이야. 뒤쪽에 낡은 매트리스와 그 옆에 덕트가 있을 거야. 들키지만 마. 스캐브 놈이 훔쳐가게 둘 순 없으니까. 그리고 타르코프 시내 안쪽 구역으로 이어지는 교차로에 MS2000 마커도 설치해. 그들의 목표는 터미널이라고 알려진 항만 시설까지 가는 거야. 거기서 탈출해 가족에게 돌아갈 수 있다는 모양이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a585a580900a3fe91a9c97 startedMessageText",
+        "source": "Get on it merc!",
+        "translation": "바로 움직여, 용병!"
+      },
+      {
+        "key": "69a585a580900a3fe91a9c97 successMessageText",
+        "source": "Great start, hopefully that will help to get them out of the city.",
+        "translation": "좋은 시작이야. 이게 그들이 도시를 빠져나가는 데 도움이 되면 좋겠어."
+      },
+      {
+        "key": "69a585a5445e9705027fdfb0",
+        "source": "Eliminate 10 Scavs at Ground Zero",
+        "translation": "그라운드 제로(Ground Zero)에서 스캐브 10명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a585a5fd6f69056d354615",
+        "source": "Stash 2 AK-74N at the car park",
+        "translation": "주차장에 AK-74N 2정 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a585a5afe8c9f19364d092",
+        "source": "Stash 2 120 Round 5.45 PS ammo packs at the car park",
+        "translation": "주차장에 5.45x39mm PS gs 탄약 팩 (120발) 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a585a5d9b9bdfc33d5dcbe",
+        "source": "Stash a Grizzly med pack at the car park",
+        "translation": "주차장에 그리즐리 의료 키트 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a585a5354c5ff46fe72de4",
+        "source": "Mark the transit to streets location with a MS2000",
+        "translation": "타르코프 시내로 이어지는 지역이동 지점에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a585a5440ec65e8aa8ccfa name",
+        "source": "Exfil Part 2",
+        "translation": "탈출 - 파트 2",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a585a5440ec65e8aa8ccfa description",
+        "source": "Great start thanks Merc, next I need you to thin the herd and stash some more supplies at the rubbish pile in front of an SUV its near the Stryker, don't forget to mark the next transit to the next destination aswell.",
+        "translation": "좋은 시작이었어. 고마워, 용병. 다음은 놈들의 수를 줄이고, 스트라이커 근처 SUV 앞 쓰레기 더미에 보급품을 더 숨겨둬. 다음 목적지로 이어지는 지역이동 지점 표시도 잊지 마.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a585a5440ec65e8aa8ccfa startedMessageText",
+        "source": "Next up the mean streets",
+        "translation": "다음은 험한 거리야."
+      },
+      {
+        "key": "69a585a5440ec65e8aa8ccfa successMessageText",
+        "source": "Great hopefully that will help them get out of the city.",
+        "translation": "좋아. 이게 그들이 도시를 빠져나가는 데 도움이 되면 좋겠어."
+      },
+      {
+        "key": "69a6a9af194199da86c4164a",
+        "source": "Eliminate 20 Scavs at Streets",
+        "translation": "타르코프 시내(Streets of Tarkov)에서 스캐브 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9af85f8ccc8f35618d7",
+        "source": "Eliminate 10 PMCs at Streets",
+        "translation": "타르코프 시내(Streets of Tarkov)에서 PMC 10명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9af1c27e6d37796d0a4",
+        "source": "Stash 2 6B12 Front Plate Sets near the SUV",
+        "translation": "SUV 근처에 6B12 전면 방탄판 세트 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9af7d75441007ce9a05",
+        "source": "Stash 2 Iskra Ration Packs near the SUV",
+        "translation": "SUV 근처에 이스크라 전투 식량 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9af08cd43f274bf5876",
+        "source": "Stash 2 Bottles of water near the SUV",
+        "translation": "SUV 근처에 물병 (0.6L) 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9afd240423cc2d9bb1a",
+        "source": "Mark the transit to Interchange location with a MS2000",
+        "translation": "인터체인지로 이어지는 지역이동 지점에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9af5f8e85f9344a0e8d name",
+        "source": "Exfil Part 3",
+        "translation": "탈출 - 파트 3",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a6a9af5f8e85f9344a0e8d description",
+        "source": "Same deal as before, Clear the shopping mall out and stash some items for me, theres a huge sign for Ultra outside OLI that spot should be good.",
+        "translation": "전과 같은 방식이야. 쇼핑몰을 정리하고 내 물건을 좀 숨겨둬. OLI 바깥에 Ultra 대형 간판이 있어. 그 지점이면 괜찮을 거야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a6a9af5f8e85f9344a0e8d startedMessageText",
+        "source": "Next up lets go shopping",
+        "translation": "다음은 쇼핑하러 갈 차례야."
+      },
+      {
+        "key": "69a6a9af5f8e85f9344a0e8d successMessageText",
+        "source": "Great next up Customs warehouse area",
+        "translation": "좋아. 다음은 세관 창고 구역이야."
+      },
+      {
+        "key": "69a6a9aff83a1237b90bbc99",
+        "source": "Eliminate 15 Scavs at Interchange",
+        "translation": "인터체인지(Interchange)에서 스캐브 15명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9af9bccab55c6743fe4",
+        "source": "Eliminate 5 PMCs at Interchange",
+        "translation": "인터체인지(Interchange)에서 PMC 5명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9af4ccded2199a296ce",
+        "source": "Stash 2 WARTECH Berkut Backpacks at the ultra sign",
+        "translation": "Ultra 간판에 워텍 베르쿠트 BB-102 백팩 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9af2113849d7f77e500",
+        "source": "Mark the transit to Customs location with a MS2000",
+        "translation": "세관으로 이어지는 지역이동 지점에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9af127b2f9178de3b1b name",
+        "source": "Exfil Part 4",
+        "translation": "탈출 - 파트 4",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a6a9af127b2f9178de3b1b description",
+        "source": "Theres a dangerous scav boss called Reshala here, he was a problem before this whole mess even started, make sure to eliminate him and his guards, thin the herd a bit and drop off some more gear at the crackhouse bathroom and mark the transit to the Factory.",
+        "translation": "여기에는 르샬라라는 위험한 스캐브 보스가 있어. 이 모든 난장판이 시작되기 전부터 골칫거리였지. 놈과 경호원들을 반드시 제거해. 놈들 수를 좀 줄이고, 크랙하우스 화장실에 장비를 더 내려놓은 뒤 공장으로 이어지는 지역이동 지점도 표시해.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a6a9af127b2f9178de3b1b startedMessageText",
+        "source": "Reshala's territory",
+        "translation": "르샬라의 영역이야."
+      },
+      {
+        "key": "69a6a9af127b2f9178de3b1b successMessageText",
+        "source": "Great next up Factory, get your CQB skills ready",
+        "translation": "좋아. 다음은 공장이야. 근접전 실력을 준비해 둬."
+      },
+      {
+        "key": "69a6a9b279d4d206ba143cf6",
+        "source": "Eliminate Reshala",
+        "translation": "르샬라 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b2f3ca86e2904bb763",
+        "source": "Eliminate Reshala's Guards",
+        "translation": "르샬라의 경호원 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9af9dbb848507398222",
+        "source": "Eliminate 20 Scavs at Customs",
+        "translation": "세관(Customs)에서 스캐브 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b265ebc3b67a45851e",
+        "source": "Eliminate 10 PMCs at Customs",
+        "translation": "세관(Customs)에서 PMC 10명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b22cf558fba54841b0",
+        "source": "Stash the SV-98 at the crackhouse",
+        "translation": "크랙하우스에 SV-98 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b2715d2d2a04341221",
+        "source": "Stash 3 7.62r SNB Ammo Packs at the crackhouse",
+        "translation": "크랙하우스에 7.62x54mm R SNB gzh 탄약 팩 (20발) 3개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b2391cf3c21b0eae56",
+        "source": "Mark the transit to the Factory location with a MS2000",
+        "translation": "공장으로 이어지는 지역이동 지점에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b21c25f96812bb007e name",
+        "source": "Exfil Part 5",
+        "translation": "탈출 - 파트 5",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a6a9b21c25f96812bb007e description",
+        "source": "Factory has been a hot bed of firefights since the start, give it a clear out and stash the gear in the showers below the office. Mark the transit to woods and get back to me for the next job.",
+        "translation": "공장은 시작부터 총격전이 끊이지 않는 화약고였어. 싹 정리하고 사무실 아래 샤워실에 장비를 숨겨둬. 삼림으로 이어지는 지역이동 지점을 표시하고, 다음 일을 위해 나한테 돌아와.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a6a9b21c25f96812bb007e startedMessageText",
+        "source": "Next up a stroll in the Woods",
+        "translation": "다음은 삼림 산책이야."
+      },
+      {
+        "key": "69a6a9b21c25f96812bb007e successMessageText",
+        "source": "Great next up into the nature reserve",
+        "translation": "좋아. 다음은 자연 보호 구역 안쪽이야."
+      },
+      {
+        "key": "69a6a9b225c04de7684ce438",
+        "source": "Eliminate 10 Scavs in the Factory day or night",
+        "translation": "공장(Factory)에서 주야 관계없이 스캐브 10명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b24d9e659857d28fae",
+        "source": "Eliminate 5 PMCs in the Factory day or night",
+        "translation": "공장(Factory)에서 주야 관계없이 PMC 5명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b2bf25614375b7536c",
+        "source": "Stash the 2 Helmets in the showers near the big hole in the floor under the office",
+        "translation": "사무실 아래 바닥의 큰 구멍 근처 샤워실에 헬멧 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b278a2746f071e3234",
+        "source": "Stash the 2 Ammo packs in the showers near the big hole in the floor under the office.",
+        "translation": "사무실 아래 바닥의 큰 구멍 근처 샤워실에 탄약 팩 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b2e94baf750662d7f0",
+        "source": "Mark the transit to the Woods location with a MS2000",
+        "translation": "삼림으로 이어지는 지역이동 지점에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b2a920eff732800353 name",
+        "source": "Exfil Part 6a",
+        "translation": "탈출 - 파트 6a",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a6a9b2a920eff732800353 description",
+        "source": "Quick merc take these meds and get out to woods, I just recieved a garbled message from my comrades but I believe one of them is wounded. Stash these meds outside the factory transit point in woods",
+        "translation": "서둘러, 용병. 이 약품을 가지고 삼림으로 나가. 전우들에게서 잡음 섞인 메시지를 받았는데, 그중 하나가 부상당한 것 같아. 이 약품들을 삼림의 공장 지역이동 지점 바깥에 숨겨둬.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a6a9b2a920eff732800353 startedMessageText",
+        "source": "Get out there now!",
+        "translation": "지금 당장 나가!"
+      },
+      {
+        "key": "69a6a9b2a920eff732800353 successMessageText",
+        "source": "Thanks merc you saved a life out there today.",
+        "translation": "고마워, 용병. 오늘 밖에서 한 목숨을 구했어."
+      },
+      {
+        "key": "69a6a9b557cc3d768ca60f5a",
+        "source": "Stash 2 Calok's near the factory transit exit, theres some crates next to a lorry",
+        "translation": "공장 지역이동 탈출구 근처 화물차 옆 상자 근처에 CALOK-B 지혈제 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b56cd43d09d6c61e95",
+        "source": "Stash 2 Alu Splint near the factory transit exit, theres some crates next to a lorry",
+        "translation": "공장 지역이동 탈출구 근처 화물차 옆 상자 근처에 알루미늄 부목 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b27895c7eb3fa23320",
+        "source": "Stash 3 AFAKs near the factory transit exit, theres some crates next to a lorry",
+        "translation": "공장 지역이동 탈출구 근처 화물차 옆 상자 근처에 AFAK 전술 개인 응급 치료 키트 3개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b549fcc24535da20ba name",
+        "source": "Exfil Part 6b",
+        "translation": "탈출 - 파트 6b",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a6a9b549fcc24535da20ba description",
+        "source": "Thanks merc, apparently it wasn't as bad as they thought, Dimitri always was a drama queen. Some more gear to stash and they need food too, Don't lose those NVG's there very expensive and if you even think about stealing them I'll hunt you down with dogs, Woof!",
+        "translation": "고마워, 용병. 알고 보니 생각만큼 심각하진 않았던 모양이야. 디미트리는 원래 엄살쟁이였지. 숨겨둘 장비가 더 있고, 식량도 필요해. 그 NVG 잃어버리지 마. 아주 비싼 물건이야. 훔칠 생각이라도 한다면 개들을 데리고 널 추적할 거야. 멍!",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a6a9b549fcc24535da20ba startedMessageText",
+        "source": "Clear out the woods so my comrades can travel safely",
+        "translation": "내 전우들이 안전하게 이동할 수 있도록 삼림을 정리해."
+      },
+      {
+        "key": "69a6a9b549fcc24535da20ba successMessageText",
+        "source": "Next to my former home",
+        "translation": "다음은 내 옛 집이야."
+      },
+      {
+        "key": "69a6a9b5468a4bd6c919d226",
+        "source": "Eliminate Shturman",
+        "translation": "슈트르만 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b52c0e56460b093ba9",
+        "source": "Eliminate 10 Scavs in the Woods",
+        "translation": "삼림(Woods)에서 스캐브 10명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b583795a2aad3fc092",
+        "source": "Eliminate 5 PMCs in the Woods",
+        "translation": "삼림(Woods)에서 PMC 5명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b5d846bdfabfd6f099",
+        "source": "Stash 2 GPNVG-18 at the fern behind the shack north of the transit to reserve",
+        "translation": "리저브로 이어지는 지역이동 지점 북쪽 오두막 뒤 양치식물에 L3해리스 GPNVG-18 야간 투시경 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b59255dd3d1415a96d",
+        "source": "Stash 2 Iskra at the fern behind the shack north of the transit to reserve",
+        "translation": "리저브로 이어지는 지역이동 지점 북쪽 오두막 뒤 양치식물에 이스크라 전투 식량 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b5b333014c95996ce5",
+        "source": "Stash 2 Water at the fern behind the shack north of the transit to reserve",
+        "translation": "리저브로 이어지는 지역이동 지점 북쪽 오두막 뒤 양치식물에 물병 (0.6L) 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b5ee118893702e2a7e",
+        "source": "Mark the transit to the Reserve base with a MS2000, theres a tree close to it",
+        "translation": "리저브 기지로 이어지는 지역이동 지점 근처 나무에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a6a9b5107a1b8008083d19 name",
+        "source": "Exfil Part 7",
+        "translation": "탈출 - 파트 7",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a6a9b5107a1b8008083d19 description",
+        "source": "My former home, spent years at that base and so did my comrades, they want to stop off and see if some personal items are still there, all I need you to do is create a distraction before they head in by wiping that scum Glukhar out, kill the looting scum and eliminate your competition, plant 4 TNT on the north side support columns inside the train station and then mark the transit to Lighthouse.",
+        "translation": "내 옛 집이야. 나도, 내 전우들도 그 기지에서 몇 년을 보냈어. 그들은 들러서 개인 물품이 아직 남아 있는지 확인하고 싶어 해. 네가 할 일은 그들이 들어가기 전에 주의를 끄는 것뿐이야. 그 쓰레기 글루하를 지워버리고, 약탈하는 쓰레기들을 죽이고, 경쟁자도 제거해. 기차역 안 북쪽 지지 기둥에 TNT 4개를 설치한 뒤 등대로 이어지는 지역이동 지점을 표시해.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a6a9b5107a1b8008083d19 startedMessageText",
+        "source": "Make my former base a bit safer",
+        "translation": "내 옛 기지를 조금 더 안전하게 만들어."
+      },
+      {
+        "key": "69a6a9b5107a1b8008083d19 successMessageText",
+        "source": "Next up the scenic lighthouse area",
+        "translation": "다음은 경치 좋은 등대 지역이야."
+      },
+      {
+        "key": "69a6a9b56905d37bed35b5b4",
+        "source": "Eliminate Glukhar",
+        "translation": "글루하 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b08be2fb70a65860d",
+        "source": "Eliminate 20 Scavs on Reserve",
+        "translation": "리저브(Reserve)에서 스캐브 20명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b97bd3ffa55bca44e",
+        "source": "Eliminate 10 PMCs on Reserve",
+        "translation": "리저브(Reserve)에서 PMC 10명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a80320b1728a546a02db6e",
+        "source": "Plant a TNT Brick on the 1st pillar",
+        "translation": "첫 번째 기둥에 TP-200 TNT 폭약 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8032009718a04a29f89d7",
+        "source": "Plant a TNT Brick on the 2nd pillar",
+        "translation": "두 번째 기둥에 TP-200 TNT 폭약 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8032049ce58907dc45c7d",
+        "source": "Plant a TNT Brick on the 3rd pillar",
+        "translation": "세 번째 기둥에 TP-200 TNT 폭약 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a80320f4420a6a6d51335c",
+        "source": "Plant a TNT Brick on the 4th pillar",
+        "translation": "네 번째 기둥에 TP-200 TNT 폭약 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031bd6b83d5f23cd2ce0",
+        "source": "Mark the transit to Lighthouse with a MS2000",
+        "translation": "등대로 이어지는 지역이동 지점에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b4bdbfa3f3702a4de name",
+        "source": "Exfil Part 8",
+        "translation": "탈출 - 파트 8",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a8031b4bdbfa3f3702a4de description",
+        "source": "Plenty of scum bags here to clear out, Make sure to thin the numbers of all the hostile groups here and mark the tranist to shoreline.",
+        "translation": "여기엔 정리해야 할 쓰레기들이 많아. 이곳의 모든 적대 세력 수를 확실히 줄이고 해안선으로 이어지는 지역이동 지점을 표시해.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a8031b4bdbfa3f3702a4de startedMessageText",
+        "source": "Let's get this zone cleared out.",
+        "translation": "이 구역을 정리하자."
+      },
+      {
+        "key": "69a8031b4bdbfa3f3702a4de successMessageText",
+        "source": "Next up shoreline",
+        "translation": "다음은 해안선이야."
+      },
+      {
+        "key": "69a8031b34e3985fcef50454",
+        "source": "Eliminate 6 Rogues on Lighthouse",
+        "translation": "등대(Lighthouse)에서 로그 6명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031be0cd2e394cc7eff3",
+        "source": "Eliminate 10 Scavs on Lighthouse",
+        "translation": "등대(Lighthouse)에서 스캐브 10명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b2cd8134350fe96b7",
+        "source": "Eliminate 8 PMCs on Lighthouse",
+        "translation": "등대(Lighthouse)에서 PMC 8명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b70d96b1a1b5ab43d",
+        "source": "Mark the transit to Shoreline with a MS2000",
+        "translation": "해안선으로 이어지는 지역이동 지점에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b0db3a0ada373e5ff name",
+        "source": "Exfil Part 9",
+        "translation": "탈출 - 파트 9",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a8031b0db3a0ada373e5ff description",
+        "source": "Final area at last this is going well, Fresh armour, some vests and food to keep them going. Clear out the trash and get ready to go straight back out",
+        "translation": "드디어 마지막 지역이야. 잘 풀리고 있어. 그들이 버틸 수 있도록 새 방탄복, 전술 조끼, 식량을 준비했어. 쓰레기들을 정리하고 곧바로 다시 나갈 준비를 해.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a8031b0db3a0ada373e5ff startedMessageText",
+        "source": "The final zone awaits",
+        "translation": "마지막 구역이 기다려."
+      },
+      {
+        "key": "69a8031b0db3a0ada373e5ff successMessageText",
+        "source": "First part done",
+        "translation": "첫 단계는 끝났어."
+      },
+      {
+        "key": "69a8031bfeb292900d9e5bd9",
+        "source": "Eliminate 12 Scavs on Shoreline",
+        "translation": "해안선(Shoreline)에서 스캐브 12명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031bbec768208f6b469e",
+        "source": "Stash 2 6B23 Vests at the Truck near the exit from Lighthouse",
+        "translation": "등대에서 이어지는 탈출구 근처 트럭에 6B23 조끼 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b85d0d3e4312456b1",
+        "source": "Stash 2 6sh112 Vests at the Truck near the exit from Lighthouse",
+        "translation": "등대에서 이어지는 탈출구 근처 트럭에 6Sh112 조끼 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031bb0d6037888435acb",
+        "source": "Stash 2 Iskra Rations at the Truck near the exit from Lighthouse",
+        "translation": "등대에서 이어지는 탈출구 근처 트럭에 이스크라 전투 식량 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031bb905dc301d2e8def",
+        "source": "Stash 2 water bottles at the Truck near the exit from Lighthouse",
+        "translation": "등대에서 이어지는 탈출구 근처 트럭에 물병 (0.6L) 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031bbf2c80ca0c8e8cfd name",
+        "source": "Exfil Part 10",
+        "translation": "탈출 - 파트 10",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a8031bbf2c80ca0c8e8cfd description",
+        "source": "Some new weapons have been requested, and I've noticed an increase in PMCs in the area, shut them down.",
+        "translation": "새 무기 몇 정이 요청됐어. 그리고 이 지역에 PMC가 늘어난 것도 확인했지. 놈들을 제압해.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a8031bbf2c80ca0c8e8cfd startedMessageText",
+        "source": "They need more",
+        "translation": "그들에게 더 필요하다고 해."
+      },
+      {
+        "key": "69a8031bbf2c80ca0c8e8cfd successMessageText",
+        "source": "Final stretch now",
+        "translation": "이제 마지막 구간이야."
+      },
+      {
+        "key": "69a8031b6fb247e827fd372a",
+        "source": "Eliminate 10 PMCs on Shoreline",
+        "translation": "해안선(Shoreline)에서 PMC 10명 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b9c03833ad6e6270d",
+        "source": "Stash 4 RGO Grenades at the building the outside power station in the broken locker",
+        "translation": "발전소 바깥 건물의 부서진 사물함에 RGO 수류탄 4개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b4cc6719f91fa9382",
+        "source": "Stash an AK-12 at the building outside the power station in the broken locker",
+        "translation": "발전소 바깥 건물의 부서진 사물함에 칼라시니코프 AK-12 5.45x39 돌격소총 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b5dc99baaba6b56bc",
+        "source": "Stash an RPK at the building outside the power station in the broken locker",
+        "translation": "발전소 바깥 건물의 부서진 사물함에 RPK-16 5.45x39 경기관총 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b8eb9235026f9f9b2",
+        "source": "Stash 2 120 Round 5.45 PS ammo packs at the building outside the power station in the broken locker",
+        "translation": "발전소 바깥 건물의 부서진 사물함에 5.45x39mm PS gs 탄약 팩 (120발) 2개 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031b32b80398ed075904 name",
+        "source": "Exfil Part 11",
+        "translation": "탈출 - 파트 11",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "69a8031b32b80398ed075904 description",
+        "source": "Sigh, The goons have discovered what we are upto and there heading into the area to wipe them out. This must not happen, remove the Goons from existance! Mark the entrance to terminal as well.",
+        "translation": "하아, 군즈가 우리가 뭘 하고 있는지 알아챘고, 그들을 쓸어버리려고 이 지역으로 향하고 있어. 그런 일은 절대 일어나선 안 돼. 군즈를 존재에서 지워버려! 터미널 입구도 표시해.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "69a8031b32b80398ed075904 startedMessageText",
+        "source": "Remove the threat",
+        "translation": "위협을 제거해."
+      },
+      {
+        "key": "69a8031b32b80398ed075904 successMessageText",
+        "source": "Thank you merc, it's been a stretch but my comrades are in Terminal now and hopefully getting of this hell hole. You want out as well? Good luck with that......",
+        "translation": "고마워, 용병. 길었지만 내 전우들은 이제 터미널 안에 있고, 이 지옥 같은 구덩이에서 빠져나갈 수 있길 바라. 너도 나가고 싶다고? 행운을 빌게......"
+      },
+      {
+        "key": "69a8031e77b05024c5e5a168",
+        "source": "Eliminate Birdeye on Shoreline",
+        "translation": "해안선(Shoreline)에서 버드아이 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031e9196bcad8e48be9c",
+        "source": "Eliminate Knight on Shoreline",
+        "translation": "해안선(Shoreline)에서 나이트 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031e14da81c49131ad8b",
+        "source": "Eliminate Big Pipe on Shoreline",
+        "translation": "해안선(Shoreline)에서 빅 파이프 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "69a8031ee04b463aa9a55918",
+        "source": "Mark the entrance to Terminal with a MS2000",
+        "translation": "터미널 입구에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "674979f709a98f10c93675b0 Name",
+        "source": "Level 7 Collar",
+        "translation": "7등급 목 보호대"
+      },
+      {
+        "key": "674979f709a98f10c93675b0 Description",
+        "source": "Level 7 Collar Soft",
+        "translation": "7등급 목 보호용 연질 방탄재입니다."
+      },
+      {
+        "key": "674979f7340c84f9ff220ac5 Name",
+        "source": "Level 7 Groin Back",
+        "translation": "7등급 사타구니 후면 보호대"
+      },
+      {
+        "key": "674979f7340c84f9ff220ac5 Description",
+        "source": "Level 7 Groin Back Soft",
+        "translation": "7등급 사타구니 후면 보호용 연질 방탄재입니다."
+      },
+      {
+        "key": "674979f769f1c70869fdde08 Name",
+        "source": "Level 7 Right Side",
+        "translation": "7등급 우측면 보호대"
+      },
+      {
+        "key": "674979f769f1c70869fdde08 Description",
+        "source": "Level 7 Right Side Soft",
+        "translation": "7등급 우측면 보호용 연질 방탄재입니다."
+      },
+      {
+        "key": "674979f7ac94a1c8cbc229e8 Name",
+        "source": "Level 7 Right Arm",
+        "translation": "7등급 오른팔 보호대"
+      },
+      {
+        "key": "674979f7ac94a1c8cbc229e8 Description",
+        "source": "Level 7 Right Arm Soft",
+        "translation": "7등급 오른팔 보호용 연질 방탄재입니다."
+      },
+      {
+        "key": "674979f7af9547e65d8521b6 Name",
+        "source": "Level 7 Groin Front",
+        "translation": "7등급 사타구니 전면 보호대"
+      },
+      {
+        "key": "674979f7af9547e65d8521b6 Description",
+        "source": "Level 7 Groin Front Soft",
+        "translation": "7등급 사타구니 전면 보호용 연질 방탄재입니다."
+      },
+      {
+        "key": "674979f7b83f2df3016dd0f9 Name",
+        "source": "Level 7 Soft Back",
+        "translation": "7등급 등 연질 방탄재"
+      },
+      {
+        "key": "674979f7b83f2df3016dd0f9 Description",
+        "source": "Level 7 Back Soft",
+        "translation": "7등급 등 보호용 연질 방탄재입니다."
+      },
+      {
+        "key": "674979f7c4a67def95e62d4f Name",
+        "source": "Level 7 Left Arm",
+        "translation": "7등급 왼팔 보호대"
+      },
+      {
+        "key": "674979f7c4a67def95e62d4f Description",
+        "source": "Level 7 Left Arm Soft",
+        "translation": "7등급 왼팔 보호용 연질 방탄재입니다."
+      },
+      {
+        "key": "674979f7c9fc677e9809b6e1 Name",
+        "source": "Level 7 Soft Front",
+        "translation": "7등급 전면 연질 방탄재"
+      },
+      {
+        "key": "674979f7c9fc677e9809b6e1 Description",
+        "source": "Level 7 Front Soft",
+        "translation": "7등급 전면 보호용 연질 방탄재입니다."
+      },
+      {
+        "key": "674979f7cc8c12582dbc2d29 Name",
+        "source": "Level 7 Left Side",
+        "translation": "7등급 좌측면 보호대"
+      },
+      {
+        "key": "674979f7cc8c12582dbc2d29 Description",
+        "source": "Level 7 Left Side Soft",
+        "translation": "7등급 좌측면 보호용 연질 방탄재입니다."
+      },
+      {
+        "key": "67497be96820c1e9d7a1298e Name",
+        "source": "Level 7 S Plate",
+        "translation": "7등급 측면 방탄판"
+      },
+      {
+        "key": "67497be96820c1e9d7a1298e ShortName",
+        "source": "L7 S Plate",
+        "translation": "7등급 측면 방탄판"
+      },
+      {
+        "key": "67497be96820c1e9d7a1298e Description",
+        "source": "Level 7 Side Plate.",
+        "translation": "7등급 측면 방탄판입니다."
+      },
+      {
+        "key": "67497be972de11201fc07de5 Name",
+        "source": "Level 7 FB Plate",
+        "translation": "7등급 전후면 방탄판"
+      },
+      {
+        "key": "67497be972de11201fc07de5 ShortName",
+        "source": "L7 FB Plate",
+        "translation": "7등급 전후면 방탄판"
+      },
+      {
+        "key": "67497be972de11201fc07de5 Description",
+        "source": "Level 7 Front/Back Plate.",
+        "translation": "7등급 전면 및 후면 방탄판입니다."
+      },
+      {
+        "key": "67497be97777fb29ca1f9610 Name",
+        "source": "Gen Pro 7",
+        "translation": "Gen Pro 7"
+      },
+      {
+        "key": "67497be97777fb29ca1f9610 Description",
+        "source": "A Specially modified version of the IOTV Gen4 Full Protection armour, using advanced materials. Level 7 Protection.",
+        "translation": "첨단 소재를 사용해 특별히 개조한 IOTV Gen4 완전 방호형 방탄복입니다. 7등급 방호력을 제공합니다."
+      },
+      {
+        "key": "69a6a9afd5952406fe744d44",
+        "source": "Stash 2 6B47 EMR Helmetsat the ultra sign",
+        "translation": "울트라 간판에 6B47 EMR 헬멧 2개 숨기기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6718b97064eff577c649e5b0 FullName",
+        "source": "Natalya",
+        "translation": "나탈리아",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6718b97064eff577c649e5b0 Description",
+        "source": "Secretive ex russian soldier",
+        "translation": "정체를 숨기고 있는 전직 러시아 군인입니다.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

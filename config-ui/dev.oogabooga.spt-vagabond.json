@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "dev.oogabooga.spt-vagabond",
+  "plugin_name": "SPT-Vagabond-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "For Modders",
+      "translation": "모드 제작자용"
+    },
+    {
+      "source": "For Players",
+      "translation": "플레이어용"
+    }
+  ],
+  "entries": [
+    {
+      "section": "For Modders",
+      "key": "Dump Current Location",
+      "source_display_name": "Dump Current Location",
+      "source_description": "Press in raid to dump current map, position and yaw to file in the Vagabond mod dir.",
+      "translation_display_name": "덤프 현재 위치",
+      "translation_description": "덤프 현재 위치: 키를 누르는 방식을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "For Modders",
+      "key": "Dump Extraction From Current Location",
+      "source_display_name": "Dump Extraction From Current Location",
+      "source_description": "Press in raid to dump a copy/paste ready custom extract snippet using the current player position, to a file in the Vagabond mod dir",
+      "translation_display_name": "덤프 탈출구 에서 현재 위치",
+      "translation_description": "덤프 탈출구 에서 현재 위치: 키를 누르는 방식을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "For Modders",
+      "key": "Dump Transit From Current Location",
+      "source_display_name": "Dump Transit From Current Location",
+      "source_description": "Press in raid to dump a copy/paste ready custom transit snippet using the current player position, to a file in the Vagabond mod dir",
+      "translation_display_name": "덤프 환승 에서 현재 위치",
+      "translation_description": "덤프 환승 에서 현재 위치: 키를 누르는 방식을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "For Players",
+      "key": "Place Hideout Entrance",
+      "source_display_name": "Place Hideout Entrance",
+      "source_description": "Press in raid to place the entrance to your hideout at your current location.",
+      "translation_display_name": "배치 은신처 입구",
+      "translation_description": "배치 은신처 입구: 키를 누르는 방식을 설정합니다.",
+      "values": []
+    }
+  ]
+}

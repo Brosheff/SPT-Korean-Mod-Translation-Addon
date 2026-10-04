@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.skipper",
+  "mod_name": "Skipper",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "skip_button",
+        "source": "SKIP",
+        "translation": "건너뛰기",
+        "match_mode": "exact",
+        "note": "QuestObjectiveViewPatch에서 생성하는 퀘스트 목표 건너뛰기 버튼"
+      },
+      {
+        "id": "skip_confirm_description",
+        "source": "Are you sure you want to autocomplete this quest objective?",
+        "translation": "이 퀘스트 목표를 자동 완료하시겠습니까?",
+        "match_mode": "exact",
+        "note": "퀘스트 목표 건너뛰기 확인창 본문"
+      },
+      {
+        "id": "skip_confirm_caption",
+        "source": "Confirmation",
+        "translation": "확인",
+        "match_mode": "exact",
+        "note": "퀘스트 목표 건너뛰기 확인창 제목"
+      }
+    ]
+  }
+}

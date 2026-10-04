@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "HideoutInProgress",
+  "mod_name": "Hideout In Progress",
+  "channels": {
+    "notifications": [
+      {
+        "id": "load_failed",
+        "source": "Hideout In Progress failed to load - check the server",
+        "translation": "은신처 진행 데이터를 불러오지 못했습니다. 서버를 확인해 주세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "contribution_failed",
+        "source": "Hideout contribution failed - check the server",
+        "translation": "은신처 물품 전달에 실패했습니다. 서버를 확인해 주세요.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

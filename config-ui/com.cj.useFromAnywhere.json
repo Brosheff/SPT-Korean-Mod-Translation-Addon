@@ -1,0 +1,1132 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.cj.useFromAnywhere",
+  "plugin_name": "Use Items Anywhere",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "Quick Use Wheel Category Slots",
+      "translation": "빠른 사용 휠 범주 슬롯"
+    },
+    {
+      "source": "Quick Use Wheel",
+      "translation": "빠른 사용 휠"
+    },
+    {
+      "source": "Slot Configurations",
+      "translation": "슬롯 설정"
+    },
+    {
+      "source": "Slot Access Delays",
+      "translation": "슬롯 접근 지연"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Quick Use Wheel Category Slots",
+      "key": "Top",
+      "source_display_name": "Top",
+      "source_description": null,
+      "translation_display_name": "위",
+      "translation_description": "8칸 첫 페이지에서 이 방향에 표시할 빠른 사용 범주를 지정합니다.",
+      "values": [
+        {
+          "source": "Unassigned",
+          "translation": "지정 안 함"
+        },
+        {
+          "source": "AllMedical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "All Medical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "Medkits",
+          "translation": "구급상자"
+        },
+        {
+          "source": "LightBleedTreatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "Light-Bleed Treatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "HeavyBleedTreatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "Heavy-Bleed Treatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "FractureTreatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Fracture Treatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Surgery",
+          "translation": "수술"
+        },
+        {
+          "source": "Painkillers",
+          "translation": "진통제"
+        },
+        {
+          "source": "Stimulants",
+          "translation": "주사기"
+        },
+        {
+          "source": "FoodDrink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Food/Drink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Grenades",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Guns",
+          "translation": "총기"
+        },
+        {
+          "source": "Melee",
+          "translation": "근접무기"
+        },
+        {
+          "source": "Flares",
+          "translation": "조명탄"
+        }
+      ]
+    },
+    {
+      "section": "Quick Use Wheel Category Slots",
+      "key": "Top Right",
+      "source_display_name": "Top Right",
+      "source_description": null,
+      "translation_display_name": "오른쪽 위",
+      "translation_description": "8칸 첫 페이지에서 이 방향에 표시할 빠른 사용 범주를 지정합니다.",
+      "values": [
+        {
+          "source": "Unassigned",
+          "translation": "지정 안 함"
+        },
+        {
+          "source": "AllMedical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "All Medical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "Medkits",
+          "translation": "구급상자"
+        },
+        {
+          "source": "LightBleedTreatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "Light-Bleed Treatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "HeavyBleedTreatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "Heavy-Bleed Treatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "FractureTreatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Fracture Treatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Surgery",
+          "translation": "수술"
+        },
+        {
+          "source": "Painkillers",
+          "translation": "진통제"
+        },
+        {
+          "source": "Stimulants",
+          "translation": "주사기"
+        },
+        {
+          "source": "FoodDrink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Food/Drink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Grenades",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Guns",
+          "translation": "총기"
+        },
+        {
+          "source": "Melee",
+          "translation": "근접무기"
+        },
+        {
+          "source": "Flares",
+          "translation": "조명탄"
+        }
+      ]
+    },
+    {
+      "section": "Quick Use Wheel Category Slots",
+      "key": "Right",
+      "source_display_name": "Right",
+      "source_description": null,
+      "translation_display_name": "오른쪽",
+      "translation_description": "8칸 첫 페이지에서 이 방향에 표시할 빠른 사용 범주를 지정합니다.",
+      "values": [
+        {
+          "source": "Unassigned",
+          "translation": "지정 안 함"
+        },
+        {
+          "source": "AllMedical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "All Medical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "Medkits",
+          "translation": "구급상자"
+        },
+        {
+          "source": "LightBleedTreatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "Light-Bleed Treatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "HeavyBleedTreatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "Heavy-Bleed Treatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "FractureTreatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Fracture Treatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Surgery",
+          "translation": "수술"
+        },
+        {
+          "source": "Painkillers",
+          "translation": "진통제"
+        },
+        {
+          "source": "Stimulants",
+          "translation": "주사기"
+        },
+        {
+          "source": "FoodDrink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Food/Drink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Grenades",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Guns",
+          "translation": "총기"
+        },
+        {
+          "source": "Melee",
+          "translation": "근접무기"
+        },
+        {
+          "source": "Flares",
+          "translation": "조명탄"
+        }
+      ]
+    },
+    {
+      "section": "Quick Use Wheel Category Slots",
+      "key": "Bottom Right",
+      "source_display_name": "Bottom Right",
+      "source_description": null,
+      "translation_display_name": "오른쪽 아래",
+      "translation_description": "8칸 첫 페이지에서 이 방향에 표시할 빠른 사용 범주를 지정합니다.",
+      "values": [
+        {
+          "source": "Unassigned",
+          "translation": "지정 안 함"
+        },
+        {
+          "source": "AllMedical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "All Medical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "Medkits",
+          "translation": "구급상자"
+        },
+        {
+          "source": "LightBleedTreatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "Light-Bleed Treatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "HeavyBleedTreatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "Heavy-Bleed Treatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "FractureTreatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Fracture Treatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Surgery",
+          "translation": "수술"
+        },
+        {
+          "source": "Painkillers",
+          "translation": "진통제"
+        },
+        {
+          "source": "Stimulants",
+          "translation": "주사기"
+        },
+        {
+          "source": "FoodDrink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Food/Drink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Grenades",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Guns",
+          "translation": "총기"
+        },
+        {
+          "source": "Melee",
+          "translation": "근접무기"
+        },
+        {
+          "source": "Flares",
+          "translation": "조명탄"
+        }
+      ]
+    },
+    {
+      "section": "Quick Use Wheel Category Slots",
+      "key": "Bottom",
+      "source_display_name": "Bottom",
+      "source_description": null,
+      "translation_display_name": "아래",
+      "translation_description": "8칸 첫 페이지에서 이 방향에 표시할 빠른 사용 범주를 지정합니다.",
+      "values": [
+        {
+          "source": "Unassigned",
+          "translation": "지정 안 함"
+        },
+        {
+          "source": "AllMedical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "All Medical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "Medkits",
+          "translation": "구급상자"
+        },
+        {
+          "source": "LightBleedTreatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "Light-Bleed Treatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "HeavyBleedTreatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "Heavy-Bleed Treatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "FractureTreatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Fracture Treatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Surgery",
+          "translation": "수술"
+        },
+        {
+          "source": "Painkillers",
+          "translation": "진통제"
+        },
+        {
+          "source": "Stimulants",
+          "translation": "주사기"
+        },
+        {
+          "source": "FoodDrink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Food/Drink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Grenades",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Guns",
+          "translation": "총기"
+        },
+        {
+          "source": "Melee",
+          "translation": "근접무기"
+        },
+        {
+          "source": "Flares",
+          "translation": "조명탄"
+        }
+      ]
+    },
+    {
+      "section": "Quick Use Wheel Category Slots",
+      "key": "Bottom Left",
+      "source_display_name": "Bottom Left",
+      "source_description": null,
+      "translation_display_name": "왼쪽 아래",
+      "translation_description": "8칸 첫 페이지에서 이 방향에 표시할 빠른 사용 범주를 지정합니다.",
+      "values": [
+        {
+          "source": "Unassigned",
+          "translation": "지정 안 함"
+        },
+        {
+          "source": "AllMedical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "All Medical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "Medkits",
+          "translation": "구급상자"
+        },
+        {
+          "source": "LightBleedTreatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "Light-Bleed Treatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "HeavyBleedTreatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "Heavy-Bleed Treatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "FractureTreatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Fracture Treatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Surgery",
+          "translation": "수술"
+        },
+        {
+          "source": "Painkillers",
+          "translation": "진통제"
+        },
+        {
+          "source": "Stimulants",
+          "translation": "주사기"
+        },
+        {
+          "source": "FoodDrink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Food/Drink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Grenades",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Guns",
+          "translation": "총기"
+        },
+        {
+          "source": "Melee",
+          "translation": "근접무기"
+        },
+        {
+          "source": "Flares",
+          "translation": "조명탄"
+        }
+      ]
+    },
+    {
+      "section": "Quick Use Wheel Category Slots",
+      "key": "Left",
+      "source_display_name": "Left",
+      "source_description": null,
+      "translation_display_name": "왼쪽",
+      "translation_description": "8칸 첫 페이지에서 이 방향에 표시할 빠른 사용 범주를 지정합니다.",
+      "values": [
+        {
+          "source": "Unassigned",
+          "translation": "지정 안 함"
+        },
+        {
+          "source": "AllMedical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "All Medical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "Medkits",
+          "translation": "구급상자"
+        },
+        {
+          "source": "LightBleedTreatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "Light-Bleed Treatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "HeavyBleedTreatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "Heavy-Bleed Treatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "FractureTreatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Fracture Treatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Surgery",
+          "translation": "수술"
+        },
+        {
+          "source": "Painkillers",
+          "translation": "진통제"
+        },
+        {
+          "source": "Stimulants",
+          "translation": "주사기"
+        },
+        {
+          "source": "FoodDrink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Food/Drink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Grenades",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Guns",
+          "translation": "총기"
+        },
+        {
+          "source": "Melee",
+          "translation": "근접무기"
+        },
+        {
+          "source": "Flares",
+          "translation": "조명탄"
+        }
+      ]
+    },
+    {
+      "section": "Quick Use Wheel Category Slots",
+      "key": "Top Left",
+      "source_display_name": "Top Left",
+      "source_description": null,
+      "translation_display_name": "왼쪽 위",
+      "translation_description": "8칸 첫 페이지에서 이 방향에 표시할 빠른 사용 범주를 지정합니다.",
+      "values": [
+        {
+          "source": "Unassigned",
+          "translation": "지정 안 함"
+        },
+        {
+          "source": "AllMedical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "All Medical",
+          "translation": "전체 의료"
+        },
+        {
+          "source": "Medkits",
+          "translation": "구급상자"
+        },
+        {
+          "source": "LightBleedTreatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "Light-Bleed Treatment",
+          "translation": "경출혈 치료"
+        },
+        {
+          "source": "HeavyBleedTreatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "Heavy-Bleed Treatment",
+          "translation": "중출혈 치료"
+        },
+        {
+          "source": "FractureTreatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Fracture Treatment",
+          "translation": "골절 치료"
+        },
+        {
+          "source": "Surgery",
+          "translation": "수술"
+        },
+        {
+          "source": "Painkillers",
+          "translation": "진통제"
+        },
+        {
+          "source": "Stimulants",
+          "translation": "주사기"
+        },
+        {
+          "source": "FoodDrink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Food/Drink",
+          "translation": "음식/음료"
+        },
+        {
+          "source": "Grenades",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Guns",
+          "translation": "총기"
+        },
+        {
+          "source": "Melee",
+          "translation": "근접무기"
+        },
+        {
+          "source": "Flares",
+          "translation": "조명탄"
+        }
+      ]
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Enable Quick Use Wheel",
+      "source_display_name": "Enable Quick Use Wheel",
+      "source_description": null,
+      "translation_display_name": "빠른 사용 휠 사용",
+      "translation_description": "빠른 사용 아이템 휠을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Quick Use Wheel Key",
+      "source_display_name": "Quick Use Wheel Key",
+      "source_description": null,
+      "translation_display_name": "빠른 사용 휠 키",
+      "translation_description": "짧게 누르면 마지막 휠 아이템을 다시 사용하고, 길게 누르면 휠을 엽니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Enable Weapon Device Wheel",
+      "source_display_name": "Enable Weapon Device Wheel",
+      "source_description": null,
+      "translation_display_name": "무기 장치 휠 사용",
+      "translation_description": "사격 모드와 전술 장치를 제어하는 무기 장치 휠을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Weapon Device Wheel Key",
+      "source_display_name": "Weapon Device Wheel Key",
+      "source_description": null,
+      "translation_display_name": "무기 장치 휠 키",
+      "translation_description": "현재 든 화기의 사격 모드와 전술 장치를 선택하는 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Tap Uses Last Item",
+      "source_display_name": "Tap Uses Last Item",
+      "source_description": null,
+      "translation_display_name": "짧게 눌러 마지막 아이템 사용",
+      "translation_description": "휠 키를 짧게 누르면 마지막으로 선택한 아이템 종류를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Wheel Hold Duration",
+      "source_display_name": "Wheel Hold Duration",
+      "source_description": null,
+      "translation_display_name": "휠 길게 누르기 시간",
+      "translation_description": "빠른 사용 휠이 열리기까지 키를 누르고 있어야 하는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Wheel Sounds",
+      "source_display_name": "Wheel Sounds",
+      "source_description": null,
+      "translation_display_name": "휠 효과음",
+      "translation_description": "휠 열기, 이동, 선택 시 인터페이스 효과음을 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Items Per Page",
+      "source_display_name": "Items Per Page",
+      "source_description": null,
+      "translation_display_name": "페이지당 아이템 수",
+      "translation_description": "휠 한 페이지에 표시하는 최대 아이템 수입니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Group Identical Items",
+      "source_display_name": "Group Identical Items",
+      "source_description": null,
+      "translation_display_name": "동일 아이템 묶기",
+      "translation_description": "같은 템플릿의 소모품, 수류탄, 조명탄을 하나의 휠 항목으로 묶습니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Grouped Item Selection",
+      "source_display_name": "Grouped Item Selection",
+      "source_description": null,
+      "translation_display_name": "묶음 아이템 선택 방식",
+      "translation_description": "묶음에서 실제 사용할 아이템을 고르는 방식을 설정합니다.",
+      "values": [
+        {
+          "source": "LowestResourceFirst",
+          "translation": "남은 자원 적은 것 우선"
+        },
+        {
+          "source": "HighestResourceFirst",
+          "translation": "남은 자원 많은 것 우선"
+        },
+        {
+          "source": "FastestAccessFirst",
+          "translation": "접근 시간 짧은 것 우선"
+        }
+      ]
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Show Source Slot",
+      "source_display_name": "Show Source Slot",
+      "source_description": null,
+      "translation_display_name": "출처 슬롯 표시",
+      "translation_description": "각 아이템이 어느 장비 슬롯에서 왔는지 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Show Guns",
+      "source_display_name": "Show Guns",
+      "source_description": null,
+      "translation_display_name": "총기 표시",
+      "translation_description": "빠른 사용 휠에 총기를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Show Melee",
+      "source_display_name": "Show Melee",
+      "source_description": null,
+      "translation_display_name": "근접무기 표시",
+      "translation_description": "빠른 사용 휠에 근접무기를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Show Grenades",
+      "source_display_name": "Show Grenades",
+      "source_description": null,
+      "translation_display_name": "수류탄 표시",
+      "translation_description": "빠른 사용 휠에 수류탄을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Show Meds",
+      "source_display_name": "Show Meds",
+      "source_description": null,
+      "translation_display_name": "의약품 표시",
+      "translation_description": "빠른 사용 휠에 의약품을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Show Food/Drink",
+      "source_display_name": "Show Food/Drink",
+      "source_description": null,
+      "translation_display_name": "음식/음료 표시",
+      "translation_description": "빠른 사용 휠에 음식과 음료를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Show Flares",
+      "source_display_name": "Show Flares",
+      "source_description": null,
+      "translation_display_name": "조명탄 표시",
+      "translation_description": "빠른 사용 휠에 조명탄을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Quick Use Wheel",
+      "key": "Show Item State",
+      "source_display_name": "Show Item State",
+      "source_description": null,
+      "translation_display_name": "아이템 상태 표시",
+      "translation_description": "휠 아이템 아래에 남은 자원, 탄약, 스택 수량 또는 내구도를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Configurations",
+      "key": "Weapon Slots",
+      "source_display_name": "Weapon Slots",
+      "source_description": null,
+      "translation_display_name": "무기 슬롯",
+      "translation_description": "무기를 공급할 수 있는 슬롯을 설정합니다. 기본 무기 슬롯은 항상 활성화됩니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Configurations",
+      "key": "Grenade Throwing Slots",
+      "source_display_name": "Grenade Throwing Slots",
+      "source_description": null,
+      "translation_display_name": "수류탄 투척 슬롯",
+      "translation_description": "수류탄을 공급할 수 있는 슬롯을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Configurations",
+      "key": "Melee Slots",
+      "source_display_name": "Melee Slots",
+      "source_description": null,
+      "translation_display_name": "근접무기 슬롯",
+      "translation_description": "근접무기를 공급할 수 있는 슬롯을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Configurations",
+      "key": "Flare Slots",
+      "source_display_name": "Flare Slots",
+      "source_description": null,
+      "translation_display_name": "조명탄 슬롯",
+      "translation_description": "조명탄을 공급할 수 있는 슬롯을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Configurations",
+      "key": "Reload Slots",
+      "source_display_name": "Reload Slots",
+      "source_description": null,
+      "translation_display_name": "재장전 슬롯",
+      "translation_description": "재장전 시 탄창/탄약을 공급할 수 있는 슬롯을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Configurations",
+      "key": "Meds Slots",
+      "source_display_name": "Meds Slots",
+      "source_description": null,
+      "translation_display_name": "의약품 슬롯",
+      "translation_description": "의약품을 바인드할 수 있는 슬롯을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Configurations",
+      "key": "Food/Drink Slots",
+      "source_display_name": "Food/Drink Slots",
+      "source_description": null,
+      "translation_display_name": "음식/음료 슬롯",
+      "translation_description": "음식과 음료를 바인드할 수 있는 슬롯을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Configurations",
+      "key": "All Other Items",
+      "source_display_name": "All Other Items",
+      "source_description": null,
+      "translation_display_name": "기타 모든 아이템",
+      "translation_description": "별도 설정이 없는 기타 아이템을 바인드할 수 있는 슬롯을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Enable Slot Delays",
+      "source_display_name": "Enable Slot Delays",
+      "source_description": null,
+      "translation_display_name": "슬롯 접근 지연 사용",
+      "translation_description": "각 슬롯의 아이템을 사용할 때 아래의 접근 지연을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Show Timer Panel",
+      "source_display_name": "Show Timer Panel",
+      "source_description": null,
+      "translation_display_name": "타이머 패널 표시",
+      "translation_description": "아이템 접근 지연 타이머 패널을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Animate Backpack Access",
+      "source_display_name": "Animate Backpack Access",
+      "source_description": null,
+      "translation_display_name": "배낭 접근 애니메이션",
+      "translation_description": "배낭 아이템을 기다리는 동안 웅크리고 배낭을 꺼내 뒤지는 애니메이션을 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Backpack Horizontal Position",
+      "source_display_name": "Backpack Horizontal Position",
+      "source_description": null,
+      "translation_display_name": "배낭 가로 위치",
+      "translation_description": "화면에서 배낭의 가로 위치를 조절합니다. 0은 왼쪽, 1은 오른쪽입니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Backpack Vertical Position",
+      "source_display_name": "Backpack Vertical Position",
+      "source_description": null,
+      "translation_display_name": "배낭 세로 위치",
+      "translation_description": "화면에서 배낭의 세로 위치를 조절합니다. 0은 아래, 1은 위입니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Backpack View Size",
+      "source_display_name": "Backpack View Size",
+      "source_description": null,
+      "translation_display_name": "배낭 표시 크기",
+      "translation_description": "화면에 표시되는 배낭 크기를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Moving Cancels Access",
+      "source_display_name": "Moving Cancels Access",
+      "source_description": null,
+      "translation_display_name": "이동 시 접근 취소",
+      "translation_description": "플레이어가 이동하면 현재 지연 접근과 예약된 후속 사용을 취소합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Damage Cancels Access",
+      "source_display_name": "Damage Cancels Access",
+      "source_description": null,
+      "translation_display_name": "피격 시 접근 취소",
+      "translation_description": "플레이어가 피해를 받으면 현재 지연 접근과 예약된 후속 사용을 취소합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Timer Sounds",
+      "source_display_name": "Timer Sounds",
+      "source_description": null,
+      "translation_display_name": "타이머 효과음",
+      "translation_description": "아이템 접근 지연이 완료되거나 취소될 때 인터페이스 효과음을 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Pending Item Use Behavior",
+      "source_display_name": "Pending Item Use Behavior",
+      "source_description": null,
+      "translation_display_name": "대기 중 아이템 사용 동작",
+      "translation_description": "접근 지연 중 추가 아이템 사용 입력을 어떻게 처리할지 설정합니다.",
+      "values": [
+        {
+          "source": "Ignore",
+          "translation": "무시"
+        },
+        {
+          "source": "CancelAndReplace",
+          "translation": "취소 후 교체"
+        },
+        {
+          "source": "QueueOne",
+          "translation": "하나 예약"
+        },
+        {
+          "source": "OpenWheel",
+          "translation": "휠 열기"
+        }
+      ]
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Clear Item Access Delay",
+      "source_display_name": "Clear Item Access Delay",
+      "source_description": null,
+      "translation_display_name": "아이템 접근 지연 취소",
+      "translation_description": "현재 대기 중인 접근과 다음 예약 아이템을 취소하는 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Additional Backpack Nesting Delay",
+      "source_display_name": "Additional Backpack Nesting Delay",
+      "source_description": null,
+      "translation_display_name": "배낭 중첩 추가 지연",
+      "translation_description": "장착 배낭과 아이템 사이의 컨테이너 계층마다 추가할 지연 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Pockets Delay",
+      "source_display_name": "Pockets Delay",
+      "source_description": null,
+      "translation_display_name": "주머니 지연",
+      "translation_description": "주머니에 든 소모품 사용 전 추가 지연 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Tactical Vest Delay",
+      "source_display_name": "Tactical Vest Delay",
+      "source_description": null,
+      "translation_display_name": "전술 조끼 지연",
+      "translation_description": "전술 조끼에 든 소모품 사용 전 추가 지연 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Arm Band Delay",
+      "source_display_name": "Arm Band Delay",
+      "source_description": null,
+      "translation_display_name": "완장 지연",
+      "translation_description": "완장 슬롯에 든 아이템 사용 전 추가 지연 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Backpack Delay",
+      "source_display_name": "Backpack Delay",
+      "source_description": null,
+      "translation_display_name": "배낭 지연",
+      "translation_description": "배낭에 든 소모품 사용 전 추가 지연 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Slot Access Delays",
+      "key": "Secured Container Delay",
+      "source_display_name": "Secured Container Delay",
+      "source_description": null,
+      "translation_display_name": "보안 컨테이너 지연",
+      "translation_description": "보안 컨테이너에 든 소모품 사용 전 추가 지연 시간입니다.",
+      "values": []
+    }
+  ]
+}

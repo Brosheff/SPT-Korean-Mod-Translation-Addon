@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "source3.93r_migration",
+  "mod_name": "93R Migration",
+  "channels": {
+    "locale": [
+      {
+        "key": "668c6ff6f33192aa270aa53a Name",
+        "source": "Beretta 93 Raffica 9x19 Machine Pistol",
+        "translation": "베레타 93 라피카 9x19 기관권총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "668c6ff6f33192aa270aa53a ShortName",
+        "source": "M93R",
+        "translation": "M93R"
+      },
+      {
+        "key": "668c6ff6f33192aa270aa53a Description",
+        "source": "The Beretta 93R is an Italian selective-fire machine pistol, designed and manufactured by Beretta in the late 1970s for police and military use, that is derived from their semi-automatic Beretta 92. The \"R\" stands for Raffica, which is Italian for \"volley\", \"flurry\", or \"burst\". The Beretta 93R is mechanically similar to the Beretta 92. It can be selected to fire either a three round burst or single fire. A selector switch enables the operator to alternate between the two firing modes. The pistol can be fitted with a collapsible angled foregrip at the front end of the trigger guard to provide better stability when firing.",
+        "translation": "베레타 93R은 1970년대 후반 베레타(Beretta)가 경찰 및 군용으로 설계·생산한 이탈리아제 선택사격 기관권총으로, 반자동 베레타 92를 기반으로 합니다. \"R\"은 이탈리아어로 \"일제사격\", \"연발\" 또는 \"점사\"를 뜻하는 Raffica에서 따왔습니다. 베레타 93R의 기계적 구조는 베레타 92와 유사하며, 3점사와 단발 사격을 선택할 수 있습니다. 조정간을 통해 두 사격 모드를 전환할 수 있습니다. 방아쇠울 앞쪽에는 접을 수 있는 경사형 전방손잡이를 장착해 사격 안정성을 높일 수 있습니다."
+      },
+      {
+        "key": "668c706391e184086915a3a8 Name",
+        "source": "Beretta 93 Raffica Foldable Foregrip",
+        "translation": "베레타 93 라피카 접이식 전방손잡이"
+      },
+      {
+        "key": "668c706391e184086915a3a8 ShortName",
+        "source": "M93R Foregrip",
+        "translation": "M93R 전방손잡이"
+      },
+      {
+        "key": "668c706391e184086915a3a8 Description",
+        "source": "An angled foregrip that can be installed on the Beretta 93R trigger guard end and can be collapsed for easier storing.",
+        "translation": "베레타 93R의 방아쇠울 앞쪽에 장착할 수 있는 경사형 전방손잡이입니다. 보관하기 쉽도록 접을 수 있습니다."
+      },
+      {
+        "key": "668c7069fa214d459bee8869 Name",
+        "source": "Beretta 93 Raffica Metal Slide",
+        "translation": "베레타 93 라피카 금속 슬라이드"
+      },
+      {
+        "key": "668c7069fa214d459bee8869 ShortName",
+        "source": "M93R Slide",
+        "translation": "M93R 슬라이드"
+      },
+      {
+        "key": "668c7069fa214d459bee8869 Description",
+        "source": "Standard issue slide fitted for the M93R.",
+        "translation": "M93R용 표준 금속 슬라이드입니다."
+      },
+      {
+        "key": "668c706c034a4d14febd9b06 Name",
+        "source": "Beretta 93 Raffica Metal Slide Sightless",
+        "translation": "베레타 93 라피카 가늠자 없는 금속 슬라이드"
+      },
+      {
+        "key": "668c706c034a4d14febd9b06 ShortName",
+        "source": "RBC Slide",
+        "translation": "RBC 슬라이드"
+      },
+      {
+        "key": "668c706c034a4d14febd9b06 Description",
+        "source": "Standard issue slide fitted for M93R. This one has the rear ironsight removed in place for an attachable higher rear sight.",
+        "translation": "M93R용 표준 금속 슬라이드입니다. 더 높은 별도 가늠자를 장착할 수 있도록 기본 가늠자를 제거한 형태입니다."
+      },
+      {
+        "key": "668c706e27e7d83ef30208c7 Name",
+        "source": "High Rise Rear Iron Sight",
+        "translation": "하이 라이즈 가늠자"
+      },
+      {
+        "key": "668c706e27e7d83ef30208c7 ShortName",
+        "source": "RBC Sight",
+        "translation": "RBC 가늠자"
+      },
+      {
+        "key": "668c706e27e7d83ef30208c7 Description",
+        "source": "A high rise rear sight for the modified metal slide.",
+        "translation": "개조된 금속 슬라이드용으로 제작된 높은 가늠자입니다."
+      },
+      {
+        "key": "668c70713d2a4b2cb6b1aae4 Name",
+        "source": "Robocop M93R Special Attachable Barrel Extension",
+        "translation": "로보캅 M93R 특수 장착형 총열 연장부"
+      },
+      {
+        "key": "668c70713d2a4b2cb6b1aae4 ShortName",
+        "source": "RBC Muzzle",
+        "translation": "RBC 총구"
+      },
+      {
+        "key": "668c70713d2a4b2cb6b1aae4 Description",
+        "source": "A special attachable extension for the M93R. A working 1-to-1 extension replica from the movie Robocop. It is however, bulky to wield and it has seen much better days.",
+        "translation": "M93R에 장착하는 특수 연장부입니다. 영화 《로보캅》에 등장한 형태를 1:1로 재현해 실제로 사용할 수 있게 만든 복제품입니다. 다만 다루기에는 부피가 크고, 상태도 전성기만 못합니다."
+      },
+      {
+        "key": "668c70739e6e327a4e279e7b Name",
+        "source": "Gemtech Aurora-II 9mm Supressor",
+        "translation": "젬텍 Aurora-II 9mm 소음기"
+      },
+      {
+        "key": "668c70739e6e327a4e279e7b ShortName",
+        "source": "Aurora-II",
+        "translation": "Aurora-II"
+      },
+      {
+        "key": "668c70739e6e327a4e279e7b Description",
+        "source": "A Micro 9mm supressor that employs an entirely wet environment for maximum suppression in a compact package. The Aurora-II is threaded on both ends, making it compatible with Metric and Standard thread pitches while also being able to be mounted directly to the barrel. The Aurora-II utilizes eight “wipes” that are placed inside the tube and held apart by aluminum spacers.",
+        "translation": "작은 크기에서 최대한의 소음 억제 성능을 내기 위해 내부를 완전히 습식으로 운용하는 초소형 9mm 소음기입니다. Aurora-II는 양쪽 끝에 나사산이 있어 미터 규격과 인치 규격 나사산 모두에 대응하며, 총열에 직접 장착할 수도 있습니다. 내부에는 알루미늄 스페이서로 간격을 유지하는 8개의 와이프(wipe)를 사용합니다."
+      },
+      {
+        "key": "668c70752db121f327e3856c Name",
+        "source": "Beretta 93 Raffica Foldable Metal Stock",
+        "translation": "베레타 93 라피카 접이식 금속 개머리판"
+      },
+      {
+        "key": "668c70752db121f327e3856c ShortName",
+        "source": "M93R Stock",
+        "translation": "M93R 개머리판"
+      },
+      {
+        "key": "668c70752db121f327e3856c Description",
+        "source": "A standard foldable metal stock for Beretta 93R. Reduce large amount of recoil making the gun easier to handle.",
+        "translation": "베레타 93R용 표준 접이식 금속 개머리판입니다. 반동을 크게 줄여 총기를 더 쉽게 제어할 수 있습니다."
+      }
+    ]
+  }
+}

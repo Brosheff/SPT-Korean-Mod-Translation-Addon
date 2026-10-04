@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.Tangh.CookingGrenades",
+  "plugin_name": "ModCookingGrenades-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "0. Cooking Grenades",
+      "translation": "0. 수류탄 쿠킹"
+    },
+    {
+      "source": "1. Realistic Fuse Time",
+      "translation": "1. 현실적 신관 시간"
+    },
+    {
+      "source": "2. Realistic Fuse Iime Tester",
+      "translation": "2. 현실적 신관 시간 테스트"
+    },
+    {
+      "source": "3. Debug",
+      "translation": "3. 디버그"
+    },
+    {
+      "source": "4. Trajectory Prediction",
+      "translation": "4. 탄도 예측"
+    },
+    {
+      "source": "5. Cook Indicator",
+      "translation": "5. 쿠킹 표시기"
+    },
+    {
+      "source": "6. Grenade Wheel",
+      "translation": "6. 수류탄 휠"
+    },
+    {
+      "source": "7. Medicine Wheel",
+      "translation": "7. 의약품 휠"
+    }
+  ],
+  "entries": [
+    {
+      "section": "0. Cooking Grenades",
+      "key": "Auto Throw Lead Time",
+      "source_display_name": "Auto Throw Lead Time",
+      "source_description": "Fuse time remaining (seconds) before a cooking grenade is force-thrown to avoid exploding in hand. Higher = thrown earlier (safer).",
+      "translation_display_name": "자동 투척 선행 시간",
+      "translation_description": "손에서 폭발하는 것을 막기 위해 남은 신관 시간이 이 값에 도달하면 수류탄을 강제로 던집니다. 값이 클수록 더 일찍 던져 안전합니다.",
+      "values": []
+    },
+    {
+      "section": "0. Cooking Grenades",
+      "key": "Enable Cooking Notification",
+      "source_display_name": "Enable Cooking Notification",
+      "source_description": "Show a notification when grenade cooking starts",
+      "translation_display_name": "수류탄 쿠킹 알림 활성화",
+      "translation_description": "수류탄 쿠킹을 시작할 때 알림을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "0. Cooking Grenades",
+      "key": "Show Default Fuse Time In Inventory UI",
+      "source_display_name": "Show Default Fuse Time In Inventory UI",
+      "source_description": "If enabled, shows the default fuse time in inventory UI instead of randomized value.",
+      "translation_display_name": "인벤토리에 기본 신관 시간 표시",
+      "translation_description": "활성화하면 인벤토리 UI에 무작위 신관 시간이 아니라 기본 신관 시간을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "0. Cooking Grenades",
+      "key": "Use Alternative Pin Sound",
+      "source_display_name": "Use Alternative Pin Sound",
+      "source_description": "If enabled, plays an alternative pin sound (TripwirePin) for certain grenades instead of the fuse sound.\nAffected grenades: M67, V40, M18, M7290, RDG-2B",
+      "translation_display_name": "대체 안전핀 소리 사용",
+      "translation_description": "활성화하면 M67, V40, M18, M7290, RDG-2B 수류탄에서 신관 소리 대신 대체 안전핀 소리(TripwirePin)를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Realistic Fuse Time",
+      "key": "Fuse Time Spread Factor",
+      "source_display_name": "Fuse Time Spread Factor",
+      "source_description": "Controls how much grenade fuse times vary (0.001 = almost fixed, 0.6 = wide range).",
+      "translation_display_name": "신관 시간 편차 계수",
+      "translation_description": "수류탄 신관 시간이 얼마나 넓게 변동할지 조절합니다. 0.001은 거의 고정, 0.6은 변동 폭이 큰 편입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Realistic Fuse Time",
+      "key": "Realistic Fuse Time Enable",
+      "source_display_name": "Realistic Fuse Time Enable",
+      "source_description": null,
+      "translation_display_name": "현실적 신관 시간 활성화",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "2. Realistic Fuse Iime Tester",
+      "key": "Fuse Time Test Count",
+      "source_display_name": "Fuse Time Test Count",
+      "source_description": "Number of iterations for fuse time distribution test.",
+      "translation_display_name": "신관 시간 테스트 횟수",
+      "translation_description": "신관 시간 분포 테스트를 반복할 횟수를 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Realistic Fuse Iime Tester",
+      "key": "Simulation Target Value",
+      "source_display_name": "Simulation Target Value",
+      "source_description": "The value you want to simulate",
+      "translation_display_name": "시뮬레이션 목표값",
+      "translation_description": "신관 시간 분포 테스트에서 시뮬레이션할 기준 값을 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Realistic Fuse Iime Tester",
+      "key": "Time Simulation To Output",
+      "source_display_name": "Time Simulation To Output",
+      "source_description": "The simulation will run once when the value is set to true.\nYou can check the results in BepInEx/LogOutput.log.",
+      "translation_display_name": "출력할 시간 시뮬레이션",
+      "translation_description": "값을 true로 바꾸면 신관 시간 시뮬레이션을 한 번 실행합니다. 결과는 BepInEx/LogOutput.log에서 확인할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Debug",
+      "key": "Enable Cooking Time GUI",
+      "source_display_name": "Enable Cooking Time GUI",
+      "source_description": null,
+      "translation_display_name": "쿠킹 시간 표시 활성화",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Debug",
+      "key": "User Warning Confirmed",
+      "source_display_name": "User Warning Confirmed",
+      "source_description": null,
+      "translation_display_name": "사용자 경고 확인 완료",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Trajectory Prediction",
+      "key": "Display Mode",
+      "source_display_name": "Display Mode",
+      "source_description": "0 = Always when holding grenade, 1 = Only when aiming (holding fire button).",
+      "translation_display_name": "표시 방식",
+      "translation_description": "궤적 표시 조건을 설정합니다. 0은 수류탄을 들고 있는 동안 항상 표시, 1은 투척 버튼을 누른 채 조준할 때만 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Trajectory Prediction",
+      "key": "Enable Trajectory",
+      "source_display_name": "Enable Trajectory",
+      "source_description": "Enable grenade trajectory prediction line.",
+      "translation_display_name": "투척 궤적 표시 활성화",
+      "translation_description": "투척 궤적 표시 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Trajectory Prediction",
+      "key": "Landing Point Color",
+      "source_display_name": "Landing Point Color",
+      "source_description": "Color of the landing point marker.",
+      "translation_display_name": "착탄 지점 색상",
+      "translation_description": "착탄 지점 색상 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Trajectory Prediction",
+      "key": "Landing Point Radius",
+      "source_display_name": "Landing Point Radius",
+      "source_description": "Radius of the landing point marker circle.",
+      "translation_display_name": "착탄 지점 반경",
+      "translation_description": "예상 착탄 지점을 표시하는 원의 반경을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Trajectory Prediction",
+      "key": "Recalc Interval (frames)",
+      "source_display_name": "Recalc Interval (frames)",
+      "source_description": "Recalculate the trajectory at most once per N frames when throw params are unchanged. 1 = recalc every frame. Higher = cheaper but less responsive.",
+      "translation_display_name": "재계산 간격(프레임)",
+      "translation_description": "투척 조건이 바뀌지 않았을 때 궤적을 다시 계산하는 최소 프레임 간격입니다. 1은 매 프레임 계산하며, 값이 클수록 연산량이 줄지만 반응이 느려집니다.",
+      "values": []
+    },
+    {
+      "section": "4. Trajectory Prediction",
+      "key": "Throw Force Multiplier",
+      "source_display_name": "Throw Force Multiplier",
+      "source_description": "Multiplier for throw force estimation. Adjust if trajectory doesn't match actual throw distance.",
+      "translation_display_name": "투척 힘 배율",
+      "translation_description": "예상 투척 힘에 적용할 배율입니다. 예측 궤적과 실제 투척 거리가 다를 때 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Trajectory Prediction",
+      "key": "Trajectory Color",
+      "source_display_name": "Trajectory Color",
+      "source_description": "Color of the trajectory line.",
+      "translation_display_name": "궤적 색상",
+      "translation_description": "궤적 색상 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Trajectory Prediction",
+      "key": "Trajectory Line Width",
+      "source_display_name": "Trajectory Line Width",
+      "source_description": "Width of the trajectory line.",
+      "translation_display_name": "궤적 선 너비",
+      "translation_description": "예상 궤적을 그리는 선의 두께를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Trajectory Prediction",
+      "key": "Trajectory Points",
+      "source_display_name": "Trajectory Points",
+      "source_description": "Number of sample points along the trajectory. More = smoother but heavier.",
+      "translation_display_name": "궤적 지점 수",
+      "translation_description": "예상 궤적을 구성하는 샘플 지점 수입니다. 많을수록 부드럽지만 연산량이 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "4. Trajectory Prediction",
+      "key": "Trajectory Step Size",
+      "source_display_name": "Trajectory Step Size",
+      "source_description": "Horizontal distance (meters) between each trajectory sample point. Smaller = more points = smoother.",
+      "translation_display_name": "궤적 계산 간격",
+      "translation_description": "예상 궤적 샘플 지점 사이의 수평 거리(m)입니다. 작을수록 지점이 많아져 선이 부드러워지지만 연산량이 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "5. Cook Indicator",
+      "key": "Enable Cook Indicator",
+      "source_display_name": "Enable Cook Indicator",
+      "source_description": "Show a blinking indicator above the grenade while cooking. Blink rate increases as time runs out, turns red in the last 2 seconds.",
+      "translation_display_name": "쿠킹 표시기 활성화",
+      "translation_description": "쿠킹 중인 수류탄 위에 깜빡이는 표시기를 띄웁니다. 남은 시간이 줄수록 빠르게 깜빡이며 마지막 2초에는 빨간색으로 바뀝니다.",
+      "values": []
+    },
+    {
+      "section": "5. Cook Indicator",
+      "key": "Indicator Height",
+      "source_display_name": "Indicator Height",
+      "source_description": "Height of the indicator above the grenade (meters).",
+      "translation_display_name": "표시기 높이",
+      "translation_description": "쿠킹 표시기를 수류탄 위 어느 높이(m)에 표시할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Cook Indicator",
+      "key": "Indicator Scale",
+      "source_display_name": "Indicator Scale",
+      "source_description": "Size of the indicator icon.",
+      "translation_display_name": "표시기 크기",
+      "translation_description": "표시기 크기 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Cook Indicator",
+      "key": "Offset X (px)",
+      "source_display_name": "Offset X (px)",
+      "source_description": "Horizontal offset from screen center in pixels. Positive = right, negative = left.",
+      "translation_display_name": "X 위치 보정(px)",
+      "translation_description": "화면 중심을 기준으로 표시기의 가로 위치를 픽셀 단위로 보정합니다. 양수는 오른쪽, 음수는 왼쪽입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Cook Indicator",
+      "key": "Offset Y (px)",
+      "source_display_name": "Offset Y (px)",
+      "source_description": "Vertical offset from screen center in pixels. Positive = up, negative = down.",
+      "translation_display_name": "Y 위치 보정(px)",
+      "translation_description": "화면 중심을 기준으로 표시기의 세로 위치를 픽셀 단위로 보정합니다. 양수는 위, 음수는 아래입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Cook Indicator",
+      "key": "Throw Animation Duration (s)",
+      "source_display_name": "Throw Animation Duration (s)",
+      "source_description": "Duration of the throw rotation+fade animation in seconds.",
+      "translation_display_name": "투척 애니메이션 시간(초)",
+      "translation_description": "투척 표시기의 회전과 페이드 애니메이션 지속 시간을 초 단위로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Grenade Wheel",
+      "key": "Enable Grenade Wheel",
+      "source_display_name": "Enable Grenade Wheel",
+      "source_description": "Enable the grenade wheel selector. Hold the configured key to show a radial wheel of available grenades, move mouse to select, release to equip.",
+      "translation_display_name": "수류탄 선택 휠 활성화",
+      "translation_description": "설정한 키를 누르고 있으면 소지 수류탄을 원형 메뉴로 보여줍니다. 마우스로 선택하고 키를 놓으면 해당 수류탄을 선택합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Grenade Wheel",
+      "key": "Equip Immediately On Select",
+      "source_display_name": "Equip Immediately On Select",
+      "source_description": "If enabled, the selected grenade is immediately equipped in hand when the wheel closes. If disabled, only sets it as preferred grenade (press G again to take it out).",
+      "translation_display_name": "선택 즉시 장착",
+      "translation_description": "활성화하면 휠을 닫을 때 선택한 수류탄을 즉시 손에 듭니다. 비활성화하면 선호 수류탄만 지정하며 G를 다시 눌러 꺼내야 합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Grenade Wheel",
+      "key": "Grenade Wheel Key",
+      "source_display_name": "Grenade Wheel Key",
+      "source_description": "Key to hold to open the grenade wheel.",
+      "translation_display_name": "수류탄 선택 휠 단축키",
+      "translation_description": "수류탄 선택 휠 단축키: 사용할 키를 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Grenade Wheel",
+      "key": "Hold Duration To Open (s)",
+      "source_display_name": "Hold Duration To Open (s)",
+      "source_description": "How long (seconds) to hold the key before the grenade wheel opens.",
+      "translation_display_name": "휠을 열기 위한 누름 시간(초)",
+      "translation_description": "휠을 열기 위한 누름 시간(초) 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Grenade Wheel",
+      "key": "Switch Immediately When Holding",
+      "source_display_name": "Switch Immediately When Holding",
+      "source_description": "If enabled and you already have a grenade in hand, selecting a different one in the wheel will immediately switch to it. If disabled, only sets the preference without switching (you need to press G again).",
+      "translation_display_name": "누르고 있을 때 즉시 전환",
+      "translation_description": "이미 수류탄을 들고 있을 때 휠에서 다른 수류탄을 고르면 즉시 교체할지 설정합니다. 비활성화하면 선호 수류탄만 바뀌며 G를 다시 눌러야 합니다.",
+      "values": []
+    },
+    {
+      "section": "7. Medicine Wheel",
+      "key": "Enable Medicine Wheel",
+      "source_display_name": "Enable Medicine Wheel",
+      "source_description": "Enable the medicine wheel selector. Hold the configured key to show a radial wheel of available medicine, move mouse to select, release to use.",
+      "translation_display_name": "의약품 선택 휠 활성화",
+      "translation_description": "설정한 키를 누르고 있으면 사용 가능한 의약품을 원형 메뉴로 보여줍니다. 마우스로 선택하고 키를 놓으면 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "7. Medicine Wheel",
+      "key": "Hold Duration To Open (s)",
+      "source_display_name": "Hold Duration To Open (s)",
+      "source_description": "How long (seconds) to hold the key before the medicine wheel opens.",
+      "translation_display_name": "휠을 열기 위한 누름 시간(초)",
+      "translation_description": "휠을 열기 위한 누름 시간(초) 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "7. Medicine Wheel",
+      "key": "Include Food And Drinks",
+      "source_display_name": "Include Food And Drinks",
+      "source_description": "If enabled, food and drinks also appear in the medicine wheel.",
+      "translation_display_name": "식음료 포함",
+      "translation_description": "의약품 휠에 음식과 음료도 함께 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "7. Medicine Wheel",
+      "key": "Medicine Wheel Key",
+      "source_display_name": "Medicine Wheel Key",
+      "source_description": "Key to hold to open the medicine wheel.",
+      "translation_display_name": "의약품 선택 휠 단축키",
+      "translation_description": "의약품 선택 휠 단축키: 사용할 키를 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "7. Medicine Wheel",
+      "key": "Scan Backpack For Medicine",
+      "source_display_name": "Scan Backpack For Medicine",
+      "source_description": "If enabled, the backpack is also scanned for medicine. If disabled, only pockets and tactical rig are scanned. The secure container scan is controlled by its own option.",
+      "translation_display_name": "의약품 검색에 배낭 포함",
+      "translation_description": "의약품 휠이 배낭 안도 검색하도록 합니다. 끄면 주머니와 전술 조끼만 검색하며, 보안 컨테이너는 별도 옵션을 따릅니다.",
+      "values": []
+    },
+    {
+      "section": "7. Medicine Wheel",
+      "key": "Scan Secure Container For Medicine",
+      "source_display_name": "Scan Secure Container For Medicine",
+      "source_description": "If enabled, the secure container is also scanned for medicine.",
+      "translation_display_name": "의약품 검색에 보안 컨테이너 포함",
+      "translation_description": "의약품 휠이 보안 컨테이너 안의 의약품도 검색하도록 합니다.",
+      "values": []
+    }
+  ]
+}

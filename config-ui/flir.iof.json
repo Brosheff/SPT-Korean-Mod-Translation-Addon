@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "flir.iof",
+  "plugin_name": "inventoryorganizingfeatures-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "1. Main Settings",
+      "translation": "1. 주요 설정"
+    },
+    {
+      "source": "2. Tags",
+      "translation": "2. 태그"
+    },
+    {
+      "source": "3. Debug",
+      "translation": "3. 디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. Main Settings",
+      "key": "Enable mod",
+      "source_display_name": "Enable mod",
+      "source_description": "Turn every feature (@sl, @ml, @o and the extra buttons) off without uninstalling the mod. Buttons already added to an open screen stay until that screen is reopened.",
+      "translation_display_name": "모드 활성화",
+      "translation_description": "@sl, @ml, @o 규칙과 추가 버튼을 포함한 모드 기능 전체를 켜거나 끕니다. 이미 열려 있는 화면의 버튼은 화면을 다시 열 때까지 남아 있을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "1. Main Settings",
+      "key": "Organize stash button",
+      "source_display_name": "Organize stash button",
+      "source_description": "Show the ALL button in container windows, which organizes the whole stash. Takes effect the next time a container window is opened.",
+      "translation_display_name": "정리 보관함 버튼",
+      "translation_description": "컨테이너 창에 보관함 전체를 정리하는 ALL 버튼을 표시합니다. 새로 여는 컨테이너 창부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Tags",
+      "key": "Notification duration",
+      "source_display_name": "Notification duration",
+      "source_description": "How long the notification shows when saving a tag.",
+      "translation_display_name": "알림 지속 시간",
+      "translation_description": "태그를 저장할 때 나타나는 알림의 표시 시간을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Tags",
+      "key": "Tag character limit",
+      "source_display_name": "Tag character limit",
+      "source_description": "Maximum length of the container tag input field. The game's own limit is 16 characters, which is far too short to write an @o rule. Takes effect the next time a tag window is opened.",
+      "translation_display_name": "태그 캐릭터 제한",
+      "translation_description": "컨테이너 태그 입력란의 최대 글자 수를 늘립니다. 게임 기본 16자는 @o 규칙을 쓰기에 짧기 때문에 제공되는 설정이며, 새로 여는 태그 창부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "3. Debug",
+      "key": "Verbose logging",
+      "source_display_name": "Verbose logging",
+      "source_description": "Debug logs for dev purposes.",
+      "translation_display_name": "상세 로그 출력",
+      "translation_description": "개발 및 문제 확인용 상세 디버그 로그를 출력합니다.",
+      "values": []
+    }
+  ]
+}

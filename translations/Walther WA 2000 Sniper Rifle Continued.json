@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.zincropes.wa2000",
+  "mod_name": "Walther WA 2000 Sniper Rifle Continued",
+  "channels": {
+    "locale": [
+      {
+        "key": "6787c587daf18caae2c47bda Name",
+        "source": "Walther WA 2000 .300 Winchester Magnum Marksman Rifle",
+        "translation": "발터 WA 2000 .300 Winchester Magnum 지정사수소총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6787c587daf18caae2c47bda ShortName",
+        "source": "WA 2000",
+        "translation": "WA 2000"
+      },
+      {
+        "key": "6787c587daf18caae2c47bda Description",
+        "source": "The Walther WA 2000 is a semi-automatic bullpup sniper rifle produced by the Carl Walther GmbH Sportwaffen company from 1978 to 1988. The WA2000 was introduced to the markets in 1981 and was produced in three different calibers. Production of the rifle was limited and it was shortly stopped because it was too expensive to achieve widespread sales and not robust enough for military use as a sniper rifle. The bullpup design was chosen to shorten weapon-length, whilst mostly preserving the accuracy and ballistic-performance of an otherwise full-length rifle. The rifle did not have iron sights. The most commonly used optical sight was a Schmidt & Bender 2.5–10× telescopic sight. The .300 Winchester Magnum round was chosen as the primary caliber because of its long range accuracy and its precision at all ranges.",
+        "translation": "발터 WA 2000은 Carl Walther GmbH Sportwaffen에서 1978년부터 1988년까지 생산한 반자동 불펍식 저격소총입니다. WA2000은 1981년에 시장에 출시되었으며 세 가지 구경으로 생산되었습니다. 생산량은 제한적이었고, 대중적인 판매를 이루기에는 가격이 너무 비쌌으며 군용 저격소총으로 쓰기에는 내구성이 충분하지 않아 얼마 지나지 않아 생산이 중단되었습니다. 불펍 구조는 일반적인 전장 소총 수준의 정확도와 탄도 성능을 대부분 유지하면서 총기의 전체 길이를 줄이기 위해 채택되었습니다. 이 소총에는 기계식 조준기가 없었습니다. 가장 흔히 사용된 광학 조준경은 Schmidt & Bender 2.5–10× 망원 조준경이었습니다. .300 Winchester Magnum 탄은 장거리 정확도와 모든 거리에서의 정밀성을 이유로 주력 구경으로 선택되었습니다."
+      },
+      {
+        "key": "6787c58e17cf7aa9a28cfaca Name",
+        "source": "WA 2000 6-round Magazine",
+        "translation": "6발, WA 2000 .300 Winchester 탄창"
+      },
+      {
+        "key": "6787c58e17cf7aa9a28cfaca ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6787c58e17cf7aa9a28cfaca Description",
+        "source": "6-Round standard .300 Winchester magazine for WA 2000.",
+        "translation": "WA 2000용 6발 표준 .300 Winchester 탄창입니다."
+      },
+      {
+        "key": "6787a5cf8076dac6834f2ce7 Name",
+        "source": "WA 2000 Wooden Handguard",
+        "translation": "WA 2000 목재 총열덮개"
+      },
+      {
+        "key": "6787a5cf8076dac6834f2ce7 ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6787a5cf8076dac6834f2ce7 Description",
+        "source": "Standard Handguard for WA 2000. Made from a fine wood, it has some fine grain and provides a very strong grip with the texture.",
+        "translation": "WA 2000용 표준 총열덮개입니다. 고급 목재로 제작되어 섬세한 나뭇결이 있으며, 표면 질감 덕분에 매우 안정적인 그립을 제공합니다."
+      },
+      {
+        "key": "6787a5f738923aff69f8e6fe Name",
+        "source": "WA 2000 Wooden Pistol Grip",
+        "translation": "WA 2000 목재 권총손잡이"
+      },
+      {
+        "key": "6787a5f738923aff69f8e6fe ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6787a5f738923aff69f8e6fe Description",
+        "source": "Standard wooden grip made for WA 2000. Designed to be comfortable while shooting in a proned position.",
+        "translation": "WA 2000용 표준 목재 권총손잡이입니다. 엎드린 자세에서 사격할 때 편안하도록 설계되었습니다."
+      },
+      {
+        "key": "6787a5db9f0d7b0a38c49283 Name",
+        "source": "WA 2000 .300 Winchester Magnum 650mm Barrel",
+        "translation": "WA 2000 .300 Winchester Magnum 650mm 총열"
+      },
+      {
+        "key": "6787a5db9f0d7b0a38c49283 ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6787a5db9f0d7b0a38c49283 Description",
+        "source": "Standard rifled barrel made for WA 2000. Made to withstand the power of .300 Winchester magnum, it is clamped in the front of the gun for a secure lock.",
+        "translation": "WA 2000용 표준 강선 총열입니다. .300 Winchester Magnum의 위력을 견딜 수 있도록 제작되었으며, 단단히 고정되도록 총기 전방에서 클램프로 체결됩니다."
+      },
+      {
+        "key": "6787af9b370beb59900b84da Name",
+        "source": ".300 Winchester Magnum Sierra MatchKing 190gr FMJ",
+        "translation": ".300 Winchester Magnum Sierra MatchKing 190gr FMJ"
+      },
+      {
+        "key": "6787af9b370beb59900b84da ShortName",
+        "source": "Sierra MatchKing FMJ",
+        "translation": "Sierra MatchKing FMJ"
+      },
+      {
+        "key": "6787af9b370beb59900b84da Description",
+        "source": "Federal Premium .300 Winchester Magnum with Sierra MatchKing 190gr FMJ bullet. Precision HPBT (Non-expanding HP) designed for long range wind resistance and velocity retention. ~2500 ft-lbs of energy at 500 yards.",
+        "translation": "Sierra MatchKing 190gr 풀 메탈 재킷(FMJ) 탄두를 사용하는 Federal Premium .300 Winchester Magnum 탄약입니다. 장거리에서 바람의 영향을 줄이고 속도 유지력을 높이도록 설계된 정밀 할로 포인트 보트 테일(HPBT, 비팽창 할로 포인트(HP)) 탄두입니다. 500야드에서 약 2500 ft-lbs의 에너지를 유지합니다."
+      },
+      {
+        "key": "6798b895f3d82ede6df718d2 Name",
+        "source": ".300 Winchester Magnum InterLock HP",
+        "translation": ".300 Winchester Magnum InterLock HP"
+      },
+      {
+        "key": "6798b895f3d82ede6df718d2 ShortName",
+        "source": "InterLock HP",
+        "translation": "InterLock HP"
+      },
+      {
+        "key": "6798b895f3d82ede6df718d2 Description",
+        "source": "Hornady .300 Winchester Magnum 180gr InterLock hollow point round, designed for controlled expansion and deep penetration. Ideal for large game hunting and self-defense.",
+        "translation": "Hornady .300 Winchester Magnum 180gr InterLock 할로 포인트(HP) 탄약으로, 제어된 팽창과 깊은 관통을 위해 설계되었습니다. 대형 사냥감 사냥과 자기방어에 적합합니다."
+      },
+      {
+        "key": "6798b890fa41a7cc25a09157 Name",
+        "source": ".300 Winchester Magnum A191 Tracer",
+        "translation": ".300 Winchester Magnum A191 Tracer"
+      },
+      {
+        "key": "6798b890fa41a7cc25a09157 ShortName",
+        "source": "A191 Tracer",
+        "translation": "A191 Tracer"
+      },
+      {
+        "key": "6798b890fa41a7cc25a09157 Description",
+        "source": "A191-based .300 Winchester Magnum 190gr tracer round, used by NATO militaries for long-range sniper training and engagements. Provides visible trajectory feedback.",
+        "translation": "A191을 기반으로 한 .300 Winchester Magnum 190gr 예광탄으로, NATO 군에서 장거리 저격 훈련과 교전에 사용합니다. 탄도 궤적을 눈으로 확인할 수 있습니다."
+      },
+      {
+        "key": "6798b89bdf2a24b0c315daac Name",
+        "source": ".300 Winchester Magnum Swiss P AP",
+        "translation": ".300 Winchester Magnum Swiss P AP"
+      },
+      {
+        "key": "6798b89bdf2a24b0c315daac ShortName",
+        "source": "Swiss P AP",
+        "translation": "Swiss P AP"
+      },
+      {
+        "key": "6798b89bdf2a24b0c315daac Description",
+        "source": "Swiss P .300 Winchester Magnum 196gr armor-piercing round with a tungsten carbide core, designed for defeating light armor and barriers. Used by military and law enforcement.",
+        "translation": "텅스텐 카바이드 탄심을 사용하는 Swiss P .300 Winchester Magnum 196gr 철갑탄(AP)으로, 경장갑과 장애물을 관통하도록 설계되었습니다. 군과 법 집행기관에서 사용합니다."
+      },
+      {
+        "key": "6794f4e3a671046f746df8f5 Name",
+        "source": "WA 2000 10-round Magazine",
+        "translation": "10발, WA 2000 .300 Winchester 연장 탄창"
+      },
+      {
+        "key": "6794f4e3a671046f746df8f5 ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6794f4e3a671046f746df8f5 Description",
+        "source": "10-Round extended .300 Winchester magazine for WA 2000.",
+        "translation": "WA 2000용 10발 확장형 .300 Winchester 탄창입니다."
+      },
+      {
+        "key": "6794f4eaa532303999ea952c Name",
+        "source": "WA 2000 15-round Magazine",
+        "translation": "15발, WA 2000 .300 Winchester 연장 탄창"
+      },
+      {
+        "key": "6794f4eaa532303999ea952c ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6794f4eaa532303999ea952c Description",
+        "source": "15-Round extended .300 Winchester magazine for WA 2000.",
+        "translation": "WA 2000용 15발 확장형 .300 Winchester 탄창입니다."
+      },
+      {
+        "key": "6787a5c7c559ebaf6ec80bb6 Name",
+        "source": "Walther WA 2000 Standard Bipod ",
+        "translation": "발터 WA 2000 표준 양각대"
+      },
+      {
+        "key": "6787a5c7c559ebaf6ec80bb6 ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6787a5c7c559ebaf6ec80bb6 Description",
+        "source": "A standard bipod for WA 2000. Provides a stable ground and wide enough angle on use.",
+        "translation": "WA 2000용 표준 양각대입니다. 안정적인 지지 기반과 사용 시 충분히 넓은 전개 각도를 제공합니다."
+      },
+      {
+        "key": "6794f4da11230d3fe4eeab7e Name",
+        "source": "WA 2000 Heavy Tactical Handguard",
+        "translation": "WA 2000 중량형 전술 총열덮개"
+      },
+      {
+        "key": "6794f4da11230d3fe4eeab7e ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6794f4da11230d3fe4eeab7e Description",
+        "source": "Special made handguard that can be directly attached to the 680mm Heavy Reinforced Steel Barrel. Providing extra attachment for modular devices.",
+        "translation": "680mm 중량형 강화 강철 총열에 직접 장착할 수 있도록 특별히 제작된 총열덮개입니다. 모듈식 장치를 위한 추가 장착 지점을 제공합니다."
+      },
+      {
+        "key": "6794f4982767d8310ef1a85d Name",
+        "source": "WA 2000 Polymer Tactical Pistol Grip",
+        "translation": "WA 2000 폴리머 전술 권총손잡이"
+      },
+      {
+        "key": "6794f4982767d8310ef1a85d ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6794f4982767d8310ef1a85d Description",
+        "source": "Special made pistol grip for WA2000. Made with polymer, it offers a sleek and elegant design while offering the best ergonomic and less weight.",
+        "translation": "WA2000용으로 특별 제작된 권총손잡이입니다. 폴리머로 제작되어 세련되고 깔끔한 디자인을 갖추면서도 뛰어난 인체공학성과 낮은 무게를 제공합니다."
+      },
+      {
+        "key": "6794f4a78008a7d95e2deda3 Name",
+        "source": "WA 2000 Plastic Pistol Grip",
+        "translation": "WA 2000 플라스틱 권총손잡이"
+      },
+      {
+        "key": "6794f4a78008a7d95e2deda3 ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6794f4a78008a7d95e2deda3 Description",
+        "source": "Pistol grip for WA2000 made by using plastic. Offering a low weight and a decent ergonomic for handling.",
+        "translation": "플라스틱으로 제작한 WA2000용 권총손잡이입니다. 가벼운 무게와 무난한 인체공학성을 제공합니다."
+      },
+      {
+        "key": "6787a600685aca2128d55adb Name",
+        "source": "WA 2000 Wooden Cheekpad",
+        "translation": "WA 2000 목재 볼 높이 받침대"
+      },
+      {
+        "key": "6787a600685aca2128d55adb ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6787a600685aca2128d55adb Description",
+        "source": "Standard wooden pad made for WA 2000. While it is made out of wood, it is surprisingly comfortable to rest on.",
+        "translation": "WA 2000용 표준 목재 볼 높이 받침대입니다. 목재로 제작되었지만 놀라울 정도로 편안하게 뺨을 기댈 수 있습니다."
+      },
+      {
+        "key": "6794f4913ac80c58d6535507 Name",
+        "source": "WA 2000 Soft Cheekpad",
+        "translation": "WA 2000 소프트 볼 높이 받침대"
+      },
+      {
+        "key": "6794f4913ac80c58d6535507 ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6794f4913ac80c58d6535507 Description",
+        "source": "A soft cheekpad filled with high quality cotton for maximum comfort during prone position. Careful, don't fall asleep.",
+        "translation": "엎드린 자세에서 최대한 편안하도록 고급 면으로 채운 부드러운 볼 높이 받침대입니다. 조심하세요. 잠들지 마세요."
+      },
+      {
+        "key": "6794f4be437c133a49be0524 Name",
+        "source": "WA 2000 .300 Winchester Magnum 680mm Reinforced Steel Barrel",
+        "translation": "WA 2000 .300 Winchester Magnum 680mm 강화 강철 총열"
+      },
+      {
+        "key": "6794f4be437c133a49be0524 ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6794f4be437c133a49be0524 Description",
+        "source": "A heavy, reinforced 680mm barrel meticulously crafted for the Walther WA2000 sniper rifle. Designed for long-range accuracy and superior performance, this barrel enhances the rifle’s precision by reducing vibration and maintaining structural integrity under high-pressure conditions.",
+        "translation": "발터 WA2000 저격소총용으로 정교하게 제작된 중량형 강화 680mm 총열입니다. 장거리 정확도와 우수한 성능을 위해 설계되었으며, 진동을 줄이고 고압 환경에서도 구조적 강성을 유지해 소총의 정밀도를 향상합니다."
+      },
+      {
+        "key": "6794f4c72d2341e38402ec67 Name",
+        "source": "WA 2000 .300 Winchester Magnum 735mm Light Extended Steel Barrel",
+        "translation": "WA 2000 .300 Winchester Magnum 735mm 경량 연장 강철 총열"
+      },
+      {
+        "key": "6794f4c72d2341e38402ec67 ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6794f4c72d2341e38402ec67 Description",
+        "source": "An extended 735mm lightweight barrel specially designed for the Walther WA2000 sniper rifle. Its extended length enhances bullet stabilization, allowing for tighter groupings and increased effective range, while the lightweight construction ensures better maneuverability and reduced fatigue for the shooter.",
+        "translation": "발터 WA2000 저격소총용으로 특별히 설계된 735mm 경량 연장 총열입니다. 늘어난 총열 길이가 탄두 안정성을 높여 더 조밀한 집탄과 긴 유효 사거리를 제공하며, 경량 구조는 사수의 기동성을 높이고 피로를 줄여줍니다."
+      },
+      {
+        "key": "6794f4d1faae062519c11f06 Name",
+        "source": "WA 2000 .300 Winchester Magnum 702mm Integrated Suppressor Barrel",
+        "translation": "WA 2000 .300 Winchester Magnum 702mm 일체형 소음기 총열"
+      },
+      {
+        "key": "6794f4d1faae062519c11f06 ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6794f4d1faae062519c11f06 Description",
+        "source": "WA2000 Barrel with integral suppressor built into it. Provides decent velocity and sound suppression. Can be a bit bulky to move around with",
+        "translation": "일체형 소음기가 내장된 WA2000용 총열입니다. 준수한 탄속과 소음 억제 성능을 제공하지만, 휴대 시 다소 부피가 큽니다."
+      },
+      {
+        "key": "6787a5e276b5d97a939a3323 Name",
+        "source": "WA 2000 .300 Winchester Magnum Flash Hider",
+        "translation": "WA 2000 .300 Winchester Magnum 소염기"
+      },
+      {
+        "key": "6787a5e276b5d97a939a3323 ShortName",
+        "source": "WA2000",
+        "translation": "WA2000"
+      },
+      {
+        "key": "6787a5e276b5d97a939a3323 Description",
+        "source": "Standard flash hider made for WA 2000.",
+        "translation": "WA 2000용 표준 소염기입니다."
+      },
+      {
+        "key": "67999c756e3bd6cbe36d2ba2 Name",
+        "source": "Schmidt & Bender PM II 1-8x24 30mm riflescope Black",
+        "translation": "Schmidt & Bender PM II 1-8x24 30mm 망원 조준경 (검은색)"
+      },
+      {
+        "key": "67999c756e3bd6cbe36d2ba2 ShortName",
+        "source": "PM II 1-8x24",
+        "translation": "PM II 1-8x24"
+      },
+      {
+        "key": "67999c756e3bd6cbe36d2ba2 Description",
+        "source": "The Schmidt & Bender PM II 1-8x24 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy.",
+        "translation": "Schmidt & Bender PM II 1-8x24 망원 조준경은 정예 군부대를 위해 고품질 표적 획득과 정밀 사격을 목적으로 개발되었습니다."
+      },
+      {
+        "key": "67999c8251c50313d9e21910 Name",
+        "source": "Schmidt & Bender PM II 3-20x50 34mm riflescope Black",
+        "translation": "Schmidt & Bender PM II 3-20x50 34mm 망원 조준경 (검은색)"
+      },
+      {
+        "key": "67999c8251c50313d9e21910 ShortName",
+        "source": "PM II 3-20x50",
+        "translation": "PM II 3-20x50"
+      },
+      {
+        "key": "67999c8251c50313d9e21910 Description",
+        "source": "The Schmidt & Bender PM II 3-20x50 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy.",
+        "translation": "Schmidt & Bender PM II 3-20x50 망원 조준경은 정예 군부대를 위해 고품질 표적 획득과 정밀 사격을 목적으로 개발되었습니다."
+      },
+      {
+        "key": "67999c87c061e3d7f3b0ab61 Name",
+        "source": "Schmidt & Bender PM II 5-25x56 34mm riflescope Black",
+        "translation": "Schmidt & Bender PM II 5-25x56 34mm 망원 조준경 (검은색)"
+      },
+      {
+        "key": "67999c87c061e3d7f3b0ab61 ShortName",
+        "source": "PM II 5-25x56",
+        "translation": "PM II 5-25x56"
+      },
+      {
+        "key": "67999c87c061e3d7f3b0ab61 Description",
+        "source": "The Schmidt & Bender PM II 5-25x56 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy.",
+        "translation": "Schmidt & Bender PM II 5-25x56 망원 조준경은 정예 군부대를 위해 고품질 표적 획득과 정밀 사격을 목적으로 개발되었습니다."
+      },
+      {
+        "key": "6798ce32de09fc6bdf524baf",
+        "source": "TAC",
+        "translation": "TAC",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ]
+  }
+}

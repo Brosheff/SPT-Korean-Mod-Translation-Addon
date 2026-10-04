@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.hideoutcat",
+  "mod_name": "Tarkin's Hideout Cat",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "unlock",
+        "source": "Unlocks cat",
+        "translation": "고양이를 해금합니다.",
+        "match_mode": "exact",
+        "note": "은신처 보너스 설명"
+      },
+      {
+        "id": "pet",
+        "source": "Pet",
+        "translation": "쓰다듬기",
+        "match_mode": "exact",
+        "note": "은신처 고양이 상호작용 메뉴"
+      },
+      {
+        "id": "wake_up",
+        "source": "Wake up",
+        "translation": "깨우기",
+        "match_mode": "exact",
+        "note": "은신처 고양이 상호작용 메뉴"
+      }
+    ]
+  }
+}

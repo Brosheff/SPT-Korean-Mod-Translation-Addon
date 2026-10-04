@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_0e7becf2da4a",
+  "mod_name": "Canted Aiming",
+  "channels": {
+    "locale": [
+      {
+        "key": "69069986473b8fd5e80545f3 Name",
+        "source": "Bushtail's Canted Aim",
+        "translation": "Bushtail 기울여 조준하기",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "69069986473b8fd5e80545f3 Description",
+        "source": "You can attach scopes to this to get canted aim without requiring a backup sight mount.",
+        "translation": "백업 조준경 마운트 없이도 이 부품에 조준경을 장착해 기울여 조준할 수 있습니다."
+      }
+    ]
+  }
+}

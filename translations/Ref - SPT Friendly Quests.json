@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_d0ed25d52f5c",
+  "mod_name": "Ref - SPT Friendly Quests",
+  "channels": {
+    "locale": [
+      {
+        "key": "668caeedbdb70c05d702f0fc",
+        "source": "Eliminate 10 PMCs",
+        "translation": "PMC 10명 처치하기",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "662ba78e19c86d3199ae0a93",
+        "source": "Eliminate 15 PMCs",
+        "translation": "PMC 15명 처치하기"
+      },
+      {
+        "key": "662ba61d3ed61b6b78187b71",
+        "source": "Eliminate 20 PMCs",
+        "translation": "PMC 20명 처치하기"
+      },
+      {
+        "key": "668caeedbdb70c05d702f184",
+        "source": "Eliminate 25 PMCs",
+        "translation": "PMC 25명 처치하기"
+      },
+      {
+        "key": "668caeedbdb70c05d702f1bb",
+        "source": "Eliminate 50 PMCs",
+        "translation": "PMC 50명 처치하기"
+      },
+      {
+        "key": "668caeedbdb70c05d702f200",
+        "source": "Eliminate any 10 targets with Assault Carbines",
+        "translation": "돌격 카빈으로 아무 표적이나 10명 처치하기",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "668caeedbdb70c05d702f203",
+        "source": "Eliminate any 10 targets with Assault Rifles",
+        "translation": "돌격소총으로 아무 표적이나 10명 처치하기"
+      },
+      {
+        "key": "668caeedbdb70c05d702f206",
+        "source": "Eliminate any 10 targets with LMGs",
+        "translation": "경기관총으로 아무 표적이나 10명 처치하기"
+      },
+      {
+        "key": "668caeedbdb70c05d702f209",
+        "source": "Eliminate any 10 targets with Marksman Rifles",
+        "translation": "지정사수소총으로 아무 표적이나 10명 처치하기"
+      },
+      {
+        "key": "668caeedbdb70c05d702f20c",
+        "source": "Eliminate any 10 targets with Shotguns",
+        "translation": "산탄총으로 아무 표적이나 10명 처치하기"
+      },
+      {
+        "key": "668caeedbdb70c05d702f20f",
+        "source": "Eliminate any 10 targets with SMGs",
+        "translation": "기관단총으로 아무 표적이나 10명 처치하기"
+      }
+    ]
+  }
+}

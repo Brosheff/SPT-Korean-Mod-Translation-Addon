@@ -1,0 +1,1356 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_323032eb5ebb",
+  "mod_name": "JSOC Service Weapon Replacment Program",
+  "channels": {
+    "locale": [
+      {
+        "key": "4431b2616e47b7d26e96fd0a Name",
+        "source": "Magpul DT Carbine Stock Black",
+        "translation": "AR-15 맥풀 DT 카빈 개머리판 (블랙)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "4431b2616e47b7d26e96fd0a ShortName",
+        "source": "Magpul DT BLACK",
+        "translation": "맥풀 DT 검은색"
+      },
+      {
+        "key": "4431b2616e47b7d26e96fd0a Description",
+        "source": "A collapsible carbine buttstock with a rubber recoil pad and a snag-free profile. Multiple length-of-pull positions let the shooter tune fit across armor and kit, while the shielded release latch resists accidental collapse.",
+        "translation": "고무 반동 패드와 걸림이 적은 외형을 갖춘 길이 조절식 카빈 개머리판입니다. 여러 단계의 견착 길이를 조절해 방탄복과 장비 구성에 맞출 수 있으며, 보호된 해제 걸쇠가 우발적으로 개머리판이 줄어드는 것을 막아줍니다."
+      },
+      {
+        "key": "4f39c6e400295c0620af4290 Name",
+        "source": "Magpul DT Carbine Stock FDE",
+        "translation": "AR-15 맥풀 DT 카빈 개머리판 (사막색)"
+      },
+      {
+        "key": "4f39c6e400295c0620af4290 ShortName",
+        "source": "Magpul DT FDE",
+        "translation": "맥풀 DT FDE"
+      },
+      {
+        "key": "4f39c6e400295c0620af4290 Description",
+        "source": "A collapsible carbine buttstock with a rubber recoil pad and a snag-free profile. Multiple length-of-pull positions let the shooter tune fit across armor and kit, while the shielded release latch resists accidental collapse.",
+        "translation": "고무 반동 패드와 걸림이 적은 외형을 갖춘 길이 조절식 카빈 개머리판입니다. 여러 단계의 견착 길이를 조절해 방탄복과 장비 구성에 맞출 수 있으며, 보호된 해제 걸쇠가 우발적으로 개머리판이 줄어드는 것을 막아줍니다."
+      },
+      {
+        "key": "67f1a1000000000000000101 Name",
+        "source": "Knight's Armament KS-1 upper receiver assembly (FDE)",
+        "translation": "KAC KS-1 상부 총몸 조립체 (사막색)"
+      },
+      {
+        "key": "67f1a1000000000000000101 ShortName",
+        "source": "KS-1 Upper FDE",
+        "translation": "KS-1 상부 FDE"
+      },
+      {
+        "key": "67f1a1000000000000000101 Description",
+        "source": "A proprietary KS-1 upper receiver assembly for the KAC/L403A1 weapon family, finished in Flat Dark Earth (FDE). Engineered specifically to index with URX-6 handguards via a shift-resistant locking notch, housing KAC's E3.2 rounded-lug bolt group.",
+        "translation": "KAC/L403A1 무기군을 위한 독자 규격 KS-1 상부 총몸 조립체로, 플랫 다크 어스(FDE) 마감이 적용되어 있습니다. URX-6 총열덮개와 흔들림을 억제하는 잠금 홈을 통해 정확히 맞물리도록 설계되었으며, KAC E3.2 둥근 러그 노리쇠 뭉치를 수용합니다."
+      },
+      {
+        "key": "67f1a1000000000000000102 Name",
+        "source": "KAC KS-1 receiver extension (FDE)",
+        "translation": "KAC KS-1 총몸 연장 튜브 (사막색)"
+      },
+      {
+        "key": "67f1a1000000000000000102 Description",
+        "source": "A proprietary, military-grade AR-15 receiver extension (buffer tube) designed by Knight's Armament, finished in FDE. Built to lock securely into the KS-1 receiver, offering multiple stock adjustment positions.",
+        "translation": "나이츠 아르마먼트에서 설계한 독자 규격 군용 AR-15 총몸 연장 튜브(버퍼 튜브)로, 사막색 마감이 적용되었습니다. KS-1 총몸에 단단히 고정되도록 제작되었으며, 여러 단계의 개머리판 조절 위치를 제공합니다."
+      },
+      {
+        "key": "67f1a1000000000000000104 Name",
+        "source": "Knight's Armament KS-1 ambidextrous charging handle (FDE)",
+        "translation": "KAC KS-1 양손잡이 장전 손잡이 (사막색)"
+      },
+      {
+        "key": "67f1a1000000000000000104 Description",
+        "source": "A robust, high-performance ambidextrous AR-15 charging handle manufactured by Knight's Armament, finished in FDE. Features extended, textured latch handles to facilitate rapid charging from either side of the firearm, even with gloved hands.",
+        "translation": "나이츠 아르마먼트에서 제조한 견고한 고성능 AR-15 양손잡이 장전 손잡이로, FDE 마감이 적용되어 있습니다. 확장된 질감 처리 래치 손잡이를 갖추어 장갑을 낀 상태에서도 총기의 양쪽에서 빠르게 장전할 수 있습니다."
+      },
+      {
+        "key": "67f1a1000000000000000105 Name",
+        "source": "KAC KS-1 low-profile gas block",
+        "translation": "KAC KS-1 저상형 가스 블록"
+      },
+      {
+        "key": "67f1a1000000000000000105 ShortName",
+        "source": "KS-1 Gas Block",
+        "translation": "KS-1 가스 블록"
+      },
+      {
+        "key": "67f1a1000000000000000105 Description",
+        "source": "A specialized, proprietary ultra-low profile gas block manufactured by Knight's Armament. Designed to press-fit and pin directly onto the custom-profile KS-1 barrels under the URX-6 handguards, establishing a sealed interface with KAC's straight gas tube system.",
+        "translation": "나이츠 아르마먼트에서 제조한 독자 규격 초저상형 가스 블록입니다. URX-6 총열덮개 아래에서 커스텀 프로파일 KS-1 총열에 직접 압입 및 핀 고정되도록 설계되었으며, KAC 직선형 가스 튜브 시스템과 밀폐된 접합부를 형성합니다."
+      },
+      {
+        "key": "67f1a1000000000000000111 Name",
+        "source": "Knight's Armament KS-1 11.5 inch 5.56x45 barrel (FDE)",
+        "translation": "KAC KS-1 11.5인치 5.56x45 총열 (사막색)"
+      },
+      {
+        "key": "67f1a1000000000000000111 ShortName",
+        "source": "KS-1 11.5\" FDE",
+        "translation": "KS-1 11.5인치 FDE"
+      },
+      {
+        "key": "67f1a1000000000000000111 Description",
+        "source": "An ultra-premium, match-grade 11.5-inch barrel assembly for the KS-1 platform, finished in FDE. Deeply dimpled with KAC's signature ball-mill cut pattern to decrease weight and accelerate heat-shedding, featuring a proprietary E3.2 barrel extension.",
+        "translation": "FDE 마감이 적용된 KS-1 플랫폼용 최고급 매치그레이드 11.5인치 총열 조립체입니다. KAC 특유의 볼 밀링 딤플 가공 패턴이 깊게 적용되어 무게를 줄이고 방열을 빠르게 하며, 독자 규격 E3.2 총열 연장부를 갖추고 있습니다."
+      },
+      {
+        "key": "67f1a1000000000000000113 Name",
+        "source": "Knight's Armament KS-1 13.7 inch 5.56x45 barrel (FDE)",
+        "translation": "KAC KS-1 13.7인치 5.56x45 총열 (사막색)"
+      },
+      {
+        "key": "67f1a1000000000000000113 ShortName",
+        "source": "KS-1 13.7\" FDE",
+        "translation": "KS-1 13.7인치 FDE"
+      },
+      {
+        "key": "67f1a1000000000000000113 Description",
+        "source": "A match-grade cold-hammer-forged 13.7-inch dimpled barrel finished in Flat Dark Earth (FDE), designed specifically for the KS-1 upper receiver and URX-6 handguards. This mid-length barrel configuration is most notably deployed on the British Armed Forces' L403A1 AIW system.",
+        "translation": "플랫 다크 어스(FDE)로 마감된 매치그레이드 냉간 단조 13.7인치 딤플 총열로, KS-1 상부 총몸과 URX-6 총열덮개용으로 설계되었습니다. 이 중간 길이 총열 구성은 영국군의 L403A1 AIW 체계에 사용된 것으로 잘 알려져 있습니다."
+      },
+      {
+        "key": "67f1a1000000000000000114 Name",
+        "source": "Knight's Armament KS-1 14.5 inch 5.56x45 barrel (FDE)",
+        "translation": "KAC KS-1 14.5인치 5.56x45 총열 (사막색)"
+      },
+      {
+        "key": "67f1a1000000000000000114 ShortName",
+        "source": "KS-1 14.5\" FDE",
+        "translation": "KS-1 14.5인치 FDE"
+      },
+      {
+        "key": "67f1a1000000000000000114 Description",
+        "source": "An exceptionally rigid, mid-length 14.5-inch dimpled barrel for the KS-1, finished in FDE. Deeply fluted using Knight's specialized ball-milling to dramatically speed thermal release while minimizing weight out front, utilizing the proprietary E3.2 extension.",
+        "translation": "FDE 마감이 적용된 KS-1용 매우 견고한 중간 길이 14.5인치 딤플 총열입니다. 나이츠의 특수 볼 밀링 가공이 깊게 적용되어 전방 무게를 최소화하면서 열 방출 속도를 크게 높이며, 독자 규격 E3.2 연장부를 사용합니다."
+      },
+      {
+        "key": "67f1a1000000000000000116 Name",
+        "source": "Knight's Armament KS-1 16 inch 5.56x45 barrel (FDE)",
+        "translation": "KAC KS-1 16인치 5.56x45 총열 (사막색)"
+      },
+      {
+        "key": "67f1a1000000000000000116 ShortName",
+        "source": "KS-1 16\" FDE",
+        "translation": "KS-1 16인치 FDE"
+      },
+      {
+        "key": "67f1a1000000000000000116 Description",
+        "source": "A match-grade, full-length 16-inch barrel for the KS-1 rifle system, finished in FDE. Employs KAC's highly distinctive ball-milling process to maximize mechanical rigidity and surface cooling area while providing a notable reduction in recoil and full muzzle velocity.",
+        "translation": "FDE 마감이 적용된 KS-1 라이플 시스템용 매치그레이드 풀 렝스 16인치 총열입니다. KAC의 독특한 볼 밀링 공정을 사용해 기계적 강성과 표면 냉각 면적을 극대화하며, 반동 감소와 완전한 총구 속도 확보에 기여합니다."
+      },
+      {
+        "key": "67f1a1000000000000000120 Name",
+        "source": "Knight's Armament URX-6 10.5 inch M-LOK handguard (FDE)",
+        "translation": "KAC URX-6 10.5인치 엠락 총열덮개 (사막색)"
+      },
+      {
+        "key": "67f1a1000000000000000120 ShortName",
+        "source": "URX-6 10.5\" FDE",
+        "translation": "URX-6 10.5인치 FDE"
+      },
+      {
+        "key": "67f1a1000000000000000120 Description",
+        "source": "The Knight's Armament URX-6 10.5-inch free-floating handguard finished in Flat Dark Earth (FDE), designed specifically for the short-barreled KS-1 variants. Built with KAC's extremely rigid barrel nut design and self-indexing receiver alignment notch, completely preventing handguard rotation and protecting laser/sight zero under heavy impact.",
+        "translation": "플랫 다크 어스(FDE)로 마감된 나이츠 아르마먼트 URX-6 10.5인치 자유부동식 총열덮개로, 짧은 총열 KS-1 변형용으로 설계되었습니다. KAC의 매우 견고한 총열 너트 설계와 자동 정렬식 총몸 맞춤 홈을 적용해 총열덮개의 회전을 완전히 억제하고, 강한 충격에서도 레이저와 조준기의 영점 보호를 돕습니다."
+      },
+      {
+        "key": "67f1a1000000000000000121 Name",
+        "source": "Knight's Armament URX-6 12.75 inch M-LOK handguard (FDE)",
+        "translation": "KAC URX-6 12.75인치 엠락 총열덮개 (사막색)"
+      },
+      {
+        "key": "67f1a1000000000000000121 ShortName",
+        "source": "URX-6 12.75\" FDE",
+        "translation": "URX-6 12.75인치 FDE"
+      },
+      {
+        "key": "67f1a1000000000000000121 Description",
+        "source": "The Knight's Armament URX-6 12.75-inch free-floating M-LOK handguard finished in Flat Dark Earth (FDE). Designed specifically for standard military-length KS-1 carbines, including the British L403A1 AIW. Self-indexes with the upper receiver via an anti-rotation tab to provide a monolithic, rock-solid mounting base.",
+        "translation": "플랫 다크 어스(FDE)로 마감된 나이츠 아르마먼트 URX-6 12.75인치 자유부동식 엠락 총열덮개입니다. 영국 L403A1 AIW를 포함한 표준 군용 길이 KS-1 카빈에 맞게 설계되었습니다. 회전 방지 탭을 통해 상부 총몸과 자동 정렬되어 일체형에 가까운 견고한 장착 기반을 제공합니다."
+      },
+      {
+        "key": "67f1a1000000000000000122 Name",
+        "source": "Knight's Armament URX-6 15 inch M-LOK handguard (FDE)",
+        "translation": "KAC URX-6 15인치 엠락 총열덮개 (사막색)"
+      },
+      {
+        "key": "67f1a1000000000000000122 ShortName",
+        "source": "URX-6 15\" FDE",
+        "translation": "URX-6 15인치 FDE"
+      },
+      {
+        "key": "67f1a1000000000000000122 Description",
+        "source": "The Knight's Armament URX-6 15-inch free-floating handguard in Flat Dark Earth (FDE). Delivers an extended mounting profile for accessory placement and support-hand control over longer-barreled KS-1 builds, without sacrificing structural rigidity.",
+        "translation": "플랫 다크 어스(FDE)로 마감된 나이츠 아르마먼트 URX-6 15인치 자유부동식 총열덮개입니다. 긴 총열 KS-1 구성에서 액세서리 장착과 지지 손 제어를 위한 확장된 장착 공간을 제공하면서도 구조적 강성을 유지합니다."
+      },
+      {
+        "key": "67f1a2000000000000000101 Name",
+        "source": "Knight's Armament KS-1 upper receiver assembly (Black)",
+        "translation": "KAC KS-1 상부 총몸 조립체 (검은색)"
+      },
+      {
+        "key": "67f1a2000000000000000101 ShortName",
+        "source": "KS-1 Upper Blk",
+        "translation": "KS-1 상부 Blk"
+      },
+      {
+        "key": "67f1a2000000000000000101 Description",
+        "source": "A proprietary KS-1 upper receiver assembly for the KAC/L403A1 weapon family, finished in standard black. Engineered specifically to index with URX-6 handguards via a shift-resistant locking notch, housing KAC's E3.2 rounded-lug bolt group.",
+        "translation": "KAC/L403A1 무기군을 위한 독자 규격 KS-1 상부 총몸 조립체로, 표준 검은색 마감이 적용되어 있습니다. URX-6 총열덮개와 흔들림을 억제하는 잠금 홈을 통해 정확히 맞물리도록 설계되었으며, KAC E3.2 둥근 러그 노리쇠 뭉치를 수용합니다."
+      },
+      {
+        "key": "67f1a2000000000000000103 Name",
+        "source": "KAC M-LOK to Picatinny mount adapter",
+        "translation": "KAC 엠락-피카티니 마운트 어댑터"
+      },
+      {
+        "key": "67f1a2000000000000000103 Description",
+        "source": "An extremely low-profile M-LOK to Picatinny rail adapter manufactured by Knight's Armament. Engineered to provide a rugged, secure mounting point for Picatinny-compatible tactical lights, lasers, and foregrips on modern M-LOK handguards.",
+        "translation": "나이츠 아르마먼트에서 제조한 매우 낮은 프로파일의 엠락-피카티니 레일 어댑터입니다. 현대식 엠락 총열덮개에 피카티니 호환 전술 조명, 레이저, 전방손잡이를 견고하고 안정적으로 장착할 수 있도록 설계되었습니다."
+      },
+      {
+        "key": "67f1a2000000000000000104 Name",
+        "source": "Knight's Armament KS-1 ambidextrous charging handle (Black)",
+        "translation": "KAC KS-1 양손잡이 장전 손잡이 (검은색)"
+      },
+      {
+        "key": "67f1a2000000000000000104 Description",
+        "source": "A robust, high-performance ambidextrous AR-15 charging handle manufactured by Knight's Armament. Features extended, textured latch handles to facilitate rapid charging from either side of the firearm, even with gloved hands.",
+        "translation": "나이츠 아르마먼트에서 제조한 견고한 고성능 AR-15 양손잡이 장전 손잡이입니다. 확장된 질감 처리 래치 손잡이를 갖추어 장갑을 낀 상태에서도 총기의 양쪽에서 빠르게 장전할 수 있습니다."
+      },
+      {
+        "key": "67f1a2000000000000000111 Name",
+        "source": "Knight's Armament KS-1 11.5 inch 5.56x45 barrel (Black)",
+        "translation": "KAC KS-1 11.5인치 5.56x45 총열 (검은색)"
+      },
+      {
+        "key": "67f1a2000000000000000111 ShortName",
+        "source": "KS-1 11.5\" Blk",
+        "translation": "KS-1 11.5인치 Blk"
+      },
+      {
+        "key": "67f1a2000000000000000111 Description",
+        "source": "An ultra-premium, match-grade 11.5-inch barrel assembly for the KS-1 platform. Deeply dimpled with KAC's signature ball-mill cut pattern to decrease weight and accelerate heat-shedding, featuring a proprietary E3.2 barrel extension.",
+        "translation": "KS-1 플랫폼용 최고급 매치그레이드 11.5인치 총열 조립체입니다. KAC 특유의 볼 밀링 딤플 가공 패턴이 깊게 적용되어 무게를 줄이고 방열을 빠르게 하며, 독자 규격 E3.2 총열 연장부를 갖추고 있습니다."
+      },
+      {
+        "key": "67f1a2000000000000000113 Name",
+        "source": "Knight's Armament KS-1 13.7 inch 5.56x45 barrel (Black)",
+        "translation": "KAC KS-1 13.7인치 5.56x45 총열 (검은색)"
+      },
+      {
+        "key": "67f1a2000000000000000113 ShortName",
+        "source": "KS-1 13.7\" Blk",
+        "translation": "KS-1 13.7인치 Blk"
+      },
+      {
+        "key": "67f1a2000000000000000113 Description",
+        "source": "A match-grade cold-hammer-forged 13.7-inch dimpled barrel, designed specifically for the KS-1 upper receiver and URX-6 handguards. This mid-length barrel configuration is most notably deployed on the British Armed Forces' L403A1 AIW system.",
+        "translation": "KS-1 상부 총몸과 URX-6 총열덮개용으로 설계된 매치그레이드 냉간 단조 13.7인치 딤플 총열입니다. 이 중간 길이 총열 구성은 영국군의 L403A1 AIW 체계에 사용된 것으로 잘 알려져 있습니다."
+      },
+      {
+        "key": "67f1a2000000000000000114 Name",
+        "source": "Knight's Armament KS-1 14.5 inch 5.56x45 barrel (Black)",
+        "translation": "KAC KS-1 14.5인치 5.56x45 총열 (검은색)"
+      },
+      {
+        "key": "67f1a2000000000000000114 ShortName",
+        "source": "KS-1 14.5\" Blk",
+        "translation": "KS-1 14.5인치 Blk"
+      },
+      {
+        "key": "67f1a2000000000000000114 Description",
+        "source": "An exceptionally rigid, mid-length 14.5-inch dimpled barrel for the KS-1. Deeply fluted using Knight's specialized ball-milling to dramatically speed thermal release while minimizing weight out front, utilizing the proprietary E3.2 extension.",
+        "translation": "KS-1용으로 제작된 매우 견고한 중간 길이 14.5인치 딤플 총열입니다. 나이츠의 특수 볼 밀링 가공이 깊게 적용되어 전방 무게를 최소화하면서 열 방출 속도를 크게 높이며, 독자 규격 E3.2 연장부를 사용합니다."
+      },
+      {
+        "key": "67f1a2000000000000000116 Name",
+        "source": "Knight's Armament KS-1 16 inch 5.56x45 barrel (Black)",
+        "translation": "KAC KS-1 16인치 5.56x45 총열 (검은색)"
+      },
+      {
+        "key": "67f1a2000000000000000116 ShortName",
+        "source": "KS-1 16\" Blk",
+        "translation": "KS-1 16인치 Blk"
+      },
+      {
+        "key": "67f1a2000000000000000116 Description",
+        "source": "A match-grade, full-length 16-inch barrel for the KS-1 rifle system. Employs KAC's highly distinctive ball-milling process to maximize mechanical rigidity and surface cooling area while providing a notable reduction in recoil and full muzzle velocity.",
+        "translation": "KS-1 라이플 시스템용 매치그레이드 풀 렝스 16인치 총열입니다. KAC의 독특한 볼 밀링 공정을 사용해 기계적 강성과 표면 냉각 면적을 극대화하며, 반동 감소와 완전한 총구 속도 확보에 기여합니다."
+      },
+      {
+        "key": "67f1a2000000000000000120 Name",
+        "source": "Knight's Armament URX-6 10.5 inch M-LOK handguard (Black)",
+        "translation": "KAC URX-6 10.5인치 엠락 총열덮개 (검은색)"
+      },
+      {
+        "key": "67f1a2000000000000000120 ShortName",
+        "source": "URX-6 10.5\" Blk",
+        "translation": "URX-6 10.5인치 Blk"
+      },
+      {
+        "key": "67f1a2000000000000000120 Description",
+        "source": "The Knight's Armament URX-6 10.5-inch free-floating handguard, designed specifically for the short-barreled KS-1 variants. Built with KAC's extremely rigid barrel nut design and self-indexing receiver alignment notch, completely preventing handguard rotation and protecting laser/sight zero under heavy impact.",
+        "translation": "짧은 총열 KS-1 변형용으로 설계된 나이츠 아르마먼트 URX-6 10.5인치 자유부동식 총열덮개입니다. KAC의 매우 견고한 총열 너트 설계와 자동 정렬식 총몸 맞춤 홈을 적용해 총열덮개의 회전을 완전히 억제하고, 강한 충격에서도 레이저와 조준기의 영점 보호를 돕습니다."
+      },
+      {
+        "key": "67f1a2000000000000000121 Name",
+        "source": "Knight's Armament URX-6 12.75 inch M-LOK handguard (Black)",
+        "translation": "KAC URX-6 12.75인치 엠락 총열덮개 (검은색)"
+      },
+      {
+        "key": "67f1a2000000000000000121 ShortName",
+        "source": "URX-6 12.75\" Blk",
+        "translation": "URX-6 12.75인치 Blk"
+      },
+      {
+        "key": "67f1a2000000000000000121 Description",
+        "source": "The Knight's Armament URX-6 12.75-inch free-floating M-LOK handguard. Designed specifically for standard military-length KS-1 carbines, including the British L403A1 AIW. Self-indexes with the upper receiver via an anti-rotation tab to provide a monolithic, rock-solid mounting base.",
+        "translation": "나이츠 아르마먼트 URX-6 12.75인치 자유부동식 엠락 총열덮개입니다. 영국 L403A1 AIW를 포함한 표준 군용 길이 KS-1 카빈에 맞게 설계되었습니다. 회전 방지 탭을 통해 상부 총몸과 자동 정렬되어 일체형에 가까운 견고한 장착 기반을 제공합니다."
+      },
+      {
+        "key": "67f1a2000000000000000122 Name",
+        "source": "Knight's Armament URX-6 15 inch M-LOK handguard (Black)",
+        "translation": "KAC URX-6 15인치 엠락 총열덮개 (검은색)"
+      },
+      {
+        "key": "67f1a2000000000000000122 ShortName",
+        "source": "URX-6 15\" Blk",
+        "translation": "URX-6 15인치 Blk"
+      },
+      {
+        "key": "67f1a2000000000000000122 Description",
+        "source": "The Knight's Armament URX-6 15-inch free-floating handguard in black. Delivers an extended mounting profile for accessory placement and support-hand control over longer-barreled KS-1 builds, without sacrificing structural rigidity.",
+        "translation": "검은색으로 마감된 나이츠 아르마먼트 URX-6 15인치 자유부동식 총열덮개입니다. 긴 총열 KS-1 구성에서 액세서리 장착과 지지 손 제어를 위한 확장된 장착 공간을 제공하면서도 구조적 강성을 유지합니다."
+      },
+      {
+        "key": "6a2af4a615eb6538834cd535 Name",
+        "source": "Knight's Armament 5.56mm QDC 3-prong flash eliminator",
+        "translation": "KAC 5.56mm QDC 3갈래 소염기"
+      },
+      {
+        "key": "6a2af4a615eb6538834cd535 Description",
+        "source": "The Knight's Armament Company 3-prong flash eliminator, designed for 5.56x45 barrels. Offers outstanding flash suppression characteristics and serves as the precise mounting host for the KAC QDC (Quick Disconnect Coupler) ecosystem.",
+        "translation": "5.56x45 총열용으로 설계된 나이츠 아르마먼트 컴퍼니 3갈래 소염기입니다. 뛰어난 섬광 억제 성능을 제공하며, KAC QDC(퀵 디스커넥트 커플러) 생태계를 위한 정밀 장착 호스트 역할을 합니다."
+      },
+      {
+        "key": "6a3daa0190367e3f64c17053 Name",
+        "source": "Sons of Liberty Gun Works Liberty charging handle for AR-15 (Black)",
+        "translation": "AR-15 SOLGW Liberty 장전 손잡이 (블랙)"
+      },
+      {
+        "key": "6a3daa0190367e3f64c17053 Description",
+        "source": "The Liberty Charging Handle by Sons of Liberty Gun Works features an ambidextrous, snag-free design. It provides a robust and ergonomic grip for reliable weapon manipulation under stress, finished in black.",
+        "translation": "선즈 오브 리버티 건 웍스의 Liberty 장전 손잡이는 양손잡이 구조와 걸림이 적은 설계를 특징으로 합니다. 압박 상황에서도 안정적인 총기 조작이 가능하도록 견고하고 인체공학적인 파지감을 제공하며, 블랙 마감이 적용되었습니다."
+      },
+      {
+        "key": "6a3daa0190367e3f64c17101 Name",
+        "source": "Sons of Liberty Gun Works Liberty charging handle for AR-15 (Gray)",
+        "translation": "AR-15 SOLGW Liberty 장전 손잡이 (회색)"
+      },
+      {
+        "key": "6a3daa0190367e3f64c17101 ShortName",
+        "source": "Liberty CH Gray",
+        "translation": "Liberty CH 회색"
+      },
+      {
+        "key": "6a3daa0190367e3f64c17101 Description",
+        "source": "The Liberty Charging Handle by Sons of Liberty Gun Works features an ambidextrous, snag-free design. It provides a robust and ergonomic grip for reliable weapon manipulation under stress, finished in gray.",
+        "translation": "선즈 오브 리버티 건 웍스의 Liberty 장전 손잡이는 양손잡이 구조와 걸림이 적은 설계를 특징으로 합니다. 압박 상황에서도 안정적인 총기 조작이 가능하도록 견고하고 인체공학적인 파지감을 제공하며, 회색 마감이 적용되었습니다."
+      },
+      {
+        "key": "6a3daa0190367e3f64c17102 Name",
+        "source": "Sons of Liberty Gun Works Liberty charging handle for AR-15 (Bronze)",
+        "translation": "AR-15 SOLGW Liberty 장전 손잡이 (브론즈)"
+      },
+      {
+        "key": "6a3daa0190367e3f64c17102 Description",
+        "source": "The Liberty Charging Handle by Sons of Liberty Gun Works features an ambidextrous, snag-free design. It provides a robust and ergonomic grip for reliable weapon manipulation under stress, finished in bronze.",
+        "translation": "선즈 오브 리버티 건 웍스의 Liberty 장전 손잡이는 양손잡이 구조와 걸림이 적은 설계를 특징으로 합니다. 압박 상황에서도 안정적인 총기 조작이 가능하도록 견고하고 인체공학적인 파지감을 제공하며, 브론즈 마감이 적용되었습니다."
+      },
+      {
+        "key": "6a3daa0190367e3f64c17103 Name",
+        "source": "Sons of Liberty Gun Works Liberty charging handle for AR-15 (OD Green)",
+        "translation": "AR-15 SOLGW Liberty 장전 손잡이 (올리브 드랩)"
+      },
+      {
+        "key": "6a3daa0190367e3f64c17103 Description",
+        "source": "The Liberty Charging Handle by Sons of Liberty Gun Works features an ambidextrous, snag-free design. It provides a robust and ergonomic grip for reliable weapon manipulation under stress, finished in Olive Drab Green.",
+        "translation": "선즈 오브 리버티 건 웍스의 Liberty 장전 손잡이는 양손잡이 구조와 걸림이 적은 설계를 특징으로 합니다. 압박 상황에서도 안정적인 총기 조작이 가능하도록 견고하고 인체공학적인 파지감을 제공하며, 올리브 드랩 그린 마감이 적용되었습니다."
+      },
+      {
+        "key": "6a3daa0190367e3f64c17104 Name",
+        "source": "Sons of Liberty Gun Works Liberty charging handle for AR-15 (Tan)",
+        "translation": "AR-15 SOLGW Liberty 장전 손잡이 (황갈색)"
+      },
+      {
+        "key": "6a3daa0190367e3f64c17104 Description",
+        "source": "The Liberty Charging Handle by Sons of Liberty Gun Works features an ambidextrous, snag-free design. It provides a robust and ergonomic grip for reliable weapon manipulation under stress, finished in tan.",
+        "translation": "선즈 오브 리버티 건 웍스의 Liberty 장전 손잡이는 양손잡이 구조와 걸림이 적은 설계를 특징으로 합니다. 압박 상황에서도 안정적인 총기 조작이 가능하도록 견고하고 인체공학적인 파지감을 제공하며, 황갈색 마감이 적용되었습니다."
+      },
+      {
+        "key": "6a3daa32c8041e05c7c17055 Name",
+        "source": "Sons of Liberty Gun Works 11.5\" 5.56x45 barrel for AR-15",
+        "translation": "AR-15 SOLGW 11.5인치 5.56x45 총열"
+      },
+      {
+        "key": "6a3daa32c8041e05c7c17055 ShortName",
+        "source": "MK1 11.5\"",
+        "translation": "MK1 11.5인치"
+      },
+      {
+        "key": "6a3daa32c8041e05c7c17055 Description",
+        "source": "A high-quality 11.5-inch combat-grade barrel manufactured by Sons of Liberty Gun Works. Chambered in 5.56x45 NATO, it features a 1:7 twist rate and a durable QPQ finish, offering an excellent balance of maneuverability and ballistic performance for close-quarters engagements.",
+        "translation": "선즈 오브 리버티 건 웍스에서 제작한 고품질 11.5인치 전투용 총열입니다. 5.56x45 NATO 탄을 사용하며 1:7 강선율과 내구성 높은 QPQ 마감을 적용해 근접전에서 기동성과 탄도 성능의 균형을 제공합니다."
+      },
+      {
+        "key": "6a3daab01be02bcf4dc17059 Name",
+        "source": "Sons of Liberty Gun Works 14.5\" 5.56x45 barrel for AR-15",
+        "translation": "AR-15 SOLGW 14.5인치 5.56x45 총열"
+      },
+      {
+        "key": "6a3daab01be02bcf4dc17059 ShortName",
+        "source": "MK1 14.5\"",
+        "translation": "MK1 14.5인치"
+      },
+      {
+        "key": "6a3daab01be02bcf4dc17059 Description",
+        "source": "A versatile 14.5-inch combat-grade barrel from Sons of Liberty Gun Works. Chambered in 5.56x45 NATO with a 1:7 twist rate. Designed to provide enhanced muzzle velocity and accuracy at medium ranges without sacrificing the mobility of a carbine.",
+        "translation": "선즈 오브 리버티 건 웍스의 다목적 14.5인치 전투용 총열입니다. 5.56x45 NATO 탄과 1:7 강선율을 사용하며, 카빈의 기동성을 유지하면서도 중거리에서 향상된 탄속과 명중 성능을 제공하도록 설계되었습니다."
+      },
+      {
+        "key": "6a4984896b23a3cb9a32d302 Name",
+        "source": "Geissele Freedom Rifle® MOD1, 6MM ARC Recce - Black",
+        "translation": "가이슬리 프리덤 라이플 MOD1 6MM ARC 정찰형 소총 (검은색)"
+      },
+      {
+        "key": "6a4984896b23a3cb9a32d302 ShortName",
+        "source": "MOD1 Black",
+        "translation": "MOD1 검은색"
+      },
+      {
+        "key": "6a4984896b23a3cb9a32d302 Description",
+        "source": "The GFR® (Geissele Freedom Rifle®) Recce MOD1 builds on the backbone of the proven GFR® line, purpose-built for serious use. The modern shooter, whether duty, defender, hunter or competitor, requires tools that offer the best performance and balance for when it counts.\n\n \n\nTraditionally, shooters faced a tradeoff: the lightweight agility of small-frame platforms often meant sacrificing range and power, while large-frame rifles delivered performance at the cost of added weight and bulk. The emergence of 6mm ARC presented a promising solution, a balance of capability and efficiency. The Geissele Freedom Rifle® was purpose-built around the cartridge and designed to maximize performance of 6mmARC while preserving flawless reliability.",
+        "translation": "GFR®(가이슬리 프리덤 라이플) Recce MOD1은 검증된 GFR® 계열을 바탕으로 본격적인 운용을 위해 제작되었습니다. 임무 수행자든, 방어자든, 사냥꾼이든, 경기 사수든 현대의 사수에게는 결정적인 순간에 최고의 성능과 균형을 제공하는 도구가 필요합니다.\n\n전통적으로 사수는 절충을 감수해야 했습니다. 작은 총몸을 사용하는 플랫폼의 가벼움과 기동성을 얻으려면 사거리와 위력을 포기해야 하는 경우가 많았고, 큰 총몸을 사용하는 소총은 성능을 얻는 대신 무게와 부피가 늘어났습니다. 6mm ARC의 등장은 성능과 효율 사이의 균형이라는 유망한 해법을 제시했습니다. 가이슬리 프리덤 라이플은 이 탄약을 중심으로 제작되었으며, 완벽한 신뢰성을 유지하면서 6mm ARC의 성능을 최대한 끌어내도록 설계되었습니다."
+      },
+      {
+        "key": "6a4985a7ac135f3df232d30c Name",
+        "source": "Geissele Freedom Rifle® Recce MOD1 Upper Black",
+        "translation": "가이슬리 프리덤 라이플 Recce MOD1 상부 총몸 (검은색)"
+      },
+      {
+        "key": "6a4985a7ac135f3df232d30c ShortName",
+        "source": "MOD1 Upper Blk",
+        "translation": "MOD1 상부 Blk"
+      },
+      {
+        "key": "6a4985a7ac135f3df232d30c Description",
+        "source": "The GFR® Recce MOD1 introduces intuitive full ambidextrous controls. A magazine release on the left side of the receiver below the Maritime Bolt Catch makes mag changes swift for left-handed use. The right side of the receiver features bolt catch and release buttons below the ejection port. The shooter uses the dust cover to apply pressure to the bolt catch to lock the bolt open, and a release button just rearward easily sends the bolt forward. This instinctive system doesn’t just accommodate left- or right-handed use, but enhances mechanical flow under pressure. Reloads and malfunction clearances are faster and more consistent—critical when seconds matter. Whether on the move or on the bench, everything works in concert to meet real-world performance demands.",
+        "translation": "GFR® Recce MOD1은 직관적인 완전 양손잡이 조작계를 도입했습니다. 총몸 왼쪽의 마리타임 노리쇠 멈치 아래에 탄창 멈치가 있어 왼손으로도 탄창을 빠르게 교체할 수 있습니다. 총몸 오른쪽에는 탄피 배출구 아래에 노리쇠 고정 및 전진 버튼이 있습니다. 먼지 덮개를 통해 노리쇠 멈치를 눌러 노리쇠를 후퇴 고정하고, 바로 뒤의 해제 버튼으로 손쉽게 전진시킬 수 있습니다. 이 직관적인 시스템은 단순히 양손 사용을 지원하는 데 그치지 않고 압박 상황에서도 조작이 자연스럽게 이어지도록 합니다. 재장전과 기능 고장 처리가 더 빠르고 일관되어, 일초가 아쉬운 상황에서 중요한 이점이 됩니다. 이동 중이든 사격대에서든 모든 부분이 함께 작동하며 실제 운용에 필요한 성능을 제공합니다."
+      },
+      {
+        "key": "6a498801056a19d56d32d317 Name",
+        "source": "Geissele 6MM ARC 14.5 inch barrel",
+        "translation": "가이슬리 6MM ARC 14.5인치 총열"
+      },
+      {
+        "key": "6a498801056a19d56d32d317 ShortName",
+        "source": "G* 14.5\"",
+        "translation": "G* 14.5인치"
+      },
+      {
+        "key": "6a498801056a19d56d32d317 Description",
+        "source": "Using the highest quality barrels that are cold hammer forged and chrome-lined in house, surgical precision is ensured and durability is guaranteed. The Nanoweapon®-coated Reliability Enhanced BCG with forged Carpenter 158+ bolt sets the standard for long-term endurance under high round counts and adverse conditions. The patented Phased Array™ Gas Technology significantly reduces recoil impulse for an extremely smooth shooting experience and quicker target reacquisition.",
+        "translation": "자체적으로 냉간 단조하고 크롬 도금한 최고 품질의 총열을 사용해 매우 높은 정밀도와 확실한 내구성을 제공합니다. 단조 Carpenter 158+ 노리쇠를 갖춘 Nanoweapon® 코팅 신뢰성 강화 노리쇠 뭉치(BCG)는 많은 사격량과 열악한 조건에서도 장기 내구성의 기준을 제시합니다. 특허받은 Phased Array™ 가스 기술은 반동 충격을 크게 줄여 매우 부드러운 사격감과 신속한 재조준을 제공합니다."
+      },
+      {
+        "key": "6a498893f1d74ec6cc32d31d Name",
+        "source": "Geissele 6MM ARC 16 inch barrel",
+        "translation": "가이슬리 6MM ARC 16인치 총열"
+      },
+      {
+        "key": "6a498893f1d74ec6cc32d31d ShortName",
+        "source": "G* 16\"",
+        "translation": "G* 16인치"
+      },
+      {
+        "key": "6a498893f1d74ec6cc32d31d Description",
+        "source": "Using the highest quality barrels that are cold hammer forged and chrome-lined in house, surgical precision is ensured and durability is guaranteed. The Nanoweapon®-coated Reliability Enhanced BCG with forged Carpenter 158+ bolt sets the standard for long-term endurance under high round counts and adverse conditions. The patented Phased Array™ Gas Technology significantly reduces recoil impulse for an extremely smooth shooting experience and quicker target reacquisition.",
+        "translation": "자체적으로 냉간 단조하고 크롬 도금한 최고 품질의 총열을 사용해 매우 높은 정밀도와 확실한 내구성을 제공합니다. 단조 Carpenter 158+ 노리쇠를 갖춘 Nanoweapon® 코팅 신뢰성 강화 노리쇠 뭉치(BCG)는 많은 사격량과 열악한 조건에서도 장기 내구성의 기준을 제시합니다. 특허받은 Phased Array™ 가스 기술은 반동 충격을 크게 줄여 매우 부드러운 사격감과 신속한 재조준을 제공합니다."
+      },
+      {
+        "key": "6a4988b966aaa42b3832d322 Name",
+        "source": "Geissele 6MM ARC 18 inch barrel",
+        "translation": "가이슬리 6MM ARC 18인치 총열"
+      },
+      {
+        "key": "6a4988b966aaa42b3832d322 ShortName",
+        "source": "G* 18\"",
+        "translation": "G* 18인치"
+      },
+      {
+        "key": "6a4988b966aaa42b3832d322 Description",
+        "source": "Using the highest quality barrels that are cold hammer forged and chrome-lined in house, surgical precision is ensured and durability is guaranteed. The Nanoweapon®-coated Reliability Enhanced BCG with forged Carpenter 158+ bolt sets the standard for long-term endurance under high round counts and adverse conditions. The patented Phased Array™ Gas Technology significantly reduces recoil impulse for an extremely smooth shooting experience and quicker target reacquisition.",
+        "translation": "자체적으로 냉간 단조하고 크롬 도금한 최고 품질의 총열을 사용해 매우 높은 정밀도와 확실한 내구성을 제공합니다. 단조 Carpenter 158+ 노리쇠를 갖춘 Nanoweapon® 코팅 신뢰성 강화 노리쇠 뭉치(BCG)는 많은 사격량과 열악한 조건에서도 장기 내구성의 기준을 제시합니다. 특허받은 Phased Array™ 가스 기술은 반동 충격을 크게 줄여 매우 부드러운 사격감과 신속한 재조준을 제공합니다."
+      },
+      {
+        "key": "6a4988d6e6befb6acb32d327 Name",
+        "source": "Geissele 6MM ARC 20 inch barrel",
+        "translation": "가이슬리 6MM ARC 20인치 총열"
+      },
+      {
+        "key": "6a4988d6e6befb6acb32d327 ShortName",
+        "source": "G* 20\"",
+        "translation": "G* 20인치"
+      },
+      {
+        "key": "6a4988d6e6befb6acb32d327 Description",
+        "source": "Using the highest quality barrels that are cold hammer forged and chrome-lined in house, surgical precision is ensured and durability is guaranteed. The Nanoweapon®-coated Reliability Enhanced BCG with forged Carpenter 158+ bolt sets the standard for long-term endurance under high round counts and adverse conditions. The patented Phased Array™ Gas Technology significantly reduces recoil impulse for an extremely smooth shooting experience and quicker target reacquisition.",
+        "translation": "자체적으로 냉간 단조하고 크롬 도금한 최고 품질의 총열을 사용해 매우 높은 정밀도와 확실한 내구성을 제공합니다. 단조 Carpenter 158+ 노리쇠를 갖춘 Nanoweapon® 코팅 신뢰성 강화 노리쇠 뭉치(BCG)는 많은 사격량과 열악한 조건에서도 장기 내구성의 기준을 제시합니다. 특허받은 Phased Array™ 가스 기술은 반동 충격을 크게 줄여 매우 부드러운 사격감과 신속한 재조준을 제공합니다."
+      },
+      {
+        "key": "6a4988e8964a3b687e32d32a Name",
+        "source": "Geissele 13.5\" Super Modular Rail MK16 M-LOK Black",
+        "translation": "AR-15 가이슬리 SMR MK16 13.5인치 엠락 총열덮개 (블랙)"
+      },
+      {
+        "key": "6a4988e8964a3b687e32d32a ShortName",
+        "source": "G* 13.5\" Blk",
+        "translation": "G* 13.5인치 Blk"
+      },
+      {
+        "key": "6a4988e8964a3b687e32d32a Description",
+        "source": "The Geissele Super Modular Rail MK16 offers unmatched performance for the most demanding shooters. Mounted to your AR-15 upper using the updated version of the proven Geissele Barrel Nut design, the MK16 is not only easy to install and maintain, but offers superior rigidity. Anti-rotation tabs and set-screws ensure that your rail will not rotate, even under the most extreme conditions of use. M1913 picatinny rail on top and M-LOK™ slots on every quadrant ensures maximum customization for all your accessories. The Geissele Super Modular Rail MK16 is precision machined using 7000 Series Aluminum due to its strong, rigid and light properties, and is finished in durable Type-3 Hardcoat anodized.  Also available in 9.3\", 10.5\", and 15\" lengths!\n\nThe Super Modular Rail 13.5\" MK16 M-LOK®, NSN#1005-01-672-4797 (13.5”), has been adopted by USASOC for the URG-I program (Upper Receiver Group Improved).",
+        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 아노다이징으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
+      },
+      {
+        "key": "6a498a7665bd6a175e32d337 Name",
+        "source": "Geissele 15\" Super Modular Rail MK16 M-LOK Black",
+        "translation": "AR-15 가이슬리 SMR MK16 15인치 엠락 총열덮개 (블랙)"
+      },
+      {
+        "key": "6a498a7665bd6a175e32d337 ShortName",
+        "source": "G* 15\" Blk",
+        "translation": "G* 15인치 Blk"
+      },
+      {
+        "key": "6a498a7665bd6a175e32d337 Description",
+        "source": "The Geissele Super Modular Rail MK16 offers unmatched performance for the most demanding shooters. Mounted to your AR-15 upper using the updated version of the proven Geissele Barrel Nut design, the MK16 is not only easy to install and maintain, but offers superior rigidity. Anti-rotation tabs and set-screws ensure that your rail will not rotate, even under the most extreme conditions of use. M1913 picatinny rail on top and M-LOK™ slots on every quadrant ensures maximum customization for all your accessories. The Geissele Super Modular Rail MK16 is precision machined using 7000 Series Aluminum due to its strong, rigid and light properties, and is finished in durable Type-3 Hardcoat anodized.  Also available in 9.3\", 10.5\", and 15\" lengths!\n\nThe Super Modular Rail 13.5\" MK16 M-LOK®, NSN#1005-01-672-4797 (13.5”), has been adopted by USASOC for the URG-I program (Upper Receiver Group Improved).",
+        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 아노다이징으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
+      },
+      {
+        "key": "6a498ab3de5c16d4fb32d341 Name",
+        "source": "Geissele 15\" Super Modular Rail MK16 M-LOK DDC",
+        "translation": "AR-15 가이슬리 SMR MK16 15인치 엠락 총열덮개 (DDC)"
+      },
+      {
+        "key": "6a498ab3de5c16d4fb32d341 ShortName",
+        "source": "G* 15\" DDC",
+        "translation": "G* 15인치 DDC"
+      },
+      {
+        "key": "6a498ab3de5c16d4fb32d341 Description",
+        "source": "The Geissele Super Modular Rail MK16 offers unmatched performance for the most demanding shooters. Mounted to your AR-15 upper using the updated version of the proven Geissele Barrel Nut design, the MK16 is not only easy to install and maintain, but offers superior rigidity. Anti-rotation tabs and set-screws ensure that your rail will not rotate, even under the most extreme conditions of use. M1913 picatinny rail on top and M-LOK™ slots on every quadrant ensures maximum customization for all your accessories. The Geissele Super Modular Rail MK16 is precision machined using 7000 Series Aluminum due to its strong, rigid and light properties, and is finished in durable Type-3 Hardcoat anodized.  Also available in 9.3\", 10.5\", and 15\" lengths!\n\nThe Super Modular Rail 13.5\" MK16 M-LOK®, NSN#1005-01-672-4797 (13.5”), has been adopted by USASOC for the URG-I program (Upper Receiver Group Improved).",
+        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 아노다이징으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
+      },
+      {
+        "key": "6a498af44fdb5b2ab832d34d Name",
+        "source": "Geissele 13.5\" Super Modular Rail MK16 M-LOK DDC",
+        "translation": "AR-15 가이슬리 SMR MK16 13.5인치 엠락 총열덮개 (DDC)"
+      },
+      {
+        "key": "6a498af44fdb5b2ab832d34d ShortName",
+        "source": "G* 13.5\" DDC",
+        "translation": "G* 13.5인치 DDC"
+      },
+      {
+        "key": "6a498af44fdb5b2ab832d34d Description",
+        "source": "The Geissele Super Modular Rail MK16 offers unmatched performance for the most demanding shooters. Mounted to your AR-15 upper using the updated version of the proven Geissele Barrel Nut design, the MK16 is not only easy to install and maintain, but offers superior rigidity. Anti-rotation tabs and set-screws ensure that your rail will not rotate, even under the most extreme conditions of use. M1913 picatinny rail on top and M-LOK™ slots on every quadrant ensures maximum customization for all your accessories. The Geissele Super Modular Rail MK16 is precision machined using 7000 Series Aluminum due to its strong, rigid and light properties, and is finished in durable Type-3 Hardcoat anodized.  Also available in 9.3\", 10.5\", and 15\" lengths!\n\nThe Super Modular Rail 13.5\" MK16 M-LOK®, NSN#1005-01-672-4797 (13.5”), has been adopted by USASOC for the URG-I program (Upper Receiver Group Improved).",
+        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 아노다이징으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
+      },
+      {
+        "key": "6a498b1b7d93f01b6a32d357 Name",
+        "source": "Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - Black",
+        "translation": "가이슬리 프리미엄 밀스펙 버퍼 튜브 Super 42 H1 포함 (블랙)\n(Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - Black )"
+      },
+      {
+        "key": "6a498b1b7d93f01b6a32d357 ShortName",
+        "source": "G* Buffer Black",
+        "translation": "G* 버퍼 검은색"
+      },
+      {
+        "key": "6a498b1b7d93f01b6a32d357 Description",
+        "source": "The Geissele Premium Mil-Spec Buffer Tube is machined from quality 7075-T6 Aluminum and finished in Type 3 Hardcoat Anodize, available in Black or Geissele’s DDC. This rigid and durable buffer tube conforms to all mil-spec standards and features 6 stock positions. This carbine length and mil-spec diameter Premium Buffer Tube is made in the USA and weighs in at 3.7oz, making it the perfect fit for your AR-15 lower and ensuring compatibility with most mil-spec diameter quality AR-15 stocks. Included in the package is a high-quality, mil-spec castle nut and end plate.",
+        "translation": "가이슬리 프리미엄 군용 규격 버퍼 튜브는 고품질 7075-T6 알루미늄을 가공하고 3형 경질 아노다이징으로 마감한 제품으로, 검은색 또는 가이슬리의 사막색(DDC)으로 제공됩니다. 견고하고 내구성이 높으며 모든 군용 규격을 충족하고 개머리판 위치를 6단계로 조절할 수 있습니다. 카빈 길이와 군용 규격 직경을 갖춘 이 미국제 버퍼 튜브는 무게가 3.7온스로, AR-15 하부 총몸에 잘 맞고 군용 규격 직경의 고품질 AR-15 개머리판 대부분과 호환됩니다. 고품질 군용 규격 캐슬 너트와 엔드플레이트가 함께 제공됩니다."
+      },
+      {
+        "key": "6a498bb3b3f45596bb32d35b Name",
+        "source": "Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - DDC",
+        "translation": "가이슬리 프리미엄 밀스펙 버퍼 튜브 Super 42 H1 포함 (사막색)\n(Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - DDC )"
+      },
+      {
+        "key": "6a498bb3b3f45596bb32d35b ShortName",
+        "source": "G* Buffer DDC",
+        "translation": "G* 버퍼 DDC"
+      },
+      {
+        "key": "6a498bb3b3f45596bb32d35b Description",
+        "source": "The Geissele Premium Mil-Spec Buffer Tube is machined from quality 7075-T6 Aluminum and finished in Type 3 Hardcoat Anodize, available in Black or Geissele’s DDC. This rigid and durable buffer tube conforms to all mil-spec standards and features 6 stock positions. This carbine length and mil-spec diameter Premium Buffer Tube is made in the USA and weighs in at 3.7oz, making it the perfect fit for your AR-15 lower and ensuring compatibility with most mil-spec diameter quality AR-15 stocks. Included in the package is a high-quality, mil-spec castle nut and end plate.",
+        "translation": "가이슬리 프리미엄 군용 규격 버퍼 튜브는 고품질 7075-T6 알루미늄을 가공하고 3형 경질 아노다이징으로 마감한 제품으로, 검은색 또는 가이슬리의 사막색(DDC)으로 제공됩니다. 견고하고 내구성이 높으며 모든 군용 규격을 충족하고 개머리판 위치를 6단계로 조절할 수 있습니다. 카빈 길이와 군용 규격 직경을 갖춘 이 미국제 버퍼 튜브는 무게가 3.7온스로, AR-15 하부 총몸에 잘 맞고 군용 규격 직경의 고품질 AR-15 개머리판 대부분과 호환됩니다. 고품질 군용 규격 캐슬 너트와 엔드플레이트가 함께 제공됩니다."
+      },
+      {
+        "key": "6a498c43aa51eb453732d35d Name",
+        "source": "Geissele Freedom Rifle® MOD1, 6MM ARC Recce - FDE",
+        "translation": "가이슬리 프리덤 라이플 MOD1 6MM ARC 정찰형 소총 (사막색)"
+      },
+      {
+        "key": "6a498c43aa51eb453732d35d Description",
+        "source": "The GFR® (Geissele Freedom Rifle®) Recce MOD1 builds on the backbone of the proven GFR® line, purpose-built for serious use. The modern shooter, whether duty, defender, hunter or competitor, requires tools that offer the best performance and balance for when it counts.\n\n \n\nTraditionally, shooters faced a tradeoff: the lightweight agility of small-frame platforms often meant sacrificing range and power, while large-frame rifles delivered performance at the cost of added weight and bulk. The emergence of 6mm ARC presented a promising solution, a balance of capability and efficiency. The Geissele Freedom Rifle® was purpose-built around the cartridge and designed to maximize performance of 6mmARC while preserving flawless reliability.",
+        "translation": "GFR®(가이슬리 프리덤 라이플) Recce MOD1은 검증된 GFR® 계열을 바탕으로 본격적인 운용을 위해 제작되었습니다. 임무 수행자든, 방어자든, 사냥꾼이든, 경기 사수든 현대의 사수에게는 결정적인 순간에 최고의 성능과 균형을 제공하는 도구가 필요합니다.\n\n전통적으로 사수는 절충을 감수해야 했습니다. 작은 총몸을 사용하는 플랫폼의 가벼움과 기동성을 얻으려면 사거리와 위력을 포기해야 하는 경우가 많았고, 큰 총몸을 사용하는 소총은 성능을 얻는 대신 무게와 부피가 늘어났습니다. 6mm ARC의 등장은 성능과 효율 사이의 균형이라는 유망한 해법을 제시했습니다. 가이슬리 프리덤 라이플은 이 탄약을 중심으로 제작되었으며, 완벽한 신뢰성을 유지하면서 6mm ARC의 성능을 최대한 끌어내도록 설계되었습니다."
+      },
+      {
+        "key": "6a498c71dda906144f32d364 Name",
+        "source": "Geissele Freedom Rifle® Recce MOD1 Upper FDE",
+        "translation": "가이슬리 프리덤 라이플 Recce MOD1 상부 총몸 (사막색)"
+      },
+      {
+        "key": "6a498c71dda906144f32d364 ShortName",
+        "source": "MOD1 Upper FDE",
+        "translation": "MOD1 상부 FDE"
+      },
+      {
+        "key": "6a498c71dda906144f32d364 Description",
+        "source": "The GFR® Recce MOD1 introduces intuitive full ambidextrous controls. A magazine release on the left side of the receiver below the Maritime Bolt Catch makes mag changes swift for left-handed use. The right side of the receiver features bolt catch and release buttons below the ejection port. The shooter uses the dust cover to apply pressure to the bolt catch to lock the bolt open, and a release button just rearward easily sends the bolt forward. This instinctive system doesn’t just accommodate left- or right-handed use, but enhances mechanical flow under pressure. Reloads and malfunction clearances are faster and more consistent—critical when seconds matter. Whether on the move or on the bench, everything works in concert to meet real-world performance demands.",
+        "translation": "GFR® Recce MOD1은 직관적인 완전 양손잡이 조작계를 도입했습니다. 총몸 왼쪽의 마리타임 노리쇠 멈치 아래에 탄창 멈치가 있어 왼손으로도 탄창을 빠르게 교체할 수 있습니다. 총몸 오른쪽에는 탄피 배출구 아래에 노리쇠 고정 및 전진 버튼이 있습니다. 먼지 덮개를 통해 노리쇠 멈치를 눌러 노리쇠를 후퇴 고정하고, 바로 뒤의 해제 버튼으로 손쉽게 전진시킬 수 있습니다. 이 직관적인 시스템은 단순히 양손 사용을 지원하는 데 그치지 않고 압박 상황에서도 조작이 자연스럽게 이어지도록 합니다. 재장전과 기능 고장 처리가 더 빠르고 일관되어, 일초가 아쉬운 상황에서 중요한 이점이 됩니다. 이동 중이든 사격대에서든 모든 부분이 함께 작동하며 실제 운용에 필요한 성능을 제공합니다."
+      },
+      {
+        "key": "6a498d79bc4f658c5e32d36c Name",
+        "source": "Geissele SBS Buttstock Black",
+        "translation": "AR-15 가이슬리 SBS 개머리판 (블랙)"
+      },
+      {
+        "key": "6a498d79bc4f658c5e32d36c Description",
+        "source": "A Geissele SBS Buttstock in Black",
+        "translation": "검은색 가이슬리 SBS 개머리판입니다."
+      },
+      {
+        "key": "6a498da87758bb924732d36d Name",
+        "source": "Geissele SBS Buttstock DDC",
+        "translation": "AR-15 가이슬리 SBS 개머리판 (사막색)"
+      },
+      {
+        "key": "6a498da87758bb924732d36d Description",
+        "source": "A Geissele SBS Buttstock in DDC",
+        "translation": "사막색 가이슬리 SBS 개머리판입니다."
+      },
+      {
+        "key": "6a498e0a6442f820c932d36f Name",
+        "source": "Geissele 6MM ARC ICM™ 8 round Magazine",
+        "translation": "8발, 가이슬리 6MM ARC ICM 탄창"
+      },
+      {
+        "key": "6a498e0a6442f820c932d36f Description",
+        "source": "The Geissele Intermediate Cartridge Magazine is ultra-durable and purpose-built to ensure reliable feeding. The ICM™ is optimized for the 6mm ARC, 22 ARC and 6.5 Grendel cartridges, with bomb proof construction and full mil-spec compatibility. This magazine contains the following features:\n\n    Robust one piece construction\n    Laser welded\n    410 Stainless Steel Body and mating components\n    Stainless steel square spring for reliable feeding\n    Cartridge optimized feed lips\n    Anti-Tilt Follower\n    Corrosion Resistant\n    Made in the USA",
+        "translation": "가이슬리 중간탄용 탄창(ICM™)은 매우 높은 내구성과 안정적인 급탄을 위해 제작되었습니다. 6mm ARC, 22 ARC, 6.5 Grendel 탄약에 최적화되었으며, 극도로 견고한 구조와 완전한 군용 규격 호환성을 갖추었습니다. 특징은 다음과 같습니다.\n\n견고한 일체형 구조\n레이저 용접\n410 스테인리스강 몸체 및 결합 부품\n안정적인 급탄을 위한 사각 단면 스테인리스강 스프링\n탄약에 최적화된 급탄부\n기울어짐 방지 탄밀대\n내식성\n미국 생산"
+      },
+      {
+        "key": "6a498ef39e77abe6f432d372 Name",
+        "source": "Geissele 6MM ARC ICM™ 15 round Magazine",
+        "translation": "15발, 가이슬리 6MM ARC ICM 탄창"
+      },
+      {
+        "key": "6a498ef39e77abe6f432d372 Description",
+        "source": "The Geissele Intermediate Cartridge Magazine is ultra-durable and purpose-built to ensure reliable feeding. The ICM™ is optimized for the 6mm ARC, 22 ARC and 6.5 Grendel cartridges, with bomb proof construction and full mil-spec compatibility. This magazine contains the following features:\n\n    Robust one piece construction\n    Laser welded\n    410 Stainless Steel Body and mating components\n    Stainless steel square spring for reliable feeding\n    Cartridge optimized feed lips\n    Anti-Tilt Follower\n    Corrosion Resistant\n    Made in the USA",
+        "translation": "가이슬리 중간탄용 탄창(ICM™)은 매우 높은 내구성과 안정적인 급탄을 위해 제작되었습니다. 6mm ARC, 22 ARC, 6.5 Grendel 탄약에 최적화되었으며, 극도로 견고한 구조와 완전한 군용 규격 호환성을 갖추었습니다. 특징은 다음과 같습니다.\n\n견고한 일체형 구조\n레이저 용접\n410 스테인리스강 몸체 및 결합 부품\n안정적인 급탄을 위한 사각 단면 스테인리스강 스프링\n탄약에 최적화된 급탄부\n기울어짐 방지 탄밀대\n내식성\n미국 생산"
+      },
+      {
+        "key": "6a498f7958fe328f3532d376 Name",
+        "source": "Geissele 6MM ARC ICM™ 20 round Magazine",
+        "translation": "20발, 가이슬리 6MM ARC ICM 탄창"
+      },
+      {
+        "key": "6a498f7958fe328f3532d376 Description",
+        "source": "The Geissele Intermediate Cartridge Magazine is ultra-durable and purpose-built to ensure reliable feeding. The ICM™ is optimized for the 6mm ARC, 22 ARC and 6.5 Grendel cartridges, with bomb proof construction and full mil-spec compatibility. This magazine contains the following features:\n\n    Robust one piece construction\n    Laser welded\n    410 Stainless Steel Body and mating components\n    Stainless steel square spring for reliable feeding\n    Cartridge optimized feed lips\n    Anti-Tilt Follower\n    Corrosion Resistant\n    Made in the USA",
+        "translation": "가이슬리 중간탄용 탄창(ICM™)은 매우 높은 내구성과 안정적인 급탄을 위해 제작되었습니다. 6mm ARC, 22 ARC, 6.5 Grendel 탄약에 최적화되었으며, 극도로 견고한 구조와 완전한 군용 규격 호환성을 갖추었습니다. 특징은 다음과 같습니다.\n\n견고한 일체형 구조\n레이저 용접\n410 스테인리스강 몸체 및 결합 부품\n안정적인 급탄을 위한 사각 단면 스테인리스강 스프링\n탄약에 최적화된 급탄부\n기울어짐 방지 탄밀대\n내식성\n미국 생산"
+      },
+      {
+        "key": "6a498f9db5a904c3ef32d37a Name",
+        "source": "Geissele 6MM ARC ICM™ 30 round Magazine",
+        "translation": "30발, 가이슬리 6MM ARC ICM 탄창"
+      },
+      {
+        "key": "6a498f9db5a904c3ef32d37a Description",
+        "source": "The Geissele Intermediate Cartridge Magazine is ultra-durable and purpose-built to ensure reliable feeding. The ICM™ is optimized for the 6mm ARC, 22 ARC and 6.5 Grendel cartridges, with bomb proof construction and full mil-spec compatibility. This magazine contains the following features:\n\n    Robust one piece construction\n    Laser welded\n    410 Stainless Steel Body and mating components\n    Stainless steel square spring for reliable feeding\n    Cartridge optimized feed lips\n    Anti-Tilt Follower\n    Corrosion Resistant\n    Made in the USA",
+        "translation": "가이슬리 중간탄용 탄창(ICM™)은 매우 높은 내구성과 안정적인 급탄을 위해 제작되었습니다. 6mm ARC, 22 ARC, 6.5 Grendel 탄약에 최적화되었으며, 극도로 견고한 구조와 완전한 군용 규격 호환성을 갖추었습니다. 특징은 다음과 같습니다.\n\n견고한 일체형 구조\n레이저 용접\n410 스테인리스강 몸체 및 결합 부품\n안정적인 급탄을 위한 사각 단면 스테인리스강 스프링\n탄약에 최적화된 급탄부\n기울어짐 방지 탄밀대\n내식성\n미국 생산"
+      },
+      {
+        "key": "6a499060281327df1e32d37f Name",
+        "source": "Geissele 6MM ARC ICM™ 30 round Magazine (Chocolate Chip Cerakote)",
+        "translation": "30발, 가이슬리 6MM ARC ICM 탄창 (초콜릿 칩 세라코트)"
+      },
+      {
+        "key": "6a499060281327df1e32d37f Description",
+        "source": "The Geissele Intermediate Cartridge Magazine is ultra-durable and purpose-built to ensure reliable feeding. The ICM™ is optimized for the 6mm ARC, 22 ARC and 6.5 Grendel cartridges, with bomb proof construction and full mil-spec compatibility. This magazine contains the following features:\n\n    Robust one piece construction\n    Laser welded\n    410 Stainless Steel Body and mating components\n    Stainless steel square spring for reliable feeding\n    Cartridge optimized feed lips\n    Anti-Tilt Follower\n    Corrosion Resistant\n    Made in the USA",
+        "translation": "가이슬리 중간탄용 탄창(ICM™)은 매우 높은 내구성과 안정적인 급탄을 위해 제작되었습니다. 6mm ARC, 22 ARC, 6.5 Grendel 탄약에 최적화되었으며, 극도로 견고한 구조와 완전한 군용 규격 호환성을 갖추었습니다. 특징은 다음과 같습니다.\n\n견고한 일체형 구조\n레이저 용접\n410 스테인리스강 몸체 및 결합 부품\n안정적인 급탄을 위한 사각 단면 스테인리스강 스프링\n탄약에 최적화된 급탄부\n기울어짐 방지 탄밀대\n내식성\n미국 생산"
+      },
+      {
+        "key": "6a49911178ded31d0232d383 Name",
+        "source": "Geissele A17 Grip Black",
+        "translation": "AR-15 가이슬리 A17 권총손잡이 (블랙)"
+      },
+      {
+        "key": "6a49911178ded31d0232d383 Description",
+        "source": "The Geissele A17 Grip is a modern take on the classic 1911 grip angle for the AR15/M4 platform.  Incorporating a similar angle as the well-known 1911, the Geissele A17 Grip also features attractive anti-slip texturing and a thicker palm swell to assist with easily attaining a high tight hold.",
+        "translation": "가이슬리 A17 권총손잡이는 AR-15/M4 플랫폼용으로, 1911 계열과 유사한 그립 각도와 두툼한 팜 스웰을 통해 높은 그립을 안정적으로 잡을 수 있도록 설계되었습니다. 미끄럼 방지 텍스처를 적용해 열악한 조건에서도 확실한 파지력을 제공합니다."
+      },
+      {
+        "key": "6a49911b2b6058feb932d384 Name",
+        "source": "Geissele A17 Grip DDC",
+        "translation": "AR-15 가이슬리 A17 권총손잡이 (사막색)"
+      },
+      {
+        "key": "6a49911b2b6058feb932d384 Description",
+        "source": "The Geissele A17 Grip is a modern take on the classic 1911 grip angle for the AR15/M4 platform.  Incorporating a similar angle as the well-known 1911, the Geissele A17 Grip also features attractive anti-slip texturing and a thicker palm swell to assist with easily attaining a high tight hold.",
+        "translation": "가이슬리 A17 권총손잡이는 AR-15/M4 플랫폼용으로, 1911 계열과 유사한 그립 각도와 두툼한 팜 스웰을 통해 높은 그립을 안정적으로 잡을 수 있도록 설계되었습니다. 미끄럼 방지 텍스처를 적용해 열악한 조건에서도 확실한 파지력을 제공합니다."
+      },
+      {
+        "key": "6a49925a59d7813ce732d388 Name",
+        "source": "HUXWRX Muzzle Brake QD6 5/8-25\"",
+        "translation": "헉스웍스 QD6 5/8-25 총구제퇴기"
+      },
+      {
+        "key": "6a49925a59d7813ce732d388 Description",
+        "source": "The HUXWRX Muzzle Brake QD6 5/8-25\" is DMLS printed in 17-4 Stainless Steel. It is full-auto rated and is compatible with 6mm platforms.",
+        "translation": "헉스웍스(HUXWRX)의 QD6 5/8-25 총구제퇴기는 17-4 스테인리스 스틸을 DMLS 공정으로 제작한 부품입니다. 완전 자동 사격 등급을 충족하며 6mm 플랫폼과 호환됩니다."
+      },
+      {
+        "key": "6a4993554daf73985d32d38d Name",
+        "source": "HUXWRX FLOW 6K 6MM ARC Sound Suppressor - Black",
+        "translation": "헉스웍스 FLOW 6K 6MM ARC 소음기 (검은색)"
+      },
+      {
+        "key": "6a4993554daf73985d32d38d Description",
+        "source": "Precision redefined, the first dedicated 6mm Flow-Through® suppressor from HUXWRX Safety Co. to fit all applications. The FLOW 6k suppressor delivers superior toxic fume exposure mitigation, sound reduction, recoil reduction, accuracy, and repeatability. The integrated GEOFLASH® cap geometry effectively reduces flash signature without negatively impacting cycling or service life. The FLOW 6k is DMLS printed in 17-4 Stainless Steel. It is full-auto rated and compatible with 17 HMR, 5.56, 5.7, and 6mm platforms.\n\n \n\nCompatible with Muzzle Brake-QD556, QD6, and Flash Hider-QD556, QD6, in multiple thread patterns.",
+        "translation": "정밀도를 새롭게 정의하는 헉스웍스 최초의 6mm 전용 플로스루(Flow-Through®) 소음기로, 다양한 용도에 대응합니다. FLOW 6k는 유독 가스 노출, 소음 및 반동을 줄이고 명중률과 반복 일관성을 높입니다. 일체형 GEOFLASH® 캡의 형상은 작동 주기나 수명에 악영향을 주지 않으면서 발사 화염을 효과적으로 억제합니다. 17-4 스테인리스강을 직접 금속 레이저 소결(DMLS) 방식으로 제작했습니다. 완전 자동 사격을 지원하며 17 HMR, 5.56, 5.7 및 6mm 플랫폼과 호환됩니다.\n\n여러 나사산 규격의 QD556 및 QD6 총구제퇴기와 QD556 및 QD6 소염기에 호환됩니다."
+      },
+      {
+        "key": "6a499362499cedb67632d38e Name",
+        "source": "HUXWRX FLOW 6K 6MM ARC Sound Suppressor - Multicam Tropic Cerakote",
+        "translation": "헉스웍스 FLOW 6K 6MM ARC 소음기 (멀티캠 트로픽 세라코트)"
+      },
+      {
+        "key": "6a499362499cedb67632d38e Description",
+        "source": "Precision redefined, the first dedicated 6mm Flow-Through® suppressor from HUXWRX Safety Co. to fit all applications. The FLOW 6k suppressor delivers superior toxic fume exposure mitigation, sound reduction, recoil reduction, accuracy, and repeatability. The integrated GEOFLASH® cap geometry effectively reduces flash signature without negatively impacting cycling or service life. The FLOW 6k is DMLS printed in 17-4 Stainless Steel. It is full-auto rated and compatible with 17 HMR, 5.56, 5.7, and 6mm platforms.\n\n \n\nCompatible with Muzzle Brake-QD556, QD6, and Flash Hider-QD556, QD6, in multiple thread patterns.",
+        "translation": "정밀도를 새롭게 정의하는 헉스웍스 최초의 6mm 전용 플로스루(Flow-Through®) 소음기로, 다양한 용도에 대응합니다. FLOW 6k는 유독 가스 노출, 소음 및 반동을 줄이고 명중률과 반복 일관성을 높입니다. 일체형 GEOFLASH® 캡의 형상은 작동 주기나 수명에 악영향을 주지 않으면서 발사 화염을 효과적으로 억제합니다. 17-4 스테인리스강을 직접 금속 레이저 소결(DMLS) 방식으로 제작했습니다. 완전 자동 사격을 지원하며 17 HMR, 5.56, 5.7 및 6mm 플랫폼과 호환됩니다.\n\n여러 나사산 규격의 QD556 및 QD6 총구제퇴기와 QD556 및 QD6 소염기에 호환됩니다."
+      },
+      {
+        "key": "6a4994bf50c96453c432d390 Name",
+        "source": "Geissele Antistrike Super Compact Gas Block",
+        "translation": "AR-15 가이슬리 안티스트라이크 초소형 가스 블록"
+      },
+      {
+        "key": "6a4994bf50c96453c432d390 Description",
+        "source": "The Geissele Antistrike Super Compact Gas Block is machined from 4140 steel and finished in a durable nitride coating. Its low profile clears free-float handguards while the anti-strike shoulder shields the gas port from damage under hard use, delivering consistent gas metering through sustained fire.",
+        "translation": "가이슬리 안티스트라이크 초소형 가스 블록은 4140 강철을 가공하고 니트라이드 코팅으로 마감한 저프로파일 부품입니다. 프리플로트 총열덮개 아래로 깔끔하게 들어가며, 가혹한 사용에서도 가스 포트를 보호하면서 안정적인 가스 조절을 제공합니다."
+      },
+      {
+        "key": "6a4a54c4dedfd2327f32d392 Name",
+        "source": "Geissele Super Charging Handle (SCH®) 5.56 DDC",
+        "translation": "AR-15 가이슬리 SCH 5.56 장전 손잡이 (DDC)"
+      },
+      {
+        "key": "6a4a54c4dedfd2327f32d392 Description",
+        "source": "The Super Charging Handle (SCH®) is 3D machined from a solid block of aircraft grade 7075-T6 aluminum. Its ambidextrous design allows for seamless operation from either side of the weapon. The levers are dual contoured similar to that of the charging handle of an M14, where not only the x-axis but also the y-axis receive radius cuts. The handling surface of the lever is also checkered, adding a textured grip aiding to the use when operating with gloves. The heightened rear lip of the SCH aids in mitigating gas blow back to the shooter when shooting with short barreled and suppressed weapon systems. All parts are then Type 3 Hardcoat anodized and are available in black and DDC (Desert Dirt Color).",
+        "translation": "슈퍼 장전 손잡이(SCH®)는 항공기용 7075-T6 알루미늄 통소재를 3차원 가공해 제작합니다. 양손잡이 설계로 총기의 어느 쪽에서도 자연스럽게 조작할 수 있습니다. 레버는 M14 장전 손잡이처럼 두 방향으로 곡면 가공되어 X축뿐 아니라 Y축에도 둥근 절삭면을 갖추었습니다. 레버의 조작면에는 격자 무늬가 있어 장갑을 착용했을 때도 잘 잡힙니다. 높게 돌출된 후방 턱은 단총열 및 소음기 장착 총기를 사격할 때 사수에게 역류하는 가스를 줄여줍니다. 모든 부품은 3형 경질 아노다이징으로 마감되며 검은색과 사막색(DDC)으로 제공됩니다."
+      },
+      {
+        "key": "6a4aa043613607d28f32d396 Name",
+        "source": "Geissele A22 Grip DDC",
+        "translation": "AR-15 가이슬리 A22 권총손잡이 (DDC)"
+      },
+      {
+        "key": "6a4aa043613607d28f32d396 Description",
+        "source": "The Geissele A22 Grip is a modern take on a classic grip angle for the AR15/M4 platform.  Incorporating a similar angle as the venerable A2 including the iconic finger swell, the Geissele A22 Grip also features attractive anti-slip texturing and a thicker palm swell to assist with easily attaining a high tight hold.",
+        "translation": "가이슬리 A22 권총손잡이는 AR-15/M4 플랫폼에 전통적인 손잡이 각도를 현대적으로 적용한 제품입니다. 오랫동안 쓰인 A2와 유사한 각도 및 특유의 손가락 돌출부를 갖추었으며, 보기 좋은 미끄럼 방지 표면과 더 두꺼운 손바닥 받침으로 손잡이를 높고 단단하게 잡기 쉽습니다."
+      },
+      {
+        "key": "6a5a60d5d1065dd4fa110879 Name",
+        "source": "Geissele 10.5\" Super Modular Rail MK4 M-LOK®",
+        "translation": "AR-15 가이슬리 SMR MK4 10.5인치 엠락 총열덮개 (DDC)"
+      },
+      {
+        "key": "6a5a60d5d1065dd4fa110879 ShortName",
+        "source": "G* 15\" DDC",
+        "translation": "G* 15인치 DDC"
+      },
+      {
+        "key": "6a5a60d5d1065dd4fa110879 Description",
+        "source": "The Super Modular Rail MK4 M-LOK™ is Geissele’s ultra-lightweight M-LOK option. These rails are purpose-built and feature integrated M1913 picatinny rail sections at the fore of the rail in the 3, 6 and 9 o’clock positions. Maximum venting for heat dissipation also dramatically reduces the rail's overall weight, while maintaining its same strong and rigid platform. Utilizing Magpul's M-LOK technology at the 3, 6, and 9 o'clock positions, as well as the upper 45 quadrants. The Super Modular Rail MK4 is both versatile and modular, allowing the user to tailor their platform to his or her unique needs.\n\nThe MK4 also features Geissele's proprietary 2.25\" long barrel nut. This increases the surface contact where the rail interfaces with the receiver and creates a platform that can be trusted to be straight and true the entire length of the free float rail. This increases accuracy and zero repeatability during disassembly and reassembly when performing maintenance.",
+        "translation": "슈퍼 모듈러 레일 MK4 엠락(M-LOK™)은 가이슬리의 초경량 엠락 모델입니다. 레일 전방의 3시, 6시, 9시 방향에 M1913 피카티니 레일 구간이 일체형으로 배치되어 있습니다. 방열을 위한 충분한 통풍구는 견고함과 강성을 유지하면서 전체 무게도 크게 줄여줍니다. 3시, 6시, 9시 방향과 상부의 45도 방향 구간에 맥풀의 엠락 기술을 적용했습니다. 다목적 모듈식 구성으로 사용자의 필요에 맞게 총기를 꾸밀 수 있습니다.\n\nMK4에는 가이슬리 고유의 2.25인치 길이 총열 너트도 적용됩니다. 레일과 총몸 사이의 접촉 면적을 늘려 자유부동식 레일 전체 길이에 걸쳐 곧고 정확한 정렬을 유지합니다. 이로써 명중률이 향상되고 정비를 위해 분해한 후 재조립했을 때도 영점의 재현성이 높아집니다."
+      },
+      {
+        "key": "6a5a6545f8a853b55a11088c Name",
+        "source": "Geissele 5.56x45MM  10.5 inch barrel",
+        "translation": "가이슬리 5.56x45 10.5인치 총열"
+      },
+      {
+        "key": "6a5a6545f8a853b55a11088c ShortName",
+        "source": "G* 10.5\" 556",
+        "translation": "G* 10.5인치 556"
+      },
+      {
+        "key": "6a5a6545f8a853b55a11088c Description",
+        "source": "Using the highest quality barrels that are cold hammer forged and chrome-lined in house, surgical precision is ensured and durability is guaranteed. The Nanoweapon®-coated Reliability Enhanced BCG with forged Carpenter 158+ bolt sets the standard for long-term endurance under high round counts and adverse conditions. The patented Phased Array™ Gas Technology significantly reduces recoil impulse for an extremely smooth shooting experience and quicker target reacquisition.",
+        "translation": "자체적으로 냉간 단조하고 크롬 도금한 최고 품질의 총열을 사용해 매우 높은 정밀도와 확실한 내구성을 제공합니다. 단조 Carpenter 158+ 노리쇠를 갖춘 Nanoweapon® 코팅 신뢰성 강화 노리쇠 뭉치(BCG)는 많은 사격량과 열악한 조건에서도 장기 내구성의 기준을 제시합니다. 특허받은 Phased Array™ 가스 기술은 반동 충격을 크게 줄여 매우 부드러운 사격감과 신속한 재조준을 제공합니다."
+      },
+      {
+        "key": "6a5a65b0cf9abd7e0211088e Name",
+        "source": "Geissele Antistrike Super Compact Gas Block 556",
+        "translation": "AR-15 가이슬리 안티스트라이크 초소형 가스 블록 5.56"
+      },
+      {
+        "key": "6a5a65b0cf9abd7e0211088e Description",
+        "source": "The Geissele Antistrike Super Compact Gas Block is machined from 4140 steel and finished in a durable nitride coating. Its low profile clears free-float handguards while the anti-strike shoulder shields the gas port from damage under hard use, delivering consistent gas metering through sustained fire.",
+        "translation": "가이슬리 안티스트라이크 초소형 가스 블록은 4140 강철을 가공하고 니트라이드 코팅으로 마감한 저프로파일 부품입니다. 프리플로트 총열덮개 아래로 깔끔하게 들어가며, 가혹한 사용에서도 가스 포트를 보호하면서 안정적인 가스 조절을 제공합니다."
+      },
+      {
+        "key": "6a6663f2155dd87d487e228f Name",
+        "source": "Noveske Love Handle (FDE)",
+        "translation": "AR-15 노베스키 러브 핸들 장전 손잡이 (사막색)"
+      },
+      {
+        "key": "6a6663f2155dd87d487e228f Description",
+        "source": "Premium Materials\n: Precision-machined from high-quality 7075-T6 aluminum, this charging handle offers superior strength, durability, and lightweight performance. It's designed to withstand the harshest conditions while maintaining flawless functionality.\n\nType III Hard Coat Finish\n: The Love Handle features a Type III hard coat anodized finish, providing exceptional corrosion resistance and enhancing its longevity. This finish ensures your charging handle remains resilient even in harsh environments.\n\nSmooth Operation\n: The Love Handle  is engineered for smooth and reliable operation, minimizing friction and resistance during cycling. Its ergonomic design ensures comfortable and effortless handling, even in high-stress situations.  The low profile and forward swept handles are designed to have a minimal snag hazards at 2.310\" overall width.\n\nAmbidextrous Compatibility\n: With ambidextrous compatibility, this charging handle accommodates both right-handed and left-handed shooters, providing versatility and convenience for all users.\n\nGas Fence for Reduced Gas Blowback\n: Designed with a gas fence, this charging handle effectively mitigates gas blowback, enhancing your shooting experience by redirecting excess gas away from your face. This feature ensures a cleaner, more comfortable shooting experience.\n\nNoveske Quality\n: Noveske Rifleworks, known for its commitment to excellence, proudly manufactures the Love Handle in the USA. With Noveske, you're getting a product backed by a legacy of quality and innovation.",
+        "translation": "고급 소재\n고품질 7075-T6 알루미늄을 정밀 가공한 장전 손잡이로, 뛰어난 강도와 내구성을 가벼운 무게로 제공합니다. 극도로 열악한 환경에서도 완벽한 기능을 유지하도록 설계되었습니다.\n\n3형 경질 마감\n러브 핸들은 3형 경질 아노다이징 마감으로 뛰어난 내식성과 긴 수명을 제공합니다. 혹독한 환경에서도 견고함을 유지합니다.\n\n부드러운 작동\n작동 중 마찰과 저항을 최소화해 부드럽고 안정적으로 움직이도록 설계되었습니다. 인체공학적 구조로 압박이 심한 상황에서도 편안하고 손쉽게 조작할 수 있습니다. 전체 폭 2.310인치의 낮고 전방으로 기울어진 손잡이는 걸릴 위험을 최소화합니다.\n\n양손 사용\n오른손잡이와 왼손잡이 사수 모두 사용할 수 있어 모든 사용자에게 활용성과 편의성을 제공합니다.\n\n가스 역류 방지벽\n가스 방지벽이 과도한 가스를 얼굴에서 멀어지게 유도하여 역류를 효과적으로 줄입니다. 더 쾌적하고 편안한 사격을 도와줍니다.\n\n노베스키 품질\n탁월함을 추구하는 노베스키 라이플웍스가 러브 핸들을 미국에서 생산합니다. 품질과 혁신의 전통이 뒷받침하는 제품입니다."
+      },
+      {
+        "key": "6a6664776b0e668ef57e2298 Name",
+        "source": "Noveske Chainsaw™ 5.56x45mm Upper Receiver (FDE)",
+        "translation": "노베스키 Chainsaw 5.56x45 상부 총몸 (사막색)"
+      },
+      {
+        "key": "6a6664776b0e668ef57e2298 ShortName",
+        "source": "Chainsaw Upper",
+        "translation": "체인소 상부"
+      },
+      {
+        "key": "6a6664776b0e668ef57e2298 Description",
+        "source": "Noveske Chainsaw™ forged upper receiver from 7075-T6 aluminum w/extended feed ramps\nHardcoat type III anodizing\nBlack nitride Noveske marked forward assist\nFeaturing anti-rotation interface with handguard\nPhosphate coated bolt carrier, full auto compatible, chrome lined carrier bore and key\nProperly staked grade 8 American made gas key bolts\nPhosphate bolt made from Carpenter 158 heat treated steel MPI tested (magnetic particle inspected)",
+        "translation": "확장형 급탄 램프가 있는 7075-T6 알루미늄 단조 노베스키 Chainsaw™ 상부 총몸입니다.\n3형 경질 아노다이징 마감\n검은색 질화 처리 및 노베스키 표시가 있는 노리쇠 전진기\n총열덮개와의 회전 방지 결합 구조\n인산염 코팅 노리쇠 뭉치, 완전 자동 사격 호환, 뭉치 내부와 가스 키의 크롬 도금\n확실하게 풀림 방지 처리가 된 미국제 8등급 가스 키 볼트\n열처리된 Carpenter 158 강철로 제작하고 인산염 코팅 및 자분 탐상 검사(MPI)를 거친 노리쇠"
+      },
+      {
+        "key": "6a6664ef79918820167e229e Name",
+        "source": "Noveske 4th Generation NSR 10.5\" M-LOK®",
+        "translation": "AR-15 노베스키 4세대 NSR 10.5인치 엠락 총열덮개"
+      },
+      {
+        "key": "6a6664ef79918820167e229e ShortName",
+        "source": "Noveske 10.5\"",
+        "translation": "노베스키 10.5인치"
+      },
+      {
+        "key": "6a6664ef79918820167e229e Description",
+        "source": "4th Generation NSR-15” (M-LOK) Free Floating Handguard\nFeaturing M-LOK mounting positions every 45 degrees with picatinny 1913 top rail\nLight weight American made steel barrel nut",
+        "translation": "4세대 NSR-15인치 엠락(M-LOK) 자유부동식 총열덮개입니다.\n45도 간격의 엠락 장착부와 상부의 1913 피카티니 레일을 갖추었습니다.\n미국제 경량 강철 총열 너트를 사용합니다."
+      },
+      {
+        "key": "6a6665ecabc371841d7e22a7 Name",
+        "source": "Noveske CHF Chrome Lined Barrel 5.56x45mm 11.5 inch barrel",
+        "translation": "노베스키 CHF 크롬라이닝 5.56x45 11.5인치 총열"
+      },
+      {
+        "key": "6a6665ecabc371841d7e22a7 ShortName",
+        "source": "Noveske 11.5\" 556",
+        "translation": "노베스키 11.5인치 556"
+      },
+      {
+        "key": "6a6665ecabc371841d7e22a7 Description",
+        "source": "Our chrome lined barrels are cold hammered forged and made with the material callouts and manufacturing process for the M249 Machine Gun barrel.\n\nThe cold hammer forging process work hardens the steel around a rifled mandrel, which creates the lands and grooves. The barrel is then chrome lined to the spec for a M249 Machine Gun barrel, which is about twice as thick as that of an M4 barrel. The end result is a rifle that can be run hard day after day. For any high round count, high temperature, heavy shooting, we recommend our chrome lined barrel.\n\nPremium Cold Hammer Forged (CHF) 5.56mm Noveske barrels available in 10.5\", 12.5\", 13.7\", 14.5\", and 16.1\" lengths. Each barrel is CHF-formed with a 1:7 twist and 5.56 NATO chamber, magnetic‑particle inspected for material integrity, and fitted with a Noveske low‑profile .750\" journal gas block pinned to the barrel. All include an M4‑style barrel extension and ½\"x28 muzzle threads. The only exception is the Skinny Profile 14.5\", which features a .625\" journal.",
+        "translation": "노베스키의 크롬 도금 총열은 M249 기관총 총열의 소재 규격과 제조 공정을 사용해 냉간 단조로 제작됩니다.\n\n냉간 단조 공정은 강선 형태의 심봉 주위에서 강철을 가공 경화시켜 강선의 산과 골을 형성합니다. 이후 M249 기관총 총열 규격에 맞춰 M4 총열의 약 두 배 두께로 크롬을 도금합니다. 그 결과 매일 혹독하게 운용할 수 있는 소총이 만들어집니다. 많은 사격량과 높은 온도를 동반하는 집중 사격에는 이 크롬 도금 총열을 권장합니다.\n\n고급 냉간 단조(CHF) 5.56mm 노베스키 총열은 10.5인치, 12.5인치, 13.7인치, 14.5인치, 16.1인치 길이로 제공됩니다. 각 총열은 1:7 강선 회전율과 5.56 NATO 약실을 갖추도록 냉간 단조되며, 소재의 건전성을 확인하기 위한 자분 탐상 검사를 거칩니다. 직경 0.750인치 장착부의 노베스키 저형 가스 블록이 핀으로 고정됩니다. 모두 M4형 총열 연장부와 ½인치x28 총구 나사산을 갖추었습니다. 유일한 예외인 14.5인치 스키니 프로파일 모델은 직경 0.625인치 장착부를 사용합니다."
+      },
+      {
+        "key": "6a666fe929d5da34c67e22b7 Name",
+        "source": "Noveske CHF Chrome Lined Barrel .300 Blackout 11.5 inch barrel",
+        "translation": "노베스키 CHF 크롬라이닝 .300 블랙아웃 11.5인치 총열"
+      },
+      {
+        "key": "6a666fe929d5da34c67e22b7 ShortName",
+        "source": "Noveske 11.5\" .300",
+        "translation": "노베스키 11.5인치 .300"
+      },
+      {
+        "key": "6a666fe929d5da34c67e22b7 Description",
+        "source": "Our chrome lined barrels are cold hammered forged and made with the material callouts and manufacturing process for the M249 Machine Gun barrel.\n\nThe cold hammer forging process work hardens the steel around a rifled mandrel, which creates the lands and grooves. The barrel is then chrome lined to the spec for a M249 Machine Gun barrel, which is about twice as thick as that of an M4 barrel. The end result is a rifle that can be run hard day after day. For any high round count, high temperature, heavy shooting, we recommend our chrome lined barrel.\n\nPremium Cold Hammer Forged (CHF) 5.56mm Noveske barrels available in 10.5\", 12.5\", 13.7\", 14.5\", and 16.1\" lengths. Each barrel is CHF-formed with a 1:7 twist and 5.56 NATO chamber, magnetic‑particle inspected for material integrity, and fitted with a Noveske low‑profile .750\" journal gas block pinned to the barrel. All include an M4‑style barrel extension and ½\"x28 muzzle threads. The only exception is the Skinny Profile 14.5\", which features a .625\" journal.",
+        "translation": "노베스키의 크롬 도금 총열은 M249 기관총 총열의 소재 규격과 제조 공정을 사용해 냉간 단조로 제작됩니다.\n\n냉간 단조 공정은 강선 형태의 심봉 주위에서 강철을 가공 경화시켜 강선의 산과 골을 형성합니다. 이후 M249 기관총 총열 규격에 맞춰 M4 총열의 약 두 배 두께로 크롬을 도금합니다. 그 결과 매일 혹독하게 운용할 수 있는 소총이 만들어집니다. 많은 사격량과 높은 온도를 동반하는 집중 사격에는 이 크롬 도금 총열을 권장합니다.\n\n고급 냉간 단조(CHF) 5.56mm 노베스키 총열은 10.5인치, 12.5인치, 13.7인치, 14.5인치, 16.1인치 길이로 제공됩니다. 각 총열은 1:7 강선 회전율과 5.56 NATO 약실을 갖추도록 냉간 단조되며, 소재의 건전성을 확인하기 위한 자분 탐상 검사를 거칩니다. 직경 0.750인치 장착부의 노베스키 저형 가스 블록이 핀으로 고정됩니다. 모두 M4형 총열 연장부와 ½인치x28 총구 나사산을 갖추었습니다. 유일한 예외인 14.5인치 스키니 프로파일 모델은 직경 0.625인치 장착부를 사용합니다."
+      },
+      {
+        "key": "6a66719ab6082a0c757e22ba Name",
+        "source": "Modlite OKW-19063 on M-LOK Mount",
+        "translation": "모드라이트 OKW-19063 엠락 마운트 장착형"
+      },
+      {
+        "key": "c497ecaeab7101ff8353e2ba Name",
+        "source": "LMT MRGG-A 7.62x51 16 inch barrel",
+        "translation": "LMT MRGG-A 7.62x51 16인치 총열"
+      },
+      {
+        "key": "c497ecaeab7101ff8353e2ba ShortName",
+        "source": "LMT 16\"",
+        "translation": "LMT 16인치"
+      },
+      {
+        "key": "c497ecaeab7101ff8353e2ba Description",
+        "source": "A 16-inch chrome-lined, cold-hammer-forged 7.62x51 barrel for the LMT monolithic platform. LMT's quick-change barrel design lets the shooter swap tubes without losing zero, and the heavier .308 profile keeps point-of-impact stable through sustained strings of fire.",
+        "translation": "LMT 일체형 플랫폼용 16인치 크롬 도금 냉간 단조 7.62x51 총열입니다. LMT의 신속 교환 설계로 영점을 잃지 않고 총열을 바꿀 수 있으며, 무거운 .308 총열 형상이 지속 사격 중에도 탄착점을 안정적으로 유지합니다."
+      },
+      {
+        "key": "da5f5ff91e54e90be6094a10 Name",
+        "source": "LMT AR-10 Low Profile Gas Block",
+        "translation": "AR-10 LMT 저프로파일 가스 블록"
+      },
+      {
+        "key": "da5f5ff91e54e90be6094a10 Description",
+        "source": "A low-profile gas block for the AR-10 platform, sitting cleanly beneath a free-float rail. Precisely bored for reliable gas metering with .308-length gas systems, suppressed or unsuppressed.",
+        "translation": "AR-10 플랫폼용 저프로파일 가스 블록으로, 프리플로트 레일 아래에 깔끔하게 수납됩니다. .308 길이 가스 시스템에서 소음기 사용 여부와 관계없이 안정적인 가스 조절을 제공하도록 설계되었습니다."
+      },
+      {
+        "key": "e20c4faf13f794df81947cc0 Name",
+        "source": "LMT MRGG-A 7.62x51mm Marksman Rifle",
+        "translation": "LMT MRGG-A 7.62x51mm 지정사수소총"
+      },
+      {
+        "key": "e20c4faf13f794df81947cc0 Description",
+        "source": "LMT's 7.62x51 gas gun built on the company's signature monolithic upper platform. The Modular Rail Gas Gun pairs a one-piece upper and rail for a rock-solid optic-to-bore relationship with an ambidextrous lower and two-stage trigger, delivering the reach and terminal authority of full-power .308 in a semi-automatic package that still handles like a fighting rifle. Purpose-built for designated-marksman and precision duty roles.",
+        "translation": "LMT 특유의 일체형 상부 총몸 플랫폼을 기반으로 제작한 7.62x51 가스 작동식 소총입니다. 모듈러 레일 가스 건은 일체형 상부 총몸과 레일로 조준경과 총강의 정렬을 매우 안정적으로 유지하고, 양손잡이 하부 총몸과 2단계 방아쇠를 결합했습니다. 완전한 위력의 .308 탄약이 지닌 사거리와 표적 효과를 반자동 총기에 담으면서도 전투용 소총다운 조작성을 유지합니다. 지정사수 및 정밀 사격 임무를 위해 제작되었습니다."
+      },
+      {
+        "key": "e64912750c88040771d66ffb Name",
+        "source": "LMT AR-10 Ambidextrous Charging Handle",
+        "translation": "AR-10 LMT 양손잡이 장전 손잡이"
+      },
+      {
+        "key": "e64912750c88040771d66ffb Description",
+        "source": "An ambidextrous extended charging handle for AR-10 pattern rifles, giving positive purchase for support-hand or strong-hand manipulation and clearing optics and mounts without fouling.",
+        "translation": "AR-10 계열 소총용 확장형 양손잡이 장전 손잡이입니다. 지지손과 주손 어느 쪽으로도 확실한 파지를 제공하며, 대형 조준기나 마운트와의 간섭을 줄여줍니다."
+      },
+      {
+        "key": "6698d07a9c0503243e3753b4 Name",
+        "source": "LMT MRP 7.62x51 Monolithic Upper Receiver",
+        "translation": "LMT MRP 7.62x51 Monolithic Upper 리시버"
+      },
+      {
+        "key": "6698d07a9c0503243e3753b4 ShortName",
+        "source": "LMT MRP Upper",
+        "translation": "LMT MRP 상부"
+      },
+      {
+        "key": "6698d07a9c0503243e3753b4 Description",
+        "source": "LMT's monolithic upper receiver — a single forging that merges the receiver and free-float rail into one rigid unit. Eliminating the barrel-nut interface preserves optic zero under hard use and gives the rail exceptional stability for lasers, lights and night vision.",
+        "translation": "상부 총몸과 자유부동식 레일을 하나의 견고한 단조품으로 통합한 LMT의 일체형 상부 총몸입니다. 총열 너트 결합부를 없애 혹독하게 사용해도 조준경의 영점을 유지하며, 레이저·조명·야간투시 장비를 장착하는 레일에도 뛰어난 안정성을 제공합니다."
+      },
+      {
+        "key": "67f1a1000000000000000100 Name",
+        "source": "Knight's Armament KS-1 5.56x45 assault rifle (FDE)",
+        "translation": "KAC(나이츠 아르마먼트 컴퍼니) KS-1 5.56x45 돌격소총 (사막색)"
+      },
+      {
+        "key": "67f1a1000000000000000100 Description",
+        "source": "The custom lower receiver of the Knight's Armament Company KS-1 5.56x45 carbine, finished in Flat Dark Earth (FDE). Engineered with fully ambidextrous, machined-in controls including dual magazine and bolt releases, this frame operates as the core receiver extension host for the premium L403A1 weapon system.",
+        "translation": "플랫 다크 어스(FDE)로 마감된 나이츠 아르마먼트 컴퍼니 KS-1 5.56x45 카빈의 커스텀 하부 총몸입니다. 양쪽 탄창 멈치와 노리쇠 멈치를 포함한 완전한 양손잡이 가공식 조작부를 갖추고 있으며, 프리미엄 L403A1 무기 체계의 핵심 총몸 연장부 호스트로 작동합니다."
+      },
+      {
+        "key": "67f1a2000000000000000100 Name",
+        "source": "Knight's Armament KS-1 5.56x45 assault rifle (Black)",
+        "translation": "KAC KS-1 5.56x45 돌격소총 (검은색)"
+      },
+      {
+        "key": "67f1a2000000000000000100 ShortName",
+        "source": "KS-1 Black",
+        "translation": "KS-1 검은색"
+      },
+      {
+        "key": "67f1a2000000000000000100 Description",
+        "source": "Knight's Armament Company developed the KS-1 5.56x45 carbine to set a new standard in assault platforms. Featuring completely ambidextrous, machined-in controls and built specifically around KAC's highly efficient, proprietary mechanics rather than standard AR-15 parts, this receiver serves as the foundation for modern military operations.",
+        "translation": "나이츠 아르마먼트 컴퍼니(Knight's Armament Company)는 돌격소총 플랫폼의 새로운 기준을 세우기 위해 KS-1 5.56x45 카빈을 개발했습니다. 완전한 양손잡이 가공식 조작부를 갖추고 있으며, 표준 AR-15 부품이 아니라 KAC의 고효율 독자 메커니즘을 중심으로 설계되어 현대 군사 작전의 기반이 되는 총몸입니다."
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17045 Name",
+        "source": "Sons of Liberty Gun Works MK1 5.56x45 (Black)",
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 (검은색)"
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17045 ShortName",
+        "source": "MK1 Lower Blk",
+        "translation": "MK1 하부 Blk"
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17045 Description",
+        "source": "A highly reliable mil-spec lower receiver manufactured by Sons of Liberty Gun Works for their MK1 AR-15 platform. Machined from forged 7075-T6 aluminum and finished in a standard black hardcoat. Known for tight tolerances, exceptional durability, and rigorous quality control.",
+        "translation": "선즈 오브 리버티 건 웍스(Sons of Liberty Gun Works)에서 MK1 AR-15 플랫폼용으로 제작한 높은 신뢰성의 밀스펙 하부 총몸입니다. 7075-T6 단조 알루미늄으로 가공되었으며 표준 블랙 하드코트 마감이 적용되었습니다. 타이트한 공차, 뛰어난 내구성, 엄격한 품질 관리로 알려져 있습니다."
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17101 Name",
+        "source": "Sons of Liberty Gun Works MK1 5.56x45 (Gray Anodized)",
+        "translation": "SOLGW MK1 5.56x45 (회색 아노다이징)"
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17101 ShortName",
+        "source": "MK1 Lower Gray",
+        "translation": "MK1 하부 회색"
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17101 Description",
+        "source": "A highly reliable mil-spec lower receiver manufactured by Sons of Liberty Gun Works for their MK1 AR-15 platform. Machined from forged 7075-T6 aluminum and finished in Gray Anodized. Known for tight tolerances, exceptional durability, and rigorous quality control.",
+        "translation": "선즈 오브 리버티 건 웍스(Sons of Liberty Gun Works)에서 MK1 AR-15 플랫폼용으로 제작한 높은 신뢰성의 밀스펙 하부 총몸입니다. 7075-T6 단조 알루미늄으로 가공되었으며 회색 아노다이징 마감이 적용되었습니다. 타이트한 공차, 뛰어난 내구성, 엄격한 품질 관리로 알려져 있습니다."
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17102 Name",
+        "source": "Sons of Liberty Gun Works MK1 5.56x45 (FDE Anodized)",
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 (사막색 아노다이징)"
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17102 ShortName",
+        "source": "MK1 Lower FDE",
+        "translation": "MK1 하부 FDE"
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17102 Description",
+        "source": "A highly reliable mil-spec lower receiver manufactured by Sons of Liberty Gun Works for their MK1 AR-15 platform. Machined from forged 7075-T6 aluminum and finished in FDE Anodized. Known for tight tolerances, exceptional durability, and rigorous quality control.",
+        "translation": "선즈 오브 리버티 건 웍스(Sons of Liberty Gun Works)에서 MK1 AR-15 플랫폼용으로 제작한 높은 신뢰성의 밀스펙 하부 총몸입니다. 7075-T6 단조 알루미늄으로 가공되었으며 사막색 아노다이징 마감이 적용되었습니다. 타이트한 공차, 뛰어난 내구성, 엄격한 품질 관리로 알려져 있습니다."
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17103 Name",
+        "source": "Sons of Liberty Gun Works MK1 5.56x45 (Camo Cerakote)",
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 (위장무늬 세라코트)"
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17103 ShortName",
+        "source": "MK1 Lower Camo",
+        "translation": "MK1 하부 위장무늬"
+      },
+      {
+        "key": "6a3da86d69fe0a0ad5c17103 Description",
+        "source": "A highly reliable mil-spec lower receiver manufactured by Sons of Liberty Gun Works for their MK1 AR-15 platform. Machined from forged 7075-T6 aluminum and finished in a custom Camo Cerakote. Known for tight tolerances, exceptional durability, and rigorous quality control.",
+        "translation": "선즈 오브 리버티 건 웍스(Sons of Liberty Gun Works)에서 MK1 AR-15 플랫폼용으로 제작한 높은 신뢰성의 밀스펙 하부 총몸입니다. 7075-T6 단조 알루미늄으로 가공되었으며 커스텀 위장무늬 세라코트 마감이 적용되었습니다. 타이트한 공차, 뛰어난 내구성, 엄격한 품질 관리로 알려져 있습니다."
+      },
+      {
+        "key": "6a3da95acfdde81a0cc1704d Name",
+        "source": "Sons of Liberty Gun Works MK1 5.56x45 upper receiver (Black)",
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 upper 리시버 (검은색)"
+      },
+      {
+        "key": "6a3da95acfdde81a0cc1704d ShortName",
+        "source": "MK1 Upper Blk",
+        "translation": "MK1 상부 Blk"
+      },
+      {
+        "key": "6a3da95acfdde81a0cc1704d Description",
+        "source": "A forged 7075-T6 aluminum flat-top upper receiver made by Sons of Liberty Gun Works, finished in black. Built to strict military specifications to ensure seamless pairing with SOLGW lower receivers and reliable operation in adverse conditions.",
+        "translation": "선즈 오브 리버티 건 웍스에서 제작한 7075-T6 단조 알루미늄 플랫탑 상부 총몸으로, 블랙 마감이 적용되었습니다. SOLGW 하부 총몸과 정확히 맞물리도록 엄격한 군용 규격에 맞춰 제작되어 열악한 조건에서도 신뢰성 있는 작동을 제공합니다."
+      },
+      {
+        "key": "6a3da95acfdde81a0cc17101 Name",
+        "source": "Sons of Liberty Gun Works MK1 5.56x45 upper receiver (Gray Anodized)",
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 upper 리시버 (Gray Anodized)"
+      },
+      {
+        "key": "6a3da95acfdde81a0cc17101 ShortName",
+        "source": "MK1 Upper Gray",
+        "translation": "MK1 상부 회색"
+      },
+      {
+        "key": "6a3da95acfdde81a0cc17101 Description",
+        "source": "A forged 7075-T6 aluminum flat-top upper receiver made by Sons of Liberty Gun Works, finished in Gray Anodized. Built to strict military specifications to ensure seamless pairing with SOLGW lower receivers and reliable operation in adverse conditions.",
+        "translation": "선즈 오브 리버티 건 웍스에서 제작한 7075-T6 단조 알루미늄 플랫탑 상부 총몸으로, 회색 아노다이징 마감이 적용되었습니다. SOLGW 하부 총몸과 정확히 맞물리도록 엄격한 군용 규격에 맞춰 제작되어 열악한 조건에서도 신뢰성 있는 작동을 제공합니다."
+      },
+      {
+        "key": "6a3da95acfdde81a0cc17102 Name",
+        "source": "Sons of Liberty Gun Works MK1 5.56x45 upper receiver (FDE Anodized)",
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 upper 리시버 (FDE Anodized)"
+      },
+      {
+        "key": "6a3da95acfdde81a0cc17102 ShortName",
+        "source": "MK1 Upper FDE",
+        "translation": "MK1 상부 FDE"
+      },
+      {
+        "key": "6a3da95acfdde81a0cc17102 Description",
+        "source": "A forged 7075-T6 aluminum flat-top upper receiver made by Sons of Liberty Gun Works, finished in FDE Anodized. Built to strict military specifications to ensure seamless pairing with SOLGW lower receivers and reliable operation in adverse conditions.",
+        "translation": "선즈 오브 리버티 건 웍스에서 제작한 7075-T6 단조 알루미늄 플랫탑 상부 총몸으로, 사막색 아노다이징 마감이 적용되었습니다. SOLGW 하부 총몸과 정확히 맞물리도록 엄격한 군용 규격에 맞춰 제작되어 열악한 조건에서도 신뢰성 있는 작동을 제공합니다."
+      },
+      {
+        "key": "6a3da95acfdde81a0cc17103 Name",
+        "source": "Sons of Liberty Gun Works MK1 5.56x45 upper receiver (Camo Cerakote)",
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 upper 리시버 (Camo Cerakote)"
+      },
+      {
+        "key": "6a3da95acfdde81a0cc17103 ShortName",
+        "source": "MK1 Upper Camo",
+        "translation": "MK1 상부 위장무늬"
+      },
+      {
+        "key": "6a3da95acfdde81a0cc17103 Description",
+        "source": "A forged 7075-T6 aluminum flat-top upper receiver made by Sons of Liberty Gun Works, finished in Camo Cerakote. Built to strict military specifications to ensure seamless pairing with SOLGW lower receivers and reliable operation in adverse conditions.",
+        "translation": "선즈 오브 리버티 건 웍스에서 제작한 7075-T6 단조 알루미늄 플랫탑 상부 총몸으로, 위장무늬 세라코트 마감이 적용되었습니다. SOLGW 하부 총몸과 정확히 맞물리도록 엄격한 군용 규격에 맞춰 제작되어 열악한 조건에서도 신뢰성 있는 작동을 제공합니다."
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec1705d Name",
+        "source": "Sons of Liberty Gun Works 10.5-inch M-LOK handguard (Black)",
+        "translation": "Sons of Liberty Gun Works 10.5-inch M-LOK 총열덮개 (검은색)"
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec1705d ShortName",
+        "source": "MK1 10.5\" Blk",
+        "translation": "MK1 10.5인치 Blk"
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec1705d Description",
+        "source": "A robust 10.5-inch free-float M-LOK handguard by Sons of Liberty Gun Works, finished in black. It utilizes a heavy-duty locking mechanism for maximum rigidity and modularity, perfectly complementing short-barreled setups.",
+        "translation": "선즈 오브 리버티 건 웍스의 견고한 10.5인치 자유부동식 엠락 총열덮개로, 블랙 마감이 적용되었습니다. 고강도 잠금 메커니즘을 사용해 최대한의 강성과 모듈성을 확보하며, 단총열 세팅과 잘 어울립니다."
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec17101 Name",
+        "source": "Sons of Liberty Gun Works 10.5-inch M-LOK handguard (Gray)",
+        "translation": "Sons of Liberty Gun Works 10.5-inch M-LOK 총열덮개 (회색)"
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec17101 ShortName",
+        "source": "MK1 10.5\" Gray",
+        "translation": "MK1 10.5인치 회색"
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec17101 Description",
+        "source": "A robust 10.5-inch free-float M-LOK handguard by Sons of Liberty Gun Works, finished in gray. It utilizes a heavy-duty locking mechanism for maximum rigidity and modularity, perfectly complementing short-barreled setups.",
+        "translation": "선즈 오브 리버티 건 웍스의 견고한 10.5인치 자유부동식 엠락 총열덮개로, 회색 마감이 적용되었습니다. 고강도 잠금 메커니즘을 사용해 최대한의 강성과 모듈성을 확보하며, 단총열 세팅과 잘 어울립니다."
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec17102 Name",
+        "source": "Sons of Liberty Gun Works 10.5-inch M-LOK handguard (FDE)",
+        "translation": "Sons of Liberty Gun Works 10.5-inch M-LOK 총열덮개 (사막색)"
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec17102 ShortName",
+        "source": "MK1 10.5\" FDE",
+        "translation": "MK1 10.5인치 FDE"
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec17102 Description",
+        "source": "A robust 10.5-inch free-float M-LOK handguard by Sons of Liberty Gun Works, finished in FDE. It utilizes a heavy-duty locking mechanism for maximum rigidity and modularity, perfectly complementing short-barreled setups.",
+        "translation": "선즈 오브 리버티 건 웍스의 견고한 10.5인치 자유부동식 엠락 총열덮개로, 사막색 마감이 적용되었습니다. 고강도 잠금 메커니즘을 사용해 최대한의 강성과 모듈성을 확보하며, 단총열 세팅과 잘 어울립니다."
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec17103 Name",
+        "source": "Sons of Liberty Gun Works 10.5-inch M-LOK handguard (Camo)",
+        "translation": "Sons of Liberty Gun Works 10.5-inch M-LOK 총열덮개 (위장무늬)"
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec17103 ShortName",
+        "source": "MK1 10.5\" Camo",
+        "translation": "MK1 10.5인치 위장무늬"
+      },
+      {
+        "key": "6a3db319a3d2c9be0ec17103 Description",
+        "source": "A robust 10.5-inch free-float M-LOK handguard by Sons of Liberty Gun Works, finished in a Camo Cerakote. It utilizes a heavy-duty locking mechanism for maximum rigidity and modularity, perfectly complementing short-barreled setups.",
+        "translation": "선즈 오브 리버티 건 웍스의 견고한 10.5인치 자유부동식 엠락 총열덮개로, 위장무늬 세라코트 마감이 적용되었습니다. 고강도 잠금 메커니즘을 사용해 최대한의 강성과 모듈성을 확보하며, 단총열 세팅과 잘 어울립니다."
+      },
+      {
+        "key": "6a3db38bfbceb602afc17068 Name",
+        "source": "Sons of Liberty Gun Works 12.75-inch M-LOK handguard (Black)",
+        "translation": "Sons of Liberty Gun Works 12.75-inch M-LOK 총열덮개 (검은색)"
+      },
+      {
+        "key": "6a3db38bfbceb602afc17068 ShortName",
+        "source": "MK1 12.75\" Blk",
+        "translation": "MK1 12.75인치 Blk"
+      },
+      {
+        "key": "6a3db38bfbceb602afc17068 Description",
+        "source": "An extended 12.75-inch free-float M-LOK handguard by Sons of Liberty Gun Works, finished in black. Provides ample rail space for tactical devices and allows for an aggressive forward grip on 13.7-inch to 16-inch barrels.",
+        "translation": "선즈 오브 리버티 건 웍스의 연장형 12.75인치 자유부동식 엠락 총열덮개로, 블랙 마감이 적용되었습니다. 전술 장비를 위한 충분한 레일 공간을 제공하며, 13.7인치에서 16인치 총열 조합에서 공격적인 전방 파지에 유리합니다."
+      },
+      {
+        "key": "6a3db38bfbceb602afc17101 Name",
+        "source": "Sons of Liberty Gun Works 12.75-inch M-LOK handguard (Gray)",
+        "translation": "Sons of Liberty Gun Works 12.75-inch M-LOK 총열덮개 (회색)"
+      },
+      {
+        "key": "6a3db38bfbceb602afc17101 ShortName",
+        "source": "MK1 12.75\" Gray",
+        "translation": "MK1 12.75인치 회색"
+      },
+      {
+        "key": "6a3db38bfbceb602afc17101 Description",
+        "source": "An extended 12.75-inch free-float M-LOK handguard by Sons of Liberty Gun Works, finished in gray. Provides ample rail space for tactical devices and allows for an aggressive forward grip on 13.7-inch to 16-inch barrels.",
+        "translation": "선즈 오브 리버티 건 웍스의 연장형 12.75인치 자유부동식 엠락 총열덮개로, 회색 마감이 적용되었습니다. 전술 장비를 위한 충분한 레일 공간을 제공하며, 13.7인치에서 16인치 총열 조합에서 공격적인 전방 파지에 유리합니다."
+      },
+      {
+        "key": "6a3db38bfbceb602afc17102 Name",
+        "source": "Sons of Liberty Gun Works 12.75-inch M-LOK handguard (FDE)",
+        "translation": "Sons of Liberty Gun Works 12.75-inch M-LOK 총열덮개 (사막색)"
+      },
+      {
+        "key": "6a3db38bfbceb602afc17102 ShortName",
+        "source": "MK1 12.75\" FDE",
+        "translation": "MK1 12.75인치 FDE"
+      },
+      {
+        "key": "6a3db38bfbceb602afc17102 Description",
+        "source": "An extended 12.75-inch free-float M-LOK handguard by Sons of Liberty Gun Works, finished in FDE. Provides ample rail space for tactical devices and allows for an aggressive forward grip on 13.7-inch to 16-inch barrels.",
+        "translation": "선즈 오브 리버티 건 웍스의 연장형 12.75인치 자유부동식 엠락 총열덮개로, 사막색 마감이 적용되었습니다. 전술 장비를 위한 충분한 레일 공간을 제공하며, 13.7인치에서 16인치 총열 조합에서 공격적인 전방 파지에 유리합니다."
+      },
+      {
+        "key": "6a3db38bfbceb602afc17103 Name",
+        "source": "Sons of Liberty Gun Works 12.75-inch M-LOK handguard (Camo)",
+        "translation": "Sons of Liberty Gun Works 12.75-inch M-LOK 총열덮개 (위장무늬)"
+      },
+      {
+        "key": "6a3db38bfbceb602afc17103 ShortName",
+        "source": "MK1 12.75\" Camo",
+        "translation": "MK1 12.75인치 위장무늬"
+      },
+      {
+        "key": "6a3db38bfbceb602afc17103 Description",
+        "source": "An extended 12.75-inch free-float M-LOK handguard by Sons of Liberty Gun Works, finished in a Camo Cerakote. Provides ample rail space for tactical devices and allows for an aggressive forward grip on 13.7-inch to 16-inch barrels.",
+        "translation": "선즈 오브 리버티 건 웍스의 연장형 12.75인치 자유부동식 엠락 총열덮개로, 위장무늬 세라코트 마감이 적용되었습니다. 전술 장비를 위한 충분한 레일 공간을 제공하며, 13.7인치에서 16인치 총열 조합에서 공격적인 전방 파지에 유리합니다."
+      },
+      {
+        "key": "6a3db4105e381c3c9fc17073 Name",
+        "source": "Sons of Liberty Gun Works A5 buffer tube",
+        "translation": "Sons of Liberty Gun Works A5 버퍼 튜브"
+      },
+      {
+        "key": "6a3db4105e381c3c9fc17073 Description",
+        "source": "An intermediate-length A5 receiver extension (buffer tube) by Sons of Liberty Gun Works. Features enhanced drainage and adjustment positions, optimizing the recoil impulse and cycle reliability of the AR-15 platform.",
+        "translation": "선즈 오브 리버티 건 웍스의 중간 길이 A5 총몸 연장관(버퍼 튜브)입니다. 배수성과 조절 위치가 강화되어 AR-15 플랫폼의 반동 감각과 작동 신뢰성을 최적화합니다."
+      },
+      {
+        "key": "6a4a562f95e30777bb32d394 Description",
+        "source": "The versatile 6mm ARC does much of what larger cartridges can and everything that smaller cartridges can’t. Designed to meet the needs of the world’s toughest critics, the 6mm ARC utilizes efficient, high‑BC bullets to deliver unprecedented performance from the AR‑15 platform. Commercial 6mm ARC offerings will feature bullets selected to deliver ideal performance for hunting, match shooting and personal protection applications.",
+        "translation": "다목적으로 설계된 6mm ARC 탄약으로, 대형 탄종이 하던 일의 상당 부분을 수행하면서도 소형 탄종으로는 어려운 성능을 제공합니다. 높은 탄도 계수의 탄두를 사용해 AR-15 플랫폼에서 뛰어난 성능을 발휘하며, 사냥·경기 사격·개인 방어 용도에 적합하도록 설계되었습니다."
+      },
+      {
+        "key": "6a4aa0becc1b3dad6332d397 Description",
+        "source": "A full metal jacket practice loading of the 6mm ARC built around a 105-grain boat-tail projectile. Inexpensive and reliable for range work and training, it mirrors the trajectory and recoil impulse of the match loadings while trading terminal performance for sheer volume of fire.",
+        "translation": "105그레인 보트테일 탄두를 사용하는 6mm ARC 풀 메탈 재킷(FMJ) 훈련용 탄약입니다. 사격장 연습과 훈련에 저렴하고 안정적으로 사용할 수 있으며, 경기용 탄약의 탄도와 반동 특성을 재현합니다. 표적에 대한 효과를 양보하는 대신 많은 양을 사격하는 데 중점을 두었습니다."
+      },
+      {
+        "key": "6a4aa148df2222d1b432d39a Description",
+        "source": "An 80-grain match/varmint loading on a thin-jacket, polymer-tipped bullet driven to high velocity. The light projectile sheds its energy violently on contact, producing dramatic fragmentation against soft targets at the expense of penetration — brutal on unarmored threats, all but useless against plates.",
+        "translation": "얇은 피갑과 폴리머 팁을 갖춘 탄두를 고속으로 발사하는 80그레인 경기 및 유해 소동물 사냥용 탄약입니다. 가벼운 탄두가 충돌 시 에너지를 급격히 방출해 연성 표적에서 강한 파편화를 일으키는 대신 관통력이 떨어집니다. 비장갑 표적에는 매우 강력하지만 방탄판에는 사실상 효과가 없습니다."
+      },
+      {
+        "key": "6a4aa16780b78859de32d39c Description",
+        "source": "A 103-grain controlled-expansion hunting load. The heavy-for-caliber bullet pairs a high ballistic coefficient with a bonded core and a heat-resistant tip, holding weight through intermediate barriers and cutting deep, consistent wound channels well past typical carbine range.",
+        "translation": "103그레인 제어 팽창식 사냥용 탄약입니다. 높은 탄도 계수와 접합 코어, 내열 팁을 결합해 중간 장애물을 통과한 뒤에도 질량을 유지하며, 카빈 유효 사거리 밖에서도 깊고 일관된 상흔을 형성합니다."
+      },
+      {
+        "key": "6a4aac5a1b78b2520332d39d Description",
+        "source": "A 106-grain barrier-blind duty load engineered to punch through auto glass, sheet steel and light cover while holding its flight path. The heavy bonded projectile trades fragmentation for penetration, making it the pick when the target is sitting behind something solid.",
+        "translation": "자동차 유리, 얇은 강판 및 가벼운 엄폐물을 관통한 뒤에도 비행 경로를 유지하도록 설계된 106그레인 장애물 관통형 임무용 탄약입니다. 무거운 접합 탄두는 파편화보다 관통력에 중점을 두므로, 단단한 물체 뒤에 있는 표적을 상대할 때 적합합니다."
+      },
+      {
+        "key": "6a4aaccd31d44e07e632d39f Description",
+        "source": "An 80-grain rapid-fragmentation load tuned for close quarters and urban work. It dumps energy fast into soft tissue and resists over-penetration through interior walls, prioritizing immediate stopping power over any ability to defeat armor.",
+        "translation": "근거리 및 시가전용으로 조정된 80그레인 고속 파편화 탄약입니다. 연부 조직에 에너지를 빠르게 전달하고 실내 벽을 지나친 과관통을 줄이도록 설계되었으며, 방탄 관통력보다는 즉각적인 저지력에 초점을 맞춥니다."
+      },
+      {
+        "key": "6a4aad1cf9186952bb32d3a1 Description",
+        "source": "A 105-grain open-tip match load. A precision-formed hollow point and tight concentricity put accuracy above everything else, making this the reference round for marksmanship and long-range shooting where group size matters more than terminal theatrics.",
+        "translation": "105그레인 오픈 팁 매치(OTM) 탄약입니다. 정밀 성형된 중공첨두와 우수한 동심도를 통해 종말 효과보다 명중률을 우선하며, 집탄이 중요한 정밀 사격과 장거리 사격에 적합합니다."
+      },
+      {
+        "key": "6a4aad88b3e2fa817632d3a3 Description",
+        "source": "A 90-grain general-purpose patrol load balancing penetration, barrier performance and terminal effect. A versatile duty round that gives up the extremes of the specialty loadings in exchange for predictable behavior across almost any situation.",
+        "translation": "관통력, 장애물 성능, 종말 효과의 균형을 맞춘 90그레인 범용 순찰용 탄약입니다. 특수 목적 탄종만큼 극단적이지는 않지만, 대부분의 상황에서 예측 가능한 성능을 제공합니다."
+      },
+      {
+        "key": "6a4aadf64d18388dc132d3a5 Description",
+        "source": "A 106-grain aluminum-tip match load, the precision apex of the 6mm ARC lineup. The machined tip and heavy, high-BC bullet minimize drift and drop at distance, reserved for the longest and most demanding shots on target.",
+        "translation": "106그레인 알루미늄 팁 매치 탄약으로, 6mm ARC 계열의 최고 정밀도를 지향합니다. 절삭 가공 팁과 높은 탄도 계수의 중량 탄두를 사용해 장거리에서 탄착 편차와 낙차를 최소화합니다."
+      },
+      {
+        "key": "6a4ae2c038b1f41eb932d3a7 Name",
+        "source": "Geissele GFR-X 5.56x45mm Assault Rifle",
+        "translation": "Geissele GFR-X 5.56x45mm 돌격소총"
+      },
+      {
+        "key": "6a4ae2c038b1f41eb932d3a7 Description",
+        "source": "The GFR-X carries the Geissele Freedom Rifle® pedigree into 5.56x45mm NATO, pairing the platform's fully ambidextrous controls and match-grade fire control group with the ubiquity and light recoil of the world's most common intermediate cartridge. Built for shooters who want GFR® handling and reliability without stepping up to 6mm ARC, it is equally at home as a duty carbine, a home-defense rifle, or a high-volume trainer.",
+        "translation": "GFR-X는 가이슬리 프리덤 라이플®의 계보를 5.56x45mm NATO로 이어갑니다. 완전 양손잡이 조작계와 경기용 수준의 격발 기구에, 세계에서 가장 널리 쓰이는 중간탄의 보급성과 낮은 반동을 결합했습니다. 6mm ARC로 전환하지 않고도 GFR®의 조작성과 신뢰성을 원하는 사수를 위해 제작되었으며, 임무용 카빈, 가정 방어용 소총, 대량 사격 훈련용 총기로 두루 적합합니다."
+      },
+      {
+        "key": "6a5a6040fd770b91f8110874 Name",
+        "source": "Geissele GFR-X 5.56x45mm Upper Receiver (DDC)",
+        "translation": "Geissele GFR-X 5.56x45mm Upper 리시버 (DDC)"
+      },
+      {
+        "key": "6a5a6040fd770b91f8110874 ShortName",
+        "source": "G* GFR-X Upper DDC",
+        "translation": "G* GFR-X 상부 DDC"
+      },
+      {
+        "key": "6a5a6040fd770b91f8110874 Description",
+        "source": "The GFR-X introduces intuitive full ambidextrous controls. A magazine release on the left side of the receiver below the Maritime Bolt Catch makes mag changes swift for left-handed use. The right side of the receiver features bolt catch and release buttons below the ejection port. The shooter uses the dust cover to apply pressure to the bolt catch to lock the bolt open, and a release button just rearward easily sends the bolt forward. This instinctive system doesn’t just accommodate left- or right-handed use, but enhances mechanical flow under pressure. Reloads and malfunction clearances are faster and more consistent—critical when seconds matter. Whether on the move or on the bench, everything works in concert to meet real-world performance demands.",
+        "translation": "GFR-X은 직관적인 완전 양손잡이 조작계를 도입했습니다. 총몸 왼쪽의 마리타임 노리쇠 멈치 아래에 탄창 멈치가 있어 왼손으로도 탄창을 빠르게 교체할 수 있습니다. 총몸 오른쪽에는 탄피 배출구 아래에 노리쇠 고정 및 전진 버튼이 있습니다. 먼지 덮개를 통해 노리쇠 멈치를 눌러 노리쇠를 후퇴 고정하고, 바로 뒤의 해제 버튼으로 손쉽게 전진시킬 수 있습니다. 이 직관적인 시스템은 단순히 양손 사용을 지원하는 데 그치지 않고 압박 상황에서도 조작이 자연스럽게 이어지도록 합니다. 재장전과 기능 고장 처리가 더 빠르고 일관되어, 일초가 아쉬운 상황에서 중요한 이점이 됩니다. 이동 중이든 사격대에서든 모든 부분이 함께 작동하며 실제 운용에 필요한 성능을 제공합니다."
+      },
+      {
+        "key": "6a6663f771682cb4807e2290 Name",
+        "source": "Noveske Chainsaw 5.56x45mm Assault Rifle",
+        "translation": "Noveske Chainsaw 5.56x45mm 돌격소총"
+      },
+      {
+        "key": "6a6663f771682cb4807e2290 ShortName",
+        "source": "Chainsaw 5.56",
+        "translation": "체인소 5.56"
+      },
+      {
+        "key": "6a6663f771682cb4807e2290 Description",
+        "source": "Lower Receiver\n\n    Noveske Chainsaw™ forged lower receiver from 7075-T6 aluminum\n    Enhanced polymer trigger guard\n    Government issue 90 degree safety selector\n    Hardcoat type III anodizing\n    Properly staked Noveske QD sling mount endplate\n    Noveske marked takedown and pivot pin\n    Adjustable tension screw for perfect fit between upper and lower\n    Noveske Single Stage Trigger- 5lbs pull weight- DLC coated and Noveske marked trigger shoe- Nickel Teflon hammer",
+        "translation": "하부 총몸\n\n7075-T6 알루미늄 단조 노베스키 Chainsaw™ 하부 총몸\n개선형 폴리머 방아쇠울\n군 보급형 90도 안전 선택기\n3형 경질 아노다이징\n확실하게 풀림 방지 처리가 된 노베스키 신속 분리식(QD) 슬링 장착 엔드플레이트\n노베스키 표시가 있는 분해 핀과 회전축 핀\n상하부 총몸을 정확히 맞추기 위한 조절식 장력 나사\n노베스키 단일 단계 방아쇠: 방아쇠 압력 5파운드, 다이아몬드 유사 탄소(DLC) 코팅 및 노베스키 표시가 있는 방아쇠 접촉면, 니켈 테플론 해머"
+      },
+      {
+        "key": "6a666a22869a3661217e22ac Name",
+        "source": "Noveske Generation 1 .300 Blackout Assault Rifle",
+        "translation": "Noveske Generation 1 .300 블랙아웃 돌격소총"
+      },
+      {
+        "key": "6a666a22869a3661217e22ac Description",
+        "source": "Custom made for DEVGRU.",
+        "translation": "DEVGRU를 위해 주문 제작되었습니다."
+      },
+      {
+        "key": "6a66763f8f28b2b77f7e22bd Name",
+        "source": "Noveske Generation 3 .300 Blackout Upper Receiver (FDE)",
+        "translation": "Noveske Generation 3 .300 블랙아웃 Upper 리시버 (사막색)"
+      },
+      {
+        "key": "6a66763f8f28b2b77f7e22bd ShortName",
+        "source": "Gen3 .300blk Upper",
+        "translation": "Gen3 .300 블랙아웃 상부"
+      },
+      {
+        "key": "6a66763f8f28b2b77f7e22bd Description",
+        "source": "Custom made Gen 3 upper made for DEVGRU in .300 Blackout",
+        "translation": "DEVGRU용으로 제작된 노베스키 Generation 3 .300 블랙아웃 상부 총몸입니다."
+      },
+      {
+        "key": "6a668154ed607881737e22c4 Name",
+        "source": "EOTech EXPS3 (Multicam Black) on LaRue riser w/ Trijicon SkeetIR",
+        "translation": "LaRue 라이저 장착 EOTech EXPS3 (멀티캠 블랙) + Trijicon SkeetIR"
+      },
+      {
+        "key": "6a668154ed607881737e22c4 Description",
+        "source": "An EOTech EXPS3 holographic sight finished in Multicam Black Cerakote, mounted on a LaRue Tactical Picatinny riser to bring the reticle up to a comfortable heads-up position. A Trijicon SkeetIR thermal clip-on sits in front on a flip-to-side mount, swinging into line behind the holo when you need to see heat and folding out of the way when you don't.",
+        "translation": "멀티캠 블랙 세라코트로 마감한 이오텍 EXPS3 홀로그램 조준경입니다. 라루 택티컬 피카티니 높임 마운트에 장착해 고개를 든 편안한 자세에서도 조준점을 볼 수 있습니다. 트리지콘 SkeetIR 열상 부착 장비가 측면으로 젖힐 수 있는 마운트로 전방에 배치되어 있습니다. 열을 봐야 할 때는 홀로그램 조준경과 일직선이 되도록 펼치고, 필요하지 않을 때는 옆으로 접어 시야를 확보할 수 있습니다."
+      }
+    ]
+  }
+}

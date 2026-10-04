@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.awnova.raidsettingsskipper",
+  "plugin_name": "FikaRaidSettingsSkipper-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Skip raid settings screen",
+      "source_display_name": "Skip raid settings screen",
+      "source_description": "Skip the pre-raid settings screen. When off, the screen is still skipped if a Fika server has raid settings disabled.",
+      "translation_display_name": "레이드 설정 화면 건너뛰기",
+      "translation_description": "레이드 시작 전 설정 화면을 건너뜁니다. 옵션을 꺼도 Fika 서버에서 레이드 설정 화면이 비활성화되어 있으면 계속 건너뜁니다.",
+      "values": []
+    }
+  ]
+}

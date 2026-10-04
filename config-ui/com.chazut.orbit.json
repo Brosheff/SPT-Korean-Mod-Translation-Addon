@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.chazut.orbit",
+  "plugin_name": "ORBIT-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "01. Essentials",
+      "translation": "01. 핵심 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "01. Essentials",
+      "key": "Log levels",
+      "source_display_name": "Log levels",
+      "source_description": "Which message levels ORBIT writes (used when Quiet logging is OFF). Default: everything except Debug. Tick Debug for a detailed bug-report log - it works in the release build now, not just debug builds.",
+      "translation_display_name": "로그 수준",
+      "translation_description": "Quiet logging이 꺼져 있을 때 ORBIT가 기록할 메시지 수준을 선택합니다. 기본값은 Debug를 제외한 모든 수준이며, 버그 제보용 상세 로그가 필요하면 Debug를 켭니다.",
+      "values": [
+        {
+          "source": "None",
+          "translation": "없음"
+        },
+        {
+          "source": "Info",
+          "translation": "정보"
+        },
+        {
+          "source": "Debug",
+          "translation": "디버그"
+        },
+        {
+          "source": "Warning",
+          "translation": "경고"
+        },
+        {
+          "source": "Error",
+          "translation": "오류"
+        }
+      ]
+    },
+    {
+      "section": "01. Essentials",
+      "key": "Performance logging",
+      "source_display_name": "Performance logging",
+      "source_description": "ON: writes a one-line 'PERF' summary (fps, hitches, GC, ORBIT activity counters) to the log every 30s, regardless of the other logging settings. Turn it on before recording a raid for a performance report.",
+      "translation_display_name": "성능 로그 출력",
+      "translation_description": "30초마다 FPS, 끊김, GC, ORBIT 동작 카운터를 한 줄 PERF 요약으로 기록합니다. 다른 로그 설정과 무관하게 동작하며 성능 문제 재현 시 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "01. Essentials",
+      "key": "Quiet logging",
+      "source_display_name": "Quiet logging",
+      "source_description": "ON (default): clean log - only warnings & errors, regardless of the Log levels below. Turn it OFF to use the Log levels (e.g. tick Debug there before sending a bug report).",
+      "translation_display_name": "간소화 로그",
+      "translation_description": "켜면 로그 수준 설정과 무관하게 경고와 오류만 기록합니다. 자세한 버그 로그가 필요할 때는 끄고 아래 로그 수준에서 Debug를 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "01. Essentials",
+      "key": "Server config",
+      "source_display_name": "Server config",
+      "source_description": "Every behaviour setting (factions, looting, extraction, Ghost Mode...) lives in the ORBIT server web UI.",
+      "translation_display_name": "서버 설정 사용",
+      "translation_description": "진영, 루팅, 탈출, Ghost Mode 등 ORBIT의 행동 관련 설정은 서버 웹 UI에서 관리합니다.",
+      "values": []
+    }
+  ]
+}

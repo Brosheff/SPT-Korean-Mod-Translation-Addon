@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "source3.wolfiks_heavy_troopers",
+  "mod_name": "Wolfik's Heavy Trooper Masks",
+  "channels": {
+    "locale": [
+      {
+        "key": "690be27992b93c91540ad4df Name",
+        "source": "COYOTE Heavy Trooper Mask",
+        "translation": "코요테 브라운 헤비 트루퍼 마스크",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "690be27992b93c91540ad4df ShortName",
+        "source": "CYTHTP",
+        "translation": "CYTHTP"
+      },
+      {
+        "key": "690be27992b93c91540ad4df Description",
+        "source": "Coyote ballistic faceshield by KMCompany made for Team Wendy EXFIL helmets.",
+        "translation": "KMCompany가 팀 웬디(Team Wendy) EXFIL 헬멧용으로 제작한 코요테 브라운 방탄 안면보호구입니다."
+      },
+      {
+        "key": "690be27992b93c91540ad4e0 Name",
+        "source": "TAN Heavy Trooper Mask",
+        "translation": "황갈색 헤비 트루퍼 마스크"
+      },
+      {
+        "key": "690be27992b93c91540ad4e0 ShortName",
+        "source": "TNHTP",
+        "translation": "TNHTP"
+      },
+      {
+        "key": "690be27992b93c91540ad4e0 Description",
+        "source": "Tan ballistic faceshield made by KMCompany for Ops-Core helmets.",
+        "translation": "KMCompany가 옵스코어(Ops-Core) 헬멧용으로 제작한 황갈색 방탄 안면보호구입니다."
+      },
+      {
+        "key": "690be27992b93c91540ad4e1 Name",
+        "source": "BLACK Heavy Trooper Mask",
+        "translation": "검은색 헤비 트루퍼 마스크"
+      },
+      {
+        "key": "690be27992b93c91540ad4e1 ShortName",
+        "source": "BLKHTP",
+        "translation": "BLKHTP"
+      },
+      {
+        "key": "690be27992b93c91540ad4e1 Description",
+        "source": "Black ballistic faceshield made by KMCompany for Ops-Core helmets.",
+        "translation": "KMCompany가 옵스코어(Ops-Core) 헬멧용으로 제작한 검은색 방탄 안면보호구입니다."
+      },
+      {
+        "key": "690be27992b93c91540ad4e2 Name",
+        "source": "WOLF Heavy Trooper Mask",
+        "translation": "늑대 헤비 트루퍼 마스크"
+      },
+      {
+        "key": "690be27992b93c91540ad4e2 ShortName",
+        "source": "WLFHTP",
+        "translation": "WLFHTP"
+      },
+      {
+        "key": "690be27992b93c91540ad4e2 Description",
+        "source": "A wolf like faceshield, probably selfmade out of ballistics",
+        "translation": "늑대 얼굴 형태의 안면보호구로, 방탄 소재를 사용해 직접 만든 것으로 보입니다."
+      },
+      {
+        "key": "690be27992b93c91540ad4e3 Name",
+        "source": "CULTIST Heavy Trooper Mask",
+        "translation": "컬티스트 헤비 트루퍼 마스크"
+      },
+      {
+        "key": "690be27992b93c91540ad4e3 ShortName",
+        "source": "CULTHTP",
+        "translation": "CULTHTP"
+      },
+      {
+        "key": "690be27992b93c91540ad4e3 Description",
+        "source": "A handcrafted mask that cultists tend to wear.",
+        "translation": "컬티스트들이 즐겨 착용하는 수제 마스크입니다."
+      }
+    ]
+  }
+}

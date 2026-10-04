@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.blackout",
+  "mod_name": "Blackout",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "emergency_announcement",
+        "source": "The facility has been switched to emergency power. Please remain where you are and await evacuation.",
+        "translation": "시설이 비상 전력으로 전환되었습니다. 현재 위치를 벗어나지 말고 대피를 기다려 주십시오.",
+        "match_mode": "exact",
+        "note": "Labs 정전 이벤트의 시설 안내 방송 자막"
+      },
+      {
+        "id": "announcement_label",
+        "source": "<b>Announcement System:</b> ",
+        "translation": "<b>안내 방송:</b> ",
+        "match_mode": "exact",
+        "note": "자막 앞에 붙는 방송 화자 라벨"
+      },
+      {
+        "id": "enter_emergency_code",
+        "source": "Enter emergency code",
+        "translation": "비상 코드 입력",
+        "match_mode": "exact",
+        "note": "Labs 정전 중 키카드 문 상호작용 메뉴에 표시되는 비상 코드 입력 동작"
+      }
+    ]
+  }
+}

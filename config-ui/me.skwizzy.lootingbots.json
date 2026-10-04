@@ -1,0 +1,993 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "me.skwizzy.lootingbots",
+  "plugin_name": "SPT-LootingBots-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Loot Finder",
+      "translation": "루팅 대상 탐색"
+    },
+    {
+      "source": "Loot Finder (Timing)",
+      "translation": "루팅 대상 탐색 (주기)"
+    },
+    {
+      "source": "Loot Settings",
+      "translation": "루팅 설정"
+    },
+    {
+      "source": "Performance",
+      "translation": "성능"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Loot Finder",
+      "key": "Debug: Filter logs on bot",
+      "source_display_name": "Debug: Filter logs on bot",
+      "source_description": "Filters new log entries only showing logs for the number of the bot specified. A value of 0 denotes no filter.",
+      "translation_display_name": "디버그: 특정 봇 로그만 표시",
+      "translation_description": "지정한 번호의 봇 로그만 새로 표시합니다. 0이면 필터를 사용하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Debug: Interop Log Levels",
+      "source_display_name": "Debug: Interop Log Levels",
+      "source_description": "Enable different levels of log messages specific to the mod interop methods",
+      "translation_display_name": "디버그: 연동 로그 레벨",
+      "translation_description": "다른 모드와의 연동 메서드에 관한 로그에서 출력할 수준을 선택합니다.",
+      "values": [
+        {
+          "source": "None",
+          "translation": "없음"
+        },
+        {
+          "source": "Error",
+          "translation": "오류"
+        },
+        {
+          "source": "Warning",
+          "translation": "경고"
+        },
+        {
+          "source": "Info",
+          "translation": "정보"
+        },
+        {
+          "source": "Debug",
+          "translation": "디버그"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        },
+        {
+          "source": "Default",
+          "translation": "기본"
+        }
+      ]
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Debug: Log Levels",
+      "source_display_name": "Debug: Log Levels",
+      "source_description": "Enable different levels of log messages to show in the logs",
+      "translation_display_name": "디버그: 로그 레벨",
+      "translation_description": "일반 Looting Bots 로그에서 출력할 로그 수준을 선택합니다.",
+      "values": [
+        {
+          "source": "None",
+          "translation": "없음"
+        },
+        {
+          "source": "Error",
+          "translation": "오류"
+        },
+        {
+          "source": "Warning",
+          "translation": "경고"
+        },
+        {
+          "source": "Info",
+          "translation": "정보"
+        },
+        {
+          "source": "Debug",
+          "translation": "디버그"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        },
+        {
+          "source": "Default",
+          "translation": "기본"
+        }
+      ]
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Debug: Show navigation points",
+      "source_display_name": "Debug: Show navigation points",
+      "source_description": "Renders spheres where bots are trying to navigate when container looting. (Red): Container position. (Black): 'Optimized' container position. (Green): Calculated bot destination. (Blue): NavMesh corrected destination (where the bot will move).",
+      "translation_display_name": "디버그: 컨테이너 루팅 이동 지점 표시",
+      "translation_description": "컨테이너 루팅 중 봇이 이동하려는 지점을 구체로 표시합니다. 빨강은 컨테이너 원위치, 검정은 보정된 컨테이너 위치, 초록은 계산된 봇 목적지, 파랑은 NavMesh에 맞춘 실제 이동 목적지입니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Detect container distance",
+      "source_display_name": "Detect container distance",
+      "source_description": "Distance (in meters) a bot is able to detect a container",
+      "translation_display_name": "컨테이너 감지 거리",
+      "translation_description": "봇이 컨테이너를 감지해 루팅 후보로 삼을 수 있는 최대 거리(m)입니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Detect corpse distance",
+      "source_display_name": "Detect corpse distance",
+      "source_description": "Distance (in meters) a bot is able to detect a corpse",
+      "translation_display_name": "시체 감지 거리",
+      "translation_description": "봇이 시체를 감지해 루팅 후보로 삼을 수 있는 최대 거리(m)입니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Detect item distance",
+      "source_display_name": "Detect item distance",
+      "source_description": "Distance (in meters) a bot is able to detect an item",
+      "translation_display_name": "필드 아이템 감지 거리",
+      "translation_description": "봇이 바닥 아이템을 감지해 루팅 후보로 삼을 수 있는 최대 거리(m)입니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Enable container line of sight check",
+      "source_display_name": "Enable container line of sight check",
+      "source_description": "When scanning for loot, containers will be ignored if they are not visible for the selected bot types",
+      "translation_display_name": "컨테이너 루팅 시 시야 확인",
+      "translation_description": "루팅 대상을 찾을 때 봇에게 보이지 않는 컨테이너는 후보에서 제외합니다.",
+      "values": [
+        {
+          "source": "Scav",
+          "translation": "스캐브"
+        },
+        {
+          "source": "Pmc",
+          "translation": "PMC"
+        },
+        {
+          "source": "PMC",
+          "translation": "PMC"
+        },
+        {
+          "source": "PlayerScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "PScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "Raider",
+          "translation": "레이더"
+        },
+        {
+          "source": "Cultist",
+          "translation": "컬티스트"
+        },
+        {
+          "source": "Boss",
+          "translation": "보스"
+        },
+        {
+          "source": "Follower",
+          "translation": "보스 호위병"
+        },
+        {
+          "source": "Bloodhound",
+          "translation": "블러드하운드"
+        },
+        {
+          "source": "Goon",
+          "translation": "군즈"
+        },
+        {
+          "source": "None",
+          "translation": "없음"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Enable container looting",
+      "source_display_name": "Enable container looting",
+      "source_description": "Enables container looting for the selected bot types",
+      "translation_display_name": "컨테이너 루팅 활성화",
+      "translation_description": "선택한 봇 유형이 컨테이너를 찾아 루팅할 수 있게 합니다.",
+      "values": [
+        {
+          "source": "Scav",
+          "translation": "스캐브"
+        },
+        {
+          "source": "Pmc",
+          "translation": "PMC"
+        },
+        {
+          "source": "PMC",
+          "translation": "PMC"
+        },
+        {
+          "source": "PlayerScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "PScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "Raider",
+          "translation": "레이더"
+        },
+        {
+          "source": "Cultist",
+          "translation": "컬티스트"
+        },
+        {
+          "source": "Boss",
+          "translation": "보스"
+        },
+        {
+          "source": "Follower",
+          "translation": "보스 호위병"
+        },
+        {
+          "source": "Bloodhound",
+          "translation": "블러드하운드"
+        },
+        {
+          "source": "Goon",
+          "translation": "군즈"
+        },
+        {
+          "source": "None",
+          "translation": "없음"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Enable corpse line of sight check",
+      "source_display_name": "Enable corpse line of sight check",
+      "source_description": "When scanning for loot, corpses will be ignored if they are not visible for the selected bot types",
+      "translation_display_name": "시체 루팅 시 시야 확인",
+      "translation_description": "루팅 대상을 찾을 때 봇에게 보이지 않는 시체는 후보에서 제외합니다.",
+      "values": [
+        {
+          "source": "Scav",
+          "translation": "스캐브"
+        },
+        {
+          "source": "Pmc",
+          "translation": "PMC"
+        },
+        {
+          "source": "PMC",
+          "translation": "PMC"
+        },
+        {
+          "source": "PlayerScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "PScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "Raider",
+          "translation": "레이더"
+        },
+        {
+          "source": "Cultist",
+          "translation": "컬티스트"
+        },
+        {
+          "source": "Boss",
+          "translation": "보스"
+        },
+        {
+          "source": "Follower",
+          "translation": "보스 호위병"
+        },
+        {
+          "source": "Bloodhound",
+          "translation": "블러드하운드"
+        },
+        {
+          "source": "Goon",
+          "translation": "군즈"
+        },
+        {
+          "source": "None",
+          "translation": "없음"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Enable corpse looting",
+      "source_display_name": "Enable corpse looting",
+      "source_description": "Enables corpse looting for the selected bot types",
+      "translation_display_name": "시체 루팅 활성화",
+      "translation_description": "선택한 봇 유형이 시체를 찾아 루팅할 수 있게 합니다.",
+      "values": [
+        {
+          "source": "Scav",
+          "translation": "스캐브"
+        },
+        {
+          "source": "Pmc",
+          "translation": "PMC"
+        },
+        {
+          "source": "PMC",
+          "translation": "PMC"
+        },
+        {
+          "source": "PlayerScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "PScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "Raider",
+          "translation": "레이더"
+        },
+        {
+          "source": "Cultist",
+          "translation": "컬티스트"
+        },
+        {
+          "source": "Boss",
+          "translation": "보스"
+        },
+        {
+          "source": "Follower",
+          "translation": "보스 호위병"
+        },
+        {
+          "source": "Bloodhound",
+          "translation": "블러드하운드"
+        },
+        {
+          "source": "Goon",
+          "translation": "군즈"
+        },
+        {
+          "source": "None",
+          "translation": "없음"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Enable item line of sight check",
+      "source_display_name": "Enable item line of sight check",
+      "source_description": "When scanning for loot, loose items will be ignored if they are not visible for the selected bot types",
+      "translation_display_name": "필드 아이템 루팅 시 시야 확인",
+      "translation_description": "루팅 대상을 찾을 때 봇에게 보이지 않는 바닥 아이템은 후보에서 제외합니다.",
+      "values": [
+        {
+          "source": "Scav",
+          "translation": "스캐브"
+        },
+        {
+          "source": "Pmc",
+          "translation": "PMC"
+        },
+        {
+          "source": "PMC",
+          "translation": "PMC"
+        },
+        {
+          "source": "PlayerScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "PScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "Raider",
+          "translation": "레이더"
+        },
+        {
+          "source": "Cultist",
+          "translation": "컬티스트"
+        },
+        {
+          "source": "Boss",
+          "translation": "보스"
+        },
+        {
+          "source": "Follower",
+          "translation": "보스 호위병"
+        },
+        {
+          "source": "Bloodhound",
+          "translation": "블러드하운드"
+        },
+        {
+          "source": "Goon",
+          "translation": "군즈"
+        },
+        {
+          "source": "None",
+          "translation": "없음"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Loot Finder",
+      "key": "Enable loose item looting",
+      "source_display_name": "Enable loose item looting",
+      "source_description": "Enables loose item looting for the selected bot types",
+      "translation_display_name": "필드 아이템 루팅 활성화",
+      "translation_description": "선택한 봇 유형이 바닥에 놓인 아이템을 찾아 루팅할 수 있게 합니다.",
+      "values": [
+        {
+          "source": "Scav",
+          "translation": "스캐브"
+        },
+        {
+          "source": "Pmc",
+          "translation": "PMC"
+        },
+        {
+          "source": "PMC",
+          "translation": "PMC"
+        },
+        {
+          "source": "PlayerScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "PScav",
+          "translation": "플레이어 스캐브"
+        },
+        {
+          "source": "Raider",
+          "translation": "레이더"
+        },
+        {
+          "source": "Cultist",
+          "translation": "컬티스트"
+        },
+        {
+          "source": "Boss",
+          "translation": "보스"
+        },
+        {
+          "source": "Follower",
+          "translation": "보스 호위병"
+        },
+        {
+          "source": "Bloodhound",
+          "translation": "블러드하운드"
+        },
+        {
+          "source": "Goon",
+          "translation": "군즈"
+        },
+        {
+          "source": "None",
+          "translation": "없음"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Loot Finder (Timing)",
+      "key": "Delay after spawn",
+      "source_display_name": "Delay after spawn",
+      "source_description": "Amount of seconds a bot will wait to start their first loot scan after spawning into raid",
+      "translation_display_name": "스폰 후 첫 루팅 검색 대기 시간",
+      "translation_description": "봇이 레이드에 생성된 뒤 첫 루팅 검색을 시작하기까지 기다리는 시간(초)입니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Finder (Timing)",
+      "key": "Delay after taking item (ms)",
+      "source_display_name": "Delay after taking item (ms)",
+      "source_description": "Amount of milliseconds a bot will wait after taking an item into their inventory before attempting to loot another item. Simulates the amount of time it takes for a player to look through loot decide to take something.",
+      "translation_display_name": "아이템 획득 후 다음 루팅까지 대기(ms)",
+      "translation_description": "봇이 아이템을 인벤토리에 넣은 뒤 다음 아이템을 루팅하기 전 기다리는 시간(ms)입니다. 사람이 아이템을 보고 판단하는 시간을 흉내 냅니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Finder (Timing)",
+      "key": "Enable examine time",
+      "source_display_name": "Enable examine time",
+      "source_description": "Adds a delay before looting an item to simulate the time it takes for a bot to \"uncover (examine)\" an item when searching containers, items and corpses. The delay is calculated using the ExamineTime of an object and the AttentionExamineTime of the bot.",
+      "translation_display_name": "조사 시간 활성화",
+      "translation_description": "컨테이너·바닥 아이템·시체의 아이템을 루팅하기 전에 조사(Examine) 시간을 흉내 내는 지연을 추가합니다. 아이템 ExamineTime과 봇의 AttentionExamineTime을 이용해 계산합니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Finder (Timing)",
+      "key": "Loot scan interval",
+      "source_display_name": "Loot scan interval",
+      "source_description": "The amount of seconds the bot will wait until triggering another loot scan",
+      "translation_display_name": "루팅 검색 간격",
+      "translation_description": "한 번 루팅 검색한 뒤 다음 검색을 시작하기까지의 대기 시간(초)입니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Settings",
+      "key": "Allow weapon attachment stripping",
+      "source_display_name": "Allow weapon attachment stripping",
+      "source_description": "Allows bots to take the attachments off of a weapon if they cannot pick it up, or if they discard a previously owned weapon",
+      "translation_display_name": "무기를 못 주울 때 부착물만 떼기 허용",
+      "translation_description": "봇이 무기 자체를 주울 수 없거나 기존 무기를 버릴 때, 무기에 붙은 부착물만 떼어 가져갈 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Settings",
+      "key": "Bots always close containers",
+      "source_display_name": "Bots always close containers",
+      "source_description": "When enabled, bots will always try to close a container after they have finished looting. If the bot is interrupted while looting, the container may remain open.",
+      "translation_display_name": "루팅 후 컨테이너 닫기",
+      "translation_description": "봇이 컨테이너 루팅을 끝낸 뒤 항상 닫도록 시도합니다. 루팅 중 방해받으면 열린 채 남을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Settings",
+      "key": "Calculate armor value from slotted items",
+      "source_display_name": "Calculate armor value from slotted items",
+      "source_description": "Calculate armor value by looking up each slot containing plates/faceshields etc. More accurate than just looking at the base armor template but a slightly more expensive check.",
+      "translation_display_name": "장착된 플레이트 등을 포함해 방어구 가치 계산",
+      "translation_description": "기본 방어구 템플릿 가격만 보지 않고 플레이트·안면 보호구 등 슬롯 장착품까지 포함해 가치를 계산합니다. 더 정확하지만 계산 비용이 약간 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Settings",
+      "key": "Calculate weapon value from attachments",
+      "source_display_name": "Calculate weapon value from attachments",
+      "source_description": "Calculate weapon value by looking up each attachment. More accurate than just looking at the base weapon template but a slightly more expensive check.",
+      "translation_display_name": "부착물을 포함해 무기 가치 계산",
+      "translation_description": "기본 무기 템플릿 가격만 보지 않고 각 부착물 가격까지 합산해 무기 가치를 계산합니다. 더 정확하지만 계산 비용이 약간 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Settings",
+      "key": "Debug: Item Appraiser Log Levels",
+      "source_display_name": "Debug: Item Appraiser Log Levels",
+      "source_description": "Enables logs for the item appraiser that calculates the weapon values",
+      "translation_display_name": "디버그: 아이템 가치 평가 로그 레벨",
+      "translation_description": "무기·아이템 가치를 계산하는 가치 평가기에서 출력할 디버그 로그 수준을 선택합니다.",
+      "values": [
+        {
+          "source": "None",
+          "translation": "없음"
+        },
+        {
+          "source": "Error",
+          "translation": "오류"
+        },
+        {
+          "source": "Warning",
+          "translation": "경고"
+        },
+        {
+          "source": "Info",
+          "translation": "정보"
+        },
+        {
+          "source": "Debug",
+          "translation": "디버그"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        },
+        {
+          "source": "Default",
+          "translation": "기본"
+        }
+      ]
+    },
+    {
+      "section": "Loot Settings",
+      "key": "Loot Timeout",
+      "source_display_name": "Loot Timeout",
+      "source_description": "Time in seconds before a looting bot is timed out and stops looting",
+      "translation_display_name": "루팅 제한 시간",
+      "translation_description": "봇이 하나의 루팅 행동에 사용할 수 있는 최대 시간(초)입니다. 시간이 지나면 해당 루팅을 중단합니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Settings",
+      "key": "PMC: Allowed gear in bags",
+      "source_display_name": "PMC: Allowed gear in bags",
+      "source_description": "The equipment a PMC bot is able to place in their backpack/rig",
+      "translation_display_name": "PMC가 가방/조끼에 넣을 수 있는 장비 종류",
+      "translation_description": "PMC 봇이 배낭이나 전술 조끼에 넣을 수 있는 장비 종류를 지정합니다.",
+      "values": [
+        {
+          "source": "Backpack",
+          "translation": "백팩"
+        },
+        {
+          "source": "TacticalRig",
+          "translation": "전술 조끼"
+        },
+        {
+          "source": "ArmoredRig",
+          "translation": "방탄 조끼"
+        },
+        {
+          "source": "Chest",
+          "translation": "방탄복"
+        },
+        {
+          "source": "Weapon",
+          "translation": "무기"
+        },
+        {
+          "source": "Grenade",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Helmet",
+          "translation": "헬멧"
+        },
+        {
+          "source": "Dogtag",
+          "translation": "인식표"
+        },
+        {
+          "source": "ArmorPlate",
+          "translation": "방탄판"
+        },
+        {
+          "source": "Earpiece",
+          "translation": "헤드셋"
+        },
+        {
+          "source": "FaceCover",
+          "translation": "안면 장비"
+        },
+        {
+          "source": "Eyewear",
+          "translation": "안경"
+        },
+        {
+          "source": "Armband",
+          "translation": "완장"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Loot Settings",
+      "key": "PMC: Allowed gear to equip",
+      "source_display_name": "PMC: Allowed gear to equip",
+      "source_description": "The equipment a PMC bot is able to equip during raid",
+      "translation_display_name": "PMC가 장착할 수 있는 장비 종류",
+      "translation_description": "PMC 봇이 레이드 중 새로 장착할 수 있는 장비 종류를 지정합니다.",
+      "values": [
+        {
+          "source": "Backpack",
+          "translation": "백팩"
+        },
+        {
+          "source": "TacticalRig",
+          "translation": "전술 조끼"
+        },
+        {
+          "source": "ArmoredRig",
+          "translation": "방탄 조끼"
+        },
+        {
+          "source": "Chest",
+          "translation": "방탄복"
+        },
+        {
+          "source": "Weapon",
+          "translation": "무기"
+        },
+        {
+          "source": "Grenade",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Helmet",
+          "translation": "헬멧"
+        },
+        {
+          "source": "Dogtag",
+          "translation": "인식표"
+        },
+        {
+          "source": "ArmorPlate",
+          "translation": "방탄판"
+        },
+        {
+          "source": "Earpiece",
+          "translation": "헤드셋"
+        },
+        {
+          "source": "FaceCover",
+          "translation": "안면 장비"
+        },
+        {
+          "source": "Eyewear",
+          "translation": "안경"
+        },
+        {
+          "source": "Armband",
+          "translation": "완장"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Loot Settings",
+      "key": "PMC: Max loot value threshold",
+      "source_display_name": "PMC: Max loot value threshold",
+      "source_description": "PMC bots will NOT loot items that exceed the specified value in roubles. When set to 0, bots will ignore the maximum value threshold.",
+      "translation_display_name": "PMC 최대 루팅 가치 기준",
+      "translation_description": "PMC 봇이 루팅하지 않을 상한 가치(루블)입니다. 이 값보다 비싼 아이템은 집지 않으며, 0이면 최대 가치 제한을 사용하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Settings",
+      "key": "PMC: Min loot value threshold",
+      "source_display_name": "PMC: Min loot value threshold",
+      "source_description": "PMC bots will only loot items that exceed the specified value in roubles. When set to 0, bots will ignore the minimum value threshold.",
+      "translation_display_name": "PMC 최소 루팅 가치 기준",
+      "translation_description": "PMC 봇이 루팅할 최소 아이템 가치(루블)입니다. 이 값보다 비싼 아이템만 집으며, 0이면 최소 가치 제한을 사용하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Settings",
+      "key": "Scav: Allowed gear in bags",
+      "source_display_name": "Scav: Allowed gear in bags",
+      "source_description": "The equipment a non-PMC bot is able to place in their backpack/rig",
+      "translation_display_name": "비PMC 봇이 가방/조끼에 넣을 수 있는 장비 종류",
+      "translation_description": "PMC가 아닌 봇이 배낭이나 전술 조끼에 넣을 수 있는 장비 종류를 지정합니다.",
+      "values": [
+        {
+          "source": "Backpack",
+          "translation": "백팩"
+        },
+        {
+          "source": "TacticalRig",
+          "translation": "전술 조끼"
+        },
+        {
+          "source": "ArmoredRig",
+          "translation": "방탄 조끼"
+        },
+        {
+          "source": "Chest",
+          "translation": "방탄복"
+        },
+        {
+          "source": "Weapon",
+          "translation": "무기"
+        },
+        {
+          "source": "Grenade",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Helmet",
+          "translation": "헬멧"
+        },
+        {
+          "source": "Dogtag",
+          "translation": "인식표"
+        },
+        {
+          "source": "ArmorPlate",
+          "translation": "방탄판"
+        },
+        {
+          "source": "Earpiece",
+          "translation": "헤드셋"
+        },
+        {
+          "source": "FaceCover",
+          "translation": "안면 장비"
+        },
+        {
+          "source": "Eyewear",
+          "translation": "안경"
+        },
+        {
+          "source": "Armband",
+          "translation": "완장"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Loot Settings",
+      "key": "Scav: Allowed gear to equip",
+      "source_display_name": "Scav: Allowed gear to equip",
+      "source_description": "The equipment a non-PMC bot is able to equip during raid",
+      "translation_display_name": "비PMC 봇이 장착할 수 있는 장비 종류",
+      "translation_description": "PMC가 아닌 봇이 레이드 중 새로 장착할 수 있는 장비 종류를 지정합니다.",
+      "values": [
+        {
+          "source": "Backpack",
+          "translation": "백팩"
+        },
+        {
+          "source": "TacticalRig",
+          "translation": "전술 조끼"
+        },
+        {
+          "source": "ArmoredRig",
+          "translation": "방탄 조끼"
+        },
+        {
+          "source": "Chest",
+          "translation": "방탄복"
+        },
+        {
+          "source": "Weapon",
+          "translation": "무기"
+        },
+        {
+          "source": "Grenade",
+          "translation": "수류탄"
+        },
+        {
+          "source": "Helmet",
+          "translation": "헬멧"
+        },
+        {
+          "source": "Dogtag",
+          "translation": "인식표"
+        },
+        {
+          "source": "ArmorPlate",
+          "translation": "방탄판"
+        },
+        {
+          "source": "Earpiece",
+          "translation": "헤드셋"
+        },
+        {
+          "source": "FaceCover",
+          "translation": "안면 장비"
+        },
+        {
+          "source": "Eyewear",
+          "translation": "안경"
+        },
+        {
+          "source": "Armband",
+          "translation": "완장"
+        },
+        {
+          "source": "All",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Loot Settings",
+      "key": "Scav: Max loot value threshold",
+      "source_display_name": "Scav: Max loot value threshold",
+      "source_description": "All non-PMC bots will NOT loot items that exceed the specified value in roubles. When set to 0, bots will ignore the maximum value threshold.",
+      "translation_display_name": "비PMC 봇 최대 루팅 가치 기준",
+      "translation_description": "PMC가 아닌 봇이 루팅하지 않을 상한 가치(루블)입니다. 이 값보다 비싼 아이템은 집지 않으며, 0이면 최대 가치 제한을 사용하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Settings",
+      "key": "Scav: Min loot value threshold",
+      "source_display_name": "Scav: Min loot value threshold",
+      "source_description": "All non-PMC bots will only loot items that exceed the specified value in roubles. When set to 0, bots will ignore the minimum value threshold.",
+      "translation_display_name": "비PMC 봇 최소 루팅 가치 기준",
+      "translation_description": "PMC가 아닌 봇이 루팅할 최소 아이템 가치(루블)입니다. 이 값보다 비싼 아이템만 집으며, 0이면 최소 가치 제한을 사용하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Loot Settings",
+      "key": "Use flea market prices",
+      "source_display_name": "Use flea market prices",
+      "source_description": "Bots will query more accurate ragfair prices to do item value checks. Will make a query to get ragfair prices when the client is first started.",
+      "translation_display_name": "아이템 가치 계산에 플리마켓 가격 사용",
+      "translation_description": "아이템 가치 판단에 더 정확한 플리마켓 가격을 사용합니다. 클라이언트를 처음 시작할 때 플리마켓 가격 정보를 한 번 조회합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Empty attempts cooldown",
+      "source_display_name": "Empty attempts cooldown",
+      "source_description": "How long (in seconds) to wait before trying to find loot when max attempts is reached.",
+      "translation_display_name": "검색 실패 누적 후 재시도 대기 시간",
+      "translation_description": "연속 실패 횟수 제한에 도달한 뒤 다시 루팅 대상을 찾기까지 기다리는 시간(초)입니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Limit looting by distance to player",
+      "source_display_name": "Limit looting by distance to player",
+      "source_description": "Any bot farther than the specified distance in meters will not run any looting logic. A value of 0 represents no limit.",
+      "translation_display_name": "플레이어와의 거리로 루팅 로직 제한",
+      "translation_description": "플레이어에서 이 거리(m)보다 멀리 있는 봇은 루팅 로직을 실행하지 않습니다. 0이면 거리 제한을 사용하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Maximum concurrent scans",
+      "source_display_name": "Maximum concurrent scans",
+      "source_description": "Max number of bots that can scan for loot at the same time. A value of 0 represents no limit. Takes effect next raid.",
+      "translation_display_name": "동시에 루팅 검색할 최대 봇 수",
+      "translation_description": "동시에 루팅 대상을 검색할 수 있는 봇의 최대 수입니다. 0이면 제한하지 않습니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Maximum looting bots",
+      "source_display_name": "Maximum looting bots",
+      "source_description": "Limits the amount of bots that are able to simultaneously run looting logic. A value of 0 represents no limit.",
+      "translation_display_name": "동시에 루팅 로직을 실행할 최대 봇 수",
+      "translation_description": "동시에 루팅 로직을 실행할 수 있는 봇 수를 제한합니다. 0이면 제한하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Maximum unsuccessful attempts",
+      "source_display_name": "Maximum unsuccessful attempts",
+      "source_description": "Max number of unsuccessful attempts a bot can try to find loot before taking a break. A value of 0 represents no limit.",
+      "translation_display_name": "연속 루팅 검색 실패 허용 횟수",
+      "translation_description": "봇이 잠시 쉬기 전에 연속으로 루팅 대상을 찾지 못해도 재시도할 최대 횟수입니다. 0이면 제한하지 않습니다.",
+      "values": []
+    }
+  ]
+}

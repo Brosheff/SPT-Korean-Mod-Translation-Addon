@@ -1,0 +1,513 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_3b2b877cc80c",
+  "mod_name": "ECOTI - Enhanced Clip-On Thermal Imager",
+  "channels": {
+    "locale": [
+      {
+        "key": "6a7f15387b68c336e18e8977 Description",
+        "source": "Enhanced clip-on thermal imager by Safran Defense & Space (Optics 1). Uncooled LWIR microbolometer, 640x480 at 17 um pixel pitch, 8-12 um sensitivity, 1x optical unity magnification, 30 degree circular field of view at f/1.15. Clips to the objective of a PVS-14 style night vision device and injects an outline-mode thermal overlay into the tube. Runs 3.5 hours on a single CR123A.",
+        "translation": "Safran Defense & Space(Optics 1)의 개량형 클립온 열상 장비입니다. 비냉각식 LWIR 마이크로볼로미터를 사용하며, 해상도는 640x480, 픽셀 피치는 17μm, 감응 파장은 8~12μm입니다. 광학 배율은 1배, f/1.15에서 원형 시야각은 30도입니다. PVS-14 계열 야간투시경의 대물렌즈 앞에 부착해 윤곽선 방식의 열상 오버레이를 영상관에 투사합니다. CR123A 배터리 하나로 약 3.5시간 작동합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6a7f15387b68c336e18e8977 Name",
+        "source": "AN/PAS-29B ECOTI enhanced clip-on thermal imager",
+        "translation": "AN/PAS-29B ECOTI 개량형 클립온 열상 장비",
+        "match_mode": "exact"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "pose_title",
+        "source": "COTI Pose",
+        "translation": "COTI 포즈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pose_locked_reason",
+        "source": "Attach a COTI to adjust its pose",
+        "translation": "포즈를 조정하려면 COTI를 장착하십시오",
+        "match_mode": "exact"
+      },
+      {
+        "id": "host_prefix",
+        "source": "Host: ",
+        "translation": "호스트: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bounds_prefix",
+        "source": "Bounds: ",
+        "translation": "경계 크기: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "tuned_prefix",
+        "source": "Tuned: ",
+        "translation": "조정됨: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "none",
+        "source": "(none)",
+        "translation": "(없음)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "device_not_found",
+        "source": "(device not found in the host table)",
+        "translation": "(호스트 테이블에서 장치를 찾을 수 없음)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "yes",
+        "source": "yes",
+        "translation": "예",
+        "match_mode": "exact"
+      },
+      {
+        "id": "no_auto_stub",
+        "source": "no - auto-generated stub",
+        "translation": "아니요 - 자동 생성된 임시 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "drag_orbit_zoom",
+        "source": "Drag to orbit, scroll to zoom",
+        "translation": "드래그하여 회전하고 스크롤하여 확대/축소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "preview_unavailable",
+        "source": "(preview unavailable)",
+        "translation": "(미리보기를 사용할 수 없음)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "model_not_scene_short",
+        "source": "(model not in scene)",
+        "translation": "(장면에 모델 없음)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "no_renderers",
+        "source": "(no renderers)",
+        "translation": "(렌더러 없음)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "reset_view",
+        "source": "Reset view",
+        "translation": "보기 초기화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "frame_coti",
+        "source": "Frame COTI",
+        "translation": "COTI에 화면 맞추기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "anchor_bone",
+        "source": "Anchor bone",
+        "translation": "앵커 본",
+        "match_mode": "exact"
+      },
+      {
+        "id": "host_root",
+        "source": "(host root)",
+        "translation": "(호스트 루트)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "flip_axis_none",
+        "source": "Flip axis: no CurveRotator seen on this host - it does not flip",
+        "translation": "플립 축: 이 호스트에서 CurveRotator가 감지되지 않았습니다 - 플립되지 않습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "flip_axis_suggests",
+        "source": "Flip axis suggests: ",
+        "translation": "플립 축 제안: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "use",
+        "source": "Use",
+        "translation": "사용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "flip_test_help",
+        "source": "Flip test - the check that proves the anchor moves with the goggle:",
+        "translation": "플립 테스트 - 고글과 함께 앵커가 움직이는지 확인합니다:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "snap",
+        "source": "Snap",
+        "translation": "즉시 전환",
+        "match_mode": "exact"
+      },
+      {
+        "id": "animate",
+        "source": "Animate",
+        "translation": "애니메이션",
+        "match_mode": "exact"
+      },
+      {
+        "id": "flip_up",
+        "source": "Flip up",
+        "translation": "위로 접기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "flip_down",
+        "source": "Flip down",
+        "translation": "아래로 펼치기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "flip_reason_not_scene",
+        "source": "model not in scene - open this device's inventory view once to detect flip hardware",
+        "translation": "장면에 모델이 없습니다 - 플립 장치를 감지하려면 이 장치의 인벤토리 화면을 한 번 여십시오",
+        "match_mode": "exact"
+      },
+      {
+        "id": "flip_reason_no_hardware",
+        "source": "this host has no flip hardware - the goggle tube never rotates, so any anchor bone behaves the same",
+        "translation": "이 호스트에는 플립 장치가 없습니다 - 고글 튜브가 회전하지 않으므로 어떤 앵커 본을 사용해도 동일합니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "position_mm",
+        "source": "Position (mm)",
+        "translation": "위치 (mm)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "rotation_deg",
+        "source": "Rotation (deg)",
+        "translation": "회전 (도)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pitch_plus",
+        "source": "Pitch+",
+        "translation": "피치+",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pitch_minus",
+        "source": "Pitch-",
+        "translation": "피치-",
+        "match_mode": "exact"
+      },
+      {
+        "id": "yaw_minus",
+        "source": "Yaw-",
+        "translation": "요-",
+        "match_mode": "exact"
+      },
+      {
+        "id": "yaw_plus",
+        "source": "Yaw+",
+        "translation": "요+",
+        "match_mode": "exact"
+      },
+      {
+        "id": "roll_minus",
+        "source": "Roll-",
+        "translation": "롤-",
+        "match_mode": "exact"
+      },
+      {
+        "id": "roll_plus",
+        "source": "Roll+",
+        "translation": "롤+",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pitch",
+        "source": "Pitch",
+        "translation": "피치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "yaw",
+        "source": "Yaw",
+        "translation": "요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "roll",
+        "source": "Roll",
+        "translation": "롤",
+        "match_mode": "exact"
+      },
+      {
+        "id": "scale",
+        "source": "Scale",
+        "translation": "크기 비율",
+        "match_mode": "exact"
+      },
+      {
+        "id": "reset",
+        "source": "Reset",
+        "translation": "초기화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "publish",
+        "source": "Publish",
+        "translation": "서버에 저장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "close",
+        "source": "Close",
+        "translation": "닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "mask_title",
+        "source": "COTI Mask",
+        "translation": "COTI 마스크",
+        "match_mode": "exact"
+      },
+      {
+        "id": "mask_no_host",
+        "source": "No night vision host resolved yet.",
+        "translation": "아직 야간투시경 호스트가 확인되지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "mask_bind_help",
+        "source": "Equip a supported goggle with the COTI attached and this window binds to it on its own.",
+        "translation": "지원되는 고글에 COTI를 장착하면 이 창이 자동으로 해당 장치에 연결됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "overlay_live",
+        "source": "Overlay is live - changes show as you make them.",
+        "translation": "오버레이가 활성 상태입니다 - 변경 사항이 즉시 표시됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "overlay_off",
+        "source": "Overlay is OFF. Drop the goggles to see the circle.",
+        "translation": "오버레이가 꺼져 있습니다. 원형 마스크를 보려면 고글을 내리십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "centre_x",
+        "source": "centre X",
+        "translation": "중심 X",
+        "match_mode": "exact"
+      },
+      {
+        "id": "centre_y",
+        "source": "centre Y",
+        "translation": "중심 Y",
+        "match_mode": "exact"
+      },
+      {
+        "id": "radius",
+        "source": "radius",
+        "translation": "반경",
+        "match_mode": "exact"
+      },
+      {
+        "id": "edge_fade",
+        "source": "edge fade",
+        "translation": "가장자리 페이드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "saving",
+        "source": "saving...",
+        "translation": "저장 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "saved_auto",
+        "source": "Saved automatically.",
+        "translation": "자동으로 저장되었습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "keys_prefix",
+        "source": "Keys: ",
+        "translation": "키: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "keys_move",
+        "source": " move, ",
+        "translation": " 이동, ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "keys_size",
+        "source": " size, ",
+        "translation": " 크기, ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "keys_edge",
+        "source": " edge, ",
+        "translation": " 가장자리, ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "keys_reset",
+        "source": " reset.",
+        "translation": " 초기화.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hold_prefix",
+        "source": "Hold ",
+        "translation": "미세 조정: ",
+        "match_mode": "segment",
+        "enabled": true
+      },
+      {
+        "id": "fine_step_suffix",
+        "source": " for a finer step. The keys are the only way in a raid, where the cursor is locked.",
+        "translation": " 키를 누르면 더 미세하게 조정됩니다. 레이드에서는 커서가 잠기므로 이 키 조작만 사용할 수 있습니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "publish_button_prefix",
+        "source": "Publish (",
+        "translation": "서버에 저장 (",
+        "match_mode": "segment"
+      },
+      {
+        "id": "close_button_prefix",
+        "source": "Close (",
+        "translation": "닫기 (",
+        "match_mode": "segment"
+      },
+      {
+        "id": "mask_reset_note",
+        "source": "reset to the server's values",
+        "translation": "서버에 저장된 값으로 초기화했습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "mask_publish_failed_note",
+        "source": "publish failed - see the log",
+        "translation": "저장 실패 - 로그를 확인하십시오",
+        "match_mode": "exact"
+      },
+      {
+        "id": "mask_published_note",
+        "source": "published",
+        "translation": "서버에 저장됨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "publish_failed_prefix",
+        "source": "Publish failed: ",
+        "translation": "저장 실패: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "no_reason_given",
+        "source": "no reason given",
+        "translation": "사유 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "published_but_prefix",
+        "source": "Published, but ",
+        "translation": "저장되었지만 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hosts_not_fitted",
+        "source": " host(s) could not be fitted: ",
+        "translation": "개 호스트에 적용하지 못했습니다: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "published",
+        "source": "Published",
+        "translation": "서버에 저장됨",
+        "match_mode": "exact"
+      }
+    ],
+    "coti_dpad": [
+      {
+        "id": "depth",
+        "source": "depth",
+        "translation": "깊이",
+        "match_mode": "exact"
+      },
+      {
+        "id": "roll_lower",
+        "source": "roll",
+        "translation": "롤",
+        "match_mode": "exact"
+      },
+      {
+        "id": "scale_lower",
+        "source": "scale",
+        "translation": "크기 비율",
+        "match_mode": "exact"
+      },
+      {
+        "id": "deg",
+        "source": "deg",
+        "translation": "도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "mask_center",
+        "source": "mask",
+        "translation": "마스크",
+        "match_mode": "exact"
+      },
+      {
+        "id": "size_minus",
+        "source": "size-",
+        "translation": "크기-",
+        "match_mode": "exact"
+      },
+      {
+        "id": "size_plus",
+        "source": "size+",
+        "translation": "크기+",
+        "match_mode": "exact"
+      },
+      {
+        "id": "edge_minus",
+        "source": "edge-",
+        "translation": "가장자리-",
+        "match_mode": "exact"
+      },
+      {
+        "id": "edge_plus",
+        "source": "edge+",
+        "translation": "가장자리+",
+        "match_mode": "exact"
+      },
+      {
+        "id": "mask_size_label",
+        "source": "size",
+        "translation": "크기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "mask_edge_label",
+        "source": "edge",
+        "translation": "가장자리",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

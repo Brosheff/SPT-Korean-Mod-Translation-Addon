@@ -1,0 +1,468 @@
+{
+  "baseSettings": "기본 설정",
+  "followSettings": "추종 설정",
+  "combatSettings": "전투 설정",
+  "inputSettings": "입력 설정",
+  "miscSettings": "기타 설정",
+  "testSettings": "테스트",
+  "raidSettings": "레이드 설정",
+  "lootingSettings": "루팅 설정",
+  "loadoutManagementSettings": "장비 구성 관리",
+  "equipOptions": [
+    "기본"
+  ],
+  "tacticOptions": [
+    "소총수",
+    "지원",
+    "지정사수",
+    "돌격",
+    "수비",
+    "보조"
+  ],
+  "statusSound": {
+    "Name": "적 위치 음량",
+    "Description": "전투 중 적 위치 표식의 핑 소리 음량입니다."
+  },
+  "enemyMarker": {
+    "Name": "적 표식",
+    "Description": "상태 보고와 자동 전투 표시에 적 위치 표식을 사용합니다. 비활성화하면 적 표식 소리도 함께 비활성화됩니다."
+  },
+  "autoDisplayCombatStatus": {
+    "Name": "적 표식 자동 표시",
+    "Description": "분대원 중 한 명이라도 전투 중이면 현재 적 표식을 계속 표시합니다. 보이지 않는 접촉은 5초마다 갱신되고, 시야에 보이는 접촉은 실시간으로 추적됩니다."
+  },
+  "autoDisplayKillMarker": {
+    "Name": "처치 표식 자동 표시",
+    "Description": "플레이어나 분대원이 추적 중인 적을 처치하면 처치된 적의 해골 표식을 자동으로 표시합니다. 비활성화하면 기억된 처치 위치는 상태 보고를 통해서만 표시됩니다."
+  },
+  "enemyKilledDisplayTime": {
+    "Name": "처치 표식 표시 시간",
+    "Description": "상태 보고 또는 자동 처치 표식이 발동한 뒤 처치한 적의 해골 표식을 표시할 시간(초)입니다. 표시는 처치 위치 기억 시간보다 오래 유지되지 않습니다."
+  },
+  "enemyKilledRetainTime": {
+    "Name": "처치 위치 기억 시간",
+    "Description": "플레이어나 분대원이 처치한 적의 위치를 기억할 시간(초)입니다. 처치 표식이 유지될 수 있는 최대 시간이기도 합니다.\n0으로 설정하면 처치한 적의 표식을 비활성화합니다."
+  },
+  "scanDistance": {
+    "Name": "최대 탐색 거리",
+    "Description": "'Contact' 음성 명령으로 지시할 때 플레이어가 가리키는 시야 내 적을 포착할 수 있는 최대 거리입니다."
+  },
+  "patrolRadius": {
+    "Name": "순찰 반경",
+    "Description": "분대원이 플레이어 주변을 순찰할 수 있는 최대 거리입니다."
+  },
+  "followDistance": {
+    "Name": "추종 거리",
+    "Description": "분대원이 플레이어를 따라갈 때 유지하는 거리입니다."
+  },
+  "regroupRadius": {
+    "Name": "재집결 반경",
+    "Description": "전투 중 분대원이 자동으로 플레이어에게 재집결하는 거리입니다.\n지정사수 분대원은 이 반경의 약 1.5배를 사용합니다."
+  },
+  "goToDistance": {
+    "Name": "'이동' 최대 거리",
+    "Description": "'There' 또는 'GoForward' 명령을 내렸을 때 분대원이 이동할 최대 거리입니다."
+  },
+  "enemyRemember": {
+    "Name": "적 기억 시간(초)",
+    "Description": "분대원이 적을 기억하는 최대 시간입니다. 레이드 시작 시에만 적용됩니다."
+  },
+  "healthMultiplier": {
+    "Name": "분대 체력 배율",
+    "Description": "함께 출격한 분대원의 체력 배율입니다. 각 신체 부위에 적용됩니다."
+  },
+  "pickup": {
+    "Name": "영입",
+    "Description": "레이드 중 같은 진영 봇을 영입할 수 있는 기능을 켜거나 끕니다."
+  },
+  "tieredPickup": {
+    "Name": "단계별 영입",
+    "Description": "봇이 영입 요청을 수락할지 결정할 때 플레이어와 봇의 레벨 차이 규칙을 사용합니다."
+  },
+  "maximumPickup": {
+    "Name": "최대 영입 수",
+    "Description": "레이드 중 기존 분대원이 아닌 같은 진영 봇을 영입할 수 있는 최대 수입니다."
+  },
+  "recruitPickup": {
+    "Name": "영입한 봇 친구 추가",
+    "Description": "영입한 분대원을 생존한 채 탈출시키면 친구 요청을 보내도록 허용합니다.\n수락 여부에는 플레이어와 봇의 레벨 차이 규칙이 적용됩니다."
+  },
+  "teamEscape": {
+    "Name": "분대 탈출",
+    "Description": "플레이어가 사망한 뒤 생존한 분대원이 탈출을 시도하도록 허용합니다.\n탈출한 분대원은 원래 잃게 될 수 있는 대상 루팅품과 회수 가능한 장비를 반환할 수 있습니다."
+  },
+  "teamEscapeUseAnyExtract": {
+    "Name": "분대 탈출: 모든 탈출구 사용",
+    "Description": "분대 탈출 시뮬레이션이 맵의 사용 가능한 탈출구 중 하나를 선택하도록 허용합니다.\n비활성화하면 플레이어에게 배정된 탈출구만 사용합니다."
+  },
+  "lootMinimumPrice": {
+    "Name": "최소 가격",
+    "Description": "시체나 컨테이너에서 가져갈 아이템의 최소 루블 가치입니다.\n0으로 설정하면 최소값 제한을 비활성화합니다."
+  },
+  "lootMaximumPrice": {
+    "Name": "최대 가격",
+    "Description": "시체나 컨테이너에서 가져갈 아이템의 최대 루블 가치입니다.\n0으로 설정하면 최대값 제한을 비활성화합니다."
+  },
+  "lootFilterFood": {
+    "Name": "식량 줍기",
+    "Description": "시체와 컨테이너에서 음식과 음료를 가져갈 수 있게 합니다."
+  },
+  "lootFilterMeds": {
+    "Name": "의약품 줍기",
+    "Description": "시체와 컨테이너에서 사용 가능한 의료품, 약물, 자극제, 의료 키트를 가져갈 수 있게 합니다."
+  },
+  "lootFilterValuables": {
+    "Name": "귀중품 줍기",
+    "Description": "시체와 컨테이너에서 교환품, 열쇠, 특수 아이템, 정보 아이템, 화폐 및 기타 비장비 전리품을 가져갈 수 있게 합니다."
+  },
+  "lootFilterWeapons": {
+    "Name": "무기 줍기",
+    "Description": "시체와 컨테이너에서 무기, 탄약, 탄창, 무기 부품, 수류탄을 가져갈 수 있게 합니다."
+  },
+  "lootFilterGear": {
+    "Name": "장비 줍기",
+    "Description": "시체와 컨테이너에서 헬멧, 방탄복, 방탄 리그, 전술 리그를 가져갈 수 있게 합니다."
+  },
+  "lootAllowGearSwapping": {
+    "Name": "장비 교체 허용",
+    "Description": "루팅 중 분대원이 조건에 맞는 장비를 착용하도록 허용합니다. 단순 및 제한 모드는 빈 슬롯에만 추가하고 해당 장비를 전리품으로 반환하며, 몰입 및 현실적 모드는 조건에 맞는 장비를 분대원 장비와 교체할 수도 있습니다."
+  },
+  "memberTactic": {
+    "Name": "분대원 {0} 전술",
+    "Description": "이 분대원의 전투 전술을 설정합니다."
+  },
+  "memberEquipment": {
+    "Name": "분대원 {0} 장비",
+    "Description": "이 분대원의 장비를 설정합니다."
+  },
+  "memberName": {
+    "Name": "분대원 {0} 별명",
+    "Description": "이 분대원의 사용자 지정 별명을 설정합니다. 기본값을 사용하려면 비워 두세요."
+  },
+  "memberVoice": {
+    "Name": "분대원 {0} 음성",
+    "Description": "이 분대원이 사용할 음성을 설정합니다."
+  },
+  "memberUniformTop": {
+    "Name": "분대원 {0} 상의",
+    "Description": "이 분대원이 입을 상의를 설정합니다. 기본값을 사용하려면 비워 두세요."
+  },
+  "memberUniformBottom": {
+    "Name": "분대원 {0} 하의",
+    "Description": "이 분대원이 입을 하의를 설정합니다. 기본값을 사용하려면 비워 두세요."
+  },
+  "equipmentLock": {
+    "Name": "분대 장비 잠금",
+    "Description": "분대원의 장비를 잠급니다."
+  },
+  "loadoutManagement": {
+    "Name": "장비 구성 관리",
+    "Description": "분대원 장비 구성을 선택, 소비, 보존하는 방식을 제어합니다."
+  },
+  "loadoutManagementSimple": {
+    "Name": "단순",
+    "Description": "보관함 장비를 템플릿으로 사용해 아이템을 소비하지 않고 자유롭게 분대원 장비 구성을 만듭니다. 분대원 장비는 보호되어 사망해도 잃지 않으며, 해당 장비를 들고 탈출할 수 없습니다."
+  },
+  "loadoutManagementRestricted": {
+    "Name": "제한",
+    "Description": "분대원 장비 구성은 보관함 장비를 사용하거나 키트 구매 시스템으로 구매해야 합니다. 장비는 여전히 보호되어 사망해도 잃지 않으며, 해당 장비를 들고 탈출할 수 없습니다."
+  },
+  "loadoutManagementRestrictedGearMaintenance": {
+    "Name": "현장 유지보수",
+    "Description": "분대원 장비를 사망 손실과 반출로부터 보호하면서 레이드 중 장비 마모와 소모품 사용량을 추적합니다."
+  },
+  "loadoutManagementImmersive": {
+    "Name": "몰입",
+    "Description": "제한 모드와 같지만 분대원 장비가 실제 레이드 장비처럼 동작합니다. 장비가 손상될 수 있고, 사망한 분대원은 장비를 잃으며, 그들의 아이템을 가지고 탈출할 수 있습니다."
+  },
+  "loadoutManagementExtreme": {
+    "Name": "현실적",
+    "Description": "몰입 모드와 같지만 보안 컨테이너가 더 이상 분대원에게 자동 관리되지 않습니다. 직접 완전히 구성해야 합니다."
+  },
+  "npcSendMessage": {
+    "Name": "레이드 종료 메시지",
+    "Description": "전원 탈출 여부나 영입한 분대원을 생존시킨 경우 등 상황에 따라 레이드 종료 시 분대원이 메시지를 보냅니다. 아이템 반환 메시지는 제외됩니다."
+  },
+  "friendlyPMC": {
+    "Name": "우호 PMC 진영",
+    "Description": "같은 진영의 PMC 봇이 항상 서로 우호적으로 행동할지 설정합니다. 끄면 같은 진영 봇의 우호 여부를 게임의 기본 적대 시스템이 결정합니다."
+  },
+  "badGuy": {
+    "Name": "적대 플레이어",
+    "Description": "진영과 관계없이 모든 PMC 봇이 플레이어에게 적대적으로 행동할지 설정합니다."
+  },
+  "factionHostilities": {
+    "Name": "진영 적대 관계",
+    "Description": "진영 간 적대 관계가 항상 정상적으로 작동하지 않는 문제를 보정하는 패치를 활성화합니다."
+  },
+  "PmcArmbands": {
+    "Name": "PMC 진영 완장",
+    "Description": "PMC 봇에게 진영별 완장을 착용시킵니다(BEAR는 빨간색, USEC은 파란색)."
+  },
+  "englishBear": {
+    "Name": "BEAR 영어 사용",
+    "Description": "BEAR 봇이 영어만 말하도록 합니다."
+  },
+  "pingSquad": {
+    "Name": "상태 보고 단축키",
+    "Description": "상태 보고 빠른 음성 명령의 대체 단축키입니다."
+  },
+  "pingRadioVolume": {
+    "Name": "상태 보고 음량",
+    "Description": "상태 보고를 실행할 때 재생되는 무전 소리의 음량입니다."
+  },
+  "pingTime": {
+    "Name": "상태 보고 표시 시간",
+    "Description": "분대원 상태를 표시하는 시간(초)입니다."
+  },
+  "statusReportHighlight": {
+    "Name": "상태 보고: 강조",
+    "Description": "상태 보고 중 생존한 분대원을 외곽선으로 강조합니다. 성능 문제가 있다면 비활성화하세요."
+  },
+  "statusReportHighlightColor": {
+    "Name": "상태 보고: 색상",
+    "Description": "상태 보고 텍스트와 분대원 외곽선 색상을 16진수 RGB 형식(#00FF00)으로 지정합니다."
+  },
+  "statusReportHealthColoring": {
+    "Name": "체력 상태 색상",
+    "Description": "분대원의 체력 상태에 따라 강조 색상을 적용합니다."
+  },
+  "statusReportFullHealthColor": {
+    "Name": "최대 체력 강조 색상",
+    "Description": "체력이 최대인 분대원의 강조 색상을 16진수 RGB 형식(#00FF00)으로 지정합니다."
+  },
+  "statusReportMediumHealthColor": {
+    "Name": "중간 체력 강조 색상",
+    "Description": "체력이 중간 수준인 분대원의 강조 색상을 16진수 RGB 형식(#FFFF00)으로 지정합니다."
+  },
+  "statusReportLowHealthColor": {
+    "Name": "낮은 체력 강조 색상",
+    "Description": "체력이 낮은 분대원의 강조 색상을 16진수 RGB 형식(#FF0000)으로 지정합니다."
+  },
+  "statusReportAlwaysHighlight": {
+    "Name": "항상 강조",
+    "Description": "분대원 강조 표시를 항상 유지합니다."
+  },
+  "statusReportShowName": {
+    "Name": "상태 보고: 이름",
+    "Description": "상태 보고에 각 분대원의 이름을 표시합니다."
+  },
+  "statusReportShowDistance": {
+    "Name": "상태 보고: 거리",
+    "Description": "상태 보고에 각 분대원까지의 거리를 표시합니다."
+  },
+  "statusReportShowHealth": {
+    "Name": "상태 보고: 체력(HP)",
+    "Description": "상태 보고에 각 분대원의 현재 및 최대 체력을 표시합니다."
+  },
+  "statusReportShowTactic": {
+    "Name": "상태 보고: 전술(MD)",
+    "Description": "상태 보고에 각 분대원의 현재 전투 전술을 표시합니다."
+  },
+  "statusReportShowCombatStatus": {
+    "Name": "상태 보고: 전투 상태",
+    "Description": "상태 보고에 각 분대원이 치료 중인지, 치료를 원하고 있는지, 전투 중인지, 적을 감지했는지 표시합니다."
+  },
+  "enemyContact": {
+    "Name": "적 접촉 단축키",
+    "Description": "접촉(Contact) 빠른 음성 명령의 대체 단축키입니다."
+  },
+  "overThere": {
+    "Name": "저쪽 단축키",
+    "Description": "저쪽(Over There) 빠른 제스처의 대체 단축키입니다."
+  },
+  "hideUnsupportedCommands": {
+    "Name": "지원하지 않는 명령 숨기기",
+    "Description": "게임의 제스처 메뉴에 실제 명령이 등록되지 않은 문구를 숨깁니다."
+  },
+  "botTeleport": {
+    "Name": "분대원 순간이동",
+    "Description": "모든 분대원을 플레이어 위치로 순간이동시킵니다."
+  },
+  "botHeal": {
+    "Name": "분대원 치료",
+    "Description": "모든 분대원을 치료하고 파괴된 신체 부위를 복구합니다."
+  },
+  "botPrefetch": {
+    "Name": "분대원 데이터 사전 로드",
+    "Description": "분대원 데이터를 미리 불러와 스폰 시간을 줄입니다. 분대원 스폰에 문제가 생기면 이 옵션을 비활성화하고 다시 시도하세요. 스폰 준비 시간이 늘어날 수 있습니다."
+  },
+  "botGrenades": {
+    "Name": "분대원 수류탄 사용",
+    "Description": "분대원이 수류탄을 사용하도록 허용합니다."
+  },
+  "botTalk": {
+    "Name": "분대원 전투 대화",
+    "Description": "전투 중 분대원이 도발성 대사를 말하는 빈도입니다. 0으로 설정하면 비활성화합니다."
+  },
+  "spawnPoint": {
+    "Name": "협동 스폰 지점 사용",
+    "Description": "분대원과 함께 출격할 때 협동 스폰 지점을 사용합니다."
+  },
+  "battleRecorder": {
+    "Name": "전투 기록기",
+    "Description": "레이드 분석을 위해 상세한 분대원 전투 타임라인을 전용 JSONL 파일에 기록합니다."
+  },
+  "battleRecorderSnapshotIntervalMs": {
+    "Name": "전투 기록 스냅샷 간격(ms)",
+    "Description": "분대원 전투 기록기의 위치 샘플 스냅샷 간격입니다."
+  },
+  "gestures": {
+    "OverThere": "저쪽",
+    "TeamStatus": "상태 보고",
+    "ViewBackpack": "배낭 보기",
+    "OnRepeatedContact": "접촉"
+  },
+  "botStatus": {
+    "Dead": "사망",
+    "Engaged": "전투 중",
+    "Alerted": "적 감지",
+    "Heal": "치료 중",
+    "WantToHeal": "치료 필요"
+  },
+  "returnItems": [
+    "분대원에게서 아이템을 받았습니다. 수령할 수 있습니다."
+  ],
+  "returnItemsDeath": [
+    "분대원이 이 아이템들을 회수했습니다."
+  ],
+  "teamEscaped": [
+    "좋아!\n우리 모두 탈출했어."
+  ],
+  "teamSomeEscaped": [
+    "{0}은 안타깝지만, 그래도 나머지는 무사히 빠져나왔어."
+  ],
+  "friendlyEscaped": [
+    "무사히 빠져나와서 다행이야.\n같이 갈 수 있게 해줘서 고마워."
+  ],
+  "deathEscapeMessages": [
+    "레이드 종료 분대 보고:\n{0}"
+  ],
+  "deathEscape": {
+    "Report": "레이드 종료 분대 보고:\n{0}",
+    "AllLost": "모든 분대원이 탈출하지 못했습니다.",
+    "AllEscaped": "모든 분대원이 탈출에 성공했습니다.",
+    "MadeItOut": "탈출 성공: {0}",
+    "Lost": "손실: {0}",
+    "ExtractRoute": "탈출 경로: {0}"
+  },
+  "traitorKillMessages": [
+    "널 믿었는데. 그게 내 실수였나 보네.",
+    "네 편이 된 사람을 이렇게 대하는 거야?",
+    "영입해 놓고 직접 죽이려고 한 거야? 참 대단하네.",
+    "네 뒤를 봐줬는데, 넌 내 등을 쐈군."
+  ],
+  "jerkKillMessages": [
+    "같은 편이야, 천재야. 다음엔 표적부터 확인해.",
+    "우호 PMC라고. 우호. 그 말 뜻 몰라?",
+    "같은 색 입은 사람은 전부 쏘는 거야, 아니면 나만 특별한 거야?",
+    "잘했네. 네 편 하나 죽였어."
+  ],
+  "socialUi": {
+    "AddTeammate": "+ 분대원 추가",
+    "AddTeammateInProgress": "{0}을(를) 친구 목록에 추가했습니다",
+    "AddTeammateConfirm": "분대원 추가",
+    "AddTeammateFlowActive": "분대원 추가 화면이 이미 열려 있습니다.",
+    "AddTeammateOpenFailed": "분대원 생성 화면을 열 수 없습니다.",
+    "AddTeammateCreateFailed": "분대원을 생성할 수 없습니다.",
+    "AddTeammateUnsupportedSide": "현재 분대원 추가는 PMC 프로필만 지원합니다.",
+    "Cancel": "취소",
+    "Save": "저장",
+    "Done": "완료",
+    "Ok": "확인",
+    "EnterNickname": "플레이어 별명 입력",
+    "NicknameTooShort": "별명이 너무 짧습니다",
+    "NameCannotBeEmpty": "이름을 비워 둘 수 없습니다.",
+    "RenameTeammateTitle": "분대원 이름 변경",
+    "RenameSave": "저장",
+    "RenameCancel": "취소",
+    "RenameChange": "이름 편집",
+    "RenameFailed": "분대원 이름을 변경할 수 없습니다",
+    "RenameClose": "x",
+    "EditLoadout": "장비 구성 편집",
+    "BuyGearLoadout": "키트 장비 구성",
+    "KitLoadoutsOpenFailed": "분대원 키트 장비 구성을 열 수 없습니다.",
+    "KitLoadoutPriceFailed": "선택한 분대원 키트의 가격을 계산할 수 없습니다.",
+    "KitLoadoutPurchaseFailed": "분대원 키트를 구매할 수 없습니다.",
+    "KitStashSelectionChanged": "선택한 보관함 아이템이 변경되었습니다. 키트를 다시 확인한 뒤 시도하세요.",
+    "KitStashContainerHasUnselectedContents": "구매가 거부되었습니다. 선택한 보관함 컨테이너 안에 선택되지 않은 아이템이 남아 있습니다. 컨테이너를 비우거나 선택을 해제한 뒤 다시 시도하세요.",
+    "LiveStashRefreshFailed": "플레이어 보관함 갱신에 실패했습니다. 추가로 인벤토리를 변경하기 전에 게임을 다시 시작하세요.",
+    "NotEnoughResourcesKitPrompt": "{0} 키트를 구매할 자원이 부족합니다",
+    "BuyKitTitle": "키트 구매",
+    "PurchaseKitPrompt": "{0} 키트를 {1}에 구매하시겠습니까?",
+    "KitCurrentGearDeliveryNotice": "분대원이 현재 착용 중인 키트는 배송 서비스를 통해 반환됩니다.",
+    "KitItemsTakenFromStash": "다음 아이템을 보관함에서 사용합니다:",
+    "KitItemsPurchased": "다음 아이템을 구매합니다:",
+    "PurchaseKitAction": "구매",
+    "EquipKitAction": "장착",
+    "UseItemsInStash": "보관함 아이템 사용",
+    "CurrencyRoubles": "{0:N0} 루블",
+    "UnknownItem": "알 수 없는 아이템",
+    "EditLoadoutTitle": "장비 구성 편집",
+    "EditLoadoutTitleWithName": "장비 구성 편집 : {0}",
+    "EditLoadoutSubtitle": "{0}의 복제 아이템을 편집합니다. 여기서 변경해도 실제 보관함에는 아직 영향을 주지 않습니다.",
+    "EditLoadoutSubtitleReal": "{0}의 준비된 장비를 편집합니다. 저장하면 보관함과 이 분대원 사이에서 아이템이 이동합니다.",
+    "ProfileRecoveredTitle": "프로필 복구됨",
+    "ProfileRecoveredBody": "이 분대원의 프로필이 비정상 상태에서 복구되었습니다. 복구 과정에서 인벤토리의 일부 아이템이 삭제되었을 수 있습니다.",
+    "DuplicateProfileRecoveryTitle": "프로필 복구됨",
+    "DuplicateProfileRecoveryBody": "플레이어와 분대원 프로필 양쪽에서 중복 아이템이 발견되었습니다. 안전하게 복구하기 위해 다음 분대원 프로필에서 중복 아이템을 제거했습니다: {0}",
+    "LoadoutEditorSaveFailed": "분대원 인벤토리를 저장하지 못했습니다.",
+    "LockedStashItemBlocked": "분대원 장비 구성 저장이 차단되었습니다. 잠긴 보관함 컨테이너 내부의 아이템이 이동되거나 변경되었습니다. 컨테이너의 잠금을 해제한 뒤 다시 시도하세요. 잠긴 컨테이너: id={0}, tpl={1}. 차단된 아이템: id={2}, tpl={3}.",
+    "PlayerStash": "플레이어 보관함",
+    "PlayerStashPlaceholder": "복제된 보관함 화면을 불러오지 못했습니다.\n{0}",
+    "BotInventory": "분대원 인벤토리",
+    "BotInventoryPlaceholder": "복제된 분대원 인벤토리를 불러오지 못했습니다.\n{0}",
+    "SaveEquipmentPresetFailed": "장비 프리셋을 저장하지 못했습니다.",
+    "ProfileTactic": "소총수",
+    "ProfileTacticMarksman": "지정사수",
+    "ProfileTacticProtector": "보호자",
+    "ProfileAdjustProficiency": "숙련도",
+    "AdjustProficiencyTitleWithName": "숙련도 : {0}",
+    "ProfileAggression": "공격성",
+    "ProfileVision": "시야",
+    "ProfilePrecision": "정밀도",
+    "ProfileReaction": "반응 속도",
+    "ProfileResetProficiency": "초기화",
+    "RemoveTeammateTitle": "분대원 제거",
+    "RemoveTeammatePrompt": "분대원 {0}을(를) 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+    "RemoveTeammateConfirm": "제거",
+    "SquadControlDeleteTooltip": "삭제",
+    "SquadControlInviteToGroup": "그룹에 초대",
+    "SquadControlRemoveFromGroup": "그룹에서 제거",
+    "SquadControlRemoveFromGroupConfirm": "{0}을(를) 현재 레이드 그룹에서 제거하시겠습니까?",
+    "SquadControlViewProfile": "프로필 보기",
+    "SquadControlProfileCorrupt": "이 분대원 프로필은 손상되어 불러올 수 없습니다.",
+    "SquadControlAutoJoinOn": "자동 합류: 켜짐",
+    "SquadControlAutoJoinOff": "자동 합류: 꺼짐",
+    "SquadControlAutoJoinTooltip": "자동 합류",
+    "SquadControlInGroupTooltip": "그룹 참가 중",
+    "SquadControlInviteAcceptedToast": "{0}이(가) 그룹에 합류했습니다.",
+    "SquadControlInvitePendingFailedToast": "{0}의 그룹 초대가 수락되지 않았습니다.",
+    "SquadControlRemovedFromGroupToast": "{0}을(를) 그룹에서 제거했습니다.",
+    "SquadControlRemoveFromGroupFailedToast": "{0}을(를) 그룹에서 제거하지 못했습니다.",
+    "SquadControlAutoJoinEnabledToast": "{0}의 PMC 레이드 자동 합류를 활성화했습니다.",
+    "SquadControlAutoJoinDisabledToast": "{0}의 PMC 레이드 자동 합류를 비활성화했습니다.",
+    "SquadControlAutoJoinEnableFailedToast": "{0}의 자동 합류를 활성화하지 못했습니다",
+    "SquadControlAutoJoinDisableFailedToast": "{0}의 자동 합류를 비활성화하지 못했습니다",
+    "SquadControlButton": "내 분대",
+    "SquadControlTitle": "내 분대",
+    "SquadControlRaidSettingsButton": "분대 설정",
+    "SquadControlRaidSettingsTitle": "내 분대 설정",
+    "SquadControlBack": "뒤로",
+    "SquadControlClose": "닫기",
+    "SquadControlRosterTab": "명단",
+    "SquadControlSettingsTab": "설정",
+    "SquadControlRosterPlayer": "플레이어",
+    "SquadControlRosterLeader": "분대장",
+    "SquadControlRosterMemberA": "분대원 01",
+    "SquadControlRosterMemberB": "분대원 02",
+    "SquadControlRosterRole": "분대원",
+    "SquadControlEmptyRoster": "아직 생성한 분대원이 없습니다. 아래 추가 버튼을 눌러 시작하세요.",
+    "SettingsPressKey": "키를 누르세요...",
+    "SettingsNotBound": "미지정",
+    "SettingsUnavailableDuringRaid": "레이드 중에는 사용할 수 없습니다",
+    "LoadoutManagementConfirmTitle": "장비 구성 관리 전환",
+    "LoadoutManagementConfirmPrompt": "장비 구성 관리 방식을 변경하면 모든 분대원의 장비 구성이 기본 장비 구성으로 전환됩니다.",
+    "LoadoutManagementConfirm": "계속"
+  }
+}

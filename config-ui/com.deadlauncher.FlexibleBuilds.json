@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.deadlauncher.FlexibleBuilds",
+  "plugin_name": "Flexible Builds",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Excluded Mod Types",
+      "translation": "제외할 부품 유형"
+    },
+    {
+      "source": "Excluded Mods",
+      "translation": "제외할 부품"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "PartialMatching",
+      "source_display_name": "Partial matching",
+      "source_description": null,
+      "translation_display_name": "부분 일치",
+      "translation_description": "부분적인 무기 빌드 일치를 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "RemoveBaseName",
+      "source_display_name": "Show preset name only",
+      "source_description": null,
+      "translation_display_name": "프리셋 이름만 표시",
+      "translation_description": "기본 무기 모델명을 숨기고 프리셋 제목만 표시합니다.",
+      "values": []
+    }
+  ]
+}

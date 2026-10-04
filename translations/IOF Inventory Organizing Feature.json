@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "InventoryOrganizingFeatures",
+  "mod_name": "IOF Inventory Organizing Feature",
+  "channels": {
+    "notifications": [
+      {
+        "id": "invalid_tag",
+        "source": "This @o tag is INVALID and will be ignored:\n{error}",
+        "translation": "이 @o 태그는 올바르지 않아 무시됩니다:\n{error}",
+        "match_mode": "template"
+      },
+      {
+        "id": "item_skipped",
+        "source": "{item} was skipped, its @o tag is invalid: {error}",
+        "translation": "@o 태그가 올바르지 않아 아이템을 건너뛰었습니다: {item} — {error}",
+        "match_mode": "template"
+      },
+      {
+        "id": "plugin_exception",
+        "source": "flir.iof threw an exception. Perhaps version incompatibility? Exception: {error}",
+        "translation": "flir.iof에서 예외가 발생했습니다. 모드 버전 호환 문제일 수 있습니다. 오류: {error}",
+        "match_mode": "template"
+      },
+      {
+        "id": "sort_locked",
+        "source": "This item is Sort Locked.",
+        "translation": "이 아이템은 정렬 잠금 상태입니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "move_locked",
+        "source": "This item is Move Locked.",
+        "translation": "이 아이템은 이동 잠금 상태입니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "organizes",
+        "source": "This item organizes:",
+        "translation": "이 아이템의 정리 대상:",
+        "match_mode": "segment"
+      },
+      {
+        "id": "order",
+        "source": "\n  -  Order #{order}",
+        "translation": "\n  -  정렬 순서 #{order}",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "fir_only",
+        "source": "\n  -  Only \"Found in raid\".",
+        "translation": "\n  -  \"레이드에서 발견\" 아이템만.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "nonfir_only",
+        "source": "\n  -  Only \"Not found in raid\".",
+        "translation": "\n  -  \"레이드에서 발견되지 않음\" 아이템만.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "not_name",
+        "source": "NOT Name contains: ",
+        "translation": "이름 미포함: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "name",
+        "source": "Name contains: ",
+        "translation": "이름 포함: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "not_category",
+        "source": "NOT Category: ",
+        "translation": "제외 분류: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "category",
+        "source": "Category: ",
+        "translation": "분류: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "not_found_in_raid",
+        "source": "Not found in raid",
+        "translation": "레이드에서 발견되지 않음",
+        "match_mode": "segment"
+      },
+      {
+        "id": "found_in_raid",
+        "source": "Found in raid",
+        "translation": "레이드에서 발견",
+        "match_mode": "segment"
+      },
+      {
+        "id": "and",
+        "source": " AND ",
+        "translation": " 그리고 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "or",
+        "source": " OR ",
+        "translation": " 또는 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "any_accepted",
+        "source": "any item this container accepts",
+        "translation": "이 컨테이너에 들어가는 모든 아이템",
+        "match_mode": "segment"
+      },
+      {
+        "id": "organize_missing_closing_semicolon",
+        "source": "the parameters \"{parameters}\" are missing the closing ';'. Write \"@o {parameters};\".",
+        "translation": "매개변수 \"{parameters}\" 뒤에 닫는 세미콜론(;)이 없습니다. \"@o {parameters};\" 형식으로 작성하십시오.",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "organize_empty_condition",
+        "source": "there is an empty condition next to '||' or '&&'",
+        "translation": "'||' 또는 '&&' 옆에 빈 조건이 있습니다",
+        "match_mode": "segment"
+      },
+      {
+        "id": "organize_order_param_boolean_conflict",
+        "source": "the order parameter '{parameter}' cannot be combined with '||' or '&&', put it in its own '|' section",
+        "translation": "정렬 매개변수 '{parameter}'는 '||' 또는 '&&'와 함께 사용할 수 없습니다. 별도의 '|' 구역에 넣으십시오",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "organize_param_boolean_conflict",
+        "source": "'{parameter}' cannot be combined with '||' or '&&'",
+        "translation": "'{parameter}'는 '||' 또는 '&&'와 함께 사용할 수 없습니다",
+        "match_mode": "segment_template"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "organize_button",
+        "source": "ORG.",
+        "translation": "정리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "organize_all_button",
+        "source": "ALL",
+        "translation": "전체",
+        "match_mode": "exact"
+      },
+      {
+        "id": "take_out_button",
+        "source": "⇧T/O",
+        "translation": "⇧빼기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "organize_contents_confirm",
+        "source": "Do you want to organize the contents of {item} into the tagged containers inside it?",
+        "translation": "{item} 안의 내용물을 내부의 태그된 컨테이너에 정리하시겠습니까?",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "organize_stash_confirm",
+        "source": "Do you want to organize the whole stash into the tagged containers inside it?",
+        "translation": "보관함 전체를 내부의 태그된 컨테이너에 정리하시겠습니까?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "take_out_confirm",
+        "source": "Do you want to take all items out of {item}?",
+        "translation": "{item}에서 모든 아이템을 꺼내시겠습니까?",
+        "match_mode": "segment_template"
+      }
+    ]
+  }
+}

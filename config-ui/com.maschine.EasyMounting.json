@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.maschine.EasyMounting",
+  "plugin_name": "EasyMounting-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Cursed",
+      "translation": "고급/위험 설정"
+    },
+    {
+      "source": "Debug",
+      "translation": "디버그"
+    },
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Support",
+      "translation": "지원"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Cursed",
+      "key": "ReachToleranceMeters",
+      "source_display_name": "Mount Distance Tolerance (m)",
+      "source_description": "How far (meters) the player may end up from the computed stand position before the mount aborts. Vanilla ~0.09. Raise when a mount visibly starts pulling you in and then pops back out (colliders blocking the last few centimeters); the pose may anchor slightly off the surface in exchange. Applies live, no restart needed.",
+      "translation_display_name": "마운트 위치 허용 오차 (m)",
+      "translation_description": "계산된 서기 위치에서 플레이어가 얼마나 떨어져 있어도 마운트를 계속 허용할지 미터 단위로 설정합니다. 기본 게임은 약 0.09입니다. 마운트를 시작하며 끌려갔다가 마지막 몇 cm에서 충돌체 때문에 풀리는 경우 값을 올리세요. 대신 자세가 표면에서 약간 떨어져 고정될 수 있습니다. 재시작 없이 즉시 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Cursed",
+      "key": "SkipClipCheck",
+      "source_display_name": "Mount In Tight Spots",
+      "source_description": "Disable the body-clearance check for standing/crouched ledge mounts. Lets you mount at spots that are geometrically valid but too tight for vanilla to allow (e.g. close to a wall behind you) - at the cost of possibly visibly clipping into geometry while mounted.",
+      "translation_display_name": "좁은 공간에서도 마운트 허용",
+      "translation_description": "서거나 앉은 상태의 모서리 마운트에서 신체 여유 공간 검사를 비활성화합니다. 기하학적으로는 유효하지만 기본 게임이 너무 좁다고 판단하는 위치(예: 등 뒤 벽이 가까운 곳)에서도 마운트할 수 있습니다. 대신 마운트 중 신체가 지형에 눈에 띄게 겹칠 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Cursed",
+      "key": "SkipRotationOverlapCheck",
+      "source_display_name": "Free Horizontal Aim While Mounted",
+      "source_description": "While mounted, horizontal aiming normally checks whether the body shift caused by the rotation would overlap geometry, and blocks the rotation if so. At clipped-in spots (see Mount In Tight Spots) that check reports overlap permanently, freezing horizontal aim. Skipping it restores horizontal aim there; the body may visibly rotate through the clipped geometry.",
+      "translation_display_name": "마운트 중 수평 조준 제한 해제",
+      "translation_description": "마운트 중 수평 조준은 회전으로 인한 신체 이동이 지형과 겹치는지 검사하고, 겹치면 회전을 막습니다. 좁은 공간 마운트로 지형에 들어간 위치에서는 이 검사가 계속 충돌로 판정되어 수평 조준이 고정될 수 있습니다. 검사를 건너뛰면 수평 조준을 되찾을 수 있지만 신체가 지형을 뚫고 회전해 보일 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Cursed",
+      "key": "SynthesizeThinRailPoints",
+      "source_display_name": "Mount On Paper-Thin Railings",
+      "source_description": "When the vanilla scan finds nothing, re-scan and synthesize a mount point for thin-sheet colliders. Some railings have collision as a paper-thin vertical sheet: forward rays hit the front face, but the downward probes that normally locate the top surface pass right by the zero-width top edge, so vanilla can never mount there. This anchors the weapon on the front-face top edge instead. Weapon placement on such rails may look slightly off.",
+      "translation_display_name": "매우 얇은 난간에 마운트 지점 생성",
+      "translation_description": "기본 탐색에서 아무것도 찾지 못하면 다시 탐색해 얇은 판형 충돌체용 마운트 지점을 생성합니다. 일부 난간은 종잇장처럼 얇은 수직 충돌체만 있어 정면 레이는 맞지만 윗면을 찾는 하향 탐색이 폭이 0인 모서리를 지나쳐 기본 게임에서는 마운트할 수 없습니다. 이 옵션은 대신 정면 상단 모서리에 무기를 고정합니다. 이런 난간에서는 무기 위치가 약간 어색해 보일 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "DebugMountLogging",
+      "source_display_name": "Log Every Mount Attempt",
+      "source_description": "Trace every mount attempt to the BepInEx log: surface scan result, validation result, computed player stand position, and - on every mount exit - the remaining distance to that position plus which code path triggered the exit. Used to diagnose spots that refuse to mount.",
+      "translation_display_name": "모든 마운트 시도 기록",
+      "translation_description": "모든 마운트 시도를 BepInEx 로그에 기록합니다. 표면 탐색 결과, 유효성 검사 결과, 계산된 플레이어 위치와 각 마운트 해제 시 해당 위치까지 남은 거리 및 해제를 유발한 코드 경로를 기록합니다. 마운트되지 않는 위치를 진단할 때 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Enabled",
+      "source_display_name": "Detect Thin Railings (Master Switch)",
+      "source_description": "Widen the raycast layer mask used to find ledge/railing mounting points (mounting without bipod ground contact).",
+      "translation_display_name": "얇은 난간 마운트 감지",
+      "translation_description": "난간/모서리 마운트 지점을 찾을 때 사용하는 레이캐스트 레이어 범위를 넓힙니다. 바이포드가 지면에 닿지 않는 일반 마운트 탐지에 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "IncludeDoorCollider",
+      "source_display_name": "Include Doors (Not Recommended)",
+      "source_description": "Also include the door low-poly collider layer, for railings/frames near doorways. Off by default: mounts found on a door slab do not reliably register the vanilla dismount-when-door-moves hook, so a door opening under you can leave the weapon anchored in mid-air.",
+      "translation_display_name": "문 충돌체 포함 (권장하지 않음)",
+      "translation_description": "문 주변의 난간과 프레임을 감지하도록 문의 저폴리 충돌체 레이어도 포함합니다. 기본값은 꺼짐입니다. 문 자체에서 찾은 마운트 지점은 문이 움직일 때 자동으로 마운트를 해제하는 기본 동작이 안정적으로 연결되지 않아, 문이 열리면 무기가 공중에 고정될 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "IncludeLowPolyCollider",
+      "source_display_name": "Include Low-Poly Collision",
+      "source_description": "Include the LowPolyCollider layer. Many thin railings/fences only have collision on this layer, not HighPolyCollider, so the vanilla mount-point search never hits them no matter how permissive the server-side EasyMounting settings are.",
+      "translation_display_name": "저폴리곤 충돌체 포함",
+      "translation_description": "LowPolyCollider 레이어를 포함합니다. 많은 얇은 난간과 울타리는 HighPolyCollider가 아니라 이 레이어에만 충돌체가 있어, 서버 측 EasyMounting 설정을 완화해도 기본 마운트 지점 탐색으로는 감지되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "NormalizeSwappedMountAnchors",
+      "source_display_name": "Fix Weapons With Broken Mount Data",
+      "source_description": "Some weapons ship their mounting anchor with the along-the-barrel offset in the sideways component (e.g. TRG M10), which makes the mounted weapon float ~1m beside the body with stretched arms and balloons the aiming window. When the sideways component dominates, swap it into place at mount time. Affects vanilla mounts of such weapons too.",
+      "translation_display_name": "잘못된 무기 마운트 기준점 보정",
+      "translation_description": "일부 무기는 총열 방향 오프셋이 좌우 성분에 잘못 들어간 마운트 앵커를 사용합니다(예: TRG M10). 이 경우 마운트한 무기가 몸 옆 약 1m에 떠 있고 팔이 늘어나며 조준 범위가 비정상적으로 커질 수 있습니다. 좌우 성분이 우세하면 마운트할 때 올바른 축으로 바꿉니다. 이런 무기의 기본 마운트에도 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Support",
+      "key": "CaptureWindowSeconds",
+      "source_display_name": "Time To Reproduce The Issue (s)",
+      "source_description": "How long (seconds) to wait after arming mount tracing before packaging, giving you time to reproduce the mount issue. Only applies when tracing was off at the time you pressed the hotkey - if it is already on, the package is generated immediately.",
+      "translation_display_name": "문제 재현 대기 시간 (초)",
+      "translation_description": "마운트 추적을 켠 뒤 지원 패키지를 만들기 전까지 기다릴 시간을 초 단위로 설정합니다. 이 동안 마운트 문제를 재현할 수 있습니다. 단축키를 눌렀을 때 추적이 꺼져 있던 경우에만 적용되며, 이미 켜져 있으면 패키지를 즉시 생성합니다.",
+      "values": []
+    },
+    {
+      "section": "Support",
+      "key": "CleanupOldPackages",
+      "source_display_name": "Delete Older Support Packages",
+      "source_description": "Delete previous EasyMounting-Support-*.zip files after creating a new one, so the folder never ends up with several packages that are unclear which one to actually attach to a report.",
+      "translation_display_name": "이전 지원 패키지 삭제",
+      "translation_description": "새 지원 패키지를 만든 뒤 이전 EasyMounting-Support-*.zip 파일을 삭제합니다. 보고할 파일을 헷갈리지 않도록 폴더에 여러 지원 패키지가 쌓이는 것을 방지합니다.",
+      "values": []
+    },
+    {
+      "section": "Support",
+      "key": "GenerateSupportPackage",
+      "source_display_name": "Create Support Package (Hotkey)",
+      "source_description": "Unbound by default - most players never need this, and a default key is likely to already be taken by another mod or the game itself. Prefer a modifier combination (e.g. Ctrl+F1) over a plain letter: the key is polled directly, so a bare letter can also fire while you type in chat or a search box. Set a key here if you want to generate a support package: it collects LogOutput.log, both EasyMounting configs, the newest SPT server log and a summary of loaded plugins and active mounting settings into a zip under <GameRoot>/EasyMounting-Support/, then opens Explorer with the zip selected - attach that file when reporting issues. If mount tracing is currently off, the first press arms it and waits for the capture window so you can reproduce the issue with mount traces included; press the hotkey again during that window to capture immediately instead of waiting it out.",
+      "translation_display_name": "지원 패키지 생성 단축키",
+      "translation_description": "기본값은 미지정입니다. 대부분의 사용자는 필요하지 않으며 기본 키를 지정하면 게임이나 다른 모드와 충돌할 가능성이 큽니다. 일반 문자 키보다 Ctrl+F1 같은 조합키 사용을 권장합니다. 이 키는 직접 감지하므로 문자 키 하나만 지정하면 채팅이나 검색창에 입력하는 중에도 실행될 수 있습니다. 지원 패키지를 만들려면 단축키를 지정하세요. LogOutput.log, 두 EasyMounting 설정 파일, 최신 SPT 서버 로그, 로드된 플러그인과 활성 마운트 설정 요약을 <GameRoot>/EasyMounting-Support/ 아래 ZIP으로 모은 뒤 탐색기에서 해당 파일을 선택해 엽니다. 문제를 보고할 때 그 파일을 첨부하면 됩니다. 마운트 추적이 꺼져 있으면 첫 입력으로 추적을 켜고 재현 시간을 기다리며, 그 시간 안에 다시 누르면 즉시 패키지를 생성합니다.",
+      "values": []
+    }
+  ]
+}

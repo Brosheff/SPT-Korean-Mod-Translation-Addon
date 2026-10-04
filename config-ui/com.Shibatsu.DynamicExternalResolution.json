@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.Shibatsu.DynamicExternalResolution",
+  "plugin_name": "SPT-Dynamic-External-Resolution-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Settings",
+      "translation": "설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Settings",
+      "key": "DLSS Scaling Mode",
+      "source_display_name": "DLSS Scaling Mode",
+      "source_description": "(Only works when DLSS is Enable) \nImage scaling mode when using DLSS, which will change external rendering to this level when you aiming through the telescopic scope. Default is Ultra Performance Mode (65% resolution downgrade).",
+      "translation_display_name": "DLSS 스케일링 방식",
+      "translation_description": "DLSS가 켜져 있을 때만 적용됩니다. 배율 조준 중 외부 화면에 사용할 DLSS 스케일링 모드를 설정합니다. 기본값은 Ultra Performance입니다.",
+      "values": [
+        {
+          "source": "UltraPerformance",
+          "translation": "울트라 성능"
+        },
+        {
+          "source": "Performance",
+          "translation": "성능"
+        },
+        {
+          "source": "Balanced",
+          "translation": "균형"
+        },
+        {
+          "source": "Quality",
+          "translation": "품질"
+        },
+        {
+          "source": "UltraQuality",
+          "translation": "울트라 품질"
+        },
+        {
+          "source": "Off",
+          "translation": "끔"
+        }
+      ]
+    },
+    {
+      "section": "Settings",
+      "key": "Enable Mod",
+      "source_display_name": "Enable Mod",
+      "source_description": "Enable/Disable reducing the resolution of the external rendering, when aiming through the telescopic sight.",
+      "translation_display_name": "모드 활성화",
+      "translation_description": "배율 조준경으로 조준할 때 화면 바깥쪽 렌더링 해상도를 낮추는 기능을 켭니다.",
+      "values": []
+    },
+    {
+      "section": "Settings",
+      "key": "FSR2 Scaling Mode",
+      "source_display_name": "FSR2 Scaling Mode",
+      "source_description": "(Only works when FSR 2.2 is Enable) \nImage scaling mode when using FSR2, which will change external rendering to this level when you aiming through the telescopic scope. Default is Ultra Performance Mode (67% resolution downgrade).",
+      "translation_display_name": "FSR2 스케일링 방식",
+      "translation_description": "FSR 2.2가 켜져 있을 때만 적용됩니다. 배율 조준 중 외부 화면에 사용할 FSR2 스케일링 모드를 설정합니다. 기본값은 Ultra Performance입니다.",
+      "values": [
+        {
+          "source": "UltraPerformance",
+          "translation": "울트라 성능"
+        },
+        {
+          "source": "Performance",
+          "translation": "성능"
+        },
+        {
+          "source": "Balanced",
+          "translation": "균형"
+        },
+        {
+          "source": "Quality",
+          "translation": "품질"
+        },
+        {
+          "source": "UltraQuality",
+          "translation": "울트라 품질"
+        },
+        {
+          "source": "Off",
+          "translation": "끔"
+        }
+      ]
+    },
+    {
+      "section": "Settings",
+      "key": "FSR3 Scaling Mode",
+      "source_display_name": "FSR3 Scaling Mode",
+      "source_description": "(Only works when FSR 3.0 is Enable) \nImage scaling mode when using FSR3, which will change external rendering to this level when you aiming through the telescopic scope. Default is Ultra Performance Mode (67% resolution downgrade).",
+      "translation_display_name": "FSR3 스케일링 방식",
+      "translation_description": "FSR 3.0이 켜져 있을 때만 적용됩니다. 배율 조준 중 외부 화면에 사용할 FSR3 스케일링 모드를 설정합니다. 기본값은 Ultra Performance입니다.",
+      "values": [
+        {
+          "source": "UltraPerformance",
+          "translation": "울트라 성능"
+        },
+        {
+          "source": "Performance",
+          "translation": "성능"
+        },
+        {
+          "source": "Balanced",
+          "translation": "균형"
+        },
+        {
+          "source": "Quality",
+          "translation": "품질"
+        },
+        {
+          "source": "UltraQuality",
+          "translation": "울트라 품질"
+        },
+        {
+          "source": "Off",
+          "translation": "끔"
+        }
+      ]
+    },
+    {
+      "section": "Settings",
+      "key": "Sampling Downgrade",
+      "source_display_name": "Sampling Downgrade",
+      "source_description": "(Only works when FSR 1.0/FSR 2.2/DLSS is Disable) \nPercentage of how much the external rendering will go down, when aiming through the telescopic sight. Default value 50%.",
+      "translation_display_name": "샘플링 품질 하향",
+      "translation_description": "FSR 1.0/FSR 2.2/DLSS가 꺼져 있을 때만 적용됩니다. 배율 조준 중 외부 화면 해상도를 얼마나 낮출지 백분율로 설정합니다. 기본값은 50%입니다.",
+      "values": []
+    }
+  ]
+}

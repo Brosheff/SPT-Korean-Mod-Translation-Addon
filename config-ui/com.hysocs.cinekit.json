@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.hysocs.cinekit",
+  "plugin_name": "Hysocs-CineKit",
+  "_note": "SOURCE3 CineKit 1.2.0 source-audited F12 display-only Korean translation. Dynamic movement/toggle hotkey entries are included; config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Hotkeys",
+      "translation": "단축키"
+    },
+    {
+      "source": "Free Camera",
+      "translation": "자유 카메라"
+    },
+    {
+      "source": "GUI Appearance",
+      "translation": "GUI 모양"
+    },
+    {
+      "source": "GUI Layout",
+      "translation": "GUI 배치"
+    },
+    {
+      "source": "Saved Paths",
+      "translation": "저장된 경로"
+    },
+    {
+      "source": "Camera Path",
+      "translation": "카메라 경로"
+    },
+    {
+      "source": "Free Camera Movement Keys",
+      "translation": "자유 카메라 이동 키"
+    },
+    {
+      "source": "Toggle Hotkeys",
+      "translation": "토글 단축키"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Hotkeys",
+      "key": "Toggle Menu",
+      "source_display_name": "Toggle Menu",
+      "source_description": "Open or close the CineKit menu.",
+      "translation_display_name": "메뉴 열기/닫기",
+      "translation_description": "CineKit 메뉴를 열거나 닫는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Hotkeys",
+      "key": "Add Camera Point",
+      "source_display_name": "Add Camera Point",
+      "source_description": "Add a point to the selected path group while freecam is active.",
+      "translation_display_name": "카메라 지점 추가",
+      "translation_description": "자유 카메라가 활성화된 동안 선택한 경로 그룹에 카메라 지점을 추가하는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Hotkeys",
+      "key": "Remove Camera Point",
+      "source_display_name": "Remove Camera Point",
+      "source_description": "Remove the selected camera point while freecam is active.",
+      "translation_display_name": "카메라 지점 제거",
+      "translation_description": "자유 카메라가 활성화된 동안 선택한 카메라 지점을 제거하는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Disconnect the camera from the player body. Automatically turns off outside an active raid.",
+      "translation_display_name": "자유 카메라 활성화",
+      "translation_description": "카메라를 플레이어 본체에서 분리합니다. 진행 중인 레이드 밖에서는 자동으로 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Move Speed",
+      "source_display_name": "Move Speed",
+      "source_description": "Normal movement speed.",
+      "translation_display_name": "이동 속도",
+      "translation_description": "자유 카메라의 일반 이동 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Sprint Speed",
+      "source_display_name": "Sprint Speed",
+      "source_description": "Movement speed while the sprint key is held.",
+      "translation_display_name": "질주 속도",
+      "translation_description": "질주 키를 누르고 있는 동안의 자유 카메라 이동 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Look Sensitivity",
+      "source_display_name": "Look Sensitivity",
+      "source_description": "Mouse-look sensitivity.",
+      "translation_display_name": "시점 감도",
+      "translation_description": "마우스로 자유 카메라 시점을 움직일 때의 감도입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Cinematic Motion Smoothing",
+      "source_display_name": "Cinematic Motion Smoothing",
+      "source_description": "Smooth camera movement without accumulating rendered frames.",
+      "translation_display_name": "시네마틱 움직임 보정",
+      "translation_description": "렌더링 프레임을 누적하지 않고 카메라 움직임을 부드럽게 보정합니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Position Response",
+      "source_display_name": "Position Response",
+      "source_description": "How quickly the camera catches its target position. Lower is smoother.",
+      "translation_display_name": "위치 반응 속도",
+      "translation_description": "카메라가 목표 위치를 따라가는 속도입니다. 값이 낮을수록 더 부드럽습니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Rotation Response",
+      "source_display_name": "Rotation Response",
+      "source_description": "How quickly the camera catches its target rotation. Lower is smoother.",
+      "translation_display_name": "회전 반응 속도",
+      "translation_description": "카메라가 목표 회전을 따라가는 속도입니다. 값이 낮을수록 더 부드럽습니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "LOD Distance Multiplier",
+      "source_display_name": "LOD Distance Multiplier",
+      "source_description": "Multiplies EFT's camera-calculated object LOD distance.",
+      "translation_display_name": "LOD 거리 배율",
+      "translation_description": "EFT 카메라가 계산한 오브젝트 LOD 표시 거리에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Grass Render Distance",
+      "source_display_name": "Grass Render Distance",
+      "source_description": "Maximum freecam grass/detail distance in world meters.",
+      "translation_display_name": "풀 렌더링 거리",
+      "translation_description": "자유 카메라에서 풀과 지형 디테일을 렌더링할 최대 거리(m)입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Extended Cross-Scene Meshes",
+      "source_display_name": "Extended Cross-Scene Meshes",
+      "source_description": "Keep nearby Perfect Culling cross-scene mesh groups visible.",
+      "translation_display_name": "교차 장면 메시 표시 확장",
+      "translation_description": "주변의 Perfect Culling 교차 장면 메시 그룹이 계속 보이도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Cross-Scene Mesh Distance",
+      "source_display_name": "Cross-Scene Mesh Distance",
+      "source_description": "Freecam range for cross-scene rocks and map mesh groups.",
+      "translation_display_name": "교차 장면 메시 거리",
+      "translation_description": "자유 카메라에서 교차 장면 바위 및 맵 메시 그룹을 유지할 거리입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Show Crosshair",
+      "source_display_name": "Show Crosshair",
+      "source_description": "Show the center-dot crosshair while controlling freecam.",
+      "translation_display_name": "중앙점 표시",
+      "translation_description": "자유 카메라를 조작하는 동안 화면 중앙의 점형 조준 표시를 띄웁니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Hide Raid HUD",
+      "source_display_name": "Hide Raid HUD",
+      "source_description": "Hide EFT's combat HUD while freecam is active.",
+      "translation_display_name": "레이드 HUD 숨기기",
+      "translation_description": "자유 카메라가 활성화된 동안 EFT 전투 HUD를 숨깁니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Player Follows Freecam",
+      "source_display_name": "Player Follows Freecam",
+      "source_description": "Move the hidden local player with freecam.",
+      "translation_display_name": "플레이어가 자유 카메라 따라가기",
+      "translation_description": "숨겨진 로컬 플레이어를 자유 카메라와 함께 이동시킵니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Control Player From Freecam",
+      "source_display_name": "Control Player From Freecam",
+      "source_description": "Keep the freecam view fixed while routing controls to the player.",
+      "translation_display_name": "자유 카메라에서 플레이어 조작",
+      "translation_description": "자유 카메라 시점은 고정한 채 입력을 플레이어에게 전달합니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Disable Aim FOV Change",
+      "source_display_name": "Disable Aim FOV Change",
+      "source_description": "Keep aiming the controlled player from changing the freecam field of view.",
+      "translation_display_name": "조준 시 FOV 변경 방지",
+      "translation_description": "플레이어를 조작하면서 조준해도 자유 카메라의 시야각이 바뀌지 않게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera",
+      "key": "Antialiasing",
+      "source_display_name": "Antialiasing",
+      "source_description": "Temporary basic antialiasing mode used only while freecam is active.",
+      "translation_display_name": "안티앨리어싱",
+      "translation_description": "자유 카메라가 활성화된 동안에만 임시로 사용할 기본 안티앨리어싱 방식입니다.",
+      "values": [
+        {
+          "source": "Gameplay",
+          "translation": "게임 설정"
+        },
+        {
+          "source": "Off",
+          "translation": "끄기"
+        },
+        {
+          "source": "FXAA",
+          "translation": "FXAA"
+        },
+        {
+          "source": "TAA_Low",
+          "translation": "TAA 낮음"
+        },
+        {
+          "source": "TAA_High",
+          "translation": "TAA 높음"
+        },
+        {
+          "source": "DLSS_Quality",
+          "translation": "DLSS 품질"
+        },
+        {
+          "source": "DLSS_Balanced",
+          "translation": "DLSS 균형"
+        },
+        {
+          "source": "DLSS_Performance",
+          "translation": "DLSS 성능"
+        },
+        {
+          "source": "DLSS_UltraPerformance",
+          "translation": "DLSS 최고 성능"
+        }
+      ]
+    },
+    {
+      "section": "GUI Appearance",
+      "key": "Primary Color",
+      "source_display_name": "Primary Color",
+      "source_description": "Primary RGBA accent color.",
+      "translation_display_name": "기본 강조 색상",
+      "translation_description": "CineKit UI에 사용할 기본 RGBA 강조 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "GUI Layout",
+      "key": "Main Window X",
+      "source_display_name": "Main Window X",
+      "source_description": null,
+      "translation_display_name": "메인 창 X 위치",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "GUI Layout",
+      "key": "Main Window Y",
+      "source_display_name": "Main Window Y",
+      "source_description": null,
+      "translation_display_name": "메인 창 Y 위치",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Saved Paths",
+      "key": "Templates JSON",
+      "source_display_name": "Templates JSON",
+      "source_description": "Portable camera paths stored relative to the free camera.",
+      "translation_display_name": "템플릿 JSON",
+      "translation_description": "자유 카메라를 기준으로 저장되는 이동 가능한 카메라 경로 데이터입니다.",
+      "values": []
+    },
+    {
+      "section": "Camera Path",
+      "key": "Loop Playback",
+      "source_display_name": "Loop Playback",
+      "source_description": "Loop camera path preview and playback.",
+      "translation_display_name": "경로 반복 재생",
+      "translation_description": "카메라 경로 미리보기와 재생을 반복합니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera Movement Keys",
+      "key": "Move Forward",
+      "source_display_name": "Move Forward",
+      "source_description": "Key used for move forward.",
+      "translation_display_name": "앞으로 이동",
+      "translation_description": "앞으로 이동에 사용할 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera Movement Keys",
+      "key": "Move Backward",
+      "source_display_name": "Move Backward",
+      "source_description": "Key used for move backward.",
+      "translation_display_name": "뒤로 이동",
+      "translation_description": "뒤로 이동에 사용할 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera Movement Keys",
+      "key": "Move Left",
+      "source_display_name": "Move Left",
+      "source_description": "Key used for move left.",
+      "translation_display_name": "왼쪽으로 이동",
+      "translation_description": "왼쪽으로 이동에 사용할 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera Movement Keys",
+      "key": "Move Right",
+      "source_display_name": "Move Right",
+      "source_description": "Key used for move right.",
+      "translation_display_name": "오른쪽으로 이동",
+      "translation_description": "오른쪽으로 이동에 사용할 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera Movement Keys",
+      "key": "Move Up",
+      "source_display_name": "Move Up",
+      "source_description": "Key used for move up.",
+      "translation_display_name": "위로 이동",
+      "translation_description": "위로 이동에 사용할 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera Movement Keys",
+      "key": "Move Down",
+      "source_display_name": "Move Down",
+      "source_description": "Key used for move down.",
+      "translation_display_name": "아래로 이동",
+      "translation_description": "아래로 이동에 사용할 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Free Camera Movement Keys",
+      "key": "Sprint",
+      "source_display_name": "Sprint",
+      "source_description": "Key used for sprint.",
+      "translation_display_name": "질주",
+      "translation_description": "질주에 사용할 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Toggle Hotkeys",
+      "key": "Free Camera - Enabled",
+      "source_display_name": "Free Camera - Enabled",
+      "source_description": "Toggle Free Camera / Enabled.",
+      "translation_display_name": "자유 카메라 활성화 단축키",
+      "translation_description": "자유 카메라 활성화 설정을 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Toggle Hotkeys",
+      "key": "Free Camera - Cinematic Motion Smoothing",
+      "source_display_name": "Free Camera - Cinematic Motion Smoothing",
+      "source_description": "Toggle Free Camera / Cinematic Motion Smoothing.",
+      "translation_display_name": "시네마틱 움직임 보정 단축키",
+      "translation_description": "시네마틱 움직임 보정 설정을 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Toggle Hotkeys",
+      "key": "Free Camera - Extended Cross-Scene Meshes",
+      "source_display_name": "Free Camera - Extended Cross-Scene Meshes",
+      "source_description": "Toggle Free Camera / Extended Cross-Scene Meshes.",
+      "translation_display_name": "교차 장면 메시 표시 확장 단축키",
+      "translation_description": "교차 장면 메시 표시 확장 설정을 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Toggle Hotkeys",
+      "key": "Free Camera - Show Crosshair",
+      "source_display_name": "Free Camera - Show Crosshair",
+      "source_description": "Toggle Free Camera / Show Crosshair.",
+      "translation_display_name": "중앙점 표시 단축키",
+      "translation_description": "중앙점 표시 설정을 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Toggle Hotkeys",
+      "key": "Free Camera - Hide Raid HUD",
+      "source_display_name": "Free Camera - Hide Raid HUD",
+      "source_description": "Toggle Free Camera / Hide Raid HUD.",
+      "translation_display_name": "레이드 HUD 숨기기 단축키",
+      "translation_description": "레이드 HUD 숨기기 설정을 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Toggle Hotkeys",
+      "key": "Free Camera - Player Follows Freecam",
+      "source_display_name": "Free Camera - Player Follows Freecam",
+      "source_description": "Toggle Free Camera / Player Follows Freecam.",
+      "translation_display_name": "플레이어가 자유 카메라 따라가기 단축키",
+      "translation_description": "플레이어가 자유 카메라 따라가기 설정을 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Toggle Hotkeys",
+      "key": "Free Camera - Control Player From Freecam",
+      "source_display_name": "Free Camera - Control Player From Freecam",
+      "source_description": "Toggle Free Camera / Control Player From Freecam.",
+      "translation_display_name": "자유 카메라에서 플레이어 조작 단축키",
+      "translation_description": "자유 카메라에서 플레이어 조작 설정을 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Toggle Hotkeys",
+      "key": "Free Camera - Disable Aim FOV Change",
+      "source_display_name": "Free Camera - Disable Aim FOV Change",
+      "source_description": "Toggle Free Camera / Disable Aim FOV Change.",
+      "translation_display_name": "조준 시 FOV 변경 방지 단축키",
+      "translation_description": "조준 시 FOV 변경 방지 설정을 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Toggle Hotkeys",
+      "key": "Camera Path - Loop Playback",
+      "source_display_name": "Camera Path - Loop Playback",
+      "source_description": "Toggle Camera Path / Loop Playback.",
+      "translation_display_name": "경로 반복 재생 단축키",
+      "translation_description": "경로 반복 재생 설정을 켜거나 끄는 단축키입니다.",
+      "values": []
+    }
+  ]
+}

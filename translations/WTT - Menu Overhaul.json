@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.menuoverhaul",
+  "mod_name": "WTT - Menu Overhaul",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "exp_label",
+        "source": "EXP:",
+        "translation": "경험치:",
+        "match_mode": "exact",
+        "note": "PlayerProfileViewService.CreateExperienceRow에서 생성되는 경험치 라벨"
+      }
+    ]
+  }
+}

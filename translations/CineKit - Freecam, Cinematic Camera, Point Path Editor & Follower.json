@@ -1,0 +1,1085 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.cinekit",
+  "mod_name": "CineKit - Freecam, Cinematic Camera, Point Path Editor & Follower",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "r001",
+        "source": "CAMERA",
+        "translation": "카메라",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r002",
+        "source": "PATH",
+        "translation": "경로",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r003",
+        "source": "SCHEMATICS",
+        "translation": "프리셋",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r004",
+        "source": "RECORD / PLAY",
+        "translation": "녹화 / 재생",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r005",
+        "source": "OTHER",
+        "translation": "기타",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r006",
+        "source": "Gameplay",
+        "translation": "게임 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r007",
+        "source": "Off",
+        "translation": "끄기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r008",
+        "source": "TAA Low",
+        "translation": "TAA 낮음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r009",
+        "source": "TAA High",
+        "translation": "TAA 높음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r010",
+        "source": "Native FPS",
+        "translation": "기본 FPS",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r011",
+        "source": "Custom FPS",
+        "translation": "사용자 지정 FPS",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r012",
+        "source": "Freecam — Enable in raid after loading finishes",
+        "translation": "자유 카메라 — 레이드 로딩이 끝난 뒤 활성화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r013",
+        "source": "Freecam can only be enabled after the raid has fully started.",
+        "translation": "자유 카메라는 레이드가 완전히 시작된 뒤에만 활성화할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r014",
+        "source": "CineKit — Free Camera for SPT",
+        "translation": "CineKit — SPT 자유 카메라",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r015",
+        "source": "FREE CAMERA",
+        "translation": "자유 카메라",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r016",
+        "source": "STATUS: FREE CAMERA ACTIVE",
+        "translation": "상태: 자유 카메라 활성",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r017",
+        "source": "STATUS: ATTACHED TO PLAYER",
+        "translation": "상태: 플레이어에 연결됨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r018",
+        "source": "Camera Speed",
+        "translation": "카메라 속도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r019",
+        "source": "Camera Sprint Speed",
+        "translation": "카메라 질주 속도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r020",
+        "source": "Manual freecam speeds only. Camera points use their own speed.",
+        "translation": "수동 자유 카메라 이동에만 적용됩니다. 카메라 지점은 각자의 속도를 사용합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r021",
+        "source": "MOVEMENT KEYS",
+        "translation": "이동 키",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r022",
+        "source": "Move Forward",
+        "translation": "앞으로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r023",
+        "source": "Move Backward",
+        "translation": "뒤로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r024",
+        "source": "Move Left",
+        "translation": "왼쪽으로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r025",
+        "source": "Move Right",
+        "translation": "오른쪽으로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r026",
+        "source": "Move Up",
+        "translation": "위로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r027",
+        "source": "Move Down",
+        "translation": "아래로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r028",
+        "source": "Sprint",
+        "translation": "질주",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r029",
+        "source": "Click a binding and press a key. Escape cancels.",
+        "translation": "키 설정을 클릭한 뒤 원하는 키를 누르세요. Esc를 누르면 취소됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r030",
+        "source": "Show Crosshair",
+        "translation": "중앙점 표시",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r031",
+        "source": "Hide Raid HUD",
+        "translation": "레이드 HUD 숨기기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r032",
+        "source": "NoClip mode",
+        "translation": "노클립 모드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r033",
+        "source": "Teleport Player to Cam",
+        "translation": "플레이어를 카메라 위치로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r034",
+        "source": "[Press key]",
+        "translation": "[키 입력]",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r035",
+        "source": "Moves the hidden player with the camera. Disabling freecam leaves the player at the final camera location.",
+        "translation": "숨겨진 플레이어를 카메라와 함께 이동시킵니다. 자유 카메라를 끄면 플레이어는 카메라의 마지막 위치에 남습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r036",
+        "source": "Control Player From Freecam",
+        "translation": "자유 카메라에서 플레이어 조작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r037",
+        "source": "Freezes the freecam view and sends movement, mouse, weapon, and interaction controls to the player. The freecam view remains fixed.",
+        "translation": "자유 카메라 시점을 고정한 채 이동, 마우스, 무기, 상호작용 입력을 플레이어에게 전달합니다. 자유 카메라 시점은 그대로 유지됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r038",
+        "source": "Disable aim FOV change",
+        "translation": "조준 시 FOV 변경 방지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r039",
+        "source": "LOD Distance: ",
+        "translation": "LOD 거리: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r040",
+        "source": "LOD distance changes how far higher-detail mesh levels remain active.",
+        "translation": "LOD 거리는 고해상도 메시 단계가 유지되는 거리를 조절합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r041",
+        "source": "Grass Render Distance: ",
+        "translation": "풀 렌더링 거리: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r042",
+        "source": "Freecam-only GPU-instanced grass and terrain detail range.",
+        "translation": "자유 카메라에서만 적용되는 GPU 인스턴싱 풀 및 지형 디테일 범위입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r043",
+        "source": "Extended Cross-Scene Meshes",
+        "translation": "교차 장면 메시 표시 확장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r044",
+        "source": "Cross-Scene Mesh Range: ",
+        "translation": "교차 장면 메시 범위: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r045",
+        "source": "Keeps nearby Perfect Culling rock and map-mesh groups visible outside their baked visibility cells.",
+        "translation": "주변 Perfect Culling 바위와 맵 메시 그룹을 사전 계산된 가시성 셀 밖에서도 보이게 유지합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r046",
+        "source": "FREECAM ANTIALIASING",
+        "translation": "자유 카메라 안티앨리어싱",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r047",
+        "source": "Applied only while freecam is active. Gameplay restores the exact AA/upscaling settings that were active before.",
+        "translation": "자유 카메라가 활성화된 동안에만 적용됩니다. 게임 화면으로 돌아가면 이전 안티앨리어싱/업스케일링 설정이 정확히 복원됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r048",
+        "source": "MOTION SMOOTHING",
+        "translation": "움직임 보정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r049",
+        "source": "Cinematic Motion Smoothing (no frame history)",
+        "translation": "시네마틱 움직임 보정 (프레임 누적 없음)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r050",
+        "source": "Position Response",
+        "translation": "위치 반응 속도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r051",
+        "source": "Rotation Response",
+        "translation": "회전 반응 속도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r052",
+        "source": "Lower response is smoother but adds more camera lag.",
+        "translation": "반응 값을 낮출수록 더 부드러워지지만 카메라 지연이 커집니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r053",
+        "source": "Textures, shadows, post-processing, and distance culling are controlled by EFT's current settings.",
+        "translation": "텍스처, 그림자, 후처리, 거리 컬링은 현재 EFT 설정을 따릅니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r054",
+        "source": "Movement controls can be changed above. Mouse controls camera look.",
+        "translation": "위에서 이동 키를 변경할 수 있습니다. 마우스로 카메라 시점을 조작합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r055",
+        "source": "Press HOME to close the menu and take control of the camera.",
+        "translation": "HOME을 눌러 메뉴를 닫고 카메라 조작을 시작하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r056",
+        "source": "GROUPS",
+        "translation": "그룹",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r057",
+        "source": "Add group",
+        "translation": "그룹 추가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r058",
+        "source": "Remove selected group",
+        "translation": "선택한 그룹 제거",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r059",
+        "source": "POINTS",
+        "translation": "지점",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r060",
+        "source": "Add point at current camera",
+        "translation": "현재 카메라 위치에 지점 추가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r061",
+        "source": "Remove selected point",
+        "translation": "선택한 지점 제거",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r062",
+        "source": "Total Path Duration",
+        "translation": "전체 경로 시간",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r063",
+        "source": "Smooth Transitions",
+        "translation": "부드러운 전환",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r064",
+        "source": "Overrides individual segment timing and scales the complete connected chain to this duration.",
+        "translation": "개별 구간 시간을 무시하고 연결된 전체 경로의 재생 시간을 이 값에 맞춥니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r065",
+        "source": "0 seconds uses each segment's duration or speed.",
+        "translation": "0초로 설정하면 각 구간의 시간 또는 속도를 사용합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r066",
+        "source": "Blends connected points into one continuous curve.",
+        "translation": "연결된 지점을 하나의 연속된 곡선으로 보간합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r067",
+        "source": "Move Point to Current location",
+        "translation": "지점을 현재 카메라 위치로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r068",
+        "source": "Set Point looking direction to location",
+        "translation": "지점의 시선 대상을 현재 카메라 위치로 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r069",
+        "source": "Close the menu and aim the center dot at a handle. Hold left click to grab it; fly/look to move it and use the wheel for depth.",
+        "translation": "메뉴를 닫고 중앙점을 핸들에 맞추세요. 마우스 왼쪽 버튼을 누른 채 잡고 이동/시점 조작으로 움직이며, 휠로 깊이를 조절합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r070",
+        "source": "Preview Path",
+        "translation": "경로 미리보기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r071",
+        "source": "Stop Preview",
+        "translation": "미리보기 중지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r072",
+        "source": "Close the UI to begin pathing.",
+        "translation": "경로 이동을 시작하려면 UI를 닫으세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r073",
+        "source": "Loop",
+        "translation": "반복",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r074",
+        "source": "POINT ",
+        "translation": "지점 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r075",
+        "source": " — START / STOP",
+        "translation": " — 시작 / 정지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r076",
+        "source": "Stay at Point",
+        "translation": "지점에서 대기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r077",
+        "source": "Holds the camera here before continuing. Entity Points keep following their target while held.",
+        "translation": "계속 이동하기 전에 카메라를 이 지점에 대기시킵니다. 엔티티 지점은 대기 중에도 대상을 계속 따라갑니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r078",
+        "source": "Start Delay",
+        "translation": "시작 지연",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r079",
+        "source": "Stop Delay",
+        "translation": "정지 지연",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r080",
+        "source": "PLAY PATH AND RECORD TO MP4",
+        "translation": "경로 재생 및 MP4 녹화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r081",
+        "source": "FPS",
+        "translation": "FPS",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r082",
+        "source": "Current: ",
+        "translation": "현재: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r083",
+        "source": "FPS Limit",
+        "translation": "FPS 제한",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r084",
+        "source": "Record Path and Save MP4",
+        "translation": "경로 녹화 후 MP4 저장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r085",
+        "source": "Observed performance: about ",
+        "translation": "측정된 성능: 약 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r086",
+        "source": " FPS. Set the recording FPS and FPS limit at or ",
+        "translation": " FPS. 프레임 저하를 피하려면 녹화 FPS와 FPS 제한을 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r087",
+        "source": "below the stable FPS you normally maintain to avoid dips. ",
+        "translation": "평소 안정적으로 유지되는 FPS 이하로 설정하세요. ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r088",
+        "source": "Audio is captured from Unity's game mix.",
+        "translation": "오디오는 Unity 게임 믹스에서 녹음됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r089",
+        "source": "Press ESC while recording to stop early and save everything captured so far.",
+        "translation": "녹화 중 ESC를 누르면 조기에 중단하고 지금까지 녹화된 내용을 저장합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r090",
+        "source": "Play Path (Without Recording)",
+        "translation": "경로 재생 (녹화 안 함)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r091",
+        "source": "Stop Path",
+        "translation": "경로 중지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r092",
+        "source": "Ready: ",
+        "translation": "준비됨: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r093",
+        "source": " points in ",
+        "translation": "개 지점 / ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r094",
+        "source": "Add at least two points in the Path tab first.",
+        "translation": "먼저 경로 탭에서 지점을 두 개 이상 추가하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r095",
+        "source": "MENU OPTIONS",
+        "translation": "메뉴 옵션",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r096",
+        "source": "Open / Close Menu",
+        "translation": "메뉴 열기 / 닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r097",
+        "source": "Click the binding and press a keyboard key. Escape clears it.",
+        "translation": "키 설정을 클릭한 뒤 원하는 키를 누르세요. Esc를 누르면 설정이 지워집니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r098",
+        "source": "PATH EDITING HOTKEYS",
+        "translation": "경로 편집 단축키",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r099",
+        "source": "Add Point",
+        "translation": "지점 추가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r100",
+        "source": "Remove Selected Point",
+        "translation": "선택한 지점 제거",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r101",
+        "source": "These work with the menu closed while freecam is active.",
+        "translation": "자유 카메라가 활성화되어 있고 메뉴가 닫혀 있을 때 작동합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r102",
+        "source": "GUI PRIMARY COLOR",
+        "translation": "GUI 기본 색상",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r103",
+        "source": "Hex RGBA",
+        "translation": "16진수 RGBA",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r104",
+        "source": "Red",
+        "translation": "빨강",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r105",
+        "source": "Green",
+        "translation": "초록",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r106",
+        "source": "Blue",
+        "translation": "파랑",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r107",
+        "source": "Alpha",
+        "translation": "알파",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r108",
+        "source": "Reset Color",
+        "translation": "색상 초기화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r109",
+        "source": "Reset Menu Key",
+        "translation": "메뉴 키 초기화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r110",
+        "source": "Reset Point Keys",
+        "translation": "지점 키 초기화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r111",
+        "source": "The primary color updates tabs, sliders, checkboxes, headings, and highlighted controls.",
+        "translation": "기본 색상은 탭, 슬라이더, 체크박스, 제목 및 강조된 조작 요소에 적용됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r112",
+        "source": "PATH SCHEMATICS",
+        "translation": "경로 프리셋",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r113",
+        "source": "SCHEMATIC NAME",
+        "translation": "프리셋 이름",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r114",
+        "source": "Copy Points as Camera Relative",
+        "translation": "카메라 기준으로 지점 복사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r115",
+        "source": "Copy Points as World Coordinates",
+        "translation": "월드 좌표로 지점 복사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r116",
+        "source": "Camera Relative uses the current camera as its anchor. World Coordinates preserves the exact map positions.",
+        "translation": "카메라 기준 방식은 현재 카메라를 기준점으로 사용합니다. 월드 좌표 방식은 맵의 정확한 위치를 보존합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r117",
+        "source": "SAVED SCHEMATICS",
+        "translation": "저장된 프리셋",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r118",
+        "source": " points, ",
+        "translation": "개 지점, ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r119",
+        "source": "Relative",
+        "translation": "카메라 기준",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r120",
+        "source": "World",
+        "translation": "월드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r121",
+        "source": "SELECTED SCHEMATIC",
+        "translation": "선택한 프리셋",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r122",
+        "source": " camera points",
+        "translation": "개 카메라 지점",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r123",
+        "source": "Type: ",
+        "translation": "유형: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r124",
+        "source": "Camera Relative",
+        "translation": "카메라 기준",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r125",
+        "source": "World Coordinates",
+        "translation": "월드 좌표",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r126",
+        "source": "Select a schematic from the list.",
+        "translation": "목록에서 프리셋을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r127",
+        "source": "Spawn at Saved World Position",
+        "translation": "저장된 월드 위치에 배치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r128",
+        "source": "Spawn at Current Position",
+        "translation": "현재 위치에 배치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r129",
+        "source": "Delete Schematic",
+        "translation": "프리셋 삭제",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r130",
+        "source": "Camera Relative schematics use the free camera as their anchor. World Coordinates schematics preserve their exact map positions when saved and spawned.",
+        "translation": "카메라 기준 프리셋은 자유 카메라를 기준점으로 사용합니다. 월드 좌표 프리셋은 저장하고 불러올 때 정확한 맵 위치를 유지합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r131",
+        "source": "JSON files are stored in Hysocs-CineKit/Schematics so they can be shared or included in a release.",
+        "translation": "JSON 파일은 Hysocs-CineKit/Schematics에 저장되며 공유하거나 배포본에 포함할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r132",
+        "source": "Select a point to edit its motion settings.",
+        "translation": "움직임 설정을 편집할 지점을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r133",
+        "source": " SETTINGS",
+        "translation": " 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r134",
+        "source": "Entity Point",
+        "translation": "엔티티 지점",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r135",
+        "source": "3D Point",
+        "translation": "3D 지점",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r136",
+        "source": "Point Type: ",
+        "translation": "지점 유형: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r137",
+        "source": "Point ",
+        "translation": "지점 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r138",
+        "source": "None",
+        "translation": "없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r139",
+        "source": "Connect To: ",
+        "translation": "연결 대상: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r140",
+        "source": "Stop Here",
+        "translation": "여기서 정지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r141",
+        "source": "As the starting point, this stops playback only when the path returns here.",
+        "translation": "시작 지점인 경우 경로가 이곳으로 돌아왔을 때만 재생을 멈춥니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r142",
+        "source": "Playback brakes and ends when it arrives at this point.",
+        "translation": "이 지점에 도착하면 감속한 뒤 재생을 종료합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r143",
+        "source": "Speed",
+        "translation": "속도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r144",
+        "source": "Segment Duration",
+        "translation": "구간 시간",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r145",
+        "source": "This segment reaches its next point and facing in the selected number of seconds.",
+        "translation": "이 구간은 지정한 시간 안에 다음 지점과 해당 시선 방향에 도달합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r146",
+        "source": "0 seconds uses movement speed.",
+        "translation": "0초로 설정하면 이동 속도를 사용합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r147",
+        "source": "Acceleration",
+        "translation": "가속",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r148",
+        "source": "Deceleration",
+        "translation": "감속",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r149",
+        "source": "Target unavailable",
+        "translation": "대상을 사용할 수 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r150",
+        "source": "Local Player",
+        "translation": "로컬 플레이어",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r151",
+        "source": "Entity: ",
+        "translation": "엔티티: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r152",
+        "source": "Head",
+        "translation": "머리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r153",
+        "source": "Chest",
+        "translation": "가슴",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r154",
+        "source": "Follow entity looking direction",
+        "translation": "엔티티의 시선 방향 따라가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r155",
+        "source": "Swivel path toward next point",
+        "translation": "다음 지점을 향해 경로 회전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r156",
+        "source": "Keeps the attached segment facing its next point and shortens the curve as the points get closer.",
+        "translation": "연결된 구간이 다음 지점을 향하도록 유지하고 지점 사이가 가까워질수록 곡선을 짧게 만듭니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r157",
+        "source": "Offset: X ",
+        "translation": "오프셋: X ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r158",
+        "source": "  Y ",
+        "translation": "  Y ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r159",
+        "source": "  Z ",
+        "translation": "  Z ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r160",
+        "source": "Drag this point normally in the world or curve editor to change its entity-relative offset.",
+        "translation": "월드 또는 곡선 편집기에서 이 지점을 드래그해 엔티티 기준 오프셋을 변경할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r161",
+        "source": "Attachment Lerp",
+        "translation": "부착 보간",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r162",
+        "source": "Attachment Speed",
+        "translation": "부착 속도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r163",
+        "source": "The point follows the entity's rotated XYZ offset. Lower values create more trailing lag; 0 removes that limit, so setting both to 0 follows exactly.",
+        "translation": "지점은 엔티티의 회전된 XYZ 오프셋을 따라갑니다. 값이 낮을수록 뒤따르는 지연이 커지며, 0은 제한을 없앱니다. 두 값을 모두 0으로 설정하면 정확히 따라갑니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r164",
+        "source": "Set Offset From Current Camera",
+        "translation": "현재 카메라에서 오프셋 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r165",
+        "source": "No path selected",
+        "translation": "선택된 경로 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r166",
+        "source": "Close",
+        "translation": "닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r167",
+        "source": "Add points to the selected group first.",
+        "translation": "먼저 선택한 그룹에 지점을 추가하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r168",
+        "source": "TOP VIEW (X / Z)",
+        "translation": "상단 보기 (X / Z)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r169",
+        "source": "ELEVATION (Y ONLY - BEHIND AVERAGE LOOK)",
+        "translation": "고도 (Y만 표시 - 평균 시선 뒤)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r170",
+        "source": "Sea level  Y=0",
+        "translation": "해수면  Y=0",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r171",
+        "source": " [Entity]",
+        "translation": " [엔티티]",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r172",
+        "source": "Speed ",
+        "translation": "속도 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r173",
+        "source": "Video and game audio. Requires ffmpeg.exe in the CineKit plugin folder.",
+        "translation": "영상과 게임 오디오를 함께 녹화합니다. CineKit 플러그인 폴더에 ffmpeg.exe가 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r174",
+        "source": "Finalizing the partial recording...",
+        "translation": "부분 녹화를 마무리하는 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r175",
+        "source": "\\AFFmpeg could not start\\. Place ffmpeg\\.exe in (?<path>.+?)\\. (?<error>.+)\\z",
+        "translation": "FFmpeg를 시작할 수 없습니다. {path}에 ffmpeg.exe를 넣어주세요. {error}",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "r176",
+        "source": "\\ARecording (?<width>\\d+)x(?<height>\\d+) at (?<fps>\\d+) FPS\\.\\.\\.\\z",
+        "translation": "녹화 중: {width}x{height}, {fps} FPS...",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "r177",
+        "source": "Recording failed: ",
+        "translation": "녹화 실패: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "r178",
+        "source": "\\ASaved (?<frames>\\d+) frames to (?<path>.+)\\z",
+        "translation": "저장 완료: {frames}프레임 → {path}",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "r179",
+        "source": "Recording stopped before completion.",
+        "translation": "녹화가 완료되기 전에 중지되었습니다.",
+        "match_mode": "exact"
+      }
+    ]
+  },
+  "_note": "SOURCE3 CineKit 1.2.0 source-audited IMGUI translation, including cached labels and draw-time recording status. User-editable path/schematic names are intentionally not rewritten."
+}

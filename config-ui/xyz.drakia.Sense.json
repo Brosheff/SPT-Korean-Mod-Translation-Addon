@@ -1,0 +1,940 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "xyz.drakia.Sense",
+  "plugin_name": "Sense",
+  "_note": "SOURCE3 SPT-AmandsSense 3.1.0 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Versioning",
+      "translation": "버전"
+    },
+    {
+      "source": "AmandsSense",
+      "translation": "AmandsSense"
+    },
+    {
+      "source": "AmandsSense Effects",
+      "translation": "AmandsSense 효과"
+    },
+    {
+      "source": "Colors",
+      "translation": "색상"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Versioning",
+      "key": "Version",
+      "source_display_name": "Version",
+      "source_description": null,
+      "translation_display_name": "버전",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "EnableSense",
+      "source_display_name": "EnableSense",
+      "source_description": null,
+      "translation_display_name": "감지 기능",
+      "translation_description": "",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끄기"
+        },
+        {
+          "source": "On",
+          "translation": "켜기"
+        },
+        {
+          "source": "OnText",
+          "translation": "켜기 + 텍스트"
+        }
+      ]
+    },
+    {
+      "section": "AmandsSense",
+      "key": "EnableExfilSense",
+      "source_display_name": "EnableExfilSense",
+      "source_description": null,
+      "translation_display_name": "탈출구 감지",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "AlwaysOn",
+      "source_display_name": "AlwaysOn",
+      "source_description": null,
+      "translation_display_name": "항상 켜기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "EnableContainers",
+      "source_display_name": "EnableContainers",
+      "source_description": null,
+      "translation_display_name": "컨테이너 감지",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "EnableBodies",
+      "source_display_name": "EnableBodies",
+      "source_description": null,
+      "translation_display_name": "시체 감지",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "EnableLooseLoot",
+      "source_display_name": "EnableLooseLoot",
+      "source_description": null,
+      "translation_display_name": "바닥 아이템 감지",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "SenseKey",
+      "source_display_name": "SenseKey",
+      "source_description": null,
+      "translation_display_name": "감지 키",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "DoubleClick",
+      "source_display_name": "DoubleClick",
+      "source_description": null,
+      "translation_display_name": "두 번 누르기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Cooldown",
+      "source_display_name": "Cooldown",
+      "source_description": null,
+      "translation_display_name": "재사용 대기시간",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Duration",
+      "source_display_name": "Duration",
+      "source_description": null,
+      "translation_display_name": "지속 시간",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Exfil Duration",
+      "source_display_name": "Exfil Duration",
+      "source_description": null,
+      "translation_display_name": "탈출구 표시 지속 시간",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Radius",
+      "source_display_name": "Radius",
+      "source_description": null,
+      "translation_display_name": "감지 반경",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "DeadPlayerRadius",
+      "source_display_name": "DeadPlayerRadius",
+      "source_description": null,
+      "translation_display_name": "시체 감지 반경",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Speed",
+      "source_display_name": "Speed",
+      "source_description": null,
+      "translation_display_name": "효과 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "MaxHeight",
+      "source_display_name": "MaxHeight",
+      "source_description": null,
+      "translation_display_name": "최대 높이",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "MinHeight",
+      "source_display_name": "MinHeight",
+      "source_description": null,
+      "translation_display_name": "최소 높이",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "ContainerLootcount",
+      "source_display_name": "ContainerLootcount",
+      "source_description": null,
+      "translation_display_name": "컨테이너 아이템 수 표시",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Enable Flea",
+      "source_display_name": "Enable Flea",
+      "source_description": null,
+      "translation_display_name": "플리마켓 거래 불가 아이템 감지",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Flea Include Ammo",
+      "source_display_name": "Flea Include Ammo",
+      "source_description": null,
+      "translation_display_name": "거래 불가 아이템 감지에 탄약 포함",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Use Background Color",
+      "source_display_name": "Use Background Color",
+      "source_description": null,
+      "translation_display_name": "배경색 사용",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Size",
+      "source_display_name": "Size",
+      "source_description": null,
+      "translation_display_name": "크기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "IconSize",
+      "source_display_name": "IconSize",
+      "source_description": null,
+      "translation_display_name": "아이콘 크기",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Size Clamp",
+      "source_display_name": "Size Clamp",
+      "source_description": null,
+      "translation_display_name": "크기 제한",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Vertical Offset",
+      "source_display_name": "Vertical Offset",
+      "source_description": null,
+      "translation_display_name": "수직 오프셋",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Text Offset",
+      "source_display_name": "Text Offset",
+      "source_description": null,
+      "translation_display_name": "텍스트 오프셋",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "ExfilVertical Offset",
+      "source_display_name": "ExfilVertical Offset",
+      "source_description": null,
+      "translation_display_name": "탈출구 수직 오프셋",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Intensity Speed",
+      "source_display_name": "Intensity Speed",
+      "source_description": null,
+      "translation_display_name": "강도 변화 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "AlwaysOn Frequency",
+      "source_display_name": "AlwaysOn Frequency",
+      "source_description": null,
+      "translation_display_name": "항상 켜기 갱신 빈도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "LightIntensity",
+      "source_display_name": "LightIntensity",
+      "source_description": null,
+      "translation_display_name": "빛 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "LightRange",
+      "source_display_name": "LightRange",
+      "source_description": null,
+      "translation_display_name": "빛 범위",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "LightShadows",
+      "source_display_name": "LightShadows",
+      "source_description": null,
+      "translation_display_name": "빛 그림자",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Exfil LightIntensity",
+      "source_display_name": "Exfil LightIntensity",
+      "source_description": null,
+      "translation_display_name": "탈출구 빛 강도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Exfil LightRange",
+      "source_display_name": "Exfil LightRange",
+      "source_description": null,
+      "translation_display_name": "탈출구 빛 범위",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "Exfil LightShadows",
+      "source_display_name": "Exfil LightShadows",
+      "source_description": null,
+      "translation_display_name": "탈출구 빛 그림자",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "AudioDistance",
+      "source_display_name": "AudioDistance",
+      "source_description": null,
+      "translation_display_name": "오디오 거리",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "AudioRolloff",
+      "source_display_name": "AudioRolloff",
+      "source_description": null,
+      "translation_display_name": "오디오 감쇠",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "AudioVolume",
+      "source_display_name": "AudioVolume",
+      "source_description": null,
+      "translation_display_name": "오디오 음량",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "ContainerAudioVolume",
+      "source_display_name": "ContainerAudioVolume",
+      "source_description": null,
+      "translation_display_name": "컨테이너 오디오 음량",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "ActivateSenseVolume",
+      "source_display_name": "ActivateSenseVolume",
+      "source_description": "requires a custom sound .wav file named Sense.wav",
+      "translation_display_name": "감지 활성화 음량",
+      "translation_description": "Sense.wav라는 이름의 사용자 지정 .wav 사운드 파일이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsSense",
+      "key": "SenseRareSound",
+      "source_display_name": "SenseRareSound",
+      "source_description": "requires a custom sound .wav file named SenseRare.wav",
+      "translation_display_name": "희귀 아이템 감지음",
+      "translation_description": "SenseRare.wav라는 이름의 사용자 지정 .wav 사운드 파일이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "AmandsSense Effects",
+      "key": "useDof",
+      "source_display_name": "useDof",
+      "source_description": null,
+      "translation_display_name": "심도 효과 사용",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "ExfilColor",
+      "source_display_name": "ExfilColor",
+      "source_description": null,
+      "translation_display_name": "탈출구 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "ExfilUnmetColor",
+      "source_display_name": "ExfilUnmetColor",
+      "source_description": null,
+      "translation_display_name": "조건 미충족 탈출구 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "TextColor",
+      "source_display_name": "TextColor",
+      "source_description": null,
+      "translation_display_name": "텍스트 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "RareItemsColor",
+      "source_display_name": "RareItemsColor",
+      "source_description": null,
+      "translation_display_name": "희귀 아이템 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "WishListItemsColor",
+      "source_display_name": "WishListItemsColor",
+      "source_description": null,
+      "translation_display_name": "위시리스트 아이템 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "NonFleaItemsColor",
+      "source_display_name": "NonFleaItemsColor",
+      "source_description": null,
+      "translation_display_name": "플리마켓 거래 불가 아이템 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "KappaItemsColor",
+      "source_display_name": "KappaItemsColor",
+      "source_description": null,
+      "translation_display_name": "카파 아이템 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "LootableContainerColor",
+      "source_display_name": "LootableContainerColor",
+      "source_description": null,
+      "translation_display_name": "전리품 컨테이너 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "ObservedLootItemColor",
+      "source_display_name": "ObservedLootItemColor",
+      "source_description": null,
+      "translation_display_name": "관찰된 전리품 아이템 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "OthersColor",
+      "source_display_name": "OthersColor",
+      "source_description": null,
+      "translation_display_name": "기타 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "BuildingMaterialsColor",
+      "source_display_name": "BuildingMaterialsColor",
+      "source_description": null,
+      "translation_display_name": "건축 자재 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "ElectronicsColor",
+      "source_display_name": "ElectronicsColor",
+      "source_description": null,
+      "translation_display_name": "전자제품 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "EnergyElementsColor",
+      "source_display_name": "EnergyElementsColor",
+      "source_description": null,
+      "translation_display_name": "에너지 부품 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "FlammableMaterialsColor",
+      "source_display_name": "FlammableMaterialsColor",
+      "source_description": null,
+      "translation_display_name": "가연성 자재 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "HouseholdMaterialsColor",
+      "source_display_name": "HouseholdMaterialsColor",
+      "source_description": null,
+      "translation_display_name": "생활 자재 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "MedicalSuppliesColor",
+      "source_display_name": "MedicalSuppliesColor",
+      "source_description": null,
+      "translation_display_name": "의료용품 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "ToolsColor",
+      "source_display_name": "ToolsColor",
+      "source_description": null,
+      "translation_display_name": "공구 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "ValuablesColor",
+      "source_display_name": "ValuablesColor",
+      "source_description": null,
+      "translation_display_name": "귀중품 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "BackpacksColor",
+      "source_display_name": "BackpacksColor",
+      "source_description": null,
+      "translation_display_name": "배낭 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "BodyArmorColor",
+      "source_display_name": "BodyArmorColor",
+      "source_description": null,
+      "translation_display_name": "방탄복 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "EyewearColor",
+      "source_display_name": "EyewearColor",
+      "source_description": null,
+      "translation_display_name": "안경 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "FacecoversColor",
+      "source_display_name": "FacecoversColor",
+      "source_description": null,
+      "translation_display_name": "안면 보호구 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "GearComponentsColor",
+      "source_display_name": "GearComponentsColor",
+      "source_description": null,
+      "translation_display_name": "장비 부품 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "HeadgearColor",
+      "source_display_name": "HeadgearColor",
+      "source_description": null,
+      "translation_display_name": "머리 장비 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "HeadsetsColor",
+      "source_display_name": "HeadsetsColor",
+      "source_description": null,
+      "translation_display_name": "헤드셋 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "SecureContainersColor",
+      "source_display_name": "SecureContainersColor",
+      "source_description": null,
+      "translation_display_name": "보안 컨테이너 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "StorageContainersColor",
+      "source_display_name": "StorageContainersColor",
+      "source_description": null,
+      "translation_display_name": "보관 컨테이너 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "TacticalRigsColor",
+      "source_display_name": "TacticalRigsColor",
+      "source_description": null,
+      "translation_display_name": "전술 조끼 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "FunctionalModsColor",
+      "source_display_name": "FunctionalModsColor",
+      "source_description": null,
+      "translation_display_name": "기능성 부품 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "GearModsColor",
+      "source_display_name": "GearModsColor",
+      "source_description": null,
+      "translation_display_name": "장비 부품 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "VitalPartsColor",
+      "source_display_name": "VitalPartsColor",
+      "source_description": null,
+      "translation_display_name": "핵심 부품 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "AssaultCarbinesColor",
+      "source_display_name": "AssaultCarbinesColor",
+      "source_description": null,
+      "translation_display_name": "돌격 카빈 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "AssaultRiflesColor",
+      "source_display_name": "AssaultRiflesColor",
+      "source_description": null,
+      "translation_display_name": "돌격소총 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "BoltActionRiflesColor",
+      "source_display_name": "BoltActionRiflesColor",
+      "source_description": null,
+      "translation_display_name": "볼트액션 소총 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "GrenadeLaunchersColor",
+      "source_display_name": "GrenadeLaunchersColor",
+      "source_description": null,
+      "translation_display_name": "유탄발사기 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "MachineGunsColor",
+      "source_display_name": "MachineGunsColor",
+      "source_description": null,
+      "translation_display_name": "기관총 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "MarksmanRiflesColor",
+      "source_display_name": "MarksmanRiflesColor",
+      "source_description": null,
+      "translation_display_name": "지정사수소총 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "MeleeWeaponsColor",
+      "source_display_name": "MeleeWeaponsColor",
+      "source_description": null,
+      "translation_display_name": "근접 무기 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "PistolsColor",
+      "source_display_name": "PistolsColor",
+      "source_description": null,
+      "translation_display_name": "권총 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "SMGsColor",
+      "source_display_name": "SMGsColor",
+      "source_description": null,
+      "translation_display_name": "기관단총 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "ShotgunsColor",
+      "source_display_name": "ShotgunsColor",
+      "source_description": null,
+      "translation_display_name": "산탄총 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "SpecialWeaponsColor",
+      "source_display_name": "SpecialWeaponsColor",
+      "source_description": null,
+      "translation_display_name": "특수 무기 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "ThrowablesColor",
+      "source_display_name": "ThrowablesColor",
+      "source_description": null,
+      "translation_display_name": "투척물 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "AmmoPacksColor",
+      "source_display_name": "AmmoPacksColor",
+      "source_description": null,
+      "translation_display_name": "탄약 팩 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "RoundsColor",
+      "source_display_name": "RoundsColor",
+      "source_description": null,
+      "translation_display_name": "탄약 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "DrinksColor",
+      "source_display_name": "DrinksColor",
+      "source_description": null,
+      "translation_display_name": "음료 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "FoodColor",
+      "source_display_name": "FoodColor",
+      "source_description": null,
+      "translation_display_name": "음식 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "InjectorsColor",
+      "source_display_name": "InjectorsColor",
+      "source_description": null,
+      "translation_display_name": "주사기 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "InjuryTreatmentColor",
+      "source_display_name": "InjuryTreatmentColor",
+      "source_description": null,
+      "translation_display_name": "부상 치료제 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "MedkitsColor",
+      "source_display_name": "MedkitsColor",
+      "source_description": null,
+      "translation_display_name": "구급상자 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "PillsColor",
+      "source_display_name": "PillsColor",
+      "source_description": null,
+      "translation_display_name": "약품 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "ElectronicKeysColor",
+      "source_display_name": "ElectronicKeysColor",
+      "source_description": null,
+      "translation_display_name": "전자식 열쇠 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "MechanicalKeysColor",
+      "source_display_name": "MechanicalKeysColor",
+      "source_description": null,
+      "translation_display_name": "기계식 열쇠 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "InfoItemsColor",
+      "source_display_name": "InfoItemsColor",
+      "source_description": null,
+      "translation_display_name": "정보 아이템 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "QuestItemsColor",
+      "source_display_name": "QuestItemsColor",
+      "source_description": null,
+      "translation_display_name": "퀘스트 아이템 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "SpecialEquipmentColor",
+      "source_display_name": "SpecialEquipmentColor",
+      "source_description": null,
+      "translation_display_name": "특수 장비 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "MapsColor",
+      "source_display_name": "MapsColor",
+      "source_description": null,
+      "translation_display_name": "지도 색상",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Colors",
+      "key": "MoneyColor",
+      "source_display_name": "MoneyColor",
+      "source_description": null,
+      "translation_display_name": "화폐 색상",
+      "translation_description": "",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.c11.tn4client",
+  "plugin_name": "C11-TN4-Client",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Mag Check",
+      "translation": "탄창 확인"
+    },
+    {
+      "source": "Weapon",
+      "translation": "무기"
+    },
+    {
+      "source": "Diagnostics",
+      "translation": "진단"
+    },
+    {
+      "source": "AMP Arms Editor",
+      "translation": "AMP 암 편집기"
+    },
+    {
+      "source": "Device: Chimeara",
+      "translation": "장치: Chimeara"
+    },
+    {
+      "source": "Device: nvg_wilcox_l4g24_mount",
+      "translation": "장치: nvg_wilcox_l4g24_mount"
+    },
+    {
+      "source": "Helmet - Ground Branch",
+      "translation": "헬멧 - Ground Branch"
+    },
+    {
+      "source": "Helmet - FAST AOR2",
+      "translation": "헬멧 - FAST AOR2"
+    },
+    {
+      "source": "Helmet - FAST AOR1",
+      "translation": "헬멧 - FAST AOR1"
+    },
+    {
+      "source": "Helmet - EXFIL Black",
+      "translation": "헬멧 - EXFIL Black"
+    },
+    {
+      "source": "Helmet - EXFIL Coyote",
+      "translation": "헬멧 - EXFIL Coyote"
+    },
+    {
+      "source": "Helmet - FAST Cadpat",
+      "translation": "헬멧 - FAST Cadpat"
+    },
+    {
+      "source": "Helmet - FAST MT Black",
+      "translation": "헬멧 - FAST MT Black"
+    },
+    {
+      "source": "Helmet - LShZ",
+      "translation": "헬멧 - LShZ"
+    },
+    {
+      "source": "Helmet - FAST MT Tan",
+      "translation": "헬멧 - FAST MT Tan"
+    },
+    {
+      "source": "Helmet - TAK-KEK",
+      "translation": "헬멧 - TAK-KEK"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Both Pods Fold Key",
+      "source_display_name": "Both Pods Fold Key",
+      "source_description": null,
+      "translation_display_name": "양쪽 포드 접기 키",
+      "translation_description": "양쪽 포드를 전환합니다. 둘 다 접으면 NVG 전원이 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Left Pod Only Key",
+      "source_display_name": "Left Pod Only Key",
+      "source_description": null,
+      "translation_display_name": "왼쪽 포드 전용 키",
+      "translation_description": "왼쪽 포드만 전환합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Right Pod Only Key",
+      "source_display_name": "Right Pod Only Key",
+      "source_description": null,
+      "translation_display_name": "오른쪽 포드 전용 키",
+      "translation_description": "오른쪽 포드만 전환합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Reset Rotations To Defaults",
+      "source_display_name": "Reset Rotations To Defaults",
+      "source_description": null,
+      "translation_display_name": "회전값 기본값으로 초기화",
+      "translation_description": "모든 회전값을 기본값으로 복원합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Manual Fold Speed",
+      "source_display_name": "Manual Fold Speed",
+      "source_description": null,
+      "translation_display_name": "수동 접기 속도",
+      "translation_description": "포드 애니메이션 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Pod Flip Animation",
+      "source_display_name": "Pod Flip Animation",
+      "source_description": null,
+      "translation_display_name": "포드 전환 애니메이션",
+      "translation_description": "포드 키를 누르면 캐릭터가 헬멧에 손을 대는 애니메이션을 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Pod Flip Sound",
+      "source_display_name": "Pod Flip Sound",
+      "source_description": null,
+      "translation_display_name": "포드 전환 소리",
+      "translation_description": "포드 키를 누르면 NVG 클릭음을 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Debug Logging",
+      "source_display_name": "Debug Logging",
+      "source_description": null,
+      "translation_display_name": "디버그 로그",
+      "translation_description": "새 장치 추가용 상세 로그를 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Copy Helmet Configs To Log",
+      "source_display_name": "Copy Helmet Configs To Log",
+      "source_description": null,
+      "translation_display_name": "헬멧 설정을 로그로 복사",
+      "translation_description": "현재 F12 헬멧 슬롯 값을 복사 가능한 C# 코드로 BepInEx 콘솔에 출력합니다.",
+      "values": []
+    },
+    {
+      "section": "Mag Check",
+      "key": "Marker Offset",
+      "source_display_name": "Marker Offset",
+      "source_description": null,
+      "translation_display_name": "마커 오프셋",
+      "translation_description": "탄창을 뺀 동안 왼손 IK 마커에 적용할 로컬 좌표 이동값입니다.",
+      "values": []
+    },
+    {
+      "section": "Mag Check",
+      "key": "Drive IK Marker",
+      "source_display_name": "Drive IK Marker",
+      "source_description": null,
+      "translation_display_name": "IK 마커도 이동",
+      "translation_description": "weapon_L_IK_marker도 함께 이동합니다. 손 마커만 충분히 조정하기 전에는 끄는 것을 권장합니다.",
+      "values": []
+    },
+    {
+      "section": "Weapon",
+      "key": "Forearm Blend Speed",
+      "source_display_name": "Forearm Blend Speed",
+      "source_description": null,
+      "translation_display_name": "전완 블렌드 속도",
+      "translation_description": "탄창 장착/비장착 전완 자세 사이의 블렌드 속도(도/초)입니다.",
+      "values": []
+    },
+    {
+      "section": "Diagnostics",
+      "key": "Scan For Missing Scripts",
+      "source_display_name": "Scan For Missing Scripts",
+      "source_description": null,
+      "translation_display_name": "누락 스크립트 검사",
+      "translation_description": "해결되지 않은 스크립트 컴포넌트가 있는 모든 GameObject를 출력합니다.",
+      "values": []
+    },
+    {
+      "section": "AMP Arms Editor",
+      "key": "Tune Preview Models",
+      "source_display_name": "Tune Preview Models",
+      "source_description": null,
+      "translation_display_name": "미리보기 모델 조정",
+      "translation_description": "검사/개조 창 미리보기에도 AMP 암 위치를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "AMP Arms Editor",
+      "key": "Edit Mode Key",
+      "source_display_name": "Edit Mode Key",
+      "source_description": null,
+      "translation_display_name": "편집 모드 키",
+      "translation_description": "검사 또는 개조 창에서 헬멧을 연 상태로 AMP 부품 마우스 편집을 전환합니다.",
+      "values": []
+    },
+    {
+      "section": "AMP Arms Editor",
+      "key": "Move / Rotate Key",
+      "source_display_name": "Move / Rotate Key",
+      "source_description": null,
+      "translation_display_name": "이동/회전 전환 키",
+      "translation_description": "기즈모를 이동 화살표와 회전 링 사이에서 전환합니다.",
+      "values": []
+    },
+    {
+      "section": "AMP Arms Editor",
+      "key": "Next Part Key",
+      "source_display_name": "Next Part Key",
+      "source_description": null,
+      "translation_display_name": "다음 부품 키",
+      "translation_description": "헬멧에 장착된 AMP 부품을 순환합니다.",
+      "values": []
+    },
+    {
+      "section": "AMP Arms Editor",
+      "key": "Gizmo Size",
+      "source_display_name": "Gizmo Size",
+      "source_description": null,
+      "translation_display_name": "기즈모 크기",
+      "translation_description": "화면 픽셀 기준 기즈모 화살표 길이/회전 링 반경입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Left Pod On X",
+      "source_display_name": "Left Pod On X",
+      "source_description": null,
+      "translation_display_name": "왼쪽 포드 켜짐 X",
+      "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 켜짐 쿼터니언 X 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Left Pod On Y",
+      "source_display_name": "Left Pod On Y",
+      "source_description": null,
+      "translation_display_name": "왼쪽 포드 켜짐 Y",
+      "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 켜짐 쿼터니언 Y 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Left Pod On Z",
+      "source_display_name": "Left Pod On Z",
+      "source_description": null,
+      "translation_display_name": "왼쪽 포드 켜짐 Z",
+      "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 켜짐 쿼터니언 Z 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Left Pod On W",
+      "source_display_name": "Left Pod On W",
+      "source_description": null,
+      "translation_display_name": "왼쪽 포드 켜짐 W",
+      "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 켜짐 쿼터니언 W 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Left Pod Off X",
+      "source_display_name": "Left Pod Off X",
+      "source_description": null,
+      "translation_display_name": "왼쪽 포드 꺼짐 X",
+      "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 꺼짐 쿼터니언 X 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Left Pod Off Y",
+      "source_display_name": "Left Pod Off Y",
+      "source_description": null,
+      "translation_display_name": "왼쪽 포드 꺼짐 Y",
+      "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 꺼짐 쿼터니언 Y 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Left Pod Off Z",
+      "source_display_name": "Left Pod Off Z",
+      "source_description": null,
+      "translation_display_name": "왼쪽 포드 꺼짐 Z",
+      "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 꺼짐 쿼터니언 Z 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Left Pod Off W",
+      "source_display_name": "Left Pod Off W",
+      "source_description": null,
+      "translation_display_name": "왼쪽 포드 꺼짐 W",
+      "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 꺼짐 쿼터니언 W 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Right Pod On X",
+      "source_display_name": "Right Pod On X",
+      "source_description": null,
+      "translation_display_name": "오른쪽 포드 켜짐 X",
+      "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 켜짐 쿼터니언 X 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Right Pod On Y",
+      "source_display_name": "Right Pod On Y",
+      "source_description": null,
+      "translation_display_name": "오른쪽 포드 켜짐 Y",
+      "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 켜짐 쿼터니언 Y 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Right Pod On Z",
+      "source_display_name": "Right Pod On Z",
+      "source_description": null,
+      "translation_display_name": "오른쪽 포드 켜짐 Z",
+      "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 켜짐 쿼터니언 Z 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Right Pod On W",
+      "source_display_name": "Right Pod On W",
+      "source_description": null,
+      "translation_display_name": "오른쪽 포드 켜짐 W",
+      "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 켜짐 쿼터니언 W 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Right Pod Off X",
+      "source_display_name": "Right Pod Off X",
+      "source_description": null,
+      "translation_display_name": "오른쪽 포드 꺼짐 X",
+      "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 꺼짐 쿼터니언 X 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Right Pod Off Y",
+      "source_display_name": "Right Pod Off Y",
+      "source_description": null,
+      "translation_display_name": "오른쪽 포드 꺼짐 Y",
+      "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 꺼짐 쿼터니언 Y 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Right Pod Off Z",
+      "source_display_name": "Right Pod Off Z",
+      "source_description": null,
+      "translation_display_name": "오른쪽 포드 꺼짐 Z",
+      "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 꺼짐 쿼터니언 Z 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Right Pod Off W",
+      "source_display_name": "Right Pod Off W",
+      "source_description": null,
+      "translation_display_name": "오른쪽 포드 꺼짐 W",
+      "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 꺼짐 쿼터니언 W 값입니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Unity Adapter Rotation X",
+      "source_display_name": "Unity Adapter Rotation X",
+      "source_description": null,
+      "translation_display_name": "Unity 어댑터 회전 X",
+      "translation_description": "Unity 어댑터의 회전 X 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Unity Adapter Rotation Y",
+      "source_display_name": "Unity Adapter Rotation Y",
+      "source_description": null,
+      "translation_display_name": "Unity 어댑터 회전 Y",
+      "translation_description": "Unity 어댑터의 회전 Y 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Unity Adapter Rotation Z",
+      "source_display_name": "Unity Adapter Rotation Z",
+      "source_description": null,
+      "translation_display_name": "Unity 어댑터 회전 Z",
+      "translation_description": "Unity 어댑터의 회전 Z 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Unity Adapter Position X",
+      "source_display_name": "Unity Adapter Position X",
+      "source_description": null,
+      "translation_display_name": "Unity 어댑터 위치 X",
+      "translation_description": "Unity 어댑터의 위치 X 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Unity Adapter Position Y",
+      "source_display_name": "Unity Adapter Position Y",
+      "source_description": null,
+      "translation_display_name": "Unity 어댑터 위치 Y",
+      "translation_description": "Unity 어댑터의 위치 Y 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Unity Adapter Position Z",
+      "source_display_name": "Unity Adapter Position Z",
+      "source_description": null,
+      "translation_display_name": "Unity 어댑터 위치 Z",
+      "translation_description": "Unity 어댑터의 위치 Z 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "AMP Arms Rotation X",
+      "source_display_name": "AMP Arms Rotation X",
+      "source_description": null,
+      "translation_display_name": "AMP 암 회전 X",
+      "translation_description": "AMP 암의 회전 X 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "AMP Arms Rotation Y",
+      "source_display_name": "AMP Arms Rotation Y",
+      "source_description": null,
+      "translation_display_name": "AMP 암 회전 Y",
+      "translation_description": "AMP 암의 회전 Y 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "AMP Arms Rotation Z",
+      "source_display_name": "AMP Arms Rotation Z",
+      "source_description": null,
+      "translation_display_name": "AMP 암 회전 Z",
+      "translation_description": "AMP 암의 회전 Z 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "AMP Arms Position X",
+      "source_display_name": "AMP Arms Position X",
+      "source_description": null,
+      "translation_display_name": "AMP 암 위치 X",
+      "translation_description": "AMP 암의 위치 X 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "AMP Arms Position Y",
+      "source_display_name": "AMP Arms Position Y",
+      "source_description": null,
+      "translation_display_name": "AMP 암 위치 Y",
+      "translation_description": "AMP 암의 위치 Y 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "AMP Arms Position Z",
+      "source_display_name": "AMP Arms Position Z",
+      "source_description": null,
+      "translation_display_name": "AMP 암 위치 Z",
+      "translation_description": "AMP 암의 위치 Z 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RACLINK Rotation X",
+      "source_display_name": "RACLINK Rotation X",
+      "source_description": null,
+      "translation_display_name": "RACLINK 회전 X",
+      "translation_description": "RACLINK의 회전 X 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RACLINK Rotation Y",
+      "source_display_name": "RACLINK Rotation Y",
+      "source_description": null,
+      "translation_display_name": "RACLINK 회전 Y",
+      "translation_description": "RACLINK의 회전 Y 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RACLINK Rotation Z",
+      "source_display_name": "RACLINK Rotation Z",
+      "source_description": null,
+      "translation_display_name": "RACLINK 회전 Z",
+      "translation_description": "RACLINK의 회전 Z 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RACLINK Position X",
+      "source_display_name": "RACLINK Position X",
+      "source_description": null,
+      "translation_display_name": "RACLINK 위치 X",
+      "translation_description": "RACLINK의 위치 X 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RACLINK Position Y",
+      "source_display_name": "RACLINK Position Y",
+      "source_description": null,
+      "translation_display_name": "RACLINK 위치 Y",
+      "translation_description": "RACLINK의 위치 Y 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RACLINK Position Z",
+      "source_display_name": "RACLINK Position Z",
+      "source_description": null,
+      "translation_display_name": "RACLINK 위치 Z",
+      "translation_description": "RACLINK의 위치 Z 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Rotation X",
+      "source_display_name": "RAC Headset Rotation X",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 회전 X",
+      "translation_description": "RAC 헤드셋의 회전 X 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Rotation Y",
+      "source_display_name": "RAC Headset Rotation Y",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 회전 Y",
+      "translation_description": "RAC 헤드셋의 회전 Y 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Rotation Z",
+      "source_display_name": "RAC Headset Rotation Z",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 회전 Z",
+      "translation_description": "RAC 헤드셋의 회전 Z 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Position X",
+      "source_display_name": "RAC Headset Position X",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 위치 X",
+      "translation_description": "RAC 헤드셋의 위치 X 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Position Y",
+      "source_display_name": "RAC Headset Position Y",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 위치 Y",
+      "translation_description": "RAC 헤드셋의 위치 Y 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Position Z",
+      "source_display_name": "RAC Headset Position Z",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 위치 Z",
+      "translation_description": "RAC 헤드셋의 위치 Z 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Arms Rotation X",
+      "source_display_name": "RAC Headset Arms Rotation X",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 암 회전 X",
+      "translation_description": "RAC 헤드셋 암의 회전 X 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Arms Rotation Y",
+      "source_display_name": "RAC Headset Arms Rotation Y",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 암 회전 Y",
+      "translation_description": "RAC 헤드셋 암의 회전 Y 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Arms Rotation Z",
+      "source_display_name": "RAC Headset Arms Rotation Z",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 암 회전 Z",
+      "translation_description": "RAC 헤드셋 암의 회전 Z 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Arms Position X",
+      "source_display_name": "RAC Headset Arms Position X",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 암 위치 X",
+      "translation_description": "RAC 헤드셋 암의 위치 X 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Arms Position Y",
+      "source_display_name": "RAC Headset Arms Position Y",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 암 위치 Y",
+      "translation_description": "RAC 헤드셋 암의 위치 Y 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "RAC Headset Arms Position Z",
+      "source_display_name": "RAC Headset Arms Position Z",
+      "source_description": null,
+      "translation_display_name": "RAC 헤드셋 암 위치 Z",
+      "translation_description": "RAC 헤드셋 암의 위치 Z 값을 조정합니다.",
+      "values": []
+    }
+  ]
+}

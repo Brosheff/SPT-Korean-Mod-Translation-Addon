@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "HollywoodFX",
+  "mod_name": "HollywoodFX",
+  "channels": {
+    "notifications": [
+      {
+        "id": "made_you_look",
+        "source": "Made you look!",
+        "translation": "낚이셨네요!",
+        "match_mode": "exact",
+        "note": "Peen 설정 변경 시 표시되는 HollywoodFX 경고 알림"
+      }
+    ]
+  }
+}

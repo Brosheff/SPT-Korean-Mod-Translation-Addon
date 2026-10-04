@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework><OutputType>Exe</OutputType><LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings>
+    <SPTPath Condition="'$(SPTPath)' == ''">C:\spt 4.1</SPTPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/MinimalLog.cs" Link="MinimalLog.cs" />
+    <Compile Include="../../server-src/SPT_Mod_Korean_Server/MessageTranslator.cs" Link="MessageTranslator.cs" />
+    <Compile Include="../../server-src/SPT_Mod_Korean_Server/ServerTextRules.cs" Link="ServerTextRules.cs" />
+    <Compile Include="../../server-src/SPT_Mod_Korean_Server/TranslationModels.cs" Link="TranslationModels.cs" />
+    <Compile Include="../../server-src/SPT_Mod_Korean_Server/CultureRegistry.cs" Link="CultureRegistry.cs" />
+    <Reference Include="SPTarkov.Server.Core"><HintPath>$(SPTPath)/SPT_Runtime/SPTarkov.Server.Core.dll</HintPath></Reference>
+    <Reference Include="SPTarkov.Common"><HintPath>$(SPTPath)/SPT_Runtime/SPTarkov.Common.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

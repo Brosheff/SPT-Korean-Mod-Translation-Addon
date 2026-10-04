@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_b03daac1dc68",
+  "mod_name": "Scorpion (상인정보만 번역)",
+  "channels": {
+    "locale": [
+      {
+        "key": "66885a3d0221bbe5f306b68d description",
+        "source": "Alright, this is a tough request we got in. It's probably best to bring a big ass backpack and get it all done at one time. It's not easy getting in and out of the Labs. You might have to wear one of the armours and shove the other two in your bag. Hide them on the pallet just outside of the hangar gate and dip out - you'll be exposed on your way out. Remember, the armour needs to be in good condition. Don't get it all shredded first.",
+        "translation": "좋아, 꽤 빡센 의뢰가 들어왔어. 큰 배낭 하나 메고 가서 한 번에 끝내는 게 제일 낫겠지. 연구소는 들락날락하기 쉬운 곳이 아니니까. 방탄복 하나는 입고 나머지 둘은 가방에 쑤셔 넣어야 할 수도 있어. 격납고 문 바로 바깥 팔레트에 숨겨두고 바로 빠져나와. 나오는 길엔 몸이 훤히 드러날 거야. 그리고 방탄복 상태는 멀쩡해야 한다. 먼저 걸레짝으로 만들어놓고 가져갈 생각은 하지 마.",
+        "match_mode": "item_decorated",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "66885a3d0221bbe5f306b690",
+        "source": "Locate the dead drop just outside the hanger gate",
+        "translation": "격납고 문 바로 바깥의 비밀 은닉처 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6688d464bc40c867f60e7d7e FullName",
+        "source": "Scorpion",
+        "translation": "스콜피온"
+      },
+      {
+        "key": "6688d464bc40c867f60e7d7e FirstName",
+        "source": "Scorpion",
+        "translation": "스콜피온"
+      },
+      {
+        "key": "6688d464bc40c867f60e7d7e Nickname",
+        "source": "Scorpion",
+        "translation": "스콜피온"
+      },
+      {
+        "key": "6688d464bc40c867f60e7d7e Location",
+        "source": "Federal State Reserve Agency Base",
+        "translation": "연방 국가비축청 기지",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6688d464bc40c867f60e7d7e Description",
+        "source": "I'm sellin', what are you buyin'?",
+        "translation": "난 파는 쪽인데, 뭘 살 건가?",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.tarkin.hideoutcat",
+  "plugin_name": "spt-hideoutcat-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Cat",
+      "translation": "고양이"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Cat",
+      "key": "Coat",
+      "source_display_name": "Coat",
+      "source_description": "Applies on the next hideout load",
+      "translation_display_name": "털색",
+      "translation_description": "고양이의 털색을 선택합니다. 다음에 은신처를 불러올 때부터 적용됩니다.",
+      "values": [
+        {
+          "source": "Grey",
+          "translation": "회색"
+        },
+        {
+          "source": "Black",
+          "translation": "검은색"
+        },
+        {
+          "source": "Orange",
+          "translation": "주황색"
+        },
+        {
+          "source": "White",
+          "translation": "흰색"
+        },
+        {
+          "source": "Brown",
+          "translation": "갈색"
+        },
+        {
+          "source": "Bicolor",
+          "translation": "두 가지 색"
+        }
+      ]
+    },
+    {
+      "section": "Cat",
+      "key": "Eye Colour",
+      "source_display_name": "Eye Colour",
+      "source_description": "Applies on the next hideout load",
+      "translation_display_name": "눈 색상",
+      "translation_description": "고양이의 눈 색상을 선택합니다. 다음에 은신처를 불러올 때부터 적용됩니다.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.ozen.magcheckinterrupt",
+  "plugin_name": "SPT-MagCheckInterrupt-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Ammo Details",
+      "translation": "탄약 세부 정보"
+    },
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Reload Window",
+      "translation": "장전 판정 구간"
+    },
+    {
+      "source": "Slow Animation",
+      "translation": "느린 애니메이션"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Ammo Details",
+      "key": "Follows Magazine",
+      "source_display_name": "Follows Magazine",
+      "source_description": "If enabled, the ammo details UI follows the magazine",
+      "translation_display_name": "탄창 기준 탄창",
+      "translation_description": "활성화하면 탄약 정보 UI가 탄창 위치를 따라 움직입니다.",
+      "values": []
+    },
+    {
+      "section": "Ammo Details",
+      "key": "Position Offset X",
+      "source_display_name": "Position Offset X",
+      "source_description": null,
+      "translation_display_name": "위치 오프셋 X",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Ammo Details",
+      "key": "Position Offset Y",
+      "source_display_name": "Position Offset Y",
+      "source_description": null,
+      "translation_display_name": "위치 오프셋 Y",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Ammo Details",
+      "key": "Position Offset Z",
+      "source_display_name": "Position Offset Z",
+      "source_description": null,
+      "translation_display_name": "위치 오프셋 Z",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Ammo Details",
+      "key": "Scale",
+      "source_display_name": "Scale",
+      "source_description": null,
+      "translation_display_name": "배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Reload Mode",
+      "source_display_name": "Reload Mode",
+      "source_description": "Special case for when reload and mag check keybinds are conflicting",
+      "translation_display_name": "재장전 방식",
+      "translation_description": "재장전 키와 탄창 확인 키가 겹치는 경우 어떤 동작을 우선할지 정하는 특수 처리 방식입니다.",
+      "values": [
+        {
+          "source": "Press to Reload",
+          "translation": "눌러서 재장전"
+        },
+        {
+          "source": "Press",
+          "translation": "눌러서 재장전"
+        },
+        {
+          "source": "Release to Reload",
+          "translation": "떼어서 재장전"
+        },
+        {
+          "source": "Release",
+          "translation": "떼어서 재장전"
+        }
+      ]
+    },
+    {
+      "section": "Reload Window",
+      "key": "End",
+      "source_display_name": "End",
+      "source_description": "How late you can reload during the magazine check animation, in normalized time",
+      "translation_display_name": "재장전 가능 종료 시점",
+      "translation_description": "탄창 확인 애니메이션 중 재장전을 시작할 수 있는 가장 늦은 시점을 정규화 시간 값으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Reload Window",
+      "key": "Start",
+      "source_display_name": "Start",
+      "source_description": "How early you can reload during the magazine check animation, in normalized time",
+      "translation_display_name": "재장전 가능 시작 시점",
+      "translation_description": "탄창 확인 애니메이션 중 재장전을 시작할 수 있는 가장 이른 시점을 정규화 시간 값으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Slow Animation",
+      "key": "Enable",
+      "source_display_name": "Enable",
+      "source_description": "Slow down the magazine check animation for a certain time",
+      "translation_display_name": "탄창 확인 감속 활성화",
+      "translation_description": "탄창 확인 애니메이션의 일부 구간을 느리게 재생할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Slow Animation",
+      "key": "End",
+      "source_display_name": "End",
+      "source_description": "When to restore speed of the magazine check animation, in normalized time",
+      "translation_display_name": "종료",
+      "translation_description": "탄창 확인 애니메이션 속도를 원래대로 되돌릴 정규화 시간 지점입니다.",
+      "values": []
+    },
+    {
+      "section": "Slow Animation",
+      "key": "Slow Percentage",
+      "source_display_name": "Slow Percentage",
+      "source_description": "Multiplier for the magazine check animation speed when Slow Animation is enabled",
+      "translation_display_name": "느린 비율",
+      "translation_description": "느린 애니메이션 기능이 켜져 있을 때 탄창 확인 애니메이션 속도에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Slow Animation",
+      "key": "Smoothing Max Delta",
+      "source_display_name": "Smoothing Max Delta",
+      "source_description": "Max delta for the smoothing of the slow animation. A higher value slows/restores the animation faster",
+      "translation_display_name": "보간 최대 변화량",
+      "translation_description": "보간 최대 변화량 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Slow Animation",
+      "key": "Start",
+      "source_display_name": "Start",
+      "source_description": "When to start slowing down the magazine check animation, in normalized time",
+      "translation_display_name": "시작",
+      "translation_description": "탄창 확인 애니메이션을 느리게 만들기 시작할 정규화 시간 지점입니다.",
+      "values": []
+    }
+  ]
+}

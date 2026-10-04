@@ -1,0 +1,925 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "Icebreaker",
+  "mod_name": "MANIMAL'S ICEBREAKER BACKPORT",
+  "channels": {
+    "locale": [
+      {
+        "key": "6a63fa5726a91c3479b6c575 Name",
+        "source": "Paradigm Shipping directive",
+        "translation": "패러다임 쉬핑 지시서",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6a63fa5726a91c3479b6c575 ShortName",
+        "source": "Directive",
+        "translation": "지시서"
+      },
+      {
+        "key": "6a63fa5726a91c3479b6c575 Description",
+        "source": "This Paradigm Shipping folder contains one of the latest directives regarding operations at cargo terminal #3.",
+        "translation": "이 패러다임 쉬핑 폴더에는 화물 터미널 3번 운영과 관련된 최신 지시 사항 중 하나가 들어 있습니다."
+      },
+      {
+        "key": "6a753b58478c184bd220c417 name",
+        "source": "War Never Changes",
+        "translation": "전쟁은 변하지 않는다",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a753b58478c184bd220c417 description",
+        "source": "Hello, mercenary. In field conditions it is extremely important to anticipate any potential hazards in advance. Once a patient is already on the operating table, you can only work with whatever is available at hand. That is why I would like you to bring me high-dose potassium iodide tablets. Yes, these are used in cases of severe radiation exposure. And no, we have not recorded any leaks recently. I must ask you not to spread information about this order. You do not realize how severely panic among the population can complicate the work of my department. I am simply preparing for any incidents that may occur in the future. The issue is that in Tarkov itself we have never found this dosage. Such preparations are typically stored at nuclear facilities, as they are only relevant there. I hope your search proves more successful than that of my staff.",
+        "translation": "안녕하세요, 용병. 현장에서는 발생할 수 있는 위험을 미리 예상하는 것이 매우 중요해요. 환자가 이미 수술대에 올라온 뒤에는 손에 있는 것만으로 대응할 수밖에 없으니까요. 그래서 고용량 요오드화 칼륨 정제를 구해오셨으면 해요. 네, 심각한 방사선 피폭 상황에서 사용하는 약입니다. 그리고 최근에 누출이 확인된 것은 아니에요. 이 주문에 관한 이야기는 퍼뜨리지 말아주세요. 주민들 사이에 공황이 생기면 제 부서의 업무가 얼마나 심각하게 복잡해지는지 모르실 거예요. 저는 그저 앞으로 생길 수 있는 사고에 대비하려는 겁니다. 문제는 타르코프 안에서는 이런 용량의 약을 한 번도 찾지 못했다는 거예요. 이런 제제는 보통 원자력 시설에 보관되니까요. 거기에서나 필요한 물건이거든요. 제 직원들보다 당신의 수색이 더 성공적이길 바랍니다.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a753b58478c184bd220c417 startedMessageText",
+        "source": "Ten packs, and the dosage must be the high one. Please be discreet about where you are looking.",
+        "translation": "열 팩이 필요하고, 반드시 고용량이어야 해요. 어디를 수색하는지는 조용히 해주세요."
+      },
+      {
+        "key": "6a753b58478c184bd220c417 successMessageText",
+        "source": "Where did you manage to obtain so many? I was not even expecting five packs... The Icebreaker? Such a find could be extremely important for supporting our work. I need to check something in the department, and then I will return to you with a new task. We cannot afford to miss an opportunity of this value.",
+        "translation": "이렇게 많이 어디서 구한 거죠? 다섯 팩도 기대하지 않았는데... 쇄빙선이라고요? 그런 발견이라면 우리 업무를 지원하는 데 아주 중요할 수 있어요. 부서에서 확인할 것이 있으니, 확인이 끝나면 새 일을 부탁드리겠습니다. 이런 가치가 있는 기회를 놓칠 수는 없어요."
+      },
+      {
+        "key": "6a753b58478c184bd220c417 failMessageText",
+        "source": "The order was not filled. I will have to plan around the shortage, as always.",
+        "translation": "주문한 물품을 확보하지 못했군요. 늘 그랬듯 부족한 상태를 전제로 계획을 다시 세워야겠어요."
+      },
+      {
+        "key": "6a753b58478c184bd220c418",
+        "source": "Find Nooby Shield potassium iodide tablets in raid",
+        "translation": "레이드에서 Nooby Shield 요오드화 칼륨 정제 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a753b58478c184bd220c419",
+        "source": "Hand over the items",
+        "translation": "물품 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a753cf3478c184bd220c426 name",
+        "source": "Biochemistry",
+        "translation": "생화학",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a753cf3478c184bd220c426 description",
+        "source": "This icebreaker you've found is a real discovery! If it is located that far out, there could still be medical equipment on board that survived the blast in the city center... We will not get a second opportunity like this. In conditions of isolation and the inability to provide full hospital care, we usually rely on specialized biochemical analyzers. They allow us to perform a wide range of tests quickly and with the necessary accuracy. However, most of the reserve units in Tarkov were taken by emergency services during the evacuation. But on the icebreaker there could still be analyzers in working condition. Especially if it is connected to TerraGroup. Search for them for me, preferably several. The ship likely had its own medical section where they could have been installed.",
+        "translation": "당신이 발견한 쇄빙선은 정말 대단한 발견이에요! 그렇게 멀리 떨어져 있다면 도심 폭발에서도 살아남은 의료장비가 아직 선내에 남아 있을 수 있어요... 이런 기회는 두 번 오지 않을 겁니다. 고립된 환경에서 완전한 병원 치료를 제공하기 어려울 때는 보통 전문 생화학 분석기에 의존해요. 필요한 정확도를 유지하면서 다양한 검사를 빠르게 수행할 수 있거든요. 하지만 타르코프의 예비 장비 대부분은 대피 과정에서 응급기관이 가져갔어요. 그래도 쇄빙선에는 정상 작동하는 분석기가 남아 있을 수 있습니다. 특히 테라그룹과 관련된 선박이라면 더욱 그렇죠. 가능하면 여러 대를 찾아주세요. 선박 자체 의료구역에 설치되어 있었을 가능성이 큽니다.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a753cf3478c184bd220c426 startedMessageText",
+        "source": "Three analyzers, and they must be intact. Check the medical section of the ship first.",
+        "translation": "분석기 세 대를 부탁드려요. 반드시 온전한 상태여야 합니다. 우선 선박의 의료 구역부터 확인해보세요."
+      },
+      {
+        "key": "6a753cf3478c184bd220c426 successMessageText",
+        "source": "You found the Aceso? That is probably the best news of the day. Given the shortages in Tarkov, they will be a very valuable asset... But of course, I will only consider parting with them in cases of extreme necessity. For now, they will go straight into operation and greatly ease the workload of my staff and patients.",
+        "translation": "아세소를 찾았군요? 아마 오늘 들은 소식 중 가장 반가운 소식이네요. 타르코프의 물자 부족을 생각하면 아주 귀중한 자산이 될 겁니다... 물론 정말 절박한 상황이 아니면 내놓을 생각은 없어요. 당장은 바로 현장에 투입해서 직원들과 환자들의 부담을 크게 덜어줄 수 있겠네요."
+      },
+      {
+        "key": "6a753cf3478c184bd220c426 failMessageText",
+        "source": "No analyzers, then. My department will continue as it has been.",
+        "translation": "분석기가 없군요. 그렇다면 제 부서는 지금까지 해오던 방식대로 계속 운영할 수밖에 없겠어요."
+      },
+      {
+        "key": "6a753cf3478c184bd220c427",
+        "source": "Find Aceso Xpress semi-automatic biochemical analyzers in raid",
+        "translation": "레이드에서 아세소 익스프레스 반자동 생화학 분석기 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a753cf3478c184bd220c428",
+        "source": "Hand over the items",
+        "translation": "물품 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a75661b478c184bd220c433 name",
+        "source": "Oil Change",
+        "translation": "오일 교환",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a75661b478c184bd220c433 description",
+        "source": "Heya there, warrior! Since you already know about my little helicopter secret, I've got a job for you. If you want my bird to keep picking you up from the ship, it needs regular maintenance. Remember that special lubricant you brought me? You won't find that stuff in Tarkov, but there should still be some supplies left on the Icebreaker. Go take a look, check the helipad and storage areas. Anything you find in cans, bring it back to me. You've got your own interest in this too, so you won't be doing it for nothing. And if you manage to pull together a decent stock, I'll even pay extra.",
+        "translation": "오, 왔나 제군! 이제 내 작은 헬기 비밀도 알고 있으니 자네한테 맡길 일이 하나 있네. 그 녀석이 계속 쇄빙선까지 자네를 데리러 다니려면 정기적으로 손을 봐줘야 해. 전에 가져온 특수 윤활유 기억나나? 타르코프에선 구할 수 없는 물건이지만 쇄빙선엔 아직 재고가 남아 있을 게야. 가서 헬기 착륙장과 창고 구역을 확인해보게. 깡통에 든 건 뭐든 찾아서 내게 가져오게나. 자네한테도 필요한 일이니 헛수고는 아닐 걸세. 제법 많은 양을 모아온다면 돈도 좀 더 얹어주지.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a75661b478c184bd220c433 startedMessageText",
+        "source": "Five cans, soldier. Helipad and the storage areas, that is where they will be.",
+        "translation": "다섯 통일세, 제군. 헬기 착륙장하고 창고 구역을 찾아보게. 거기 있을 게야."
+      },
+      {
+        "key": "6a75661b478c184bd220c433 successMessageText",
+        "source": "Alright, you handled that job well. I'll give you that. Maybe things between us will keep going smooth, just don't forget your reputation and don't even think about screwing me over. You're dismissed for now, soldier.",
+        "translation": "좋아, 이번 일은 잘 처리했군. 그건 인정하지. 앞으로도 우리 사이가 이렇게 순조로우면 좋겠지만, 평판 관리 똑바로 하고 날 엿먹일 생각은 꿈도 꾸지 말게. 오늘은 이만 해산하게, 제군."
+      },
+      {
+        "key": "6a75661b478c184bd220c433 failMessageText",
+        "source": "No fluid, no maintenance. My bird stays grounded, and that is on you.",
+        "translation": "작동유가 없으면 정비도 없네. 내 새는 땅에 묶여 있게 되는 거고, 그건 자네 책임일세."
+      },
+      {
+        "key": "6a75661b478c184bd220c434",
+        "source": "Find AMG-10 hydraulic fluid in raid",
+        "translation": "레이드에서 AMG-10 유압 작동유 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a75661b478c184bd220c435",
+        "source": "Hand over the items",
+        "translation": "물품 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a7dfef811aec9601b11cc1c Name",
+        "source": "Black Division gear crate",
+        "translation": "블랙 디비전 장비 상자"
+      },
+      {
+        "key": "6a7dfef811aec9601b11cc1c Description",
+        "source": "A heavy transport crate with no identifying markings. Inside is a full set of Black Division equipment: helmets, body armor, chest rigs, backpacks, and protective gear.\n\nJudging by its contents, this crate was prepared for a team expected to operate far from any safe zone.",
+        "translation": "식별 표식이 전혀 없는 대형 수송 상자입니다. 내부에는 헬멧, 방탄복, 전술 조끼, 배낭, 보호 장구 등 블랙 디비전 장비 한 세트가 완전히 갖춰져 있습니다.\n\n내용물로 보아 안전지대에서 멀리 떨어진 곳에서 작전할 팀을 위해 준비된 상자로 보입니다."
+      },
+      {
+        "key": "6a7e0916b881de241018539d name",
+        "source": "Chain of Custody",
+        "translation": "관리 연속성",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a7e0916b881de241018539d description",
+        "source": "Good day, my friend. A word about that ship in the bay, if you have a minute.\n\nSome weeks ago my people impounded a transport container that came off that vessel. Inside, a full kit for a soldier, all of it new, none of it carrying a manufacturer stamp or a unit marking. Officially it is now UN property and it sits in a warehouse under my signature. Unofficially, I would like very much to know who it was addressed to.\n\nThe men on that ship wear the same equipment and answer to no government I am aware of. That is a problem for the Blue Helmets, and problems are expensive. So let us keep this simple. Thin them out, ten will do, and bring me their identification tags. Any variant, I am not particular. My people cannot file a report on a group that does not officially exist, but a handful of tags is a beginning.\n\nDo this, and the container becomes surplus. Surplus can be sold, to you, at a fair price. You understand how these things work.",
+        "translation": "좋은 날이오, 친구. 시간이 괜찮다면 만에 떠 있는 그 배 이야기를 좀 합시다.\n\n몇 주 전, 내 사람들이 그 선박에서 나온 수송 컨테이너 하나를 압류했소. 안에는 병사 한 명분의 완전한 장비가 들어 있었는데 전부 새것이고 제조사 각인도, 부대 표식도 없었소. 공식적으로는 이제 UN 자산이며 내 서명 아래 창고에 보관 중이오. 비공식적으로는 이 물건이 누구에게 갈 예정이었는지 몹시 궁금하오.\n\n그 배에 있는 자들은 똑같은 장비를 착용하고 있지만 내가 아는 어떤 정부의 지휘도 받지 않소. 블루 헬멧 입장에서는 문제이고, 문제에는 돈이 들지. 그러니 간단히 합시다. 열 명 정도 줄여놓고 그들의 인식표를 가져오시오. 종류는 무엇이든 상관없소. 공식적으로 존재하지 않는 집단에 관해 내 사람들이 보고서를 작성할 수는 없지만, 인식표 몇 개면 시작은 할 수 있소.\n\n이 일을 해주면 컨테이너는 잉여 물자로 처리되오. 잉여 물자는 판매할 수 있고, 친구에게 적당한 가격에 넘길 수 있지. 이런 일이 어떻게 돌아가는지는 알겠지요.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a7e0916b881de241018539d startedMessageText",
+        "source": "Ten of them, my friend, and five tags taken off the bodies yourself. I will know the difference.",
+        "translation": "열 명이오, 친구. 그리고 인식표 다섯 개는 직접 시체에서 떼어오시오. 차이는 내가 알아볼 것이오."
+      },
+      {
+        "key": "6a7e0916b881de241018539d successMessageText",
+        "source": "Let me see. Yes, these will do. My analysts will have names by the end of the week, or numbers at least.\n\nAs promised, the container is now surplus stock. Come to me when you need equipment, and bring tags. The paperwork is easier that way.",
+        "translation": "어디 봅시다. 그렇지, 이 정도면 충분하오. 내 분석팀이 이번 주 안으로 이름을 알아내겠지. 적어도 번호라도 말이오.\n\n약속대로 컨테이너는 이제 잉여 재고로 처리됐소. 장비가 필요하면 내게 오시오. 그리고 인식표도 가져오고. 그러면 서류 처리가 훨씬 쉬워지오."
+      },
+      {
+        "key": "6a7e0916b881de241018539d failMessageText",
+        "source": "No tags, no report, and the container stays exactly where it is. A pity, my friend. We could both have done well out of this.",
+        "translation": "인식표가 없으면 보고서도 없고, 컨테이너도 그대로요. 아쉽소, 친구. 서로 제법 이득을 볼 수 있었는데 말이오."
+      },
+      {
+        "key": "6a7e0916b881de241018539e",
+        "source": "Find in raid: Black Division dogtags",
+        "translation": "레이드에서 블랙 디비전 인식표 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a7e0916b881de241018539f",
+        "source": "Hand over the dogtags",
+        "translation": "인식표 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a7e0916b881de24101853a0",
+        "source": "Eliminate Black Division operatives",
+        "translation": "블랙 디비전 요원 처치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6aa83f652bec3212bf930001 name",
+        "source": "Peaceful Atom",
+        "translation": "평화로운 원자",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6aa83f652bec3212bf930001 description",
+        "source": "Greetings. I have an urgent assignment for you. You are not yet aware of the situation, so I will need to provide some context. However, everything I am about to disclose is top secret, understood?\n\nThere is a secured facility within the blockade perimeter that is of interest to my contacts in the nuclear energy sector. The issue is that it is an icebreaker ship, currently stranded in the bay. To access it, you will need to acquire suitable transport, and it is preferable to do so quietly. No one must know that the vessel is present in Tarkov’s waters at all!\n\nOnce you secure transport, you are to retrieve operational documentation from the ship. Search the engineering sections, there should be a logbook for the nuclear power unit control system. Do not, under any circumstances, disclose this task to anyone.",
+        "translation": "반갑소. 긴급히 맡길 일이 있소. 아직 상황을 모를 테니 먼저 설명이 필요하겠군. 다만 지금부터 할 이야기는 모두 극비요. 이해했소?\n\n봉쇄 구역 안에 내 원자력 분야 연락책들이 관심을 두는 보안 시설이 하나 있소. 문제는 그것이 현재 만에 좌초해 있는 쇄빙선이라는 점이오. 접근하려면 적절한 이동수단을 확보해야 하며, 가능하면 조용히 처리하시오. 그 선박이 타르코프 해역에 있다는 사실 자체가 알려져서는 안 되오.\n\n이동수단을 확보하면 선박에서 운용 문서를 회수하시오. 기관 구역을 수색하면 원자로 설비 제어 시스템의 운전 일지가 있을 것이오. 어떤 경우에도 이 임무를 다른 사람에게 발설하지 마시오.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6aa83f652bec3212bf930001 successMessageText",
+        "source": "You have the logbook? I trust you avoided drawing attention on your way back. I will arrange your reward through my associates.\n\nOne more thing: I strongly advise against returning to the Icebreaker. According to my sources, it has already come under the control of some special unit. You would not survive an engagement with them.",
+        "translation": "운전 일지를 가져왔군? 돌아오는 길에 주의를 끌지 않았기를 바라오. 보상은 내 협력자들을 통해 준비하겠소.\n\n한 가지 더 말해두겠소. 쇄빙선에는 다시 가지 않는 편이 좋소. 내 정보에 따르면 이미 어떤 특수부대가 그곳을 장악했소. 그들과 교전한다면 살아남기 어려울 것이오."
+      },
+      {
+        "key": "6aa83f652bec3212bf930002 name",
+        "source": "Wiring the Vessel",
+        "translation": "선박 배선 작업",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6aa83f652bec3212bf930002 description",
+        "source": "It looks like you will have to return to the Icebreaker after all. The data from the nuclear power plant logbook was not sufficient. Our partners need real-time readings from the power unit, so I've purchased a special device from Mechanic for remote connection to the central control station.\n\nBefore you install it, however, you must ensure that all equipment in the technical areas is functioning properly. Take tools with you and restore the circuit breakers that have been taken offline, then install this device in the control room.\n\nI have been informed that the damaged breakers are likely located in three areas. One is directly on the way to the engine room, near the locker rooms with coats. The second is directly beneath that section. The third is somewhere in the corridors running along the engine compartment.\n\nOnce you have restored all breakers, return to the central control station. Install the device there and report back.",
+        "translation": "결국 쇄빙선에 다시 가줘야겠소. 원자로 설비 운전 일지의 데이터만으로는 충분하지 않았소. 협력자들에게는 동력 장치의 실시간 측정값이 필요해서, 중앙 제어실에 원격으로 연결할 수 있는 특수 장치를 메카닉에게 구입했소.\n\n다만 설치하기 전에 기술 구역의 모든 설비가 정상 작동하는지 확인해야 하오. 공구를 챙겨가서 꺼져 있는 차단기들을 복구한 뒤, 제어실에 이 장치를 설치하시오.\n\n손상된 차단기는 세 구역에 있을 가능성이 높다고 들었소. 하나는 엔진실로 가는 길목, 외투가 걸린 탈의실 근처요. 두 번째는 바로 그 구역 아래층이고, 세 번째는 엔진 구획을 따라 이어지는 복도 어딘가에 있소.\n\n모든 차단기를 복구한 뒤 중앙 제어실로 돌아가 장치를 설치하고 보고하시오.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6aa83f652bec3212bf930002 successMessageText",
+        "source": "It seems Mechanic’s device is functioning properly. I hope you managed to avoid contact with the special unit I warned you about. My recommendation remains the same: if you want to survive, it would be best not to return to that site.",
+        "translation": "메카닉의 장치는 정상적으로 작동하는 것 같군. 내가 경고했던 특수부대와 마주치지 않았기를 바라오. 내 조언은 여전히 같소. 살아남고 싶다면 그 장소에는 다시 가지 않는 편이 좋소."
+      },
+      {
+        "key": "6aa83f652bec3212bf930003",
+        "source": "Locate and obtain the nuclear power unit control log on Icebreaker",
+        "translation": "쇄빙선에서 원자로 설비 제어 운전 일지 찾아 획득하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6aa83f652bec3212bf93002c",
+        "source": "Repair the equipment in the automation room leading to the engine room on Icebreaker",
+        "translation": "쇄빙선의 엔진실로 이어지는 자동화실 설비 수리하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6aa83f652bec3212bf93002d",
+        "source": "Repair the equipment in the automation room under the engine room on Icebreaker",
+        "translation": "쇄빙선의 엔진실 아래 자동화실 설비 수리하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6aa83f652bec3212bf93002e",
+        "source": "Repair the equipment in the automation room near the storage room on Icebreaker",
+        "translation": "쇄빙선의 창고실 인근 자동화실 설비 수리하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6aa83f652bec3212bf93002f",
+        "source": "Install the hacking device in the central control station room on Icebreaker",
+        "translation": "쇄빙선 중앙 제어실에 해킹 장치 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "882b2fa04bbd616567022938 Name",
+        "source": "Icebreaker",
+        "translation": "쇄빙선"
+      },
+      {
+        "key": "882b2fa04bbd616567022938 Description",
+        "source": "In the Gulf of Finland, trapped within the blockade surrounding Tarkov, lies the nuclear-powered icebreaker \"Boreas\", owned by the logistics corporation Paradigm Shipping. The exact purpose of \"Boreas\" and the cargo it carries remain unknown.\n\nIt appears that Paradigm Shipping and TerraGroup made special efforts to minimize any mention of the icebreaker in the press and keep its routes and assignments classified.",
+        "translation": "타르코프를 둘러싼 봉쇄선 안쪽 핀란드만에는 물류기업 패러다임 쉬핑이 소유한 핵추진 쇄빙선 “보레아스”가 갇혀 있습니다. “보레아스”의 정확한 목적과 적재 화물은 아직 알려지지 않았습니다.\n\n패러다임 쉬핑과 테라그룹은 언론에서 쇄빙선에 대한 언급을 최소화하고 항로와 임무를 기밀로 유지하기 위해 특별한 노력을 기울인 것으로 보입니다."
+      },
+      {
+        "key": "Icebreaker_Exit_Heli",
+        "source": "Helicopter",
+        "translation": "헬리콥터"
+      },
+      {
+        "key": "Icebreaker_UI_ChainDoor_Open",
+        "source": "Open",
+        "translation": "열기"
+      },
+      {
+        "key": "Icebreaker_UI_ChainDoor_Plant",
+        "source": "Plant",
+        "translation": "설치하기"
+      },
+      {
+        "key": "Icebreaker_UI_ChainDoor_Planting",
+        "source": "Planting charge",
+        "translation": "폭약 설치 중"
+      },
+      {
+        "key": "Icebreaker_UI_Fare_NotEnough",
+        "source": "The smugglers want {0:N0} roubles for the crossing ({1:N0} carried)",
+        "translation": "밀수꾼들이 건너가는 대가로 {0:N0}루블을 요구합니다. (소지 금액: {1:N0})"
+      },
+      {
+        "key": "Icebreaker_UI_Hatch_Melt",
+        "source": "Melt the ice (blowtorch)",
+        "translation": "얼음 녹이기 (토치)"
+      },
+      {
+        "key": "Icebreaker_UI_Hatch_Open",
+        "source": "Open hatch",
+        "translation": "해치 열기"
+      },
+      {
+        "key": "Icebreaker_UI_Hatch_TurnHandle",
+        "source": "Turn handle",
+        "translation": "손잡이 돌리기"
+      },
+      {
+        "key": "Icebreaker_UI_Heli_Inbound",
+        "source": "The helicopter has been signaled — inbound, hold the pad",
+        "translation": "헬리콥터에 신호를 보냈습니다 — 접근 중이니 착륙장을 확보하십시오"
+      },
+      {
+        "key": "Icebreaker_UI_Heli_Landed",
+        "source": "The helicopter has landed — extraction active",
+        "translation": "헬리콥터가 착륙했습니다 — 탈출이 활성화되었습니다"
+      },
+      {
+        "key": "Icebreaker_UI_Heli_Signal",
+        "source": "Signal the helicopter with a green flare to extract",
+        "translation": "녹색 신호탄으로 헬리콥터에 신호 보내 탈출하기"
+      },
+      {
+        "key": "Icebreaker_UI_Keypad_EnterCode",
+        "source": "Enter code",
+        "translation": "암호 입력"
+      },
+      {
+        "key": "Icebreaker_UI_Keypad_Unlocked",
+        "source": "Door unlocked",
+        "translation": "문 잠금 해제됨"
+      },
+      {
+        "key": "Icebreaker_UI_SealedDoor_Reseal",
+        "source": "Reseal Door",
+        "translation": "문 다시 밀봉하기"
+      },
+      {
+        "key": "Icebreaker_UI_SealedDoor_Sealing",
+        "source": "Sealing Door",
+        "translation": "문 밀봉 중"
+      },
+      {
+        "key": "Icebreaker_UI_SealedDoor_Unseal",
+        "source": "Unseal Door",
+        "translation": "문 밀봉 해제하기"
+      },
+      {
+        "key": "Icebreaker_UI_SealedDoor_Unsealing",
+        "source": "Unsealing Door",
+        "translation": "문 밀봉 해제 중"
+      },
+      {
+        "key": "blackdiv_banner Name",
+        "source": "Black Division",
+        "translation": "블랙 디비전"
+      },
+      {
+        "key": "blackdiv_banner Description",
+        "source": "From time to time, rumors spread through Tarkov about a special unit that belongs neither to USEC nor BEAR. According to campfire stories, these special operatives conduct night-time operations to clear restricted facilities and extract valuable TerraGroup data. But among PMC operators, very few believe in the existence of this so-called \"Black Division\", because under the current circumstances, freely inserting and extracting entire combat groups through the blockade ring is practically impossible.",
+        "translation": "타르코프에서는 때때로 USEC에도 BEAR에도 속하지 않는 특수부대에 관한 소문이 퍼집니다. 모닥불가의 이야기에 따르면 이 특수요원들은 밤에 제한 구역을 소탕하고 가치 있는 테라그룹 데이터를 회수하는 작전을 수행한다고 합니다. 하지만 PMC 요원 중 이른바 “블랙 디비전”의 존재를 믿는 사람은 거의 없습니다. 현재 상황에서 봉쇄선을 자유롭게 드나들며 전투단 전체를 투입하고 철수시키는 것은 사실상 불가능하기 때문입니다."
+      },
+      {
+        "key": "icebreaker",
+        "source": "Icebreaker",
+        "translation": "쇄빙선"
+      },
+      {
+        "key": "icebreaker_cover Name",
+        "source": "Icebreaker",
+        "translation": "쇄빙선"
+      },
+      {
+        "key": "icebreaker_cover Description",
+        "source": "In the Gulf of Finland, trapped within the blockade surrounding Tarkov, lies the nuclear-powered icebreaker \"Boreas\", owned by the logistics corporation Paradigm Shipping. The exact purpose of \"Boreas\" and the cargo it carries remain unknown.\n\nIt appears that Paradigm Shipping and TerraGroup made special efforts to minimize any mention of the icebreaker in the press and keep its routes and assignments classified.",
+        "translation": "타르코프를 둘러싼 봉쇄선 안쪽 핀란드만에는 물류기업 패러다임 쉬핑이 소유한 핵추진 쇄빙선 “보레아스”가 갇혀 있습니다. “보레아스”의 정확한 목적과 적재 화물은 아직 알려지지 않았습니다.\n\n패러다임 쉬핑과 테라그룹은 언론에서 쇄빙선에 대한 언급을 최소화하고 항로와 임무를 기밀로 유지하기 위해 특별한 노력을 기울인 것으로 보입니다."
+      },
+      {
+        "key": "wedge_banner Name",
+        "source": "\"The Wedge’s\" Special Squadron",
+        "translation": "“웨지” 특수 분대"
+      },
+      {
+        "key": "wedge_banner Description",
+        "source": "Reconnaissance and monitoring reports from the few PMC networks still active in Tarkov have indicated that several combat helicopters are moving toward the Gulf of Finland. Intercepted radio frequencies mention a codename: \"The Wedge\". Accompanied by a squad of operatives from some of the world’s most diverse special forces, such as the SAS and Mossad, Wedge is a senior Black Division operative in charge of a covert operation aboard the ship \"Boreas\". No one has come out alive to reveal their motives there.",
+        "translation": "타르코프에 아직 남아 있는 소수의 PMC 네트워크가 작성한 정찰·감시 보고에 따르면 여러 대의 전투 헬리콥터가 핀란드만으로 이동하고 있습니다. 감청된 무전 주파수에서는 “웨지”라는 암호명이 언급됩니다. SAS와 모사드 등 세계 각지 특수부대 출신 요원들로 구성된 분대를 거느린 웨지는 “보레아스” 선박에서 비밀 작전을 지휘하는 블랙 디비전의 고위 요원입니다. 그곳에서 무엇을 노리는지 밝히고 살아 돌아온 사람은 없습니다."
+      },
+      {
+        "key": "9a449693dff5334122ed7388 Name",
+        "source": "BBQ-S44 gas torch",
+        "translation": "BBQ-S44 가스 토치"
+      },
+      {
+        "key": "9a449693dff5334122ed7388 Description",
+        "source": "A portable gas torch with a functioning burner. Bind it to a quick slot, draw it out, and hold fire to blow the torch. This bad boy is unlikely to burn a hole in the wall, but it'll keep your hands warm on the ice.",
+        "translation": "작동하는 버너가 장착된 휴대용 가스 토치입니다. 퀵 슬롯에 지정한 뒤 꺼내서 발사 버튼을 누르고 있으면 토치를 사용할 수 있습니다. 벽에 구멍을 낼 만큼 강력하진 않지만, 얼음판 위에서는 손을 따뜻하게 해줄 겁니다."
+      },
+      {
+        "key": "29c44a1b8bed96c51db5bf78 name",
+        "source": "Boreas - Part 6",
+        "translation": "보레아스 - 파트 6",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "29c44a1b8bed96c51db5bf78 description",
+        "source": "Come on in, have a seat. Need a ride? A boat, you say, to reach a ship out in the gulf. Nah man. I barely got this BTR back on its feet, no time for boats. But I know someone. Picked up some parts from smugglers before, they've got all kinds of junk lying around. Might have something that floats too. They don't usually deal with your kind, but I can ask around. Relax man, I'll be heading that way anyway. Although you could do something to improve your chances. They've got a stash where too many outsiders have been showing up lately. You clear out those guests, I'll let the smugglers know it was you who helped. It's north of the port terminal, around where the health resort is. Go down from the resort toward customs, there's a big open field. Past that you'll see a few hangars with shipping containers. By the time you're done and back, I'll have info for you.",
+        "translation": "들어와, 앉아. 어디 갈 데라도 있어? 배를 타고 만에 있는 선박까지 가겠다고? 아냐, 친구. 이 BTR도 겨우 굴러가게 고쳤는데 보트까지 신경 쓸 여유는 없어. 그래도 아는 사람은 있지. 전에 밀수꾼들한테 부품을 좀 샀거든. 온갖 잡동사니를 쌓아 두고 사는 놈들이라 물에 뜨는 것도 있을지 몰라. 보통 너 같은 사람과는 거래하지 않지만 내가 알아봐 줄게. 진정해, 어차피 그쪽으로 갈 일이 있으니까. 다만 가능성을 높이려면 네가 좀 도와주는 게 좋겠어. 그놈들 은닉처에 요즘 외지인들이 너무 많이 들락거린다더군. 네가 불청객들을 정리하면 도와준 사람이 너라고 전해 줄게. 항구 터미널 북쪽, 요양원 근처야. 요양원에서 세관 쪽으로 내려가면 넓은 들판이 나와. 그 너머로 운송 컨테이너와 격납고 몇 개가 보일 거야. 일을 마치고 돌아올 때쯤이면 나도 알아낸 게 있겠지.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "29c44a1b8bed96c51db5bf78 startedMessageText",
+        "source": "The camp sits past the field below the resort, hangars and shipping containers. Clear the guests out.",
+        "translation": "야영지는 요양원 아래 들판 너머야. 격납고와 운송 컨테이너가 있는 곳이지. 불청객들을 정리해 줘.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "29c44a1b8bed96c51db5bf78 successMessageText",
+        "source": "They will not screw you on the insertion, do not worry. When you are ready, head to the shore, find the hovercraft, and bring cash. Getting back off that ship is your own problem.",
+        "translation": "들어갈 때 뒤통수칠 놈들은 아니니 걱정 마. 준비되면 해안으로 가서 호버크래프트를 찾아. 현금도 챙기고. 그 배에서 빠져나오는 건 네가 알아서 해야 해.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "29c44a1b8bed96c51db5bf78 failMessageText",
+        "source": "The camp is still crawling with guests. Smugglers won't talk to you like this.",
+        "translation": "야영지에 아직 불청객들이 득실거려. 이래서는 밀수꾼들이 널 상대해 주지 않을 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "42fae5461bd56964c4fb5107",
+        "source": "Eliminate any 10 targets at the smugglers' territories on Shoreline or Interchange",
+        "translation": "해안선 또는 인터체인지의 밀수꾼 구역에서 대상 구분 없이 10명 처치하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "e857e9c34949ecbf1cf5a5b2 name",
+        "source": "Stick to It",
+        "translation": "끝까지 해내기",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "e857e9c34949ecbf1cf5a5b2 description",
+        "source": "I already told you everything in the car. But if you really wanna get the smugglers to put in a more comfortable transport option to Icebreaker, you'll need to help them out with their fight against the Rogues first.\n\nLooks like things between them are pretty serious, and honestly I have no idea where it's going worst. So you can take initiative anywhere you want, just make sure there are fewer Rogue fighters left. Otherwise the smugglers won't even listen to you, they've got bigger problems right now.",
+        "translation": "차 안에서 이미 다 얘기했잖아. 그래도 밀수꾼들이 쇄빙선까지 좀 더 편하게 갈 수 있는 교통편을 마련해 주길 바란다면, 먼저 로그와의 싸움을 도와줘야 해.\n\n놈들 사이가 꽤 험악해진 모양인데, 솔직히 어느 쪽 상황이 제일 나쁜지는 나도 몰라. 그러니 어디든 네가 알아서 나서면 돼. 로그 병력만 확실히 줄여 놓으라고. 그러지 않으면 밀수꾼들은 네 얘기를 듣지도 않을 거야. 지금은 더 급한 문제가 있으니까.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "e857e9c34949ecbf1cf5a5b2 startedMessageText",
+        "source": "Thin them out wherever you find them. The smugglers will hear about it.",
+        "translation": "어디서든 보이는 대로 놈들 수를 줄여. 밀수꾼들도 소식을 듣게 될 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "e857e9c34949ecbf1cf5a5b2 successMessageText",
+        "source": "That's a dent in them, alright. I'll pass the word along, they should be a lot more talkative now.",
+        "translation": "제대로 한 방 먹였네. 내가 말 전해 둘게. 이제는 훨씬 말이 잘 통할 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "e857e9c34949ecbf1cf5a5b2 failMessageText",
+        "source": "The Rogues are still all over them. Nobody's rearranging anything for you yet.",
+        "translation": "로그 놈들이 아직도 사방에서 밀어붙이고 있어. 누구도 네 편의를 봐줄 여유가 없어.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "ad8ce3837166382c00a7b8d3",
+        "source": "Eliminate Rogues",
+        "translation": "로그 처치하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "8b2b4eea617e2be2e54df123 name",
+        "source": "Saving Private Roman",
+        "translation": "로만 일병 구하기",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "8b2b4eea617e2be2e54df123 description",
+        "source": "You did pretty well helping with the Rogues, and the smugglers actually came to me themselves. One of their commanders is being held by those bastards over at the water treatment plant, and the guys want to get their own man back.\n\nBut for that, they need a reliable route from Priozersk to the Rogue base. If you help with that, maybe we can talk about your request too. You'll need to go along the path from the nature reserve to the lighthouse and mark the start and end of the route.",
+        "translation": "로그를 상대하는 데 꽤 도움이 됐어. 밀수꾼들이 직접 날 찾아왔더군. 그쪽 지휘관 하나가 정수 처리장의 그 자식들한테 붙잡혀 있는데, 동료를 되찾으려는 모양이야.\n\n그러려면 프리오제르스크에서 로그 기지까지 안전하게 이동할 경로가 필요해. 그걸 도와주면 네 부탁도 얘기해 볼 수 있겠지. 자연보호구역에서 등대로 이어지는 길을 직접 따라가 보고, 출발점과 도착점에 표식을 남겨 줘.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "8b2b4eea617e2be2e54df123 startedMessageText",
+        "source": "Walk it yourself, start to finish. Strobes on both ends so they know it was actually checked.",
+        "translation": "처음부터 끝까지 직접 걸어 봐. 양쪽 끝에 신호기를 설치해서 실제로 확인한 길이라는 걸 알 수 있게 해 줘.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "8b2b4eea617e2be2e54df123 successMessageText",
+        "source": "Route's logged. The guys can move on their commander now, and they'll remember who cleared it for them.",
+        "translation": "경로는 기록해 뒀어. 이제 그쪽도 지휘관을 구하러 움직일 수 있겠지. 누가 길을 열어 줬는지도 기억할 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "8b2b4eea617e2be2e54df123 failMessageText",
+        "source": "Route's still a blank spot. Nobody's moving on anything.",
+        "translation": "경로는 아직 미확인 상태야. 아무도 움직일 수 없어.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "361423fdb2e13656d4cf4ebf",
+        "source": "Mark the transit to Lighthouse with an MS2000 Marker on Woods",
+        "translation": "삼림에서 등대로 가는 이동 지점에 MS2000 마커 설치하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "1fb7a8fe7ebdbab64a591289",
+        "source": "Use the transit from Woods to Lighthouse",
+        "translation": "삼림에서 등대로 이동하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "b58ae9192e24553259328672",
+        "source": "Mark the transit to Woods with an MS2000 Marker on Lighthouse",
+        "translation": "등대에서 삼림으로 가는 이동 지점에 MS2000 마커 설치하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "73ff884cac6e5000ed1e339d",
+        "source": "Hand over 2 Bottles of Fierce Hatchling moonshine to the BTR Driver",
+        "translation": "BTR 운전병에게 Fierce Hatchling 밀주 2병 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "56c25953a7752efe949351a7",
+        "source": "Obtain 2 Bottles of Fierce Hatchling moonshine",
+        "translation": "Fierce Hatchling 밀주 2병 획득하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "3e2dec7743b094de8c14e1b2",
+        "source": "Hand over 4 Rye croutons to the BTR Driver",
+        "translation": "BTR 운전병에게 호밀 크루통 4개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "7637a28ee0bb68f679b6470b",
+        "source": "Obtain 4 Rye croutons",
+        "translation": "호밀 크루통 4개 획득하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "3c6dbbe23a0cdf3e920b762a",
+        "source": "Hand over 4 Bottles of Tarkovskaya vodka to the BTR Driver",
+        "translation": "BTR 운전병에게 타르코프스카야 보드카 4병 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6d4cbbb33d7160b0ec1deb09",
+        "source": "Obtain 4 Bottles of Tarkovskaya vodka",
+        "translation": "타르코프스카야 보드카 4병 획득하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "22b6756b46267464222eb738",
+        "source": "Hand over 2 Salty Dog beef sausages to the BTR Driver",
+        "translation": "BTR 운전병에게 Salty Dog 쇠고기 소시지 2개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "b872da64ef7540fa361768b9",
+        "source": "Obtain 2 Salty Dog beef sausages",
+        "translation": "Salty Dog 쇠고기 소시지 2개 획득하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "4374d8f0565e9ad17dae4f6a",
+        "source": "Survive and extract from the location",
+        "translation": "생존하여 해당 지역에서 탈출하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "c7a1f0b93e64d5827ab1cc40 name",
+        "source": "A Bitter Victory",
+        "translation": "씁쓸한 승리",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "c7a1f0b93e64d5827ab1cc40 description",
+        "source": "Alright, well the smugglers managed to get their commander out, though not without losses. I'm heading over to talk things through and ask about you as well. But you get it, right now they need to both celebrate the win and properly remember the ones they lost. So I can't show up empty-handed. You gonna help set the table?",
+        "translation": "좋아, 밀수꾼들이 지휘관을 구해 내긴 했어. 다만 희생이 없진 않았지. 가서 얘기도 나누고 네 부탁도 물어볼 생각이야. 하지만 알잖아. 지금은 승리를 축하하면서 잃은 동료들도 제대로 추모해야 할 때야. 빈손으로 갈 수는 없지. 상 차리는 것 좀 도와줄래?",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "c7a1f0b93e64d5827ab1cc40 startedMessageText",
+        "source": "Don't forget the moonshine!",
+        "translation": "밀주 잊지 마!",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c7a1f0b93e64d5827ab1cc40 successMessageText",
+        "source": "That's a decent haul of grub you brought. With stuff like this, the conversation will go a lot easier. By the next time we meet, I should have something for you about your request.",
+        "translation": "먹을 걸 꽤 챙겨 왔네. 이 정도면 얘기가 훨씬 수월하겠어. 다음에 만날 때쯤이면 네 부탁에 대한 소식을 전해 줄 수 있을 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c7a1f0b93e64d5827ab1cc40 failMessageText",
+        "source": "I'm showing up empty-handed then. Thanks for nothing.",
+        "translation": "결국 빈손으로 가게 됐네. 참 고맙다, 고마워.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "3f8d2c5a9b17e04d6ca8f312 name",
+        "source": "Hangover",
+        "translation": "숙취",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "3f8d2c5a9b17e04d6ca8f312 description",
+        "source": "I went over to the guys, we had a real good talk... When you're ready, just come see me and I'll tell you everything, uh... In person!",
+        "translation": "그 친구들한테 가서 아주 좋은 얘기를 나눴어... 준비되면 찾아와. 다 얘기해 줄 테니까, 어... 직접 만나서!",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "3f8d2c5a9b17e04d6ca8f312 startedMessageText",
+        "source": "Come find me when you want to hear it.",
+        "translation": "듣고 싶으면 날 찾아와.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "3f8d2c5a9b17e04d6ca8f312 successMessageText",
+        "source": "The smugglers are ready to help you, and you did right by them, so they're cutting you a deal. Half price on the crossing, 250 grand instead of the usual 500. Just have the cash on you when you head out, alright?",
+        "translation": "밀수꾼들이 도와주겠대. 네가 잘해 줬으니 특별히 할인도 해 준다더군. 건너가는 비용이 평소 50만 루블의 절반인 25만 루블이야. 출발할 때 현금만 잘 챙겨, 알겠지?",
+        "match_mode": "exact"
+      },
+      {
+        "key": "3f8d2c5a9b17e04d6ca8f312 failMessageText",
+        "source": "Suit yourself. The offer was on the table.",
+        "translation": "마음대로 해. 기회는 줬으니까.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "128961a63db4e8affecce7d5",
+        "source": "Return to the BTR Driver and ask about the negotiations with the smugglers",
+        "translation": "BTR 운전병에게 돌아가 밀수꾼과의 협상 결과 물어보기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "ed486e8f000f4096d11e66de",
+        "source": "Hand over something for the BTR Driver's hangover",
+        "translation": "BTR 운전병에게 숙취 해소에 도움이 되는 물건 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "ff56532d9100ce03006493e9 name",
+        "source": "Boreas",
+        "translation": "보레아스",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "ff56532d9100ce03006493e9 description",
+        "source": "So you found that poster about the TerraGroup and Paradigm Shipping merger. I know the deal. A few years back, TerraGroup acquired a controlling stake in Paradigm Shipping. In practice, the company became just another TerraGroup subsidiary. A fleet under their control, ready to move whatever cargo they want. That doesn't give them any special rights when it comes to transporting hazardous materials, but you and I both know how TerraGroup treats official restrictions. And they didn't buy carriers that big just to cut transport costs. I've been meaning to look into this for a while. I specifically searched for information, but even serious journalists haven't produced a single investigation on the subject. Although now it feels like we might have a chance to figure it out ourselves. The day before yesterday I intercepted a distress signal coming from the water, clearly not military. It looks like a large vessel got stuck inside the blockade perimeter and hasn't shown any signs of life this whole time. And now they've suddenly established contact with someone in Tarkov. What were they talking about? I don't know. My setup wasn't meant for intercepting maritime comms, and the signal is weak. You could help with that, however. Nothing complicated. There's a communications tower in the northwestern part of the nature reserve that can give us a cleaner signal. That's what needs to be repaired. Northern part of the Priozersk nature reserve. Look for a red-and-white cellular tower, not far from the Scav bunker. Take a toolset with you.",
+        "translation": "테라그룹과 패러다임 쉬핑의 합병 포스터를 찾았군. 그 거래는 나도 알고 있어. 몇 년 전 테라그룹이 패러다임 쉬핑의 경영권을 확보할 만큼 지분을 사들였지. 사실상 또 하나의 테라그룹 자회사가 된 거야. 원하는 화물은 무엇이든 옮길 수 있는 선단을 손에 넣은 셈이지. 그렇다고 위험물 운송에 특별한 권리가 생기는 건 아니지만, 테라그룹이 공식 규제를 어떻게 취급하는지는 자네도 나도 잘 알잖아. 단순히 운송비를 줄이려고 그렇게 큰 운송 회사를 산 것도 아닐 테고. 예전부터 조사해 보고 싶었어. 따로 정보를 찾아봤지만, 제대로 된 언론인들조차 이 문제를 파헤친 기사를 하나도 내놓지 않았더군. 그래도 이제는 우리가 직접 알아낼 기회가 생긴 것 같아. 그저께 바다 쪽에서 온 조난 신호를 감청했어. 군용 신호는 분명 아니었지. 큰 선박 한 척이 봉쇄선 안에 갇혀서 지금까지 아무런 움직임도 보이지 않았던 모양이야. 그런데 갑자기 타르코프의 누군가와 연락을 주고받기 시작했어. 무슨 얘기를 했냐고? 몰라. 내 장비는 해상 통신 감청용이 아니고 신호도 약했거든. 하지만 자네가 도와줄 수는 있어. 어려운 일은 아니야. 자연보호구역 북서쪽의 통신탑을 이용하면 더 선명한 신호를 받을 수 있어. 그걸 수리해 줬으면 해. 프리오제르스크 자연보호구역 북쪽이야. 스캐브 벙커에서 멀지 않은 빨간색과 흰색의 이동통신탑을 찾아봐. 공구 세트도 챙기고.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "ff56532d9100ce03006493e9 startedMessageText",
+        "source": "The tower relay is dead. A toolset and steady hands, that's all it takes to get us listening.",
+        "translation": "통신탑 중계기가 고장 났어. 공구 세트와 침착한 손놀림만 있으면 다시 들을 수 있을 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "ff56532d9100ce03006493e9 successMessageText",
+        "source": "You did everything correctly. I already managed to intercept another transmission. Nothing great, if I'm honest. The crew was talking to Knight, the Rogues commander. Most likely they want to take whatever is useful from the ship. Or they know something we don't. Either way, we need to move fast. Let's do it this way: I'll dig for information online, you work on the ground.",
+        "translation": "제대로 해 줬군. 벌써 다른 교신을 감청했어. 솔직히 좋은 소식은 아니야. 선원들이 로그 지휘관 나이트와 얘기하고 있었어. 아마 배에서 쓸 만한 건 전부 가져가려는 거겠지. 아니면 우리가 모르는 걸 알고 있거나. 어느 쪽이든 서둘러야 해. 이렇게 하자. 난 온라인에서 정보를 파고들 테니 자네는 현장을 조사해 줘.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "ff56532d9100ce03006493e9 failMessageText",
+        "source": "The relay is still dead. Without it we're deaf.",
+        "translation": "중계기가 아직 고장 난 상태야. 저게 없으면 아무것도 들을 수 없어.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "80627eaca06d7a50d838c784",
+        "source": "Locate and repair the equipment under the cellular tower on Woods using a Toolset",
+        "translation": "삼림의 이동통신탑 아래 장비를 찾아 공구 세트로 수리하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "07c1ecde2c4652876fc769b1 name",
+        "source": "Boreas - Part 2",
+        "translation": "보레아스 - 파트 2",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "07c1ecde2c4652876fc769b1 description",
+        "source": "While I dig for information online, you work the ground. But you won't be able to get into the port terminal. Thinking about the unloading zones, or that terminal with their logo on the customs territory? Unlikely anything is still there. Try the railway station near the lighthouse instead. Most of their cargo passed through there, beyond the water treatment plant. There's no point searching the containers themselves, but the nearby hangar might still have documents. Shipping manifests, freight directives, anything with the icebreaker's name on it. Bring me what you find.",
+        "translation": "내가 온라인에서 정보를 찾는 동안 자네는 현장을 조사해 줘. 하지만 항구 터미널에는 들어갈 수 없을 거야. 하역장이나 세관 구역에 그 회사 로고가 붙은 터미널을 생각하고 있나? 거기에 뭔가 남아 있을 가능성은 낮아. 대신 등대 근처 기차역을 찾아봐. 정수 처리장 너머에 있는 곳이지. 그 회사 화물 대부분이 거길 거쳐 갔어. 컨테이너를 뒤질 필요는 없지만 근처 격납고에는 서류가 남아 있을지 몰라. 선적 목록이든 운송 지시서든, 쇄빙선 이름이 적힌 건 뭐든 찾아서 가져와 줘.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "07c1ecde2c4652876fc769b1 startedMessageText",
+        "source": "The railway station, beyond the water treatment plant. The hangar is what you want. Leave the containers alone.",
+        "translation": "정수 처리장 너머 기차역이야. 찾아볼 곳은 격납고고. 컨테이너는 건드릴 필요 없어.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "07c1ecde2c4652876fc769b1 successMessageText",
+        "source": "Let me guess. \"Boreas\"? Yeah, I found something too. The thing is, \"Boreas\" never reached the port. It was blocked outside Tarkov when the TerraGroup scandal started, and the ship and crew have stayed trapped in the blockade this whole time. It could've stayed there much longer. It's an icebreaker, and not an ordinary one. I reviewed its procurement history and known routes. \"Boreas\" spent most of its time either on autonomous Arctic expeditions or traveling between northern ports. Icebreakers are usually used to open routes along the Northern Sea Route, and TerraGroup has offices in all those ports. But there's zero information about those expeditions or their purpose. Nothing at all.",
+        "translation": "맞혀 볼까. '보레아스'겠지? 그래, 나도 좀 알아냈어. 문제는 보레아스가 항구에 도착한 적이 없다는 거야. 테라그룹 스캔들이 터졌을 때 타르코프 외곽에서 길이 막혔고, 배와 선원들은 지금까지 줄곧 봉쇄선에 갇혀 있었어. 훨씬 더 오래 버틸 수도 있었겠지. 쇄빙선이거든. 그것도 평범한 배가 아니야. 조달 이력과 알려진 항로를 살펴봤는데, 보레아스는 대부분의 시간을 북극 독립 탐사에 쓰거나 북부 항구 사이를 오가는 데 썼어. 쇄빙선은 보통 북극해 항로를 개척하는 데 쓰이고, 테라그룹은 그 항구마다 사무소를 두고 있지. 그런데 탐사나 그 목적에 대한 정보는 전혀 없어. 정말 아무것도.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "07c1ecde2c4652876fc769b1 failMessageText",
+        "source": "Without those documents we're guessing.",
+        "translation": "그 서류가 없으면 추측만 할 수밖에 없어.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "7af670b7b771dad781eafb0a",
+        "source": "Locate and obtain the Paradigm Shipping documentation",
+        "translation": "패러다임 쉬핑 서류를 찾아 획득하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "5babe420cdde71285254a662",
+        "source": "Hand over the Paradigm Shipping directive to Mechanic",
+        "translation": "메카닉에게 패러다임 쉬핑 지시서 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "9d5e3f7d6320a7fd139a2772 name",
+        "source": "Boreas - Part 3",
+        "translation": "보레아스 - 파트 3",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "9d5e3f7d6320a7fd139a2772 description",
+        "source": "Now we know what the ship is, so the only question left is how you get aboard and, more importantly, how you get back off. I can find the exact position of \"Boreas\", but I can't move you across the water and I can't pull you off a deck in the middle of the gulf. That part is on you. Think about who still has access to working vehicles around here.",
+        "translation": "이제 어떤 배인지는 알았으니, 남은 문제는 어떻게 올라타느냐야. 더 중요한 건 어떻게 빠져나오느냐고. 보레아스의 정확한 위치는 찾을 수 있지만, 자네를 바다 건너로 데려다줄 수도 없고 만 한가운데 있는 갑판에서 꺼내 줄 수도 없어. 그건 자네가 해결해야 해. 이 근처에서 아직 쓸 만한 운송 수단을 가진 사람이 누군지 생각해 봐.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "9d5e3f7d6320a7fd139a2772 startedMessageText",
+        "source": "Two problems to solve. Getting out there, and getting back. Do not go anywhere near that ship until you have both.",
+        "translation": "해결할 문제는 두 가지야. 가는 방법과 돌아오는 방법. 둘 다 마련하기 전에는 그 배 근처에도 가지 마.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "9d5e3f7d6320a7fd139a2772 successMessageText",
+        "source": "Excellent. I've identified the icebreaker's coordinates, but I haven't intercepted any more transmissions. Most likely the Rogues are already on their way to \"Boreas\". And remember, this icebreaker could be an important TerraGroup asset. That means it's likely well defended. Good luck.",
+        "translation": "좋아. 쇄빙선 좌표는 알아냈지만 추가 교신은 잡히지 않았어. 로그들이 벌써 보레아스로 향하고 있을 가능성이 높아. 그리고 기억해. 이 쇄빙선은 테라그룹의 중요한 자산일 수 있어. 그만큼 경비도 삼엄하겠지. 행운을 빌어.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "9d5e3f7d6320a7fd139a2772 failMessageText",
+        "source": "Without transport arranged, that ship may as well be on the moon.",
+        "translation": "교통편이 없으면 저 배는 달에 있는 거나 마찬가지야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "82c33ef9da1054dac7e059bd",
+        "source": "Arrange transport to reach the icebreaker with the BTR driver",
+        "translation": "BTR 운전병과 쇄빙선으로 갈 교통편 마련하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6caf3eb17fdc63f4ffc3554f",
+        "source": "Arrange extraction from the icebreaker with Prapor",
+        "translation": "프라퍼와 쇄빙선에서 빠져나올 탈출편 마련하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "ddddc8217a1f742fdae9bddd",
+        "source": "Reach loyalty level 3 with Mechanic",
+        "translation": "메카닉 우호도 레벨 3 달성하기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "a1c4f0e2b7d3946815ef2c60",
+        "source": "Hand over the Paradigm Shipping poster to Mechanic",
+        "translation": "메카닉에게 패러다임 쉬핑 포스터 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6aa83f652bec3212bf930004",
+        "source": "Hand over the found item",
+        "translation": "발견한 물건 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "87a7b372472f4eefa4a5240a name",
+        "source": "Boreas - Part 4",
+        "translation": "보레아스 - 파트 4",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "87a7b372472f4eefa4a5240a description",
+        "source": "Unusual transport, you say? Hm... Lucky you. Very lucky. I do need something, pronto, so we have a deal. Bring me a few military power filters, and I'll sort out transport for you. What kind of transport you're looking for? I don't give a damn. My helicopter can get you anywhere, as long as it's not out of Tarkov. Yes, I have a helicopter. I've got a lotta things. But until you bring me those filters, I'm not even thinking about your request.",
+        "translation": "특별한 운송 수단이 필요하다고? 흠... 운이 좋군. 아주 좋아. 마침 당장 필요한 물건이 있으니 거래를 하지. 군용 전원 필터 몇 개만 가져오게. 그러면 교통편을 마련해 주겠네. 어떤 교통편을 찾느냐고? 그건 상관없어. 내 헬리콥터면 타르코프 밖만 아니면 어디든 데려다줄 수 있지. 그래, 헬리콥터도 있다네. 가진 게 좀 많거든. 하지만 필터를 가져오기 전에는 자네 부탁을 생각할 마음도 없어.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "87a7b372472f4eefa4a5240a startedMessageText",
+        "source": "Three military power filters, fresh from the field. No filters, no rotors.",
+        "translation": "현장에서 구한 군용 전원 필터 세 개일세. 필터가 없으면 프로펠러도 안 돌아가.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "87a7b372472f4eefa4a5240a successMessageText",
+        "source": "Hand them over to my guys on the way out. So now you want to talk about the helicopter? Alright, we can talk. First, it needs maintenance. And no, I'm not letting you anywhere near a machine like that. What, you want me to send you a beer to your hideout so you don't get bored? No chance, rookie!",
+        "translation": "나가는 길에 내 부하들한테 넘겨주게. 이제 헬리콥터 얘기를 하고 싶다고? 좋아, 얘기하지. 우선 정비가 필요하네. 그렇다고 자네를 그런 기체 근처에 얼씬거리게 할 생각은 없어. 뭐, 심심하지 말라고 은신처로 맥주라도 보내 주길 바라나? 꿈 깨게, 신참!",
+        "match_mode": "exact"
+      },
+      {
+        "key": "87a7b372472f4eefa4a5240a failMessageText",
+        "source": "No filters, no helicopter. Simple arithmetic.",
+        "translation": "필터가 없으면 헬리콥터도 없네. 계산은 간단하지.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "1734b85b9623f60d7d4e5896",
+        "source": "Hand over 3 Military power filters to Prapor",
+        "translation": "프라퍼에게 군용 전원 필터 3개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6ae67821fba98a599d75d6b6 name",
+        "source": "Boreas - Part 5",
+        "translation": "보레아스 - 파트 5",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6ae67821fba98a599d75d6b6 description",
+        "source": "The bird needs maintenance before it flies anywhere, and that means proper fluids. Check the Reserve base. You'll need aviation oil, called AMG-10. It's stored in canisters or special containers. The army kept aviation supplies around their vehicle depots and warehouses, so start there. Bring the canister back in one piece and we're another step closer to your ride.",
+        "translation": "어디로든 날아가려면 먼저 기체를 정비해야 하네. 그러려면 제대로 된 유압유가 필요하지. 리저브 기지를 찾아보게. AMG-10이라는 항공용 유압유일세. 통이나 전용 용기에 보관돼 있을 거야. 군에서는 차량 기지와 창고 주변에 항공 보급품을 쌓아 두곤 했으니 그쪽부터 찾아보게. 통을 멀쩡하게 가져오면 자네 교통편 마련도 한 걸음 더 가까워지는 거지.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6ae67821fba98a599d75d6b6 startedMessageText",
+        "source": "AMG-10, Reserve base. Canisters or special containers. Don't come back with engine oil, rookie.",
+        "translation": "AMG-10, 리저브 기지일세. 통이나 전용 용기를 찾아보게. 엔진 오일을 가져오면 안 되네, 신참.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6ae67821fba98a599d75d6b6 successMessageText",
+        "source": "Ah, it's you. Leave it by the entrance. I'll have the boys prep the bird. When do we fly? Here's the situation... I talked to the pilots. I'll be straight with you: they're not flying to some unknown ship. You'll get the chopper, but only for extraction from the ship. To get in, you'll have to figure something else out. Too risky. There's no telling who's dug in on that ship. I could lose the bird, crew included. And I don't have spare pilots. So, you taking the heli or not? Then listen up. The chopper can only pick you up from a proper landing zone. Hope your ship's got one. Clear it, pop a signal flare, and the bird will come in. One more thing. Don't forget to bring cash. Every flight costs money.",
+        "translation": "아, 자네군. 입구에 두고 가게. 부하들에게 기체를 준비시키겠네. 언제 출발하냐고? 상황이 이렇네... 조종사들과 얘기해 봤어. 솔직히 말하지. 정체도 모르는 배까지 날아가지는 않겠다는군. 헬리콥터는 내주겠지만, 배에서 빠져나올 때만 쓸 수 있어. 들어가는 방법은 따로 구해야 하네. 너무 위험해. 그 배에 누가 자리 잡고 있는지 알 수 없잖나. 승무원까지 기체와 함께 잃을 수도 있어. 내게 남는 조종사가 있는 것도 아니고. 그래서 헬기를 쓸 건가, 말 건가? 그럼 잘 듣게. 헬리콥터는 제대로 된 착륙 지점에서만 자네를 태울 수 있어. 그 배에도 그런 곳이 있길 바라야겠군. 주변을 정리하고 신호탄을 쏘면 헬기가 들어갈 걸세. 하나 더. 현금 챙기는 걸 잊지 말게. 비행에는 매번 돈이 드니까.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6ae67821fba98a599d75d6b6 failMessageText",
+        "source": "No oil, no maintenance. No maintenance, no helicopter.",
+        "translation": "유압유가 없으면 정비도 없고, 정비가 없으면 헬리콥터도 없네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c145e5b75c3e56f82cbbb25b",
+        "source": "Locate the AMG-10 hydraulic fluid on Reserve",
+        "translation": "리저브에서 AMG-10 유압유 찾아 획득하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "c47a9ae5d9dea9381f719443",
+        "source": "Hand over the AMG-10 fluid to Prapor",
+        "translation": "프라퍼에게 AMG-10 유압유 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a7dfef811aec9601b11cc1c ShortName",
+        "source": "BD",
+        "translation": "블랙 디비전",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "requires_toolkit",
+        "source": "Requires toolkit",
+        "translation": "공구 세트가 필요합니다.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

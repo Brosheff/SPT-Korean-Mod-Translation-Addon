@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.wikilinks",
+  "mod_name": "WikiLinks",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "open_wiki_label",
+        "source": "OPEN WIKI",
+        "translation": "위키 열기",
+        "match_mode": "exact",
+        "note": "표시 문자열 전용. 내부 동적 상호작용 키 OPEN WIKI는 변경하지 않고, Localized(OPEN) + WIKI로 조립된 최종 라벨에만 적용."
+      }
+    ]
+  }
+}

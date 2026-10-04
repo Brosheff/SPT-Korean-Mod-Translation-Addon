@@ -1,0 +1,3744 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_7613d87e19e8",
+  "mod_name": "WTT- Artem",
+  "channels": {
+    "locale": [
+      {
+        "key": "66326bfd46817c660d015122 Name",
+        "source": "Abandoned Medical Box (1944)",
+        "translation": "폐기된 의학 상자 (1944)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "66326bfd46817c660d015122 ShortName",
+        "source": "MedBox",
+        "translation": "의학 상자"
+      },
+      {
+        "key": "66326bfd46817c660d015123 Name",
+        "source": "Modernized Item Case",
+        "translation": "현대화된 아이템 상자"
+      },
+      {
+        "key": "66326bfd46817c660d015123 ShortName",
+        "source": "Item Case",
+        "translation": "아이템 상자"
+      },
+      {
+        "key": "66326bfd46817c660d015125 Name",
+        "source": "DLP Tactical Extreme Helmet",
+        "translation": "DLP 택티컬 익스트림 헬멧"
+      },
+      {
+        "key": "66326bfd46817c660d015125 ShortName",
+        "source": "DLP Tactical Helmet",
+        "translation": "택티컬 익스트림"
+      },
+      {
+        "key": "66326bfd46817c660d015125 Description",
+        "source": "Protect your skull from knocks and bangs with the ImpaX Extreme bump helmet from DLP Tactical. Cut in the familiar MICH / ACH Advanced Combat Helmet pattern, zero transition time is needed between the ImpaX Extreme bump helmet and the heavier ballistic equivalents. Perfect for high speed/ low drag operators who do not need bullet resistant protection or as a training/ simulation aid for when the heavier ballistic helmets are not desired.",
+        "translation": "DLP 택티컬(DLP Tactical)의 임팩스 익스트림(ImpaX Extreme) 범프 헬멧은 충격과 타격으로부터 두개골을 보호하도록 설계되었습니다. MICH / ACH 전투 헬멧 형상을 기반으로 제작되어, 방탄 헬멧으로 전환 시 별도의 적응 기간이 필요하지 않습니다. 방탄 성능이 필요하지 않은 고기동 작전 요원이나 훈련, 시뮬레이션 환경에서 이상적인 경량 헬멧입니다."
+      },
+      {
+        "key": "66326bfd46817c660d015126 Name",
+        "source": "Ops-Core FAST Carbon High Cut Helmet (Dark Blue)",
+        "translation": "옵스코어 FAST 카본 하이컷 헬멧 (진한 파란색)"
+      },
+      {
+        "key": "66326bfd46817c660d015126 ShortName",
+        "source": "Ops-Core High Cut Helmet",
+        "translation": "옵스코어 하이컷"
+      },
+      {
+        "key": "66326bfd46817c660d015126 Description",
+        "source": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping.",
+        "translation": "고절단형(High Cut) 경량 비방탄 쉘은 일방향 및 직조 복합 카본 섬유의 하이브리드 구조로 제작되었습니다. 극한 환경이 아닌 임무용으로 설계되었으며, 내구성 높은 카본 구조는 둔상 충격으로부터 보호하여 혹독한 훈련, 정찰, 수상 작전 및 패스트로핑에 적합합니다."
+      },
+      {
+        "key": "66326bfd46817c660d015127 Name",
+        "source": "Legacy Safety Special Ops Ballistic Helmet FAST",
+        "translation": "레거시 세이프티 스페셜 옵스 방탄 헬멧 FAST"
+      },
+      {
+        "key": "66326bfd46817c660d015127 ShortName",
+        "source": "SOF Ballistic Helmet",
+        "translation": "SOF 방탄"
+      },
+      {
+        "key": "66326bfd46817c660d015127 Description",
+        "source": "Legacy Safety Special OPS ballistic helmet with FAST shipping is a high performance, multi-layer, light weight combat helmet. Tested and proven to achieve a ranking of Level IIIA by the USA National Institute of Justice (NIJ STD 0106.01 ) by defeating .357 sig full metal jacket flat nose rounds (FMJ FN) and .44 Magnum semi jacketed hollow point (SJHP) rounds at velocities traveling up to 1450 ft/s.",
+        "translation": "레거시 세이프티(Legacy Safety)의 스페셜 옵스 방탄 헬멧은 고성능 다층 경량 전투용 헬멧으로, 미국 국립사법연구소(NIJ STD 0106.01) 기준 레벨 IIIA 등급을 획득하였습니다. .357 SIG FMJ FN 및 .44 매그넘 SJHP 탄환을 최대 속도 1450ft/s에서 저지할 수 있습니다."
+      },
+      {
+        "key": "66326bfd46817c660d015128 Name",
+        "source": "Ops-Core FAST Carbon High Cut Helmet",
+        "translation": "옵스코어 FAST 카본 하이컷 헬멧"
+      },
+      {
+        "key": "66326bfd46817c660d015128 ShortName",
+        "source": "Ops-Core High Cut Helmet",
+        "translation": "FAST 하이컷"
+      },
+      {
+        "key": "66326bfd46817c660d015128 Description",
+        "source": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping.",
+        "translation": "고절단형(High Cut) 경량 비방탄 쉘은 일방향 및 직조 복합 카본 섬유의 하이브리드 구조로 제작되었습니다. 극한 환경이 아닌 임무용으로 설계되었으며, 내구성 높은 카본 구조는 둔상 충격으로부터 보호하여 혹독한 훈련, 정찰, 수상 작전 및 패스트로핑에 적합합니다."
+      },
+      {
+        "key": "66326bfd46817c660d015129 Name",
+        "source": "DLP Tactical Extreme Helmet",
+        "translation": "DLP 택티컬 익스트림 헬멧"
+      },
+      {
+        "key": "66326bfd46817c660d015129 ShortName",
+        "source": "DLP Tactical Extreme Helmet",
+        "translation": "택티컬 익스트림"
+      },
+      {
+        "key": "66326bfd46817c660d015129 Description",
+        "source": "Protect your skull from knocks and bangs with the ImpaX Extreme bump helmet from DLP Tactical. Cut in the familiar MICH / ACH Advanced Combat Helmet pattern, zero transition time is needed between the ImpaX Extreme bump helmet and the heavier ballistic equivalents. Perfect for high speed/ low drag operators who do not need bullet resistant protection or as a training/ simulation aid for when the heavier ballistic helmets are not desired.",
+        "translation": "DLP 택티컬(DLP Tactical)의 임팩스 익스트림(ImpaX Extreme) 범프 헬멧은 충격과 타격으로부터 두개골을 보호하도록 설계되었습니다. MICH / ACH 전투 헬멧 형상을 기반으로 제작되어, 방탄 헬멧으로 전환 시 별도의 적응 기간이 필요하지 않습니다. 방탄 성능이 필요하지 않은 고기동 작전 요원이나 훈련, 시뮬레이션 환경에서 이상적인 경량 헬멧입니다."
+      },
+      {
+        "key": "66326bfd46817c660d01512a Name",
+        "source": "Ops-Core FAST Carbon High Cut Helmet (Tan)",
+        "translation": "옵스코어 FAST 카본 하이컷 헬멧 (사막색)"
+      },
+      {
+        "key": "66326bfd46817c660d01512a ShortName",
+        "source": "Ops-Core High Cut Helmet",
+        "translation": "옵스코어 하이컷"
+      },
+      {
+        "key": "66326bfd46817c660d01512a Description",
+        "source": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping.",
+        "translation": "고절단형(High Cut) 경량 비방탄 쉘은 일방향 및 직조 복합 카본 섬유의 하이브리드 구조로 제작되었습니다. 극한 환경이 아닌 임무용으로 설계되었으며, 내구성 높은 카본 구조는 둔상 충격으로부터 보호하여 혹독한 훈련, 정찰, 수상 작전 및 패스트로핑에 적합합니다."
+      },
+      {
+        "key": "66326bfd46817c660d01512b Name",
+        "source": "Ops-Core FAST Carbon Low Cut Helmet (Roze)",
+        "translation": "옵스코어 FAST 카본 로우컷 헬멧 (로제)"
+      },
+      {
+        "key": "66326bfd46817c660d01512b ShortName",
+        "source": "Ops-Core Low Cut Helmet",
+        "translation": "옵스코어 로우컷"
+      },
+      {
+        "key": "66326bfd46817c660d01512b Description",
+        "source": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping.",
+        "translation": "저절단형(Low Cut) 경량 비방탄 쉘은 일방향 및 직조 복합 카본 섬유의 하이브리드 구조로 제작되었습니다. 극한 환경이 아닌 임무용으로 설계되었으며, 내구성 높은 카본 구조는 둔상 충격으로부터 보호하여 혹독한 훈련, 정찰, 수상 작전 및 패스트로핑에 적합합니다."
+      },
+      {
+        "key": "66326bfd46817c660d01512c Name",
+        "source": "Tactical Bump Helmet (Grey)",
+        "translation": "체이스 택티컬 범프 헬멧 그레이"
+      },
+      {
+        "key": "66326bfd46817c660d01512c ShortName",
+        "source": "Tactical Bump Helmet (Grey)",
+        "translation": "택티컬 범프"
+      },
+      {
+        "key": "66326bfd46817c660d01512c Description",
+        "source": "The super lightweight Tactical Bump Helmet from Chase Tactical is a great platform for any helmet accessory you need on the job, from Night Vision accessories to flashlights, our Tactical Bump Helmet provides great versatility and protection even in the toughest conditions.",
+        "translation": "체이스 택티컬(Chase Tactical)의 초경량 범프 헬멧은 야시장비, 조명기구 등 다양한 액세서리 장착을 위한 뛰어난 플랫폼을 제공합니다. 험난한 작전 환경에서도 탁월한 보호력과 다목적성을 발휘합니다."
+      },
+      {
+        "key": "66326bfd46817c660d01512d Name",
+        "source": "Tactical Bump Helmet (Black)",
+        "translation": "체이스 택티컬 범프 헬멧 (블랙)\n(Tactical Bump Helmet (검은색))"
+      },
+      {
+        "key": "66326bfd46817c660d01512d ShortName",
+        "source": "Tactical Bump Helmet",
+        "translation": "택티컬 범프"
+      },
+      {
+        "key": "66326bfd46817c660d01512d Description",
+        "source": "The super lightweight Tactical Bump Helmet from Chase Tactical is a great platform for any helmet accessory you need on the job, from Night Vision accessories to flashlights, our Tactical Bump Helmet provides great versatility and protection even in the toughest conditions.",
+        "translation": "체이스 택티컬(Chase Tactical)의 초경량 범프 헬멧은 야시장비, 조명기구 등 다양한 액세서리 장착을 위한 뛰어난 플랫폼을 제공합니다. 험난한 작전 환경에서도 탁월한 보호력과 다목적성을 발휘합니다."
+      },
+      {
+        "key": "66326bfd46817c660d01512e Name",
+        "source": "GPNVG-18 Night Vision goggles (White)",
+        "translation": "GPNVG-18 야간 투시경 (화이트)"
+      },
+      {
+        "key": "66326bfd46817c660d01512e ShortName",
+        "source": "GPNVG18 (White)",
+        "translation": "GPNVG18 (화이트)"
+      },
+      {
+        "key": "66326bfd46817c660d015130 Name",
+        "source": "S10 - Gas Mask",
+        "translation": "S10 방독면"
+      },
+      {
+        "key": "66326bfd46817c660d015130 ShortName",
+        "source": "S-10 Gasmask",
+        "translation": "S-10 가스마스크"
+      },
+      {
+        "key": "66326bfd46817c660d015130 Description",
+        "source": "Used for Biological warfare, but also when you fart under the blanket.",
+        "translation": "생물학전에서 사용되며, 담요 속에서 방귀를 뀌었을 때도 사용할 수 있습니다."
+      },
+      {
+        "key": "66326bfd46817c660d015131 Name",
+        "source": "CA HAFM-KII Ballistic Face Mask",
+        "translation": "CA HAFM-KII 방탄 안면 마스크"
+      },
+      {
+        "key": "66326bfd46817c660d015131 ShortName",
+        "source": "HAFM-KII Ballistic Mask",
+        "translation": "CA HAFM 방탄"
+      },
+      {
+        "key": "66326bfd46817c660d015131 Description",
+        "source": "The NIJ Level IIIA+ Face Mask has been designed to maximize comfort while proviing front facial protection.",
+        "translation": "NIJ IIIA+ 등급의 방탄 안면 마스크로, 착용자의 편안함을 유지하면서 전면 안면 보호 기능을 제공합니다."
+      },
+      {
+        "key": "66326bfd46817c660d015132 Name",
+        "source": "CQCM Full Face Bulletproof Mask (Worn)",
+        "translation": "CQCM 전면 방탄 마스크 (마모)"
+      },
+      {
+        "key": "66326bfd46817c660d015132 ShortName",
+        "source": "CQCM Ballistic Mask",
+        "translation": "CQCM 방탄"
+      },
+      {
+        "key": "66326bfd46817c660d015132 Description",
+        "source": "The NIJ Level IIIA+ Ballsitic Face Mask has been designed to maximize comfort while proviing front facial protection.",
+        "translation": "NIJ IIIA+ 등급의 방탄 안면 마스크로, 착용자의 편안함을 유지하면서 전면 안면 보호 기능을 제공합니다."
+      },
+      {
+        "key": "66326bfd46817c660d015135 Name",
+        "source": "KOMBAT Viking Molle Plate Carrier",
+        "translation": "콤뱃 바이킹 몰리 플레이트 캐리어"
+      },
+      {
+        "key": "66326bfd46817c660d015135 ShortName",
+        "source": "KOMBAT Viking Molle Plate Carrier",
+        "translation": "콤뱃 바이킹"
+      },
+      {
+        "key": "66326bfd46817c660d015135 Description",
+        "source": "The Kombat Viking Molle Battle Platform offers maximum load carrying capacity with a large number of features",
+        "translation": "콤뱃(Kombat) 바이킹 몰리 전투용 플랫폼은 다양한 기능과 함께 최대의 장비 적재 능력을 제공합니다."
+      },
+      {
+        "key": "66326bfd46817c660d015137 Name",
+        "source": "Shellback Tactical Banshee Plate Carrier",
+        "translation": "셸백 택티컬 밴시 플레이트 캐리어"
+      },
+      {
+        "key": "66326bfd46817c660d015137 ShortName",
+        "source": "SB.T Plate Carrier",
+        "translation": "SB.T 밴시"
+      },
+      {
+        "key": "66326bfd46817c660d015137 Description",
+        "source": "The Banshee Rifle Plate Carrier® was designed to meet and exceed the needs of law enforcement, military, and tactical operators. This ultra lightweight, low profile, high quality plate carrier has great load carrying capacity. ",
+        "translation": "밴시(Banshee) 플레이트 캐리어는 법집행기관, 군, 전술 요원의 요구를 충족하도록 설계되었습니다. 초경량 저프로파일 구조로, 높은 내구성과 장비 수납성을 제공합니다."
+      },
+      {
+        "key": "66326bfd46817c660d015138 Name",
+        "source": "Sentry Plate Carrier",
+        "translation": "콘도르 센트리 플레이트 캐리어"
+      },
+      {
+        "key": "66326bfd46817c660d015138 ShortName",
+        "source": "Condor Plate Carrier",
+        "translation": "콘도르 센트리"
+      },
+      {
+        "key": "66326bfd46817c660d015138 Description",
+        "source": "Stay safe and comfortable when in the line of duty by wearing the Condor Sentry Plate Carrier. Designed to have a supportive performance fit, this vest includes adjustable shoulder straps with removable shoulder pads along with a breathable 3D mesh liner. It also includes quick cinch adjustments for the front and hook and loop adjustments on the shoulders which make it much more comfortable to wear for long periods of time. The plate carrier is capable of holding standard armor plates and comes with an emergency drag handle as well as convenient quick release buckles. This Condor Outdoor plate carrier vest is perfect for a wide variety of rapid response situations.",
+        "translation": "콘도르(Condor) 센트리 플레이트 캐리어는 장시간 착용 시에도 편안함을 유지하도록 설계되었습니다. 조절 가능한 어깨끈, 탈착식 어깨 패드, 통기성 3D 메시 라이너를 갖추고 있으며, 신속한 착탈이 가능한 버클과 드래그 핸들을 포함합니다."
+      },
+      {
+        "key": "66326bfd46817c660d015139 Name",
+        "source": "CONDOR MOPC PLATE CARRIER",
+        "translation": "콘도르 MOPC 플레이트 캐리어"
+      },
+      {
+        "key": "66326bfd46817c660d015139 ShortName",
+        "source": "MOPC PLATE CARRIER",
+        "translation": "콘도르 MOPC"
+      },
+      {
+        "key": "66326bfd46817c660d015139 Description",
+        "source": "The Condor MOPC Fits Spartan Armor Systems™ 10″x12″ AR500 / AR550 / Armaply AR650 Shooter’s Cut armor plates, SAS IIIA Soft Armor, and our Level IV composites.",
+        "translation": "콘도르(Condor) MOPC는 스파르탄 아머 시스템즈(Spartan Armor Systems)의 AR500 / AR550 / AR650 및 SAS IIIA 소프트 아머, 레벨 IV 복합 방탄판과 호환됩니다."
+      },
+      {
+        "key": "66326bfd46817c660d01513b Name",
+        "source": "MSV-GEN II",
+        "translation": "MSV-GEN II"
+      },
+      {
+        "key": "66326bfd46817c660d01513b Description",
+        "source": "The Army MSV-GEN II includes both full Up Tactical and Concealable Vest components. It can be worn over the soldier’s uniform and is made up of the Concealable Components inserted into the Tactical Carrier. The Concealable Components contain the soft ballistic panels for the MSV-GEN II and can be removed from the Tactical Carrier and worn separately as a complete Concealable Vest. Therefore, this vest can be transformed to Tactical or Concealable depending on mission requirements.",
+        "translation": "MSV-GEN II는 전술용(Tactical) 및 은닉형(Concealable) 방탄복 구성 요소를 모두 포함합니다. 병사의 전투복 위에 착용할 수 있으며, 은닉형 구성품은 소프트 방탄 패널로 이루어져 있습니다. 임무에 따라 전술용 또는 은닉형으로 변환이 가능합니다."
+      },
+      {
+        "key": "66326bfd46817c660d01513e Name",
+        "source": "Skull Mask(Black)",
+        "translation": "스컬 마스크 (블랙)\n(Skull Mask(검은색))"
+      },
+      {
+        "key": "66326bfd46817c660d01513e ShortName",
+        "source": "Skull Mask(B)",
+        "translation": "스컬"
+      },
+      {
+        "key": "66326bfd46817c660d01513e Description",
+        "source": "TF-141",
+        "translation": "TF-141 부대에서 사용되는 전술 해골 가면입니다."
+      },
+      {
+        "key": "66326bfd46817c660d01513f Name",
+        "source": "Skull Mask",
+        "translation": "스컬 마스크"
+      },
+      {
+        "key": "66326bfd46817c660d01513f ShortName",
+        "source": "Skull Mask",
+        "translation": "스컬"
+      },
+      {
+        "key": "66326bfd46817c660d01513f Description",
+        "source": "TF-141",
+        "translation": "TF-141 부대에서 사용되는 전술 해골 가면입니다."
+      },
+      {
+        "key": "66326bfd46817c660d015140 Name",
+        "source": "Skull Mask(Red)",
+        "translation": "스컬 마스크 (빨간색)"
+      },
+      {
+        "key": "66326bfd46817c660d015140 ShortName",
+        "source": "Skull Mask(R)",
+        "translation": "스컬"
+      },
+      {
+        "key": "66326bfd46817c660d015140 Description",
+        "source": "TF-141",
+        "translation": "TF-141 부대에서 사용되는 전술 해골 가면입니다."
+      },
+      {
+        "key": "66326bfd46817c660d015141 Name",
+        "source": "Nikto Mask",
+        "translation": "닉토 마스크"
+      },
+      {
+        "key": "66326bfd46817c660d015141 ShortName",
+        "source": "Nikto Mask",
+        "translation": "닉토"
+      },
+      {
+        "key": "66326bfd46817c660d015141 Description",
+        "source": "Black Shadow Company",
+        "translation": "블랙 섀도우 컴퍼니(Black Shadow Company)에서 사용하는 전술용 마스크입니다."
+      },
+      {
+        "key": "66326bfd46817c660d015145 Name",
+        "source": "OPENLAND HEXAGON Plate Carrier",
+        "translation": "오픈랜드 헥사곤 플레이트 캐리어"
+      },
+      {
+        "key": "66326bfd46817c660d015145 ShortName",
+        "source": "HEXAGON Plate Carrier",
+        "translation": "헥사곤 플레이트"
+      },
+      {
+        "key": "66326bfd46817c660d015145 Description",
+        "source": "It’s not every day you see a new potential combat/tactical gear load-bearing attachment system replacement for ALICE and PALS/MOLLE (Pouch Attachment Ladder System/Modular Lightweight Load-carrying Equipment) webbing come along, particularly one that’s perhaps got an honest shot at it. That’s why DefenseReview (DR) found the new 5.11 Tactical OPENLAND Plate Carrier and the HEXGRID load-bearing attachment system itself so intriguing when we came across it at NDIA SOFIC (Special Operations Forces Industry Conference) 2017.",
+        "translation": "오픈랜드(Openland) 헥사곤 플레이트 캐리어는 기존 ALICE 및 PALS/MOLLE 시스템을 대체할 잠재력을 지닌 새로운 장비 결합 구조인 헥스그리드(HEXGRID) 시스템을 채택한 전술용 캐리어입니다."
+      },
+      {
+        "key": "66326bfd46817c660d015146 Name",
+        "source": "GPNVG-18 Night Vision goggles (Black)",
+        "translation": "GPNVG-18 야간 투시경 (블랙)\n(GPNVG-18 Night Vision goggles (검은색))"
+      },
+      {
+        "key": "66326bfd46817c660d015146 ShortName",
+        "source": "GPNVG18 (Black)",
+        "translation": "GPNVG18 (블랙)"
+      },
+      {
+        "key": "66326bfd46817c660d015148 Name",
+        "source": "GPNVG-18 Night Vision goggles (OD)",
+        "translation": "GPNVG-18 야간 투시경 (올리브 드랩)\n(GPNVG-18 Night Vision goggles (올리브 드랩))"
+      },
+      {
+        "key": "66326bfd46817c660d015148 ShortName",
+        "source": "GPNVG18 (OD)",
+        "translation": "GPNVG18 (올리브 드랩)"
+      },
+      {
+        "key": "66326bfd46817c660d015149 Name",
+        "source": "JPC 2.0 MARITIME",
+        "translation": "JPC 2.0 마리타임 플레이트 캐리어"
+      },
+      {
+        "key": "66326bfd46817c660d015149 Description",
+        "source": "The JPC (JUMPABLE PLATE CARRIER) 2.0™ MARITIME is a lightweight and minimal armor vest designed for maximum mobility, weight savings, and packability. At just over one pound for the entire carrier, the JPC 2.0™ MARITIME offers a variety of configuration options to suit an operator’s needs in terms of protection, modularity, and comfort.",
+        "translation": "JPC(Jumpable Plate Carrier) 2.0 마리타임 버전은 최대 기동성과 경량화를 위해 설계된 방탄복입니다. 무게는 1파운드 남짓이며, 작전 환경에 맞게 보호력과 모듈성을 조정할 수 있습니다."
+      },
+      {
+        "key": "66326bfd46817c660d01514e Name",
+        "source": "S10 - Gas Mask",
+        "translation": "S10 방독면"
+      },
+      {
+        "key": "66326bfd46817c660d01514e ShortName",
+        "source": "S-10 Gasmask",
+        "translation": "S-10 가스마스크"
+      },
+      {
+        "key": "66326bfd46817c660d01514e Description",
+        "source": "Used for Biological warfare, but also when you fart under the blanket.",
+        "translation": "생물학전에서 사용되며, 담요 속에서 방귀를 뀌었을 때도 사용할 수 있습니다."
+      },
+      {
+        "key": "66326bfd46817c660d01514f Name",
+        "source": "C50 Gas Mask",
+        "translation": "C50 방독면"
+      },
+      {
+        "key": "66326bfd46817c660d01514f ShortName",
+        "source": "C50 Gasmask",
+        "translation": "C50 가스마스크"
+      },
+      {
+        "key": "66326bfd46817c660d01514f Description",
+        "source": "Used for Biological warfare, but also when you fart under the blanket.",
+        "translation": "생물학전에서 사용되며, 담요 속에서 방귀를 뀌었을 때도 사용할 수 있습니다."
+      },
+      {
+        "key": "66326bfd46817c660d015150 Name",
+        "source": "Snacky-Z",
+        "translation": "스넥키-Z"
+      },
+      {
+        "key": "66326bfd46817c660d015150 ShortName",
+        "source": "Snacky-Z",
+        "translation": "스넥키-Z"
+      },
+      {
+        "key": "66326bfd46817c660d015151 Name",
+        "source": "5.11 TACTEC Plate Carrier",
+        "translation": "5.11 택텍 플레이트 캐리어"
+      },
+      {
+        "key": "66326bfd46817c660d015151 ShortName",
+        "source": "5.11 TACTEC",
+        "translation": "5.11 택텍"
+      },
+      {
+        "key": "66326bfd46817c660d015151 Description",
+        "source": "Made from an ultra-durable, water-resistant 500D nylon, the 5.11 TacTec™ Plate Carrier Vest is uniquely designed to give the wearer an increased range of motion with a lightweight feel and optimal breathability. Unlike some comparable weighted vests or flak jackets in the industry, the 5.11 Tactical Weight Vest can hold medium and large ballistic plates—front and back—without the restrictive bulkiness.",
+        "translation": "5.11 택텍(5.11 TacTec™) 플레이트 캐리어는 초경량 방수 500D 나일론 소재로 제작되어, 착용자의 움직임 범위를 넓히고 통기성을 극대화하도록 설계되었습니다. 중형 및 대형 방탄판을 전후면에 수납할 수 있으며, 다른 전술 조끼보다 부피감이 적습니다."
+      },
+      {
+        "key": "66326bfd46817c660d015152 Name",
+        "source": "TACTEC Plate Carrier",
+        "translation": "택텍 플레이트 캐리어"
+      },
+      {
+        "key": "66326bfd46817c660d015152 ShortName",
+        "source": "TACTEC Plate Carrier",
+        "translation": "택텍 플레이트"
+      },
+      {
+        "key": "66326bfd46817c660d015152 Description",
+        "source": "Introducing the TacTec Plate Carrier from 5.11 Tactical®, a high-performance, lightweight, and mobile plate carrier designed to provide you with exceptional comfort and maximum range of motion.",
+        "translation": "5.11 택티컬(5.11 Tactical®)에서 제작한 택텍(TacTec) 플레이트 캐리어는 경량성과 기동성을 극대화한 고성능 방탄복입니다."
+      },
+      {
+        "key": "66326bfd46817c660d015154 Name",
+        "source": "USB Groovey Duck",
+        "translation": "그루비의 플래시 드라이브"
+      },
+      {
+        "key": "66326bfd46817c660d015154 ShortName",
+        "source": "GDuck",
+        "translation": "G-디스크"
+      },
+      {
+        "key": "66326bfd46817c660d015154 Description",
+        "source": "An improved version of a USB Rubber Duck. It's pretty Groovey!",
+        "translation": "그루비가 사용하던 개인 데이터 저장 장치로, 내부에는 암호화된 파일이 남아 있습니다."
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d71 Name",
+        "source": "6Sh118 raid backpack (Black)",
+        "translation": "6Sh118 레이드 백팩 (블랙)\n(6Sh118 raid backpack (검은색))"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d71 ShortName",
+        "source": "6Sh118 (B)",
+        "translation": "6Sh118 B"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d71 Description",
+        "source": "The 6Sh118 raid backpack is part of the 2nd generation 'Ratnik' gear kit for combat. The 6Sh118 tactical army backpack is a modernization of the 6B38 Permyachka model raid backpack. The raid 6Sh118 backpack is designed to carry fire support equipment, weapons, ammunition, elements of mountain equipment, as well as the personal belongings of individual soldiers. The backpack can be used during combat operations, long hikes, and raid events.",
+        "translation": "6Sh118 레이드 백팩은 2세대 \"라트니크\" 전투용 장비 키트의 일부입니다. 6Sh118 전술 군용 백팩은 6B38 페르미아치카 모델 레이드 백팩의 현대화 버전입니다. 6Sh118 레이드 백팩은 화력 지원 장비, 무기, 탄약, 산악 장비 요소와 개별 병사의 개인 소지품을 운반하도록 설계되었습니다. 이 백팩은 전투 작전, 장거리 행군, 레이드 이벤트 중에 사용할 수 있습니다."
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d73 Name",
+        "source": "Frogman Scrim Net (Black)",
+        "translation": "프로그맨 스크림 넷 (블랙)\n(Frogman Scrim Net (검은색))"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d73 ShortName",
+        "source": "Frogman Net",
+        "translation": "프로그맨"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d73 Description",
+        "source": "Frogman camo veil is premium quality army scrim net scarf, a really useful large size, unlike other scrim scarves that are barely long enough to fit round your neck.Scarf measures 120cm x 150 cm with a stitched hem on two sides, manufactured from 100% cotton. Excellent as a sniper veil, helmet netting, head wrap or simply as a scarf. Ideal for all outdoor activities. Scrim scarves are designed to retain heat in cold conditions and helps keep you cool in hot conditions.",
+        "translation": "프로그맨(Frogman) 위장 넷은 프리미엄 등급의 군용 스크림 스카프로, 일반적인 스크림보다 훨씬 넉넉한 크기를 자랑합니다. 크기는 120x150cm이며, 양쪽 끝은 박음질 마감되어 있습니다. 100% 면 소재로 제작되어 저격용 베일, 헬멧 덮개, 머리 보호용 랩, 또는 단순한 스카프로도 사용할 수 있습니다. 추운 환경에서는 보온성을 유지하고, 더운 날씨에는 열기를 식혀주는 기능성 소재입니다."
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d74 Name",
+        "source": "Frogman Scrim Net (Tan)",
+        "translation": "프로그맨 스크림 넷 (사막색)"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d74 ShortName",
+        "source": "Frogman Net",
+        "translation": "프로그맨"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d74 Description",
+        "source": "Frogman camo veil is premium quality army scrim net scarf, a really useful large size, unlike other scrim scarves that are barely long enough to fit round your neck.Scarf measures 120cm x 150 cm with a stitched hem on two sides, manufactured from 100% cotton. Excellent as a sniper veil, helmet netting, head wrap or simply as a scarf. Ideal for all outdoor activities. Scrim scarves are designed to retain heat in cold conditions and helps keep you cool in hot conditions.",
+        "translation": "프로그맨(Frogman) 위장 넷은 프리미엄 등급의 군용 스크림 스카프로, 일반적인 스크림보다 훨씬 넉넉한 크기를 자랑합니다. 크기는 120x150cm이며, 양쪽 끝은 박음질 마감되어 있습니다. 100% 면 소재로 제작되어 저격용 베일, 헬멧 덮개, 머리 보호용 랩, 또는 단순한 스카프로도 사용할 수 있습니다. 추운 환경에서는 보온성을 유지하고, 더운 날씨에는 열기를 식혀주는 기능성 소재입니다."
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d75 Name",
+        "source": "Frogman Scrim Net (OD)",
+        "translation": "프로그맨 스크림 넷 (올리브 드랩)\n(Frogman Scrim Net (올리브 드랩))"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d75 ShortName",
+        "source": "Frogman Net",
+        "translation": "프로그맨"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d75 Description",
+        "source": "Frogman camo veil is premium quality army scrim net scarf, a really useful large size, unlike other scrim scarves that are barely long enough to fit round your neck.Scarf measures 120cm x 150 cm with a stitched hem on two sides, manufactured from 100% cotton. Excellent as a sniper veil, helmet netting, head wrap or simply as a scarf. Ideal for all outdoor activities. Scrim scarves are designed to retain heat in cold conditions and helps keep you cool in hot conditions.",
+        "translation": "프로그맨(Frogman) 위장 넷은 프리미엄 등급의 군용 스크림 스카프로, 일반적인 스크림보다 훨씬 넉넉한 크기를 자랑합니다. 크기는 120x150cm이며, 양쪽 끝은 박음질 마감되어 있습니다. 100% 면 소재로 제작되어 저격용 베일, 헬멧 덮개, 머리 보호용 랩, 또는 단순한 스카프로도 사용할 수 있습니다. 추운 환경에서는 보온성을 유지하고, 더운 날씨에는 열기를 식혀주는 기능성 소재입니다."
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d76 Name",
+        "source": "Denis' Collar",
+        "translation": "데니스의 목걸이"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d76 ShortName",
+        "source": "Denis' Collar",
+        "translation": "데니스"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d76 Description",
+        "source": "The Collar used on Denis meanwhile was held in captivity.",
+        "translation": "포로로 잡혀 있던 데니스가 착용했던 쇠사슬 목걸이로, 녹과 흠집이 가득한 형태를 유지하고 있습니다."
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7a Name",
+        "source": "Crye Precision CPC plate carrier (Multicam)",
+        "translation": "크라이 프리시전 CPC 플레이트 캐리어 (멀티캠)"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7a ShortName",
+        "source": "CPC (MC)",
+        "translation": "CPC (멀티캠)"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7a Description",
+        "source": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made by the leader of the Goons squad - Knight - for conducting assault operations with increased mobility.",
+        "translation": "CAGE 플레이트 캐리어(CPC)는 로우 프로필 플레이트 캐리어 구성에서 타의 추종을 불허하는 편안함과 적재 지원을 제공합니다. 시스템은 다양한 파우치를 지원합니다. 이 경우, 구성은 군즈 분대의 리더인 나이트가 향상된 기동성으로 돌격 작전을 수행하기 위해 만들었습니다."
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7b Name",
+        "source": "Crye Precision CPC plate carrier (Alpine)",
+        "translation": "크라이 프리시전 CPC 플레이트 캐리어 (알파인)"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7b Description",
+        "source": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made by the leader of the Goons squad - Knight - for conducting assault operations with increased mobility.",
+        "translation": "CAGE 플레이트 캐리어(CPC)는 로우 프로필 플레이트 캐리어 구성에서 타의 추종을 불허하는 편안함과 적재 지원을 제공합니다. 시스템은 다양한 파우치를 지원합니다. 이 경우, 구성은 군즈 분대의 리더인 나이트가 향상된 기동성으로 돌격 작전을 수행하기 위해 만들었습니다."
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7c Name",
+        "source": "Crye Precision CPC plate carrier (Multicam-Black)",
+        "translation": "크라이 프리시전 CPC 플레이트 캐리어 (멀티캠 블랙)"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7c Description",
+        "source": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made by the leader of the Goons squad - Knight - for conducting assault operations with increased mobility.",
+        "translation": "CAGE 플레이트 캐리어(CPC)는 로우 프로필 플레이트 캐리어 구성에서 타의 추종을 불허하는 편안함과 적재 지원을 제공합니다. 시스템은 다양한 파우치를 지원합니다. 이 경우, 구성은 군즈 분대의 리더인 나이트가 향상된 기동성으로 돌격 작전을 수행하기 위해 만들었습니다."
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7e Name",
+        "source": "Tactical Bump Helmet (Alpine)",
+        "translation": "체이스 택티컬 범프 헬멧 (알파인)"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7e ShortName",
+        "source": "Tactical Bump Helmet",
+        "translation": "택티컬 범프"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7e Description",
+        "source": "The super lightweight Tactical Bump Helmet from Chase Tactical is a great platform for any helmet accessory you need on the job, from Night Vision accessories to flashlights, our Tactical Bump Helmet provides great versatility and protection even in the toughest conditions.",
+        "translation": "체이스 택티컬(Chase Tactical)의 초경량 범프 헬멧은 야시장비, 조명기구 등 다양한 액세서리 장착을 위한 뛰어난 플랫폼을 제공합니다. 험난한 작전 환경에서도 탁월한 보호력과 다목적성을 발휘합니다."
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7f Name",
+        "source": "Zryachiy's balaclava (White)",
+        "translation": "지랴치 발라클라바 (화이트)"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7f ShortName",
+        "source": "Zryachiy (White)",
+        "translation": "지랴치"
+      },
+      {
+        "key": "6673b1ac5cae0610f1079d7f Description",
+        "source": "An intimidating face mask with a skull print, worn by Zryachiy.",
+        "translation": "해골 문양이 인쇄된 위협적인 마스크로, 즈랴치(Zryachiy)가 착용합니다."
+      },
+      {
+        "key": "668bc5cd834c88e06b08b693 Name",
+        "source": "Half-Mask (ODY)",
+        "translation": "하프 마스크 (ODY)"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b693 ShortName",
+        "source": "Mask(ody)",
+        "translation": "하프"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b693 Description",
+        "source": "A half-mask",
+        "translation": "얼굴의 절반을 덮는 간단한 마스크입니다."
+      },
+      {
+        "key": "668bc5cd834c88e06b08b694 Name",
+        "source": "Half-Mask",
+        "translation": "하프 마스크"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b694 ShortName",
+        "source": "Mask",
+        "translation": "하프"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b694 Description",
+        "source": "A half-mask",
+        "translation": "얼굴의 절반을 덮는 간단한 마스크입니다."
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6a4 Name",
+        "source": "Zryachiy's balaclava (Green)",
+        "translation": "지랴치 발라클라바 (올리브 드랩)"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6a4 ShortName",
+        "source": "Zryachiy (Green)",
+        "translation": "지랴치"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6a4 Description",
+        "source": "An intimidating face mask with a skull print, worn by Zryachiy.",
+        "translation": "해골 문양이 인쇄된 위협적인 마스크로, 즈랴치(Zryachiy)가 착용합니다."
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6a8 Name",
+        "source": "Cold Fear Balaclava(Cultistgay)",
+        "translation": "콜드 피어 바라클라바 (컬티스트)"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6a8 ShortName",
+        "source": "CF (Cultists)",
+        "translation": "CF (컬티스트)"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6a8 Description",
+        "source": "A quality balaclava with a special technological material, which ensures maximum warmth in the most severe frosts. But we do not need it for warmth. We need it to look tactical.",
+        "translation": "특수 기술 섬유로 제작된 고급 바라클라바로, 혹한의 환경에서도 최대한의 보온성을 제공합니다. 하지만 우리는 따뜻함보다는 전술적인 외형을 위해 착용합니다."
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6a9 Name",
+        "source": "DevTac Ronin ballistic helmet (Alpine)",
+        "translation": "데브택 로닌 방탄 헬멧 (알파인)"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6a9 ShortName",
+        "source": "Ronin(Alpine)",
+        "translation": "Ronin (화이트)"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6a9 Description",
+        "source": "A Japan-styled tactical helmet, manufactured by DevTac. Not used by any military or special forces. Just somehow happened to be in Tarkov for some frivolous price. Features a full protection of the whole head, but the armor class is not good enough to actually be useful in combat.",
+        "translation": "데브택(DevTac)에서 제작한 일본식 전술 헬멧입니다. 어떠한 군이나 특수부대에서도 공식적으로 사용되지는 않으며, 단지 타르코프 내에서 높은 가격으로 거래되는 희귀 아이템입니다. 머리를 완전히 보호하지만, 실제 전투에 활용하기에는 방호 등급이 충분하지 않습니다."
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6aa Name",
+        "source": "DevTac Ronin ballistic helmet (Black)",
+        "translation": "데브택 로닌 방탄 헬멧 (블랙)\n(DevTac Ronin ballistic helmet (검은색))"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6aa ShortName",
+        "source": "Ronin(Black)",
+        "translation": "Ronin (블랙)"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b6aa Description",
+        "source": "A Japan-styled tactical helmet, manufactured by DevTac. Not used by any military or special forces. Just somehow happened to be in Tarkov for some frivolous price. Features a full protection of the whole head, but the armor class is not good enough to actually be useful in combat.",
+        "translation": "데브택(DevTac)에서 제작한 일본식 전술 헬멧입니다. 어떠한 군이나 특수부대에서도 공식적으로 사용되지는 않으며, 단지 타르코프 내에서 높은 가격으로 거래되는 희귀 아이템입니다. 머리를 완전히 보호하지만, 실제 전투에 활용하기에는 방호 등급이 충분하지 않습니다."
+      },
+      {
+        "key": "668bc5cd834c88e06b08b928 Name",
+        "source": "6Sh118 raid backpack (Alpine)",
+        "translation": "6Sh118 레이드 백팩 (알파인)"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b928 ShortName",
+        "source": "6Sh118 (ALP)",
+        "translation": "6Sh118 알파인"
+      },
+      {
+        "key": "668bc5cd834c88e06b08b928 Description",
+        "source": "The 6Sh118 raid backpack is part of the 2nd generation 'Ratnik' gear kit for combat. The 6Sh118 tactical army backpack is a modernization of the 6B38 Permyachka model raid backpack. The raid 6Sh118 backpack is designed to carry fire support equipment, weapons, ammunition, elements of mountain equipment, as well as the personal belongings of individual soldiers. The backpack can be used during combat operations, long hikes, and raid events.",
+        "translation": "6Sh118 레이드 백팩은 2세대 \"라트니크\" 전투용 장비 키트의 일부입니다. 6Sh118 전술 군용 백팩은 6B38 페르미아치카 모델 레이드 백팩의 현대화 버전입니다. 6Sh118 레이드 백팩은 화력 지원 장비, 무기, 탄약, 산악 장비 요소와 개별 병사의 개인 소지품을 운반하도록 설계되었습니다. 이 백팩은 전투 작전, 장거리 행군, 레이드 이벤트 중에 사용할 수 있습니다."
+      },
+      {
+        "key": "669819683571cb050b0b6391 Name",
+        "source": "Wolf Cowl",
+        "translation": "울프 카울"
+      },
+      {
+        "key": "669819683571cb050b0b6391 ShortName",
+        "source": "Wolf Cowl",
+        "translation": "울프 카울"
+      },
+      {
+        "key": "669819683571cb050b0b6392 Name",
+        "source": "Wolf Cowl (Brown)",
+        "translation": "울프 카울 (브라운)"
+      },
+      {
+        "key": "669819683571cb050b0b6392 ShortName",
+        "source": "Wolf Cowl",
+        "translation": "울프 카울"
+      },
+      {
+        "key": "669819683571cb050b0b6393 Name",
+        "source": "ACH High Cut Tactical Helmet (Alpine)",
+        "translation": "ACH 하이컷 전술 헬멧 (알파인)"
+      },
+      {
+        "key": "669819683571cb050b0b6393 ShortName",
+        "source": "MBH-ACH-HC",
+        "translation": "ACH 하이컷"
+      },
+      {
+        "key": "669819683571cb050b0b6393 Description",
+        "source": "This ACH High-Cut helmet is manufactured in Europe with a high-performance Dupont Kevlar fiber assembly, making it a popular choice among police units and militaries around the world.",
+        "translation": "ACH 하이컷 전술 헬멧은 유럽에서 제작된 제품으로, 듀폰(DuPont)사의 고성능 케블라 섬유를 사용하여 제작되었습니다. 전 세계의 경찰 및 군 부대에서 널리 사용되는 헬멧입니다."
+      },
+      {
+        "key": "669819683571cb050b0b6394 Name",
+        "source": "ACH High Cut Tactical Helmet (Black)",
+        "translation": "ACH 하이컷 전술 헬멧 (블랙)\n(ACH High Cut Tactical Helmet (검은색))"
+      },
+      {
+        "key": "669819683571cb050b0b6394 ShortName",
+        "source": "MBH-ACH-HC",
+        "translation": "ACH 하이컷"
+      },
+      {
+        "key": "669819683571cb050b0b6394 Description",
+        "source": "This ACH High-Cut helmet is manufactured in Europe with a high-performance Dupont Kevlar fiber assembly, making it a popular choice among police units and militaries around the world.",
+        "translation": "ACH 하이컷 전술 헬멧은 유럽에서 제작된 제품으로, 듀폰(DuPont)사의 고성능 케블라 섬유를 사용하여 제작되었습니다. 전 세계의 경찰 및 군 부대에서 널리 사용되는 헬멧입니다."
+      },
+      {
+        "key": "66b94b886af54725ea0a4b93 Name",
+        "source": "FORT Defender-2 body armor(OD)",
+        "translation": "FORT 디펜더-2 방탄복 (올리브 드랩)\n(FORT Defender-2 body armor(올리브 드랩))"
+      },
+      {
+        "key": "66b94b886af54725ea0a4b93 ShortName",
+        "source": "Defender-2(OD)",
+        "translation": "디펜더-2"
+      },
+      {
+        "key": "66b94b886af54725ea0a4b93 Description",
+        "source": "The FORT OK \"Defender-2\" operational kit is a modification of the popular body armor FORT \"Defender\" designed for both VIP and for employees of operational combat units. The kit uses the maximum capabilities of the modular principle of building armor based on steel plates.",
+        "translation": "FORT OK사의 디펜더-2(Defender-2) 작전용 키트는 VIP 보호와 전투 요원 운용 모두를 위해 설계된 모듈형 방탄복입니다. 강철 방탄판 기반 구조로 높은 방호력을 제공합니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace36 Name",
+        "source": "AirLite SPC (Multicam)",
+        "translation": "에어라이트 SPC 플레이트 캐리어 (멀티캠)"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace36 Description",
+        "source": "The AIRLITE SPC (STRUCTURAL PLATE CARRIER) offers all the lightweight mobility of our JPC™ while providing the structural load support of our AVS™ & CPC™. At just over one pound for the entire system (including front flap and cummerbund- each sold separetely), the AIRLITE SPC is an ideal choice for all environments including maritime. It pairs with our patented AIRLITE STRUCTURAL CUMMERBUND that allows pouches to be mounted on both the inside and outside of the cummerbund and is compatible with our EXTENDABLE StKSS™ to reduce the load on the shoulders and back.  The AIRLITE SPC sheds unnecessary weight and bulk while improving overall ventilation.",
+        "translation": "에어라이트 SPC(AirLite Structural Plate Carrier)는 JPC™의 경량성과 AVS™ 및 CPC™의 하중 지지 구조를 결합한 플레이트 캐리어입니다. 약 1파운드 무게로 제작되었으며, 통기성과 모듈성, 해상 작전 적합성을 동시에 갖추고 있습니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace38 Name",
+        "source": "LV-119 (Multicam)",
+        "translation": "LV-119 플레이트 캐리어 (멀티캠)"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace38 Description",
+        "source": "The LV/119 SYSTEM is a group of products that work together to give end-users the ability to scale their equipment to their current needs. The fact that this is a cohesive system means that users can mix and match accessories in most cases. For example: One could take a C O V E R T Front or Rear Plate bag and use it with an O V E R T Front and Rear Plate Bag. Users may also also cross pollinate cummerbunds, shoulder covers, and other parts that will be available. The SYSTEM encompasses many parts, some of which are currently available and some that are in development, such as Back Panels of various types, MOLLE cummerbunds, First Spear TUBES™ integrations, and different placards.",
+        "translation": "LV/119 시스템은 사용자 맞춤형으로 장비 구성을 조정할 수 있는 모듈형 방탄복 제품군입니다. 다양한 플레이트 백, 커머번드, 숄더 커버, 그리고 몰리(MOLLE) 액세서리와의 호환성을 제공합니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace3a Name",
+        "source": "Black Hat",
+        "translation": "검은 모자"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace3a ShortName",
+        "source": "Black Hat",
+        "translation": "검은 모자"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace3a Description",
+        "source": "A lost hat, could be worn by one of Artem's old crewmates..",
+        "translation": "잃어버린 모자입니다. 아르템의 옛 동료 중 한 사람이 착용했을지도 모릅니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace3d Name",
+        "source": "Tron Patch",
+        "translation": "트론 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace3d ShortName",
+        "source": "Tron Patch",
+        "translation": "트론"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace3d Description",
+        "source": "WTT",
+        "translation": "WTT"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace3e Name",
+        "source": "Warrior of Sunlight Patch",
+        "translation": "태양의 전사 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace3e ShortName",
+        "source": "Warrior of Sunlight Patch",
+        "translation": "솔라"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace3e Description",
+        "source": "Long Live Solaire",
+        "translation": "솔라르 만세."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace3f Name",
+        "source": "'Oi Matey' Patch",
+        "translation": "'오이 메이티' 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace3f ShortName",
+        "source": "'Oi Matey'",
+        "translation": "'오이'"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace40 Name",
+        "source": "Bluey Portrait Patch",
+        "translation": "블루이 초상 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace40 ShortName",
+        "source": "Bluey",
+        "translation": "블루이"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace41 Name",
+        "source": "USEC Patch",
+        "translation": "USEC 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace42 Name",
+        "source": "BEAR Patch",
+        "translation": "BEAR 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace43 Name",
+        "source": "Alabama Patch",
+        "translation": "앨라배마 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace43 ShortName",
+        "source": "Alabama",
+        "translation": "앨라배마"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace43 Description",
+        "source": "Rocka went to a trip far away.",
+        "translation": "로카가 먼 여행을 떠났습니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace44 Name",
+        "source": "Ops-Core SF High Cut Helmet (Multicam)",
+        "translation": "옵스코어 SF 하이컷 헬멧 (멀티캠)"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace44 ShortName",
+        "source": "Ops-Core-SF",
+        "translation": "옵스코어-SF"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace44 Description",
+        "source": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping.",
+        "translation": "하이컷(High Cut) 경량 비방탄 쉘은 일방향 및 직조 복합 카본 섬유의 하이브리드 구조로 제작되었습니다. 극한 환경이 아닌 임무용으로 설계되었으며, 내구성 높은 카본 구조는 둔상 충격으로부터 보호하여 혹독한 훈련, 정찰, 수상 작전 및 패스트로핑에 적합합니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace45 Name",
+        "source": "Core Survival HEL-STAR 6 Gen III",
+        "translation": "코어 서바이벌 HEL-STAR 6 Gen III"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace45 Description",
+        "source": "Core Survival HEL-STAR 6® Gen III is a multi function helmet mounted LED light designed for airborne/MFF, tactical and other military operations. HEL-STAR 6® Gen III combines the basic features of the earlier HEL-STAR 4® & HEL-STAR 5® multi-function marker lights into a compact, integrated design with enhanced omni-directional visibility and easy battery replacement.",
+        "translation": "코어 서바이벌(Core Survival) HEL-STAR 6® Gen III는 공수, MFF, 전술 및 기타 군사 작전을 위해 설계된 다기능 헬멧 장착형 LED 조명입니다. HEL-STAR 6® Gen III는 이전 세대의 HEL-STAR 4® 및 HEL-STAR 5®의 기본 기능을 통합한 설계로, 전방위 시인성과 간편한 배터리 교체가 특징입니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace46 Name",
+        "source": "MOHOC® IR Camera",
+        "translation": "모혹 IR 카메라"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace46 ShortName",
+        "source": "MOHOC® Camera",
+        "translation": "IR 카메라"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace46 Description",
+        "source": "Developed specifically for use with the MOHOC® and MOHOC® IR Cameras, the Multi-Mount is designed to extend the functionality of your camera beyond the helmet.",
+        "translation": "모혹(MOHOC) 및 모혹 IR 카메라 전용으로 개발된 멀티 마운트(Multi-Mount)는 헬멧 이외의 위치에서도 카메라 기능을 확장하도록 설계되었습니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace47 Name",
+        "source": "USA Patch",
+        "translation": "미국 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace47 Description",
+        "source": "USA.",
+        "translation": "미국입니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace48 Name",
+        "source": "Peltor ComTac 2 headset(Mounted)",
+        "translation": "펠터 컴택 2 헤드셋 (장착형)"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace48 ShortName",
+        "source": "ComTac 2",
+        "translation": "컴택 2"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace48 Description",
+        "source": "The ComTac IV Hybrid Communication Headset is designed to help reduce exposure to hazardous levels of noise, improve situational awareness and at the same time enable two-way radio communication in noisy environments. The headset's electronics are contained completely inside the headset housing, eliminating the need for a large, heavy external radio control box. The headband mechanically stabilizes the headset to help relieve issues of earplugs dislodging from cable snags and body movement. Designed for comfortable use with a ballistic helmet.",
+        "translation": "컴택 IV 하이브리드 통신 헤드셋은 소음 노출을 줄이고 상황 인식을 향상시키며, 동시에 소음 환경에서도 양방향 무선 통신을 가능하게 합니다. 전자 장치는 모두 하우징 내부에 통합되어 있으며, 외부 제어 박스가 필요하지 않습니다. 또한 헤드밴드 구조는 움직임이나 케이블 걸림으로 인한 이어플러그 탈락을 방지하고, 방탄 헬멧과의 착용 호환성을 고려해 설계되었습니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace49 Name",
+        "source": "Peltor ComTac 2 headset(Mounted)",
+        "translation": "펠터 컴택 2 헤드셋 (장착형)"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace49 ShortName",
+        "source": "ComTac 2",
+        "translation": "컴택 2"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace49 Description",
+        "source": "The ComTac IV Hybrid Communication Headset is designed to help reduce exposure to hazardous levels of noise, improve situational awareness and at the same time enable two-way radio communication in noisy environments. The headset's electronics are contained completely inside the headset housing, eliminating the need for a large, heavy external radio control box. The headband mechanically stabilizes the headset to help relieve issues of earplugs dislodging from cable snags and body movement. Designed for comfortable use with a ballistic helmet.",
+        "translation": "컴택 IV 하이브리드 통신 헤드셋은 소음 노출을 줄이고 상황 인식을 향상시키며, 동시에 소음 환경에서도 양방향 무선 통신을 가능하게 합니다. 전자 장치는 모두 하우징 내부에 통합되어 있으며, 외부 제어 박스가 필요하지 않습니다. 또한 헤드밴드 구조는 움직임이나 케이블 걸림으로 인한 이어플러그 탈락을 방지하고, 방탄 헬멧과의 착용 호환성을 고려해 설계되었습니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace4a Name",
+        "source": "Peltor ComTac 2 headset(Mounted)",
+        "translation": "펠터 컴택 2 헤드셋 (장착형)"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace4a ShortName",
+        "source": "ComTac 2",
+        "translation": "컴택 2"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace4a Description",
+        "source": "The ComTac IV Hybrid Communication Headset is designed to help reduce exposure to hazardous levels of noise, improve situational awareness and at the same time enable two-way radio communication in noisy environments. The headset's electronics are contained completely inside the headset housing, eliminating the need for a large, heavy external radio control box. The headband mechanically stabilizes the headset to help relieve issues of earplugs dislodging from cable snags and body movement. Designed for comfortable use with a ballistic helmet.",
+        "translation": "컴택 IV 하이브리드 통신 헤드셋은 소음 노출을 줄이고 상황 인식을 향상시키며, 동시에 소음 환경에서도 양방향 무선 통신을 가능하게 합니다. 전자 장치는 모두 하우징 내부에 통합되어 있으며, 외부 제어 박스가 필요하지 않습니다. 또한 헤드밴드 구조는 움직임이나 케이블 걸림으로 인한 이어플러그 탈락을 방지하고, 방탄 헬멧과의 착용 호환성을 고려해 설계되었습니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace4d Name",
+        "source": "Solaire Circular Patch",
+        "translation": "솔라르 원형 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace4d ShortName",
+        "source": "Solaire",
+        "translation": "솔라르"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace50 Name",
+        "source": "'no step on snek'Patch",
+        "translation": "'노 스텝 온 스넥' 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace50 ShortName",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace51 Name",
+        "source": "Meowdy Patch",
+        "translation": "미아우디 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace51 ShortName",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace52 Name",
+        "source": "Australia Patch",
+        "translation": "호주 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace52 ShortName",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace53 Name",
+        "source": "Canada Patch",
+        "translation": "캐나다 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace53 ShortName",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace54 Name",
+        "source": "Poland Patch",
+        "translation": "폴란드 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace54 ShortName",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace55 Name",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace55 ShortName",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace56 Name",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace56 ShortName",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace57 Name",
+        "source": "Brotherhood Patch",
+        "translation": "브라더후드 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace57 ShortName",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace58 Name",
+        "source": "Ops-Core SF High Cut Helmet (OD)",
+        "translation": "옵스코어 SF 하이컷 헬멧 (올리브 드랩)\n(Ops-Core SF High Cut Helmet (올리브 드랩))"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace58 ShortName",
+        "source": "Ops-Core-SF",
+        "translation": "옵스코어-SF"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace58 Description",
+        "source": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping.",
+        "translation": "하이컷(High Cut) 경량 비방탄 쉘은 일방향 및 직조 복합 카본 섬유의 하이브리드 구조로 제작되었습니다. 극한 환경이 아닌 임무용으로 설계되었으며, 내구성 높은 카본 구조는 둔상 충격으로부터 보호하여 혹독한 훈련, 정찰, 수상 작전 및 패스트로핑에 적합합니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace61 Name",
+        "source": "Ops-Core SF High Cut Helmet (Black)",
+        "translation": "옵스코어 SF 하이컷 헬멧 (블랙)\n(Ops-Core SF High Cut Helmet (검은색))"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace61 ShortName",
+        "source": "Ops-Core-SF",
+        "translation": "옵스코어-SF"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace61 Description",
+        "source": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping.",
+        "translation": "하이컷(High Cut) 경량 비방탄 쉘은 일방향 및 직조 복합 카본 섬유의 하이브리드 구조로 제작되었습니다. 극한 환경이 아닌 임무용으로 설계되었으며, 내구성 높은 카본 구조는 둔상 충격으로부터 보호하여 혹독한 훈련, 정찰, 수상 작전 및 패스트로핑에 적합합니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace63 Name",
+        "source": "Tanned Half-Mask",
+        "translation": "태닝 하프 마스크"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace63 ShortName",
+        "source": "Mask",
+        "translation": "태닝 하프"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace63 Description",
+        "source": "A half-mask",
+        "translation": "얼굴의 절반을 덮는 간단한 마스크입니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace64 Name",
+        "source": "Hidden Leaf Patch",
+        "translation": "히든 리프 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace64 ShortName",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace65 Name",
+        "source": "Berserk Patch",
+        "translation": "버서크 패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace65 ShortName",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace69 Name",
+        "source": "Carved Headcrab Trophy",
+        "translation": "조각된 헤드크랩 트로피"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace69 ShortName",
+        "source": "Headcrab",
+        "translation": "헤드크랩"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace69 Description",
+        "source": "The trophy is a lovingly carved hunk of wood shaped like a headcrab, poised to leap—perfect for terrifying squirrels or impressing friends who’ve never seen a crab that wants to eat your face.",
+        "translation": "나무로 정교하게 조각된 헤드크랩 모양의 장식품으로, 당장이라도 뛰어오를 듯한 자세를 하고 있습니다. 보기만 해도 섬뜩하지만, 친구들을 놀라게 하거나 진열장에 두기엔 제격입니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace6a Name",
+        "source": "Crackbone Figure",
+        "translation": "크랙본 피규어"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace6a ShortName",
+        "source": "Crackbone",
+        "translation": "크랙본"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace6a Description",
+        "source": "The HECU(Crackbone) figure is like a G.I. Joe who traded in his plastic smile for a permanent scowl, ready to battle aliens, and yet somehow always surprised when he actually encounters them. It's like your childhood action figure grew up, joined the military, and got stuck in a sci-fi horror film!",
+        "translation": "HECU 소속 크랙본(Crackbone) 병사를 형상화한 피규어로, 어린 시절의 G.I. 조가 성인이 되어 외계 생명체와 싸우는 듯한 인상을 줍니다. 굳은 표정과 군용 장비가 인상적인 수집용 아이템입니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace6c Name",
+        "source": "Solaire Figure",
+        "translation": "솔라 피규어"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace6c ShortName",
+        "source": "Solaire",
+        "translation": "솔라"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace6d Name",
+        "source": "Frogman Scrim Net (White)",
+        "translation": "프로그맨 스크림 넷 (화이트)"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace6d ShortName",
+        "source": "Frogman Net",
+        "translation": "프로그맨"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace6d Description",
+        "source": "Frogman camo veil is premium quality army scrim net scarf, a really useful large size, unlike other scrim scarves that are barely long enough to fit round your neck.Scarf measures 120cm x 150 cm with a stitched hem on two sides, manufactured from 100% cotton. Excellent as a sniper veil, helmet netting, head wrap or simply as a scarf. Ideal for all outdoor activities. Scrim scarves are designed to retain heat in cold conditions and helps keep you cool in hot conditions.",
+        "translation": "프로그맨(Frogman) 위장 넷은 프리미엄 등급의 군용 스크림 스카프로, 일반적인 스크림보다 훨씬 넉넉한 크기를 자랑합니다. 크기는 120x150cm이며, 양쪽 끝은 박음질 마감되어 있습니다. 100% 면 소재로 제작되어 저격용 베일, 헬멧 덮개, 머리 보호용 랩, 또는 단순한 스카프로도 사용할 수 있습니다. 추운 환경에서는 보온성을 유지하고, 더운 날씨에는 열기를 식혀주는 기능성 소재입니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0ace81 Name",
+        "source": "Death Shadow lightweight armored mask (Cultist)",
+        "translation": "데스 섀도우 경량 방탄 마스크 (컬티스트)"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace81 ShortName",
+        "source": "Death Shadow",
+        "translation": "데스 섀도우"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace81 Description",
+        "source": "A quality balaclava with a special technological material, which ensures maximum warmth in the most severe frosts. But we do not need it for warmth. We need it to look tactical.",
+        "translation": "특수 기술 섬유로 제작된 고급 바라클라바로, 혹한의 환경에서도 최대한의 보온성을 제공합니다. 하지만 우리는 따뜻함보다는 전술적인 외형을 위해 착용합니다."
+      },
+      {
+        "key": "66bf757f27d0b097db0acea5 FullName",
+        "source": "Artem",
+        "translation": "아르템"
+      },
+      {
+        "key": "66bf757f27d0b097db0acea5 FirstName",
+        "source": "Artem",
+        "translation": "아르템"
+      },
+      {
+        "key": "66bf757f27d0b097db0acea5 Nickname",
+        "source": "Artem",
+        "translation": "아르템"
+      },
+      {
+        "key": "673f0643303b750102967070",
+        "source": "Hand over 15,000 Roubles",
+        "translation": "15,000 루블 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "673f0668cb0fd5b0d77c4b59",
+        "source": "Hand over 1 found in raid Broken GPhone",
+        "translation": "레이드에서 발견한 [Broken GPhone 고장난 스마트폰] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "673f06ffd971eef67d8cc504 name",
+        "source": "Introduction",
+        "translation": "소개.",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "673f06ffd971eef67d8cc504 description",
+        "source": "You there, dog! Hand over your cash! Don't try anything smart. Drop your- Hold on a second. Let me see your face... Ahh, the prophecies were true after all. For you to be the chosen one, for you to be the one who escapes... But for that, you'll need my assistance. Find me a GPhone; make sure you don't get it from a trader. I'll reward you handsomely. Follow my guidance, and you shall reveal the secrets held underneath us this very moment - in Tarkov's underground.",
+        "translation": "거기 너! 돈 내놔! 어서. 영웅 놀이는 그만 두라고. 잠깐. 얼굴 좀 보자... 아, 소문이 사실이었군. 선택 받은 자.. 탈출하게 될 자... 하지만 내 도움이 필요할 테지. [Filter 방독면 정화통] 3개가 필요해. 중고면 안 돼. 보상은 넉넉히 해주지. 하라는 대로 한다면, 이 타르코프의 깊고 어두운 비밀을 알게 될거야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "673f06ffd971eef67d8cc504 startedMessageText",
+        "source": "Don't let me down, Operator. The wheels of fate turn fast.",
+        "translation": "날 실망시키지 마, 용병. 운명의 수레바퀴는 빠르게 돌아가니까."
+      },
+      {
+        "key": "673f06ffd971eef67d8cc504 successMessageText",
+        "source": "Well done. We shall meet again, should you stay alive until then.",
+        "translation": "좋아. 다시 볼 때까지 살아있길 바래."
+      },
+      {
+        "key": "673f06ffd971eef67d8cc504 acceptPlayerMessage",
+        "source": "Don't let me down, Operator. The wheels of fate turn fast.",
+        "translation": "날 실망시키지 마, 용병. 운명의 수레바퀴는 빠르게 돌아가니까."
+      },
+      {
+        "key": "673f06ffd971eef67d8cc504 completePlayerMessage",
+        "source": "Well done. We shall meet again, should you stay alive until then.",
+        "translation": "좋아. 다시 볼 때까지 살아있길 바래."
+      },
+      {
+        "key": "673f0a2b5b3e79f8600e5276",
+        "source": "Eliminate 3 Rogues all over the Tarkov territory",
+        "translation": "로그 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "673f0a4ce5cea974b21a2a05",
+        "source": "Hand over 4 found in raid Can of Hot Rod energy drink",
+        "translation": "[Hot Rod 핫 로드 에너지 드링크] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "673f0b6c85753ffd03ad5f34 name",
+        "source": "Bag n' Tag",
+        "translation": "첫 작업",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "673f0b6c85753ffd03ad5f34 description",
+        "source": "I'll take your return as a sign you're ready for more work. A bunch of ex-USEC operators holed themselves up in that old water treatment plant near the Lighthouse and it's keeper. He's called me about a noise complaint, and wants those so-called \"Rogues\" knocked down a peg. Three of them should make the message clear. By the way, while you're there... ex-military and energy drinks go hand-in-hand. See if you can find me some - and I do mean find, Operator. I'll know if you've bought it from a trader. I want fresh, untampered cans. Bring four. Thank you, Operator.",
+        "translation": "반갑네 용병. 내 이름? 그런 건 중요하지 않아. 문제를 해결하고 싶나? 아니면 문제 그 자체가 되고 싶은 건가? 로그 3마리를 죽여. 확실하게 사살해야 해. 그들은 우리 영역에 위협이 되는 존재들이거든. 그리고 [Hot Rod 핫 로드 에너지 드링크]를 얻어오면, 같이 일을 시작해보지. 조심해. 신뢰는 이 바닥에서 쉽게 얻을 수 있는게 아니야. 어둠이 너의 여정을 지켜주길.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "673f0b6c85753ffd03ad5f34 startedMessageText",
+        "source": "Make it quick. Every second those filthy dogs breathe, they damage the safety of Tarkov.",
+        "translation": "빨리 끝내. 저 더러운 개들이 숨 쉬는 매 순간 타르코프의 안전이 망가지고 있으니까."
+      },
+      {
+        "key": "673f0b6c85753ffd03ad5f34 successMessageText",
+        "source": "Well done, Operator! Your talents astound even me, and I'm eager to explore more opportunities together. Return soon, the black market has much to offer you.",
+        "translation": "아주 잘했어! 이 어려운 상황에서도 너의 능력은 빛이 나는군. 너의 그 재능을 더 자세히 알고 싶어. 계속 같이 일 해보자고. 암시장의 더 깊은 곳에 들어가보는 거야."
+      },
+      {
+        "key": "673f0b6c85753ffd03ad5f34 completePlayerMessage",
+        "source": "Well done, Operator! Your talents astound even me, and I'm eager to explore more opportunities together. Return soon, the black market has much to offer you.",
+        "translation": "아주 잘했어! 이 어려운 상황에서도 너의 능력은 빛이 나는군. 너의 그 재능을 더 자세히 알고 싶어. 계속 같이 일 해보자고. 암시장의 더 깊은 곳에 들어가보는 거야."
+      },
+      {
+        "key": "673f0ca2de2bbb23be861666",
+        "source": "Eliminate 5 undercover TerraGroup agents on Woods",
+        "translation": "삼림(Woods) 지역에서 위장한 테라그룹 요원 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "673f0cbf2421ebcacf3c0c31",
+        "source": "Hand over 3 found in raid CMS surgical kit",
+        "translation": "레이드에서 발견한 [CMS 휴대용 수술 키트] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "673f0ccfa0f84cd48639d353",
+        "source": "Locate the abandoned USEC camp on Woods",
+        "translation": "삼림(Woods) 지역에서 버려진 USEC 캠프 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "673f0daebb711e9700b60899 name",
+        "source": "Undercover Boss",
+        "translation": "들춰진 사업들",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "673f0daebb711e9700b60899 description",
+        "source": "Operator, you've kept earning my trust again and again. This time, the task I have for you is of monumental importance. TerraGroup agents have found their new home - with the Svetloosersky \"brothers\". Find where they stored their gear. Sources tell me there's been increased activity around a temporary USEC encampment in the nature reserve. I heard Prapor screaming about a missing convoy near there, so expect trouble. There should be a field hospital there too, so bring me some CMS surgical kits. Once you've located and acquired their resources, bring the population of these Svetloozerskiy dogs down by a few - let's say five of them.",
+        "translation": "용병, 새로운 적이다. 슈트르만의 경호원으로 위장한 테라그룹 요원들이 삼림 지역을 위협하고 있어. USEC 캠프가 그 놈들의 창고로 이용되었으니 가서 확인해봐. 그 놈들은 자연스럽게 그림자 속으로 숨어들고 본연의 목적을 숨기는데 능하니까 항상 경계하고 조심하도록 해. 이 거미줄을 풀어내고 지역의 평화와 우리의 협업을 더욱 견고히 하자고. 너의 그 본능을 믿어. 그림자가 우리의 편이길..",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "673f0daebb711e9700b60899 startedMessageText",
+        "source": "Good luck, Operator. Shadows guide you.",
+        "translation": "행운을 빌지, 용병. 그림자가 널 인도하길."
+      },
+      {
+        "key": "673f0daebb711e9700b60899 successMessageText",
+        "source": "Well done, Operator.",
+        "translation": "잘했어, 용병."
+      },
+      {
+        "key": "673f0daebb711e9700b60899 acceptPlayerMessage",
+        "source": "Good luck, Operator. Shadows guide you.",
+        "translation": "행운을 빌지, 용병. 그림자가 널 인도하길."
+      },
+      {
+        "key": "673f0daebb711e9700b60899 completePlayerMessage",
+        "source": "Operator, Your dedication and skills are truly impressive. Keep it up.",
+        "translation": "너의 열정과 능력은 정말 감탄스럽군. 그 놀라운 업적에 찬사를 보내주도록 하지. 계속 그렇게 하라고. 자, 이제 새로운 도전이야. 컬티스트 2마리가 나타나서 평화를 위협하고 있어. 빠르고 확실하게 제거되어야 해. 너의 그 능력을 계속 믿어보겠어. 이 중요한 임무를 성공하길 바래. 행운을 빌지."
+      },
+      {
+        "key": "673f0eded04fde6ca2a02259",
+        "source": "Hand over 1 found in raid Denis' collar",
+        "translation": "[Denis' Collar] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "673f0f4d219756e158de7ab3 name",
+        "source": "An Eye for an Eye",
+        "translation": "눈에는 눈",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "673f0f4d219756e158de7ab3 description",
+        "source": "Operator, allow me to introduce to you... to the 'Predator'. Thrown into a cage at a young age, they endured unthinkable cruelty - treated as a mere dog with a twisted piece of corrugated hose used as a leash. Retrieve the lost collar that once served as the shackle around the Predator's neck. Fetch it.",
+        "translation": "용병, 역경의 도가니 속에서 만들어진 형상, '약탈자'를 소개하지. 감금 생활에서 벗어나 주름진 호스로 된 목줄로 묶여 개새끼 취급 받는 잔인함을 견뎌낸 놈들이야. 물품을 건네주고 프라퍼의 신뢰를 얻어와. 옛 친구를 위한 일종의 선물이랄까. 한때 '약탈자'의 개 목걸이로 쓰였던 [Denis' Collar] 를 얻어오도록.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "673f0f4d219756e158de7ab3 startedMessageText",
+        "source": "With haste, Operator, there's no time to waste. Gain his loyalty and come back for your reward.",
+        "translation": "신속히 움직여. 낭비할 시간이 없으니. 그의 신뢰를 얻고, 보상을 받으러 돌아와."
+      },
+      {
+        "key": "673f0f4d219756e158de7ab3 successMessageText",
+        "source": "Good work, Operator. We are thoroughly impressed with your skills. Our paths will cross again. Shadows guide you until then.",
+        "translation": "잘했어 용병. 프라퍼와 나는 너의 능력과 행동에 만족했다. 곧 다시 보게 될거야. 그때까지 경계심을 유지하도록."
+      },
+      {
+        "key": "673f0f4d219756e158de7ab3 completePlayerMessage",
+        "source": "Good work, Operator. We are thoroughly impressed with your skills. Our paths will cross again. Shadows guide you until then.",
+        "translation": "잘했어 용병. 프라퍼와 나는 너의 능력과 행동에 만족했다. 곧 다시 보게 될거야. 그때까지 경계심을 유지하도록."
+      },
+      {
+        "key": "673f100d43266fe8b52d1870",
+        "source": "Reach level 2 loyalty with Prapor",
+        "translation": "프라퍼와의 우호도 2레벨 달성하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6740af41aa8bee3a7805c6e2",
+        "source": "Hand over 2 found in raid Ripstop fabric",
+        "translation": "레이드에서 발견한 [Ripstop 립스톱 원단] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6740af6f51efb9b5d04871bc",
+        "source": "Hand over 2 found in raid Fleece fabric",
+        "translation": "레이드에서 발견한 [Fleece 플리스 원단] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6740af8645d7d713fa85f3c4",
+        "source": "Hand over 2 found in raid Aramid fiber fabric",
+        "translation": "레이드에서 발견한 [Aramid 아라미드 원단] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6740af98b7502f1bee19aa40",
+        "source": "Hand over 1 found in raid Sewing kit",
+        "translation": "레이드에서 발견한 [Sewing kit 재봉 키트] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6740afa6ffeb863481fbeaba",
+        "source": "Eliminate 3 Scavs on Interchange",
+        "translation": "인터체인지(Interchange) 지역에서 스캐브 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6740b1c44382955ae7e87eb9 name",
+        "source": "Expanding Wardrobe",
+        "translation": "옷장 확장공사",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6740b1c44382955ae7e87eb9 description",
+        "source": "Feel like expanding your wardrobe, eh? Want to feel a little bit more special? Decorate your gear? No worries, I got you. Bring me some materials, and I'll make sure you have access to my... lets say \"expanded stock\". Shadows guide you.",
+        "translation": "옷장이 좀 좁다고? 더 특별해지고, 더 꾸미고 싶다라. 좋아.. 아래에 적힌 물건들을 가져와. 좋은 곳에 써주도록 하지.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6740b1c44382955ae7e87eb9 startedMessageText",
+        "source": "Don't make me wait long.",
+        "translation": "옷장이 좀 좁다고? 더 특별해지고, 더 꾸미고 싶다라. 좋아.. 아래에 적힌 물건들을 가져와. 좋은 곳에 써주도록 하지."
+      },
+      {
+        "key": "6740b1c44382955ae7e87eb9 successMessageText",
+        "source": "Well done, Operator. These will be put to good use.",
+        "translation": "잘했어, 용병. 이건 잘 써먹을 수 있겠군."
+      },
+      {
+        "key": "6740b1c44382955ae7e87eb9 completePlayerMessage",
+        "source": "Well done, Operator. These will be put to good use.",
+        "translation": "잘했어, 용병. 이건 잘 써먹을 수 있겠군."
+      },
+      {
+        "key": "6740b3671916a668a4416b64",
+        "source": "Eliminate 10 Scavs using a suppressed weapon while wearing the Skull mask on Shoreline",
+        "translation": "해안선(Shoreline)에서 [Skull mask] 를 착용하고 소음기가 장착된 무기로 스캐브 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6740b3f6bebbc247c1c2bbde",
+        "source": "Eliminate 6 Scavs Between the time period of 21:00 - 04:00 on Shoreline",
+        "translation": "21:00~04:00 시간대에 해안선(Shoreline)에서 스캐브 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6740b5875ef4d62a019c51f2 name",
+        "source": "Spooky Season",
+        "translation": "으스스한 계절",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6740b5875ef4d62a019c51f2 description",
+        "source": "Operator, I'm glad to see you again. Listen carefully - you must head to the shore. Grab a suppressed weapon, dress as the embodiment of death, and reap the souls of the savages. With haste, Operator, time is a valuable thing.",
+        "translation": "용병, 다시 보니 반갑군. 난 너의 능력과 너가 여러 상황에 어떻게 대처하는지 확인해 볼 필요가 있었어. 미래를 위해 필요하니까 말이야. 잘 들어. [Skull mask] 를 착용하고 적들에게 공포감을 심어줘야 해. 그림자 속에 숨기 위해선 소음기도 필수지. 서둘러. 시간은 금이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6740b5875ef4d62a019c51f2 startedMessageText",
+        "source": "Tick tock. Shadows guide you.",
+        "translation": "째깍째깍. 그림자가 널 인도하길."
+      },
+      {
+        "key": "6740b5875ef4d62a019c51f2 successMessageText",
+        "source": "Well done, Operator. Rest up, and get ready for the next one. Stay in touch.",
+        "translation": "용병! 아주 잘했어! 쉬고 있으면 내가 추후에 연락하도록 하지."
+      },
+      {
+        "key": "6740b5875ef4d62a019c51f2 acceptPlayerMessage",
+        "source": "With haste Operator. There's no time to waste. Hunt those animals down, leave nobody alive.",
+        "translation": "시간이 없으니 서두르라고. 개새끼들을 찾아내서 죽여. 한 놈도 살려두지 마."
+      },
+      {
+        "key": "6740b5875ef4d62a019c51f2 completePlayerMessage",
+        "source": "Well done, Operator. Rest up, and get ready for the next one. Stay in touch.",
+        "translation": "용병! 아주 잘했어! 쉬고 있으면 내가 추후에 연락하도록 하지."
+      },
+      {
+        "key": "6740b6423db677e567569c2a",
+        "source": "Visit the train wagon used by the 'Predator' to sneak into Customs",
+        "translation": "'약탈자'가 세관(Customs)으로 숨어들기 위해 이용한 열차 방문하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6740b64a4ecf20026c9bc562",
+        "source": "Place 3 Water Bottles in the train wagon",
+        "translation": "열차에 [0.6L 물병] 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6740b66b5755c252346803f0",
+        "source": "Place 2 MRE Ration pack in the train wagon",
+        "translation": "열차에 [MRE 전투식량] 숨겨두기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6740b70d0c2f488b92d69575 name",
+        "source": "The Wanderer",
+        "translation": "방랑자",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6740b70d0c2f488b92d69575 description",
+        "source": "Operator, I come bearing news of the Predator's recent operation at the customs terminal. Find me the train wagon he used to infil. He did some dirty work around the area, dirty enough for one of the big bosses to come clean it up - I think 'Reshala' was his name. Anyways, leave the Predator some rations. 3 Water Bottles and 2 MREs should be enough. Good luck.",
+        "translation": "용병, 최근 세관에서 진행됐던 '약탈자'의 작전에 대한 정보가 들어왔다. '약탈자'가 세관으로 숨어드는데 이용한 열차를 찾아. 그 주변에서 더러운 일을 조금 했다고 하더라고. '르샬라' 라고 하는 지역 깡패가 왔던 건 별로 좋지 않았지만. 어쨌든, 그 놈에게 식량을 좀 주고 와. [0.6L 물병] 3개랑 [MRE 전투식량] 2개면 충분할거야. 행운을 빌어.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6740b70d0c2f488b92d69575 startedMessageText",
+        "source": "Operator, I come bearing news of the Predator's recent operation at the customs terminal. Find me the train wagon they used to infil. He did some dirty work around the area, dirty enough for one of the big bosses to come clean it up - I think 'Reshala' was his name. Anyways, leave the Predator some rations. 3 Water Bottles and 2 MREs should be enough. Good luck.",
+        "translation": "용병, 최근 세관에서 진행됐던 '약탈자'의 작전에 대한 정보가 들어왔다. '약탈자'가 세관으로 숨어드는데 이용한 열차를 찾아. 그 주변에서 더러운 일을 조금 했다고 하더라고. '르샬라' 라고 하는 지역 깡패가 왔던 건 별로 좋지 않았지만. 어쨌든, 그 놈에게 식량을 좀 주고 와. [0.6L 물병] 3개랑 [MRE 전투식량] 2개면 충분할거야. 행운을 빌어."
+      },
+      {
+        "key": "6740b70d0c2f488b92d69575 successMessageText",
+        "source": "Good work, Operator. Shadows guide you.",
+        "translation": "아주 잘했어 용병, 곧 다시 보자고. 긴장 풀지 말고 있어."
+      },
+      {
+        "key": "6740b70d0c2f488b92d69575 acceptPlayerMessage",
+        "source": "Very well, Operator. I hope our paths cross again. Stay vigilant until then.",
+        "translation": "용병, 최근 세관에서 진행됐던 '약탈자'의 작전에 대한 정보가 들어왔다."
+      },
+      {
+        "key": "6740b70d0c2f488b92d69575 completePlayerMessage",
+        "source": "Good work, Operator. Shadows guide you.",
+        "translation": "아주 잘했어 용병, 곧 다시 보자고. 긴장 풀지 말고 있어."
+      },
+      {
+        "key": "6741cfb9b4e9db7012b95bb9",
+        "source": "Eliminate 4 Rogue Cultist Warriors between the time period of 21:00 - 04:00 on Customs",
+        "translation": "21:00~04:00 시간대에 세관(Customs)에서 컬티스트 전사 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d0bc53ea6a450ccd6655",
+        "source": "Eliminate 4 Rogue Cultist Warriors between the time period of 21:00 - 04:00 on Woods",
+        "translation": "21:00~04:00 시간대에 삼림(Woods)에서 컬티스트 전사 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d1b37b308fe38323970b",
+        "source": "Eliminate 2 Rogue Cultist Priests the time period of 21:00 - 04:00 on Shoreline",
+        "translation": "21:00~04:00 시간대에 해안선(Shoreline)에서 컬티스트 사제 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d2a8ee39dbd555b6468d name",
+        "source": "Fetch",
+        "translation": "사냥감 가져오기",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6741d2a8ee39dbd555b6468d description",
+        "source": "A rumour was started by a few ex-cultists once under my command. Hunt them down. They know too much to be captured, and are too dangerous to be kept alive. Though our tongues were bound by the Blade, I worry they would bark like dogs at the right moment... and the wrong time.",
+        "translation": "최근 내 휘하에 있던 전 컬티스트들에 관한 소문이 돌았어. 그 놈들을 찾아내서 죽여. 그냥 두기엔 아는게 너무 많아.. 우리의 입은 '칼날' 에 의해 묶여있지만 난 그 놈들이 갑자기 짖어서 계획을 망쳐놓을까봐 걱정되는군. 찾아내서 죽여버리라고.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6741d2a8ee39dbd555b6468d startedMessageText",
+        "source": "A rumour was started by a few ex-cultists once under my command. Hunt them down. They know too much to be captured, and are too dangerous to be kept alive. Though our tongues were bound by the Blade, I worry they would bark like dogs at the right moment... and the wrong time.",
+        "translation": "최근 내 휘하에 있던 전 컬티스트들에 관한 소문이 돌았어. 그 놈들을 찾아내서 죽여. 그냥 두기엔 아는게 너무 많아.. 우리의 입은 '칼날' 에 의해 묶여있지만 난 그 놈들이 갑자기 짖어서 계획을 망쳐놓을까봐 걱정되는군. 찾아내서 죽여버리라고."
+      },
+      {
+        "key": "6741d2a8ee39dbd555b6468d successMessageText",
+        "source": "Well done, Operator. Rest assured, your actions won't go unnoticed.",
+        "translation": "훌륭해. 그리고 안심하라고. 넌 내 신뢰뿐만 아니라 우리 팀 전체의 신뢰를 얻었으니까."
+      },
+      {
+        "key": "6741d2a8ee39dbd555b6468d acceptPlayerMessage",
+        "source": "Thank you, Operator. With haste.",
+        "translation": "서둘러 줘서 고맙군."
+      },
+      {
+        "key": "6741d2a8ee39dbd555b6468d completePlayerMessage",
+        "source": "Very well, Operator. Rest assured, your actions won't go unnoticed.",
+        "translation": "훌륭해. 그리고 안심하라고. 넌 내 신뢰뿐만 아니라 우리 팀 전체의 신뢰를 얻었으니까."
+      },
+      {
+        "key": "6741d4569c853f4f43afa91b",
+        "source": "Hand over 2 found in raid Intelligence folder",
+        "translation": "레이드에서 발견한 [Intelligence 정보 파일] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d467700ad453e74c149c",
+        "source": "Hand over 3 found in raid Secure flash drive",
+        "translation": "레이드에서 발견한 [USB 보안 플래시 드라이브] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d4732e3da39e1c4c09d7",
+        "source": "Hand over 4 Signal Jammer",
+        "translation": "[Signal Jammer 전파 교란기] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d47d9afc6bdb645129a9",
+        "source": "Hand over 3 Wi-Fi Camera",
+        "translation": "[WI-FI 카메라] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d50ae7f5bd50d5034129 name",
+        "source": "Communication is Key",
+        "translation": "소통이 열쇠다",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6741d50ae7f5bd50d5034129 description",
+        "source": "Operator, I'm glad you're here. Sit down. This little secret must stay between the two of us.. You know those cottages near the health resort? That's where that son of a bitch 'Sanitar' is holed up, with his cowardly group of \"orderlies\" scattered around. Ah... nevermind, just bring me some intel - physical and digital - along with some cameras and signal jammers. I'm going to plant some surveillance around his area. He thinks he's safe, and I want to prove him wrong.",
+        "translation": "다시 보니 반갑군 용병. 앉아. 우리 사이에 있던 작은 비밀에 대해 알려주지. 해안선 지역에 있는 온실에 대해 알고 있나? '세니타'라는 개새끼가 있는 곳이지. 그의 병신같은 경호원들과 함께 말이야. 아, 방금 한 말은 잊어. 그 지역 주변에 감시 장비를 설치할거야. 그 놈은 자기가 안전하다고 생각하는데 난 그게 마음에 안 들어.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6741d50ae7f5bd50d5034129 startedMessageText",
+        "source": "Quick as you can, but don't rush. Slow is smooth, and smooth is fast. Shadows guide you.",
+        "translation": "최대한 빨리 움직이되 조급해하진 마. 천천히 해야 매끄럽고, 매끄러워야 빠른 법이지. 그림자가 널 인도할 거야."
+      },
+      {
+        "key": "6741d50ae7f5bd50d5034129 successMessageText",
+        "source": "Well done, Operator. Let's take a look at what the cat dragged in.",
+        "translation": "아주 좋아 용병. 쥐구멍에서 뭘 들고 왔는지 보자고."
+      },
+      {
+        "key": "6741d50ae7f5bd50d5034129 acceptPlayerMessage",
+        "source": "Quick as you can, but don't rush. Slow is smooth, and smooth is fast. Shadows guide you.",
+        "translation": "최대한 빨리 움직이되 조급해하진 마. 천천히 해야 매끄럽고, 매끄러워야 빠른 법이지. 그림자가 널 인도할 거야."
+      },
+      {
+        "key": "6741d50ae7f5bd50d5034129 completePlayerMessage",
+        "source": "Well done, Operator. Let's take a look at what the cat dragged in.",
+        "translation": "아주 좋아 용병. 쥐구멍에서 뭘 들고 왔는지 보자고."
+      },
+      {
+        "key": "6741d57f4ba5d4f1f4378e22",
+        "source": "Eliminate Sanitar",
+        "translation": "세니타 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d6176c4b417a408d290f name",
+        "source": "Rags to Riches",
+        "translation": "거지가 부자되기",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6741d6176c4b417a408d290f description",
+        "source": "Operator, that son of a bitch slipped away and made it out of my assault on his cottage alive. He can't escape, he's more dangerous than you know. Think about it - a mere janitor has his own small laboratory in a top-secret area? It's absurd. There's more to this situation than meets the eye. He's got something I need, something of great value to our operation. I need you to track him down and ensure he doesn't leave alive. We can't let him out of our sight. This mission could be the key to unraveling the secrets TerraGroup holds, secrets that could change the course of history.",
+        "translation": "용병, 그 개자식이 공격을 버텨내고 도망갔다. 그 놈이 도망치게 놔두면 안 돼. 중요한 정보를 가지고 있거든. 생각해봐. 최고급 보안 시설에 개인 연구실이 있는 평범한 청소부? 너가 생각해도 이상하지? 뭔가 있다. 내가 필요한, 우리의 작전에 필요한 그 무언가를 그 놈은 가지고 있어. 그 개자식을 찾아서 데려와. 성공한다면 그가 가지고 있는 비밀을 알아낼 수 있을 거야. 우리의 모든 작전의 판도를 뒤집을 수 있는 그런 비밀.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6741d6176c4b417a408d290f startedMessageText",
+        "source": "Operator, that son of a bitch slipped away and made it out of my assault on his cottage alive. He can't escape, he's more dangerous than you know. Think about it - a mere janitor has his own small laboratory in a top-secret area? It's absurd. There's more to this situation than meets the eye. He's got something I need, something of great value to our operation. I need you to track him down and ensure he doesn't leave alive. We can't let him out of our sight. This mission could be the key to unraveling the secrets TerraGroup holds, secrets that could change the course of history.",
+        "translation": "용병, 그 개자식이 공격을 버텨내고 도망갔다. 그 놈이 도망치게 놔두면 안 돼. 중요한 정보를 가지고 있거든. 생각해봐. 최고급 보안 시설에 개인 연구실이 있는 평범한 청소부? 너가 생각해도 이상하지? 뭔가 있다. 내가 필요한, 우리의 작전에 필요한 그 무언가를 그 놈은 가지고 있어. 그 개자식을 찾아서 데려와. 성공한다면 그가 가지고 있는 비밀을 알아낼 수 있을 거야. 우리의 모든 작전의 판도를 뒤집을 수 있는 그런 비밀."
+      },
+      {
+        "key": "6741d6176c4b417a408d290f successMessageText",
+        "source": "Operator, you're a goddamn beast! You tore that son of a bitch apart. It's time to take back what's rightfully ours - all that damn medical gear, computers, and other hardware scattered around that shithole cottage area. Screw that bastard, and his lapdog Khabibullina.",
+        "translation": "정말 대단한 짐승이군. 그 개자식을 찢어 죽여버리다니. 이제 우리의 것을 되찾아오자고. 오두막 주변에 흩어진 의료 장비, 컴퓨터와 하드웨어들을 말이야. 테라피스트? 아, 그 연구소 따까리? 엿 먹으라 그래."
+      },
+      {
+        "key": "6741d6176c4b417a408d290f acceptPlayerMessage",
+        "source": "Good news, and bad news. I'll rip off the bandage and give you the bad news first - Sanitar is still alive. The good news is, one of his guards was captured and sang like we were filming a musical. That fucking \"janitor\" is returning to his cottage.",
+        "translation": "용병, 좋은 소식과 나쁜 소식이 있다. 뭐 부터 시작할까? 나쁜 소식부터 가보자고. 세니타가 튀었다. 경호원 몇 마리를 잡았는데 결국 세니타는 그 오두막으로 돌아올 거라고 실토하더군. 좋은 소식은, 너가 그 개자식을 죽여버릴거 라는 소식이지."
+      },
+      {
+        "key": "6741d68295ef994417d1dce9",
+        "source": "Locate the medical room in the Chalet on Lighthouse",
+        "translation": "등대(Lighthouse)에 위치한 별장에서 세니타의 보건실 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d690fe8fee5bf6740743",
+        "source": "Mark Sanitar's medical stash",
+        "translation": "세니타의 의약품 상자에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d6b2ddfdda359567cf38",
+        "source": "Locate the cargo container filled with the bodies of Sanitar's men in Woods",
+        "translation": "삼림(Woods)에서 세니타 부하들의 시체로 가득찬 화물 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d74a7ca8a4abfdf908c6 name",
+        "source": "Lost and Found",
+        "translation": "실종된 물건",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6741d74a7ca8a4abfdf908c6 description",
+        "source": "Operator, great news. Word has spread around Tarkov that you've eliminated Sanitar, and as a result, his rats have started to dig out his stashes. That's another opportunity to take what is rightfully ours. He left an untouched package in a villa near the Lighthouse. I've heard they made a final attempt to save that motherfucker. Go ahead and mark it - I'll send some of my boys at night. Another small request. I've been told his henchmen who were with him are dead. I need confirmation. Head to that RUAF outpost at the nature reserve - there should be a white cargo container filled with body bags. Find it, confirm the kills, and get out. Let's not make it too messy.",
+        "translation": "용병, 좋은 소식이다. 너가 세니타를 죽여버렸다는 소식이 타르코프 시에 퍼지면서 세니타의 개들이 창고를 파내고 있어. 우리의 물건을 찾아올 기회야. 세니타가 등대에 있는 별장에 물건을 놔뒀어. 그걸 살리려고 그 놈들이 부단히 노력했다지. 가서 마커를 붙여. 밤에 내 부하들을 보낼거야. 또 한 가지, 세니타와 같이 있던 군즈가 죽었다는 이야기를 들었어. 정말인지 확인해보고 싶으니 삼림에 있는 스캐브 전초기지에 가봐. 시체 가방으로 가득 찬 하얀색 화물이 있는지 확인해.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6741d74a7ca8a4abfdf908c6 startedMessageText",
+        "source": "Operator, great news. Word has spread around Tarkov that you've eliminated Sanitar, and as a result, his rats have started to dig out his stashes. That's another opportunity to take what is rightfully ours. He left an untouched package in a villa near the Lighthouse. I've heard they made a final attempt to save that motherfucker. Go ahead and mark it - I'll send some of my boys at night. Another small request. I've been told his henchmen who were with him are dead. I need confirmation. Head to that RUAF outpost at the nature reserve - there should be a white cargo container filled with body bags. Find it, confirm the kills, and get out. Let's not make it too messy.",
+        "translation": "용병, 좋은 소식이다. 너가 세니타를 죽여버렸다는 소식이 타르코프 시에 퍼지면서 세니타의 개들이 창고를 파내고 있어. 우리의 물건을 찾아올 기회야. 세니타가 등대에 있는 별장에 물건을 놔뒀어. 그걸 살리려고 그 놈들이 부단히 노력했다지. 가서 마커를 붙여. 밤에 내 부하들을 보낼거야. 또 한 가지, 세니타와 같이 있던 군즈가 죽었다는 이야기를 들었어. 정말인지 확인해보고 싶으니 삼림에 있는 스캐브 전초기지에 가봐. 시체 가방으로 가득 찬 하얀색 화물이 있는지 확인해."
+      },
+      {
+        "key": "6741d74a7ca8a4abfdf908c6 successMessageText",
+        "source": "Very well Operator. I shall inform the others. For now, wait for another call.",
+        "translation": "잘했다 용병. 다른 사람들에게도 알려야겠군. 추후 연락하지."
+      },
+      {
+        "key": "6741d74a7ca8a4abfdf908c6 acceptPlayerMessage",
+        "source": "Thanks again - you are a great help to the cause.",
+        "translation": "용병, 좋은 소식이다. 너가 세니타를 죽여버렸다는 소식이 타르코프 시에 퍼지면서 세니타의 개들이 창고를 파내고 있어."
+      },
+      {
+        "key": "6741d7aa2c86122745d7126e",
+        "source": "Eliminate 3 Bloodhounds",
+        "translation": "블러드하운드 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d86720827d719dafa146 name",
+        "source": "Puppets",
+        "translation": "인형",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6741d86720827d719dafa146 description",
+        "source": "Operator, word is spreading that the Bloodhounds, led by a certain 'Den' and his scav companion 'Ryzhy,' have been making waves in Tarkov. They've garnered quite a reputation among the locals. Kharitonov contacted me, expressing concern about the Bloodhounds' release from the Arena, anticipating chaos that needs to be prevented. You're tasked with sending a message - eliminate three of the Bloodhounds as a warning, but try not to harm Den; he holds a close connection to Ivan. Plus, he could be helpful in the near future...",
+        "translation": "용병, 타르코프 시에 'Den' 이라고 하는 놈과 '리지' 라고 하는 스캐브 동료가 이끄는 블러드하운드 들이 침투했다는 소문이 돌고 있다. 지역민들에게 호감을 사고 있다는군. 예거가 아레나에서 풀려난 그 블러드하운드 놈들에 대한 우려를 표하더라고. 그 놈들이 몰고올 혼돈에 대해 말이야. 경고의 차원에서 블러드하운드 3마리를 죽여버리자고. 하지만 Den은 죽이면 안 돼. 예거와 깊은 친분이 있는 놈이야. 가까운 미래에 도움이 될 수도 있겠지..",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6741d86720827d719dafa146 startedMessageText",
+        "source": "You have your task. Shadows guide you.",
+        "translation": "해야 할 일은 알겠지. 그림자가 널 인도하길."
+      },
+      {
+        "key": "6741d86720827d719dafa146 successMessageText",
+        "source": "Well done, Operator. Once again, you haven't disappointed me. Stay in touch; I shall send you a message soon enough. Keep your eyes open. Den should contact Ivan any minute now.",
+        "translation": "아주 좋아, 이번에도 날 실망시키지 않았군. 곧 연락하겠다. 잠 들지 말고 있어. Den이 곧 예거한테 돌아갈거야."
+      },
+      {
+        "key": "6741d86720827d719dafa146 acceptPlayerMessage",
+        "source": "Operator, word is spreading that the bloodhounds, led by a certain 'Den' and his scav companion 'Ryzhy,' have infiltrated the Tarkov district. They've garnered quite a reputation among the locals. Jaeger contacted me, expressing concern about the Bloodhounds' release from the Arena, anticipating chaos that needs to be quelled. We're tasked with sending a message by eliminating three of the Bloodhounds as a warning, but be cautious not to harm Den; he holds a close connection to Jaeger. And could be helpful in the near future..",
+        "translation": "용병, 타르코프 시에 'Den' 이라고 하는 놈과 '리지' 라고 하는 스캐브 동료가 이끄는 블러드하운드 들이 침투했다는 소문이 돌고 있다. 지역민들에게 호감을 사고 있다는군. 예거가 아레나에서 풀려난 그 블러드하운드 놈들에 대한 우려를 표하더라고. 그 놈들이 몰고올 혼돈에 대해 말이야. 경고의 차원에서 블러드하운드 3마리를 죽여버리자고. 하지만 Den은 죽이면 안 돼. 예거와 깊은 친분이 있는 놈이야. 가까운 미래에 도움이 될 수도 있겠지.."
+      },
+      {
+        "key": "6741d86720827d719dafa146 completePlayerMessage",
+        "source": "Well done, Operator. Once again, you haven't disappointed me. Stay in touch; I shall send you a message soon enough. Keep your eyes open. Den should return to Jaeger any minute now.",
+        "translation": "아주 좋아, 이번에도 날 실망시키지 않았군. 곧 연락하겠다. 잠 들지 말고 있어. Den이 곧 예거한테 돌아갈거야."
+      },
+      {
+        "key": "6741d9654837878a48e6f6c2",
+        "source": "Hand over 2 found in raid Medical bloodsets",
+        "translation": "레이드에서 발견한 [Bloodset 의료 채혈세트] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d971e47806057a4d2137",
+        "source": "Hand over 5 found in raid Medical tools",
+        "translation": "레이드에서 발견한 [Medical tools 의료 도구] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d97ef44b688e5521c95f",
+        "source": "Hand over 1 found in raid Disposable syringe",
+        "translation": "레이드에서 발견한 [Disposable Syringe 일회용 주사기] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d988eebead03c75d029e",
+        "source": "Hand over 3 found in raid 42 Signature Blend English Tea",
+        "translation": "레이드에서 발견한 [42 시그니처 블렌드 잉글리시 티] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d99c87a53b9d6856c2f2",
+        "source": "Hand over 2 found in raid Bottle of water (0.6L)",
+        "translation": "레이드에서 발견한 [0.6L 물병] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741d9b13ffb6d639c02c353",
+        "source": "Hand over 2 found in raid Bottle of hydrogen peroxide",
+        "translation": "레이드에서 발견한 [H2O2 과산화수소] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741da44d68092ca9722521a name",
+        "source": "Secret Formula",
+        "translation": "비밀 공식",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6741da44d68092ca9722521a description",
+        "source": "Welcome back - hey, you seem really off. Bloodhounds didn't treat you well, did they? Sit, you need to get some rest. I'll make you some great medicine, one of a kind. Just make sur- agh. I ran out of materials. Well, Operator, rest first, head back out to find what we need.",
+        "translation": "다시 보니 반갑.. 안색이 안 좋은데? 블러드하운드 놈들이 여간 거슬리게 한게 아닌가 보군. 앉아. 휴식을 좀 취해야 할 거 같은데. 좋은 약을 만들어 주지. 이상한 거 아니.. 에이씨. 재료가 떨어졌네. 그, 용병.. 일단 좀 쉬고, 재료를 가져와..",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6741da44d68092ca9722521a startedMessageText",
+        "source": "Welcome back - hey, you seem really off. Bloodhounds didn't treat you well, did they? Sit, you need to get some rest. I'll make you some great medicine, one of a kind. Just make sur- agh. I ran out of materials. Well, Operator, rest first, head back out to find what we need.",
+        "translation": "다시 보니 반갑.. 안색이 안 좋은데? 블러드하운드 놈들이 여간 거슬리게 한게 아닌가 보군. 앉아. 휴식을 좀 취해야 할 거 같은데. 좋은 약을 만들어 주지. 이상한 거 아니.. 에이씨. 재료가 떨어졌네. 그, 용병.. 일단 좀 쉬고, 재료를 가져와.."
+      },
+      {
+        "key": "6741da44d68092ca9722521a successMessageText",
+        "source": "Well done, pal. I hope this could help your current state. We have some serious work ahead of us, so be sure to rest enough before I reach out again.",
+        "translation": "아주 좋아 친구. 이게 너의 몸 상태에 도움이 되길 바래. 곧 중요한 일이 있을 테니 푹 쉬어두라고."
+      },
+      {
+        "key": "6741da44d68092ca9722521a acceptPlayerMessage",
+        "source": "Good luck.",
+        "translation": "행운을 빌지."
+      },
+      {
+        "key": "6741db339f68236cae98f963",
+        "source": "Hand over 1 TerraGroup Labs access keycard",
+        "translation": "[테라그룹 연구소 출입 키카드] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741db411cbf49b6a65184ea",
+        "source": "Eliminate 5 PMCs",
+        "translation": "떠돌이 PMC 사살하기(USEC/BEAR)",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741dbba9e6d28c8ff0a700f name",
+        "source": "The Holder",
+        "translation": "키카드 보유자",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6741dbba9e6d28c8ff0a700f description",
+        "source": "Pal, let me tell you about this little adventure ahead of us. Our message to the Bloodhounds was received. They've know you for your deeds and connections, yet undervalue your actions and skills. Den and Ryzhy came back to Ivan's hideout and explained the situation. There was a set-up in a deal conducted between a group of rogue PMCs - they played dirty tricks on the Bloodhound's dealers. That's why they made their presence known. We've been tasked with finding out what the deal was, as Den didn't say too much. I think the deal was related to a keycard belonging to TerraGroup. I want you to go and look after that. Bring me a lab access keycard.",
+        "translation": "친구, 우리 앞의 모험에 대해 알려주지. 블러드하운드 놈들에게 경고를 날리는 작전은 성공했고 그 놈들이 타격을 입었다. 너의 행동과 인맥에 대해 알고 있지만 여전히 널 과소평가 한다는군. Den과 리지가 예거의 은신처에 돌아와 상황을 설명했다. 떠돌이 PMC들 간의 거래에서 장난질이 있었다. 블러드하운드의 딜러에게 몹쓸 짓을 했다는군. 그래서 그 놈들이 우리 근처까지 왔던거야. Den이 끝까지 말을 안 해줘서 우리가 그 거래가 무엇에 관한 거래였는지 알아내야 해. 난 그 거래가 테라그룹과 관련된 키카드에 관한 거래라고 믿어. 가서 확인해보고, 그 놈들의 시설에 진입할 키카드를 내게 가져와.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6741dbba9e6d28c8ff0a700f startedMessageText",
+        "source": "Pal, let me tell you about this little adventure ahead of us. Our message to the Bloodhounds was received. They've know you for your deeds and connections, yet undervalue your actions and skills. Den and Ryzhy came back to Ivan's hideout and explained the situation. There was a set-up in a deal conducted between a group of rogue PMCs - they played dirty tricks on the Bloodhound's dealers. That's why they made their presence known. We've been tasked with finding out what the deal was, as Den didn't say too much. I think the deal was related to a keycard belonging to TerraGroup. I want you to go and look after that. Bring me a lab access keycard.",
+        "translation": "친구, 우리 앞의 모험에 대해 알려주지. 블러드하운드 놈들에게 경고를 날리는 작전은 성공했고 그 놈들이 타격을 입었다. 너의 행동과 인맥에 대해 알고 있지만 여전히 널 과소평가 한다는군. Den과 리지가 예거의 은신처에 돌아와 상황을 설명했다. 떠돌이 PMC들 간의 거래에서 장난질이 있었다. 블러드하운드의 딜러에게 몹쓸 짓을 했다는군. 그래서 그 놈들이 우리 근처까지 왔던거야. Den이 끝까지 말을 안 해줘서 우리가 그 거래가 무엇에 관한 거래였는지 알아내야 해. 난 그 거래가 테라그룹과 관련된 키카드에 관한 거래라고 믿어. 가서 확인해보고, 그 놈들의 시설에 진입할 키카드를 내게 가져와."
+      },
+      {
+        "key": "6741dbba9e6d28c8ff0a700f successMessageText",
+        "source": "Well done! Once again, you don't disappoint. Stay in touch, I'll send you a message soon enough. Keep your eyes open.",
+        "translation": "아주 좋아, 이번에도 날 실망시키지 않았군. 곧 연락할테니 눈 붙이지 말고 있어."
+      },
+      {
+        "key": "6741dbba9e6d28c8ff0a700f acceptPlayerMessage",
+        "source": "Pal, let me tell you about this little adventure ahead of us. Our message to the Bloodhounds was received. They've know you for your deeds and connections, yet undervalue your actions and skills. Den and Ryzhy came back to Ivan's hideout and explained the situation. There was a set-up in a deal conducted between a group of rogue PMCs - they played dirty tricks on the Bloodhound's dealers. That's why they made their presence known. We've been tasked with finding out what the deal was, as Den didn't say too much. I think the deal was related to a keycard belonging to TerraGroup. I want you to go and look after that. Bring me a lab access keycard.",
+        "translation": "친구, 우리 앞의 모험에 대해 알려주지. 블러드하운드 놈들에게 경고를 날리는 작전은 성공했고 그 놈들이 타격을 입었다. 너의 행동과 인맥에 대해 알고 있지만 여전히 널 과소평가 한다는군. Den과 리지가 예거의 은신처에 돌아와 상황을 설명했다. 떠돌이 PMC들 간의 거래에서 장난질이 있었다. 블러드하운드의 딜러에게 몹쓸 짓을 했다는군. 그래서 그 놈들이 우리 근처까지 왔던거야. Den이 끝까지 말을 안 해줘서 우리가 그 거래가 무엇에 관한 거래였는지 알아내야 해. 난 그 거래가 테라그룹과 관련된 키카드에 관한 거래라고 믿어. 가서 확인해보고, 그 놈들의 시설에 진입할 키카드를 내게 가져와."
+      },
+      {
+        "key": "6741dbba9e6d28c8ff0a700f completePlayerMessage",
+        "source": "Well done! Once again, you don't disappoint. Stay in touch, I'll send you a message soon enough. Keep your eyes open.",
+        "translation": "아주 좋아, 이번에도 날 실망시키지 않았군. 곧 연락할테니 눈 붙이지 말고 있어."
+      },
+      {
+        "key": "6741dc8582ce97dba7a61ac7",
+        "source": "Locate the ambushed TerraGroup vehicle in Customs",
+        "translation": "세관(Customs)에서 매복당한 차량 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741dc900e34b262eaf06381",
+        "source": "Mark the stolen TerraGroup documents",
+        "translation": "도난당한 문서에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741dc9f5f87377b77685608",
+        "source": "Locate the dumped barrels in Customs",
+        "translation": "세관(Customs)에서 사라진 드럼통 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741dca8b0df9d3ea6409531",
+        "source": "Mark the dumped barrels",
+        "translation": "사라진 드럼통에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741dd080a4b6768df84d4ed name",
+        "source": "A Bigger Fish",
+        "translation": "더 큰 물고기",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6741dd080a4b6768df84d4ed description",
+        "source": "Listen up, pal. I've got some grim news about those Bloodhounds wreaking havoc around Tarkov. They've pulled off a daring ambush on a TerraGroup vehicle as it navigated the streets around the customs terminal. I've got intel from the Predator on the sensitive documents stashed in that car, and where it was headed. Also, there has been rumours going around the recent van made it safely to the factories there and dumped a set of barrels in one of the abandoned factories.. I've got no idea what's in those barrels but its up to you to find out. Head there too, and mark it for me. Let me tell you - there's always a more ominous force at play. Aid me in tracking down that vehicle and the barrels. - I'll dispatch my crew to tear apart every inch of the area, extracting whatever they can. Thank you Operator.",
+        "translation": "잘 들어 친구. 블러드하운드 놈들이 우리 구역에 큰 피해를 입혔다. 세관 지역의 거리를 지나가는 테라그룹의 차량에 매복을 감행했어. '약탈자'로부터 그 차량에 있던 비밀스러운 문서와 그 문서가 어디로 향했는지에 대한 정보를 입수했다. 또한 최근 한 밴이 세관의 폐공장 중 하나에 여러 개의 드럼통을 날랐다는 소문도 돌고 있어. 그 통에 무슨 액체가 담겨있는진 모르지만 너가 알아내야지. 거기에 가서 마커를 붙이고 와. 항상 더욱 불길한 세력이 있다는 것을 명심하도록. 그 차량과 통 들을 추적하는데 도움을 줘. 내 부하들을 보내서 무슨 일이 일어나는지 샅샅이 파헤칠거야. 미리 고맙네 용병.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6741dd080a4b6768df84d4ed startedMessageText",
+        "source": "Listen up, pal. I've got some grim news about those Bloodhounds wreaking havoc around Tarkov. They've pulled off a daring ambush on a TerraGroup vehicle as it navigated the streets around the customs terminal. I've got intel from the Predator on the sensitive documents stashed in that car, and where it was headed. Also, there has been rumours going around the recent van made it safely to the factories there and dumped a set of barrels in one of the abandoned factories.. I've got no idea what's in those barrels but its up to you to find out. Head there too, and mark it for me. Let me tell you - there's always a more ominous force at play. Aid me in tracking down that vehicle and the barrels. - I'll dispatch my crew to tear apart every inch of the area, extracting whatever they can. Thank you Operator.",
+        "translation": "잘 들어 친구. 블러드하운드 놈들이 우리 구역에 큰 피해를 입혔다. 세관 지역의 거리를 지나가는 테라그룹의 차량에 매복을 감행했어. '약탈자'로부터 그 차량에 있던 비밀스러운 문서와 그 문서가 어디로 향했는지에 대한 정보를 입수했다. 또한 최근 한 밴이 세관의 폐공장 중 하나에 여러 개의 드럼통을 날랐다는 소문도 돌고 있어. 그 통에 무슨 액체가 담겨있는진 모르지만 너가 알아내야지. 거기에 가서 마커를 붙이고 와. 항상 더욱 불길한 세력이 있다는 것을 명심하도록. 그 차량과 통 들을 추적하는데 도움을 줘. 내 부하들을 보내서 무슨 일이 일어나는지 샅샅이 파헤칠거야. 미리 고맙네 용병."
+      },
+      {
+        "key": "6741dd080a4b6768df84d4ed acceptPlayerMessage",
+        "source": "Listen up, pal. I've got some grim news about those Bloodhounds wreaking havoc around Tarkov. They've pulled off a daring ambush on a TerraGroup vehicle as it navigated the streets around the customs terminal. I've got intel from the Predator on the sensitive documents stashed in that car, and where it was headed. Also, there has been rumours going around the recent van made it safely to the factories there and dumped a set of barrels in one of the abandoned factories.. I've got no idea what's in those barrels but its up to you to find out. Head there too, and mark it for me. Let me tell you - there's always a more ominous force at play. Aid me in tracking down that vehicle and the barrels. - I'll dispatch my crew to tear apart every inch of the area, extracting whatever they can. Thank you Operator.",
+        "translation": "잘 들어 친구. 블러드하운드 놈들이 우리 구역에 큰 피해를 입혔다. 세관 지역의 거리를 지나가는 테라그룹의 차량에 매복을 감행했어. '약탈자'로부터 그 차량에 있던 비밀스러운 문서와 그 문서가 어디로 향했는지에 대한 정보를 입수했다. 또한 최근 한 밴이 세관의 폐공장 중 하나에 여러 개의 드럼통을 날랐다는 소문도 돌고 있어. 그 통에 무슨 액체가 담겨있는진 모르지만 너가 알아내야지. 거기에 가서 마커를 붙이고 와. 항상 더욱 불길한 세력이 있다는 것을 명심하도록. 그 차량과 통 들을 추적하는데 도움을 줘. 내 부하들을 보내서 무슨 일이 일어나는지 샅샅이 파헤칠거야. 미리 고맙네 용병."
+      },
+      {
+        "key": "6741dd080a4b6768df84d4ed completePlayerMessage",
+        "source": "Well done once again. Rest up, pal.",
+        "translation": "이번에도 잘했어. 좀 쉬어, 친구.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6741dd73ab8fc5c5cff8f9bb",
+        "source": "Eliminate 3 TerraGroup Informants (Scavs)",
+        "translation": "정보원(스캐브) 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741dda83925e7c0cf158f4d",
+        "source": "Locate the abandoned tent in Factory",
+        "translation": "공장(Factory)에서 버려진 텐트 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741ddba33d92f8e1f2569fd",
+        "source": "Mark the stolen medical boxes inside the tent",
+        "translation": "텐트 안의 도난당한 의료품 상자에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741ddd10ba9e1fcf14c621e",
+        "source": "Mark the used hazmat suit inside the tent",
+        "translation": "텐트 안의 중고 방호복에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6741de5af218c3a4a71f659e name",
+        "source": "Abandoned Entrance",
+        "translation": "버려진 입구",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6741de5af218c3a4a71f659e description",
+        "source": "Pal, the Predator informed me of yet another location in need of some tied up loose ends - this time it's the chemical plant. Use caution when entering, and get rid of any informants so they won't be able to pass the information of your arrival. It seems there's an abandoned medical tent near one of the exits. I need you to grab a sample and mark the hazmat suit, as there are traces of that strange liquid similar to what you found inside those barrels. Mark the medical boxes too, I'll send my men to retrieve the materials.",
+        "translation": "친구, '약탈자'가 또 다른 장소를 보내왔다. 이번엔 우리의 영원한 지옥, 공장이야. 진입할 때 주의하고, 정보원이 보이면 죽여버려. 너가 들어왔다는 정보가 새면 안되니까. 출구들 중 하나에 버려진 의료 텐트가 있다고 한다. 내가 말했던 드럼통에 있던 액체가 조금 남아있으니 샘플을 채취하고 방호복에 마커를 설치해. 그리고 의약품 상자에도 마커를 설치하도록. 내 부하들을 시켜 재료를 가져올거야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6741de5af218c3a4a71f659e startedMessageText",
+        "source": "Pal, the Predator informed me of yet another location in need of some tied up loose ends - this time it's the chemical plant. Use caution when entering, and get rid of any informants so they won't be able to pass the information of your arrival. It seems there's an abandoned medical tent near one of the exits. I need you to grab a sample and mark the hazmat suit, as there are traces of that strange liquid similar to what you found inside those barrels. Mark the medical boxes too, I'll send my men to retrieve the materials.",
+        "translation": "친구, '약탈자'가 또 다른 장소를 보내왔다. 이번엔 우리의 영원한 지옥, 공장이야. 진입할 때 주의하고, 정보원이 보이면 죽여버려. 너가 들어왔다는 정보가 새면 안되니까. 출구들 중 하나에 버려진 의료 텐트가 있다고 한다. 내가 말했던 드럼통에 있던 액체가 조금 남아있으니 샘플을 채취하고 방호복에 마커를 설치해. 그리고 의약품 상자에도 마커를 설치하도록. 내 부하들을 시켜 재료를 가져올거야."
+      },
+      {
+        "key": "6741de5af218c3a4a71f659e successMessageText",
+        "source": "Good job. Rest up, and stay in touch.",
+        "translation": "아주 좋아, 이번에도 날 실망시키지 않았군. 곧 연락할테니 눈 붙이지 말고 있어."
+      },
+      {
+        "key": "6741de5af218c3a4a71f659e acceptPlayerMessage",
+        "source": "Pal, the Predator informed me of yet another location in need of some tied up loose ends - this time it's the chemical plant. Use caution when entering, and get rid of any informants so they won't be able to pass the information of your arrival. It seems there's an abandoned medical tent near one of the exits. I need you to grab a sample and mark the hazmat suit, as there are traces of that strange liquid similar to what you found inside those barrels. Mark the medical boxes too, I'll send my men to retrieve the materials.",
+        "translation": "친구, '약탈자'가 또 다른 장소를 보내왔다. 이번엔 우리의 영원한 지옥, 공장이야. 진입할 때 주의하고, 정보원이 보이면 죽여버려. 너가 들어왔다는 정보가 새면 안되니까. 출구들 중 하나에 버려진 의료 텐트가 있다고 한다. 내가 말했던 드럼통에 있던 액체가 조금 남아있으니 샘플을 채취하고 방호복에 마커를 설치해. 그리고 의약품 상자에도 마커를 설치하도록. 내 부하들을 시켜 재료를 가져올거야."
+      },
+      {
+        "key": "6745f9274036600d8ce9076d",
+        "source": "Hand over 1 found in raid Gas welder safety goggles",
+        "translation": "레이드에서 발견한 [Gas welder safety goggles 가스 용접 보안 고글] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6745f92f7f5b0504ec340c65",
+        "source": "Hand over 1 found in raid Cultist knife",
+        "translation": "레이드에서 발견한 [컬티스트 칼] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6745f943d7302b2e69c368c8",
+        "source": "Eliminate 2 Cultists all over the Tarkov territory",
+        "translation": "컬티스트 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6745faad87494344ac6986e7 name",
+        "source": "Finding Equipment",
+        "translation": "장비 찾기",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6745faad87494344ac6986e7 description",
+        "source": "Heed this: the Predator has whispered of the cultists' return to the shadows of Tarkov. My men... have fallen victim to these bastards, their gear now lost to the abyss. It falls upon you to reclaim what's ours. There will be ample compensation for your efforts. This task is of the utmost importance, that gear is critical to our operation. Fetch it.",
+        "translation": "친구, 잘 들어. 컬티스트 들이 타르코프의 그림자 속에 다시 숨어들어 왔다는 '약탈자'의 정보다. 내 부하들은 이 불가사의한 적들의 희생양이 됐고 장비들은 깊은 나락으로 떨어졌지. 이 장비들을 되찾아오는 것은 순전히 너에게 걸려있다. 보상은 충분히 해주지. 그 장비들은 우리의 준비 작업의 열쇠 역할을 하기 때문에 매우 중요해. 가져오면, 우리 대의의 신비가 펼쳐질 거야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6745faad87494344ac6986e7 startedMessageText",
+        "source": "Heed this: the Predator has whispered of the cultists' return to the shadows of Tarkov. My men... have fallen victim to these bastards, their gear now lost to the abyss. It falls upon you to reclaim what's ours. There will be ample compensation for your efforts. This task is of the utmost importance, that gear is critical to our operation. Fetch it.",
+        "translation": "친구, 잘 들어. 컬티스트 들이 타르코프의 그림자 속에 다시 숨어들어 왔다는 '약탈자'의 정보다. 내 부하들은 이 불가사의한 적들의 희생양이 됐고 장비들은 깊은 나락으로 떨어졌지. 이 장비들을 되찾아오는 것은 순전히 너에게 걸려있다. 보상은 충분히 해주지. 그 장비들은 우리의 준비 작업의 열쇠 역할을 하기 때문에 매우 중요해. 가져오면, 우리 대의의 신비가 펼쳐질 거야."
+      },
+      {
+        "key": "6745faad87494344ac6986e7 acceptPlayerMessage",
+        "source": "Heed this: the Predator has whispered of the cultists' return to the shadows of Tarkov. My men... have fallen victim to these bastards, their gear now lost to the abyss. It falls upon you to reclaim what's ours. There will be ample compensation for your efforts. This task is of the utmost importance, that gear is critical to our operation. Fetch it.",
+        "translation": "친구, 잘 들어. 컬티스트 들이 타르코프의 그림자 속에 다시 숨어들어 왔다는 '약탈자'의 정보다. 내 부하들은 이 불가사의한 적들의 희생양이 됐고 장비들은 깊은 나락으로 떨어졌지. 이 장비들을 되찾아오는 것은 순전히 너에게 걸려있다. 보상은 충분히 해주지. 그 장비들은 우리의 준비 작업의 열쇠 역할을 하기 때문에 매우 중요해. 가져오면, 우리 대의의 신비가 펼쳐질 거야."
+      },
+      {
+        "key": "6745faad87494344ac6986e7 completePlayerMessage",
+        "source": "Well done. At least we haven't lost everything.",
+        "translation": "잘했어. 적어도 전부 잃은 건 아니군.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6745fc4c6ef5e56ba5df91cc",
+        "source": "Hand over 3 found in raid Colt M4A1 5.56x45 assault rifle",
+        "translation": "레이드에서 발견한 [Colt M4A1 5.56x45 돌격소총] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6745fc99a2d6bac958157a53",
+        "source": "Hand over 2 found in raid Kalashnikov AKM 7.62x39 assault rifle",
+        "translation": "레이드에서 발견한 [Kalashinikov AKM 7.62x39 돌격소총] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6745fcb3252692283be58a3e",
+        "source": "Hand over 260 5.56x45mm M855",
+        "translation": "5.56x45mm 탄환 건네주기 (M855)",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6745fcc3281c4f6ee845b7c4",
+        "source": "Hand over 120 7.62x39mm PP",
+        "translation": "7.62x39mm 탄환 건네주기 (PP)",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6745fdae9426c1e4a9fd5772 name",
+        "source": "Rearming",
+        "translation": "재정비, 준비",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6745fdae9426c1e4a9fd5772 description",
+        "source": "Dear friend, \n\n I am leaving you this note as we head out to gather resources. Once again, I require your assistance. My comrades and I are preparing to assault the remaining TerraGroup assets. While we are armed, our current arsenal falls short of what we're expecting to face. I kindly request your aid in acquiring: \n- 3 M4A1s \n- 2 AKMs \n-Ample ammunition for each \n\n Perhaps you could approach some of the traders - they might be aware of our plans and willing to help. Your support is invaluable. \n\nThank you, \nArtem",
+        "translation": "친구에게. 자원을 구하러 나가야 해서 편지를 남긴다. 너의 도움이 필요해. 나와 내 동료들은 남아있는 테라그룹 자산들에 대한 공격을 준비하고 있어. 무장을 하는데 무기고가 많이 비었다. M4A1 3자루, AKM 2자루 그리고 충분한 탄약을 구해다 줬으면 좋겠군. 상인들에게 연락해보는 것도 나쁘지 않겠군. 애초에 우리의 계획에 대해 듣고 도움을 주려 할 수도 있어. 넌 정말 큰 도움이 되고 있어. 감사를 전하지. 아르템.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6745fdae9426c1e4a9fd5772 startedMessageText",
+        "source": "Dear friend, \n\n I am leaving you this note as we head out to gather resources. Once again, I require your assistance. My comrades and I are preparing to assault the remaining TerraGroup assets. While we are armed, our current arsenal falls short of what we're expecting to face. I kindly request your aid in acquiring: \n- 3 M4A1s \n- 2 AKMs \n-Ample ammunition for each \n\n Perhaps you could approach some of the traders - they might be aware of our plans and willing to help. Your support is invaluable. \n\nThank you, \nArtem",
+        "translation": "친구에게. 자원을 구하러 나가야 해서 편지를 남긴다. 너의 도움이 필요해. 나와 내 동료들은 남아있는 테라그룹 자산들에 대한 공격을 준비하고 있어. 무장을 하는데 무기고가 많이 비었다. M4A1 3자루, AKM 2자루 그리고 충분한 탄약을 구해다 줬으면 좋겠군. 상인들에게 연락해보는 것도 나쁘지 않겠군. 애초에 우리의 계획에 대해 듣고 도움을 주려 할 수도 있어. 넌 정말 큰 도움이 되고 있어. 감사를 전하지. 아르템."
+      },
+      {
+        "key": "6745fdae9426c1e4a9fd5772 successMessageText",
+        "source": "I'm glad you got my note. I'll send you another message soon.",
+        "translation": "아주 좋아, 이번에도 날 실망시키지 않았군. 곧 연락할테니 눈 붙이지 말고 있어."
+      },
+      {
+        "key": "6745fdae9426c1e4a9fd5772 acceptPlayerMessage",
+        "source": "Dear friend, \n\n I am leaving you this note as we head out to gather resources. Once again, I require your assistance. My comrades and I are preparing to assault the remaining TerraGroup assets. While we are armed, our current arsenal falls short of what we're expecting to face. I kindly request your aid in acquiring: \n- 3 M4A1s \n- 2 AKMs \n-Ample ammunition for each \n\n Perhaps you could approach some of the traders - they might be aware of our plans and willing to help. Your support is invaluable. \n\nThank you, \nArtem",
+        "translation": "친구에게. 자원을 구하러 나가야 해서 편지를 남긴다. 너의 도움이 필요해. 나와 내 동료들은 남아있는 테라그룹 자산들에 대한 공격을 준비하고 있어. 무장을 하는데 무기고가 많이 비었다. M4A1 3자루, AKM 2자루 그리고 충분한 탄약을 구해다 줬으면 좋겠군. 상인들에게 연락해보는 것도 나쁘지 않겠군. 애초에 우리의 계획에 대해 듣고 도움을 주려 할 수도 있어. 넌 정말 큰 도움이 되고 있어. 감사를 전하지. 아르템."
+      },
+      {
+        "key": "6745fdae9426c1e4a9fd5772 completePlayerMessage",
+        "source": "I'm glad you got my note. I'll send you another message soon.",
+        "translation": "아주 좋아, 이번에도 날 실망시키지 않았군. 곧 연락할테니 눈 붙이지 말고 있어."
+      },
+      {
+        "key": "67462c0a7462aee80c07878e",
+        "source": "Locate and enter locked TerraGroup meeting room",
+        "translation": "잠긴 문 뒤에 무엇이 있는지 알아내기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67462c1e75d78da755432f56",
+        "source": "Discover the source of the weird noises",
+        "translation": "이상한 잡음 찾아내기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67462c29933ea4781c10a545",
+        "source": "Mark the TerraGroup meeting room",
+        "translation": "그 방에 MS2000 마커 붙이기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67462d52d129aa9ebc6eb98d name",
+        "source": "Signal Interference",
+        "translation": "음성 잡음",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67462d52d129aa9ebc6eb98d description",
+        "source": "Friend, our raid went off without a hitch. The TerraGroup building was swarming with targets, but they scattered like insects after shots were fired. However, something peculiar caught my attention inside... Behind a locked door, I heard a familiar sound - an enigma I couldn't unravel. I attempted to breach the door but my shotgun did nothing. There's definitely something unusual happening behind it. I consulted an acquaintance skilled in the art of lockpicking. He mentioned a key known mysteriously as the something 'Meeting Room Key' that should get you in. Find this key. The room lies deep within the TerraGroup security post building on Tarkov's streets. Discover what secrets await inside.",
+        "translation": "친구, 습격은 아무 문제 없이 진행됐다. 테라그룹 건물에는 적 들이 우글거리긴 했는데, 습격이 시작되자마자 벌레처럼 흩어지더군. 그런데, 안쪽에서 뭔가 기묘한 것이 있었어. 잠긴 문 뒤에서 내가 풀 수 없는 수수께끼 같은 소리가 울리더라고. 문을 부수고 들어가보려 했지만 소용없었어. 그 문 뒤에 분명히 뭔가 있어. 자물쇠 전문가를 데려왔는데, 이 문은 'meeting room key' 라는 열쇠로 열린다는군. 이 열쇠를 찾아. 그 방은 타르코프 시내의 테라그룹 보안 시설 건물에 있어. 무슨 비밀이 기다리고 있는지 밝혀내자고.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67462d52d129aa9ebc6eb98d startedMessageText",
+        "source": "Friend, our raid went off without a hitch. The TerraGroup building was swarming with targets, but they scattered like insects after shots were fired. However, something peculiar caught my attention inside... Behind a locked door, I heard a familiar sound - an enigma I couldn't unravel. I attempted to breach the door but my shotgun did nothing. There's definitely something unusual happening behind it. I consulted an acquaintance skilled in the art of lockpicking. He mentioned a key known mysteriously as the something 'Meeting Room Key' that should get you in. Find this key. The room lies deep within the TerraGroup security post building on Tarkov's streets. Discover what secrets await inside.",
+        "translation": "친구, 습격은 아무 문제 없이 진행됐다. 테라그룹 건물에는 적 들이 우글거리긴 했는데, 습격이 시작되자마자 벌레처럼 흩어지더군. 그런데, 안쪽에서 뭔가 기묘한 것이 있었어. 잠긴 문 뒤에서 내가 풀 수 없는 수수께끼 같은 소리가 울리더라고. 문을 부수고 들어가보려 했지만 소용없었어. 그 문 뒤에 분명히 뭔가 있어. 자물쇠 전문가를 데려왔는데, 이 문은 'meeting room key' 라는 열쇠로 열린다는군. 이 열쇠를 찾아. 그 방은 타르코프 시내의 테라그룹 보안 시설 건물에 있어. 무슨 비밀이 기다리고 있는지 밝혀내자고."
+      },
+      {
+        "key": "67462d52d129aa9ebc6eb98d successMessageText",
+        "source": "The computer won't POST? That sounds like the EMP attack, that 'Blue Fire' incident. I'll send some of my men to retrieve any intel they can recover from it and keep you updated.",
+        "translation": "블루스크린... 이라고? EMP 공격 같은데.. '푸른 불' 사건에 대해 너도 들어봤을테지. 내 부하들을 보내서 건질 게 있는지 살펴보고 알려주도록 하지."
+      },
+      {
+        "key": "67462d52d129aa9ebc6eb98d acceptPlayerMessage",
+        "source": "Friend, our raid went off without a hitch. The TerraGroup building was swarming with targets, but they scattered like insects after shots were fired. However, something peculiar caught my attention inside... Behind a locked door, I heard a familiar sound - an enigma I couldn't unravel. I attempted to breach the door but my shotgun did nothing. There's definitely something unusual happening behind it. I consulted an acquaintance skilled in the art of lockpicking. He mentioned a key known mysteriously as the something 'Meeting Room Key' that should get you in. Find this key. The room lies deep within the TerraGroup security post building on Tarkov's streets. Discover what secrets await inside.",
+        "translation": "친구, 습격은 아무 문제 없이 진행됐다. 테라그룹 건물에는 적 들이 우글거리긴 했는데, 습격이 시작되자마자 벌레처럼 흩어지더군. 그런데, 안쪽에서 뭔가 기묘한 것이 있었어. 잠긴 문 뒤에서 내가 풀 수 없는 수수께끼 같은 소리가 울리더라고. 문을 부수고 들어가보려 했지만 소용없었어. 그 문 뒤에 분명히 뭔가 있어. 자물쇠 전문가를 데려왔는데, 이 문은 'meeting room key' 라는 열쇠로 열린다는군. 이 열쇠를 찾아. 그 방은 타르코프 시내의 테라그룹 보안 시설 건물에 있어. 무슨 비밀이 기다리고 있는지 밝혀내자고."
+      },
+      {
+        "key": "67462d52d129aa9ebc6eb98d completePlayerMessage",
+        "source": "The computer won't POST? That sounds like the EMP attack, that 'Blue Fire' incident. I'll send some of my men to retrieve any intel they can recover from it and keep you updated.",
+        "translation": "블루스크린... 이라고? EMP 공격 같은데.. '푸른 불' 사건에 대해 너도 들어봤을테지. 내 부하들을 보내서 건질 게 있는지 살펴보고 알려주도록 하지."
+      },
+      {
+        "key": "67462f58a62a3b319b3564bb",
+        "source": "Interrogate and Eliminate 3 of Artem's old crewmates (Cultist Preists) in Customs",
+        "translation": "세관(Customs)에서 아르템의 전 동료들(컬티스트 사제)을 고문하고 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67462fc9793fa8830b575191",
+        "source": "Hand over 1 found in raid Intelligence folder",
+        "translation": "레이드에서 발견한 [Intelligence 정보 파일] 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67463059a075ba4f50c0e396 name",
+        "source": "Gathering Information - Part 1",
+        "translation": "정보 수집 - 파트 1",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67463059a075ba4f50c0e396 description",
+        "source": "My crew found out two things - One, Dennis has become entangled in this somehow. It suggests we've stumbled onto something serious. He shared details about those mysterious blue tapes you witnessed playing in the meeting room. It seems they're preparing for another EMP attack on Tarkov, but there's a crucial missing piece to this puzzle that eludes me. Two, I've also received word about members of my former crew lurking in the shadows of Customs warehouses, perhaps even collaborating with the Goons at the Fortress. Head there under the cover of night, and take these with you.",
+        "translation": "친구, 내 부하들이 2가지를 알아냈다. 첫 째, 데니스가 이 일에 말려들었다. 우리가 무언가 심각한 일에 빠졌음을 암시하는거지. 그 방에서 재생되던 푸른 영상에 대해 자세히 알려주더라고. 그 놈들이 다시 EMP 공격을 준비하는 거 같은데, 한 가지 중요한 퍼즐 조각이 우리를 혼란스럽게 하고 있어. 둘 째, 내 전 부하들이 세관의 창고에 둥지를 틀었다는 소식을 들었어. 신골조에서 군즈와 협업할 가능성도 있지. 밤의 어둠속에서 그곳으로 가봐. 이것도 챙겨가.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67463059a075ba4f50c0e396 startedMessageText",
+        "source": "My crew found out two things - One, Dennis has become entangled in this somehow. It suggests we've stumbled onto something serious. He shared details about those mysterious blue tapes you witnessed playing in the meeting room. It seems they're preparing for another EMP attack on Tarkov, but there's a crucial missing piece to this puzzle that eludes me. Two, I've also received word about members of my former crew lurking in the shadows of Customs warehouses, perhaps even collaborating with the Goons at the Fortress. Head there under the cover of night, and take these with you.",
+        "translation": "친구, 내 부하들이 2가지를 알아냈다. 첫 째, 데니스가 이 일에 말려들었다. 우리가 무언가 심각한 일에 빠졌음을 암시하는거지. 그 방에서 재생되던 푸른 영상에 대해 자세히 알려주더라고. 그 놈들이 다시 EMP 공격을 준비하는 거 같은데, 한 가지 중요한 퍼즐 조각이 우리를 혼란스럽게 하고 있어. 둘 째, 내 전 부하들이 세관의 창고에 둥지를 틀었다는 소식을 들었어. 신골조에서 군즈와 협업할 가능성도 있지. 밤의 어둠속에서 그곳으로 가봐. 이것도 챙겨가."
+      },
+      {
+        "key": "67463059a075ba4f50c0e396 successMessageText",
+        "source": "So they really are preparing for yet another EMP attack. Those bastards were after the dumped barrels in Customs, the ones you marked before. We have to find out what these barrels contain. Friend, you've exceeded my expectations yet again. I'll send someone to contact you.",
+        "translation": "그 놈들이 정말로 또 EMP 공격을 계획하고 있었군. 저 개자식들이 너가 전에 마커를 설치했던 드럼통을 쫓고있었어. 그 통에 무슨 액체가 담겨있는지 알아내야 해. 친구, 내 예상을 또 뛰어넘었구만. 곧 사람을 보내지."
+      },
+      {
+        "key": "67463059a075ba4f50c0e396 acceptPlayerMessage",
+        "source": "My crew found out two things - One, Dennis has become entangled in this somehow. It suggests we've stumbled onto something serious. He shared details about those mysterious blue tapes you witnessed playing in the meeting room. It seems they're preparing for another EMP attack on Tarkov, but there's a crucial missing piece to this puzzle that eludes me. Two, I've also received word about members of my former crew lurking in the shadows of Customs warehouses, perhaps even collaborating with the Goons at the Fortress. Head there under the cover of night, and take these with you.",
+        "translation": "친구, 내 부하들이 2가지를 알아냈다. 첫 째, 데니스가 이 일에 말려들었다. 우리가 무언가 심각한 일에 빠졌음을 암시하는거지. 그 방에서 재생되던 푸른 영상에 대해 자세히 알려주더라고. 그 놈들이 다시 EMP 공격을 준비하는 거 같은데, 한 가지 중요한 퍼즐 조각이 우리를 혼란스럽게 하고 있어. 둘 째, 내 전 부하들이 세관의 창고에 둥지를 틀었다는 소식을 들었어. 신골조에서 군즈와 협업할 가능성도 있지. 밤의 어둠속에서 그곳으로 가봐. 이것도 챙겨가."
+      },
+      {
+        "key": "67463059a075ba4f50c0e396 completePlayerMessage",
+        "source": "So they really are preparing for yet another EMP attack. Those bastards were after the missing barrels in Customs, the ones you marked before. We have to find out what kind of fluids these barrels contain. Friend, you've exceeded my expectations yet again. I'll send someone to contact you.",
+        "translation": "그 놈들이 정말로 또 EMP 공격을 계획하고 있었군. 저 개자식들이 너가 전에 마커를 설치했던 드럼통을 쫓고있었어. 그 통에 무슨 액체가 담겨있는지 알아내야 해. 친구, 내 예상을 또 뛰어넘었구만. 곧 사람을 보내지."
+      },
+      {
+        "key": "674630c61bb1bb66f2156078",
+        "source": "Visit the tents in the main working area",
+        "translation": "주 작업장에 있는 텐트 방문하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "674630f3cd249ef58fbe3b32",
+        "source": "Analyze the unknown green material with a Gas analyzer",
+        "translation": "[Gas analyzer 가스 분석기]를 이용하여 초록색 물질을 분석하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6746310e33b395c9d5e8c134",
+        "source": "Mark the laptop that was left behind in the locked office",
+        "translation": "잠긴 사무실에 남겨진 노트북에 MS2000 마커 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "674631226ad83f6bf4c18d26",
+        "source": "Eliminate 2 Raiders",
+        "translation": "레이더 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6746319d051c463a810728fc name",
+        "source": "Gathering Information - Part 2",
+        "translation": "정보 수집 - 파트 2",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6746319d051c463a810728fc description",
+        "source": "Pal, it's time for you to visit the Lab. My last crew unfortunately didn't make it back from their expedition down there, but we did manage to retrieve some valuable information related to our operation. Before they exited, one of them spotted an unknown material spilled all over the yellow tent, but had no means of analyzing whatever it was. Bring a gas analyzer and study it. They also discovered a laptop emitting similar signals to the one Sanitar had in his wardrobe, behind a locked door. The crew mentioned a glassed meeting room, and that's where our conversation ended, so pick up your gear, prepare, and retrieve the information. Good luck, friend.",
+        "translation": "친구, 내 부하가 연구소에서 마지막에 살아나오지 못했다. 해서, 너가 가서 마무리를 지어야겠어. 블라디미르가 출구 바로 앞에서 중요한 정보를 보냈어. 노란색 텐트에서 액체인지 뭔가 좀 끈적거리는게 쏟아져 있는걸 봤는데 분석할 수단이 없었다고 보내왔다. 그래서 아마 가스 분석기를 챙겨가는게 좋을 거야. 또 잠긴 문 뒤에 세니타의 것과 비슷한 신호를 발산하는 노트북을 발견했대. 문은 잠겨 있었고, 옷장 안에 들어있었으며, 그 놈의 따까리들이 유리로 된 미팅 룸에 대해 언급한다고도 하더군. 장비 챙기고 준비해. 정보를 찾아오라고 친구.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6746319d051c463a810728fc startedMessageText",
+        "source": "Pal, it's time for you to visit the Lab. My last crew unfortunately didn't make it back from their expedition down there, but we did manage to retrieve some valuable information related to our operation. Before they exited, one of them spotted an unknown material spilled all over the yellow tent, but had no means of analyzing whatever it was. Bring a gas analyzer and study it. They also discovered a laptop emitting similar signals to the one Sanitar had in his wardrobe, behind a locked door. The crew mentioned a glassed meeting room, and that's where our conversation ended, so pick up your gear, prepare, and retrieve the information. Good luck, friend.",
+        "translation": "친구, 내 부하가 연구소에서 마지막에 살아나오지 못했다. 해서, 너가 가서 마무리를 지어야겠어. 블라디미르가 출구 바로 앞에서 중요한 정보를 보냈어. 노란색 텐트에서 액체인지 뭔가 좀 끈적거리는게 쏟아져 있는걸 봤는데 분석할 수단이 없었다고 보내왔다. 그래서 아마 가스 분석기를 챙겨가는게 좋을 거야. 또 잠긴 문 뒤에 세니타의 것과 비슷한 신호를 발산하는 노트북을 발견했대. 문은 잠겨 있었고, 옷장 안에 들어있었으며, 그 놈의 따까리들이 유리로 된 미팅 룸에 대해 언급한다고도 하더군. 장비 챙기고 준비해. 정보를 찾아오라고 친구."
+      },
+      {
+        "key": "6746319d051c463a810728fc successMessageText",
+        "source": "I was right all along... These sons of bitches are preparing an assault on the entire district once again... This one could be more dangerous than we think my friend, lay low til we meet again.",
+        "translation": "내가 맞았군. 이 개새끼들이 온 동네에 또 대규모 공격을 계획하고 있었어. 우리 생각보다 더 위험할 수 있겠어 친구.. 다시 볼 때까지 몸 조심하라고."
+      },
+      {
+        "key": "6746319d051c463a810728fc acceptPlayerMessage",
+        "source": "Pal, it's time for you to visit the Lab. My last crew unfortunately didn't make it back from their expedition down there, but we did manage to retrieve some valuable information related to our operation. Before they exited, one of them spotted an unknown material spilled all over the yellow tent, but had no means of analyzing whatever it was. Bring a gas analyzer and study it. They also discovered a laptop emitting similar signals to the one Sanitar had in his wardrobe, behind a locked door. The crew mentioned a glassed meeting room, and that's where our conversation ended, so pick up your gear, prepare, and retrieve the information. Good luck, friend.",
+        "translation": "친구, 내 부하가 연구소에서 마지막에 살아나오지 못했다. 해서, 너가 가서 마무리를 지어야겠어. 블라디미르가 출구 바로 앞에서 중요한 정보를 보냈어. 노란색 텐트에서 액체인지 뭔가 좀 끈적거리는게 쏟아져 있는걸 봤는데 분석할 수단이 없었다고 보내왔다. 그래서 아마 가스 분석기를 챙겨가는게 좋을 거야. 또 잠긴 문 뒤에 세니타의 것과 비슷한 신호를 발산하는 노트북을 발견했대. 문은 잠겨 있었고, 옷장 안에 들어있었으며, 그 놈의 따까리들이 유리로 된 미팅 룸에 대해 언급한다고도 하더군. 장비 챙기고 준비해. 정보를 찾아오라고 친구."
+      },
+      {
+        "key": "6746319d051c463a810728fc completePlayerMessage",
+        "source": "I was right all along... These sons of bitches are preparing an assault on the entire district once again... This one could be more dangerous than we think my friend, lay low til we meet again.",
+        "translation": "내가 맞았군. 이 개새끼들이 온 동네에 또 대규모 공격을 계획하고 있었어. 우리 생각보다 더 위험할 수 있겠어 친구.. 다시 볼 때까지 몸 조심하라고."
+      },
+      {
+        "key": "674632206aff14b59784d30d",
+        "source": "Visit the northeastern server group in the server room in the Lab",
+        "translation": "연구소(The Lab)의 북동쪽 서버 방문하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67463229a40f6273c07e8a20",
+        "source": "Use the USB Groovey Duck to download the data off the server racks",
+        "translation": "[Groovey's Flash Drive]를 이용하여 데이터 다운로드 하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67463262ce24b0014b2a9c31",
+        "source": "Visit the server rack in the tents in the main working area in the Lab",
+        "translation": "연구소(The Lab)의 주 작업장에 있는 텐트의 서버 방문하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67463268bfa2a833920da039",
+        "source": "Use the USB Groovey Duck to download the data off the server rack",
+        "translation": "[Groovey's Flash Drive]를 이용하여 데이터 다운로드 하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "674632dba577ce8f27eb45bf",
+        "source": "Visit Sanitar's workplace in The Lab",
+        "translation": "연구소(The Lab)의 세니타의 작업 공간 방문하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "674632ea2888928b51476eb3",
+        "source": "Use the USB Groovey Duck to download the data off Sanitar's laptop",
+        "translation": "[Groovey's Flash Drive]를 이용하여 세니타의 노트북의 데이터 다운로드 하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "67464750efd379bfffb1d539 name",
+        "source": "Gathering Information - Part 3",
+        "translation": "정보 수집 - 파트 3",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "67464750efd379bfffb1d539 description",
+        "source": "It's time to hit TerraGroup, but we need to hit hard. Samoylov and I developed a more stable and efficient version of a USB Rubber Duck - lets call it a USB Groovey Duck. On your last journey in Labs, you most likely have already stumbled upon the numerous server racks scattered around. Plug it in and dump all the intel you can. We need this information for our coming assault on TerraGroup. Oh, last but not least, head over to Sanitar's workplace - you should be able to find more valuable information about his connections with Khabibullina. Be careful upon exiting and avoid getting shot, it's heavily patrolled by Raiders and PMCs.",
+        "translation": "테라그룹을 다시 칠 거야. 아주 제대로. 세르게이(메카닉)와 내가 좀 더 안정적이고 효율적인 '고무 오리 USB' 를 만들어냈어. 연구소에 도착하면, 아마 수많은 서버 컴퓨터에 정신이 혼미해질거다. USB를 꽂아 넣고 할 수 있는 한 모든 데이터를 설치해줘. 테라그룹에 공격을 감행하기 위해 꼭 필요한 정보들이야. 마지막으로, 세니타의 작업 공간에서 세니타와 엘비라의 연결 고리에 대해 알 수 있게 될거야. 탈출할 때 총 안 맞게 조심해. 레이더랑 PMC들이 득시글거리니깐.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "67464750efd379bfffb1d539 startedMessageText",
+        "source": "It's time to hit TerraGroup, but we need to hit hard. Samoylov and I developed a more stable and efficient version of a USB Rubber Duck - lets call it a USB Groovey Duck. On your last journey in Labs, you most likely have already stumbled upon the numerous server racks scattered around. Plug it in and dump all the intel you can. We need this information for our coming assault on TerraGroup. Oh, last but not least, head over to Sanitar's workplace - you should be able to find more valuable information about his connections with Khabibullina. Be careful upon exiting and avoid getting shot, it's heavily patrolled by Raiders and PMCs.",
+        "translation": "테라그룹을 다시 칠 거야. 아주 제대로. 세르게이(메카닉)와 내가 좀 더 안정적이고 효율적인 '고무 오리 USB' 를 만들어냈어. 연구소에 도착하면, 아마 수많은 서버 컴퓨터에 정신이 혼미해질거다. USB를 꽂아 넣고 할 수 있는 한 모든 데이터를 설치해줘. 테라그룹에 공격을 감행하기 위해 꼭 필요한 정보들이야. 마지막으로, 세니타의 작업 공간에서 세니타와 엘비라의 연결 고리에 대해 알 수 있게 될거야. 탈출할 때 총 안 맞게 조심해. 레이더랑 PMC들이 득시글거리니깐."
+      },
+      {
+        "key": "67464750efd379bfffb1d539 successMessageText",
+        "source": "Impressive work. Sergey decrypted the flash drives and found a particular file titled 'False Prophets'... I'll gather some more intel and will contact you shortly. You did very well, my friend, and showed great loyalty. Until next time then, lay low.",
+        "translation": "훌륭해. 세르게이가 데이터를 해독하고 '거짓 예언가들' 이라는 파일을 찾아냈어. 정보를 더 취합해보고 연락할게. 아주 잘해줬어 친구. 날 위해 일 해줘서 고맙군. 다시 볼 때까지 몸 조심하라고."
+      },
+      {
+        "key": "67464750efd379bfffb1d539 acceptPlayerMessage",
+        "source": "It's time to hit TerraGroup, but we need to hit hard. Samoylov and I developed a more stable and efficient version of a USB Rubber Duck - lets call it a USB Groovey Duck. On your last journey in Labs, you most likely have already stumbled upon the numerous server racks scattered around. Plug it in and dump all the intel you can. We need this information for our coming assault on TerraGroup. Oh, last but not least, head over to Sanitar's workplace - you should be able to find more valuable information about his connections with Khabibullina. Be careful upon exiting and avoid getting shot, it's heavily patrolled by Raiders and PMCs.",
+        "translation": "테라그룹을 다시 칠 거야. 아주 제대로. 세르게이(메카닉)와 내가 좀 더 안정적이고 효율적인 '고무 오리 USB' 를 만들어냈어. 연구소에 도착하면, 아마 수많은 서버 컴퓨터에 정신이 혼미해질거다. USB를 꽂아 넣고 할 수 있는 한 모든 데이터를 설치해줘. 테라그룹에 공격을 감행하기 위해 꼭 필요한 정보들이야. 마지막으로, 세니타의 작업 공간에서 세니타와 엘비라의 연결 고리에 대해 알 수 있게 될거야. 탈출할 때 총 안 맞게 조심해. 레이더랑 PMC들이 득시글거리니깐."
+      },
+      {
+        "key": "67464750efd379bfffb1d539 completePlayerMessage",
+        "source": "Impressive work. Sergey decrypted the flash drives and found a particular file titled 'False Prophets'... I'll gather some more intel and will contact you shortly. You did very well, my friend, and showed great loyalty. Until next time then, lay low.",
+        "translation": "훌륭해. 세르게이가 데이터를 해독하고 '거짓 예언가들' 이라는 파일을 찾아냈어. 정보를 더 취합해보고 연락할게. 아주 잘해줬어 친구. 날 위해 일 해줘서 고맙군. 다시 볼 때까지 몸 조심하라고."
+      },
+      {
+        "key": "6746485ae73b85928ee918af",
+        "source": "Eliminate Tagilla",
+        "translation": "타길라를 고문하고 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "674648be9a84445f06fcde32",
+        "source": "Eliminate Killa",
+        "translation": "킬라를 고문하고 사살하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "674652a3507f4bb1aecd1086 name",
+        "source": "False Prophets - Part 1",
+        "translation": "거짓 예언가들 - 파트 1",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "674652a3507f4bb1aecd1086 description",
+        "source": "Buddy, glad to see you once again. Sit down. Sergey discovered some information about two of the so-called 'False Prophets.' It seems they are a group of men who hold enough power to influence weak-minded people, earning their trust with mere charisma. One of these guys used to work as a janitor at Chemical Plant No. 16, the other  They are brothers, no idea of their real names but they go by 'Killa' and 'Tagilla', two very powerful figures here in Tarkov. Locate them in order to reveal the location of our next 'False Prophet'.",
+        "translation": "다시 보니 반갑군. 앉아. 세르게이가 '거짓 예언가들'에 관해 조금 더 알아냈어. 이 예언가라는 놈들은 그냥 평범한 사람들이 카리스마 하나만 가지고 마음이 약하거나 아픈 사람들에게 영향을 끼치는 그런 놈들로 보여. 이 중에 한 놈은 16번 화학 시설에서 일했는데, 어딘지 알지? 그래, 공장. 그 놈들의 본명은 알려지지 않았지만 '타길라'와 '킬라'라는 별명으로 불린다는군. 이 타르코프에서 강함의 상징을 가진 놈들에 속해있지. 그 놈들을 찾아서 고문하고, '거짓 예언가들'의 위치를 알아내.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "674652a3507f4bb1aecd1086 startedMessageText",
+        "source": "Buddy, glad to see you once again. Sit down. Sergey discovered some information about two of the so-called 'False Prophets.' It seems they are a group of men who hold enough power to influence weak-minded people, earning their trust with mere charisma. One of these guys used to work as a janitor at Chemical Plant No. 16, the Factory. They are brothers, no idea of their real names but they go by 'Killa' and 'Tagilla', two very powerful figures here in Tarkov. Locate them in order to reveal the location of our next 'False Prophet'.",
+        "translation": "다시 보니 반갑군. 앉아. 세르게이가 '거짓 예언가들'에 관해 조금 더 알아냈어. 이 예언가라는 놈들은 그냥 평범한 사람들이 카리스마 하나만 가지고 마음이 약하거나 아픈 사람들에게 영향을 끼치는 그런 놈들로 보여. 이 중에 한 놈은 16번 화학 시설에서 일했는데, 어딘지 알지? 그래, 공장. 그 놈들의 본명은 알려지지 않았지만 '타길라'와 '킬라'라는 별명으로 불린다는군. 이 타르코프에서 강함의 상징을 가진 놈들에 속해있지. 그 놈들을 찾아서 고문하고, '거짓 예언가들'의 위치를 알아내."
+      },
+      {
+        "key": "674652a3507f4bb1aecd1086 successMessageText",
+        "source": "A rumor about a deal with Kaban, you say? I think the Big Brother might know a thing or two about that. I'll give you a signal when to strike; until then, lay low. [TO BE MAYBE CONTINUED...]",
+        "translation": "카반과의 거래에 관한 루머가 돈다고? 빅 브라더가 아마 거래에 대한 걸 좀 알고 있을 거 같은데. 공격할 때에 신호를 주지. 그 때까지 몸 조심해."
+      },
+      {
+        "key": "674652a3507f4bb1aecd1086 acceptPlayerMessage",
+        "source": "Buddy, glad to see you once again. Sit down. Sergey discovered some information about two of the so-called 'False Prophets.' It seems they are a group of men who hold enough power to influence weak-minded people, earning their trust with mere charisma. One of these guys used to work as a janitor at Chemical Plant No. 16, the Factory. They are brothers, no idea of their real names but they go by 'Killa' and 'Tagilla', two very powerful figures here in Tarkov. Locate them in order to reveal the location of our next 'False Prophet'.",
+        "translation": "다시 보니 반갑군. 앉아. 세르게이가 '거짓 예언가들'에 관해 조금 더 알아냈어. 이 예언가라는 놈들은 그냥 평범한 사람들이 카리스마 하나만 가지고 마음이 약하거나 아픈 사람들에게 영향을 끼치는 그런 놈들로 보여. 이 중에 한 놈은 16번 화학 시설에서 일했는데, 어딘지 알지? 그래, 공장. 그 놈들의 본명은 알려지지 않았지만 '타길라'와 '킬라'라는 별명으로 불린다는군. 이 타르코프에서 강함의 상징을 가진 놈들에 속해있지. 그 놈들을 찾아서 고문하고, '거짓 예언가들'의 위치를 알아내."
+      },
+      {
+        "key": "674652a3507f4bb1aecd1086 completePlayerMessage",
+        "source": "A rumor about a deal with Kaban, you say? I think the Big Brother might know what he's talking about. I'll give you a signal when to strike; until then, lay low. [TO BE MAYBE CONTINUED...]",
+        "translation": "카반과의 거래에 관한 루머가 돈다고? 빅 브라더가 아마 거래에 대한 걸 좀 알고 있을 거 같은데. 공격할 때에 신호를 주지. 그 때까지 몸 조심해."
+      },
+      {
+        "key": "674db078f4912ace3ebf8793 Name",
+        "source": "ACE GEN.2 WINTER COMBAT SHIRT (Dark)",
+        "translation": "ACE GEN.2 겨울 전투 셔츠 (어두운색)"
+      },
+      {
+        "key": "674db078f4912ace3ebf8793 Description",
+        "source": "ACE GEN.2 WINTER COMBAT SHIRT",
+        "translation": "ACE GEN.2 겨울 전투 셔츠입니다."
+      },
+      {
+        "key": "674db078f4912ace3ebf8793",
+        "source": "ACE GEN.2 WINTER COMBAT SHIRT (Dark)",
+        "translation": "ACE GEN.2 겨울 전투 셔츠 (어두운색)"
+      },
+      {
+        "key": "674db0a8f62bee38e1440829 Name",
+        "source": "G4 COMBAT SHIRT (Olive)",
+        "translation": "G4 전투 셔츠 (올리브색)"
+      },
+      {
+        "key": "674db0a8f62bee38e1440829 Description",
+        "source": "G4 COMBAT SHIRT",
+        "translation": "G4 전투 셔츠입니다."
+      },
+      {
+        "key": "674db0a8f62bee38e1440829",
+        "source": "G4 COMBAT SHIRT (Olive)",
+        "translation": "G4 전투 셔츠 (올리브색)"
+      },
+      {
+        "key": "674db0dcd271f09068f53cab Name",
+        "source": "Urban Shirt (Black)",
+        "translation": "어반 셔츠 (검은색)"
+      },
+      {
+        "key": "674db0dcd271f09068f53cab Description",
+        "source": "A black Urban Shirt",
+        "translation": "검은색 어반 셔츠입니다."
+      },
+      {
+        "key": "674db0dcd271f09068f53cab",
+        "source": "Urban Shirt (Black)",
+        "translation": "어반 셔츠 (검은색)"
+      },
+      {
+        "key": "674db11df3c0952a63b17ae5 Name",
+        "source": "G4 COMBAT SHIRT (Grey)",
+        "translation": "G4 전투 셔츠 (회색)"
+      },
+      {
+        "key": "674db11df3c0952a63b17ae5 Description",
+        "source": "G4 COMBAT SHIRT (Grey)",
+        "translation": "G4 전투 셔츠 (회색)입니다."
+      },
+      {
+        "key": "674db11df3c0952a63b17ae5",
+        "source": "G4 COMBAT SHIRT (Grey)",
+        "translation": "G4 전투 셔츠 (회색)"
+      },
+      {
+        "key": "674db1493e9d1193424b57f6 Name",
+        "source": "G4 COMBAT SHIRT (Cyan)",
+        "translation": "G4 전투 셔츠 (청록색)"
+      },
+      {
+        "key": "674db1493e9d1193424b57f6 Description",
+        "source": "G4 COMBAT SHIRT",
+        "translation": "G4 전투 셔츠입니다."
+      },
+      {
+        "key": "674db1493e9d1193424b57f6",
+        "source": "G4 COMBAT SHIRT (Cyan)",
+        "translation": "G4 전투 셔츠 (청록색)"
+      },
+      {
+        "key": "674db174e03f16af5f1a3d37 Name",
+        "source": "G3 Combat Shirt (Ranger Green)",
+        "translation": "G3 전투 셔츠 (레인저 그린)"
+      },
+      {
+        "key": "674db174e03f16af5f1a3d37 Description",
+        "source": "G3 Combat Shirt",
+        "translation": "G3 전투 셔츠입니다."
+      },
+      {
+        "key": "674db174e03f16af5f1a3d37",
+        "source": "G3 Combat Shirt (Ranger Green)",
+        "translation": "G3 전투 셔츠 (레인저 그린)"
+      },
+      {
+        "key": "674db1b1552c7fa1b6d8181d Name",
+        "source": "G3 Combat Shirt (Multicam)",
+        "translation": "G3 전투 셔츠 (멀티캠)"
+      },
+      {
+        "key": "674db1b1552c7fa1b6d8181d Description",
+        "source": "G3 Combat Shirt",
+        "translation": "G3 전투 셔츠입니다."
+      },
+      {
+        "key": "674db1b1552c7fa1b6d8181d",
+        "source": "G3 Combat Shirt (Multicam)",
+        "translation": "G3 전투 셔츠 (멀티캠)"
+      },
+      {
+        "key": "674db1c04e9c0b342a6c9c40 Name",
+        "source": "Welcome to Tarkov T-shirt",
+        "translation": "타르코프에 온 것을 환영합니다 티셔츠"
+      },
+      {
+        "key": "674db1c04e9c0b342a6c9c40 Description",
+        "source": "Welcome to Tarkov T-shirt",
+        "translation": "타르코프에 온 것을 환영합니다 티셔츠입니다."
+      },
+      {
+        "key": "674db1c04e9c0b342a6c9c40",
+        "source": "Welcome to Tarkov T-shirt",
+        "translation": "타르코프에 온 것을 환영합니다 티셔츠"
+      },
+      {
+        "key": "674db1f34d7d79c71727a107 Name",
+        "source": "Black Hoodie - Cultists",
+        "translation": "검은색 후드티 - 컬티스트"
+      },
+      {
+        "key": "674db1f34d7d79c71727a107 Description",
+        "source": "Black Hoodie",
+        "translation": "검은색 후드티입니다."
+      },
+      {
+        "key": "674db1f34d7d79c71727a107",
+        "source": "Black Hoodie - Cultists",
+        "translation": "검은색 후드티 - 컬티스트"
+      },
+      {
+        "key": "674db217bb5d83dfbbf49108 Name",
+        "source": "Black Hoodie - O7S",
+        "translation": "검은색 후드티 - O7S"
+      },
+      {
+        "key": "674db217bb5d83dfbbf49108 Description",
+        "source": "Black Hoodie",
+        "translation": "검은색 후드티입니다."
+      },
+      {
+        "key": "674db217bb5d83dfbbf49108",
+        "source": "Black Hoodie - O7S",
+        "translation": "검은색 후드티 - O7S"
+      },
+      {
+        "key": "674db21f61ae53e4dc7ec35a Name",
+        "source": "Flannel Shirt (Gray)",
+        "translation": "플란넬 셔츠 (회색)"
+      },
+      {
+        "key": "674db21f61ae53e4dc7ec35a Description",
+        "source": "Flannel Shirt",
+        "translation": "플란넬 셔츠입니다."
+      },
+      {
+        "key": "674db21f61ae53e4dc7ec35a",
+        "source": "Flannel Shirt (Gray)",
+        "translation": "플란넬 셔츠 (회색)"
+      },
+      {
+        "key": "674db2350cdb0db26620be98 Name",
+        "source": "Flannel Shirt (Green)",
+        "translation": "플란넬 셔츠 (녹색)"
+      },
+      {
+        "key": "674db2350cdb0db26620be98 Description",
+        "source": "Flannel Shirt",
+        "translation": "플란넬 셔츠입니다."
+      },
+      {
+        "key": "674db2350cdb0db26620be98",
+        "source": "Flannel Shirt (Green)",
+        "translation": "플란넬 셔츠 (녹색)"
+      },
+      {
+        "key": "674db254f22140c056f4b1c2 Name",
+        "source": "Flannel Shirt (Red)",
+        "translation": "플란넬 셔츠 (빨간색)"
+      },
+      {
+        "key": "674db254f22140c056f4b1c2 Description",
+        "source": "Flannel Shirt",
+        "translation": "플란넬 셔츠입니다."
+      },
+      {
+        "key": "674db254f22140c056f4b1c2",
+        "source": "Flannel Shirt (Red)",
+        "translation": "플란넬 셔츠 (빨간색)"
+      },
+      {
+        "key": "674db26faf05298728cb8154 Name",
+        "source": "Black Urban Shirt (Starvox)",
+        "translation": "검은색 어반 셔츠 (Starvox)"
+      },
+      {
+        "key": "674db26faf05298728cb8154 Description",
+        "source": "Black Urban Shirt",
+        "translation": "검은색 어반 셔츠입니다."
+      },
+      {
+        "key": "674db26faf05298728cb8154",
+        "source": "Black Urban Shirt (Starvox)",
+        "translation": "검은색 어반 셔츠 (Starvox)"
+      },
+      {
+        "key": "674db288486f5919d64a0e10 Name",
+        "source": "Softshell (Alpine MC)",
+        "translation": "소프트쉘 (알파인 멀티캠)"
+      },
+      {
+        "key": "674db288486f5919d64a0e10 Description",
+        "source": "Softshell (Alpine MC)",
+        "translation": "소프트쉘 (알파인 멀티캠)입니다."
+      },
+      {
+        "key": "674db288486f5919d64a0e10",
+        "source": "Softshell (Alpine MC)",
+        "translation": "소프트쉘 (알파인 멀티캠)"
+      },
+      {
+        "key": "674db29928143a4e2f74368c Name",
+        "source": "Troubleshooter",
+        "translation": "트러블슈터"
+      },
+      {
+        "key": "674db29928143a4e2f74368c Description",
+        "source": "Troubleshooter",
+        "translation": "트러블슈터입니다."
+      },
+      {
+        "key": "674db29928143a4e2f74368c",
+        "source": "Troubleshooter",
+        "translation": "트러블슈터"
+      },
+      {
+        "key": "674db2bdae57c5d221878697 Name",
+        "source": "Berserk T-Shirt",
+        "translation": "베르세르크 티셔츠"
+      },
+      {
+        "key": "674db2bdae57c5d221878697 Description",
+        "source": "Berserk T-Shirt",
+        "translation": "베르세르크 티셔츠입니다."
+      },
+      {
+        "key": "674db2bdae57c5d221878697",
+        "source": "Berserk T-Shirt",
+        "translation": "베르세르크 티셔츠"
+      },
+      {
+        "key": "674db2d14589dba8051e9c76 Name",
+        "source": "Ghillie Jacket (Brown)",
+        "translation": "길리 재킷 (갈색)"
+      },
+      {
+        "key": "674db2d14589dba8051e9c76 Description",
+        "source": "Ghillie Jacket (Brown)",
+        "translation": "길리 재킷 (갈색)입니다."
+      },
+      {
+        "key": "674db2d14589dba8051e9c76",
+        "source": "Ghillie Jacket (Brown)",
+        "translation": "길리 재킷 (갈색)"
+      },
+      {
+        "key": "674db2fdd19ef72241cdf761 Name",
+        "source": "Ghillie Jacket (Alpine)",
+        "translation": "길리 재킷 (알파인)"
+      },
+      {
+        "key": "674db2fdd19ef72241cdf761 Description",
+        "source": "Ghillie Jacket (Alpine)",
+        "translation": "길리 재킷 (알파인)입니다."
+      },
+      {
+        "key": "674db2fdd19ef72241cdf761",
+        "source": "Ghillie Jacket (Alpine)",
+        "translation": "길리 재킷 (알파인)"
+      },
+      {
+        "key": "674db35f60ca2516fcea7e58 Name",
+        "source": "Navy Blue T-Shirt",
+        "translation": "네이비 블루 티셔츠"
+      },
+      {
+        "key": "674db35f60ca2516fcea7e58 Description",
+        "source": "Navy Blue T-Shirt",
+        "translation": "네이비 블루 티셔츠입니다."
+      },
+      {
+        "key": "674db35f60ca2516fcea7e58",
+        "source": "Navy Blue T-Shirt",
+        "translation": "네이비 블루 티셔츠"
+      },
+      {
+        "key": "674db36c60dfaddef81cf8f3 Name",
+        "source": "Ranger Green T-Shirt",
+        "translation": "레인저 그린 티셔츠"
+      },
+      {
+        "key": "674db36c60dfaddef81cf8f3 Description",
+        "source": "Ranger Green T-Shirt",
+        "translation": "레인저 그린 티셔츠입니다."
+      },
+      {
+        "key": "674db36c60dfaddef81cf8f3",
+        "source": "Ranger Green T-Shirt",
+        "translation": "레인저 그린 티셔츠"
+      },
+      {
+        "key": "674db37b47eb3398a04441d8 Name",
+        "source": "Tanned T-Shirt",
+        "translation": "황갈색 티셔츠"
+      },
+      {
+        "key": "674db37b47eb3398a04441d8 Description",
+        "source": "Tanned T-Shirt",
+        "translation": "황갈색 티셔츠입니다."
+      },
+      {
+        "key": "674db37b47eb3398a04441d8",
+        "source": "Tanned T-Shirt",
+        "translation": "황갈색 티셔츠"
+      },
+      {
+        "key": "674db3a80e161cd0d9f4e18c Name",
+        "source": "Business Casual (Black)",
+        "translation": "비즈니스 캐주얼 (검은색)"
+      },
+      {
+        "key": "674db3a80e161cd0d9f4e18c Description",
+        "source": "Business Casual (Black)",
+        "translation": "비즈니스 캐주얼 (검은색)입니다."
+      },
+      {
+        "key": "674db3a80e161cd0d9f4e18c",
+        "source": "Business Casual (Black)",
+        "translation": "비즈니스 캐주얼 (검은색)"
+      },
+      {
+        "key": "674db3bcfc7152f3999c4dcc Name",
+        "source": "Business Casual (Green)",
+        "translation": "비즈니스 캐주얼 (녹색)"
+      },
+      {
+        "key": "674db3bcfc7152f3999c4dcc Description",
+        "source": "Business Casual (Green)",
+        "translation": "비즈니스 캐주얼 (녹색)입니다."
+      },
+      {
+        "key": "674db3bcfc7152f3999c4dcc",
+        "source": "Business Casual (Green)",
+        "translation": "비즈니스 캐주얼 (녹색)"
+      },
+      {
+        "key": "674db3d2b9a1f8995828e268 Name",
+        "source": "Business Casual (White)",
+        "translation": "비즈니스 캐주얼 (흰색)"
+      },
+      {
+        "key": "674db3d2b9a1f8995828e268 Description",
+        "source": "Business Casual (White)",
+        "translation": "비즈니스 캐주얼 (흰색)입니다."
+      },
+      {
+        "key": "674db3d2b9a1f8995828e268",
+        "source": "Business Casual (White)",
+        "translation": "비즈니스 캐주얼 (흰색)"
+      },
+      {
+        "key": "674db3e736a21cac8baa1bfa Name",
+        "source": "Black Infiltrator",
+        "translation": "블랙 인필트레이터"
+      },
+      {
+        "key": "674db3e736a21cac8baa1bfa Description",
+        "source": "Black Infiltrator",
+        "translation": "블랙 인필트레이터입니다."
+      },
+      {
+        "key": "674db3e736a21cac8baa1bfa",
+        "source": "Black Infiltrator",
+        "translation": "블랙 인필트레이터"
+      },
+      {
+        "key": "674db4262968151affbe7fa3 Name",
+        "source": "Velocity Systems BOSS Rugby Shirt (Black)",
+        "translation": "벨로시티 시스템즈 BOSS 럭비 셔츠 (검은색)"
+      },
+      {
+        "key": "674db4262968151affbe7fa3 Description",
+        "source": "Velocity Systems BOSS Rugby Shirt (Black)",
+        "translation": "벨로시티 시스템즈 BOSS 럭비 셔츠 (검은색)입니다."
+      },
+      {
+        "key": "674db4262968151affbe7fa3",
+        "source": "Velocity Systems BOSS Rugby Shirt (Black)",
+        "translation": "벨로시티 시스템즈 BOSS 럭비 셔츠 (검은색)"
+      },
+      {
+        "key": "674db461cdd4313ecc31efd2 Name",
+        "source": "WTT Tracksuit(Red)",
+        "translation": "WTT 운동복(빨간색)"
+      },
+      {
+        "key": "674db461cdd4313ecc31efd2 Description",
+        "source": "WTT Tracksuit(Red)",
+        "translation": "WTT 운동복(빨간색)입니다."
+      },
+      {
+        "key": "674db461cdd4313ecc31efd2",
+        "source": "WTT Tracksuit(Red)",
+        "translation": "WTT 운동복(빨간색)"
+      },
+      {
+        "key": "674db471959cde470c03142a Name",
+        "source": "WTT Tracksuit(Yellow)",
+        "translation": "WTT 운동복(노란색)"
+      },
+      {
+        "key": "674db471959cde470c03142a Description",
+        "source": "WTT Tracksuit(Yellow)",
+        "translation": "WTT 운동복(노란색)입니다."
+      },
+      {
+        "key": "674db471959cde470c03142a",
+        "source": "WTT Tracksuit(Yellow)",
+        "translation": "WTT 운동복(노란색)"
+      },
+      {
+        "key": "674db4959167f690f677c368 Name",
+        "source": "WTT Tracksuit(White)",
+        "translation": "WTT 운동복(흰색)"
+      },
+      {
+        "key": "674db4959167f690f677c368 Description",
+        "source": "WTT Tracksuit(White)",
+        "translation": "WTT 운동복(흰색)입니다."
+      },
+      {
+        "key": "674db4959167f690f677c368",
+        "source": "WTT Tracksuit(White)",
+        "translation": "WTT 운동복(흰색)"
+      },
+      {
+        "key": "674db4b2ce683bdb6352a9eb Name",
+        "source": "Flannel Shirt (Cyan)",
+        "translation": "플란넬 셔츠 (청록색)"
+      },
+      {
+        "key": "674db4b2ce683bdb6352a9eb Description",
+        "source": "Flannel Shirt (Cyan)",
+        "translation": "플란넬 셔츠 (청록색)입니다."
+      },
+      {
+        "key": "674db4b2ce683bdb6352a9eb",
+        "source": "Flannel Shirt (Cyan)",
+        "translation": "플란넬 셔츠 (청록색)"
+      },
+      {
+        "key": "674db4bf46c9b39187c53abf Name",
+        "source": "Flannel Shirt (White)",
+        "translation": "플란넬 셔츠 (흰색)"
+      },
+      {
+        "key": "674db4bf46c9b39187c53abf Description",
+        "source": "Flannel Shirt (White)",
+        "translation": "플란넬 셔츠 (흰색)입니다."
+      },
+      {
+        "key": "674db4bf46c9b39187c53abf",
+        "source": "Flannel Shirt (White)",
+        "translation": "플란넬 셔츠 (흰색)"
+      },
+      {
+        "key": "674db4d42fb0fe93f8131a82 Name",
+        "source": "Tucked Flannel Shirt (White)",
+        "translation": "플란넬 셔츠 (바지 안에 넣음) (흰색)"
+      },
+      {
+        "key": "674db4d42fb0fe93f8131a82 Description",
+        "source": "Tucked Flannel Shirt (White)",
+        "translation": "플란넬 셔츠 (바지 안에 넣음) (흰색)입니다."
+      },
+      {
+        "key": "674db4d42fb0fe93f8131a82",
+        "source": "Tucked Flannel Shirt (White)",
+        "translation": "플란넬 셔츠 (바지 안에 넣음) (흰색)"
+      },
+      {
+        "key": "674db4eef95e3a548a48dcfc Name",
+        "source": "Tucked Flannel Shirt (Gray)",
+        "translation": "플란넬 셔츠 (바지 안에 넣음) (회색)"
+      },
+      {
+        "key": "674db4eef95e3a548a48dcfc Description",
+        "source": "Tucked Flannel Shirt (Gray)",
+        "translation": "플란넬 셔츠 (바지 안에 넣음) (회색)입니다."
+      },
+      {
+        "key": "674db4eef95e3a548a48dcfc",
+        "source": "Tucked Flannel Shirt (Gray)",
+        "translation": "플란넬 셔츠 (바지 안에 넣음) (회색)"
+      },
+      {
+        "key": "674db509e97657be678d34b8 Name",
+        "source": "HWS Bright Jeans",
+        "translation": "HWS 밝은색 청바지"
+      },
+      {
+        "key": "674db509e97657be678d34b8 Description",
+        "source": "HWS Bright Jeans",
+        "translation": "HWS 밝은색 청바지입니다."
+      },
+      {
+        "key": "674db509e97657be678d34b8",
+        "source": "HWS Bright Jeans",
+        "translation": "HWS 밝은색 청바지"
+      },
+      {
+        "key": "674db514f6ad0cd3435f5142 Name",
+        "source": "HWS Tanned Jeans",
+        "translation": "HWS 황갈색 청바지"
+      },
+      {
+        "key": "674db514f6ad0cd3435f5142 Description",
+        "source": "HWS Tanned Jeans",
+        "translation": "HWS 황갈색 청바지입니다."
+      },
+      {
+        "key": "674db514f6ad0cd3435f5142",
+        "source": "HWS Tanned Jeans",
+        "translation": "HWS 황갈색 청바지"
+      },
+      {
+        "key": "674db53649385c29764a35b5 Name",
+        "source": "HWS Light Jeans",
+        "translation": "HWS 연한색 청바지"
+      },
+      {
+        "key": "674db53649385c29764a35b5 Description",
+        "source": "HWS Light Jeans",
+        "translation": "HWS 연한색 청바지입니다."
+      },
+      {
+        "key": "674db53649385c29764a35b5",
+        "source": "HWS Light Jeans",
+        "translation": "HWS 연한색 청바지"
+      },
+      {
+        "key": "674db548af40bad07b1e625a Name",
+        "source": "P-40 CLASSIC GEN.2 TACTICAL PANTS",
+        "translation": "P-40 CLASSIC GEN.2 전술 바지"
+      },
+      {
+        "key": "674db548af40bad07b1e625a Description",
+        "source": "P-40 CLASSIC GEN.2 TACTICAL PANTS",
+        "translation": "P-40 CLASSIC GEN.2 전술 바지입니다."
+      },
+      {
+        "key": "674db548af40bad07b1e625a",
+        "source": "P-40 CLASSIC GEN.2 TACTICAL PANTS",
+        "translation": "P-40 CLASSIC GEN.2 전술 바지"
+      },
+      {
+        "key": "674db54a3fc71892446edef5 Name",
+        "source": "STRIKER XT GEN.3 COMBAT PANTS",
+        "translation": "STRIKER XT GEN.3 전투 바지"
+      },
+      {
+        "key": "674db54a3fc71892446edef5 Description",
+        "source": "STRIKER XT GEN.3 COMBAT PANTS",
+        "translation": "STRIKER XT GEN.3 전투 바지입니다."
+      },
+      {
+        "key": "674db54a3fc71892446edef5",
+        "source": "STRIKER XT GEN.3 COMBAT PANTS",
+        "translation": "STRIKER XT GEN.3 전투 바지"
+      },
+      {
+        "key": "674db5612396b437954cf862 Name",
+        "source": "CRYE PRECISION GEN.4 COMBAT PANTS (MC)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (멀티캠)"
+      },
+      {
+        "key": "674db5612396b437954cf862 Description",
+        "source": "CRYE PRECISION GEN.4 COMBAT PANTS (MC)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (멀티캠)입니다."
+      },
+      {
+        "key": "674db5612396b437954cf862",
+        "source": "CRYE PRECISION GEN.4 COMBAT PANTS (MC)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (멀티캠)"
+      },
+      {
+        "key": "674db57c4cc390e3cfdb6844 Name",
+        "source": "CRYE PRECISION GEN.4 COMBAT PANTS (Navy Blue)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (네이비 블루)"
+      },
+      {
+        "key": "674db57c4cc390e3cfdb6844 Description",
+        "source": "CRYE PRECISION GEN.4 COMBAT PANTS (Navy Blue)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (네이비 블루)입니다."
+      },
+      {
+        "key": "674db57c4cc390e3cfdb6844",
+        "source": "CRYE PRECISION GEN.4 COMBAT PANTS (Navy Blue)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (네이비 블루)"
+      },
+      {
+        "key": "674db59644e6617c459d0df2 Name",
+        "source": "Fjällräven Barents Pro Trousers (Alpine)",
+        "translation": "피엘라벤 Barents Pro 바지 (알파인)"
+      },
+      {
+        "key": "674db59644e6617c459d0df2 Description",
+        "source": "Fjällräven Barents Pro Trousers (Alpine)",
+        "translation": "피엘라벤 Barents Pro 바지 (알파인)입니다."
+      },
+      {
+        "key": "674db59644e6617c459d0df2",
+        "source": "Fjällräven Barents Pro Trousers (Alpine)",
+        "translation": "피엘라벤 Barents Pro 바지 (알파인)"
+      },
+      {
+        "key": "674db5974b5effbbf51fd756 Name",
+        "source": "Notch Lapel Suit Pants",
+        "translation": "노치 라펠 정장 바지"
+      },
+      {
+        "key": "674db5974b5effbbf51fd756 Description",
+        "source": "Notch Lapel Suit Pants",
+        "translation": "노치 라펠 정장 바지입니다."
+      },
+      {
+        "key": "674db5974b5effbbf51fd756",
+        "source": "Notch Lapel Suit Pants",
+        "translation": "노치 라펠 정장 바지"
+      },
+      {
+        "key": "674db5a3243d556b9c035e16 Name",
+        "source": "Fjällräven Barents Pro Trousers (Slocam)",
+        "translation": "피엘라벤 Barents Pro 바지 (Slocam)"
+      },
+      {
+        "key": "674db5a3243d556b9c035e16 Description",
+        "source": "Fjällräven Barents Pro Trousers (Slocam)",
+        "translation": "피엘라벤 Barents Pro 바지 (Slocam)입니다."
+      },
+      {
+        "key": "674db5a3243d556b9c035e16",
+        "source": "Fjällräven Barents Pro Trousers (Slocam)",
+        "translation": "피엘라벤 Barents Pro 바지 (Slocam)"
+      },
+      {
+        "key": "674db5cf42007a23c47a27ee Name",
+        "source": "ASU Field Pants - Kreuzotter (WOODLAND)",
+        "translation": "ASU 야전 바지 - Kreuzotter (우드랜드)"
+      },
+      {
+        "key": "674db5cf42007a23c47a27ee Description",
+        "source": "ASU Field Pants - Kreuzotter (WOODLAND)",
+        "translation": "ASU 야전 바지 - Kreuzotter (우드랜드)입니다."
+      },
+      {
+        "key": "674db5cf42007a23c47a27ee",
+        "source": "ASU Field Pants - Kreuzotter (WOODLAND)",
+        "translation": "ASU 야전 바지 - Kreuzotter (우드랜드)"
+      },
+      {
+        "key": "674db5dddda91a765d760930 Name",
+        "source": "CRYE Precision GEN.4 Combat Pants (Digital Urban)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (디지털 어반)"
+      },
+      {
+        "key": "674db5dddda91a765d760930 Description",
+        "source": "CRYE Precision GEN.4 Combat Pants (Digital Urban)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (디지털 어반)입니다."
+      },
+      {
+        "key": "674db5dddda91a765d760930",
+        "source": "CRYE Precision GEN.4 Combat Pants (Digital Urban)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (디지털 어반)"
+      },
+      {
+        "key": "674db5f14bdd36ff31430b77 Name",
+        "source": "CRYE Precision GEN.4 Combat Pants (MARPAT)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (MARPAT)"
+      },
+      {
+        "key": "674db5f14bdd36ff31430b77 Description",
+        "source": "CRYE Precision GEN.4 Combat Pants (MARPAT)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (MARPAT)입니다."
+      },
+      {
+        "key": "674db5f14bdd36ff31430b77",
+        "source": "CRYE Precision GEN.4 Combat Pants (MARPAT)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (MARPAT)"
+      },
+      {
+        "key": "674db5f766d25a7e8a97fef8 Name",
+        "source": "CRYE Precision GEN.4 Combat Pants (Multicam Black)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (멀티캠 블랙)"
+      },
+      {
+        "key": "674db5f766d25a7e8a97fef8 Description",
+        "source": "CRYE Precision GEN.4 Combat Pants (Multicam Black)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (멀티캠 블랙)입니다."
+      },
+      {
+        "key": "674db5f766d25a7e8a97fef8",
+        "source": "CRYE Precision GEN.4 Combat Pants (Multicam Black)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (멀티캠 블랙)"
+      },
+      {
+        "key": "674db60d58e3c051f52e7b84 Name",
+        "source": "CRYE Precision GEN.4 Combat Pants (M98 Woodland)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (M98 우드랜드)"
+      },
+      {
+        "key": "674db60d58e3c051f52e7b84 Description",
+        "source": "CRYE Precision GEN.4 Combat Pants (M98 Woodland)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (M98 우드랜드)입니다."
+      },
+      {
+        "key": "674db60d58e3c051f52e7b84",
+        "source": "CRYE Precision GEN.4 Combat Pants (M98 Woodland)",
+        "translation": "크라이 프리시전 GEN.4 전투 바지 (M98 우드랜드)"
+      },
+      {
+        "key": "674db618ef2f5236efa071a8 Name",
+        "source": "Adik Tracksuit (Red)",
+        "translation": "아딕 운동복 (빨간색)"
+      },
+      {
+        "key": "674db618ef2f5236efa071a8 Description",
+        "source": "Adik Tracksuit (Red)",
+        "translation": "아딕 운동복 (빨간색)입니다."
+      },
+      {
+        "key": "674db618ef2f5236efa071a8",
+        "source": "Adik Tracksuit (Red)",
+        "translation": "아딕 운동복 (빨간색)"
+      },
+      {
+        "key": "674db6bad2aedd4ccd3a123a Name",
+        "source": "Gray Hoodie",
+        "translation": "회색 후드티"
+      },
+      {
+        "key": "674db6bad2aedd4ccd3a123a Description",
+        "source": "Gray Hoodie",
+        "translation": "회색 후드티입니다."
+      },
+      {
+        "key": "674db6bad2aedd4ccd3a123a",
+        "source": "Gray Hoodie",
+        "translation": "회색 후드티"
+      },
+      {
+        "key": "674dd947ebd67f4d5fd432a0 Name",
+        "source": "Slipknot T-shirt",
+        "translation": "슬립낫 티셔츠"
+      },
+      {
+        "key": "674dd947ebd67f4d5fd432a0 Description",
+        "source": "Slipknot T-shirt",
+        "translation": "슬립낫 티셔츠입니다."
+      },
+      {
+        "key": "674dd947ebd67f4d5fd432a0",
+        "source": "Slipknot T-shirt",
+        "translation": "슬립낫 티셔츠"
+      },
+      {
+        "key": "674e0b363c4bc8bb29fe0984 Name",
+        "source": "Helmet Cover Black",
+        "translation": "헬멧 커버 (블랙)"
+      },
+      {
+        "key": "674e0b363c4bc8bb29fe0984 ShortName",
+        "source": "Helmet Cover",
+        "translation": "헬멧 커버"
+      },
+      {
+        "key": "674e4ef58257d9804d145885 Name",
+        "source": "RAC headsets(1)",
+        "translation": "RAC 헤드셋 (1)"
+      },
+      {
+        "key": "674f340a7dba6c637c00a76c Name",
+        "source": "RAC headsets(2)",
+        "translation": "RAC 헤드셋 (2)"
+      },
+      {
+        "key": "674f35e08578c7579fcb9970 Name",
+        "source": "RAC headsets(3)",
+        "translation": "RAC 헤드셋 (3)"
+      },
+      {
+        "key": "674f48eaa2e633be4b4348c4 Name",
+        "source": "NVG Battery Pack",
+        "translation": "NVG 배터리 팩"
+      },
+      {
+        "key": "674f48eaa2e633be4b4348c4 ShortName",
+        "source": "NVG Battery Pack",
+        "translation": "NVG 배터리 팩"
+      },
+      {
+        "key": "674f592b98bc2083d3006264 Name",
+        "source": "Helmet Cover Alpine",
+        "translation": "헬멧 커버 (알파인)"
+      },
+      {
+        "key": "674f592b98bc2083d3006264 ShortName",
+        "source": "Helmet Cover",
+        "translation": "헬멧 커버"
+      },
+      {
+        "key": "674f5c75a98cdbbe850e0fab Name",
+        "source": "Helmet Cover Ranger Green",
+        "translation": "헬멧 커버 (올리브 드랩)"
+      },
+      {
+        "key": "674f5c75a98cdbbe850e0fab ShortName",
+        "source": "Helmet Cover",
+        "translation": "헬멧 커버"
+      },
+      {
+        "key": "674f627197d32e9e3b16d465 Name",
+        "source": "RAC headsets(4)",
+        "translation": "RAC 헤드셋 (4)"
+      },
+      {
+        "key": "674f681bda9a0c381171ea25 Name",
+        "source": "Helmet Cover Multicam",
+        "translation": "헬멧 커버 (멀티캠)"
+      },
+      {
+        "key": "674f681bda9a0c381171ea25 ShortName",
+        "source": "Helmet Cover",
+        "translation": "헬멧 커버"
+      },
+      {
+        "key": "674f690a7abfbaac80fa2587 Name",
+        "source": "Helmet Cover Multicam Black",
+        "translation": "헬멧 커버 (멀티캠 블랙)"
+      },
+      {
+        "key": "674f690a7abfbaac80fa2587 ShortName",
+        "source": "Helmet Cover",
+        "translation": "헬멧 커버"
+      },
+      {
+        "key": "674f6a7a3b1cb546b93ebdee Name",
+        "source": "NVG Battery Pack (Alpine)",
+        "translation": "NVG 배터리 팩 (화이트)"
+      },
+      {
+        "key": "674f6a7a3b1cb546b93ebdee ShortName",
+        "source": "NVG Battery Pack",
+        "translation": "NVG 배터리 팩"
+      },
+      {
+        "key": "674f6b1747bec257e33712b4 Name",
+        "source": "NVG Battery Pack (Multicam)",
+        "translation": "NVG 배터리 팩 (멀티캠)"
+      },
+      {
+        "key": "674f6b1747bec257e33712b4 ShortName",
+        "source": "NVG Battery Pack",
+        "translation": "NVG 배터리"
+      },
+      {
+        "key": "674f6e0ccc2f0292beb75c54 Name",
+        "source": "NVG Battery Pack (Multicam Black)",
+        "translation": "NVG 배터리 팩 (멀티캠 블랙)"
+      },
+      {
+        "key": "674f6e0ccc2f0292beb75c54 ShortName",
+        "source": "NVG Battery Pack",
+        "translation": "NVG 배터리"
+      },
+      {
+        "key": "675185a20fc925a656eec938 Name",
+        "source": "ASU Field Pants - Kreuzotter (ALPINE)",
+        "translation": "ASU 야전 바지 - Kreuzotter (알파인)"
+      },
+      {
+        "key": "675185a20fc925a656eec938 Description",
+        "source": "ASU Field Pants - Kreuzotter (ALPINE)",
+        "translation": "ASU 야전 바지 - Kreuzotter (알파인)입니다."
+      },
+      {
+        "key": "675185a20fc925a656eec938",
+        "source": "ASU Field Pants - Kreuzotter (ALPINE)",
+        "translation": "ASU 야전 바지 - Kreuzotter (알파인)"
+      },
+      {
+        "key": "6752641b1470fc33b675d59a Name",
+        "source": "Sweden Patch",
+        "translation": "스웨덴 패치"
+      },
+      {
+        "key": "6752641b1470fc33b675d59a ShortName",
+        "source": "Sweden",
+        "translation": "스웨덴"
+      },
+      {
+        "key": "6752641b1470fc33b675d59a Description",
+        "source": "Sweden.",
+        "translation": "스웨덴."
+      },
+      {
+        "key": "6753b4d92fa2735679e74400 Name",
+        "source": "COMBAT SHIRT (Black)",
+        "translation": "전투 셔츠 (검은색)"
+      },
+      {
+        "key": "6753b4d92fa2735679e74400 Description",
+        "source": "COMBAT SHIRT",
+        "translation": "전투 셔츠입니다."
+      },
+      {
+        "key": "6753b4d92fa2735679e74400",
+        "source": "COMBAT SHIRT (Black)",
+        "translation": "전투 셔츠 (검은색)"
+      },
+      {
+        "key": "6753b531d39e76c118c7456a Name",
+        "source": "Notch Lapel Suit (Black)",
+        "translation": "노치 라펠 정장 (검은색)"
+      },
+      {
+        "key": "6753b531d39e76c118c7456a Description",
+        "source": "Notch Lapel Suit",
+        "translation": "노치 라펠 정장입니다."
+      },
+      {
+        "key": "6753b531d39e76c118c7456a",
+        "source": "Notch Lapel Suit (Black)",
+        "translation": "노치 라펠 정장 (검은색)"
+      },
+      {
+        "key": "67548853f1ba8ca2b34fa4d0 Name",
+        "source": "PVS-31",
+        "translation": "PVS-31 야시경"
+      },
+      {
+        "key": "6754946b62f4db9c0404bd2b Name",
+        "source": "PVS-31 (Wide)",
+        "translation": "PVS-31 야시경 (Wide)"
+      },
+      {
+        "key": "6756ed42dee13f2d15b9f7e9 Name",
+        "source": "Ranger Green Hoodie",
+        "translation": "레인저 그린 후드티"
+      },
+      {
+        "key": "6756ed42dee13f2d15b9f7e9 Description",
+        "source": "Ranger Green Hoodie",
+        "translation": "레인저 그린 후드티입니다."
+      },
+      {
+        "key": "6756ed42dee13f2d15b9f7e9",
+        "source": "Ranger Green Hoodie",
+        "translation": "레인저 그린 후드티"
+      },
+      {
+        "key": "6756ed5ead4b6deb88ced4f4 Name",
+        "source": "Red Hoodie",
+        "translation": "빨간색 후드티"
+      },
+      {
+        "key": "6756ed5ead4b6deb88ced4f4 Description",
+        "source": "Red Hoodie",
+        "translation": "빨간색 후드티입니다."
+      },
+      {
+        "key": "6756ed5ead4b6deb88ced4f4",
+        "source": "Red Hoodie",
+        "translation": "빨간색 후드티"
+      },
+      {
+        "key": "6756f1fb117a9c42a32254cb Name",
+        "source": "Checkmark Hoodie",
+        "translation": "체크마크 후드티"
+      },
+      {
+        "key": "6756f1fb117a9c42a32254cb Description",
+        "source": "Checkmark Hoodie",
+        "translation": "체크마크 후드티입니다."
+      },
+      {
+        "key": "6756f1fb117a9c42a32254cb",
+        "source": "Checkmark Hoodie",
+        "translation": "체크마크 후드티"
+      },
+      {
+        "key": "6768470a2fe645414f6b7b3f Name",
+        "source": "Woodland Infiltrator lower (Alpine)",
+        "translation": "우드랜드 인필트레이터 하의 (알파인)"
+      },
+      {
+        "key": "6768470a2fe645414f6b7b3f Description",
+        "source": "Woodland Infiltrator lower (Alpine)",
+        "translation": "우드랜드 인필트레이터 하의 (알파인)입니다."
+      },
+      {
+        "key": "6768470a2fe645414f6b7b3f",
+        "source": "Woodland Infiltrator lower (Alpine)",
+        "translation": "우드랜드 인필트레이터 하의 (알파인)"
+      },
+      {
+        "key": "676857680435ed3d4dfec3fb Name",
+        "source": "Bomber Jacket",
+        "translation": "봄버 재킷"
+      },
+      {
+        "key": "676857680435ed3d4dfec3fb Description",
+        "source": "Bomber Jacket",
+        "translation": "봄버 재킷입니다."
+      },
+      {
+        "key": "676857680435ed3d4dfec3fb",
+        "source": "Bomber Jacket",
+        "translation": "봄버 재킷"
+      },
+      {
+        "key": "676a1476242dea0ba69ebbd8 Name",
+        "source": "Ops-Core SF Warrior Helmet (Black)",
+        "translation": "옵스코어 SF 워리어 헬멧 (블랙)\n(Ops-Core SF Warrior Helmet (검은색))"
+      },
+      {
+        "key": "676a1476242dea0ba69ebbd8 ShortName",
+        "source": "Ops-Core-SF",
+        "translation": "옵스코어-SF"
+      },
+      {
+        "key": "676a1476242dea0ba69ebbd8 Description",
+        "source": "High cut, lightweight, non-ballistic shell features a hybrid design of unidirectional and woven composite carbon fibers. Designed for less extreme environments, the durable carbon construction provides protection against blunt trauma, making it ideal for rugged training, recee and water operations, and fast roping.",
+        "translation": "하이컷(High Cut) 경량 비방탄 쉘은 일방향 및 직조 복합 카본 섬유의 하이브리드 구조로 제작되었습니다. 극한 환경이 아닌 임무용으로 설계되었으며, 내구성 높은 카본 구조는 둔상 충격으로부터 보호하여 혹독한 훈련, 정찰, 수상 작전 및 패스트로핑에 적합합니다."
+      },
+      {
+        "key": "676a24b5c3a24ed47d79720c Name",
+        "source": "'Fren' Patch",
+        "translation": "'프랑스' 패치"
+      },
+      {
+        "key": "676a24b5c3a24ed47d79720c Description",
+        "source": "Fren.",
+        "translation": "프랑스."
+      },
+      {
+        "key": "676a31defb84836a874777a6 Name",
+        "source": "Rangers Patch",
+        "translation": "레인저스 패치"
+      },
+      {
+        "key": "676a31defb84836a874777a6 ShortName",
+        "source": "Rangers",
+        "translation": "레인저스"
+      },
+      {
+        "key": "676a31defb84836a874777a6 Description",
+        "source": "Rangers",
+        "translation": "레인저스."
+      },
+      {
+        "key": "676a34d23980119d8d5461c0 Name",
+        "source": "UK Patch",
+        "translation": "영국 패치"
+      },
+      {
+        "key": "676a34d23980119d8d5461c0 Description",
+        "source": "UK",
+        "translation": "영국."
+      },
+      {
+        "key": "676ab7e323e05eb20de89163 Name",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "676ab93db29a95d6fb6fbf19 Name",
+        "source": "Notepad++ Patch",
+        "translation": "Notepad++ 패치"
+      },
+      {
+        "key": "676ab93db29a95d6fb6fbf19 Description",
+        "source": "To our beloved, and most insane WTT member; Qwertyalex",
+        "translation": "사랑하는 WTT의 미친 멤버 Qwertyalex에게 헌정된 패치입니다."
+      },
+      {
+        "key": "676ac6e0769e44deb14a028a Name",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "676ac6e0769e44deb14a028a ShortName",
+        "source": "Patch",
+        "translation": "패치"
+      },
+      {
+        "key": "676ad644ed32115c8b46342d Name",
+        "source": "Scotland Patch",
+        "translation": "스코틀랜드 패치"
+      },
+      {
+        "key": "676ad644ed32115c8b46342d Description",
+        "source": "Scotland",
+        "translation": "스코틀랜드."
+      },
+      {
+        "key": "676ad83f4488c50df0ebb8ff Name",
+        "source": "Germany Patch",
+        "translation": "독일 패치"
+      },
+      {
+        "key": "6770852638b652c9b4e588a9 Name",
+        "source": "Gas Mask",
+        "translation": "방독면"
+      },
+      {
+        "key": "6770852638b652c9b4e588a9 ShortName",
+        "source": "Gasmask",
+        "translation": "방독면"
+      },
+      {
+        "key": "6770852638b652c9b4e588a9 Description",
+        "source": "Used for Biological warfare, but also when you fart under the blanket.",
+        "translation": "생물학전에서 사용되며, 담요 속에서 방귀를 뀌었을 때도 사용할 수 있습니다."
+      },
+      {
+        "key": "67708ffbd78ed00a0b03b271 Name",
+        "source": "V-Lites (Red)",
+        "translation": "V-Lites (레드)"
+      },
+      {
+        "key": "67709e1ac9f65ea01033498b Name",
+        "source": "V-Lites (Blue)",
+        "translation": "V-Lites (블루)"
+      },
+      {
+        "key": "67709f35bcb7344a48a13c10 Name",
+        "source": "V-Lites (Green)",
+        "translation": "V-Lites (그린)"
+      },
+      {
+        "key": "6770ba90ecb0e684560d8184 Name",
+        "source": "V-Lites (IR)",
+        "translation": "V-Lites (적외선)"
+      },
+      {
+        "key": "677156cc0177798346cf341c Name",
+        "source": "JPC 2.0 MARITIME",
+        "translation": "JPC 2.0 마리타임 플레이트 캐리어"
+      },
+      {
+        "key": "677156cc0177798346cf341c Description",
+        "source": "The JPC (JUMPABLE PLATE CARRIER) 2.0™ MARITIME is a lightweight and minimal armor vest designed for maximum mobility, weight savings, and packability. At just over one pound for the entire carrier, the JPC 2.0™ MARITIME offers a variety of configuration options to suit an operator’s needs in terms of protection, modularity, and comfort.",
+        "translation": "JPC(Jumpable Plate Carrier) 2.0 마리타임 버전은 최대 기동성과 경량화를 위해 설계된 방탄복입니다. 전체 무게는 약 1파운드로, 보호력·모듈성·착용감 면에서 다양한 임무 환경에 맞게 조정할 수 있습니다."
+      },
+      {
+        "key": "6771bb1b8df8c956d414842c Name",
+        "source": "Ferro Concepts Battery Pack (Coyote)",
+        "translation": "페로 컨셉츠 NVG 배터리 팩 (사막색)"
+      },
+      {
+        "key": "6771bb1b8df8c956d414842c ShortName",
+        "source": "NVG Battery Pack",
+        "translation": "NVG 배터리"
+      },
+      {
+        "key": "6771bd1c7cac7844d18b8aaa Name",
+        "source": "Ferro Concepts Battery Pack (Ranger Green)",
+        "translation": "페로 컨셉츠 NVG 배터리 팩 (올리브 드랩)"
+      },
+      {
+        "key": "6771bd1c7cac7844d18b8aaa ShortName",
+        "source": "NVG Battery Pack",
+        "translation": "NVG 배터리"
+      },
+      {
+        "key": "6771bdde30136eb8171a4b36 Name",
+        "source": "Ferro Concepts Battery Pack (Black)",
+        "translation": "페로 컨셉츠 NVG 배터리 팩 (블랙)\n(Ferro Concepts Battery Pack (검은색))"
+      },
+      {
+        "key": "6771bdde30136eb8171a4b36 ShortName",
+        "source": "NVG Battery Pack",
+        "translation": "NVG 배터리"
+      },
+      {
+        "key": "6771c3dc72641d22e6335cd0 Name",
+        "source": "Patagonia Level 9 Combat Shirt 'Patagucci' (Multicam Black)",
+        "translation": "파타고니아 Level 9 전투 셔츠 'Patagucci' (멀티캠 블랙)"
+      },
+      {
+        "key": "6771c3dc72641d22e6335cd0 Description",
+        "source": "Patagonia Level 9 Combat Shirt 'Patagucci' (Multicam Black)",
+        "translation": "파타고니아 Level 9 전투 셔츠 'Patagucci' (멀티캠 블랙)입니다."
+      },
+      {
+        "key": "6771c3dc72641d22e6335cd0",
+        "source": "Patagonia Level 9 Combat Shirt 'Patagucci' (Multicam Black)",
+        "translation": "파타고니아 Level 9 전투 셔츠 'Patagucci' (멀티캠 블랙)"
+      },
+      {
+        "key": "6771c3dfe1d6259908017208 Name",
+        "source": "Patagonia Level 9 Combat Shirt 'Patagucci' (alpine)",
+        "translation": "파타고니아 Level 9 전투 셔츠 'Patagucci' (알파인)"
+      },
+      {
+        "key": "6771c3dfe1d6259908017208 Description",
+        "source": "Patagonia Level 9 Combat Shirt 'Patagucci' (alpine)",
+        "translation": "파타고니아 Level 9 전투 셔츠 'Patagucci' (알파인)입니다."
+      },
+      {
+        "key": "6771c3dfe1d6259908017208",
+        "source": "Patagonia Level 9 Combat Shirt 'Patagucci' (alpine)",
+        "translation": "파타고니아 Level 9 전투 셔츠 'Patagucci' (알파인)"
+      },
+      {
+        "key": "6773f2fc34e508088a53800f Name",
+        "source": "Augmento™ Helmet Ghillie Cover Gen II (Multicam)",
+        "translation": "어그멘토 헬멧 길리 커버 Gen II (멀티캠)"
+      },
+      {
+        "key": "6773f2fc34e508088a53800f ShortName",
+        "source": "Augmento™ Helmet Ghillie Cover Gen II",
+        "translation": "어그멘토 길리"
+      },
+      {
+        "key": "6773f2fc34e508088a53800f Description",
+        "source": "Finally, a practical helmet ghillie cover. Quickly attach via shock cord to add an extra element of concealment to your kit. Creates color, texture and shadow to instantly break up the shape and appearance of your head. Rapidly remove at any time within seconds thanks to design simplicity.",
+        "translation": "어그멘토(Augmento)의 실용적인 헬멧용 길리 커버입니다. 쇼크 코드(Shock Cord)를 이용해 빠르게 부착하여 위장 효과를 강화하며, 색상·질감·그림자를 통해 머리 윤곽을 즉시 분해해 시각적 노출을 최소화합니다. 단순한 설계로 인해 언제든 몇 초 만에 탈착할 수 있습니다."
+      },
+      {
+        "key": "6773f6a441e9ad98ad1e00f8 Name",
+        "source": "Augmento™ Helmet Ghillie Cover Gen II (Alpine)",
+        "translation": "어그멘토 헬멧 길리 커버 Gen II (알파인)"
+      },
+      {
+        "key": "6773f6a441e9ad98ad1e00f8 ShortName",
+        "source": "Augmento™ Helmet Ghillie Cover Gen II",
+        "translation": "어그멘토 길리"
+      },
+      {
+        "key": "6773f6a441e9ad98ad1e00f8 Description",
+        "source": "Finally, a practical helmet ghillie cover. Quickly attach via shock cord to add an extra element of concealment to your kit. Creates color, texture and shadow to instantly break up the shape and appearance of your head. Rapidly remove at any time within seconds thanks to design simplicity.",
+        "translation": "어그멘토(Augmento)의 실용적인 헬멧용 길리 커버입니다. 쇼크 코드(Shock Cord)를 이용해 빠르게 부착하여 위장 효과를 강화하며, 색상·질감·그림자를 통해 머리 윤곽을 즉시 분해해 시각적 노출을 최소화합니다. 단순한 설계로 인해 언제든 몇 초 만에 탈착할 수 있습니다."
+      },
+      {
+        "key": "6773f8527775544a1b59da0a Name",
+        "source": "Augmento™ Helmet Ghillie Cover Gen II (Multicam Black)",
+        "translation": "어그멘토 헬멧 길리 커버 Gen II (멀티캠 블랙)"
+      },
+      {
+        "key": "6773f8527775544a1b59da0a ShortName",
+        "source": "Augmento™ Helmet Ghillie Cover Gen II",
+        "translation": "어그멘토 길리"
+      },
+      {
+        "key": "6773f8527775544a1b59da0a Description",
+        "source": "Finally, a practical helmet ghillie cover. Quickly attach via shock cord to add an extra element of concealment to your kit. Creates color, texture and shadow to instantly break up the shape and appearance of your head. Rapidly remove at any time within seconds thanks to design simplicity.",
+        "translation": "어그멘토(Augmento)의 실용적인 헬멧용 길리 커버입니다. 쇼크 코드(Shock Cord)를 이용해 빠르게 부착하여 위장 효과를 강화하며, 색상·질감·그림자를 통해 머리 윤곽을 즉시 분해해 시각적 노출을 최소화합니다. 단순한 설계로 인해 언제든 몇 초 만에 탈착할 수 있습니다."
+      },
+      {
+        "key": "6773fbc54cafcf4c255207bd Name",
+        "source": "Augmento™ Helmet Ghillie Cover Gen II (Ranger Green)",
+        "translation": "어그멘토 헬멧 길리 커버 Gen II (RGR)"
+      },
+      {
+        "key": "6773fbc54cafcf4c255207bd ShortName",
+        "source": "Augmento™ Helmet Ghillie Cover Gen II",
+        "translation": "어그멘토 길리"
+      },
+      {
+        "key": "6773fbc54cafcf4c255207bd Description",
+        "source": "Finally, a practical helmet ghillie cover. Quickly attach via shock cord to add an extra element of concealment to your kit. Creates color, texture and shadow to instantly break up the shape and appearance of your head. Rapidly remove at any time within seconds thanks to design simplicity.",
+        "translation": "어그멘토(Augmento)의 실용적인 헬멧용 길리 커버입니다. 쇼크 코드(Shock Cord)를 이용해 빠르게 부착하여 위장 효과를 강화하며, 색상·질감·그림자를 통해 머리 윤곽을 즉시 분해해 시각적 노출을 최소화합니다. 단순한 설계로 인해 언제든 몇 초 만에 탈착할 수 있습니다."
+      },
+      {
+        "key": "67741256f0101c0e0ff4eada Name",
+        "source": "Ferro Concepts Battery Pack (Alpine)",
+        "translation": "페로 컨셉츠 NVG 배터리 팩 (알파인)"
+      },
+      {
+        "key": "67741256f0101c0e0ff4eada ShortName",
+        "source": "NVG Battery Pack",
+        "translation": "NVG 배터리"
+      },
+      {
+        "key": "6775401f15780d336cf6b28c Name",
+        "source": "Adik Tracksuit (White)",
+        "translation": "아딕 운동복 (흰색)"
+      },
+      {
+        "key": "6775401f15780d336cf6b28c Description",
+        "source": "Adik Tracksuit (White)",
+        "translation": "아딕 운동복 (흰색)입니다."
+      },
+      {
+        "key": "6775401f15780d336cf6b28c",
+        "source": "Adik Tracksuit (White)",
+        "translation": "아딕 운동복 (흰색)"
+      },
+      {
+        "key": "67754021548b2b23317da6c5 Name",
+        "source": "Adik Tracksuit (Yellow)",
+        "translation": "아딕 운동복 (노란색)"
+      },
+      {
+        "key": "67754021548b2b23317da6c5 Description",
+        "source": "Adik Tracksuit (Yellow)",
+        "translation": "아딕 운동복 (노란색)입니다."
+      },
+      {
+        "key": "67754021548b2b23317da6c5",
+        "source": "Adik Tracksuit (Yellow)",
+        "translation": "아딕 운동복 (노란색)"
+      },
+      {
+        "key": "6741dd080a4b6768df84d4ed successMessageText",
+        "source": "Well done once again. Rest up, pal.",
+        "translation": "이번에도 잘했어. 좀 쉬어, 친구.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6745faad87494344ac6986e7 successMessageText",
+        "source": "Well done. At least we haven't lost everything.",
+        "translation": "잘했어. 적어도 전부 잃은 건 아니군.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6745fcccf8a94a19b7d62f0f",
+        "source": "Hand over 300 5.56x45mm FMJ",
+        "translation": "5.56x45mm FMJ 탄약 300발 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6745fcd6e5187742150b3b86",
+        "source": "Hand over 120 7.62x39mm US",
+        "translation": "7.62x39mm US 탄약 120발 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "66bf757f27d0b097db0acea5 Location",
+        "source": "[REDACTED]",
+        "translation": "[기밀]",
+        "match_mode": "exact"
+      },
+      {
+        "key": "66bf757f27d0b097db0acea5 Description",
+        "source": "[REDACTED]",
+        "translation": "[기밀]",
+        "match_mode": "exact"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace41 ShortName",
+        "source": "USEC",
+        "translation": "USEC 은닉처",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "676a24b5c3a24ed47d79720c ShortName",
+        "source": "Fren",
+        "translation": "프렌",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "66bf757f27d0b097db0ace42 ShortName",
+        "source": "BEAR",
+        "translation": "베어",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ]
+  }
+}

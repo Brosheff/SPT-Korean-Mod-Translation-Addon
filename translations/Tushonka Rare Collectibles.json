@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_169d51d627a4",
+  "mod_name": "Tushonka Rare Collectibles",
+  "channels": {
+    "locale": [
+      {
+        "key": "68c35c198b8b18c0c707ffa0 Name",
+        "source": "20-Carat Diamond",
+        "translation": "20캐럿 다이아몬드",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa0 ShortName",
+        "source": "Diamond",
+        "translation": "다이아몬드"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa0 Description",
+        "source": "A rare and flawless 20-carat diamond, highly valuable and sought after by collectors and traders alike.",
+        "translation": "희귀하며 결점이 없는 20캐럿급 다이아몬드로, 수집가와 거래상들 사이에서 매우 높은 가치를 지니고 있습니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa1 Name",
+        "source": "999.9 Gold Bar",
+        "translation": "순도 999.9 순금 골드바"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa1 Description",
+        "source": "A standard 1kg pure gold bar with a purity of 999.9.",
+        "translation": "순도 999.9를 자랑하는 표준 1kg 순금 골드바입니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa2 Name",
+        "source": "Gold Clock",
+        "translation": "금제 탁상시계"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa2 ShortName",
+        "source": "GoldClock",
+        "translation": "금시계"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa2 Description",
+        "source": "A luxury decorative table clock with a golden stand and a solid gold figure atop.",
+        "translation": "금으로 제작된 받침대와 장식상을 갖춘 고급 장식용 탁상시계입니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa3 Name",
+        "source": "Gold Figurine",
+        "translation": "황금 조각상"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa3 ShortName",
+        "source": "GoldFigurine",
+        "translation": "금 조각상"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa3 Description",
+        "source": "A luxury decorative figurine made completely out of gold.",
+        "translation": "전체가 금으로 제작된 고급 장식용 조각상입니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa4 Name",
+        "source": "Pack of Weed",
+        "translation": "대마초 포장팩"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa4 Description",
+        "source": "A dense, compact pack of homegrown cannabis, used either for consumption or to craft makeshift painkillers.",
+        "translation": "진하게 압축된 자가 재배 대마초로, 진통용으로 사용되거나 임시 진통제 제작에 이용될 수 있습니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa5 Name",
+        "source": "Mona Lisa Replica",
+        "translation": "모나리자 복제품"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa5 Description",
+        "source": "A high-quality framed replica of the Mona Lisa, a heavy luxury piece often fetching tens of thousands at auction.",
+        "translation": "고품질 액자형 모나리자 복제화로, 고급 예술품으로 경매에서 수만 달러에 거래되기도 합니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa6 Name",
+        "source": "Antique Flintlock Replica",
+        "translation": "앤티크 플린트록 복제품"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa6 Description",
+        "source": "A replica of a 18th century flintlock rifle, ornately finished, prized for its craftsmanship and provenance.",
+        "translation": "18세기형 플린트록 머스킷을 정교하게 복원한 복제품으로, 장인정신과 역사적 가치로 높이 평가받습니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa7 Name",
+        "source": "Military Recon Drone",
+        "translation": "군용 정찰 드론"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa7 ShortName",
+        "source": "MilitaryDrone",
+        "translation": "군용 드론"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa7 Description",
+        "source": "A portable, military-grade reconnaissance drone equipped for surveillance and rapid deployment in the field.",
+        "translation": "현장 정찰 및 신속한 배치를 위해 설계된 휴대형 군용 정찰 드론입니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa8 Name",
+        "source": "Military Missile",
+        "translation": "군용 전술 미사일"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa8 ShortName",
+        "source": "MilitaryMissile",
+        "translation": "군용 미사일"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa8 Description",
+        "source": "A military tacticle missile, designed for armored vehicles and tanks.",
+        "translation": "장갑차 및 전차 운용용으로 설계된 군용 전술 미사일입니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa9 Name",
+        "source": "Premium Champagne",
+        "translation": "프리미엄 샴페인"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa9 ShortName",
+        "source": "Champagne",
+        "translation": "샴페인"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa9 Description",
+        "source": "A bottle of sealed premium HOXXOH Gold Champagne.",
+        "translation": "HOXXOH Gold 브랜드의 프리미엄 샴페인 병으로, 완전히 밀봉된 고급주입니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffaa Name",
+        "source": "TerraGroup Labs Emergency Power Cell",
+        "translation": "테라그룹 연구소 비상 전력 셀"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffaa ShortName",
+        "source": "PowerCell",
+        "translation": "동력 전지"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffaa Description",
+        "source": "A lightweight high-capacity emergency power unit designed for TerraGroup Labs, capable of powering the entire facility for several days.",
+        "translation": "테라그룹 연구소용으로 설계된 경량 고용량 비상 전력 유닛으로, 전체 시설을 수일간 가동할 수 있는 전력을 제공합니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffab Name",
+        "source": "Gold Deer Skull",
+        "translation": "황금 사슴 두개골"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffab Description",
+        "source": "A heavy gold deer skull found at some sacrificial altars of a strange occult sect.",
+        "translation": "이상한 종교 의식 집단의 제단에서 발견된 무거운 금제 사슴 두개골입니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffac Name",
+        "source": "Gold Lion Figurine",
+        "translation": "황금 사자 조각상"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffac Description",
+        "source": "A heavy gold lion figurine made with pure gold.",
+        "translation": "순금으로 만든 묵직한 사자 조각상입니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffad Name",
+        "source": "Antique Gramophone",
+        "translation": "골동품 축음기"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffad ShortName",
+        "source": "Gramophone",
+        "translation": "축음기"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffad Description",
+        "source": "An antique gramophone with a beautifully crafted golden horn.",
+        "translation": "정교하게 제작된 황금색 나팔을 갖춘 골동품 축음기입니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffae Name",
+        "source": "Dragon Figurine",
+        "translation": "용 조각상"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffae ShortName",
+        "source": "WoodDragon",
+        "translation": "목제 용"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffae Description",
+        "source": "A finely crafted wooden dragon figurine with a lifelike and majestic appearance.",
+        "translation": "살아 있는 듯 웅장한 모습으로 정교하게 조각한 목조 용 조각상입니다."
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa1 ShortName",
+        "source": "GoldBar",
+        "translation": "금괴",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa4 ShortName",
+        "source": "Weed",
+        "translation": "대마",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa5 ShortName",
+        "source": "MonaLisa",
+        "translation": "모나리자",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffa6 ShortName",
+        "source": "Flintlock",
+        "translation": "플린트록",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffab ShortName",
+        "source": "GoldDeer",
+        "translation": "황금 사슴",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68c35c198b8b18c0c707ffac ShortName",
+        "source": "GoldLion",
+        "translation": "황금 사자",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.tarkin.huir",
+  "plugin_name": "spt-hideoutuirevamp-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [],
+  "entries": [
+    {
+      "section": "*",
+      "key": "AnchorToEdge",
+      "source_display_name": "AnchorToEdge",
+      "source_description": "Optional for ultrawide monitors",
+      "translation_display_name": "화면 가장자리에 고정",
+      "translation_description": "울트라와이드 모니터에서 은신처 UI를 화면 가장자리에 맞춰 배치할지 설정합니다.",
+      "values": []
+    }
+  ]
+}

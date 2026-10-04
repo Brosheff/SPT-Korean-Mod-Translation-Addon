@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.blackhawk.dynamicmapsextended",
+  "plugin_name": "DynamicMaps Extended",
+  "categories": [
+    {
+      "source": "Map Style",
+      "translation": "지도 스타일"
+    },
+    {
+      "source": "Map Style Overrides",
+      "translation": "지도별 스타일 재정의"
+    },
+    {
+      "source": "Debug",
+      "translation": "디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Map Style",
+      "key": "Preferred Style",
+      "source_display_name": "Preferred Style",
+      "source_description": "Global preferred artwork style. Abstract keeps schematic/vector-style artwork; Satellite uses detailed top-down raster artwork where a verified matching asset exists.",
+      "translation_display_name": "선호 지도 스타일",
+      "translation_description": "전체 지도에 우선 적용할 그림 스타일입니다. 추상 지도는 도식/벡터형 지도를 유지하며, 위성 지도는 검증된 대응 이미지가 있는 경우 상세한 탑다운 래스터 지도를 사용합니다.",
+      "values": [
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Ground Zero",
+      "source_display_name": "Ground Zero",
+      "source_description": "Per-map style override for Ground Zero. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "그라운드 제로",
+      "translation_description": "그라운드 제로에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Customs",
+      "source_display_name": "Customs",
+      "source_description": "Per-map style override for Customs. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "세관",
+      "translation_description": "세관에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Factory",
+      "source_display_name": "Factory",
+      "source_description": "Per-map style override for Factory. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "공장",
+      "translation_description": "공장에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Factory Classic",
+      "source_display_name": "Factory Classic",
+      "source_description": "Per-map style override for Factory Classic. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "공장 (클래식)",
+      "translation_description": "공장 (클래식)에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Woods",
+      "source_display_name": "Woods",
+      "source_description": "Per-map style override for Woods. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "삼림",
+      "translation_description": "삼림에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Interchange",
+      "source_display_name": "Interchange",
+      "source_description": "Per-map style override for Interchange. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "인터체인지",
+      "translation_description": "인터체인지에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Labs",
+      "source_display_name": "Labs",
+      "source_description": "Per-map style override for Labs. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "연구소",
+      "translation_description": "연구소에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Lighthouse",
+      "source_display_name": "Lighthouse",
+      "source_description": "Per-map style override for Lighthouse. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "등대",
+      "translation_description": "등대에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Icebreaker",
+      "source_display_name": "Icebreaker",
+      "source_description": "Per-map style override for Icebreaker. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "쇄빙선",
+      "translation_description": "쇄빙선에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Reserve",
+      "source_display_name": "Reserve",
+      "source_description": "Per-map style override for Reserve. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "리저브",
+      "translation_description": "리저브에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Shoreline",
+      "source_display_name": "Shoreline",
+      "source_description": "Per-map style override for Shoreline. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "해안선",
+      "translation_description": "해안선에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Streets",
+      "source_display_name": "Streets",
+      "source_description": "Per-map style override for Streets. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "타르코프 시내",
+      "translation_description": "타르코프 시내에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Map Style Overrides",
+      "key": "Labyrinth",
+      "source_display_name": "Labyrinth",
+      "source_description": "Per-map style override for Labyrinth. UseGlobal follows Map Style -> Preferred Style.",
+      "translation_display_name": "미궁",
+      "translation_description": "미궁에 개별 지도 스타일을 지정합니다. 전역 설정 사용을 선택하면 지도 스타일 → 선호 지도 스타일 설정을 따릅니다.",
+      "values": [
+        {
+          "source": "UseGlobal",
+          "translation": "전역 설정 사용"
+        },
+        {
+          "source": "Abstract",
+          "translation": "추상 지도"
+        },
+        {
+          "source": "Satellite",
+          "translation": "위성 지도"
+        }
+      ]
+    },
+    {
+      "section": "Debug",
+      "key": "EnableDebugLogging",
+      "source_display_name": "EnableDebugLogging",
+      "source_description": "Detailed DynamicMaps Extended diagnostics. Enable this in F12 before reproducing a problem, then send LogOutput.log. This does not enable any gameplay/network hooks.",
+      "translation_display_name": "상세 디버그 로깅",
+      "translation_description": "DynamicMaps Extended의 상세 진단 로그를 활성화합니다. 문제를 재현하기 전에 F12에서 켠 뒤 LogOutput.log를 제공하세요. 게임플레이 또는 네트워크 훅은 활성화하지 않습니다.",
+      "values": []
+    }
+  ]
+}

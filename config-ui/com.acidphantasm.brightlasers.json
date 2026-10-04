@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.acidphantasm.brightlasers",
+  "plugin_name": "brightlasers-csharp-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Color",
+      "translation": "2. 색상"
+    }
+  ],
+  "entries": [
+    {
+      "section": "*",
+      "key": "TarkovVersion",
+      "source_display_name": "TarkovVersion",
+      "source_description": null,
+      "translation_display_name": "타르코프 버전",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Beam Width Multiplier",
+      "source_display_name": "Beam Width Multiplier",
+      "source_description": "Multiplier applied to the width of the laser beam.",
+      "translation_display_name": "레이저 빔 너비 배율",
+      "translation_description": "레이저 빔 너비 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Mod",
+      "source_display_name": "Enable Mod",
+      "source_description": "Enable or disable BrightLasers.",
+      "translation_display_name": "모드 활성화",
+      "translation_description": "모드 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Factor Multiplier",
+      "source_display_name": "Factor Multiplier",
+      "source_description": "Multiplier applied to the laser material's _Factor value.",
+      "translation_display_name": "계수 배율",
+      "translation_description": "계수 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Intensity Multiplier",
+      "source_display_name": "Intensity Multiplier",
+      "source_description": "Multiplier applied to the laser's visual and light intensity.",
+      "translation_display_name": "강도 배율",
+      "translation_description": "강도 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Color",
+      "key": "Enable Original Color Shift",
+      "source_display_name": "Enable Original Color Shift",
+      "source_description": "Shift the original laser color toward its dominant color channel. This is ignored when Override Laser Color or RGB Cycle is enabled.",
+      "translation_display_name": "원래 색상 기준 색조 이동 활성화",
+      "translation_description": "원래 레이저 색상을 가장 강한 색상 채널 쪽으로 이동시킵니다. 사용자 색상 덮어쓰기나 RGB 순환이 켜져 있으면 적용되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "2. Color",
+      "key": "Laser Color",
+      "source_display_name": "Laser Color",
+      "source_description": "Color used when Override Laser Color is enabled.",
+      "translation_display_name": "레이저 색상",
+      "translation_description": "레이저 색상 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Color",
+      "key": "Original Color Shift Amount",
+      "source_display_name": "Original Color Shift Amount",
+      "source_description": "Amount to shift the original laser color toward its dominant channel.",
+      "translation_display_name": "원래 색상 기준 색조 이동량",
+      "translation_description": "원래 레이저 색상을 주 색상 채널 쪽으로 얼마나 이동시킬지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Color",
+      "key": "Override Laser Color",
+      "source_display_name": "Override Laser Color",
+      "source_description": "Override the original laser color with the configured custom color.",
+      "translation_display_name": "레이저 색상 덮어쓰기",
+      "translation_description": "원래 레이저 색상 대신 아래에서 지정한 사용자 색상을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Color",
+      "key": "RGB Cycle",
+      "source_display_name": "RGB Cycle",
+      "source_description": "Continuously cycle the laser color through the RGB spectrum. This overrides the custom laser color.",
+      "translation_display_name": "RGB 색상 순환",
+      "translation_description": "레이저 색상을 RGB 스펙트럼을 따라 계속 순환시킵니다. 활성화하면 사용자 지정 레이저 색상보다 우선합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Color",
+      "key": "RGB Cycle Speed",
+      "source_display_name": "RGB Cycle Speed",
+      "source_description": "Speed of the RGB color cycle.",
+      "translation_display_name": "RGB 순환 속도",
+      "translation_description": "RGB 순환 속도 값을 설정합니다.",
+      "values": []
+    }
+  ]
+}

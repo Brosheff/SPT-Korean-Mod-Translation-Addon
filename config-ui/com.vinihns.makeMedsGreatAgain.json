@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.vinihns.makeMedsGreatAgain",
+  "plugin_name": "Make Meds Great Again!",
+  "_note": "SOURCE3 source-audited SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Config",
+      "translation": "설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Config",
+      "key": "Can walk in surgery",
+      "source_display_name": "Can walk in surgery",
+      "source_description": "Allows the player to walk while performing surgical treatments.",
+      "translation_display_name": "수술 중 걷기 허용",
+      "translation_description": "수술 처치를 진행하는 동안 플레이어가 걸을 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Config",
+      "key": "Can sprint using meds",
+      "source_display_name": "Can sprint using meds",
+      "source_description": "Allows sprinting while using meds—because pain can't always slow you down.",
+      "translation_display_name": "약품 사용 중 전력질주 허용",
+      "translation_description": "약품을 사용하는 동안에도 전력질주할 수 있게 합니다. 고통이 언제나 발을 붙잡을 수는 없으니까요.",
+      "values": []
+    }
+  ]
+}

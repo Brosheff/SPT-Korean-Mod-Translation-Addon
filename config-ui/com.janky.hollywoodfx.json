@@ -1,0 +1,616 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.janky.hollywoodfx",
+  "plugin_name": "HollywoodFX-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "00. General",
+      "translation": "00. 일반"
+    },
+    {
+      "source": "01. Impact Effects",
+      "translation": "01. 충격 효과"
+    },
+    {
+      "source": "02. Explosion FX",
+      "translation": "02. 폭발 효과"
+    },
+    {
+      "source": "03. Muzzle Blast Effects",
+      "translation": "03. 총구 폭발 효과"
+    },
+    {
+      "source": "04. Ambient Battle Effects (RESTART)",
+      "translation": "04. 주변 전투 효과 (재시작 필요)"
+    },
+    {
+      "source": "05. Gore Emission (RESTART)",
+      "translation": "05. 고어 방출 효과 (재시작 필요)"
+    },
+    {
+      "source": "06. Gore Size",
+      "translation": "06. 고어 크기"
+    },
+    {
+      "source": "07. Gore Decals",
+      "translation": "07. 고어 데칼"
+    },
+    {
+      "source": "08. Ragdoll Effects (DISABLED BY VISCERAL COMBAT)",
+      "translation": "08. 래그돌 효과 (Visceral Combat 사용 시 비활성)"
+    },
+    {
+      "source": "09. Miscellaneous Flotsam",
+      "translation": "09. 기타 파편 효과"
+    },
+    {
+      "source": "10. Graphics",
+      "translation": "10. 그래픽"
+    },
+    {
+      "source": "11. Whimsy",
+      "translation": "11. 장난성 옵션"
+    },
+    {
+      "source": "12. Debug",
+      "translation": "12. 디버그"
+    },
+    {
+      "source": "99. Internal",
+      "translation": "99. 내부 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "*",
+      "key": "3.0",
+      "source_display_name": "3.0",
+      "source_description": null,
+      "translation_display_name": "3.0",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "00. General",
+      "key": "Load Template (RESTART)",
+      "source_display_name": "Load Template (RESTART)",
+      "source_description": "Use a preset template for the HFX settings. Requires restarting the game to ensure all the settings take effect.",
+      "translation_display_name": "효과 템플릿 불러오기 (재시작 필요)",
+      "translation_description": "HollywoodFX 설정에 미리 준비된 프리셋 템플릿을 적용합니다. 모든 설정을 확실히 적용하려면 게임을 재시작해야 합니다.",
+      "values": []
+    },
+    {
+      "section": "01. Impact Effects",
+      "key": "Enable Tracer Round Impacts",
+      "source_display_name": "Enable Tracer Round Impacts",
+      "source_description": "Toggles special impact effects for tracer rounds.",
+      "translation_display_name": "예광탄 탄착 효과 활성화",
+      "translation_description": "예광탄 전용 특수 탄착 효과를 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "01. Impact Effects",
+      "key": "Impact Effect Size",
+      "source_display_name": "Impact Effect Size",
+      "source_description": "Scales the size of impact effects.",
+      "translation_display_name": "탄착 효과 크기",
+      "translation_description": "탄착 효과 크기 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "02. Explosion FX",
+      "key": "Compute Fidelity (RESTART)",
+      "source_display_name": "Compute Fidelity (RESTART)",
+      "source_description": "Adjusts the resolution and fidelity of confinement detection and other aspects of explosions. Lower values are less CPU intensive.",
+      "translation_display_name": "연산 정밀도 (재시작 필요)",
+      "translation_description": "폭발의 공간 차폐 감지 등 연산 해상도와 정밀도를 조정합니다. 값이 낮을수록 CPU 부하가 줄어듭니다. 변경 후 재시작이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "02. Explosion FX",
+      "key": "Debris Density",
+      "source_display_name": "Debris Density",
+      "source_description": "Adjusts the density of debris and sparks. Large values may have a performance impact",
+      "translation_display_name": "파편 밀도",
+      "translation_description": "파편 밀도 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "02. Explosion FX",
+      "key": "Dust Density (CPU HEAVY)",
+      "source_display_name": "Dust Density (CPU HEAVY)",
+      "source_description": "Adjusts the density of debris and sparks. Large values may have a performance impact",
+      "translation_display_name": "먼지 밀도 (CPU 부하 높음)",
+      "translation_description": "먼지 밀도 (CPU 부하 높음) 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "02. Explosion FX",
+      "key": "Fireball Density",
+      "source_display_name": "Fireball Density",
+      "source_description": "Adjusts the density of fireballs. Large values may have a performance impact",
+      "translation_display_name": "화염구 밀도",
+      "translation_description": "화염구 밀도 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "02. Explosion FX",
+      "key": "Smoke Density (CPU HEAVY)",
+      "source_display_name": "Smoke Density (CPU HEAVY)",
+      "source_description": "Adjusts the density of debris and sparks. Large values may have a performance impact",
+      "translation_display_name": "연기 밀도 (CPU 높은 부하)",
+      "translation_description": "연기 밀도 (CPU 높은 부하) 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "02. Explosion FX",
+      "key": "Sparks Density (CPU HEAVY)",
+      "source_display_name": "Sparks Density (CPU HEAVY)",
+      "source_description": "Adjusts the density of debris and sparks. Large values may have a performance impact",
+      "translation_display_name": "불꽃 밀도 (CPU 높은 부하)",
+      "translation_description": "불꽃 밀도 (CPU 높은 부하) 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "03. Muzzle Blast Effects",
+      "key": "Enable Muzzle Effects (RESTART)",
+      "source_display_name": "Enable Muzzle Effects (RESTART)",
+      "source_description": "Toggles new muzzle blast effects.",
+      "translation_display_name": "총구 효과 (재시작) 활성화",
+      "translation_description": "새 총구 폭발 효과를 활성화합니다. 변경 후 재시작이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "03. Muzzle Blast Effects",
+      "key": "Enable Muzzle Light Shadow (RESTART)",
+      "source_display_name": "Enable Muzzle Light Shadow (RESTART)",
+      "source_description": "Toggles shadow casting for muzzle lights.",
+      "translation_display_name": "총구 광원 그림자 (재시작) 활성화",
+      "translation_description": "총구 섬광 광원이 그림자를 만들도록 합니다. 변경 후 재시작이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "03. Muzzle Blast Effects",
+      "key": "Muzzle Jet Size",
+      "source_display_name": "Muzzle Jet Size",
+      "source_description": "Adjusts the size of the muzzle flame jets.",
+      "translation_display_name": "총구 화염 분사 크기",
+      "translation_description": "총구 화염 분사 크기 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "03. Muzzle Blast Effects",
+      "key": "Muzzle Smoke Emission Rate (RESTART)",
+      "source_display_name": "Muzzle Smoke Emission Rate (RESTART)",
+      "source_description": "Adjusts the amount of muzzle smoke generated. If you are looking to hotbox with some scavs, set it to 3 or something.",
+      "translation_display_name": "총구 연기 방출 비율 (재시작)",
+      "translation_description": "발사 시 생성되는 총구 연기 양을 조정합니다. 높은 값은 연기를 크게 늘리며 변경 후 재시작이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "03. Muzzle Blast Effects",
+      "key": "Muzzle Smoke Size",
+      "source_display_name": "Muzzle Smoke Size",
+      "source_description": "Adjusts the size of the muzzle smoke.",
+      "translation_display_name": "총구 연기 크기",
+      "translation_description": "총구 연기 크기 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "03. Muzzle Blast Effects",
+      "key": "Muzzle Sparks Emission Rate (RESTART)",
+      "source_display_name": "Muzzle Sparks Emission Rate (RESTART)",
+      "source_description": "Adjusts the amount of muzzle sparks generated.",
+      "translation_display_name": "총구 불꽃 방출 비율 (재시작)",
+      "translation_description": "총구 불꽃 방출 비율 (재시작) 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "03. Muzzle Blast Effects",
+      "key": "Muzzle Sparks Size",
+      "source_display_name": "Muzzle Sparks Size",
+      "source_description": "Adjusts the size of the muzzle sparks.",
+      "translation_display_name": "총구 불꽃 크기",
+      "translation_description": "총구 불꽃 크기 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Ambient Effect Emission Rate",
+      "source_display_name": "Ambient Effect Emission Rate",
+      "source_description": "Adjusts the density of ambient effects. The bigger this number, the denser the smoke, debris, glitter etc...",
+      "translation_display_name": "환경음 효과 방출 비율",
+      "translation_description": "환경음 효과 방출 비율 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Ambient Effect Particle Lifetime",
+      "source_display_name": "Ambient Effect Particle Lifetime",
+      "source_description": "Scales the internal lifetime of particles. Since there are different limits for different components, this scales everything proportionally.",
+      "translation_display_name": "환경음 효과 파티클 수명",
+      "translation_description": "환경음 효과 파티클 수명 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Ambient Effect Particle Limit",
+      "source_display_name": "Ambient Effect Particle Limit",
+      "source_description": "Scales the internal limits on the number of active particles. Since there are different limits for different components, this scales everything proportionally.",
+      "translation_display_name": "환경음 효과 파티클 제한",
+      "translation_description": "주변 전투 효과에서 동시에 활성화할 수 있는 파티클 내부 제한을 비례해서 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Battle Blur Intensity",
+      "source_display_name": "Battle Blur Intensity",
+      "source_description": "Scales the intensity of battle blur from concussion and suppression effects.",
+      "translation_display_name": "전투 블러 강도",
+      "translation_description": "전투 블러 강도 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Concussion Duration",
+      "source_display_name": "Concussion Duration",
+      "source_description": "Scales the duration of concussion effects. Larger numbers will result in longer lasting concussion.",
+      "translation_display_name": "뇌진탕 지속 시간",
+      "translation_description": "뇌진탕 지속 시간 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Concussion Range",
+      "source_display_name": "Concussion Range",
+      "source_description": "Scales the range of concussion effects. Larger numbers will cause concussion from further away.",
+      "translation_display_name": "뇌진탕 범위",
+      "translation_description": "뇌진탕 범위 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Enable Concussion FX",
+      "source_display_name": "Enable Concussion FX",
+      "source_description": "Toggles concussion screen effects.",
+      "translation_display_name": "뇌진탕 효과 활성화",
+      "translation_description": "뇌진탕 상황에서 화면 효과를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Enable Scope DoF",
+      "source_display_name": "Enable Scope DoF",
+      "source_description": "Enable the depth of field effect when using magnifying optics.",
+      "translation_display_name": "조준경 심도 효과 활성화",
+      "translation_description": "배율 조준경 사용 중 피사계 심도 효과를 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Enable Suppression FX",
+      "source_display_name": "Enable Suppression FX",
+      "source_description": "Toggles suppression screen effects.",
+      "translation_display_name": "제압 효과 활성화",
+      "translation_description": "제압 사격을 받을 때 화면 효과를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Forced Simulation Range",
+      "source_display_name": "Forced Simulation Range",
+      "source_description": "Ambient battle effects are simulated in this range around the player, even if not immediately visible. Helps create ambience from bot fights.",
+      "translation_display_name": "강제 효과 시뮬레이션 범위",
+      "translation_description": "플레이어 주변에서 주변 전투 효과를 계속 시뮬레이션할 범위입니다. 당장 화면에 보이지 않는 봇 교전도 이 범위 안에서는 효과를 생성해 전투 분위기를 만듭니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Scope DoF Intensity",
+      "source_display_name": "Scope DoF Intensity",
+      "source_description": "Scales the intensity of the scope depth of field effect.",
+      "translation_display_name": "조준경 심도 효과 강도",
+      "translation_description": "조준경 심도 효과 강도 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Suppression Duration",
+      "source_display_name": "Suppression Duration",
+      "source_description": "Scales the duration of concussion effects. Larger numbers will result in longer lasting concussion.",
+      "translation_display_name": "제압 지속 시간",
+      "translation_description": "제압 지속 시간 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "04. Ambient Battle Effects (RESTART)",
+      "key": "Suppression Range",
+      "source_display_name": "Suppression Range",
+      "source_description": "Scales the range of concussion effects. Larger numbers will cause concussion from further away.",
+      "translation_display_name": "제압 범위",
+      "translation_description": "제압 범위 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "05. Gore Emission (RESTART)",
+      "key": "Arterial Bleed Emission Rate",
+      "source_display_name": "Arterial Bleed Emission Rate",
+      "source_description": "Adjusts the quantity of particles in arterial bleed effects. Reduce if you get stutters. Above 2 gets quite CPU heavy.",
+      "translation_display_name": "동맥 출혈 방출 비율",
+      "translation_description": "동맥 출혈 효과의 파티클 양을 조정합니다. 끊김이 생기면 낮추고, 2보다 높으면 CPU 부하가 크게 증가할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "05. Gore Emission (RESTART)",
+      "key": "Blood Spray Emission Rate",
+      "source_display_name": "Blood Spray Emission Rate",
+      "source_description": "Adjusts the quantity of fine blood spray particles. Reduce if you get stutters. Above 1 gets quite CPU heavy.",
+      "translation_display_name": "혈액 분사 방출 비율",
+      "translation_description": "미세 혈액 분사 파티클 양을 조정합니다. 끊김이 생기면 낮추고, 1보다 높으면 CPU 부하가 크게 증가할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "05. Gore Emission (RESTART)",
+      "key": "Enable Gore Effects",
+      "source_display_name": "Enable Gore Effects",
+      "source_description": "Toggles whether gore effects are rendered at all. When toggled off, only the default BSG blood effects will show.",
+      "translation_display_name": "고어 효과 활성화",
+      "translation_description": "추가 고어 효과 전체를 표시할지 설정합니다. 끄면 EFT 기본 혈흔 효과만 남습니다.",
+      "values": []
+    },
+    {
+      "section": "05. Gore Emission (RESTART)",
+      "key": "Finisher Emission Rate",
+      "source_display_name": "Finisher Emission Rate",
+      "source_description": "Adjusts the quantity of particles in finisher effects. Reduce if you get stutters. Above 1 gets quite CPU heavy.",
+      "translation_display_name": "마무리 방출 비율",
+      "translation_description": "마무리 효과에서 생성되는 파티클 양을 조정합니다. 끊김이 생기면 낮추고, 1보다 높으면 CPU 부하가 크게 증가할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "05. Gore Emission (RESTART)",
+      "key": "Squirt Emission Rate",
+      "source_display_name": "Squirt Emission Rate",
+      "source_description": "Adjusts the quantity of the blood squirt particles. Reduce if you get stutters. Above 1 gets quite CPU heavy.",
+      "translation_display_name": "분출 방출 비율",
+      "translation_description": "혈액 분출 파티클 양을 조정합니다. 끊김이 생기면 낮추고, 1보다 높으면 CPU 부하가 크게 증가할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "06. Gore Size",
+      "key": "Arterial Bleed Size",
+      "source_display_name": "Arterial Bleed Size",
+      "source_description": "Adjusts the size of the gore generated by arterial bleeds.",
+      "translation_display_name": "동맥 출혈 크기",
+      "translation_description": "동맥 출혈 크기 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "06. Gore Size",
+      "key": "Finisher Gore Size",
+      "source_display_name": "Finisher Gore Size",
+      "source_description": "Adjusts the size of the gore generated by finisher shots.",
+      "translation_display_name": "마무리 고어 크기",
+      "translation_description": "마무리 고어 크기 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "06. Gore Size",
+      "key": "Spray Size",
+      "source_display_name": "Spray Size",
+      "source_description": "Adjusts the size of fine blood sprays.",
+      "translation_display_name": "분사 크기",
+      "translation_description": "분사 크기 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "06. Gore Size",
+      "key": "Squirt Size",
+      "source_display_name": "Squirt Size",
+      "source_description": "Adjusts the size of the blood squirts.",
+      "translation_display_name": "분출 크기",
+      "translation_description": "분출 크기 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "07. Gore Decals",
+      "key": "Blood Splatter Decal Size",
+      "source_display_name": "Blood Splatter Decal Size",
+      "source_description": "Adjusts the size of the blood splatters on the environment.",
+      "translation_display_name": "혈액 비산 데칼 크기",
+      "translation_description": "혈액 비산 데칼 크기 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "07. Gore Decals",
+      "key": "Blood Splatter on Environment",
+      "source_display_name": "Blood Splatter on Environment",
+      "source_description": "Toggles the new blood splashes appearing on the environment for penetrating hits. If toggled off, you'll get the shonky EFT defaults. Philistine.",
+      "translation_display_name": "환경에 혈흔 비산 효과 표시",
+      "translation_description": "관통 피격 시 주변 환경에 추가 혈흔 비산 데칼을 표시합니다. 끄면 EFT 기본 효과를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "07. Gore Decals",
+      "key": "Wound Decal Size",
+      "source_display_name": "Wound Decal Size",
+      "source_description": "Adjusts the size of the wound decals that appear on bodies.",
+      "translation_display_name": "상처 데칼 크기",
+      "translation_description": "상처 데칼 크기 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "07. Gore Decals",
+      "key": "Wound Decals on Bodies",
+      "source_display_name": "Wound Decals on Bodies",
+      "source_description": "Toggles the new blood splashes appearing on bodies. If toggled off, you'll get the barely visible EFT default wound effects. Philistine.",
+      "translation_display_name": "시체/몸에 상처 데칼 표시",
+      "translation_description": "몸에 추가 혈흔·상처 데칼을 표시합니다. 끄면 잘 보이지 않는 EFT 기본 상처 효과만 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "08. Ragdoll Effects (DISABLED BY VISCERAL COMBAT)",
+      "key": "Drop Weapon on Death (RESTART)",
+      "source_display_name": "Drop Weapon on Death (RESTART)",
+      "source_description": "Toggles the enemies dropping their weapon on death.",
+      "translation_display_name": "사망 시 무기 놓기 (재시작 필요)",
+      "translation_description": "적이 사망할 때 들고 있던 무기를 놓게 합니다. Visceral Combat 사용 시 비활성화되며 변경 후 재시작이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "08. Ragdoll Effects (DISABLED BY VISCERAL COMBAT)",
+      "key": "Enable Cinematic Ragdolls (RESTART)",
+      "source_display_name": "Enable Cinematic Ragdolls (RESTART)",
+      "source_description": "Adjusts the skeletal and joint characteristics of ragdolls for a more Cinematic (TM) experience.",
+      "translation_display_name": "시네마틱 래그돌 활성화 (재시작 필요)",
+      "translation_description": "시네마틱 래그돌 활성화 (재시작 필요) 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "08. Ragdoll Effects (DISABLED BY VISCERAL COMBAT)",
+      "key": "Enable Ragdoll Effects (RESTART)",
+      "source_display_name": "Enable Ragdoll Effects (RESTART)",
+      "source_description": "Toggles whether ragdoll effects will be enabled.",
+      "translation_display_name": "래그돌 효과 (재시작) 활성화",
+      "translation_description": "래그돌 효과 (재시작) 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "08. Ragdoll Effects (DISABLED BY VISCERAL COMBAT)",
+      "key": "Ragdoll Force Multiplier",
+      "source_display_name": "Ragdoll Force Multiplier",
+      "source_description": "Multiplies the force that is applied to ragdolls when enemies die.",
+      "translation_display_name": "래그돌 강제 배율",
+      "translation_description": "적이 사망할 때 래그돌에 가해지는 힘에 적용할 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "09. Miscellaneous Flotsam",
+      "key": "Decal Limits (RESTART)",
+      "source_display_name": "Decal Limits (RESTART)",
+      "source_description": "Adjusts the maximum number of decals that the game will render. The vanilla number is a puny 200.",
+      "translation_display_name": "데칼 개수 제한 (재시작 필요)",
+      "translation_description": "데칼 개수 제한 (재시작 필요) 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "09. Miscellaneous Flotsam",
+      "key": "Enable Decal Limit Adjustment (RESTART)",
+      "source_display_name": "Enable Decal Limit Adjustment (RESTART)",
+      "source_description": "Toggles whether to override the built-in decal limits. If you have this enabled in Visceral Combat, you can disable it here.",
+      "translation_display_name": "데칼 개수 제한 조정 활성화 (재시작 필요)",
+      "translation_description": "게임의 기본 데칼 개수 제한을 HollywoodFX가 덮어쓸지 설정합니다. Visceral Combat에서 같은 기능을 사용 중이면 여기서는 끌 수 있습니다. 변경 후 재시작이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "09. Miscellaneous Flotsam",
+      "key": "Enhanced Shell Physics (RESTART)",
+      "source_display_name": "Enhanced Shell Physics (RESTART)",
+      "source_description": "Toggles whether to enhance the spent shell physics, resulting in finer grained simulation of bouncing and rolling.",
+      "translation_display_name": "향상된 탄피 물리 효과 (재시작 필요)",
+      "translation_description": "향상된 탄피 물리 효과 (재시작 필요) 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "09. Miscellaneous Flotsam",
+      "key": "Shell Ejection Velocity",
+      "source_display_name": "Shell Ejection Velocity",
+      "source_description": "Adjusts the velocity of the spent shells multiplicatively (2 means 2x the speed).",
+      "translation_display_name": "탄피 배출 속도",
+      "translation_description": "탄피 배출 속도 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "09. Miscellaneous Flotsam",
+      "key": "Spent Shells Lifetime (seconds)",
+      "source_display_name": "Spent Shells Lifetime (seconds)",
+      "source_description": "How long do spent shells stay on the ground before despawning (game default is 1 second).",
+      "translation_display_name": "탄피 유지 시간 (초)",
+      "translation_description": "탄피 유지 시간 (초) 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "09. Miscellaneous Flotsam",
+      "key": "Spent Shells Size",
+      "source_display_name": "Spent Shells Size",
+      "source_description": "Adjusts the size of spent shells multiplicatively (2 means 2x the size).",
+      "translation_display_name": "사용된 탄피 크기",
+      "translation_description": "사용된 탄피 크기 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "10. Graphics",
+      "key": "Effect Quality Bias",
+      "source_display_name": "Effect Quality Bias",
+      "source_description": "Positive values force higher quality effect textures at a distance. Numbers above 4 can have *heavy*VRAM impact and cause stuttering.",
+      "translation_display_name": "효과 품질 바이어스",
+      "translation_description": "멀리 있는 효과 텍스처가 더 높은 품질을 유지하도록 바이어스를 줍니다. 4보다 큰 값은 VRAM 사용량을 크게 늘려 끊김을 유발할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "11. Whimsy",
+      "key": "AcidPhantasm Michelin Man Mode",
+      "source_display_name": "AcidPhantasm Michelin Man Mode",
+      "source_description": "Nunc est Bibendum.",
+      "translation_display_name": "AcidPhantasm Michelin Man 모드",
+      "translation_description": "개발자가 넣은 장난성 시각 옵션입니다. 원문 설명은 미쉐린 맨 광고 문구를 인용한 농담입니다.",
+      "values": []
+    },
+    {
+      "section": "11. Whimsy",
+      "key": "Bullet Kinetics Scaling",
+      "source_display_name": "Bullet Kinetics Scaling",
+      "source_description": "Scales the overall kinetic energy, impulse, etc.",
+      "translation_display_name": "탄환 운동 효과 배율",
+      "translation_description": "탄환 운동 효과 배율 값을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "11. Whimsy",
+      "key": "JPDARKONE Clause",
+      "source_display_name": "JPDARKONE Clause",
+      "source_description": "He was so preoccupied with whether he could, he didn't stop to think if he should.",
+      "translation_display_name": "JPDARKONE 옵션",
+      "translation_description": "제작자의 장난성 옵션입니다. 실용적인 설정이라기보다 특수 효과/이스터에그 용도로 취급합니다.",
+      "values": []
+    },
+    {
+      "section": "11. Whimsy",
+      "key": "Peen",
+      "source_display_name": "Peen",
+      "source_description": "Made you look.",
+      "translation_display_name": "Peen 옵션",
+      "translation_description": "개발자가 넣은 장난성 옵션입니다. 원문 설명도 기능 설명 없이 농담만 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "12. Debug",
+      "key": "Debug Index",
+      "source_display_name": "Debug Index",
+      "source_description": null,
+      "translation_display_name": "디버그 항목 인덱스",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Debug",
+      "key": "Enable Debug Logging (RESTART)",
+      "source_display_name": "Enable Debug Logging (RESTART)",
+      "source_description": "Duh. Requires restarting the game to take effect.",
+      "translation_display_name": "디버그 로그 출력 (재시작) 활성화",
+      "translation_description": "디버그 로그 출력을 활성화합니다. 적용하려면 게임을 재시작해야 합니다.",
+      "values": []
+    },
+    {
+      "section": "99. Internal",
+      "key": "ConfigVersion",
+      "source_display_name": "ConfigVersion",
+      "source_description": "Do not modify.",
+      "translation_display_name": "설정 버전",
+      "translation_description": "내부 설정 버전입니다. 수정하지 마세요.",
+      "values": []
+    }
+  ]
+}

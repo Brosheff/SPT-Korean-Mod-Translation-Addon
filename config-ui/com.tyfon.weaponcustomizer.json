@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.tyfon.weaponcustomizer",
+  "plugin_name": "WeaponCustomizer-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Customize Weapons In Raid",
+      "source_display_name": "Customize Weapons In Raid",
+      "source_description": "When to enable the customization of weapons in raid",
+      "translation_display_name": "레이드 중 무기 커스터마이즈 허용",
+      "translation_description": "레이드 중 무기 커스터마이징 기능을 언제 허용할지 설정합니다.",
+      "values": [
+        {
+          "source": "Never",
+          "translation": "사용 안 함"
+        },
+        {
+          "source": "With Multitool",
+          "translation": "멀티툴 보유 시"
+        },
+        {
+          "source": "WithTool",
+          "translation": "멀티툴 보유 시"
+        },
+        {
+          "source": "Always",
+          "translation": "항상"
+        }
+      ]
+    },
+    {
+      "section": "General",
+      "key": "Move Everything",
+      "source_display_name": "Move Everything",
+      "source_description": "Allow every part of the gun to be moved. Doesn't make sense, is silly, have fun.",
+      "translation_display_name": "모든 무기 부품 이동 허용",
+      "translation_description": "원래 이동 대상이 아닌 부품까지 포함해 총기의 모든 부품을 위치 조정할 수 있게 합니다. 비현실적인 배치도 허용하는 재미용 옵션입니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Rotation Angle",
+      "source_display_name": "Rotation Angle",
+      "source_description": "Rotate attachments in steps by degrees. Use 0 for smooth rotation.",
+      "translation_display_name": "회전 각도",
+      "translation_description": "부착물을 회전할 때 한 번에 움직일 각도 간격입니다. 0으로 설정하면 연속적으로 부드럽게 회전합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Step Size",
+      "source_display_name": "Step Size",
+      "source_description": "Moves attachments in discrete step intervals. Use 0 for smooth motion.",
+      "translation_display_name": "단계 크기",
+      "translation_description": "부착물을 이동할 때 사용할 위치 이동 간격입니다. 0으로 설정하면 연속적으로 부드럽게 이동합니다.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.danw.questingbotscustombotgenexample",
+  "plugin_name": "SPTQuestingBots-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Main",
+      "translation": "주요 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Main",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Allow test bots to spawn",
+      "translation_display_name": "활성화",
+      "translation_description": "테스트 봇을 생성할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Key for Spawning Test Bots",
+      "source_display_name": "Key for Spawning Test Bots",
+      "source_description": null,
+      "translation_display_name": "테스트 봇 생성 단축키",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "Max Alive Test Bots",
+      "source_display_name": "Max Alive Test Bots",
+      "source_description": "Maximum number of test bots that are allowed to be alive at the same time",
+      "translation_display_name": "동시 생존 테스트 봇 최대 수",
+      "translation_description": "동시에 살아 있을 수 있는 테스트 봇의 최대 수입니다.",
+      "values": []
+    }
+  ]
+}

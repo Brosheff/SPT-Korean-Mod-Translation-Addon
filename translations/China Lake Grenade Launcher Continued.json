@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_89950cbdc0a0",
+  "mod_name": "China Lake Grenade Launcher Continued",
+  "channels": {
+    "locale": [
+      {
+        "key": "6745d112eb0900ac53e5f356 Name",
+        "source": "China Lake 'NATIC' Pump-action 40mm Grenade Launcher",
+        "translation": "China Lake 'NATIC' 펌프액션 40mm 유탄발사기",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6745d112eb0900ac53e5f356 ShortName",
+        "source": "China Lake",
+        "translation": "차이나 레이크"
+      },
+      {
+        "key": "6745d112eb0900ac53e5f356 Description",
+        "source": "A pump-action grenade launcher designed in the 1967. A rare prized commodity that only few existed, can be loaded up to 3 rounds (4 including in the chamber). The China Lake NATIC designation is also erroneous as the weapon was never known by that designation. Since it was made on an ad hoc basis for special operations forces, it was not formally adopted and has no official military designation.\nThus the SEALs referred to the experimental weapon as the 'China Lake grenade launcher' in reference to the facility which produced it.",
+        "translation": "1967년에 설계된 펌프액션 유탄발사기입니다. 극소수만 존재해 매우 희귀하고 귀중한 물건이며, 탄창에 최대 3발, 약실까지 포함하면 4발을 장전할 수 있습니다. China Lake의 NATIC이라는 명칭도 잘못된 것으로, 이 무기는 실제로 그런 제식명으로 불린 적이 없습니다. 특수작전부대를 위해 임시방편으로 제작되었기 때문에 정식 채택되지 않았고 공식 군용 제식명도 없습니다.\n그래서 SEAL 대원들은 이 실험무기를 제작 시설의 이름을 따 'China Lake 유탄발사기'라고 불렀습니다."
+      },
+      {
+        "key": "6745d11b2fe0e0c66e2ac8e9 Name",
+        "source": "China Lake 3-round magazine tube",
+        "translation": "3발, China Lake 관형 탄창"
+      },
+      {
+        "key": "6745d11b2fe0e0c66e2ac8e9 ShortName",
+        "source": "China Lake",
+        "translation": "차이나 레이크"
+      },
+      {
+        "key": "6745d11b2fe0e0c66e2ac8e9 Description",
+        "source": "3-Round standard magazine tube for the China Lake pump-action grenade launcher.",
+        "translation": "China Lake 펌프액션 유탄발사기용 표준 3발 관형 탄창입니다."
+      },
+      {
+        "key": "6745f1c80545a067a6838681 Name",
+        "source": "China Lake leaf iron sight",
+        "translation": "China Lake 리프식 기계식 조준기"
+      },
+      {
+        "key": "6745f1c80545a067a6838681 ShortName",
+        "source": "China Lake",
+        "translation": "차이나 레이크"
+      },
+      {
+        "key": "6745f1c80545a067a6838681 Description",
+        "source": "Standard issue iron sight for the China Lake.",
+        "translation": "China Lake용 표준 지급 기계식 조준기입니다."
+      }
+    ]
+  }
+}

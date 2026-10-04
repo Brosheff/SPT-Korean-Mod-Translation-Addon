@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.jbobyh.itempreviewqol",
+  "plugin_name": "JBOBYH_ItemPreviewQoL-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Enable Plugin",
+      "source_display_name": "Enable Plugin",
+      "source_description": "Enables or disables all features of this plugin.",
+      "translation_display_name": "모드 활성화",
+      "translation_description": "모드 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Show Screenshot Button",
+      "source_display_name": "Show Screenshot Button",
+      "source_description": "Enables or disables the screenshot button in the item preview window.",
+      "translation_display_name": "스크린샷 버튼 표시",
+      "translation_description": "스크린샷 버튼 표시 여부를 설정합니다.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "UIFixes",
+  "mod_name": "UI Fixes",
+  "channels": {
+    "notifications": [
+      {
+        "id": "sync_failed",
+        "source": "UI Fixes sync failed! UI Fixes is required on host",
+        "translation": "UI Fixes 동기화 실패! 호스트에도 UI Fixes가 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "version_mismatch",
+        "source": "UIFixes version mismatch! You: {client}, Host: {host}",
+        "translation": "UIFixes 버전 불일치! 클라이언트: {client}, 호스트: {host}",
+        "match_mode": "template"
+      },
+      {
+        "id": "synced",
+        "source": "UIFixes configuration synced from host",
+        "translation": "UIFixes 설정을 호스트에서 동기화했습니다.",
+        "match_mode": "exact"
+      }
+    ],
+    "locale_additions": [
+      {
+        "id": "stock",
+        "source": "Stock build",
+        "translation": "순정 빌드",
+        "match_mode": "exact",
+        "note": "무기 프리셋에서 순정 구성만 표시하는 필터",
+        "key": "Stock build"
+      },
+      {
+        "id": "oos",
+        "source": "OUT OF STOCK",
+        "translation": "품절",
+        "match_mode": "exact",
+        "note": "상인 품절 아이템 표시 필터",
+        "key": "OUT OF STOCK"
+      }
+    ]
+  }
+}

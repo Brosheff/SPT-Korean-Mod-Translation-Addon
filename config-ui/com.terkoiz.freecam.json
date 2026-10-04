@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.terkoiz.freecam",
+  "plugin_name": "SPT-Freecam-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Camera Settings",
+      "translation": "카메라 설정"
+    },
+    {
+      "source": "Fall Damage",
+      "translation": "낙하 피해"
+    },
+    {
+      "source": "Keybinds",
+      "translation": "단축키"
+    },
+    {
+      "source": "Toggles",
+      "translation": "기능 전환"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Camera Settings",
+      "key": "Camera Mouse Sensitivity",
+      "source_display_name": "Camera Mouse Sensitivity",
+      "source_description": "Camera free look mouse sensitivity",
+      "translation_display_name": "자유 카메라 마우스 감도",
+      "translation_description": "자유 카메라 자유 시점의 마우스 감도를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Camera Settings",
+      "key": "Camera Speed",
+      "source_display_name": "Camera Speed",
+      "source_description": "The speed at which the camera will move normally",
+      "translation_display_name": "자유 카메라 이동 속도",
+      "translation_description": "자유 카메라가 일반 이동할 때의 속도를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Camera Settings",
+      "key": "Camera Sprint Speed",
+      "source_display_name": "Camera Sprint Speed",
+      "source_description": "The speed at which the camera will move when the Shift key is held down",
+      "translation_display_name": "카메라 달리기 속도",
+      "translation_description": "Shift를 누른 상태에서 자유 카메라가 이동하는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "Camera Settings",
+      "key": "Camera Zoom Speed",
+      "source_display_name": "Camera Zoom Speed",
+      "source_description": "Amount to zoom the camera when using the mouse wheel",
+      "translation_display_name": "카메라 확대/축소 속도",
+      "translation_description": "마우스 휠 한 단계당 자유 카메라 줌 변화량입니다.",
+      "values": []
+    },
+    {
+      "section": "Camera Settings",
+      "key": "Camera Zoom Sprint Speed",
+      "source_display_name": "Camera Zoom Sprint Speed",
+      "source_description": "Amount to zoom the camera when using the mouse wheel while holding Shift",
+      "translation_display_name": "카메라 확대/축소 달리기 속도",
+      "translation_description": "Shift를 누른 상태에서 마우스 휠을 사용할 때 줌 변화량입니다.",
+      "values": []
+    },
+    {
+      "section": "Fall Damage",
+      "key": "Globally Disable Fall Damage",
+      "source_display_name": "Globally Disable Fall Damage",
+      "source_description": "Completely disables fall damage. This is the safest option for using freecam. Will fully override the 'Smart Fall Damage Prevention' setting.",
+      "translation_display_name": "낙하 피해 전체 비활성화",
+      "translation_description": "낙하 피해를 완전히 비활성화합니다. 자유 카메라 사용 시 가장 안전한 옵션이며, 스마트 낙하 피해 방지보다 우선합니다.",
+      "values": []
+    },
+    {
+      "section": "Fall Damage",
+      "key": "Smart Fall Damage Prevention",
+      "source_display_name": "Smart Fall Damage Prevention",
+      "source_description": "Fall damage will only be disabled after using teleport, until your player lands. Less cheat-y way to save yourself from fall damage, but might sometimes be unreliable.",
+      "translation_display_name": "자유 카메라 이동 후 낙하 피해 자동 방지",
+      "translation_description": "텔레포트를 사용한 뒤 플레이어가 착지할 때까지만 낙하 피해를 비활성화합니다. 전역 비활성화보다 덜 치트성인 방식이지만 상황에 따라 완벽하지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Keybinds",
+      "key": "Teleport To Camera",
+      "source_display_name": "Teleport To Camera",
+      "source_description": "The keyboard shortcut that teleports the player to camera position",
+      "translation_display_name": "플레이어를 카메라 위치로 순간이동",
+      "translation_description": "플레이어를 현재 자유 카메라 위치로 순간이동시키는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Keybinds",
+      "key": "Toggle Freecam",
+      "source_display_name": "Toggle Freecam",
+      "source_description": "The keyboard shortcut that toggles Freecam",
+      "translation_display_name": "자유 카메라 전환",
+      "translation_description": "자유 카메라를 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Keybinds",
+      "key": "Toggle Freecam Controls",
+      "source_display_name": "Toggle Freecam Controls",
+      "source_description": "The keyboard shortcut that toggles Freecam Controls",
+      "translation_display_name": "자유 카메라 조작 전환",
+      "translation_description": "자유 카메라 조작 입력을 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Keybinds",
+      "key": "Toggle UI",
+      "source_display_name": "Toggle UI",
+      "source_description": "The keyboard shortcut that toggles the game UI",
+      "translation_display_name": "게임 UI 전환",
+      "translation_description": "게임 UI를 켜거나 끄는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Toggles",
+      "key": "Camera Height Movement Keys",
+      "source_display_name": "Camera Height Movement Keys",
+      "source_description": "Enables or disables the camera height movement keys, which default to Q, E, R, F. \nUseful to disable if you want to let your character lean in Freecam mode",
+      "translation_display_name": "카메라 높이 이동 키",
+      "translation_description": "기본 Q/E/R/F로 지정된 자유 카메라 높이 이동 키를 사용할지 설정합니다. 자유 카메라 상태에서 캐릭터 기울이기 입력을 쓰고 싶다면 끌 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Toggles",
+      "key": "Camera Mousewheel Zoom",
+      "source_display_name": "Camera Mousewheel Zoom",
+      "source_description": "Enables or disables camera movement on mousewheel scroll. Just in case you find it annoying and want that disabled.",
+      "translation_display_name": "카메라 마우스 휠 확대/축소",
+      "translation_description": "마우스 휠로 자유 카메라 줌을 조절할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Toggles",
+      "key": "Remember Last Camera Position",
+      "source_display_name": "Remember Last Camera Position",
+      "source_description": "If enabled, returning to Freecam mode will put the camera to it's last position which is saved when exiting Freecam mode.",
+      "translation_display_name": "기억 마지막 카메라 위치",
+      "translation_description": "자유 카메라를 종료할 때 위치를 저장하고, 다시 진입하면 마지막 위치에서 시작합니다.",
+      "values": []
+    }
+  ]
+}

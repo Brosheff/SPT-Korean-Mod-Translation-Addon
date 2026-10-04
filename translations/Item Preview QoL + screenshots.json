@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "ItemPreviewQoL",
+  "mod_name": "Item Preview QoL + screenshots",
+  "channels": {
+    "notifications": [
+      {
+        "id": "no_raw_image",
+        "source": "Error 1. No rawImage",
+        "translation": "오류 1. 미리보기 이미지(rawImage)를 찾지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "saved",
+        "source": "Screeshot saved: {path}",
+        "translation": "스크린샷 저장됨: {path}",
+        "match_mode": "template"
+      },
+      {
+        "id": "save_failed_2",
+        "source": "Error 2. Failed to save screenshot",
+        "translation": "오류 2. 스크린샷 저장 실패",
+        "match_mode": "exact"
+      },
+      {
+        "id": "save_failed_3",
+        "source": "Error 3. Failed to save screenshot",
+        "translation": "오류 3. 스크린샷 저장 실패",
+        "match_mode": "exact"
+      },
+      {
+        "id": "save_failed_4",
+        "source": "Error 4. Failed to save screenshot",
+        "translation": "오류 4. 스크린샷 저장 실패",
+        "match_mode": "exact"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "screenshot_button",
+        "source": "SCREENSHOT",
+        "translation": "스크린샷",
+        "match_mode": "exact",
+        "note": "아이템 프리뷰 스크린샷 버튼"
+      },
+      {
+        "id": "screenshot_hint",
+        "source": "Screenshot",
+        "translation": "스크린샷",
+        "match_mode": "exact",
+        "note": "스크린샷 버튼 힌트"
+      }
+    ]
+  }
+}

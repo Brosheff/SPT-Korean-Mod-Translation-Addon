@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.maschine.UnloadAllMagazines",
+  "plugin_name": "UnloadAllMagazines-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "UnloadChamberedRounds",
+      "source_display_name": "Unload Chambered Rounds",
+      "source_description": "Also eject the round sitting in the barrel of every weapon in the container. The round is kept, not destroyed - it goes into whatever the weapon is lying in, the same way unloading a magazine works. Jammed weapons and anything you locked with the padlock are skipped.",
+      "translation_display_name": "약실 탄약도 빼기",
+      "translation_description": "컨테이너 안 모든 무기의 약실에 있는 탄약도 꺼냅니다. 탄약은 파괴되지 않고 탄창을 비울 때와 같은 방식으로 무기가 들어 있는 위치로 이동합니다. 기능고장 상태의 무기와 자물쇠로 잠근 항목은 건너뜁니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "UnloadMagazines",
+      "source_display_name": "Unload Magazines",
+      "source_description": "Empty every magazine in the container, including the ones loaded in weapons.",
+      "translation_display_name": "모든 탄창 비우기",
+      "translation_description": "컨테이너 안의 모든 탄창을 비웁니다. 무기에 장착된 탄창도 포함합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "UnpackAmmoPacks",
+      "source_display_name": "Unpack Ammo Packs",
+      "source_description": "Also unpack sealed ammo packs. Like the vanilla unload action this consumes the pack itself, and loose rounds take up far more room than the pack did - make sure you have the space. Packs you locked with the padlock are skipped.",
+      "translation_display_name": "밀봉 탄약 상자도 개봉",
+      "translation_description": "밀봉된 탄약 팩도 개봉합니다. 기본 게임의 언로드 동작처럼 팩 자체는 소모되며, 낱발 탄약은 원래 팩보다 훨씬 많은 공간을 차지할 수 있으므로 공간을 확보하세요. 자물쇠로 잠근 팩은 건너뜁니다.",
+      "values": []
+    }
+  ]
+}

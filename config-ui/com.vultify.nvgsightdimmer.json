@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.vultify.nvgsightdimmer",
+  "plugin_name": "NVG Sight Dimmer",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Settings",
+      "translation": "2. 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Enable Auto Dim",
+      "source_display_name": "Enable Auto Dim",
+      "source_description": null,
+      "translation_display_name": "자동 밝기 감소 사용",
+      "translation_description": "NVG 사용 중 조준기와 스코프 밝기를 자동으로 낮춥니다.",
+      "values": []
+    },
+    {
+      "section": "2. Settings",
+      "key": "NVG Sight Brightness (Holo / Red Dot)",
+      "source_display_name": "NVG Sight Brightness (Holo / Red Dot)",
+      "source_description": null,
+      "translation_display_name": "NVG 조준기 밝기 (홀로/레드도트)",
+      "translation_description": "NVG 사용 중 홀로그램/레드도트 조준기의 밝기 배율입니다. 낮을수록 어두워집니다.",
+      "values": []
+    },
+    {
+      "section": "2. Settings",
+      "key": "NVG Sight Brightness (Scopes)",
+      "source_display_name": "NVG Sight Brightness (Scopes)",
+      "source_description": null,
+      "translation_display_name": "NVG 조준기 밝기 (스코프)",
+      "translation_description": "NVG 사용 중 스코프 레티클의 밝기 배율입니다. 낮을수록 어두워집니다.",
+      "values": []
+    },
+    {
+      "section": "2. Settings",
+      "key": "NVG Sight Brightness (ACOG/Scopes)",
+      "source_display_name": "NVG Sight Brightness (ACOG/Scopes)",
+      "source_description": null,
+      "translation_display_name": "NVG 조준기 밝기 (ACOG/기타 스코프)",
+      "translation_description": "ACOG 및 다른 슬라이더가 처리하지 않는 스코프 밝기를 조절합니다.",
+      "values": []
+    }
+  ]
+}

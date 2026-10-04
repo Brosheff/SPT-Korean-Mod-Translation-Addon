@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "FastSellInFlea",
+  "mod_name": "Fast Sell In Flea",
+  "channels": {
+    "notifications": [
+      {
+        "id": "offer_added",
+        "source": "Offer added for {price}RUB",
+        "translation": "{price}RUB로 오퍼가 추가되었습니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "offer_error",
+        "source": "Error when adding offer",
+        "translation": "오퍼 추가 중 오류가 발생했습니다",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

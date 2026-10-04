@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "StatTrack",
+  "mod_name": "StatTrack",
+  "channels": {
+    "notifications": [
+      {
+        "id": "save_failed",
+        "source": "Failed to save Weapon StatTrack File - check the server",
+        "translation": "무기 StatTrack 파일 저장에 실패했습니다. 서버 상태를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "load_failed",
+        "source": "Failed to load Weapon StatTrack File - check the server",
+        "translation": "무기 StatTrack 파일을 불러오지 못했습니다. 서버 상태를 확인하세요.",
+        "match_mode": "exact"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "kills_kd_ratio",
+        "source": "KILLS | K/D RATIO",
+        "translation": "처치 | K/D 비율",
+        "match_mode": "exact",
+        "note": "무기 상세 정보의 StatTrack 처치/KD 라벨"
+      },
+      {
+        "id": "headshot_kill_percent",
+        "source": "HEADSHOT KILL %",
+        "translation": "헤드샷 처치율 %",
+        "match_mode": "exact",
+        "note": "무기 상세 정보의 StatTrack 헤드샷 처치율 라벨"
+      },
+      {
+        "id": "rounds_to_kill_avg",
+        "source": "ROUNDS TO KILL AVG",
+        "translation": "평균 처치 탄수",
+        "match_mode": "exact",
+        "note": "무기 상세 정보의 StatTrack 평균 처치 탄수 라벨"
+      },
+      {
+        "id": "rounds_fired",
+        "source": "ROUNDS FIRED",
+        "translation": "발사 탄수",
+        "match_mode": "exact",
+        "note": "무기 상세 정보의 StatTrack 발사 탄수 라벨"
+      },
+      {
+        "id": "tooltip_all",
+        "source": "All -",
+        "translation": "전체 -",
+        "match_mode": "segment",
+        "note": "StatTrack 상세 툴팁 전체 통계 제목"
+      },
+      {
+        "id": "tooltip_this",
+        "source": "This -",
+        "translation": "현재 -",
+        "match_mode": "segment",
+        "note": "StatTrack 상세 툴팁 현재 무기 통계 제목"
+      },
+      {
+        "id": "tooltip_stats",
+        "source": "- Stats:",
+        "translation": "- 통계:",
+        "match_mode": "segment",
+        "note": "StatTrack 상세 툴팁 제목 접미사"
+      },
+      {
+        "id": "tooltip_boss_kills",
+        "source": " Boss Kills",
+        "translation": " 보스 처치",
+        "match_mode": "segment",
+        "note": "StatTrack 상세 툴팁"
+      },
+      {
+        "id": "tooltip_headshot_kills",
+        "source": " Headshot Kills",
+        "translation": " 헤드샷 처치",
+        "match_mode": "segment",
+        "note": "StatTrack 상세 툴팁"
+      },
+      {
+        "id": "tooltip_kills",
+        "source": "(?<!Boss)(?<!Headshot) Kills",
+        "translation": " 처치",
+        "match_mode": "regex_segment",
+        "note": "StatTrack 상세 툴팁 일반 처치 라벨(Boss/Headshot Kills와 중첩 방지)"
+      },
+      {
+        "id": "tooltip_kd",
+        "source": " Kill/Death Ratio",
+        "translation": " 처치/사망 비율",
+        "match_mode": "segment",
+        "note": "StatTrack 상세 툴팁"
+      },
+      {
+        "id": "tooltip_rtk",
+        "source": " Rounds-To-Kill Average",
+        "translation": " 평균 처치 탄수",
+        "match_mode": "segment",
+        "note": "StatTrack 상세 툴팁"
+      },
+      {
+        "id": "tooltip_total_shots",
+        "source": " Total Shots",
+        "translation": " 총 발사 수",
+        "match_mode": "segment",
+        "note": "StatTrack 상세 툴팁"
+      },
+      {
+        "id": "tooltip_accuracy",
+        "source": " Accuracy",
+        "translation": " 명중률",
+        "match_mode": "segment",
+        "note": "StatTrack 상세 툴팁"
+      },
+      {
+        "id": "tooltip_headshot_hits",
+        "source": " Headshot Hits",
+        "translation": " 헤드샷 명중",
+        "match_mode": "segment",
+        "note": "StatTrack 상세 툴팁"
+      },
+      {
+        "id": "tooltip_total_damage",
+        "source": " Total Damage",
+        "translation": " 총 피해량",
+        "match_mode": "segment",
+        "note": "StatTrack 상세 툴팁"
+      }
+    ]
+  }
+}

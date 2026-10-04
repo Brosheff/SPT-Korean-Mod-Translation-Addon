@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_f8aaeffde458",
+  "mod_name": "Manimal's Ammo Loading Animations",
+  "channels": {
+    "locale": [
+      {
+        "key": "69d69c70ed183ba9c882f7f7 Name",
+        "source": "[LoadAmmoAnim] Animation Bundle",
+        "translation": "[LoadAmmoAnim] 애니메이션 번들",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "69d69c70ed183ba9c882f7f7 Description",
+        "source": "An internal placeholder item used by LoadAmmoAnim for magazine loading animations. Do not remove.",
+        "translation": "LoadAmmoAnim에서 탄창 장전 애니메이션에 사용하는 내부 플레이스홀더 아이템입니다. 제거하지 마십시오."
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.holstereverything",
+  "mod_name": "HolsterEverything",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "item_incompatible",
+        "source": "Item is incompatible",
+        "translation": "호환되지 않는 아이템입니다",
+        "match_mode": "exact",
+        "note": "홀스터 크기/호환성 검사 실패 TextError"
+      },
+      {
+        "id": "no_free_slot",
+        "source": "No free slot for that item",
+        "translation": "해당 아이템을 넣을 빈 슬롯이 없습니다",
+        "match_mode": "exact",
+        "note": "홀스터 이동 실패 TextError"
+      }
+    ]
+  }
+}

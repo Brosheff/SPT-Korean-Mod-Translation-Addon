@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.manimal.interchange",
+  "plugin_name": "Manimal-InterchangeRework",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "Development",
+      "translation": "개발"
+    },
+    {
+      "source": "Rendering",
+      "translation": "렌더링"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Development",
+      "key": "AllowLoaderProbe",
+      "source_display_name": "AllowLoaderProbe",
+      "source_description": null,
+      "translation_display_name": "로더 프로브 허용",
+      "translation_description": "AI Bridge를 통한 메뉴 전용 장면 로딩 테스트를 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "Development",
+      "key": "AllowFullMapTest",
+      "source_display_name": "AllowFullMapTest",
+      "source_description": null,
+      "translation_display_name": "전체 맵 테스트 허용",
+      "translation_description": "일치하는 서버 테스트 매니페스트를 사용할 때 전체 교체 레이드를 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "Rendering",
+      "key": "RebindNativeShaders",
+      "source_display_name": "RebindNativeShaders",
+      "source_description": null,
+      "translation_display_name": "네이티브 셰이더 재바인딩",
+      "translation_description": "맵의 화면 공간 보조 셰이더를 번들 버전 대신 게임 자체 셰이더에 연결합니다.",
+      "values": []
+    },
+    {
+      "section": "Rendering",
+      "key": "RebindMaterialShaders",
+      "source_display_name": "RebindMaterialShaders",
+      "source_description": null,
+      "translation_display_name": "머티리얼 셰이더 재바인딩",
+      "translation_description": "동일한 이름의 게임 내 셰이더가 있으면 맵 머티리얼을 해당 셰이더에 연결합니다.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.wtt.commonlib",
+  "plugin_name": "WTT-ClientCommonLib",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "FaceCard",
+      "translation": "페이스카드"
+    },
+    {
+      "source": "Gym Radio",
+      "translation": "체육관 라디오"
+    },
+    {
+      "source": "Rest Space Radio",
+      "translation": "휴게 공간 라디오"
+    },
+    {
+      "source": "1. Create CustomQuestZone",
+      "translation": "1. 사용자 퀘스트 구역 생성"
+    },
+    {
+      "source": "2. Select CustomQuestZone",
+      "translation": "2. 사용자 퀘스트 구역 선택"
+    },
+    {
+      "source": "3.1. Adjustment Settings",
+      "translation": "3.1. 조정 설정"
+    },
+    {
+      "source": "3.2. Change Position",
+      "translation": "3.2. 위치 변경"
+    },
+    {
+      "source": "3.3. Change Scale",
+      "translation": "3.3. 크기 변경"
+    },
+    {
+      "source": "3.4. Change Rotation",
+      "translation": "3.4. 회전 변경"
+    },
+    {
+      "source": "4. Output",
+      "translation": "4. 출력"
+    },
+    {
+      "source": "5. View Zones",
+      "translation": "5. 구역 보기"
+    },
+    {
+      "source": "Keybinds",
+      "translation": "키 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Developer Mode",
+      "source_display_name": "Developer Mode",
+      "source_description": "Enable Developer Mode and RESTART YOUR GAME to access zone editor and static spawn system tools",
+      "translation_display_name": "개발자 모드",
+      "translation_description": "구역 편집기와 정적 스폰 시스템 도구를 사용합니다. 변경 후 게임을 다시 시작해야 합니다."
+    },
+    {
+      "section": "FaceCard",
+      "key": "Music Volume",
+      "source_display_name": "Music Volume",
+      "source_description": "Volume for the FaceCard custom audio",
+      "translation_display_name": "음악 볼륨",
+      "translation_description": "FaceCard 사용자 지정 오디오의 볼륨입니다."
+    },
+    {
+      "section": "Gym Radio",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": null,
+      "translation_display_name": "활성화",
+      "translation_description": "체육관 라디오 사용자 지정 오디오를 활성화하거나 비활성화합니다."
+    },
+    {
+      "section": "Gym Radio",
+      "key": "Gym Radio Volume",
+      "source_display_name": "Gym Radio Volume",
+      "source_description": null,
+      "translation_display_name": "체육관 라디오 볼륨",
+      "translation_description": "체육관 라디오 사용자 지정 오디오의 볼륨입니다."
+    },
+    {
+      "section": "Gym Radio",
+      "key": "Replacement Chance",
+      "source_display_name": "Replacement Chance",
+      "source_description": null,
+      "translation_display_name": "교체 확률",
+      "translation_description": "기본 체육관 라디오 오디오를 사용자 지정 오디오로 교체할 확률(0~100%)입니다."
+    },
+    {
+      "section": "Gym Radio",
+      "key": "Play On First Entrance",
+      "source_display_name": "Play On First Entrance",
+      "source_description": "Play custom audio when first entering hideout",
+      "translation_display_name": "첫 진입 시 재생",
+      "translation_description": "은신처에 처음 진입할 때 사용자 지정 오디오를 재생합니다."
+    },
+    {
+      "section": "Rest Space Radio",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": null,
+      "translation_display_name": "활성화",
+      "translation_description": "휴게 공간 라디오 사용자 지정 오디오를 활성화하거나 비활성화합니다."
+    },
+    {
+      "section": "Rest Space Radio",
+      "key": "Rest Space Radio Volume",
+      "source_display_name": "Rest Space Radio Volume",
+      "source_description": null,
+      "translation_display_name": "휴게 공간 라디오 볼륨",
+      "translation_description": "휴게 공간 라디오 사용자 지정 오디오의 볼륨입니다."
+    },
+    {
+      "section": "Rest Space Radio",
+      "key": "Replacement Chance",
+      "source_display_name": "Replacement Chance",
+      "source_description": null,
+      "translation_display_name": "교체 확률",
+      "translation_description": "기본 휴게 공간 라디오 오디오를 사용자 지정 오디오로 교체할 확률(0~100%)입니다."
+    },
+    {
+      "section": "Rest Space Radio",
+      "key": "Play On First Entrance",
+      "source_display_name": "Play On First Entrance",
+      "source_description": "Play custom audio when first entering hideout",
+      "translation_display_name": "첫 진입 시 재생",
+      "translation_description": "은신처에 처음 진입할 때 사용자 지정 오디오를 재생합니다."
+    },
+    {
+      "section": "1. Create CustomQuestZone",
+      "key": "CustomQuestZone ID",
+      "source_display_name": "CustomQuestZone ID",
+      "source_description": "The name for the new zone",
+      "translation_display_name": "사용자 퀘스트 구역 ID",
+      "translation_description": "새 구역의 이름입니다."
+    },
+    {
+      "section": "1. Create CustomQuestZone",
+      "key": "CustomQuestZone Type",
+      "source_display_name": "CustomQuestZone Type",
+      "source_description": "Select the type of zone",
+      "translation_display_name": "사용자 퀘스트 구역 유형",
+      "translation_description": "구역 유형을 선택합니다."
+    },
+    {
+      "section": "1. Create CustomQuestZone",
+      "key": "(Optional) Flare Type",
+      "source_display_name": "(Optional) Flare Type",
+      "source_description": "Select the flare zone type",
+      "translation_display_name": "(선택) 조명탄 유형",
+      "translation_description": "조명탄 구역 유형을 선택합니다."
+    },
+    {
+      "section": "1. Create CustomQuestZone",
+      "key": "Add CustomQuestZone",
+      "source_display_name": "Add CustomQuestZone",
+      "source_description": "Adds a new zone with the zone ID",
+      "translation_display_name": "사용자 퀘스트 구역 추가",
+      "translation_description": "지정한 구역 ID로 새 구역을 추가합니다."
+    },
+    {
+      "section": "2. Select CustomQuestZone",
+      "key": "Navigate Zones",
+      "source_display_name": "Navigate Zones",
+      "source_description": "The ID for the currently selected CustomQuestZone.",
+      "translation_display_name": "구역 탐색",
+      "translation_description": "현재 선택된 사용자 퀘스트 구역의 ID입니다."
+    },
+    {
+      "section": "3.1. Adjustment Settings",
+      "key": "CustomQuestZone Adjustment Value",
+      "source_display_name": "CustomQuestZone Adjustment Value",
+      "source_description": "Sets the value used to adjust the position, scale and rotation of zones.",
+      "translation_display_name": "사용자 퀘스트 구역 조정값",
+      "translation_description": "구역의 위치, 크기, 회전을 조정할 때 사용하는 변화량입니다."
+    },
+    {
+      "section": "3.2. Change Position",
+      "key": "Change Position X",
+      "source_display_name": "Change Position X",
+      "source_description": "Change the position of the current zone",
+      "translation_display_name": "위치 X 변경",
+      "translation_description": "현재 구역의 위치를 변경합니다."
+    },
+    {
+      "section": "3.2. Change Position",
+      "key": "Change Position Y",
+      "source_display_name": "Change Position Y",
+      "source_description": "Change the position of the current zone",
+      "translation_display_name": "위치 Y 변경",
+      "translation_description": "현재 구역의 위치를 변경합니다."
+    },
+    {
+      "section": "3.2. Change Position",
+      "key": "Change Position Z",
+      "source_display_name": "Change Position Z",
+      "source_description": "Change the position of the current zone",
+      "translation_display_name": "위치 Z 변경",
+      "translation_description": "현재 구역의 위치를 변경합니다."
+    },
+    {
+      "section": "3.3. Change Scale",
+      "key": "Change Scale X",
+      "source_display_name": "Change Scale X",
+      "source_description": "Change the scale of the current zone",
+      "translation_display_name": "크기 X 변경",
+      "translation_description": "현재 구역의 크기를 변경합니다."
+    },
+    {
+      "section": "3.3. Change Scale",
+      "key": "Change Scale Y",
+      "source_display_name": "Change Scale Y",
+      "source_description": "Change the scale of the current zone",
+      "translation_display_name": "크기 Y 변경",
+      "translation_description": "현재 구역의 크기를 변경합니다."
+    },
+    {
+      "section": "3.3. Change Scale",
+      "key": "Change Scale Z",
+      "source_display_name": "Change Scale Z",
+      "source_description": "Change the scale of the current zone",
+      "translation_display_name": "크기 Z 변경",
+      "translation_description": "현재 구역의 크기를 변경합니다."
+    },
+    {
+      "section": "3.4. Change Rotation",
+      "key": "Change Rotation X",
+      "source_display_name": "Change Rotation X",
+      "source_description": "Change the rotation of the current zone",
+      "translation_display_name": "회전 X 변경",
+      "translation_description": "현재 구역의 회전을 변경합니다."
+    },
+    {
+      "section": "3.4. Change Rotation",
+      "key": "Change Rotation Y",
+      "source_display_name": "Change Rotation Y",
+      "source_description": "Change the rotation of the current zone",
+      "translation_display_name": "회전 Y 변경",
+      "translation_description": "현재 구역의 회전을 변경합니다."
+    },
+    {
+      "section": "3.4. Change Rotation",
+      "key": "Change Rotation Z",
+      "source_display_name": "Change Rotation Z",
+      "source_description": "Change the rotation of the current zone",
+      "translation_display_name": "회전 Z 변경",
+      "translation_description": "현재 구역의 회전을 변경합니다."
+    },
+    {
+      "section": "4. Output",
+      "key": "Output Zones",
+      "source_display_name": "Output Zones",
+      "source_description": "Outputs all zones to the root SPT directory.",
+      "translation_display_name": "구역 출력",
+      "translation_description": "모든 구역 데이터를 SPT 루트 디렉터리에 출력합니다."
+    },
+    {
+      "section": "5. View Zones",
+      "key": "Add Existing Zones",
+      "source_display_name": "Add Existing Zones",
+      "source_description": "Adds any currently loaded custom zones to the editor.",
+      "translation_display_name": "기존 구역 추가",
+      "translation_description": "현재 로드된 사용자 지정 구역을 편집기에 추가합니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Move Forward",
+      "source_display_name": "Move Forward",
+      "source_description": null,
+      "translation_display_name": "앞으로 이동",
+      "translation_description": "앞으로 이동에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Move Backward",
+      "source_display_name": "Move Backward",
+      "source_description": null,
+      "translation_display_name": "뒤로 이동",
+      "translation_description": "뒤로 이동에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Move Left",
+      "source_display_name": "Move Left",
+      "source_description": null,
+      "translation_display_name": "왼쪽 이동",
+      "translation_description": "왼쪽 이동에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Move Right",
+      "source_display_name": "Move Right",
+      "source_description": null,
+      "translation_display_name": "오른쪽 이동",
+      "translation_description": "오른쪽 이동에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Move Up",
+      "source_display_name": "Move Up",
+      "source_description": null,
+      "translation_display_name": "위로 이동",
+      "translation_description": "위로 이동에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Move Down",
+      "source_display_name": "Move Down",
+      "source_description": null,
+      "translation_display_name": "아래로 이동",
+      "translation_description": "아래로 이동에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Rotate Pitch Up",
+      "source_display_name": "Rotate Pitch Up",
+      "source_description": null,
+      "translation_display_name": "피치 위로 회전",
+      "translation_description": "피치 위로 회전에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Rotate Pitch Down",
+      "source_display_name": "Rotate Pitch Down",
+      "source_description": null,
+      "translation_display_name": "피치 아래로 회전",
+      "translation_description": "피치 아래로 회전에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Rotate Yaw Left",
+      "source_display_name": "Rotate Yaw Left",
+      "source_description": null,
+      "translation_display_name": "요 왼쪽 회전",
+      "translation_description": "요 왼쪽 회전에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Rotate Yaw Right",
+      "source_display_name": "Rotate Yaw Right",
+      "source_description": null,
+      "translation_display_name": "요 오른쪽 회전",
+      "translation_description": "요 오른쪽 회전에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Rotate Pitch+Roll Left",
+      "source_display_name": "Rotate Pitch+Roll Left",
+      "source_description": null,
+      "translation_display_name": "피치+롤 왼쪽 회전",
+      "translation_description": "피치+롤 왼쪽 회전에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Rotate Pitch+Roll Right",
+      "source_display_name": "Rotate Pitch+Roll Right",
+      "source_description": null,
+      "translation_display_name": "피치+롤 오른쪽 회전",
+      "translation_description": "피치+롤 오른쪽 회전에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Rotate Pitch+Roll Left Inverted",
+      "source_display_name": "Rotate Pitch+Roll Left Inverted",
+      "source_description": null,
+      "translation_display_name": "피치+롤 왼쪽 역회전",
+      "translation_description": "피치+롤 왼쪽 역회전에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Rotate Pitch+Roll Right Inverted",
+      "source_display_name": "Rotate Pitch+Roll Right Inverted",
+      "source_description": null,
+      "translation_display_name": "피치+롤 오른쪽 역회전",
+      "translation_description": "피치+롤 오른쪽 역회전에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Delete Selected Object",
+      "source_display_name": "Delete Selected Object",
+      "source_description": null,
+      "translation_display_name": "선택 개체 삭제",
+      "translation_description": "선택 개체 삭제에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Cycle Spawned Object",
+      "source_display_name": "Cycle Spawned Object",
+      "source_description": null,
+      "translation_display_name": "다음 스폰 개체",
+      "translation_description": "다음 스폰 개체에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Cycle Previous Spawned Object",
+      "source_display_name": "Cycle Previous Spawned Object",
+      "source_description": null,
+      "translation_display_name": "이전 스폰 개체",
+      "translation_description": "이전 스폰 개체에 사용할 키입니다."
+    },
+    {
+      "section": "Keybinds",
+      "key": "Confirm Position",
+      "source_display_name": "Confirm Position",
+      "source_description": null,
+      "translation_display_name": "위치 확정",
+      "translation_description": "위치 확정에 사용할 키입니다."
+    }
+  ]
+}

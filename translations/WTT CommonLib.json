@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.wttcommonlib",
+  "mod_name": "WTT CommonLib",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "r001",
+        "source": "Add Existing Zones",
+        "translation": "기존 구역 추가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r002",
+        "source": "New CustomQuestZone",
+        "translation": "새 사용자 퀘스트 구역",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r003",
+        "source": "Prev",
+        "translation": "이전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r004",
+        "source": "Next",
+        "translation": "다음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "r005",
+        "source": "Output Zones",
+        "translation": "구역 출력",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

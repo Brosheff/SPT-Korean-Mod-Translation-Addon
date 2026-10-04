@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "source3.handy",
+  "mod_name": "Handy Toolbox",
+  "channels": {
+    "locale": [
+      {
+        "key": "69037c8a3601fe2b87041d2a Name",
+        "source": "Handy Toolbox",
+        "translation": "핸디 공구함",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "69037c8a3601fe2b87041d2a ShortName",
+        "source": "HANDY",
+        "translation": "HANDY"
+      },
+      {
+        "key": "69037c8a3601fe2b87041d2a Description",
+        "source": "Every homes got one of these, it has a black hole too that swallows 10mm sockets.",
+        "translation": "집집마다 하나쯤은 있는 공구함입니다. 10mm 소켓을 집어삼키는 블랙홀도 들어 있습니다."
+      }
+    ]
+  }
+}

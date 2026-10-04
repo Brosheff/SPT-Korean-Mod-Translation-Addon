@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.flareeventnotifier",
+  "mod_name": "Exfil Flare Notification",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "exfil_activated",
+        "source": "Exfil activated",
+        "translation": "탈출 지점이 활성화되었습니다.",
+        "match_mode": "exact",
+        "note": "Flare Event Notifier의 커스텀 Notification.Description"
+      }
+    ]
+  }
+}

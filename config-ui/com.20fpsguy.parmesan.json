@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.20fpsguy.parmesan",
+  "plugin_name": "Parmesan - Partizan Rework",
+  "_note": "SOURCE3 source-audited SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "1. Targeting",
+      "translation": "1. 대상 지정"
+    },
+    {
+      "source": "2. Misc",
+      "translation": "2. 기타"
+    },
+    {
+      "source": "3. Roaming",
+      "translation": "3. 순찰"
+    },
+    {
+      "source": "4. Traps",
+      "translation": "4. 함정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. Targeting",
+      "key": "Aggro mode",
+      "source_display_name": "Aggro mode",
+      "source_description": "Who Partizan is allowed to hunt. IncludeAiPmcs: you + AI PMCs (random pick). AiPmcsOnly: only AI PMCs, never you. Vanilla: stock (hunts you only).",
+      "translation_display_name": "공격 대상 모드",
+      "translation_description": "파르티잔이 추적할 수 있는 대상을 정합니다. IncludeAiPmcs: 플레이어와 AI PMC 중 무작위로 선택합니다. AiPmcsOnly: AI PMC만 추적하고 플레이어는 추적하지 않습니다. Vanilla: 바닐라 동작으로 플레이어만 추적합니다.",
+      "values": [
+        {
+          "source": "Vanilla",
+          "translation": "바닐라"
+        },
+        {
+          "source": "IncludeAiPmcs",
+          "translation": "플레이어 + AI PMC"
+        },
+        {
+          "source": "AiPmcsOnly",
+          "translation": "AI PMC만"
+        }
+      ]
+    },
+    {
+      "section": "2. Misc",
+      "key": "Debug logging",
+      "source_display_name": "Debug logging",
+      "source_description": "Log every target pick / trigger redirect to the BepInEx console. For troubleshooting only.",
+      "translation_display_name": "디버그 로그",
+      "translation_description": "모든 대상 선택 및 트리거 전환을 BepInEx 콘솔에 기록합니다. 문제 해결용입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Roaming",
+      "key": "Faster roaming",
+      "source_display_name": "Faster roaming",
+      "source_description": "Make Partizan prowl the map instead of loitering. Lowers his change-route / stay timers and lets him sprint to patrol points.",
+      "translation_display_name": "더 빠른 순찰",
+      "translation_description": "파르티잔이 한곳에 머무르지 않고 맵을 활발히 순찰하게 합니다. 경로 변경 및 대기 시간을 줄이고 순찰 지점까지 전력질주할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Roaming",
+      "key": "Change route every (sec)",
+      "source_display_name": "Change route every (sec)",
+      "source_description": "How often he re-routes while roaming (stock is ~9325, i.e. basically never).",
+      "translation_display_name": "경로 변경 주기(초)",
+      "translation_description": "순찰 중 경로를 다시 정하는 주기입니다. 바닐라 값은 약 9325초로, 사실상 경로를 거의 바꾸지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Roaming",
+      "key": "Max loiter at a point (sec)",
+      "source_display_name": "Max loiter at a point (sec)",
+      "source_description": "How long he lingers at a patrol point before moving on (stock 72).",
+      "translation_display_name": "지점 최대 대기 시간(초)",
+      "translation_description": "다음 지점으로 이동하기 전에 순찰 지점에 머무르는 최대 시간입니다. 바닐라 값은 72초입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Traps",
+      "key": "Plant tripwire traps",
+      "source_display_name": "Plant tripwire traps",
+      "source_description": "Enable his grenade-trap (tripwire) planting. He spawns with grenades by default, so this gives him something to plant.",
+      "translation_display_name": "인계철선 함정 설치",
+      "translation_description": "파르티잔이 수류탄 인계철선 함정을 설치할 수 있게 합니다. 기본적으로 수류탄을 지닌 채 생성되므로 이를 함정 설치에 사용하게 됩니다.",
+      "values": []
+    }
+  ]
+}

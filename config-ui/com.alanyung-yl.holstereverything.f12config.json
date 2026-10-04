@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.alanyung-yl.holstereverything.f12config",
+  "plugin_name": "HolsterEverything-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    { "source": "General (Restart Server)", "translation": "일반 (서버 재시작 필요)" },
+    { "source": "Weapon Categories (Restart Server)", "translation": "무기 종류 (서버 재시작 필요)" },
+    { "source": "Holster Size (Apply Immediately)", "translation": "홀스터 크기 (즉시 적용)" },
+    { "source": "Holster Handling (Apply Immediately)", "translation": "홀스터 조작성 (즉시 적용)" }
+  ],
+  "entries": [
+    {
+      "section": "General (Restart Server)",
+      "key": "Enable All Weapons",
+      "source_display_name": "Enable All Weapons",
+      "source_description": "When true, all weapon categories can be equipped in the holster slot.",
+      "translation_display_name": "모든 무기 종류 허용",
+      "translation_description": "활성화하면 모든 무기 종류를 홀스터 슬롯에 장착할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Weapon Categories (Restart Server)",
+      "key": "Assault Carbine",
+      "source_display_name": "Assault Carbine",
+      "source_description": "When true, allows Assault Carbine weapons in the holster when Enable All Weapons is off.",
+      "translation_display_name": "돌격 카빈 허용",
+      "translation_description": "'모든 무기 종류 허용'이 꺼져 있을 때 돌격 카빈을 홀스터에 장착할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Weapon Categories (Restart Server)",
+      "key": "Assault Rifle",
+      "source_display_name": "Assault Rifle",
+      "source_description": "When true, allows Assault Rifle weapons in the holster when Enable All Weapons is off.",
+      "translation_display_name": "돌격소총 허용",
+      "translation_description": "'모든 무기 종류 허용'이 꺼져 있을 때 돌격소총을 홀스터에 장착할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Weapon Categories (Restart Server)",
+      "key": "Grenade Launcher",
+      "source_display_name": "Grenade Launcher",
+      "source_description": "When true, allows Grenade Launcher weapons in the holster when Enable All Weapons is off.",
+      "translation_display_name": "유탄발사기 허용",
+      "translation_description": "'모든 무기 종류 허용'이 꺼져 있을 때 유탄발사기를 홀스터에 장착할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Weapon Categories (Restart Server)",
+      "key": "Machine Gun",
+      "source_display_name": "Machine Gun",
+      "source_description": "When true, allows Machine Gun weapons in the holster when Enable All Weapons is off.",
+      "translation_display_name": "기관총 허용",
+      "translation_description": "'모든 무기 종류 허용'이 꺼져 있을 때 기관총을 홀스터에 장착할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Weapon Categories (Restart Server)",
+      "key": "Marksman Rifle",
+      "source_display_name": "Marksman Rifle",
+      "source_description": "When true, allows Marksman Rifle weapons in the holster when Enable All Weapons is off.",
+      "translation_display_name": "지정사수소총 허용",
+      "translation_description": "'모든 무기 종류 허용'이 꺼져 있을 때 지정사수소총을 홀스터에 장착할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Weapon Categories (Restart Server)",
+      "key": "Rocket Launcher",
+      "source_display_name": "Rocket Launcher",
+      "source_description": "When true, allows Rocket Launcher weapons in the holster when Enable All Weapons is off.",
+      "translation_display_name": "로켓 발사기 허용",
+      "translation_description": "'모든 무기 종류 허용'이 꺼져 있을 때 로켓 발사기를 홀스터에 장착할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Weapon Categories (Restart Server)",
+      "key": "Shotgun",
+      "source_display_name": "Shotgun",
+      "source_description": "When true, allows Shotgun weapons in the holster when Enable All Weapons is off.",
+      "translation_display_name": "산탄총 허용",
+      "translation_description": "'모든 무기 종류 허용'이 꺼져 있을 때 산탄총을 홀스터에 장착할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Weapon Categories (Restart Server)",
+      "key": "SMG",
+      "source_display_name": "SMG",
+      "source_description": "When true, allows SMG weapons in the holster when Enable All Weapons is off.",
+      "translation_display_name": "기관단총 허용",
+      "translation_description": "'모든 무기 종류 허용'이 꺼져 있을 때 기관단총을 홀스터에 장착할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Weapon Categories (Restart Server)",
+      "key": "Sniper Rifle",
+      "source_display_name": "Sniper Rifle",
+      "source_description": "When true, allows Sniper Rifle weapons in the holster when Enable All Weapons is off.",
+      "translation_display_name": "저격소총 허용",
+      "translation_description": "'모든 무기 종류 허용'이 꺼져 있을 때 저격소총을 홀스터에 장착할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Weapon Categories (Restart Server)",
+      "key": "Special Weapon",
+      "source_display_name": "Special Weapon",
+      "source_description": "When true, allows Special Weapon weapons in the holster when Enable All Weapons is off.",
+      "translation_display_name": "특수 무기 허용",
+      "translation_description": "'모든 무기 종류 허용'이 꺼져 있을 때 특수 무기를 홀스터에 장착할 수 있게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Holster Size (Apply Immediately)",
+      "key": "Enable Size Limit",
+      "source_display_name": "Enable Size Limit",
+      "source_description": "When true, oversized weapons are blocked from being dropped into the holster slot.",
+      "translation_display_name": "홀스터 크기 제한",
+      "translation_description": "활성화하면 지정한 크기를 초과하는 무기를 홀스터 슬롯에 넣을 수 없습니다.",
+      "values": []
+    },
+    {
+      "section": "Holster Size (Apply Immediately)",
+      "key": "Limit Additional Weapons Only",
+      "source_display_name": "Limit Additional Weapons Only",
+      "source_description": "When true, the size limit does not apply to vanilla holster weapons.",
+      "translation_display_name": "추가 허용 무기에만 크기 제한",
+      "translation_description": "활성화하면 모드가 추가로 홀스터 장착을 허용한 무기에만 크기 제한을 적용합니다. 기본 게임에서 원래 홀스터에 들어가는 무기는 제한하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Holster Size (Apply Immediately)",
+      "key": "Use Unfolded Size",
+      "source_display_name": "Use Unfolded Size",
+      "source_description": "When true, folded weapons are checked using their unfolded size.",
+      "translation_display_name": "펼친 상태 크기로 판정",
+      "translation_description": "활성화하면 접힌 무기도 펼쳤을 때의 크기를 기준으로 홀스터 크기 제한을 검사합니다.",
+      "values": []
+    },
+    {
+      "section": "Holster Size (Apply Immediately)",
+      "key": "Max Holster Width",
+      "source_display_name": "Max Holster Width",
+      "source_description": "Maximum holster weapon width when Enable Size Limit is on.",
+      "translation_display_name": "허용 최대 너비",
+      "translation_description": "홀스터 크기 제한이 켜져 있을 때 허용할 무기의 최대 너비입니다.",
+      "values": []
+    },
+    {
+      "section": "Holster Size (Apply Immediately)",
+      "key": "Max Holster Height",
+      "source_display_name": "Max Holster Height",
+      "source_description": "Maximum holster weapon height when Enable Size Limit is on.",
+      "translation_display_name": "허용 최대 높이",
+      "translation_description": "홀스터 크기 제한이 켜져 있을 때 허용할 무기의 최대 높이입니다.",
+      "values": []
+    },
+    {
+      "section": "Holster Handling (Apply Immediately)",
+      "key": "Enable Handling Penalty",
+      "source_display_name": "Enable Handling Penalty",
+      "source_description": "When true, an eligible holstered weapon reduces the ergonomics of the firearm currently in hands.",
+      "translation_display_name": "홀스터 무기 조작성 불이익",
+      "translation_description": "활성화하면 조건에 해당하는 홀스터 무기가 현재 들고 있는 총기의 인체공학 수치를 낮춥니다.",
+      "values": []
+    },
+    {
+      "section": "Holster Handling (Apply Immediately)",
+      "key": "Limit Additional Weapons Only",
+      "source_display_name": "Limit Additional Weapons Only",
+      "source_description": "When true, the handling penalty only applies to additional holster weapon categories.",
+      "translation_display_name": "추가 허용 무기에만 조작성 불이익",
+      "translation_description": "활성화하면 조작성 불이익을 모드가 추가로 홀스터 장착을 허용한 무기 종류에만 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Holster Handling (Apply Immediately)",
+      "key": "Handling Ergo Penalty",
+      "source_display_name": "Handling Ergo Penalty",
+      "source_description": "Ergonomics penalty applied while an eligible holstered weapon would interfere with handling.",
+      "translation_display_name": "인체공학 감소량",
+      "translation_description": "조건에 해당하는 홀스터 무기가 조작을 방해할 때 현재 들고 있는 총기에서 감소시킬 인체공학 수치입니다.",
+      "values": []
+    },
+    {
+      "section": "Holster Handling (Apply Immediately)",
+      "key": "Include Non-Foldable Weapons",
+      "source_display_name": "Include Non-Foldable Weapons",
+      "source_description": "When true, non-foldable holstered weapons can also trigger the handling penalty.",
+      "translation_display_name": "접을 수 없는 무기도 불이익 대상에 포함",
+      "translation_description": "활성화하면 접을 수 없는 홀스터 무기도 조작성 불이익을 발생시킬 수 있습니다.",
+      "values": []
+    }
+  ]
+}

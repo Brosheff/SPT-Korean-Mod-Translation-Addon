@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.pein.battleambience",
+  "plugin_name": "SPTBattleAmbience-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "00. General Settings",
+      "translation": "00. 일반 설정"
+    },
+    {
+      "source": "01. Map Settings - Customs",
+      "translation": "01. 맵 설정 - 세관"
+    },
+    {
+      "source": "02. Map Settings - Factory",
+      "translation": "02. 맵 설정 - 공장"
+    },
+    {
+      "source": "03. Map Settings - Woods",
+      "translation": "03. 맵 설정 - 삼림"
+    },
+    {
+      "source": "04. Map Settings - Shoreline",
+      "translation": "04. 맵 설정 - 해안선"
+    },
+    {
+      "source": "05. Map Settings - Interchange",
+      "translation": "05. 맵 설정 - 인터체인지"
+    },
+    {
+      "source": "06. Map Settings - Lighthouse",
+      "translation": "06. 맵 설정 - 등대"
+    },
+    {
+      "source": "07. Map Settings - Reserve",
+      "translation": "07. 맵 설정 - 리저브"
+    },
+    {
+      "source": "08. Map Settings - Streets",
+      "translation": "08. 맵 설정 - 타르코프 시내"
+    },
+    {
+      "source": "09. Map Settings - Ground Zero",
+      "translation": "09. 맵 설정 - 그라운드 제로"
+    },
+    {
+      "source": "10. Map Settings - Labs",
+      "translation": "10. 맵 설정 - 연구소"
+    }
+  ],
+  "entries": [
+    {
+      "section": "*",
+      "key": "Ambience Event Cooldown Multiplier",
+      "source_display_name": "Ambience Event Cooldown Multiplier",
+      "source_description": "Cooldown multiplier for ambience events on this map. Higher values increase the average time between ambience events.",
+      "translation_display_name": "환경음 이벤트 재생 간격 배율",
+      "translation_description": "환경음 이벤트 재생 간격 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Enable Events",
+      "source_display_name": "Enable Events",
+      "source_description": "Enable battle sound events on this map?",
+      "translation_display_name": "이벤트 활성화",
+      "translation_description": "이벤트 활성화 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Map Center",
+      "source_display_name": "Map Center",
+      "source_description": "Center point of the map for spawning battle sounds.",
+      "translation_display_name": "맵 중앙",
+      "translation_description": "주변 전투음을 생성할 기준이 되는 맵 중심 좌표를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Map Radius",
+      "source_display_name": "Map Radius",
+      "source_description": "Radius from the map center to spawn battle sounds.",
+      "translation_display_name": "맵 반경",
+      "translation_description": "맵 중심을 기준으로 주변 전투음을 생성할 반경을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Max Volume Multiplier",
+      "source_display_name": "Max Volume Multiplier",
+      "source_description": "Maximum volume multiplier for battle sounds on this map.",
+      "translation_display_name": "최대 음량 배율",
+      "translation_description": "최대 음량 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Min Volume Multiplier",
+      "source_display_name": "Min Volume Multiplier",
+      "source_description": "Minimum volume multiplier for battle sounds on this map.",
+      "translation_display_name": "최소 음량 배율",
+      "translation_description": "최소 음량 배율 값을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Use Player Direction",
+      "source_display_name": "Use Player Direction",
+      "source_description": "If enabled, battle sounds will spawn in the rough direction the player is facing relative to the center of the map. If disabled, battle sounds will spawn randomly around the player.",
+      "translation_display_name": "플레이어 방향 사용",
+      "translation_description": "활성화하면 맵 중심을 기준으로 플레이어가 바라보는 대략적인 방향에 전투음을 생성합니다. 끄면 플레이어 주변 무작위 방향에 생성합니다.",
+      "values": []
+    },
+    {
+      "section": "*",
+      "key": "Use Sound Zones",
+      "source_display_name": "Use Sound Zones",
+      "source_description": "If enabled, battle sounds will spawn in sound zones specified in the map config json. Fixes submarine battles on certain maps like Lighthouse and Shoreline.",
+      "translation_display_name": "소리 구역 사용",
+      "translation_description": "맵 설정 JSON에 지정된 사운드 구역 안에서 전투음을 생성합니다. 등대·해안선처럼 물 위에 전투음이 생기는 문제를 줄입니다.",
+      "values": []
+    },
+    {
+      "section": "00. General Settings",
+      "key": "Ambient Rolloff Distance",
+      "source_display_name": "Ambient Rolloff Distance",
+      "source_description": "Default rolloff distance for ambient battle sounds",
+      "translation_display_name": "환경음 감쇠 거리",
+      "translation_description": "주변 전투음이 거리에 따라 감쇠되는 기본 거리를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "00. General Settings",
+      "key": "Audio Source Group",
+      "source_display_name": "Audio Source Group",
+      "source_description": "Audio source group for ambient battle sounds",
+      "translation_display_name": "오디오 소스 그룹",
+      "translation_description": "주변 전투음에 사용할 오디오 소스 그룹을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "00. General Settings",
+      "key": "Enable Debug Logging",
+      "source_display_name": "Enable Debug Logging",
+      "source_description": "Enables debug logging to the BepInEx console",
+      "translation_display_name": "디버그 로그 출력",
+      "translation_description": "BepInEx 콘솔에 디버그 로그를 출력합니다.",
+      "values": []
+    },
+    {
+      "section": "00. General Settings",
+      "key": "Global Ambient Cooldown Multiplier",
+      "source_display_name": "Global Ambient Cooldown Multiplier",
+      "source_description": "Global cooldown multiplier for all ambient battle sounds",
+      "translation_display_name": "전체 환경음 재생 간격 배율",
+      "translation_description": "모든 주변 전투음의 재생 간격에 적용되는 전체 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "00. General Settings",
+      "key": "Global Ambient Volume Multiplier",
+      "source_display_name": "Global Ambient Volume Multiplier",
+      "source_description": "Global volume multiplier for all ambient battle sounds",
+      "translation_display_name": "전체 환경음 음량 배율",
+      "translation_description": "모든 주변 전투음에 적용되는 전체 음량 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "00. General Settings",
+      "key": "Occlusion Test Mode",
+      "source_display_name": "Occlusion Test Mode",
+      "source_description": "Occlusion test mode for ambient battle sounds. Use either ContinuousPropagated or Fast.",
+      "translation_display_name": "음향 차폐 검사 방식",
+      "translation_description": "주변 전투음이 벽이나 지형에 가려지는 정도를 검사하는 방식을 선택합니다. ContinuousPropagated 또는 Fast 방식을 사용합니다.",
+      "values": [
+        {
+          "source": "ContinuousPropagated",
+          "translation": "연속 전파"
+        },
+        {
+          "source": "Fast",
+          "translation": "빠름"
+        }
+      ]
+    },
+    {
+      "section": "00. General Settings",
+      "key": "Play Ambient Shortcut",
+      "source_display_name": "Play Ambient Shortcut",
+      "source_description": "Debug keybind to immediately play battle ambience",
+      "translation_display_name": "환경음 재생 단축키",
+      "translation_description": "주변 전투음을 즉시 재생하는 디버그 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "00. General Settings",
+      "key": "Use Event Weights",
+      "source_display_name": "Use Event Weights",
+      "source_description": "Use assigned weights when selecting random events",
+      "translation_display_name": "이벤트 가중치 사용",
+      "translation_description": "무작위 전투 이벤트를 선택할 때 이벤트별 지정 가중치를 사용합니다.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "QuickSellFlea",
+  "mod_name": "QuickSellFlea",
+  "channels": {
+    "notifications": [
+      {
+        "id": "currency",
+        "source": "Currency set to {currency}",
+        "translation": "판매 등록 통화: {currency}",
+        "match_mode": "template"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "fetching",
+        "source": "Fetching...",
+        "translation": "가격 조회 중...",
+        "match_mode": "exact",
+        "note": "플리마켓 가격을 받아오는 동안 표시되는 임시 빠른 판매 버튼"
+      },
+      {
+        "id": "quick_offer",
+        "source": "QUICK OFFER",
+        "translation": "빠른 판매 등록",
+        "match_mode": "segment",
+        "note": "플리마켓 빠른 판매 등록 버튼 접두문구"
+      }
+    ]
+  }
+}

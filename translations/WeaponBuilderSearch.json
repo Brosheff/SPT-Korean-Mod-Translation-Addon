@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.weaponbuildersearch",
+  "mod_name": "WeaponBuilderSearch",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "search",
+        "source": "Search attachments...",
+        "translation": "부착물 검색...",
+        "match_mode": "exact",
+        "note": "무기 빌더 부착물 검색창 placeholder"
+      }
+    ]
+  }
+}

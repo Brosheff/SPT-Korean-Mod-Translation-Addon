@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "UnloadAllMagazines",
+  "mod_name": "UnloadAllMagazines",
+  "channels": {
+    "notifications": [
+      {
+        "id": "all_disabled",
+        "source": "Every unload option is disabled in the mod settings.",
+        "translation": "모드 설정에서 모든 언로드 옵션이 비활성화되어 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "already_unloading",
+        "source": "Already unloading.",
+        "translation": "이미 언로드 중입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "unload_error",
+        "source": "Unloading was interrupted by an error, see the BepInEx log.",
+        "translation": "오류로 인해 언로드가 중단되었습니다. BepInEx 로그를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "summary_base_01",
+        "source": "{magazines} magazine, {chambers} chambered round and {packs} ammo pack unloaded.",
+        "translation": "탄창 {magazines}개, 약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_02",
+        "source": "{magazines} magazine, {chambers} chambered round and {packs} ammo packs unloaded.",
+        "translation": "탄창 {magazines}개, 약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_03",
+        "source": "{magazines} magazine, {chambers} chambered rounds and {packs} ammo pack unloaded.",
+        "translation": "탄창 {magazines}개, 약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_04",
+        "source": "{magazines} magazine, {chambers} chambered rounds and {packs} ammo packs unloaded.",
+        "translation": "탄창 {magazines}개, 약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_05",
+        "source": "{magazines} magazines, {chambers} chambered round and {packs} ammo pack unloaded.",
+        "translation": "탄창 {magazines}개, 약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_06",
+        "source": "{magazines} magazines, {chambers} chambered round and {packs} ammo packs unloaded.",
+        "translation": "탄창 {magazines}개, 약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_07",
+        "source": "{magazines} magazines, {chambers} chambered rounds and {packs} ammo pack unloaded.",
+        "translation": "탄창 {magazines}개, 약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_08",
+        "source": "{magazines} magazines, {chambers} chambered rounds and {packs} ammo packs unloaded.",
+        "translation": "탄창 {magazines}개, 약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_09",
+        "source": "{magazines} magazine and {chambers} chambered round unloaded.",
+        "translation": "탄창 {magazines}개 및 약실 탄약 {chambers}발 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_10",
+        "source": "{magazines} magazine and {chambers} chambered rounds unloaded.",
+        "translation": "탄창 {magazines}개 및 약실 탄약 {chambers}발 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_11",
+        "source": "{magazines} magazines and {chambers} chambered round unloaded.",
+        "translation": "탄창 {magazines}개 및 약실 탄약 {chambers}발 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_12",
+        "source": "{magazines} magazines and {chambers} chambered rounds unloaded.",
+        "translation": "탄창 {magazines}개 및 약실 탄약 {chambers}발 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_13",
+        "source": "{magazines} magazine and {packs} ammo pack unloaded.",
+        "translation": "탄창 {magazines}개 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_14",
+        "source": "{magazines} magazine and {packs} ammo packs unloaded.",
+        "translation": "탄창 {magazines}개 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_15",
+        "source": "{magazines} magazines and {packs} ammo pack unloaded.",
+        "translation": "탄창 {magazines}개 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_16",
+        "source": "{magazines} magazines and {packs} ammo packs unloaded.",
+        "translation": "탄창 {magazines}개 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_17",
+        "source": "{chambers} chambered round and {packs} ammo pack unloaded.",
+        "translation": "약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_18",
+        "source": "{chambers} chambered round and {packs} ammo packs unloaded.",
+        "translation": "약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_19",
+        "source": "{chambers} chambered rounds and {packs} ammo pack unloaded.",
+        "translation": "약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_20",
+        "source": "{chambers} chambered rounds and {packs} ammo packs unloaded.",
+        "translation": "약실 탄약 {chambers}발 및 탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_21",
+        "source": "{magazines} magazine unloaded.",
+        "translation": "탄창 {magazines}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_22",
+        "source": "{magazines} magazines unloaded.",
+        "translation": "탄창 {magazines}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_23",
+        "source": "{chambers} chambered round unloaded.",
+        "translation": "약실 탄약 {chambers}발 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_24",
+        "source": "{chambers} chambered rounds unloaded.",
+        "translation": "약실 탄약 {chambers}발 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_25",
+        "source": "{packs} ammo pack unloaded.",
+        "translation": "탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "summary_base_26",
+        "source": "{packs} ammo packs unloaded.",
+        "translation": "탄약 팩 {packs}개 언로드 완료.",
+        "match_mode": "segment_template",
+        "exclusive_group": "unload_summary_base"
+      },
+      {
+        "id": "locked_one",
+        "source": " (?<count>\\d+) locked item was skipped\\.",
+        "translation": " 잠긴 항목 {count}개는 건너뛰었습니다.",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "locked_many",
+        "source": " (?<count>\\d+) locked items were skipped\\.",
+        "translation": " 잠긴 항목 {count}개는 건너뛰었습니다.",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "jammed_one",
+        "source": " (?<count>\\d+) jammed weapon was skipped\\.",
+        "translation": " 작동 불량 무기 {count}개는 건너뛰었습니다.",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "jammed_many",
+        "source": " (?<count>\\d+) jammed weapons were skipped\\.",
+        "translation": " 작동 불량 무기 {count}개는 건너뛰었습니다.",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "failed",
+        "source": " (?<count>\\d+) could not be unloaded \\((?<error>.+?)\\)\\.",
+        "translation": " {count}개 항목을 언로드하지 못했습니다 ({error}).",
+        "match_mode": "regex_segment"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "mag",
+        "source": "MAG",
+        "translation": "탄창",
+        "match_mode": "exact",
+        "note": "보관함의 전체 탄창 비우기 버튼 라벨"
+      },
+      {
+        "id": "tooltip_unpack_packs",
+        "source": "Unpack all ammo packs",
+        "translation": "모든 탄약 팩 풀기",
+        "match_mode": "exact",
+        "note": "버튼 툴팁 - 탄약 팩만 활성화"
+      },
+      {
+        "id": "tooltip_unload_mags",
+        "source": "Unload all magazines",
+        "translation": "모든 탄창 언로드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tooltip_unload_chambers",
+        "source": "Unload all chambered rounds",
+        "translation": "모든 약실 탄약 언로드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tooltip_unload_mags_chambers",
+        "source": "Unload all magazines and chambered rounds",
+        "translation": "모든 탄창과 약실 탄약 언로드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tooltip_unload_mags_packs",
+        "source": "Unload all magazines and ammo packs",
+        "translation": "모든 탄창과 탄약 팩 언로드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tooltip_unload_chambers_packs",
+        "source": "Unload all chambered rounds and ammo packs",
+        "translation": "모든 약실 탄약과 탄약 팩 언로드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tooltip_unload_all",
+        "source": "Unload all magazines, chambered rounds and ammo packs",
+        "translation": "모든 탄창, 약실 탄약 및 탄약 팩 언로드",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

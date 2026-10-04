@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "QuestingBots",
+  "mod_name": "Questing Bots",
+  "channels": {
+    "notifications": [
+      {
+        "id": "missing_fika_sync",
+        "source": "Missing Questing Bots Fika sync plugin",
+        "translation": "Questing Bots Fika 동기화 플러그인이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "reflex_warning",
+        "source": "Using nVidia Reflex may result in long raid loading times",
+        "translation": "NVIDIA Reflex 사용 시 레이드 로딩 시간이 길어질 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "fika_headless_version",
+        "source": "Installed Fika Headless ({installed}) is not compatible with Questing Bots spawning system. Please upgrade Fika Headless to {minimum} or newer to use the QB spawning system.",
+        "translation": "설치된 Fika Headless({installed})는 Questing Bots 스폰 시스템과 호환되지 않습니다. QB 스폰 시스템을 사용하려면 Fika Headless를 {minimum} 이상으로 업데이트하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "fika_version",
+        "source": "Installed Fika ({installed}) is not compatible with Questing Bots. Please upgrade Fika to {minimum} or newer.",
+        "translation": "설치된 Fika({installed})는 Questing Bots와 호환되지 않습니다. Fika를 {minimum} 이상으로 업데이트하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "fika_sync_version",
+        "source": "Current version {installed} of {name} is not compatible with Questing Bots. Please install a version between {minimum} and {maximum} or spawning items in bot inventories with Fika clients may not work correctly.",
+        "translation": "현재 {name} 버전 {installed}는 Questing Bots와 호환되지 않습니다. {minimum}~{maximum} 버전을 설치하세요. 그렇지 않으면 Fika 클라이언트에서 봇 인벤토리 아이템 스폰이 정상 작동하지 않을 수 있습니다.",
+        "match_mode": "template"
+      }
+    ]
+  }
+}

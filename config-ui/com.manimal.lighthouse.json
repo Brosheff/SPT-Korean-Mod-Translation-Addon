@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.manimal.lighthouse",
+  "plugin_name": "Manimal-LighthouseRework",
+  "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
+  "categories": [
+    {
+      "source": "Development",
+      "translation": "개발"
+    },
+    {
+      "source": "Diagnostics",
+      "translation": "진단"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Development",
+      "key": "AllowProbeContent",
+      "source_display_name": "AllowProbeContent",
+      "source_description": null,
+      "translation_display_name": "프로브 콘텐츠 허용",
+      "translation_description": "명시적으로 표시된 로더 테스트 콘텐츠를 허용합니다. 일반 레이드에서는 꺼두세요.",
+      "values": []
+    },
+    {
+      "section": "Development",
+      "key": "AllowTestContent",
+      "source_display_name": "AllowTestContent",
+      "source_description": null,
+      "translation_display_name": "테스트 콘텐츠 허용",
+      "translation_description": "SPT 환경 관리자를 사용하는 전체 맵 테스트 빌드를 로드합니다. 일부 기능은 미완성입니다.",
+      "values": []
+    },
+    {
+      "section": "Diagnostics",
+      "key": "CaptureRain",
+      "source_display_name": "CaptureRain",
+      "source_description": null,
+      "translation_display_name": "비 진단 캡처",
+      "translation_description": "비 머티리얼/깊이 진단을 캡처합니다. 장면 스캔과 GPU 읽기가 무거우므로 필요할 때만 사용하세요.",
+      "values": []
+    }
+  ]
+}

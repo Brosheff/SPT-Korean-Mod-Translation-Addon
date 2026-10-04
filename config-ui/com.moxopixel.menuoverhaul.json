@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.moxopixel.menuoverhaul",
+  "plugin_name": "MoxoPixel-MenuOverhaul",
+  "_note": "SOURCE3 Menu Overhaul 1.3.0 F12 Configuration Manager display-only Korean translation.",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Adjustments",
+      "translation": "2. 조정"
+    },
+    {
+      "source": "3. Colors",
+      "translation": "3. 색상"
+    },
+    {
+      "source": "4. Advanced",
+      "translation": "4. 고급"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Enable Background",
+      "source_display_name": "Enable Background",
+      "source_description": "Enable or disable the background in the main menu",
+      "translation_display_name": "배경 활성화",
+      "translation_description": "메인 메뉴의 배경 표시 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Top Glow",
+      "source_display_name": "Enable Top Glow",
+      "source_description": "Enable or disable the blue/yellow top glow in the main menu",
+      "translation_display_name": "상단 광원 활성화",
+      "translation_description": "메인 메뉴 상단의 파란색/노란색 광원 표시 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Colors",
+      "key": "Enable Logotype Light Accent Color",
+      "source_display_name": "Enable Logotype Light Accent Color",
+      "source_description": "Use Accent Color for the logotype light instead of white",
+      "translation_display_name": "로고 조명에 강조색 사용",
+      "translation_description": "로고 조명에 흰색 대신 강조색을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Extra Shadows",
+      "source_display_name": "Enable Extra Shadows",
+      "source_description": "Enable or disable more shadows to make the player in menu more detailed",
+      "translation_display_name": "추가 그림자 활성화",
+      "translation_description": "메뉴의 플레이어 모델을 더 세밀하게 보이도록 추가 그림자를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Larger Player Model",
+      "source_display_name": "Enable Larger Player Model",
+      "source_description": "Enable to make the player model larger and closer in the main menu",
+      "translation_display_name": "플레이어 모델 확대",
+      "translation_description": "메인 메뉴에서 플레이어 모델을 더 크고 가깝게 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable High Quality Player Preview",
+      "source_display_name": "Enable High Quality Player Preview",
+      "source_description": "Enable sharper player preview rendering in the main menu (higher GPU cost). Disable for better performance on low-end systems",
+      "translation_display_name": "고품질 플레이어 미리보기",
+      "translation_description": "메인 메뉴의 플레이어 미리보기를 더 선명하게 렌더링합니다. GPU 부하가 증가하므로 저사양 환경에서는 끄는 것이 좋습니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Default Player Animation",
+      "source_display_name": "Enable Default Player Animation",
+      "source_description": "Use EFT's default animated player preview behavior in the main menu. Disable for a static pose",
+      "translation_display_name": "기본 플레이어 애니메이션 사용",
+      "translation_description": "메인 메뉴에서 EFT 기본 플레이어 미리보기 애니메이션을 사용합니다. 끄면 정적인 자세로 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Menu Button Icons",
+      "source_display_name": "Enable Menu Button Icons",
+      "source_description": "Show or hide menu button icons. When disabled, icons are hidden in both default and hover states",
+      "translation_display_name": "메뉴 버튼 아이콘 표시",
+      "translation_description": "메뉴 버튼 아이콘을 표시하거나 숨깁니다. 끄면 기본 상태와 마우스 오버 상태 모두에서 아이콘이 숨겨집니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Hover Label Slide Distance",
+      "source_display_name": "Hover Label Slide Distance",
+      "source_description": "Horizontal slide distance for menu label hover animation",
+      "translation_display_name": "마우스 오버 라벨 이동 거리",
+      "translation_description": "메뉴 라벨의 마우스 오버 애니메이션에서 가로로 이동하는 거리입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Hover Icon Scale Multiplier",
+      "source_display_name": "Hover Icon Scale Multiplier",
+      "source_description": "Scale multiplier applied to button icons while hovered",
+      "translation_display_name": "마우스 오버 아이콘 배율",
+      "translation_description": "마우스를 올렸을 때 버튼 아이콘에 적용되는 크기 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Hover Indicator Size Multiplier",
+      "source_display_name": "Hover Indicator Size Multiplier",
+      "source_description": "Size multiplier for the hover indicator relative to icon size",
+      "translation_display_name": "마우스 오버 표시기 크기 배율",
+      "translation_description": "아이콘 크기를 기준으로 한 마우스 오버 표시기의 크기 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Hover Indicator Spacing",
+      "source_display_name": "Hover Indicator Spacing",
+      "source_description": "Horizontal spacing between icon edge and hover indicator",
+      "translation_display_name": "마우스 오버 표시기 간격",
+      "translation_description": "아이콘 가장자리와 마우스 오버 표시기 사이의 가로 간격입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Hover Animation Duration Preset",
+      "source_display_name": "Hover Animation Duration Preset",
+      "source_description": "Duration preset for hover/idle button animation timing",
+      "translation_display_name": "마우스 오버 애니메이션 지속 시간",
+      "translation_description": "마우스 오버/대기 상태 버튼 애니메이션의 지속 시간 프리셋입니다.",
+      "values": [
+        {
+          "source": "Fast",
+          "translation": "빠름"
+        },
+        {
+          "source": "Normal",
+          "translation": "보통"
+        },
+        {
+          "source": "Slow",
+          "translation": "느림"
+        }
+      ]
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Enable Debug Diagnostics",
+      "source_display_name": "Enable Debug Diagnostics",
+      "source_description": "Enable debug-level diagnostics logs for menu overhaul subsystems",
+      "translation_display_name": "디버그 진단 활성화",
+      "translation_description": "메뉴 오버홀 하위 시스템의 디버그 진단 로그를 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Enable Verbose Lifecycle Diagnostics",
+      "source_display_name": "Enable Verbose Lifecycle Diagnostics",
+      "source_description": "Enable extra lifecycle coordinator debug traces (requires Enable Debug Diagnostics)",
+      "translation_display_name": "라이프사이클 코디네이터 상세 진단 활성화",
+      "translation_description": "라이프사이클 코디네이터의 추가 디버그 추적을 활성화합니다. 디버그 진단 활성화가 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Position Play Button Horizontal",
+      "source_display_name": "Position Play Button Horizontal",
+      "source_description": "Adjust the horizontal position of the Play button group (label + icon)",
+      "translation_display_name": "플레이 버튼 가로 위치",
+      "translation_description": "플레이 버튼 그룹(라벨 + 아이콘)의 가로 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Position Character Button Horizontal",
+      "source_display_name": "Position Character Button Horizontal",
+      "source_description": "Adjust the horizontal position of the Character button group (label + icon)",
+      "translation_display_name": "캐릭터 버튼 가로 위치",
+      "translation_description": "캐릭터 버튼 그룹(라벨 + 아이콘)의 가로 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Position Trade Button Horizontal",
+      "source_display_name": "Position Trade Button Horizontal",
+      "source_description": "Adjust the horizontal position of the Trade button group (label + icon)",
+      "translation_display_name": "거래 버튼 가로 위치",
+      "translation_description": "거래 버튼 그룹(라벨 + 아이콘)의 가로 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Position Hideout Button Horizontal",
+      "source_display_name": "Position Hideout Button Horizontal",
+      "source_description": "Adjust the horizontal position of the Hideout button group (label + icon)",
+      "translation_display_name": "은신처 버튼 가로 위치",
+      "translation_description": "은신처 버튼 그룹(라벨 + 아이콘)의 가로 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Position Exit Button Horizontal",
+      "source_display_name": "Position Exit Button Horizontal",
+      "source_description": "Adjust the horizontal position of the Exit button group (label + icon)",
+      "translation_display_name": "종료 버튼 가로 위치",
+      "translation_description": "종료 버튼 그룹(라벨 + 아이콘)의 가로 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Camera Player Position X",
+      "source_display_name": "Camera Player Position X",
+      "source_description": "Offset Camera_inventory localPosition X for the main menu player preview",
+      "translation_display_name": "플레이어 카메라 위치 X",
+      "translation_description": "메인 메뉴 플레이어 미리보기의 Camera_inventory 로컬 X 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Camera Player Position Y",
+      "source_display_name": "Camera Player Position Y",
+      "source_description": "Offset Camera_inventory localPosition Y for the main menu player preview",
+      "translation_display_name": "플레이어 카메라 위치 Y",
+      "translation_description": "메인 메뉴 플레이어 미리보기의 Camera_inventory 로컬 Y 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Camera Player Position Z",
+      "source_display_name": "Camera Player Position Z",
+      "source_description": "Offset Camera_inventory localPosition Z for the main menu player preview",
+      "translation_display_name": "플레이어 카메라 위치 Z",
+      "translation_description": "메인 메뉴 플레이어 미리보기의 Camera_inventory 로컬 Z 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Camera Player Rotation X",
+      "source_display_name": "Camera Player Rotation X",
+      "source_description": "Set Camera_inventory localRotation X for the main menu player preview",
+      "translation_display_name": "플레이어 카메라 회전 X",
+      "translation_description": "메인 메뉴 플레이어 미리보기의 Camera_inventory 로컬 X 회전을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Camera Player Rotation Y",
+      "source_display_name": "Camera Player Rotation Y",
+      "source_description": "Set Camera_inventory localRotation Y for the main menu player preview",
+      "translation_display_name": "플레이어 카메라 회전 Y",
+      "translation_description": "메인 메뉴 플레이어 미리보기의 Camera_inventory 로컬 Y 회전을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Advanced",
+      "key": "Camera Player Rotation Z",
+      "source_display_name": "Camera Player Rotation Z",
+      "source_description": "Set Camera_inventory localRotation Z for the main menu player preview",
+      "translation_display_name": "플레이어 카메라 회전 Z",
+      "translation_description": "메인 메뉴 플레이어 미리보기의 Camera_inventory 로컬 Z 회전을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Adjustments",
+      "key": "Position Logotype Horizontal",
+      "source_display_name": "Position Logotype Horizontal",
+      "source_description": "Adjust the horizontal position of the logotype",
+      "translation_display_name": "로고 가로 위치",
+      "translation_description": "로고의 가로 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Adjustments",
+      "key": "Position Logotype Vertical",
+      "source_display_name": "Position Logotype Vertical",
+      "source_description": "Adjust the vertical offset of the logotype from its default position",
+      "translation_display_name": "로고 세로 위치",
+      "translation_description": "로고의 기본 위치를 기준으로 세로 오프셋을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Adjustments",
+      "key": "Position Player Model Horizontal",
+      "source_display_name": "Position Player Model Horizontal",
+      "source_description": "Adjust the horizontal position of the player model in the main menu",
+      "translation_display_name": "플레이어 모델 가로 위치",
+      "translation_description": "메인 메뉴의 플레이어 모델 가로 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Adjustments",
+      "key": "Position Player Info Horizontal",
+      "source_display_name": "Position Player Info Horizontal",
+      "source_description": "Adjust the horizontal position of the player info text in the main menu",
+      "translation_display_name": "플레이어 정보 가로 위치",
+      "translation_description": "메인 메뉴의 플레이어 정보 텍스트 가로 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Adjustments",
+      "key": "Position Player Info Vertical",
+      "source_display_name": "Position Player Info Vertical",
+      "source_description": "Adjust the vertical position of the player info text in the main menu",
+      "translation_display_name": "플레이어 정보 세로 위치",
+      "translation_description": "메인 메뉴의 플레이어 정보 텍스트 세로 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Adjustments",
+      "key": "Scale Background Horizontally",
+      "source_display_name": "Scale Background Horizontally",
+      "source_description": "Adjust the horizontal scale of the background image",
+      "translation_display_name": "배경 가로 배율",
+      "translation_description": "배경 이미지의 가로 배율을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Adjustments",
+      "key": "Scale Background Vertically",
+      "source_display_name": "Scale Background Vertically",
+      "source_description": "Adjust the vertical scale of the background image",
+      "translation_display_name": "배경 세로 배율",
+      "translation_description": "배경 이미지의 세로 배율을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Adjustments",
+      "key": "Rotate Player Model",
+      "source_display_name": "Rotate Player Model",
+      "source_description": "Adjust the horizontal rotation of the player model in the main menu",
+      "translation_display_name": "플레이어 모델 회전",
+      "translation_description": "메인 메뉴 플레이어 모델의 수평 회전을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Colors",
+      "key": "Accent Color",
+      "source_display_name": "Accent Color",
+      "source_description": "The accent color used for nickname, experience text, highlighted buttons, and top glow hue (alpha is always forced to 1)",
+      "translation_display_name": "강조색",
+      "translation_description": "닉네임, 경험치 텍스트, 강조된 버튼, 상단 광원에 사용할 강조색입니다. 알파 값은 항상 1로 고정됩니다.",
+      "values": []
+    }
+  ]
+}

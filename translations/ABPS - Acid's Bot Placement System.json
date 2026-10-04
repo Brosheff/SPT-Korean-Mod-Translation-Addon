@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "BotPlacementSystem",
+  "mod_name": "ABPS - Acid's Bot Placement System",
+  "channels": {
+    "notifications": [
+      {
+        "id": "save_failed",
+        "source": "Failed to save ABPS Progressive Boss data - check the server",
+        "translation": "ABPS 보스 진행 데이터 저장에 실패했습니다. 서버 상태를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "load_failed",
+        "source": "Failed to load ABPS Progressive Boss data - check the server",
+        "translation": "ABPS 보스 진행 데이터를 불러오지 못했습니다. 서버 상태를 확인하세요.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

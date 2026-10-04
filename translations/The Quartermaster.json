@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "TheQuartermaster",
+  "mod_name": "The Quartermaster",
+  "channels": {
+    "locale": [
+      {
+        "key": "66789abcde1234567890abcd FullName",
+        "source": "The Quartermaster",
+        "translation": "쿼터마스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "66789abcde1234567890abcd FirstName",
+        "source": "Quartermaster",
+        "translation": "쿼터마스터"
+      },
+      {
+        "key": "66789abcde1234567890abcd Nickname",
+        "source": "Quartermaster",
+        "translation": "쿼터마스터"
+      },
+      {
+        "key": "66789abcde1234567890abcd Location",
+        "source": "Hideout",
+        "translation": "은신처"
+      },
+      {
+        "key": "66789abcde1234567890abcd Description",
+        "source": "A global market for survivor gear.",
+        "translation": "생존자 장비를 거래하는 글로벌 시장입니다."
+      },
+      {
+        "key": "66582972ac60f009f270d2b1 Name",
+        "source": "Quartermaster Medical Supplies",
+        "translation": "쿼터마스터 의료 보급품",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "66582972ac60f009f270d2b1 ShortName",
+        "source": "QM Medical",
+        "translation": "QM 의료품"
+      },
+      {
+        "key": "66582972ac60f009f270d2b1 Description",
+        "source": "A sealed medical shipment assembled by The Quartermaster containing emergency medical equipment for frontline operatives.",
+        "translation": "쿼터마스터가 전선의 오퍼레이터를 위해 응급 의료 장비를 담아 준비한 밀봉 의료 보급품입니다."
+      },
+      {
+        "key": "66582972ac60f009f270d2b2 Name",
+        "source": "Quartermaster Grenadier Package",
+        "translation": "쿼터마스터 척탄병 패키지",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "66582972ac60f009f270d2b2 ShortName",
+        "source": "QM Grenadier",
+        "translation": "QM 척탄병"
+      },
+      {
+        "key": "66582972ac60f009f270d2b2 Description",
+        "source": "A sealed shipment containing explosive ordnance and tactical grenades recovered through Quartermaster supply channels.",
+        "translation": "쿼터마스터의 보급 경로를 통해 회수한 폭발물과 전술 수류탄이 들어 있는 밀봉 보급품입니다."
+      },
+      {
+        "key": "66582972ac60f009f270d2b3 Name",
+        "source": "Quartermaster Rations Pack",
+        "translation": "쿼터마스터 전투식량 팩",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "66582972ac60f009f270d2b3 ShortName",
+        "source": "QM Rations",
+        "translation": "QM 전투식량"
+      },
+      {
+        "key": "66582972ac60f009f270d2b3 Description",
+        "source": "A sealed shipment containing food, drinks and provisions prepared for extended deployments.",
+        "translation": "장기 작전을 위해 준비된 식량, 음료 및 보급품이 들어 있는 밀봉 보급품입니다."
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "qm.ui.exact.001",
+        "source": "VOTING",
+        "translation": "투표",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.002",
+        "source": "Select a community contract to view details.",
+        "translation": "커뮤니티 계약을 선택하면 상세 내용을 볼 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.003",
+        "source": "Community Contracts",
+        "translation": "커뮤니티 계약",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.004",
+        "source": "Submit your own",
+        "translation": "직접 제안하기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.005",
+        "source": "Refresh",
+        "translation": "새로고침",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.006",
+        "source": "No pending community submissions.",
+        "translation": "대기 중인 커뮤니티 제안이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.007",
+        "source": "Untitled",
+        "translation": "제목 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.008",
+        "source": "Unknown",
+        "translation": "알 수 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.009",
+        "source": "Objectives",
+        "translation": "목표",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.010",
+        "source": "Rewards",
+        "translation": "보상",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.011",
+        "source": "< Back to list",
+        "translation": "< 목록으로 돌아가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.012",
+        "source": "Upvote",
+        "translation": "찬성",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.013",
+        "source": "Downvote",
+        "translation": "반대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.014",
+        "source": "You must link Discord to vote.",
+        "translation": "투표하려면 디스코드 계정을 연동해야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.015",
+        "source": "Unlink Discord",
+        "translation": "디스코드 연동 해제",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.016",
+        "source": "Link Discord",
+        "translation": "디스코드 연동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.017",
+        "source": "Daily",
+        "translation": "일일",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.018",
+        "source": "Weekly",
+        "translation": "주간",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.019",
+        "source": "Weekend",
+        "translation": "주말",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.020",
+        "source": "One Time",
+        "translation": "1회",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.021",
+        "source": "Objective",
+        "translation": "목표",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.022",
+        "source": " (Found in Raid)",
+        "translation": " (레이드에서 발견)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.023",
+        "source": "Roubles",
+        "translation": "루블",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.024",
+        "source": "trader standing",
+        "translation": "상인 우호도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.exact.025",
+        "source": "standing",
+        "translation": "우호도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.template.001",
+        "source": "Pending Submissions ({count})",
+        "translation": "대기 중인 제안 ({count})",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.002",
+        "source": "{title}  by {author}  |  Support: {ratio}% ({upvotes}/{total})",
+        "translation": "{title}  작성자: {author}  |  지지율: {ratio}% ({upvotes}/{total})",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.003",
+        "source": "Selected: {title}",
+        "translation": "선택됨: {title}",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.004",
+        "source": "Selected: {title}\\nby {author}\\nSupport: {ratio}%  Up: {upvotes}  Down: {downvotes}",
+        "translation": "선택됨: {title}\\n작성자: {author}\\n지지율: {ratio}%  찬성: {upvotes}  반대: {downvotes}",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.005",
+        "source": "Recurrence: {type}",
+        "translation": "반복: {type}",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.006",
+        "source": "Hand over {count}x item{fir}{zone}",
+        "translation": "{count}개 아이템 건네주기{fir}{zone}",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.007",
+        "source": "Plant {count}x item{zone}",
+        "translation": "{count}개 아이템 설치하기{zone}",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.008",
+        "source": "Eliminate {count} Scav(s){location}",
+        "translation": "{location} 스캐브 {count}명 처치",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.009",
+        "source": "Eliminate {count} PMC(s){location}",
+        "translation": "{location} PMC {count}명 처치",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.010",
+        "source": "Eliminate {count} boss(es){location}",
+        "translation": "{location} 보스 {count}명 처치",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.011",
+        "source": "Survive {count} raid(s) on {map}",
+        "translation": "{map}에서 레이드 {count}회 생존하기",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.012",
+        "source": "Extract from {map} {count} time(s)",
+        "translation": "{map}에서 {count}회 탈출하기",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.013",
+        "source": "Visit {map}{zone}",
+        "translation": "{map}{zone} 방문하기",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.014",
+        "source": "Find {count}x item{fir}{zone}",
+        "translation": "{count}개 아이템 찾기{fir}{zone}",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.015",
+        "source": "+{standing} trader standing",
+        "translation": "상인 우호도 +{standing}",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.016",
+        "source": "+{standing} standing",
+        "translation": "우호도 +{standing}",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.017",
+        "source": "Skill {target}: +{value}",
+        "translation": "스킬 {target}: +{value}",
+        "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.template.018",
+        "source": "Unlock: {target}",
+        "translation": "잠금 해제: {target}",
+        "match_mode": "template"
+      }
+    ],
+    "npc_messages": [
+      {
+        "id": "qm.mail.001",
+        "source": "Your Quartermaster Medical Supplies shipment has arrived. Contents are packed inside.",
+        "translation": "쿼터마스터 의료 보급품이 도착했네. 내용물은 안에 포장해 뒀어.",
+        "match_mode": "exact",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.mail.002",
+        "source": "Your Quartermaster Grenadier Package has arrived. Handle with care.",
+        "translation": "쿼터마스터 척탄병 패키지가 도착했네. 조심해서 다루게.",
+        "match_mode": "exact",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.mail.003",
+        "source": "Your Quartermaster Rations Pack has arrived. Best consumed before deployment.",
+        "translation": "쿼터마스터 전투식량 팩이 도착했네. 작전에 나가기 전에 먹는 게 좋을 걸세.",
+        "match_mode": "exact",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.mail.004",
+        "source": "Your Quartermaster shipment has arrived.",
+        "translation": "쿼터마스터 보급품이 도착했네.",
+        "match_mode": "exact",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.mail.005",
+        "source": "Times have been tough, operator. The community's contributions this week were... modest, to put it kindly. I've scraped together what I could from the back of the warehouse. It's not much, but it's what we've got. Take it, and let's hope next week treats us better.",
+        "translation": "요즘 사정이 영 좋지 않군, 오퍼레이터. 이번 주 커뮤니티의 기여는... 좋게 말해도 변변찮았어. 창고 구석까지 뒤져서 어떻게든 챙겨봤네. 많진 않지만 지금 가진 건 이게 전부야. 받아두게. 다음 주는 좀 나아지길 바라자고.",
+        "match_mode": "exact",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.mail.006",
+        "source": "Another week in the books. Business wasn't exactly booming, but we survived. Here's your share of the haul - picked over, but there's still some useful bits in there. Keep your head down out there, and maybe next week we'll have reason to celebrate.",
+        "translation": "또 한 주가 지나갔군. 장사가 썩 잘된 건 아니지만, 그래도 버텼어. 여기 자네 몫일세. 좋은 건 먼저 빠져나갔지만 쓸 만한 건 아직 좀 남아 있어. 밖에서는 몸조심하고, 다음 주엔 축하할 일이 생기길 바라자고.",
+        "match_mode": "exact",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.mail.007",
+        "source": "Now this is more like it. The community pulled through this week - solid contributions across the board. I've put together a proper supply crate for you. Quality goods, no scraps here. You've earned this one, operator. Let's keep this momentum going.",
+        "translation": "이제야 좀 제대로 돌아가는군. 이번 주엔 커뮤니티가 제 몫을 해냈어. 전반적으로 기여가 탄탄했지. 자네 몫으로 제대로 된 보급 상자를 하나 꾸려뒀네. 자투리는 없고 품질 좋은 물건뿐이야. 자네가 얻어낸 거라고, 오퍼레이터. 이 기세를 계속 이어가자고.",
+        "match_mode": "exact",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.mail.008",
+        "source": "Outstanding work, operator. The community absolutely delivered this week - best we've seen in a long time. I've pulled out all the stops on this one. Premium gear, top shelf, the works. This is what happens when everyone does their part. Enjoy it - you've more than earned it.",
+        "translation": "훌륭한 성과군, 오퍼레이터. 이번 주 커뮤니티는 기대 이상으로 해냈어. 오랜만에 보는 최고의 실적이야. 이번엔 내가 아낌없이 풀었네. 최고급 장비에 최상급 물건까지 전부 챙겼어. 모두가 제 몫을 하면 이런 결과가 나오는 법이지. 마음껏 쓰게. 충분히 받을 자격이 있으니까.",
+        "match_mode": "exact",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.mail.009",
+        "source": "Weekly community supply shipment. Open the crate to claim your share.",
+        "translation": "주간 커뮤니티 보급품일세. 상자를 열고 자네 몫을 챙기게.",
+        "match_mode": "exact",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.mail.010",
+        "source": "JACKPOT PAYOUT — You won the community jackpot of {jackpotAmount:N0} roubles! Congratulations!",
+        "translation": "잭팟 당첨금 — 커뮤니티 잭팟 {jackpotAmount:N0}루블에 당첨됐네! 축하하네!",
+        "match_mode": "template",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.mail.011",
+        "source": "New community contract available: {contract_title}",
+        "translation": "새 커뮤니티 계약이 들어왔네: {contract_title}",
+        "match_mode": "template",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.mail.012",
+        "source": "New community contracts available:\n• {contract_titles}",
+        "translation": "새 커뮤니티 계약들이 들어왔네:\n• {contract_titles}",
+        "match_mode": "template",
+        "trader_id": "66789abcde1234567890abcd"
+      }
+    ],
+    "locale_source_fallback": [
+      {
+        "id": "qm.crate.001",
+        "source": "Quartermaster Supply Crate - Tier 1",
+        "translation": "쿼터마스터 보급 상자 - 1단계",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.crate.002",
+        "source": "QM Crate T1",
+        "translation": "QM 상자 T1",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.crate.003",
+        "source": "A modest supply crate from the Quartermaster. Community contributions were low this week, but there's still something inside.",
+        "translation": "쿼터마스터가 마련한 소박한 보급 상자입니다. 이번 주 커뮤니티 기여가 저조했지만, 그래도 안에는 물품이 들어 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.crate.004",
+        "source": "Quartermaster Supply Crate - Tier 2",
+        "translation": "쿼터마스터 보급 상자 - 2단계",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.crate.005",
+        "source": "QM Crate T2",
+        "translation": "QM 상자 T2",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.crate.006",
+        "source": "A standard supply crate from the Quartermaster. The community did okay this week. Open to claim your share.",
+        "translation": "쿼터마스터가 마련한 표준 보급 상자입니다. 이번 주 커뮤니티 성과는 무난했습니다. 상자를 열어 자신의 몫을 수령할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.crate.007",
+        "source": "Quartermaster Supply Crate - Tier 3",
+        "translation": "쿼터마스터 보급 상자 - 3단계",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.crate.008",
+        "source": "QM Crate T3",
+        "translation": "QM 상자 T3",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.crate.009",
+        "source": "A well-stocked supply crate from the Quartermaster. Solid community contributions this week earned quality goods.",
+        "translation": "쿼터마스터가 알차게 채운 보급 상자입니다. 이번 주 커뮤니티의 탄탄한 기여로 품질 좋은 물품을 확보했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.crate.010",
+        "source": "Quartermaster Supply Crate - Tier 4",
+        "translation": "쿼터마스터 보급 상자 - 4단계",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.crate.011",
+        "source": "QM Crate T4",
+        "translation": "QM 상자 T4",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.crate.012",
+        "source": "A premium supply crate from the Quartermaster. Outstanding community contributions this week earned top-shelf gear.",
+        "translation": "쿼터마스터가 마련한 최고급 보급 상자입니다. 이번 주 커뮤니티의 뛰어난 기여로 최상급 장비를 확보했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.contract.prefix.013",
+        "source": "[DAILY] ",
+        "translation": "[일일] ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.contract.prefix.014",
+        "source": "[WEEKLY] ",
+        "translation": "[주간] ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.contract.prefix.015",
+        "source": "[WEEKEND] ",
+        "translation": "[주말] ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.contract.prefix.016",
+        "source": "[ONE TIME] ",
+        "translation": "[1회] ",
+        "match_mode": "exact"
+      }
+    ]
+  },
+  "notes": [
+    "주간 보상 상자는 동일 key에 런타임 source 변형이 있으므로 이 fragment에 넣지 않고 locale_source_variants_workset.json에 분리함."
+  ]
+}

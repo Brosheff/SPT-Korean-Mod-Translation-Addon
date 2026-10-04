@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.acidphantasm.botplacementsystem",
+  "plugin_name": "botplacementsystem-csharp-master",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "1. General Settings",
+      "translation": "1. 일반 설정"
+    },
+    {
+      "source": "2. Boss Settings",
+      "translation": "2. 보스 설정"
+    },
+    {
+      "source": "3. PMC Settings",
+      "translation": "3. PMC 설정"
+    },
+    {
+      "source": "4. Scav Settings",
+      "translation": "4. 스캐브 설정"
+    },
+    {
+      "source": "5. Despawn Settings",
+      "translation": "5. 디스폰 설정"
+    },
+    {
+      "source": "6. Debug Settings",
+      "translation": "6. 디버그 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General Settings",
+      "key": "Max Bots - Customs",
+      "source_display_name": "Max Bots - Customs",
+      "source_description": "Max bots allowed on map, value is ignored by certain bots.\nStarting PMCs ignore the cap by default, if you want to change this you must do so in the server config.\n\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 봇 수 - 세관",
+      "translation_description": "해당 맵에 허용할 최대 봇 수입니다. 일부 봇은 이 제한을 무시하며, 시작 시 생성되는 PMC는 기본적으로 제한 대상이 아닙니다. 시작 PMC 제한은 서버 설정에서 변경해야 합니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General Settings",
+      "key": "Max Bots - Factory",
+      "source_display_name": "Max Bots - Factory",
+      "source_description": "Max bots allowed on map, value is ignored by certain bots.\nStarting PMCs ignore the cap by default, if you want to change this you must do so in the server config.\n\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 봇 수 - 공장",
+      "translation_description": "해당 맵에 허용할 최대 봇 수입니다. 일부 봇은 이 제한을 무시하며, 시작 시 생성되는 PMC는 기본적으로 제한 대상이 아닙니다. 시작 PMC 제한은 서버 설정에서 변경해야 합니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General Settings",
+      "key": "Max Bots - Ground Zero",
+      "source_display_name": "Max Bots - Ground Zero",
+      "source_description": "Max bots allowed on map, value is ignored by certain bots.\nStarting PMCs ignore the cap by default, if you want to change this you must do so in the server config.\n\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 봇 수 - 그라운드 제로",
+      "translation_description": "해당 맵에 허용할 최대 봇 수입니다. 일부 봇은 이 제한을 무시하며, 시작 시 생성되는 PMC는 기본적으로 제한 대상이 아닙니다. 시작 PMC 제한은 서버 설정에서 변경해야 합니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General Settings",
+      "key": "Max Bots - Interchange",
+      "source_display_name": "Max Bots - Interchange",
+      "source_description": "Max bots allowed on map, value is ignored by certain bots.\nStarting PMCs ignore the cap by default, if you want to change this you must do so in the server config.\n\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 봇 수 - 인터체인지",
+      "translation_description": "해당 맵에 허용할 최대 봇 수입니다. 일부 봇은 이 제한을 무시하며, 시작 시 생성되는 PMC는 기본적으로 제한 대상이 아닙니다. 시작 PMC 제한은 서버 설정에서 변경해야 합니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General Settings",
+      "key": "Max Bots - Labs",
+      "source_display_name": "Max Bots - Labs",
+      "source_description": "Max bots allowed on map, value is ignored by certain bots.\nStarting PMCs ignore the cap by default, if you want to change this you must do so in the server config.\n\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 봇 수 - 연구소",
+      "translation_description": "해당 맵에 허용할 최대 봇 수입니다. 일부 봇은 이 제한을 무시하며, 시작 시 생성되는 PMC는 기본적으로 제한 대상이 아닙니다. 시작 PMC 제한은 서버 설정에서 변경해야 합니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General Settings",
+      "key": "Max Bots - Labyrinth",
+      "source_display_name": "Max Bots - Labyrinth",
+      "source_description": "Max bots allowed on map, value is ignored by certain bots.\nStarting PMCs ignore the cap by default, if you want to change this you must do so in the server config.\n\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 봇 수 - 미궁",
+      "translation_description": "해당 맵에 허용할 최대 봇 수입니다. 일부 봇은 이 제한을 무시하며, 시작 시 생성되는 PMC는 기본적으로 제한 대상이 아닙니다. 시작 PMC 제한은 서버 설정에서 변경해야 합니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General Settings",
+      "key": "Max Bots - Lighthouse",
+      "source_display_name": "Max Bots - Lighthouse",
+      "source_description": "Max bots allowed on map, value is ignored by certain bots.\nStarting PMCs ignore the cap by default, if you want to change this you must do so in the server config.\n\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 봇 수 - 등대",
+      "translation_description": "해당 맵에 허용할 최대 봇 수입니다. 일부 봇은 이 제한을 무시하며, 시작 시 생성되는 PMC는 기본적으로 제한 대상이 아닙니다. 시작 PMC 제한은 서버 설정에서 변경해야 합니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General Settings",
+      "key": "Max Bots - Reserve",
+      "source_display_name": "Max Bots - Reserve",
+      "source_description": "Max bots allowed on map, value is ignored by certain bots.\nStarting PMCs ignore the cap by default, if you want to change this you must do so in the server config.\n\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 봇 수 - 리저브",
+      "translation_description": "해당 맵에 허용할 최대 봇 수입니다. 일부 봇은 이 제한을 무시하며, 시작 시 생성되는 PMC는 기본적으로 제한 대상이 아닙니다. 시작 PMC 제한은 서버 설정에서 변경해야 합니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General Settings",
+      "key": "Max Bots - Shoreline",
+      "source_display_name": "Max Bots - Shoreline",
+      "source_description": "Max bots allowed on map, value is ignored by certain bots.\nStarting PMCs ignore the cap by default, if you want to change this you must do so in the server config.\n\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 봇 수 - 해안선",
+      "translation_description": "해당 맵에 허용할 최대 봇 수입니다. 일부 봇은 이 제한을 무시하며, 시작 시 생성되는 PMC는 기본적으로 제한 대상이 아닙니다. 시작 PMC 제한은 서버 설정에서 변경해야 합니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General Settings",
+      "key": "Max Bots - Streets",
+      "source_display_name": "Max Bots - Streets",
+      "source_description": "Max bots allowed on map, value is ignored by certain bots.\nStarting PMCs ignore the cap by default, if you want to change this you must do so in the server config.\n\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 봇 수 - 타르코프 시내",
+      "translation_description": "해당 맵에 허용할 최대 봇 수입니다. 일부 봇은 이 제한을 무시하며, 시작 시 생성되는 PMC는 기본적으로 제한 대상이 아닙니다. 시작 PMC 제한은 서버 설정에서 변경해야 합니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General Settings",
+      "key": "Max Bots - Woods",
+      "source_display_name": "Max Bots - Woods",
+      "source_description": "Max bots allowed on map, value is ignored by certain bots.\nStarting PMCs ignore the cap by default, if you want to change this you must do so in the server config.\n\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 봇 수 - 삼림",
+      "translation_description": "해당 맵에 허용할 최대 봇 수입니다. 일부 봇은 이 제한을 무시하며, 시작 시 생성되는 PMC는 기본적으로 제한 대상이 아닙니다. 시작 PMC 제한은 서버 설정에서 변경해야 합니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Boss Settings",
+      "key": "Maximum Chance",
+      "source_display_name": "Maximum Chance",
+      "source_description": "The highest value a boss's spawn chance can reach when progressive chances are enabled.\nChanges do not take effect until next raid.",
+      "translation_display_name": "최대 확률",
+      "translation_description": "점진 증가 방식으로 높아질 수 있는 보스 등장 확률의 최대값입니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Boss Settings",
+      "key": "Minimum Chance",
+      "source_display_name": "Minimum Chance",
+      "source_description": "If only Progressive Chances are enabled, a boss that spawns will reset to this value.\n\nIf Regressive Chances are enabled, spawn chance instead decays toward this value if they spawned in the previous raid.\nChanges do not take effect until next raid.",
+      "translation_display_name": "최소 확률",
+      "translation_description": "보스 등장 확률의 하한입니다. 점진 증가만 사용할 때는 보스가 등장한 뒤 이 값으로 초기화되고, 연속 등장 감소를 함께 사용하면 직전 레이드 등장 시 이 값까지 점차 낮아집니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Boss Settings",
+      "key": "Progressive Boss Chances",
+      "source_display_name": "Progressive Boss Chances",
+      "source_description": "If a boss didn't spawn in the previous raid, raise their chance by the Step Count.\nChanges do not take effect until next raid.",
+      "translation_display_name": "보스 미등장 시 확률 증가",
+      "translation_description": "이전 레이드에서 보스가 등장하지 않았다면 다음 레이드의 등장 확률을 「증감 폭」만큼 높입니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Boss Settings",
+      "key": "Regressive Boss Chances",
+      "source_display_name": "Regressive Boss Chances",
+      "source_description": "If a boss spawned in the previous raid, lower their chance by the Step Count.\nChanges do not take effect until next raid.",
+      "translation_display_name": "보스 연속 등장 확률 감소",
+      "translation_description": "이전 레이드에서 보스가 등장했다면 다음 레이드의 등장 확률을 「증감 폭」만큼 낮춥니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Boss Settings",
+      "key": "Step Count",
+      "source_display_name": "Step Count",
+      "source_description": "Progressive: If a boss fails to spawn, how much to increase their spawn chance by.\n\nRegressive: The spawn chance is decreased by this amount if they spawned last raid.\nChanges do not take effect until next raid.",
+      "translation_display_name": "증감 폭",
+      "translation_description": "보스 확률 증감량입니다. 점진 증가 방식에서는 보스가 나오지 않았을 때 이 값만큼 올리고, 연속 등장 감소 방식에서는 직전 레이드에 등장했을 때 이 값만큼 내립니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Allow PMC Spawn Anywhere",
+      "source_display_name": "Allow PMC Spawn Anywhere",
+      "source_description": "Enable this if you want PMCs to spawn at any spawn point instead of Player Spawn points.\nNote that with this disabled, PMCs will still spawn anywhere if there are no player spawn points available.",
+      "translation_display_name": "PMC 모든 스폰 지점 허용",
+      "translation_description": "PMC를 플레이어 전용 스폰 지점이 아닌 모든 스폰 지점에서 생성할 수 있게 합니다. 꺼져 있어도 사용 가능한 플레이어 스폰 지점이 없으면 다른 지점에 생성될 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Distance Limit - Customs",
+      "source_display_name": "Distance Limit - Customs",
+      "source_description": "How far all PMCs must be from a spawn point for it to be enabled for other PMC spawns.\n Setting this too high will cause PMCs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 세관",
+      "translation_description": "다른 PMC가 해당 스폰 지점을 사용할 수 있으려면 기존 모든 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 PMC가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Distance Limit - Factory",
+      "source_display_name": "Distance Limit - Factory",
+      "source_description": "How far all PMCs must be from a spawn point for it to be enabled for other PMC spawns.\n Setting this too high will cause PMCs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 공장",
+      "translation_description": "다른 PMC가 해당 스폰 지점을 사용할 수 있으려면 기존 모든 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 PMC가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Distance Limit - GroundZero",
+      "source_display_name": "Distance Limit - GroundZero",
+      "source_description": "How far all PMCs must be from a spawn point for it to be enabled for other PMC spawns.\n Setting this too high will cause PMCs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 그라운드 제로",
+      "translation_description": "다른 PMC가 해당 스폰 지점을 사용할 수 있으려면 기존 모든 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 PMC가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Distance Limit - Interchange",
+      "source_display_name": "Distance Limit - Interchange",
+      "source_description": "How far all PMCs must be from a spawn point for it to be enabled for other PMC spawns.\n Setting this too high will cause PMCs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 인터체인지",
+      "translation_description": "다른 PMC가 해당 스폰 지점을 사용할 수 있으려면 기존 모든 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 PMC가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Distance Limit - Labs",
+      "source_display_name": "Distance Limit - Labs",
+      "source_description": "How far all PMCs must be from a spawn point for it to be enabled for other PMC spawns.\n Setting this too high will cause PMCs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 연구소",
+      "translation_description": "다른 PMC가 해당 스폰 지점을 사용할 수 있으려면 기존 모든 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 PMC가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Distance Limit - Labyrinth",
+      "source_display_name": "Distance Limit - Labyrinth",
+      "source_description": "How far all PMCs must be from a spawn point for it to be enabled for other PMC spawns.\n Setting this too high will cause PMCs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 미궁",
+      "translation_description": "다른 PMC가 해당 스폰 지점을 사용할 수 있으려면 기존 모든 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 PMC가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Distance Limit - Lighthouse",
+      "source_display_name": "Distance Limit - Lighthouse",
+      "source_description": "How far all PMCs must be from a spawn point for it to be enabled for other PMC spawns.\n Setting this too high will cause PMCs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 등대",
+      "translation_description": "다른 PMC가 해당 스폰 지점을 사용할 수 있으려면 기존 모든 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 PMC가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Distance Limit - Reserve",
+      "source_display_name": "Distance Limit - Reserve",
+      "source_description": "How far all PMCs must be from a spawn point for it to be enabled for other PMC spawns.\n Setting this too high will cause PMCs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 리저브",
+      "translation_description": "다른 PMC가 해당 스폰 지점을 사용할 수 있으려면 기존 모든 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 PMC가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Distance Limit - Shoreline",
+      "source_display_name": "Distance Limit - Shoreline",
+      "source_description": "How far all PMCs must be from a spawn point for it to be enabled for other PMC spawns.\n Setting this too high will cause PMCs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 해안선",
+      "translation_description": "다른 PMC가 해당 스폰 지점을 사용할 수 있으려면 기존 모든 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 PMC가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Distance Limit - Streets",
+      "source_display_name": "Distance Limit - Streets",
+      "source_description": "How far all PMCs must be from a spawn point for it to be enabled for other PMC spawns.\n Setting this too high will cause PMCs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 타르코프 시내",
+      "translation_description": "다른 PMC가 해당 스폰 지점을 사용할 수 있으려면 기존 모든 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 PMC가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. PMC Settings",
+      "key": "Distance Limit - Woods",
+      "source_display_name": "Distance Limit - Woods",
+      "source_description": "How far all PMCs must be from a spawn point for it to be enabled for other PMC spawns.\n Setting this too high will cause PMCs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 삼림",
+      "translation_description": "다른 PMC가 해당 스폰 지점을 사용할 수 있으려면 기존 모든 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 PMC가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Distance Limit - Customs",
+      "source_display_name": "Distance Limit - Customs",
+      "source_description": "How far PMCs must be from a spawn point for it to be enabled for Scav spawns.\n Setting this too high will cause Scavs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 세관",
+      "translation_description": "스캐브가 해당 스폰 지점을 사용할 수 있으려면 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 스캐브가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Distance Limit - Factory",
+      "source_display_name": "Distance Limit - Factory",
+      "source_description": "How far PMCs must be from a spawn point for it to be enabled for Scav spawns.\n Setting this too high will cause Scavs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 공장",
+      "translation_description": "스캐브가 해당 스폰 지점을 사용할 수 있으려면 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 스캐브가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Distance Limit - GroundZero",
+      "source_display_name": "Distance Limit - GroundZero",
+      "source_description": "How far PMCs must be from a spawn point for it to be enabled for Scav spawns.\n Setting this too high will cause Scavs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 그라운드 제로",
+      "translation_description": "스캐브가 해당 스폰 지점을 사용할 수 있으려면 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 스캐브가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Distance Limit - Interchange",
+      "source_display_name": "Distance Limit - Interchange",
+      "source_description": "How far PMCs must be from a spawn point for it to be enabled for Scav spawns.\n Setting this too high will cause Scavs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 인터체인지",
+      "translation_description": "스캐브가 해당 스폰 지점을 사용할 수 있으려면 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 스캐브가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Distance Limit - Labs",
+      "source_display_name": "Distance Limit - Labs",
+      "source_description": "How far PMCs must be from a spawn point for it to be enabled for Scav spawns.\n Setting this too high will cause Scavs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 연구소",
+      "translation_description": "스캐브가 해당 스폰 지점을 사용할 수 있으려면 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 스캐브가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Distance Limit - Lighthouse",
+      "source_display_name": "Distance Limit - Lighthouse",
+      "source_description": "How far PMCs must be from a spawn point for it to be enabled for Scav spawns.\n Setting this too high will cause Scavs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 등대",
+      "translation_description": "스캐브가 해당 스폰 지점을 사용할 수 있으려면 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 스캐브가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Distance Limit - Reserve",
+      "source_display_name": "Distance Limit - Reserve",
+      "source_description": "How far PMCs must be from a spawn point for it to be enabled for Scav spawns.\n Setting this too high will cause Scavs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 리저브",
+      "translation_description": "스캐브가 해당 스폰 지점을 사용할 수 있으려면 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 스캐브가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Distance Limit - Shoreline",
+      "source_display_name": "Distance Limit - Shoreline",
+      "source_description": "How far PMCs must be from a spawn point for it to be enabled for Scav spawns.\n Setting this too high will cause Scavs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 해안선",
+      "translation_description": "스캐브가 해당 스폰 지점을 사용할 수 있으려면 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 스캐브가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Distance Limit - Streets",
+      "source_display_name": "Distance Limit - Streets",
+      "source_description": "How far PMCs must be from a spawn point for it to be enabled for Scav spawns.\n Setting this too high will cause Scavs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 타르코프 시내",
+      "translation_description": "스캐브가 해당 스폰 지점을 사용할 수 있으려면 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 스캐브가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Distance Limit - Woods",
+      "source_display_name": "Distance Limit - Woods",
+      "source_description": "How far PMCs must be from a spawn point for it to be enabled for Scav spawns.\n Setting this too high will cause Scavs to fail to spawn.",
+      "translation_display_name": "거리 제한 - 삼림",
+      "translation_description": "스캐브가 해당 스폰 지점을 사용할 수 있으려면 PMC가 스폰 지점에서 최소 이 거리만큼 떨어져 있어야 합니다. 너무 높게 설정하면 스캐브가 생성되지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Hotzone Cap",
+      "source_display_name": "Hotzone Cap",
+      "source_description": "How many scavs can spawn in a hotzone, if you enable hotzones (excluding Factory/Ground Zero).",
+      "translation_display_name": "핫존 최대 스캐브 수",
+      "translation_description": "핫존을 사용할 때 한 핫존에 생성될 수 있는 스캐브의 최대 수입니다. 공장과 그라운드 제로는 제외됩니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Hotzone Chance",
+      "source_display_name": "Hotzone Chance",
+      "source_description": "How likely a scav is to spawn in a hotzone (excluding Factory/Ground Zero).",
+      "translation_display_name": "핫존 확률",
+      "translation_description": "스캐브가 핫존에 생성될 확률입니다. 공장과 그라운드 제로는 제외됩니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Hotzones",
+      "source_display_name": "Hotzones",
+      "source_description": "Enables hotzones around maps, more common or quest areas are considered hotzones.",
+      "translation_display_name": "핫존 사용",
+      "translation_description": "맵의 주요 지역이나 퀘스트 지역을 핫존으로 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "PScav Chance",
+      "source_display_name": "PScav Chance",
+      "source_description": "How likely a scav spawning later in the raid is a Player Scav.",
+      "translation_display_name": "플레이어 스캐브 비율",
+      "translation_description": "레이드 후반에 생성되는 스캐브가 플레이어 스캐브 타입으로 생성될 확률입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Scav Soft Cap",
+      "source_display_name": "Scav Soft Cap",
+      "source_description": "How many open slots before hard cap to stop spawning additional scavs.\nEx..If 3, and map cap is 23 - will stop spawning scavs at 20 total.\nThis allows PMC waves if enabled to fill the remaining spots.",
+      "translation_display_name": "스캐브 소프트 캡",
+      "translation_description": "맵의 하드 캡에 도달하기 전에 일반 스캐브 생성을 멈출 여유 슬롯 수입니다. 예를 들어 하드 캡 23, 값 3이면 총 20명에서 일반 스캐브 생성을 멈춰 PMC 웨이브용 슬롯을 남깁니다.",
+      "values": []
+    },
+    {
+      "section": "4. Scav Settings",
+      "key": "Zone Cap",
+      "source_display_name": "Zone Cap",
+      "source_description": "How many scavs can spawn in any one zone (excluding Factory/Ground Zero).",
+      "translation_display_name": "구역별 최대 스캐브 수",
+      "translation_description": "한 구역에 동시에 생성될 수 있는 스캐브의 최대 수입니다. 공장과 그라운드 제로는 제외됩니다.",
+      "values": []
+    },
+    {
+      "section": "5. Despawn Settings",
+      "key": "Despawn Distance",
+      "source_display_name": "Despawn Distance",
+      "source_description": "Distance that bots must be from player to trigger despawning.",
+      "translation_display_name": "디스폰 거리",
+      "translation_description": "플레이어와 봇의 거리가 이 값보다 멀어졌을 때 디스폰 대상으로 판정합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Despawn Settings",
+      "key": "Despawn Timer",
+      "source_display_name": "Despawn Timer",
+      "source_description": "Timer for despawning, this is the MINIMUM time between despawning attempts. In Seconds.",
+      "translation_display_name": "디스폰 주기",
+      "translation_description": "디스폰 시도 사이의 최소 대기 시간(초)입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Despawn Settings",
+      "key": "Enable Despawning",
+      "source_display_name": "Enable Despawning",
+      "source_description": "Enabling this will only despawn scavs, if you want to also despawn PMCs you must also check the below option.",
+      "translation_display_name": "봇 디스폰 활성화",
+      "translation_description": "봇 디스폰 기능을 켭니다. 이 옵션만 켜면 스캐브만 디스폰되며, PMC도 디스폰하려면 아래 PMC 디스폰 옵션을 함께 켜야 합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Despawn Settings",
+      "key": "Enable Despawning PMCs",
+      "source_display_name": "Enable Despawning PMCs",
+      "source_description": "Allow ABPS to despawn PMCs. \nRequires `Enable Despawning`\n\n If you enable this and don't turn on PMC waves, then expect to have almost no PMCs in your raids. \nThat's on you.",
+      "translation_display_name": "PMC 디스폰 활성화",
+      "translation_description": "ABPS가 PMC도 디스폰할 수 있게 합니다. 「봇 디스폰 활성화」가 먼저 켜져 있어야 합니다. PMC 웨이브를 사용하지 않으면서 이 옵션을 켜면 레이드 중 PMC 수가 매우 적어질 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "6. Debug Settings",
+      "key": "Connected Player Check Timer",
+      "source_display_name": "Connected Player Check Timer",
+      "source_description": "How often it checks for connected players on raid load in milliseconds. This will only count up to the timeout value.\nMake this higher if players aren't loading before spawns start.\nYou will only know this if you enable debug logging and read the logs.",
+      "translation_display_name": "접속 플레이어 확인 주기",
+      "translation_description": "레이드 로드 중 연결된 플레이어를 확인하는 주기(ms)입니다. 타이머는 위의 대기 제한 시간까지만 반복됩니다. 플레이어 로드가 끝나기 전에 봇 생성이 시작된다면 값을 늘려 볼 수 있으며, 확인하려면 디버그 로그를 켜야 합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Debug Settings",
+      "key": "Connected Player Timeout",
+      "source_display_name": "Connected Player Timeout",
+      "source_description": "Timeout for waiting on connected players for ABPS to use their position data.\nIf this value times out, then bots won't get the players added to their enemy list nor will they spawn correctly distanced.",
+      "translation_display_name": "접속 플레이어 대기 제한 시간",
+      "translation_description": "ABPS가 연결된 플레이어의 위치 데이터를 기다리는 최대 시간입니다. 시간 초과가 발생하면 봇의 적 목록과 스폰 거리 계산에 플레이어 정보가 반영되지 않아 생성 위치가 잘못될 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "6. Debug Settings",
+      "key": "Enable Debug Logging",
+      "source_display_name": "Enable Debug Logging",
+      "source_description": "Enabling this will turn on Bepinex logging for debug.",
+      "translation_display_name": "디버그 로그 출력",
+      "translation_description": "ABPS의 상세 디버그 로그를 BepInEx 로그에 출력합니다.",
+      "values": []
+    }
+  ]
+}

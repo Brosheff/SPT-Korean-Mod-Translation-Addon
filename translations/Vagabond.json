@@ -1,0 +1,1015 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "Vagabond",
+  "mod_name": "Vagabond",
+  "channels": {
+    "locale": [
+      {
+        "key": "69eaa4700000000000000000 name",
+        "source": "Clean Slate",
+        "translation": "새 출발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69eaa4700000000000000000 description",
+        "source": "So.. your little hideout setup. You really thought no one would notice? Come on. Everything gets found eventually. Question is, who finds it first.\n\nLucky for you, I know people who specialize in.. making problems disappear. Move the whole thing, clean slate, no loose ends. Quiet work. Expensive work.\n\nYou want a relocation, you pay. Simple as that. No favors, no credit.\n\nBring the roubles, I make the call, and your exit gets.. relocated. After that? Try not to screw it up again.\n\n** Completing this quests allows you to relocate your hideout (Repeatable) **",
+        "translation": "그래... 네 작은 은신처 말인데. 정말 아무도 눈치 못 챌 거라고 생각했나? 웃기지 마. 결국 다 들키게 되어 있어. 문제는 누가 먼저 찾아내느냐지.\n\n운 좋게도 나는... 문제를 없애는 데 전문인 사람들을 알고 있어. 전부 옮기고, 흔적도 남기지 않고, 깨끗하게 새 출발하는 거다. 조용한 일이지. 비싼 일이기도 하고.\n\n이전을 원하면 돈을 내. 간단해. 호의도 없고 외상도 없다.\n\n루블을 가져와. 내가 연락을 넣으면 네 탈출 지점이... 이전될 거다. 그다음엔 또 멍청하게 굴지 마.\n\n** 이 퀘스트를 완료하면 은신처를 이전할 수 있습니다. (반복 가능) **"
+      },
+      {
+        "key": "69eaa4700000000000000000 startedMessageText",
+        "source": "Don't stall. These guys don't sit around waiting while you count pennies. Get the money, bring it in, and we'll move your little operation.",
+        "translation": "꾸물대지 마. 그 사람들은 네가 동전 세는 동안 기다려주는 놈들이 아니야. 돈을 구해서 가져와. 그러면 네 작은 작업장을 옮겨주지."
+      },
+      {
+        "key": "69eaa4700000000000000000 successMessageText",
+        "source": "Good. Money's clean.\n\nI've already made the call. My people will handle the relocation, fast, quiet, no questions asked.\n\nYou'll get your chance to set things up again. Just don't pick some obvious dump this time, yeah? I'm not doing this twice for free.",
+        "translation": "좋아. 돈은 깨끗하군.\n\n이미 연락은 넣어뒀다. 내 사람들이 빠르고 조용하게, 아무 질문 없이 이전을 처리할 거다.\n\n다시 자리 잡을 기회는 줄게. 대신 이번엔 뻔한 쓰레기장 같은 곳은 고르지 마. 알겠나? 공짜로 두 번 해주진 않는다."
+      },
+      {
+        "key": "69eaa4700000000000000000 failMessageText",
+        "source": "Yeah, didn't think so. Come back when you're serious.",
+        "translation": "그래, 그럴 줄 알았어. 진지해지면 다시 와."
+      },
+      {
+        "key": "69eaa4700000000000000000 acceptPlayerMessage",
+        "source": "Fine. I'll get your money.",
+        "translation": "좋아. 돈을 구해오지."
+      },
+      {
+        "key": "69eaa4700000000000000000 declinePlayerMessage",
+        "source": "Not worth it right now.",
+        "translation": "지금은 그럴 가치가 없어."
+      },
+      {
+        "key": "69eaa4700000000000000000 completePlayerMessage",
+        "source": "Here. Count it if you want.",
+        "translation": "여기 있다. 원하면 세어봐."
+      },
+      {
+        "key": "69eaa4700000000000000000 changeQuestMessageText",
+        "source": "Still waiting on the cash. No money, no move.",
+        "translation": "아직 현금 기다리는 중이야. 돈 없이는 이전도 없다."
+      },
+      {
+        "key": "69eab2800000000000000000",
+        "source": "Hand over Roubles",
+        "translation": "루블 건네주기"
+      },
+      {
+        "key": "69ec82900000000000000000 name",
+        "source": "Prepper",
+        "translation": "준비된 은신처"
+      },
+      {
+        "key": "69ec82900000000000000000 description",
+        "source": "Well hello there, warrior. I've been thinking about your hideout. Not a bad place, if you know how to make it last. Walls and locks are good, but they don't mean much when your stomach is empty and your throat is dry.\n\nIf I'm going to start coming through there, I need to know the place can hold out for more than a bad evening. Food, drinks, proper reserves. Enough that a man can sit tight, recover, and not go crawling into the open because he forgot to prepare.\n\nBring me provisions and water. Stock the place properly, and I'll make it one of my stops.\n\n** Completing this quest allows Jaeger to be accessible from your hideout **",
+        "translation": "어서 오게, 전사. 자네 은신처에 대해 생각해보고 있었네. 오래 버틸 줄만 안다면 나쁜 곳은 아니야. 벽과 자물쇠도 좋지만, 배가 비고 목이 마르면 그런 건 큰 의미가 없지.\n\n내가 그곳을 들르려면, 그 장소가 하룻밤의 고생 이상을 버틸 수 있는지 알아야 하네. 음식, 음료, 제대로 된 비축품. 사람이 몸을 낮추고 회복하면서, 준비를 잊었다고 밖으로 기어나가지 않아도 될 만큼 말이야.\n\n식량과 물을 가져오게. 제대로 채워두면 그곳을 내 거점 중 하나로 삼겠네.\n\n** 이 퀘스트를 완료하면 은신처에서 예거를 이용할 수 있습니다. **"
+      },
+      {
+        "key": "69ec82900000000000000000 startedMessageText",
+        "source": "Good. Start with the basics: food and drinks. Found in raid, mind you. A stash is only worth something if you can trust what's inside it.",
+        "translation": "좋아. 기본부터 시작하세. 음식과 음료다. 레이드에서 발견한 물건이어야 한다는 것도 잊지 말게. 보관함이란 안에 든 걸 믿을 수 있을 때만 가치가 있는 법이야."
+      },
+      {
+        "key": "69ec82900000000000000000 successMessageText",
+        "source": "You did it? Good work, fella. Now that's a proper reserve. A man can breathe easier when he knows there is food on the shelf and water close by. I'll start using your hideout as one of my stops. Come by when you need me, warrior.",
+        "translation": "해냈나? 잘했네, 친구. 이제야 제대로 된 비축품이 되었군. 선반에 음식이 있고 가까이에 물이 있다는 걸 알면 사람은 한결 숨을 돌릴 수 있지. 이제 자네 은신처를 내 거점 중 하나로 쓰겠네. 필요하면 들르게, 전사."
+      },
+      {
+        "key": "69ec82900000000000000000 failMessageText",
+        "source": "That's no good. You can't call a place prepared if it can't even feed a tired man.",
+        "translation": "그건 좋지 않군. 지친 사람 하나 먹일 수 없다면 준비된 장소라고 부를 수 없지."
+      },
+      {
+        "key": "69ec82900000000000000000 acceptPlayerMessage",
+        "source": "I understand. I'll stock the place.",
+        "translation": "알겠습니다. 물자를 채워두겠습니다."
+      },
+      {
+        "key": "69ec82900000000000000000 declinePlayerMessage",
+        "source": "Not now. I can't help with that.",
+        "translation": "지금은 안 됩니다. 도와드릴 수 없습니다."
+      },
+      {
+        "key": "69ec82900000000000000000 completePlayerMessage",
+        "source": "Here are the provisions.",
+        "translation": "여기 비축품입니다."
+      },
+      {
+        "key": "69ec82900000000000000000 changeQuestMessageText",
+        "source": "Keep bringing supplies. Food and water first, everything else later.",
+        "translation": "계속 물자를 가져오게. 음식과 물이 먼저고, 나머지는 그다음이야."
+      },
+      {
+        "key": "69ec83800000000000000000",
+        "source": "Reach loyalty level 2",
+        "translation": "우호도 2레벨 달성"
+      },
+      {
+        "key": "69ec82cc0000000000000000",
+        "source": "Hand over food",
+        "translation": "음식 건네주기"
+      },
+      {
+        "key": "69ec83080000000000000000",
+        "source": "Hand over drinks",
+        "translation": "음료 건네주기"
+      },
+      {
+        "key": "69ec12100000000000000000 name",
+        "source": "Setup Shop",
+        "translation": "작업장 구축"
+      },
+      {
+        "key": "69ec12100000000000000000 description",
+        "source": "Hello, mercenary. I have a proposition that is less about weapons and more about infrastructure. My current workshop is becoming... inconvenient. Too many eyes, too many interruptions, and not enough control over the equipment. Your hideout has potential. With the right batteries, tools, electronics, and proper insulation, I can set up a small station there. Nothing luxurious. A bench, power, diagnostics, storage, and enough order to make precise work possible. Bring me the supplies, and I'll make myself available from your place when needed.",
+        "translation": "어서 오게, 용병. 무기보다는 기반 시설에 가까운 제안이 있네. 현재 내 작업장은 점점... 불편해지고 있네. 보는 눈이 너무 많고, 방해도 많으며, 장비에 대한 통제도 부족하지. 자네의 은신처에는 가능성이 있네. 알맞은 배터리, 공구, 전자제품, 그리고 제대로 된 절연재만 있다면 그곳에 작은 작업 구역을 만들 수 있네. 호화로운 건 필요 없네. 작업대, 전원, 진단 장비, 보관 공간, 그리고 정밀 작업이 가능할 정도의 질서면 충분하지. 필요한 물자를 가져오면, 필요할 때 자네 은신처에서 내게 일을 맡길 수 있도록 하겠네."
+      },
+      {
+        "key": "69ec12100000000000000000 startedMessageText",
+        "source": "Remember, I need working supplies, not dead weight. Batteries, tools, electronics, tape. Found in raid. If one bad contact ruins the whole bench, we both waste time.",
+        "translation": "기억하게. 필요한 건 작동하는 물자이지, 짐덩이가 아니네. 배터리, 공구, 전자제품, 테이프. 레이드에서 발견한 물건이어야 하네. 접점 하나가 불량이면 작업대 전체가 망가지고, 우리 둘 다 시간을 낭비하게 되지."
+      },
+      {
+        "key": "69ec12100000000000000000 successMessageText",
+        "source": "Good. This will do. Not perfect, but perfection usually requires time, patience, and several boxes of spare parts. I will move the equipment in quietly and set up the station. After that, you can find me in your hideout. Try not to let anyone careless touch my tools.",
+        "translation": "좋네. 이 정도면 되겠군. 완벽하진 않지만, 완벽이라는 건 보통 시간과 인내, 그리고 예비 부품 몇 상자가 더 필요한 법이지. 장비는 조용히 옮겨서 작업 구역을 설치하겠네. 그 뒤로는 은신처에서 나를 찾을 수 있을 걸세. 부주의한 사람이 내 공구에 손대지 않게 해주게."
+      },
+      {
+        "key": "69ec12100000000000000000 failMessageText",
+        "source": "No. This will not work. A bad workshop is worse than no workshop at all.",
+        "translation": "안 되네. 이걸로는 안 돼. 나쁜 작업장은 없는 것보다 더 나쁜 법이네."
+      },
+      {
+        "key": "69ec12100000000000000000 acceptPlayerMessage",
+        "source": "I'll gather what you need.",
+        "translation": "필요한 물자를 모아오겠습니다."
+      },
+      {
+        "key": "69ec12100000000000000000 declinePlayerMessage",
+        "source": "Not now. I have other things to handle.",
+        "translation": "지금은 안 됩니다. 처리할 일이 따로 있습니다."
+      },
+      {
+        "key": "69ec12100000000000000000 completePlayerMessage",
+        "source": "Here are the supplies. You can set up shop now.",
+        "translation": "여기 물자입니다. 이제 작업장을 차리실 수 있습니다."
+      },
+      {
+        "key": "69ec12100000000000000000 changeQuestMessageText",
+        "source": "The workstation is not going to assemble itself. Keep bringing the supplies.",
+        "translation": "작업대가 혼자 조립되지는 않네. 계속 물자를 가져오게."
+      },
+      {
+        "key": "69ec12c40000000000000000",
+        "source": "Reach loyalty level 2",
+        "translation": "우호도 2레벨 달성"
+      },
+      {
+        "key": "69ec124c0000000000000000",
+        "source": "Hand over batteries",
+        "translation": "배터리 건네주기"
+      },
+      {
+        "key": "69ec133c0000000000000000",
+        "source": "Hand over electronics",
+        "translation": "전자제품 건네주기"
+      },
+      {
+        "key": "69ec13780000000000000000",
+        "source": "Hand over tape",
+        "translation": "테이프 건네주기"
+      },
+      {
+        "key": "69ec12880000000000000000",
+        "source": "Hand over tools",
+        "translation": "공구 건네주기"
+      },
+      {
+        "key": "69ec20200000000000000000 name",
+        "source": "Forward Logistics",
+        "translation": "전방 군수 거점"
+      },
+      {
+        "key": "69ec20200000000000000000 description",
+        "source": "Good day, my friend. I've been reviewing your hideout, and I must say, it has potential. Not just as a shelter, but as something more... structured.\n\nRight now, my operations in Tarkov rely on scattered contacts and unreliable routes. That is inefficient. What I need is a stable forward logistics node. Quiet, controlled, and away from unnecessary attention.\n\nYour location fits the criteria. But a proper operation requires preparation. Funding, provisions, and security. Dollars to keep things moving, rations to maintain personnel, and reliable weapons with ammunition to ensure nothing... interrupts business.\n\nYou provide these, and I will establish a presence in your hideout. From there, we both benefit.\n\n** Completing this quest allows Peacekeeper to be accessible from your hideout **",
+        "translation": "좋은 하루요, 친구. 당신의 은신처를 검토해봤소. 솔직히 말해 가능성이 있더군. 단순한 피난처가 아니라, 조금 더... 체계적인 장소가 될 수 있소.\n\n현재 내 타르코프 작전은 흩어진 연락책과 불안정한 경로에 의존하고 있소. 비효율적이지. 내게 필요한 건 안정적인 전방 군수 거점이오. 조용하고, 통제 가능하며, 불필요한 관심에서 벗어난 장소 말이오.\n\n당신의 위치는 조건에 맞소. 하지만 제대로 된 작전에는 준비가 필요하오. 자금, 보급품, 보안. 일을 굴릴 달러, 인원을 유지할 전투식량, 그리고 사업을... 방해받지 않게 할 신뢰할 수 있는 무기와 탄약.\n\n이것들을 제공하면, 당신의 은신처에 내 거점을 세우겠소. 그렇게 되면 우리 둘 다 이득을 보게 될 것이오.\n\n** 이 퀘스트를 완료하면 은신처에서 피스키퍼를 이용할 수 있습니다. **"
+      },
+      {
+        "key": "69ec20200000000000000000 startedMessageText",
+        "source": "Let's keep this simple. I need funding, provisions, and security. Dollars are preferable, clean, flexible. MREs will do for supplies. And for security, properly assembled rifles chambered in 5.56x45, with ammunition to match. Nothing improvised.",
+        "translation": "간단하게 합시다. 자금, 보급품, 보안이 필요하오. 달러가 좋소. 깨끗하고 유연하니 말이오. 보급품은 MRE면 충분하오. 보안에는 5.56x45 구경의 제대로 조립된 소총과 그에 맞는 탄약이 필요하오. 즉석에서 대충 만든 물건은 안 되오."
+      },
+      {
+        "key": "69ec20200000000000000000 successMessageText",
+        "source": "Excellent work. This is exactly what I needed. With these resources, I can establish a functional forward node in your hideout, discreet, efficient, and well supplied.\n\nI'll arrange for additional equipment to be moved in quietly. From now on, you'll be able to reach me there. Let's just say... this arrangement stays between us.",
+        "translation": "훌륭하오. 내가 필요로 하던 바로 그 물자요. 이 자원으로 당신의 은신처에 제 기능을 하는 전방 거점을 세울 수 있겠소. 은밀하고, 효율적이며, 보급도 충분한 거점 말이오.\n\n추가 장비는 조용히 옮기도록 준비하겠소. 이제부터는 그곳에서 내게 연락할 수 있을 것이오. 이 계약은... 우리끼리만 아는 것으로 합시다."
+      },
+      {
+        "key": "69ec20200000000000000000 failMessageText",
+        "source": "No, this won't work. I can't build a reliable operation on incomplete or substandard supplies.",
+        "translation": "안 되오. 불완전하거나 기준 미달인 보급품으로는 신뢰할 수 있는 작전을 만들 수 없소."
+      },
+      {
+        "key": "69ec20200000000000000000 acceptPlayerMessage",
+        "source": "Understood. I'll gather everything.",
+        "translation": "알겠습니다. 모두 모아오겠습니다."
+      },
+      {
+        "key": "69ec20200000000000000000 declinePlayerMessage",
+        "source": "Not now. I have other priorities.",
+        "translation": "지금은 안 됩니다. 우선순위가 따로 있습니다."
+      },
+      {
+        "key": "69ec20200000000000000000 completePlayerMessage",
+        "source": "Here are the funds, supplies, and equipment.",
+        "translation": "여기 자금, 보급품, 장비입니다."
+      },
+      {
+        "key": "69ec20200000000000000000 changeQuestMessageText",
+        "source": "We're not ready yet. Keep the supplies coming.",
+        "translation": "아직 준비가 끝나지 않았소. 계속 보급품을 가져오시오."
+      },
+      {
+        "key": "69ec21100000000000000000",
+        "source": "Reach loyalty level 2",
+        "translation": "우호도 2레벨 달성"
+      },
+      {
+        "key": "69ec205c0000000000000000",
+        "source": "Hand over USD",
+        "translation": "달러(USD) 건네주기"
+      },
+      {
+        "key": "69ec20980000000000000000",
+        "source": "Hand over MREs",
+        "translation": "MRE 건네주기"
+      },
+      {
+        "key": "69ec22000000000000000000",
+        "source": "Hand over ammo boxes",
+        "translation": "탄약 상자 건네주기"
+      },
+      {
+        "key": "69ec20d40000000000000000",
+        "source": "Hand over rifles",
+        "translation": "소총 건네주기"
+      },
+      {
+        "key": "69ec04000000000000000000 name",
+        "source": "Supply Lines",
+        "translation": "보급선"
+      },
+      {
+        "key": "69ec04000000000000000000 description",
+        "source": "Hey, warrior. Situation's getting messy. My usual routes are compromised, and the stashes I relied on? Either looted or blown to hell.\n\nI've still got people out there, and they need weapons, ammo, something to hold the line. Can't rely on deliveries anymore, so we do it the old way, build our own supply points.\n\nYour hideout... not bad. Quiet, tucked away. Could work as a fallback depot. But right now, it's empty, and empty depots don't win fights.\n\nBring me rifles chambered in 5.45x39 with ammo to match, whatever you can spare. Stock it properly, and I'll start routing my business through your place.\n\n** Completing this quest allows Prapor to be accessible from your hideout **",
+        "translation": "어이, 제군. 상황이 지저분해지고 있네. 내가 쓰던 경로는 털렸고, 믿고 있던 은닉처는? 약탈당했거나 박살이 났지.\n\n아직 밖에는 내 사람들이 있네. 그놈들한테는 전선을 버틸 무기와 탄약이 필요해. 더는 배송만 믿을 수 없으니, 옛 방식대로 가는 걸세. 우리 보급 지점을 직접 만드는 거지.\n\n자네 은신처... 나쁘지 않더군. 조용하고, 숨어 있기 좋아. 예비 보급소로 쓸 만하네. 하지만 지금은 비어 있고, 빈 보급소로는 싸움에서 못 이기지.\n\n5.45x39 구경 소총과 그에 맞는 탄약을 가져오게. 여유가 되는 만큼이면 되네. 제대로 채워두면, 내 사업 일부를 자네 장소로 돌리겠네.\n\n** 이 퀘스트를 완료하면 은신처에서 프라퍼를 이용할 수 있습니다. **"
+      },
+      {
+        "key": "69ec04000000000000000000 startedMessageText",
+        "source": "Don't overthink it. Guns, ammo. Simple. If it shoots, it works. My boys aren't picky, but they do like staying alive.",
+        "translation": "복잡하게 생각하지 말게. 총, 탄약. 간단하지. 쏘기만 하면 되네. 내 부하들이 까다로운 건 아니지만, 살아 있는 건 좋아하거든."
+      },
+      {
+        "key": "69ec04000000000000000000 successMessageText",
+        "source": "Ha! Now that's what I'm talking about. Proper stockpile. With this, we can actually hold something, not just run around like idiots.\n\nI'll move some of my operations through your hideout. Safer that way. You need something, you know where to find me.",
+        "translation": "하! 바로 이런 걸 원했네. 제대로 된 비축품이군. 이 정도면 멍청이처럼 뛰어다니기만 하는 게 아니라 뭐라도 지킬 수 있겠어.\n\n내 작업 일부를 자네 은신처로 돌리겠네. 그편이 더 안전하지. 필요한 게 있으면 어디서 날 찾을지 알겠지."
+      },
+      {
+        "key": "69ec04000000000000000000 failMessageText",
+        "source": "No good. This won’t keep anyone alive for long. Bring me something useful.",
+        "translation": "별로군. 이걸로는 오래 살아남을 수 없네. 쓸 만한 걸 가져오게."
+      },
+      {
+        "key": "69ec04000000000000000000 acceptPlayerMessage",
+        "source": "Got it. I’ll gather weapons and ammo.",
+        "translation": "알겠습니다. 무기와 탄약을 모아오겠습니다."
+      },
+      {
+        "key": "69ec04000000000000000000 declinePlayerMessage",
+        "source": "Not happening. Find someone else.",
+        "translation": "안 됩니다. 다른 사람을 찾으십시오."
+      },
+      {
+        "key": "69ec04000000000000000000 completePlayerMessage",
+        "source": "Here. Weapons and ammo, like you asked.",
+        "translation": "여기 있습니다. 말씀하신 무기와 탄약입니다."
+      },
+      {
+        "key": "69ec04000000000000000000 changeQuestMessageText",
+        "source": "Still not enough. A depot needs to be stocked, not decorated.",
+        "translation": "아직 부족하네. 보급소는 장식하는 곳이 아니라 채워두는 곳이지."
+      },
+      {
+        "key": "69ec043c0000000000000000",
+        "source": "Reach loyalty level 2",
+        "translation": "우호도 2레벨 달성"
+      },
+      {
+        "key": "69ec04780000000000000000",
+        "source": "Hand over ammo boxes",
+        "translation": "탄약 상자 건네주기"
+      },
+      {
+        "key": "69ec04b40000000000000000",
+        "source": "Hand over weapons",
+        "translation": "무기 건네주기"
+      },
+      {
+        "key": "69ec04f00000000000000000",
+        "source": "Hand over explosives",
+        "translation": "폭발물 건네주기"
+      },
+      {
+        "key": "69ec58600000000000000000 name",
+        "source": "New Collection",
+        "translation": "새 컬렉션"
+      },
+      {
+        "key": "69ec58600000000000000000 description",
+        "source": "Hey, brother. Come in, take a look. Business is still breathing... barely.\n\nI've got clients asking for full kits, armor, rigs, packs, the whole deal. Problem is, my stock is gone. Cleaned out. Either looted or sitting in someone else's stash.\n\nYour hideout... that could work. Quiet, controlled. I could run a proper setup there, assemble kits, move product, keep things flowing.\n\nBut I need inventory first. Body armor, tactical rigs, backpacks, and some fabric to patch, reinforce, finish the work. Everything in good condition, found in raid. No trash.\n\nBring me what I need, and I'll set up shop in your hideout. After that... you'll have access to the good stuff.\n\n** Completing this quest allows Ragman to be accessible from your hideout **",
+        "translation": "어이, 형제. 들어와서 좀 봐. 장사는 아직 숨은 붙어 있어... 간신히 말이지.\n\n손님들은 풀 키트를 찾고 있어. 방탄복, 전술 조끼, 배낭, 전부 다. 문제는 내 재고가 사라졌다는 거야. 싹 비었지. 약탈당했거나 누군가의 보관함에 처박혀 있겠지.\n\n네 은신처... 괜찮을 수 있어. 조용하고 통제도 가능하지. 거기서 제대로 판을 벌일 수 있겠어. 키트를 조립하고, 물건을 돌리고, 흐름을 유지하는 거지.\n\n하지만 먼저 재고가 필요해. 방탄복, 전술 조끼, 배낭, 그리고 수선하고 보강하고 마감할 직물. 전부 상태가 좋아야 하고, 레이드에서 찾은 물건이어야 해. 쓰레기는 안 받는다.\n\n필요한 걸 가져오면, 네 은신처에 가게를 차리겠다. 그 뒤에는... 좋은 물건을 만날 수 있을 거야.\n\n** 이 퀘스트를 완료하면 은신처에서 래그맨을 이용할 수 있습니다. **"
+      },
+      {
+        "key": "69ec58600000000000000000 startedMessageText",
+        "source": "Armor, rigs, backpacks. That's the core. Fabric too, I use it to fix and finish things. Keep it clean, keep it usable.",
+        "translation": "방탄복, 전술 조끼, 배낭. 핵심은 그거야. 직물도 필요해. 고치고 마무리하는 데 쓰거든. 깨끗하고 쓸 수 있는 상태로 가져와."
+      },
+      {
+        "key": "69ec58600000000000000000 successMessageText",
+        "source": "Ohh, now this is a proper batch. Armor's solid, rigs aren't torn to hell, packs still hold weight... yeah, I can work with this.\n\nI'll move everything into your hideout and get the line running. Small operation, but efficient. From now on, you come to me there.\n\nAnd trust me... once this starts moving, you'll see the difference.",
+        "translation": "오, 이건 제대로 된 물량이네. 방탄복은 튼튼하고, 조끼는 완전히 찢기지 않았고, 배낭도 무게를 버틸 수 있군... 그래, 이 정도면 작업할 수 있어.\n\n전부 네 은신처로 옮겨서 라인을 돌리겠다. 작은 작업장이지만 효율적일 거야. 이제부터는 거기서 날 찾아와.\n\n그리고 믿어봐... 이게 돌아가기 시작하면 차이를 느낄 거다."
+      },
+      {
+        "key": "69ec58600000000000000000 failMessageText",
+        "source": "Nah, this isn't it. I can't build proper kits out of this junk.",
+        "translation": "아냐, 이건 아니야. 이런 잡동사니로는 제대로 된 키트를 못 만든다."
+      },
+      {
+        "key": "69ec58600000000000000000 changeQuestMessageText",
+        "source": "Still not enough to run a full line. Bring more gear.",
+        "translation": "아직 전체 라인을 돌리기엔 부족해. 장비를 더 가져와."
+      },
+      {
+        "key": "69ec59500000000000000000",
+        "source": "Reach loyalty level 2",
+        "translation": "우호도 2레벨 달성"
+      },
+      {
+        "key": "69ec589c0000000000000000",
+        "source": "Hand over body armor",
+        "translation": "방탄복 건네주기"
+      },
+      {
+        "key": "69ec75700000000000000000",
+        "source": "Hand over tactical rigs",
+        "translation": "전술 조끼 건네주기"
+      },
+      {
+        "key": "69ec58d80000000000000000",
+        "source": "Hand over backpacks",
+        "translation": "배낭 건네주기"
+      },
+      {
+        "key": "69ec59140000000000000000",
+        "source": "Hand over fabrics",
+        "translation": "직물 건네주기"
+      },
+      {
+        "key": "69ecacc00000000000000000 name",
+        "source": "New Arrangement",
+        "translation": "새 거래 조건"
+      },
+      {
+        "key": "69ecacc00000000000000000 description",
+        "source": "What, back again? Heh.. starting to think you like working for me.\n\nListen up. My usual spots are burned, too many leaks, too many idiots talking when they shouldn't. Business doesn't stop though, so I need a new place to run things from.\n\nYour hideout? Quiet, tucked away. No traffic, no questions. That's exactly what I need.\n\nBut I'm not setting up shop in an empty room. I need real capital, euros, valuables, stuff that actually moves. And a bit of intel wouldn't hurt either.. information sells just as well as anything else these days.\n\nYou bring me something worth dealing with, and I'll start running operations out of your place. Keep it clean, keep it quiet, and we both make money.\n\n** Completing this quest allows Skier to be accessible from your hideout **",
+        "translation": "뭐야, 또 왔나? 흐흐... 이제 슬슬 나랑 일하는 걸 좋아하는 것 같은데.\n\n잘 들어. 내가 쓰던 자리들은 다 노출됐어. 새는 구멍이 너무 많고, 떠들면 안 되는 놈들이 너무 떠들어댄다. 그래도 장사는 멈추지 않지. 그래서 새로 일을 굴릴 장소가 필요해.\n\n네 은신처? 조용하고, 숨어 있고. 오가는 놈도 없고, 묻는 놈도 없지. 바로 그런 게 필요하다.\n\n하지만 빈 방에 가게를 차릴 생각은 없어. 진짜 자본이 필요해. 유로, 귀중품, 실제로 굴릴 수 있는 물건들. 정보도 조금 있으면 나쁘지 않고... 요즘은 정보도 뭐든지 못지않게 잘 팔리거든.\n\n거래할 만한 걸 가져와. 그러면 네 장소에서 일을 굴리기 시작하겠다. 깨끗하게 유지하고, 조용하게 유지해. 그러면 우리 둘 다 돈을 벌지.\n\n** 이 퀘스트를 완료하면 은신처에서 스키어를 이용할 수 있습니다. **"
+      },
+      {
+        "key": "69ecacc00000000000000000 startedMessageText",
+        "source": "Don't waste my time. Euros, valuables, intel. If I can't flip it, I don't want it.",
+        "translation": "내 시간 낭비하지 마. 유로, 귀중품, 정보. 팔아먹을 수 없으면 필요 없다."
+      },
+      {
+        "key": "69ecacc00000000000000000 successMessageText",
+        "source": "Now we're talking. This is clean, valuable.. exactly what I need.\n\nAlright, I'll move things into your hideout. Small operation, nothing flashy. The kind of place people don't ask about.\n\nYou did good. Don’t get comfortable though, I don’t keep people around unless they stay useful.",
+        "translation": "이제 말이 통하네. 깨끗하고, 값어치 있고... 딱 내가 필요로 하던 거야.\n\n좋아, 네 은신처로 물건을 옮기지. 작은 작업장으로, 요란한 건 없어. 사람들이 묻지 않는 그런 장소 말이야.\n\n잘했다. 그래도 편해지진 마. 쓸모가 없어지면 난 사람을 곁에 두지 않거든."
+      },
+      {
+        "key": "69ecacc00000000000000000 failMessageText",
+        "source": "What the hell is this? You expect me to run deals with this garbage?",
+        "translation": "이게 뭐야? 이런 쓰레기로 거래를 굴리라고?"
+      },
+      {
+        "key": "69ecacc00000000000000000 acceptPlayerMessage",
+        "source": "Fine. I’ll get your stuff.",
+        "translation": "좋아. 물건을 구해오지."
+      },
+      {
+        "key": "69ecacc00000000000000000 declinePlayerMessage",
+        "source": "Not my problem.",
+        "translation": "내 문제는 아니야."
+      },
+      {
+        "key": "69ecacc00000000000000000 completePlayerMessage",
+        "source": "Here. Euros, valuables, and intel.",
+        "translation": "여기 있다. 유로, 귀중품, 정보다."
+      },
+      {
+        "key": "69ecacc00000000000000000 changeQuestMessageText",
+        "source": "Still not enough to get things moving. Bring me something worth my time.",
+        "translation": "아직 일을 굴리기엔 부족해. 내 시간을 들일 만한 걸 가져와."
+      },
+      {
+        "key": "69ecadb00000000000000000",
+        "source": "Reach loyalty level 2",
+        "translation": "우호도 2레벨 달성"
+      },
+      {
+        "key": "69ecacfc0000000000000000",
+        "source": "Hand over euros",
+        "translation": "유로 건네주기"
+      },
+      {
+        "key": "69ecad380000000000000000",
+        "source": "Hand over valuables",
+        "translation": "귀중품 건네주기"
+      },
+      {
+        "key": "69ecad740000000000000000",
+        "source": "Hand over intel items",
+        "translation": "정보 물품 건네주기"
+      },
+      {
+        "key": "69ebf5f00000000000000000 name",
+        "source": "Stocking the Clinic",
+        "translation": "진료소 비축"
+      },
+      {
+        "key": "69ebf5f00000000000000000 description",
+        "source": "Good day. I am preparing to leave my clinic, but I cannot do so under current conditions. There are still wounded, and supplies are... insufficient.\n\nBefore I can relocate, I need to ensure that what remains is properly stocked. Medicine, stimulants, basic supplies, anything that can help those who might still come through those doors.\n\nBring me what you can. Quantity matters here. Lives may depend on it.\n\n** Completing this quest allows Therapist to be accessible from your hideout **",
+        "translation": "안녕하세요. 저는 진료소를 떠날 준비를 하고 있지만, 지금 조건에서는 그렇게 할 수 없습니다. 아직 부상자들이 있고, 물자는... 충분하지 않습니다.\n\n이전하기 전에, 남겨질 곳이 제대로 비축되어 있는지 확인해야 합니다. 의약품, 자극제, 기본 물자, 앞으로도 그 문을 찾아올 사람들에게 도움이 될 수 있는 것들 말입니다.\n\n가능한 만큼 가져와 주십시오. 여기서는 수량이 중요합니다. 누군가의 생명이 달려 있을지도 모릅니다.\n\n** 이 퀘스트를 완료하면 은신처에서 테라피스트를 이용할 수 있습니다. **"
+      },
+      {
+        "key": "69ebf5f00000000000000000 startedMessageText",
+        "source": "I do not ask this lightly. My clinic cannot be abandoned while it is still in need. Bring me medical supplies, enough to leave it in a stable condition. Only then can I consider moving.",
+        "translation": "가볍게 부탁드리는 일이 아닙니다. 아직 필요한 것이 남아 있는 동안 제 진료소를 버려둘 수는 없습니다. 진료소를 안정된 상태로 남길 수 있을 만큼 의료 물자를 가져와 주십시오. 그래야만 이전을 고려할 수 있습니다."
+      },
+      {
+        "key": "69ebf5f00000000000000000 successMessageText",
+        "source": "This will do. The clinic is properly stocked now... it should sustain those who remain for some time. Thank you. I can finally make preparations to leave. You have done something meaningful here.",
+        "translation": "이 정도면 됩니다. 이제 진료소는 제대로 비축되었습니다... 남아 있는 사람들을 한동안 버틸 수 있게 해줄 겁니다. 고맙습니다. 이제야 떠날 준비를 할 수 있겠군요. 의미 있는 일을 해주셨습니다."
+      },
+      {
+        "key": "69ebf5f00000000000000000 failMessageText",
+        "source": "That is unfortunate. We cannot proceed like this.",
+        "translation": "안타깝군요. 이런 상태로는 진행할 수 없습니다."
+      },
+      {
+        "key": "69ebf5f00000000000000000 acceptPlayerMessage",
+        "source": "I understand. I'll bring what you need.",
+        "translation": "알겠습니다. 필요한 것을 가져오겠습니다."
+      },
+      {
+        "key": "69ebf5f00000000000000000 declinePlayerMessage",
+        "source": "I can't help with that.",
+        "translation": "도와드릴 수 없습니다."
+      },
+      {
+        "key": "69ebf5f00000000000000000 completePlayerMessage",
+        "source": "Here are the supplies.",
+        "translation": "여기 물자입니다."
+      },
+      {
+        "key": "69ebf7580000000000000000",
+        "source": "Reach loyalty level 2",
+        "translation": "우호도 2레벨 달성"
+      },
+      {
+        "key": "69ebf62c0000000000000000",
+        "source": "Hand over meds",
+        "translation": "의료 키트 건네주기"
+      },
+      {
+        "key": "69ebf6680000000000000000",
+        "source": "Hand over pain killers",
+        "translation": "진통제 건네주기"
+      },
+      {
+        "key": "69ebf6a40000000000000000",
+        "source": "Hand over hemostatics",
+        "translation": "지혈제 건네주기"
+      },
+      {
+        "key": "69ebf6e00000000000000000",
+        "source": "Hand over splints",
+        "translation": "부목 건네주기"
+      },
+      {
+        "key": "69ebf71c0000000000000000",
+        "source": "Hand over surgicals",
+        "translation": "수술 키트 건네주기"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "8c8e2e5293d3c5d6",
+        "source": "You can only access you hideout from your hideout extract.",
+        "translation": "은신처는 은신처 탈출 지점을 통해서만 이용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bd5d40b711439d13",
+        "source": "{name} is not available at your current location.",
+        "translation": "현재 위치에서는 {name} 상인을 이용할 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "51b8744dc3c118b9",
+        "source": "First raid on {map} - Loot spawn is at normal/100%.",
+        "translation": "{map} 첫 레이드 - 전리품 생성량은 기본값/100%입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "5c2e6300cf29b677",
+        "source": "Raid #{count} on {map} - Loot reduced to {pct}%",
+        "translation": "{map} 레이드 #{count} - 전리품 생성량이 {pct}%로 감소했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "5c6aa23ec7d2c7e9",
+        "source": "No traders available at this location.",
+        "translation": "현재 위치에서 이용할 수 있는 상인이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "1f92a151b86280bc",
+        "source": "Requirements not met",
+        "translation": "요구 조건을 충족하지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "cb182739bffa0915",
+        "source": "Transit aborted: {reason}",
+        "translation": "이동 취소: {reason}",
+        "match_mode": "template"
+      },
+      {
+        "id": "c6e14a0d8e011e4f",
+        "source": "Paid {price} {currency}",
+        "translation": "{price} {currency} 지불 완료",
+        "match_mode": "template"
+      },
+      {
+        "id": "eb981f7fcacba8fd",
+        "source": "Hideout placement request already in progress.",
+        "translation": "은신처 설치 요청이 이미 진행 중입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "1f4795cb4738bcdc",
+        "source": "You must be in raid.",
+        "translation": "레이드 중에만 사용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "f17bb2dee4f0d16f",
+        "source": "Press the hotkey again within 10 seconds to place your hideout at your current position.",
+        "translation": "현재 위치에 은신처 입구를 설치하려면 10초 안에 단축키를 한 번 더 누르십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "6ea606a477e2d953",
+        "source": "Establish hideout request failed.",
+        "translation": "은신처 설치 요청에 실패했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "4ba434c895f5cbd4",
+        "source": "You have already established your hideout in {map}. Talk to Skier to relocate your hideout.",
+        "translation": "이미 {map}에 은신처를 설치했습니다. 은신처를 이전하려면 스키어에게 가십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "b7b566588a7aa78a",
+        "source": "You cannot place your hideout on this map.",
+        "translation": "이 맵에는 은신처를 설치할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "d51cc7f17d47196c",
+        "source": "Establishing hideout, please wait...",
+        "translation": "은신처를 설치하는 중입니다. 잠시만 기다려 주십시오...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "3a4bd75d08d0f2a6",
+        "source": "Missing required item:",
+        "translation": "필수 아이템 부족:",
+        "match_mode": "segment"
+      },
+      {
+        "id": "73fa8cfd3c9f3841",
+        "source": "Insufficient funds:",
+        "translation": "자금 부족:",
+        "match_mode": "segment"
+      },
+      {
+        "id": "4f594c81acd85033",
+        "source": "Invalid '{slot}' slot",
+        "translation": "유효하지 않은 '{slot}' 슬롯",
+        "match_mode": "template"
+      },
+      {
+        "id": "25499d532b7b7b55",
+        "source": "No player",
+        "translation": "플레이어를 찾을 수 없음",
+        "match_mode": "segment"
+      },
+      {
+        "id": "3aab7894ee56a547",
+        "source": "Insufficient money (must be in a single stack)",
+        "translation": "금액 부족(한 스택에 모두 있어야 함)",
+        "match_mode": "segment"
+      },
+      {
+        "id": "7c03827ce6e1c031",
+        "source": "Fake stash is full",
+        "translation": "임시 보관함이 가득 찼습니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "transit_empty_slot_required",
+        "source": "{slot} slot must be empty",
+        "translation": "{slot} 슬롯은 비어 있어야 합니다",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "transit_single_stack_required",
+        "source": "need a single stack of {price} {currency}",
+        "translation": "{price} {currency}가 한 스택에 있어야 합니다",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "transit_requires_red_rebel",
+        "source": "Requires Red Rebel",
+        "translation": "레드 레벨 필요",
+        "match_mode": "segment"
+      },
+      {
+        "id": "transit_requires_paracord",
+        "source": "Requires Paracord",
+        "translation": "파라코드 필요",
+        "match_mode": "segment"
+      },
+      {
+        "id": "transit_first_requirement_separator",
+        "source": ": & ",
+        "translation": ": ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "transit_requirement_separator",
+        "source": " & ",
+        "translation": " 및 ",
+        "match_mode": "segment"
+      }
+    ],
+    "server_errors": [
+      {
+        "id": "47c3ececad369b0e",
+        "source": "This action is not possible in this stash, as it is not your hideout stash.",
+        "translation": "이 보관함은 본인의 은신처 보관함이 아니므로 해당 작업을 수행할 수 없습니다.",
+        "match_mode": "exact"
+      }
+    ],
+    "dialogs": [
+      {
+        "id": "1c76cb18fdb60ffe",
+        "source": "Welcome, Vagabond.\n\n",
+        "translation": "방랑자, 환영합니다.\n\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "6246e33e57d62a6e",
+        "source": "Your start out with some money and access to Fence. Once you deploy you you won't easily be able to extract.\n",
+        "translation": "약간의 돈과 펜스 이용 권한을 가진 채 시작합니다. 일단 레이드에 투입되면 쉽게 탈출할 수 없습니다.\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "90a62279acab29fa",
+        "source": "You will need to worry about food, water and ammunition more than usual, as you will likely stay in raid for much longer.\n\n",
+        "translation": "평소보다 훨씬 오래 레이드에 머물 가능성이 높으므로 음식, 물, 탄약을 더 신경 써야 합니다.\n\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "cc4d7035c70e30f1",
+        "source": "== Your Hideout ==\n\n",
+        "translation": "== 은신처 ==\n\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "dd00d5014507ea46",
+        "source": "You can place your hideout entrance anywhere in the game, theoretically. Go to where you want your hideout entrance to be and press CTRL+P.\n",
+        "translation": "이론상 게임 내 어디든 은신처 입구를 설치할 수 있습니다. 원하는 위치로 이동한 뒤 CTRL+P를 누르십시오.\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "949859ff3520ed75",
+        "source": "Important: You cannot move your hideout once it is placed (for now) so decide carefully.\n\n",
+        "translation": "중요: 현재는 한 번 설치한 은신처를 옮길 수 없으므로 신중히 결정하십시오.\n\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "81adc1c51b4c0f15",
+        "source": "== Stashes ==\n\n",
+        "translation": "== 보관함 ==\n\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "08a0969c462795c0",
+        "source": "Every trader has their own stash separate from your hideout stash. If you use another player's hideout exfil, that also will have its own stash.\n\n",
+        "translation": "각 상인에게는 은신처 보관함과 별개의 전용 보관함이 있습니다. 다른 플레이어의 은신처 탈출 지점을 이용한 경우에도 그곳에는 별도의 보관함이 있습니다.\n\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "3ca527e967c8e335",
+        "source": "Good Luck!",
+        "translation": "행운을 빕니다!",
+        "match_mode": "segment"
+      },
+      {
+        "id": "73dbcb386c3dc1a4",
+        "source": "You died, but you have not placed a hideout yet.\n\n",
+        "translation": "사망했지만 아직 은신처를 설치하지 않았습니다.\n\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "e1f8bef2806d3e27",
+        "source": "Your 'OnDeathGoTo' config is set to 'hideout', but with no hideout to send you to, you stayed where you fell.\n",
+        "translation": "'OnDeathGoTo' 설정이 'hideout'으로 지정되어 있지만 이동할 은신처가 없어 사망한 위치에 그대로 남았습니다.\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "8d788695a2ea1178",
+        "source": "Press CTRL+P (rebind via F12) in a raid to place your hideout entrance.",
+        "translation": "레이드 중 CTRL+P(F12에서 키 변경 가능)를 눌러 은신처 입구를 설치하십시오.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "624f2427dd6fd756",
+        "source": "You died, but the configured custom respawn could not be resolved.\n\n",
+        "translation": "사망했지만 설정된 사용자 지정 부활 위치를 확인할 수 없습니다.\n\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "e70a55a826167e5a",
+        "source": "Tried raid '{raid}' exfil '{exfil}'. Either the raid name is not valid, or the exfil identifier is not present in that raid's exfils config.\n",
+        "translation": "확인 시도: 레이드 '{raid}', 탈출 지점 '{exfil}'. 레이드 이름이 올바르지 않거나 해당 레이드의 exfils 설정에 탈출 지점 식별자가 존재하지 않습니다.\n",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "c40038ec85b555d0",
+        "source": "You stayed where you fell. Check your 'vagabond.json' 'OnDeathGoToRaid' and 'OnDeathGoToExfilIdentifier' values, then restart the server.",
+        "translation": "사망한 위치에 그대로 남았습니다. 'vagabond.json'의 'OnDeathGoToRaid'와 'OnDeathGoToExfilIdentifier' 값을 확인한 뒤 서버를 재시작하십시오.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "bbaebe1d3eff6c4b",
+        "source": "You died, but your 'OnDeathGoTo' value '{value}' is not valid.\n\n",
+        "translation": "사망했지만 설정된 'OnDeathGoTo' 값 '{value}'은 유효하지 않습니다.\n\n",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "912f0bf014bbf46e",
+        "source": "Accepted values: 'hideout', 'stay', 'custom'. You stayed where you fell. Fix the value in 'vagabond.json' and restart the server.",
+        "translation": "허용 값: 'hideout', 'stay', 'custom'. 사망한 위치에 그대로 남았습니다. 'vagabond.json'에서 값을 수정한 뒤 서버를 재시작하십시오.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "6320e27e9f901de9",
+        "source": "You start out with a bit of money, maybe just enough to buy a ragtag setup from Fence.\n",
+        "translation": "약간의 돈을 가지고 시작합니다. 펜스에게서 변변찮은 장비 한 벌을 겨우 맞출 정도일 겁니다.\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "75eaae8a53b80e23",
+        "source": "While in a raid, you can press CTRL+P (change via F12) to place the entrance to your hideout to get access to your stash. However once placed you have to pay Skier before you can move it.\n",
+        "translation": "레이드 중 CTRL+P(F12에서 변경 가능)를 눌러 은신처 입구를 설치하고 보관함에 접근할 수 있습니다. 단, 한 번 설치한 뒤에는 스키어에게 비용을 지불해야 이전할 수 있습니다.\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "a23cb9f7cc80ee83",
+        "source": "To get traders to be accessible via your hideout, you will need to complete a unique quest for each one. These quests will be available once you reach a certain rep level.\n",
+        "translation": "은신처에서 상인을 이용하려면 상인마다 고유 퀘스트를 완료해야 합니다. 이 퀘스트들은 일정 우호도에 도달하면 이용할 수 있습니다.\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "675b9d9425f224b6",
+        "source": "\nAll stashes, except your hideout stash, is unique to that trader and/or extraction. Some features are disabled in these stashes like sorting.\n",
+        "translation": "\n은신처 보관함을 제외한 모든 보관함은 해당 상인 및/또는 탈출 지점별로 별개입니다. 이 보관함에서는 정렬 등 일부 기능을 사용할 수 없습니다.\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "b4839f9843e40bc9",
+        "source": "\nPerma-Death is enabled. If you die or the game treats you as dead, your equipment and all stashes are wiped and you are reset back to the starter map.\n",
+        "translation": "\n영구 사망이 활성화되어 있습니다. 사망하거나 게임에서 사망으로 처리되면 장비와 모든 보관함이 초기화되고 시작 맵으로 돌아갑니다.\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "abb24e26d997988e",
+        "source": "\nFirst time you enter a raid anything left in this stash will get wiped.",
+        "translation": "\n처음 레이드에 진입할 때 이 보관함에 남아 있는 모든 아이템이 삭제됩니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "d6706d23ff3550dc",
+        "source": "Vagabond",
+        "translation": "방랑자",
+        "match_mode": "exact"
+      },
+      {
+        "id": "565339bc4d33d728",
+        "source": "OK",
+        "translation": "확인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "89713b9c9c1b8f65",
+        "source": "Accept",
+        "translation": "수락",
+        "match_mode": "exact"
+      },
+      {
+        "id": "19766ed6ccb2f4a3",
+        "source": "Cancel",
+        "translation": "취소",
+        "match_mode": "exact"
+      }
+    ],
+    "reference_only": [
+      {
+        "source": "Skier's Depot",
+        "translation": "스키어의 보급소",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/customs.json",
+        "path": "/extracts/0/displayName",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Transit to Woods",
+        "translation": "삼림으로 이동",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/customs.json",
+        "path": "/transits/0/description",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Mechanic's Workshop",
+        "translation": "메카닉의 작업장",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/factory_day.json",
+        "path": "/extracts/0/displayName",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Mechanic's Workshop",
+        "translation": "메카닉의 작업장",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/factory_night.json",
+        "path": "/extracts/0/displayName",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Therapist's Clinic",
+        "translation": "테라피스트의 진료소",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/ground_zero.json",
+        "path": "/extracts/0/displayName",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Transit to Interchange",
+        "translation": "인터체인지로 이동",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/ground_zero.json",
+        "path": "/transits/0/description",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Ragman's Outlet",
+        "translation": "래그맨의 매장",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/interchange.json",
+        "path": "/extracts/0/displayName",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Transit to Ground Zero",
+        "translation": "그라운드 제로로 이동",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/interchange.json",
+        "path": "/transits/0/description",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Fence's Hub",
+        "translation": "펜스의 거점",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/lighthouse.json",
+        "path": "/extracts/0/displayName",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Transit to Shoreline",
+        "translation": "해안선으로 이동",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/lighthouse.json",
+        "path": "/transits/0/description",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Mountain climb to Shoreline",
+        "translation": "산을 넘어 해안선으로 이동",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/reserve.json",
+        "path": "/transits/0/description",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Peacekeeper's Safe Zone",
+        "translation": "피스키퍼의 안전 구역",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/shoreline.json",
+        "path": "/extracts/0/displayName",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Transit to Customs",
+        "translation": "세관으로 이동",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/shoreline.json",
+        "path": "/transits/0/description",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Mountain climb to Reserve",
+        "translation": "산을 넘어 리저브로 이동",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/shoreline.json",
+        "path": "/transits/1/description",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Transit to Lighthouse",
+        "translation": "등대로 이동",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/shoreline.json",
+        "path": "/transits/2/description",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Prapor's Warehouse",
+        "translation": "프라퍼의 창고",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/streets.json",
+        "path": "/extracts/0/displayName",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Fence's Hub",
+        "translation": "펜스의 거점",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/streets.json",
+        "path": "/extracts/1/displayName",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Transit to Woods",
+        "translation": "삼림으로 이동",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/streets.json",
+        "path": "/transits/0/description",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Jaegers Hideout",
+        "translation": "예거의 은신처",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/woods.json",
+        "path": "/extracts/0/displayName",
+        "reason": "display_name_used_as_runtime_identity"
+      },
+      {
+        "source": "Transit To Streets (Under Bridge)",
+        "translation": "스트리트로 이동 (다리 아래)",
+        "file": "SPT_Runtime/user/mods/Vagabond/config/exfils/woods.json",
+        "path": "/transits/0/description",
+        "reason": "display_name_used_as_runtime_identity"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "post_raid_healing_disabled",
+        "source": "Post-raid healing disabled (Vagabond mod)",
+        "translation": "레이드 후 치료가 비활성화되었습니다 (Vagabond 모드)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "not_available",
+        "source": "N/A",
+        "translation": "해당 없음",
+        "match_mode": "exact",
+        "note": "Vagabond가 레이드 후 치료 비용을 비활성화했을 때 표시"
+      },
+      {
+        "id": "side_disabled",
+        "source": "Disabled (Vagabond Mod)",
+        "translation": "비활성화됨 (Vagabond 모드)",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

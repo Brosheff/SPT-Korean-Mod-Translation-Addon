@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.sora.visitapi",
+  "mod_name": "VisitAPI Framework",
+  "channels": {
+    "locale": [
+      {
+        "key": "UI/MainQuests/ChapterTitle",
+        "source": "CHAPTER",
+        "translation": "챕터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "UI/MainQuests/ChapterActive",
+        "source": "ACTIVE",
+        "translation": "진행 중"
+      },
+      {
+        "key": "UI/MainQuests/ChapterComplete",
+        "source": "COMPLETE",
+        "translation": "완료"
+      },
+      {
+        "key": "UI/MainQuests/ChapterFailed",
+        "source": "FAILED",
+        "translation": "실패"
+      },
+      {
+        "key": "UI/MainQuests/MainTasks",
+        "source": "Main objectives",
+        "translation": "주요 목표"
+      },
+      {
+        "key": "UI/MainQuests/OptionalTasks",
+        "source": "Optional objectives",
+        "translation": "선택 목표"
+      },
+      {
+        "key": "UI/MainQuests/LinkedItems",
+        "source": "Related items",
+        "translation": "관련 아이템"
+      },
+      {
+        "key": "UI/MainQuests/NoQuestsAvailable",
+        "source": "NO ACTIVE TASKS",
+        "translation": "진행 중인 퀘스트 없음"
+      },
+      {
+        "key": "UI/MainQuests/TabName",
+        "source": "STORY",
+        "translation": "스토리"
+      },
+      {
+        "key": "UI/MainQuests/FailedTask",
+        "source": "FAILED",
+        "translation": "실패"
+      },
+      {
+        "key": "UI/MainQuests/ChapterUnavailable",
+        "source": "UNAVAILABLE",
+        "translation": "이용 불가"
+      },
+      {
+        "key": "UI/Quest/Reward/Notification/MainQuest",
+        "source": "Reward for completing the story:",
+        "translation": "스토리 완료 보상:"
+      },
+      {
+        "key": "UI/Quest/Reward/Notification/QuestChapter",
+        "source": "Reward for finishing a chapter:",
+        "translation": "챕터 완료 보상:"
+      },
+      {
+        "key": "UI/Quest/Reward/Notification/Experience",
+        "source": "Experience:",
+        "translation": "경험치:"
+      },
+      {
+        "key": "DialogConfirmationWindow/Header",
+        "source": "IMPORTANT CHOICE",
+        "translation": "중요한 선택"
+      },
+      {
+        "key": "DialogConfirmationWindow/Description",
+        "source": "POINT OF NO RETURN",
+        "translation": "돌이킬 수 없는 선택"
+      },
+      {
+        "key": "PopUpWarningconsequences_Sky_05_give",
+        "source": "Give the case to Prapor?",
+        "translation": "케이스를 프라퍼에게 건네시겠습니까?"
+      },
+      {
+        "key": "PopUpWarningconsequences_Sky_05_keep",
+        "source": "Keep the case for yourself?",
+        "translation": "케이스를 직접 가지시겠습니까?"
+      },
+      {
+        "key": "Chat/DialogueInvitation/StartMethod/InLobby",
+        "source": "VISIT",
+        "translation": "방문"
+      },
+      {
+        "key": "Chat/DialogueInvitation/StartMethod/InRaid",
+        "source": "VISIT",
+        "translation": "방문"
+      },
+      {
+        "key": "Chat/DialogueInvitation/StartMethod/InRaid/Description",
+        "source": "You must visit the trader on the location.",
+        "translation": "해당 지역에 있는 상인을 직접 찾아가야 합니다."
+      },
+      {
+        "key": "Chat/DialogueInvitation/StartMethod/ViaRadio",
+        "source": "REPLY",
+        "translation": "답장"
+      },
+      {
+        "key": "Chat/DialogueInvitation/StartMethod/ViaNotebook",
+        "source": "START CHAT",
+        "translation": "대화 시작"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "visitapi.ui.001",
+        "source": "Could not open the trader's room, using the regular dialog instead.",
+        "translation": "상인 방을 열지 못해 일반 대화로 전환합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.002",
+        "source": "VISIT {name}",
+        "translation": "{name} 찾아가기",
+        "match_mode": "template"
+      },
+      {
+        "id": "visitapi.ui.003",
+        "source": "Task started",
+        "translation": "퀘스트 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.004",
+        "source": "Story complete",
+        "translation": "스토리 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.005",
+        "source": "Story failed",
+        "translation": "스토리 실패",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.006",
+        "source": "Objective complete",
+        "translation": "목표 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.007",
+        "source": "Ready to hand in",
+        "translation": "제출 가능",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.008",
+        "source": "Task completed",
+        "translation": "퀘스트 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.009",
+        "source": "Task failed",
+        "translation": "퀘스트 실패",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.010",
+        "source": "(End)",
+        "translation": "(종료)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.011",
+        "source": "Continue...",
+        "translation": "계속...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.012",
+        "source": "Cannot connect right now, see [invite] in the log",
+        "translation": "지금은 연결할 수 없습니다. 로그의 [invite] 항목을 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.013",
+        "source": "Wants to talk.",
+        "translation": "할 말이 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.014",
+        "source": "VISIT",
+        "translation": "방문",
+        "match_mode": "exact"
+      },
+      {
+        "id": "visitapi.ui.015",
+        "source": "Talk",
+        "translation": "대화",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "source3.custom_mannequin_pose",
+  "mod_name": "More Mannequin Pose",
+  "channels": {
+    "locale": [
+      {
+        "key": "Hideout/Mannequin/Pose/rude_gesture",
+        "source": "Beating It",
+        "translation": "딸이나 잡기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/caramel_dance",
+        "source": "White Girl Party",
+        "translation": "화이트 걸 파티"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/conked_out",
+        "source": "Amimir",
+        "translation": "아미미르"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/4_boons",
+        "source": "4 Doubloons",
+        "translation": "더블룬 4개"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/dragon_beatdown",
+        "source": "Dragon Beatdown",
+        "translation": "드래곤 비트다운"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/the_world",
+        "source": "ZA WAAAARUUUDO",
+        "translation": "자 와아아루도"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/unfortunate_circumstances",
+        "source": "Yamcha'd",
+        "translation": "야무치당함"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/you_there",
+        "source": "You, Over there",
+        "translation": "거기, 너"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/chachihu",
+        "source": "The Winged Tiger",
+        "translation": "날개 달린 호랑이"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/honored_one",
+        "source": "Honored One",
+        "translation": "천상천하 유아독존"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/virtual_insanity",
+        "source": "Hold Up",
+        "translation": "잠깐만"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/we_see_it",
+        "source": "We see the Fit",
+        "translation": "착장 좀 보자"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/technique_purple",
+        "source": "Hollow Technique",
+        "translation": "허식 「자」"
+      },
+      {
+        "key": "Hideout/Mannequin/Pose/good_time",
+        "source": "Show Me Jack!",
+        "translation": "보여줘, 잭!"
+      }
+    ]
+  }
+}

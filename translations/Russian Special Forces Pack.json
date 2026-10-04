@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_628a0eba3644",
+  "mod_name": "Russian Special Forces Pack",
+  "channels": {
+    "locale": [
+      {
+        "key": "6a8ada430d43213c92dbe371 Name",
+        "source": "Kalashnikov AMB-17 9x39 special assault rifle",
+        "translation": "Kalashnikov AMB-17 9x39 special 돌격소총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6a8ada430d43213c92dbe371 Description",
+        "source": "The Kalashnikov Concern AMB-17 (Russian: Aвтомат Малогабаритный Бесшумный, romanized: Avtomat Malogabaritnyj Besshumnyj, lit.'Suppressed Small-sized Automatic Rifle') is an integrally suppressed compact assault rifle chambered in 9×39mm subsonic cartridge, developed and manufactured alongside the Kalashnikov Concern AM-17 that was based on the Yevgeny Dragunov MA prototype. Both the AM-17 and AMB-17 were unveiled by Kalashnikov Concern at the Russian Army Expo 2017. The AMB-17 is designed for covert close quarters operations, primarily for special units of the Russian Interior Ministry and the Russian Army intended as a potential replacement for the AS Val and VSS Vintorez.",
+        "translation": "칼라시니코프 콘체른 AMB-17(러시아어: Aвтомат Малогабаритный Бесшумный, 로마자 표기: Avtomat Malogabaritnyj Besshumnyj, 직역: ‘소형 무소음 자동소총’)은 9x39mm 아음속 탄약을 사용하는 일체형 소음기 방식의 소형 돌격소총입니다. 예브게니 드라구노프의 MA 프로토타입을 기반으로 한 칼라시니코프 콘체른 AM-17과 함께 개발·생산되었습니다. AM-17과 AMB-17은 모두 2017 러시아 Army Expo에서 칼라시니코프 콘체른이 처음 공개했습니다. AMB-17은 은밀한 근접전용으로 설계됐으며, 주로 러시아 내무부와 러시아군 특수부대에서 AS Val과 VSS 빈토레즈를 대체할 후보로 개발되었습니다."
+      },
+      {
+        "key": "6a9417f9e097b0c6ce414793 Name",
+        "source": "Kalashnikov AM-17 Gen.3 5.45x39 assault rifle",
+        "translation": "Kalashnikov AM-17 Gen.3 5.45x39 돌격소총"
+      },
+      {
+        "key": "6a9417f9e097b0c6ce414793 Description",
+        "source": "The Kalashnikov Concern AM-17 (Russian: Aвтомат Малогабаритный, romanized: Avtomat Malogabaritnyj, lit. 'Small-sized Automatic Rifle', GRAU index: 6P74) is a compact assault rifle chambered in 5.45×39mm intermediate cartridge, developed and manufactured by Kalashnikov Concern as a replacement to the AKS-74U. The AM-17 was first unveiled in the Russian Army Expo 2017 alongside the integrally suppressed AMB-17. Its development began in the late 2010s, and was based on the Yevgeny Dragunov MA compact assault rifle. In November 2024, the AM-17 has completed the acceptance trials. Serial production of the carbine is expected to begin in 2025. On September 1, 2025, Kalashnikov Concern reported that the first experimental batch of the AM-17 had been manufactured. Newer version developed for the conflict in tarkov, allows the use of m4 style pistolgrips.",
+        "translation": "칼라시니코프 콘체른 AM-17(러시아어: Aвтомат Малогабаритный, 로마자 표기: Avtomat Malogabaritnyj, 직역: ‘소형 자동소총’, GRAU 지수: 6P74)은 5.45x39mm 중간탄을 사용하는 소형 돌격소총으로, AKS-74U를 대체하기 위해 칼라시니코프 콘체른이 개발·생산했습니다. AM-17은 일체형 소음기 방식의 AMB-17과 함께 2017 러시아 Army Expo에서 처음 공개됐습니다. 개발은 2010년대 후반에 시작됐으며 예브게니 드라구노프의 MA 소형 돌격소총을 기반으로 합니다. 2024년 11월 AM-17은 인수 시험을 완료했고, 카빈의 양산은 2025년에 시작될 예정이었습니다. 2025년 9월 1일 칼라시니코프 콘체른은 AM-17의 첫 시험 생산분이 제조됐다고 발표했습니다. 타르코프 분쟁을 위해 개발된 신형 버전은 M4 방식 권총손잡이를 사용할 수 있습니다."
+      },
+      {
+        "key": "6a9497c3e097b0c6ce414794 Name",
+        "source": "AM17 Gen.3 6 inch handguard",
+        "translation": "AM17 Gen.3 6 inch 총열덮개"
+      },
+      {
+        "key": "6a9497c3e097b0c6ce414794 Description",
+        "source": "Handguard for the AM17 rifle, 6 inch length. Provides a rail for mounting accessories and improves ergonomics.",
+        "translation": "AM-17 소총용 6인치 총열덮개입니다. 부착물 장착용 레일을 제공하며 인체공학성을 향상합니다."
+      },
+      {
+        "key": "6a94984fe097b0c6ce414796 Name",
+        "source": "AM17 Gen.3 8.5 inch 5.45x39 barrel",
+        "translation": "AM-17 Gen.3 5.45x39 8.5인치 총열"
+      },
+      {
+        "key": "6a94984fe097b0c6ce414796 Description",
+        "source": "Barrel for the AM17 rifle, 8.5 inch length.",
+        "translation": "AM-17 소총용 8.5인치 총열입니다."
+      },
+      {
+        "key": "6a9498b9e097b0c6ce414798 Name",
+        "source": "AM-17 Gen.3 Stock base",
+        "translation": "AM-17 Gen.3 개머리판 베이스"
+      },
+      {
+        "key": "6a9498b9e097b0c6ce414798 Description",
+        "source": "Stock base for the AM-17 rifle.",
+        "translation": "AM-17 소총용 개머리판 베이스입니다."
+      },
+      {
+        "key": "6a949939e097b0c6ce41479a Name",
+        "source": "AM-17 Gen.3 Stock",
+        "translation": "AM-17 Gen.3 개머리판"
+      },
+      {
+        "key": "6a949939e097b0c6ce41479a Description",
+        "source": "Stock for the AM-17 rifle.",
+        "translation": "AM-17 소총용 개머리판입니다."
+      },
+      {
+        "key": "6a9499ede097b0c6ce41479c Name",
+        "source": "AM-17 Gen.3 Pistol Grip",
+        "translation": "AM-17 Gen.3 권총손잡이"
+      },
+      {
+        "key": "6a9499ede097b0c6ce41479c Description",
+        "source": "Pistol grip for the AM-17 rifle, Generation 3. Improves ergonomics and handling.",
+        "translation": "AM-17 Gen.3 소총용 권총손잡이입니다. 인체공학성과 조작성을 향상합니다."
+      },
+      {
+        "key": "6a949adce097b0c6ce41479e Name",
+        "source": "AM-17 Gen.3 Muzzle Brake",
+        "translation": "AM-17 Gen.3 총구제퇴기"
+      },
+      {
+        "key": "6a949adce097b0c6ce41479e Description",
+        "source": "Muzzle brake for the AM-17 rifle, Generation 3. Reduces recoil and muzzle rise.",
+        "translation": "AM-17 Gen.3 소총용 총구제퇴기입니다. 반동과 총구 앙등을 줄여줍니다."
+      },
+      {
+        "key": "6a94a2cee097b0c6ce4147a0 Name",
+        "source": "AM17 Gen.3 6 inch Silencer handguard",
+        "translation": "AM17 Gen.3 6 inch Silencer 총열덮개"
+      },
+      {
+        "key": "6a94a2cee097b0c6ce4147a0 Description",
+        "source": "Handguard for the AM17 rifle, 6 inch length, meant to be used with the AM-17 silencer. Provides a rail for mounting accessories and improves ergonomics.",
+        "translation": "AM-17 소총용 6인치 총열덮개로, AM-17 소음기와 함께 사용하도록 설계되었습니다. 부착물 장착용 레일을 제공하며 인체공학성을 향상합니다."
+      },
+      {
+        "key": "6a94a31ae097b0c6ce4147a2 Name",
+        "source": "AM17 Gen.3 5.8 inch Silencer handguard",
+        "translation": "AM17 Gen.3 5.8 inch Silencer 총열덮개"
+      },
+      {
+        "key": "6a94a31ae097b0c6ce4147a2 Description",
+        "source": "Handguard for the AM17 rifle, 5.8 inch length. Provides a rail for mounting accessories and improves ergonomics.",
+        "translation": "AM-17 소총용 5.8인치 총열덮개입니다. 부착물 장착용 레일을 제공하며 인체공학성을 향상합니다."
+      },
+      {
+        "key": "6a94a31ae097b0c6ce4147a4 Name",
+        "source": "AM17 Gen.3 5.7 inch Silencer handguard",
+        "translation": "AM17 Gen.3 5.7 inch Silencer 총열덮개"
+      },
+      {
+        "key": "6a94a31ae097b0c6ce4147a4 Description",
+        "source": "Handguard for the AM17 rifle, 5.7 inch length. Provides a rail for mounting accessories and improves ergonomics.",
+        "translation": "AM-17 소총용 5.7인치 총열덮개입니다. 부착물 장착용 레일을 제공하며 인체공학성을 향상합니다."
+      },
+      {
+        "key": "6a94a37ee097b0c6ce4147a6 Name",
+        "source": "AM17 Gen.3 8 inch 5.45x39 barrel",
+        "translation": "AM-17 Gen.3 5.45x39 8인치 총열"
+      },
+      {
+        "key": "6a94a37ee097b0c6ce4147a6 Description",
+        "source": "Barrel for the AM17 rifle, 8 inch length.",
+        "translation": "AM-17 소총용 8인치 총열입니다."
+      },
+      {
+        "key": "6a94a37ee097b0c6ce4147a8 Name",
+        "source": "AM17 Gen.3 6.3 inch 5.45x39 barrel",
+        "translation": "AM-17 Gen.3 5.45x39 6.3인치 총열"
+      },
+      {
+        "key": "6a94a37ee097b0c6ce4147a8 Description",
+        "source": "Barrel for the AM17 rifle, 6.3 inch length.",
+        "translation": "AM-17 소총용 6.3인치 총열입니다."
+      },
+      {
+        "key": "6a94a3dfe097b0c6ce4147aa Name",
+        "source": "AM-17 Gen.3 Picatinny Stock Adapter",
+        "translation": "AM-17 Gen.3 피카티니 개머리판 어댑터"
+      },
+      {
+        "key": "6a94a3dfe097b0c6ce4147aa Description",
+        "source": "Picatinny stock adapter for the AM-17 rifle. Allows the use of Picatinny stocks and improves ergonomics.",
+        "translation": "AM-17 소총용 피카티니 개머리판 어댑터입니다. 피카티니 방식 개머리판을 사용할 수 있으며 인체공학성을 향상합니다."
+      },
+      {
+        "key": "6a94a460e097b0c6ce4147ac Name",
+        "source": "AM-17 Gen.3 Stock Adapter",
+        "translation": "AM-17 Gen.3 개머리판 어댑터"
+      },
+      {
+        "key": "6a94a460e097b0c6ce4147ac Description",
+        "source": "An adapter for installing buffer tubes for the AM-17 rifle. Allows the use of Picatinny stocks and improves ergonomics.",
+        "translation": "AM-17 소총에 버퍼 튜브를 장착하기 위한 어댑터입니다. 다양한 개머리판을 사용할 수 있으며 인체공학성을 향상합니다."
+      },
+      {
+        "key": "6a94a492e097b0c6ce4147ae Name",
+        "source": "AM-17 Gen.3 Silencer",
+        "translation": "AM-17 Gen.3 소음기"
+      },
+      {
+        "key": "6a94a492e097b0c6ce4147ae Description",
+        "source": "Silencer for the AM-17 rifle, Generation 3. Reduces recoil and muzzle rise.",
+        "translation": "AM-17 Gen.3 소총용 소음기입니다. 반동과 총구 앙등을 줄여줍니다."
+      },
+      {
+        "key": "6a958051fb598539cc275e5c Name",
+        "source": "AM17 Gen.3 10 inch 5.45x39 barrel",
+        "translation": "AM-17 Gen.3 5.45x39 10인치 총열"
+      },
+      {
+        "key": "6a958051fb598539cc275e5c Description",
+        "source": "Barrel for the AM17 rifle, 10 inch length.",
+        "translation": "AM-17 소총용 10인치 총열입니다."
+      },
+      {
+        "key": "6a95b199fb598539cc275e5d Name",
+        "source": "AMB-17 9x39 integral barrel-suppressor",
+        "translation": "AMB-17 9x39 일체형 총열-소음기"
+      },
+      {
+        "key": "6a95b199fb598539cc275e5d Description",
+        "source": "integral barrel-suppressor module for the AMB-17 rifle, 9x39 caliber.",
+        "translation": "AMB-17 소총용 9x39 일체형 총열-소음기 모듈입니다."
+      },
+      {
+        "key": "6a95b2eefb598539cc275e5f Name",
+        "source": "AMB-17 polymer handguard",
+        "translation": "AMB-17 polymer 총열덮개"
+      },
+      {
+        "key": "6a95b2eefb598539cc275e5f Description",
+        "source": "Polymer handguard for the AMB-17 rifle.",
+        "translation": "AMB-17 소총용 폴리머 총열덮개입니다."
+      },
+      {
+        "key": "6a95e5adfb598539cc275e61 Name",
+        "source": "Magpul MBUS Pro flip-up front sight",
+        "translation": "Magpul MBUS Pro flip-up 가늠쇠"
+      },
+      {
+        "key": "6a95e5adfb598539cc275e61 Description",
+        "source": "The MBUS Pro Sight – Front combines rugged, all-steel construction and absolutely dependable performance into an elevation-adjustable, easy-to-use backup sight that’s ready when your primary optic isn’t. Its small size minimizes snagging, adjusts quickly, and stays exactly where you need it. With two different front-post options, shooters can also switch from a maximum visibility width to one more suited for precision shooting",
+        "translation": "MBUS Pro 가늠쇠는 견고한 올스틸 구조와 높은 신뢰성을 갖춘 고도 조절식 예비 조준기입니다. 주 조준경을 사용할 수 없을 때 간편하게 사용할 수 있습니다. 작은 크기로 걸림을 줄이고 빠르게 조절할 수 있으며 설정한 위치를 안정적으로 유지합니다. 두 종류의 가늠쇠 포스트를 선택할 수 있어 높은 시인성이 필요한 폭과 정밀 사격에 적합한 폭 사이를 전환할 수 있습니다."
+      },
+      {
+        "key": "6a95e5d5fb598539cc275e63 Name",
+        "source": "Magpul MBUS Pro flip-up rear sight",
+        "translation": "Magpul MBUS Pro flip-up 가늠자"
+      },
+      {
+        "key": "6a95e5d5fb598539cc275e63 Description",
+        "source": "The MBUS Pro Sight – Rear combines rugged, all-steel construction and absolutely dependable performance into an easy-to-use windage-adjustable backup sight that’s ready when your optic isn’t. Its small size minimizes snagging, adjusts quickly, and stays exactly where you need it. With two different aperture options, shooters can quickly change between close-range/low light situations and long-range targets.",
+        "translation": "MBUS Pro 가늠자는 견고한 올스틸 구조와 높은 신뢰성을 갖춘 편류 조절식 예비 조준기입니다. 주 조준경을 사용할 수 없을 때 간편하게 사용할 수 있습니다. 작은 크기로 걸림을 줄이고 빠르게 조절할 수 있으며 설정한 위치를 안정적으로 유지합니다. 두 종류의 조준 구멍을 선택할 수 있어 근거리·저조도 상황과 장거리 표적에 맞춰 빠르게 전환할 수 있습니다."
+      },
+      {
+        "key": "6a968b0a910dd21fbe9e374b Name",
+        "source": "KBP ADS 5.45x39 Amphibious Assault rifle",
+        "translation": "KBP ADS 5.45x39 Amphibious 돌격소총"
+      },
+      {
+        "key": "6a968b0a910dd21fbe9e374b ShortName",
+        "source": "ADS Amphibious rifle",
+        "translation": "ADS 수륙양용"
+      },
+      {
+        "key": "6a968b0a910dd21fbe9e374b Description",
+        "source": "The ADS (Russian: АДС - Автомат Двухсредный Специальный - Special Dual-environment Automatic rifle) is a Russian assault rifle specially made for combat divers. It is of a bullpup layout and is chambered in the 5.45×39mm M74 round. The ADS can adapt a suppressor and optical sights.",
+        "translation": "ADS(러시아어: АДС - Автомат Двухсредный Специальный, 특수 수륙양용 자동소총)는 전투 잠수부를 위해 특별히 제작된 러시아제 돌격소총입니다. 불펍 구조이며 5.45x39mm M74 탄약을 사용합니다. ADS에는 소음기와 광학 조준경을 장착할 수 있습니다."
+      },
+      {
+        "key": "6a96a059910dd21fbe9e374c Name",
+        "source": "ADS Underbarrel Grenade Launcher",
+        "translation": "ADS 총열하부 유탄발사기"
+      },
+      {
+        "key": "6a96a059910dd21fbe9e374c Description",
+        "source": "The ADS Underbarrel Grenade Launcher is designed to be mounted under the barrel of the ADS assault rifle, providing additional firepower with 40mm grenades.",
+        "translation": "ADS 총열하부 유탄발사기는 ADS 돌격소총의 총열 아래에 장착하도록 설계되었으며 40mm 유탄으로 추가 화력을 제공합니다."
+      },
+      {
+        "key": "6a973c937313325840144bd1 Name",
+        "source": "ADS Amphibious rifle 5.45x39 Muzzle Brake",
+        "translation": "ADS 수륙양용 소총 5.45x39 총구제퇴기"
+      },
+      {
+        "key": "6a973c937313325840144bd1 Description",
+        "source": "The ADS Amphibious rifle 5.45x39 Muzzle Brake is a specialized muzzle device designed to reduce recoil and muzzle rise when firing.",
+        "translation": "ADS 수륙양용 소총용 5.45x39 총구제퇴기는 사격 시 반동과 총구 앙등을 줄이도록 설계된 전용 총구 장치입니다."
+      },
+      {
+        "key": "6a9888aa03930f8d769fde27 Name",
+        "source": "Kalashnikov AK-200 5.45x39 assault rifle",
+        "translation": "Kalashnikov AK-200 5.45x39 돌격소총"
+      },
+      {
+        "key": "6a9888aa03930f8d769fde27 Description",
+        "source": "The AK200, chambered in 5.45x39, was a development of the AK74M model designed to meet the new requirements for the weapon/sights/equipment complex used in modern combat and started the AK20x series of rifles.",
+        "translation": "5.45x39 탄약을 사용하는 AK-200은 현대전의 무기·조준기·장비 복합체에 대한 새로운 요구를 충족하기 위해 AK-74M을 기반으로 개발되었으며, AK-20x 소총 계열의 시작이 된 모델입니다."
+      },
+      {
+        "key": "6a98a87303930f8d769fde29 Name",
+        "source": "AK-200 rear sight",
+        "translation": "AK-200 가늠자"
+      },
+      {
+        "key": "6a98a87303930f8d769fde29 Description",
+        "source": "A standard rear sight for AK-200 automatic rifles, manufactured by Izhmash.",
+        "translation": "이즈마쉬에서 제조한 AK-200 자동소총용 표준 가늠자입니다."
+      },
+      {
+        "key": "6a98a91603930f8d769fde2b Name",
+        "source": "AK-200 gas tube",
+        "translation": "AK-200 가스 튜브"
+      },
+      {
+        "key": "6a98a91603930f8d769fde2b Description",
+        "source": "Gas tube for the AK-200 rifle.",
+        "translation": "AK-200 소총용 가스 튜브입니다."
+      },
+      {
+        "key": "6a98a9d503930f8d769fde2d Name",
+        "source": "AK-200 polymer handguard",
+        "translation": "AK-200 polymer 총열덮개"
+      },
+      {
+        "key": "6a98a9d503930f8d769fde2d Description",
+        "source": "Polymer handguard for the AK-200 rifle.",
+        "translation": "AK-200 소총용 폴리머 총열덮개입니다."
+      },
+      {
+        "key": "6a98aa1a03930f8d769fde2f Name",
+        "source": "AK-200 railed dust cover",
+        "translation": "AK-200 railed 먼지덮개"
+      },
+      {
+        "key": "6a98aa1a03930f8d769fde2f Description",
+        "source": "A standard receiver dust cover with integrated Picatinny rail for AK-200 automatic rifles. Manufactured by Izhmash.",
+        "translation": "이즈마쉬에서 제조한 AK-200 자동소총용 표준 노리쇠덮개로, 피카티니 레일이 일체형으로 구성되어 있습니다."
+      },
+      {
+        "key": "6a98aafb03930f8d769fde31 Name",
+        "source": "AK-200 5.45x39 muzzle brake",
+        "translation": "AK-200 5.45x39 총구제퇴기"
+      },
+      {
+        "key": "6a98aafb03930f8d769fde31 Description",
+        "source": "Muzzle brake for the AK-200 rifle, Reduces recoil and muzzle rise.",
+        "translation": "AK-200 소총용 총구제퇴기입니다. 반동과 총구 앙등을 줄여줍니다."
+      },
+      {
+        "key": "6a9954b397425139faf657d3 Name",
+        "source": "Kalashnikov AK-205 5.45x39 assault rifle",
+        "translation": "Kalashnikov AK-205 5.45x39 돌격소총"
+      },
+      {
+        "key": "6a9954b397425139faf657d3 Description",
+        "source": "The AK205, chambered in 5.45x39, was a development of the AK74M model designed to meet the new requirements for the weapon/sights/equipment complex used in modern combat and started the AK20x series of rifles.",
+        "translation": "5.45x39 탄약을 사용하는 AK-205는 현대전의 무기·조준기·장비 복합체에 대한 새로운 요구를 충족하기 위해 AK-74M을 기반으로 개발된 AK-20x 계열 소총입니다."
+      },
+      {
+        "key": "6a9ab5e9753eac745a4ce5ca Name",
+        "source": "KBP PP-2000 9x19 submachine gun",
+        "translation": "KBP PP-2000 9x19 기관단총"
+      },
+      {
+        "key": "6a9ab5e9753eac745a4ce5ca Description",
+        "source": "The PP-2000 was first publicly displayed at the Interpolytech-2004 exhibition in Moscow even though its patent was filed in 2001 and issued in 2003. In 2008, the PP-2000 was adopted as one of the two standard SMGs of the Russian police (along with the Vityaz-SN). In the beginning of October 2023, it was reported that the PP-2000 would become a part of Russian pilots survival kit.",
+        "translation": "PP-2000은 특허가 2001년에 출원되어 2003년에 등록되었지만, 대중에게는 모스크바 Interpolytech-2004 전시회에서 처음 공개되었습니다. 2008년에는 Vityaz-SN과 함께 러시아 경찰의 두 표준 기관단총 중 하나로 채택되었습니다. 2023년 10월 초에는 PP-2000이 러시아 조종사의 생존 키트에 포함될 것이라고 보도되었습니다."
+      },
+      {
+        "key": "6a9b067b5499040aee890f4d Name",
+        "source": "PP-2000 9x19 20-round magazine",
+        "translation": "20발, PP-2000 9x19 탄창"
+      },
+      {
+        "key": "6a9b067b5499040aee890f4d Description",
+        "source": "A 20-round magazine for the PP-2000 submachine gun. Manufactured by KBP Instrument Design Bureau",
+        "translation": "KBP 계기설계국에서 제조한 PP-2000 기관단총용 20발 탄창입니다."
+      },
+      {
+        "key": "6a9b06ad5499040aee890f4f Name",
+        "source": "PP-2000 9x19 44-round magazine",
+        "translation": "44발, PP-2000 9x19 탄창"
+      },
+      {
+        "key": "6a9b06ad5499040aee890f4f Description",
+        "source": "A 44-round magazine for the PP-2000 submachine gun. Manufactured by KBP Instrument Design Bureau",
+        "translation": "KBP 계기설계국에서 제조한 PP-2000 기관단총용 44발 탄창입니다."
+      },
+      {
+        "key": "6a9b08015499040aee890f51 Name",
+        "source": "PP-2000 9x19 Threaded Muzzle",
+        "translation": "PP-2000 9x19 나사산 총구"
+      },
+      {
+        "key": "6a9b08015499040aee890f51 Description",
+        "source": "Threaded muzzle for the PP-2000 submachine gun. Allows attachment of a suppressor.",
+        "translation": "PP-2000 기관단총용 나사산 총구입니다. 소음기를 장착할 수 있습니다."
+      },
+      {
+        "key": "6a9b08815499040aee890f53 Name",
+        "source": "PP-2000 9x19 Muzzle Brake",
+        "translation": "PP-2000 9x19 제퇴기"
+      },
+      {
+        "key": "6a9b08815499040aee890f53 Description",
+        "source": "Muzzle brake for the PP-2000 submachine gun. Reduces recoil and muzzle rise.",
+        "translation": "PP-2000 기관단총용 총구제퇴기입니다. 반동과 총구 앙등을 줄여줍니다."
+      },
+      {
+        "key": "6a9b0b915499040aee890f55 Name",
+        "source": "PP-2000 9x19 170mm barrel",
+        "translation": "PP-2000 9x19 170mm 총열"
+      },
+      {
+        "key": "6a9b0b915499040aee890f55 Description",
+        "source": "Barrel for the PP-2000 submachine gun, 170mm length.",
+        "translation": "PP-2000 기관단총용 170mm 총열입니다."
+      },
+      {
+        "key": "6a9b0c505499040aee890f57 Name",
+        "source": "PP-2000 dust cover",
+        "translation": "PP-2000 먼지덮개"
+      },
+      {
+        "key": "6a9b0c505499040aee890f57 Description",
+        "source": "Dust cover for the PP-2000 submachine gun.",
+        "translation": "PP-2000 기관단총용 노리쇠덮개입니다."
+      },
+      {
+        "key": "6a9b0cc05499040aee890f59 Name",
+        "source": "PP-2000 Folding Stock",
+        "translation": "PP-2000 Folding 개머리판"
+      },
+      {
+        "key": "6a9b0cc05499040aee890f59 Description",
+        "source": "Folding stock for the PP-2000 submachine gun.",
+        "translation": "PP-2000 기관단총용 접이식 개머리판입니다."
+      },
+      {
+        "key": "6a9b0cf75499040aee890f5b Name",
+        "source": "PP-2000 Fixed stock",
+        "translation": "PP-2000 Fixed 개머리판"
+      },
+      {
+        "key": "6a9b0cf75499040aee890f5b Description",
+        "source": "Fixed stock for the PP-2000 submachine gun.",
+        "translation": "PP-2000 기관단총용 고정식 개머리판입니다."
+      },
+      {
+        "key": "6a9bf1a6d67da98b239147e3 Name",
+        "source": "PP-2000 Bottom rail mount",
+        "translation": "PP-2000 하부 레일 마운트"
+      },
+      {
+        "key": "6a9bf1a6d67da98b239147e3 Description",
+        "source": "Bottom rail mount for the PP-2000 submachine gun.",
+        "translation": "PP-2000 기관단총용 하부 레일 마운트입니다."
+      },
+      {
+        "key": "6a9bf1fed67da98b239147e5 Name",
+        "source": "PP-2000 flashlight",
+        "translation": "PP-2000 손전등"
+      },
+      {
+        "key": "6a9bf1fed67da98b239147e5 Description",
+        "source": "A tactical flashlight designed for the PP-2000, providing enhanced visibility in low-light conditions.",
+        "translation": "PP-2000용으로 설계된 전술 손전등으로, 저조도 환경에서 시야를 향상합니다."
+      },
+      {
+        "key": "6a9d77d61b88e55ada72f237 Name",
+        "source": "KMZ A-762 Kord 7.62x39 assault rifle",
+        "translation": "KMZ A-762 Kord 7.62x39 돌격소총"
+      },
+      {
+        "key": "6a9d77d61b88e55ada72f237 Description",
+        "source": "The 6P67 KORD and 6P68 KORD were developed for the Ratnik trials on 23 December 2014 and are based on the AEK-971 and AEK-973 respectively. The 6P67 KORD and 6P68 KORD feature numerous internal and external improvements over their predecessors and were later adopted by the special forces units (Spetsnaz) of the Russian Armed Forces.",
+        "translation": "6P67 KORD와 6P68 KORD는 2014년 12월 23일 라트니크 시험을 위해 개발되었으며 각각 AEK-971과 AEK-973을 기반으로 합니다. 두 모델은 전작에 비해 내부와 외부가 대폭 개선되었고, 이후 러시아 연방군 특수부대(스페츠나츠)에 채택되었습니다."
+      },
+      {
+        "key": "6a9da3be1b88e55ada72f239 Name",
+        "source": "A-762 Folding Stock",
+        "translation": "A-762 Folding 개머리판"
+      },
+      {
+        "key": "6a9da3be1b88e55ada72f239 Description",
+        "source": "The Standard stock for the A-762 assault rifle.",
+        "translation": "A-762 돌격소총용 표준 개머리판입니다."
+      },
+      {
+        "key": "6a9da44e1b88e55ada72f23b Name",
+        "source": "A-762 Flash Hider",
+        "translation": "A-762 소염기"
+      },
+      {
+        "key": "6a9da44e1b88e55ada72f23b Description",
+        "source": "The standard-issue 7.62x39 flash hider for the A-762 assault rifle",
+        "translation": "A-762 돌격소총용 표준 7.62x39 소염기입니다."
+      },
+      {
+        "key": "6a9da6591b88e55ada72f23d Name",
+        "source": "A-762 polymer handguard",
+        "translation": "A-762 polymer 총열덮개"
+      },
+      {
+        "key": "6a9da6591b88e55ada72f23d Description",
+        "source": "The standard-issue polymer handguard for the A-762 assault rifle",
+        "translation": "A-762 돌격소총용 표준 폴리머 총열덮개입니다."
+      },
+      {
+        "key": "6a9e7c7ba77d4b62cecda25a Name",
+        "source": "Lebedev PLK 9x19 Compact pistol",
+        "translation": "Lebedev PLK 9x19 Compact 권총"
+      },
+      {
+        "key": "6a9e7c7ba77d4b62cecda25a Description",
+        "source": "The compact PLK pistol is the first compact Russian-made sidearm chambered for 9x19 mm cartridges. The pistol allows using the full range of 9x19 mm combat, sporting and other cartridges, including 7N21 high-power armor-piercing cartridges. The compact size of the PLK makes it easy for concealed carry. Ambidextrous controls (safety, slide stop and magazine release button) allow for efficient right- and left-handed operation.",
+        "translation": "PLK 소형 권총은 9x19mm 탄약을 사용하는 러시아 최초의 국산 소형 보조화기입니다. 7N21 고위력 철갑탄을 포함해 9x19mm 전투용·스포츠용 및 기타 탄약 전반을 사용할 수 있습니다. 작은 크기 덕분에 은닉 휴대가 용이합니다. 안전장치, 슬라이드 멈치, 탄창 멈치가 양손잡이용으로 배치되어 오른손과 왼손 모두 효율적으로 조작할 수 있습니다."
+      },
+      {
+        "key": "6a9e89a3a77d4b62cecda25b Name",
+        "source": "PLK pistol slide",
+        "translation": "PLK 권총 슬라이드"
+      },
+      {
+        "key": "6a9e89a3a77d4b62cecda25b ShortName",
+        "source": "PLK Slide",
+        "translation": "PLK 슬라이드"
+      },
+      {
+        "key": "6a9e89a3a77d4b62cecda25b Description",
+        "source": "the slide for the PLK pistol.",
+        "translation": "PLK 권총용 슬라이드입니다."
+      },
+      {
+        "key": "6a9e8a31a77d4b62cecda25d Name",
+        "source": "PLK 9x19 92mm barrel",
+        "translation": "PLK 9x19 92mm 총열"
+      },
+      {
+        "key": "6a9e8a31a77d4b62cecda25d Description",
+        "source": "A standard barrel for the PLK pistol, chambered in 9x19.",
+        "translation": "9x19 탄약을 사용하는 PLK 권총용 표준 총열입니다."
+      },
+      {
+        "key": "6a9e8a71a77d4b62cecda25f Name",
+        "source": "PLK 9x19 14-round magazine",
+        "translation": "14발, PLK 9x19 탄창"
+      },
+      {
+        "key": "6a9e8a71a77d4b62cecda25f Description",
+        "source": "A standard-issue 14-round magazine for the PLK 9x19 pistol.",
+        "translation": "PLK 9x19 권총용 표준 14발 탄창입니다."
+      },
+      {
+        "key": "6a9ea420a77d4b62cecda261 Name",
+        "source": "PLK Red Dot sight mount",
+        "translation": "PLK 도트 사이트 마운트"
+      },
+      {
+        "key": "6a9ea420a77d4b62cecda261 Description",
+        "source": "A rear sight mount allows the installation of Burris Fast Fire, Docter, and other similar reflex sights.",
+        "translation": "Burris FastFire, Docter 및 이와 유사한 반사식 조준경을 장착할 수 있는 가늠자 마운트입니다."
+      },
+      {
+        "key": "6aa07d6955c3a243f195ed5f Name",
+        "source": "Chukavin SVCh 7.62x54R sniper rifle",
+        "translation": "Chukavin SVCh 7.62x54R 저격소총"
+      },
+      {
+        "key": "6aa07d6955c3a243f195ed5f Description",
+        "source": "The SVCh rifle was designed on the basis of the SVK-2016 rifle. It was first presented in 2017 at the military-technical forum “Army-2017”. Russian tests of the Chukavin rifle have been completed in the fall 2021 and the rifle was recommended for adoption. The first deliveries were conducted in September 2022. Long-term contracts have been signed. In November 2022, a decision was made to begin purchasing rifles for the needs of the Russian army. The contract for the first batch was signed by the Ministry of Defence. In February 2023, it was reported that mass-production began by Kalashnikov Concern. The qualification trials were completed on October 6, 2023. Some rifles were supplied in December 2023. Kalashnikov Concern announced they will ramp up the production in 2024 and completed the relevant contract in November 2024. It was adopted by the Russian Interior Ministry in March 2026.",
+        "translation": "SVCh 소총은 SVK-2016 소총을 기반으로 설계되었습니다. 2017년 군사기술 포럼 “Army-2017”에서 처음 공개되었습니다. 추카빈 소총의 러시아 내 시험은 2021년 가을 완료되었고 채택이 권고되었습니다. 첫 납품은 2022년 9월에 이루어졌으며 장기 계약도 체결되었습니다. 2022년 11월 러시아군 소요를 위한 구매 개시가 결정됐고, 첫 물량 계약은 국방부가 체결했습니다. 2023년 2월 칼라시니코프 콘체른이 양산을 시작했다고 보도됐습니다. 적격성 시험은 2023년 10월 6일 완료됐고 일부 소총은 같은 해 12월 공급되었습니다. 칼라시니코프 콘체른은 2024년 생산량을 늘리겠다고 발표했으며 관련 계약을 2024년 11월 완료했습니다. 2026년 3월 러시아 내무부에 채택되었습니다."
+      },
+      {
+        "key": "6aa1c6a6a10e3944e7f07fd8 Name",
+        "source": "SVCh 7.62x54R 450mm barrel",
+        "translation": "SVCh 7.62x54R 450mm 총열"
+      },
+      {
+        "key": "6aa1c6a6a10e3944e7f07fd8 Description",
+        "source": "Barrel for the SVCh rifle, 450mm length.",
+        "translation": "SVCh 소총용 450mm 총열입니다."
+      },
+      {
+        "key": "6aa1c72fa10e3944e7f07fd9 Name",
+        "source": "SVCh Polymer Stock",
+        "translation": "SVCh Polymer 개머리판"
+      },
+      {
+        "key": "6aa1c72fa10e3944e7f07fd9 Description",
+        "source": "Stock for the SVCh rifle.",
+        "translation": "SVCh 소총용 개머리판입니다."
+      },
+      {
+        "key": "6aa1c782a10e3944e7f07fdb Name",
+        "source": "SVCh 7.62x54R muzzle brake",
+        "translation": "SVCh 7.62x54R 총구제퇴기"
+      },
+      {
+        "key": "6aa1c782a10e3944e7f07fdb Description",
+        "source": "Muzzle brake for the SVCh rifle. Reduces recoil and muzzle rise.",
+        "translation": "SVCh 소총용 총구제퇴기입니다. 반동과 총구 앙등을 줄여줍니다."
+      },
+      {
+        "key": "6aa1c7d0a10e3944e7f07fdd Name",
+        "source": "SVCh Pistol Grip",
+        "translation": "SVCh 권총손잡이"
+      },
+      {
+        "key": "6aa1c7d0a10e3944e7f07fdd Description",
+        "source": "Pistol grip for the SVCh rifle. Improves ergonomics and handling.",
+        "translation": "SVCh 소총용 권총손잡이입니다. 인체공학성과 조작성을 향상합니다."
+      },
+      {
+        "key": "6aa1c95fa10e3944e7f07fdf Name",
+        "source": "SVCh 7.62x54R 10-round magazine",
+        "translation": "10발, SVCh 7.62x54R 탄창"
+      },
+      {
+        "key": "6aa1c95fa10e3944e7f07fdf Description",
+        "source": "A 10-round 7.62x54R polymer magazine for SVD-based rifles.",
+        "translation": "SVD 계열 소총용 10발, 7.62x54R 폴리머 탄창입니다."
+      },
+      {
+        "key": "6aa1c9b4a10e3944e7f07fe1 Name",
+        "source": "SVCh polymer handguard",
+        "translation": "SVCh polymer 총열덮개"
+      },
+      {
+        "key": "6aa1c9b4a10e3944e7f07fe1 Description",
+        "source": "Polymer handguard for the SVCh rifle. Provides M-lok for mounting accessories and improves ergonomics.",
+        "translation": "SVCh 소총용 폴리머 총열덮개입니다. 부착물 장착용 M-LOK 인터페이스를 제공하며 인체공학성을 향상합니다."
+      },
+      {
+        "key": "6aa1f17fa10e3944e7f07fe3 Name",
+        "source": "SVCh Picatinny Stock adapter",
+        "translation": "SVCh 피카티니 개머리판 어댑터"
+      },
+      {
+        "key": "6aa1f17fa10e3944e7f07fe3 Description",
+        "source": "Picatinny Stock adapter for the SVCh rifle.",
+        "translation": "SVCh 소총용 피카티니 개머리판 어댑터입니다."
+      },
+      {
+        "key": "6aa59cd69d536417f3e88939 Name",
+        "source": "Molot Arms VPO-205-03 \"Vepr-12\" 12ga semi-automatic shotgun",
+        "translation": "몰롯 암즈 VPO-205-03 “Vepr-12” 12게이지 반자동 산탄총"
+      },
+      {
+        "key": "6aa59cd69d536417f3e88939 Description",
+        "source": "The Vepr-12 is a multipurpose semi-automatic detachable-magazine shotgun, produced by Molot-Oruzhie Ltd. Early versions of the Vepr-12 were produced by Izhmash, with production moving to the Molot factory where the shotgun was redesigned and mass-produced. The Vepr-12 is intended to be a direct competitor to the widely popular Saiga-12 shotgun already produced by Izhmash.",
+        "translation": "Vepr-12는 Molot-Oruzhie Ltd.에서 생산한 다목적 반자동 분리식 탄창 산탄총입니다. 초기형 Vepr-12는 이즈마쉬에서 생산됐으나 이후 생산이 Molot 공장으로 옮겨졌고, 그곳에서 재설계와 양산이 이루어졌습니다. Vepr-12는 이즈마쉬가 이미 생산 중이던 대중적인 Saiga-12 산탄총의 직접적인 경쟁 모델을 목표로 개발되었습니다."
+      },
+      {
+        "key": "6aa71fe78877550fb7ea7c59 Name",
+        "source": "Molot VPO-205 12ga 483mm barrel",
+        "translation": "몰롯 VPO-205 12게이지 483mm 총열"
+      },
+      {
+        "key": "6aa71fe78877550fb7ea7c59 Description",
+        "source": "Barrel for the Molot VPO-205 shotgun, 483mm length.",
+        "translation": "몰롯 VPO-205 산탄총용 483mm 총열입니다."
+      },
+      {
+        "key": "6aa721398877550fb7ea7c5b Name",
+        "source": "Molot VPO-205 12ga 305mm barrel",
+        "translation": "몰롯 VPO-205 12게이지 305mm 총열"
+      },
+      {
+        "key": "6aa721398877550fb7ea7c5b Description",
+        "source": "Barrel for the Molot VPO-205 shotgun, 305mm length.",
+        "translation": "몰롯 VPO-205 산탄총용 305mm 총열입니다."
+      },
+      {
+        "key": "6aa7227d8877550fb7ea7c5d Name",
+        "source": "VPO-205 Polymer Stock",
+        "translation": "VPO-205 Polymer 개머리판"
+      },
+      {
+        "key": "6aa7227d8877550fb7ea7c5d Description",
+        "source": "Stock for the VPO-205 shotgun.",
+        "translation": "VPO-205 산탄총용 개머리판입니다."
+      },
+      {
+        "key": "6aa722cd8877550fb7ea7c5f Name",
+        "source": "VPO-205 Picatinny Stock adapter",
+        "translation": "VPO-205 피카티니 개머리판 어댑터"
+      },
+      {
+        "key": "6aa722cd8877550fb7ea7c5f Description",
+        "source": "Picatinny Stock adapter for the VPO-205 rifle.",
+        "translation": "VPO-205 산탄총용 피카티니 개머리판 어댑터입니다."
+      },
+      {
+        "key": "6aa723118877550fb7ea7c61 Name",
+        "source": "VPO-205 buffer tube adapter",
+        "translation": "VPO-205 버퍼 튜브 어댑터"
+      },
+      {
+        "key": "6aa723118877550fb7ea7c61 Description",
+        "source": "Buffer tube adapter for the VPO-205 rifle.",
+        "translation": "VPO-205 산탄총용 버퍼 튜브 어댑터입니다."
+      },
+      {
+        "key": "6aa725178877550fb7ea7c63 Name",
+        "source": "VPO-205 Pistol Grip",
+        "translation": "VPO-205 권총손잡이"
+      },
+      {
+        "key": "6aa725178877550fb7ea7c63 Description",
+        "source": "Pistol grip for the VPO-205 rifle. Improves ergonomics and handling.",
+        "translation": "VPO-205 산탄총용 권총손잡이입니다. 인체공학성과 조작성을 향상합니다."
+      },
+      {
+        "key": "6aa726bd8877550fb7ea7c65 Name",
+        "source": "VPO-205 polymer handguard",
+        "translation": "VPO-205 polymer 총열덮개"
+      },
+      {
+        "key": "6aa726bd8877550fb7ea7c65 Description",
+        "source": "Polymer handguard for the VPO-205 rifle.",
+        "translation": "VPO-205 산탄총용 폴리머 총열덮개입니다."
+      },
+      {
+        "key": "6aa727b58877550fb7ea7c67 Name",
+        "source": "RPK Zenit B-20 handguard with B-19 upper mount",
+        "translation": "RPK 제니트 B-20 총열덮개 + B-19 상부 마운트"
+      },
+      {
+        "key": "6aa727b58877550fb7ea7c67 Description",
+        "source": "Zenitco RPK B-20 handguard with B-19 upper mount handguard.",
+        "translation": "B-19 상부 마운트가 결합된 제니트코 RPK B-20 총열덮개입니다."
+      },
+      {
+        "key": "6aa728ec8877550fb7ea7c69 Name",
+        "source": "Dissident Arms MOD2 Vepr-12 Handguard M-LOK",
+        "translation": "디시던트 암즈 MOD2 Vepr-12 M-LOK 총열덮개"
+      },
+      {
+        "key": "6aa728ec8877550fb7ea7c69 Description",
+        "source": "Dissident Arms original accessory for the Vepr 12 Shotgun, featuring authentic mil-spec KeyMod and Magpul M-Lok attachment points.  Stretching out to a stunning 16″; this fore end creates the perfect balance of function and form, making it the longest and highest quality Vepr 12  handguard on the market. Hard coat anodized black.",
+        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 아노다이징 마감입니다."
+      },
+      {
+        "key": "6aa729718877550fb7ea7c6b Name",
+        "source": "VPO-205 mlok medium handguard",
+        "translation": "VPO-205 mlok medium 총열덮개"
+      },
+      {
+        "key": "6aa729718877550fb7ea7c6b Description",
+        "source": "Mlok medium handguard for the VPO-205 rifle.",
+        "translation": "VPO-205 산탄총용 중형 M-LOK 총열덮개입니다."
+      },
+      {
+        "key": "6aa72a4a8877550fb7ea7c6d Name",
+        "source": "Dissident Arms MOD2 Vepr-12 Handguard Keymod",
+        "translation": "디시던트 암즈 MOD2 Vepr-12 KeyMod 총열덮개"
+      },
+      {
+        "key": "6aa72a4a8877550fb7ea7c6d Description",
+        "source": "Dissident Arms original accessory for the Vepr 12 Shotgun, featuring authentic mil-spec KeyMod and Magpul M-Lok attachment points.  Stretching out to a stunning 16″; this fore end creates the perfect balance of function and form, making it the longest and highest quality Vepr 12  handguard on the market. Hard coat anodized black.",
+        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 아노다이징 마감입니다."
+      },
+      {
+        "key": "6aa72a998877550fb7ea7c6f Name",
+        "source": "Dissident Arms MOD1 Vepr-12 Tubular Handguard",
+        "translation": "Dissident Arms MOD1 Vepr-12 Tubular 총열덮개"
+      },
+      {
+        "key": "6aa72a998877550fb7ea7c6f Description",
+        "source": "Dissident Arms original accessory for the Vepr 12 Shotgun, featuring authentic mil-spec KeyMod and Magpul M-Lok attachment points.  Stretching out to a stunning 16″; this forend creates the perfect balance of function and form, making it the longest and highest quality Vepr 12  handguard on the market.  Hard coat anodized black.",
+        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 아노다이징 마감입니다."
+      },
+      {
+        "key": "6aa72ae88877550fb7ea7c71 Name",
+        "source": "VPO-205 wooden handguard",
+        "translation": "VPO-205 wooden 총열덮개"
+      },
+      {
+        "key": "6aa72ae88877550fb7ea7c71 Description",
+        "source": "Wooden handguard for the VPO-205 rifle.",
+        "translation": "VPO-205 산탄총용 목재 총열덮개입니다."
+      },
+      {
+        "key": "6aa72b458877550fb7ea7c73 Name",
+        "source": "VPO-205 12ga 5-round magazine",
+        "translation": "5발, VPO-205 12ga 탄창"
+      },
+      {
+        "key": "6aa72b458877550fb7ea7c73 Description",
+        "source": "A 5-round 12ga polymer magazine for the VPO-205 rifle.",
+        "translation": "VPO-205 산탄총용 5발, 12게이지 폴리머 탄창입니다."
+      },
+      {
+        "key": "6aa72b888877550fb7ea7c75 Name",
+        "source": "VPO-205 12ga 10-round magazine",
+        "translation": "10발, VPO-205 12ga 탄창"
+      },
+      {
+        "key": "6aa72b888877550fb7ea7c75 Description",
+        "source": "A 10-round 12ga polymer magazine for the VPO-205 rifle.",
+        "translation": "VPO-205 산탄총용 10발, 12게이지 폴리머 탄창입니다."
+      },
+      {
+        "key": "6aa72bc08877550fb7ea7c77 Name",
+        "source": "VPO-205 12ga MaxRounds Powermag 20-round drum magazine",
+        "translation": "20발, VPO-205 12ga MaxRounds Powermag 드럼 탄창"
+      },
+      {
+        "key": "6aa72bc08877550fb7ea7c77 Description",
+        "source": "The MaxRounds Powermag 20-shell drum magazine for VPO-205 and compatible weapons, intended for use with 12/76 or 12/70 shells.",
+        "translation": "VPO-205 및 호환 무기용 MaxRounds Powermag 20발 드럼 탄창으로, 12/76 또는 12/70 산탄을 사용하도록 설계되었습니다."
+      },
+      {
+        "key": "6aa72c138877550fb7ea7c79 Name",
+        "source": "SGM Tactical Armsan RS-S1 12ga 25-round drum mag",
+        "translation": "25발, SGM 택티컬 Armsan RS-S1 12게이지 드럼 탄창"
+      },
+      {
+        "key": "6aa72c138877550fb7ea7c79 Description",
+        "source": "A 25-round 12ga polymer drum magazine for the VPO-205 rifle.",
+        "translation": "VPO-205 산탄총용 25발, 12게이지 폴리머 드럼 탄창입니다."
+      },
+      {
+        "key": "6aa72c988877550fb7ea7c7b Name",
+        "source": "VPO-205 railed dust cover",
+        "translation": "VPO-205 railed 먼지덮개"
+      },
+      {
+        "key": "6aa72c988877550fb7ea7c7b Description",
+        "source": "A standard receiver dust cover with integrated Picatinny rail for VPO-205 semi-automatic shotgun. Manufactured by Molot.",
+        "translation": "Molot에서 제조한 VPO-205 반자동 산탄총용 표준 노리쇠덮개로, 피카티니 레일이 일체형으로 구성되어 있습니다."
+      },
+      {
+        "key": "6aa873b12a75b6d0fce8417b Name",
+        "source": "VPO-205 polymer upper handguard",
+        "translation": "VPO-205 polymer upper 총열덮개"
+      },
+      {
+        "key": "6aa873b12a75b6d0fce8417b Description",
+        "source": "Polymer upper handguard for the VPO-205 semi-automatic shotgun.",
+        "translation": "VPO-205 반자동 산탄총용 폴리머 상부 총열덮개입니다."
+      },
+      {
+        "key": "6aa873df2a75b6d0fce8417f Name",
+        "source": "VPO-205 Railed upper handguard",
+        "translation": "VPO-205 Railed upper 총열덮개"
+      },
+      {
+        "key": "6aa873df2a75b6d0fce8417f Description",
+        "source": "Railed upper handguard for the VPO-205 semi-automatic shotgun.",
+        "translation": "VPO-205 반자동 산탄총용 레일형 상부 총열덮개입니다."
+      },
+      {
+        "key": "6aa874662a75b6d0fce84181 Name",
+        "source": "VPO-205 12ga muzzle brake",
+        "translation": "VPO-205 12게이지 총구제퇴기"
+      },
+      {
+        "key": "6aa874662a75b6d0fce84181 Description",
+        "source": "Muzzle brake for the VPO-205 semi-automatic shotgun. Reduces recoil and muzzle rise.",
+        "translation": "VPO-205 반자동 산탄총용 총구제퇴기입니다. 반동과 총구 앙등을 줄여줍니다."
+      },
+      {
+        "key": "6aa887ff2a75b6d0fce84183 Name",
+        "source": "Molot VPO-205 12ga 680mm barrel",
+        "translation": "몰롯 VPO-205 12게이지 680mm 총열"
+      },
+      {
+        "key": "6aa887ff2a75b6d0fce84183 Description",
+        "source": "Barrel for the Molot VPO-205 shotgun, 680mm length.",
+        "translation": "몰롯 VPO-205 산탄총용 680mm 총열입니다."
+      },
+      {
+        "key": "6aa9bd88a1ebc11ab0a6b50c Name",
+        "source": "SVDM 7.62x54R sniper rifle",
+        "translation": "SVDM 7.62x54R 저격소총"
+      },
+      {
+        "key": "6aa9bd88a1ebc11ab0a6b50c Description",
+        "source": "The 7.62 mm SVDM is a modernized version of the combat-proven SVD with improved performance. The SVDM is designed to engage enemy personnel and other unarmored targets at ranges up to 800 m. It features reliable gas-operated action with a short-stroke piston and gas regulator. It is different from the SVD in having all wooden parts replaced with plastic ones, a folding skeletonized buttstock with an adjustable heel and a removable cheek riser to make using scopes easier, and an ergonomic pistol grip that is no more an integral part of the buttstock.",
+        "translation": "7.62mm SVDM은 실전에서 검증된 SVD를 성능 개선한 현대화형입니다. SVDM은 최대 800m 거리의 적 인원과 기타 비장갑 표적을 교전하도록 설계되었습니다. 단행정 피스톤과 가스 조절기를 사용하는 신뢰성 높은 가스 작동 방식을 채택했습니다. SVD와 달리 모든 목재 부품을 폴리머로 교체했고, 조절식 개머리판 패드와 탈착식 칙 라이저가 달린 접이식 스켈레톤 개머리판을 사용해 조준경 운용을 쉽게 했습니다. 또한 개머리판과 일체형이 아닌 인체공학적 권총손잡이를 갖추고 있습니다."
+      },
+      {
+        "key": "6aaac1c0e4cb78c569b193bd Name",
+        "source": "SVDM 7.62x54R 565mm barrel",
+        "translation": "SVDM 7.62x54R 565mm 총열"
+      },
+      {
+        "key": "6aaac1c0e4cb78c569b193bd Description",
+        "source": "A 565mm barrel for the SVDM sniper rifle chambered in 7.62x54R ammo.",
+        "translation": "7.62x54R 탄약을 사용하는 SVDM 저격소총용 565mm 총열입니다."
+      },
+      {
+        "key": "6aaac273e4cb78c569b193bf Name",
+        "source": "SVDM polymer stock",
+        "translation": "SVDM polymer 개머리판"
+      },
+      {
+        "key": "6aaac273e4cb78c569b193bf Description",
+        "source": "A polymer stock for SVDM sniper rifles, manufactured by Izhmash.",
+        "translation": "이즈마쉬에서 제조한 SVDM 저격소총용 폴리머 개머리판입니다."
+      },
+      {
+        "key": "6aaac3b5e4cb78c569b193c1 Name",
+        "source": "SVDM 7.62x54R muzzle brake",
+        "translation": "SVDM 7.62x54R 총구제퇴기"
+      },
+      {
+        "key": "6aaac3b5e4cb78c569b193c1 Description",
+        "source": "A standard Izhmash-produced muzzle brake and compensator for the SVDM.",
+        "translation": "이즈마쉬에서 생산한 SVDM용 표준 총구제퇴기 겸 보정기입니다."
+      },
+      {
+        "key": "6aaac436e4cb78c569b193c3 Name",
+        "source": "SVDM polymer handguard",
+        "translation": "SVDM polymer 총열덮개"
+      },
+      {
+        "key": "6aaac436e4cb78c569b193c3 Description",
+        "source": "A polymer handguard for the SVDM sniper rifle that replaced the classic wooden one. Manufactured by Izhmash.",
+        "translation": "기존 목재형을 대체한 SVDM 저격소총용 폴리머 총열덮개입니다. 이즈마쉬에서 제조합니다."
+      },
+      {
+        "key": "6aaac481e4cb78c569b193c5 Name",
+        "source": "SVDM front trunnion",
+        "translation": "SVDM 전방 트러니언"
+      },
+      {
+        "key": "6aaac481e4cb78c569b193c5 Description",
+        "source": "A standard front trunnion for SVDM sniper rifles and compatibles, allows installation of rear sights.",
+        "translation": "SVDM 저격소총 및 호환 무기용 표준 전방 트러니언으로, 가늠자를 장착할 수 있습니다."
+      },
+      {
+        "key": "6aaac531e4cb78c569b193c7 Name",
+        "source": "SVDM rear sight",
+        "translation": "SVDM 가늠자"
+      },
+      {
+        "key": "6aaac531e4cb78c569b193c7 Description",
+        "source": "A standard-issue rear sight for the SVDM sniper rifle.",
+        "translation": "SVDM 저격소총용 표준 가늠자입니다."
+      },
+      {
+        "key": "6aaac588e4cb78c569b193c9 Name",
+        "source": "SVDM front sight",
+        "translation": "SVDM 가늠쇠"
+      },
+      {
+        "key": "6aaac588e4cb78c569b193c9 Description",
+        "source": "A standard-issue front sight for SVDM sniper rifles, manufactured by Izhmash.",
+        "translation": "이즈마쉬에서 제조한 SVDM 저격소총용 표준 가늠쇠입니다."
+      },
+      {
+        "key": "6aaac5eae4cb78c569b193cb Name",
+        "source": "VPO-205 polymer upper handguard",
+        "translation": "VPO-205 polymer upper 총열덮개"
+      },
+      {
+        "key": "6aaac5eae4cb78c569b193cb Description",
+        "source": "Polymer upper handguard for the VPO-205 semi-automatic shotgun.",
+        "translation": "VPO-205 반자동 산탄총용 폴리머 상부 총열덮개입니다."
+      },
+      {
+        "key": "6aaac890e4cb78c569b193cd Name",
+        "source": "SVDS Railed dust cover",
+        "translation": "SVDS Railed 먼지덮개"
+      },
+      {
+        "key": "6aaac890e4cb78c569b193cd Description",
+        "source": "A standard-issue dust cover for SVDM sniper rifles, manufactured by Izhmash.",
+        "translation": "이즈마쉬에서 제조한 SVDM 저격소총용 표준 노리쇠덮개입니다."
+      },
+      {
+        "key": "6aab0fa9e4cb78c569b193cf Name",
+        "source": "SVDM Bipod",
+        "translation": "SVDM 양각대"
+      },
+      {
+        "key": "6aab0fa9e4cb78c569b193cf Description",
+        "source": "A bipod for the SVDM sniper rifle",
+        "translation": "SVDM 저격소총용 양각대입니다."
+      },
+      {
+        "key": "6a98a87303930f8d769fde29 ShortName",
+        "source": "AK-200 RS",
+        "translation": "AK-200 가늠자",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a95e5adfb598539cc275e61 ShortName",
+        "source": "PRO FS",
+        "translation": "PRO 가늠쇠",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a95e5d5fb598539cc275e63 ShortName",
+        "source": "PRO RS",
+        "translation": "PRO 가늠자",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aaac531e4cb78c569b193c7 ShortName",
+        "source": "SVDM RS",
+        "translation": "SVDM 가늠자",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aaac588e4cb78c569b193c9 ShortName",
+        "source": "SVDM FS",
+        "translation": "SVDM 가늠쇠",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "moe.yuyui.animesightsport",
+  "mod_name": "SamSWAT's Anime Rear Sights - 4.0 Port",
+  "channels": {
+    "locale_clone_suffix": [
+      {
+        "id": "anti",
+        "key": "6753d006cec7fc449f055445",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Anti]",
+        "translation": "[안티]",
+        "description_source": "Your personal waifu giving her neko love to support you in combat.",
+        "description_translation": "당신만의 와이푸가 네코의 사랑을 듬뿍 담아 전투를 응원해 줍니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "gen2_anti2",
+        "key": "6753d006cec7fc449f05544a",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Anti 2]",
+        "translation": "[안티 2]",
+        "description_source": "The personal sight used by Anti, the war Neko! Nya!!",
+        "description_translation": "전투 네코 안티가 애용하는 개인용 조준기입니다! 냐!!"
+      },
+      {
+        "id": "fde_anti",
+        "key": "6753d006cec7fc449f055450",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Anti]",
+        "translation": "[안티]",
+        "description_source": "Your personal waifu giving her neko love to support you in combat.",
+        "description_translation": "당신만의 와이푸가 네코의 사랑을 듬뿍 담아 전투를 응원해 줍니다."
+      },
+      {
+        "id": "fde_anime",
+        "key": "6753d006cec7fc449f05544c",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Ai Fuyuumi]",
+        "translation": "[후유우미 아이]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "gen2_fde_anti2",
+        "key": "6753d006cec7fc449f055451",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Anti 2]",
+        "translation": "[안티 2]",
+        "description_source": "The personal sight used by Anti, the war Neko! Nya!!",
+        "description_translation": "전투 네코 안티가 애용하는 개인용 조준기입니다! 냐!!"
+      },
+      {
+        "id": "gen2_anime",
+        "key": "6753d006cec7fc449f055446",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Ai Fuyuumi]",
+        "translation": "[후유우미 아이]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "gen2_anime2",
+        "key": "6753d006cec7fc449f055447",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[GF M4 SOPMOD II]",
+        "translation": "[소녀전선 M4 SOPMOD II]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "gen2_fde_anime2",
+        "key": "6753d006cec7fc449f05544d",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[GF M4 SOPMOD II]",
+        "translation": "[소녀전선 M4 SOPMOD II]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "gen2_anime3",
+        "key": "6753d006cec7fc449f055448",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Animu 3]",
+        "translation": "[애니무 3]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "gen2_fde_anime3",
+        "key": "6753d006cec7fc449f05544e",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Animu 3]",
+        "translation": "[애니무 3]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "gen2_anime3v2",
+        "key": "6753d006cec7fc449f055449",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Animu 3 v2]",
+        "translation": "[애니무 3 v2]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "gen2_fde_anime3c2",
+        "key": "6753d006cec7fc449f05544f",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Animu 3 v2]",
+        "translation": "[애니무 3 v2]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "gen2_ramrem",
+        "key": "6753d006cec7fc449f05544b",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Ram & Rem]",
+        "translation": "[람 & 렘]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "gen2_fde_ramrem",
+        "key": "6753d006cec7fc449f055452",
+        "parent_key": "5bc09a18d4351e003562b68e",
+        "source": "[Ram & Rem]",
+        "translation": "[람 & 렘]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "anime",
+        "key": "6753d006cec7fc449f055453",
+        "parent_key": "5fc0fa957283c4046c58147e",
+        "source": "[Ai Fuyuumi]",
+        "translation": "[후유우미 아이]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "anime2",
+        "key": "6753d006cec7fc449f055454",
+        "parent_key": "5fc0fa957283c4046c58147e",
+        "source": "[GF M4 SOPMOD II]",
+        "translation": "[소녀전선 M4 SOPMOD II]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "anime3",
+        "key": "6753d006cec7fc449f055455",
+        "parent_key": "5fc0fa957283c4046c58147e",
+        "source": "[Animu 3]",
+        "translation": "[애니무 3]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "anime3v2",
+        "key": "6753d006cec7fc449f055456",
+        "parent_key": "5fc0fa957283c4046c58147e",
+        "source": "[Animu 3 v2]",
+        "translation": "[애니무 3 v2]",
+        "description_source": "",
+        "description_translation": ""
+      },
+      {
+        "id": "anti",
+        "key": "6753d006cec7fc449f055457",
+        "parent_key": "5fc0fa957283c4046c58147e",
+        "source": "[Anti]",
+        "translation": "[안티]",
+        "description_source": "Your personal waifu giving her neko love to support you in combat.",
+        "description_translation": "당신만의 와이푸가 네코의 사랑을 듬뿍 담아 전투를 응원해 줍니다."
+      },
+      {
+        "id": "anti2",
+        "key": "6753d006cec7fc449f055458",
+        "parent_key": "5fc0fa957283c4046c58147e",
+        "source": "[Anti 2]",
+        "translation": "[안티 2]",
+        "description_source": "The personal sight used by Anti, the war Neko! Nya!!",
+        "description_translation": "전투 네코 안티가 애용하는 개인용 조준기입니다! 냐!!"
+      },
+      {
+        "id": "ramrem",
+        "key": "6753d006cec7fc449f055459",
+        "parent_key": "5fc0fa957283c4046c58147e",
+        "source": "[Ram & Rem]",
+        "translation": "[람 & 렘]",
+        "description_source": "",
+        "description_translation": ""
+      }
+    ]
+  }
+}

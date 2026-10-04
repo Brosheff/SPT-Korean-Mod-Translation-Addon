@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.hysocs.adaptivebotculling",
+  "plugin_name": "adaptivebotculling-spt-main",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "LOD Distance Culling",
+      "translation": "LOD 거리 컬링"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Disable AI",
+      "source_display_name": "Disable AI",
+      "source_description": "Suppresses native EFT bot updates. Only minimal mover and steering remains.",
+      "translation_display_name": "AI 비활성화",
+      "translation_description": "EFT 기본 봇 AI 업데이트를 억제하고 최소한의 이동·조향만 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Disable body Animator",
+      "source_display_name": "Disable body Animator",
+      "source_description": "Disables body Animator while bot is culled.",
+      "translation_display_name": "몸체 애니메이터 비활성화",
+      "translation_description": "봇이 컬링된 동안 몸체 Animator를 비활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Disable periodic look sensing",
+      "source_display_name": "Disable periodic look sensing",
+      "source_description": "Skips AI visibility/weather/goal checks for culled bots.",
+      "translation_display_name": "컬링 중 주기적 시야 감지 비활성화",
+      "translation_description": "컬링된 봇의 가시성·날씨·목표 관련 주기 검사를 생략합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Only suppress when culled",
+      "source_display_name": "Only suppress when culled",
+      "source_description": "Only culled bots are suppressed. Visible bots run native EFT AI.",
+      "translation_display_name": "컬링된 봇만 AI 억제",
+      "translation_description": "화면에서 컬링된 봇에만 AI 억제를 적용합니다. 보이는 봇은 EFT 기본 AI를 그대로 실행합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Pause AudioSources",
+      "source_display_name": "Pause AudioSources",
+      "source_description": "Pauses looping AudioSources while bot is culled. Disabled by default because the performance gain is small and suppressing EFT audio sources can cause audio oddities.",
+      "translation_display_name": "컬링 중 반복 오디오 일시정지",
+      "translation_description": "봇이 컬링된 동안 반복 재생 AudioSource를 일시정지합니다. 성능 이득이 작고 EFT 오디오에 이상이 생길 수 있어 기본값은 꺼짐입니다.",
+      "values": []
+    },
+    {
+      "section": "LOD Distance Culling",
+      "key": "Cull Threshold (screen height %)",
+      "source_display_name": "Cull Threshold (screen height %)",
+      "source_description": "Screen-relative height threshold where AI culls. Lower = further distance. 0.008 ≈ 300m at default settings. The base 360-degree distance scales with Object LOD Quality; optics only extend distance inside the scope direction.",
+      "translation_display_name": "컬링 기준값 (화면 높이 %)",
+      "translation_description": "화면에서 봇이 차지하는 높이를 기준으로 컬링할 임계값입니다. 값이 낮을수록 더 먼 거리까지 AI가 유지됩니다. 기본 설정에서 0.008은 약 300m이며 Object LOD Quality의 영향을 받습니다.",
+      "values": []
+    },
+    {
+      "section": "LOD Distance Culling",
+      "key": "Enable LOD Distance Culling",
+      "source_display_name": "Enable LOD Distance Culling",
+      "source_description": "Uses EFT's native LOD formula (same as trees/foliage). The normal cull distance remains 360 degrees around the player and scales with Object LOD Quality. Aiming through an optic only extends culling distance forward inside the optic frustum.",
+      "translation_display_name": "LOD 거리 컬링 활성화",
+      "translation_description": "EFT의 기본 LOD 공식으로 봇 컬링 거리를 계산합니다. 일반 컬링은 플레이어 주변 360도에 적용되고 Object LOD Quality의 영향을 받으며, 조준경 사용 시에는 조준경 시야 방향만 거리가 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "LOD Distance Culling",
+      "key": "Show Debug Panel",
+      "source_display_name": "Show Debug Panel",
+      "source_description": "Shows an OnGUI panel with live culling stats and distances. Intended for testing and debugging.",
+      "translation_display_name": "디버그 패널 표시",
+      "translation_description": "현재 컬링 통계와 거리를 보여주는 OnGUI 디버그 패널을 표시합니다. 테스트·진단용입니다.",
+      "values": []
+    },
+    {
+      "section": "LOD Distance Culling",
+      "key": "Use PerfectCulling Grid (Portal/Room Culling)",
+      "source_display_name": "Use PerfectCulling Grid (Portal/Room Culling)",
+      "source_description": "Queries EFT's pre-baked visibility grid (PerfectCulling) for portal/room culling. Interiors culled when outside building. Scales with LOD distance.",
+      "translation_display_name": "PerfectCulling 포털/방 그리드 사용",
+      "translation_description": "EFT에 미리 베이크된 PerfectCulling 가시성 그리드를 사용해 포털/방 단위 컬링을 적용합니다. 건물 밖에서는 내부를 컬링하며 LOD 거리와 함께 동작합니다.",
+      "values": []
+    }
+  ]
+}

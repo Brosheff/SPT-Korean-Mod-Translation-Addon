@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "HealingAutoCancel",
+  "plugin_name": "Makes healing less dumb",
+  "_note": "SOURCE3 source-audited SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "categories": [
+    {
+      "source": "Heal",
+      "translation": "치료"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Heal",
+      "key": "Enable automatic heal canceling",
+      "source_display_name": "Enable automatic heal canceling",
+      "source_description": null,
+      "translation_display_name": "자동 치료 취소 활성화",
+      "translation_description": "",
+      "values": []
+    }
+  ]
+}

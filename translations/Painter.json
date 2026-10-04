@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "mod_48ddd7f236e5",
+  "mod_name": "Painter",
+  "channels": {
+    "locale": [
+      {
+        "key": "painter_7 name",
+        "source": "Born Free",
+        "translation": "자유롭게 태어나",
+        "match_mode": "item_decorated",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_7 description",
+        "source": "I need you to find gun powder and plexiglass for me. I have a special project in mind and I need these materials to make it happen. The reward will be worth it. Good luck!",
+        "translation": "화약이랑 플렉시글라스 좀 구해와. 머릿속에 특별한 계획이 하나 있는데, 그걸 완성하려면 저 재료들이 필요해. 보상은 아깝지 않게 챙겨주지. 행운을 빌어.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_7 successMessageText",
+        "source": "Good.",
+        "translation": "좋아."
+      },
+      {
+        "key": "painter_7 location",
+        "source": "any",
+        "translation": "모든 지역"
+      },
+      {
+        "key": "painter_1 name",
+        "source": "Taped Up",
+        "translation": "테이프로 단단히",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_1 description",
+        "source": "I need your help in enhancing the tactical efficiency of PMCs across Tarkov. Find various types of tape, including duct tape and insulating tape, so I can craft specialized magazines. These taped magazines not only allow PMCs to easily identify their loaded ammunition but also assist them in quickly locating dropped magazines during intense firefights. The Tarkov area is a dangerous place, and every advantage counts.",
+        "translation": "내 작업에 손 좀 빌려줘. PMCs들이 전장에서 조금이라도 더 유리해지게 특수 탄창을 만들 생각이거든. 덕트 테이프랑 절연 테이프 같은 것들을 구해와. 테이프로 감은 탄창이면 무슨 탄이 들어 있는지 바로 알아볼 수 있고, 개판 난전 중에 떨어뜨린 탄창도 더 빨리 찾을 수 있어. 타르코프에선 그런 작은 이점 하나가 목숨값이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_1 successMessageText",
+        "source": "Nice work finding all the tape. This will get my shop running smoothly again. Here's a little something for your trouble. I appreciate your help.",
+        "translation": "좋아. 테이프는 다 찾았군. 덕분에 내 작업장을 다시 제대로 돌릴 수 있겠어. 수고비는 챙겨둔다. 도와줘서 고맙다."
+      },
+      {
+        "key": "painter_1 location",
+        "source": "any",
+        "translation": "모든 지역"
+      },
+      {
+        "key": "painter_1 note",
+        "source": "Some people are scared of anybody who runs free.",
+        "translation": "자유롭게 돌아다니는 놈은 누구든 두려워하는 사람들이 있지."
+      },
+      {
+        "key": "672e31c3262af62a8eb157cd",
+        "source": "Find and handover duct tape",
+        "translation": "덕트 테이프 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "672e31d7701987cf15698b30",
+        "source": "Find and handover insulating tape",
+        "translation": "절연 테이프 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "painter_2 name",
+        "source": "Topographics",
+        "translation": "지형도",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_2 description",
+        "source": "I need you to find some topographic maps, you know, those maps you can find around Tarkov. I can use them to create templates for some really good looking paints.",
+        "translation": "지형도 몇 장 찾아와. 타르코프 여기저기서 굴러다니는 그 지도 말이야. 그걸로 꽤 그럴듯한 도색용 템플릿을 만들 수 있어.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_2 successMessageText",
+        "source": "Perfect. I'll get to work on these paints right away. They will look crisp.",
+        "translation": "좋아. 바로 이 도색 작업에 들어가지. 결과물 꽤 깔끔하게 나올 거야."
+      },
+      {
+        "key": "672e323797a187aabc88ca4a",
+        "source": "Find and handover topographic maps",
+        "translation": "지형도 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "painter_3 name",
+        "source": "Dig Deep",
+        "translation": "깊이 파고들어",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_3 description",
+        "source": "In the gritty aftermath of a merciless SCAV raid on my workshop, those ruthless scavengers made off with a cache of weapons I had poured my blood, sweat, and tears into. I've managed to uncover their haunting whereabouts, and now it's time to make them rue the day they crossed me. Venture into their den, deliver a resounding message, and ensure they never dare to pull such audacious moves again. It's payback time in Tarkov, and vengeance is the only currency they'll understand.",
+        "translation": "스캐브 놈들이 내 작업장을 쑥대밭으로 만들고 내가 피땀 흘려 쌓아 둔 무기들을 싹 털어 갔어. 놈들 은신처는 찾아냈다. 이제 그 대가를 치르게 할 차례야. 소굴로 들어가서 제대로 된 메시지를 남겨. 다시는 이런 짓을 엄두도 못 내게 말이야. 타르코프에선 복수가 유일한 통화고, 놈들이 알아듣는 언어도 그거다.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_3 successMessageText",
+        "source": "Thank you. I like you.",
+        "translation": "고맙다. 마음에 드는군."
+      },
+      {
+        "key": "672e3295e4287b00f37700c1",
+        "source": "Eliminate 10 Scavs on Customs",
+        "translation": "세관에서 스캐브 10명 처치",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "painter_4 name",
+        "source": "Workshop Refurbishment",
+        "translation": "작업장 재정비",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_4 description",
+        "source": "The echoes of my workshop's destruction still resonate, but with your help, I can start the journey towards rebuilding. I've managed to salvage some essential tools and materials, but I need more to bring my workshop back to life. Your task is to scour the outskirts of Tarkov for valuable resources. Search for industrial supplies, rare metals, and electronic components. Beware of the dangers lurking in the shadows, as scavengers and rival factions may try to hinder your progress. Once you've gathered the necessary materials, bring them back to me so we can begin the workshop's refurbishment.",
+        "translation": "내 작업장이 박살 난 뒤의 여운이 아직도 남아 있어. 그래도 네가 도와주면 다시 세울 수 있다. 필수 공구랑 자재 몇 가지는 건졌지만, 작업장을 살려내려면 더 필요해. 타르코프 외곽을 뒤져 산업 자재, 희귀 금속, 전자 부품을 모아와. 그림자 속엔 스캐브나 경쟁 세력이 숨어 있을 테니 조심하고. 필요한 것들을 다 모으면 내게 가져와. 그때부터 재정비를 시작한다.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_4 successMessageText",
+        "source": "You've done it! With these materials, I can finally begin the process of refurbishing my workshop. As a token of my gratitude, take this reward.",
+        "translation": "해냈군. 이 자재면 드디어 작업장 재정비를 시작할 수 있어. 고맙다는 뜻으로 이걸 가져가."
+      },
+      {
+        "key": "painter_4 location",
+        "source": "any",
+        "translation": "모든 지역"
+      },
+      {
+        "key": "672e32c9be76a4ab7682ece9",
+        "source": "Find and handover toolset",
+        "translation": "공구 세트 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "672e32d8386445826a2adfee",
+        "source": "Find and handover bolts",
+        "translation": "볼트 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "672e32e7eb649d0132dfc0db",
+        "source": "Find and handover screw nuts",
+        "translation": "너트 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "painter_5 name",
+        "source": "Radio Silence",
+        "translation": "무전 침묵",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_5 description",
+        "source": "With my workshop running smoothly again, I need to find a more secured way to communicate with my contacts in the field. I've heard rumors of a powerful radio transmitter that can reach all corners of Tarkov. This transmitter will allow me to send and receive critical information, ensuring that my operations run smoothly. Your task is to locate the radio transmitter and bring it back to me. Be cautious, as rival factions may try to intercept the transmitter and prevent you from completing your mission. Once you've secured the transmitter, return to me so we can establish a secure line of communication.",
+        "translation": "작업장이 다시 돌아가기 시작했으니, 현장 연락책들과 더 안전하게 통신할 방법이 필요해. 타르코프 전역까지 닿는 강력한 무선 송신기가 있다는 소문을 들었어. 그게 있으면 중요한 정보를 끊김 없이 주고받을 수 있다. 네 일은 그 송신기를 찾아 내게 가져오는 거야. 경쟁 세력이 가로채려 들 수도 있으니 조심해. 송신기를 확보하면 돌아와. 그걸로 안전한 통신선을 열겠다.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_5 successMessageText",
+        "source": "Great! With this transmitter, I can now communicate with my contacts in the field without any interruptions. Here's a little something for your efforts. I appreciate your help.",
+        "translation": "좋아. 이제 이걸로 현장 연락책들과 끊김 없이 통신할 수 있겠군. 수고비는 챙겨두지. 도와줘서 고맙다."
+      },
+      {
+        "key": "painter_5 location",
+        "source": "any",
+        "translation": "모든 지역"
+      },
+      {
+        "key": "672e33074cd02462a61760a2",
+        "source": "Find and handover COFDM Wireless Signal Transmitter",
+        "translation": "COFDM 무선 신호 송신기 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "painter_6 name",
+        "source": "Dangerous Waters",
+        "translation": "험한 물살",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_6 description",
+        "source": "A group of PMCs has been causing chaos in the Tarkov area, disrupting the fragile balance of power. They've been spreading fear throughout the region. Your mission is to eliminate these bad karma PMCs and bring justice to those who have suffered at their hands. It's time to put an end to their reign of terror. Be prepared for a fierce battle, as these PMCs are well-equipped and highly trained. Once you've neutralized the threat, return to me so we can celebrate the victory and honor the fallen. My intel says they are currently operating in the Shoreline area.",
+        "translation": "PMC 놈들 한 무리가 타르코프를 헤집고 다니며 겨우 유지되던 균형을 깨고 있어. 지역 전체에 공포를 퍼뜨리고 있지. 네 임무는 그 악질 PMC들을 처리하고 놈들 손에 당한 사람들에게 복수해 주는 거다. 이제 그 공포의 지배를 끝내야 해. 놈들은 장비도 좋고 훈련도 잘돼 있으니 거친 싸움이 될 거다. 위협을 정리하면 돌아와. 승리를 기리고 쓰러진 이들도 기억해 주자. 내 정보로는 지금 해안선에서 움직이고 있어.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_6 successMessageText",
+        "source": "Nice. Now, go and get some rest. You've earned it.",
+        "translation": "좋군. 이제 가서 좀 쉬어. 그럴 자격은 충분해."
+      },
+      {
+        "key": "672e334a39064994fc3bd86f",
+        "source": "Eliminate 15 PMCs on Shoreline",
+        "translation": "해안선에서 PMC 15명 처치",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "672e33753bc2b4d394df066d",
+        "source": "Find and handover Gunpowder Kite",
+        "translation": "화약 \"연\" 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "672e338893682a2593697a37",
+        "source": "Find and handover Gunpowder Eagle",
+        "translation": "화약 \"독수리\" 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "672e339460bf295e1f0771b5",
+        "source": "Find and handover Gunpowder Hawk",
+        "translation": "화약 \"매\" 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "672e339f6a58d92a168c9845",
+        "source": "Find and handover Piece of plexiglass",
+        "translation": "플렉시글라스 조각 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "painter_8 name",
+        "source": "Shrink Wrap",
+        "translation": "슈링크 랩",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_8 description",
+        "source": "Hey man... I heard some PMCs are pissed about your involvment with my gambling business. They blame us ripping them off. I mean... I kinda did but I don't know why they choose to invlolve you but here we are. I hear they are ganging up on us right now, please show them your big guns.",
+        "translation": "이봐... 내 도박판에 네가 끼어든 걸 두고 열 받은 PMC들이 있다는 얘길 들었어. 우리가 자기들을 털어먹었다고 생각하더군. 뭐... 아주 틀린 말은 아닌데, 왜 널 같이 물고 늘어지는진 모르겠다. 어쨌든 지금 우리 쪽을 몰아붙이려고 모이고 있다는군. 그러니 네 큰 총들 좀 보여줘.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_8 successMessageText",
+        "source": "You're alive?! Anyways... I need another therapy session.",
+        "translation": "살아 돌아왔네?! 아무튼... 난 상담이나 좀 더 받아야겠다."
+      },
+      {
+        "key": "672e33c986ff5b896eb503cd",
+        "source": "Eliminate 48 PMCs",
+        "translation": "PMC 48명 처치",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "painter_9 name",
+        "source": "The Dark Knight",
+        "translation": "다크 나이트",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_9 description",
+        "source": "Listen up, I need you to track down a very special Batman figurine for me. This isn't just any collectible - it's a crucial component for a unique project I've been working on. While you're out there hunting for it, why not embrace the Dark Knight persona? Take out some scav goons and channel your inner vigilante. Think of it as method acting - become the hero Tarkov needs. The shadows are calling, so gear up and show these criminals what justice looks like!",
+        "translation": "잘 들어. 아주 특별한 배트맨 피규어 하나를 찾아와야 해. 그냥 수집품이 아니야. 내가 준비 중인 특별한 계획에 꼭 필요한 부품이지. 찾으러 나간 김에 다크 나이트 흉내도 좀 내 봐. 스캐브 졸개들을 치워 버리고 네 안의 자경단을 끌어내. 메소드 연기라고 생각해. 타르코프에 필요한 영웅이 되어 보라고. 그림자가 널 부르고 있으니 장비 갖추고 저 범죄자들에게 정의가 뭔지 보여줘.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_9 successMessageText",
+        "source": "Outstanding work, Dark Knight! You've proven yourself worthy of the cape and cowl. With this Batman figurine, my project can finally come to fruition. Gotham... I mean, Tarkov is safer thanks to your efforts. Here's your well-earned reward - consider it payment from a grateful city.",
+        "translation": "끝내주게 해냈군, 다크 나이트. 망토와 가면을 쓸 자격이 충분해. 이 배트맨 피규어 덕분에 내 계획도 드디어 완성될 수 있겠어. 고담... 아니, 타르코프가 네 덕에 좀 더 안전해졌군. 약속한 보상이다. 고마운 도시가 주는 사례금쯤으로 받아 둬."
+      },
+      {
+        "key": "6848f9c9d567f37e6b729842",
+        "source": "Find Batman figurine in raid",
+        "translation": "레이드에서 배트맨 피규어 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6848f9de85ccce5e3a78c9e9",
+        "source": "Handover the Batman figurine",
+        "translation": "배트맨 피규어 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6848f99d34b6c6122c735e05",
+        "source": "Eliminate 20 SCAVs",
+        "translation": "스캐브 20명 처치",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "painter_10 name",
+        "source": "The Final Touch",
+        "translation": "마지막 손질",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_10 description",
+        "source": "You... you actually did it. You made my life—*infinitely*—easier. One final task and I'm out of this forsaken dump. I just need a few more parts to finish my masterpiece: a makeshift helicopter-boat. Don't ask how it works. Just bring the stuff. I *swear* you'll be handsomely rewarded. Like, legendary-tier reward.",
+        "translation": "너... 진짜 해냈구나. 네 덕분에 내 삶이 엄청 편해졌어. 이제 마지막 일 하나만 끝내면 난 이 저주받은 구덩이에서 뜬다. 내 걸작, 그러니까 즉석 헬리콥터 보트를 완성하려면 부품이 몇 개 더 필요해. 어떻게 굴러가냐고 묻진 마. 그냥 물건만 가져와. 보상은 진짜 후하게 챙겨줄 테니까. 전설급으로 말이야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_10 successMessageText",
+        "source": "You absolute unit. A true hero. A god among men. Now, about that reward… So, funny story, I have no idea how to build a helicopter. Or a boat. Or anything like that, really. I just liked the idea. The items are kinda worthless now. I'm useless. But hey! Here's a golden turd. Yup. It's shiny. It's... symbolic. You get it. Anyway, thanks and sorry forever.",
+        "translation": "와, 진짜 대단한 인간이네. 영웅이야. 인간들 사이의 신이고. 그런데 그 보상 말인데... 웃긴 얘기가 하나 있어. 난 헬리콥터를 만들 줄 몰라. 보트도 모르고, 그런 건 전부 하나도 몰라. 그냥 발상 자체가 마음에 들었을 뿐이야. 이제 이 물건들도 거의 쓸모가 없네. 난 답이 없어. 그래도! 여기 황금 똥 하나 받아. 그래, 반짝거리고... 상징적이잖아. 무슨 뜻인진 알겠지. 아무튼 고맙고, 미안하다. 평생."
+      },
+      {
+        "key": "684dce0db74a157e696d440c",
+        "source": "Find and handover Propane tank (5L)",
+        "translation": "프로판 탱크 (5L) 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "684de44841a695c11db3996c",
+        "source": "Find and handover Metal spare parts",
+        "translation": "금속 예비 부품 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "684de575d34628e3dfc940ff",
+        "source": "Find and handover Printed circuit board",
+        "translation": "인쇄 회로 기판 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "684de443e988e5c59b5ec688",
+        "source": "Find and handover Electric motor",
+        "translation": "전기 모터 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "684de44575288597828a1728",
+        "source": "Find and handover Advanced current converter",
+        "translation": "상급 전류 변환기 찾기 및 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "painter_11 name",
+        "source": "Resistance Is Futile",
+        "translation": "저항은 소용없다",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_11 description",
+        "source": "I need you to assemble a weapon for me. It's a special project that requires a unique combination of parts. The weapon will be a powerful tool for my operations in Tarkov, and I need it to be ready as soon as possible. Gather the necessary components and bring them to me. I'll make sure you are well compensated for your efforts. I need an AK-103 with a Magpul PMAG 30-round magazine, AK Vezhlivyy Strelok VS-24 + VS-33c handguard with gas tube, AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip, AK AK-EVO stock, OKP-7 reflex sight (Dovetail). The weapon should have durability over 80. Ergonomics 65 or over, effective distance around 200.",
+        "translation": "무기 하나를 조립해 와. 내 작전에 써먹을 특별한 물건인데, 부품 조합이 까다롭다. 빨리 준비되어야 하니 필요한 구성을 정확히 맞춰서 가져와. 보상은 확실히 챙겨주지. AK-103에 매그풀 PMAG 30발 탄창, AK Vezhlivyy Strelok VS-24 + VS-33c 총열덮개와 가스 튜브, AK Custom Arms AGS-74 PRO + Sniper Kit 권총손잡이, AK AK-EVO 개머리판, OKP-7 반사 조준기(도브테일)를 달아. 내구도는 80 이상, 인체공학은 65 이상, 유효 사거리는 200 정도로 맞춰.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_11 successMessageText",
+        "source": "Excellent work! The weapon is now complete and ready for action. Your efforts have been invaluable, and I appreciate your dedication to this project. Here's your well-deserved reward. Use it wisely.",
+        "translation": "완벽하군. 이제 무기가 완성됐고 바로 써먹을 수 있겠어. 네 손이 많이 갔다. 이 일엔 그만한 값이 있지. 약속한 보상이다. 허투루 쓰진 마."
+      },
+      {
+        "key": "684f142d6734c9fb25ceeecb",
+        "source": "Modify a AK-103 to comply with the given specifications",
+        "translation": "지정된 사양에 맞게 AK-103 개조하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "painter_12 name",
+        "source": "Moscovium",
+        "translation": "모스코븀",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "painter_12 description",
+        "source": "I need you to place a signal jammer at a specific location in Tarkov. I think it would be best to place it in the car with the chemicals on Customs. This jammer will disrupt enemy communications and give us a tactical advantage. The location is heavily guarded, so be prepared for a fight. Once you've placed the jammer, return to me for your reward.",
+        "translation": "타르코프의 특정 지점에 신호 재머를 하나 설치해 줘야겠어. 세관의 화학약품이 든 차 안에 두는 게 제일 좋겠더군. 그 재머가 적 통신을 끊어 놓으면 우리 쪽이 전술적으로 우위를 잡을 수 있어. 위치는 삼엄하게 지켜지고 있으니 싸울 각오는 하고 가. 설치를 마치면 돌아와. 보상은 준비해 두지.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "painter_12 successMessageText",
+        "source": "Mission accomplished. The signal jammer is in place, and our enemies will be scrambling to regain their communications. This will give us a significant edge in that area. Here's your reward for a job well done. I got it from Therapist who got it from... I have no idea but... Keep it very safe.",
+        "translation": "임무 완료다. 신호 재머가 제자리에 들어갔고, 놈들은 통신을 되찾겠다고 허둥대겠지. 그 구역에선 우리 쪽이 확실히 유리해질 거야. 잘 해낸 대가로 보상을 챙겨라. 테라피스트가 준 건데, 그 사람도 어디서 받았는진 모른다더군... 아무튼, 아주 소중히 다뤄."
+      },
+      {
+        "key": "68586394ca1d107631558586",
+        "source": "Place a signal jammer inside the vehicle",
+        "translation": "차량 내부에 신호 재머 설치하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "68586a4d4ca5206d3e5b4c6b",
+        "source": "Survive the raid on Customs",
+        "translation": "세관에서 생존 후 탈출하기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "668aaff35fd574b6dcc4a686 Description",
+        "source": "Painter is a trader who sells unique weapon mods and gear. Also painted weapon parts (incl. whole weapons).",
+        "translation": "페인터는 독특한 무기 부품과 장비를 판매하는 상인입니다. 도색한 무기 부품과 완성된 총기도 취급합니다."
+      },
+      {
+        "key": "668aaff35fd574b6dcc4a686 FullName",
+        "source": "Ivan Samoylov",
+        "translation": "이반 사모일로프"
+      },
+      {
+        "key": "668aaff35fd574b6dcc4a686 FirstName",
+        "source": "Painter",
+        "translation": "페인터"
+      },
+      {
+        "key": "668aaff35fd574b6dcc4a686 Nickname",
+        "source": "Painter",
+        "translation": "페인터"
+      },
+      {
+        "key": "668aaff35fd574b6dcc4a686 Location",
+        "source": "Tarkov Suburbs",
+        "translation": "타르코프 교외"
+      },
+      {
+        "key": "672e2e75d78fe9e90c8cb393 Name",
+        "source": "Batman figurine",
+        "translation": "배트맨 피규어",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "672e2e75d78fe9e90c8cb393 ShortName",
+        "source": "Batman",
+        "translation": "배트맨"
+      },
+      {
+        "key": "672e2e75d78fe9e90c8cb393 Description",
+        "source": "Rare larger figurine of Batman, a superhero of the American comic book publisher DC Comics, Batman.",
+        "translation": "미국 만화 출판사 DC 코믹스의 슈퍼히어로 배트맨을 본뜬 희귀한 대형 피규어입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "684db00229850b2f1f7832c1 Name",
+        "source": "Golden Turd figurine",
+        "translation": "황금 똥 피규어",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "684db00229850b2f1f7832c1 ShortName",
+        "source": "Turd",
+        "translation": "똥"
+      },
+      {
+        "key": "684db00229850b2f1f7832c1 Description",
+        "source": "Awarded to the master of annoying tasks, it is said that it was made from the golden poop of a dodo bird.",
+        "translation": "짜증 나는 일을 완수한 달인에게 수여되는 피규어로, 도도새의 황금 똥으로 만들었다고 전해집니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "685867727d49afb420c2b29e Name",
+        "source": "Moscovium (Material 115)",
+        "translation": "모스코븀 (물질 115)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "685867727d49afb420c2b29e ShortName",
+        "source": "MC-115",
+        "translation": "MC-115"
+      },
+      {
+        "key": "685867727d49afb420c2b29e Description",
+        "source": "Sealed compound made from Moscovium, a synthetic element with atomic number 115, known for its unique properties. Does it bend space and time? Who knows.",
+        "translation": "원자 번호 115의 합성 원소인 모스코븀으로 만든 밀봉 화합물입니다. 독특한 성질로 알려져 있습니다. 시공간을 휘게 만들까요? 누가 알겠습니까.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "668ff5bde41a0cce3b142464 Name",
+        "source": "Painter's Special Delivery",
+        "translation": "페인터의 특별 배송품",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "668ff5bde41a0cce3b142464 ShortName",
+        "source": "Painter Lootbox",
+        "translation": "페인터 전리품 상자"
+      },
+      {
+        "key": "668ff5bde41a0cce3b142464 Description",
+        "source": "A lootbox filled with 20 items, including some of the most sought after barter items. Get a LEDX or go broke. The choise is yours.",
+        "translation": "인기 높은 교환용 아이템을 포함해 총 20개의 아이템이 들어 있는 전리품 상자입니다. LEDX를 얻을 수도, 빈털터리가 될 수도 있습니다. 선택은 당신 몫입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6699546547ad52e0fccf6da9 Name",
+        "source": "Painter's War Box",
+        "translation": "페인터의 전쟁 상자",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6699546547ad52e0fccf6da9 ShortName",
+        "source": "Painter Warbox",
+        "translation": "페인터 전쟁 상자"
+      },
+      {
+        "key": "6699546547ad52e0fccf6da9 Description",
+        "source": "A lootbox filled with various items, some of the most sought after military items.",
+        "translation": "인기 높은 군용 아이템을 포함한 여러 물품이 들어 있는 전리품 상자입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "616041eb031af660100c9967 successMessageText 668aaff35fd574b6dcc4a686 0",
+        "source": "Marvelous, young man. Thank you for the work.",
+        "translation": "훌륭하군, 젊은 친구. 수고했어."
+      },
+      {
+        "key": "616041eb031af660100c9967 description 668aaff35fd574b6dcc4a686 0",
+        "source": "Ah, mercenary, do you want to do a good deed? My clients are asking to ensure a safe area to conduct a specific secret operation. I would like to appoint you for this, as you are the most competent of the local workers. You will have to survey the area and report back to me. Good luck.",
+        "translation": "이봐, 용병. 좋은 일 하나 해볼 생각 있나? 내 고객들이 어떤 비밀 작전을 진행할 구역을 안전하게 확보해 달라고 하더군. 이 동네에서 네가 제일 믿을 만하니 맡기지. 구역을 둘러보고 돌아와서 보고해. 행운을 빌지."
+      },
+      {
+        "key": "61604635c725987e815b1a46 successMessageText 668aaff35fd574b6dcc4a686 0",
+        "source": "There you are! You got everything? Good stuff.",
+        "translation": "왔군. 필요한 건 다 챙겼어? 좋아."
+      },
+      {
+        "key": "61604635c725987e815b1a46 description 668aaff35fd574b6dcc4a686 0",
+        "source": "I have a mission for you. I need you to gather some items for me. You up for it?",
+        "translation": "일 하나 있다. 물건 좀 모아 와야 해. 할 수 있겠지?"
+      },
+      {
+        "key": "616052ea3054fc0e2c24ce6e successMessageText 668aaff35fd574b6dcc4a686 0",
+        "source": "A damn beast you are, hehe. Good work, here's your share.",
+        "translation": "아주 괴물이 따로 없군, 하하. 잘했어. 여기 네 몫이다."
+      },
+      {
+        "key": "616052ea3054fc0e2c24ce6e description 668aaff35fd574b6dcc4a686 0",
+        "source": "I have a mission for you. I need you to eliminate some trash from Tarkov's streets. You up for it?",
+        "translation": "일 하나 있다. 타르코프 거리의 쓰레기 좀 치워 줘. 할 수 있겠지?"
+      }
+    ]
+  }
+}

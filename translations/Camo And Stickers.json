@@ -1,0 +1,608 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "7Bpencil.WeaponCamoAndStickers.UI",
+  "mod_name": "Camo And Stickers",
+  "channels": {
+    "ui_literals": [
+      {
+        "id": "ui_texture",
+        "source": "Texture",
+        "translation": "텍스처",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_mask",
+        "source": "Mask",
+        "translation": "마스크",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_camos",
+        "source": "Camos",
+        "translation": "위장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_stickers",
+        "source": "Stickers",
+        "translation": "스티커",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_hide_presets",
+        "source": "Hide Presets",
+        "translation": "프리셋 숨기기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_show_presets",
+        "source": "Show Presets",
+        "translation": "프리셋 보기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_random_camo",
+        "source": "Generate Random Camo",
+        "translation": "무작위 위장 생성",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_add_eraser",
+        "source": "Add Eraser",
+        "translation": "지우개 추가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_add_paint",
+        "source": "Add Paint",
+        "translation": "도색 추가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_back",
+        "source": "Back",
+        "translation": "뒤로",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_decal_name",
+        "source": "enter decal name (optional)",
+        "translation": "데칼 이름 (선택)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_mirror_lr",
+        "source": "mirror left/right",
+        "translation": "좌우 대칭",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_round",
+        "source": "round",
+        "translation": "반올림",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_fix_scale",
+        "source": "fix scale",
+        "translation": "스케일 보정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_flip_horz",
+        "source": "flip horz",
+        "translation": "좌우 반전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_flip_vert",
+        "source": "flip vert",
+        "translation": "상하 반전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_flip_dir",
+        "source": "flip dir",
+        "translation": "방향 반전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_reset",
+        "source": "reset",
+        "translation": "초기화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_fix_uv",
+        "source": "fix UV",
+        "translation": "UV 보정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_opacity",
+        "source": "Opacity:",
+        "translation": "불투명도:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_max_angle",
+        "source": "Max Angle:",
+        "translation": "최대 각도:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_max_alpha",
+        "source": "Max Alpha:",
+        "translation": "최대 알파:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_new_preset",
+        "source": "enter new preset name",
+        "translation": "새 프리셋 이름",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_no_presets",
+        "source": "No Presets Available",
+        "translation": "프리셋 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_no_items",
+        "source": "No Suitable Items",
+        "translation": "적합한 아이템 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_add_sticker",
+        "source": "Add Sticker",
+        "translation": "스티커 추가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_close",
+        "source": "Close",
+        "translation": "닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ui_select_bone_prefix",
+        "source": "Select Bone | ",
+        "translation": "뼈 선택 | ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_spine_1",
+        "source": "Spine 1",
+        "translation": "척추 1",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_spine_2",
+        "source": "Spine 2",
+        "translation": "척추 2",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_spine_3",
+        "source": "Spine 3",
+        "translation": "척추 3",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_neck",
+        "source": "Neck",
+        "translation": "목",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_head",
+        "source": "Head",
+        "translation": "머리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_right_upperarm",
+        "source": "Right Upperarm",
+        "translation": "오른쪽 위팔",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_left_upperarm",
+        "source": "Left Upperarm",
+        "translation": "왼쪽 위팔",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_pelvis",
+        "source": "Pelvis",
+        "translation": "골반",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_right_thigh_1",
+        "source": "Right Thigh 1",
+        "translation": "오른쪽 허벅지 1",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_right_thigh_2",
+        "source": "Right Thigh 2",
+        "translation": "오른쪽 허벅지 2",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_right_calf",
+        "source": "Right Calf",
+        "translation": "오른쪽 종아리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_right_foot",
+        "source": "Right Foot",
+        "translation": "오른쪽 발",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_right_toe",
+        "source": "Right Toe",
+        "translation": "오른쪽 발가락",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_left_thigh_1",
+        "source": "Left Thigh 1",
+        "translation": "왼쪽 허벅지 1",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_left_thigh_2",
+        "source": "Left Thigh 2",
+        "translation": "왼쪽 허벅지 2",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_left_calf",
+        "source": "Left Calf",
+        "translation": "왼쪽 종아리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_left_foot",
+        "source": "Left Foot",
+        "translation": "왼쪽 발",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bone_left_toe",
+        "source": "Left Toe",
+        "translation": "왼쪽 발가락",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_color_tab",
+        "source": "Color",
+        "translation": "색상",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_color",
+        "source": "Color:",
+        "translation": "색상:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_def_x",
+        "source": "Def Vals X:",
+        "translation": "기본값 X:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_def_y",
+        "source": "Def Vals Y:",
+        "translation": "기본값 Y:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_glossness",
+        "source": "Glossness:",
+        "translation": "광택:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_spec_color",
+        "source": "Specular Color:",
+        "translation": "스페큘러 색상:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_specularness",
+        "source": "Specularness:",
+        "translation": "스페큘러 강도:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_spec_x",
+        "source": "Spec Vals X:",
+        "translation": "스페큘러 값 X:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_spec_y",
+        "source": "Spec Vals Y:",
+        "translation": "스페큘러 값 Y:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_reflect_color",
+        "source": "Reflect Color:",
+        "translation": "반사 색상:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_uv_angle",
+        "source": "UV angle:",
+        "translation": "UV 각도:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_uv_x",
+        "source": "UV x:",
+        "translation": "UV X:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_uv_y",
+        "source": "UV y:",
+        "translation": "UV Y:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_uv_scale_x",
+        "source": "UV scale X:",
+        "translation": "UV 스케일 X:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_uv_scale_y",
+        "source": "UV scale Y:",
+        "translation": "UV 스케일 Y:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_uv_scale",
+        "source": "UV scale:",
+        "translation": "UV 스케일:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_compensate_specular",
+        "source": "Compensate missing specular map in alpha channel",
+        "translation": "알파 스페큘러 누락 보정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_default",
+        "source": "default",
+        "translation": "기본값",
+        "match_mode": "exact"
+      }
+    ],
+    "external_ui_literals": [
+      {
+        "id": "context_apply_paint",
+        "source": "APPLY PAINT",
+        "translation": "도색 적용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "context_change_material",
+        "source": "CHANGE MATERIAL",
+        "translation": "재질 변경",
+        "match_mode": "exact"
+      },
+      {
+        "id": "paintable_items_tooltip",
+        "source": "Only following items can be painted: Weapons, Knives, Helmets, Facemasks, Containers",
+        "translation": "도색 가능: 무기, 칼, 헬멧, 안면 장비, 컨테이너",
+        "match_mode": "exact"
+      },
+      {
+        "id": "unsupported_item_editor",
+        "source": "You can put stickers on this item on Overall screen, or change material to apply camo",
+        "translation": "이 아이템은 전체 화면에서 스티커를 붙이거나 재질 변경 후 위장을 적용할 수 있습니다.",
+        "match_mode": "exact"
+      }
+    ],
+    "equipment_placements": [
+      {
+        "id": "placement_forehead",
+        "source": "Forehead",
+        "translation": "이마",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_right",
+        "source": "Right",
+        "translation": "오른쪽",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_left",
+        "source": "Left",
+        "translation": "왼쪽",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_back",
+        "source": "Back",
+        "translation": "후면",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_top",
+        "source": "Top",
+        "translation": "상단",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_cheek_right",
+        "source": "Cheek Right",
+        "translation": "오른쪽 볼",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_cheek_left",
+        "source": "Cheek Left",
+        "translation": "왼쪽 볼",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_neck_right",
+        "source": "Neck Right",
+        "translation": "목 오른쪽",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_neck_left",
+        "source": "Neck Left",
+        "translation": "목 왼쪽",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_neck_back",
+        "source": "Neck Back",
+        "translation": "목 뒤",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_chest_front",
+        "source": "Chest Front",
+        "translation": "가슴 앞",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_chest_back",
+        "source": "Chest Back",
+        "translation": "가슴 뒤",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_abdomen_front",
+        "source": "Abdomen Front",
+        "translation": "복부 앞",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_abdomen_right",
+        "source": "Abdomen Right",
+        "translation": "복부 오른쪽",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_abdomen_left",
+        "source": "Abdomen Left",
+        "translation": "복부 왼쪽",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_abdomen_back",
+        "source": "Abdomen Back",
+        "translation": "복부 뒤",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_groin_front",
+        "source": "Groin Front",
+        "translation": "사타구니 앞",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_groin_back",
+        "source": "Groin Back",
+        "translation": "사타구니 뒤",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_upperarm_right",
+        "source": "Upperarm Right",
+        "translation": "오른쪽 위팔",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_upperarm_left",
+        "source": "Upperarm Left",
+        "translation": "왼쪽 위팔",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_pelvis",
+        "source": "Pelvis",
+        "translation": "골반",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_right_thigh_1",
+        "source": "Right Thigh 1",
+        "translation": "오른쪽 허벅지 1",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_right_thigh_2",
+        "source": "Right Thigh 2",
+        "translation": "오른쪽 허벅지 2",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_right_calf",
+        "source": "Right Calf",
+        "translation": "오른쪽 종아리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_right_foot",
+        "source": "Right Foot",
+        "translation": "오른쪽 발",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_right_toe",
+        "source": "Right Toe",
+        "translation": "오른쪽 발가락",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_left_thigh_1",
+        "source": "Left Thigh 1",
+        "translation": "왼쪽 허벅지 1",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_left_thigh_2",
+        "source": "Left Thigh 2",
+        "translation": "왼쪽 허벅지 2",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_left_calf",
+        "source": "Left Calf",
+        "translation": "왼쪽 종아리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_left_foot",
+        "source": "Left Foot",
+        "translation": "왼쪽 발",
+        "match_mode": "exact"
+      },
+      {
+        "id": "placement_left_toe",
+        "source": "Left Toe",
+        "translation": "왼쪽 발가락",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

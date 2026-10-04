@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.tylevo.tacticalservicescontrol",
+  "plugin_name": "Tactical Services Control",
+  "categories": [
+    {
+      "source": "UAV Radar Display",
+      "translation": "UAV 레이더 표시"
+    },
+    {
+      "source": "Helicopter Cargo",
+      "translation": "헬리콥터 화물"
+    },
+    {
+      "source": "TerraGroup Phone",
+      "translation": "테라그룹 전화기"
+    },
+    {
+      "source": "TerraGroup Phone Animation",
+      "translation": "테라그룹 전화기 애니메이션"
+    },
+    {
+      "source": "TSC Dashboard",
+      "translation": "TSC 대시보드"
+    }
+  ],
+  "entries": [
+    {
+      "section": "UAV Radar Display",
+      "key": "Display mode",
+      "source_display_name": "Display mode",
+      "source_description": "Choose whether an active UAV recon feed is viewed on the physical TSC Uplink phone or displayed continuously as a screen HUD.",
+      "translation_display_name": "표시 방식",
+      "translation_description": "활성 UAV 정찰 정보를 실제 TSC 업링크 전화기 화면에서 볼지, 화면 HUD에 계속 표시할지 선택합니다.",
+      "values": [
+        {
+          "source": "Phone",
+          "translation": "전화기"
+        },
+        {
+          "source": "HUD",
+          "translation": "HUD"
+        }
+      ]
+    },
+    {
+      "section": "UAV Radar Display",
+      "key": "HUD position",
+      "source_display_name": "HUD position",
+      "source_description": "Screen corner used in HUD mode. This setting has no effect in Phone mode.",
+      "translation_display_name": "HUD 위치",
+      "translation_description": "HUD 모드에서 사용할 화면 모서리를 선택합니다. 전화기 모드에서는 적용되지 않습니다.",
+      "values": [
+        {
+          "source": "TopLeft",
+          "translation": "왼쪽 위"
+        },
+        {
+          "source": "TopRight",
+          "translation": "오른쪽 위"
+        },
+        {
+          "source": "BottomLeft",
+          "translation": "왼쪽 아래"
+        },
+        {
+          "source": "BottomRight",
+          "translation": "오른쪽 아래"
+        }
+      ]
+    },
+    {
+      "section": "Helicopter Cargo",
+      "key": "Enable mid-raid item transfer",
+      "source_display_name": "Enable mid-raid item transfer",
+      "source_description": "Enables the UH-60 Cargo Transfer service and its requester-only loading interaction in solo raids and for a human Fika host. Turning this off also blocks Cargo purchase and deployment so an authorization cannot be spent on an unusable helicopter. Standard Extraction helicopters never offer cargo. The native EFT transfer screen and delivery ledger are used; transferred items are returned through the native delivery message after the raid. Non-host Fika clients remain fail-closed until native cargo transactions and delivery can be synchronized with the host.",
+      "translation_display_name": "레이드 중 물품 이송 활성화",
+      "translation_description": "솔로 레이드와 사람 Fika 호스트에서 UH-60 화물 이송 서비스 및 요청자 전용 적재 상호작용을 활성화합니다. 끄면 사용할 수 없는 헬리콥터에 승인을 소비하지 않도록 화물 서비스의 구매와 사용도 차단됩니다. 일반 탈출 헬리콥터는 화물을 취급하지 않습니다. EFT 기본 이송 화면과 배송 기록을 사용하며, 이송한 물품은 레이드 종료 후 기본 배송 메시지를 통해 반환됩니다. 기본 화물 거래와 배송을 호스트와 동기화할 수 있을 때까지 비호스트 Fika 클라이언트에서는 사용할 수 없습니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Open uplink key",
+      "source_display_name": "Open uplink key",
+      "source_description": "Equips the carried TerraGroup TSC Uplink to purchase TerraGroup support authorizations",
+      "translation_display_name": "업링크 열기 키",
+      "translation_description": "휴대 중인 테라그룹 TSC 업링크를 꺼내 테라그룹 지원 승인을 구매합니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Open deploy key",
+      "source_display_name": "Open deploy key",
+      "source_description": "Equips the carried TerraGroup TSC Uplink in deploy mode to use purchased support authorizations",
+      "translation_display_name": "지원 사용 키",
+      "translation_description": "휴대 중인 테라그룹 TSC 업링크를 지원 사용 모드로 꺼내 구매한 지원 승인을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Hold UAV radar key",
+      "source_display_name": "Hold UAV radar key",
+      "source_description": "In Phone display mode, hold to raise the TerraGroup TSC Uplink and view an active UAV recon link; release to restore your weapon",
+      "translation_display_name": "UAV 레이더 유지 키",
+      "translation_description": "전화기 표시 모드에서 길게 누르면 테라그룹 TSC 업링크를 들어 활성 UAV 정찰 링크를 확인합니다. 키를 놓으면 무기로 돌아갑니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Spotter confirm key",
+      "source_display_name": "Spotter confirm key",
+      "source_description": "Confirms spotter targeting steps (position, direction). LMB also confirms while the rangefinder is in hands, but with a weapon out it would fire, so this key is the safe confirm. Enter always works too.",
+      "translation_display_name": "표적지시 확인 키",
+      "translation_description": "표적지시 단계의 위치와 방향을 확인합니다. 거리측정기를 들고 있을 때는 마우스 왼쪽 버튼으로도 확인할 수 있지만, 무기를 든 상태에서는 발사되므로 이 키를 안전한 확인 키로 사용합니다. Enter 키도 항상 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Phone mouse selection",
+      "source_display_name": "Phone mouse selection",
+      "source_description": "Hold the phone mouse key to move a cursor on interactive phone screens. Click a service to select it, then use its review or confirmation button. Keyboard shortcuts remain available.",
+      "translation_display_name": "전화기 마우스 선택",
+      "translation_description": "전화기 마우스 키를 누른 채 상호작용 가능한 전화기 화면에서 커서를 움직입니다. 서비스를 클릭해 선택한 뒤 검토 또는 확인 버튼을 사용합니다. 키보드 단축키도 계속 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Phone mouse key",
+      "source_display_name": "Phone mouse key",
+      "source_description": "Hold this key while using the phone to control its cursor. Release to return mouse movement to looking around. Right-click goes back while held.",
+      "translation_display_name": "전화기 마우스 키",
+      "translation_description": "전화기를 사용하는 동안 이 키를 누르고 있으면 커서를 조작합니다. 키를 놓으면 마우스로 시점을 조작하게 됩니다. 누른 상태에서 마우스 오른쪽 버튼을 클릭하면 뒤로 갑니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Phone mouse sensitivity",
+      "source_display_name": "Phone mouse sensitivity",
+      "source_description": "Speed of the cursor drawn on the phone screen.",
+      "translation_display_name": "전화기 마우스 감도",
+      "translation_description": "전화기 화면에 표시되는 커서의 이동 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Automatic phone zoom",
+      "source_display_name": "Automatic phone zoom",
+      "source_description": "Optionally narrows the camera FOV on authorization purchase screens and enables phone framing. Sprinting eases back to the raid view; stopping restores the purchase zoom. Deploy and held UAV radar screens always preserve the current raid FOV.",
+      "translation_display_name": "전화기 자동 확대",
+      "translation_description": "지원 승인 구매 화면에서 카메라 시야각을 좁히고 전화기 화면 구도를 조정합니다. 달리기 중에는 레이드 시야로 부드럽게 돌아가며, 멈추면 구매 화면 확대 상태로 복귀합니다. 지원 사용 화면과 UAV 레이더 유지 화면은 현재 레이드 시야각을 그대로 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Phone zoom FOV",
+      "source_display_name": "Phone zoom FOV",
+      "source_description": "Camera FOV used on authorization purchase screens. Deploy and held UAV radar screens do not zoom. Lower values make the authorization phone appear larger.",
+      "translation_display_name": "전화기 확대 시야각",
+      "translation_description": "지원 승인 구매 화면에서 사용하는 카메라 시야각입니다. 지원 사용 화면과 UAV 레이더 유지 화면은 확대되지 않습니다. 값이 낮을수록 전화기가 더 크게 보입니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Phone vertical framing",
+      "source_display_name": "Phone vertical framing",
+      "source_description": "Raises or lowers the first-person phone while automatic phone zoom is active. Positive values raise the phone toward screen center; negative values lower it.",
+      "translation_display_name": "전화기 수직 위치",
+      "translation_description": "전화기 자동 확대가 활성화된 동안 1인칭 전화기의 세로 위치를 조정합니다. 양수는 화면 중앙 쪽으로 올리고, 음수는 아래로 내립니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Phone zoom in seconds",
+      "source_display_name": "Phone zoom in seconds",
+      "source_description": "Time for authorization phone zoom and framing to ease into place as the phone is raised. Sprinting out of zoom and returning to it use this same duration. Higher values give a slower, smoother approach. Deploy and held UAV radar screens retain their current FOV.",
+      "translation_display_name": "전화기 확대 시간(초)",
+      "translation_description": "전화기를 들 때 지원 승인 화면의 확대와 구도가 자리 잡는 데 걸리는 시간입니다. 달리기로 확대 상태를 벗어나거나 다시 돌아올 때도 같은 시간이 사용됩니다. 값이 높을수록 더 느리고 부드럽게 전환됩니다. 지원 사용 화면과 UAV 레이더 유지 화면은 현재 시야각을 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Phone zoom out seconds",
+      "source_display_name": "Phone zoom out seconds",
+      "source_description": "Camera transition time when restoring your original FOV after closing the authorization phone.",
+      "translation_display_name": "전화기 축소 시간(초)",
+      "translation_description": "지원 승인 전화기를 닫은 뒤 원래 시야각으로 돌아가는 데 걸리는 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone",
+      "key": "Phone horizontal framing",
+      "source_display_name": "Phone horizontal framing",
+      "source_description": "Moves the first-person phone horizontally while automatic phone zoom is active. Positive values move the phone right; negative values move it left.",
+      "translation_display_name": "전화기 수평 위치",
+      "translation_description": "전화기 자동 확대가 활성화된 동안 1인칭 전화기의 가로 위치를 조정합니다. 양수는 오른쪽, 음수는 왼쪽으로 이동합니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone Animation",
+      "key": "Deploy pose normalized time",
+      "source_display_name": "Deploy pose normalized time",
+      "source_description": "Outro animation normalizedTime where the deploy phone freezes. Lower values freeze earlier (hand lower on the screen); the payment swipe pose is at 0.36.",
+      "translation_display_name": "지원 사용 자세 정규화 시간",
+      "translation_description": "지원 사용 전화기가 멈추는 종료 애니메이션의 normalizedTime 값입니다. 값이 낮을수록 더 일찍 멈추며 손이 화면 아래쪽에 위치합니다. 결제 스와이프 자세는 0.36입니다.",
+      "values": []
+    },
+    {
+      "section": "TerraGroup Phone Animation",
+      "key": "Deploy hide right hand",
+      "source_display_name": "Deploy hide right hand",
+      "source_description": "Hides the free right hand while the deploy selector is held. The swipe animation has no natural resting pose for it, so it otherwise hovers next to the phone.",
+      "translation_display_name": "지원 사용 시 오른손 숨기기",
+      "translation_description": "지원 선택 화면을 유지하는 동안 비어 있는 오른손을 숨깁니다. 스와이프 애니메이션에는 자연스러운 대기 자세가 없어, 이 옵션을 끄면 오른손이 전화기 옆에 떠 있게 됩니다.",
+      "values": []
+    },
+    {
+      "section": "TSC Dashboard",
+      "key": "Configure TSC at",
+      "source_display_name": "Configure TSC at",
+      "source_description": "TSC server, payment, UAV, helicopter, and support pricing settings are managed by the local web dashboard. Localhost-only by default; do not port-forward it.",
+      "translation_display_name": "TSC 설정 주소",
+      "translation_description": "TSC 서버, 결제, UAV, 헬리콥터 및 지원 가격 설정은 로컬 웹 대시보드에서 관리합니다. 기본적으로 localhost 전용이며 포트 포워딩하지 마십시오.",
+      "values": []
+    }
+  ]
+}
