@@ -4,15 +4,11 @@ SPT 4.1.6용 모드 번역 애드온입니다. 부모 모드 SPT Korean Project 
 
 ## 안내 문서
 
-- [지원 모드 목록](docs/번역지원모드목록_목록만.md)
 - [모드별 번역 범위](docs/번역지원모드목록.md)
 - [번역 작업안내서](docs/번역작업안내서.md)
 - [현재 JSON 및 표시 규격](docs/TRANSLATION_FORMAT.md)
 - [최신 변경사항과 설치 주의점](docs/LOCALE_DISPLAY_1.0.0_KO.md)
-- [모드별 파일 통합표](docs/MERGED_TRANSLATIONS_1.7.16.md)
-- [부모 표시 패턴 분석](docs/PARENT_PATTERN_AUDIT_1.7.14.md)
-- [퀘스트 패턴 분석](docs/QUEST_PATTERN_REAUDIT_20261003.md)
-
+  
 ## 현재 표시 규칙
 
 - 아이템 이름: 한국어는 번역 이름, 한영병기는 번역 이름 뒤 줄바꿈 괄호 원문.
