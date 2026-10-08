@@ -350,6 +350,368 @@
         "key": "6910e1cbbd20f63a9791742e Description",
         "source": "The .700 Nitro Express (17.8×89mmR) is a big game rifle cartridge made by Holland & Holland, London, England. It was developed in 1988 by Jim Bell and William Feldstein and built by H&H. The recoil is substantial, and the rifle is only available from H&H as a bespoke item. The .700 Nitro Express is a straight rimmed cartridge designed for use in single-shot and double rifles.",
         "translation": ".700 Nitro Express(17.8×89mmR)는 영국 런던의 홀랜드 & 홀랜드(Holland & Holland)가 제작하는 대형 사냥용 소총탄입니다. 1988년 짐 벨(Jim Bell)과 윌리엄 펠드스타인(William Feldstein)이 개발했고 H&H가 제작했습니다. 반동이 상당하며, 해당 소총은 H&H에서 주문 제작품으로만 구할 수 있습니다. .700 Nitro Express는 단발 및 쌍열 소총에 사용하도록 설계된 직선형 림드 탄약입니다."
+      },
+      {
+        "key": "25c870f3b572c2f2db00bfb8 Name",
+        "source": ".700 Nitro Express SP \"Mammoth\"",
+        "translation": ".700 Nitro Express SP \"맘모스\"",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "25c870f3b572c2f2db00bfb8 ShortName",
+        "source": ".700 SP",
+        "translation": ".700 SP"
+      },
+      {
+        "key": "25c870f3b572c2f2db00bfb8 Description",
+        "source": "A custom .700 Nitro Express soft-point cartridge nicknamed \"Mammoth\". Its shortened projectile has an exposed lead nose, prioritizing severe damage to unarmored targets over penetration of protective plates.",
+        "translation": "“맘모스”라는 별명이 붙은 커스텀 .700 Nitro Express 소프트 포인트 탄약입니다. 짧아진 탄두의 납 끝이 노출되어 있어 방탄판 관통력보다 비장갑 표적에 대한 강력한 피해를 우선합니다."
+      },
+      {
+        "key": "2469576cb545e234792b3d35 Name",
+        "source": ".700 Nitro Express AP \"Goliath\"",
+        "translation": ".700 Nitro Express AP \"골리앗\""
+      },
+      {
+        "key": "2469576cb545e234792b3d35 ShortName",
+        "source": ".700 AP",
+        "translation": ".700 AP"
+      },
+      {
+        "key": "2469576cb545e234792b3d35 Description",
+        "source": "An experimental armor-piercing .700 Nitro Express cartridge nicknamed \"Goliath\". A narrow, pointed hardened penetrator is held in a four-segment polymer sabot inside a brass case. This costly custom load trades some of the cartridge's devastating soft-target damage for substantially improved armor penetration.",
+        "translation": "“골리앗”이라는 별명이 붙은 실험형 .700 Nitro Express 철갑탄입니다. 가늘고 뾰족한 경화 관통자가 황동 탄피 안의 4분할 폴리머 사봇에 고정되어 있습니다. 값비싼 커스텀 탄약으로, 연질 표적에 대한 막대한 피해 일부를 희생하는 대신 장갑 관통력을 크게 높였습니다."
+      },
+      {
+        "key": "dcbc76154efbfbc64506f30e Name",
+        "source": ".700 Nitro Express buckshot \"Cerberus\"",
+        "translation": ".700 Nitro Express 벅샷 \"케르베로스\""
+      },
+      {
+        "key": "dcbc76154efbfbc64506f30e ShortName",
+        "source": ".700 CB",
+        "translation": ".700 CB"
+      },
+      {
+        "key": "dcbc76154efbfbc64506f30e Description",
+        "source": "A custom multi-projectile .700 Nitro Express cartridge nicknamed \"Cerberus\". Eight heavy pellets replace the single rifle projectile, producing a devastating close-range spread at the cost of precision and armor penetration. A short red polymer closure and a red case band identify the load.",
+        "translation": "“케르베로스”라는 별명이 붙은 커스텀 다중 발사체 .700 Nitro Express 탄약입니다. 단일 소총 탄두 대신 무거운 산탄 8개를 사용해 근거리에서 파괴적인 탄막을 만들지만, 정밀도와 장갑 관통력은 떨어집니다. 짧은 적색 폴리머 마개와 탄피의 적색 띠로 구분할 수 있습니다."
+      },
+      {
+        "key": "6ac0247305055ccd3b93f729 Name",
+        "source": "MP-18 7.62x54R 600mm threaded barrel",
+        "translation": "MP-18 7.62x54R 600mm 나사산 총열"
+      },
+      {
+        "key": "6ac0247305055ccd3b93f729 ShortName",
+        "source": "MP-18 600mm thr.",
+        "translation": "MP-18 600mm 나사산"
+      },
+      {
+        "key": "6ac0247305055ccd3b93f729 Description",
+        "source": "A 600mm barrel for the MP-18 7.62x54R single-shot rifle, machined with muzzle threading at the front. Takes the SV-98 muzzle devices and the modern 7.62x51 direct-thread muzzle devices.",
+        "translation": "MP-18 7.62x54R 단발 소총용 600mm 총열로, 총구 앞쪽에 나사산이 가공되어 있습니다. SV-98용 총구 장치와 최신 7.62x51 직결식 총구 장치를 장착할 수 있습니다."
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8774 Name",
+        "source": "Rock Island Armory VR80 12ga semi-automatic shotgun",
+        "translation": "Rock Island Armory VR80 12게이지 반자동 산탄총"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8774 ShortName",
+        "source": "VR80",
+        "translation": "VR80"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8774 Description",
+        "source": "The VR80 is a gas-operated, magazine-fed 12 gauge semi-automatic shotgun marketed by Rock Island Armory. Its AR-style layout brings familiar controls and a flat-top optics rail to a shotgun platform. Detachable box magazines keep reloads straightforward, while the M-LOK handguard provides mounting points for accessories. This factory configuration uses a 508mm barrel and a stock with an integrated pistol grip.",
+        "translation": "VR80은 Rock Island Armory에서 판매하는 가스 작동식 탄창 급탄 12게이지 반자동 산탄총입니다. AR 계열과 비슷한 구조로 익숙한 조작계와 평평한 상부 광학 레일을 갖췄습니다. 탈착식 박스 탄창으로 재장전이 간편하며, M-LOK 총열덮개에는 각종 액세서리를 장착할 수 있습니다. 이 공장 출고형은 508mm 총열과 권총손잡이 일체형 개머리판을 사용합니다."
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8775 Name",
+        "source": "VR80 12ga 5-round magazine",
+        "translation": "5발, VR80 12게이지 탄창"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8775 ShortName",
+        "source": "VR80 5",
+        "translation": "VR80 5"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8775 Description",
+        "source": "A detachable 5-round box magazine for the Rock Island Armory VR80 12ga shotgun. The factory-capacity magazine keeps the weapon relatively compact and accepts 12/70 ammunition.",
+        "translation": "Rock Island Armory VR80 12게이지 산탄총용 탈착식 5발 박스 탄창입니다. 공장 표준 용량으로 무기의 크기를 비교적 작게 유지하며 12/70 탄약을 사용할 수 있습니다."
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8776 Name",
+        "source": "VR80 12ga 10-round magazine",
+        "translation": "10발, VR80 12게이지 탄창"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8776 ShortName",
+        "source": "VR80 10",
+        "translation": "VR80 10"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8776 Description",
+        "source": "An extended 10-round box magazine for the Rock Island Armory VR80 12ga shotgun. It doubles the capacity of the factory 5-round magazine at the cost of a longer magazine body.",
+        "translation": "Rock Island Armory VR80 12게이지 산탄총용 확장형 10발 박스 탄창입니다. 공장 표준 5발 탄창의 두 배 용량을 제공하지만 탄창 몸체가 더 길어집니다."
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8777 Name",
+        "source": "VR80 stock with pistol grip",
+        "translation": "VR80 권총손잡이 일체형 개머리판"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8777 ShortName",
+        "source": "VR80",
+        "translation": "VR80"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8777 Description",
+        "source": "The factory polymer stock assembly for the Rock Island Armory VR80 shotgun. The stock and pistol grip form a single unit, with a rubber buttpad at the shoulder.",
+        "translation": "Rock Island Armory VR80 산탄총용 공장제 폴리머 개머리판 어셈블리입니다. 개머리판과 권총손잡이가 하나의 부품으로 구성되어 있으며 어깨 부분에는 고무 패드가 달려 있습니다."
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8778 Name",
+        "source": "VR80 12ga 508mm barrel",
+        "translation": "VR80 12게이지 508mm 총열"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8778 ShortName",
+        "source": "VR80 508mm",
+        "translation": "VR80 508mm"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8778 Description",
+        "source": "A 508mm (20 inch) factory-profile barrel for the Rock Island Armory VR80 12ga semi-automatic shotgun.",
+        "translation": "Rock Island Armory VR80 12게이지 반자동 산탄총용 508mm(20인치) 공장 규격 총열입니다."
+      },
+      {
+        "key": "6ac179398c908bb02fb9a036 Name",
+        "source": "VR80 12ga 508mm threaded barrel",
+        "translation": "VR80 12게이지 508mm 나사산 총열"
+      },
+      {
+        "key": "6ac179398c908bb02fb9a036 ShortName",
+        "source": "VR80 508mm thr.",
+        "translation": "VR80 508mm 나사산"
+      },
+      {
+        "key": "6ac179398c908bb02fb9a036 Description",
+        "source": "A 508mm (20 inch) factory-profile barrel for the Rock Island Armory VR80 12ga semi-automatic shotgun, with an internal thread at the muzzle for choke tubes and muzzle adapters.",
+        "translation": "Rock Island Armory VR80 12게이지 반자동 산탄총용 508mm(20인치) 공장 규격 총열입니다. 총구 내부에 초크 튜브와 총구 어댑터용 나사산이 가공되어 있습니다."
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8779 Name",
+        "source": "VR80 M-LOK handguard",
+        "translation": "VR80 M-LOK 총열덮개"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8779 ShortName",
+        "source": "VR80 M-LOK",
+        "translation": "VR80 M-LOK"
+      },
+      {
+        "key": "6ac0f1e2277937dd42ac8779 Description",
+        "source": "The factory aluminum M-LOK handguard for the Rock Island Armory VR80 shotgun. Its top rail accommodates sights, while M-LOK mounting points accept compatible grips and accessory mounts.",
+        "translation": "Rock Island Armory VR80 산탄총용 공장제 알루미늄 M-LOK 총열덮개입니다. 상부 레일에는 조준 장치를 장착할 수 있고, M-LOK 장착부에는 호환 손잡이와 액세서리 마운트를 설치할 수 있습니다."
+      },
+      {
+        "key": "698530ba25d41819d0eee3ad",
+        "source": "Polymer",
+        "translation": "폴리머",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6ac0401462fa165f3cb99540",
+        "source": "Tactical",
+        "translation": "전술형"
+      },
+      {
+        "key": "29519b832b727b9a1610e491",
+        "source": "Silent",
+        "translation": "소음형"
+      },
+      {
+        "key": "fc669d6e8d3ccdbc735fff53 name",
+        "source": "Hunter's Dream - Part 1",
+        "translation": "사냥꾼의 꿈 - 파트 1",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "fc669d6e8d3ccdbc735fff53 description",
+        "source": "Come in, kid. Before all this, I used to keep hunting magazines and dream about taking a double rifle somewhere far away, where the animals were bigger than a car. Two barrels, two cartridges, and no room for carelessness. Never made that trip. Now the trouble is here, in my own woods. Take your .700 out there and deal with the looters from a proper distance. I want to see whether you can handle that rifle, or just like the noise it makes. A contact of Mechanic's helped me put together a soft-point load. Show me you know what you're doing, and I'll set some aside for you.",
+        "translation": "들어오게, 애송이. 이 모든 일이 터지기 전에는 사냥 잡지를 모아 두고, 차보다 큰 짐승들이 있는 머나먼 곳에 쌍열 소총을 들고 가는 꿈을 꾸곤 했지. 총열 둘, 탄약 둘, 방심할 여지는 없고. 결국 그 여행은 못 갔네. 이제 골칫거리가 내 숲까지 들어왔지. 자네 .700을 들고 나가 적당한 거리에서 약탈자들을 처리하게. 그 소총을 정말 다룰 줄 아는 건지, 아니면 그냥 요란한 소리가 좋은 건지 보고 싶군. 메카닉 쪽 지인이 소프트 포인트 탄을 하나 만들어 줬네. 실력을 보여주면 몇 발 떼어 두겠어.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "fc669d6e8d3ccdbc735fff53 startedMessageText",
+        "source": "Woods, kid. Keep your distance and make those two shots count. The MP-700 or its Shorty version will do. I'll be waiting.",
+        "translation": "우즈로 가게, 애송이. 거리를 유지하고 그 두 발을 허투루 쓰지 말게. MP-700이나 쇼티 버전이면 된다. 기다리고 있겠네."
+      },
+      {
+        "key": "fc669d6e8d3ccdbc735fff53 successMessageText",
+        "source": "The noise doesn't make the hunter. Looks like you understand that. Here's the Mammoth: an exposed lead nose, meant for targets without armor. Choose your shot carefully. I'll keep it in stock for you.",
+        "translation": "요란한 소리가 사냥꾼을 만드는 건 아니지. 자넨 그걸 아는 것 같군. 이게 맘모스다. 납 끝이 드러난 탄두라 장갑이 없는 표적에 맞춰져 있지. 신중하게 쏘게. 앞으로 자네 몫을 재고에 넣어 두겠네."
+      },
+      {
+        "key": "e2cdfba3a26ea4697ce6ac8b",
+        "source": "Eliminate Scavs on Woods from at least 40 meters away using an MP-700 or MP-700 Shorty",
+        "translation": "삼림에서 MP-700 또는 MP-700 쇼티를 사용해 40m 이상 거리의 스캐브 사살",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "93fca392a75ac1e0b05cfd10 name",
+        "source": "Hunter's Dream - Part 2",
+        "translation": "사냥꾼의 꿈 - 파트 2",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "93fca392a75ac1e0b05cfd10 description",
+        "source": "In the woods, you can choose where to watch from. Between walls, the man coming after you might choose the distance. I've seen people get killed because a powerful rifle gave them more confidence than sense. Take your .700 and deal with the mercenaries up close. Learn when to move and when to find cover to reload. Remember, there are only two shots before you have to open those barrels. I've prepared another load, eight heavy pellets instead of a single bullet. Called it Cerberus. A fitting name for something meant to guard a passage, don't you think?",
+        "translation": "숲에서는 자네가 지켜볼 자리를 고를 수 있지. 하지만 벽 사이에서는 자넬 쫓는 놈이 거리를 정할 수도 있어. 강력한 소총이 분별력보다 큰 자신감을 줘서 죽은 사람들을 여럿 봤네. .700을 들고 가 용병들을 가까이서 상대하게. 언제 움직이고, 언제 재장전을 위해 엄폐해야 하는지 익혀. 총열을 열기 전까지 쓸 수 있는 건 두 발뿐이라는 걸 잊지 말고. 다른 탄약도 하나 준비했네. 단일 탄두 대신 무거운 산탄 8개를 넣었지. 이름은 케르베로스라고 붙였네. 통로를 지키는 데 쓰는 물건에는 어울리는 이름 아닌가?",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "93fca392a75ac1e0b05cfd10 startedMessageText",
+        "source": "Don't let the mercenaries keep you at arm's length. Get close, pick your moment, and leave yourself somewhere to reload.",
+        "translation": "용병들이 자네를 멀리서 가지고 놀게 두지 말게. 가까이 붙고, 때를 골라 쏘고, 재장전할 엄폐물도 남겨 둬."
+      },
+      {
+        "key": "93fca392a75ac1e0b05cfd10 successMessageText",
+        "source": "You came back. That matters more than any story about bravery. I'll set aside the Cerberus for you. Keep it for close work, and don't expect those pellets to solve the problem of an armor plate.",
+        "translation": "돌아왔군. 용맹담 따위보다 그게 더 중요하지. 케르베로스를 자네 몫으로 떼어 두겠네. 근거리용으로 쓰고, 저 산탄들이 방탄판 문제까지 해결해 줄 거라 기대하진 말게."
+      },
+      {
+        "key": "8e9ceed846121ff2897c9d00",
+        "source": "Eliminate PMCs from no more than 30 meters away using an MP-700 or MP-700 Shorty",
+        "translation": "MP-700 또는 MP-700 쇼티를 사용해 30m 이내 거리의 PMC 사살",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "8bf7e85422290ecae416b1d8 name",
+        "source": "Hunter's Dream - Part 3",
+        "translation": "사냥꾼의 꿈 - 파트 3",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "8bf7e85422290ecae416b1d8 description",
+        "source": "I worked security at that factory before everything went to hell. Now some bastard in a mask, carrying a hammer, has decided the place belongs to him. Tagilla. He puts on steel and treats people like prey. That's where your last test is. Take the .700 and bring him down with the loads you already have. Mechanic's contact has put together a hardened penetrator held in a four-piece polymer sabot. I called it Goliath. It's expensive, and I won't hand it over to someone who thinks power is a substitute for judgment. You know the rifle by now. Show me you know its limits, too.",
+        "translation": "모든 게 지옥으로 변하기 전에는 그 공장에서 경비 일을 했었네. 이제는 망치를 든 가면 쓴 개자식 하나가 그곳이 자기 것이라고 생각하더군. 타길라 말이야. 강철을 두르고 사람을 사냥감처럼 다루지. 마지막 시험은 거기서 치르겠네. .700을 들고 가서 지금까지 가진 탄약으로 그놈을 쓰러뜨려. 메카닉 쪽 지인이 4분할 폴리머 사봇에 경화 관통자를 넣은 탄을 만들었네. 난 골리앗이라고 불렀지. 비싼 물건이라, 힘이 판단력을 대신한다고 생각하는 놈에게 넘길 생각은 없어. 이제 자네는 그 소총을 알겠지. 그 한계도 안다는 걸 보여주게.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "8bf7e85422290ecae416b1d8 startedMessageText",
+        "source": "Tagilla, at the factory. Take the MP-700 or the Shorty. Armor has its weaknesses, kid. Use your head before you use those two cartridges.",
+        "translation": "공장의 타길라다. MP-700이나 쇼티를 가져가게. 장갑에도 약점은 있어, 애송이. 그 두 발을 쓰기 전에 머리부터 쓰게."
+      },
+      {
+        "key": "8bf7e85422290ecae416b1d8 successMessageText",
+        "source": "When I dreamed of that trip, I never thought the worst beasts would be right here. You can handle the rifle, and you know what it can and can't do. Here are a few Goliath cartridges. Once we've done enough business, I'll supply you with more. I hope they help someone get home.",
+        "translation": "그 여행을 꿈꿀 때만 해도 가장 흉악한 짐승들이 바로 여기 있을 줄은 몰랐지. 자넨 소총을 다룰 줄 알고, 그게 할 수 있는 일과 없는 일도 아는군. 골리앗 탄 몇 발을 주지. 우리 거래가 충분히 쌓이면 더 공급해 주겠네. 이게 누군가 집으로 돌아가는 데 도움이 되면 좋겠군."
+      },
+      {
+        "key": "ca79c8d5854e28b3a3235f73",
+        "source": "Eliminate Tagilla on Factory using an MP-700 or MP-700 Shorty",
+        "translation": "공장에서 MP-700 또는 MP-700 쇼티를 사용해 타길라 사살",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "fd1b683d79e097d49bacc63b name",
+        "source": "Foreign Stock",
+        "translation": "외국산 물량",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "fd1b683d79e097d49bacc63b description",
+        "source": "Hey, merc. Got a little shipment nobody was expecting. VR80, Rock Island Armory. American name on the box, made in Turkey. Looks familiar enough to you operators, but it eats twelve-gauge shells. Before the blockade, stuff like this was meant for shooting clubs. Now it can earn its keep around here. A few idiots at Customs have been making trouble for my boys. Clear them out with a twelve-gauge, and bring me a couple packs of fresh Wilston you find out there. I'll let you trade for one of these imports. Bottles and cigarettes still move, even when the banks don't. Fair business, right?",
+        "translation": "어이, 용병. 아무도 예상 못 한 물량이 조금 들어왔어. VR80, Rock Island Armory. 상자에는 미국 이름이 붙어 있지만 터키제지. 너희 같은 오퍼레이터한텐 꽤 익숙하게 생겼는데 12게이지를 먹어. 봉쇄 전에는 이런 물건이 사격 클럽에나 들어갔겠지만, 지금은 여기서 밥값을 할 수 있지. 세관에서 몇 놈이 내 사람들을 귀찮게 굴고 있어. 12게이지로 치워 버리고, 거기서 찾은 새 윌스턴 담배 두 갑도 가져와. 그럼 이 수입품 한 정과 교환하게 해 주지. 은행이 안 돌아가도 술과 담배는 계속 돈이 돼. 공평한 거래지, 안 그래?",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "fd1b683d79e097d49bacc63b startedMessageText",
+        "source": "Five troublemakers at Customs, with a twelve-gauge. And two packs of Wilston from a raid. Come back when it's done and we'll talk about that shipment.",
+        "translation": "세관에서 12게이지로 골칫거리 다섯. 그리고 레이드에서 찾은 윌스턴 두 갑. 끝내고 돌아오면 그 물량 얘길 해 보자고."
+      },
+      {
+        "key": "fd1b683d79e097d49bacc63b successMessageText",
+        "source": "My boys say the road's a bit quieter. And the smokes are fresh. Good. Bring a bottle of Dan Jackiel, one Tarkovskaya, and two packs of Wilston, and you can take a VR80 with the five-round mag. One per shipment. Don't go telling everyone what a generous bastard I am.",
+        "translation": "내 애들이 길이 좀 조용해졌다고 하더군. 담배도 새 거고. 좋아. 댄 재키엘 한 병, 타르코프스카야 한 병, 윌스턴 두 갑을 가져오면 5발 탄창이 달린 VR80을 가져가. 입고당 한 정이다. 내가 인심 좋은 개자식이라고 떠들고 다니진 마."
+      },
+      {
+        "key": "feccff94081e678bc3cfaaa4",
+        "source": "Eliminate Scavs on Customs using any 12ga shotgun",
+        "translation": "세관에서 12게이지 산탄총을 사용해 스캐브 사살",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "ba9a4e20e62ba12ae40a791b",
+        "source": "Hand over Wilston cigarettes found in raid",
+        "translation": "레이드에서 발견한 윌스턴 담배 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "35e933725dd8e5e778e3ad71 name",
+        "source": "Repeat Business",
+        "translation": "단골 거래",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "35e933725dd8e5e778e3ad71 description",
+        "source": "There you are. Remember those VR80s? A couple of regular customers have their eye on them. Nice shape, detachable mags, all that. But I sell guns that work, not pretty boxes. Take one to Customs and put it through some real work. There are still bastards shaking down people who do business with me. Ten of them should get the message across. If the shotgun holds up and you come back with results, I'll keep a few assembled for you. No need to chase bottles every time. Roubles will do. That's how a regular customer gets treated.",
+        "translation": "왔군. 그 VR80들 기억하지? 단골 몇 명이 눈독을 들이고 있어. 생긴 것도 괜찮고, 탈착식 탄창도 있고, 뭐 그런 거지. 하지만 난 예쁜 상자가 아니라 제대로 작동하는 총을 팔아. 한 정 들고 세관에 가서 실전에서 굴려 봐. 아직도 나랑 거래하는 사람들을 등쳐 먹는 개자식들이 있거든. 열 놈 정도면 뜻을 알아듣겠지. 산탄총이 버티고 네가 결과를 들고 돌아오면, 몇 정은 조립된 상태로 네 몫으로 남겨 두지. 매번 술병을 쫓아다닐 필요도 없어. 루블이면 된다. 단골은 그렇게 대접하는 거야.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "35e933725dd8e5e778e3ad71 startedMessageText",
+        "source": "Ten Scavs at Customs, with the VR80. Any load or attachments you like. Let's see what that import does outside a shooting range.",
+        "translation": "세관에서 VR80으로 스캐브 열. 탄약이든 부착물이든 네 마음대로 써. 이 수입품이 사격장 밖에서도 쓸 만한지 보자고."
+      },
+      {
+        "key": "35e933725dd8e5e778e3ad71 successMessageText",
+        "source": "Word got around. Looks like the import can work for a living. I'll keep the factory build on the counter for you: five-round mag, everything fitted, a hundred and ten thousand. The bottle deal stays on the table too. You keep doing your part, I'll keep doing mine.",
+        "translation": "소문이 돌더군. 수입품도 밥값은 하나 봐. 공장 출고형을 네 몫으로 카운터에 올려 두지. 5발 탄창에 부품 다 갖춘 걸로 11만 루블. 술병 거래도 그대로 유지해. 네가 할 일을 하면 나도 내 일을 하지."
+      },
+      {
+        "key": "2204eb7e747aa1600e8f0f60",
+        "source": "Eliminate Scavs on Customs using a Rock Island Armory VR80",
+        "translation": "세관에서 Rock Island Armory VR80을 사용해 스캐브 사살",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "dd5168501c5131632cca3e2a name",
+        "source": "Quiet Arrangement",
+        "translation": "조용한 거래",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "dd5168501c5131632cca3e2a description",
+        "source": "Got something else for you. Separate business, don't worry about the other jobs. Some people at Customs need to stop asking questions, and a few of your mercenary friends have been getting too interested in my affairs. I want it handled without turning the whole place into a firing range. Take a twelve-gauge with a suppressor. Eight Scavs at Customs and three operators, wherever you catch them. Any shotgun that fits the bill will do. Meanwhile, I'm having a VR80 put together with a Salvo, an EOTech, and a bigger mag. A little arrangement for customers who know how to keep their mouths shut. Bring me some valuables afterwards and it's yours.",
+        "translation": "다른 일도 하나 있어. 별건이니까 다른 의뢰는 신경 쓰지 마. 세관에서 질문이 너무 많은 놈들이 있고, 네 용병 친구 몇도 내 일에 지나치게 관심을 보이더군. 온 동네를 사격장으로 만들지 말고 처리했으면 해. 소음기를 단 12게이지를 가져가. 세관의 스캐브 여덟, 그리고 어디서든 용병 셋. 조건만 맞으면 어떤 산탄총이든 상관없어. 그동안 난 Salvo, EOTech, 큰 탄창을 단 VR80을 하나 조립해 두지. 입 다물 줄 아는 고객을 위한 작은 거래야. 끝나고 귀중품 몇 개 가져오면 네 거다.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "dd5168501c5131632cca3e2a startedMessageText",
+        "source": "Eight Scavs at Customs, three PMCs wherever you find them. Twelve-gauge, suppressor fitted. This job has its own terms.",
+        "translation": "세관에서 스캐브 여덟, 어디서든 PMC 셋. 12게이지에 소음기를 달아. 이번 일은 조건이 따로 있어."
+      },
+      {
+        "key": "dd5168501c5131632cca3e2a successMessageText",
+        "source": "No crowd at my door asking what happened. I like that. Your VR80 Silent is ready: Salvo 12, EOTech, AFG, ten-round mag. One Roler, a wooden clock, a gold chain, and a horse figurine. One build per shipment. The price includes me keeping your name out of the conversation.",
+        "translation": "무슨 일이 있었냐고 내 문 앞에 몰려든 놈이 하나도 없더군. 마음에 들어. 네 VR80 소음형은 준비됐다. Salvo 12, EOTech, AFG, 10발 탄창. 롤러 하나, 나무 시계 하나, 금목걸이 하나, 말 조각상 하나. 입고당 한 세트다. 네 이름을 대화에서 빼 주는 값도 포함된 거야."
+      },
+      {
+        "key": "da796281fbc359177d438d0e",
+        "source": "Eliminate Scavs on Customs using any 12ga shotgun with a suppressor",
+        "translation": "세관에서 소음기를 장착한 12게이지 산탄총을 사용해 스캐브 사살",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "27be1893a93f03116800fddc",
+        "source": "Eliminate PMCs using any 12ga shotgun with a suppressor",
+        "translation": "소음기를 장착한 12게이지 산탄총을 사용해 PMC 사살",
+        "display_type": "quest_objective"
       }
     ]
   }

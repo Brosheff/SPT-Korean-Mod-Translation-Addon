@@ -143,6 +143,17 @@ namespace SPT.ModKoreanAddon
             new Target("QuickSellFlea", "QuickSellFlea", "QuickSellFlea.Patches.ItemUiContext_GetItemContextInteractions_Patch", "Postfix", 5),
             new Target("QuickSellFlea", "QuickSellFlea", "QuickSellFlea.MultiSell", "SetPrices", 0),
             new Target("QuickSellFlea", "QuickSellFlea", "QuickSellFlea.Patches.ItemUiContext_GetItemContextInteractions_Patch", "SetPrices", 1),
+            // The Quartermaster: community screen is built directly in its client UI class.
+            // Restrict translation to the explicit UI type and compiler-generated closures.
+            new Target("TheQuartermaster", "TheQuartermaster.Client", "TheQuartermaster.Client.UI.CommunityPanel", "*", -1, true),
+            // Armor Expert 2.0.0: item attribute labels and details are constructed in these audited helpers.
+            // Compiler-generated display delegates are nested in ArmorAttributes.
+            new Target("smallui.armorexpert", "Liquidwarp.ArmorExpert", "Liquidwarp.ArmorExpert.ArmorAttributes", "*", -1, true),
+            new Target("smallui.armorexpert", "Liquidwarp.ArmorExpert", "Liquidwarp.ArmorExpert.Tone", "*", -1, true),
+            new Target("smallui.armorexpert", "Liquidwarp.ArmorExpert", "Liquidwarp.ArmorExpert.Deflection", "*", -1, true),
+            new Target("smallui.armorexpert", "Liquidwarp.ArmorExpert", "Liquidwarp.ArmorExpert.Blunt", "*", -1, true),
+            new Target("smallui.armorexpert", "Liquidwarp.ArmorExpert", "Liquidwarp.ArmorExpert.Hearing", "*", -1, true),
+            new Target("smallui.armorexpert", "Liquidwarp.ArmorExpert", "Liquidwarp.ArmorExpert.Durability", "*", -1, true),
             new Target("smallui.transparentsights", "7Bpencil.TransparentSights", "SevenBoldPencil.TransparentSights.Plugin", "GetScopeTransparencyModeName", 1),
             new Target("UnloadAllMagazines", "maschine-UnloadAllMagazines", "UnloadAllMagazines.Patches.UnloadAllMagazinesButtonPatch", "Postfix", 1),
             new Target("smallui.weaponbuildersearch", "maschine-WeaponBuilderSearch", "WeaponBuilderSearch.UI.AttachmentSearchController", "EnsureSearchField", 1),
@@ -569,7 +580,13 @@ namespace SPT.ModKoreanAddon
                 var assemblyName = assembly.GetName().Name;
                 var isDoomArcade = string.Equals(assemblyName, DoomArcadeAssemblyName,
                     StringComparison.OrdinalIgnoreCase);
-                if (!isDoomArcade) return;
+                // Only these two newly supported mods need the late-load fallback.
+                // Never wildcard-patch other assemblies when a DLL arrives after Plugin.Start.
+                var isQuartermaster = string.Equals(assemblyName, "TheQuartermaster.Client",
+                    StringComparison.OrdinalIgnoreCase);
+                var isArmorExpert = string.Equals(assemblyName, "Liquidwarp.ArmorExpert",
+                    StringComparison.OrdinalIgnoreCase);
+                if (!isDoomArcade && !isQuartermaster && !isArmorExpert) return;
 
                 EditableProfiles data;
                 lock (Gate)
@@ -581,10 +598,17 @@ namespace SPT.ModKoreanAddon
                 if (isDoomArcade)
                 {
                     if (!data.HasRules(DoomArcadeProfileId, Channel)) return;
-                    var count = PatchDoomArcadeMenu(assembly);
-                    if (count > 0)
-                        {}
+                    PatchDoomArcadeMenu(assembly);
                     return;
+                }
+
+                // PatchTarget and PatchedMethods share the same duplicate guard as
+                // startup registration, so an assembly seen twice is not repatched.
+                foreach (var target in Targets)
+                {
+                    if (!string.Equals(target.AssemblyName, assemblyName, StringComparison.OrdinalIgnoreCase) ||
+                        !data.HasRules(target.ProfileId, Channel)) continue;
+                    PatchTarget(assembly, target);
                 }
 
             }

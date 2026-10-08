@@ -6,7 +6,7 @@ using HarmonyLib;
 
 namespace SPT.ModKoreanAddon
 {
-    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.0")]
+    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.1")]
     [BepInDependency("com.GoLani.koreanpatchfix", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("com.mpstark.dynamicmaps", BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin
@@ -18,6 +18,8 @@ namespace SPT.ModKoreanAddon
         private Harmony smallUiHarmony;
         private Harmony dynamicMapsHarmony;
         private Harmony casinoHarmony;
+        private Harmony quartermasterHarmony;
+        private QuartermasterContractLocales quartermasterCatalog;
         private bool initialized;
         private EditableProfiles data;
         private string lastCulture;
@@ -47,6 +49,7 @@ namespace SPT.ModKoreanAddon
                 var addonRoot = Path.GetDirectoryName(typeof(Plugin).Assembly.Location);
                 harmony = new Harmony("spt.korean.modtranslation.addon");
                 data = new EditableProfiles(addonRoot);
+                quartermasterCatalog = new QuartermasterContractLocales(addonRoot);
                 AddonBridge.Enable(harmony, originalAssembly, originalRoot, addonRoot, data);
                 initialized = true;
             }
@@ -90,7 +93,9 @@ namespace SPT.ModKoreanAddon
             catch (Exception ex)
             {
                 partial = true;
-                ModUiLiteralHooks.Disable();
+                QuartermasterRuntimeHooks.Disable();
+            quartermasterHarmony?.UnpatchSelf();
+            ModUiLiteralHooks.Disable();
                 modUiHarmony?.UnpatchSelf();
                 Logger.LogError("Third-party mod UI hooks disabled: " + ex.Message);
             }
@@ -135,6 +140,21 @@ namespace SPT.ModKoreanAddon
                 Logger.LogError("Dynamic Maps custom UI hooks disabled: " + ex.Message);
             }
 
+            // Dynamic The Quartermaster quest descriptions, community contract UI and
+            // its per-second countdown are not covered by SmallUiLiteralHooks' IL strings.
+            try
+            {
+                quartermasterHarmony = new Harmony("spt.korean.modtranslation.addon.quartermaster-runtime");
+                var count = QuartermasterRuntimeHooks.Enable(quartermasterHarmony, assemblies, quartermasterCatalog);
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                QuartermasterRuntimeHooks.Disable();
+                quartermasterHarmony?.UnpatchSelf();
+                Logger.LogError("The Quartermaster runtime hooks disabled: " + ex.Message);
+            }
+
             // Configuration Manager is optional. We do not reference its assembly at compile time;
             // this display-only hook discovers it at runtime and leaves ConfigEntry/.cfg data untouched.
             try
@@ -157,7 +177,7 @@ namespace SPT.ModKoreanAddon
             // Korean Patch Fix's custom kr/kr-en mode on its own. Send only the existing
             // CurrentCulture value; failure is isolated and leaves all client UI hooks intact.
             TrySyncServerCulture(lastCulture);
-            Logger.LogInfo("SPT Mod Korean Addon 1.0.0 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
+            Logger.LogInfo("SPT Mod Korean Addon 1.0.1 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
         }
 
         private void Update()

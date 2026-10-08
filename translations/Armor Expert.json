@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.armorexpert",
+  "mod_name": "Armor Expert",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "deflect",
+        "source": "Deflection chance",
+        "translation": "도탄 확률",
+        "match_mode": "exact"
+      },
+      {
+        "id": "penetration",
+        "source": "Penetrated at 50/100%",
+        "translation": "관통 확률 50/100% 기준",
+        "match_mode": "exact"
+      },
+      {
+        "id": "blunt",
+        "source": "Blunt at pen",
+        "translation": "관통력별 둔상 피해",
+        "match_mode": "exact"
+      },
+      {
+        "id": "blunt_tip",
+        "source": "Percentage of damage applied as blunt if the shot doesn't penetrate",
+        "translation": "탄환이 관통하지 못했을 때 둔상으로 적용되는 피해 비율",
+        "match_mode": "exact"
+      },
+      {
+        "id": "soft",
+        "source": "Soft blunt reduction",
+        "translation": "연질 방탄재의 둔상 감소율",
+        "match_mode": "exact"
+      },
+      {
+        "id": "soft_tip",
+        "source": "Blunt damage reduced by this amount when there is soft armor behind this plate",
+        "translation": "방탄판 뒤에 연질 방탄재가 있을 때 둔상 피해가 이 수치만큼 감소합니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "durability",
+        "source": "Effective durability",
+        "translation": "유효 내구도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "sound",
+        "source": "Sound reduction",
+        "translation": "소음 감소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hearing_tip",
+        "source": "Only applies when no headset is worn. Can depend on attachments.",
+        "translation": "헤드셋을 착용하지 않았을 때만 적용됩니다. 부착물에 따라 달라질 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hearing_helmet",
+        "source": "Only applies if the helmet doesn't reduce sound.",
+        "translation": "헬멧에 소음 감소 효과가 없을 때만 적용됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "from",
+        "source": "From: ",
+        "translation": "효과 출처: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "self",
+        "source": "Self noise",
+        "translation": "자체 소음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "self_tip",
+        "source": "Player sounds: steps, rustle, etc",
+        "translation": "플레이어가 내는 소리: 발소리, 옷 스치는 소리 등",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ambient",
+        "source": "Ambient noise",
+        "translation": "환경 소음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "distortion",
+        "source": "Distortion",
+        "translation": "음향 왜곡",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tone",
+        "source": "Tone",
+        "translation": "음색",
+        "match_mode": "exact"
+      },
+      {
+        "id": "flat",
+        "source": "Flat",
+        "translation": "평탄",
+        "match_mode": "exact"
+      },
+      {
+        "id": "none",
+        "source": "None",
+        "translation": "없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "never",
+        "source": "never",
+        "translation": "해당 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "low",
+        "source": "low",
+        "translation": "저음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "mid",
+        "source": "mid",
+        "translation": "중음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "upper_mid",
+        "source": "upper-mid",
+        "translation": "중고음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "treble",
+        "source": "treble",
+        "translation": "고음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "cut",
+        "source": " cut",
+        "translation": " 감쇠",
+        "match_mode": "exact"
+      },
+      {
+        "id": "boost",
+        "source": " boost",
+        "translation": " 증폭",
+        "match_mode": "exact"
+      },
+      {
+        "id": "bass_cut",
+        "source": "Bass cut below ",
+        "translation": "저음 차단 주파수: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "repair",
+        "source": "Repair degradation: ",
+        "translation": "수리 시 내구도 감소: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "repairkit",
+        "source": "\nWith repair kit: ",
+        "translation": "\n수리 키트 사용 시: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "above",
+        "source": " above ",
+        "translation": " / 기준 각도 초과 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "justabove",
+        "source": "just above ",
+        "translation": "최소 각도를 약간 초과한 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "from_angle",
+        "source": "from ",
+        "translation": "각도 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "at",
+        "source": " at ",
+        "translation": " / 관통력 ",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

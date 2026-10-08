@@ -140,9 +140,9 @@
       "section": "KS-23 Mount Calibration",
       "key": "Enable Mount Alignment Fix",
       "source_display_name": "Enable Mount Alignment Fix",
-      "source_description": "Apply a rotation offset to the KS-23 rail mount so optics zero matches the barrel.",
+      "source_description": "Correct the KS-23 shot direction while aiming so optics on the rail mount hit where the reticle points.",
       "translation_display_name": "마운트 정렬 보정 활성화",
-      "translation_description": "조준경의 영점과 총열 방향이 맞도록 KS-23 레일 마운트에 회전 보정값을 적용합니다.",
+      "translation_description": "KS-23 조준 시 레일 마운트에 장착한 조준경의 레티클이 가리키는 곳에 탄착하도록 발사 방향을 보정합니다.",
       "values": []
     },
     {

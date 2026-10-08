@@ -28,6 +28,7 @@ namespace SPT.ModKoreanAddon
         private readonly string reportRoot;
         internal static Action<string,JObject> Diagnostic;
 #endif
+        private readonly QuartermasterContractLocales quartermasterContracts;
         private string loadError;
         private static readonly Regex Price = new Regex(@"\A(?:(?:Per Slot:|Total:) [^\r\n]+\s*\n)+(?:\s*<color=#[0-9a-fA-F]+>(?:Not Flea Banned|Flea Banned)</color>\s*\n)?\s*\n", RegexOptions.CultureInvariant);
         private static readonly Regex Ammo = new Regex(@"\s*<color=#808080>\[\d+(?:\.\d+)?/\d+(?:\.\d+)?\]</color>\z", RegexOptions.CultureInvariant);
@@ -39,6 +40,7 @@ namespace SPT.ModKoreanAddon
             reportRoot = Path.Combine(root, "mod-locales", "reports");
 #endif
             var profiles = shared ?? new EditableProfiles(root);
+            quartermasterContracts = new QuartermasterContractLocales(root);
             foreach (var document in profiles.Documents)
             {
                 if (document.channels.TryGetValue("locale_source_fallback", out var sourceFallbackRows))
@@ -387,6 +389,11 @@ namespace SPT.ModKoreanAddon
 #if LOCALE_DIAGNOSTICS
             int sourceFallbackApplied = 0;
 #endif
+            // Before the generic fallback stage, resolve runtime-generated Quartermaster
+            // quest IDs against the known contract titles and objective seed algorithm.
+            if (quartermasterContracts != null)
+                quartermasterContracts.Apply(locale, raw, result);
+
             if (sourceFallbacks.Count != 0)
             {
                 // Iterate the merged result, not the raw English payload. If SPT-KR already translated

@@ -45,7 +45,7 @@
       {
         "key": "66582972ac60f009f270d2b1 Description",
         "source": "A sealed medical shipment assembled by The Quartermaster containing emergency medical equipment for frontline operatives.",
-        "translation": "쿼터마스터가 전선의 오퍼레이터를 위해 응급 의료 장비를 담아 준비한 밀봉 의료 보급품입니다."
+        "translation": "쿼터마스터가 최전선의 작전 요원들을 위해 응급 의료 장비를 담아 준비한 밀봉 의료 보급품입니다."
       },
       {
         "key": "66582972ac60f009f270d2b2 Name",
@@ -61,7 +61,7 @@
       {
         "key": "66582972ac60f009f270d2b2 Description",
         "source": "A sealed shipment containing explosive ordnance and tactical grenades recovered through Quartermaster supply channels.",
-        "translation": "쿼터마스터의 보급 경로를 통해 회수한 폭발물과 전술 수류탄이 들어 있는 밀봉 보급품입니다."
+        "translation": "쿼터마스터의 보급 경로를 통해 확보한 폭발 병기와 전술 수류탄이 들어 있는 밀봉 보급품입니다."
       },
       {
         "key": "66582972ac60f009f270d2b3 Name",
@@ -77,7 +77,7 @@
       {
         "key": "66582972ac60f009f270d2b3 Description",
         "source": "A sealed shipment containing food, drinks and provisions prepared for extended deployments.",
-        "translation": "장기 작전을 위해 준비된 식량, 음료 및 보급품이 들어 있는 밀봉 보급품입니다."
+        "translation": "장기간의 작전을 위해 준비한 음식, 음료 및 기타 식량이 들어 있는 밀봉 보급품입니다."
       }
     ],
     "small_ui": [
@@ -338,6 +338,192 @@
         "source": "Unlock: {target}",
         "translation": "잠금 해제: {target}",
         "match_mode": "template"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.001",
+        "source": "Pending Submissions (",
+        "translation": "대기 중인 제안 (",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.002",
+        "source": "Selected: ",
+        "translation": "선택됨: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.003",
+        "source": "  by ",
+        "translation": "  작성자: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.004",
+        "source": "  |  Support: ",
+        "translation": "  |  지지율: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.005",
+        "source": "\nby ",
+        "translation": "\n작성자: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.006",
+        "source": "\nSupport: ",
+        "translation": "\n지지율: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.007",
+        "source": "  Up: ",
+        "translation": "  찬성: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.008",
+        "source": "  Down: ",
+        "translation": "  반대: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.009",
+        "source": "Recurrence: ",
+        "translation": "반복: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.010",
+        "source": "Hand over ",
+        "translation": "건네주기: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.011",
+        "source": "Plant ",
+        "translation": "설치하기: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.012",
+        "source": "Eliminate ",
+        "translation": "처치하기: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.013",
+        "source": " Scav",
+        "translation": " 스캐브",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.014",
+        "source": " PMC",
+        "translation": " PMC",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.015",
+        "source": " boss",
+        "translation": " 보스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.016",
+        "source": "Survive ",
+        "translation": "생존하기: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.017",
+        "source": " raid",
+        "translation": " 레이드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.018",
+        "source": "Extract from ",
+        "translation": "탈출하기: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.019",
+        "source": " time",
+        "translation": "회",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.020",
+        "source": "Visit ",
+        "translation": "방문하기: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.021",
+        "source": "Find ",
+        "translation": "찾기: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.022",
+        "source": "x item",
+        "translation": "개 물품",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.023",
+        "source": " on ",
+        "translation": "에서 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.024",
+        "source": " in ",
+        "translation": " 내 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.026",
+        "source": " EXP",
+        "translation": " 경험치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.027",
+        "source": " Roubles",
+        "translation": " 루블",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.028",
+        "source": " trader standing",
+        "translation": " 상인 우호도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.029",
+        "source": " standing",
+        "translation": " 우호도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.030",
+        "source": "Skill ",
+        "translation": "스킬 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.031",
+        "source": "Unlock: ",
+        "translation": "잠금 해제: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.ui.runtime.1_0_1.032",
+        "source": "item",
+        "translation": "물품",
+        "match_mode": "exact"
       }
     ],
     "npc_messages": [
@@ -423,6 +609,13 @@
         "source": "New community contracts available:\n• {contract_titles}",
         "translation": "새 커뮤니티 계약들이 들어왔네:\n• {contract_titles}",
         "match_mode": "template",
+        "trader_id": "66789abcde1234567890abcd"
+      },
+      {
+        "id": "qm.online25531.weekly-supply",
+        "source": "Weekly community supply shipment - Tier 2! Thank you for your contributions.",
+        "translation": "주간 커뮤니티 보급품 배송 - 2단계! 기여해 주셔서 감사합니다.",
+        "match_mode": "exact",
         "trader_id": "66789abcde1234567890abcd"
       }
     ],
@@ -521,6 +714,54 @@
         "id": "qm.contract.prefix.016",
         "source": "[ONE TIME] ",
         "translation": "[1회] ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.online25531.tier1.name",
+        "source": "QM Supply Cache (T1)",
+        "translation": "QM 보급 상자 (1단계)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.online25531.tier1.description",
+        "source": "Basic supplies for tough times. The community barely scraped by this week.",
+        "translation": "힘든 시기를 버티기 위한 기본 보급품. 이번 주 커뮤니티는 겨우 버텨 냈습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.online25531.tier2.name",
+        "source": "QM Supply Cache (T2)",
+        "translation": "QM 보급 상자 (2단계)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.online25531.tier2.description",
+        "source": "A decent haul. The community put in some work this week.",
+        "translation": "제법 괜찮은 물자입니다. 이번 주에는 커뮤니티가 꽤 힘을 보탰습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.online25531.tier3.name",
+        "source": "QM Supply Cache (T3)",
+        "translation": "QM 보급 상자 (3단계)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.online25531.tier3.description",
+        "source": "Quality goods, no scraps here. The community delivered this week.",
+        "translation": "품질 좋은 물품만 골랐습니다. 자투리 물건은 없습니다. 이번 주 커뮤니티가 제 몫을 해냈습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.online25531.tier4.name",
+        "source": "QM Supply Cache (T4)",
+        "translation": "QM 보급 상자 (4단계)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "qm.online25531.tier4.description",
+        "source": "Top-shelf gear for outstanding community contributions. The best of the best.",
+        "translation": "탁월한 커뮤니티 기여에 걸맞은 최상급 장비입니다. 최고 중에서도 최고입니다.",
         "match_mode": "exact"
       }
     ]

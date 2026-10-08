@@ -45,6 +45,7 @@ com.lacyway.csf|QuickSellFlea
 com.lacyway.hanb|Hands Are Not Busy
 com.lennoxp90.coti|mod_3b2b877cc80c
 com.lennoxp90.mapvariants|smallui.mapvariants
+com.liquidwarp.armorexpert|smallui.armorexpert
 com.liquidwarp.munitionsexpert|smallui.munitionsexpert
 com.manimal.csgas|mod_846ff7f03e30
 com.manimal.icebreaker.fika|Icebreaker

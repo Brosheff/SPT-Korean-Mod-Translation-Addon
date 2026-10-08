@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "source_snapshot_version": 25531,
+  "source_sha256": "eedf2b2af6be2317dd1153de77be876d917e3ed0c79aca75e867dc030985be90",
+  "contracts": [
+    {
+      "contract_id": "JLH6f4GyPs8S22wyIgcF",
+      "origin": "definitions",
+      "fields": {
+        "title": {
+          "source": "Killa Killer",
+          "translation": "킬라 사냥꾼"
+        },
+        "description": {
+          "source": "Killa has been treating Interchange like his own private warehouse, and the Quartermaster is tired of losing good runners. Neutralize that helmeted maniac five times. Clean hits, confirmed kills, no loose ends.",
+          "translation": "킬라가 인터체인지를 자기 개인 창고인 양 제멋대로 드나들고 있어. 쿼터마스터는 유능한 운반책들을 계속 잃는 데 진절머리가 났지. 헬멧 쓴 그 미치광이를 다섯 번 처치해. 정확히 쏘고, 사살을 확실히 확인하고, 뒷일은 남기지 마."
+        }
+      },
+      "objectives": [
+        {
+          "index": 0,
+          "source": "Eliminate 5 Killa on Interchange",
+          "translation": "인터체인지에서 킬라 5회 처치"
+        }
+      ],
+      "known_quest_ids": [
+        "4766fe0ffcfea09cdacc2f44"
+      ]
+    },
+    {
+      "contract_id": "JqoXjP14Loe1ZXCZLXtz",
+      "origin": "definitions",
+      "fields": {
+        "title": {
+          "source": "Massacre",
+          "translation": "대학살"
+        },
+        "description": {
+          "source": "Soldier, I need you to get out there and clean up some of the filth around the region. Whole lotta nasty stuff around, so good luck.",
+          "translation": "병사, 밖으로 나가 이 지역의 쓰레기 같은 놈들을 좀 쓸어내 줘야겠어. 온갖 고약한 놈들이 득실대니 행운을 빌지."
+        },
+        "started_message": {
+          "source": "Do not fail me.",
+          "translation": "날 실망시키지 마."
+        },
+        "success_message": {
+          "source": "Excellent. Tarkov is at least a little bit cleaner.",
+          "translation": "훌륭해. 적어도 타르코프가 조금은 깨끗해졌군."
+        },
+        "fail_message": {
+          "source": "Disappointing.",
+          "translation": "실망스럽군."
+        }
+      },
+      "objectives": [
+        {
+          "index": 0,
+          "source": "Eliminate scavs",
+          "translation": "스캐브 처치"
+        },
+        {
+          "index": 1,
+          "source": "Eliminate PMC operatives",
+          "translation": "PMC 요원 처치"
+        },
+        {
+          "index": 2,
+          "source": "Eliminate the cultist priest",
+          "translation": "광신도 사제 처치"
+        },
+        {
+          "index": 3,
+          "source": "Eliminate cultist warriors",
+          "translation": "광신도 전사 처치"
+        }
+      ],
+      "known_quest_ids": [
+        "2ad9481f94f861d4243a046d"
+      ]
+    },
+    {
+      "contract_id": "KZHmhHQO7JTlIB94ITfV",
+      "origin": "definitions",
+      "fields": {
+        "title": {
+          "source": "Bitcoin Farm Expansion",
+          "translation": "비트코인 농장 확장"
+        },
+        "description": {
+          "source": "Mechanic needs some more graphics cards for his bitcoin farm. Bring me 6 and I will send them over to him.",
+          "translation": "메카닉이 비트코인 농장에 사용할 그래픽 카드가 더 필요하다더군. 내게 6개를 가져오면 그에게 전달하겠어."
+        },
+        "started_message": {
+          "source": "6 GPU's, friend.",
+          "translation": "GPU 6개야, 친구."
+        },
+        "success_message": {
+          "source": "Excellent. Mechanic sends his thanks.",
+          "translation": "훌륭해. 메카닉이 고맙다고 전해 달라는군."
+        }
+      },
+      "objectives": [
+        {
+          "index": 0,
+          "source": "Hand over GPU's",
+          "translation": "GPU 건네주기"
+        }
+      ],
+      "known_quest_ids": [
+        "416680e19f105c1e036a012e"
+      ]
+    },
+    {
+      "contract_id": "l9LraUj8DH8cfaLuADaO",
+      "origin": "definitions",
+      "fields": {
+        "title": {
+          "source": "Cleaning house - Factory",
+          "translation": "공장 소탕 - 팩토리"
+        },
+        "description": {
+          "source": "Hello merc, I am sure you know the mechanic of these parts, he has asked me to find a mercenary to help clear the area around his workshop of these pesky scavengers, if you succeed at clearing the area you will be given a set of keys that are rumored to unlock a set of doors in the ultra shopping mall.",
+          "translation": "안녕, 용병. 이 지역의 메카닉은 잘 알고 있겠지? 그가 작업장 주변의 성가신 스캐브들을 쓸어 버릴 용병을 찾아 달라고 부탁했어. 그 구역을 정리하는 데 성공하면 울트라 쇼핑몰의 여러 문을 열 수 있다고 알려진 열쇠 한 세트를 받게 될 거야."
+        },
+        "started_message": {
+          "source": "Thanks for accepting this job mercenary",
+          "translation": "의뢰를 받아줘서 고맙네, 용병."
+        },
+        "success_message": {
+          "source": "You did well, here is a small reward from the community <3",
+          "translation": "잘해 줬어. 커뮤니티에서 주는 작은 보상이야. <3"
+        },
+        "fail_message": {
+          "source": "How could you have failed this? It is not a difficult task to complete",
+          "translation": "이걸 어떻게 실패할 수가 있지? 그리 어려운 일도 아니었는데."
+        }
+      },
+      "objectives": [
+        {
+          "index": 0,
+          "source": "Kill 25 scavengers in the abandoned factory (day time)",
+          "translation": "버려진 공장(주간)에서 스캐브 25명 처치"
+        }
+      ],
+      "known_quest_ids": [
+        "d63c0dc970686aa81e28a312"
+      ]
+    },
+    {
+      "contract_id": "sdMBnuW5VRRUJzZNJH02",
+      "origin": "definitions",
+      "fields": {
+        "title": {
+          "source": "Boss Rotation",
+          "translation": "보스 순회"
+        },
+        "description": {
+          "source": "Soldier, the local scav bosses are ramping up their activities lately. Get out there and put a stop to them, make sure to kill each one.",
+          "translation": "병사, 요즘 이 지역 스캐브 보스들의 활동이 부쩍 늘었어. 나가서 놈들을 막아. 한 놈도 빠짐없이 처치하도록."
+        },
+        "started_message": {
+          "source": "Good luck, soldier.",
+          "translation": "행운을 비네, 병사."
+        },
+        "success_message": {
+          "source": "Excellent, that should get them to fuck off for a bit.",
+          "translation": "훌륭해. 이제 놈들이 한동안 꺼져 있겠군."
+        },
+        "fail_message": {
+          "source": "Not good enough.",
+          "translation": "이 정도로는 부족해."
+        }
+      },
+      "objectives": [
+        {
+          "index": 0,
+          "source": "Kill Reshala",
+          "translation": "레쉴라 처치"
+        },
+        {
+          "index": 1,
+          "source": "Kill Killa",
+          "translation": "킬라 처치"
+        },
+        {
+          "index": 2,
+          "source": "Kill Shturman",
+          "translation": "슈트르만 처치"
+        },
+        {
+          "index": 3,
+          "source": "Kill Sanitar",
+          "translation": "사니타르 처치"
+        },
+        {
+          "index": 4,
+          "source": "Kill Tagilla",
+          "translation": "타길라 처치"
+        },
+        {
+          "index": 5,
+          "source": "Kill Glukhar",
+          "translation": "글루하 처치"
+        },
+        {
+          "index": 6,
+          "source": "Kill Kaban",
+          "translation": "카반 처치"
+        },
+        {
+          "index": 7,
+          "source": "Kill Kollontay",
+          "translation": "콜론타이 처치"
+        }
+      ],
+      "known_quest_ids": [
+        "0238ac133306e2efa1cedb0c"
+      ]
+    },
+    {
+      "contract_id": "MTuZQfurKiOXSKaScSqw",
+      "origin": "submissions",
+      "fields": {
+        "title": {
+          "source": "Party at the Scav House!",
+          "translation": "스캐브 소굴의 파티!"
+        },
+        "description": {
+          "source": "Hey, I was just put in touch with someone named \"Fence\". Seams like a nice guy. Told me he's looking to through a party for one of his guys for taking out some Black Division on Shoreline and requested me to requisition some booze for them.",
+          "translation": "이봐, 얼마 전에 \"펜스\"라는 사람을 소개받았어. 꽤 괜찮은 사람 같더군. 해안선에서 블랙 디비전 놈들을 처리한 부하 하나를 위해 파티를 열고 싶다면서, 그쪽에 줄 술을 좀 조달해 달라고 부탁했어."
+        },
+        "success_message": {
+          "source": "I knew I could count on you to get this done.",
+          "translation": "자네라면 이 일을 해낼 줄 알았어."
+        }
+      },
+      "objectives": [
+        {
+          "index": 0,
+          "source": "Bottle of Fierce Hatchling moonshine",
+          "translation": "피어스 해츨링 문샤인 한 병"
+        },
+        {
+          "index": 1,
+          "source": "Bottle of Tarkovskaya vodka",
+          "translation": "타르코프스카야 보드카 한 병"
+        }
+      ],
+      "known_quest_ids": []
+    },
+    {
+      "contract_id": "PRAOiYvkEGqSi4drk1wE",
+      "origin": "submissions",
+      "fields": {
+        "title": {
+          "source": "Nades for Days",
+          "translation": "수류탄은 많을수록 좋지"
+        },
+        "description": {
+          "source": "I hate Peacekeeper. I hate his stupid coat, I hate his UN vest, I hate the way his blue-helmets strut around Norvinsk like they own the dirt. But the balding old guy pays, he pays a lot, and right now, his boys are needy. Some pencil-pusher at the UN Council is probably still drafting a memo while Peacekeeper’s soldiers are down to chewing their fingernails for shrapnel. He needs grenades, and since Geneva won't ship 'em, he’s crawling to us.\n\nHere’s the deal. You can hoard those green apples for yourselves and drop a few of his boys by the port, show them irony. Or, you can haul 'em to my desk, take a greasy stack of dough, a cut from what he's giving me, and let his squad continue bleeding their grenade cases dry, throwing five hundred nades at every shadow that moves.\n\nLet's see... If fifty of you scav-brained hustlers can scrape together ten a piece, I can call it a day. And pay attention: he wants M67s only. No rusty pineapples, no Spetsnaz RGOs or RGNs. The last thing he needs is some jittery rookie blueberry blowing his own arm off because he forgot the fuse isn't five seconds long.",
+          "translation": "난 피스키퍼가 싫어. 그 멍청한 코트도, UN 조끼도, 파란 헬멧을 쓴 놈들이 노르빈스크를 제 땅인 양 활보하는 꼴도 전부 싫지. 그래도 머리 벗겨진 그 영감은 돈을 주거든. 그것도 아주 많이. 그런데 지금은 부하들이 물자가 절실한 모양이야. UN 이사회의 책상물림들은 아직도 보고서나 작성하고 있겠지만, 피스키퍼의 병사들은 수류탄 파편 대신 자기 손톱이라도 씹어야 할 판이지. 수류탄이 필요한데 제네바에서 보내 주지 않으니 결국 우리에게 기어들어 온 거야.\n\n거래는 이래. 초록 사과 같은 수류탄을 너희끼리 쌓아 두고 항구에서 놈의 병사 몇을 날려 버려도 돼. 참으로 역설적인 꼴이지. 아니면 그걸 내 책상으로 가져와. 그러면 놈이 내게 주는 돈에서 떼어 낸 두툼한 현금 뭉치를 챙길 수 있어. 그동안 놈의 분대는 움직이는 그림자마다 수류탄을 오백 개씩 던져 대며 수류탄 상자를 계속 비워 대겠지.\n\n어디 보자... 스캐브 같은 머리를 가진 장사꾼 쉰 명이 한 사람당 열 개씩만 긁어모아도 오늘 일은 끝낼 수 있겠군. 그리고 명심해. 놈이 원하는 건 M67뿐이야. 녹슨 파인애플 수류탄도 안 되고, 스페츠나츠의 RGO나 RGN도 안 돼. 마지막으로 필요한 건 안전 지연 시간이 5초가 아니라는 걸 잊고 자기 팔을 날려 버리는 얼빠진 파란 헬멧 신병이니까."
+        },
+        "started_message": {
+          "source": "Good, at least somebody in this mudhole knows the value of papers. Bring me those apples, soldier.",
+          "translation": "좋아, 이 진흙탕에도 돈의 가치를 아는 사람이 있군. 그 초록 사과들을 가져와, 병사."
+        },
+        "success_message": {
+          "source": "Alright, that’s ten more accounted for. Here’s your cut. Hey, don't spend it all in one spot, unless it’s at my counter. Keep them coming, friend.",
+          "translation": "좋아, 열 개 더 확보했군. 자, 네 몫이야. 한곳에서 다 써 버리진 마. 뭐, 내 가게라면 상관없지만 말이지. 계속 가져와, 친구."
+        },
+        "fail_message": {
+          "source": "Yeah, yeah... It's fine. Plenty of other starvin' scavengers willing to finish the legwork... Huh? No, I'm not pissed off... No, you're not getting paid for half a job, are you fucking dense?",
+          "translation": "그래, 그래... 괜찮아. 남은 잡일을 끝내 줄 굶주린 스캐브들은 얼마든지 있으니까... 뭐? 아니, 화난 거 아냐... 일을 반만 해 놓고 돈을 받겠다고? 이 멍청한 자식아?"
+        }
+      },
+      "objectives": [
+        {
+          "index": 0,
+          "source": "Hand over M67 hand grenades",
+          "translation": "M67 세열수류탄 건네주기"
+        }
+      ],
+      "known_quest_ids": []
+    },
+    {
+      "contract_id": "WPM277AaA6RLqN3bIs67",
+      "origin": "submissions",
+      "fields": {
+        "title": {
+          "source": "Fall cleaning",
+          "translation": "가을 대청소"
+        },
+        "description": {
+          "source": "Kill 15 scavs on customs",
+          "translation": "세관에서 스캐브 15명 처치"
+        },
+        "started_message": {
+          "source": "Hey you come over here. Looking to make some quick cash? some scavs have been causing a real headache for me in customs if you can clear them out I will make it worth your time.",
+          "translation": "이봐, 이쪽으로 와 봐. 돈 좀 빨리 벌고 싶나? 세관에서 스캐브 놈들이 아주 골칫거리야. 놈들을 정리해 주면 충분히 보상하겠어."
+        },
+        "success_message": {
+          "source": "Good thanks for the help, as promised here is your reward.",
+          "translation": "좋아, 도와줘서 고맙네. 약속대로 보상을 주지."
+        }
+      },
+      "objectives": [
+        {
+          "index": 0,
+          "source": "Eliminate 15 Scavs on Ground Zero",
+          "translation": "그라운드 제로에서 스캐브 15명 처치"
+        }
+      ],
+      "known_quest_ids": []
+    },
+    {
+      "contract_id": "sHop0998VZtdajokVgxm",
+      "origin": "submissions",
+      "fields": {
+        "title": {
+          "source": "Street sweeper",
+          "translation": "거리 청소부"
+        },
+        "description": {
+          "source": "An anonymous benefactor is requesting a cleanse of the streets, and they are paying enough for me not to ask why.",
+          "translation": "익명의 후원자가 거리의 쓰레기들을 쓸어 달라고 의뢰했어. 이유를 묻지 않아도 될 만큼 충분한 돈을 내고 있지."
+        },
+        "started_message": {
+          "source": "Your call.",
+          "translation": "선택은 네 몫이야."
+        },
+        "success_message": {
+          "source": "Payment filed, watch your back.",
+          "translation": "대금 지급은 처리했어. 뒤를 조심해."
+        },
+        "fail_message": {
+          "source": "Don't think this will be good for you...",
+          "translation": "자네에게 좋은 일이 생기진 않겠군..."
+        }
+      },
+      "objectives": [
+        {
+          "index": 0,
+          "source": "Hand over the key for The Hive",
+          "translation": "하이브의 열쇠 건네주기"
+        },
+        {
+          "index": 1,
+          "source": "Clear out the scum, thirty or so will do.",
+          "translation": "쓰레기 같은 놈들을 소탕해. 서른 명쯤이면 충분해."
+        },
+        {
+          "index": 2,
+          "source": "Eliminate your competing contractors, twenty five should be enough.",
+          "translation": "경쟁 용병들을 처치해. 스물다섯 명이면 충분할 거야."
+        }
+      ],
+      "known_quest_ids": []
+    }
+  ],
+  "reward_tiers": [
+    {
+      "tier": 1,
+      "name": {
+        "source": "QM Supply Cache (T1)",
+        "translation": "QM 보급 상자 (1단계)"
+      },
+      "description": {
+        "source": "Basic supplies for tough times. The community barely scraped by this week.",
+        "translation": "힘든 시기를 버티기 위한 기본 보급품. 이번 주 커뮤니티는 겨우 버텨 냈습니다."
+      }
+    },
+    {
+      "tier": 2,
+      "name": {
+        "source": "QM Supply Cache (T2)",
+        "translation": "QM 보급 상자 (2단계)"
+      },
+      "description": {
+        "source": "A decent haul. The community put in some work this week.",
+        "translation": "제법 괜찮은 물자입니다. 이번 주에는 커뮤니티가 꽤 힘을 보탰습니다."
+      }
+    },
+    {
+      "tier": 3,
+      "name": {
+        "source": "QM Supply Cache (T3)",
+        "translation": "QM 보급 상자 (3단계)"
+      },
+      "description": {
+        "source": "Quality goods, no scraps here. The community delivered this week.",
+        "translation": "품질 좋은 물품만 골랐습니다. 자투리 물건은 없습니다. 이번 주 커뮤니티가 제 몫을 해냈습니다."
+      }
+    },
+    {
+      "tier": 4,
+      "name": {
+        "source": "QM Supply Cache (T4)",
+        "translation": "QM 보급 상자 (4단계)"
+      },
+      "description": {
+        "source": "Top-shelf gear for outstanding community contributions. The best of the best.",
+        "translation": "탁월한 커뮤니티 기여에 걸맞은 최상급 장비입니다. 최고 중에서도 최고입니다."
+      }
+    }
+  ],
+  "weekly_reward_message": {
+    "source": "Weekly community supply shipment - Tier 2! Thank you for your contributions.",
+    "translation": "주간 커뮤니티 보급품 배송 - 2단계! 기여해 주셔서 감사합니다."
+  }
+}

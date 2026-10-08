@@ -38,6 +38,8 @@ if ($releaseVersion -notmatch '^\d+\.\d+\.\d+$') { Fail 'Invalid client release 
 if (-not (Get-Command $PythonExe -ErrorAction SilentlyContinue)) { Fail 'Python 3 is required for translation validation. Pass -PythonExe with its full path.' }
 & $PythonExe (Join-Path $root 'tools\validate_translations.py')
 if ($LASTEXITCODE -ne 0) { Fail 'Translation validation failed.' }
+& $PythonExe (Join-Path $root 'tools\verify_quartermaster_contracts.py')
+if ($LASTEXITCODE -ne 0) { Fail 'Quartermaster contract catalog verification failed.' }
 & $PythonExe (Join-Path $root 'tools\build_supported_mods.py')
 if ($LASTEXITCODE -ne 0) { Fail 'Supported mod list generation failed.' }
 
@@ -74,6 +76,7 @@ Copy-Item $clientDll (Join-Path $clientDest 'SPT_Mod_Korean_Addon.dll') -Force
 Copy-Item (Join-Path $root 'translations') (Join-Path $clientDest 'translations') -Recurse -Force
 Copy-Item (Join-Path $root 'config-ui') (Join-Path $clientDest 'config-ui') -Recurse -Force
 Copy-Item (Join-Path $root 'native-locales') (Join-Path $clientDest 'native-locales') -Recurse -Force
+Copy-Item (Join-Path $root 'contract-locales') (Join-Path $clientDest 'contract-locales') -Recurse -Force
 Copy-Item $serverDll (Join-Path $serverDest 'SPT_Mod_Korean_Server.dll') -Force
 # Release ZIP contains runtime/install files only. Source documentation stays in the GitHub repository.
 

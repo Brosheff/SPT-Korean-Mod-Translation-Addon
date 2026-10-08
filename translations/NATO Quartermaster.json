@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "NATOQuartermaster",
+  "mod_name": "NATO Quartermaster",
+  "channels": {
+    "locale": [
+      {
+        "key": "bb371fed0e82b224f2d82c0d FullName",
+        "source": "Elias Ward",
+        "translation": "엘리아스 워드",
+        "match_mode": "exact"
+      },
+      {
+        "key": "bb371fed0e82b224f2d82c0d FirstName",
+        "source": "Elias",
+        "translation": "엘리아스",
+        "match_mode": "exact"
+      },
+      {
+        "key": "bb371fed0e82b224f2d82c0d Nickname",
+        "source": "Quartermaster",
+        "translation": "쿼터마스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "bb371fed0e82b224f2d82c0d Location",
+        "source": "Forward Logistics Cell",
+        "translation": "전방 군수 지원소",
+        "match_mode": "exact"
+      },
+      {
+        "key": "bb371fed0e82b224f2d82c0d Description",
+        "source": "Former British military logistics NCO Elias Ward was attached to a Western procurement cell before the Tarkov cordon closed. When the evacuation fractured, Ward stayed behind with abandoned manifests, diverted shipments, and enough contacts to keep Western arms and field equipment moving. His prices are ugly, his paperwork immaculate, and he has little interest in buying your loot. Dogtags, however, are useful proof that a name can be removed from a manifest.",
+        "translation": "전직 영국군 군수 부사관 엘리아스 워드는 타르코프 봉쇄 이전 서방 물자 조달 부대에 배속되어 있었습니다. 철수 작전이 무너진 뒤에도 그는 남겨진 적하목록과 빼돌린 보급품, 서방 무기와 야전 장비의 유통을 이어 갈 인맥을 가지고 타르코프에 남았습니다. 가격은 터무니없이 비싸지만 서류는 한 치의 오차도 없으며, 당신이 주워 온 잡동사니에는 별 관심이 없습니다. 하지만 인식표는 적하목록에서 이름 하나를 지울 수 있다는 유용한 증거가 됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000001 name",
+        "source": "Inventory Check",
+        "translation": "재고 확인",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "71a001f1a11ce00100000001 description",
+        "source": "A supply chain is only as reliable as the person standing at the end of it. Bring me two MREs and two bottles of water. Nothing glamorous. If you can handle the boring work without losing half of it, I may open the better racks to you.",
+        "translation": "보급망의 신뢰성은 결국 마지막에 물건을 받는 사람에게 달려 있지. MRE 전투식량 두 개와 생수 두 병을 가져오게. 화려한 일은 아니야. 이런 지루한 일도 물자의 절반을 잃어버리지 않고 해낸다면, 더 좋은 장비 진열대를 열어 줄 수도 있겠군.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "71a001f1a11ce00100000001 note",
+        "source": "Ward wants basic field rations before discussing restricted stock.",
+        "translation": "워드는 제한 장비를 거래하기 전에 기본 야전 식량부터 확인하려 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000001 startedMessageText",
+        "source": "Two meals. Two waters. Try not to turn procurement into an adventure.",
+        "translation": "식량 두 개, 물 두 병. 단순한 보급 업무를 모험으로 만들지는 말게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000001 successMessageText",
+        "source": "Good. Inventory accounted for. I've opened one of the restricted armor racks.",
+        "translation": "좋아. 재고 확인이 끝났군. 제한된 방어구 진열대 하나를 열어 두었네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000001 failMessageText",
+        "source": "Impressive. You managed to lose a logistics task.",
+        "translation": "놀랍군. 보급품 확인 같은 일마저 망쳐 버리다니.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000001 acceptPlayerMessage",
+        "source": "I'll get it handled.",
+        "translation": "처리하겠습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000001 declinePlayerMessage",
+        "source": "Not interested.",
+        "translation": "관심 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000001 completePlayerMessage",
+        "source": "Inventory accounted for.",
+        "translation": "재고를 모두 확인했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000001 changeQuestMessageText",
+        "source": "The manifest changed. The requirement did not.",
+        "translation": "적하목록이 바뀌었네. 요구 사항은 그대로야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000002 name",
+        "source": "Chain of Custody",
+        "translation": "증거물 인계 절차",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "71a001f1a11ce00100000002 description",
+        "source": "One of my manifests has too many names still marked active. Bring me five PMC dogtags. I don't care which patch they wore. I need proof before I move restricted weapons off the books.",
+        "translation": "내 적하목록 하나에 아직 활동 중으로 표시된 이름이 너무 많아. PMC 인식표 다섯 개를 가져오게. 어느 부대 마크를 달았는지는 상관없어. 제한된 무기를 장부에서 꺼내려면 확실한 증거가 필요하거든.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "71a001f1a11ce00100000002 note",
+        "source": "Dogtags are evidence, not trophies, at least according to Ward.",
+        "translation": "워드에게 인식표는 전리품이 아니라 증거물입니다. 적어도 본인은 그렇게 말합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000002 startedMessageText",
+        "source": "Five tags. Legible. I have enough mysteries in the inventory system already.",
+        "translation": "인식표 다섯 개. 글자가 읽혀야 하네. 재고 관리만으로도 수수께끼가 충분하니까.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000002 successMessageText",
+        "source": "Good. Five names removed from the manifest. One restricted rifle is now on your purchase list.",
+        "translation": "좋아. 적하목록에서 이름 다섯 개를 지웠네. 이제 제한된 소총 한 정을 구매할 수 있네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000002 failMessageText",
+        "source": "Chain of custody broken. Again.",
+        "translation": "증거물 인계 절차가 또 어긋났군.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000002 acceptPlayerMessage",
+        "source": "I'll bring proof.",
+        "translation": "증거를 가져오겠습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000002 declinePlayerMessage",
+        "source": "Keep the rifle.",
+        "translation": "그 소총은 됐습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000002 completePlayerMessage",
+        "source": "The tags are yours.",
+        "translation": "인식표를 가져왔습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000002 changeQuestMessageText",
+        "source": "Same manifest. More dead ink.",
+        "translation": "적하목록은 그대로고, 죽은 사람의 기록만 더 늘어났군.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000003 name",
+        "source": "Restricted Issue",
+        "translation": "제한 보급품 지급",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "71a001f1a11ce00100000003 description",
+        "source": "The first controlled cabinet is armor and ammunition that attracts questions. Bring me ten dogtags from operators level fifteen or higher. If you're working at that level, I can justify moving serious inventory to your account.",
+        "translation": "첫 번째 통제 보관함에는 사람들의 눈길을 끌 만한 방어구와 탄약이 있지. 레벨 15 이상의 작전 요원에게서 얻은 인식표 열 개를 가져오게. 그 정도 수준에서 활동한다면 고급 물자를 자네 계정으로 돌릴 명분이 생기거든.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "71a001f1a11ce00100000003 note",
+        "source": "Ward's first restricted cabinet is reserved for proven operators.",
+        "translation": "워드의 첫 제한 보관함은 실력이 검증된 작전 요원만 이용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000003 startedMessageText",
+        "source": "Ten experienced operators. Level fifteen minimum.",
+        "translation": "숙련된 작전 요원 열 명. 최소 레벨은 15야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000003 successMessageText",
+        "source": "Enough. The restricted cabinet is open. Better protection and premium ammunition are now on the books.",
+        "translation": "충분해. 제한 보관함을 열었네. 더 좋은 방어 장비와 고급 탄약을 구매할 수 있을 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000003 failMessageText",
+        "source": "Restricted means restricted. Come back when the paperwork is convincing.",
+        "translation": "제한 물자는 말 그대로 제한된 물자야. 서류가 확실해지면 다시 오게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000003 acceptPlayerMessage",
+        "source": "Open the cabinet when I get back.",
+        "translation": "돌아올 때까지 보관함을 열 준비를 해 두십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000003 declinePlayerMessage",
+        "source": "Not worth it.",
+        "translation": "그럴 가치는 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000003 completePlayerMessage",
+        "source": "Ten qualified tags.",
+        "translation": "조건에 맞는 인식표 열 개입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000003 changeQuestMessageText",
+        "source": "The cabinet remains locked.",
+        "translation": "보관함은 여전히 잠겨 있네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000004 name",
+        "source": "Supply Interruption",
+        "translation": "보급로 차단",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "71a001f1a11ce00100000004 description",
+        "source": "A scav crew has been hitting the Customs route I use to move protective equipment inland. Twelve of them should be enough to make the next convoy boring again. I like boring convoys.",
+        "translation": "내가 방호 장비를 내륙으로 옮길 때 이용하는 세관 보급로를 스캐브 무리가 습격하고 있어. 놈들 열두 명 정도 처리하면 다음 호송은 다시 조용해지겠지. 난 조용한 호송이 좋거든.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "71a001f1a11ce00100000004 note",
+        "source": "Clear Ward's Customs supply route and a second premium armor shelf becomes available.",
+        "translation": "세관의 워드 보급로를 확보하면 두 번째 고급 방어구 진열대가 열립니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000004 startedMessageText",
+        "source": "Customs. Twelve scavengers. Keep my route open.",
+        "translation": "세관. 스캐브 열두 명. 내 보급로를 확보하게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000004 successMessageText",
+        "source": "Route is moving again. I've added another set of premium armor and head protection to your account.",
+        "translation": "보급로가 다시 움직이기 시작했군. 자네 계정에 고급 방어구와 머리 보호 장비를 추가해 두었네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000004 failMessageText",
+        "source": "The route is still blocked.",
+        "translation": "보급로는 아직 막혀 있네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000004 acceptPlayerMessage",
+        "source": "I'll clear the route.",
+        "translation": "보급로를 정리하겠습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000004 declinePlayerMessage",
+        "source": "Find another route.",
+        "translation": "다른 길을 찾으십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000004 completePlayerMessage",
+        "source": "Customs is clear enough.",
+        "translation": "세관 보급로는 충분히 확보했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000004 changeQuestMessageText",
+        "source": "Convoy schedule remains unchanged.",
+        "translation": "호송 일정은 변경되지 않았네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000005 name",
+        "source": "Black Ledger",
+        "translation": "비밀 장부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "71a001f1a11ce00100000005 description",
+        "source": "The public manifest is clean. The other ledger isn't. I need eight tags from operators level twenty-five or higher before I move the next rifle and ammunition allotment out of reserve.",
+        "translation": "공식 적하목록은 깨끗해. 하지만 다른 장부는 그렇지 않지. 다음 소총과 탄약 할당분을 예비 물자에서 빼려면 레벨 25 이상의 작전 요원에게서 얻은 인식표 여덟 개가 필요하네.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "71a001f1a11ce00100000005 note",
+        "source": "Experienced PMC tags buy access to Ward's deeper reserve inventory.",
+        "translation": "숙련된 PMC의 인식표를 모으면 워드의 심층 예비 물자에 접근할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000005 startedMessageText",
+        "source": "Eight tags. Level twenty-five or better. No tourists.",
+        "translation": "인식표 여덟 개. 레벨 25 이상. 초짜 것은 안 되네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000005 successMessageText",
+        "source": "The ledger balances. Another premium rifle and another AP allocation are now available to you.",
+        "translation": "장부가 맞아떨어졌군. 고급 소총 한 정과 추가 철갑탄 할당분을 구매할 수 있네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000005 failMessageText",
+        "source": "The numbers do not balance.",
+        "translation": "장부의 숫자가 맞지 않네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000005 acceptPlayerMessage",
+        "source": "I'll balance it.",
+        "translation": "장부를 맞춰 놓겠습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000005 declinePlayerMessage",
+        "source": "Keep it off the books.",
+        "translation": "장부에 올리지 마십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000005 completePlayerMessage",
+        "source": "Eight experienced names accounted for.",
+        "translation": "숙련된 작전 요원 여덟 명의 신원을 확인했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000005 changeQuestMessageText",
+        "source": "The ledger is still open.",
+        "translation": "장부는 아직 마감되지 않았네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000006 name",
+        "source": "Priority Shipment",
+        "translation": "우선 수송품",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "71a001f1a11ce00100000006 description",
+        "source": "Last allocation. The stock in this shipment was never meant for open sale. Remove eight PMCs from the board and bring me twelve tags from level thirty or higher. Do that, and I'll stop pretending the black rack doesn't exist.",
+        "translation": "마지막 물량이야. 이 수송품에 든 재고는 원래 일반 판매용이 아니었지. PMC 여덟 명을 제거하고 레벨 30 이상의 인식표 열두 개를 가져오게. 그걸 해내면 최고급 장비 진열대가 없는 척하는 것도 그만두겠네.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "71a001f1a11ce00100000006 note",
+        "source": "Ward's final contract opens his best available Western equipment.",
+        "translation": "워드의 마지막 계약을 완료하면 그가 확보한 최상급 서방 장비를 구매할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000006 startedMessageText",
+        "source": "Eight PMCs down. Twelve level-thirty tags on my desk. Then we discuss the black rack.",
+        "translation": "PMC 여덟 명 제거, 레벨 30 인식표 열두 개를 내 책상 위에. 그다음 최상급 진열대 얘기를 하지.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000006 successMessageText",
+        "source": "Contract closed. The black rack is yours to buy from: elite rifle, armor, helmet, and the remaining premium ammunition I can source.",
+        "translation": "계약 완료. 최상급 진열대 물품을 구매할 수 있네. 최고급 소총, 방어구, 헬멧, 그리고 내가 구할 수 있는 나머지 고급 탄약까지.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000006 failMessageText",
+        "source": "Priority inventory stays sealed until the contract is complete.",
+        "translation": "계약이 완료될 때까지 우선 보급 물자는 봉인 상태로 남을 걸세.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000006 acceptPlayerMessage",
+        "source": "Get the shipment ready.",
+        "translation": "수송품을 준비해 주십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000006 declinePlayerMessage",
+        "source": "Keep it sealed.",
+        "translation": "계속 봉인해 두십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000006 completePlayerMessage",
+        "source": "Open the black rack.",
+        "translation": "최상급 진열대를 열어 주십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "71a001f1a11ce00100000006 changeQuestMessageText",
+        "source": "Priority shipment remains held.",
+        "translation": "우선 수송품의 출고가 계속 보류됐네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "a0826da0256374ea3a450268",
+        "source": "Hand over 2 MRE ration packs",
+        "translation": "MRE 전투식량 2개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "560a7ea9fe655186d13e6471",
+        "source": "Hand over 2 bottles of water",
+        "translation": "생수 2병 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "ab10295b4e5e6089081bb3c2",
+        "source": "Hand over 5 PMC dogtags",
+        "translation": "PMC 인식표 5개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "e313fd2e464b4df60a778045",
+        "source": "Hand over 10 PMC dogtags from level 15+ operators",
+        "translation": "레벨 15 이상 PMC의 인식표 10개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "03868fdbfb1a208ac4bf30c8",
+        "source": "Eliminate 12 Scavs on Customs",
+        "translation": "세관에서 스캐브 12명 처치하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "21046af7fa3ce0fb98faacb5",
+        "source": "Hand over 8 PMC dogtags from level 25+ operators",
+        "translation": "레벨 25 이상 PMC의 인식표 8개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "7b8a57a80c0370a7c4c86e33",
+        "source": "Eliminate 8 PMCs",
+        "translation": "PMC 8명 처치하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "e537931a2cbf32ee771cea27",
+        "source": "Hand over 12 PMC dogtags from level 30+ operators",
+        "translation": "레벨 30 이상 PMC의 인식표 12개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      }
+    ]
+  }
+}
