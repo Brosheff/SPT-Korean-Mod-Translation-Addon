@@ -6,7 +6,7 @@ using HarmonyLib;
 
 namespace SPT.ModKoreanAddon
 {
-    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.1")]
+    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.2")]
     [BepInDependency("com.GoLani.koreanpatchfix", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("com.mpstark.dynamicmaps", BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin
@@ -19,6 +19,8 @@ namespace SPT.ModKoreanAddon
         private Harmony dynamicMapsHarmony;
         private Harmony casinoHarmony;
         private Harmony quartermasterHarmony;
+        private Harmony fiveModsHarmony;
+        private Harmony eightModsHarmony;
         private QuartermasterContractLocales quartermasterCatalog;
         private bool initialized;
         private EditableProfiles data;
@@ -51,6 +53,32 @@ namespace SPT.ModKoreanAddon
                 data = new EditableProfiles(addonRoot);
                 quartermasterCatalog = new QuartermasterContractLocales(addonRoot);
                 AddonBridge.Enable(harmony, originalAssembly, originalRoot, addonRoot, data);
+                // Install the grenade error hook in Awake, not Start: missing BigBrain
+                // may terminate the client before Start executes. Installation order of
+                // third-party plugins still determines whether this runs early enough.
+                try
+                {
+                    fiveModsHarmony = new Harmony("spt.korean.modtranslation.addon.five-mods-ui");
+                    FiveModsUiHooks.Enable(fiveModsHarmony, AppDomain.CurrentDomain.GetAssemblies());
+                }
+                catch (Exception error)
+                {
+                    FiveModsUiHooks.Disable();
+                    fiveModsHarmony?.UnpatchSelf();
+                    Logger.LogWarning("Five mods optional UI hooks disabled: " + error.Message);
+                }
+                // Optional scoped UI hooks for eight independently reviewed mods.
+                try
+                {
+                    eightModsHarmony = new Harmony("spt.korean.modtranslation.addon.eight-mods-ui");
+                    EightModsUiHooks.Enable(eightModsHarmony, AppDomain.CurrentDomain.GetAssemblies());
+                }
+                catch (Exception error)
+                {
+                    EightModsUiHooks.Disable();
+                    eightModsHarmony?.UnpatchSelf();
+                    Logger.LogWarning("Eight mods optional UI hooks disabled: " + error.Message);
+                }
                 initialized = true;
             }
             catch (Exception ex)
@@ -177,7 +205,7 @@ namespace SPT.ModKoreanAddon
             // Korean Patch Fix's custom kr/kr-en mode on its own. Send only the existing
             // CurrentCulture value; failure is isolated and leaves all client UI hooks intact.
             TrySyncServerCulture(lastCulture);
-            Logger.LogInfo("SPT Mod Korean Addon 1.0.1 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
+            Logger.LogInfo("SPT Mod Korean Addon 1.0.2 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
         }
 
         private void Update()
@@ -246,6 +274,10 @@ namespace SPT.ModKoreanAddon
 
         private void OnDestroy()
         {
+            FiveModsUiHooks.Disable();
+            fiveModsHarmony?.UnpatchSelf();
+            EightModsUiHooks.Disable();
+            eightModsHarmony?.UnpatchSelf();
             ModUiLiteralHooks.Disable();
             SmallUiLiteralHooks.Disable();
             CasinoUiHooks.Disable();

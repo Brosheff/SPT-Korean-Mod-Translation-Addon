@@ -2,7 +2,7 @@
   "schema_version": 1,
   "target_spt": "4.1.6",
   "plugin_guid": "com.lennoxp90.coti",
-  "plugin_name": "SPT-COTI-main",
+  "plugin_name": "ECOTI 3.3.2",
   "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
   "categories": [
     {
@@ -32,6 +32,10 @@
     {
       "source": "Mask Editor Keys",
       "translation": "마스크 편집기 키"
+    },
+    {
+      "source": "Power Sequence",
+      "translation": "전원 작동 순서"
     }
   ],
   "entries": [
@@ -48,9 +52,9 @@
       "section": "Debug",
       "key": "Dump Frames",
       "source_display_name": "Dump Frames",
-      "source_description": "Writes this many frames of every thermal render target to coti-dumps/ as PNGs, with per-channel statistics in the log, then stops. Change the number to start a fresh batch. Live, because the alternative was a rebuild per attempt: dumpFrames is a compiled-in default and nothing else on this panel can reach it. The channel MEANS are the point - under a grayscale palette a real thermal render has neutral means and a lit one is colour-cast, which is the check four in-raid screenshot comparisons could not settle.",
+      "source_description": "Writes this many frames of every thermal render target to coti-dumps/ as PNGs, with per-channel statistics in the log, then stops. Change the number to start a fresh batch. Under a grayscale palette a correct thermal render has neutral channel means; a colour cast means the target was lit rather than thermal.",
       "translation_display_name": "덤프 프레임",
-      "translation_description": "지정한 수만큼의 열상 렌더 타깃 프레임을 coti-dumps/ 폴더에 PNG로 저장하고 채널 통계를 로그에 기록합니다. 값을 바꾸면 새 덤프 작업을 시작합니다. 개발·화면 분석용 기능입니다.",
+      "translation_description": "열상 렌더링 프레임과 통계를 coti-dumps 폴더에 저장합니다. 숫자를 변경하면 새 수집을 시작합니다.",
       "values": []
     },
     {
@@ -131,7 +135,7 @@
       "source_display_name": "Enabled",
       "source_description": "Master switch for the thermal overlay.",
       "translation_display_name": "활성화",
-      "translation_description": "COTI 열상 오버레이 전체 기능을 켜거나 끕니다.",
+      "translation_description": "열상 오버레이의 전체 활성화 여부를 설정합니다.",
       "values": []
     },
     {
@@ -156,9 +160,9 @@
       "section": "Image",
       "key": "Magnify With Optic",
       "source_display_name": "Magnify With Optic",
-      "source_description": "Renders a second thermal pass matched to a magnified scope, so heat lines up with what the scope shows instead of with the 1x view around it, and keeps the 1x heat off the lens. Off by default: the COTI is an offset sensor looking downrange on its own axis, so a 1x thermal is what it would really produce. Costs a second scene render while aiming. Non-magnified sights are unaffected either way. If Borkel's scope blur is on, this spends that render aligning heat onto a deliberately blurred picture.",
+      "source_description": "Renders a second thermal pass matched to a magnified scope, so heat lines up with what the scope shows instead of with the 1x view around it, and keeps the 1x heat off the lens. Off by default: the COTI is an offset sensor looking downrange on its own axis, so a 1x thermal is what it would really produce. Non-magnified sights are unaffected either way. With Borkel's scope blur on, the heat is aligned onto the blurred scope picture. Potential FPS improvement: leave it off, since on renders the scene a second time while aiming.",
       "translation_display_name": "배율 조준경에 맞춰 열상 확대",
-      "translation_description": "배율 조준경에 맞춘 두 번째 열상 렌더를 사용해 열원이 조준경 화면과 정확히 맞도록 합니다. 실제 COTI는 자체 축을 보는 1배 센서라 기본값은 꺼짐이며, 활성화하면 조준 중 추가 장면 렌더 비용이 발생합니다.",
+      "translation_description": "배율 조준경으로 볼 때 별도의 열상 패스를 렌더링해 조준경 화면과 열을 일치시킵니다. 켜면 조준 중 추가 렌더링으로 FPS가 감소할 수 있습니다.",
       "values": []
     },
     {
@@ -210,9 +214,9 @@
       "section": "Image",
       "key": "Outline Width",
       "source_display_name": "Outline Width",
-      "source_description": "Contour thickness in texels of the thermal target, when Outline Mix is above 0.",
+      "source_description": "The thickest a contour draws, in thermal texels. Outline Thickness sets the contour's real-world width, which thins with distance; up close this caps it.",
       "translation_display_name": "윤곽선 너비",
-      "translation_description": "윤곽 혼합이 0보다 클 때 열상 대상에 그려지는 윤곽선의 두께를 텍셀 단위로 설정합니다.",
+      "translation_description": "화면 열상 텍셀 기준 윤곽선의 최대 너비입니다. 실제 두께로 계산한 윤곽선이 이 값을 초과하지 않도록 제한합니다.",
       "values": []
     },
     {
@@ -255,18 +259,18 @@
       "section": "Image",
       "key": "Sensor Refresh (Hz)",
       "source_display_name": "Sensor Refresh (Hz)",
-      "source_description": "The sensor's simulated refresh. The thermal image is captured at this rate and the held copy is re-blitted in between, which is what a low-refresh core looks like. Set 0 to disable the hold entirely and capture every frame. This is NOT a render cap and costs no extra rendering either way - the camera renders every frame regardless.",
+      "source_description": "The sensor's simulated refresh. The thermal image updates at this rate and holds in between, as a real low-refresh core does, and the frames between cost nothing. 0 updates every frame. Potential FPS improvement: keep it at 60 or lower, since 0 renders the thermal on every frame.",
       "translation_display_name": "센서 갱신 빈도 (Hz)",
-      "translation_description": "열상 센서의 가상 갱신 빈도입니다. 이 주기로 새 열상 프레임을 캡처하고 그 사이에는 이전 영상을 유지합니다. 0이면 유지 기능을 끄고 매 프레임 갱신합니다. 실제 렌더링 프레임 제한은 아닙니다.",
+      "translation_description": "열상 센서의 가상 갱신 주파수입니다. 0이면 매 프레임 렌더링하므로 성능에 부담이 될 수 있습니다. 60 이하를 권장합니다.",
       "values": []
     },
     {
       "section": "Image",
       "key": "Sensor Resolution (rows)",
       "source_display_name": "Sensor Resolution (rows)",
-      "source_description": "Vertical resolution of the thermal render. Raising it is what recovers DISTANT contacts: a target far enough away covers only a fraction of a texel, its heat is averaged with the cold background, and below about a quarter coverage it falls under the heat threshold and contributes nothing at all - so it dims, flickers as it moves, and eventually vanishes. At 576 a man at 300 m already swings between a fifth of full brightness and full brightness depending on where he lands on the texel grid. Costs fill rate, which measurement says is not the bottleneck - the second camera is bound by CPU-side culling and draw submission, and those do not change with resolution. Contour thickness is scaled to match, so the picture keeps its look. The values BELOW 576 are a test aid rather than a setting: angular size in texels is (size / range) x (rows / fov), so halving the rows is identical to doubling the range. 288 at 50 m shows what 576 does at 100 m, which is how the failure can be provoked on a sightline you actually have.",
+      "source_description": "Vertical resolution of the thermal image. Higher values keep distant targets visible: a target smaller than one pixel of the sensor blends into the cold background and can flicker or vanish. Contour thickness scales to match. Values below 576 are for testing: halving the rows shows what the default does at twice the range.",
       "translation_display_name": "센서 세로 해상도 (행)",
-      "translation_description": "열상 렌더의 세로 해상도입니다. 값을 높이면 먼 거리의 작은 열원이 텍셀에 묻혀 사라지는 현상을 줄일 수 있습니다. 해상도를 높여도 주 병목은 CPU 측 컬링·드로우 제출이므로 영향은 제한적이며, 윤곽 두께는 해상도에 맞춰 보정됩니다. 576 미만 값은 주로 거리별 감지 실패를 재현하는 테스트용입니다.",
+      "translation_description": "열상 센서의 세로 해상도입니다. 높이면 먼 목표가 픽셀보다 작아져 사라지는 현상을 줄일 수 있습니다. 576 미만은 시험용입니다.",
       "values": []
     },
     {
@@ -457,6 +461,168 @@
       "translation_display_name": "미세 조정 보조키",
       "translation_description": "더 작은 단위로 조정할 때 누르고 있는 보조키입니다. NumLock이 켜진 Windows에서는 Shift+숫자 키패드가 화살표 키로 인식되므로 Shift는 의도적으로 사용하지 않습니다.",
       "values": []
+    },
+    {
+      "section": "Image",
+      "key": "Full Mode Fill (%)",
+      "values": [],
+      "source_display_name": "Full Mode Fill (%)",
+      "source_description": "How bright Full mode fills a hot shape inside its outline. 100 is a solid shape; Outline mode ignores this.",
+      "translation_display_name": "전체 모드 채우기 (%)",
+      "translation_description": "전체 모드에서 뜨거운 물체의 윤곽선 안쪽을 얼마나 밝게 채울지 설정합니다. 100이면 완전히 채우며 윤곽선 모드에는 적용되지 않습니다."
+    },
+    {
+      "section": "Image",
+      "key": "Full Mode Fill Moved",
+      "values": [],
+      "source_display_name": "Full Mode Fill Moved",
+      "source_description": "Set once the 3.2.0 fill default has been moved to 45.",
+      "translation_display_name": "전체 모드 채우기 값 이전됨",
+      "translation_description": "3.2.0 버전의 기본 채우기 값을 45로 이전했는지 나타내는 내부 설정입니다."
+    },
+    {
+      "section": "Image",
+      "key": "Glass",
+      "values": [],
+      "source_display_name": "Glass",
+      "source_description": "Glass blocks heat. Plain shows it blank. Reflections also mirrors the bodies in front of it, you included, faintly face-on and strongly at a shallow angle, as real glass does to a thermal imager.",
+      "translation_display_name": "유리 열상 처리",
+      "translation_description": "유리의 열 차단·통과 및 반사 방식을 지정합니다. 반사 모드에서는 앞에 있는 물체의 열과 사용자 자신의 열도 각도에 따라 반사됩니다."
+    },
+    {
+      "section": "Image",
+      "key": "Scope Glass Reflections",
+      "values": [],
+      "source_display_name": "Scope Glass Reflections",
+      "source_description": "A magnified scope's front and rear glass mirror heat like other glass while Glass is Reflections. Off, scope glass stays Plain. Red dots and holographic sights are never glass.",
+      "translation_display_name": "조준경 유리 열 반사",
+      "translation_description": "유리 설정이 반사 모드일 때 배율 조준경 렌즈의 열 반사를 표시합니다. 끄면 투명 처리 대신 반사 없는 유리가 됩니다. 도트·홀로그램 조준경에는 적용되지 않습니다."
+    },
+    {
+      "section": "Image",
+      "key": "Heat Brightness",
+      "values": [],
+      "source_display_name": "Heat Brightness",
+      "source_description": "A multiplier on how bright heat signatures draw. 1 is the default; lower dims the image, higher brightens it.",
+      "translation_display_name": "열 신호 밝기",
+      "translation_description": "열 신호의 전체 밝기 배율입니다. 1이 기본이며 낮으면 어두워지고 높이면 밝아집니다."
+    },
+    {
+      "section": "Image",
+      "key": "Render Flashlight Heat",
+      "values": [],
+      "source_display_name": "Render Flashlight Heat",
+      "source_description": "A lit flashlight's head shows faintly warm, from its lens back. Only visible light: lasers and infrared illuminators stay cold. Off, every flashlight reads cold.",
+      "translation_display_name": "손전등 열 표시",
+      "translation_description": "켜진 손전등의 렌즈 부근에 약한 열을 표시합니다. 가시광선 손전등에만 적용되며 레이저·적외선 조사기는 차갑게 표시됩니다."
+    },
+    {
+      "section": "Image",
+      "key": "Render Searchlight Heat",
+      "values": [],
+      "source_display_name": "Render Searchlight Heat",
+      "source_description": "A lit searchlight shows hot at its lens and warm around it; every other lamp stays cold. Off, searchlights read cold too.",
+      "translation_display_name": "탐조등 열 표시",
+      "translation_description": "작동 중인 탐조등의 렌즈와 주변 열을 표시합니다. 일반 조명은 여전히 차갑게 표시됩니다."
+    },
+    {
+      "section": "Image",
+      "key": "Outline Thickness (cm)",
+      "values": [],
+      "source_display_name": "Outline Thickness (cm)",
+      "source_description": "The outline's thickness on the object itself. Projected through the view like the object, so it thins with distance and thickens under magnification, never past Outline Width. 0 keeps a fixed width.",
+      "translation_display_name": "윤곽선 두께(cm)",
+      "translation_description": "윤곽선의 실제 물체 기준 두께(cm)입니다. 거리와 배율에 따라 화면에서 두께가 달라지며 윤곽선 너비를 넘지 않습니다. 0이면 고정 너비를 사용합니다."
+    },
+    {
+      "section": "Image",
+      "key": "Thermal Range (m)",
+      "values": [],
+      "source_display_name": "Thermal Range (m)",
+      "source_description": "How far the thermal draws at 1x. Through a magnified scope this is multiplied by the zoom, since a target that far through the scope looks as near. 0 draws as far as your eyes do (Overall Visibility).",
+      "translation_display_name": "열상 표시 거리(m)",
+      "translation_description": "1배율에서 열상이 표시되는 최대 거리입니다. 배율 조준경에서는 배율만큼 늘어납니다. 0은 플레이어 시야의 최대 거리입니다."
+    },
+    {
+      "section": "Controls",
+      "key": "Mode Toggle",
+      "values": [],
+      "source_display_name": "Mode Toggle",
+      "source_description": "Switches the thermal between Outline and Full, naming the new mode on the display. Keep a modifier, for the same reason as Power Toggle.",
+      "translation_display_name": "모드 전환",
+      "translation_description": "열상 모드를 윤곽선과 전체 모드 사이에서 전환하고, 전환된 모드명을 화면에 표시합니다. 전원 전환과 마찬가지로 조합키 사용을 권장합니다."
+    },
+    {
+      "section": "Controls",
+      "key": "Thermal Mode",
+      "values": [],
+      "source_display_name": "Thermal Mode",
+      "source_description": "Outline draws only the edges of hot things; Full adds a dimmer fill inside them (see Image, Full Mode Fill). Mode Toggle changes this, and the device powers up in it.",
+      "translation_display_name": "열상 모드",
+      "translation_description": "윤곽선 모드는 뜨거운 대상의 가장자리만 표시하고, 전체 모드는 내부를 희미하게 채웁니다. 모드 전환으로 변경할 수 있습니다."
+    },
+    {
+      "section": "Power Sequence",
+      "key": "Enabled",
+      "values": [],
+      "source_display_name": "Enabled",
+      "source_description": "Plays the device's own start-up and shut-down when Power Toggle is pressed: Initializing..., then the thermal with its calibration click, and Power Off... on the way down. Off switches the thermal on and off instantly.",
+      "translation_display_name": "전원 전환 연출 사용",
+      "translation_description": "장치 전원 전환 시 초기화와 종료 과정을 재생합니다. 끄면 즉시 켜고 끕니다."
+    },
+    {
+      "section": "Power Sequence",
+      "key": "Initializing Seconds",
+      "values": [],
+      "source_display_name": "Initializing Seconds",
+      "source_description": "How long Initializing... shows before the sensor starts.",
+      "translation_display_name": "초기화 표시 시간(초)",
+      "translation_description": "센서가 시작되기 전 초기화 메시지를 표시하는 시간입니다."
+    },
+    {
+      "section": "Power Sequence",
+      "key": "Warm-up Gap Seconds",
+      "values": [],
+      "source_display_name": "Warm-up Gap Seconds",
+      "source_description": "The lit, empty display between Initializing... and the thermal image.",
+      "translation_display_name": "예열 대기 시간(초)",
+      "translation_description": "초기화 메시지와 열상 영상 사이의 밝지만 비어 있는 화면 지속 시간입니다."
+    },
+    {
+      "section": "Power Sequence",
+      "key": "Mode Label Seconds",
+      "values": [],
+      "source_display_name": "Mode Label Seconds",
+      "source_description": "How long the mode's name shows after Initializing..., and when Mode Toggle is pressed. 0 never shows it.",
+      "translation_display_name": "모드명 표시 시간(초)",
+      "translation_description": "초기화 후 또는 모드 전환 시 모드 이름을 표시하는 시간입니다. 0이면 표시하지 않습니다."
+    },
+    {
+      "section": "Power Sequence",
+      "key": "Power Off Seconds",
+      "values": [],
+      "source_display_name": "Power Off Seconds",
+      "source_description": "How long Power Off... shows before the display goes dark.",
+      "translation_display_name": "전원 종료 표시 시간(초)",
+      "translation_description": "전원이 꺼질 때 종료 안내를 표시하는 시간입니다."
+    },
+    {
+      "section": "Power Sequence",
+      "key": "Click Volume",
+      "values": [],
+      "source_display_name": "Click Volume",
+      "source_description": "Loudness of the calibration click, on top of the game's own volume settings. 0 mutes it.",
+      "translation_display_name": "보정 클릭음 음량",
+      "translation_description": "게임 전체 음량에 추가 적용되는 보정 클릭음 크기입니다. 0이면 음소거합니다."
+    },
+    {
+      "section": "Debug",
+      "key": "Lens Probe",
+      "values": [],
+      "source_display_name": "Lens Probe",
+      "source_description": "Takes the magnified lens redraw apart: 0 as shipped, 1 the heat texture added to the screen, 2 the lens mesh drawn with the overlay's copy pass, 3 the redraw with culling inverted, 10 to 14 the redraw with that lens shader pass (10 is pass 0), 20 to 24 the same with the heat texture flat grey.",
+      "translation_display_name": "렌즈 진단",
+      "translation_description": "배율 조준경 렌더링 경로를 여러 단계로 나누어 테스트하는 개발자용 진단 설정입니다."
     }
   ]
 }

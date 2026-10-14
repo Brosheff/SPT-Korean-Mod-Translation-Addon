@@ -2,9 +2,11 @@
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <LangVersion>latest</LangVersion>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <AssemblyName>SPT_Mod_Korean_Addon</AssemblyName>
-    <ClientRoot Condition="'$(ClientRoot)' == ''">C:\spt 4.1</ClientRoot>
+    <ReferenceRoot Condition="'$(ReferenceRoot)' == '' and '$(ADDON_REFERENCE_ROOT)' != ''">$(ADDON_REFERENCE_ROOT)</ReferenceRoot>
+    <ReferenceRoot Condition="'$(ReferenceRoot)' == ''">$(MSBuildThisFileDirectory)references</ReferenceRoot>
+    <ClientRefRoot>$(ReferenceRoot)\client</ClientRefRoot>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
 
@@ -15,43 +17,43 @@
     <Compile Include="src\**\*.cs" />
 
     <Reference Include="BepInEx">
-      <HintPath>$(ClientRoot)\BepInEx\core\BepInEx.dll</HintPath>
+      <HintPath>$(ClientRefRoot)\BepInEx.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="0Harmony">
-      <HintPath>$(ClientRoot)\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath>$(ClientRefRoot)\0Harmony.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>$(ClientRoot)\EscapeFromTarkov_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>$(ClientRefRoot)\UnityEngine.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>$(ClientRoot)\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(ClientRefRoot)\UnityEngine.CoreModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>$(ClientRoot)\EscapeFromTarkov_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>$(ClientRefRoot)\UnityEngine.IMGUIModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>$(ClientRoot)\EscapeFromTarkov_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>$(ClientRefRoot)\Unity.TextMeshPro.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>$(ClientRoot)\EscapeFromTarkov_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>$(ClientRefRoot)\UnityEngine.UI.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>$(ClientRoot)\EscapeFromTarkov_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>$(ClientRefRoot)\UnityEngine.UIModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>$(ClientRoot)\EscapeFromTarkov_Data\Managed\Newtonsoft.Json.dll</HintPath>
+      <HintPath>$(ClientRefRoot)\Newtonsoft.Json.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="spt-common">
-      <HintPath>$(ClientRoot)\BepInEx\plugins\spt\spt-common.dll</HintPath>
+      <HintPath>$(ClientRefRoot)\spt-common.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>

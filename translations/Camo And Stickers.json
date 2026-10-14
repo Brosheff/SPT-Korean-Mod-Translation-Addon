@@ -388,6 +388,36 @@
         "source": "default",
         "translation": "기본값",
         "match_mode": "exact"
+      },
+      {
+        "id": "material_hue_short",
+        "source": "Hue:",
+        "translation": "색조:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_saturation_short",
+        "source": "Saturation:",
+        "translation": "채도:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_value_short",
+        "source": "Value:",
+        "translation": "명도:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_gloss_short",
+        "source": "Gloss:",
+        "translation": "광택:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "material_specular_short",
+        "source": "Specular:",
+        "translation": "반사광:",
+        "match_mode": "exact"
       }
     ],
     "external_ui_literals": [

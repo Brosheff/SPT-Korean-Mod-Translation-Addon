@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.sage.incendiarygrenade",
+  "mod_name": "Incendiary Grenade",
+  "channels": {
+    "locale": [
+      {
+        "key": "6aabad0ff49370bbdc709173 Name",
+        "source": "SAGA-6 Incendiary Grenade",
+        "translation": "SAGA-6 소이 수류탄",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6aabad0ff49370bbdc709173 ShortName",
+        "source": "SAGA-6",
+        "translation": "SAGA-6"
+      },
+      {
+        "key": "6aabad0ff49370bbdc709173 Description",
+        "source": "Swedish incendiary grenade made by Sagiku for area denial. Ignites on impact and floods the area with fire burning at around 1,200°C for roughly 15 seconds, forcing anyone out of cover. Throw it well clear of yourself.",
+        "translation": "스웨덴의 사기쿠(Sagiku)가 지역 진입을 차단하기 위해 제작한 소이 수류탄입니다. 충돌하면 점화되어 약 15초 동안 섭씨 약 1,200도의 불길로 주변을 뒤덮으며, 엄폐한 사람을 밖으로 몰아냅니다. 자신에게서 충분히 멀리 떨어진 곳에 던지십시오."
+      }
+    ]
+  }
+}

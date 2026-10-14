@@ -439,6 +439,12 @@
         "source": "Published",
         "translation": "서버에 저장됨",
         "match_mode": "exact"
+      },
+      {
+        "id": "flip_test_help_3_3_2",
+        "source": "Flip test - checks the anchor moves with the goggle:",
+        "translation": "플립 테스트 - 고글과 함께 앵커가 움직이는지 확인합니다:",
+        "match_mode": "exact"
       }
     ],
     "coti_dpad": [

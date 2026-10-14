@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.sage.incendiarygrenade",
+  "plugin_name": "Incendiary Grenade",
+  "categories": [
+    {
+      "source": "Audio",
+      "translation": "오디오"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Audio",
+      "key": "Fire Sound Volume",
+      "source_display_name": "Fire Sound Volume",
+      "source_description": "Volume of the incendiary grenade's ignition, burning and extinguish sounds.",
+      "translation_display_name": "화염 효과음 음량",
+      "translation_description": "소이 수류탄의 점화·연소·소화 효과음 음량을 조절합니다.",
+      "values": []
+    }
+  ]
+}

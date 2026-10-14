@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.custom.flashlightmodifier",
+  "plugin_name": "Better Flashlights",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Flashlight Settings",
+      "translation": "2. 손전등 설정"
+    },
+    {
+      "source": "3. LED Temperature",
+      "translation": "3. LED 색온도"
+    },
+    {
+      "source": "4. Flickering Simulation",
+      "translation": "4. 깜빡임 효과"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Enable Mod",
+      "values": [],
+      "source_display_name": "Enable Mod",
+      "source_description": "Enable mod",
+      "translation_display_name": "모드 활성화",
+      "translation_description": "손전등 효과 조절 모드를 켜거나 끕니다."
+    },
+    {
+      "section": "1. General",
+      "key": "Apply to Bots",
+      "values": [],
+      "source_display_name": "Apply to Bots",
+      "source_description": "If enabled, changes bot flashlights. If disabled, bots keep default game flashlights.",
+      "translation_display_name": "AI에게도 적용",
+      "translation_description": "AI가 사용하는 손전등에도 변경된 효과를 적용합니다. 끄면 AI는 게임 기본값을 사용합니다."
+    },
+    {
+      "section": "2. Flashlight Settings",
+      "key": "Intensity",
+      "values": [],
+      "source_display_name": "Intensity",
+      "source_description": "",
+      "translation_display_name": "빛의 밝기",
+      "translation_description": "손전등 빛의 밝기를 조절합니다."
+    },
+    {
+      "section": "2. Flashlight Settings",
+      "key": "Range (Meters)",
+      "values": [],
+      "source_display_name": "Range (Meters)",
+      "source_description": "Range",
+      "translation_display_name": "조명 거리(미터)",
+      "translation_description": "손전등 조명 범위를 미터 단위로 설정합니다."
+    },
+    {
+      "section": "2. Flashlight Settings",
+      "key": "Spot Angle",
+      "values": [],
+      "source_display_name": "Spot Angle",
+      "source_description": "Angle of the beam",
+      "translation_display_name": "광선 확산각",
+      "translation_description": "빛이 퍼지는 각도를 조절합니다."
+    },
+    {
+      "section": "3. LED Temperature",
+      "key": "Color Temperature (Kelvin)",
+      "values": [],
+      "source_display_name": "Color Temperature (Kelvin)",
+      "source_description": "2000K = Warm, 12000K = ABI Ultra Cool",
+      "translation_display_name": "색온도(K)",
+      "translation_description": "2000K는 따뜻한 색이며, 12000K는 매우 차가운 색입니다."
+    },
+    {
+      "section": "4. Flickering Simulation",
+      "key": "Enable Auto Flickering",
+      "values": [],
+      "source_display_name": "Enable Auto Flickering",
+      "source_description": "Toggle custom flickering",
+      "translation_display_name": "자동 깜빡임 사용",
+      "translation_description": "사용자 지정 깜빡임 효과를 켜거나 끕니다."
+    },
+    {
+      "section": "4. Flickering Simulation",
+      "key": "Flicker Intensity",
+      "values": [],
+      "source_display_name": "Flicker Intensity",
+      "source_description": "How deep the light drops are",
+      "translation_display_name": "깜빡임 강도",
+      "translation_description": "빛이 약해지는 정도를 조절합니다."
+    },
+    {
+      "section": "4. Flickering Simulation",
+      "key": "Flicker Speed",
+      "values": [],
+      "source_display_name": "Flicker Speed",
+      "source_description": "How fast it fluctuates",
+      "translation_display_name": "깜빡임 속도",
+      "translation_description": "빛이 깜빡이는 속도를 조절합니다."
+    }
+  ]
+}

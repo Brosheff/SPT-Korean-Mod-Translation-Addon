@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "ciallo.BetterThermalNightVision",
+  "plugin_name": "Better Thermal & Night Vision",
+  "categories": [
+    {
+      "source": "Thermal Optic",
+      "translation": "열상 조준경"
+    },
+    {
+      "source": "T7 Thermal",
+      "translation": "T7 열상 장비"
+    },
+    {
+      "source": "Night Vision",
+      "translation": "야간투시경"
+    },
+    {
+      "source": "Black Screen Mask",
+      "translation": "검은 화면 마스크"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Thermal Optic",
+      "key": "FPS Limit",
+      "values": [],
+      "source_display_name": "FPS Limit",
+      "source_description": "",
+      "translation_display_name": "FPS 제한",
+      "translation_description": ""
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Scanline",
+      "values": [],
+      "source_display_name": "Scanline",
+      "source_description": "",
+      "translation_display_name": "주사선",
+      "translation_description": ""
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Motion Blur",
+      "values": [],
+      "source_display_name": "Motion Blur",
+      "source_description": "",
+      "translation_display_name": "모션 블러",
+      "translation_description": ""
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Noise",
+      "values": [],
+      "source_display_name": "Noise",
+      "source_description": "",
+      "translation_display_name": "노이즈",
+      "translation_description": ""
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Pixelation",
+      "values": [],
+      "source_display_name": "Pixelation",
+      "source_description": "",
+      "translation_display_name": "픽셀화",
+      "translation_description": ""
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Edge Aberration",
+      "values": [],
+      "source_display_name": "Edge Aberration",
+      "source_description": "",
+      "translation_display_name": "가장자리 색수차",
+      "translation_description": ""
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Blur",
+      "values": [],
+      "source_display_name": "Blur",
+      "source_description": "",
+      "translation_display_name": "흐림 효과",
+      "translation_description": ""
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Distance",
+      "values": [],
+      "source_display_name": "Distance",
+      "source_description": "",
+      "translation_display_name": "표시 거리",
+      "translation_description": ""
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Depth Fade (?)",
+      "values": [],
+      "source_display_name": "Depth Fade (?)",
+      "source_description": "Lower is clearer on far distance",
+      "translation_display_name": "원거리 감쇠 (?)",
+      "translation_description": "값이 낮을수록 먼 거리의 대상이 더 선명하게 보입니다."
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Use Custom Color (?)",
+      "values": [],
+      "source_display_name": "Use Custom Color (?)",
+      "source_description": "Warning:\n These values will cover each thermal scopes modes in raid.\nOne set of values won't fit different scopes or color modes.\nTo recover, refer to Use Recover Default",
+      "translation_display_name": "사용자 지정 색상 사용 (?)",
+      "translation_description": "주의: 이 값은 레이드의 모든 열상 조준경 모드에 적용됩니다. 조준경과 색상 모드에 따라 적절한 값이 다를 수 있습니다. 복구하려면 기본값 복구 기능을 확인하십시오."
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Use MainTexColorCoef - Brightness",
+      "values": [],
+      "source_display_name": "Use MainTexColorCoef - Brightness",
+      "source_description": "",
+      "translation_display_name": "기본 텍스처 밝기 사용",
+      "translation_description": ""
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Use MinTempValue - ColorDiff",
+      "values": [],
+      "source_display_name": "Use MinTempValue - ColorDiff",
+      "source_description": "",
+      "translation_display_name": "최저 온도 색차 사용",
+      "translation_description": ""
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Use RampShift - ColorShift",
+      "values": [],
+      "source_display_name": "Use RampShift - ColorShift",
+      "source_description": "",
+      "translation_display_name": "색상 경사 이동 사용",
+      "translation_description": ""
+    },
+    {
+      "section": "Thermal Optic",
+      "key": "Use Recover Default (?)",
+      "values": [],
+      "source_display_name": "Use Recover Default (?)",
+      "source_description": "Enable to reset the scope's default values.\n Close menu and use current thermal scope to apply.\nOnly cache values of first thermal scope mode used in raid.\n To recover >1 scopes (modes) you need to go next raid and disable Use Custom Color.",
+      "translation_display_name": "기본값 복구 사용 (?)",
+      "translation_description": "조준경의 기본값을 복구합니다. 메뉴를 닫고 현재 열상 조준경을 사용해야 적용됩니다. 레이드에서 처음 사용한 열상 모드의 값만 저장하므로, 여러 모드 복구 시 다음 레이드에서 사용자 지정 색상을 꺼야 합니다."
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "FPS Limit",
+      "values": [],
+      "source_display_name": "FPS Limit",
+      "source_description": "",
+      "translation_display_name": "FPS 제한",
+      "translation_description": ""
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "Glitch effect",
+      "values": [],
+      "source_display_name": "Glitch effect",
+      "source_description": "",
+      "translation_display_name": "화면 왜곡 효과",
+      "translation_description": ""
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "Motion Blur",
+      "values": [],
+      "source_display_name": "Motion Blur",
+      "source_description": "",
+      "translation_display_name": "모션 블러",
+      "translation_description": ""
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "Noise",
+      "values": [],
+      "source_display_name": "Noise",
+      "source_description": "",
+      "translation_display_name": "노이즈",
+      "translation_description": ""
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "Pixelation",
+      "values": [],
+      "source_display_name": "Pixelation",
+      "source_description": "",
+      "translation_display_name": "픽셀화",
+      "translation_description": ""
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "Blur",
+      "values": [],
+      "source_display_name": "Blur",
+      "source_description": "",
+      "translation_display_name": "흐림 효과",
+      "translation_description": ""
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "Block Optic Scope (?)",
+      "values": [],
+      "source_display_name": "Block Optic Scope (?)",
+      "source_description": "Keep ordinary optic glass opaque and incompatible with helmet thermal. Native thermal scopes still use the Thermal Optic settings.",
+      "translation_display_name": "일반 조준경 렌즈 차단 (?)",
+      "translation_description": "일반 배율 조준경의 유리를 불투명하게 유지하여 헬멧 열상 장비와 호환되지 않게 합니다. 전용 열상 조준경에는 일반 열상 설정이 적용됩니다."
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "Block Glass (?)",
+      "values": [],
+      "source_display_name": "Block Glass (?)",
+      "source_description": "Keep environmental glass thermally opaque. This does not block optic or collimator materials.",
+      "translation_display_name": "주변 유리 열 차단 (?)",
+      "translation_description": "주변 환경의 유리가 열을 투과하지 않게 합니다. 일반·콜리메이터 조준경 렌즈에는 적용되지 않습니다."
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "Depth Fade (?)",
+      "values": [],
+      "source_display_name": "Depth Fade (?)",
+      "source_description": "Lower is more visible on far distance. T7 Default is 0.03",
+      "translation_display_name": "원거리 감쇠 (?)",
+      "translation_description": "값이 낮을수록 먼 거리의 대상이 더 선명하게 보입니다."
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "Thermal Palette",
+      "values": [
+        {
+          "source": "White-hot",
+          "translation": "백색 고온"
+        },
+        {
+          "source": "Black-hot",
+          "translation": "흑색 고온"
+        },
+        {
+          "source": "Red-hot",
+          "translation": "적색 고온"
+        },
+        {
+          "source": "Ironbow",
+          "translation": "아이언보우"
+        },
+        {
+          "source": "Fusion",
+          "translation": "퓨전"
+        },
+        {
+          "source": "Rainbow",
+          "translation": "무지개"
+        }
+      ],
+      "source_display_name": "Thermal Palette",
+      "source_description": "",
+      "translation_display_name": "열상 색상 팔레트",
+      "translation_description": ""
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "Color Passthrough (?)",
+      "values": [],
+      "source_display_name": "Color Passthrough (?)",
+      "source_description": "Use the BD-T7/S-style full-color heat-bearing buffer. This bypasses palette presentation while enabled.",
+      "translation_display_name": "원색 열상 표시 (?)",
+      "translation_description": "BD-T7/S 방식의 원색 열상 버퍼를 사용합니다. 활성화하면 색상 팔레트 표시를 건너뜁니다."
+    },
+    {
+      "section": "T7 Thermal",
+      "key": "Palette Tuning (?)",
+      "values": [],
+      "source_display_name": "Palette Tuning (?)",
+      "source_description": "Live preview for the selected palette. \nClick Save Palette to write these values to the config.Unsaved slider changes are discarded when you switch palettes.",
+      "translation_display_name": "팔레트 세부 조정 (?)",
+      "translation_description": "선택한 팔레트의 값을 실시간으로 미리 봅니다. 팔레트 저장을 누르면 설정 파일에 저장됩니다. 저장하지 않은 슬라이더 변경은 팔레트를 전환하면 버려집니다."
+    },
+    {
+      "section": "Night Vision",
+      "key": "Noise",
+      "values": [],
+      "source_display_name": "Noise",
+      "source_description": "",
+      "translation_display_name": "노이즈",
+      "translation_description": ""
+    },
+    {
+      "section": "Night Vision",
+      "key": "Optic Bright Default (?)",
+      "values": [],
+      "source_display_name": "Optic Bright Default (?)",
+      "source_description": "Whether enable vanilla scope vision brightness when using helmet NV, which is darker in zoomable scopes",
+      "translation_display_name": "기본 조준경 밝기 사용 (?)",
+      "translation_description": "헬멧 야간투시경을 사용할 때 확대 조준경에서 어두워지는 게임 기본 조준경 밝기를 사용합니다."
+    },
+    {
+      "section": "Night Vision",
+      "key": "Optic Brightness (?)",
+      "values": [],
+      "source_display_name": "Optic Brightness (?)",
+      "source_description": "Need disable Optic Bright Default",
+      "translation_display_name": "조준경 밝기 (?)",
+      "translation_description": "기본 조준경 밝기 옵션을 꺼야 사용할 수 있습니다."
+    },
+    {
+      "section": "Black Screen Mask",
+      "key": "Helmet NV & T7",
+      "values": [],
+      "source_display_name": "Helmet NV & T7",
+      "source_description": "",
+      "translation_display_name": "헬멧 야간투시경 및 T7",
+      "translation_description": ""
+    }
+  ]
+}

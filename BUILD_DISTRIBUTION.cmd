@@ -1,20 +1,26 @@
 @echo off
-setlocal
-set "SPTPATH=%~1"
-if "%SPTPATH%"=="" set "SPTPATH=C:\spt 4.1"
-echo Building SPT Korean Addon for: %SPTPATH%
-if "%~2"=="" (
-    powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0BUILD_DISTRIBUTION.ps1" -SPTPath "%SPTPATH%"
-) else (
-    powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0BUILD_DISTRIBUTION.ps1" -SPTPath "%SPTPATH%" -PythonExe "%~2"
+setlocal EnableExtensions DisableDelayedExpansion
+rem Build from this project's own folder. Do not locate, ask for, or modify an installed game.
+rem Optional: BUILD_DISTRIBUTION.cmd ["local references folder"] ["python executable"]
+set "SCRIPT=%~dp0BUILD_DISTRIBUTION.ps1"
+if not exist "%SCRIPT%" (
+    echo ERROR: BUILD_DISTRIBUTION.ps1 was not found beside this CMD.
+    exit /b 1
 )
+where powershell.exe >nul 2>&1
 if errorlevel 1 (
-  echo.
-  echo BUILD FAILED. Leave this window open and send the error output.
-  pause
-  exit /b %errorlevel%
+    echo ERROR: Windows PowerShell is unavailable.
+    exit /b 1
+)
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT%" %*
+set "STATUS=%ERRORLEVEL%"
+if not "%STATUS%"=="0" (
+    echo.
+    echo BUILD FAILED. See the error above.
+    if not defined CI pause
+    exit /b %STATUS%
 )
 echo.
-echo DONE. Open the _dist folder and install the generated ZIP into the SPT root.
-pause
+echo BUILD FINISHED. Release ZIP is in _dist beside this CMD.
+if not defined CI pause
 exit /b 0

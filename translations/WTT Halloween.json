@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "wtt.halloween",
+  "mod_name": "WTT Halloween",
+  "channels": {
+    "locale": [
+      {
+        "key": "68e05dbf4992827e7b000001 Name",
+        "source": "Many Eyes Mask",
+        "translation": "수많은 눈 마스크",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "68e05dbf4992827e7b000001 ShortName",
+        "source": "Watching",
+        "translation": "감시 중"
+      },
+      {
+        "key": "68e05dbf4992827e7b000001 Description",
+        "source": "You know, shoutout to the NSA for this one.",
+        "translation": "이건 NSA에 감사 인사라도 해야겠군요."
+      },
+      {
+        "key": "68e0c2c204f6dd0050000001 Name",
+        "source": "3 Faces Mask",
+        "translation": "세 얼굴 마스크"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000001 ShortName",
+        "source": "3 Faces",
+        "translation": "세 얼굴"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000001 Description",
+        "source": "Triple threat, don't cross this guy.",
+        "translation": "세 배로 위험한 상대입니다. 괜히 건드리지 마십시오."
+      },
+      {
+        "key": "68e0c2c204f6dd0050000002 Name",
+        "source": "Fans Mask",
+        "translation": "선풍기 마스크"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000002 ShortName",
+        "source": "Fans",
+        "translation": "선풍기"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000002 Description",
+        "source": "Keeping cool, like a psychopath.",
+        "translation": "냉정함을 유지할 수 있습니다. 사이코패스처럼 말이죠."
+      },
+      {
+        "key": "68e0c2c204f6dd0050000003 Name",
+        "source": "Holes Mask",
+        "translation": "구멍 마스크"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000003 ShortName",
+        "source": "Holes",
+        "translation": "구멍"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000003 Description",
+        "source": "When I said I wanted a \"Holy\" mask this is basically the exact opposite of what I meant.",
+        "translation": "거룩한 마스크를 원한다고 했는데, 이건 제가 뜻했던 것과 정반대네요."
+      },
+      {
+        "key": "68e0c2c204f6dd0050000004 Name",
+        "source": "Crying Blood Mask",
+        "translation": "피눈물 마스크"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000004 ShortName",
+        "source": "Cry",
+        "translation": "눈물"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000004 Description",
+        "source": "Keep those tears off my good carpet.",
+        "translation": "그 피눈물을 제 좋은 카펫에 떨어뜨리지는 마십시오."
+      },
+      {
+        "key": "68e0c2c204f6dd0050000005 Name",
+        "source": "Spikes Mask",
+        "translation": "가시 마스크"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000005 ShortName",
+        "source": "Spikes",
+        "translation": "가시"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000005 Description",
+        "source": "I swear I saw a certain band with this dude in it, must have hurt.",
+        "translation": "이 친구가 어떤 밴드에서 활동하는 걸 본 것 같은데, 상당히 아팠겠군요."
+      },
+      {
+        "key": "68e0c2c204f6dd0050000006 Name",
+        "source": "Ripped and Torn Mask",
+        "translation": "찢어진 마스크"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000006 ShortName",
+        "source": "Ripped",
+        "translation": "찢김"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000006 Description",
+        "source": "Are you meant to see through these holes or something?",
+        "translation": "그 구멍으로 앞이 보이기는 하는 겁니까?"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000007 Name",
+        "source": "Stitches Mask",
+        "translation": "봉합 마스크"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000007 ShortName",
+        "source": "Stitches",
+        "translation": "봉합"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000007 Description",
+        "source": "You didn't have to rip his face off dude! What the hell?",
+        "translation": "그렇다고 얼굴 가죽까지 벗겨 버릴 필요는 없잖습니까! 대체 무슨 짓입니까?"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000008 Name",
+        "source": "Burlap Mask",
+        "translation": "삼베 마스크"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000008 ShortName",
+        "source": "Burlap",
+        "translation": "삼베"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000008 Description",
+        "source": "That gas effected some more than others.",
+        "translation": "그 가스는 누구에게는 유난히 심한 영향을 미쳤나 봅니다."
+      },
+      {
+        "key": "68e0c2c204f6dd0050000009 Name",
+        "source": "Hands Mask",
+        "translation": "손 마스크"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000009 ShortName",
+        "source": "Hands",
+        "translation": "손"
+      },
+      {
+        "key": "68e0c2c204f6dd0050000009 Description",
+        "source": "Some must do no more than scream.",
+        "translation": "누군가는 비명을 지르는 것밖에 할 수 없겠군요."
+      }
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.pein.headshotdarkness",
+  "plugin_name": "Headshot Darkness",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Death Fade",
+      "translation": "2. 사망 화면 전환"
+    },
+    {
+      "source": "3. Death Text",
+      "translation": "3. 사망 문구"
+    },
+    {
+      "source": "Debug",
+      "translation": "디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Enabled",
+      "values": [],
+      "source_display_name": "Enabled",
+      "source_description": "Enable/disable headshot darkness",
+      "translation_display_name": "모드 활성화",
+      "translation_description": "헤드샷 사망 시 화면 암전 효과를 활성화합니다."
+    },
+    {
+      "section": "1. General",
+      "key": "Disable UI Death Sound",
+      "values": [],
+      "source_display_name": "Disable UI Death Sound",
+      "source_description": "Prevents the UI death sound from ever playing. It will always be disabled if the headshot effect occurs but this lets you disable it for all deaths.",
+      "translation_display_name": "사망 UI 소리 비활성화",
+      "translation_description": "사망 시 UI 소리가 재생되지 않도록 합니다. 헤드샷 효과가 발생하면 기본적으로 비활성화되며, 이 설정은 모든 사망 상황에 적용됩니다."
+    },
+    {
+      "section": "2. Death Fade",
+      "key": "Audio Fade Time",
+      "values": [],
+      "source_display_name": "Audio Fade Time",
+      "source_description": "Changes audio fade time",
+      "translation_display_name": "오디오 감쇠 시간",
+      "translation_description": "오디오가 점차 작아지는 시간을 조절합니다."
+    },
+    {
+      "section": "2. Death Fade",
+      "key": "Headshot Fade Style",
+      "values": [
+        {
+          "source": "Vanilla",
+          "translation": "기본 게임"
+        },
+        {
+          "source": "Default",
+          "translation": "기본 암전"
+        },
+        {
+          "source": "ScreenFlash",
+          "translation": "화면 번쩍임"
+        }
+      ],
+      "source_display_name": "Headshot Fade Style",
+      "source_description": "Changes darkness style for headshot deaths.",
+      "translation_display_name": "헤드샷 사망 화면 전환",
+      "translation_description": "헤드샷 사망 시 암전 효과 방식을 선택합니다."
+    },
+    {
+      "section": "2. Death Fade",
+      "key": "Explosion Fade Style",
+      "values": [
+        {
+          "source": "Vanilla",
+          "translation": "기본 게임"
+        },
+        {
+          "source": "Default",
+          "translation": "기본 암전"
+        },
+        {
+          "source": "ScreenFlash",
+          "translation": "화면 번쩍임"
+        }
+      ],
+      "source_display_name": "Explosion Fade Style",
+      "source_description": "Changes darkness style for explosion deaths.",
+      "translation_display_name": "폭발 사망 화면 전환",
+      "translation_description": "폭발 사망 시 암전 효과 방식을 선택합니다."
+    },
+    {
+      "section": "2. Death Fade",
+      "key": "Other Fade Style",
+      "values": [
+        {
+          "source": "Vanilla",
+          "translation": "기본 게임"
+        },
+        {
+          "source": "Default",
+          "translation": "기본 암전"
+        },
+        {
+          "source": "ScreenFlash",
+          "translation": "화면 번쩍임"
+        }
+      ],
+      "source_display_name": "Other Fade Style",
+      "source_description": "Changes darkness style for other deaths. Mostly a debug feature but if for whatever reason you want the effect to occur after a bodyshot kill then here you go.",
+      "translation_display_name": "기타 사망 화면 전환",
+      "translation_description": "그 외 사망 시 암전 효과 방식을 선택합니다. 주로 디버그 용도입니다."
+    },
+    {
+      "section": "3. Death Text",
+      "key": "Enable Death Text",
+      "values": [],
+      "source_display_name": "Enable Death Text",
+      "source_description": "Enable/disable death text. Only shown when the headshot effect occurs",
+      "translation_display_name": "사망 문구 표시",
+      "translation_description": "사망 문구를 표시합니다. 헤드샷 효과가 발생한 상황에서만 표시됩니다."
+    },
+    {
+      "section": "3. Death Text",
+      "key": "Death Text String",
+      "values": [],
+      "source_display_name": "Death Text String",
+      "source_description": "Set the death text string",
+      "translation_display_name": "사망 문구",
+      "translation_description": "화면에 표시할 사망 문구를 지정합니다."
+    },
+    {
+      "section": "3. Death Text",
+      "key": "Contextual Death Text",
+      "values": [],
+      "source_display_name": "Contextual Death Text",
+      "source_description": "Set if death texts should be contextual. Pulls random death strings from deathstrings.json depending on how you died instead of using the Death Text String value",
+      "translation_display_name": "사망 원인별 문구 사용",
+      "translation_description": "사망 원인에 따라 deathstrings.json의 문구를 임의로 표시합니다. 활성화하면 직접 입력한 사망 문구 대신 해당 문구를 사용합니다."
+    },
+    {
+      "section": "3. Death Text",
+      "key": "Death Text Font",
+      "values": [],
+      "source_display_name": "Death Text Font",
+      "source_description": "Set the death text font style",
+      "translation_display_name": "사망 문구 글꼴",
+      "translation_description": "사망 문구에 사용할 글꼴을 설정합니다."
+    },
+    {
+      "section": "3. Death Text",
+      "key": "Death Text Size",
+      "values": [],
+      "source_display_name": "Death Text Size",
+      "source_description": "Set the death text font size",
+      "translation_display_name": "사망 문구 크기",
+      "translation_description": "사망 문구의 글자 크기를 지정합니다."
+    },
+    {
+      "section": "3. Death Text",
+      "key": "Death Text Color",
+      "values": [],
+      "source_display_name": "Death Text Color",
+      "source_description": "Set the death text font color. Each value ranges from [0-1]",
+      "translation_display_name": "사망 문구 색상",
+      "translation_description": "사망 문구 색상을 설정합니다. 각 채널은 0~1 범위입니다."
+    },
+    {
+      "section": "3. Death Text",
+      "key": "Death Text Lifetime",
+      "values": [],
+      "source_display_name": "Death Text Lifetime",
+      "source_description": "Changes how long the death text is visible for",
+      "translation_display_name": "사망 문구 표시 시간",
+      "translation_description": "사망 문구가 화면에 남는 시간을 지정합니다."
+    },
+    {
+      "section": "3. Death Text",
+      "key": "Death Text Fade In Time",
+      "values": [],
+      "source_display_name": "Death Text Fade In Time",
+      "source_description": "Changes how long it takes for the death text to fade in",
+      "translation_display_name": "사망 문구 나타나는 시간",
+      "translation_description": "사망 문구가 나타나는 데 걸리는 시간입니다."
+    },
+    {
+      "section": "3. Death Text",
+      "key": "Death Text Fade Out Time",
+      "values": [],
+      "source_display_name": "Death Text Fade Out Time",
+      "source_description": "Changes how long it takes for the death text to fade out",
+      "translation_display_name": "사망 문구 사라지는 시간",
+      "translation_description": "사망 문구가 사라지는 데 걸리는 시간입니다."
+    },
+    {
+      "section": "3. Death Text",
+      "key": "Death Text Fade Delay Time",
+      "values": [],
+      "source_display_name": "Death Text Fade Delay Time",
+      "source_description": "Changes how long the death text is delayed for",
+      "translation_display_name": "사망 문구 표시 지연 시간",
+      "translation_description": "사망 문구를 표시하기 전 대기 시간입니다."
+    },
+    {
+      "section": "Debug",
+      "key": "4. Debug",
+      "values": [],
+      "source_display_name": "4. Debug",
+      "source_description": "Enable/disable debug logging in BepInEx console.",
+      "translation_display_name": "디버그",
+      "translation_description": "BepInEx 콘솔에 디버그 로그를 출력합니다."
+    }
+  ]
+}

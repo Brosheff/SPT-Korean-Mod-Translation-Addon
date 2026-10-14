@@ -23,3 +23,7 @@ Thumbs.db
 
 # Local upload/staging workspace
 /Upload/
+
+# Local, third-party compile-time DLLs: never package into release
+/references/client/*.dll
+/references/server/*.dll

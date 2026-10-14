@@ -12,6 +12,11 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG = dict(line.split('|', 1) for line in '''7Bpencil.TransparentSights|smallui.transparentsights
 7Bpencil.WeaponCamoAndStickers|7Bpencil.WeaponCamoAndStickers.UI
 com.20fpsguy.parmesan|Parmesan - Partizan Rework
+ciallo.BetterThermalNightVision|Better Thermal & Night Vision
+com.custom.flashlightmodifier|Better Flashlights
+com.pein.headshotdarkness|Headshot Darkness
+com.pein.attachmentscrolling|Scrollable Attachments
+com.softwyx.lootinvicinity|Loot In Vicinity
 com.acidphantasm.botplacementsystem|BotPlacementSystem
 com.acidphantasm.brightlasers|Bright Lasers
 com.acidphantasm.previewsizer|Preview Sizer
@@ -29,6 +34,8 @@ com.danw.questingbotscustombotgenexample|QuestingBots
 com.deadlauncher.FlexibleBuilds|Flexible Builds
 com.flir.increaselookdirection|Increase Look Direction
 com.fontaine.fovfix|Fontaine's FOV Fix
+com.fontaine.spt-realism-common-lib|smallui.realismcurveeditor
+com.fontaine.spt-stance-overhaul|Stance Overhaul
 com.harmonyzt.breakoutoutlines|Breakout Outlines
 com.harmonyzt.BringBackConcussion|Bring Back Concussion
 com.harmonyzt.MusicExtender|Music Extender
@@ -71,6 +78,7 @@ com.pein.battleambience|Battle Ambience
 com.pein.camerarecoilmod|Recoil Rework
 com.pein.shadowflickerfix|Shadow Flicker Fix
 com.ruafcomehome.tacticaltoaster|com.ruafcomehome.tacticaltoaster
+com.sage.incendiarygrenade|com.sage.incendiarygrenade
 com.shaneeexd.thequartermaster|TheQuartermaster
 com.Shibatsu.DynamicExternalResolution|Dynamic External Resolution
 com.smajlec.lights|Smajlec Lights
@@ -166,9 +174,9 @@ def main():
         v=mods[k];lines.append(f"| {v['name']} | {', '.join(v['scope'])} | {notes.get(k,'')} |")
     lines+=['','## F12 설정만 번역하는 모드','','아래 모드의 게임 내 UI·대사까지 번역한다고 안내하지 않습니다.','']
     lines+=['- '+mods[k]['name'] for k in f12_rows]
-    lines+=['','## 목록 관리','','`translations/*.json`, `config-ui/*.json`, `native-locales/pitfireteam`을 기준으로 생성했습니다. 참고 전용 reference_only는 지원 범위에 포함하지 않습니다. 일반 F12 CustomDrawer 등 코드 전용 보조 번역은 위 해당 모드의 범위에 포함하며 별도 모드로 중복 집계하지 않습니다.','',
-        '`tools/build_supported_mods.py`를 실행하면 이 목록을 갱신합니다. 새 F12 프로필은 스크립트의 문서용 별칭 표에 실제 소속 모드를 등록해야 하며, 런타임 mod_id나 plugin GUID를 바꾸는 작업은 아닙니다. 웹 UI 전체 번역은 이 목록의 보장 범위에 포함하지 않습니다.']
-    (ROOT/'docs'/'번역지원모드목록.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+    lines+=['','## 참고','','표에 기재된 범위는 해당 모드에서 지원하는 한국어 번역의 종류를 뜻합니다. 각 모드의 모든 영어 문장·모든 버전을 지원한다는 의미는 아닙니다. 웹 UI 전체 번역은 보장하지 않습니다.']
+    (ROOT/'note').mkdir(parents=True, exist_ok=True)
+    (ROOT/'note'/'번역지원모드목록.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     print(f'{version}: {len(mods)} entries; game text {len(main_rows)}, F12 only {len(f12_rows)}; {len(config_files)} F12 profiles mapped.')
 
 if __name__=='__main__': main()

@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.fontaine.spt-realism-common-lib",
+  "plugin_name": "Realism Common Lib",
+  "categories": [
+    {
+      "source": "1. Debug and Dev Tools",
+      "translation": "1. 디버그·개발 도구"
+    },
+    {
+      "source": "2. Fire State Controller",
+      "translation": "2. 사격 상태 제어"
+    },
+    {
+      "source": "3. Weaponn Speed Modifiers.",
+      "translation": "3. 무기 속도 배율"
+    },
+    {
+      "source": "Curve Builder",
+      "translation": "커브 편집기"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "test 1",
+      "source_display_name": "test 1",
+      "source_description": "",
+      "translation_display_name": "테스트 1",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "test 2",
+      "source_display_name": "test 2",
+      "source_description": "",
+      "translation_display_name": "테스트 2",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "test 3",
+      "source_display_name": "test 3",
+      "source_description": "",
+      "translation_display_name": "테스트 3",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "test 4",
+      "source_display_name": "test 4",
+      "source_description": "",
+      "translation_display_name": "테스트 4",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "test 5",
+      "source_display_name": "test 5",
+      "source_description": "",
+      "translation_display_name": "테스트 5",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "test 6",
+      "source_display_name": "test 6",
+      "source_description": "",
+      "translation_display_name": "테스트 6",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "test 7",
+      "source_display_name": "test 7",
+      "source_description": "",
+      "translation_display_name": "테스트 7",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "test 8",
+      "source_display_name": "test 8",
+      "source_description": "",
+      "translation_display_name": "테스트 8",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "test 9",
+      "source_display_name": "test 9",
+      "source_description": "",
+      "translation_display_name": "테스트 9",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "test 10",
+      "source_display_name": "test 10",
+      "source_description": "",
+      "translation_display_name": "테스트 10",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Create Debug Zone",
+      "source_display_name": "Create Debug Zone",
+      "source_description": "",
+      "translation_display_name": "디버그 구역 생성",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "TargetZone",
+      "source_display_name": "TargetZone",
+      "source_description": "DebugZone",
+      "translation_display_name": "대상 구역",
+      "translation_description": "디버그 대상으로 사용할 구역 이름입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Effect Type",
+      "source_display_name": "Effect Type",
+      "source_description": "HeavyBleeding, LightBleeding, Fracture, removeHP, addHP.",
+      "translation_display_name": "효과 유형",
+      "translation_description": "효과 유형: 심한 출혈, 가벼운 출혈, 골절, 체력 감소, 체력 증가입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Body Part Index",
+      "source_display_name": "Body Part Index",
+      "source_description": "Head = 0, Chest = 1, Stomach = 2, Letft Arm, Right Arm, Left Leg, Right Leg, Common (whole body)",
+      "translation_display_name": "신체 부위 인덱스",
+      "translation_description": "신체 부위 인덱스: 머리=0, 가슴=1, 배=2, 왼팔=3, 오른팔=4, 왼다리=5, 오른다리=6, 전신 공통=7입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Add Effect Keybind",
+      "source_display_name": "Add Effect Keybind",
+      "source_description": "",
+      "translation_display_name": "효과 추가 단축키",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Enable Zone Debug",
+      "source_display_name": "Enable Zone Debug",
+      "source_description": "",
+      "translation_display_name": "구역 디버그 활성화",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Enable Dev Mode",
+      "source_display_name": "Enable Dev Mode",
+      "source_description": "",
+      "translation_display_name": "개발자 모드 활성화",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Enable Ballistics Logging",
+      "source_display_name": "Enable Ballistics Logging",
+      "source_description": "Enables Logging For Debug And Dev",
+      "translation_display_name": "탄도 로그 기록 활성화",
+      "translation_description": "디버그 및 개발용 로그 기록을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Enable General Logging",
+      "source_display_name": "Enable General Logging",
+      "source_description": "Enables Logging For Debug And Dev",
+      "translation_display_name": "일반 로그 기록 활성화",
+      "translation_description": "디버그 및 개발용 로그 기록을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Enable Medical Logging",
+      "source_display_name": "Enable Medical Logging",
+      "source_description": "Enables Logging For Debug And Dev",
+      "translation_display_name": "의료 로그 기록 활성화",
+      "translation_description": "디버그 및 개발용 로그 기록을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Enable Reload Logging",
+      "source_display_name": "Enable Reload Logging",
+      "source_description": "Enables Logging For Debug And Dev",
+      "translation_display_name": "재장전 로그 기록 활성화",
+      "translation_description": "디버그 및 개발용 로그 기록을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Enable PWA Logging",
+      "source_display_name": "Enable PWA Logging",
+      "source_description": "Enables Logging For Debug And Dev",
+      "translation_display_name": "PWA 로그 기록 활성화",
+      "translation_description": "디버그 및 개발용 로그 기록을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Debug and Dev Tools",
+      "key": "Enable Recoil Logging",
+      "source_display_name": "Enable Recoil Logging",
+      "source_description": "Enables Logging For Debug And Dev",
+      "translation_display_name": "반동 로그 기록 활성화",
+      "translation_description": "디버그 및 개발용 로그 기록을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Fire State Controller",
+      "key": "Firing Reset Delay",
+      "source_display_name": "Firing Reset Delay",
+      "source_description": "The Time In Seconds That Has To Be Elapsed Before Firing Is Considered Over, Used By Different Modules To Time Resets Related To Firing,",
+      "translation_display_name": "사격 복귀 지연",
+      "translation_description": "사격이 끝난 것으로 판단하기까지 기다리는 시간(초)입니다. 여러 모듈의 사격 관련 상태 복귀 시점에 사용됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Fire State Controller",
+      "key": "Firing Deafen Reset Delay",
+      "source_display_name": "Firing Deafen Reset Delay",
+      "source_description": "The Time In Seconds That Has To Be Elapsed Before Firing Is Considered Over, Used By Different Modules To Time Resets Related To Firing,",
+      "translation_display_name": "사격 청각 차단 복귀 지연",
+      "translation_description": "사격이 끝난 것으로 판단하기까지 기다리는 시간(초)입니다. 여러 모듈의 사격 관련 상태 복귀 시점에 사용됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Fire State Controller",
+      "key": "Firing Visual Recoil Reset Delay",
+      "source_display_name": "Firing Visual Recoil Reset Delay",
+      "source_description": "The Time In Seconds That Has To Be Elapsed Before Firing Is Considered Over, Used By Different Modules To Time Resets Related To Firing,",
+      "translation_display_name": "사격 시각 반동 복귀 지연",
+      "translation_description": "사격이 끝난 것으로 판단하기까지 기다리는 시간(초)입니다. 여러 모듈의 사격 관련 상태 복귀 시점에 사용됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Fire State Controller",
+      "key": "Firing Stance Reset Delay",
+      "source_display_name": "Firing Stance Reset Delay",
+      "source_description": "The Time In Seconds That Has To Be Elapsed Before Firing Is Considered Over, Used By Different Modules To Time Resets Related To Firing,",
+      "translation_display_name": "사격 자세 복귀 지연",
+      "translation_description": "사격이 끝난 것으로 판단하기까지 기다리는 시간(초)입니다. 여러 모듈의 사격 관련 상태 복귀 시점에 사용됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Fire State Controller",
+      "key": "Firing Movement Speed Reset Delay",
+      "source_display_name": "Firing Movement Speed Reset Delay",
+      "source_description": "The Time In Seconds That Has To Be Elapsed Before Firing Is Considered Over, Used By Different Modules To Time Resets Related To Firing,",
+      "translation_display_name": "사격 이동 속도 복귀 지연",
+      "translation_description": "사격이 끝난 것으로 판단하기까지 기다리는 시간(초)입니다. 여러 모듈의 사격 관련 상태 복귀 시점에 사용됩니다.",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Aim Speed Multi.",
+      "source_display_name": "Aim Speed Multi.",
+      "source_description": "",
+      "translation_display_name": "조준 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Pistol Aim Speed Multi.",
+      "source_display_name": "Pistol Aim Speed Multi.",
+      "source_description": "",
+      "translation_display_name": "권총 조준 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Magazine Reload Speed Multi",
+      "source_display_name": "Magazine Reload Speed Multi",
+      "source_description": "",
+      "translation_display_name": "탄창 재장전 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Malfunction Fix Speed Multi",
+      "source_display_name": "Malfunction Fix Speed Multi",
+      "source_description": "",
+      "translation_display_name": "작동 불량 해결 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "UBGL Reload Speed Multi",
+      "source_display_name": "UBGL Reload Speed Multi",
+      "source_description": "",
+      "translation_display_name": "총열 부착 유탄발사기 재장전 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Pistol Rechamber Speed Multi",
+      "source_display_name": "Pistol Rechamber Speed Multi",
+      "source_description": "",
+      "translation_display_name": "권총 약실 재장전 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Rechamber Speed Multi",
+      "source_display_name": "Rechamber Speed Multi",
+      "source_description": "",
+      "translation_display_name": "약실 재장전 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Bolt Speed Multi",
+      "source_display_name": "Bolt Speed Multi",
+      "source_description": "",
+      "translation_display_name": "노리쇠 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Shotgun Rack Speed Multi",
+      "source_display_name": "Shotgun Rack Speed Multi",
+      "source_description": "",
+      "translation_display_name": "산탄총 장전 손잡이 조작 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Chamber Check Speed Multi",
+      "source_display_name": "Chamber Check Speed Multi",
+      "source_description": "",
+      "translation_display_name": "약실 확인 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Shotgun Chamber Check Speed Multi",
+      "source_display_name": "Shotgun Chamber Check Speed Multi",
+      "source_description": "",
+      "translation_display_name": "산탄총 약실 확인 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Pistol Chamber Check Speed Multi",
+      "source_display_name": "Pistol Chamber Check Speed Multi",
+      "source_description": "",
+      "translation_display_name": "권총 약실 확인 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Pistol Check Ammo Speed Multi",
+      "source_display_name": "Pistol Check Ammo Speed Multi",
+      "source_description": "",
+      "translation_display_name": "권총 잔탄 확인 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Check Ammo Speed Multi.",
+      "source_display_name": "Check Ammo Speed Multi.",
+      "source_description": "",
+      "translation_display_name": "잔탄 확인 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Quick Reload Speed Multi",
+      "source_display_name": "Quick Reload Speed Multi",
+      "source_description": "",
+      "translation_display_name": "신속 재장전 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Internal Magazine Reload Speed Multi",
+      "source_display_name": "Internal Magazine Reload Speed Multi",
+      "source_description": "",
+      "translation_display_name": "내장형 탄창 재장전 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Revolver Reload Speed Multi",
+      "source_display_name": "Revolver Reload Speed Multi",
+      "source_description": "",
+      "translation_display_name": "리볼버 재장전 속도 배율",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Remove Magazine Reload Speed Multi",
+      "source_display_name": "Remove Magazine Reload Speed Multi",
+      "source_description": "Speed of removing magazine during reload sequence.",
+      "translation_display_name": "재장전 시 탄창 분리 속도 배율",
+      "translation_description": "재장전 중 탄창을 분리하는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Weaponn Speed Modifiers.",
+      "key": "Insert Magazine Reload Speed Multi",
+      "source_display_name": "Insert Magazine Reload Speed Multi",
+      "source_description": "Speed of inserting magazine during reload sequance.",
+      "translation_display_name": "재장전 시 탄창 삽입 속도 배율",
+      "translation_description": "재장전 중 탄창을 삽입하는 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "Curve Builder",
+      "key": "Toggle Editor Key",
+      "source_display_name": "Toggle Editor Key",
+      "source_description": "Toggle in-game curve editor",
+      "translation_display_name": "커브 편집기 열기 단축키",
+      "translation_description": "게임 내 커브 편집기를 여닫는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Curve Builder",
+      "key": "Curve Filepath",
+      "source_display_name": "Curve Filepath",
+      "source_description": "Leave blank to save and load curves in plugin folder",
+      "translation_display_name": "커브 파일 경로",
+      "translation_description": "비워 두면 플러그인 폴더에서 커브 파일을 저장하고 불러옵니다.",
+      "values": []
+    }
+  ]
+}

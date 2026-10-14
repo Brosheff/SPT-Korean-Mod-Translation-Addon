@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.pein.attachmentscrolling",
+  "plugin_name": "Scrollable Attachments",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Scroll speed",
+      "values": [],
+      "source_display_name": "Scroll speed",
+      "source_description": "Changes the scroll speed of the attachment menu",
+      "translation_display_name": "스크롤 속도",
+      "translation_description": "부착물 메뉴의 스크롤 속도를 변경합니다."
+    },
+    {
+      "section": "General",
+      "key": "Attachment menu columns",
+      "values": [],
+      "source_display_name": "Attachment menu columns",
+      "source_description": "Changes the amount of columns shown in the attachment menu",
+      "translation_display_name": "부착물 메뉴 열 개수",
+      "translation_description": "부착물 메뉴에 표시되는 열 개수를 변경합니다."
+    },
+    {
+      "section": "General",
+      "key": "Attachment menu height",
+      "values": [],
+      "source_display_name": "Attachment menu height",
+      "source_description": "Changes the height of the attachment menu",
+      "translation_display_name": "부착물 메뉴 높이",
+      "translation_description": "부착물 메뉴의 높이를 변경합니다."
+    }
+  ]
+}

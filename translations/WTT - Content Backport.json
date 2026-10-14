@@ -14782,6 +14782,2245 @@
         "translation": "눈",
         "match_mode": "exact",
         "display_type": "default"
+      },
+      {
+        "key": "6a9961d053d704c9d005660e ShortName",
+        "source": "DBX95",
+        "translation": "DBX95",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6a99617d17c4dda0010df334 ShortName",
+        "source": "DBP191",
+        "translation": "DBP191"
+      },
+      {
+        "key": "6a9961ed793941a095047a7f ShortName",
+        "source": "DVX12",
+        "translation": "DVX12"
+      },
+      {
+        "key": "6a9961ddbdde1672b805514a ShortName",
+        "source": "DVC12",
+        "translation": "DVC12"
+      },
+      {
+        "key": "6a845c4adc351247420fd2f5 Name",
+        "source": "DevTac Ronin Face Armor (Raptor)",
+        "translation": "DevTac Ronin 안면 방호구 (Raptor)"
+      },
+      {
+        "key": "6a845c4adc351247420fd2f5 ShortName",
+        "source": "Ronin M1",
+        "translation": "Ronin M1"
+      },
+      {
+        "key": "6a845c4adc351247420fd2f5 Description",
+        "source": "Additional face armor for the DevTac Ronin helmet. A removable shield made from impact-resistant polycarbonate. Raptor pattern version.",
+        "translation": "DevTac Ronin 헬멧에 추가로 장착하는 안면 방호구입니다. 충격에 강한 폴리카보네이트로 제작된 탈착식 보호판입니다. Raptor 무늬 버전입니다."
+      },
+      {
+        "key": "6a8433de350b8a45fd0ec800 Name",
+        "source": "DevTac Ronin Face Armor",
+        "translation": "DevTac Ronin 안면 방호구"
+      },
+      {
+        "key": "6a8433de350b8a45fd0ec800 ShortName",
+        "source": "Ronin M1",
+        "translation": "Ronin M1"
+      },
+      {
+        "key": "6a8433de350b8a45fd0ec800 Description",
+        "source": "Additional face armor for the DevTac Ronin helmet. A removable shield made from impact-resistant polycarbonate.",
+        "translation": "DevTac Ronin 헬멧에 추가로 장착하는 안면 방호구입니다. 충격에 강한 폴리카보네이트로 제작된 탈착식 보호판입니다."
+      },
+      {
+        "key": "6a845cbf13c5fb027c0768a9 Name",
+        "source": "DevTac Ronin Face Armor (Prototype)",
+        "translation": "DevTac Ronin 안면 방호구 (프로토타입)"
+      },
+      {
+        "key": "6a845cbf13c5fb027c0768a9 ShortName",
+        "source": "Ronin M1",
+        "translation": "Ronin M1"
+      },
+      {
+        "key": "6a845cbf13c5fb027c0768a9 Description",
+        "source": "Additional face armor for the DevTac Ronin helmet. A removable shield made from impact-resistant polycarbonate. A prototype version used for bullet penetration testing.",
+        "translation": "DevTac Ronin 헬멧에 추가로 장착하는 안면 방호구입니다. 충격에 강한 폴리카보네이트로 제작된 탈착식 보호판입니다. 탄환 관통 시험에 사용되는 시제품 버전입니다."
+      },
+      {
+        "key": "6a8433fa2309518e9e03a2ae Name",
+        "source": "DevTac Ronin Mandible",
+        "translation": "DevTac Ronin 방탄 턱 보호대"
+      },
+      {
+        "key": "6a8433fa2309518e9e03a2ae ShortName",
+        "source": "Ronin M2",
+        "translation": "Ronin M2"
+      },
+      {
+        "key": "6a8433fa2309518e9e03a2ae Description",
+        "source": "A removable ballistic module designed to protect the chin and lower face. Secured by five powerful N50 magnets, two pins, and a latch, it stays firmly in place while still being removable in one motion. Doesn't interfere with radio communication or restrict movement.",
+        "translation": "턱과 얼굴 아래쪽을 보호하도록 설계된 탈착식 방탄 모듈입니다. 강력한 N50 자석 5개와 핀 2개, 걸쇠로 단단히 고정되지만 한 번의 동작으로 분리할 수 있습니다. 무전 통신을 방해하거나 움직임을 제한하지 않습니다."
+      },
+      {
+        "key": "6a845e2dd68fc921f902397e Name",
+        "source": "DevTac Ronin Mandible (Raptor)",
+        "translation": "DevTac Ronin 방탄 턱 보호대 (Raptor)"
+      },
+      {
+        "key": "6a845e2dd68fc921f902397e ShortName",
+        "source": "Ronin M2",
+        "translation": "Ronin M2"
+      },
+      {
+        "key": "6a845e2dd68fc921f902397e Description",
+        "source": "A removable ballistic module designed to protect the chin and lower face. Secured by five powerful N50 magnets, two pins, and a latch, it stays firmly in place while still being removable in one motion. Doesn't interfere with radio communication or restrict movement. Raptor pattern version.",
+        "translation": "턱과 얼굴 아래쪽을 보호하도록 설계된 탈착식 방탄 모듈입니다. 강력한 N50 자석 5개와 핀 2개, 걸쇠로 단단히 고정되지만 한 번의 동작으로 분리할 수 있습니다. 무전 통신을 방해하거나 움직임을 제한하지 않습니다. Raptor 무늬 버전입니다."
+      },
+      {
+        "key": "6a845e3e8d1432eeb8016ac2 Name",
+        "source": "DevTac Ronin Mandible (Prototype)",
+        "translation": "DevTac Ronin 방탄 턱 보호대 (프로토타입)"
+      },
+      {
+        "key": "6a845e3e8d1432eeb8016ac2 ShortName",
+        "source": "Ronin M2",
+        "translation": "Ronin M2"
+      },
+      {
+        "key": "6a845e3e8d1432eeb8016ac2 Description",
+        "source": "A removable ballistic module designed to protect the chin and lower face. Secured by five powerful N50 magnets, two pins, and a latch, it stays firmly in place while still being removable in one motion. Doesn't interfere with radio communication or restrict movement. A prototype version used for bullet penetration testing.",
+        "translation": "턱과 얼굴 아래쪽을 보호하도록 설계된 탈착식 방탄 모듈입니다. 강력한 N50 자석 5개와 핀 2개, 걸쇠로 단단히 고정되지만 한 번의 동작으로 분리할 수 있습니다. 무전 통신을 방해하거나 움직임을 제한하지 않습니다. 탄환 관통 시험에 사용되는 시제품 버전입니다."
+      },
+      {
+        "key": "6a845e4ea5d91e080c06b6ed Name",
+        "source": "DevTac Ronin Mandible (Olive)",
+        "translation": "DevTac Ronin 방탄 턱 보호대 (올리브색)"
+      },
+      {
+        "key": "6a845e4ea5d91e080c06b6ed ShortName",
+        "source": "Ronin M2",
+        "translation": "Ronin M2"
+      },
+      {
+        "key": "6a845e4ea5d91e080c06b6ed Description",
+        "source": "A removable ballistic module designed to protect the chin and lower face. Secured by five powerful N50 magnets, two pins, and a latch, it stays firmly in place while still being removable in one motion. Doesn't interfere with radio communication or restrict movement. Olive color version.",
+        "translation": "턱과 얼굴 아래쪽을 보호하도록 설계된 탈착식 방탄 모듈입니다. 강력한 N50 자석 5개와 핀 2개, 걸쇠로 단단히 고정되지만 한 번의 동작으로 분리할 수 있습니다. 무전 통신을 방해하거나 움직임을 제한하지 않습니다. 올리브색 버전입니다."
+      },
+      {
+        "key": "6a845e60d68fc921f9023983 Name",
+        "source": "DevTac Ronin Mandible (Olive Drab)",
+        "translation": "DevTac Ronin 방탄 턱 보호대 (올리브 드랩)"
+      },
+      {
+        "key": "6a845e60d68fc921f9023983 ShortName",
+        "source": "Ronin M2",
+        "translation": "Ronin M2"
+      },
+      {
+        "key": "6a845e60d68fc921f9023983 Description",
+        "source": "A removable ballistic module designed to protect the chin and lower face. Secured by five powerful N50 magnets, two pins, and a latch, it stays firmly in place while still being removable in one motion. Doesn't interfere with radio communication or restrict movement. Olive Drab version.",
+        "translation": "턱과 얼굴 아래쪽을 보호하도록 설계된 탈착식 방탄 모듈입니다. 강력한 N50 자석 5개와 핀 2개, 걸쇠로 단단히 고정되지만 한 번의 동작으로 분리할 수 있습니다. 무전 통신을 방해하거나 움직임을 제한하지 않습니다. 올리브 드랩(녹색) 버전입니다."
+      },
+      {
+        "key": "6a845e7fc37980eea20190b2 Name",
+        "source": "DevTac Ronin Mandible (Plague)",
+        "translation": "DevTac Ronin 방탄 턱 보호대 (Plague)"
+      },
+      {
+        "key": "6a845e7fc37980eea20190b2 ShortName",
+        "source": "Ronin M2",
+        "translation": "Ronin M2"
+      },
+      {
+        "key": "6a845e7fc37980eea20190b2 Description",
+        "source": "A removable ballistic module designed to protect the chin and lower face. Secured by five powerful N50 magnets, two pins, and a latch, it stays firmly in place while still being removable in one motion. Doesn't interfere with radio communication or restrict movement. Plague pattern version.",
+        "translation": "턱과 얼굴 아래쪽을 보호하도록 설계된 탈착식 방탄 모듈입니다. 강력한 N50 자석 5개와 핀 2개, 걸쇠로 단단히 고정되지만 한 번의 동작으로 분리할 수 있습니다. 무전 통신을 방해하거나 움직임을 제한하지 않습니다. Plague 무늬 버전입니다."
+      },
+      {
+        "key": "6a82dcf00e3db08b8b0af104 Name",
+        "source": "Altyn helmet cover (Olive Drab)",
+        "translation": "알틴 헬멧 커버 (올리브 드랩)"
+      },
+      {
+        "key": "6a82dcf00e3db08b8b0af104 ShortName",
+        "source": "Altyn",
+        "translation": "알틴"
+      },
+      {
+        "key": "6a82dcf00e3db08b8b0af104 Description",
+        "source": "A helmet cover for Altyn type helmets. Olive Drab version.",
+        "translation": "알틴 계열 헬멧에 씌우는 커버입니다. 올리브 드랩(녹색) 버전입니다."
+      },
+      {
+        "key": "6a82dbbf0ccd0eb28d02f240 Name",
+        "source": "Altyn helmet face shield (Impact Tested)",
+        "translation": "알틴 헬멧 안면보호구 (충격 시험품)"
+      },
+      {
+        "key": "6a82dbbf0ccd0eb28d02f240 ShortName",
+        "source": "Altyn FS",
+        "translation": "알틴 안면보호구"
+      },
+      {
+        "key": "6a82dbbf0ccd0eb28d02f240 Description",
+        "source": "A special armored face shield for the Altyn assault helmet. Increases the chances of surviving the impacts of bullets and shrapnel, and this particular version proves this.",
+        "translation": "알틴 돌격 헬멧용 특수 방탄 안면보호구입니다. 총탄과 파편의 충격에서 생존할 가능성을 높여 주며, 이 버전은 그 효과를 직접 입증한 제품입니다."
+      },
+      {
+        "key": "6a845dce7d4cbd3ee50a191b Name",
+        "source": "DevTac Ronin Reinforced Crown Plate (Raptor)",
+        "translation": "DevTac Ronin 강화 상부 장갑판 (Raptor)"
+      },
+      {
+        "key": "6a845dce7d4cbd3ee50a191b ShortName",
+        "source": "Ronin F2",
+        "translation": "Ronin F2"
+      },
+      {
+        "key": "6a845dce7d4cbd3ee50a191b Description",
+        "source": "A set of combined Kevlar panels with shock-absorbing padding for the DevTac Ronin. Significantly increases protection for the upper portion of the head. Secured with bolts and Velcro and can be swapped out in just a few minutes in the field. Features a standard shroud for quick installation of NVGs and other accessories. Raptor pattern version.",
+        "translation": "DevTac Ronin용 케블라 패널과 충격 흡수 패드를 결합한 방호 부품입니다. 머리 위쪽의 방호력을 크게 높여 줍니다. 볼트와 벨크로로 고정하며, 야전에서도 몇 분이면 교체할 수 있습니다. 야간투시경(NVG)과 기타 액세서리를 빠르게 장착할 수 있는 표준 슈라우드가 있습니다. Raptor 무늬 버전입니다."
+      },
+      {
+        "key": "6a845ddeeaa1d4d30d038f6d Name",
+        "source": "DevTac Ronin Reinforced Crown Plate (Prototype)",
+        "translation": "DevTac Ronin 강화 상부 장갑판 (프로토타입)"
+      },
+      {
+        "key": "6a845ddeeaa1d4d30d038f6d ShortName",
+        "source": "Ronin F2",
+        "translation": "Ronin F2"
+      },
+      {
+        "key": "6a845ddeeaa1d4d30d038f6d Description",
+        "source": "A set of combined Kevlar panels with shock-absorbing padding for the DevTac Ronin. Significantly increases protection for the upper portion of the head. Secured with bolts and Velcro and can be swapped out in just a few minutes in the field. Features a standard shroud for quick installation of NVGs and other accessories. A prototype version used for bullet penetration testing.",
+        "translation": "DevTac Ronin용 케블라 패널과 충격 흡수 패드를 결합한 방호 부품입니다. 머리 위쪽의 방호력을 크게 높여 줍니다. 볼트와 벨크로로 고정하며, 야전에서도 몇 분이면 교체할 수 있습니다. 야간투시경(NVG)과 기타 액세서리를 빠르게 장착할 수 있는 표준 슈라우드가 있습니다. 탄환 관통 시험에 사용되는 시제품 버전입니다."
+      },
+      {
+        "key": "6a82dce1a750a094fd02923e Name",
+        "source": "Altyn helmet cover (Berezka)",
+        "translation": "알틴 헬멧 커버 (Berezka)"
+      },
+      {
+        "key": "6a82dce1a750a094fd02923e ShortName",
+        "source": "Altyn",
+        "translation": "알틴"
+      },
+      {
+        "key": "6a82dce1a750a094fd02923e Description",
+        "source": "A helmet cover for Altyn type helmets. Berezka camouflage version.",
+        "translation": "알틴 계열 헬멧에 씌우는 커버입니다. Berezka 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a82dce8385a6cfafe0d4fa9 Name",
+        "source": "Altyn helmet cover (Black)",
+        "translation": "알틴 헬멧 커버 (검은색)"
+      },
+      {
+        "key": "6a82dce8385a6cfafe0d4fa9 ShortName",
+        "source": "Altyn",
+        "translation": "알틴"
+      },
+      {
+        "key": "6a82dce8385a6cfafe0d4fa9 Description",
+        "source": "A helmet cover for Altyn type helmets. Black version.",
+        "translation": "알틴 계열 헬멧에 씌우는 커버입니다. 검은색 버전입니다."
+      },
+      {
+        "key": "6a82dc5e6bc759779e064205 Name",
+        "source": "Altyn helmet cover (Leto)",
+        "translation": "알틴 헬멧 커버 (Leto)"
+      },
+      {
+        "key": "6a82dc5e6bc759779e064205 ShortName",
+        "source": "Altyn",
+        "translation": "알틴"
+      },
+      {
+        "key": "6a82dc5e6bc759779e064205 Description",
+        "source": "A helmet cover for Altyn type helmets. Leto camouflage version.",
+        "translation": "알틴 계열 헬멧에 씌우는 커버입니다. Leto 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a845ded7d4cbd3ee50a191f Name",
+        "source": "DevTac Ronin Reinforced Crown Plate (Olive)",
+        "translation": "DevTac Ronin 강화 상부 장갑판 (올리브색)"
+      },
+      {
+        "key": "6a845ded7d4cbd3ee50a191f ShortName",
+        "source": "Ronin F2",
+        "translation": "Ronin F2"
+      },
+      {
+        "key": "6a845ded7d4cbd3ee50a191f Description",
+        "source": "A set of combined Kevlar panels with shock-absorbing padding for the DevTac Ronin. Significantly increases protection for the upper portion of the head. Secured with bolts and Velcro and can be swapped out in just a few minutes in the field. Features a standard shroud for quick installation of NVGs and other accessories. Olive version.",
+        "translation": "DevTac Ronin용 케블라 패널과 충격 흡수 패드를 결합한 방호 부품입니다. 머리 위쪽의 방호력을 크게 높여 줍니다. 볼트와 벨크로로 고정하며, 야전에서도 몇 분이면 교체할 수 있습니다. 야간투시경(NVG)과 기타 액세서리를 빠르게 장착할 수 있는 표준 슈라우드가 있습니다. 올리브색 버전입니다."
+      },
+      {
+        "key": "6a845e00eaa1d4d30d038f71 Name",
+        "source": "DevTac Ronin Reinforced Crown Plate (Olive Drab)",
+        "translation": "DevTac Ronin 강화 상부 장갑판 (올리브 드랩)"
+      },
+      {
+        "key": "6a845e00eaa1d4d30d038f71 ShortName",
+        "source": "Ronin F2",
+        "translation": "Ronin F2"
+      },
+      {
+        "key": "6a845e00eaa1d4d30d038f71 Description",
+        "source": "A set of combined Kevlar panels with shock-absorbing padding for the DevTac Ronin. Significantly increases protection for the upper portion of the head. Secured with bolts and Velcro and can be swapped out in just a few minutes in the field. Features a standard shroud for quick installation of NVGs and other accessories. Olive Drab version.",
+        "translation": "DevTac Ronin용 케블라 패널과 충격 흡수 패드를 결합한 방호 부품입니다. 머리 위쪽의 방호력을 크게 높여 줍니다. 볼트와 벨크로로 고정하며, 야전에서도 몇 분이면 교체할 수 있습니다. 야간투시경(NVG)과 기타 액세서리를 빠르게 장착할 수 있는 표준 슈라우드가 있습니다. 올리브 드랩(녹색) 버전입니다."
+      },
+      {
+        "key": "6a8355f881430c75c10db040 Name",
+        "source": "Team Wendy EXFIL helmet cover (Arctic Chocolate Chip)",
+        "translation": "팀 웬디 EXFIL 헬멧 커버 (아틱 초콜릿 칩)"
+      },
+      {
+        "key": "6a8355f881430c75c10db040 ShortName",
+        "source": "EXFIL",
+        "translation": "EXFIL"
+      },
+      {
+        "key": "6a8355f881430c75c10db040 Description",
+        "source": "A helmet cover for Team Wendy EXFIL helmets with EXFIL Rail 3.0 accessory mounting system. Arctic Chocolate Chip camouflage version.",
+        "translation": "EXFIL Rail 3.0 액세서리 장착 시스템을 갖춘 팀 웬디 EXFIL 헬멧용 커버입니다. 아틱 초콜릿 칩 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a835600c0378ed820059151 Name",
+        "source": "Team Wendy EXFIL helmet cover (Wolf Gray)",
+        "translation": "팀 웬디 EXFIL 헬멧 커버 (울프 그레이)"
+      },
+      {
+        "key": "6a835600c0378ed820059151 ShortName",
+        "source": "EXFIL",
+        "translation": "EXFIL"
+      },
+      {
+        "key": "6a835600c0378ed820059151 Description",
+        "source": "A helmet cover for Team Wendy EXFIL helmets with EXFIL Rail 3.0 accessory mounting system. Wolf Gray color version.",
+        "translation": "EXFIL Rail 3.0 액세서리 장착 시스템을 갖춘 팀 웬디 EXFIL 헬멧용 커버입니다. 울프 그레이 색상 버전입니다."
+      },
+      {
+        "key": "6a8355f08ce81861440b6ec1 Name",
+        "source": "Team Wendy EXFIL helmet cover (MultiCam)",
+        "translation": "팀 웬디 EXFIL 헬멧 커버 (멀티캠)"
+      },
+      {
+        "key": "6a8355f08ce81861440b6ec1 ShortName",
+        "source": "EXFIL",
+        "translation": "EXFIL"
+      },
+      {
+        "key": "6a8355f08ce81861440b6ec1 Description",
+        "source": "A helmet cover for Team Wendy EXFIL series helmets. MultiCam camouflage version.",
+        "translation": "팀 웬디 EXFIL 계열 헬멧용 커버입니다. 멀티캠 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a8355e36a6ba231700536f6 Name",
+        "source": "Team Wendy EXFIL helmet cover (Pencott WildWood)",
+        "translation": "팀 웬디 EXFIL 헬멧 커버 (Pencott WildWood)"
+      },
+      {
+        "key": "6a8355e36a6ba231700536f6 ShortName",
+        "source": "EXFIL",
+        "translation": "EXFIL"
+      },
+      {
+        "key": "6a8355e36a6ba231700536f6 Description",
+        "source": "A helmet cover for Team Wendy EXFIL helmets with EXFIL Rail 3.0 accessory mounting system. Pencott WildWood camouflage version.",
+        "translation": "EXFIL Rail 3.0 액세서리 장착 시스템을 갖춘 팀 웬디 EXFIL 헬멧용 커버입니다. Pencott WildWood 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a845cd5a5d91e080c06b6e1 Name",
+        "source": "DevTac Ronin Face Armor (Olive)",
+        "translation": "DevTac Ronin 안면 방호구 (올리브색)"
+      },
+      {
+        "key": "6a845cd5a5d91e080c06b6e1 ShortName",
+        "source": "Ronin M1",
+        "translation": "Ronin M1"
+      },
+      {
+        "key": "6a845cd5a5d91e080c06b6e1 Description",
+        "source": "Additional face armor for the DevTac Ronin helmet. A removable shield made from impact-resistant polycarbonate. Olive version.",
+        "translation": "DevTac Ronin 헬멧에 추가로 장착하는 안면 방호구입니다. 충격에 강한 폴리카보네이트로 제작된 탈착식 보호판입니다. 올리브색 버전입니다."
+      },
+      {
+        "key": "6a845ce613c5fb027c0768ad Name",
+        "source": "DevTac Ronin Face Armor (Olive Drab)",
+        "translation": "DevTac Ronin 안면 방호구 (올리브 드랩)"
+      },
+      {
+        "key": "6a845ce613c5fb027c0768ad ShortName",
+        "source": "Ronin M1",
+        "translation": "Ronin M1"
+      },
+      {
+        "key": "6a845ce613c5fb027c0768ad Description",
+        "source": "Additional face armor for the DevTac Ronin helmet. A removable shield made from impact-resistant polycarbonate. Olive Drab version.",
+        "translation": "DevTac Ronin 헬멧에 추가로 장착하는 안면 방호구입니다. 충격에 강한 폴리카보네이트로 제작된 탈착식 보호판입니다. 올리브 드랩(녹색) 버전입니다."
+      },
+      {
+        "key": "6a845cfd8d1432eeb8016ab9 Name",
+        "source": "DevTac Ronin Face Armor (Plague)",
+        "translation": "DevTac Ronin 안면 방호구 (Plague)"
+      },
+      {
+        "key": "6a845cfd8d1432eeb8016ab9 ShortName",
+        "source": "Ronin M1",
+        "translation": "Ronin M1"
+      },
+      {
+        "key": "6a845cfd8d1432eeb8016ab9 Description",
+        "source": "Additional face armor for the DevTac Ronin helmet. A removable shield made from impact-resistant polycarbonate. Plague pattern version.",
+        "translation": "DevTac Ronin 헬멧에 추가로 장착하는 안면 방호구입니다. 충격에 강한 폴리카보네이트로 제작된 탈착식 보호판입니다. Plague 무늬 버전입니다."
+      },
+      {
+        "key": "6a8433e8cd06047e8e0ad363 Name",
+        "source": "DevTac Ronin Crown Plate",
+        "translation": "DevTac Ronin 상부 장갑판"
+      },
+      {
+        "key": "6a8433e8cd06047e8e0ad363 ShortName",
+        "source": "Ronin F1",
+        "translation": "Ronin F1"
+      },
+      {
+        "key": "6a8433e8cd06047e8e0ad363 Description",
+        "source": "Frontal armor for the DevTac Ronin helmet. A polymer-coated forehead and crown plate with a 1.5mm foam layer for impact absorption. Provides significant reinforcement to the front of the helmet without obstructing the standard shroud.",
+        "translation": "DevTac Ronin 헬멧의 전면을 보호하는 장갑판입니다. 폴리머로 코팅된 이마 및 정수리 보호판에 1.5mm 두께의 충격 흡수 폼층이 적용되어 있습니다. 기본 슈라우드를 가리지 않으면서 헬멧 전면의 방호력을 크게 높여 줍니다."
+      },
+      {
+        "key": "6a845d18cd06047e8e0ad377 Name",
+        "source": "DevTac Ronin Crown Plate (Raptor)",
+        "translation": "DevTac Ronin 상부 장갑판 (Raptor)"
+      },
+      {
+        "key": "6a845d18cd06047e8e0ad377 ShortName",
+        "source": "Ronin F1",
+        "translation": "Ronin F1"
+      },
+      {
+        "key": "6a845d18cd06047e8e0ad377 Description",
+        "source": "Frontal armor for the DevTac Ronin helmet. A polymer-coated forehead and crown plate with a 1.5mm foam layer for impact absorption. Provides significant reinforcement to the front of the helmet without obstructing the standard shroud. Raptor pattern version.",
+        "translation": "DevTac Ronin 헬멧의 전면을 보호하는 장갑판입니다. 폴리머로 코팅된 이마 및 정수리 보호판에 1.5mm 두께의 충격 흡수 폼층이 적용되어 있습니다. 기본 슈라우드를 가리지 않으면서 헬멧 전면의 방호력을 크게 높여 줍니다. Raptor 무늬 버전입니다."
+      },
+      {
+        "key": "6a845d2adc351247420fd2fe Name",
+        "source": "DevTac Ronin Crown Plate (Prototype)",
+        "translation": "DevTac Ronin 상부 장갑판 (프로토타입)"
+      },
+      {
+        "key": "6a845d2adc351247420fd2fe ShortName",
+        "source": "Ronin F1",
+        "translation": "Ronin F1"
+      },
+      {
+        "key": "6a845d2adc351247420fd2fe Description",
+        "source": "Frontal armor for the DevTac Ronin helmet. A polymer-coated forehead and crown plate with a 1.5mm foam layer for impact absorption. Provides significant reinforcement to the front of the helmet without obstructing the standard shroud. A prototype version used for bullet penetration testing.",
+        "translation": "DevTac Ronin 헬멧의 전면을 보호하는 장갑판입니다. 폴리머로 코팅된 이마 및 정수리 보호판에 1.5mm 두께의 충격 흡수 폼층이 적용되어 있습니다. 기본 슈라우드를 가리지 않으면서 헬멧 전면의 방호력을 크게 높여 줍니다. 탄환 관통 시험에 사용되는 시제품 버전입니다."
+      },
+      {
+        "key": "6a845d4013c5fb027c0768b2 Name",
+        "source": "DevTac Ronin Crown Plate (Olive)",
+        "translation": "DevTac Ronin 상부 장갑판 (올리브색)"
+      },
+      {
+        "key": "6a845d4013c5fb027c0768b2 ShortName",
+        "source": "Ronin F1",
+        "translation": "Ronin F1"
+      },
+      {
+        "key": "6a845d4013c5fb027c0768b2 Description",
+        "source": "Additional frontal armor for the DevTac Ronin helmet. A polymer-coated forehead and crown plate with a 1.5mm foam layer for impact absorption. Provides significant reinforcement to the front of the helmet without obstructing the standard shroud. Olive version.",
+        "translation": "DevTac Ronin 헬멧의 전면을 보호하는 장갑판입니다. 폴리머로 코팅된 이마 및 정수리 보호판에 1.5mm 두께의 충격 흡수 폼층이 적용되어 있습니다. 기본 슈라우드를 가리지 않으면서 헬멧 전면의 방호력을 크게 높여 줍니다. 올리브색 버전입니다."
+      },
+      {
+        "key": "6a845d94dc8388b0e609e16e Name",
+        "source": "DevTac Ronin Crown Plate (Olive Drab)",
+        "translation": "DevTac Ronin 상부 장갑판 (올리브 드랩)"
+      },
+      {
+        "key": "6a845d94dc8388b0e609e16e ShortName",
+        "source": "Ronin F1",
+        "translation": "Ronin F1"
+      },
+      {
+        "key": "6a845d94dc8388b0e609e16e Description",
+        "source": "Frontal armor for the DevTac Ronin helmet. A polymer-coated forehead and crown plate with a 1.5mm foam layer for impact absorption. Provides significant reinforcement to the front of the helmet without obstructing the standard shroud. Olive Drab version.",
+        "translation": "DevTac Ronin 헬멧의 전면을 보호하는 장갑판입니다. 폴리머로 코팅된 이마 및 정수리 보호판에 1.5mm 두께의 충격 흡수 폼층이 적용되어 있습니다. 기본 슈라우드를 가리지 않으면서 헬멧 전면의 방호력을 크게 높여 줍니다. 올리브 드랩 버전입니다."
+      },
+      {
+        "key": "6a845db3cd06047e8e0ad37c Name",
+        "source": "DevTac Ronin Crown Plate (Plague)",
+        "translation": "DevTac Ronin 상부 장갑판 (Plague)"
+      },
+      {
+        "key": "6a845db3cd06047e8e0ad37c ShortName",
+        "source": "Ronin F1",
+        "translation": "Ronin F1"
+      },
+      {
+        "key": "6a845db3cd06047e8e0ad37c Description",
+        "source": "Frontal armor for the DevTac Ronin helmet. A polymer-coated forehead and crown plate with a 1.5mm foam layer for impact absorption. Provides significant reinforcement to the front of the helmet without obstructing the standard shroud. Plague pattern version.",
+        "translation": "DevTac Ronin 헬멧의 전면을 보호하는 장갑판입니다. 폴리머로 코팅된 이마 및 정수리 보호판에 1.5mm 두께의 충격 흡수 폼층이 적용되어 있습니다. 기본 슈라우드를 가리지 않으면서 헬멧 전면의 방호력을 크게 높여 줍니다. Plague 무늬 버전입니다."
+      },
+      {
+        "key": "6a8433f15917e01c560716fc Name",
+        "source": "DevTac Ronin Reinforced Crown Plate",
+        "translation": "DevTac Ronin 강화 상부 장갑판"
+      },
+      {
+        "key": "6a8433f15917e01c560716fc ShortName",
+        "source": "Ronin F2",
+        "translation": "Ronin F2"
+      },
+      {
+        "key": "6a8433f15917e01c560716fc Description",
+        "source": "A set of combined Kevlar panels with shock-absorbing padding for the DevTac Ronin. Significantly increases protection for the upper portion of the head. Secured with bolts and Velcro and can be swapped out in just a few minutes in the field. Features a standard shroud for quick installation of NVGs and other accessories.",
+        "translation": "DevTac Ronin용 케블라 패널과 충격 흡수 패드를 결합한 방호 부품입니다. 머리 위쪽의 방호력을 크게 높여 줍니다. 볼트와 벨크로로 고정하며, 야전에서도 몇 분이면 교체할 수 있습니다. 야간투시경(NVG)과 기타 액세서리를 빠르게 장착할 수 있는 표준 슈라우드가 있습니다."
+      },
+      {
+        "key": "6a845e117d4cbd3ee50a1923 Name",
+        "source": "DevTac Ronin Reinforced Crown Plate (Plague)",
+        "translation": "DevTac Ronin 강화 상부 장갑판 (Plague)"
+      },
+      {
+        "key": "6a845e117d4cbd3ee50a1923 ShortName",
+        "source": "Ronin F2",
+        "translation": "Ronin F2"
+      },
+      {
+        "key": "6a845e117d4cbd3ee50a1923 Description",
+        "source": "A set of combined Kevlar panels with shock-absorbing padding for the DevTac Ronin. Significantly increases protection for the upper portion of the head. Secured with bolts and Velcro and can be swapped out in just a few minutes in the field. Features a standard shroud for quick installation of NVGs and other accessories. Plague pattern version.",
+        "translation": "DevTac Ronin용 케블라 패널과 충격 흡수 패드를 결합한 방호 부품입니다. 머리 위쪽의 방호력을 크게 높여 줍니다. 볼트와 벨크로로 고정하며, 야전에서도 몇 분이면 교체할 수 있습니다. 야간투시경(NVG)과 기타 액세서리를 빠르게 장착할 수 있는 표준 슈라우드가 있습니다. Plague 무늬 버전입니다."
+      },
+      {
+        "key": "69cbd37c33d1df198600bfec Name",
+        "source": "Crye Precision AirFrame Chops (Morbus Incorsio)",
+        "translation": "크라이 프리시전 에어프레임 턱 보호대 (Morbus Incorsio)"
+      },
+      {
+        "key": "69cbd37c33d1df198600bfec ShortName",
+        "source": "AF Chops",
+        "translation": "AF 턱 보호대"
+      },
+      {
+        "key": "69cbd37c33d1df198600bfec Description",
+        "source": "An additional armor module for the Crye Precision AirFrame helmet, which protects the ear and the jaw area from fragmentation and small-caliber ricochets. The design was created by one of Arena's earliest veterans. He disappeared under rather mysterious circumstances, and many creepy rumors circulate among the newcomers.",
+        "translation": "크라이 프리시전 에어프레임 헬멧용 추가 방탄 모듈로, 귀와 턱 부위를 파편과 소구경 도탄으로부터 보호합니다. 아레나 초창기 베테랑 중 한 명이 디자인했습니다. 그는 다소 수상한 상황에서 사라졌으며, 신참들 사이에는 섬뜩한 소문이 많이 떠돌고 있습니다."
+      },
+      {
+        "key": "69cbd389c0c2364a330c6474 Name",
+        "source": "Crye Precision AirFrame Ears (Morbus Incorsio)",
+        "translation": "크라이 프리시전 에어프레임 귀 보호대 (Morbus Incorsio)"
+      },
+      {
+        "key": "69cbd389c0c2364a330c6474 ShortName",
+        "source": "AF Ears",
+        "translation": "AF 귀 보호대"
+      },
+      {
+        "key": "69cbd389c0c2364a330c6474 Description",
+        "source": "An additional armor module for the Crye Precision AirFrame helmet, which protects the ear area from fragmentation and small-caliber ricochets. The design was created by one of Arena's earliest veterans. He disappeared under rather mysterious circumstances, and many creepy rumors circulate among the newcomers.",
+        "translation": "크라이 프리시전 에어프레임 헬멧용 추가 방탄 모듈로, 귀 부위를 파편과 소구경 도탄으로부터 보호합니다. 아레나 초창기 베테랑 중 한 명이 디자인했습니다. 그는 다소 수상한 상황에서 사라졌으며, 신참들 사이에는 섬뜩한 소문이 많이 떠돌고 있습니다."
+      },
+      {
+        "key": "6a834d1f992762b7bf08ffd2 Name",
+        "source": "Team Wendy EXFIL Ballistic Mandible (Black)",
+        "translation": "팀 웬디 EXFIL 방탄 턱 보호대 (검은색)"
+      },
+      {
+        "key": "6a834d1f992762b7bf08ffd2 ShortName",
+        "source": "EXFIL Mandible",
+        "translation": "EXFIL 턱 보호대"
+      },
+      {
+        "key": "6a834d1f992762b7bf08ffd2 Description",
+        "source": "Removable ballistic protection for the Team Wendy EXFIL helmet, protecting the wearer's face and ears from shrapnel, debris, and wind. Black color version.",
+        "translation": "팀 웬디 EXFIL 헬멧에 장착하는 탈착식 방탄 보호대입니다. 파편과 잔해, 바람으로부터 착용자의 얼굴과 귀를 보호합니다. 검은색 버전입니다."
+      },
+      {
+        "key": "6a834d286cfa76129a0923b8 Name",
+        "source": "Team Wendy EXFIL Ballistic Mandible (Coyote Brown)",
+        "translation": "팀 웬디 EXFIL 방탄 턱 보호대 (코요테 브라운)"
+      },
+      {
+        "key": "6a834d286cfa76129a0923b8 ShortName",
+        "source": "EXFIL Mandible",
+        "translation": "EXFIL 턱 보호대"
+      },
+      {
+        "key": "6a834d286cfa76129a0923b8 Description",
+        "source": "Removable ballistic protection for the Team Wendy EXFIL helmet, protecting the wearer's face and ears from shrapnel, debris, and wind. Coyote Brown version.",
+        "translation": "팀 웬디 EXFIL 헬멧에 장착하는 탈착식 방탄 보호대입니다. 파편과 잔해, 바람으로부터 착용자의 얼굴과 귀를 보호합니다. 코요테 브라운 버전입니다."
+      },
+      {
+        "key": "6a834d307bea762f500e1b59 Name",
+        "source": "Team Wendy EXFIL Ballistic Mandible (MultiCam)",
+        "translation": "팀 웬디 EXFIL 방탄 턱 보호대 (멀티캠)"
+      },
+      {
+        "key": "6a834d307bea762f500e1b59 ShortName",
+        "source": "EXFIL Mandible",
+        "translation": "EXFIL 턱 보호대"
+      },
+      {
+        "key": "6a834d307bea762f500e1b59 Description",
+        "source": "Removable ballistic protection for the Team Wendy EXFIL helmet, protecting the wearer's face and ears from shrapnel, debris, and wind. MultiCam camouflage version.",
+        "translation": "팀 웬디 EXFIL 헬멧에 장착하는 탈착식 방탄 보호대입니다. 파편과 잔해, 바람으로부터 착용자의 얼굴과 귀를 보호합니다. 멀티캠 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a8338c851cfbe231b091a1b Name",
+        "source": "Diamond Age NovaSteel Aventail",
+        "translation": "다이아몬드 에이지 NovaSteel 목 방호대"
+      },
+      {
+        "key": "6a8338c851cfbe231b091a1b ShortName",
+        "source": "NovaSteel",
+        "translation": "NovaSteel"
+      },
+      {
+        "key": "6a8338c851cfbe231b091a1b Description",
+        "source": "An extra ballistic neck protection for the Diamond Age NovaSteel helmet.",
+        "translation": "다이아몬드 에이지 NovaSteel 헬멧용 추가 방탄 목 보호대입니다."
+      },
+      {
+        "key": "6a8338846a6ba231700536db Name",
+        "source": "Diamond Age NovaSteel Flip Ballistic Mandible (Olive Drab)",
+        "translation": "다이아몬드 에이지 NovaSteel 접이식 방탄 턱 보호대 (올리브 드랩)"
+      },
+      {
+        "key": "6a8338846a6ba231700536db ShortName",
+        "source": "NovaSteel Mandible",
+        "translation": "NovaSteel 턱 보호대"
+      },
+      {
+        "key": "6a8338846a6ba231700536db Description",
+        "source": "An extra ballistic protection for the Diamond Age NovaSteel helmet. Olive Drab version.",
+        "translation": "다이아몬드 에이지 NovaSteel 헬멧용 추가 방탄 보호대입니다. 올리브 드랩 버전입니다."
+      },
+      {
+        "key": "6a8338b4350dd848e70feefd Name",
+        "source": "Diamond Age NovaSteel Flip Ballistic Mandible (Custos Mortis)",
+        "translation": "다이아몬드 에이지 NovaSteel 접이식 방탄 턱 보호대 (Custos Mortis)"
+      },
+      {
+        "key": "6a8338b4350dd848e70feefd ShortName",
+        "source": "NovaSteel Mandible",
+        "translation": "NovaSteel 턱 보호대"
+      },
+      {
+        "key": "6a8338b4350dd848e70feefd Description",
+        "source": "An extra ballistic protection for the Diamond Age NovaSteel helmet. Scratches in the paint form a menacing, indifferent grin, completing the look of a \"Guardian of Death\".",
+        "translation": "다이아몬드 에이지 NovaSteel 헬멧용 추가 방탄 보호대입니다. 도색면에 난 흠집이 위협적이면서도 무심한 미소를 만들어, \"죽음의 수호자\"의 모습을 완성합니다."
+      },
+      {
+        "key": "6a8338bc992762b7bf08ffb3 Name",
+        "source": "Diamond Age NovaSteel Flip Ballistic Mandible (Toxin)",
+        "translation": "다이아몬드 에이지 NovaSteel 접이식 방탄 턱 보호대 (Toxin)"
+      },
+      {
+        "key": "6a8338bc992762b7bf08ffb3 ShortName",
+        "source": "NovaSteel Mandible",
+        "translation": "NovaSteel 턱 보호대"
+      },
+      {
+        "key": "6a8338bc992762b7bf08ffb3 Description",
+        "source": "An extra ballistic protection for the Diamond Age NovaSteel helmet. Painted by one of the Arena gladiators.",
+        "translation": "다이아몬드 에이지 NovaSteel 헬멧용 추가 방탄 보호대입니다. 아레나 검투사 중 한 명이 도색했습니다."
+      },
+      {
+        "key": "6a7d896ea38adecfcb0c6cbd Name",
+        "source": "Blue Force Gear PLATEminus V2 body armor (Coyote Brown)",
+        "translation": "블루 포스 기어 PLATEminus V2 방탄복 (코요테 브라운)"
+      },
+      {
+        "key": "6a7d896ea38adecfcb0c6cbd ShortName",
+        "source": "PLATEminus V2",
+        "translation": "PLATEminus V2"
+      },
+      {
+        "key": "6a7d896ea38adecfcb0c6cbd Description",
+        "source": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a naked setup, allowing to wear it under separate chest rigs. Coyote Brown version.",
+        "translation": "블루 포스 기어의 2세대 플레이트 캐리어로, SAPI/ESAPI 규격 방탄판을 수납하도록 설계되었습니다. 적외선 피탐지 특성을 낮춘 내수성 소재로 제작되었습니다. 신속 해제 버클을 통해 위급 상황에서 캐리어를 즉시 벗을 수 있습니다. 보강된 구조로 다양한 전투 상황에서 안정적인 보호 성능을 제공합니다. 별도 파우치 등이 없는 기본 구성으로, 다른 체스트 리그 아래에 착용할 수 있습니다. 코요테 브라운 버전입니다."
+      },
+      {
+        "key": "6a7d8987b8903961a50d4f70 Name",
+        "source": "Blue Force Gear PLATEminus V2 body armor (Wolf Gray)",
+        "translation": "블루 포스 기어 PLATEminus V2 방탄복 (울프 그레이)"
+      },
+      {
+        "key": "6a7d8987b8903961a50d4f70 ShortName",
+        "source": "PLATEminus V2",
+        "translation": "PLATEminus V2"
+      },
+      {
+        "key": "6a7d8987b8903961a50d4f70 Description",
+        "source": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a naked setup, allowing to wear it under separate chest rigs. Wolf Gray color version.",
+        "translation": "블루 포스 기어의 2세대 플레이트 캐리어로, SAPI/ESAPI 규격 방탄판을 수납하도록 설계되었습니다. 적외선 피탐지 특성을 낮춘 내수성 소재로 제작되었습니다. 신속 해제 버클을 통해 위급 상황에서 캐리어를 즉시 벗을 수 있습니다. 보강된 구조로 다양한 전투 상황에서 안정적인 보호 성능을 제공합니다. 별도 파우치 등이 없는 기본 구성으로, 다른 체스트 리그 아래에 착용할 수 있습니다. 울프 그레이 색상 버전입니다."
+      },
+      {
+        "key": "6a675d75fd8364ead7039dd8 Name",
+        "source": "AR-15 Unique-ARs Heat Shield (Anodized Yellow)",
+        "translation": "AR-15 Unique-ARs 방열판 (아노다이징 노란색)"
+      },
+      {
+        "key": "6a675d75fd8364ead7039dd8 ShortName",
+        "source": "UARs HS",
+        "translation": "UARs HS"
+      },
+      {
+        "key": "6a675d75fd8364ead7039dd8 Description",
+        "source": "A heat shield for the Unique-ARs handguards. Anodized Yellow version.",
+        "translation": "Unique-ARs 총열덮개용 방열판입니다. 노란색 아노다이징 처리 버전입니다."
+      },
+      {
+        "key": "6a675d00358304130d098d4f Name",
+        "source": "AR-15 Unique-ARs Heat Shield (Anodized Red)",
+        "translation": "AR-15 Unique-ARs 방열판 (아노다이징 빨간색)"
+      },
+      {
+        "key": "6a675d00358304130d098d4f ShortName",
+        "source": "UARs HS",
+        "translation": "UARs HS"
+      },
+      {
+        "key": "6a675d00358304130d098d4f Description",
+        "source": "A heat shield for the Unique-ARs handguards. Anodized Red version.",
+        "translation": "Unique-ARs 총열덮개용 방열판입니다. 빨간색 아노다이징 처리 버전입니다."
+      },
+      {
+        "key": "6a675d8f2ff856278106eb69 Name",
+        "source": "AR-15 Unique-ARs Heat Shield (Anodized Grey)",
+        "translation": "AR-15 Unique-ARs 방열판 (아노다이징 회색)"
+      },
+      {
+        "key": "6a675d8f2ff856278106eb69 ShortName",
+        "source": "UARs HS",
+        "translation": "UARs HS"
+      },
+      {
+        "key": "6a675d8f2ff856278106eb69 Description",
+        "source": "A heat shield for the Unique-ARs handguards. Anodized Grey version.",
+        "translation": "Unique-ARs 총열덮개용 방열판입니다. 회색 아노다이징 처리 버전입니다."
+      },
+      {
+        "key": "6a84a6e460e6219f160d088d Name",
+        "source": "Aramid insert",
+        "translation": "아라미드 삽입물"
+      },
+      {
+        "key": "6a84a6dc035530201205a80c Name",
+        "source": "Aramid insert",
+        "translation": "아라미드 삽입물"
+      },
+      {
+        "key": "6a84a6d01636d7c08d0a594e Name",
+        "source": "Aramid insert",
+        "translation": "아라미드 삽입물"
+      },
+      {
+        "key": "6a84a6a1035530201205a807 Name",
+        "source": "Aramid insert",
+        "translation": "아라미드 삽입물"
+      },
+      {
+        "key": "6a8547b62ae85907210d7b50 Name",
+        "source": "Aramid insert",
+        "translation": "아라미드 삽입물"
+      },
+      {
+        "key": "6a675e25dfb2de5e320d454e Name",
+        "source": "Strike Industries Hexion Tech Seeker reflex sight",
+        "translation": "Strike Industries Hexion Tech Seeker 반사식 조준경"
+      },
+      {
+        "key": "6a675e25dfb2de5e320d454e ShortName",
+        "source": "Seeker",
+        "translation": "Seeker"
+      },
+      {
+        "key": "6a675e25dfb2de5e320d454e Description",
+        "source": "A compact reflex sight that can be used as either a primary or backup optic. Requires a compatible mount for installation on Weaver rails. Manufactured by Strike Industries.",
+        "translation": "주 조준경이나 보조 조준경으로 사용할 수 있는 소형 반사식 조준경입니다. 위버 레일에 장착하려면 호환되는 마운트가 필요합니다. Strike Industries에서 제조합니다."
+      },
+      {
+        "key": "6a83168651cfbe231b091a0f Name",
+        "source": "MSA Millennium Riot Control gas mask",
+        "translation": "MSA 밀레니엄 폭동 진압용 방독면"
+      },
+      {
+        "key": "6a83168651cfbe231b091a0f ShortName",
+        "source": "MRC",
+        "translation": "MRC"
+      },
+      {
+        "key": "6a83168651cfbe231b091a0f Description",
+        "source": "The MSA Millennium Riot Control gas mask combines protection against chemical, biological, radiological, and nuclear threats with excellent build quality and a level of comfort rarely found in gas masks.",
+        "translation": "MSA 밀레니엄 폭동 진압용 방독면은 화학·생물·방사능·핵 위협에 대한 방호 성능과 뛰어난 제작 품질을 결합한 제품으로, 방독면에서는 보기 드문 높은 착용 편의성을 제공합니다."
+      },
+      {
+        "key": "6a6880680934ae00be0d5f9a Name",
+        "source": "AR-15 Strike Industries Checkmate 5.56x45 compensator",
+        "translation": "AR-15 Strike Industries Checkmate 5.56x45 보정기"
+      },
+      {
+        "key": "6a6880680934ae00be0d5f9a ShortName",
+        "source": "Checkmate",
+        "translation": "Checkmate"
+      },
+      {
+        "key": "6a6880680934ae00be0d5f9a Description",
+        "source": "A compensator manufactured by Strike Industries. Can also be equipped with an SI Oppressor or Ferfrans Modular Concussion Reduction muzzle device.",
+        "translation": "Strike Industries에서 제조한 보정기입니다. SI Oppressor 또는 Ferfrans Modular Concussion Reduction 총구장치도 장착할 수 있습니다."
+      },
+      {
+        "key": "6a6895ac4672de9ba1014bcc Name",
+        "source": "Strike Industries Oppressor Lite V2 5.56x45 muzzle device",
+        "translation": "Strike Industries Oppressor Lite V2 5.56x45 총구장치"
+      },
+      {
+        "key": "6a6895ac4672de9ba1014bcc ShortName",
+        "source": "Oppressor",
+        "translation": "Oppressor"
+      },
+      {
+        "key": "6a6895ac4672de9ba1014bcc Description",
+        "source": "A muzzle device manufactured by Strike Industries, installed only on compatible muzzle devices.",
+        "translation": "Strike Industries에서 제조한 총구장치로, 호환되는 총구장치에만 장착할 수 있습니다."
+      },
+      {
+        "key": "6a91b07d0265fb6a1f061a8a Name",
+        "source": "Recruit Bas-Relief",
+        "translation": "신병 부조상"
+      },
+      {
+        "key": "6a91b07d0265fb6a1f061a8a ShortName",
+        "source": "Bas-Relief",
+        "translation": "부조상"
+      },
+      {
+        "key": "6a91b07d0265fb6a1f061a8a Description",
+        "source": "A bas-relief for those just starting to find their way around Tarkov. The real trials are still ahead.",
+        "translation": "타르코프에서 이제 막 길을 찾기 시작한 이들을 위한 부조상입니다. 진정한 시련은 아직 시작되지 않았습니다."
+      },
+      {
+        "key": "6a91b4e323415d3f520ba458 Name",
+        "source": "Survivor Bas-Relief",
+        "translation": "생존자 부조상"
+      },
+      {
+        "key": "6a91b4e323415d3f520ba458 ShortName",
+        "source": "Bas-Relief",
+        "translation": "부조상"
+      },
+      {
+        "key": "6a91b4e323415d3f520ba458 Description",
+        "source": "Mistakes cost money, gear, and time. You've already learned to make them less often.",
+        "translation": "실수에는 돈과 장비, 시간이 듭니다. 이제는 그런 실수를 줄이는 법을 이미 배웠습니다."
+      },
+      {
+        "key": "6a91b5142f7e57600b0a4ccc Name",
+        "source": "Veteran Bas-Relief",
+        "translation": "베테랑 부조상"
+      },
+      {
+        "key": "6a91b5142f7e57600b0a4ccc ShortName",
+        "source": "Bas-Relief",
+        "translation": "부조상"
+      },
+      {
+        "key": "6a91b5142f7e57600b0a4ccc Description",
+        "source": "One successful raid isn't enough. This bas-relief is awarded to those who know how to consistently make it out alive.",
+        "translation": "단 한 번의 성공적인 레이드로는 충분하지 않습니다. 이 부조상은 꾸준히 살아서 탈출하는 법을 아는 이들에게 수여됩니다."
+      },
+      {
+        "key": "6a91b58214210be75a0260d8 Name",
+        "source": "Ruthless Bas-Relief",
+        "translation": "냉혹한 자 부조상"
+      },
+      {
+        "key": "6a91b58214210be75a0260d8 ShortName",
+        "source": "Bas-Relief",
+        "translation": "부조상"
+      },
+      {
+        "key": "6a91b58214210be75a0260d8 Description",
+        "source": "Sometimes there's another person standing between you and the exfil. You already know what to do about that.",
+        "translation": "때로는 탈출 지점으로 가는 길에 다른 사람이 버티고 서 있습니다. 그럴 때 어떻게 해야 할지는 이미 알고 계실 겁니다."
+      },
+      {
+        "key": "6a91b5d5ca420f299d08e325 Name",
+        "source": "Reborn Bas-Relief\t",
+        "translation": "재탄생한 자 부조상"
+      },
+      {
+        "key": "6a91b5d5ca420f299d08e325 ShortName",
+        "source": "Bas-Relief\t",
+        "translation": "부조상"
+      },
+      {
+        "key": "6a91b5d5ca420f299d08e325 Description",
+        "source": "After hundreds of raids, old habits disappear. Otherwise, you won't last long in Tarkov.",
+        "translation": "수백 번의 레이드를 치르다 보면 예전 습관은 사라집니다. 그렇지 않으면 타르코프에서 오래 살아남지 못합니다."
+      },
+      {
+        "key": "6a91b61314210be75a0260db Name",
+        "source": "Ascended Bas-Relief",
+        "translation": "초월자 부조상"
+      },
+      {
+        "key": "6a91b61314210be75a0260db ShortName",
+        "source": "Bas-Relief",
+        "translation": "부조상"
+      },
+      {
+        "key": "6a91b61314210be75a0260db Description",
+        "source": "You've climbed high enough to earn this bas-relief. But there's still plenty about Tarkov you don't know.",
+        "translation": "이 부조상을 받을 만큼 높은 경지에 올랐습니다. 하지만 타르코프에 대해 아직 모르는 것이 많습니다."
+      },
+      {
+        "key": "6a91b64352bb89bd3602742f Name",
+        "source": "Ascended Bas-Relief",
+        "translation": "초월자 부조상"
+      },
+      {
+        "key": "6a91b64352bb89bd3602742f ShortName",
+        "source": "Bas-Relief",
+        "translation": "부조상"
+      },
+      {
+        "key": "6a91b64352bb89bd3602742f Description",
+        "source": "You've climbed high enough to earn this bas-relief. But there's still plenty about Tarkov you don't know.",
+        "translation": "이 부조상을 받을 만큼 높은 경지에 올랐습니다. 하지만 타르코프에 대해 아직 모르는 것이 많습니다."
+      },
+      {
+        "key": "6a675e0706a5419b2508f26c Name",
+        "source": "Wilcox Stubby Para Grip",
+        "translation": "윌콕스 스터비 패러 수직손잡이"
+      },
+      {
+        "key": "6a675e0706a5419b2508f26c ShortName",
+        "source": "Para Grip",
+        "translation": "패러 손잡이"
+      },
+      {
+        "key": "6a675e0706a5419b2508f26c Description",
+        "source": "A folding vertical grip manufactured by Wilcox.",
+        "translation": "윌콕스에서 제작한 접이식 수직손잡이입니다."
+      },
+      {
+        "key": "6a687e38e1ad1bac01015418 Name",
+        "source": "FN P90 Strike Industries SMC-90 Long M-LOK handguard",
+        "translation": "FN P90 Strike Industries SMC-90 긴형 M-LOK 총열덮개"
+      },
+      {
+        "key": "6a687e38e1ad1bac01015418 ShortName",
+        "source": "SMC90 long",
+        "translation": "SMC90 긴형"
+      },
+      {
+        "key": "6a687e38e1ad1bac01015418 Description",
+        "source": "The Strike Industries Long handguard for SMC-90 chassis equipped with an M-LOK interface for installation of additional devices and accessories.",
+        "translation": "Strike Industries에서 제작한 SMC-90 섀시용 긴형 총열덮개로, 추가 장비와 액세서리를 장착할 수 있는 M-LOK 인터페이스를 갖추고 있습니다."
+      },
+      {
+        "key": "6a688026daa5d47171082d6b Name",
+        "source": "FN P90 Strike Industries SMC-90 Short M-LOK handguard",
+        "translation": "FN P90 Strike Industries SMC-90 짧은형 M-LOK 총열덮개"
+      },
+      {
+        "key": "6a688026daa5d47171082d6b ShortName",
+        "source": "SMC90 short",
+        "translation": "SMC90 짧은형"
+      },
+      {
+        "key": "6a688026daa5d47171082d6b Description",
+        "source": "The Strike Industries Short handguard for SMC-90 chassis equipped with an M-LOK interface for installation of additional devices and accessories.",
+        "translation": "Strike Industries에서 제작한 SMC-90 섀시용 짧은형 총열덮개로, 추가 장비와 액세서리를 장착할 수 있는 M-LOK 인터페이스를 갖추고 있습니다."
+      },
+      {
+        "key": "6a6759a5ca1e7d40a007a56f Name",
+        "source": "AR-15 Unique-ARs HEX 12 inch handguard",
+        "translation": "AR-15 Unique-ARs HEX 12인치 총열덮개"
+      },
+      {
+        "key": "6a6759a5ca1e7d40a007a56f ShortName",
+        "source": "HEX 12\"",
+        "translation": "HEX 12인치"
+      },
+      {
+        "key": "6a6759a5ca1e7d40a007a56f Description",
+        "source": "The HEX 12 inch handguard for AR-15 weapon systems. Manufactured by Unique-ARs.",
+        "translation": "Unique-ARs에서 제작한 AR-15 계열 총기용 12인치 HEX 총열덮개입니다."
+      },
+      {
+        "key": "6a6720479d7f57e84800faed Name",
+        "source": "AK Hexagon Cheese Grater mod.1 handguard (Anodized Grey)",
+        "translation": "AK 헥사곤 치즈 그레이터 mod.1 총열덮개 (아노다이징 회색)"
+      },
+      {
+        "key": "6a6720479d7f57e84800faed ShortName",
+        "source": "CG mod.1",
+        "translation": "CG mod.1"
+      },
+      {
+        "key": "6a6720479d7f57e84800faed Description",
+        "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Grey version.",
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 회색 아노다이징 처리 버전입니다."
+      },
+      {
+        "key": "6a671d320578b5a41000c298 Name",
+        "source": "AK Hexagon Cheese Grater mod.1 handguard (Anodized Red)",
+        "translation": "AK 헥사곤 치즈 그레이터 mod.1 총열덮개 (아노다이징 빨간색)"
+      },
+      {
+        "key": "6a671d320578b5a41000c298 ShortName",
+        "source": "CG mod.1",
+        "translation": "CG mod.1"
+      },
+      {
+        "key": "6a671d320578b5a41000c298 Description",
+        "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Red version.",
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 빨간색 아노다이징 처리 버전입니다."
+      },
+      {
+        "key": "6a6720592ff856278106eb3e Name",
+        "source": "AK Hexagon Cheese Grater mod.1 handguard (Anodized Yellow)",
+        "translation": "AK 헥사곤 치즈 그레이터 mod.1 총열덮개 (아노다이징 노란색)"
+      },
+      {
+        "key": "6a6720592ff856278106eb3e ShortName",
+        "source": "CG mod.1",
+        "translation": "CG mod.1"
+      },
+      {
+        "key": "6a6720592ff856278106eb3e Description",
+        "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Yellow version.",
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 노란색 아노다이징 처리 버전입니다."
+      },
+      {
+        "key": "6a6724bddfb2de5e320d451d Name",
+        "source": "AK Hexagon Cheese Grater mod.2 handguard (Anodized Grey)",
+        "translation": "AK 헥사곤 치즈 그레이터 mod.2 총열덮개 (아노다이징 회색)"
+      },
+      {
+        "key": "6a6724bddfb2de5e320d451d ShortName",
+        "source": "CG mod.2",
+        "translation": "CG mod.2"
+      },
+      {
+        "key": "6a6724bddfb2de5e320d451d Description",
+        "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Grey version.",
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 회색 아노다이징 처리 버전입니다."
+      },
+      {
+        "key": "6a67250406a5419b2508f23e Name",
+        "source": "AK Hexagon Cheese Grater mod.2 handguard (Anodized Yellow)",
+        "translation": "AK 헥사곤 치즈 그레이터 mod.2 총열덮개 (아노다이징 노란색)"
+      },
+      {
+        "key": "6a67250406a5419b2508f23e ShortName",
+        "source": "CG mod.2",
+        "translation": "CG mod.2"
+      },
+      {
+        "key": "6a67250406a5419b2508f23e Description",
+        "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Yellow version.",
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 노란색 아노다이징 처리 버전입니다."
+      },
+      {
+        "key": "6a6721edecf09d43410cba5a Name",
+        "source": "AK Hexagon Cheese Grater mod.2 handguard (Anodized Red)",
+        "translation": "AK 헥사곤 치즈 그레이터 mod.2 총열덮개 (아노다이징 빨간색)"
+      },
+      {
+        "key": "6a6721edecf09d43410cba5a ShortName",
+        "source": "CG mod.2",
+        "translation": "CG mod.2"
+      },
+      {
+        "key": "6a6721edecf09d43410cba5a Description",
+        "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Red version.",
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 빨간색 아노다이징 처리 버전입니다."
+      },
+      {
+        "key": "6a56665a3b664c6b2c0d784a Name",
+        "source": "Walker's Razor Slim headset (Woodland)",
+        "translation": "Walker's Razor Slim 헤드셋 (우드랜드)"
+      },
+      {
+        "key": "6a56665a3b664c6b2c0d784a ShortName",
+        "source": "Razor",
+        "translation": "레이저"
+      },
+      {
+        "key": "6a56665a3b664c6b2c0d784a Description",
+        "source": "The Razor electronic ear muffs feature an ultra low-profile design and a rubberized coating for added durability and comfort, also providing optimal hearing protection. Manufactured by Walker's. Woodland camouflage version.",
+        "translation": "Razor 전자식 귀마개는 초저프로파일 설계와 고무 코팅을 적용해 내구성과 착용감을 높였으며, 최적의 청력 보호 성능도 제공합니다. Walker's에서 제작했습니다. 우드랜드 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a5615d8a166c11ce900e1a6 Name",
+        "source": "Safariland Liberator HP 2.0 Hearing Protection Headset (Desert Tiger Stripe)",
+        "translation": "사파리랜드 리버레이터 HP 2.0 청력 보호 헤드셋 (데저트 타이거 스트라이프)"
+      },
+      {
+        "key": "6a5615d8a166c11ce900e1a6 ShortName",
+        "source": "Liberator",
+        "translation": "Liberator"
+      },
+      {
+        "key": "6a5615d8a166c11ce900e1a6 Description",
+        "source": "A next generation low-profile active headset, designed to protect the user's hearing from external factors. Manufactured by Safariland. Desert Tiger Stripe version.",
+        "translation": "사용자의 청력을 외부 요인으로부터 보호하도록 설계된 차세대 로우 프로필 액티브 헤드셋입니다. 사파리랜드에서 제작했습니다. 데저트 타이거 스트라이프 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a566628d1d0c640e6034ebb Name",
+        "source": "Walker's Razor Slim headset (Carbon Fiber)",
+        "translation": "Walker's Razor Slim 헤드셋 (카본 파이버)"
+      },
+      {
+        "key": "6a566628d1d0c640e6034ebb ShortName",
+        "source": "Razor",
+        "translation": "레이저"
+      },
+      {
+        "key": "6a566628d1d0c640e6034ebb Description",
+        "source": "The Razor electronic ear muffs feature an ultra low-profile design and a rubberized coating for added durability and comfort, also providing optimal hearing protection. Manufactured by Walker's. The carbon fiber is a fake print, by the way.",
+        "translation": "Razor 전자식 귀마개는 초저프로파일 설계와 고무 코팅을 적용해 내구성과 착용감을 높였으며, 최적의 청력 보호 성능도 제공합니다. Walker's에서 제작했습니다. 참고로 탄소섬유 무늬는 실제 탄소섬유가 아니라 인쇄된 모조 무늬입니다."
+      },
+      {
+        "key": "6a8462325494d3719f000824 Name",
+        "source": "DevTac Ronin ballistic helmet (Olive)",
+        "translation": "DevTac Ronin 방탄 헬멧 (올리브색)"
+      },
+      {
+        "key": "6a8462325494d3719f000824 ShortName",
+        "source": "Ronin",
+        "translation": "Ronin"
+      },
+      {
+        "key": "6a8462325494d3719f000824 Description",
+        "source": "A Japan-styled tactical helmet, manufactured by DevTac. Not used by any military or special forces. Just somehow happened to be in Tarkov for some frivolous price. Features a full protection of the whole head, but the armor class is not good enough to actually be useful in combat. Olive version.",
+        "translation": "일본풍의 DevTac 전술 헬멧입니다. 군대나 특수부대에서는 사용하지 않지만, 어째서인지 타르코프에 터무니없는 가격으로 흘러들어 왔습니다. 머리 전체를 보호하지만, 방호 등급이 실제 전투에서 유용할 만큼 높지는 않습니다. 올리브색 버전입니다."
+      },
+      {
+        "key": "6a84620eb9a884488e00094c Name",
+        "source": "DevTac Ronin ballistic helmet (Raptor)",
+        "translation": "DevTac Ronin 방탄 헬멧 (Raptor)"
+      },
+      {
+        "key": "6a84620eb9a884488e00094c ShortName",
+        "source": "Ronin",
+        "translation": "Ronin"
+      },
+      {
+        "key": "6a84620eb9a884488e00094c Description",
+        "source": "A Japan-styled tactical helmet, manufactured by DevTac. Not used by any military or special forces. Just somehow happened to be in Tarkov for some frivolous price. Features a full protection of the whole head, but the armor class is not good enough to actually be useful in combat. Raptor pattern version.",
+        "translation": "일본풍의 DevTac 전술 헬멧입니다. 군대나 특수부대에서는 사용하지 않지만, 어째서인지 타르코프에 터무니없는 가격으로 흘러들어 왔습니다. 머리 전체를 보호하지만, 방호 등급이 실제 전투에서 유용할 만큼 높지는 않습니다. Raptor 무늬 버전입니다."
+      },
+      {
+        "key": "6a846223460e01329005b720 Name",
+        "source": "DevTac Ronin ballistic helmet (Prototype)",
+        "translation": "DevTac Ronin 방탄 헬멧 (프로토타입)"
+      },
+      {
+        "key": "6a846223460e01329005b720 ShortName",
+        "source": "Ronin",
+        "translation": "Ronin"
+      },
+      {
+        "key": "6a846223460e01329005b720 Description",
+        "source": "A Japan-styled tactical helmet, manufactured by DevTac. Not used by any military or special forces. Just somehow happened to be in Tarkov for some frivolous price. Features a full protection of the whole head, but the armor class is not good enough to actually be useful in combat. A prototype version used for bullet penetration testing.",
+        "translation": "일본풍의 DevTac 전술 헬멧입니다. 군대나 특수부대에서는 사용하지 않지만, 어째서인지 타르코프에 터무니없는 가격으로 흘러들어 왔습니다. 머리 전체를 보호하지만, 방호 등급이 실제 전투에서 유용할 만큼 높지는 않습니다. 탄환 관통 시험에 사용한 시제품 버전입니다."
+      },
+      {
+        "key": "6a84624507f6c3032e00c65d Name",
+        "source": "DevTac Ronin ballistic helmet (Olive Drab)",
+        "translation": "DevTac Ronin 방탄 헬멧 (올리브 드랩)"
+      },
+      {
+        "key": "6a84624507f6c3032e00c65d ShortName",
+        "source": "Ronin",
+        "translation": "Ronin"
+      },
+      {
+        "key": "6a84624507f6c3032e00c65d Description",
+        "source": "A Japan-styled tactical helmet, manufactured by DevTac. Not used by any military or special forces. Just somehow happened to be in Tarkov for some frivolous price. Features a full protection of the whole head, but the armor class is not good enough to actually be useful in combat. Olive Drab version.",
+        "translation": "일본풍의 DevTac 전술 헬멧입니다. 군대나 특수부대에서는 사용하지 않지만, 어째서인지 타르코프에 터무니없는 가격으로 흘러들어 왔습니다. 머리 전체를 보호하지만, 방호 등급이 실제 전투에서 유용할 만큼 높지는 않습니다. 올리브 드랩 버전입니다."
+      },
+      {
+        "key": "6a8316cb0ccd0eb28d02f264 Name",
+        "source": "Baseball cap (MultiCam)",
+        "translation": "야구모자 (멀티캠)"
+      },
+      {
+        "key": "6a8316cb0ccd0eb28d02f264 ShortName",
+        "source": "Cap",
+        "translation": "모자"
+      },
+      {
+        "key": "6a8316cb0ccd0eb28d02f264 Description",
+        "source": "A baseball cap in a MultiCam camouflage, worn strictly backwards. Once worn by a certain Obi-Blonde-Kenobi.",
+        "translation": "멀티캠 위장무늬가 적용된 야구모자입니다. 챙을 반드시 뒤로 돌려서 써야 합니다. 한때 어떤 Obi-Blonde-Kenobi가 쓰던 모자입니다."
+      },
+      {
+        "key": "6a8316e7608278aaac018b5b Name",
+        "source": "Baseball cap (Trauma)",
+        "translation": "야구모자 (Trauma)"
+      },
+      {
+        "key": "6a8316e7608278aaac018b5b ShortName",
+        "source": "Trauma",
+        "translation": "Trauma"
+      },
+      {
+        "key": "6a8316e7608278aaac018b5b Description",
+        "source": "A very stylish cap that shows its wearer can take any amount of lead-related hardship in stride. To be worn strictly backwards.",
+        "translation": "아주 멋스러운 모자로, 착용자가 어떤 총알 세례도 태연하게 견뎌 낼 수 있다는 것을 보여 줍니다. 챙을 반드시 뒤로 돌려서 써야 합니다."
+      },
+      {
+        "key": "6a622ebeace4474db90fc85c Name",
+        "source": "Baseball cap (Zaebtsa Woodland)",
+        "translation": "야구모자 (Zaebtsa Woodland)"
+      },
+      {
+        "key": "6a622ebeace4474db90fc85c ShortName",
+        "source": "Zaebtsa",
+        "translation": "Zaebtsa"
+      },
+      {
+        "key": "6a622ebeace4474db90fc85c Description",
+        "source": "A baseball cap in a Woodland camouflage. For those who always wanna look \"supreme\".",
+        "translation": "우드랜드 위장무늬가 적용된 야구모자입니다. 언제나 최고처럼 보이고 싶은 사람을 위한 물건입니다."
+      },
+      {
+        "key": "6a622f797a1ca14e57077819 Name",
+        "source": "Baseball cap (Zaebtsa Red Tiger Stripe)",
+        "translation": "야구모자 (Zaebtsa Red Tiger Stripe)"
+      },
+      {
+        "key": "6a622f797a1ca14e57077819 ShortName",
+        "source": "Zaebtsa",
+        "translation": "Zaebtsa"
+      },
+      {
+        "key": "6a622f797a1ca14e57077819 Description",
+        "source": "A baseball cap in a red Tiger Stripe camouflage. For those who always wanna look \"supreme\".",
+        "translation": "빨간색 타이거 스트라이프 위장무늬가 적용된 야구모자입니다. 언제나 최고처럼 보이고 싶은 사람을 위한 물건입니다."
+      },
+      {
+        "key": "6a568340263768e2ae0c9696 Name",
+        "source": "Atlant Armour Titan Aramid helmet (EMR)",
+        "translation": "Atlant Armour Titan Aramid 헬멧 (EMR)"
+      },
+      {
+        "key": "6a568340263768e2ae0c9696 ShortName",
+        "source": "Titan Aramid",
+        "translation": "Titan Aramid"
+      },
+      {
+        "key": "6a568340263768e2ae0c9696 Description",
+        "source": "The Titan Aramid ballistic helmet in the form factor copying the Crye Precision AirFrame helmet. Made entirely of aramid, providing an optimal balance between protection and mobility. Equipped with accessory rails and a mount for additional devices. Manufactured by Atlant Armour. EMR camouflage version.",
+        "translation": "Crye Precision AirFrame 헬멧 형상을 본뜬 Titan Aramid 방탄 헬멧입니다. 전부 아라미드 소재로 제작되어 보호력과 기동성 사이의 최적 균형을 제공합니다. 액세서리 레일과 추가 장비용 마운트가 장착되어 있으며, Atlant Armour에서 제작했습니다. EMR 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a567ae55cbe811cbe0136a8 Name",
+        "source": "Crye Precision AirFrame helmet (Botched)",
+        "translation": "크라이 프리시전 에어프레임 헬멧 (도색 실패)"
+      },
+      {
+        "key": "6a567ae55cbe811cbe0136a8 ShortName",
+        "source": "AirFrame",
+        "translation": "에어프레임"
+      },
+      {
+        "key": "6a567ae55cbe811cbe0136a8 Description",
+        "source": "The AirFrame ballistic helmet sets the standards in protection, comfort, and modularity. The unique overlapping shell design of the AirFrame creates an integrated vent that provides passive cooling and can reduce the damaging effects of explosive blast waves. Highly modular. Manufactured by Crye Precision. One of the Arena fighters tried painting this helmet in a MultiCam Black pattern, but that didn't really go as planned.",
+        "translation": "에어프레임 방탄 헬멧은 보호력, 착용감, 모듈성의 기준을 제시합니다. 독특한 겹침식 외피 설계는 수동 냉각을 제공하는 통합 통풍구를 형성하며, 폭발 충격파의 유해한 영향을 줄일 수 있습니다. 높은 모듈성을 갖춘 Crye Precision 제품입니다. 아레나 선수 중 한 명이 이 헬멧을 멀티캠 블랙 무늬로 도색하려 했지만, 결과는 계획대로 나오지 않았습니다."
+      },
+      {
+        "key": "6a8339b9512ae66ef40af89b Name",
+        "source": "Diamond Age NovaSteel helmet (Custos Mortis)",
+        "translation": "다이아몬드 에이지 NovaSteel 헬멧 (Custos Mortis)"
+      },
+      {
+        "key": "6a8339b9512ae66ef40af89b ShortName",
+        "source": "NovaSteel",
+        "translation": "NovaSteel"
+      },
+      {
+        "key": "6a8339b9512ae66ef40af89b Description",
+        "source": "The Diamond Age NovaSteel is an evolution of the NeoSteel helmet, featuring upgraded hardware made from reinforced fiberglass and a wider range of available accessories. Decorated by a veteran of the cleanup crew, with countless gladiators who crossed Ref on his kill list.",
+        "translation": "다이아몬드 에이지 NovaSteel은 NeoSteel 헬멧을 발전시킨 제품으로, 강화 유리섬유로 제작한 개량 부품과 더 폭넓은 액세서리 선택지를 갖추고 있습니다. 레프에게 대항했던 수많은 검투사를 자신의 처치 명단에 올린 청소반 베테랑이 장식한 버전입니다."
+      },
+      {
+        "key": "6a568dda1d89fcfb35010389 Name",
+        "source": "MTEK STRIKE Ballistic helmet (Carbon Fiber)",
+        "translation": "MTEK STRIKE 방탄 헬멧 (카본 파이버)"
+      },
+      {
+        "key": "6a568dda1d89fcfb35010389 ShortName",
+        "source": "STRIKE",
+        "translation": "STRIKE"
+      },
+      {
+        "key": "6a568dda1d89fcfb35010389 Description",
+        "source": "A lightweight ergonomic helmet manufactured by MTEK. Comes with a set of stickers imitating a carbon fiber look.",
+        "translation": "MTEK에서 제작한 가볍고 인체공학적인 헬멧입니다. 탄소섬유처럼 보이도록 만든 스티커 세트가 부착되어 있습니다."
+      },
+      {
+        "key": "6a670ae11ab6ac490a0b9a99 Name",
+        "source": "DevTac Ronin Respirator (LABS Security)",
+        "translation": "DevTac Ronin 방독면 (랩스 보안팀)"
+      },
+      {
+        "key": "6a670ae11ab6ac490a0b9a99 ShortName",
+        "source": "Ronin Respirator",
+        "translation": "Ronin 방독면"
+      },
+      {
+        "key": "6a670ae11ab6ac490a0b9a99 Description",
+        "source": "A Japan-styled tactical helmet, manufactured by DevTac. Not used by any military or special forces. Apparently, TerraGroup imported it to Tarkov specifically for lab security personnel working around hazardous chemicals. Unfortunately, it offered little practical protection, and the remaining stock was eventually sold off for next to nothing.",
+        "translation": "DevTac에서 제작한 일본풍 전술 헬멧입니다. 군대나 특수부대에서는 사용하지 않습니다. 테라그룹이 유해 화학물질 주변에서 근무하는 연구소 보안 요원들을 위해 타르코프로 특별히 들여온 것으로 보입니다. 하지만 실제 방호 성능은 미흡했고, 남은 재고는 결국 거의 헐값에 처분되었습니다."
+      },
+      {
+        "key": "6a82d9800e3db08b8b0af0eb Name",
+        "source": "Altyn assault helmet (Impact Tested)",
+        "translation": "알틴 돌격 헬멧 (충격 시험품)"
+      },
+      {
+        "key": "6a82d9800e3db08b8b0af0eb ShortName",
+        "source": "Altyn",
+        "translation": "알틴"
+      },
+      {
+        "key": "6a82d9800e3db08b8b0af0eb Description",
+        "source": "One of the most iconic ballistic helmets in the world, the Altyn has repeatedly proven itself in combat and remains in service with various organizations to this day. This particular helmet underwent extensive testing at a proving ground before faithfully serving one of the Arena fighters. It never let him down: poor training was his downfall, while the helmet is still ready to take a hit.",
+        "translation": "세계적으로 가장 상징적인 방탄 헬멧 중 하나인 알틴은 전투에서 거듭 성능을 입증했으며, 지금도 여러 조직에서 사용되고 있습니다. 이 헬멧은 시험장에서 광범위한 시험을 거친 뒤 아레나 전투원 한 명을 충실히 보호했습니다. 헬멧은 그를 실망시키지 않았습니다. 그가 쓰러진 것은 훈련 부족 때문이었으며, 헬멧은 여전히 총탄을 막을 준비가 되어 있습니다."
+      },
+      {
+        "key": "6a83392e992762b7bf08ffb8 Name",
+        "source": "Diamond Age NovaSteel helmet (Olive Drab)",
+        "translation": "다이아몬드 에이지 NovaSteel 헬멧 (올리브 드랩)"
+      },
+      {
+        "key": "6a83392e992762b7bf08ffb8 ShortName",
+        "source": "NovaSteel",
+        "translation": "NovaSteel"
+      },
+      {
+        "key": "6a83392e992762b7bf08ffb8 Description",
+        "source": "The Diamond Age NovaSteel is an evolution of the NeoSteel helmet, featuring upgraded hardware made from reinforced fiberglass and a wider range of available accessories. Olive Drab version.",
+        "translation": "다이아몬드 에이지 NovaSteel은 NeoSteel 헬멧을 발전시킨 제품으로, 강화 유리섬유로 제작한 개량 부품과 더 폭넓은 액세서리 선택지를 갖추고 있습니다. 올리브 드랩 버전입니다."
+      },
+      {
+        "key": "6a8339d551cfbe231b091a24 Name",
+        "source": "Diamond Age NovaSteel helmet (Toxin)",
+        "translation": "다이아몬드 에이지 NovaSteel 헬멧 (Toxin)"
+      },
+      {
+        "key": "6a8339d551cfbe231b091a24 ShortName",
+        "source": "NovaSteel",
+        "translation": "NovaSteel"
+      },
+      {
+        "key": "6a8339d551cfbe231b091a24 Description",
+        "source": "The Diamond Age NovaSteel is an evolution of the NeoSteel helmet, featuring upgraded hardware made from reinforced fiberglass and a wider range of available accessories. The pattern on the helmet resembles the iconic poisonous gas seen in games and movies.",
+        "translation": "다이아몬드 에이지 NovaSteel은 NeoSteel 헬멧을 발전시킨 제품으로, 강화 유리섬유로 제작한 개량 부품과 더 폭넓은 액세서리 선택지를 갖추고 있습니다. 헬멧의 무늬는 게임과 영화에 등장하는 상징적인 독가스를 연상시킵니다."
+      },
+      {
+        "key": "6a68a56b0c3b4e47d502bede Name",
+        "source": "FN P90 CMMG 5.56x45 muzzle device adapter",
+        "translation": "FN P90 CMMG 5.56x45 총구 장치 어댑터"
+      },
+      {
+        "key": "6a68a56b0c3b4e47d502bede ShortName",
+        "source": "P90 5.56",
+        "translation": "P90 5.56"
+      },
+      {
+        "key": "6a68a56b0c3b4e47d502bede Description",
+        "source": "The CMMG adapter allows to install different AR-15 specific muzzle devices on the FN P90 submachine gun.",
+        "translation": "CMMG 어댑터를 사용하면 FN P90 기관단총에 다양한 AR-15 전용 총구 장치를 장착할 수 있습니다."
+      },
+      {
+        "key": "6a843f89e0ad22393c004188 Name",
+        "source": "Morbus crate",
+        "translation": "Morbus 상자"
+      },
+      {
+        "key": "6a843f89e0ad22393c004188 ShortName",
+        "source": "Morbus",
+        "translation": "Morbus"
+      },
+      {
+        "key": "6a843f89e0ad22393c004188 Description",
+        "source": "A trophy for participating in BattlePass Season 3 \"Morbus Imperium\". Rumor has it that it was put together personally by one of the Arena Champions, known as Scourge. Can only be opened in Arena.",
+        "translation": "배틀패스 시즌 3 「Morbus Imperium」 참가 기념품입니다. 소문에 따르면 스커지라는 이름으로 알려진 아레나 챔피언 중 한 명이 직접 조립했다고 합니다. 아레나에서만 열 수 있습니다."
+      },
+      {
+        "key": "6a843f6224d911fccb0d45ca Name",
+        "source": "Panacea crate",
+        "translation": "Panacea 상자"
+      },
+      {
+        "key": "6a843f6224d911fccb0d45ca ShortName",
+        "source": "Panacea",
+        "translation": "Panacea"
+      },
+      {
+        "key": "6a843f6224d911fccb0d45ca Description",
+        "source": "A trophy for participating in BattlePass Season 3 \"Morbus Imperium\". Rumor has it that it was put together personally by one of the Arena Champions, known as Scourge. Can only be opened in Arena.",
+        "translation": "배틀패스 시즌 3 「Morbus Imperium」 참가 기념품입니다. 소문에 따르면 스커지라는 이름으로 알려진 아레나 챔피언 중 한 명이 직접 조립했다고 합니다. 아레나에서만 열 수 있습니다."
+      },
+      {
+        "key": "6a78b7f8c2016eb33e0027cd Name",
+        "source": "FN P90 5.7x28 submachine gun (Scourge)",
+        "translation": "FN P90 5.7x28 기관단총 (스커지)"
+      },
+      {
+        "key": "6a78b7f8c2016eb33e0027cd ShortName",
+        "source": "P90 Scourge",
+        "translation": "P90 Scourge"
+      },
+      {
+        "key": "6a78b7f8c2016eb33e0027cd Description",
+        "source": "FN P90, also known as the FN Project 1990, is a compact personal defense weapon (PDW) designed and manufactured by FN Herstal in Belgium. Created in response to NATO requests for a replacement for 9x19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups. This particular weapon was customized and tuned to the specifications of Liam \"Scourge\", one of the Arena Champions, during his time with USEC.",
+        "translation": "FN 프로젝트 1990이라고도 하는 FN P90은 벨기에의 FN Herstal이 설계·제조한 소형 개인방어화기(PDW)입니다. 9x19mm 파라벨럼 화기를 대체할 무기를 요구한 NATO의 요청에 대응해 개발됐으며, 차량 승무원, 공용화기 운용 인원, 지원 인력, 특수부대 및 대테러 부대 등을 위한 작지만 강력한 화기로 설계되었습니다. 이 총은 아레나 챔피언 중 한 명인 리암 「스커지」가 USEC에서 복무하던 시절 그의 요구 사양에 맞게 개조하고 조정한 제품입니다."
+      },
+      {
+        "key": "6a6877f566f77e6757083db5 Name",
+        "source": "FN P90 Strike Industries SMC-90 buttstock",
+        "translation": "FN P90 Strike Industries SMC-90 개머리판"
+      },
+      {
+        "key": "6a6877f566f77e6757083db5 ShortName",
+        "source": "SMC-90",
+        "translation": "SMC-90"
+      },
+      {
+        "key": "6a6877f566f77e6757083db5 Description",
+        "source": "An ergonomic buttstock from the Strike Industries SMC-90 chassis kit for the FN P90 submachine gun.",
+        "translation": "FN P90 기관단총용 Strike Industries SMC-90 섀시 키트에 포함된 인체공학적 개머리판입니다."
+      },
+      {
+        "key": "6a69d239d038171e800696b0 Name",
+        "source": "FN P90 Strike Industries SMC-90 cheek rest",
+        "translation": "FN P90 Strike Industries SMC-90 개머리판 볼받침"
+      },
+      {
+        "key": "6a69d239d038171e800696b0 ShortName",
+        "source": "SMC90",
+        "translation": "SMC90"
+      },
+      {
+        "key": "6a69d239d038171e800696b0 Description",
+        "source": "A buttstock cheek rest from the SMC-90 chassis for FN P90 submachine gun. Manufactured by Strike Industries.",
+        "translation": "Strike Industries에서 제작한 FN P90 기관단총용 SMC-90 섀시의 개머리판 볼받침입니다."
+      },
+      {
+        "key": "6a7c85022369e59dd307130c Name",
+        "source": "Haley Strategic D3CRX Chest Harness (MultiCam)",
+        "translation": "헤일리 스트래티직 D3CRX 체스트 하니스 (멀티캠)"
+      },
+      {
+        "key": "6a7c85022369e59dd307130c ShortName",
+        "source": "D3CRX",
+        "translation": "D3CRX"
+      },
+      {
+        "key": "6a7c85022369e59dd307130c Description",
+        "source": "The Haley Strategic D3CRX chest rig is one of the most highly regarded load-bearing systems among PMC operators. Its lightweight, straightforward design is complemented by an optimal setup of pouches. This version comes in MultiCam and is additionally equipped with a pull-out med pouch.",
+        "translation": "헤일리 스트래티직 D3CRX 체스트 리그는 PMC 대원들에게 가장 높은 평가를 받는 장비 중 하나입니다. 가볍고 단순한 설계에 최적의 파우치 구성을 더했습니다. 멀티캠 위장무늬 버전이며, 꺼내 쓸 수 있는 의료용 파우치가 추가로 장착되어 있습니다."
+      },
+      {
+        "key": "6a576f2105af50743903b74c Name",
+        "source": "ANA Tactical M1 plate carrier (EMR)",
+        "translation": "ANA 택티컬 M1 플레이트 캐리어 (EMR)"
+      },
+      {
+        "key": "6a576f2105af50743903b74c ShortName",
+        "source": "ANA M1",
+        "translation": "ANA M1"
+      },
+      {
+        "key": "6a576f2105af50743903b74c Description",
+        "source": "The M1 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out city tasks and when performing tasks on rough terrain. Equipped with additional pouches. Manufactured by ANA Tactical. EMR camouflage version.",
+        "translation": "러시아 특수부대 대원들의 풍부한 경험을 바탕으로 제작한 M1 조끼입니다. 다목적 설계로 시가지 작전과 험지에서의 임무 모두에 사용할 수 있습니다. 추가 파우치가 장착되어 있으며, ANA 택티컬에서 제작했습니다. EMR 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a7c84c2bcddc78fbd0f04b6 Name",
+        "source": "Haley Strategic D3CRX Chest Harness (Coyote Brown)",
+        "translation": "헤일리 스트래티직 D3CRX 체스트 하니스 (코요테 브라운)"
+      },
+      {
+        "key": "6a7c84c2bcddc78fbd0f04b6 ShortName",
+        "source": "D3CRX",
+        "translation": "D3CRX"
+      },
+      {
+        "key": "6a7c84c2bcddc78fbd0f04b6 Description",
+        "source": "The Haley Strategic D3CRX chest rig is one of the most highly regarded load-bearing systems among PMC operators. Its lightweight, straightforward design is complemented by an optimal setup of pouches. This version comes in Coyote Brown and is additionally equipped with a pull-out med pouch.",
+        "translation": "헤일리 스트래티직 D3CRX 체스트 리그는 PMC 대원들에게 가장 높은 평가를 받는 장비 중 하나입니다. 가볍고 단순한 설계에 최적의 파우치 구성을 더했습니다. 코요테 브라운 버전이며, 꺼내 쓸 수 있는 의료용 파우치가 추가로 장착되어 있습니다."
+      },
+      {
+        "key": "6a7c8432f5f1ecf7b1033aee Name",
+        "source": "Blue Force Gear PLATEminus V2 Plate Carrier (Scourge)",
+        "translation": "블루 포스 기어 PLATEminus V2 플레이트 캐리어 (스커지)"
+      },
+      {
+        "key": "6a7c8432f5f1ecf7b1033aee ShortName",
+        "source": "PLATEminus V2",
+        "translation": "PLATEminus V2"
+      },
+      {
+        "key": "6a7c8432f5f1ecf7b1033aee Description",
+        "source": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. This version is an exact replica of the plate carrier worn by the mysterious Arena champion known as Scourge.",
+        "translation": "블루 포스 기어의 2세대 플레이트 캐리어로, SAPI/ESAPI 규격 방탄판을 수납하도록 설계되었습니다. 적외선 피탐지 특성을 낮춘 내수성 소재로 제작되었습니다. 신속 해제 버클을 통해 위급 상황에서 캐리어를 즉시 벗을 수 있습니다. 보강된 구조로 다양한 전투 상황에서 안정적인 보호 성능을 제공합니다. 이 버전은 스커지로 알려진 정체불명의 아레나 챔피언이 착용했던 플레이트 캐리어를 똑같이 재현한 제품입니다."
+      },
+      {
+        "key": "6a562a1f4281184d32097600 Name",
+        "source": "ANA Tactical M2 plate carrier (A-TACS AU-X)",
+        "translation": "ANA 택티컬 M2 플레이트 캐리어 (A-TACS AU-X)"
+      },
+      {
+        "key": "6a562a1f4281184d32097600 ShortName",
+        "source": "ANA M2",
+        "translation": "ANA M2"
+      },
+      {
+        "key": "6a562a1f4281184d32097600 Description",
+        "source": "The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Manufactured by ANA Tactical. A-TACS AU-X camouflage version.",
+        "translation": "러시아 특수부대 대원들의 풍부한 경험을 바탕으로 제작한 M2 조끼입니다. 다목적 설계로 시가지 작전과 험지에서의 임무 모두에 사용할 수 있습니다. ANA 택티컬에서 제작했습니다. A-TACS AU-X 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a7c855ba20fcf832f01ff78 Name",
+        "source": "Stich Profi Stich Defense mod.2 plate carrier (A-TACS FG)",
+        "translation": "Stich Profi Stich Defense mod.2 플레이트 캐리어 (A-TACS FG)"
+      },
+      {
+        "key": "6a7c855ba20fcf832f01ff78 ShortName",
+        "source": "SD mod.2",
+        "translation": "SD mod.2"
+      },
+      {
+        "key": "6a7c855ba20fcf832f01ff78 Description",
+        "source": "A plate carrier designed for Granit and SAPI plates, made of heavy-duty materials with IR remission. Equipped with ROC buckles for quick donning and doffing. The inner sides are made of soft fabric and equipped with vent pads for increased comfort. Manufactured by Stich Profi. A-TACS FG camouflage version.",
+        "translation": "Granit 및 SAPI 방탄판을 장착할 수 있도록 설계한 플레이트 캐리어로, 적외선 반사를 줄이는 고강도 소재를 사용했습니다. ROC 버클로 빠르게 착용하거나 벗을 수 있습니다. 안쪽에는 부드러운 천과 통풍 패드가 적용되어 착용감을 높였습니다. Stich Profi에서 제작했습니다. A-TACS FG 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a7b45c3400bf8420f0e06fe Name",
+        "source": "Blue Force Gear PLATEminus V2 Plate Carrier (Wolf Gray)",
+        "translation": "블루 포스 기어 PLATEminus V2 플레이트 캐리어 (울프 그레이)"
+      },
+      {
+        "key": "6a7b45c3400bf8420f0e06fe ShortName",
+        "source": "PLATEminus V2",
+        "translation": "PLATEminus V2"
+      },
+      {
+        "key": "6a7b45c3400bf8420f0e06fe Description",
+        "source": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup.",
+        "translation": "블루 포스 기어의 2세대 플레이트 캐리어로, SAPI/ESAPI 규격 방탄판을 수납하도록 설계되었습니다. 적외선 피탐지 특성을 낮춘 내수성 소재로 제작되었습니다. 신속 해제 버클을 통해 위급 상황에서 캐리어를 즉시 벗을 수 있습니다. 보강된 구조로 다양한 전투 상황에서 안정적인 보호 성능을 제공합니다. 울프 그레이 색상이며 일반적인 플레이트 캐리어 구성을 갖추고 있습니다."
+      },
+      {
+        "key": "6a7c84862369e59dd30712f6 Name",
+        "source": "Blue Force Gear PLATEminus V2 Plate Carrier (MultiCam)",
+        "translation": "블루 포스 기어 PLATEminus V2 플레이트 캐리어 (멀티캠)"
+      },
+      {
+        "key": "6a7c84862369e59dd30712f6 ShortName",
+        "source": "PLATEminus V2",
+        "translation": "PLATEminus V2"
+      },
+      {
+        "key": "6a7c84862369e59dd30712f6 Description",
+        "source": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a MultiCam camouflage with a traditional plate carrier setup.",
+        "translation": "블루 포스 기어의 2세대 플레이트 캐리어로, SAPI/ESAPI 규격 방탄판을 수납하도록 설계되었습니다. 적외선 피탐지 특성을 낮춘 내수성 소재로 제작되었습니다. 신속 해제 버클을 통해 위급 상황에서 캐리어를 즉시 벗을 수 있습니다. 보강된 구조로 다양한 전투 상황에서 안정적인 보호 성능을 제공합니다. 멀티캠 위장무늬이며 일반적인 플레이트 캐리어 구성을 갖추고 있습니다."
+      },
+      {
+        "key": "6a7c8531bcddc78fbd0f04c1 Name",
+        "source": "Stich Profi Stich Defense mod.2 plate carrier (Cleanup Crew)",
+        "translation": "Stich Profi Stich Defense mod.2 플레이트 캐리어 (청소조)"
+      },
+      {
+        "key": "6a7c8531bcddc78fbd0f04c1 ShortName",
+        "source": "SD mod.2",
+        "translation": "SD mod.2"
+      },
+      {
+        "key": "6a7c8531bcddc78fbd0f04c1 Description",
+        "source": "A plate carrier designed for Granit and SAPI plates, made of heavy-duty materials with IR remission. Equipped with ROC buckles for quick donning and doffing. The inner sides are made of soft fabric and equipped with vent pads for increased comfort. Manufactured by Stich Profi. Custom version for the cleanup crew.",
+        "translation": "Granit 및 SAPI 방탄판을 장착할 수 있도록 설계한 플레이트 캐리어로, 적외선 반사를 줄이는 고강도 소재를 사용했습니다. ROC 버클로 빠르게 착용하거나 벗을 수 있습니다. 안쪽에는 부드러운 천과 통풍 패드가 적용되어 착용감을 높였습니다. Stich Profi에서 제작했습니다. 청소조 전용 커스텀 버전입니다."
+      },
+      {
+        "key": "6a7b44d6609e0bad000de84d Name",
+        "source": "Blue Force Gear Ten-Speed SF Chest Rig (Ranger Green)",
+        "translation": "블루 포스 기어 Ten-Speed SF 체스트 리그 (레인저 그린)"
+      },
+      {
+        "key": "6a7b44d6609e0bad000de84d ShortName",
+        "source": "Ten-Speed SF",
+        "translation": "Ten-Speed SF"
+      },
+      {
+        "key": "6a7b44d6609e0bad000de84d Description",
+        "source": "A Blue Force Gear load-bearing chest rig setup designed for reconnaissance missions. The zipper allows the vest to be opened for greater comfort during extended periods spent lying prone. Features a MOLLEminus interface for attaching additional pouches, and this vest comes with plenty of them. Ranger Green version.",
+        "translation": "정찰 임무용으로 설계한 블루 포스 기어의 체스트 리그입니다. 지퍼를 열어 조끼를 펼칠 수 있어 오랜 시간 엎드린 자세를 유지할 때 더 편안합니다. 추가 파우치를 부착할 수 있는 MOLLEminus 인터페이스를 갖췄으며, 파우치도 여러 개 기본 장착되어 있습니다. 레인저 그린 버전입니다."
+      },
+      {
+        "key": "6a565aede592c037e10a3c16 Name",
+        "source": "Direct Action Thunderbolt compact chest rig (Marauder)",
+        "translation": "다이렉트 액션 썬더볼트 컴팩트 전술 조끼 (머로더)"
+      },
+      {
+        "key": "6a565aede592c037e10a3c16 ShortName",
+        "source": "Thunderbolt",
+        "translation": "Thunderbolt"
+      },
+      {
+        "key": "6a565aede592c037e10a3c16 Description",
+        "source": "The Thunderbolt fixed chest rig, containing all the basic utility pouches you'd need. Manufactured by Direct Action. A custom version in PenCott BadLands camouflage customized by one of the Arena fighters.",
+        "translation": "기본적으로 필요한 다용도 파우치를 모두 갖춘 썬더볼트 고정형 체스트 리그입니다. 다이렉트 액션에서 제작했습니다. 아레나 전투원 한 명이 PenCott BadLands 위장무늬를 적용해 개조한 버전입니다."
+      },
+      {
+        "key": "6a565b5f9ec10bc6e30cdf46 Name",
+        "source": "Direct Action Thunderbolt compact chest rig (PenCott WildWood)",
+        "translation": "다이렉트 액션 썬더볼트 컴팩트 전술 조끼 (PenCott WildWood)"
+      },
+      {
+        "key": "6a565b5f9ec10bc6e30cdf46 ShortName",
+        "source": "Thunderbolt",
+        "translation": "Thunderbolt"
+      },
+      {
+        "key": "6a565b5f9ec10bc6e30cdf46 Description",
+        "source": "The Thunderbolt fixed chest rig, containing all the basic utility pouches you'd need. Manufactured by Direct Action. PenCott WildWood camouflage version.",
+        "translation": "기본적으로 필요한 다용도 파우치를 모두 갖춘 썬더볼트 고정형 체스트 리그입니다. 다이렉트 액션에서 제작했습니다. PenCott WildWood 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a7c845c1fa6226c17096359 Name",
+        "source": "Blue Force Gear PLATEminus V2 Plate Carrier (Coyote Brown)",
+        "translation": "블루 포스 기어 PLATEminus V2 플레이트 캐리어 (코요테 브라운)"
+      },
+      {
+        "key": "6a7c845c1fa6226c17096359 ShortName",
+        "source": "PLATEminus V2",
+        "translation": "PLATEminus V2"
+      },
+      {
+        "key": "6a7c845c1fa6226c17096359 Description",
+        "source": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup.",
+        "translation": "블루 포스 기어의 2세대 플레이트 캐리어로, SAPI/ESAPI 규격 방탄판을 수납하도록 설계되었습니다. 적외선 피탐지 특성을 낮춘 내수성 소재로 제작되었습니다. 신속 해제 버클을 통해 위급 상황에서 캐리어를 즉시 벗을 수 있습니다. 보강된 구조로 다양한 전투 상황에서 안정적인 보호 성능을 제공합니다. 코요테 브라운 색상이며, 파우치 구성이 다소 독특합니다."
+      },
+      {
+        "key": "6a5629dfbd83cb160606681c Name",
+        "source": "ANA Tactical M2 plate carrier (A-TACS iX)",
+        "translation": "ANA 택티컬 M2 플레이트 캐리어 (A-TACS iX)"
+      },
+      {
+        "key": "6a5629dfbd83cb160606681c ShortName",
+        "source": "ANA M2",
+        "translation": "ANA M2"
+      },
+      {
+        "key": "6a5629dfbd83cb160606681c Description",
+        "source": "The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Manufactured by ANA Tactical. A-TACS iX camouflage version.",
+        "translation": "러시아 특수부대 대원들의 풍부한 경험을 바탕으로 제작한 M2 조끼입니다. 다목적 설계로 시가지 작전과 험지에서의 임무 모두에 사용할 수 있습니다. ANA 택티컬에서 제작했습니다. A-TACS iX 위장무늬 버전입니다."
+      },
+      {
+        "key": "6a8317166a6ba231700536ce Name",
+        "source": "Fit Viper glasses (Actualbush)",
+        "translation": "Fit Viper 보안경 (Actualbush)"
+      },
+      {
+        "key": "6a8317166a6ba231700536ce ShortName",
+        "source": "Fit Viper",
+        "translation": "Fit Viper"
+      },
+      {
+        "key": "6a8317166a6ba231700536ce Description",
+        "source": "Stylish (for certain people) protective glasses in a bright color scheme. For those who refuse to compromise between protection and style.",
+        "translation": "강렬한 색상 조합을 적용한 보호 안경으로, 취향에 따라서는 멋져 보일 수 있습니다. 보호 성능과 스타일 사이에서 타협하고 싶지 않은 사람을 위한 제품입니다."
+      },
+      {
+        "key": "6a83172b6a6ba231700536d1 Name",
+        "source": "Fit Viper glasses (Exec)",
+        "translation": "Fit Viper 보안경 (Exec)"
+      },
+      {
+        "key": "6a83172b6a6ba231700536d1 ShortName",
+        "source": "Fit Viper",
+        "translation": "Fit Viper"
+      },
+      {
+        "key": "6a83172b6a6ba231700536d1 Description",
+        "source": "Stylish (for certain people) protective glasses in a strict color scheme. For those who refuse to compromise between protection and style.",
+        "translation": "차분하고 절제된 색상 조합을 적용한 보호 안경으로, 취향에 따라서는 멋져 보일 수 있습니다. 보호 성능과 스타일 사이에서 타협하고 싶지 않은 사람을 위한 제품입니다."
+      },
+      {
+        "key": "6a83173e350dd848e70feeec Name",
+        "source": "Fit Viper glasses (Straya)",
+        "translation": "Fit Viper 보안경 (Straya)"
+      },
+      {
+        "key": "6a83173e350dd848e70feeec ShortName",
+        "source": "Fit Viper",
+        "translation": "Fit Viper"
+      },
+      {
+        "key": "6a83173e350dd848e70feeec Description",
+        "source": "Stylish (for certain people) protective glasses in an unusual color scheme. For those who refuse to compromise between protection and style.",
+        "translation": "독특한 색상 조합을 적용한 보호 안경으로, 취향에 따라서는 멋져 보일 수 있습니다. 보호 성능과 스타일 사이에서 타협하고 싶지 않은 사람을 위한 제품입니다."
+      },
+      {
+        "key": "6a3575489725a9cf0c0907ed Name",
+        "source": "Scorpion target",
+        "translation": "스콜피온 표적"
+      },
+      {
+        "key": "6a3575489725a9cf0c0907ed ShortName",
+        "source": "Scorpion",
+        "translation": "스콜피온"
+      },
+      {
+        "key": "6a3575489725a9cf0c0907ed Description",
+        "source": "This target is perfect for arachnophobes. And yes, scorpions and spiders are basically cousins anyway.",
+        "translation": "거미 공포증이 있는 사람들에게 딱 맞는 표적입니다. 뭐, 전갈과 거미는 사실상 사촌이나 다름없으니까요."
+      },
+      {
+        "key": "6a3575e125f478c7a20f613d Name",
+        "source": "Wedge target",
+        "translation": "웨지 표적"
+      },
+      {
+        "key": "6a3575e125f478c7a20f613d ShortName",
+        "source": "Wedge",
+        "translation": "웨지"
+      },
+      {
+        "key": "6a3575e125f478c7a20f613d Description",
+        "source": "This target is perfect for people who can't stand Wedge, the M18-loving Black Division squad lead.",
+        "translation": "M18을 유독 좋아하는 블랙 디비전 분대장 웨지를 못 견디는 사람에게 안성맞춤인 표적입니다."
+      },
+      {
+        "key": "6a35762dd864773668046a6d Name",
+        "source": "Black Division target",
+        "translation": "블랙 디비전 표적"
+      },
+      {
+        "key": "6a35762dd864773668046a6d ShortName",
+        "source": "BD",
+        "translation": "BD"
+      },
+      {
+        "key": "6a35762dd864773668046a6d Description",
+        "source": "A shooting target featuring some of the toughest enemies in Tarkov. A great way to practice without risking your life.",
+        "translation": "타르코프에서 가장 상대하기 까다로운 적들 중 일부가 그려진 사격 표적입니다. 목숨을 걸지 않고도 실력을 연습하기에 좋습니다."
+      },
+      {
+        "key": "6a3bb457200c84aede0f3f8d Name",
+        "source": "Black wood ceiling",
+        "translation": "검은 목재 천장"
+      },
+      {
+        "key": "6a3bb457200c84aede0f3f8d ShortName",
+        "source": "Black wood ceiling",
+        "translation": "검은 목재 천장"
+      },
+      {
+        "key": "6a3bb457200c84aede0f3f8d Description",
+        "source": "A clean, understated ceiling finished with natural wood paneling.",
+        "translation": "천연 목재 패널로 마감한 깔끔하고 차분한 분위기의 천장입니다."
+      },
+      {
+        "key": "6a3bb5827182e638dc05bd2a Name",
+        "source": "Black Herringbone",
+        "translation": "검은색 헤링본 바닥"
+      },
+      {
+        "key": "6a3bb5827182e638dc05bd2a ShortName",
+        "source": "Black Herringbone",
+        "translation": "검은색 헤링본 바닥"
+      },
+      {
+        "key": "6a3bb5827182e638dc05bd2a Description",
+        "source": "Stylish and understated herringbone flooring crafted from smoked oak. An exclusive, luxurious choice.",
+        "translation": "스모크 오크로 제작한 세련되고 차분한 헤링본 바닥재입니다. 특별하면서도 고급스러운 선택입니다."
+      },
+      {
+        "key": "6a3bb59dae4fbdbb95040aab Name",
+        "source": "White accent walls",
+        "translation": "흰색 포인트 벽"
+      },
+      {
+        "key": "6a3bb59dae4fbdbb95040aab ShortName",
+        "source": "White accent walls",
+        "translation": "흰색 포인트 벽"
+      },
+      {
+        "key": "6a3bb59dae4fbdbb95040aab Description",
+        "source": "Wall finishes for those who appreciate clean lines and bold white accents.",
+        "translation": "깔끔한 선과 선명한 흰색 포인트를 선호하는 사람들을 위한 벽 마감재입니다."
+      },
+      {
+        "key": "6a3bb5add4f941ec040cc3d9 Name",
+        "source": "Red accent walls",
+        "translation": "빨간색 포인트 벽"
+      },
+      {
+        "key": "6a3bb5add4f941ec040cc3d9 ShortName",
+        "source": "Red accent walls",
+        "translation": "빨간색 포인트 벽"
+      },
+      {
+        "key": "6a3bb5add4f941ec040cc3d9 Description",
+        "source": "Wall finishes for those who appreciate clean lines and bold red accents.",
+        "translation": "깔끔한 선과 강렬한 빨간색 포인트를 선호하는 사람들을 위한 벽 마감재입니다."
+      },
+      {
+        "key": "6a86de41697fb20fa70d37b8 Name",
+        "source": "Forgotten",
+        "translation": "잊혀진 자"
+      },
+      {
+        "key": "6a86df2254304bc4eb06c37a Name",
+        "source": "Forgotten",
+        "translation": "잊혀진 자"
+      },
+      {
+        "key": "6a86df54697fb20fa70d37bd Name",
+        "source": "Forgotten",
+        "translation": "잊혀진 자"
+      },
+      {
+        "key": "6a882fe520ea333fe80b842e Name",
+        "source": "Sunshine",
+        "translation": "햇살"
+      },
+      {
+        "key": "6a882fe520ea333fe80b842e ShortName",
+        "source": "Sunshine",
+        "translation": "햇살"
+      },
+      {
+        "key": "6a882fe520ea333fe80b842e Description",
+        "source": "A charming ceiling for those who don't like the outdoors. Why leave the house when you can just paint the sun on the ceiling?",
+        "translation": "야외 활동을 싫어하는 사람들에게 어울리는 매력적인 천장입니다. 천장에 태양을 그려 넣을 수 있는데 굳이 집 밖으로 나갈 필요가 있을까요?"
+      },
+      {
+        "key": "6a8830528e1bd6c97104a467 Name",
+        "source": "Linoleum",
+        "translation": "리놀륨"
+      },
+      {
+        "key": "6a8830528e1bd6c97104a467 ShortName",
+        "source": "Linoleum",
+        "translation": "리놀륨"
+      },
+      {
+        "key": "6a8830528e1bd6c97104a467 Description",
+        "source": "Has a warm, familiar feel to it. It bounces underfoot and looks nice.",
+        "translation": "따뜻하고 친숙한 느낌을 주는 바닥재입니다. 발을 디딜 때 탄력이 느껴지고 보기에도 좋습니다."
+      },
+      {
+        "key": "6a8830707535bd83830c58aa Name",
+        "source": "Tranquility",
+        "translation": "평온"
+      },
+      {
+        "key": "6a8830707535bd83830c58aa ShortName",
+        "source": "Tranquility",
+        "translation": "평온"
+      },
+      {
+        "key": "6a8830707535bd83830c58aa Description",
+        "source": "For those who seek peace and tranquility. Each hare and butterfly are hand-painted. A real master's work.",
+        "translation": "평화와 고요함을 찾는 사람들을 위한 디자인입니다. 토끼와 나비 하나하나가 손으로 그려져 있습니다. 진정한 장인의 솜씨입니다."
+      },
+      {
+        "key": "6a357672ccc2c37fb91b3381 Name",
+        "source": "Wedge target",
+        "translation": "웨지 표적"
+      },
+      {
+        "key": "6a357672ccc2c37fb91b3381 Description",
+        "source": "This target is perfect for people who can't stand Wedge, the M18-loving Black Division squad lead.",
+        "translation": "M18을 유독 좋아하는 블랙 디비전 분대장 웨지를 못 견디는 사람에게 안성맞춤인 표적입니다."
+      },
+      {
+        "key": "6a3576868387d18e32bbcdca",
+        "source": "Exclusive League reward in Season 1 Kord Breach",
+        "translation": "시즌 1 「Kord Breach」 리그 전용 보상",
+        "display_type": "default"
+      },
+      {
+        "key": "6a357774d7bc141a90189603 Name",
+        "source": "Scorpion target",
+        "translation": "스콜피온 표적"
+      },
+      {
+        "key": "6a357774d7bc141a90189603 Description",
+        "source": "This target is perfect for arachnophobes. And yes, scorpions and spiders are basically cousins anyway.",
+        "translation": "거미 공포증이 있는 사람들에게 딱 맞는 표적입니다. 뭐, 전갈과 거미는 사실상 사촌이나 다름없으니까요."
+      },
+      {
+        "key": "6a357796d8b26261d02eef84",
+        "source": "Exclusive Battle Pass reward in Season 1 Kord Breach",
+        "translation": "시즌 1 「Kord Breach」 배틀패스 전용 보상",
+        "display_type": "default"
+      },
+      {
+        "key": "6a35785007a7f7e037a4b4b1 Name",
+        "source": "Black Division target",
+        "translation": "블랙 디비전 표적"
+      },
+      {
+        "key": "6a35785007a7f7e037a4b4b1 Description",
+        "source": "A shooting target featuring some of the toughest enemies in Tarkov. A great way to practice without risking your life.",
+        "translation": "타르코프에서 가장 상대하기 까다로운 적들 중 일부가 그려진 사격 표적입니다. 목숨을 걸지 않고도 실력을 연습하기에 좋습니다."
+      },
+      {
+        "key": "6a35786164d9e2bd5df88fb5",
+        "source": "Exclusive Battle Pass reward in Season 1 Kord Breach",
+        "translation": "시즌 1 「Kord Breach」 배틀패스 전용 보상",
+        "display_type": "default"
+      },
+      {
+        "key": "6a3bbc12c0b3aa391aec2203 Name",
+        "source": "Red accent walls",
+        "translation": "빨간색 포인트 벽"
+      },
+      {
+        "key": "6a3bbc12c0b3aa391aec2203 Description",
+        "source": "Wall finishes for those who appreciate clean lines and bold red accents.",
+        "translation": "깔끔한 선과 강렬한 빨간색 포인트를 선호하는 사람들을 위한 벽 마감재입니다."
+      },
+      {
+        "key": "6a4d433bccf5e7292cd747af",
+        "source": "Exclusive League reward in Season 1 Kord Breach",
+        "translation": "시즌 1 「Kord Breach」 리그 전용 보상",
+        "display_type": "default"
+      },
+      {
+        "key": "6a3bbd112296557f7b32e776 Name",
+        "source": "White accent walls",
+        "translation": "흰색 포인트 벽"
+      },
+      {
+        "key": "6a3bbd112296557f7b32e776 Description",
+        "source": "Wall finishes for those who appreciate clean lines and bold white accents.",
+        "translation": "깔끔한 선과 선명한 흰색 포인트를 선호하는 사람들을 위한 벽 마감재입니다."
+      },
+      {
+        "key": "6a4d4306d7ad6effb13be012",
+        "source": "Exclusive Battle Pass reward in Season 1 Kord Breach",
+        "translation": "시즌 1 「Kord Breach」 배틀패스 전용 보상",
+        "display_type": "default"
+      },
+      {
+        "key": "6a3bbdd0487fd1a989c8ddf5 Name",
+        "source": "Black Herringbone",
+        "translation": "검은색 헤링본 바닥"
+      },
+      {
+        "key": "6a3bbdd0487fd1a989c8ddf5 Description",
+        "source": "Stylish and understated herringbone flooring crafted from smoked oak. An exclusive, luxurious choice.",
+        "translation": "스모크 오크로 제작한 세련되고 차분한 헤링본 바닥재입니다. 특별하면서도 고급스러운 선택입니다."
+      },
+      {
+        "key": "6a4d456ed0f6193608d7aa64",
+        "source": "Exclusive Battle Pass reward in Season 1 Kord Breach",
+        "translation": "시즌 1 「Kord Breach」 배틀패스 전용 보상",
+        "display_type": "default"
+      },
+      {
+        "key": "6a3bbe1671a7c33e91551a0b Name",
+        "source": "Black wood ceiling",
+        "translation": "검은 목재 천장"
+      },
+      {
+        "key": "6a3bbe1671a7c33e91551a0b Description",
+        "source": "A clean, understated ceiling finished with natural wood paneling.",
+        "translation": "천연 목재 패널로 마감한 깔끔하고 차분한 분위기의 천장입니다."
+      },
+      {
+        "key": "6a4d45434f853e9edd0f3a2a",
+        "source": "Exclusive Battle Pass reward in Season 1 Kord Breach",
+        "translation": "시즌 1 「Kord Breach」 배틀패스 전용 보상",
+        "display_type": "default"
+      },
+      {
+        "key": "6a86e124850a6299a51f6511 Name",
+        "source": "Graffiti Walls",
+        "translation": "그래피티 벽"
+      },
+      {
+        "key": "6a86e124850a6299a51f6511 Description",
+        "source": "Graffiti-covered walls for true connoisseurs of modern art.",
+        "translation": "현대 미술의 진가를 알아보는 사람들을 위해 그래피티로 뒤덮은 벽입니다."
+      },
+      {
+        "key": "6a8f1ac2c3bfb0b53648a7d2",
+        "source": "In-game store exclusive",
+        "translation": "게임 내 상점 전용",
+        "display_type": "default"
+      },
+      {
+        "key": "6a86e1a195b01214a357da1e Name",
+        "source": "Neon Floor",
+        "translation": "네온 바닥"
+      },
+      {
+        "key": "6a86e1a195b01214a357da1e Description",
+        "source": "Proof that for a true artist, even the floor is a canvas.",
+        "translation": "진정한 예술가에게는 바닥조차 캔버스가 될 수 있음을 보여줍니다."
+      },
+      {
+        "key": "6a8f1ad507246408a6134426",
+        "source": "In-game store exclusive",
+        "translation": "게임 내 상점 전용",
+        "display_type": "default"
+      },
+      {
+        "key": "6a86e1f855a6ebb033991343 Name",
+        "source": "Dark Ceiling",
+        "translation": "어두운 천장"
+      },
+      {
+        "key": "6a86e1f855a6ebb033991343 Description",
+        "source": "A dark ceiling like this doesn't draw attention away, letting the graffiti and neon on the walls and floor take center stage.",
+        "translation": "이처럼 어두운 천장은 시선을 빼앗지 않아 벽과 바닥의 그래피티 및 네온 장식이 돋보이게 합니다."
+      },
+      {
+        "key": "6a8f1ae03b17baf9e7e62465",
+        "source": "In-game store exclusive",
+        "translation": "게임 내 상점 전용",
+        "display_type": "default"
+      },
+      {
+        "key": "6a8830b8ad05207634da82b0 Name",
+        "source": "Lighthouse Walls",
+        "translation": "등대 벽"
+      },
+      {
+        "key": "6a8830b8ad05207634da82b0 Description",
+        "source": "Pleasant blue walls. Nothing unnecessary to distract you from the tasks at hand.",
+        "translation": "기분 좋은 푸른색 벽입니다. 당장 해야 할 일에 집중하는 데 방해가 될 만한 불필요한 요소가 없습니다."
+      },
+      {
+        "key": "6a8f18d8e2a4a667a8bc3395",
+        "source": "Earn the achievement Firefly",
+        "translation": "「Firefly」 업적 달성",
+        "display_type": "default"
+      },
+      {
+        "key": "6a8831305baa40dd7930a3b0 Name",
+        "source": "Universal Linoleum",
+        "translation": "범용 리놀륨"
+      },
+      {
+        "key": "6a8831305baa40dd7930a3b0 Description",
+        "source": "Simple, no-frills linoleum. Suspiciously similar to the flooring in Lightkeeper's room.",
+        "translation": "군더더기 없는 단순한 리놀륨 바닥재입니다. 어쩐지 등대지기의 방에 깔린 바닥재와 수상할 정도로 비슷합니다."
+      },
+      {
+        "key": "6a8f198d4fd47546b85c984c",
+        "source": "Earn the achievement Firefly",
+        "translation": "「Firefly」 업적 달성",
+        "display_type": "default"
+      },
+      {
+        "key": "6a883162d9cb09a65764bf19 Name",
+        "source": "Whitewashed Ceiling",
+        "translation": "석회칠한 천장"
+      },
+      {
+        "key": "6a883162d9cb09a65764bf19 Description",
+        "source": "Water stains have started appearing in places on this ceiling. Strange, it usually isn't this humid here...",
+        "translation": "천장 곳곳에 물 얼룩이 생기기 시작했습니다. 이상하군요. 이곳은 평소에 이렇게 습하지 않은데 말입니다..."
+      },
+      {
+        "key": "6a8f19a35ecb0a62da901e1a",
+        "source": "Earn the achievement Firefly",
+        "translation": "「Firefly」 업적 달성",
+        "display_type": "default"
+      },
+      {
+        "key": "6a720a11acdd524b380351c0 Name",
+        "source": "BEAR QILO Leto",
+        "translation": "BEAR QILO Leto"
+      },
+      {
+        "key": "6a720a11acdd524b380351c0 Description",
+        "source": "Shirt",
+        "translation": "셔츠"
+      },
+      {
+        "key": "6a72037049a67ff80b08d07a Name",
+        "source": "BEAR Longsleeve Flecktarn",
+        "translation": "BEAR 긴팔 셔츠 (플렉탄)"
+      },
+      {
+        "key": "6a72037049a67ff80b08d07a Description",
+        "source": "Longsleeve shirt",
+        "translation": "긴팔 셔츠"
+      },
+      {
+        "key": "6a7203998ee2f36ca80da949 Name",
+        "source": "BEAR Longsleeve Border EMR",
+        "translation": "BEAR 긴팔 셔츠 (보더 EMR)"
+      },
+      {
+        "key": "6a7203998ee2f36ca80da949 Description",
+        "source": "Longsleeve shirt",
+        "translation": "긴팔 셔츠"
+      },
+      {
+        "key": "6a7203a8f9253689810922ba Name",
+        "source": "BEAR Longsleeve Flora",
+        "translation": "BEAR 긴팔 셔츠 (플로라)"
+      },
+      {
+        "key": "6a7203a8f9253689810922ba Description",
+        "source": "Longsleeve shirt",
+        "translation": "긴팔 셔츠"
+      },
+      {
+        "key": "6a71dae9b5fc03f68109f96e Name",
+        "source": "BEAR Marathon",
+        "translation": "BEAR 마라톤"
+      },
+      {
+        "key": "6a71dae9b5fc03f68109f96e Description",
+        "source": "Olympic jacket",
+        "translation": "트레이닝 재킷"
+      },
+      {
+        "key": "6a71e5b1b5fc03f68109f97e Name",
+        "source": "Champion Scourge",
+        "translation": "챔피언 스커지"
+      },
+      {
+        "key": "6a71e5b1b5fc03f68109f97e Description",
+        "source": "Protective jacket",
+        "translation": "보호 재킷"
+      },
+      {
+        "key": "6a7208dbd56dd408e401b6c8 Name",
+        "source": "QILO Topographic Blue",
+        "translation": "QILO 지형도 (블루)"
+      },
+      {
+        "key": "6a7208dbd56dd408e401b6c8 Description",
+        "source": "Shirt",
+        "translation": "셔츠"
+      },
+      {
+        "key": "6a720900b5fc03f68109f9b9 Name",
+        "source": "QILO Topographic Green",
+        "translation": "QILO 지형도 (그린)"
+      },
+      {
+        "key": "6a720900b5fc03f68109f9b9 Description",
+        "source": "Shirt",
+        "translation": "셔츠"
+      },
+      {
+        "key": "6a71dca2c687dc762e03d893 Name",
+        "source": "USEC Deadlift",
+        "translation": "USEC 데드리프트"
+      },
+      {
+        "key": "6a71dca2c687dc762e03d893 Description",
+        "source": "Olympic jacket",
+        "translation": "트레이닝 재킷"
+      },
+      {
+        "key": "6a720a49b5fc03f68109f9bf Name",
+        "source": "USEC QILO Blue Choco Chip",
+        "translation": "USEC QILO 블루 초코칩"
+      },
+      {
+        "key": "6a720a49b5fc03f68109f9bf Description",
+        "source": "Shirt",
+        "translation": "셔츠"
+      },
+      {
+        "key": "6a7203d1c687dc762e03d8ae Name",
+        "source": "USEC Longsleeve Desert Night",
+        "translation": "USEC 긴팔 셔츠 (데저트 나이트)"
+      },
+      {
+        "key": "6a7203d1c687dc762e03d8ae Description",
+        "source": "Longsleeve shirt",
+        "translation": "긴팔 셔츠"
+      },
+      {
+        "key": "6a7203ebe76602c58b0038e2 Name",
+        "source": "USEC Longsleeve Brushstroke",
+        "translation": "USEC 긴팔 셔츠 (브러시스트로크)"
+      },
+      {
+        "key": "6a7203ebe76602c58b0038e2 Description",
+        "source": "Longsleeve shirt",
+        "translation": "긴팔 셔츠"
+      },
+      {
+        "key": "6a7203fd733b0b607b0dde7b Name",
+        "source": "USEC Longsleeve Tiger Stripe",
+        "translation": "USEC 긴팔 셔츠 (타이거 스트라이프)"
+      },
+      {
+        "key": "6a7203fd733b0b607b0dde7b Description",
+        "source": "Longsleeve shirt",
+        "translation": "긴팔 셔츠"
+      },
+      {
+        "key": "6a71dac949a67ff80b08d051 Name",
+        "source": "BEAR Marathon",
+        "translation": "BEAR 마라톤"
+      },
+      {
+        "key": "6a71dac949a67ff80b08d051 Description",
+        "source": "Combat pants",
+        "translation": "전투 바지"
+      },
+      {
+        "key": "6a71e593ade99bd0b20bcb6c Name",
+        "source": "Champion Scourge",
+        "translation": "챔피언 스커지"
+      },
+      {
+        "key": "6a71e593ade99bd0b20bcb6c Description",
+        "source": "Combat pants",
+        "translation": "전투 바지"
+      },
+      {
+        "key": "6a71dc70f925368981092299 Name",
+        "source": "USEC Deadlift",
+        "translation": "USEC 데드리프트"
+      },
+      {
+        "key": "6a71dc70f925368981092299 Description",
+        "source": "Combat pants",
+        "translation": "전투 바지"
+      },
+      {
+        "key": "6a446e01918b1b16b908e9eb ShortName",
+        "source": "TG-y",
+        "translation": "TG-y"
+      },
+      {
+        "key": "6a446e195839ffe2430a4de5 ShortName",
+        "source": "TG-y",
+        "translation": "TG-y"
       }
     ],
     "server_messages": [
@@ -14874,6 +17113,12 @@
         "source": "Usage: Receive all post 1.0 Twitch drop content",
         "translation": "사용법: 1.0 이후의 트위치 드롭 콘텐츠를 모두 받습니다.",
         "match_mode": "segment"
+      },
+      {
+        "id": "wtt_cmd_restart_head_voice_dogtag",
+        "source": "This REQUIRES a full game restart in order to see the new Head, Voice, and Dog Tag options.",
+        "translation": "새로운 머리, 음성 및 인식표 옵션을 보려면 반드시 게임을 완전히 재시작해야 합니다.",
+        "match_mode": "exact"
       }
     ],
     "locale_source_fallback": [

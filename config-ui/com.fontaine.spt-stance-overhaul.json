@@ -1,0 +1,2127 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.fontaine.spt-stance-overhaul",
+  "plugin_name": "Stance Overhaul",
+  "categories": [
+    {
+      "source": "0. Dev",
+      "translation": "0. 개발·시험"
+    },
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Stamina",
+      "translation": "2. 스태미나"
+    },
+    {
+      "source": "3. Movement",
+      "translation": "3. 이동"
+    },
+    {
+      "source": "4. Offsets",
+      "translation": "4. 위치 보정"
+    },
+    {
+      "source": "5. Device Bonuses",
+      "translation": "5. 장비 효과"
+    },
+    {
+      "source": "6. Controls",
+      "translation": "6. 조작"
+    },
+    {
+      "source": "7. Active Aim",
+      "translation": "7. 능동 조준"
+    },
+    {
+      "source": "8. High Ready",
+      "translation": "8. 상향 대기"
+    },
+    {
+      "source": "9. Low Ready",
+      "translation": "9. 하향 대기"
+    },
+    {
+      "source": "10. Short-Stocking",
+      "translation": "10. 단축 견착"
+    },
+    {
+      "source": "11. Patrol Stance",
+      "translation": "11. 순찰 자세"
+    },
+    {
+      "source": "12. Left Shoulder",
+      "translation": "12. 왼쪽 견착"
+    },
+    {
+      "source": "13. Pistol Stance",
+      "translation": "13. 권총 자세"
+    }
+  ],
+  "entries": [
+    {
+      "section": "0. Dev",
+      "key": "test 1",
+      "source_display_name": "test 1",
+      "source_description": "",
+      "translation_display_name": "테스트 1",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 2",
+      "source_display_name": "test 2",
+      "source_description": "",
+      "translation_display_name": "테스트 2",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 3",
+      "source_display_name": "test 3",
+      "source_description": "",
+      "translation_display_name": "테스트 3",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 4",
+      "source_display_name": "test 4",
+      "source_description": "",
+      "translation_display_name": "테스트 4",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 5",
+      "source_display_name": "test 5",
+      "source_description": "",
+      "translation_display_name": "테스트 5",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 6",
+      "source_display_name": "test 6",
+      "source_description": "",
+      "translation_display_name": "테스트 6",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 7",
+      "source_display_name": "test 7",
+      "source_description": "",
+      "translation_display_name": "테스트 7",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 8",
+      "source_display_name": "test 8",
+      "source_description": "",
+      "translation_display_name": "테스트 8",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 9",
+      "source_display_name": "test 9",
+      "source_description": "",
+      "translation_display_name": "테스트 9",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 10",
+      "source_display_name": "test 10",
+      "source_description": "",
+      "translation_display_name": "테스트 10",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 11",
+      "source_display_name": "test 11",
+      "source_description": "",
+      "translation_display_name": "테스트 11",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 12",
+      "source_display_name": "test 12",
+      "source_description": "",
+      "translation_display_name": "테스트 12",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 13",
+      "source_display_name": "test 13",
+      "source_description": "",
+      "translation_display_name": "테스트 13",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 14",
+      "source_display_name": "test 14",
+      "source_description": "",
+      "translation_display_name": "테스트 14",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 15",
+      "source_display_name": "test 15",
+      "source_description": "",
+      "translation_display_name": "테스트 15",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 16",
+      "source_display_name": "test 16",
+      "source_description": "",
+      "translation_display_name": "테스트 16",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 17",
+      "source_display_name": "test 17",
+      "source_description": "",
+      "translation_display_name": "테스트 17",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 18",
+      "source_display_name": "test 18",
+      "source_description": "",
+      "translation_display_name": "테스트 18",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 19",
+      "source_display_name": "test 19",
+      "source_description": "",
+      "translation_display_name": "테스트 19",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "0. Dev",
+      "key": "test 20",
+      "source_display_name": "test 20",
+      "source_description": "",
+      "translation_display_name": "테스트 20",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "NOT IMPLEMENTED YET. De-Jank EFT Animations",
+      "source_display_name": "NOT IMPLEMENTED YET. De-Jank EFT Animations",
+      "source_description": "Attempts To Make EFT Certain Animations Less Janky, Like Inventory And Door Animations.",
+      "translation_display_name": "미구현: EFT 애니메이션 개선",
+      "translation_description": "인벤토리와 문 애니메이션 등 EFT의 일부 부자연스러운 움직임을 개선하려고 시도합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "NOT IMPLEMENTED YET. Override Collision",
+      "source_display_name": "NOT IMPLEMENTED YET. Override Collision",
+      "source_description": "If FOV Fix is installed, will override BSG's collision system completely to make it work well with stances and alt weapon positions. If not installed, will modify BSG collision system.",
+      "translation_display_name": "미구현: 충돌 처리 재정의",
+      "translation_description": "FOV Fix가 설치되어 있으면 자세 및 대체 무기 위치와 호환되도록 BSG 충돌 시스템을 완전히 교체합니다. 설치되지 않았다면 기존 충돌 시스템 일부를 수정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "NOT IMPLEMENTED YET. Use Realism Mounting System",
+      "source_display_name": "NOT IMPLEMENTED YET. Use Realism Mounting System",
+      "source_description": "Overrides BSG's Mounting System WIth Realism's (That Was Implemented First). Recoil, Stance and Sway Mechanics Are All Built Around Realism's Mounting And Won't Function Correctly With BSG's.",
+      "translation_display_name": "미구현: Realism 거치 시스템 사용",
+      "translation_description": "BSG의 무기 거치 시스템을 먼저 구현된 Realism의 거치 시스템으로 대체합니다. 반동·자세·흔들림 동작은 Realism 거치를 기준으로 만들어져 BSG 시스템에서는 정상 동작하지 않을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Extra Weapon Position/Rotation Effects",
+      "source_display_name": "Enable Extra Weapon Position/Rotation Effects",
+      "source_description": "Weapon Has A Slight Cant To It based On Ergo. ADS With Gasmask/Faceshield Is Canted. Weapon Cant Increases When Crouching, And Moves Closer To You. Other Sublte Effects.",
+      "translation_display_name": "추가 무기 위치·회전 효과 활성화",
+      "translation_description": "인체공학 수치에 따라 무기가 약간 기울어집니다. 방독면이나 안면 보호구를 착용하고 정조준하면 총을 기울여 잡습니다. 웅크리면 기울기가 커지고 무기가 몸쪽으로 이동하는 등 미세한 효과가 추가됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Alternative ADS",
+      "source_display_name": "Enable Alternative ADS",
+      "source_description": "Sights move to camera, instead of camera to sights. This makes ADS much smoother, especially with stances.",
+      "translation_display_name": "대체 정조준 방식 활성화",
+      "translation_description": "카메라가 조준기로 이동하는 대신 조준기가 카메라 쪽으로 이동하여 특히 자세 변경 중 정조준이 더욱 부드러워집니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "NOT IMPLEMENTED YET. Enable Mounting UI",
+      "source_display_name": "NOT IMPLEMENTED YET. Enable Mounting UI",
+      "source_description": "If Enabled, An Icon On Screen Will Indicate If Player Is Bracing, Mounting And What Side Of Cover They Are On.",
+      "translation_display_name": "미구현: 거치 UI 활성화",
+      "translation_description": "켜면 화면 아이콘으로 무기 지지 및 거치 상태와 엄폐물의 어느 쪽에 있는지를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Faceshield Aim Block",
+      "source_display_name": "Enable Faceshield Aim Block",
+      "source_description": "Faceshields Block ADS Unless The Specfic Stock/Weapon/Faceshield Allows It.",
+      "translation_display_name": "안면 보호구 정조준 제한",
+      "translation_description": "특정 개머리판·무기·안면 보호구 조합에서 허용하지 않는 한, 안면 보호구 착용 시 정조준이 제한됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable NVG Aim Block",
+      "source_display_name": "Enable NVG Aim Block",
+      "source_description": "Magnified Optics Block ADS When Using NVGs.",
+      "translation_display_name": "야간투시경 정조준 제한",
+      "translation_description": "야간투시경 착용 중에는 배율 조준경으로 정조준할 수 없습니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Thermal Aim Block",
+      "source_display_name": "Enable Thermal Aim Block",
+      "source_description": "Can't Aim With Sights When Using Thermal Goggles.",
+      "translation_display_name": "열영상 고글 정조준 제한",
+      "translation_description": "열영상 고글 사용 중에는 조준기로 정조준할 수 없습니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Stance Sfx Volume Modifier",
+      "source_display_name": "Stance Sfx Volume Modifier",
+      "source_description": "Gear rattle volume modifer when doing stance related things",
+      "translation_display_name": "자세 변경 효과음 음량 배율",
+      "translation_description": "자세 관련 동작을 할 때 장비가 덜그럭거리는 소리의 음량을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Stance Blend Speed",
+      "source_display_name": "Stance Blend Speed",
+      "source_description": "Speed of stance blending transitions",
+      "translation_display_name": "자세 혼합 전환 속도",
+      "translation_description": "자세 간 혼합 전환 속도를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Global Stance Speed",
+      "source_display_name": "Global Stance Speed",
+      "source_description": "Global multiplier for all stance speeds",
+      "translation_display_name": "전체 자세 전환 속도",
+      "translation_description": "모든 자세 전환 속도에 적용하는 전역 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Stance Rifle Damping Modifier",
+      "source_display_name": "Stance Rifle Damping Modifier",
+      "source_description": "Global multiplier for all stance damping. Defines reactivness to motion, or wiggle.",
+      "translation_display_name": "소총 자세 감쇠 배율",
+      "translation_description": "모든 자세의 감쇠에 적용하는 전역 배율입니다. 움직임에 따른 반응과 흔들림을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Stance Rifle Return Speed Modifier",
+      "source_display_name": "Stance Rifle Return Speed Modifier",
+      "source_description": "Global multiplier for all stance return speeds. Defines responsivenss and tightness of movement.",
+      "translation_display_name": "소총 자세 복귀 속도 배율",
+      "translation_description": "모든 자세 복귀 속도에 적용하는 전역 배율입니다. 움직임의 반응성과 안정감을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Stance Pistol Damping Modifier",
+      "source_display_name": "Stance Pistol Damping Modifier",
+      "source_description": "Global multiplier for all stance damping. Defines reactivness to motion, or wiggle.",
+      "translation_display_name": "권총 자세 감쇠 배율",
+      "translation_description": "모든 자세의 감쇠에 적용하는 전역 배율입니다. 움직임에 따른 반응과 흔들림을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Stance Pistol Return Speed Modifier",
+      "source_display_name": "Stance Pistol Return Speed Modifier",
+      "source_description": "Global multiplier for all stance return speeds. Defines responsivenss and tightness of movement.",
+      "translation_display_name": "권총 자세 복귀 속도 배율",
+      "translation_description": "모든 자세 복귀 속도에 적용하는 전역 배율입니다. 움직임의 반응성과 안정감을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Enable Reload Speed Changes",
+      "source_display_name": "Enable Reload Speed Changes",
+      "source_description": "Reload Speed Is Affected By Stance And Mounting. Recommend to disable if using Fika to avoid desync.",
+      "translation_display_name": "자세에 따른 재장전 속도 변경",
+      "translation_description": "자세와 무기 거치 상태에 따라 재장전 속도를 변경합니다. Fika를 사용하는 경우 동기화 문제 방지를 위해 비활성화를 권장합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Stamina",
+      "key": "Enable Idle Arm Stamina Drain",
+      "source_display_name": "Enable Idle Arm Stamina Drain",
+      "source_description": "Arm Stamina Will Drain When Not In A Stance (High And Low Ready, Short-Stocking).",
+      "translation_display_name": "기본 자세 팔 스태미나 소모",
+      "translation_description": "상향 대기·하향 대기·단축 견착 자세가 아닌 경우 팔 스태미나가 소모됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Stamina",
+      "key": "Idle Stam Drain Modifer",
+      "source_display_name": "Idle Stam Drain Modifer",
+      "source_description": "Modifier for stamina drain rate, including stances that drain stamina (Active Aim, Left Shoulder)",
+      "translation_display_name": "기본 자세 스태미나 소모 배율",
+      "translation_description": "능동 조준·왼쪽 견착 등 스태미나를 소모하는 자세를 포함해 스태미나 소모율을 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Stamina",
+      "key": "Enable Stance Stamina And Movement Effects",
+      "source_display_name": "Enable Stance Stamina And Movement Effects",
+      "source_description": "Enabled Stances And Mounting To Affect Stamina And Movement Speed. Stamina Drain May Not Work Correctly If Disabled. High + Low Ready, Short-Stocking And Pistol Idle Will Regenerate Stamina Faster And Optionally Idle With Rifles Drains Stamina. High Ready Has Faster Sprint Speed And Sprint Accel, Low Ready Has Faster Sprint Accel. Arm Stamina Won't Drain Regular Stamina If It Reaches 0.",
+      "translation_display_name": "자세별 스태미나·이동 효과 활성화",
+      "translation_description": "자세와 무기 거치가 스태미나 및 이동 속도에 영향을 주도록 합니다. 끄면 스태미나 소모가 정상 작동하지 않을 수 있습니다. 상향·하향 대기, 단축 견착, 권총 기본 자세에서는 팔 스태미나가 더 빠르게 회복됩니다. 소총 기본 자세에서의 소모를 선택적으로 적용할 수 있으며, 상향 대기는 질주 속도와 가속도가, 하향 대기는 질주 가속도가 증가합니다. 팔 스태미나가 0이 되어도 일반 스태미나는 소모하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Movement",
+      "key": "Enable Tactical Sprint Animation",
+      "source_display_name": "Enable Tactical Sprint Animation",
+      "source_description": "Enables Usage Of Tactical Sprint Animation When Sprinting From High Ready Position.",
+      "translation_display_name": "전술 질주 애니메이션 활성화",
+      "translation_description": "상향 대기 자세에서 질주할 때 전술 질주 애니메이션을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Movement",
+      "key": "Tactical Sprint Sprint Speed Bonus",
+      "source_display_name": "Tactical Sprint Sprint Speed Bonus",
+      "source_description": "Sprint Speed Bonus When Sprinting From High Ready Position.",
+      "translation_display_name": "전술 질주 속도 보너스",
+      "translation_description": "상향 대기 자세에서 시작한 질주의 속도 보너스입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Movement",
+      "key": "Tactical Sprint Sprint Acceleration Bonus",
+      "source_display_name": "Tactical Sprint Sprint Acceleration Bonus",
+      "source_description": "Sprint Acceleration Bonus When Sprinting From High Ready Position.",
+      "translation_display_name": "전술 질주 가속도 보너스",
+      "translation_description": "상향 대기 자세에서 시작한 질주의 가속도 보너스입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Movement",
+      "key": "Tactical Sprint Stamina Drain Rate",
+      "source_display_name": "Tactical Sprint Stamina Drain Rate",
+      "source_description": "Stamina Drain Rate When Sprinting From High Ready Position.",
+      "translation_display_name": "전술 질주 스태미나 소모율",
+      "translation_description": "상향 대기 자세에서 시작한 질주의 스태미나 소모율입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Offsets",
+      "key": "Weapon Position Offset X",
+      "source_display_name": "Weapon Position Offset X",
+      "source_description": "Adjusts The Position Of Rifle On Screen.",
+      "translation_display_name": "소총 화면 위치 X 오프셋",
+      "translation_description": "화면에서 소총의 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Offsets",
+      "key": "Weapon Position Offset Y",
+      "source_display_name": "Weapon Position Offset Y",
+      "source_description": "Adjusts The Position Of Rifle On Screen.",
+      "translation_display_name": "소총 화면 위치 Y 오프셋",
+      "translation_description": "화면에서 소총의 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Offsets",
+      "key": "Weapon Position Offset Z",
+      "source_display_name": "Weapon Position Offset Z",
+      "source_description": "Adjusts The Position Of Rifle On Screen.",
+      "translation_display_name": "소총 화면 위치 Z 오프셋",
+      "translation_description": "화면에서 소총의 위치를 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Offsets",
+      "key": "Pistol Position Offset X",
+      "source_display_name": "Pistol Position Offset X",
+      "source_description": "Adjusts The Pistol Position Of Pistol On Screen. Changing This Can Lead To ADS Looking Strange, Use With Caution",
+      "translation_display_name": "권총 화면 위치 X 오프셋",
+      "translation_description": "화면에서 권총의 위치를 조정합니다. 설정을 변경하면 정조준 화면이 부자연스러워질 수 있으므로 주의하십시오.",
+      "values": []
+    },
+    {
+      "section": "4. Offsets",
+      "key": "Pistol Position Offset Y",
+      "source_display_name": "Pistol Position Offset Y",
+      "source_description": "Adjusts The Pistol Position Of Pistol On Screen. Changing This Can Lead To ADS Looking Strange, Use With Caution",
+      "translation_display_name": "권총 화면 위치 Y 오프셋",
+      "translation_description": "화면에서 권총의 위치를 조정합니다. 설정을 변경하면 정조준 화면이 부자연스러워질 수 있으므로 주의하십시오.",
+      "values": []
+    },
+    {
+      "section": "4. Offsets",
+      "key": "Pistol Position Offset Z",
+      "source_display_name": "Pistol Position Offset Z",
+      "source_description": "Adjusts The Pistol Position Of Pistol On Screen. Changing This Can Lead To ADS Looking Strange, Use With Caution",
+      "translation_display_name": "권총 화면 위치 Z 오프셋",
+      "translation_description": "화면에서 권총의 위치를 조정합니다. 설정을 변경하면 정조준 화면이 부자연스러워질 수 있으므로 주의하십시오.",
+      "values": []
+    },
+    {
+      "section": "5. Device Bonuses",
+      "key": "NVG IR Laser Bonus",
+      "source_display_name": "NVG IR Laser Bonus",
+      "source_description": "Hip inaccuracy multiplier when NVG is active with IR laser or visible laser.",
+      "translation_display_name": "야간투시경 IR 레이저 보정",
+      "translation_description": "야간투시경 사용 중 IR 또는 가시광 레이저를 켰을 때 비조준 사격 비정확도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Device Bonuses",
+      "key": "NVG IR Light With Laser Bonus",
+      "source_display_name": "NVG IR Light With Laser Bonus",
+      "source_description": "Hip inaccuracy multiplier when NVG is active with IR light and laser.",
+      "translation_display_name": "야간투시경 IR 조명·레이저 보정",
+      "translation_description": "야간투시경 사용 중 IR 조명과 레이저를 함께 켰을 때 비조준 사격 비정확도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Device Bonuses",
+      "key": "NVG IR Light Bonus",
+      "source_display_name": "NVG IR Light Bonus",
+      "source_description": "Hip inaccuracy multiplier when NVG is active with IR light only.",
+      "translation_display_name": "야간투시경 IR 조명 보정",
+      "translation_description": "야간투시경 사용 중 IR 조명만 켰을 때 비조준 사격 비정확도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Device Bonuses",
+      "key": "NVG White Light Bonus",
+      "source_display_name": "NVG White Light Bonus",
+      "source_description": "Hip inaccuracy multiplier when NVG is active with white light.",
+      "translation_display_name": "야간투시경 백색광 보정",
+      "translation_description": "야간투시경 사용 중 백색광을 켰을 때 비조준 사격 비정확도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Device Bonuses",
+      "key": "Thermal Goggles Debuff",
+      "source_display_name": "Thermal Goggles Debuff",
+      "source_description": "Hip inaccuracy multiplier when thermal imaging is active.",
+      "translation_display_name": "열영상 고글 정확도 페널티",
+      "translation_description": "열영상 장비를 사용할 때 비조준 사격 비정확도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Device Bonuses",
+      "key": "Normal Visible Laser Bonus",
+      "source_display_name": "Normal Visible Laser Bonus",
+      "source_description": "Hip inaccuracy multiplier with visible laser in normal (non-NVG/thermal) mode.",
+      "translation_display_name": "일반 모드 가시광 레이저 보정",
+      "translation_description": "일반 모드에서 가시광 레이저를 사용할 때 비조준 사격 비정확도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Device Bonuses",
+      "key": "Normal White Light With Laser Bonus",
+      "source_display_name": "Normal White Light With Laser Bonus",
+      "source_description": "Hip inaccuracy multiplier with white light and laser in normal mode.",
+      "translation_display_name": "일반 모드 백색광·레이저 보정",
+      "translation_description": "일반 모드에서 백색광과 레이저를 함께 사용할 때 비조준 사격 비정확도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Device Bonuses",
+      "key": "Normal White Light Bonus",
+      "source_display_name": "Normal White Light Bonus",
+      "source_description": "Hip inaccuracy multiplier with white light only in normal mode.",
+      "translation_display_name": "일반 모드 백색광 보정",
+      "translation_description": "일반 모드에서 백색광만 사용할 때 비조준 사격 비정확도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "6. Controls",
+      "key": "NOT IMPLEMENTED YET. Melee Keybind",
+      "source_display_name": "NOT IMPLEMENTED YET. Melee Keybind",
+      "source_description": "Strike With Muzzle Or Bayonet Of Equipped Weapon.",
+      "translation_display_name": "미구현: 근접 타격 단축키",
+      "translation_description": "장착한 무기의 총구나 총검으로 타격합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Controls",
+      "key": "Enable Mouse Wheel Stance Switching",
+      "source_display_name": "Enable Mouse Wheel Stance Switching",
+      "source_description": "Switches Between High And Low Ready Via Mouse Wheel.",
+      "translation_display_name": "마우스 휠 자세 전환 활성화",
+      "translation_description": "마우스 휠로 상향 대기와 하향 대기 자세를 전환합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Controls",
+      "key": "Require Key + Mouse Wheel",
+      "source_display_name": "Require Key + Mouse Wheel",
+      "source_description": "Require Keybind + Mouse Wheel To Change Stance.",
+      "translation_display_name": "단축키와 마우스 휠 동시 입력 요구",
+      "translation_description": "자세를 바꾸려면 단축키와 마우스 휠을 함께 사용해야 합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Controls",
+      "key": "Keybind To Use With Mouse Wheel",
+      "source_display_name": "Keybind To Use With Mouse Wheel",
+      "source_description": "Key Used In Combination With Mouse Wheel If Enabled ",
+      "translation_display_name": "마우스 휠 조합 단축키",
+      "translation_description": "기능이 활성화되었을 때 마우스 휠과 함께 누르는 키입니다.",
+      "values": []
+    },
+    {
+      "section": "6. Controls",
+      "key": "Remember Stance After Using Item",
+      "source_display_name": "Remember Stance After Using Item",
+      "source_description": "Remember Stance After Actions (Using Items)",
+      "translation_display_name": "아이템 사용 후 자세 기억",
+      "translation_description": "아이템 사용 등의 동작 후 이전 자세를 기억합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Controls",
+      "key": "Remember Stance After Firing",
+      "source_display_name": "Remember Stance After Firing",
+      "source_description": "Remember Stance After Firing If The Player Was Aiming.",
+      "translation_display_name": "사격 후 자세 기억",
+      "translation_description": "플레이어가 조준 중이었다면 사격 후 이전 자세를 기억합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Controls",
+      "key": "Block Shooting While In Stance",
+      "source_display_name": "Block Shooting While In Stance",
+      "source_description": "Blocks Firing While In A Stance, Will Cancel Stance If Attempting To Fire.",
+      "translation_display_name": "특수 자세 중 발사 차단",
+      "translation_description": "특수 자세 중 발사를 차단합니다. 사격을 시도하면 해당 자세가 해제됩니다.",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Keybind",
+      "source_display_name": "Active Aim Keybind",
+      "source_description": "Cants The Weapon Sideways, Improving Hipfire Accuracy.",
+      "translation_display_name": "능동 조준 단축키",
+      "translation_description": "무기를 옆으로 기울여 비조준 사격 정확도를 높입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Use Toggle For Active Aim",
+      "source_display_name": "Use Toggle For Active Aim",
+      "source_description": "",
+      "translation_display_name": "능동 조준 토글 방식 사용",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Walk Speed Modifier",
+      "source_display_name": "Active Aim Walk Speed Modifier",
+      "source_description": "Multiplier applied to walk speed while in Active Aim.",
+      "translation_display_name": "능동 조준 걷기 속도 배율",
+      "translation_description": "능동 조준 상태에서 걷기 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Sprint Accel Modifier",
+      "source_display_name": "Active Aim Sprint Accel Modifier",
+      "source_description": "Multiplier applied to sprint acceleration while in Active Aim.",
+      "translation_display_name": "능동 조준 질주 가속도 배율",
+      "translation_description": "능동 조준 상태에서 질주 가속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Stamina Rate",
+      "source_display_name": "Active Aim Stamina Rate",
+      "source_description": "Rate at which arm stamina drains while in Active Aim.",
+      "translation_display_name": "능동 조준 팔 스태미나 회복률",
+      "translation_description": "능동 조준 상태에서 팔 스태미나 소모 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Hipfire Bonus",
+      "source_display_name": "Active Aim Hipfire Bonus",
+      "source_description": "Multiplier applied to hipfire inaccuracy while in Active Aim.",
+      "translation_display_name": "능동 조준 비조준 사격 정확도 보정",
+      "translation_description": "능동 조준 상태에서 비조준 사격 비정확도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition From: Idle",
+      "source_display_name": "Active Aim Transition From: Idle",
+      "source_description": "Speed of entering Active Aim from idle (no previous stance).",
+      "translation_display_name": "기본 자세 → 능동 조준 전환 속도",
+      "translation_description": "능동 조준 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition To: Idle",
+      "source_display_name": "Active Aim Transition To: Idle",
+      "source_description": "Speed of exiting Active Aim to idle (no next stance).",
+      "translation_display_name": "능동 조준 → 기본 자세 전환 속도",
+      "translation_description": "능동 조준 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Blend Threshold: Low Ready",
+      "source_display_name": "Active Aim Blend Threshold: Low Ready",
+      "source_description": "",
+      "translation_display_name": "능동 조준 ↔ 하향 대기 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Blend Threshold: High Ready",
+      "source_display_name": "Active Aim Blend Threshold: High Ready",
+      "source_description": "",
+      "translation_display_name": "능동 조준 ↔ 상향 대기 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Blend Threshold: Left Shoulder",
+      "source_display_name": "Active Aim Blend Threshold: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "능동 조준 ↔ 왼쪽 견착 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Blend Threshold: Patrol",
+      "source_display_name": "Active Aim Blend Threshold: Patrol",
+      "source_description": "",
+      "translation_display_name": "능동 조준 ↔ 순찰 자세 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Blend Threshold: Short-Stock",
+      "source_display_name": "Active Aim Blend Threshold: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "능동 조준 ↔ 단축 견착 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition From: Low Ready",
+      "source_display_name": "Active Aim Transition From: Low Ready",
+      "source_description": "",
+      "translation_display_name": "하향 대기 → 능동 조준 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition From: High Ready",
+      "source_display_name": "Active Aim Transition From: High Ready",
+      "source_description": "",
+      "translation_display_name": "상향 대기 → 능동 조준 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition From: Left Shoulder",
+      "source_display_name": "Active Aim Transition From: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 → 능동 조준 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition From: Patrol",
+      "source_display_name": "Active Aim Transition From: Patrol",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 → 능동 조준 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition From: Short-Stock",
+      "source_display_name": "Active Aim Transition From: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "단축 견착 → 능동 조준 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition To Speed: Low Ready",
+      "source_display_name": "Active Aim Transition To Speed: Low Ready",
+      "source_description": "",
+      "translation_display_name": "능동 조준 → 하향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition To Speed: High Ready",
+      "source_display_name": "Active Aim Transition To Speed: High Ready",
+      "source_description": "",
+      "translation_display_name": "능동 조준 → 상향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition To Speed: Left Shoulder",
+      "source_display_name": "Active Aim Transition To Speed: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "능동 조준 → 왼쪽 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition To Speed: Patrol",
+      "source_display_name": "Active Aim Transition To Speed: Patrol",
+      "source_description": "",
+      "translation_display_name": "능동 조준 → 순찰 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Transition To Speed: Short-Stock",
+      "source_display_name": "Active Aim Transition To Speed: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "능동 조준 → 단축 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Speed Modifier",
+      "source_display_name": "Active Aim Speed Modifier",
+      "source_description": "Multiplier applied to all stance transition speeds while in Active Aim.",
+      "translation_display_name": "능동 조준 속도 배율",
+      "translation_description": "능동 조준 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Magazine Reload Speed Modifier",
+      "source_display_name": "Active Aim Magazine Reload Speed Modifier",
+      "source_description": "Multiplier applied to magazine reload speed while in Active Aim.",
+      "translation_display_name": "능동 조준 탄창 재장전 속도 배율",
+      "translation_description": "능동 조준 상태에서 탄창 재장전 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Chamber Reload Speed Modifier",
+      "source_display_name": "Active Aim Chamber Reload Speed Modifier",
+      "source_description": "Multiplier applied to chamber check, rechamber, malf fix speed while in Active Aim.",
+      "translation_display_name": "능동 조준 약실 조작 속도 배율",
+      "translation_description": "능동 조준 상태에서 약실 확인·재장전·작동 불량 해결 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Active Aim",
+      "key": "Active Aim Pump Action Speed Modifier",
+      "source_display_name": "Active Aim Pump Action Speed Modifier",
+      "source_description": "Multiplier applied to pump action speed while in Active Aim.",
+      "translation_display_name": "능동 조준 펌프 작동 속도 배율",
+      "translation_description": "능동 조준 상태에서 펌프 작동 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Keybind",
+      "source_display_name": "High Ready Keybind",
+      "source_description": "",
+      "translation_display_name": "상향 대기 단축키",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Walk Speed Modifier",
+      "source_display_name": "High Ready Walk Speed Modifier",
+      "source_description": "Multiplier applied to walk speed while in High Ready.",
+      "translation_display_name": "상향 대기 걷기 속도 배율",
+      "translation_description": "상향 대기 상태에서 걷기 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Sprint Accel Modifier",
+      "source_display_name": "High Ready Sprint Accel Modifier",
+      "source_description": "Multiplier applied to sprint acceleration while in High Ready.",
+      "translation_display_name": "상향 대기 질주 가속도 배율",
+      "translation_description": "상향 대기 상태에서 질주 가속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Stamina Rate",
+      "source_display_name": "High Ready Stamina Rate",
+      "source_description": "Rate at which arm stamina regenerates while in High Ready.",
+      "translation_display_name": "상향 대기 팔 스태미나 회복률",
+      "translation_description": "상향 대기 상태에서 팔 스태미나 회복 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition From: Idle",
+      "source_display_name": "High Ready Transition From: Idle",
+      "source_description": "Speed of entering High Ready from idle (no previous stance).",
+      "translation_display_name": "기본 자세 → 상향 대기 전환 속도",
+      "translation_description": "상향 대기 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition To: Idle",
+      "source_display_name": "High Ready Transition To: Idle",
+      "source_description": "Speed of exiting High Ready to idle (no next stance).",
+      "translation_display_name": "상향 대기 → 기본 자세 전환 속도",
+      "translation_description": "상향 대기 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Blend Threshold: Active Aim",
+      "source_display_name": "High Ready Blend Threshold: Active Aim",
+      "source_description": "",
+      "translation_display_name": "상향 대기 ↔ 능동 조준 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Blend Threshold: Low Ready",
+      "source_display_name": "High Ready Blend Threshold: Low Ready",
+      "source_description": "",
+      "translation_display_name": "상향 대기 ↔ 하향 대기 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Blend Threshold: Left Shoulder",
+      "source_display_name": "High Ready Blend Threshold: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "상향 대기 ↔ 왼쪽 견착 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Blend Threshold: Patrol",
+      "source_display_name": "High Ready Blend Threshold: Patrol",
+      "source_description": "",
+      "translation_display_name": "상향 대기 ↔ 순찰 자세 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Blend Threshold: Short-Stock",
+      "source_display_name": "High Ready Blend Threshold: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "상향 대기 ↔ 단축 견착 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition From: Active Aim",
+      "source_display_name": "High Ready Transition From: Active Aim",
+      "source_description": "",
+      "translation_display_name": "능동 조준 → 상향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition From: Low Ready",
+      "source_display_name": "High Ready Transition From: Low Ready",
+      "source_description": "",
+      "translation_display_name": "하향 대기 → 상향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition From: Left Shoulder",
+      "source_display_name": "High Ready Transition From: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 → 상향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition From: Patrol",
+      "source_display_name": "High Ready Transition From: Patrol",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 → 상향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition From: Short-Stock",
+      "source_display_name": "High Ready Transition From: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "단축 견착 → 상향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition To Speed: Active Aim",
+      "source_display_name": "High Ready Transition To Speed: Active Aim",
+      "source_description": "",
+      "translation_display_name": "상향 대기 → 능동 조준 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition To Speed: Low Ready",
+      "source_display_name": "High Ready Transition To Speed: Low Ready",
+      "source_description": "",
+      "translation_display_name": "상향 대기 → 하향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition To Speed: Left Shoulder",
+      "source_display_name": "High Ready Transition To Speed: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "상향 대기 → 왼쪽 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition To Speed: Patrol",
+      "source_display_name": "High Ready Transition To Speed: Patrol",
+      "source_description": "",
+      "translation_display_name": "상향 대기 → 순찰 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Transition To Speed: Short-Stock",
+      "source_display_name": "High Ready Transition To Speed: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "상향 대기 → 단축 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Speed Modifier",
+      "source_display_name": "High Ready Speed Modifier",
+      "source_description": "Multiplier applied to all stance transition speeds while in High Ready.",
+      "translation_display_name": "상향 대기 속도 배율",
+      "translation_description": "상향 대기 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Magazine Reload Speed Modifier",
+      "source_display_name": "High Ready Magazine Reload Speed Modifier",
+      "source_description": "Multiplier applied to magazine reload speed while in High Ready.",
+      "translation_display_name": "상향 대기 탄창 재장전 속도 배율",
+      "translation_description": "상향 대기 상태에서 탄창 재장전 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Weapon Manipulation Speed Modifier",
+      "source_display_name": "High Ready Weapon Manipulation Speed Modifier",
+      "source_description": "Multiplier applied to chamber check, rechamber, malf fix speed while in High Ready.",
+      "translation_display_name": "상향 대기 총기 조작 속도 배율",
+      "translation_description": "상향 대기 상태에서 약실 확인·재장전·작동 불량 해결 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Tube Reload Speed Modifier",
+      "source_display_name": "High Ready Tube Reload Speed Modifier",
+      "source_description": "Multiplier applied to tube reload speed while in High Ready.",
+      "translation_display_name": "상향 대기 관형 탄창 장전 속도 배율",
+      "translation_description": "상향 대기 상태에서 관형 탄창 장전 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "8. High Ready",
+      "key": "High Ready Top Reload Speed Modifier",
+      "source_display_name": "High Ready Top Reload Speed Modifier",
+      "source_description": "Multiplier applied to top reload speed while in High Ready.",
+      "translation_display_name": "상향 대기 상부 장전 속도 배율",
+      "translation_description": "상향 대기 상태에서 상부 장전 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Keybind",
+      "source_display_name": "Low Ready Keybind",
+      "source_description": "",
+      "translation_display_name": "하향 대기 단축키",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Walk Speed Modifier",
+      "source_display_name": "Low Ready Walk Speed Modifier",
+      "source_description": "Multiplier applied to walk speed while in Low Ready.",
+      "translation_display_name": "하향 대기 걷기 속도 배율",
+      "translation_description": "하향 대기 상태에서 걷기 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Sprint Accel Modifier",
+      "source_display_name": "Low Ready Sprint Accel Modifier",
+      "source_description": "Multiplier applied to sprint acceleration while in Low Ready.",
+      "translation_display_name": "하향 대기 질주 가속도 배율",
+      "translation_description": "하향 대기 상태에서 질주 가속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Stamina Rate",
+      "source_display_name": "Low Ready Stamina Rate",
+      "source_description": "Rate at which arm stamina regenerates while in Low Ready.",
+      "translation_display_name": "하향 대기 팔 스태미나 회복률",
+      "translation_description": "하향 대기 상태에서 팔 스태미나 회복 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition From: Idle",
+      "source_display_name": "Low Ready Transition From: Idle",
+      "source_description": "Speed of entering Low Ready from idle (no previous stance).",
+      "translation_display_name": "기본 자세 → 하향 대기 전환 속도",
+      "translation_description": "하향 대기 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition To: Idle",
+      "source_display_name": "Low Ready Transition To: Idle",
+      "source_description": "Speed of exiting Low Ready to idle (no next stance).",
+      "translation_display_name": "하향 대기 → 기본 자세 전환 속도",
+      "translation_description": "하향 대기 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Blend Threshold: Active Aim",
+      "source_display_name": "Low Ready Blend Threshold: Active Aim",
+      "source_description": "",
+      "translation_display_name": "하향 대기 ↔ 능동 조준 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Blend Threshold: High Ready",
+      "source_display_name": "Low Ready Blend Threshold: High Ready",
+      "source_description": "",
+      "translation_display_name": "하향 대기 ↔ 상향 대기 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Blend Threshold: Left Shoulder",
+      "source_display_name": "Low Ready Blend Threshold: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "하향 대기 ↔ 왼쪽 견착 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Blend Threshold: Patrol",
+      "source_display_name": "Low Ready Blend Threshold: Patrol",
+      "source_description": "",
+      "translation_display_name": "하향 대기 ↔ 순찰 자세 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Blend Threshold: Short-Stock",
+      "source_display_name": "Low Ready Blend Threshold: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "하향 대기 ↔ 단축 견착 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition From: Active Aim",
+      "source_display_name": "Low Ready Transition From: Active Aim",
+      "source_description": "",
+      "translation_display_name": "능동 조준 → 하향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition From: High Ready",
+      "source_display_name": "Low Ready Transition From: High Ready",
+      "source_description": "",
+      "translation_display_name": "상향 대기 → 하향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition From: Left Shoulder",
+      "source_display_name": "Low Ready Transition From: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 → 하향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition From: Patrol",
+      "source_display_name": "Low Ready Transition From: Patrol",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 → 하향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition From: Short-Stock",
+      "source_display_name": "Low Ready Transition From: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "단축 견착 → 하향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition To Speed: Active Aim",
+      "source_display_name": "Low Ready Transition To Speed: Active Aim",
+      "source_description": "",
+      "translation_display_name": "하향 대기 → 능동 조준 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition To Speed: High Ready",
+      "source_display_name": "Low Ready Transition To Speed: High Ready",
+      "source_description": "",
+      "translation_display_name": "하향 대기 → 상향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition To Speed: Left Shoulder",
+      "source_display_name": "Low Ready Transition To Speed: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "하향 대기 → 왼쪽 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition To Speed: Patrol",
+      "source_display_name": "Low Ready Transition To Speed: Patrol",
+      "source_description": "",
+      "translation_display_name": "하향 대기 → 순찰 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Transition To Speed: Short-Stock",
+      "source_display_name": "Low Ready Transition To Speed: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "하향 대기 → 단축 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Speed Modifier",
+      "source_display_name": "Low Ready Speed Modifier",
+      "source_description": "Multiplier applied to all stance transition speeds while in Low Ready.",
+      "translation_display_name": "하향 대기 속도 배율",
+      "translation_description": "하향 대기 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Magazine Reload Speed Modifier",
+      "source_display_name": "Low Ready Magazine Reload Speed Modifier",
+      "source_description": "Multiplier applied to magazine reload speed while in Low Ready.",
+      "translation_display_name": "하향 대기 탄창 재장전 속도 배율",
+      "translation_description": "하향 대기 상태에서 탄창 재장전 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Chamber Reload Speed Modifier",
+      "source_display_name": "Low Ready Chamber Reload Speed Modifier",
+      "source_description": "Multiplier applied to chamber check, rechamber, malf fix speed while in Low Ready.",
+      "translation_display_name": "하향 대기 약실 조작 속도 배율",
+      "translation_description": "하향 대기 상태에서 약실 확인·재장전·작동 불량 해결 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Tube Reload Speed Modifier",
+      "source_display_name": "Low Ready Tube Reload Speed Modifier",
+      "source_description": "Multiplier applied to tube reload speed while in Low Ready.",
+      "translation_display_name": "하향 대기 관형 탄창 장전 속도 배율",
+      "translation_description": "하향 대기 상태에서 관형 탄창 장전 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "9. Low Ready",
+      "key": "Low Ready Top Reload Speed Modifier",
+      "source_display_name": "Low Ready Top Reload Speed Modifier",
+      "source_description": "Multiplier applied to top reload speed while in Low Ready.",
+      "translation_display_name": "하향 대기 상부 장전 속도 배율",
+      "translation_description": "하향 대기 상태에서 상부 장전 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Keybind",
+      "source_display_name": "Short-Stock Keybind",
+      "source_description": "Tucks The Weapon's Stock Under Player's Arm, Shortening The Overall Length Of The Wweapon To Prevent Muzzle Being Pushed Away From Target.",
+      "translation_display_name": "단축 견착 단축키",
+      "translation_description": "개머리판을 팔 아래에 끼워 무기의 전체 길이를 줄입니다. 좁은 공간에서 총구가 목표에서 밀려나지 않도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Walk Speed Modifier",
+      "source_display_name": "Short-Stock Walk Speed Modifier",
+      "source_description": "Multiplier applied to walk speed while Short-Stocking.",
+      "translation_display_name": "단축 견착 걷기 속도 배율",
+      "translation_description": "단축 견착 상태에서 걷기 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Sprint Accel Modifier",
+      "source_display_name": "Short-Stock Sprint Accel Modifier",
+      "source_description": "Multiplier applied to sprint acceleration while Short-Stocking.",
+      "translation_display_name": "단축 견착 질주 가속도 배율",
+      "translation_description": "단축 견착 상태에서 질주 가속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Stamina Rate",
+      "source_display_name": "Short-Stock Stamina Rate",
+      "source_description": "Rate at which arm stamina regenerates while Short-Stocking.",
+      "translation_display_name": "단축 견착 팔 스태미나 회복률",
+      "translation_description": "단축 견착 상태에서 팔 스태미나 회복 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Hipfire Bonus",
+      "source_display_name": "Short-Stock Hipfire Bonus",
+      "source_description": "Multiplier applied to hipfire accuracy while Short-Stocking.",
+      "translation_display_name": "단축 견착 비조준 사격 정확도 보정",
+      "translation_description": "단축 견착 상태에서 비조준 사격 정확도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition From: Idle",
+      "source_display_name": "Short-Stock Transition From: Idle",
+      "source_description": "Speed of entering Short-Stock from idle (no previous stance).",
+      "translation_display_name": "기본 자세 → 단축 견착 전환 속도",
+      "translation_description": "단축 견착 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition To: Idle",
+      "source_display_name": "Short-Stock Transition To: Idle",
+      "source_description": "Speed of exiting Short-Stock to idle (no next stance).",
+      "translation_display_name": "단축 견착 → 기본 자세 전환 속도",
+      "translation_description": "단축 견착 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Blend Threshold: Active Aim",
+      "source_display_name": "Short-Stock Blend Threshold: Active Aim",
+      "source_description": "",
+      "translation_display_name": "단축 견착 ↔ 능동 조준 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Blend Threshold: High Ready",
+      "source_display_name": "Short-Stock Blend Threshold: High Ready",
+      "source_description": "",
+      "translation_display_name": "단축 견착 ↔ 상향 대기 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Blend Threshold: Low Ready",
+      "source_display_name": "Short-Stock Blend Threshold: Low Ready",
+      "source_description": "",
+      "translation_display_name": "단축 견착 ↔ 하향 대기 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Blend Threshold: Patrol",
+      "source_display_name": "Short-Stock Blend Threshold: Patrol",
+      "source_description": "",
+      "translation_display_name": "단축 견착 ↔ 순찰 자세 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Blend Threshold: Left Shoulder",
+      "source_display_name": "Short-Stock Blend Threshold: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "단축 견착 ↔ 왼쪽 견착 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition From: Active Aim",
+      "source_display_name": "Short-Stock Transition From: Active Aim",
+      "source_description": "",
+      "translation_display_name": "능동 조준 → 단축 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition From: High Ready",
+      "source_display_name": "Short-Stock Transition From: High Ready",
+      "source_description": "",
+      "translation_display_name": "상향 대기 → 단축 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition From: Low Ready",
+      "source_display_name": "Short-Stock Transition From: Low Ready",
+      "source_description": "",
+      "translation_display_name": "하향 대기 → 단축 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition From: Patrol",
+      "source_display_name": "Short-Stock Transition From: Patrol",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 → 단축 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition From: Left Shoulder",
+      "source_display_name": "Short-Stock Transition From: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 → 단축 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition To Speed: Active Aim",
+      "source_display_name": "Short-Stock Transition To Speed: Active Aim",
+      "source_description": "",
+      "translation_display_name": "단축 견착 → 능동 조준 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition To Speed: High Ready",
+      "source_display_name": "Short-Stock Transition To Speed: High Ready",
+      "source_description": "",
+      "translation_display_name": "단축 견착 → 상향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition To Speed: Low Ready",
+      "source_display_name": "Short-Stock Transition To Speed: Low Ready",
+      "source_description": "",
+      "translation_display_name": "단축 견착 → 하향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition To Speed: Patrol",
+      "source_display_name": "Short-Stock Transition To Speed: Patrol",
+      "source_description": "",
+      "translation_display_name": "단축 견착 → 순찰 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Transition To Speed: Left Shoulder",
+      "source_display_name": "Short-Stock Transition To Speed: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "단축 견착 → 왼쪽 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Speed Modifier",
+      "source_display_name": "Short-Stock Speed Modifier",
+      "source_description": "Multiplier applied to all stance transition speeds while Short-Stocking.",
+      "translation_display_name": "단축 견착 속도 배율",
+      "translation_description": "단축 견착 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "10. Short-Stocking",
+      "key": "Short-Stock Pump Action Speed Modifier",
+      "source_display_name": "Short-Stock Pump Action Speed Modifier",
+      "source_description": "Multiplier applied to pump action speed while Short-Stocking.",
+      "translation_display_name": "단축 견착 펌프 작동 속도 배율",
+      "translation_description": "단축 견착 상태에서 펌프 작동 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol/Neutral Stance Keybind",
+      "source_display_name": "Patrol/Neutral Stance Keybind",
+      "source_description": "Puts The Weapon In A Neutral Position, Improving Arm Stam Regen And Walk Speed. For Maximum Larping.",
+      "translation_display_name": "순찰·중립 자세 단축키",
+      "translation_description": "무기를 중립 위치에 두어 팔 스태미나 회복과 걷기 속도를 높입니다. 실제 군사 행동처럼 몰입하는 데도 좋습니다.",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Walk Speed Modifier",
+      "source_display_name": "Patrol Walk Speed Modifier",
+      "source_description": "Multiplier applied to walk speed while in Patrol stance.",
+      "translation_display_name": "순찰 자세 걷기 속도 배율",
+      "translation_description": "Patrol stance 상태에서 걷기 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Sprint Accel Modifier",
+      "source_display_name": "Patrol Sprint Accel Modifier",
+      "source_description": "Multiplier applied to sprint acceleration while in Patrol stance.",
+      "translation_display_name": "순찰 자세 질주 가속도 배율",
+      "translation_description": "Patrol stance 상태에서 질주 가속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Stamina Rate",
+      "source_display_name": "Patrol Stamina Rate",
+      "source_description": "Rate at which arm stamina regenerates while in Patrol stance.",
+      "translation_display_name": "순찰 자세 팔 스태미나 회복률",
+      "translation_description": "Patrol stance 상태에서 팔 스태미나 회복 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition From: Idle",
+      "source_display_name": "Patrol Transition From: Idle",
+      "source_description": "Speed of entering Patrol stance from idle (no previous stance).",
+      "translation_display_name": "기본 자세 → 순찰 자세 전환 속도",
+      "translation_description": "Patrol stance 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition To: Idle",
+      "source_display_name": "Patrol Transition To: Idle",
+      "source_description": "Speed of exiting Patrol stance to idle (no next stance).",
+      "translation_display_name": "순찰 자세 → 기본 자세 전환 속도",
+      "translation_description": "Patrol stance 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Blend Threshold: Active Aim",
+      "source_display_name": "Patrol Blend Threshold: Active Aim",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 ↔ 능동 조준 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Blend Threshold: High Ready",
+      "source_display_name": "Patrol Blend Threshold: High Ready",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 ↔ 상향 대기 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Blend Threshold: Low Ready",
+      "source_display_name": "Patrol Blend Threshold: Low Ready",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 ↔ 하향 대기 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Blend Threshold: Left Shoulder",
+      "source_display_name": "Patrol Blend Threshold: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 ↔ 왼쪽 견착 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Blend Threshold: Short-Stock",
+      "source_display_name": "Patrol Blend Threshold: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 ↔ 단축 견착 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Blend Threshold: Pistol",
+      "source_display_name": "Patrol Blend Threshold: Pistol",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 ↔ 권총 자세 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition From: Active Aim",
+      "source_display_name": "Patrol Transition From: Active Aim",
+      "source_description": "",
+      "translation_display_name": "능동 조준 → 순찰 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition From: Pistol",
+      "source_display_name": "Patrol Transition From: Pistol",
+      "source_description": "",
+      "translation_display_name": "권총 자세 → 순찰 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition From: High Ready",
+      "source_display_name": "Patrol Transition From: High Ready",
+      "source_description": "",
+      "translation_display_name": "상향 대기 → 순찰 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition From: Low Ready",
+      "source_display_name": "Patrol Transition From: Low Ready",
+      "source_description": "",
+      "translation_display_name": "하향 대기 → 순찰 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition From: Left Shoulder",
+      "source_display_name": "Patrol Transition From: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 → 순찰 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition From: Short-Stock",
+      "source_display_name": "Patrol Transition From: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "단축 견착 → 순찰 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition To Speed: Active Aim",
+      "source_display_name": "Patrol Transition To Speed: Active Aim",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 → 능동 조준 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition To Speed: Pistol",
+      "source_display_name": "Patrol Transition To Speed: Pistol",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 → 권총 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition To Speed: High Ready",
+      "source_display_name": "Patrol Transition To Speed: High Ready",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 → 상향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition To Speed: Low Ready",
+      "source_display_name": "Patrol Transition To Speed: Low Ready",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 → 하향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition To Speed: Left Shoulder",
+      "source_display_name": "Patrol Transition To Speed: Left Shoulder",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 → 왼쪽 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Transition To Speed: Short-Stock",
+      "source_display_name": "Patrol Transition To Speed: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 → 단축 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "11. Patrol Stance",
+      "key": "Patrol Speed Modifier",
+      "source_display_name": "Patrol Speed Modifier",
+      "source_description": "Multiplier applied to all stance transition speeds while in Patrol stance.",
+      "translation_display_name": "순찰 자세 속도 배율",
+      "translation_description": "Patrol stance 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Walk Speed Modifier",
+      "source_display_name": "Left Shoulder Walk Speed Modifier",
+      "source_description": "Multiplier applied to walk speed while in Left Shoulder stance.",
+      "translation_display_name": "왼쪽 견착 걷기 속도 배율",
+      "translation_description": "Left Shoulder stance 상태에서 걷기 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Sprint Accel Modifier",
+      "source_display_name": "Left Shoulder Sprint Accel Modifier",
+      "source_description": "Multiplier applied to sprint acceleration while in Left Shoulder stance.",
+      "translation_display_name": "왼쪽 견착 질주 가속도 배율",
+      "translation_description": "Left Shoulder stance 상태에서 질주 가속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Stamina Rate",
+      "source_display_name": "Left Shoulder Stamina Rate",
+      "source_description": "Rate at which arm stamina changes while in Left Shoulder stance.",
+      "translation_display_name": "왼쪽 견착 팔 스태미나 회복률",
+      "translation_description": "Left Shoulder stance 상태에서 팔 스태미나 변화 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Hipfire Bonus",
+      "source_display_name": "Left Shoulder Hipfire Bonus",
+      "source_description": "Multiplier applied to hipfire accuracy while in Left Shoulder stance.",
+      "translation_display_name": "왼쪽 견착 비조준 사격 정확도 보정",
+      "translation_description": "Left Shoulder stance 상태에서 비조준 사격 정확도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition From: Idle",
+      "source_display_name": "Left Shoulder Transition From: Idle",
+      "source_description": "Speed of entering Left Shoulder from idle (no previous stance).",
+      "translation_display_name": "기본 자세 → 왼쪽 견착 전환 속도",
+      "translation_description": "왼쪽 견착 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition To: Idle",
+      "source_display_name": "Left Shoulder Transition To: Idle",
+      "source_description": "Speed of exiting Left Shoulder to idle (no next stance).",
+      "translation_display_name": "왼쪽 견착 → 기본 자세 전환 속도",
+      "translation_description": "왼쪽 견착 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Blend Threshold: Active Aim",
+      "source_display_name": "Left Shoulder Blend Threshold: Active Aim",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 ↔ 능동 조준 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Blend Threshold: High Ready",
+      "source_display_name": "Left Shoulder Blend Threshold: High Ready",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 ↔ 상향 대기 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Blend Threshold: Low Ready",
+      "source_display_name": "Left Shoulder Blend Threshold: Low Ready",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 ↔ 하향 대기 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Blend Threshold: Patrol",
+      "source_display_name": "Left Shoulder Blend Threshold: Patrol",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 ↔ 순찰 자세 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Blend Threshold: Short-Stock",
+      "source_display_name": "Left Shoulder Blend Threshold: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 ↔ 단축 견착 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition From: Active Aim",
+      "source_display_name": "Left Shoulder Transition From: Active Aim",
+      "source_description": "",
+      "translation_display_name": "능동 조준 → 왼쪽 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition From: High Ready",
+      "source_display_name": "Left Shoulder Transition From: High Ready",
+      "source_description": "",
+      "translation_display_name": "상향 대기 → 왼쪽 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition From: Low Ready",
+      "source_display_name": "Left Shoulder Transition From: Low Ready",
+      "source_description": "",
+      "translation_display_name": "하향 대기 → 왼쪽 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition From: Patrol",
+      "source_display_name": "Left Shoulder Transition From: Patrol",
+      "source_description": "",
+      "translation_display_name": "순찰 자세 → 왼쪽 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition From: Short-Stock",
+      "source_display_name": "Left Shoulder Transition From: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "단축 견착 → 왼쪽 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition To Speed: Active Aim",
+      "source_display_name": "Left Shoulder Transition To Speed: Active Aim",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 → 능동 조준 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition To Speed: High Ready",
+      "source_display_name": "Left Shoulder Transition To Speed: High Ready",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 → 상향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition To Speed: Low Ready",
+      "source_display_name": "Left Shoulder Transition To Speed: Low Ready",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 → 하향 대기 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition To Speed: Patrol",
+      "source_display_name": "Left Shoulder Transition To Speed: Patrol",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 → 순찰 자세 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Transition To Speed: Short-Stock",
+      "source_display_name": "Left Shoulder Transition To Speed: Short-Stock",
+      "source_description": "",
+      "translation_display_name": "왼쪽 견착 → 단축 견착 전환 속도",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Speed Modifier",
+      "source_display_name": "Left Shoulder Speed Modifier",
+      "source_description": "Multiplier applied to all stance transition speeds while in Left Shoulder stance.",
+      "translation_display_name": "왼쪽 견착 속도 배율",
+      "translation_description": "Left Shoulder stance 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "12. Left Shoulder",
+      "key": "Left Shoulder Pump Action Speed Modifier",
+      "source_display_name": "Left Shoulder Pump Action Speed Modifier",
+      "source_description": "Multiplier applied to pump action speed while in Left Shoulder stance.",
+      "translation_display_name": "왼쪽 견착 펌프 작동 속도 배율",
+      "translation_description": "Left Shoulder stance 상태에서 펌프 작동 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Speed Modifier",
+      "source_display_name": "Pistol Speed Modifier",
+      "source_description": "Multiplier applied to all stance transition speeds while using a pistol.",
+      "translation_display_name": "권총 자세 전환 속도 배율",
+      "translation_description": "a pistol 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Enter Walk Speed Modifier",
+      "source_display_name": "Pistol Enter Walk Speed Modifier",
+      "source_description": "Multiplier applied to walk speed when in pistol stance.",
+      "translation_display_name": "권총 자세 진입 시 걷기 속도 배율",
+      "translation_description": "권총 자세일 때 걷기 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Enter Sprint Accel Modifier",
+      "source_display_name": "Pistol Enter Sprint Accel Modifier",
+      "source_description": "Multiplier applied to sprint acceleration when in pistol stance.",
+      "translation_display_name": "권총 자세 진입 시 질주 가속도 배율",
+      "translation_description": "권총 자세일 때 질주 가속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Stamina Rate",
+      "source_display_name": "Pistol Stamina Rate",
+      "source_description": "Rate at which arm stamina regenerates while in pistol stance.",
+      "translation_display_name": "권총 자세 팔 스태미나 회복률",
+      "translation_description": "pistol stance 상태에서 팔 스태미나 회복 속도입니다.",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Enter Hipfire Bonus",
+      "source_display_name": "Pistol Enter Hipfire Bonus",
+      "source_description": "Multiplier applied to hipfire accuracy when in pistol stance.",
+      "translation_display_name": "권총 자세 진입 시 비조준 사격 정확도 보정",
+      "translation_description": "권총 자세일 때 비조준 사격 정확도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Blend Threshold: Patrol Stance",
+      "source_display_name": "Pistol Blend Threshold: Patrol Stance",
+      "source_description": "",
+      "translation_display_name": "권총 자세 ↔ 순찰 자세 혼합 임계값",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Transition From: Idle",
+      "source_display_name": "Pistol Transition From: Idle",
+      "source_description": "Speed of entering pistol stance from idle (no previous stance).",
+      "translation_display_name": "기본 자세 → 권총 자세 전환 속도",
+      "translation_description": "pistol stance 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Transition From: Patrol Stance",
+      "source_display_name": "Pistol Transition From: Patrol Stance",
+      "source_description": "Speed of entering pistol stance from Patrol Stance.",
+      "translation_display_name": "순찰 자세 → 권총 자세 전환 속도",
+      "translation_description": "pistol stance 자세에 진입하는 전환 속도입니다. (Patrol Stance)",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Transition To: Idle",
+      "source_display_name": "Pistol Transition To: Idle",
+      "source_description": "Speed of exiting pistol stance to idle (no next stance).",
+      "translation_display_name": "권총 자세 → 기본 자세 전환 속도",
+      "translation_description": "pistol stance 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Transition To: Patrol Stance",
+      "source_display_name": "Pistol Transition To: Patrol Stance",
+      "source_description": "Speed of exiting pistol stance to Patrol Stance.",
+      "translation_display_name": "권총 자세 → 순찰 자세 전환 속도",
+      "translation_description": "pistol stance 자세에 서 벗어나는하는 전환 속도입니다. (Patrol Stance)",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Magazine Reload Speed Modifier",
+      "source_display_name": "Pistol Magazine Reload Speed Modifier",
+      "source_description": "Multiplier applied to magazine reload speed while in pistol stance.",
+      "translation_display_name": "권총 자세 탄창 재장전 속도 배율",
+      "translation_description": "pistol stance 상태에서 탄창 재장전 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Revolver Reload Speed Modifier",
+      "source_display_name": "Pistol Revolver Reload Speed Modifier",
+      "source_description": "Multiplier applied to revolver reload speed while in pistol stance.",
+      "translation_display_name": "권총 자세 리볼버 재장전 속도 배율",
+      "translation_description": "pistol stance 상태에서 리볼버 재장전 속도에 적용하는 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "13. Pistol Stance",
+      "key": "Pistol Chamber Reload Speed Modifier",
+      "source_display_name": "Pistol Chamber Reload Speed Modifier",
+      "source_description": "Multiplier applied to chamber reload speed while in pistol stance.",
+      "translation_display_name": "권총 자세 약실 조작 속도 배율",
+      "translation_description": "pistol stance 상태에서 약실 장전 속도에 적용하는 배율입니다.",
+      "values": []
+    }
+  ]
+}

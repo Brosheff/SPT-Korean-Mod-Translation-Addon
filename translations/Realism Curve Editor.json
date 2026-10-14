@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "smallui.realismcurveeditor",
+  "mod_name": "Realism Common Lib Curve Editor",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "curve.001",
+        "source": "Curve Editor",
+        "translation": "커브 편집기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.002",
+        "source": "=== Curve Editor ===",
+        "translation": "=== 커브 편집기 ===",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.003",
+        "source": "Curves:",
+        "translation": "커브 목록:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.004",
+        "source": "New Curve",
+        "translation": "새 커브",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.005",
+        "source": "Delete Curve",
+        "translation": "커브 삭제",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.006",
+        "source": "Axis:",
+        "translation": "축:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.007",
+        "source": "Keyframes:",
+        "translation": "키프레임:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.008",
+        "source": "Add New Key",
+        "translation": "새 키 추가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.009",
+        "source": "Delete Selected Key",
+        "translation": "선택한 키 삭제",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.010",
+        "source": "Editor:",
+        "translation": "편집:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.011",
+        "source": "Time",
+        "translation": "시간",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.012",
+        "source": "Value",
+        "translation": "값",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.013",
+        "source": "In Tangent",
+        "translation": "진입 접선",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.014",
+        "source": "Out Tangent",
+        "translation": "이탈 접선",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.015",
+        "source": "Apply",
+        "translation": "적용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.016",
+        "source": "Log Current Curve",
+        "translation": "현재 커브 로그 기록",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.017",
+        "source": "Log ALL Curves",
+        "translation": "모든 커브 로그 기록",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.018",
+        "source": "Persistence",
+        "translation": "저장 및 불러오기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.019",
+        "source": "Save Curves",
+        "translation": "커브 저장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "curve.020",
+        "source": "Reload Curves",
+        "translation": "커브 다시 불러오기",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

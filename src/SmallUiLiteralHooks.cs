@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -225,6 +225,10 @@ namespace SPT.ModKoreanAddon
             // SOURCE3 Menu Overhaul 1.3.0: custom TMP experience label created in this exact method.
             new Target("smallui.menuoverhaul", "MoxoPixel.MenuOverhaul", "MoxoPixel.MenuOverhaul.Helpers.Services.PlayerProfileViewService", "CreateExperienceRow", 1),
             new Target("smallui.skipper", "terkoiz-skipper", "Terkoiz.Skipper.QuestObjectiveViewPatch", "PatchPostfix", 5),
+            // SOURCE4 Realism Common Lib 0.0.2: dedicated curve editor IMGUI literals only.
+            // Never translate generated curve IDs or axis enum values, which are data, not captions.
+            new Target("smallui.realismcurveeditor", "spt-realism-common-lib", "RealismCommonLib.Utils.CurveDrawer", "DrawGUI", 0),
+            new Target("smallui.realismcurveeditor", "spt-realism-common-lib", "RealismCommonLib.Utils.CurveDrawer", "DrawContents", 0),
             // SOURCE3 Suomi-PRT 1.0.2: these are the only visible English literals that bypass
             // the mod's own L(...) localization helper. Scope both to their exact source methods.
             new Target("source3.suomi_prt", "RadioMod.Client", "RadioMod.Client.Plugin", "DrawClearRecordingsButton", 1),

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "target_spt": "4.1.6",
   "plugin_guid": "com.harmonyzt.BringBackConcussion",
-  "plugin_name": "BringBackConcussion-master",
+  "plugin_name": "Bring Back Concussion",
   "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
   "categories": [
     {
@@ -77,18 +77,18 @@
       "section": "General",
       "key": "Tinnitus Effect",
       "source_display_name": "Tinnitus Effect",
-      "source_description": "Enable/Disable tinnitus effect (tinnitus only occurs if no headset is equipped). To completely disable tinnitus, make sure you have Always Mitigate Tinnitus Effect checked",
+      "source_description": "Enable/Disable tinnitus effect (tinnitus only occurs if no headset is equipped). To suppress tinnitus while flashed, keep Always Mitigate Tinnitus Effect checked",
       "translation_display_name": "이명 효과",
-      "translation_description": "이명 효과 사용 여부를 설정합니다. 기본적으로 헤드셋을 착용하지 않았을 때만 이명이 발생합니다. 이명을 완전히 막으려면 「섬광·뇌진탕 동시 발생 시 이명 완화」도 활성화해야 합니다.",
+      "translation_description": "이명 효과를 활성화합니다. 헤드셋을 착용하지 않은 경우에만 발생합니다. 섬광탄 피격 중 이명을 억제하려면 이명 효과 항상 완화를 켜십시오.",
       "values": []
     },
     {
       "section": "Misc",
       "key": "Always Mitigate Tinnitus Effect",
       "source_display_name": "Always Mitigate Tinnitus Effect",
-      "source_description": "Enable/Disable mitigation of tinnitus effect playing at all costs if you get flashed and contused at the same time",
+      "source_description": "If enabled, tinnitus will not play while (or at all times) you are flashed and concussed at the same time",
       "translation_display_name": "섬광·뇌진탕 동시 발생 시 이명 완화",
-      "translation_description": "섬광과 뇌진탕이 동시에 발생했을 때 이명 효과를 항상 완화하도록 합니다.",
+      "translation_description": "섬광과 뇌진탕이 동시에 발생할 때 이명이 재생되지 않도록 합니다.",
       "values": []
     },
     {
@@ -142,8 +142,62 @@
       "source_display_name": "Ignore Tinnitus Equipment Checks",
       "source_description": "If enabled, tinnitus will play even if you have headset equipped. Overrides Tinnitus Effect setting when enabled.",
       "translation_display_name": "헤드셋 착용 여부와 무관하게 이명 재생",
-      "translation_description": "헤드셋을 착용했는지 검사하지 않고 이명 효과를 재생합니다. 활성화하면 일반 이명 효과 설정의 장비 조건보다 우선합니다.",
+      "translation_description": "헤드셋을 착용했어도 이명이 발생하도록 합니다. 켜면 이명 효과 설정에 우선합니다.",
       "values": []
+    },
+    {
+      "section": "General",
+      "key": "Concussion From Nearby Explosions",
+      "values": [],
+      "source_display_name": "Concussion From Nearby Explosions",
+      "source_description": "Apply concussion, tinnitus and panic mechanics when an explosion happens near you, even if no fragments hit you. Radius is limited by Explosion Effect Radius",
+      "translation_display_name": "근접 폭발 시 뇌진탕",
+      "translation_description": "파편에 맞지 않더라도 근처에서 폭발이 발생하면 뇌진탕, 이명, 공황 효과를 적용합니다. 적용 범위는 폭발 효과 반경으로 제한됩니다."
+    },
+    {
+      "section": "General",
+      "key": "Explosion Effect Radius",
+      "values": [],
+      "source_display_name": "Explosion Effect Radius",
+      "source_description": "How close (in meters) an explosion must be to trigger the mod's concussion/tinnitus/sound cutoff effects. Overrides the grenade's own default explosion radius (not the damage itself)",
+      "translation_display_name": "폭발 효과 반경",
+      "translation_description": "폭발에 따른 뇌진탕·이명·소리 차단 효과가 발생하는 거리(미터)입니다. 수류탄 자체의 기본 폭발 반경을 대체하지만 피해량에는 영향을 주지 않습니다."
+    },
+    {
+      "section": "General",
+      "key": "Adrenaline Effect",
+      "values": [],
+      "source_display_name": "Adrenaline Effect",
+      "source_description": "Enable/Disable chance-based adrenaline (painkiller) effect upon receiving a head hit. Chance scales with Stress Resistance skill level",
+      "translation_display_name": "아드레날린 효과",
+      "translation_description": "머리에 피격될 때 일정 확률로 아드레날린(진통제) 효과가 발동합니다. 발동 확률은 스트레스 저항 스킬에 따라 달라집니다."
+    },
+    {
+      "section": "General",
+      "key": "Adrenaline Duration",
+      "values": [],
+      "source_display_name": "Adrenaline Duration",
+      "source_description": "Determines how long the adrenaline (painkiller) effect lasts in seconds",
+      "translation_display_name": "아드레날린 지속 시간",
+      "translation_description": "아드레날린(진통제) 효과가 지속되는 시간(초)입니다."
+    },
+    {
+      "section": "Audio",
+      "key": "Cut Off Sound On Explosion",
+      "values": [],
+      "source_display_name": "Cut Off Sound On Explosion",
+      "source_description": "Cut off world sound when an explosion happens nearby. The closer the explosion, the deeper the cut; sound then fades back in. A concurrent tinnitus ring is preserved",
+      "translation_display_name": "폭발 시 주변 소리 차단",
+      "translation_description": "근처에서 폭발이 발생하면 주변 환경음을 차단합니다. 가까울수록 차단 정도가 크며 소리가 서서히 돌아옵니다. 동시에 발생한 이명은 유지됩니다."
+    },
+    {
+      "section": "Audio",
+      "key": "Explosion Sound Fade In Time",
+      "values": [],
+      "source_display_name": "Explosion Sound Fade In Time",
+      "source_description": "Determines how many seconds the sound takes to fade back in after an explosion cut off",
+      "translation_display_name": "폭발음 차단 후 소리 복귀 시간",
+      "translation_description": "폭발로 차단된 소리가 다시 들리기까지 걸리는 시간(초)입니다."
     }
   ]
 }
