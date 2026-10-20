@@ -707,7 +707,7 @@
       "source_display_name": "Active Aim Transition From: Idle",
       "source_description": "Speed of entering Active Aim from idle (no previous stance).",
       "translation_display_name": "기본 자세 → 능동 조준 전환 속도",
-      "translation_description": "능동 조준 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "translation_description": "기본 자세에서 능동 조준(으)로 전환하는 속도입니다. (이전 자세 없음)",
       "values": []
     },
     {
@@ -716,7 +716,7 @@
       "source_display_name": "Active Aim Transition To: Idle",
       "source_description": "Speed of exiting Active Aim to idle (no next stance).",
       "translation_display_name": "능동 조준 → 기본 자세 전환 속도",
-      "translation_description": "능동 조준 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "translation_description": "능동 조준에서 기본 자세로 돌아가는 속도입니다. (다음 자세 없음)",
       "values": []
     },
     {
@@ -932,7 +932,7 @@
       "source_display_name": "High Ready Transition From: Idle",
       "source_description": "Speed of entering High Ready from idle (no previous stance).",
       "translation_display_name": "기본 자세 → 상향 대기 전환 속도",
-      "translation_description": "상향 대기 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "translation_description": "기본 자세에서 상향 대기(으)로 전환하는 속도입니다. (이전 자세 없음)",
       "values": []
     },
     {
@@ -941,7 +941,7 @@
       "source_display_name": "High Ready Transition To: Idle",
       "source_description": "Speed of exiting High Ready to idle (no next stance).",
       "translation_display_name": "상향 대기 → 기본 자세 전환 속도",
-      "translation_description": "상향 대기 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "translation_description": "상향 대기에서 기본 자세로 돌아가는 속도입니다. (다음 자세 없음)",
       "values": []
     },
     {
@@ -1166,7 +1166,7 @@
       "source_display_name": "Low Ready Transition From: Idle",
       "source_description": "Speed of entering Low Ready from idle (no previous stance).",
       "translation_display_name": "기본 자세 → 하향 대기 전환 속도",
-      "translation_description": "하향 대기 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "translation_description": "기본 자세에서 하향 대기(으)로 전환하는 속도입니다. (이전 자세 없음)",
       "values": []
     },
     {
@@ -1175,7 +1175,7 @@
       "source_display_name": "Low Ready Transition To: Idle",
       "source_description": "Speed of exiting Low Ready to idle (no next stance).",
       "translation_display_name": "하향 대기 → 기본 자세 전환 속도",
-      "translation_description": "하향 대기 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "translation_description": "하향 대기에서 기본 자세로 돌아가는 속도입니다. (다음 자세 없음)",
       "values": []
     },
     {
@@ -1409,7 +1409,7 @@
       "source_display_name": "Short-Stock Transition From: Idle",
       "source_description": "Speed of entering Short-Stock from idle (no previous stance).",
       "translation_display_name": "기본 자세 → 단축 견착 전환 속도",
-      "translation_description": "단축 견착 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "translation_description": "기본 자세에서 단축 견착(으)로 전환하는 속도입니다. (이전 자세 없음)",
       "values": []
     },
     {
@@ -1418,7 +1418,7 @@
       "source_display_name": "Short-Stock Transition To: Idle",
       "source_description": "Speed of exiting Short-Stock to idle (no next stance).",
       "translation_display_name": "단축 견착 → 기본 자세 전환 속도",
-      "translation_description": "단축 견착 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "translation_description": "단축 견착에서 기본 자세로 돌아가는 속도입니다. (다음 자세 없음)",
       "values": []
     },
     {
@@ -1589,7 +1589,7 @@
       "source_display_name": "Patrol Walk Speed Modifier",
       "source_description": "Multiplier applied to walk speed while in Patrol stance.",
       "translation_display_name": "순찰 자세 걷기 속도 배율",
-      "translation_description": "Patrol stance 상태에서 걷기 속도에 적용하는 배율입니다.",
+      "translation_description": "순찰 자세 상태에서 걷기 속도에 적용하는 배율입니다.",
       "values": []
     },
     {
@@ -1598,7 +1598,7 @@
       "source_display_name": "Patrol Sprint Accel Modifier",
       "source_description": "Multiplier applied to sprint acceleration while in Patrol stance.",
       "translation_display_name": "순찰 자세 질주 가속도 배율",
-      "translation_description": "Patrol stance 상태에서 질주 가속도에 적용하는 배율입니다.",
+      "translation_description": "순찰 자세 상태에서 질주 가속도에 적용하는 배율입니다.",
       "values": []
     },
     {
@@ -1607,7 +1607,7 @@
       "source_display_name": "Patrol Stamina Rate",
       "source_description": "Rate at which arm stamina regenerates while in Patrol stance.",
       "translation_display_name": "순찰 자세 팔 스태미나 회복률",
-      "translation_description": "Patrol stance 상태에서 팔 스태미나 회복 속도입니다.",
+      "translation_description": "순찰 자세 상태에서 팔 스태미나 회복 속도입니다.",
       "values": []
     },
     {
@@ -1616,7 +1616,7 @@
       "source_display_name": "Patrol Transition From: Idle",
       "source_description": "Speed of entering Patrol stance from idle (no previous stance).",
       "translation_display_name": "기본 자세 → 순찰 자세 전환 속도",
-      "translation_description": "Patrol stance 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "translation_description": "기본 자세에서 순찰 자세(으)로 전환하는 속도입니다. (이전 자세 없음)",
       "values": []
     },
     {
@@ -1625,7 +1625,7 @@
       "source_display_name": "Patrol Transition To: Idle",
       "source_description": "Speed of exiting Patrol stance to idle (no next stance).",
       "translation_display_name": "순찰 자세 → 기본 자세 전환 속도",
-      "translation_description": "Patrol stance 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "translation_description": "순찰 자세에서 기본 자세로 돌아가는 속도입니다. (다음 자세 없음)",
       "values": []
     },
     {
@@ -1796,7 +1796,7 @@
       "source_display_name": "Patrol Speed Modifier",
       "source_description": "Multiplier applied to all stance transition speeds while in Patrol stance.",
       "translation_display_name": "순찰 자세 속도 배율",
-      "translation_description": "Patrol stance 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
+      "translation_description": "순찰 자세 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
       "values": []
     },
     {
@@ -1805,7 +1805,7 @@
       "source_display_name": "Left Shoulder Walk Speed Modifier",
       "source_description": "Multiplier applied to walk speed while in Left Shoulder stance.",
       "translation_display_name": "왼쪽 견착 걷기 속도 배율",
-      "translation_description": "Left Shoulder stance 상태에서 걷기 속도에 적용하는 배율입니다.",
+      "translation_description": "왼쪽 견착 상태에서 걷기 속도에 적용하는 배율입니다.",
       "values": []
     },
     {
@@ -1814,7 +1814,7 @@
       "source_display_name": "Left Shoulder Sprint Accel Modifier",
       "source_description": "Multiplier applied to sprint acceleration while in Left Shoulder stance.",
       "translation_display_name": "왼쪽 견착 질주 가속도 배율",
-      "translation_description": "Left Shoulder stance 상태에서 질주 가속도에 적용하는 배율입니다.",
+      "translation_description": "왼쪽 견착 상태에서 질주 가속도에 적용하는 배율입니다.",
       "values": []
     },
     {
@@ -1823,7 +1823,7 @@
       "source_display_name": "Left Shoulder Stamina Rate",
       "source_description": "Rate at which arm stamina changes while in Left Shoulder stance.",
       "translation_display_name": "왼쪽 견착 팔 스태미나 회복률",
-      "translation_description": "Left Shoulder stance 상태에서 팔 스태미나 변화 속도입니다.",
+      "translation_description": "왼쪽 견착 상태에서 팔 스태미나 변화 속도입니다.",
       "values": []
     },
     {
@@ -1832,7 +1832,7 @@
       "source_display_name": "Left Shoulder Hipfire Bonus",
       "source_description": "Multiplier applied to hipfire accuracy while in Left Shoulder stance.",
       "translation_display_name": "왼쪽 견착 비조준 사격 정확도 보정",
-      "translation_description": "Left Shoulder stance 상태에서 비조준 사격 정확도에 적용하는 배율입니다.",
+      "translation_description": "왼쪽 견착 상태에서 비조준 사격 정확도에 적용하는 배율입니다.",
       "values": []
     },
     {
@@ -1841,7 +1841,7 @@
       "source_display_name": "Left Shoulder Transition From: Idle",
       "source_description": "Speed of entering Left Shoulder from idle (no previous stance).",
       "translation_display_name": "기본 자세 → 왼쪽 견착 전환 속도",
-      "translation_description": "왼쪽 견착 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "translation_description": "기본 자세에서 왼쪽 견착(으)로 전환하는 속도입니다. (이전 자세 없음)",
       "values": []
     },
     {
@@ -1850,7 +1850,7 @@
       "source_display_name": "Left Shoulder Transition To: Idle",
       "source_description": "Speed of exiting Left Shoulder to idle (no next stance).",
       "translation_display_name": "왼쪽 견착 → 기본 자세 전환 속도",
-      "translation_description": "왼쪽 견착 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "translation_description": "왼쪽 견착에서 기본 자세로 돌아가는 속도입니다. (다음 자세 없음)",
       "values": []
     },
     {
@@ -1994,7 +1994,7 @@
       "source_display_name": "Left Shoulder Speed Modifier",
       "source_description": "Multiplier applied to all stance transition speeds while in Left Shoulder stance.",
       "translation_display_name": "왼쪽 견착 속도 배율",
-      "translation_description": "Left Shoulder stance 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
+      "translation_description": "왼쪽 견착 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
       "values": []
     },
     {
@@ -2003,7 +2003,7 @@
       "source_display_name": "Left Shoulder Pump Action Speed Modifier",
       "source_description": "Multiplier applied to pump action speed while in Left Shoulder stance.",
       "translation_display_name": "왼쪽 견착 펌프 작동 속도 배율",
-      "translation_description": "Left Shoulder stance 상태에서 펌프 작동 속도에 적용하는 배율입니다.",
+      "translation_description": "왼쪽 견착 상태에서 펌프 작동 속도에 적용하는 배율입니다.",
       "values": []
     },
     {
@@ -2012,7 +2012,7 @@
       "source_display_name": "Pistol Speed Modifier",
       "source_description": "Multiplier applied to all stance transition speeds while using a pistol.",
       "translation_display_name": "권총 자세 전환 속도 배율",
-      "translation_description": "a pistol 상태에서 모든 자세 전환 속도에 적용하는 배율입니다.",
+      "translation_description": "권총 사용에서 모든 자세 전환 속도에 적용하는 배율입니다.",
       "values": []
     },
     {
@@ -2039,7 +2039,7 @@
       "source_display_name": "Pistol Stamina Rate",
       "source_description": "Rate at which arm stamina regenerates while in pistol stance.",
       "translation_display_name": "권총 자세 팔 스태미나 회복률",
-      "translation_description": "pistol stance 상태에서 팔 스태미나 회복 속도입니다.",
+      "translation_description": "권총 자세 상태에서 팔 스태미나 회복 속도입니다.",
       "values": []
     },
     {
@@ -2066,7 +2066,7 @@
       "source_display_name": "Pistol Transition From: Idle",
       "source_description": "Speed of entering pistol stance from idle (no previous stance).",
       "translation_display_name": "기본 자세 → 권총 자세 전환 속도",
-      "translation_description": "pistol stance 자세에 진입하는 전환 속도입니다. (idle (이전 자세 없음))",
+      "translation_description": "기본 자세에서 권총 자세(으)로 전환하는 속도입니다. (이전 자세 없음)",
       "values": []
     },
     {
@@ -2075,7 +2075,7 @@
       "source_display_name": "Pistol Transition From: Patrol Stance",
       "source_description": "Speed of entering pistol stance from Patrol Stance.",
       "translation_display_name": "순찰 자세 → 권총 자세 전환 속도",
-      "translation_description": "pistol stance 자세에 진입하는 전환 속도입니다. (Patrol Stance)",
+      "translation_description": "순찰 자세에서 권총 자세로 전환하는 속도입니다.",
       "values": []
     },
     {
@@ -2084,7 +2084,7 @@
       "source_display_name": "Pistol Transition To: Idle",
       "source_description": "Speed of exiting pistol stance to idle (no next stance).",
       "translation_display_name": "권총 자세 → 기본 자세 전환 속도",
-      "translation_description": "pistol stance 자세에 서 벗어나는하는 전환 속도입니다. (idle (다음 자세 없음))",
+      "translation_description": "권총 자세에서 기본 자세로 돌아가는 속도입니다. (다음 자세 없음)",
       "values": []
     },
     {
@@ -2093,7 +2093,7 @@
       "source_display_name": "Pistol Transition To: Patrol Stance",
       "source_description": "Speed of exiting pistol stance to Patrol Stance.",
       "translation_display_name": "권총 자세 → 순찰 자세 전환 속도",
-      "translation_description": "pistol stance 자세에 서 벗어나는하는 전환 속도입니다. (Patrol Stance)",
+      "translation_description": "권총 자세에서 순찰 자세로 전환하는 속도입니다.",
       "values": []
     },
     {
@@ -2102,7 +2102,7 @@
       "source_display_name": "Pistol Magazine Reload Speed Modifier",
       "source_description": "Multiplier applied to magazine reload speed while in pistol stance.",
       "translation_display_name": "권총 자세 탄창 재장전 속도 배율",
-      "translation_description": "pistol stance 상태에서 탄창 재장전 속도에 적용하는 배율입니다.",
+      "translation_description": "권총 자세 상태에서 탄창 재장전 속도에 적용하는 배율입니다.",
       "values": []
     },
     {
@@ -2111,7 +2111,7 @@
       "source_display_name": "Pistol Revolver Reload Speed Modifier",
       "source_description": "Multiplier applied to revolver reload speed while in pistol stance.",
       "translation_display_name": "권총 자세 리볼버 재장전 속도 배율",
-      "translation_description": "pistol stance 상태에서 리볼버 재장전 속도에 적용하는 배율입니다.",
+      "translation_description": "권총 자세 상태에서 리볼버 재장전 속도에 적용하는 배율입니다.",
       "values": []
     },
     {
@@ -2120,7 +2120,7 @@
       "source_display_name": "Pistol Chamber Reload Speed Modifier",
       "source_description": "Multiplier applied to chamber reload speed while in pistol stance.",
       "translation_display_name": "권총 자세 약실 조작 속도 배율",
-      "translation_description": "pistol stance 상태에서 약실 장전 속도에 적용하는 배율입니다.",
+      "translation_description": "권총 자세 상태에서 약실 장전 속도에 적용하는 배율입니다.",
       "values": []
     }
   ]

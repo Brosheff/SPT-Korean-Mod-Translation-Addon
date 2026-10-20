@@ -1,0 +1,2027 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.maschine.ArenaMode",
+  "mod_name": "ArenaMode",
+  "source_mod_version": "0.1.1",
+  "channels": {
+    "locale": [
+      {
+        "key": "a12e00000000000000000001 Name",
+        "source": "Arena Molotov",
+        "translation": "아레나 화염병",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "a12e00000000000000000001 ShortName",
+        "source": "Molotov",
+        "translation": "화염병"
+      },
+      {
+        "key": "a12e00000000000000000001 Description",
+        "source": "Arena incendiary. Creates a short-lived fire on impact. Supplied only for Arena matches.",
+        "translation": "아레나 전용 소이 무기입니다. 충돌 시 짧은 시간 동안 불길을 일으킵니다. 아레나 경기에서만 지급됩니다."
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "arena.ui.1",
+        "source": "No arena match running.",
+        "translation": "진행 중인 아레나 경기가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.2",
+        "source": "Your details",
+        "translation": "내 전적",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.3",
+        "source": "Best streak",
+        "translation": "최다 연속 처치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.4",
+        "source": "Headshots",
+        "translation": "헤드샷",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.5",
+        "source": "K/D",
+        "translation": "처치/사망 비율",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.6",
+        "source": "Time",
+        "translation": "시간",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.7",
+        "source": "Pressure",
+        "translation": "압박도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.8",
+        "source": "Live settings",
+        "translation": "실시간 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.9",
+        "source": "Both factions track opposing combatants. Team size is fixed for this match.",
+        "translation": "양 진영이 상대 전투원을 추적합니다. 이번 경기의 팀 규모는 고정되어 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.10",
+        "source": " Bots keep hunting the player",
+        "translation": " 봇이 플레이어를 계속 추적",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.11",
+        "source": " Arena pushes back harder over time",
+        "translation": " 시간이 지날수록 아레나 난이도 상승",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.12",
+        "source": " Killfeed",
+        "translation": " 킬피드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.13",
+        "source": " Hitmarker",
+        "translation": " 히트마커",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.14",
+        "source": " Damage numbers",
+        "translation": " 피해 수치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.15",
+        "source": " Combine burst damage",
+        "translation": " 연속 피해 합산",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.16",
+        "source": "PMC floor",
+        "translation": "최소 PMC 수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.17",
+        "source": "Visible corpses",
+        "translation": "표시 시체 수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.18",
+        "source": "Return to menu",
+        "translation": "메뉴로 돌아가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.19",
+        "source": "Give up",
+        "translation": "포기하기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.20",
+        "source": "Close",
+        "translation": "닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.21",
+        "source": "Scoreboard",
+        "translation": "점수판",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.22",
+        "source": "Team totals include earlier bot lives. Replacement bots start a new personal run.",
+        "translation": "팀 합계에는 이전 봇의 출전 기록도 포함됩니다. 교체 투입된 봇의 개인 기록은 새로 집계됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.23",
+        "source": "YOUR TEAM",
+        "translation": "아군 팀",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.24",
+        "source": "YOU",
+        "translation": "본인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.25",
+        "source": "OPPOSITION",
+        "translation": "상대 팀",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.26",
+        "source": "MATCH STANDINGS",
+        "translation": "경기 순위",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.27",
+        "source": "Rounds won",
+        "translation": "승리 라운드 수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.28",
+        "source": "This round",
+        "translation": "현재 라운드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.29",
+        "source": "Buy",
+        "translation": "구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.30",
+        "source": "free",
+        "translation": "무료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.31",
+        "source": "Ready",
+        "translation": "준비 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.32",
+        "source": "NAME",
+        "translation": "이름",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.33",
+        "source": "ROLE",
+        "translation": "역할",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.34",
+        "source": "STATE",
+        "translation": "상태",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.35",
+        "source": "SCORE",
+        "translation": "점수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.36",
+        "source": "Waiting for roster...",
+        "translation": "참가자 명단을 기다리는 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.37",
+        "source": "  (YOU)",
+        "translation": "  (본인)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.38",
+        "source": "LIVE",
+        "translation": "생존",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.39",
+        "source": "OUT",
+        "translation": "탈락",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.41",
+        "source": "GAME MODE",
+        "translation": "게임 모드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.game_mode_pitfireteam",
+        "source": "GAME MODE / PITFIRETEAM",
+        "translation": "게임 모드 / PITFIRETEAM",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.42",
+        "source": "Companions require Tactical or Zombies.",
+        "translation": "동료는 택티컬 또는 좀비 모드에서만 사용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.43",
+        "source": "CAPTURE THE FLAG",
+        "translation": "깃발 쟁탈전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.44",
+        "source": "DOMINATION",
+        "translation": "점령전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.45",
+        "source": "OBJECTIVE",
+        "translation": "목표",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.46",
+        "source": "RESPAWN",
+        "translation": "리스폰",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.47",
+        "source": "EQUIPMENT",
+        "translation": "장비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.48",
+        "source": "Planned mode — not available yet.",
+        "translation": "개발 예정 모드로 아직 플레이할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.49",
+        "source": "Fallen allies return; team wipe ends play. All entry gear refills each wave.",
+        "translation": "쓰러진 아군은 다시 투입되지만 팀이 전멸하면 종료됩니다. 매 웨이브 시작 장비가 보충됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.50",
+        "source": "Fallen allies return next round. Equipment choice affects only your PMC.",
+        "translation": "쓰러진 아군은 다음 라운드에 복귀합니다. 장비 선택은 자신의 PMC에만 적용됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.51",
+        "source": "All opponents hunt you. Set limits to end rounds.",
+        "translation": "모든 적이 플레이어를 추적합니다. 라운드 종료 조건을 지정하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.52",
+        "source": "Next wave",
+        "translation": "다음 웨이브",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.54",
+        "source": "After killcam",
+        "translation": "킬캠 종료 후",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.55",
+        "source": "PMC entry gear",
+        "translation": "PMC 초기 장비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.56",
+        "source": "SEPARATE MATCH",
+        "translation": "별도 경기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.57",
+        "source": "TDM kill limit",
+        "translation": "팀 데스매치 처치 제한",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.58",
+        "source": "TDM time limit",
+        "translation": "팀 데스매치 시간 제한",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.59",
+        "source": "TEAM KILLS: ",
+        "translation": "팀 처치 제한: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.60",
+        "source": "TIME LIMIT: ",
+        "translation": "시간 제한: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.63",
+        "source": "Off",
+        "translation": "끔",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.64",
+        "source": "Waiting for opponents",
+        "translation": "상대를 기다리는 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.extra.63",
+        "source": "Arena",
+        "translation": "아레나",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.extra.64",
+        "source": "ARENA",
+        "translation": "아레나",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.extra.65",
+        "source": "starting when your kit has landed",
+        "translation": "장비가 지급되면 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.extra.66",
+        "source": "ZOMBIES / PFT (WIP)",
+        "translation": "좀비 / PFT (개발 중)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.extra.67",
+        "source": "ZOMBIES (WIP)",
+        "translation": "좀비(개발 중)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.68",
+        "source": "GUN GAME",
+        "translation": "건 게임",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.69",
+        "source": "DEATHMATCH",
+        "translation": "데스매치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.70",
+        "source": "TEAM DM",
+        "translation": "팀 데스매치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.71",
+        "source": "TACTICAL (WIP)",
+        "translation": "택티컬(개발 중)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.72",
+        "source": "Each kill advances your weapon. The ladder repeats.",
+        "translation": "적을 처치할 때마다 다음 무기로 바뀝니다. 무기 순환은 반복됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.73",
+        "source": "Everyone fights everyone. Set limits to end rounds.",
+        "translation": "모두가 서로 싸웁니다. 라운드를 끝낼 제한 조건을 지정하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.74",
+        "source": "USEC versus BEAR. The team with more kills wins.",
+        "translation": "USEC와 BEAR가 맞붙습니다. 처치 수가 많은 팀이 승리합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.75",
+        "source": "Eliminate the enemy squad. PitFireTeam supports 1-4 companions.",
+        "translation": "적 분대를 전멸시키세요. PitFireTeam 동료 1~4명과 함께할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.76",
+        "source": "Ammo refills each wave. Optional PitFireTeam support (1-4 companions).",
+        "translation": "웨이브마다 탄약이 보충됩니다. PitFireTeam 동료 1~4명을 선택적으로 동반할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.77",
+        "source": "Kill to advance",
+        "translation": "처치 시 무기 변경",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.78",
+        "source": "Most kills",
+        "translation": "최다 처치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.79",
+        "source": "Most team kills",
+        "translation": "팀 최다 처치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.80",
+        "source": "Round elimination",
+        "translation": "라운드 섬멸",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.81",
+        "source": "Survive the waves",
+        "translation": "웨이브 생존",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.82",
+        "source": "Instant",
+        "translation": "즉시 부활",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.83",
+        "source": "Next round",
+        "translation": "다음 라운드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.84",
+        "source": "None",
+        "translation": "없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.85",
+        "source": "Weapon ladder",
+        "translation": "무기 순환",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.86",
+        "source": "Arena kits",
+        "translation": "아레나 장비 세트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.87",
+        "source": "Buy / retain kit",
+        "translation": "장비 구매·유지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.88",
+        "source": "Own gear",
+        "translation": "내 장비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.89",
+        "source": "Whole map",
+        "translation": "맵 전체",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.90",
+        "source": "Factory Center",
+        "translation": "공장 중앙",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.91",
+        "source": "Factory Side",
+        "translation": "공장 측면",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.92",
+        "source": "Customs Yard",
+        "translation": "세관 야적장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.93",
+        "source": "Select a map to choose its area.",
+        "translation": "지역을 선택하려면 먼저 맵을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.94",
+        "source": "Select a supported team size.",
+        "translation": "지원되는 팀 인원을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.95",
+        "source": "PitFireTeam squad",
+        "translation": "PitFireTeam 분대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.96",
+        "source": "PFT squad vs 5",
+        "translation": "PFT 분대 대 5명",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.97",
+        "source": "Opposing faction starts",
+        "translation": "적 진영 시작 지점",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.98",
+        "source": "No Tactical or PFT Zombies: limited space",
+        "translation": "공간이 좁아 택티컬 및 PFT 좀비 모드를 지원하지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.99",
+        "source": "PARTICIPANTS",
+        "translation": "참가 인원",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.100",
+        "source": "PARTICIPANTS - you included",
+        "translation": "참가 인원(본인 포함)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.101",
+        "source": "PLAY AREA",
+        "translation": "경기 구역",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.102",
+        "source": " - you included",
+        "translation": " - 본인 포함",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.103",
+        "source": " - opposing team starts",
+        "translation": " - 적 팀 시작 지점",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.104",
+        "source": " - fixed teams",
+        "translation": " - 팀 인원 고정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.105",
+        "source": " - configured teams",
+        "translation": " - 설정된 팀 인원",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.106",
+        "source": "MUTATORS",
+        "translation": "변형 규칙",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.107",
+        "source": "ON",
+        "translation": "켜짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.108",
+        "source": "OFF",
+        "translation": "꺼짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.109",
+        "source": "N/A",
+        "translation": "사용 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.110",
+        "source": "FAST MOVEMENT",
+        "translation": "고속 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.111",
+        "source": "DOUBLE JUMP",
+        "translation": "2단 점프",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.112",
+        "source": "BUNNYHOP",
+        "translation": "버니홉",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.113",
+        "source": "AIR CONTROL",
+        "translation": "공중 방향 조절",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.114",
+        "source": "AIRBORNE HIP FIRE",
+        "translation": "공중 지향 사격",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.115",
+        "source": "AIR VAULT",
+        "translation": "공중 넘기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.116",
+        "source": "SLIDE",
+        "translation": "슬라이딩",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.117",
+        "source": "INFINITE STAMINA",
+        "translation": "무한 스태미나",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.118",
+        "source": "NO FALL DAMAGE",
+        "translation": "낙하 피해 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.119",
+        "source": "BACKPACK ITEMS",
+        "translation": "배낭 아이템 사용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.120",
+        "source": "KILLCAM",
+        "translation": "킬캠",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.121",
+        "source": "PICKUPS",
+        "translation": "보급품",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.122",
+        "source": "COLORED TRACERS",
+        "translation": "색상 구분 예광탄",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.123",
+        "source": "TEAM LASER COLORS",
+        "translation": "진영별 레이저 색상",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.124",
+        "source": "AKIMBO (WIP)",
+        "translation": "쌍권총(개발 중)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.125",
+        "source": "ANNOUNCER",
+        "translation": "경기 아나운서",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.126",
+        "source": "FRIENDLY FIRE",
+        "translation": "아군 오사 허용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.127",
+        "source": "AUTO QUICKSLOTS",
+        "translation": "단축 슬롯 자동 지정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.128",
+        "source": "INSTANT SEARCH",
+        "translation": "즉시 수색",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.129",
+        "source": "ARENA HUD",
+        "translation": "아레나 HUD",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.130",
+        "source": "MOLOTOV (WIP)",
+        "translation": "화염병(개발 중)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.131",
+        "source": "FAST BOTS",
+        "translation": "고속 봇",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.132",
+        "source": "ZOMBIE CROWD",
+        "translation": "좀비 군중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.133",
+        "source": "Movement speed and abilities.",
+        "translation": "이동 속도와 이동 능력을 강화합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.134",
+        "source": "One extra jump in the air.",
+        "translation": "공중에서 한 번 더 점프합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.135",
+        "source": "Timed hops: up to +25% speed.",
+        "translation": "착지 타이밍을 맞춰 연속 점프하면 속도가 최대 25% 증가합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.136",
+        "source": "Steer while airborne.",
+        "translation": "공중에서 이동 방향을 조절합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.137",
+        "source": "Hip fire while airborne.",
+        "translation": "공중에서 지향 사격할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.138",
+        "source": "Climb mid-jump within reach.",
+        "translation": "점프 도중 손이 닿는 장애물을 넘어갑니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.139",
+        "source": "Crouch during a sprint.",
+        "translation": "달리는 도중 앉기 키로 미끄러집니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.140",
+        "source": "Unlimited movement/aim stamina.",
+        "translation": "이동·조준 스태미나가 무제한입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.141",
+        "source": "Land without taking fall damage.",
+        "translation": "착지할 때 낙하 피해를 받지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.142",
+        "source": "Use backpack items/magazines.",
+        "translation": "배낭 속 아이템과 탄창을 사용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.143",
+        "source": "Replay before respawn.",
+        "translation": "부활 전에 사망 장면을 다시 보여 줍니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.144",
+        "source": "DM/Team DM: all Arena maps.",
+        "translation": "데스매치와 팀 데스매치의 모든 아레나 맵에서 사용합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.145",
+        "source": "Team colors for every bullet.",
+        "translation": "모든 총탄에 진영별 색상을 적용합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.146",
+        "source": "Team colors; same brightness.",
+        "translation": "밝기를 유지하면서 진영별 레이저 색상을 표시합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.147",
+        "source": "Dual pistols; shared magazine.",
+        "translation": "권총 두 자루를 사용하며 탄창을 공유합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.148",
+        "source": "Stingers, cues and kill callouts.",
+        "translation": "효과음, 라운드 신호음, 연속 처치 안내를 재생합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.149",
+        "source": "Allow damage between teammates.",
+        "translation": "팀원끼리 피해를 줄 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.150",
+        "source": "Bind kit meds to free quickslots.",
+        "translation": "장비 세트의 의료품을 비어 있는 단축 슬롯에 배치합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.151",
+        "source": "Search containers instantly.",
+        "translation": "컨테이너를 즉시 수색합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.152",
+        "source": "Killfeed, hits, health and weapons.",
+        "translation": "처치 기록·명중 표시·체력·무기 정보를 표시합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.153",
+        "source": "One extra Molotov; G selects first.",
+        "translation": "화염병을 하나 더 지급하고 G키로 우선 선택합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.154",
+        "source": "Bot speed and movement bonuses.",
+        "translation": "봇의 이동 속도와 움직임을 강화합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.155",
+        "source": "Harder horde; teleports stragglers.",
+        "translation": "뒤처진 감염자를 재배치하여 좀비 군중의 난이도를 높입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.156",
+        "source": "Setting unavailable.",
+        "translation": "해당 설정을 사용할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.157",
+        "source": "Available in Zombies.",
+        "translation": "좀비 모드에서 사용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.158",
+        "source": "Unavailable in Zombies.",
+        "translation": "좀비 모드에서는 사용할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.159",
+        "source": "Requires Arena BigBrain companion.",
+        "translation": "Arena BigBrain 호환 모드가 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.160",
+        "source": "Disabled by HUD master in F12.",
+        "translation": "F12의 HUD 전체 설정에서 비활성화됐습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.161",
+        "source": "Requires FAST MOVEMENT.",
+        "translation": "고속 이동 변형 규칙이 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.162",
+        "source": "Available in Deathmatch and Team DM.",
+        "translation": "데스매치 및 팀 데스매치에서 사용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.163",
+        "source": "Requires Team DM or a PFT squad.",
+        "translation": "팀 데스매치 또는 PFT 분대가 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.164",
+        "source": "ROUNDS: ",
+        "translation": "라운드 수: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.165",
+        "source": "KILLS / ROUND: ",
+        "translation": "라운드당 처치: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.166",
+        "source": "TIME / ROUND: ",
+        "translation": "라운드 시간: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.167",
+        "source": "OPPONENTS: ",
+        "translation": "상대 방식: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.168",
+        "source": "Endless",
+        "translation": "무제한",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.169",
+        "source": "Free-for-all",
+        "translation": "개인전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.170",
+        "source": "All vs player",
+        "translation": "모두 플레이어 상대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.171",
+        "source": "FFA",
+        "translation": "개인전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.172",
+        "source": "MAX ALIVE",
+        "translation": "최대 생존 감염자",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.173",
+        "source": "WAVE START SIZE",
+        "translation": "웨이브 시작 인원",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.174",
+        "source": "WAVE GROWTH",
+        "translation": "웨이브 증가량",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.175",
+        "source": "No time limit",
+        "translation": "시간 제한 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.176",
+        "source": "Unavailable",
+        "translation": "사용 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.177",
+        "source": "Streak ",
+        "translation": "연속 처치 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.178",
+        "source": " (Best ",
+        "translation": " (최고 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.179",
+        "source": "Rival ",
+        "translation": "경쟁 상대: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.180",
+        "source": "Team pts ",
+        "translation": "팀 점수 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.181",
+        "source": "Opposition ",
+        "translation": "적 팀 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.182",
+        "source": "<size=13>KILLS</size>",
+        "translation": "<size=13>처치</size>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.183",
+        "source": "<size=13>DEATHS</size>",
+        "translation": "<size=13>사망</size>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.184",
+        "source": "<size=13>ASSISTS</size>",
+        "translation": "<size=13>도움</size>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.185",
+        "source": "<size=13>PTS</size>",
+        "translation": "<size=13>점수</size>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.186",
+        "source": "ASSIST +",
+        "translation": "도움 +",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.187",
+        "source": "<color=#FF70BD>DOUBLE DAMAGE  ",
+        "translation": "<color=#FF70BD>피해량 두 배  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.188",
+        "source": "<color=#70DFFF>SHIELD  ",
+        "translation": "<color=#70DFFF>보호막  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.189",
+        "source": "<color=#80FF60>JUMP BOOTS  ",
+        "translation": "<color=#80FF60>점프 부츠  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.190",
+        "source": "<color=#FF8C40>INFINITE AMMO  ",
+        "translation": "<color=#FF8C40>탄약 무한  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.191",
+        "source": "BARBED WIRE",
+        "translation": "철조망",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.192",
+        "source": "FALL",
+        "translation": "낙하",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.193",
+        "source": "EXPLOSION",
+        "translation": "폭발",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.194",
+        "source": "BLEEDING",
+        "translation": "출혈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.195",
+        "source": "FIRE",
+        "translation": "화염",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.196",
+        "source": "LANDMINE",
+        "translation": "지뢰",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.197",
+        "source": "POISON",
+        "translation": "중독",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.198",
+        "source": "DEHYDRATION",
+        "translation": "탈수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.199",
+        "source": "EXHAUSTION",
+        "translation": "탈진",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.200",
+        "source": "GAVE UP",
+        "translation": "포기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.201",
+        "source": "DEATH",
+        "translation": "사망",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.202",
+        "source": "TACTICAL / ",
+        "translation": "택티컬 / ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.203",
+        "source": "ZOMBIES / ",
+        "translation": "좀비 / ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.tier",
+        "source": "Tier ",
+        "translation": "단계 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.204",
+        "source": "Round ",
+        "translation": "라운드 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.205",
+        "source": "WEAPON LEFT — ",
+        "translation": "무기를 옮기지 못했습니다 — ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.206",
+        "source": "; approach again",
+        "translation": "; 다시 접근하세요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.207",
+        "source": "transfer unavailable",
+        "translation": "이동할 수 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.display.208",
+        "source": "   Round ",
+        "translation": "   라운드 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.side.team",
+        "source": "<nobr>Tactical or Zombies with PitFireTeam.</nobr>\n<nobr>Your profile and gear stay untouched.</nobr>",
+        "translation": "<nobr>PitFireTeam과 함께하는 택티컬 또는 좀비 경기입니다.</nobr>\n<nobr>기존 캐릭터와 장비는 변경되지 않습니다.</nobr>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.side.solo",
+        "source": "<nobr>Solo and team arena combat.</nobr>\n<nobr>Your profile and gear stay untouched.</nobr>",
+        "translation": "<nobr>솔로 및 팀 아레나 전투입니다.</nobr>\n<nobr>기존 캐릭터와 장비는 변경되지 않습니다.</nobr>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_211",
+        "source": "ARENA ZONE",
+        "translation": "아레나 구역",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_212",
+        "source": "SELECT A MAP",
+        "translation": "지도를 선택하세요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_213",
+        "source": "BAY 5",
+        "translation": "베이 5",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_214",
+        "source": "EQUATOR",
+        "translation": "이퀘이터",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_215",
+        "source": "AIR PIT",
+        "translation": "에어 피트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_216",
+        "source": "CUSTOMS — ",
+        "translation": "세관 — ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_217",
+        "source": "Kills  ",
+        "translation": "처치  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_218",
+        "source": "Rounds  ",
+        "translation": "라운드  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_219",
+        "source": "     Match points  ",
+        "translation": "     경기 점수  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_220",
+        "source": "     Kills  ",
+        "translation": "     처치  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_221",
+        "source": "Earlier opponent bodies: ",
+        "translation": "이전 상대 봇 기록: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_222",
+        "source": " points, ",
+        "translation": "점, ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_223",
+        "source": " kills (included in match total)",
+        "translation": "킬 (경기 합계에 포함)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_224",
+        "source": " additional current participant(s) hidden",
+        "translation": "명의 현재 참가자 추가 기록 숨김",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_225",
+        "source": " lower or completed bot run(s) not shown",
+        "translation": "개의 낮거나 완료된 봇 출전 기록 생략",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_226",
+        "source": "Buying: ",
+        "translation": "구매 중: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_227",
+        "source": "starting in ",
+        "translation": "시작까지 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_228",
+        "source": "  (short)",
+        "translation": "  (금액 부족)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_229",
+        "source": "\nLOADING",
+        "translation": "\n준비 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_230",
+        "source": "\nCOLLECTING",
+        "translation": "\n수집 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_231",
+        "source": "AREA OUTLINE DRAFT — ",
+        "translation": "구역 윤곽 초안 — ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_232",
+        "source": " points\n",
+        "translation": "개 지점\n",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_233",
+        "source": ": aim point  |  ",
+        "translation": ": 조준 지점  |  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_234",
+        "source": ": feet\n",
+        "translation": ": 발 위치\n",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_235",
+        "source": ": undo  |  ",
+        "translation": ": 실행 취소  |  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_236",
+        "source": ": export\n",
+        "translation": ": 내보내기\n",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_237",
+        "source": "Floor/ceiling: ",
+        "translation": "바닥/천장: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_238",
+        "source": "; spawn feet: ",
+        "translation": "; 스폰 발 위치: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_239",
+        "source": "\nPreview only; visible through walls. Spawn display: Waypoints.",
+        "translation": "\n미리보기 전용입니다. 벽을 통과해서 보입니다. 스폰 표시: 경유점.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_240",
+        "source": "\nNormal PMC raid: ordinary gear/profile consequences still apply.",
+        "translation": "\n일반 PMC 레이드에서는 장비와 프로필 변경이 그대로 적용됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_241",
+        "source": "PICKUP DRAFT — ",
+        "translation": "획득품 배치 초안 — ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_242",
+        "source": ": aim   ",
+        "translation": ": 조준   ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_243",
+        "source": ": undo   ",
+        "translation": ": 실행 취소   ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_244",
+        "source": "SPECTATING ALLY: ",
+        "translation": "아군 관전: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_245",
+        "source": "SPECTATING OPPONENT: ",
+        "translation": "상대 관전: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_246",
+        "source": "\nHP unavailable",
+        "translation": "\n체력 정보 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_247",
+        "source": "\nHP ",
+        "translation": "\n체력 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_248",
+        "source": "    LMB/RMB switch",
+        "translation": "    마우스 좌/우 클릭으로 대상 전환",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_249",
+        "source": ". Draft only; no live pickup spawned.",
+        "translation": ". 배치 초안이며 실제 획득품은 생성되지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_250",
+        "source": "HEAD",
+        "translation": "머리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_251",
+        "source": "CHEST",
+        "translation": "가슴",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_252",
+        "source": "STOM",
+        "translation": "복부",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_253",
+        "source": "L.ARM",
+        "translation": "왼팔",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_254",
+        "source": "R.ARM",
+        "translation": "오른팔",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_255",
+        "source": "L.LEG",
+        "translation": "왼다리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_256",
+        "source": "R.LEG",
+        "translation": "오른다리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_257",
+        "source": "BODY",
+        "translation": "신체",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_258",
+        "source": "CUSTOMS",
+        "translation": "세관",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_259",
+        "source": "WEAPON",
+        "translation": "무기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_260",
+        "source": "DOUBLE DAMAGE",
+        "translation": "피해량 2배",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_261",
+        "source": "SHIELD",
+        "translation": "보호막",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_262",
+        "source": "JUMP BOOTS",
+        "translation": "점프 부츠",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_263",
+        "source": "INFINITE AMMO",
+        "translation": "무한 탄약",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_264",
+        "source": "LOADING",
+        "translation": "준비 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_265",
+        "source": "COLLECTING",
+        "translation": "수집 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_266",
+        "source": "VICTORY",
+        "translation": "승리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_267",
+        "source": "DEFEAT",
+        "translation": "패배",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_268",
+        "source": "DRAW",
+        "translation": "무승부",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_269",
+        "source": "NO CONTEST",
+        "translation": "경기 무효",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_270",
+        "source": "MATCH COMPLETE",
+        "translation": "경기 종료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_271",
+        "source": "SURVIVAL ENDED",
+        "translation": "생존 종료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_272",
+        "source": "TEAM ELIMINATED",
+        "translation": "팀 전멸",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_273",
+        "source": "PREPARING DEATHMATCH",
+        "translation": "데스매치 준비 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_274",
+        "source": "PREPARING DEATHMATCH — ",
+        "translation": "데스매치 준비 중 — ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_275",
+        "source": "PREPARING ARENA AREA — ",
+        "translation": "아레나 지역 준비 중 — ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_276",
+        "source": "MATCH STARTS IN ",
+        "translation": "경기 시작까지 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_277",
+        "source": "START IN ",
+        "translation": "시작까지 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_278",
+        "source": "TEAM DM stopped — ",
+        "translation": "팀 데스매치 중단 — ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_279",
+        "source": "ASSEMBLING TEAMS",
+        "translation": "팀 편성 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_280",
+        "source": "ASSEMBLING TEAMMATES",
+        "translation": "아군 편성 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_281",
+        "source": "ASSEMBLING OPPONENTS",
+        "translation": "상대팀 편성 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_282",
+        "source": "PREPARING NEXT ROUND",
+        "translation": "다음 라운드 준비 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_283",
+        "source": "OPENING SPAWN GATES",
+        "translation": "스폰 출입문 개방 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_284",
+        "source": "ZOMBIES",
+        "translation": "좀비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_285",
+        "source": "Gun Game — ",
+        "translation": "건 게임 — ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_286",
+        "source": "Gun Game — no ladder",
+        "translation": "건 게임 — 장비 단계가 없습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_287",
+        "source": "Continuous Deathmatch",
+        "translation": "연속 데스매치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_288",
+        "source": " — waiting for your kit",
+        "translation": " — 장비를 기다리는 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_289",
+        "source": " — fight! (",
+        "translation": " — 전투 시작! (",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_290",
+        "source": " — buy phase. ",
+        "translation": " — 구매 단계. ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_291",
+        "source": " — rebuilding both teams",
+        "translation": " — 양 팀 재편성 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_292",
+        "source": " — assembling ",
+        "translation": " — 집결 중 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_293",
+        "source": " won  (+",
+        "translation": " 승리  (+",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_294",
+        "source": " lost  (+",
+        "translation": " 패배  (+",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_295",
+        "source": " — next in ",
+        "translation": " — 다음 라운드까지 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_296",
+        "source": "ROUND ",
+        "translation": "라운드 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_297",
+        "source": " opponents arrived — waiting for combat readiness",
+        "translation": "명의 상대 도착 — 전투 준비 대기 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_298",
+        "source": " teammates",
+        "translation": "명 아군 대기 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_299",
+        "source": "  |  Rebuilding teams",
+        "translation": "  |  팀 재구성 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_300",
+        "source": " wins — ",
+        "translation": " 승리 — ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_301",
+        "source": " rounds won / ",
+        "translation": "라운드 승리 / ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_302",
+        "source": " lost — ",
+        "translation": "패배 — ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_303",
+        "source": " | Finishing player replacement…",
+        "translation": " | 플레이어 교체 마무리 중…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_304",
+        "source": " | Returning to menu in ",
+        "translation": " | 메뉴 복귀까지 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_305",
+        "source": "Returning to menu in ",
+        "translation": "메뉴 복귀까지 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_306",
+        "source": "Finishing player replacement…",
+        "translation": "플레이어 교체 마무리 중…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_307",
+        "source": "Returning to menu…",
+        "translation": "메뉴로 돌아가는 중…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_308",
+        "source": "Returning to menu after the death replay…",
+        "translation": "사망 리플레이 후 메뉴로 돌아갑니다…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_309",
+        "source": "Wave ",
+        "translation": "웨이브 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_310",
+        "source": " zombie kills",
+        "translation": "마리의 좀비 처치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_311",
+        "source": "WAVE ",
+        "translation": "웨이브 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_312",
+        "source": "Equipping player — round time and scoring start when ready",
+        "translation": "플레이어 장비 지급 중 — 준비되면 라운드 시간 및 점수 집계를 시작합니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_313",
+        "source": "Damage and scoring disabled",
+        "translation": "피해 및 점수 집계 비활성화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_314",
+        "source": "PREPARING DEATHMATCH — equipping player",
+        "translation": "데스매치 준비 중 — 플레이어 장비 지급 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_315",
+        "source": " | No time limit",
+        "translation": " | 시간 제한 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_316",
+        "source": " | Free-for-all",
+        "translation": " | 개인전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_317",
+        "source": " | All vs player",
+        "translation": " | 모든 적이 플레이어를 공격",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_318",
+        "source": "x complete",
+        "translation": "회 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_319",
+        "source": "   Allies ",
+        "translation": "   아군 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_320",
+        "source": "   Enemies ",
+        "translation": "   적 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_321",
+        "source": "   YOU ARE DOWN",
+        "translation": "   플레이어 전투 불능",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_322",
+        "source": "   assembling opponents ",
+        "translation": "   상대 집결 중 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_323",
+        "source": "   assembling teammates ",
+        "translation": "   동료 집결 중 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_324",
+        "source": "   next round in ",
+        "translation": "   다음 라운드까지 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_325",
+        "source": "   raid ending in ",
+        "translation": "   레이드 종료까지 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_326",
+        "source": "   rebuilding teams (",
+        "translation": "   팀 재구성 중 (",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_327",
+        "source": " | ASSEMBLING TEAMS",
+        "translation": " | 팀 편성 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_328",
+        "source": " | START IN ",
+        "translation": " | 시작까지 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_329",
+        "source": " | First to ",
+        "translation": " | 목표 처치 수 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_330",
+        "source": " | No kill limit",
+        "translation": " | 처치 수 제한 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_331",
+        "source": " | spawn delayed",
+        "translation": " | 스폰 지연",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_332",
+        "source": " kills",
+        "translation": " 처치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "arena.ui.render_333",
+        "source": " — equipping player",
+        "translation": " — 플레이어 장비 지급 중",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

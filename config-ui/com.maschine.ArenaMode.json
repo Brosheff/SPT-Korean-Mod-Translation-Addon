@@ -1,0 +1,1957 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.maschine.ArenaMode",
+  "plugin_name": "maschine-ArenaMode 0.1.1",
+  "_note": "ArenaMode 0.1.1 client source Config.Bind + per-mode helper + info panel scoped wrapper. Exact English source preserved; only F12 display translated.",
+  "categories": [
+    {
+      "source": "Diagnostics",
+      "translation": "진단"
+    },
+    {
+      "source": "Development - Area outline",
+      "translation": "개발 - 지역 경계"
+    },
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Kits",
+      "translation": "장비 세트"
+    },
+    {
+      "source": "Respawn",
+      "translation": "리스폰"
+    },
+    {
+      "source": "Arena",
+      "translation": "아레나"
+    },
+    {
+      "source": "Movement",
+      "translation": "이동"
+    },
+    {
+      "source": "Bot movement",
+      "translation": "봇 이동"
+    },
+    {
+      "source": "Combat",
+      "translation": "전투"
+    },
+    {
+      "source": "Loot",
+      "translation": "수색 및 전리품"
+    },
+    {
+      "source": "Performance",
+      "translation": "성능"
+    },
+    {
+      "source": "Bots",
+      "translation": "봇"
+    },
+    {
+      "source": "Character",
+      "translation": "캐릭터"
+    },
+    {
+      "source": "Match",
+      "translation": "경기"
+    },
+    {
+      "source": "Team Deathmatch",
+      "translation": "팀 데스매치"
+    },
+    {
+      "source": "Zombie",
+      "translation": "좀비"
+    },
+    {
+      "source": "Rounds",
+      "translation": "라운드"
+    },
+    {
+      "source": "Deathmatch",
+      "translation": "데스매치"
+    },
+    {
+      "source": "Gun Game",
+      "translation": "건 게임"
+    },
+    {
+      "source": "Tactical",
+      "translation": "택티컬"
+    },
+    {
+      "source": "Tactical Team",
+      "translation": "택티컬 팀"
+    },
+    {
+      "source": "Difficulty",
+      "translation": "난이도"
+    },
+    {
+      "source": "HUD",
+      "translation": "HUD"
+    },
+    {
+      "source": "Audio",
+      "translation": "음향"
+    },
+    {
+      "source": "Effects",
+      "translation": "시각 효과"
+    },
+    {
+      "source": "Arena pickups",
+      "translation": "아레나 보급품"
+    },
+    {
+      "source": "Development - Pickups",
+      "translation": "개발 - 보급품"
+    },
+    {
+      "source": "Arena incendiary prototype",
+      "translation": "아레나 화염병 실험 기능"
+    },
+    {
+      "source": "HUD Panels - General",
+      "translation": "정보 패널 - 일반"
+    },
+    {
+      "source": "HUD Panels - Weapon",
+      "translation": "정보 패널 - 무기"
+    },
+    {
+      "source": "HUD Panels - Status",
+      "translation": "정보 패널 - 상태"
+    },
+    {
+      "source": "HUD Panels - Appearance",
+      "translation": "정보 패널 - 외형"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Diagnostics",
+      "key": "DeveloperMode",
+      "source_display_name": "Developer Mode",
+      "source_description": "Enable detailed Arena diagnostic probes (per-body, audio, movement and native model faults) and Core respawn timing. These appear as [dev] Info messages without enabling global BepInEx Debug logging. Ordinary technical details use Debug. Warnings, errors and LogDamageExceptions remain independent.",
+      "translation_display_name": "개발자 진단 모드",
+      "translation_description": "신체·음향·이동·모델 오류와 리스폰 시간을 자세히 기록합니다. 일반 경고 및 오류 기록은 별도로 작동합니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Area outline",
+      "key": "Enabled",
+      "source_display_name": "Area Outline Capture",
+      "source_description": "Opt-in point capture. Normal PMC raids additionally require AllowInNormalPmc. Exports drafts; NEVER changes live boundaries or spawns. Use Waypoints for spawn visualization. Draft points survive respawns but clear when disabled or the raid ends; export first.",
+      "translation_display_name": "지역 경계 지점 기록",
+      "translation_description": "아레나 지역의 경계 초안을 기록합니다. 실제 경계나 스폰 지점은 변경하지 않으며, 별도로 내보내야 저장됩니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Area outline",
+      "key": "AllowInNormalPmc",
+      "source_display_name": "Allow In Normal PMC Raids",
+      "source_description": "Allow the enabled capture tool in normal local PMC raids so you can walk an entire new outline. Survey only: NO Arena kit, respawn, invulnerability or profile protection. Normal raid consequences still apply. No Scav or Hideout capture.",
+      "translation_display_name": "일반 PMC 레이드에서 기록 허용",
+      "translation_description": "일반 PMC 레이드에서 경계를 조사할 수 있습니다. 아레나 장비나 무적 효과는 제공하지 않으며 스캐브·은신처에서는 사용할 수 없습니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Area outline",
+      "key": "CaptureAim",
+      "source_display_name": "Capture Aimed Point",
+      "source_description": "Capture the map surface under the crosshair, up to 250m away. Ignores Arena's own boundary colliders for this read-only ray.",
+      "translation_display_name": "조준 지점 기록",
+      "translation_description": "조준선 아래 최대 250m 거리의 지형 표면을 기록합니다. 아레나 경계 충돌체는 무시합니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Area outline",
+      "key": "CaptureFeet",
+      "source_display_name": "Capture Feet Position",
+      "source_description": "Capture the current local player's foot position. Walk the contour in order; the closing edge is automatic.",
+      "translation_display_name": "발밑 위치 기록",
+      "translation_description": "현재 플레이어의 발 위치를 경계 지점으로 기록합니다. 경계선을 순서대로 따라가면 마지막 지점과 첫 지점이 연결됩니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Area outline",
+      "key": "Undo",
+      "source_display_name": "Undo Last Point",
+      "source_description": "Remove the last draft point.",
+      "translation_display_name": "마지막 지점 취소",
+      "translation_description": "마지막으로 기록한 경계 지점을 제거합니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Area outline",
+      "key": "Export",
+      "source_display_name": "Export Draft",
+      "source_description": "Validate and export a new draft JSON to BepInEx/plugins/maschine-ArenaMode/AreaDrafts. Not automatically loaded or applied.",
+      "translation_display_name": "경계 초안 내보내기",
+      "translation_description": "초안을 검증한 뒤 AreaDrafts 폴더에 새 JSON으로 저장합니다. 자동으로 불러오거나 적용하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Area outline",
+      "key": "FloorY",
+      "source_display_name": "Floor Y",
+      "source_description": "Draft enclosing floor in absolute map Y coordinates. Defaults match the existing Customs candidate.",
+      "translation_display_name": "경계 바닥 높이 Y",
+      "translation_description": "지도 절대 Y좌표를 기준으로 경계 초안의 바닥 높이를 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Area outline",
+      "key": "CeilingY",
+      "source_display_name": "Ceiling Y",
+      "source_description": "Draft enclosing ceiling in absolute map Y coordinates; leave headroom for jumping and vaulting.",
+      "translation_display_name": "경계 천장 높이 Y",
+      "translation_description": "지도 절대 Y좌표를 기준으로 경계 천장 높이를 지정합니다. 점프와 넘기 동작을 위한 여유 높이를 남기십시오.",
+      "values": []
+    },
+    {
+      "section": "Development - Area outline",
+      "key": "SpawnMinY",
+      "source_display_name": "Spawn Min Y",
+      "source_description": "Draft minimum spawn foot height in absolute map Y coordinates. Separate from the enclosing floor.",
+      "translation_display_name": "스폰 최소 높이 Y",
+      "translation_description": "지도 절대 Y좌표 기준 스폰 지점 발밑의 최소 높이를 지정합니다. 경계 바닥 높이와 별개입니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Area outline",
+      "key": "SpawnMaxY",
+      "source_display_name": "Spawn Max Y",
+      "source_description": "Draft maximum spawn foot height in absolute map Y coordinates; must remain inside floor/ceiling.",
+      "translation_display_name": "스폰 최대 높이 Y",
+      "translation_description": "지도 절대 Y좌표 기준 스폰 지점 발밑의 최대 높이입니다. 바닥과 천장 범위 안에 있어야 합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Maps",
+      "source_display_name": "Arena Maps",
+      "source_description": "Arena map allowlist (Factory day/night, Labyrinth, The Lab, Customs, optional Equator/Bay5/AirPit). Only maps also enabled on the server are offered. The Lab is keycard-locked in the menu; arena raids waive that, ordinary ones do not.",
+      "translation_display_name": "허용 아레나 지도",
+      "translation_description": "아레나에서 선택할 수 있는 지도를 지정합니다. 서버에서도 허용한 지도만 표시되며, 연구소의 키카드 제한은 아레나 레이드에 적용되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Kits",
+      "key": "RandomKit",
+      "source_display_name": "Random Kit Each Life",
+      "source_description": "Draw a random kit for every life instead of a fixed one, avoiding the same loadout twice in a row. Overrides SelectedKit while on.",
+      "translation_display_name": "무작위 장비 세트",
+      "translation_description": "매 생명마다 이전과 다른 무작위 장비 세트를 지급합니다. 활성화하면 고정 장비 세트 선택을 무시합니다.",
+      "values": []
+    },
+    {
+      "section": "Kits",
+      "key": "SelectedKit",
+      "source_display_name": "Fixed Kit ID",
+      "source_description": "Kit id from the server catalog (user/mods/ArenaMode/config/kits.json). Empty = first kit in the catalog. Ignored while RandomKit is on.",
+      "translation_display_name": "고정 장비 세트",
+      "translation_description": "서버 장비 목록의 세트 ID를 지정합니다. 비워두면 첫 번째 세트를 사용하며 무작위 세트 사용 중에는 무시합니다.",
+      "values": []
+    },
+    {
+      "section": "Respawn",
+      "key": "SpawnProtectionSeconds",
+      "source_display_name": "Spawn Protection (s)",
+      "source_description": "Invulnerability after an arena respawn (0 = disabled). Team DM bots also receive a visible damage shield for this duration (maximum 30s, frozen per match), ending on their first attack.",
+      "translation_display_name": "리스폰 보호 시간(초)",
+      "translation_description": "아레나 리스폰 후 무적 시간을 지정합니다. 0은 비활성화입니다. 팀 데스매치 봇에도 최대 30초간 공격 시 종료되는 보호막이 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Arena",
+      "key": "DisableLabyrinthSpawnTraps",
+      "source_display_name": "Disable Labyrinth Spawn Traps",
+      "source_description": "Disable Labyrinth's entrance gun, flame, liquid and steam traps and drain the toxic pool during Arena only, including their active damage, animations and continuous sounds. Read once per raid; changes apply to the next Arena raid. Other puzzles/traps and ordinary raids are unchanged.",
+      "translation_display_name": "미궁 함정 비활성화",
+      "translation_description": "아레나에서만 미궁 입구의 총기·화염·액체·증기 함정과 독성 웅덩이를 무력화합니다. 변경은 다음 아레나 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "Enabled",
+      "source_display_name": "Arena Movement",
+      "source_description": "Arena movement overhaul (all knobs below only apply during arena sessions).",
+      "translation_display_name": "아레나 이동 시스템 활성화",
+      "translation_description": "아레나 세션에서만 아래 이동 관련 변경 사항을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "LandingRecoveryMultiplier",
+      "source_display_name": "Hard Landing Slowdown (x)",
+      "source_description": "Duration of the local Arena player's hard-landing slowdown (0.5 = half, 1 = vanilla).",
+      "translation_display_name": "착지 경직 시간 배율",
+      "translation_description": "강하게 착지했을 때 이동이 느려지는 시간의 배율입니다. 0.5는 절반, 1은 기본값입니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "WeaponDrawSpeedMultiplier",
+      "source_display_name": "Weapon Draw Speed (x)",
+      "source_description": "Local Arena firearm draw speed. Does not change reload or firing speed.",
+      "translation_display_name": "무기 꺼내기 속도 배율",
+      "translation_description": "아레나에서 총기를 꺼내는 속도입니다. 재장전이나 발사 속도에는 영향을 주지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "WeaponHolsterSpeedMultiplier",
+      "source_display_name": "Weapon Holster Speed (x)",
+      "source_description": "Local Arena firearm holster speed. Does not change reload or firing speed.",
+      "translation_display_name": "무기 집어넣기 속도 배율",
+      "translation_description": "아레나에서 총기를 집어넣는 속도입니다. 재장전이나 발사 속도에는 영향을 주지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "WeaponReloadSpeedMultiplier",
+      "source_display_name": "Reload Speed (x)",
+      "source_description": "Local Arena firearm reload animation speed, including quick reloads, internal magazines and revolvers. 1 keeps native timing. Underbarrel launchers, firing, malfunction repair and inventory magazine loading stay unchanged.",
+      "translation_display_name": "무기 재장전 속도 배율",
+      "translation_description": "빠른 재장전·내장 탄창·리볼버를 포함한 총기 재장전 애니메이션의 속도입니다. 1은 기본값이며 유탄발사기와 탄창에 탄약 채우기는 제외합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "AirVaultEnabled",
+      "source_display_name": "Vault While Airborne",
+      "source_description": "Allow a deliberate native vault/climb input during an Arena jump when the obstacle and hands checks permit it.",
+      "translation_display_name": "공중 장애물 넘기 허용",
+      "translation_description": "아레나 점프 중 장애물과 양손 조건이 충족되면 기본 장애물 넘기·오르기 입력을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "AirControlEnabled",
+      "source_display_name": "Air Control",
+      "source_description": "Allow gentle WASD steering during local Arena jumps and falls. Preserves native horizontal speed, gravity and collision; no extra impulse from a stationary jump.",
+      "translation_display_name": "공중 방향 조절",
+      "translation_description": "점프나 낙하 중 WASD로 방향을 조금 조절합니다. 기존 속도·중력·충돌은 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "AirControlDegreesPerSecond",
+      "source_display_name": "Air Control Turn Rate (deg/s)",
+      "source_description": "Maximum horizontal turn rate in degrees per second while airborne; 0 keeps native direction. Changes apply live. Long frame steps are capped for safety.",
+      "translation_display_name": "공중 최대 회전 속도(도/초)",
+      "translation_description": "공중에서 1초 동안 바꿀 수 있는 최대 수평 방향 각도입니다. 0은 기본 방향 유지이며 즉시 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "AirHipFireEnabled",
+      "source_display_name": "Hip Fire While Airborne",
+      "source_description": "Allow firearm hip fire during an Arena jump. Native aiming, ammo, reload, malfunction and vault restrictions remain.",
+      "translation_display_name": "공중 지향 사격",
+      "translation_description": "아레나 점프 중 지향 사격을 허용합니다. 조준·탄약·오작동과 장애물 넘기 제약은 유지됩니다.",
+      "values": []
+    },
+    {
+      "section": "Bot movement",
+      "key": "BotMovementEnabled",
+      "source_display_name": "Faster Bot Movement",
+      "source_description": "Boost grounded Arena bots on both teams, including PitFireTeam followers. Also enables supported SAIN search sprint, shorter completed-reload wait and faster combat strafe. Includes faster starts/direction blending and reduced weight-related locomotion inertia. Does not change the local player, ordinary raids, presets or weapon animations.",
+      "translation_display_name": "봇 이동 강화",
+      "translation_description": "양 팀의 지상 이동 봇과 PitFireTeam 동료의 이동을 강화합니다. 관련 이동 배율을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Bot movement",
+      "key": "BotWalkSpeedMult",
+      "source_display_name": "Bot Walk Speed (x)",
+      "source_description": "Arena bot walk/strafe displacement multiplier. Preserves native slowdowns; the bonus fades near native path corners and is suppressed during door handling or large low-FPS steps. 1 = no boost.",
+      "translation_display_name": "봇 걷기 속도 배율",
+      "translation_description": "아레나 봇의 걷기 및 좌우 이동 거리 배율입니다. 원래 감속은 유지하며 경로의 모퉁이 근처에서는 보너스가 줄고, 문을 처리하거나 프레임 속도가 크게 떨어져 이동 간격이 벌어지면 보너스가 억제됩니다. 1은 이동 강화 없음입니다.",
+      "values": []
+    },
+    {
+      "section": "Bot movement",
+      "key": "BotSprintSpeedMult",
+      "source_display_name": "Bot Sprint Speed (x)",
+      "source_description": "Arena bot sprint displacement multiplier. Only affects a sprint the AI already chose; does not force sprint or add stamina. Safety limits can reduce the bonus. 1 = no boost.",
+      "translation_display_name": "봇 달리기 속도 배율",
+      "translation_description": "봇이 스스로 달리기를 선택했을 때의 이동 배율입니다. 새로운 달리기 결정을 유발하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "WalkSpeedMult",
+      "source_display_name": "Walk Speed (x)",
+      "source_description": "Walk/strafe displacement multiplier (stacks with ExtraMotionScale; legs animate at vanilla pace, so high values show light foot-slide).",
+      "translation_display_name": "걷기 속도 배율",
+      "translation_description": "걷기·좌우 이동 속도 배율입니다. 추가 이동 배율과 중첩되며 다리 애니메이션은 기본 속도를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "SprintSpeedMult",
+      "source_display_name": "Sprint Speed (x)",
+      "source_description": "Sprint displacement multiplier (stacks with ExtraMotionScale; legs animate at vanilla pace, so high values show light foot-slide).",
+      "translation_display_name": "달리기 속도 배율",
+      "translation_description": "달리기 속도 배율입니다. 추가 이동 배율과 중첩됩니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "ExtraMotionScale",
+      "source_display_name": "Extra Motion Scale (x)",
+      "source_description": "Horizontal displacement scale beyond the animator (slight foot-slide above ~1.3).",
+      "translation_display_name": "추가 이동 속도 배율",
+      "translation_description": "애니메이션과 별개로 수평 이동 속도를 늘립니다. 값이 약 1.3을 넘으면 발 미끄러짐이 보일 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "AdsMoveFactor",
+      "source_display_name": "Aiming Slowdown Removed",
+      "source_description": "How much of the aim-down-sights movement penalty is removed (1 = no ADS slowdown).",
+      "translation_display_name": "정조준 이동 페널티 완화",
+      "translation_description": "정조준 중 이동 속도 감소를 완화합니다. 1이면 정조준 감속이 없어집니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "AdsTransitionMult",
+      "source_display_name": "Aiming Transition Speed (x)",
+      "source_description": "Aim-down-sights transition speed multiplier.",
+      "translation_display_name": "정조준 전환 속도 배율",
+      "translation_description": "정조준 자세로 전환하는 속도 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "InfiniteStamina",
+      "source_display_name": "Infinite Stamina",
+      "source_description": "Keep legs/arms stamina and breath topped off.",
+      "translation_display_name": "무한 스태미나",
+      "translation_description": "팔·다리 스태미나와 호흡을 계속 채웁니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "CarryWeightLimitMultiplier",
+      "source_display_name": "Carry Weight Limits (x)",
+      "source_description": "Raises the local Arena PMC's weight thresholds for sprinting, movement speed, encumbrance and inertia (1 = vanilla, 2 = twice the normal thresholds).",
+      "translation_display_name": "무게 한도 배율",
+      "translation_description": "아레나 PMC의 달리기·이동 속도·과적·관성에 영향을 주는 소지 무게 기준의 배율입니다. 1은 기본 게임과 동일하며 2는 무게 기준을 두 배로 높입니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "NoInertia",
+      "source_display_name": "No Inertia",
+      "source_description": "Remove movement inertia (direction changes, pose changes, sprint braking).",
+      "translation_display_name": "이동 관성 제거",
+      "translation_description": "방향 변경·자세 변경·달리기 감속에 적용되는 이동 관성을 제거합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "StrafeSmoothing",
+      "source_display_name": "Strafe Smoothing",
+      "source_description": "Scales the game's 0.15s walking direction-blend floor with NoInertia on (0 = instant strafe flips, 1 = full vanilla blend). Applies immediately.",
+      "translation_display_name": "좌우 이동 보간 배율",
+      "translation_description": "관성 제거가 켜져 있을 때 기본 걷기 방향 전환 보간 시간(0.15초)을 조절합니다. 0은 즉시 전환입니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "InstantLean",
+      "source_display_name": "Instant Lean",
+      "source_description": "Use the game's legacy (pre-inertia) fast lean.",
+      "translation_display_name": "즉시 기울이기",
+      "translation_description": "관성이 도입되기 전 방식의 빠른 좌우 기울이기를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "SlideEnabled",
+      "source_display_name": "Combat Slide",
+      "source_description": "Sprint-into-crouch combat slide (absorbed from CombatSlide, arena-only).",
+      "translation_display_name": "슬라이딩 활성화",
+      "translation_description": "달리면서 웅크려 전투 슬라이딩을 수행합니다. 아레나에서만 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "NoBushSlowdown",
+      "source_display_name": "No Bush Slowdown",
+      "source_description": "Foliage no longer slows movement.",
+      "translation_display_name": "수풀 감속 제거",
+      "translation_description": "수풀과 잎사귀 때문에 이동 속도가 감소하지 않게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "JumpHeightMult",
+      "source_display_name": "Jump Height (x)",
+      "source_description": "Jump height multiplier.",
+      "translation_display_name": "점프 높이 배율",
+      "translation_description": "점프 높이 배율을 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "BunnyhopEnabled",
+      "source_display_name": "Bunnyhop",
+      "source_description": "Time a jump just before landing to chain hops and retain momentum. 6% speed gain per hop, capped at 25% above chain entry speed and 12 m/s. Near-ground landing input takes priority over Double Jump; hard falls break the chain.",
+      "translation_display_name": "버니홉 활성화",
+      "translation_description": "착지 직전에 점프하면 속도를 유지하며 연속 도약합니다. 도약할 때마다 속도가 6% 증가하지만, 연속 도약 시작 속도 대비 최대 25% 및 초속 12m로 제한됩니다. 착지 직전의 점프 입력은 2단 점프보다 우선하며, 강한 낙하 시 연속 도약이 끊깁니다.",
+      "values": []
+    },
+    {
+      "section": "Combat",
+      "key": "AkimboEnabled",
+      "source_display_name": "Akimbo Pistols",
+      "source_description": "Automatically clone the held pistol in Arena, including automatic pistols and handgun revolvers. One shot per trigger, alternating right and left; two shots per loaded cartridge, shared magazine/reload. Hipfire only. Replica hides during reload/sprint/interactions. Flares and launchers are excluded. Applies to the local player only; resumes on pistol draw and respawn. Experimental hand pose.",
+      "translation_display_name": "양손 권총 활성화",
+      "translation_description": "아레나에서 현재 든 권총을 복제해 쌍권총으로 사용합니다. 자동 권총과 리볼버도 포함하며, 방아쇠를 누를 때마다 양손이 교대로 한 발씩 발사됩니다. 장탄과 재장전은 공유하며 지향사격만 가능합니다. 재장전·질주·상호작용 중에는 복제 권총이 숨겨지고 신호탄·발사기는 제외됩니다. 플레이어에게만 적용되는 실험적 손동작 기능입니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "DoubleJumpEnabled",
+      "source_display_name": "Double Jump",
+      "source_description": "Press the normal jump binding in the air for one extra jump, including after falling from a ledge. Local Arena player only; landing restores the extra jump.",
+      "translation_display_name": "2단 점프 활성화",
+      "translation_description": "공중에서 기본 점프 키를 다시 눌러 한 번 더 점프합니다. 낙하 중에도 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "DoubleJumpHeightMult",
+      "source_display_name": "Double Jump Height (x)",
+      "source_description": "Extra jump height relative to the initial Arena jump (1 = same upward impulse).",
+      "translation_display_name": "2단 점프 높이 배율",
+      "translation_description": "추가 점프의 상승 높이를 첫 아레나 점프에 비례해 설정합니다. 1이면 같은 상승량입니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "NoFallDamage",
+      "source_display_name": "No Fall Damage",
+      "source_description": "Disable fall damage (pairs with the jump boost).",
+      "translation_display_name": "낙하 피해 제거",
+      "translation_description": "낙하 피해를 비활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "VaultSpeedMult",
+      "source_display_name": "Vault Speed (x)",
+      "source_description": "How much faster vaulting and climbing play out. Scales the whole speed range, so an injured or overloaded vault stays slower than a healthy one - it is just faster than it was.",
+      "translation_display_name": "장애물 넘기 속도 배율",
+      "translation_description": "장애물 넘기 및 오르기 동작의 속도를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "VaultReachMult",
+      "source_display_name": "Vault Reach (x)",
+      "source_description": "How much taller, longer and further away an obstacle may be and still be vaultable. Only the upper limits move; the lower ones stay put, so kerbs do not suddenly become vaults. The search grid is a hard ceiling on this - see VaultingTuning.",
+      "translation_display_name": "장애물 넘기 거리 배율",
+      "translation_description": "넘을 수 있는 장애물의 높이·길이·거리 허용 범위를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "SprintToAds",
+      "source_display_name": "Sprint Into Aiming",
+      "source_description": "Aim input during a sprint cancels the sprint and enters ADS in one motion.",
+      "translation_display_name": "달리기 중 즉시 정조준",
+      "translation_description": "달리는 도중 조준하면 달리기를 취소하고 한 동작으로 정조준합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "FastDeploy",
+      "source_display_name": "Fast Deploy Countdown",
+      "source_description": "Shorten the pre-raid deploy countdown to 1s for arena raids.",
+      "translation_display_name": "빠른 레이드 투입",
+      "translation_description": "아레나 레이드 시작 전 출격 대기 시간을 1초로 줄입니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "SkipPreRaidScreens",
+      "source_display_name": "Skip Pre-Raid Screens",
+      "source_description": "Go straight from the map to the loading screen for arena raids, past Game Settings, Insurance and Confirmation. Nothing on those screens survives an arena raid: bot amount and raid time are overwritten server-side, insurance is void when the profile is restored afterwards, and the loadout being confirmed is replaced by a kit on the first second.",
+      "translation_display_name": "출격 전 화면 건너뛰기",
+      "translation_description": "아레나 레이드에서 게임 설정 등 출격 전 화면을 건너뛰고 바로 로딩 화면으로 이동합니다.",
+      "values": []
+    },
+    {
+      "section": "Loot",
+      "key": "InstantSearch",
+      "source_display_name": "Instant Search",
+      "source_description": "Corpse/container searches complete instantly during arena sessions.",
+      "translation_display_name": "즉시 수색",
+      "translation_description": "아레나 세션에서 시체와 컨테이너 수색을 즉시 완료합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "BotLoadBoost",
+      "source_display_name": "Bot Load Boost",
+      "source_description": "Let bot and kit loading borrow frame time while it is running. Once a frame is over the game's scheduler budget (1000 / framerate limit, the lobby limit if the game limit is off), loading advances one pass per frame instead of running until the budget is spent - so a machine held at 60 fps under a 120 limit turns a one-second bot load into a minute. This re-enables the scheduler's own force mode for the duration of a load, at the cost of a longer frame while it runs. Arena only.",
+      "translation_display_name": "봇 로딩 가속",
+      "translation_description": "봇과 장비를 불러오는 동안 프레임 시간을 추가로 할당합니다. 로딩이 끝나면 정상 상태로 돌아갑니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "BotLoadBoostBudget",
+      "source_display_name": "Bot Load Boost Budget (x)",
+      "source_description": "Loading time granted per frame while boosted, as a multiple of half the target frame (at a 120 fps limit, 1.0 = 4 ms; the value scales with the limit). Untested above 1: on the scheduler's arithmetic only instantiation-bound steps get faster, while every asynchronous wait still costs at least one frame and that frame is longer by the extra budget. 3 is the game's own loading-screen value.",
+      "translation_display_name": "봇 로딩 시간 예산 배율",
+      "translation_description": "로딩을 가속할 때 프레임당 허용할 작업 시간을 목표 프레임 시간의 절반에 대한 배율로 지정합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "BotLoadBoostDelaySeconds",
+      "source_display_name": "Bot Load Boost Delay (s)",
+      "source_description": "How long loading must have been running before the boost kicks in on a machine the scheduler sees as under budget, so one that finishes each load inside this window never pays a frame for it. A machine it sees as over budget boosts after 0.25 s regardless (or this value if lower): there the boost is the only thing moving loads at all - and a fast machine in a heavy moment reads over budget too, which is a trade the log line shows. The verdict is fixed per load episode. Gaps under half a second between loads do not restart the clock.",
+      "translation_display_name": "봇 로딩 가속 시작 지연(초)",
+      "translation_description": "로딩 시작 후 가속을 적용하기까지의 지연 시간입니다. 스케줄러 예산에 여유가 있으면 이 시간 안에 끝난 로딩은 가속하지 않습니다. 예산을 초과한 경우에는 0.25초 또는 이 설정값 중 짧은 시간이 지나면 가속합니다. 한 번의 로딩 과정에서 판단을 유지하며, 로딩 사이의 간격이 0.5초보다 짧으면 경과 시간을 초기화하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "BotLoadBoostAsyncPriority",
+      "source_display_name": "Async Load Priority (Experimental)",
+      "source_description": "EXPERIMENTAL, off by default. Unity's per-frame time slice for finishing asynchronous loads, held at this level while the boost is held. On maps that use the game's scene streamer it drops the slice to Low (2 ms a frame) and never puts it back; no arena map has been shown to do that, and without it the value is Unity's own default - which the boost's log line now reports, so a raid settles it. Raising it only helps if a single load's integration needs more than the slice it has, which nothing has measured, while the cost is certain: main-thread time ON TOP of the step budget, paid during live combat. Low = 2 ms, BelowNormal = 4, Normal = 10, High = 50 (about 15 fps on a 60 fps machine while loading - diagnostic only). Game = leave it alone. Handed back on release.",
+      "translation_display_name": "비동기 로딩 우선순위",
+      "translation_description": "기본적으로 꺼진 실험 기능입니다. 로딩 가속 중 Unity 비동기 로드 완료 처리에 할당할 프레임당 시간을 설정합니다. Low 2ms, BelowNormal 4ms, Normal 10ms, High 50ms이며 Game은 게임의 기존 설정을 유지합니다. 이 시간은 로딩 단계 예산에 추가로 메인 스레드에서 사용되므로 전투 중 프레임 저하가 발생할 수 있습니다. 특히 High는 진단용이며 로딩 가속이 해제되면 이전 설정으로 복원합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "KitPreloadInLoadingScreen",
+      "source_display_name": "Kit Preload In Loading Screen",
+      "source_description": "Load the arena kit's item bundles while the raid is still loading, instead of on the first second of the raid. In the loading screen the game's own loading mode multiplies the in-raid step budget (by 3 unless the app config says otherwise) and nothing else is asking for the loader yet; measured on Customs, the start kit took 22 s to load on a 60 fps machine (10 s on a fast one) once the raid had begun, sharing the loader with the first bots. InitialKit = the kit the raid starts you in (the random draw is made in the loading screen and kept for the raid start). WholeCatalogue = every other kit as well, one after another, for as long as the loading screen lasts; whatever has not started when the raid begins is left to the in-raid warm-up as before, and a respawn that lands while one kit is still loading waits for that kit. Untested on a slow machine - try it and read the log lines. Off = the previous behaviour. Arena only.",
+      "translation_display_name": "로딩 화면에서 장비 미리 불러오기",
+      "translation_description": "아레나 출격 장비의 에셋을 레이드가 시작된 뒤가 아니라 로딩 화면에서 미리 불러옵니다. InitialKit은 최초 출격에 선택된 장비만, WholeCatalogue는 로딩 시간이 허용하는 동안 다른 장비까지 차례로 불러옵니다. 로딩이 끝날 때 시작하지 못한 작업은 게임 진행 중 처리하며, 해당 장비를 불러오는 도중 리스폰하면 로딩 완료를 기다릴 수 있습니다. 느린 PC에서 검증되지 않은 기능이므로 로그를 확인하십시오. 끄면 기존 동작을 유지하며 아레나에만 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Kits",
+      "key": "AutoQuickSlots",
+      "source_display_name": "Auto-Bind Medical Quick Slots",
+      "source_description": "Bind the kit's medical items to the free quick slots (keys 4-0) on every life. The game clears bindings with the body, which is a chore in a mode built on dying. The layout is fixed by what an item DOES, so the same key always holds the same kind of thing.",
+      "translation_display_name": "의료품 단축 슬롯 자동 등록",
+      "translation_description": "매 생명마다 장비 세트의 의료품을 비어 있는 4~0 단축 슬롯에 자동 등록합니다.",
+      "values": []
+    },
+    {
+      "section": "Kits",
+      "key": "UseItemsAnywhere",
+      "source_display_name": "Use Items Anywhere",
+      "source_description": "Let anything worn be used and bound, and reload from magazines directly in the backpack during Arena. The bulky medical items go where they FIT — a Grizzly is 2x2 and a Surv12 3x1 — so without this the best medicine in the catalogue sits unreachable in the backpack.",
+      "translation_display_name": "소지품 위치 무관 사용",
+      "translation_description": "착용한 장비의 아이템을 사용하거나 등록하고, 배낭 안 탄창으로 바로 재장전할 수 있도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "Kits",
+      "key": "EmptySecureContainer",
+      "source_display_name": "Leave Secure Container Contents Home",
+      "source_description": "Leave the contents of the secure container at home and hide the now-empty slot. The container itself still comes along because it is unlootable. Off: your own supplies come with you, which outclasses every kit's medicine and makes the medical tiers decorative. The special slots are a separate matter and this switch does not reach them: arena kits wear pockets that have none, so there is nothing there to empty either way. A protected 5v5 raid keeps your own loadout and is exempt: the container stays as it is, shown and usable.",
+      "translation_display_name": "보안 컨테이너 비우기",
+      "translation_description": "아레나 출격 시 보안 컨테이너의 내용물을 원래 프로필에 남겨 두고 빈 슬롯을 숨깁니다. 컨테이너 자체는 약탈할 수 없으므로 유지됩니다. 끄면 기존 보급품을 그대로 가져옵니다. 특수 슬롯에는 적용되지 않으며 아레나 경기에서만 작동합니다.",
+      "values": []
+    },
+    {
+      "section": "Loot",
+      "key": "AutoSearchCorpses",
+      "source_display_name": "Auto-Search Corpses",
+      "source_description": "Auto-search rig/pockets/backpack when opening a corpse (absorbed AutoCorpseSearch; defers to the standalone mod when that is installed).",
+      "translation_display_name": "시체 자동 수색",
+      "translation_description": "시체를 열 때 전술 조끼·주머니·배낭을 자동으로 수색합니다.",
+      "values": []
+    },
+    {
+      "section": "Loot",
+      "key": "ShowVictimNames",
+      "source_display_name": "Show Victim Names In Kill List",
+      "source_description": "End-of-raid kill list shows PMC names without requiring their dogtags.",
+      "translation_display_name": "처치 대상 이름 표시",
+      "translation_description": "레이드 종료 처치 목록에서 인식표가 없어도 PMC 이름을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "MaxCorpses",
+      "source_display_name": "Visible Corpses Kept",
+      "source_description": "Visible corpses kept. Older ones are hidden for performance — they stay in the world but become invisible and can no longer be looted (0 = keep all).",
+      "translation_display_name": "시체 최대 표시 수",
+      "translation_description": "화면에 남길 시체 수를 지정합니다. 성능을 위해 오래된 시체를 숨기며, 숨긴 시체는 게임 세계에 남지만 보이지 않고 더 이상 수색할 수 없습니다. 0으로 설정하면 모든 시체를 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "StripCorpseGear",
+      "source_display_name": "Strip Hidden Corpses",
+      "source_description": "Take the gear off corpses once they are hidden. Every worn item is an instantiated model, and late-raid bodies wear far more of them than early ones — removing it hands each model back to its pool.",
+      "translation_display_name": "숨겨진 시체 장비 제거",
+      "translation_description": "숨긴 시체에 장착된 장비를 떼어 처리 부담을 줄입니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "ReleaseTrimmedCorpses",
+      "source_display_name": "Release Hidden Corpses",
+      "source_description": "Take a hidden corpse out of the scene for good once nothing can reach it any more, instead of leaving it lying there invisible. A hidden body is still a complete player object, and every search over the scene — the game's own included — gets slower with each one that is left. PitFireTeam teammates and your own NEWEST body are never taken away; an older body of your own is released like anybody else's, once nothing still needs it.",
+      "translation_display_name": "정리된 시체 완전 제거",
+      "translation_description": "더 이상 어떤 객체도 참조할 수 없는 숨겨진 시체를 장면에서 완전히 제거합니다. 숨겨진 시체도 플레이어 객체로 남아 탐색 비용을 증가시키므로 오래 진행한 아레나의 성능 개선에 도움이 됩니다. PitFireTeam 팀원과 자신의 가장 최근 시체는 제거하지 않으며, 자신의 과거 시체는 안전하게 참조가 끊기면 제거할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "GcHeapThresholdGB",
+      "source_display_name": "GC Heap Threshold (GB)",
+      "source_description": "Switch Unity's incremental garbage collector back on once the managed heap passes this many GB during an arena raid, instead of leaving it off for the whole raid the way EFT does by default. 0 = never (pure vanilla): the heap grows unbounded for as long as the raid runs, same as an ordinary raid on a machine with enough RAM. Only acts while an arena session is active AND the collector is currently disabled — on a machine EFT itself kept it enabled (under 25 GB system RAM by default) this setting has nothing to switch. The switch itself is EFT's own cheap collector-mode assignment, never a forced collection, and it is timed to a local death, a round break, or a bounded 120 s wait if neither comes first, so a short raid never pays for it and a long one stays bounded. See GC-THRESHOLD-REVIEW.md for the measured cost.",
+      "translation_display_name": "가비지 컬렉션 재개 기준(GB)",
+      "translation_description": "아레나 경기에서 관리 힙이 지정된 GB를 초과하면 Unity의 점진적 가비지 컬렉터를 다시 활성화합니다. 0은 전환하지 않는 기존 게임 동작입니다. 아레나 진행 중 컬렉터가 이미 꺼져 있을 때만 적용되며, 원래 켜진 환경에는 영향을 주지 않습니다. 강제로 즉시 수집하지 않고 플레이어 사망·라운드 휴식 또는 최대 120초 대기 후 게임의 컬렉터 모드를 전환합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "PoolPrewarmKeepIdle",
+      "source_display_name": "Idle Pool Instances Kept",
+      "source_description": "Cap how many idle instances EFT's own asset-prewarm keeps per resource (weapons, AFAKs, survival kits, hands prefabs, ...) during an arena raid, instead of letting it grow to match every bot that has ever spawned. 0 = never (pure vanilla): ObjectsFactory.InitAndFillPools sizes every pool to the TOTAL request count across the whole raid and that count never drops, so Arena's continuous respawn keeps growing every pool for as long as the raid runs (measured: 210 idle AFAKs and 207 idle survival kits after 267 bodies in 17 minutes, ~380 stale components per body). Only acts while an arena session is active AND the request is EFT's own periodic top-up to total demand (reason \"LoadPlayerResources\") — pool CREATION and the separate MaintainMinPoolSize top-up are never touched, and a pool run down to this cap still creates on demand exactly as vanilla does for any pool's first use, so a spawn is never short an item, only the standing idle surplus is bounded. See POOL-PREWARM-REVIEW.md for the measured cost.",
+      "translation_display_name": "유휴 에셋 사전 로드 수 제한",
+      "translation_description": "아레나 경기에서 EFT가 자원마다 미리 만들어 유지하는 유휴 인스턴스 수를 제한합니다. 0은 제한하지 않는 기존 게임 동작입니다. 지속적으로 봇이 리스폰해도 무기·의료품 등의 유휴 에셋 풀이 무한히 늘어나지 않도록 합니다. 아레나가 활성화된 동안 게임의 주기적 자원 보충에만 적용되며, 최초 풀 생성과 최소 풀 크기 유지에는 영향을 주지 않습니다. 필요하면 기존 게임처럼 새 인스턴스를 생성하므로 스폰에 필요한 아이템이 부족해지지는 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "TrimDeadBrainList",
+      "source_display_name": "Trim Dead Bot Brains",
+      "source_description": "Empty the AI core's removal queue of dead bot brains after it has been applied, during an arena raid. The game removes every queued brain from its agent set on every frame but never clears the queue, so a raid with hundreds of bot deaths repeats the whole removal each frame and keeps every dead brain (with its BotOwner) reachable until the raid ends. The agent set ends up exactly as the native pass leaves it; only the repeated no-op work and the retention go. Off = vanilla. Applies immediately.",
+      "translation_display_name": "사망한 봇 두뇌 목록 정리",
+      "translation_description": "아레나에서 이미 처리한 사망 봇 AI 두뇌의 제거 대기열을 비웁니다. 기본 게임은 사망한 봇을 매 프레임 제거 처리하면서 대기열을 유지할 수 있어, 장시간 경기에서 불필요한 반복 처리와 메모리 점유가 발생합니다. 실제 AI 에이전트 집합은 기존 제거 처리 결과를 그대로 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "SkipBotFovCoroutine",
+      "source_display_name": "Skip Bot FOV Coroutine",
+      "source_description": "Run the two statements of a bot's per-frame FOV coroutine directly instead of starting a coroutine for every alive bot on every frame, during an arena raid. For a third-person (bot) body the coroutine only sets the ribcage scale to one and puts a drifted scale back at the end of the frame; nothing reads either value in between for a bot. Your own body keeps its coroutine. Off = vanilla. Applies immediately.",
+      "translation_display_name": "봇 시야 코루틴 최적화",
+      "translation_description": "봇의 프레임별 시야 확인 코루틴 생성 대신 동일한 처리를 직접 실행합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "ProfileBuildBudgetMs",
+      "source_display_name": "Bot Profile Build Budget (ms per frame)",
+      "source_description": "Build the bot profiles of one server answer over several frames, spending at most this many milliseconds per frame on ADDITIONAL profiles, during an arena raid. The game builds every profile of a /client/game/bot/generate answer in the frame it arrives, which in a Zombie raid is one frame of 600-1700 ms about 90-100 s in (the next spawn batch). One profile per open batch is always built per frame, so the effective cap is this budget or one profile's cost (about 9 ms here), whichever is larger, and a batch of N profiles takes at most about N frames; the request itself is unchanged and the caller still receives the whole batch at once, about a second later than before. 0 = native (all in one frame). Applies to the next batch.",
+      "translation_display_name": "봇 프로필 생성 예산(ms)",
+      "translation_description": "아레나에서 서버가 한 번에 반환한 추가 봇 프로필을 여러 프레임에 나눠 만들 때 프레임당 사용할 최대 시간(ms)입니다. 각 배치의 프로필 하나는 매 프레임 처리하므로 실제 상한은 설정값과 프로필 하나의 처리 시간 중 큰 값입니다. 서버 요청 자체는 바꾸지 않고, 전체 배치가 준비되는 시점만 늦춰질 수 있습니다. 0은 한 프레임에 전부 처리하는 게임 기본 동작이며 다음 생성 배치부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Diagnostics",
+      "key": "LogDamageExceptions",
+      "source_display_name": "Log Damage Exceptions",
+      "source_description": "Log the state of both sides of a hit when applying damage throws: which of them is an object that has been destroyed, and which method the throw came from. For the open grenade finding in CORPSE-CLEANUP-REVIEW.md. It records and rethrows; it never changes a damage outcome.",
+      "translation_display_name": "피해 예외 기록",
+      "translation_description": "피해 적용 오류가 발생했을 때 공격자와 피격자의 상태를 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "NoCorpseLooting",
+      "source_display_name": "No Bot Corpse Looting",
+      "source_description": "Stop bots working over corpses. They swap gear on the spot and drop what they were wearing, and nothing ever cleans a dropped item up.",
+      "translation_display_name": "봇 시체 약탈 금지",
+      "translation_description": "봇이 시체를 수색하지 않도록 합니다. 장비 교환·드롭 등은 별도 동작입니다.",
+      "values": []
+    },
+    {
+      "section": "Bots",
+      "key": "PmcFloor",
+      "source_display_name": "Minimum PMCs Alive",
+      "source_description": "Minimum PMCs alive. Top-up waves spawn PMCs (alternating USEC/BEAR) until this many are around, and only fill up with scavs after that.",
+      "translation_display_name": "PMC 최소 생존 수",
+      "translation_description": "살아 있는 PMC의 최소 수입니다. 부족하면 USEC/BEAR를 번갈아 증원합니다.",
+      "values": []
+    },
+    {
+      "section": "Bots",
+      "key": "HuntPlayer",
+      "source_display_name": "Bots Hunt The Player",
+      "source_description": "Keep pointing every living bot at the player's position, so they actively close in instead of patrolling until they happen to see you. Team Deathmatch instead keeps both factions aware of live opponents.",
+      "translation_display_name": "봇의 플레이어 추적",
+      "translation_description": "모든 살아 있는 봇이 플레이어의 현재 위치를 향해 추적·접근하도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "Bots",
+      "key": "ExcludePassiveSainPersonalities",
+      "source_display_name": "Replace Passive SAIN Personalities",
+      "source_description": "Arena only: replace SAIN Rat, Timmy and Coward assignments with the current preset's Normal personality. Other personalities and SAIN preset files stay unchanged. Start a new raid when comparing this setting; existing bots are not reassigned. PFT keeps its own follower combat behavior.",
+      "translation_display_name": "소극적 SAIN 성격 제외",
+      "translation_description": "아레나에서 SAIN의 Rat·Timmy·Coward 성격을 현재 프리셋의 다른 성격으로 대체합니다.",
+      "values": []
+    },
+    {
+      "section": "Bots",
+      "key": "NoBotGestures",
+      "source_display_name": "No Bot Hand-Signal Pauses",
+      "source_description": "Stop bots pausing for friendly hand signals during an arena raid. Vanilla pairs a bot with the nearest bot of any side for a gesture, and every gesture throws a random item out of the bot's secure container — with SPT's bot loot that is a PMC's Surv12 or AFAK, left on the ground.",
+      "translation_display_name": "봇 손짓 동작 금지",
+      "translation_description": "아레나 봇이 아군에게 손짓 신호를 보내려고 멈추지 않도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "CorpseLightsOff",
+      "source_display_name": "Corpse Lights Off",
+      "source_description": "Switch off flashlights and lasers on corpses. Shadow-casting lights are expensive and dead bodies keep theirs on forever; a looted flashlight still works normally.",
+      "translation_display_name": "시체 조명 끄기",
+      "translation_description": "시체의 손전등과 레이저를 꺼서 그림자 및 조명 처리 부담을 줄입니다.",
+      "values": []
+    },
+    {
+      "section": "Character",
+      "key": "MaxSkills",
+      "source_display_name": "Elite Skills",
+      "source_description": "Run every character skill at elite level during an arena raid (kit weapons count as mastered too). Reverted when the raid ends; the saved profile is never touched.",
+      "translation_display_name": "모든 스킬 최대치",
+      "translation_description": "아레나 레이드에서 모든 캐릭터 스킬을 엘리트 수준으로 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Character",
+      "key": "LegInjurySlowdownReductionPercent",
+      "source_display_name": "Leg Injury Slowdown Reduction (%)",
+      "source_description": "Reduction of the walking-speed penalty from fractured or destroyed legs during an arena raid. 50 halves the penalty (one leg: 0.30 to 0.65; both legs: 0.20 to 0.60). Injuries and the vanilla sprint restriction remain active; 0 keeps vanilla movement.",
+      "translation_display_name": "다리 부상 감속 완화율(%)",
+      "translation_description": "아레나 레이드에서 다리 골절·파괴로 인한 걷기 속도 감소를 완화합니다. 50은 감소 페널티를 절반으로 줄입니다(한쪽 다리: 0.30→0.65, 양쪽 다리: 0.20→0.60). 부상 자체와 기본 달리기 제한은 계속 적용됩니다. 0은 기본 게임 이동값을 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "Character",
+      "key": "BleedingDamageMultiplier",
+      "source_display_name": "Bleeding Damage (x)",
+      "source_description": "HP loss from light and heavy bleeding for living Arena players and bots. 1 keeps vanilla damage; treatment, bleed duration and other damage stay unchanged.",
+      "translation_display_name": "출혈 피해 배율",
+      "translation_description": "살아 있는 아레나 플레이어와 봇의 경출혈·중출혈 HP 감소량을 조절합니다. 1은 기본값입니다.",
+      "values": []
+    },
+    {
+      "section": "Character",
+      "key": "MedicalUseSpeed",
+      "source_display_name": "Medical Use Speed (x)",
+      "source_description": "Application speed for the local PMC's medkits, bandages, splints, surgery kits, pills and injectors during an arena raid. Both the health effect and hands animation use this factor; 1 keeps vanilla timing.",
+      "translation_display_name": "의료품 사용 속도 배율",
+      "translation_description": "의료 키트·붕대·부목·수술 키트·약·주사기의 사용과 손동작 속도를 조절합니다. 1은 기본값입니다.",
+      "values": []
+    },
+    {
+      "section": "Character",
+      "key": "MagazineHandlingSpeed",
+      "source_display_name": "Magazine Loading Speed (x)",
+      "source_description": "Loading and unloading speed for loose rounds in the local PMC's magazines through the raid inventory, including internal magazines, during an arena raid. 1 keeps vanilla timing; this does not change weapon or hands reload animations.",
+      "translation_display_name": "탄창 탄약 취급 속도 배율",
+      "translation_description": "인벤토리에서 탄창에 낱발 탄약을 넣거나 빼는 속도입니다. 무기 재장전 애니메이션은 변경하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Match",
+      "key": "GameMode",
+      "source_display_name": "Game Mode",
+      "source_description": "Arena game mode selected on the native map screen or in F12. deathmatch: individual kills with optional finite or endless rounds. gungame: climb a ladder of weapons, one rung per kill. tactical: buy a loadout, fight one squad, and sit the round out if you fall. teamdeathmatch: equal USEC and BEAR teams with instant respawns and Arena kits. zombie: endless waves of the infected, with instant respawns and Arena kits.",
+      "translation_display_name": "아레나 게임 모드",
+      "translation_description": "데스매치·건 게임·택티컬·팀 데스매치·좀비 모드 중 선택합니다. 지도 선택 화면 또는 F12에서 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Team Deathmatch",
+      "key": "ExperimentalArea",
+      "source_display_name": "Arena Area (All Modes)",
+      "source_description": "Selected Arena area for every mode (the existing config key is retained). Customs requires one of its three surveyed areas; other maps use the whole map. Each Customs area has opposing faction starts; independent Team DM also selects its team size. All surveyed outlines have side walls only, with no height restriction. The old rectangle test areas are retired. Also selectable in the native Arena map menu, which adapts this value to the chosen map/mode. Selected before loading; changes during a raid apply next match. The area must pass its live navigation checks before any match starts.",
+      "translation_display_name": "아레나 경기 지역 선택",
+      "translation_description": "모든 모드에서 사용할 경기 지역입니다. 세관은 조사된 구역을 선택하며, 선택 사항은 다음 경기부터 적용됩니다. 실시간 경로 검사를 통과해야 시작합니다.",
+      "values": []
+    },
+    {
+      "section": "Team Deathmatch",
+      "key": "AreaPlayersPerTeam",
+      "source_display_name": "Players Per Team (Customs Areas)",
+      "source_description": "Players per faction, including your PMC, for Customs areas with opposing team starts. Separate from whole-map team size. Selected before loading; changes apply next match.",
+      "translation_display_name": "세관 구역 팀별 인원",
+      "translation_description": "세관의 진영별 시작 지점이 있는 구역에서 PMC를 포함한 팀 인원입니다. 전체 지도 팀 크기와 별개입니다.",
+      "values": []
+    },
+    {
+      "section": "Team Deathmatch",
+      "key": "PlayersPerTeam",
+      "source_display_name": "Players Per Team",
+      "source_description": "Team Deathmatch capacity per faction, including your PMC on its own side. Both teams refill fallen bots; your slot stays reserved while you respawn. Read at match start. PitFireTeam companions are not used in this mode.",
+      "translation_display_name": "팀 데스매치 팀별 인원",
+      "translation_description": "진영마다 참가할 최대 인원입니다. 양 팀은 사망한 봇을 보충하고 플레이어 자리는 리스폰 중에도 예약됩니다.",
+      "values": []
+    },
+    {
+      "section": "Team Deathmatch",
+      "key": "KillLimit",
+      "source_display_name": "Team Kill Limit (0 = Unlimited)",
+      "source_description": "Team kills needed to win independent Team Deathmatch (0 = unlimited). The first kill or time limit reached ends the match. Selected before loading; changes during a raid apply next match.",
+      "translation_display_name": "팀 데스매치 처치 제한",
+      "translation_description": "경기 종료에 필요한 팀 처치 수입니다. 0은 무제한이며 처치 수나 시간 제한 중 먼저 충족되는 조건으로 종료됩니다.",
+      "values": []
+    },
+    {
+      "section": "Team Deathmatch",
+      "key": "TimeLimitSeconds",
+      "source_display_name": "Match Duration (s, 0 = Unlimited)",
+      "source_description": "Independent Team Deathmatch duration after both teams are ready and the countdown ends (0 = unlimited). At the time limit the leading team wins; equal scores draw. Changes during a raid apply next match.",
+      "translation_display_name": "팀 데스매치 시간 제한(초)",
+      "translation_description": "양 팀 준비와 카운트다운이 끝난 뒤의 경기 시간입니다. 0은 무제한이며 동점은 무승부입니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "MaxAlive",
+      "source_display_name": "Max Infected Alive",
+      "source_description": "Infected allowed alive at once, across the whole raid. Also raises the native bot cap with reserve for activation and any authenticated PitFireTeam companions. The ceiling of 96 stays below the server clone's 104-bot capacity floor. Frozen at match start.",
+      "translation_display_name": "좀비 최대 동시 생존 수",
+      "translation_description": "동시에 살아 있을 수 있는 감염자의 최대 수입니다. 활성화 대기 개체와 동료를 고려해 봇 상한도 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "StuckWaveTimeoutSeconds",
+      "source_display_name": "Stuck Wave Timeout (s)",
+      "source_description": "Safety net for a wave's last infected getting wedged in geometry or stranded on an unreachable NavMesh island: once the wave is SATURATED — every infected in it has already been requested, OR alive+pending already fills what MaxAlive/the wave's own remainder allows right now — and no infected has died for this long, whatever is still alive is administratively retired. If the wave still has spawns left after that, it keeps going (only the stuck survivor(s) were cleared); if not, the wave clears like normal. This measures PROGRESS, not mere duration: any infected death restarts the clock, so a wave the player is still actively (if slowly) clearing is never cleared out from under them — only saturation with no deaths at all for the whole ceiling is \"stuck\" (progress-not-duration changed 2026-10-06 after a GPU raid showed the old wall-clock-since-tail-start version ending a wave mid-fight; saturation arming added the same day after a second GPU raid showed a wave pinned at MaxAlive with 10 of 30 still to spawn and zero infected deaths for over four minutes never arming this at all, because it was never \"fully spawned\"). 0 disables the watchdog (the wave then waits for every infected to die naturally, with no recovery if one cannot reach the player). Frozen at match start.",
+      "translation_display_name": "좀비 웨이브 정체 감지 시간(초)",
+      "translation_description": "웨이브의 감염자 생성이 포화 상태이고 설정 시간 동안 사망자가 없으면, 지형에 끼거나 접근할 수 없는 남은 감염자를 정리해 웨이브 진행을 돕습니다. 생성 요청이 모두 끝났거나 현재 생존·대기 개체가 허용치를 채운 경우에만 작동합니다. 남은 스폰이 있으면 다음 생성으로 이어지며, 감염자가 사망하면 타이머가 초기화됩니다. 0은 비활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "WaveStartSize",
+      "source_display_name": "First Wave Size",
+      "source_description": "Total infected in wave 1. Spawns and replacements are bounded by MaxAlive, so a wave may contain more infected than can be alive simultaneously. Frozen at match start.",
+      "translation_display_name": "첫 좀비 웨이브 수",
+      "translation_description": "첫 웨이브의 전체 감염자 수입니다. 동시에 존재할 수 있는 수는 별도 최대 생존 수 설정에 제한됩니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "WaveGrowth",
+      "source_display_name": "Extra Infected Per Wave",
+      "source_description": "Extra infected each wave adds over the last: wave n = WaveStartSize + WaveGrowth * (n - 1). Frozen at match start.",
+      "translation_display_name": "웨이브별 감염자 증가량",
+      "translation_description": "웨이브가 진행될 때마다 늘어나는 감염자 수입니다. n번째 웨이브는 시작 수 + 증가량 × (n-1)입니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "IntermissionSeconds",
+      "source_display_name": "Break Between Waves (s)",
+      "source_description": "Countdown before the first wave and between cleared waves (everything spawned, nothing from the previous wave still alive). Starts after the player/team is ready. Frozen at match start.",
+      "translation_display_name": "좀비 웨이브 대기 시간(초)",
+      "translation_description": "첫 웨이브 전과 이전 웨이브를 모두 처치한 후의 대기 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "SpawnIntervalSeconds",
+      "source_display_name": "Spawn Interval (s)",
+      "source_description": "Seconds between individual infected spawn requests while a wave is filling up to MaxAlive or refilling a gap a kill just opened. Lower values reach MaxAlive faster and refill kills with less of a gap. Frozen at match start.",
+      "translation_display_name": "좀비 생성 간격(초)",
+      "translation_description": "감염자를 한 명씩 소환하거나 처치된 빈자리를 채우는 간격입니다. 낮을수록 빠르게 채워집니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "ShooterPercent",
+      "source_display_name": "Pistol-Armed Infected (%)",
+      "source_description": "Percent chance each spawned infected is the hard/Shooting variant (PM pistol) instead of normal/Fast melee. 0 keeps every infected melee; 100 makes every infected a shooter. Never easy (too slow to matter) or impossible (the native brain throws on construction). Frozen at match start.",
+      "translation_display_name": "사격형 감염자 비율(%)",
+      "translation_description": "PM 권총을 사용하는 사격형 감염자의 등장 비율입니다. 0은 전원 근접형, 100은 전원 사격형입니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "PftFastPathEnabled",
+      "source_display_name": "PitFireTeam Fast Path",
+      "source_description": "Avoid redundant PitFireTeam layer inspection for verified native Arena infected. Standby wake-up, companions and custom brains retain the original path. Turn off for comparison or compatibility troubleshooting; applies immediately.",
+      "translation_display_name": "PitFireTeam 감염자 처리 최적화",
+      "translation_description": "확인된 아레나 감염자의 불필요한 PitFireTeam 계층 검사를 생략합니다. 비교·호환성 문제 조사 시 끌 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "VoiceBudgetEnabled",
+      "source_display_name": "Limit Overlapping Voices",
+      "source_description": "Limit overlapping repetitive infected voices in Arena Zombies. Nearby attack calls, critical sounds, AI hearing and companions keep native behavior. Turn off for comparison; applies immediately.",
+      "translation_display_name": "감염자 음성 동시 재생 제한",
+      "translation_description": "반복되는 감염자 음성이 과도하게 겹치지 않도록 합니다. 근거리 공격 음성·중요 효과음·AI 청각은 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "CrowdEnabled",
+      "source_display_name": "Zombie Crowd (Harder Horde)",
+      "source_description": "Optional, harder Zombie horde behavior. Generic infected farther than 26 m may teleport to clear, connected 12/16/22 m rings around the player. Melee infected within 80 m skip sight casts; infected skip local avoidance and clear residual offsets. Shooters keep native vision. Rendering is always native. OFF restores pre-Crowd behavior without crowd teleports, sight or avoidance overrides; applies immediately. Previously moved bots stay at their current position. Existing saved choices are preserved.",
+      "translation_display_name": "좀비 군중 강화",
+      "translation_description": "좀비 군중을 더 어렵게 만드는 선택 기능입니다. 플레이어에게서 26m 넘게 떨어진 일반 감염자를 연결되고 장애물이 없는 주변 12/16/22m 지점으로 재배치할 수 있습니다. 80m 이내의 근접 감염자는 시야 광선 검사를 생략하며, 감염자의 근거리 회피·잔여 이동 오프셋을 제거합니다. 사격하는 감염자는 기본 시야를 유지하고 렌더링도 기본 방식을 사용합니다. 끄면 군중 재배치·시야·회피 변경을 즉시 중단하지만, 이미 이동한 감염자는 현재 위치에 남습니다. 저장된 기존 설정은 유지됩니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "CullOffscreenAnimators",
+      "source_display_name": "Cull Unseen Animators (Test)",
+      "source_description": "Let Unity skip the body animation of a generic infected that no camera renders (shadows included), even inside the game's own 10 m always-animate radius, the way the game already does beyond it. The infected keeps moving and deciding; only retargeting and bone writes pause while it is unseen. Never applied to an infected within reach of a possible target or mid-swing, so hits from behind still land. Trade-off, the same the game accepts beyond 10 m: an unseen body keeps its last written pose (hit zones included) until it is seen again, and a corpse made unseen starts its fall from that pose. Pays off together with HideOffscreenShadows. Performance switch for measurement; off = native. Applies immediately.",
+      "translation_display_name": "화면 밖 감염자 애니메이션 절약",
+      "translation_description": "카메라에 보이지 않는 일반 감염자의 신체 애니메이션을 일시 정지해 성능을 높입니다. 접근·공격 중인 감염자는 제외합니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "HideOffscreenShadows",
+      "source_display_name": "Hide Unseen Shadows (Test)",
+      "source_description": "Switch off the shadows of a generic infected while it is outside the camera's view, so it is no longer drawn into every shadow cascade behind the player. Only Arena's own changes are tracked and put back the moment the body is in view again, when it dies, when its pooled gear returns to the pool, and at raid end. While a magnified scope renders, everything in front of you keeps its shadows. A shadow the sky light throws into your view from an unseen infected stays (up to 15 m along the ground); shadows from lamps behind you are not predicted and can vanish with their caster. Performance switch for measurement; off = native. Applies immediately.",
+      "translation_display_name": "화면 밖 감염자 그림자 숨기기",
+      "translation_description": "카메라 바깥 감염자의 그림자 렌더링을 중단했다가 다시 보이면 복원합니다. 화면 안으로 드리운 일부 그림자는 유지될 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "OwnGear",
+      "source_display_name": "Bring Own Gear",
+      "source_description": "Bring your own protected equipment instead of a random Arena kit. Solo play restores your entry loadout, including ammunition, after each cleared wave; your first death ends the match. With PitFireTeam, own gear is required: the PMC and companions restore their entry equipment and ammunition each wave, including a surviving PMC. Fallen squad members return after a cleared wave; a team wipe ends the match. Frozen at match start.",
+      "translation_display_name": "좀비 모드 개인 장비 사용",
+      "translation_description": "무작위 아레나 세트 대신 보호된 자신의 장비를 사용합니다. 단독 플레이는 웨이브 종료 시 장비와 탄약이 복원되며 첫 사망으로 경기가 끝납니다.",
+      "values": []
+    },
+    {
+      "section": "Match",
+      "key": "RoundIntermissionSeconds",
+      "source_display_name": "Deathmatch Round Break (s)",
+      "source_description": "Deathmatch: scoreboard time between rounds (frozen before loading).",
+      "translation_display_name": "라운드 사이 휴식 시간(초)",
+      "translation_description": "데스매치 라운드 사이에 점수판을 표시하는 시간입니다. 레이드 시작 전에 값이 확정됩니다.",
+      "values": []
+    },
+    {
+      "section": "Rounds",
+      "key": "RoundRespawn",
+      "source_display_name": "Fresh Kit At Round End",
+      "source_description": "Respawn with a fresh kit when a round ends, at a spawn point away from the fight. Off: keep standing where the round ended, healed up.",
+      "translation_display_name": "라운드 종료 시 리스폰",
+      "translation_description": "라운드가 끝나면 전투에서 떨어진 위치에 새 장비로 리스폰합니다. 끄면 제자리에서 체력을 회복합니다.",
+      "values": []
+    },
+    {
+      "section": "Deathmatch",
+      "key": "Rounds",
+      "source_display_name": "Rounds Per Match (0 = Endless)",
+      "source_description": "Rounds per match (0 = endless). Finite rounds require a kill or time limit. Frozen before loading.",
+      "translation_display_name": "데스매치 라운드 수",
+      "translation_description": "경기당 라운드 수입니다. 0은 무한이며 유한 라운드에는 처치 또는 시간 제한이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Deathmatch",
+      "key": "KillLimit",
+      "source_display_name": "Kills Per Round (0 = Off)",
+      "source_description": "Kills per round (0 = off). FFA: first individual at the limit. All vs player: your kills. Frozen before loading.",
+      "translation_display_name": "데스매치 처치 제한",
+      "translation_description": "라운드당 목표 처치 수입니다. 0은 제한 없음이며 개인전에서는 먼저 도달한 플레이어가 승리합니다.",
+      "values": []
+    },
+    {
+      "section": "Deathmatch",
+      "key": "TimeLimitSeconds",
+      "source_display_name": "Round Time Limit (s, 0 = Off)",
+      "source_description": "Seconds per round (0 = off). Both limits off means continuous play. Frozen before loading.",
+      "translation_display_name": "데스매치 시간 제한(초)",
+      "translation_description": "라운드별 시간 제한입니다. 0은 비활성화이며 처치·시간 제한이 모두 0이면 계속 진행됩니다.",
+      "values": []
+    },
+    {
+      "section": "Deathmatch",
+      "key": "FreeForAll",
+      "source_display_name": "Free For All",
+      "source_description": "True: every individual fights everyone. False: all bots fight only the player. Frozen with server acknowledgement before loading.",
+      "translation_display_name": "데스매치 개인전",
+      "translation_description": "켜면 각자 모든 상대와 싸웁니다. 끄면 모든 봇이 플레이어만 공격합니다.",
+      "values": []
+    },
+    {
+      "section": "Gun Game",
+      "key": "GunGameLadder",
+      "source_display_name": "Weapon Ladder (Rung IDs)",
+      "source_description": "Rung ids in ladder order, comma separated. Empty uses the generated weapon ladder (config/ladder.json), or the kit catalog if there is none. Read when the arena raid is armed and kept for that raid; an edit made while a raid loads or runs applies to the next one.",
+      "translation_display_name": "건 게임 무기 단계 목록",
+      "translation_description": "무기 단계 ID를 쉼표로 구분해 순서대로 지정합니다. 비워두면 자동 생성한 무기 목록을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Gun Game",
+      "key": "GunGameSpareMagazines",
+      "source_display_name": "Spare Magazines Per Gun",
+      "source_description": "Loaded magazines handed out with each new gun.",
+      "translation_display_name": "건 게임 예비 탄창 수",
+      "translation_description": "새 무기를 받을 때 함께 지급되는 장전된 예비 탄창의 수입니다.",
+      "values": []
+    },
+    {
+      "section": "Gun Game",
+      "key": "GunGameLoseTierOnDeath",
+      "source_display_name": "Lose Tier On Death",
+      "source_description": "Drop back one tier when you die. Off by default — losing progress to a grenade you never saw is not what makes gun game fun.",
+      "translation_display_name": "사망 시 무기 단계 하락",
+      "translation_description": "건 게임에서 사망하면 무기 단계를 한 단계 내립니다. 기본값은 비활성화입니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "SquadSize",
+      "source_display_name": "Enemy Squad Size",
+      "source_description": "How many enemies a round spawns. The round is over when they are all dead — or when you are.",
+      "translation_display_name": "택티컬 적 분대 규모",
+      "translation_description": "라운드마다 등장하는 적 수입니다. 적을 전멸시키거나 플레이어가 사망하면 라운드가 끝납니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "TeamOwnGear",
+      "source_display_name": "Own Gear With PitFireTeam",
+      "source_description": "With PitFireTeam, bring your own protected PMC equipment (default) or receive an Arena kit. Only your PMC changes; companions keep their own gear. The issued kit is restored after your death at the next round, using the same protected round lifecycle. Survivors retain their current equipment. No buy phase is added. Frozen at match start; solo Tactical is unchanged.",
+      "translation_display_name": "택티컬 팀 개인 장비 사용",
+      "translation_description": "PitFireTeam 이용 시 자신의 보호 장비를 사용합니다. 끄면 PMC에게 아레나 세트를 지급하며 동료 장비는 변경하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "SquadIsPmc",
+      "source_display_name": "Enemy Squad Are PMCs",
+      "source_description": "Send PMCs rather than scavs. PMCs are the fight this mode is built around; scavs make a round short and cheap.",
+      "translation_display_name": "택티컬 PMC 적 출현",
+      "translation_description": "스캐브 대신 PMC 분대를 상대하도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "BuySeconds",
+      "source_display_name": "Buy Phase (s)",
+      "source_description": "How long the buy phase lasts.",
+      "translation_display_name": "택티컬 구매 시간(초)",
+      "translation_description": "라운드 시작 전 장비 구매 단계의 제한 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "RoundSeconds",
+      "source_display_name": "Round Time Limit (s)",
+      "source_description": "Safety net on a round that never resolves — a squad member stuck somewhere unreachable would otherwise hold the match open forever.",
+      "translation_display_name": "택티컬 라운드 제한 시간(초)",
+      "translation_description": "접근 불가능한 적 등으로 라운드가 끝나지 않을 때 작동하는 안전용 제한 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "StartMoney",
+      "source_display_name": "Starting Money (Roubles)",
+      "source_description": "Roubles at the first buy phase. Kits are priced at their handbook value minus the secure container, so this is a currency you already have a feel for. The catalogue runs from about 180k to 590k, so this buys the bottom third — round one is a choice, not a handout.",
+      "translation_display_name": "택티컬 시작 자금(루블)",
+      "translation_description": "첫 구매 단계에서 지급되는 루블입니다. 장비 세트의 도감 가격을 기준으로 가격이 책정됩니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "KillReward",
+      "source_display_name": "Kill Reward (Roubles)",
+      "source_description": "Roubles per kill.",
+      "translation_display_name": "택티컬 처치 보상(루블)",
+      "translation_description": "적 한 명을 처치할 때 지급되는 루블입니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "WinBonus",
+      "source_display_name": "Round Win Bonus (Roubles)",
+      "source_description": "Roubles for taking a round.",
+      "translation_display_name": "택티컬 승리 보너스(루블)",
+      "translation_description": "라운드에서 승리하면 지급되는 루블입니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "LossBonus",
+      "source_display_name": "Round Loss Bonus (Roubles)",
+      "source_description": "Roubles for losing one. Not charity: without it a bad round becomes an unrecoverable one, which is the failure mode every game with an economy has to design against.",
+      "translation_display_name": "택티컬 패배 보너스(루블)",
+      "translation_description": "라운드에서 패배해도 지급되는 루블입니다. 패배 후에도 장비를 구매할 수 있도록 돕습니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "ReplaySeconds",
+      "source_display_name": "Killcam Replay (s)",
+      "source_description": "Recorded seconds shown after you go down; 0 disables killcam. Requires enabled Killcam. Respawn waits for playback, slow motion and live tail. Frozen when the raid is armed; Tactical still waits for the next round.",
+      "translation_display_name": "택티컬 킬캠 재생 시간(초)",
+      "translation_description": "사망 후 보여 줄 녹화 영상 시간입니다. 0이면 비활성화이며 킬캠이 켜져 있어야 합니다. 리스폰은 다음 라운드까지 기다립니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical Team",
+      "key": "RoundsToWin",
+      "source_display_name": "Rounds To Win",
+      "source_description": "Protected PitFireTeam 5v5: rounds required to win the match. Three produces a best-of-five match; one keeps the old single-round result.",
+      "translation_display_name": "택티컬 팀 승리 필요 라운드",
+      "translation_description": "PitFireTeam 5대5에서 경기를 이기는 데 필요한 승리 라운드 수입니다. 3이면 최대 5라운드 경기입니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical Team",
+      "key": "SpectatorAfterDeath",
+      "source_display_name": "Spectate After Death",
+      "source_description": "Protected PitFireTeam 5v5: follow living teammates or opponents in third person after your PMC dies, until the round ends. The observer banner shows the selected bot's current and maximum HP.",
+      "translation_display_name": "택티컬 팀 사망 후 관전",
+      "translation_description": "PitFireTeam 5대5에서 PMC 사망 후 라운드 종료까지 살아 있는 동료 또는 적을 3인칭으로 관전합니다.",
+      "values": []
+    },
+    {
+      "section": "Gun Game",
+      "key": "GunGameRedrawLadder",
+      "source_display_name": "New Ladder After Finishing",
+      "source_description": "Cut a fresh ladder when you finish one, instead of climbing the same weapons a second time in the same raid. The new rungs are warmed in the background, so the promotions that follow do not wait for them.",
+      "translation_display_name": "건 게임 무기 목록 재생성",
+      "translation_description": "무기 단계 전체를 완료하면 같은 레이드에서 새로운 목록을 생성합니다. 다음 단계 장비는 백그라운드에서 준비됩니다.",
+      "values": []
+    },
+    {
+      "section": "Difficulty",
+      "key": "ScaleDifficulty",
+      "source_display_name": "Scale Difficulty Over Time",
+      "source_description": "Let the arena push back harder as the raid goes on and as you go on a run. Off: the fixed difficulties this mod used before.",
+      "translation_display_name": "난이도 자동 상승",
+      "translation_description": "경과 시간과 연속 처치에 따라 아레나 난이도를 높입니다. 끄면 기존 고정 난이도를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "RespawnMinDistance",
+      "source_display_name": "Respawn Distance From Death (m)",
+      "source_description": "How far a respawn point has to be from where you died. Points closer than this are only used when nothing else is left.",
+      "translation_display_name": "리스폰 최소 거리",
+      "translation_description": "사망 지점에서 리스폰 지점이 떨어져야 하는 최소 거리입니다. 다른 후보가 없을 때만 더 가까운 지점을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Difficulty",
+      "key": "PressureRampMinutes",
+      "source_display_name": "Time To Full Pressure (min)",
+      "source_description": "For matches without a time limit: minutes to reach full pressure on the clock alone. Timed Team DM instead reaches full pressure at 80% of its frozen match duration, excluding assembly/countdown. This half only ever climbs — it is what stops a long raid from getting easier as you settle in.",
+      "translation_display_name": "시간에 따른 압박 상승(분)",
+      "translation_description": "시간 제한이 없는 경기에서 최대 압박에 이르는 시간입니다. 시간제 팀 데스매치는 경기 시간의 80%에 최대 압박에 도달합니다.",
+      "values": []
+    },
+    {
+      "section": "Difficulty",
+      "key": "PressureStreakPercent",
+      "source_display_name": "Kill Streak Pressure (%)",
+      "source_description": "How much a kill streak adds on top of the clock, at eight kills without dying. Dying clears this part, never the clock.",
+      "translation_display_name": "연속 처치 압박 증가율(%)",
+      "translation_description": "죽지 않고 8킬에 도달했을 때 시간 압박에 더해지는 추가 난이도입니다. 죽으면 연속 처치 부분만 초기화됩니다.",
+      "values": []
+    },
+    {
+      "section": "Difficulty",
+      "key": "PressurePmcBonus",
+      "source_display_name": "Extra PMCs At Full Pressure",
+      "source_description": "Extra PMCs kept alive at full pressure, on top of the PMC floor. A heavier mix is the gentlest way to make a raid harder.",
+      "translation_display_name": "최대 압박 시 PMC 추가 수",
+      "translation_description": "압박이 최대가 되면 기존 최소 PMC 수에 추가로 유지할 PMC 수입니다.",
+      "values": []
+    },
+    {
+      "section": "Difficulty",
+      "key": "MaxBotDifficulty",
+      "source_display_name": "Max Bot Difficulty",
+      "source_description": "Ceiling for the scaling. PMCs reach it late in a hot raid; drop this to hard if the top end is too much. Only hard and impossible do anything: this bounds the CLIMB, and anything lower is ignored rather than quietly making the arena easier than it has ever been.",
+      "translation_display_name": "봇 난이도 상승 상한",
+      "translation_description": "자동 난이도의 최대 단계입니다. hard와 impossible만 상한으로 작동하며 낮은 단계는 무시됩니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "PanelHotkey",
+      "source_display_name": "Arena Panel Hotkey",
+      "source_description": "Opens the in-raid arena panel (scoreboard and live settings).",
+      "translation_display_name": "아레나 패널 단축키",
+      "translation_description": "레이드 중 점수판과 실시간 설정 패널을 여는 키입니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "GiveUpHotkey",
+      "source_display_name": "Give Up Life Hotkey",
+      "source_description": "Ends the current life and respawns immediately — for when you are bleeding out with nothing left to do. Counts as a death.",
+      "translation_display_name": "즉시 포기 단축키",
+      "translation_description": "현재 생명을 끝내고 즉시 리스폰하는 키입니다. 회복 수단 없이 출혈 중일 때 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "Enabled",
+      "source_display_name": "Arena HUD",
+      "source_description": "Arena HUD (score panel, killfeed, callouts) during arena sessions.",
+      "translation_display_name": "아레나 HUD 활성화",
+      "translation_description": "아레나 중 점수판·킬피드·알림 문구를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "CombatElements",
+      "source_display_name": "Combat Elements",
+      "source_description": "Arena-HUD mutator: killfeed, hitmarkers (including kill skull/damage numbers), HP and weapon panels. Preserves individual preferences; score, round notices, team markers and audio stay independent. Requires the overall HUD/Enabled master.",
+      "translation_display_name": "전투 HUD 요소",
+      "translation_description": "킬피드·히트마커·피해 수치·체력 및 전투 HUD 요소의 표시 여부를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "ScorePanelOffsetX",
+      "source_display_name": "Score Panel Offset X (px)",
+      "source_description": "Horizontal offset from the score panel's default top-center position. Positive moves right, negative moves left; 0 restores the default. Uses scaled 1920x1080 HUD units. Applies immediately, including the start/wait notice below it.",
+      "translation_display_name": "점수판 가로 위치 보정",
+      "translation_description": "화면 상단 중앙의 기본 점수판 위치에서 좌우로 이동합니다. 양수는 오른쪽입니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "ScorePanelOffsetY",
+      "source_display_name": "Score Panel Offset Y (px)",
+      "source_description": "Vertical offset from the score panel's default position below the quickslots. Positive moves down, negative moves up; 0 restores the default. Uses scaled 1920x1080 HUD units. Applies immediately, including the start/wait notice below it.",
+      "translation_display_name": "점수판 세로 위치 보정",
+      "translation_description": "단축 슬롯 아래의 기본 점수판 위치에서 상하로 이동합니다. 양수는 아래쪽입니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "ShowFriendlyMarkers",
+      "source_display_name": "Friendly Markers",
+      "source_description": "Show a small diamond above visible friendly bots in Team Deathmatch and protected PitFireTeam squads. Uses FriendlyTracerColor; markers are hidden behind obstacles and in ordinary raids.",
+      "translation_display_name": "아군 위치 표식 표시",
+      "translation_description": "팀 데스매치와 보호된 PitFireTeam 모드에서 보이는 아군 봇 머리 위에 작은 마름모 표식을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "Killfeed",
+      "source_display_name": "Killfeed",
+      "source_description": "Killfeed lines (attacker, victim, weapon, distance) in the top-left corner; leaves the top-right free for a minimap.",
+      "translation_display_name": "킬피드 표시",
+      "translation_description": "좌측 상단에 공격자·피해자·무기·거리 정보를 포함한 처치 기록을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "KillfeedOtherKills",
+      "source_display_name": "Killfeed: Bot vs Bot Kills",
+      "source_description": "Also show bot-vs-bot kills in the killfeed.",
+      "translation_display_name": "봇 사이의 처치도 표시",
+      "translation_description": "킬피드에 봇이 다른 봇을 처치한 기록도 포함합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "KillfeedOffsetX",
+      "source_display_name": "Killfeed Offset X (px)",
+      "source_description": "Horizontal offset from the killfeed's default top-left position. Positive moves right, negative moves left; 0 restores the default. Uses scaled 1920x1080 HUD units. Applies immediately to existing and new entries.",
+      "translation_display_name": "킬피드 가로 위치 보정",
+      "translation_description": "좌측 상단 기본 위치에서 킬피드를 좌우로 이동합니다. 양수는 오른쪽입니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "KillfeedOffsetY",
+      "source_display_name": "Killfeed Offset Y (px)",
+      "source_description": "Vertical offset from the killfeed's default position. Positive moves down, negative moves up; 0 restores the default. Uses scaled 1920x1080 HUD units. Applies immediately to existing and new entries.",
+      "translation_display_name": "킬피드 세로 위치 보정",
+      "translation_description": "킬피드의 세로 위치를 조절합니다. 양수는 아래쪽입니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "Hitmarker",
+      "source_display_name": "Hitmarker",
+      "source_description": "Crosshair hitmarker on dealt damage (kill and headshot variants).",
+      "translation_display_name": "히트마커 표시",
+      "translation_description": "피해를 입혔을 때 조준점에 피격 표시를 띄웁니다. 처치·헤드샷 표시도 포함됩니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "DamageNumbers",
+      "source_display_name": "Damage Numbers",
+      "source_description": "Floating damage numbers at the hit position.",
+      "translation_display_name": "피해 수치 표시",
+      "translation_description": "명중 지점 주변에 떠오르는 피해량 숫자를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD",
+      "key": "CombineDamageNumbers",
+      "source_display_name": "Combine Damage Numbers",
+      "source_description": "Add hits on the same target within 0.25 seconds to one floating number. Body and armor damage stay separate. Presentation only; applies immediately.",
+      "translation_display_name": "연속 피해 수치 합산",
+      "translation_description": "같은 대상에게 0.25초 안에 입힌 피해를 한 숫자로 합칩니다. 신체와 방어구 피해는 구분합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "HitmarkerSounds",
+      "source_display_name": "Hitmarker Sounds",
+      "source_description": "Short Arena hit, headshot and kill sounds, independent of the visual HUD and announcer. Replaceable PCM16 mono WAVs in BepInEx/plugins/maschine-ArenaMode/sounds/; see docs/licenses/audio/AUDIO-LICENSES.md.",
+      "translation_display_name": "히트마커 효과음",
+      "translation_description": "일반 명중·헤드샷·처치 시 아레나 전용 효과음을 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "HitmarkerVolume",
+      "source_display_name": "Hitmarker Volume",
+      "source_description": "Hitmarker sound volume, independent of Interface and announcer volume. Still respects overall game volume and mute; changes apply immediately.",
+      "translation_display_name": "히트마커 음량",
+      "translation_description": "인터페이스·중계 음량과 별도로 히트마커 효과음의 크기를 설정합니다. 게임 전체 음소거는 따릅니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Announcer",
+      "source_display_name": "Announcer (All Modes)",
+      "source_description": "Announcer stingers (combat awards, streaks, Tactical round/match cues) — plays .ogg files from BepInEx/plugins/maschine-ArenaMode/announcements/. Missing sounds are skipped and logged. Master switch: when off, the on-screen kill callouts (DOUBLE KILL, ...) are hidden too.",
+      "translation_display_name": "아레나 중계 음성",
+      "translation_description": "연속 처치·전투 업적·택티컬 라운드 결과에 대한 음성 효과를 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "AnnouncerVolume",
+      "source_display_name": "Announcer Volume",
+      "source_description": "Announcer volume, independent of Interface volume by default. Still respects the game's overall volume and mute.",
+      "translation_display_name": "중계 음성 음량",
+      "translation_description": "게임 인터페이스 소리와 별도로 아레나 중계 음성 크기를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "AnnouncerUseUiVolume",
+      "source_display_name": "Announcer Follows Interface Volume",
+      "source_description": "Off: use the dedicated Arena output controlled by AnnouncerVolume and overall game volume. On: restore the legacy Interface-volume output for compatibility.",
+      "translation_display_name": "인터페이스 음량 사용",
+      "translation_description": "아레나 전용 출력 대신 게임 인터페이스 음량 설정을 중계 음성에 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "MuteLabyrinthAlarm",
+      "source_display_name": "Mute Labyrinth Alarm",
+      "source_description": "Silence the repeating center siren on Labyrinth during Arena only. Other sounds and map triggers are unchanged. Takes effect immediately; turning this off lets an active alarm resume at its next sound cycle (about 4 seconds).",
+      "translation_display_name": "미궁 경보음 음소거",
+      "translation_description": "아레나 진행 중 미궁 중앙의 반복 사이렌을 끕니다. 다른 소리는 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "ArenaLighting",
+      "source_display_name": "Arena Lighting",
+      "source_description": "All Arena maps, including ported maps: add restrained runtime lighting for round starts, the final seconds, and Tactical victory/defeat. No map bundles or shared map materials are changed.",
+      "translation_display_name": "아레나 조명 효과",
+      "translation_description": "라운드 시작·종료·경기 결과에 맞춘 추가 조명 효과를 아레나 지도에 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "ArenaLightingStrength",
+      "source_display_name": "Arena Lighting Strength (x)",
+      "source_description": "Brightness multiplier for Arena's additive phase light on all supported maps (0 = invisible).",
+      "translation_display_name": "아레나 조명 밝기 배율",
+      "translation_description": "경기 단계 조명의 추가 밝기를 조절합니다. 0은 보이지 않음을 뜻합니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "ArenaLightingPressureSeconds",
+      "source_display_name": "Final-Seconds Red Light (s)",
+      "source_description": "Turn the Arena lighting red for this many final seconds in timed Rounds and Tactical combat (0 = disabled).",
+      "translation_display_name": "종료 임박 빨간 조명 시간(초)",
+      "translation_description": "시간제 라운드와 택티컬에서 종료 직전 지정한 시간 동안 조명을 빨갛게 바꿉니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "ArenaLightingOutcomeSeconds",
+      "source_display_name": "Round Outcome Light (s)",
+      "source_description": "How long Tactical victory/defeat colors fade over the map.",
+      "translation_display_name": "승패 조명 전환 시간(초)",
+      "translation_description": "택티컬 승리·패배 색상 조명이 지도에서 서서히 사라지는 시간을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "RespectExternalLightingMods",
+      "source_display_name": "Respect Blackout / Going Dark",
+      "source_description": "Leave Arena phase lighting off while Blackout or Going Dark is installed. Disable this only if you deliberately want both additive effects together.",
+      "translation_display_name": "외부 조명 모드 우선",
+      "translation_description": "Blackout 또는 Going Dark가 설치된 동안 아레나 단계 조명을 끕니다. 끄면 중첩을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "Team Deathmatch",
+      "key": "FriendlyFire",
+      "source_display_name": "Friendly Fire",
+      "source_description": "Allow damage between teammates. Frozen when the next Arena raid is armed; self-damage is unchanged.",
+      "translation_display_name": "팀 데스매치 아군 사격 피해",
+      "translation_description": "팀 데스매치에서 아군끼리 피해를 줄 수 있게 합니다. 다음 경기 시작 시 고정됩니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "FriendlyFire",
+      "source_display_name": "Friendly Fire (PitFireTeam)",
+      "source_description": "Allow damage between teammates in PitFireTeam 5v5. Frozen at arming; solo Tactical is unchanged.",
+      "translation_display_name": "택티컬 아군 사격 피해",
+      "translation_description": "PitFireTeam 5대5에서 팀 피해를 허용합니다. 단독 택티컬에는 적용되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "FriendlyFire",
+      "source_display_name": "Friendly Fire (PitFireTeam)",
+      "source_description": "Allow damage between the PMC and PitFireTeam companions, including companion-to-companion damage. Frozen at arming; solo Zombies, enemy damage and self-damage are unchanged.",
+      "translation_display_name": "좀비 동료 사격 피해",
+      "translation_description": "PMC와 PitFireTeam 동료 간 피해를 허용합니다. 동료 사이의 피해도 포함합니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "TeamTracers",
+      "source_display_name": "Team Tracers",
+      "source_description": "Give every Arena projectile a team-colored tracer, including ammunition that has no tracer in ordinary raids. Team-only, like TeamLasers: applies to Team Deathmatch and Tactical/Zombie squads (PitFireTeam). Deathmatch, Gun Game, solo Zombie and solo Tactical always keep the native ammunition tracers.",
+      "translation_display_name": "진영별 탄도 궤적 표시",
+      "translation_description": "아레나에서 본래 예광탄이 아닌 탄약을 포함해 발사체에 진영 색상의 궤적을 표시합니다. 팀 데스매치와 PitFireTeam 분대가 있는 택티컬·좀비 모드에만 적용됩니다. 데스매치·건 게임 및 분대 없는 택티컬·좀비 모드에서는 기존 탄약의 궤적 설정을 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "TeamLasers",
+      "source_display_name": "Team Lasers",
+      "source_description": "Team Deathmatch and protected PitFireTeam squads: color active visible weapon lasers using FriendlyTracerColor and OpponentTracerColor. Does not switch lasers on or change infrared visibility or flashlights. Ordinary raids stay unchanged.",
+      "translation_display_name": "진영별 레이저 색상",
+      "translation_description": "팀 데스매치·PitFireTeam의 활성 무기 레이저를 진영별로 구분합니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "VisibleLaserBrightness",
+      "source_display_name": "Laser Dot Brightness (x)",
+      "source_description": "Arena visible weapon laser intensity minimum relative to the original prefab (1 = no Arena boost). An existing larger intensity, including BrightLasers, is preserved rather than multiplied again. Independent of team colors; does not change laser activation, IR, flashlights, width or ordinary raids.",
+      "translation_display_name": "레이저 점 최소 밝기",
+      "translation_description": "아레나에서 보이는 무기 레이저 점의 밝기 하한을 원본 대비 배율로 설정합니다. 1은 원본값입니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "VisibleLaserBeamBrightness",
+      "source_display_name": "Laser Beam Brightness (x)",
+      "source_description": "Arena visible laser BEAM brightness minimum relative to the original material (1 = no extra beam boost). Brightens the full beam without further brightening its impact point or spot light. An already larger beam factor, including BrightLasers, is preserved rather than multiplied again. Independent of VisibleLaserBrightness; leaves IR/night-vision factors, width and ordinary raids unchanged.",
+      "translation_display_name": "레이저 빔 최소 밝기",
+      "translation_description": "무기 레이저 광선 자체의 밝기 하한을 원본 대비 배율로 지정합니다. 1은 원본값입니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "FriendlyTracerColor",
+      "source_display_name": "Friendly Color",
+      "source_description": "Color for friendly tracers, killfeed names and friendly markers. Team-mode lasers also use it when TeamLasers is enabled; killfeed colors do not depend on effects being enabled.",
+      "translation_display_name": "아군 궤적 색상",
+      "translation_description": "아군 탄도 궤적·킬피드 이름·아군 표식에 사용할 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "OpponentTracerColor",
+      "source_display_name": "Opponent Color",
+      "source_description": "Color for opposing tracers and killfeed names. Team-mode lasers also use it when TeamLasers is enabled; killfeed colors do not depend on effects being enabled.",
+      "translation_display_name": "적군 궤적 색상",
+      "translation_description": "적군 탄도 궤적·킬피드 이름에 사용할 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "Effects",
+      "key": "RagdollImpulseScale",
+      "source_display_name": "Ragdoll Impulse (x)",
+      "source_description": "Fatal-shot ragdoll impulse multiplier (1 = vanilla, punchy deaths above).",
+      "translation_display_name": "사망 시 래그돌 충격 배율",
+      "translation_description": "치명타로 쓰러지는 신체에 적용되는 물리 충격의 배율입니다. 1은 기본값입니다.",
+      "values": []
+    },
+    {
+      "section": "Arena pickups",
+      "key": "Enabled",
+      "source_display_name": "Arena Pickups",
+      "source_description": "Arena-owned pickups in Deathmatch and Team Deathmatch on all supported Arena maps, including the selected Customs area. Optional maschine-ArenaMode/Pickups.json replaces the built-in layouts. Layouts are frozen per match. Disabling clears this match's pickups and effects.",
+      "translation_display_name": "아레나 보급품 활성화",
+      "translation_description": "데스매치·팀 데스매치에서 회수할 수 있는 보급품을 생성합니다. 배치 파일은 경기 시작 시 확정됩니다.",
+      "values": []
+    },
+    {
+      "section": "Arena pickups",
+      "key": "SoundVolume",
+      "source_display_name": "Pickup Sound Volume",
+      "source_description": "Successful local pickup sound volume; 0 mutes it. Independent of interface, hitmarker and announcer volume; master mute remains respected.",
+      "translation_display_name": "보급품 획득 효과음 음량",
+      "translation_description": "보급품 획득 성공 효과음의 크기입니다. 0은 음소거이며 다른 오디오 설정과 분리됩니다.",
+      "values": []
+    },
+    {
+      "section": "Arena pickups",
+      "key": "BotsCollectPowerups",
+      "source_display_name": "Bots Collect Power-Ups",
+      "source_description": "Allow living Arena bots on either side to collect damage/shield/health pickups. The bundled companion for BigBrain 1.5.0 or newer also directs idle/searching bots to useful available pickups, yielding to combat and danger. Weapons, Jump Boots and Infinite Ammo are local-player-only.",
+      "translation_display_name": "봇의 강화 보급품 획득",
+      "translation_description": "양 팀 아레나 봇이 피해 증가·보호막·체력 보급품을 획득하도록 허용합니다. 무기·점프 부츠·무한 탄약은 플레이어 전용입니다.",
+      "values": []
+    },
+    {
+      "section": "Arena pickups",
+      "key": "PrototypeWeaponKit",
+      "source_display_name": "Pickup Weapon Kit ID",
+      "source_description": "Pickup weapon: pickup-m60-retzrestdfg is the copied M60E6 with MRS, blue laser and 100 M993 rounds. Any existing catalogue kit ID also works (weapon only, no spare magazines or armor). Read at match start.",
+      "translation_display_name": "보급 무기 장비 세트",
+      "translation_description": "보급품으로 지급할 무기의 장비 세트 ID입니다. 기본 M60E6 외에 등록된 무기 세트도 선택할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Pickups",
+      "key": "Enabled",
+      "source_display_name": "Pickup Capture",
+      "source_description": "Read-only point authoring. Aim/feet captures write only to an explicit PickupDrafts export. Normal PMC capture additionally requires Development - Area outline / AllowInNormalPmc. Never grants pickups outside Arena.",
+      "translation_display_name": "보급품 위치 기록 활성화",
+      "translation_description": "읽기 전용 보급품 배치 초안을 기록합니다. 내보내기 전에는 실제 보급품에 적용되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Pickups",
+      "key": "Kind",
+      "source_display_name": "Pickup Kind",
+      "source_description": "Kind of the next captured point. Health: up to 150 HP on surviving parts; wounds remain. Shield: 220/30s; Double Damage: 20s; Jump Boots: +100% height/30s with Arena movement enabled; Infinite Ammo: 10s for loaded magazine weapons, including M60. No launchers/revolvers/break-action; native cycling and malfunctions remain. Boots/ammo are local only. Effects do not stack.",
+      "translation_display_name": "기록할 보급품 종류",
+      "translation_description": "다음 기록 지점의 보급품 종류입니다. 체력 최대 150HP, 보호막 220/30초, 피해 2배 20초, 점프 부츠 30초, 무한 탄약 10초 등입니다. 효과는 중첩되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Pickups",
+      "key": "RespawnSeconds",
+      "source_display_name": "Pickup Respawn (s)",
+      "source_description": "Pickup reappears this many gameplay seconds after successful collection.",
+      "translation_display_name": "보급품 재생성 간격(초)",
+      "translation_description": "보급품 획득 후 다시 등장하기까지의 게임 내 시간입니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Pickups",
+      "key": "CaptureAim",
+      "source_display_name": "Capture Aimed Point",
+      "source_description": "Capture the surface under the crosshair.",
+      "translation_display_name": "조준 위치 기록",
+      "translation_description": "조준선 아래 지형 표면에 보급품 초안 지점을 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Pickups",
+      "key": "CaptureFeet",
+      "source_display_name": "Capture Feet Position",
+      "source_description": "Capture the current feet position.",
+      "translation_display_name": "발밑 위치 기록",
+      "translation_description": "현재 플레이어의 발 위치에 보급품 초안 지점을 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Pickups",
+      "key": "Undo",
+      "source_display_name": "Undo Last Point",
+      "source_description": "Remove the last pickup draft point.",
+      "translation_display_name": "마지막 보급품 지점 취소",
+      "translation_description": "마지막 보급품 초안 지점을 제거합니다.",
+      "values": []
+    },
+    {
+      "section": "Development - Pickups",
+      "key": "Export",
+      "source_display_name": "Export Draft",
+      "source_description": "Write a new draft JSON; never overwrites or activates an existing layout.",
+      "translation_display_name": "보급품 초안 내보내기",
+      "translation_description": "새 배치 JSON을 저장합니다. 기존 배치 파일을 덮어쓰거나 자동 활성화하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Arena incendiary prototype",
+      "key": "Enabled",
+      "source_display_name": "Bonus Molotov (WIP)",
+      "source_description": "WIP: adds one Molotov per equipment loadout in free rig/pocket space during live Arena (except Zombies); existing grenades are kept. G selects the bonus first; later manual selection is preserved. Uses the dedicated Arena Molotov bottle item; only the bonus creates 6-second ground fire (100 base total HP/s, non-stacking). Full rig/pockets: no bonus, nothing replaced. Requires the matching BigBrain companion. Disabling safely extinguishes owned fire; no extra supply from toggling off/on.",
+      "translation_display_name": "시범 화염병 활성화",
+      "translation_description": "개발 중 기능입니다. 좀비 모드를 제외한 아레나 경기에서 조끼나 주머니에 빈 공간이 있으면 출격 장비마다 화염병 1개를 추가 지급합니다. 기존 수류탄은 그대로 유지하며 G키로 추가 화염병을 먼저 선택합니다. 화염병의 불길은 6초간 지속되고 기본 총 체력에 초당 100의 피해를 주며 중첩되지 않습니다. 공간이 가득 찼으면 지급하지 않고 기존 장비를 교체하지 않습니다. 호환되는 BigBrain 보조 모드가 필요합니다. 기능을 끄면 생성한 불길이 안전하게 사라지며, 껐다 켜도 추가 지급되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Deathmatch",
+      "key": "ReplaySeconds",
+      "source_display_name": "Killcam Replay (s)",
+      "source_description": "Recorded seconds shown after death; 0 keeps instant respawn. Requires enabled Killcam. Respawn waits for actual playback, slow motion and live tail. Frozen when the raid is armed.",
+      "translation_display_name": "킬캠 재생 시간(초)",
+      "translation_description": "사망 후 재생할 녹화 영상 길이입니다. 0은 즉시 리스폰입니다. 킬캠이 켜져 있어야 하며, 영상·슬로 모션·실시간 재생이 끝날 때까지 리스폰이 지연됩니다. 경기 시작 시 고정됩니다.",
+      "values": []
+    },
+    {
+      "section": "Gun Game",
+      "key": "ReplaySeconds",
+      "source_display_name": "Killcam Replay (s)",
+      "source_description": "Recorded seconds shown after death; 0 keeps instant respawn. Requires enabled Killcam. Respawn waits for actual playback, slow motion and live tail. Frozen when the raid is armed.",
+      "translation_display_name": "킬캠 재생 시간(초)",
+      "translation_description": "사망 후 재생할 녹화 영상 길이입니다. 0은 즉시 리스폰입니다. 킬캠이 켜져 있어야 하며, 영상·슬로 모션·실시간 재생이 끝날 때까지 리스폰이 지연됩니다. 경기 시작 시 고정됩니다.",
+      "values": []
+    },
+    {
+      "section": "Team Deathmatch",
+      "key": "ReplaySeconds",
+      "source_display_name": "Killcam Replay (s)",
+      "source_description": "Recorded seconds shown after death; 0 keeps instant respawn. Requires enabled Killcam. Respawn waits for actual playback, slow motion and live tail. Frozen when the raid is armed.",
+      "translation_display_name": "킬캠 재생 시간(초)",
+      "translation_description": "사망 후 재생할 녹화 영상 길이입니다. 0은 즉시 리스폰입니다. 킬캠이 켜져 있어야 하며, 영상·슬로 모션·실시간 재생이 끝날 때까지 리스폰이 지연됩니다. 경기 시작 시 고정됩니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "ReplaySeconds",
+      "source_display_name": "Killcam Replay (s)",
+      "source_description": "Recorded seconds shown after death; 0 keeps instant respawn. Requires enabled Killcam. Respawn waits for actual playback, slow motion and live tail. Frozen when the raid is armed.",
+      "translation_display_name": "킬캠 재생 시간(초)",
+      "translation_description": "사망 후 재생할 녹화 영상 길이입니다. 0은 즉시 리스폰입니다. 킬캠이 켜져 있어야 하며, 영상·슬로 모션·실시간 재생이 끝날 때까지 리스폰이 지연됩니다. 경기 시작 시 고정됩니다.",
+      "values": []
+    },
+    {
+      "section": "Deathmatch",
+      "key": "Announcer",
+      "source_display_name": "Announcer",
+      "source_description": "Per-mode gate for the Arena announcer (stingers, round/match cues and the on-screen kill callouts such as DOUBLE KILL). The global Audio/Announcer switch above stays a master gate: both it and this must be on for this mode's announcer to speak and show its callouts; AnnouncerVolume stays global too. Frozen like the other per-mode mutators while the raid is active or armed. HUD text callouts (e.g. WAVE n) are a separate system and are unaffected by either switch.",
+      "translation_display_name": "모드별 아레나 중계",
+      "translation_description": "이 모드에서 아레나 중계 음성과 연속 처치 알림을 표시할지 설정합니다. 전체 Audio/Announcer 설정도 켜져 있어야 작동하며 경기 중에는 변경되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Gun Game",
+      "key": "Announcer",
+      "source_display_name": "Announcer",
+      "source_description": "Per-mode gate for the Arena announcer (stingers, round/match cues and the on-screen kill callouts such as DOUBLE KILL). The global Audio/Announcer switch above stays a master gate: both it and this must be on for this mode's announcer to speak and show its callouts; AnnouncerVolume stays global too. Frozen like the other per-mode mutators while the raid is active or armed. HUD text callouts (e.g. WAVE n) are a separate system and are unaffected by either switch.",
+      "translation_display_name": "모드별 아레나 중계",
+      "translation_description": "이 모드에서 아레나 중계 음성과 연속 처치 알림을 표시할지 설정합니다. 전체 Audio/Announcer 설정도 켜져 있어야 작동하며 경기 중에는 변경되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Tactical",
+      "key": "Announcer",
+      "source_display_name": "Announcer",
+      "source_description": "Per-mode gate for the Arena announcer (stingers, round/match cues and the on-screen kill callouts such as DOUBLE KILL). The global Audio/Announcer switch above stays a master gate: both it and this must be on for this mode's announcer to speak and show its callouts; AnnouncerVolume stays global too. Frozen like the other per-mode mutators while the raid is active or armed. HUD text callouts (e.g. WAVE n) are a separate system and are unaffected by either switch.",
+      "translation_display_name": "모드별 아레나 중계",
+      "translation_description": "이 모드에서 아레나 중계 음성과 연속 처치 알림을 표시할지 설정합니다. 전체 Audio/Announcer 설정도 켜져 있어야 작동하며 경기 중에는 변경되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Team Deathmatch",
+      "key": "Announcer",
+      "source_display_name": "Announcer",
+      "source_description": "Per-mode gate for the Arena announcer (stingers, round/match cues and the on-screen kill callouts such as DOUBLE KILL). The global Audio/Announcer switch above stays a master gate: both it and this must be on for this mode's announcer to speak and show its callouts; AnnouncerVolume stays global too. Frozen like the other per-mode mutators while the raid is active or armed. HUD text callouts (e.g. WAVE n) are a separate system and are unaffected by either switch.",
+      "translation_display_name": "모드별 아레나 중계",
+      "translation_description": "이 모드에서 아레나 중계 음성과 연속 처치 알림을 표시할지 설정합니다. 전체 Audio/Announcer 설정도 켜져 있어야 작동하며 경기 중에는 변경되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Zombie",
+      "key": "Announcer",
+      "source_display_name": "Announcer",
+      "source_description": "Per-mode gate for the Arena announcer (stingers, round/match cues and the on-screen kill callouts such as DOUBLE KILL). The global Audio/Announcer switch above stays a master gate: both it and this must be on for this mode's announcer to speak and show its callouts; AnnouncerVolume stays global too. Frozen like the other per-mode mutators while the raid is active or armed. HUD text callouts (e.g. WAVE n) are a separate system and are unaffected by either switch.",
+      "translation_display_name": "모드별 아레나 중계",
+      "translation_description": "이 모드에서 아레나 중계 음성과 연속 처치 알림을 표시할지 설정합니다. 전체 Audio/Announcer 설정도 켜져 있어야 작동하며 경기 중에는 변경되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - General",
+      "key": "Enabled",
+      "source_display_name": "Info Panels",
+      "source_description": "Master switch for all raid info panels.",
+      "translation_display_name": "기본 스위치",
+      "translation_description": "레이드 정보 패널 전체를 켜고 끕니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - General",
+      "key": "UpdateIntervalSeconds",
+      "source_display_name": "Update Interval (s)",
+      "source_description": "How often (in seconds) the panels recompute and redraw their values. Lower is smoother but costs more CPU/GC; the displayed stats don't need per-frame precision.",
+      "translation_display_name": "패널 갱신 간격(초)",
+      "translation_description": "정보 패널이 값을 다시 계산하고 그리는 간격입니다. 낮을수록 부드럽지만 CPU 사용량이 증가합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Weapon",
+      "key": "Enabled",
+      "source_display_name": "Weapon Panel",
+      "source_description": "Show the weapon information panel.",
+      "translation_display_name": "무기 정보 패널 표시",
+      "translation_description": "무기 정보를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Status",
+      "key": "Enabled",
+      "source_display_name": "Status Panel",
+      "source_description": "Show the combined health, armor and status-effect panel.",
+      "translation_display_name": "건강·방어구 상태 패널 표시",
+      "translation_description": "체력·방어구·상태 효과를 합쳐 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Weapon",
+      "key": "UseShortName",
+      "source_display_name": "Short Weapon Name",
+      "source_description": "Use the weapon short name instead of the full name.",
+      "translation_display_name": "무기 단축명 사용",
+      "translation_description": "전체 무기 이름 대신 단축명을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Weapon",
+      "key": "ShowSpareMagCount",
+      "source_display_name": "Spare Magazine Count",
+      "source_description": "Show full and partial spare magazines that the reload key can actually load right now. With Arena UseItemsAnywhere, that includes magazines lying directly in the backpack. Shell-by-shell weapons show loose rounds instead; backpack rounds are listed separately, since the reload key can never load those.",
+      "translation_display_name": "예비 탄창 수 표시",
+      "translation_description": "현재 장전 가능한 예비 탄창 중 가득 찬 탄창과 일부 사용한 탄창을 표시합니다. 낱발 장전 무기는 별도로 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Weapon",
+      "key": "PanelOffset",
+      "source_display_name": "Panel Offset (px)",
+      "source_description": "Panel offset from the bottom-right corner (pixels).",
+      "translation_display_name": "무기 패널 위치",
+      "translation_description": "우측 하단 기준 패널 위치를 픽셀 단위로 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Status",
+      "key": "PanelOffset",
+      "source_display_name": "Panel Offset (px)",
+      "source_description": "Panel offset from the bottom-left corner (pixels).",
+      "translation_display_name": "상태 패널 위치",
+      "translation_description": "좌측 하단 기준 패널 위치를 픽셀 단위로 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Weapon",
+      "key": "TextColor",
+      "source_display_name": "Text Color",
+      "source_description": "Primary text color for the weapon panel.",
+      "translation_display_name": "무기 패널 글자색",
+      "translation_description": "무기 패널의 기본 글자색입니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Status",
+      "key": "HealthColor",
+      "source_display_name": "Health Color",
+      "source_description": "Text color for overall health.",
+      "translation_display_name": "체력 글자색",
+      "translation_description": "체력 수치의 글자색입니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Appearance",
+      "key": "PanelOpacity",
+      "source_display_name": "Panel Opacity",
+      "source_description": "Opacity of the translucent backing behind each panel. Set to 0 for a completely borderless HUD.",
+      "translation_display_name": "패널 배경 불투명도",
+      "translation_description": "패널의 반투명 배경 불투명도입니다. 0이면 배경 테두리 없이 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Appearance",
+      "key": "Scale",
+      "source_display_name": "Scale (x)",
+      "source_description": "Overall size of the panels.",
+      "translation_display_name": "패널 크기 배율",
+      "translation_description": "정보 패널 전체 크기의 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - General",
+      "key": "WarningColor",
+      "source_display_name": "Warning Color",
+      "source_description": "Text color when a value falls below its warning threshold.",
+      "translation_display_name": "경고 글자색",
+      "translation_description": "수치가 경고 기준 아래로 내려갔을 때의 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Status",
+      "key": "HealthWarningPercent",
+      "source_display_name": "Health Warning Below (%)",
+      "source_description": "Health percentage below which the value is shown in the warning color.",
+      "translation_display_name": "체력 경고 기준(%)",
+      "translation_description": "체력 백분율이 이 값 아래일 때 경고 색으로 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Status",
+      "key": "ShowWeight",
+      "source_display_name": "Show Carried Weight",
+      "source_description": "Show current carried weight next to the health value.",
+      "translation_display_name": "무게 표시",
+      "translation_description": "체력 옆에 현재 소지 무게를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Status",
+      "key": "WeightColor",
+      "source_display_name": "Weight Color",
+      "source_description": "Text color for carried weight, also used for the body armor and helmet percentages while they are above ArmorWarningPercent.",
+      "translation_display_name": "무게·방어구 글자색",
+      "translation_description": "소지 무게와 경고 기준보다 높은 방어구·헬멧 내구도 수치에 사용할 글자색입니다.",
+      "values": []
+    },
+    {
+      "section": "HUD Panels - Status",
+      "key": "ArmorWarningPercent",
+      "source_display_name": "Armor Warning Below (%)",
+      "source_description": "The body armor and helmet percentages switch to the warning color at or below this remaining-durability percentage.",
+      "translation_display_name": "방어구 경고 기준(%)",
+      "translation_description": "방어구와 헬멧의 남은 내구도 비율이 이 값 이하이면 경고 색으로 표시합니다.",
+      "values": []
+    }
+  ]
+}

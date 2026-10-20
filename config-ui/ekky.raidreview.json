@@ -46,8 +46,8 @@
       "key": "Insert Menu Item",
       "source_display_name": "Insert Menu Item",
       "source_description": "Enables menu item to open the web client.",
-      "translation_display_name": "삽입 메뉴 아이템",
-      "translation_description": "삽입 메뉴 아이템 여부를 설정합니다.",
+      "translation_display_name": "웹 클라이언트 메뉴 항목 추가",
+      "translation_description": "웹 클라이언트를 열 수 있는 메뉴 항목을 추가합니다.",
       "values": []
     },
     {
@@ -65,7 +65,7 @@
       "source_display_name": "Recording Notification",
       "source_description": "Enables notifications as recording starts and ends.",
       "translation_display_name": "기록 알림",
-      "translation_description": "기록 알림 여부를 설정합니다.",
+      "translation_description": "녹화가 시작되거나 종료될 때 알림을 표시합니다.",
       "values": []
     },
     {
@@ -119,7 +119,7 @@
       "source_display_name": "Ballistics Tracking",
       "source_description": "Enables location tracking of ballistics.",
       "translation_display_name": "탄도 정보 기록",
-      "translation_description": "탄도 정보 기록 여부를 설정합니다.",
+      "translation_description": "발사된 탄의 탄도 위치를 추적합니다.",
       "values": []
     },
     {
@@ -128,7 +128,7 @@
       "source_display_name": "Kill Tracking",
       "source_description": "Enables location tracking of kills.",
       "translation_display_name": "처치 추적",
-      "translation_description": "처치 추적 여부를 설정합니다.",
+      "translation_description": "적 처치가 발생한 위치를 추적합니다.",
       "values": []
     },
     {
@@ -137,7 +137,7 @@
       "source_display_name": "Loot Tracking",
       "source_description": "Enables location tracking of lootings.",
       "translation_display_name": "루팅 추적",
-      "translation_description": "루팅 추적 여부를 설정합니다.",
+      "translation_description": "루팅이 발생한 위치를 추적합니다.",
       "values": []
     },
     {
@@ -146,7 +146,7 @@
       "source_display_name": "Player Tracking",
       "source_description": "Enables location tracking of players and bots.",
       "translation_display_name": "플레이어 추적",
-      "translation_description": "플레이어 추적 여부를 설정합니다.",
+      "translation_description": "플레이어와 봇의 위치를 추적합니다.",
       "values": []
     }
   ]

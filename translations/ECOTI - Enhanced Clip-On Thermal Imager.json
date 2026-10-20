@@ -16,6 +16,150 @@
         "source": "AN/PAS-29B ECOTI enhanced clip-on thermal imager",
         "translation": "AN/PAS-29B ECOTI 개량형 클립온 열상 장비",
         "match_mode": "exact"
+      },
+      {
+        "key": "6ad3016bab020957abb6ca3b Name",
+        "source": "LennoxP90 TR-1 thermal sight riser",
+        "translation": "LennoxP90 TR-1 열상 조준경 높이 조절 마운트",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad3016bab020957abb6ca3b ShortName",
+        "source": "TR-1",
+        "translation": "TR-1",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6ad3016bab020957abb6ca3b Description",
+        "source": "Picatinny sight riser with an uncooled thermal core in its housing. Pogo contacts in its top rail feed the thermal image into the red dot or sight mounted on it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
+        "translation": "피카티니 조준경 높이 조절 마운트로, 하우징 내부에 비냉각식 열상 코어가 들어 있습니다. 상단 레일의 포고핀 접점이 장착된 레드닷 또는 조준경에 열상 영상을 전달합니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad408a96bf1f761d970a4ff Name",
+        "source": "LennoxP90 TR-1 thermal sight riser (Tan)",
+        "translation": "LennoxP90 TR-1 열상 조준경 높이 조절 마운트 (황갈색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad408a96bf1f761d970a4ff ShortName",
+        "source": "TR-1",
+        "translation": "TR-1",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6ad408a96bf1f761d970a4ff Description",
+        "source": "Picatinny sight riser with an uncooled thermal core in its housing. Pogo contacts in its top rail feed the thermal image into the red dot or sight mounted on it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
+        "translation": "피카티니 조준경 높이 조절 마운트로, 하우징 내부에 비냉각식 열상 코어가 들어 있습니다. 상단 레일의 포고핀 접점이 장착된 레드닷 또는 조준경에 열상 영상을 전달합니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad5739462c39577194eedc5 Name",
+        "source": "LennoxP90 TSR-1 thermal scope ring 30mm",
+        "translation": "LennoxP90 TSR-1 30mm 열상 조준경 링 마운트",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad5739462c39577194eedc5 ShortName",
+        "source": "TSR-1",
+        "translation": "TSR-1",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6ad5739462c39577194eedc5 Description",
+        "source": "One-piece 30mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
+        "translation": "30mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad573a014ebd436fbd1dfda Name",
+        "source": "LennoxP90 TSR-1 thermal scope ring 30mm (Tan)",
+        "translation": "LennoxP90 TSR-1 30mm 열상 조준경 링 마운트 (황갈색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad573a014ebd436fbd1dfda ShortName",
+        "source": "TSR-1",
+        "translation": "TSR-1",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6ad573a014ebd436fbd1dfda Description",
+        "source": "One-piece 30mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
+        "translation": "30mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad5775e327076f93b3b36bf Name",
+        "source": "LennoxP90 TSR-2 thermal scope ring 34mm",
+        "translation": "LennoxP90 TSR-2 34mm 열상 조준경 링 마운트",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad5775e327076f93b3b36bf ShortName",
+        "source": "TSR-2",
+        "translation": "TSR-2",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6ad5775e327076f93b3b36bf Description",
+        "source": "One-piece 34mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
+        "translation": "34mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad57762f51afaf4379f19a2 Name",
+        "source": "LennoxP90 TSR-2 thermal scope ring 34mm (Tan)",
+        "translation": "LennoxP90 TSR-2 34mm 열상 조준경 링 마운트 (황갈색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad57762f51afaf4379f19a2 ShortName",
+        "source": "TSR-2",
+        "translation": "TSR-2",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6ad57762f51afaf4379f19a2 Description",
+        "source": "One-piece 34mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
+        "translation": "34mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad577679385f594db176ad6 Name",
+        "source": "LennoxP90 TSR-3 thermal scope ring 35mm",
+        "translation": "LennoxP90 TSR-3 35mm 열상 조준경 링 마운트",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad577679385f594db176ad6 ShortName",
+        "source": "TSR-3",
+        "translation": "TSR-3",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6ad577679385f594db176ad6 Description",
+        "source": "One-piece 35mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
+        "translation": "35mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad5776a93ea4db35ed55dcf Name",
+        "source": "LennoxP90 TSR-3 thermal scope ring 35mm (Tan)",
+        "translation": "LennoxP90 TSR-3 35mm 열상 조준경 링 마운트 (황갈색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ad5776a93ea4db35ed55dcf ShortName",
+        "source": "TSR-3",
+        "translation": "TSR-3",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6ad5776a93ea4db35ed55dcf Description",
+        "source": "One-piece 35mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
+        "translation": "35mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
+        "match_mode": "item_decorated"
       }
     ],
     "small_ui": [
@@ -141,7 +285,7 @@
       },
       {
         "id": "flip_test_help",
-        "source": "Flip test - the check that proves the anchor moves with the goggle:",
+        "source": "Flip test - checks the anchor moves with the goggle:",
         "translation": "플립 테스트 - 고글과 함께 앵커가 움직이는지 확인합니다:",
         "match_mode": "exact"
       },
@@ -377,7 +521,7 @@
       {
         "id": "fine_step_suffix",
         "source": " for a finer step. The keys are the only way in a raid, where the cursor is locked.",
-        "translation": " 키를 누르면 더 미세하게 조정됩니다. 레이드에서는 커서가 잠기므로 이 키 조작만 사용할 수 있습니다.",
+        "translation": " 키를 길게 누르면 더 미세하게 조정됩니다. 레이드에서는 커서가 잠기므로 키 조작만 사용할 수 있습니다.",
         "match_mode": "segment"
       },
       {

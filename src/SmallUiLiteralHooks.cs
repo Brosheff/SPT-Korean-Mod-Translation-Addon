@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using HarmonyLib;
 using UnityEngine;
+using TMPro;
 
 namespace SPT.ModKoreanAddon
 {
@@ -15,6 +17,8 @@ namespace SPT.ModKoreanAddon
     internal static class SmallUiLiteralHooks
     {
         private const string Channel = "small_ui";
+        private const string ArenaProfileId = "com.maschine.ArenaMode";
+        private const string ArenaAssemblyName = "maschine-ArenaMode.Client";
         private const string CotiProfileId = "mod_3b2b877cc80c";
         private const string CotiDpadChannel = "coti_dpad";
         private const string CotiAssemblyName = "Coti.Client";
@@ -36,6 +40,14 @@ namespace SPT.ModKoreanAddon
         private const string SuomiPrtAssemblyName = "RadioMod.Client";
         private const string DoomArcadeProfileId = "source3.wtt_doomarcade";
         private const string DoomArcadeAssemblyName = "DoomArcade.Runtime";
+        // ISB Special Forces 2.0.0 source: explicit notification methods and subtitle lookup only.
+        private const string IsbSfProfileId = "com.samc137.isbspecialforces";
+        private const string IsbNotifierAssemblyName = "ISBNotify";
+        private const string IsbSubtitleAssemblyName = "ISBSOF_Extras";
+        // Under Fire 1.0.0 registers its effect label from one exact Awake literal.
+        private const string UnderFireProfileId = "com.harmonyzt.underfire";
+        private const string UnderFireAssemblyName = "UnderFire";
+
 
         private sealed class Target
         {
@@ -102,6 +114,11 @@ namespace SPT.ModKoreanAddon
             new Target("CookingGrenades", "CookingGrenades", "CookingGrenades.Patches.MenuScreenPatch", "PatchPostfix", 1),
             // SPT Casino 1.3.3: the cloned task-bar tooltip bypasses CasinoLobby.NewText.
             new Target("com.mybutthasarash.sptcasino", "Casino.Client", "Casino.Client.CasinoTab", "Neuter", 1),
+
+            // ArenaMode 0.1.1: these two exact direct-literal surfaces do not have
+            // final-output hooks. Character selection uses ArenaModeUiHooks instead.
+            new Target("com.maschine.ArenaMode", "maschine-ArenaMode.Client", "ArenaMode.Hud.ArenaPanel", "*"),
+            new Target("com.maschine.ArenaMode", "maschine-ArenaMode.Client", "ArenaMode.Hud.TacticalBuyPanel", "*"),
 
             // COTI's standalone pose/mask editors are ordinary IMGUI owned entirely by Coti.Client.
             // Keep every hook on an audited COTI method: no GUI/GUILayout global patch and no type scan.
@@ -229,6 +246,17 @@ namespace SPT.ModKoreanAddon
             // Never translate generated curve IDs or axis enum values, which are data, not captions.
             new Target("smallui.realismcurveeditor", "spt-realism-common-lib", "RealismCommonLib.Utils.CurveDrawer", "DrawGUI", 0),
             new Target("smallui.realismcurveeditor", "spt-realism-common-lib", "RealismCommonLib.Utils.CurveDrawer", "DrawContents", 0),
+            // ISB SOF Notifier 1.0.3: only the five actual notification builders.
+            // Never alter role keys, spawn tracking, enum values or notification API globally.
+            new Target(IsbSfProfileId, IsbNotifierAssemblyName, "ISBInfo.ISBInfoPlugin", "ShowCurrentAliveMessage", 0),
+            new Target(IsbSfProfileId, IsbNotifierAssemblyName, "ISBInfo.ISBInfoPlugin", "ShowNoAliveISBMessage", 0),
+            new Target(IsbSfProfileId, IsbNotifierAssemblyName, "ISBInfo.ISBInfoPlugin", "ShowCommanderStatus", 0),
+            new Target(IsbSfProfileId, IsbNotifierAssemblyName, "ISBInfo.ISBInfoPlugin", "ShowCommanderAlert", 0),
+            new Target(IsbSfProfileId, IsbNotifierAssemblyName, "ISBInfo.ISBInfoPlugin", "ShowCommanderKIA", 1),
+            // EffectOptions.DisplayName = "Adrenaline" in the source-audited effect registration.
+            // No generic EFT health panel/EffectManager interception. Requires patch before Awake runs.
+            new Target(UnderFireProfileId, UnderFireAssemblyName, "UnderFire.Plugin", "Awake", 0),
+
             // SOURCE3 Suomi-PRT 1.0.2: these are the only visible English literals that bypass
             // the mod's own L(...) localization helper. Scope both to their exact source methods.
             new Target("source3.suomi_prt", "RadioMod.Client", "RadioMod.Client.Plugin", "DrawClearRecordingsButton", 1),
@@ -259,6 +287,109 @@ namespace SPT.ModKoreanAddon
         private static FieldInfo suomiPrtUiLanguageOverrideField;
         [ThreadStatic] private static int sainPresetListDepth;
         private static bool enabled;
+        // During Plugin.Awake only the source-audited Under Fire effect registration
+        // is eligible for patching. Other optional mod hooks retain their Start phase.
+        private static bool earlyUnderFireOnly;
+
+        internal static int EnableUnderFireEarly(Harmony patcher, IEnumerable<Assembly> loadedAssemblies, EditableProfiles data)
+        {
+            if (patcher == null) throw new ArgumentNullException(nameof(patcher));
+            if (data == null) throw new ArgumentNullException(nameof(data));
+            if (!data.HasRules(UnderFireProfileId, Channel)) return 0;
+
+            lock (Gate)
+            {
+                if (enabled) return 0;
+                harmony = patcher;
+                profiles = data;
+                enabled = true;
+                earlyUnderFireOnly = true;
+                AppDomain.CurrentDomain.AssemblyLoad += OnAssemblyLoad;
+            }
+
+            var target = Targets.Single(t =>
+                t.ProfileId == UnderFireProfileId && t.AssemblyName == UnderFireAssemblyName &&
+                t.TypeName == "UnderFire.Plugin" && t.MethodName == "Awake" && t.ParameterCount == 0);
+            var assembly = (loadedAssemblies ?? Enumerable.Empty<Assembly>())
+                .FirstOrDefault(a => a != null && string.Equals(a.GetName().Name,
+                    UnderFireAssemblyName, StringComparison.OrdinalIgnoreCase));
+            if (assembly == null) return 0;
+
+            // The EFTEffectManager source stores the registered label separately in
+            // EffectsManager.DisplayNames. A previous UnderFire.Awake cannot be replayed;
+            // update only its already-registered label, never the effect itself.
+            SyncUnderFireDisplayName(assembly);
+            return PatchTarget(assembly, target);
+        }
+
+        // EFTEffectManager.Patches.UiPatches.LocalizedValuePatch looks this string up
+        // each time LocalizationManager.LocalizedValue(id, prefix) is called. Only the
+        // proven Under Fire registration and its exact dictionary key may be changed.
+        // No patch of EFT's global health UI or effect registration is required.
+        private static bool SyncUnderFireDisplayName(Assembly underFireAssembly)
+        {
+            try
+            {
+                EditableProfiles data;
+                lock (Gate) data = enabled ? profiles : null;
+                if (data == null || !data.HasRules(UnderFireProfileId, Channel)) return false;
+                var pluginType = underFireAssembly?.GetType("UnderFire.Plugin", false);
+                var effectType = underFireAssembly?.GetType("UnderFire.Adrenaline", false);
+                if (pluginType == null || effectType == null) return false;
+                var registeredField = pluginType.GetField("_adrenaline",
+                    BindingFlags.NonPublic | BindingFlags.Static);
+                var registration = registeredField?.GetValue(null);
+                if (registration == null) return false;
+
+                // Fail closed if upstream has a different registration type/instance.
+                var registrationType = registration.GetType();
+                if (!string.Equals(registrationType.FullName, "EFTEffectManager.EffectRegistration", StringComparison.Ordinal))
+                    return false;
+                var registeredEffectType = registrationType.GetProperty("EffectType",
+                    BindingFlags.Public | BindingFlags.Instance)?.GetValue(registration, null) as Type;
+                if (registeredEffectType != effectType) return false;
+                var options = registrationType.GetProperty("Options",
+                    BindingFlags.Public | BindingFlags.Instance)?.GetValue(registration, null);
+                var optionName = options?.GetType().GetProperty("DisplayName",
+                    BindingFlags.Public | BindingFlags.Instance)?.GetValue(options, null) as string;
+                if (!string.Equals(optionName, "Adrenaline", StringComparison.Ordinal) &&
+                    !string.Equals(optionName, "아드레날린", StringComparison.Ordinal)) return false;
+
+                var managerType = registrationType.Assembly.GetType("EFTEffectManager.EffectsManager", false);
+                if (managerType == null) return false;
+                var registered = managerType.GetField("Registrations", BindingFlags.Public | BindingFlags.Static)
+                    ?.GetValue(null) as IDictionary;
+                if (registered == null || !registered.Contains(effectType) ||
+                    !ReferenceEquals(registered[effectType], registration)) return false;
+                var names = managerType.GetField("DisplayNames",
+                    BindingFlags.Static | BindingFlags.NonPublic)?.GetValue(null) as IDictionary;
+                if (names == null || !names.Contains("Adrenaline")) return false;
+                var current = names["Adrenaline"] as string;
+                if (!string.Equals(current, "Adrenaline", StringComparison.Ordinal) &&
+                    !string.Equals(current, "아드레날린", StringComparison.Ordinal)) return false;
+
+                // The original source is stable; switching away from kr/kr-en restores it.
+                var localized = data.Translate(UnderFireProfileId, Channel, "Adrenaline", LocaleMode.CurrentCulture());
+                if (!string.Equals(localized, "Adrenaline", StringComparison.Ordinal) &&
+                    !string.Equals(localized, "아드레날린", StringComparison.Ordinal)) return false;
+                if (string.Equals(current, localized, StringComparison.Ordinal)) return false;
+                names["Adrenaline"] = localized;
+                return true;
+            }
+            catch (Exception) { return false; }
+        }
+
+        private static void RefreshUnderFireRegisteredDisplayName()
+        {
+            Assembly assembly;
+            try
+            {
+                assembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a => a != null &&
+                    string.Equals(a.GetName().Name, UnderFireAssemblyName, StringComparison.OrdinalIgnoreCase));
+            }
+            catch { return; }
+            if (assembly != null) SyncUnderFireDisplayName(assembly);
+        }
 
         internal static int Enable(Harmony patcher, IEnumerable<Assembly> loadedAssemblies, EditableProfiles data)
         {
@@ -267,11 +398,20 @@ namespace SPT.ModKoreanAddon
 
             lock (Gate)
             {
-                if (enabled) return 0;
-                harmony = patcher;
-                profiles = data;
-                enabled = true;
-                AppDomain.CurrentDomain.AssemblyLoad += OnAssemblyLoad;
+                if (enabled)
+                {
+                    if (!earlyUnderFireOnly) return 0;
+                    if (!ReferenceEquals(harmony, patcher) || !ReferenceEquals(profiles, data))
+                        throw new InvalidOperationException("Early Under Fire and normal Small UI hooks must share the same Harmony and profiles");
+                    earlyUnderFireOnly = false;
+                }
+                else
+                {
+                    harmony = patcher;
+                    profiles = data;
+                    enabled = true;
+                    AppDomain.CurrentDomain.AssemblyLoad += OnAssemblyLoad;
+                }
             }
 
             var assemblies = (loadedAssemblies ?? Enumerable.Empty<Assembly>())
@@ -286,6 +426,12 @@ namespace SPT.ModKoreanAddon
                 if (!assemblies.TryGetValue(target.AssemblyName, out var assembly)) continue;
                 total += PatchTarget(assembly, target);
             }
+
+            // Unlike literal notifications, SOF audio subtitles are loaded from external
+            // JSON at runtime. Patch only its explicit ResolveText(string,string) result.
+            if (profiles.HasRules(IsbSfProfileId, Channel) &&
+                assemblies.TryGetValue(IsbSubtitleAssemblyName, out var isbSubtitleAssembly))
+                total += PatchIsbSubtitleLookup(isbSubtitleAssembly);
 
             // SOURCE3 WikiLinks 2.0.0 builds its visible label as Localized("OPEN") + " WIKI".
             // Translate only the final rendered label so the internal action key "OPEN WIKI" remains untouched.
@@ -345,15 +491,23 @@ namespace SPT.ModKoreanAddon
                 assemblies.TryGetValue(DoomArcadeAssemblyName, out var doomArcadeAssembly))
                 total += PatchDoomArcadeMenu(doomArcadeAssembly);
 
+            if (profiles.HasRules(ArenaProfileId, Channel))
+            {
+                assemblies.TryGetValue(ArenaAssemblyName, out var arenaAssembly);
+                total += ArenaModeUiHooks.Enable(patcher, data, arenaAssembly);
+            }
+
             return total;
         }
 
         internal static void Disable()
         {
+            ArenaModeUiHooks.Disable();
             lock (Gate)
             {
                 if (enabled) AppDomain.CurrentDomain.AssemblyLoad -= OnAssemblyLoad;
                 enabled = false;
+                earlyUnderFireOnly = false;
                 harmony = null;
                 profiles = null;
                 PatchedMethods.Clear();
@@ -375,6 +529,10 @@ namespace SPT.ModKoreanAddon
 
         internal static void RefreshLanguage()
         {
+            // Refresh even without tracked labels; this is an external effect manager
+            // dictionary entry, not a locally cached TMP label.
+            RefreshUnderFireRegisteredDisplayName();
+            ArenaModeUiHooks.RefreshLanguage();
             EditableProfiles data;
             TrackedGeneratedLabel[] generatedLabels;
             TrackedTextPropertyLabel[] textPropertyLabels;
@@ -391,7 +549,6 @@ namespace SPT.ModKoreanAddon
 
             var staleGenerated = new List<TrackedGeneratedLabel>();
             var staleText = new List<TrackedTextPropertyLabel>();
-            var changed = 0;
             foreach (var entry in generatedLabels)
             {
                 var target = entry.Target.Target;
@@ -400,19 +557,16 @@ namespace SPT.ModKoreanAddon
                     staleGenerated.Add(entry);
                     continue;
                 }
-                changed++;
             }
 
             foreach (var entry in textPropertyLabels)
             {
                 var target = entry.Target.Target;
-                if (target == null ||
-                    !ApplyTextPropertyLabel(target, entry.ProfileId, entry.Source, data))
+                if (target == null || !ApplyTextPropertyLabel(target, entry.ProfileId, entry.Source, data))
                 {
                     staleText.Add(entry);
                     continue;
                 }
-                changed++;
             }
 
             if (staleGenerated.Count > 0 || staleText.Count > 0)
@@ -426,8 +580,6 @@ namespace SPT.ModKoreanAddon
 
             RefreshCineKitCachedText();
 
-            if (changed > 0)
-                {}
         }
 
         private static void PatchCineKitCachedText(Assembly assembly)
@@ -584,18 +736,28 @@ namespace SPT.ModKoreanAddon
                 var assemblyName = assembly.GetName().Name;
                 var isDoomArcade = string.Equals(assemblyName, DoomArcadeAssemblyName,
                     StringComparison.OrdinalIgnoreCase);
-                // Only these two newly supported mods need the late-load fallback.
-                // Never wildcard-patch other assemblies when a DLL arrives after Plugin.Start.
+                // Explicit opt-in for the two ISB assemblies and Under Fire; never scan unrelated DLLs.
+                var isIsbNotifier = string.Equals(assemblyName, IsbNotifierAssemblyName,
+                    StringComparison.OrdinalIgnoreCase);
+                var isIsbSubtitle = string.Equals(assemblyName, IsbSubtitleAssemblyName,
+                    StringComparison.OrdinalIgnoreCase);
+                var isUnderFire = string.Equals(assemblyName, UnderFireAssemblyName,
+                    StringComparison.OrdinalIgnoreCase);
+                // Limit late-load hooks to previously audited assemblies/methods;
+                // never wildcard-patch other assemblies after Plugin.Start.
                 var isQuartermaster = string.Equals(assemblyName, "TheQuartermaster.Client",
                     StringComparison.OrdinalIgnoreCase);
                 var isArmorExpert = string.Equals(assemblyName, "Liquidwarp.ArmorExpert",
                     StringComparison.OrdinalIgnoreCase);
-                if (!isDoomArcade && !isQuartermaster && !isArmorExpert) return;
+                var isArenaMode = string.Equals(assemblyName, "maschine-ArenaMode.Client",
+                    StringComparison.OrdinalIgnoreCase);
+                if (!isDoomArcade && !isQuartermaster && !isArmorExpert && !isIsbNotifier && !isIsbSubtitle && !isUnderFire && !isArenaMode) return;
 
                 EditableProfiles data;
                 lock (Gate)
                 {
                     if (!enabled || harmony == null || profiles == null) return;
+                    if (earlyUnderFireOnly && !isUnderFire) return;
                     data = profiles;
                 }
 
@@ -603,6 +765,12 @@ namespace SPT.ModKoreanAddon
                 {
                     if (!data.HasRules(DoomArcadeProfileId, Channel)) return;
                     PatchDoomArcadeMenu(assembly);
+                    return;
+                }
+
+                if (isIsbSubtitle)
+                {
+                    if (data.HasRules(IsbSfProfileId, Channel)) PatchIsbSubtitleLookup(assembly);
                     return;
                 }
 
@@ -615,11 +783,51 @@ namespace SPT.ModKoreanAddon
                     PatchTarget(assembly, target);
                 }
 
+                if (isArenaMode && data.HasRules(ArenaProfileId, Channel))
+                    ArenaModeUiHooks.Patch(assembly);
+
             }
             catch (Exception ex)
             {
                 SPT.EditableTranslations.MinimalLog.WarnOnce("SmallUiLiteralHooks:597", () => "Small UI late-load hook skipped: " + ex.Message);
             }
+        }
+
+        private static int PatchIsbSubtitleLookup(Assembly assembly)
+        {
+            var type = assembly.GetType("ISBSSOFExtra.ISBSubtitleSystem", false);
+            if (type == null) return 0;
+            var method = type.GetMethod("ResolveText", BindingFlags.Instance | BindingFlags.NonPublic,
+                null, new[] { typeof(string), typeof(string) }, null);
+            if (method == null || method.ReturnType != typeof(string)) return 0;
+
+            lock (Gate)
+            {
+                if (!enabled || harmony == null || !PatchedMethods.Add(method)) return 0;
+            }
+            try
+            {
+                harmony.Patch(method, postfix: new HarmonyMethod(typeof(SmallUiLiteralHooks).GetMethod(
+                    nameof(AfterIsbSubtitleResolveText), BindingFlags.Static | BindingFlags.NonPublic))
+                    { priority = Priority.Last });
+                return 1;
+            }
+            catch (Exception ex)
+            {
+                lock (Gate) PatchedMethods.Remove(method);
+                SPT.EditableTranslations.MinimalLog.WarnOnce("ISB-Subtitle-hook", () =>
+                    "ISB SOF subtitle hook skipped: " + ex.Message);
+                return 0;
+            }
+        }
+
+        // Translates only the text actually returned by the SOF subtitle lookup.
+        // Non-Korean modes and unknown/non-English resource values retain upstream text.
+        private static void AfterIsbSubtitleResolveText(ref string __result)
+        {
+            if (string.IsNullOrEmpty(__result) || profiles == null || !LocaleMode.IsKoreanMode()) return;
+            if (!profiles.CanTranslate(IsbSfProfileId, Channel, __result)) return;
+            __result = profiles.Translate(IsbSfProfileId, Channel, __result);
         }
 
         private static int PatchDoomArcadeMenu(Assembly assembly)
@@ -2205,7 +2413,10 @@ namespace SPT.ModKoreanAddon
             {
                 var shouldTranslate = instruction.opcode == OpCodes.Ldstr &&
                                       instruction.operand is string source &&
-                                      profiles.CanTranslate(target.ProfileId, Channel, source);
+                                      profiles.CanTranslate(target.ProfileId, Channel, source) &&
+                                      !(string.Equals(target.ProfileId, ArenaProfileId, StringComparison.Ordinal) &&
+                                        (source == "Instant" || source == "Free-for-all" || source == "All vs player" ||
+                                         source == "Off" || source == "None"));
                 yield return instruction;
                 if (shouldTranslate)
                 {

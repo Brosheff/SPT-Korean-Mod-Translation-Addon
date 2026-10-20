@@ -242,7 +242,7 @@
       "key": "Left Pod On X",
       "source_display_name": "Left Pod On X",
       "source_description": null,
-      "translation_display_name": "왼쪽 포드 켜짐 X",
+      "translation_display_name": "왼쪽 포드 전개 자세 회전값 X",
       "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 켜짐 쿼터니언 X 값입니다.",
       "values": []
     },
@@ -251,7 +251,7 @@
       "key": "Left Pod On Y",
       "source_display_name": "Left Pod On Y",
       "source_description": null,
-      "translation_display_name": "왼쪽 포드 켜짐 Y",
+      "translation_display_name": "왼쪽 포드 전개 자세 회전값 Y",
       "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 켜짐 쿼터니언 Y 값입니다.",
       "values": []
     },
@@ -260,7 +260,7 @@
       "key": "Left Pod On Z",
       "source_display_name": "Left Pod On Z",
       "source_description": null,
-      "translation_display_name": "왼쪽 포드 켜짐 Z",
+      "translation_display_name": "왼쪽 포드 전개 자세 회전값 Z",
       "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 켜짐 쿼터니언 Z 값입니다.",
       "values": []
     },
@@ -269,7 +269,7 @@
       "key": "Left Pod On W",
       "source_display_name": "Left Pod On W",
       "source_description": null,
-      "translation_display_name": "왼쪽 포드 켜짐 W",
+      "translation_display_name": "왼쪽 포드 전개 자세 회전값 W",
       "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 켜짐 쿼터니언 W 값입니다.",
       "values": []
     },
@@ -278,7 +278,7 @@
       "key": "Left Pod Off X",
       "source_display_name": "Left Pod Off X",
       "source_description": null,
-      "translation_display_name": "왼쪽 포드 꺼짐 X",
+      "translation_display_name": "왼쪽 포드 접힘 자세 회전값 X",
       "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 꺼짐 쿼터니언 X 값입니다.",
       "values": []
     },
@@ -287,7 +287,7 @@
       "key": "Left Pod Off Y",
       "source_display_name": "Left Pod Off Y",
       "source_description": null,
-      "translation_display_name": "왼쪽 포드 꺼짐 Y",
+      "translation_display_name": "왼쪽 포드 접힘 자세 회전값 Y",
       "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 꺼짐 쿼터니언 Y 값입니다.",
       "values": []
     },
@@ -296,7 +296,7 @@
       "key": "Left Pod Off Z",
       "source_display_name": "Left Pod Off Z",
       "source_description": null,
-      "translation_display_name": "왼쪽 포드 꺼짐 Z",
+      "translation_display_name": "왼쪽 포드 접힘 자세 회전값 Z",
       "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 꺼짐 쿼터니언 Z 값입니다.",
       "values": []
     },
@@ -305,7 +305,7 @@
       "key": "Left Pod Off W",
       "source_display_name": "Left Pod Off W",
       "source_description": null,
-      "translation_display_name": "왼쪽 포드 꺼짐 W",
+      "translation_display_name": "왼쪽 포드 접힘 자세 회전값 W",
       "translation_description": "Unity Inspector에서 복사하는 왼쪽 포드 꺼짐 쿼터니언 W 값입니다.",
       "values": []
     },
@@ -314,7 +314,7 @@
       "key": "Right Pod On X",
       "source_display_name": "Right Pod On X",
       "source_description": null,
-      "translation_display_name": "오른쪽 포드 켜짐 X",
+      "translation_display_name": "오른쪽 포드 전개 자세 회전값 X",
       "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 켜짐 쿼터니언 X 값입니다.",
       "values": []
     },
@@ -323,7 +323,7 @@
       "key": "Right Pod On Y",
       "source_display_name": "Right Pod On Y",
       "source_description": null,
-      "translation_display_name": "오른쪽 포드 켜짐 Y",
+      "translation_display_name": "오른쪽 포드 전개 자세 회전값 Y",
       "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 켜짐 쿼터니언 Y 값입니다.",
       "values": []
     },
@@ -332,7 +332,7 @@
       "key": "Right Pod On Z",
       "source_display_name": "Right Pod On Z",
       "source_description": null,
-      "translation_display_name": "오른쪽 포드 켜짐 Z",
+      "translation_display_name": "오른쪽 포드 전개 자세 회전값 Z",
       "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 켜짐 쿼터니언 Z 값입니다.",
       "values": []
     },
@@ -341,7 +341,7 @@
       "key": "Right Pod On W",
       "source_display_name": "Right Pod On W",
       "source_description": null,
-      "translation_display_name": "오른쪽 포드 켜짐 W",
+      "translation_display_name": "오른쪽 포드 전개 자세 회전값 W",
       "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 켜짐 쿼터니언 W 값입니다.",
       "values": []
     },
@@ -350,7 +350,7 @@
       "key": "Right Pod Off X",
       "source_display_name": "Right Pod Off X",
       "source_description": null,
-      "translation_display_name": "오른쪽 포드 꺼짐 X",
+      "translation_display_name": "오른쪽 포드 접힘 자세 회전값 X",
       "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 꺼짐 쿼터니언 X 값입니다.",
       "values": []
     },
@@ -359,7 +359,7 @@
       "key": "Right Pod Off Y",
       "source_display_name": "Right Pod Off Y",
       "source_description": null,
-      "translation_display_name": "오른쪽 포드 꺼짐 Y",
+      "translation_display_name": "오른쪽 포드 접힘 자세 회전값 Y",
       "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 꺼짐 쿼터니언 Y 값입니다.",
       "values": []
     },
@@ -368,7 +368,7 @@
       "key": "Right Pod Off Z",
       "source_display_name": "Right Pod Off Z",
       "source_description": null,
-      "translation_display_name": "오른쪽 포드 꺼짐 Z",
+      "translation_display_name": "오른쪽 포드 접힘 자세 회전값 Z",
       "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 꺼짐 쿼터니언 Z 값입니다.",
       "values": []
     },
@@ -377,7 +377,7 @@
       "key": "Right Pod Off W",
       "source_display_name": "Right Pod Off W",
       "source_description": null,
-      "translation_display_name": "오른쪽 포드 꺼짐 W",
+      "translation_display_name": "오른쪽 포드 접힘 자세 회전값 W",
       "translation_description": "Unity Inspector에서 복사하는 오른쪽 포드 꺼짐 쿼터니언 W 값입니다.",
       "values": []
     },

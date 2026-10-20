@@ -1,4 +1,4 @@
-# SPT Mod Korean Addon v1.0.2
+# SPT Mod Korean Addon v1.0.3
 
 SPT 4.1.6용 모드 한국어 번역 애드온입니다. 아이템·퀘스트 등의 로케일과 모드별 F12 설정, 일부 UI·메시지를 한국어로 표시합니다. 지원 범위는 모드와 버전에 따라 다릅니다.
 
@@ -12,7 +12,7 @@ https://sp-mod.com/mod/1629/spt-korean-project-locale-patcher
 2. 배포 ZIP의 `BepInEx`, `SPT_Runtime` 폴더를 **SPT 설치 폴더**에 압축 해제합니다.
 3. 기존 파일과 겹치면 **모두 덮어씁니다.**
 
-v1.0.2 업데이트에서는 기존 애드온이나 `translations` 폴더를 삭제할 필요가 없습니다.
+기존 애드온이나 `translations` 폴더를 삭제할 필요가 없습니다.
 
 ## 안내 문서
 

@@ -113,7 +113,7 @@
       "source_display_name": "Other Fade Style",
       "source_description": "Changes darkness style for other deaths. Mostly a debug feature but if for whatever reason you want the effect to occur after a bodyshot kill then here you go.",
       "translation_display_name": "기타 사망 화면 전환",
-      "translation_description": "그 외 사망 시 암전 효과 방식을 선택합니다. 주로 디버그 용도입니다."
+      "translation_description": "그 밖의 사망 원인에 적용할 암전 효과 방식을 변경합니다. 주로 디버그용이지만, 몸통 피격으로 사망한 뒤에도 이 효과를 표시하고 싶을 때 사용할 수 있습니다."
     },
     {
       "section": "3. Death Text",

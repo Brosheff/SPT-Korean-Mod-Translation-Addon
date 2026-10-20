@@ -66,7 +66,7 @@
       "source_display_name": "Cull Threshold (screen height %)",
       "source_description": "Screen-relative height threshold where AI culls. Lower = further distance. 0.008 ≈ 300m at default settings. The base 360-degree distance scales with Object LOD Quality; optics only extend distance inside the scope direction.",
       "translation_display_name": "컬링 기준값 (화면 높이 %)",
-      "translation_description": "화면에서 봇이 차지하는 높이를 기준으로 컬링할 임계값입니다. 값이 낮을수록 더 먼 거리까지 AI가 유지됩니다. 기본 설정에서 0.008은 약 300m이며 Object LOD Quality의 영향을 받습니다.",
+      "translation_description": "화면에서 봇이 차지하는 높이의 컬링 임계값입니다. 값이 낮을수록 더 먼 거리까지 AI가 유지됩니다. 기본 설정에서 0.008은 약 300m입니다. 기본 360도 컬링 거리는 Object LOD Quality에 따라 달라지고, 조준경 사용 시에는 조준경이 가리키는 방향 안에서만 거리가 연장됩니다.",
       "values": []
     },
     {

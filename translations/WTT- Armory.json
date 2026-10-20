@@ -14,7 +14,7 @@
       {
         "key": "03f6c86c56945862820e1006 Description",
         "source": "The Aimpoint CS is a specialized, now discontinued, red dot optic designed for use with military rifles, primarily the Swedish AK-5. It features a hard-anodized 30mm tube, a high-efficiency circuit for extended battery life, and a unique band-pass coating for night vision compatibility.",
-        "translation": "ADS 속도 및 명중률 보정 효과는 이 조준기를 사용할 때만 적용됩니다. 에임포인트 CS(Aimpoint CS)는 군용 소총, 주로 스웨덴 AK-5와 함께 사용하도록 설계된 특수형 단종 도트사이트입니다. 30mm 하드 양극산화 튜브, 고효율 회로 기반의 장시간 배터리 지속력, 야간 투시경 호환을 위한 밴드패스 코팅이 특징입니다."
+        "translation": "에임포인트 CS(Aimpoint CS)는 군용 소총, 주로 스웨덴 AK-5와 함께 사용하도록 설계된 특수형 단종 도트사이트입니다. 30mm 하드 양극산화 튜브, 고효율 회로 기반의 장시간 배터리 지속력, 야간 투시경 호환을 위한 밴드패스 코팅이 특징입니다."
       },
       {
         "key": "05d4400c84ab3eb0e7722625 Name",
@@ -29,12 +29,12 @@
       {
         "key": "064a8c271a037b0c6a1b86f5 Name",
         "source": "OmniTech UMP .45 ACP 50-Round Casket Magazine",
-        "translation": "50발, UMP .45 ACP 옴니텍 시스템즈 카세트형 탄창"
+        "translation": "50발, UMP .45 ACP 옴니텍 시스템즈 캐스킷형 탄창"
       },
       {
         "key": "064a8c271a037b0c6a1b86f5 Description",
         "source": "A 50-round polymer casket style magazine manufactured by OmniTech Systems designed for the UMP .45 ACP submachine gun.",
-        "translation": "옴니텍 시스템즈(OmniTech Systems)에서 UMP .45 ACP 기관단총용으로 제작한 50들이 폴리머 카세트형 탄창입니다."
+        "translation": "옴니텍 시스템즈(OmniTech Systems)에서 UMP .45 ACP 기관단총용으로 제작한 50발들이 폴리머 캐스킷형 탄창입니다."
       },
       {
         "key": "0672adb8be2d7d5a552ab4f2 Name",
@@ -64,7 +64,7 @@
       {
         "key": "07514b8fc5d75c3adb78c64c Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전체적으로 훌륭한 총열이며, 메카닉이 실력을 유감없이 발휘했습니다."
       },
       {
         "key": "0cb4a36dd2e587b46e813dbe Name",
@@ -89,7 +89,7 @@
       {
         "key": "0e60e51a2dce673d5ed173bf Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전체적으로 훌륭한 총열이며, 메카닉이 실력을 유감없이 발휘했습니다."
       },
       {
         "key": "0ecb517dd3c38760877469df Name",
@@ -104,7 +104,7 @@
       {
         "key": "0ecb517dd3c38760877469df Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전체적으로 훌륭한 총열이며, 메카닉이 실력을 유감없이 발휘했습니다."
       },
       {
         "key": "186b5c3e8ace3d9a1343bfeb Name",
@@ -119,7 +119,7 @@
       {
         "key": "186b5c3e8ace3d9a1343bfeb Description",
         "source": "A removable front lens cap for the Aimpoint CS.",
-        "translation": "ADS 속도 및 명중률 보정 효과는 이 조준기를 사용할 때만 적용됩니다. 에임포인트 CS(Aimpoint CS)용 탈착식 전면 렌즈캡입니다."
+        "translation": "에임포인트 CS(Aimpoint CS)용 탈착식 전면 렌즈캡입니다."
       },
       {
         "key": "1bf618e47cce6d69bec01e9f Name",
@@ -179,7 +179,7 @@
       {
         "key": "2094b55ae444de6c8a241d48 Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전체적으로 훌륭한 총열이며, 메카닉이 실력을 유감없이 발휘했습니다."
       },
       {
         "key": "2322ee962f6c77a1284abc1e Name",
@@ -189,7 +189,7 @@
       {
         "key": "2322ee962f6c77a1284abc1e Description",
         "source": "Sight, Unit, Small Arms, Trilux. (SUSAT) Standard issue 4x magnification optical sight for the SA80 family of weapons.",
-        "translation": "ADS 속도 및 명중률 보정 효과는 이 조준기를 사용할 때만 적용됩니다.Sight, Unit, Small Arms, Trilux(SUSAT)는 SA80 계열 화기 표준으로 지급되는 4배율 광학 조준경입니다."
+        "translation": "Sight, Unit, Small Arms, Trilux(SUSAT)는 SA80 계열 화기 표준으로 지급되는 4배율 광학 조준경입니다."
       },
       {
         "key": "275dd0d822b1fcaeb831ff87 Name",
@@ -234,7 +234,7 @@
       {
         "key": "2fc4f74291323723f4e2b05d Name",
         "source": "McMillan A5 stock for Remington 700 long action (FDE)",
-        "translation": "맥밀란 A5 개머리판 레밍턴 700 롱 액션용, (사막색)\n(McMillan A5 stock for Remington 700 long action (사막색))"
+        "translation": "맥밀란 A5 개머리판 레밍턴 700 롱 액션용, (사막색)"
       },
       {
         "key": "2fc4f74291323723f4e2b05d ShortName",
@@ -324,7 +324,7 @@
       {
         "key": "51c4d8a19eeb65f225154688 Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전체적으로 훌륭한 총열이며, 메카닉이 실력을 유감없이 발휘했습니다."
       },
       {
         "key": "549343528ae0e70c0d7d2786 Name",
@@ -339,7 +339,7 @@
       {
         "key": "549343528ae0e70c0d7d2786 Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전체적으로 훌륭한 총열이며, 메카닉이 실력을 유감없이 발휘했습니다."
       },
       {
         "key": "5a5061c950ff1642f5f79de0 Name",
@@ -369,7 +369,7 @@
       {
         "key": "5ad7771228e921777b30536f Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전체적으로 훌륭한 총열이며, 메카닉이 실력을 유감없이 발휘했습니다."
       },
       {
         "key": "5ae3d18efa17cbd51e898ced Name",
@@ -379,7 +379,7 @@
       {
         "key": "5ae3d18efa17cbd51e898ced ShortName",
         "source": "MARS",
-        "translation": "MA가늠자"
+        "translation": "MARS"
       },
       {
         "key": "5ae3d18efa17cbd51e898ced Description",
@@ -399,7 +399,7 @@
       {
         "key": "5bf36d856d9d529d60cfabb4 Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전체적으로 훌륭한 총열이며, 메카닉이 실력을 유감없이 발휘했습니다."
       },
       {
         "key": "5fa85819d2d2bfc0079e6b09 Name",
@@ -409,7 +409,7 @@
       {
         "key": "5fa85819d2d2bfc0079e6b09 ShortName",
         "source": "Casket",
-        "translation": "보석함"
+        "translation": "캐스킷"
       },
       {
         "key": "5fa85819d2d2bfc0079e6b09 Description",
@@ -434,7 +434,7 @@
       {
         "key": "664a5b945636ce820472f225 Description",
         "source": "The HK417 is a heavy, fully automatic assault rifle in 7.62x51mm NATO that closes the gap between assault and sniper rifles in the ideal mixture of infantry weapons. The indirect gas-operated weapon achieves energy values of 2500 to 3100 joules in its calibre, depending on ammunition and barrel length. Sufficient energy to effectively engage targets beyond 500 metres.",
-        "translation": "HK417은 7.62x51mm NATO 탄을 사용하는 중형 전자동 돌격소총으로, 돌격소총과 저격소총 사이의 이상적인 보병 무기로 설계되었습니다. 간접 가스작동 방식이며, 사용하는 탄약과 총열 길이에 따라 2500~3100줄의 에너지를 발휘합니다. 유효 사거리는 500미터 이상입니다."
+        "translation": "HK417은 7.62x51mm NATO 탄을 사용하는 중량급 전자동 돌격소총으로, 돌격소총과 저격소총 사이의 이상적인 보병 무기로 설계되었습니다. 간접 가스작동 방식이며, 사용하는 탄약과 총열 길이에 따라 2500~3100줄의 에너지를 발휘합니다. 유효 사거리는 500미터 이상입니다."
       },
       {
         "key": "664a5dd804b731a2ed042705 Name",
@@ -464,7 +464,7 @@
       {
         "key": "664a5e58d5d39447e1d0d77d Description",
         "source": "An extended charging handle for HK417 and compatible systems, manufactured by Heckler & Koch.",
-        "translation": "헤클러 & 코흐(Heckler & Koch)에서 제작한 HK 417 및 호환 시스템용 연장형 장전 손잡이입니다. 조작성을 향상시킵니다."
+        "translation": "헤클러 & 코흐(Heckler & Koch)에서 제작한 HK 417 및 호환 시스템용 연장형 장전 손잡이입니다."
       },
       {
         "key": "664a5ebcc29c027e11d12f31 Name",
@@ -524,7 +524,7 @@
       {
         "key": "664a5ff61c4610dc01e84917 Description",
         "source": "Standard drum rear sight for the HK 417 battle rifle.",
-        "translation": "HK 417 전투소총용 표준 드럼형 가늠자(가늠자)입니다."
+        "translation": "HK 417 전투소총용 표준 드럼형 가늠자입니다."
       },
       {
         "key": "664a600b58753b43b7fea3af Name",
@@ -539,7 +539,7 @@
       {
         "key": "664a600b58753b43b7fea3af Description",
         "source": "Standard HK front sight post for the HK 417 battle rifle.",
-        "translation": "HK 417 전투소총용 표준 가늠쇠(가늠쇠)입니다."
+        "translation": "HK 417 전투소총용 표준 가늠쇠입니다."
       },
       {
         "key": "664a6025593a58418347808f Name",
@@ -774,7 +774,7 @@
       {
         "key": "665fe0e865683281eb8e7ed6 Name",
         "source": "Springfield Armory DS Prodigy 9x19 pistol",
-        "translation": "스프링필드 아머리 DS 프로디지 9x19mm 권총\n(Springfield Armory DS Prodigy 9x19mm Handgun)"
+        "translation": "스프링필드 아머리 DS 프로디지 9x19mm 권총"
       },
       {
         "key": "665fe0e865683281eb8e7ed6 ShortName",
@@ -864,7 +864,7 @@
       {
         "key": "665fe6a117ff1ba8218d680c Name",
         "source": "Springfield Armory DS Prodigy Skeletonized Hammer",
-        "translation": "스프링필드 아머리 DS 프로디지 경량 공이"
+        "translation": "스프링필드 아머리 DS 프로디지 경량형 공이치기"
       },
       {
         "key": "665fe6a117ff1ba8218d680c ShortName",
@@ -874,7 +874,7 @@
       {
         "key": "665fe6a117ff1ba8218d680c Description",
         "source": "Standard skeletonized hammer for the Springfield Armory DS Prodigy 9x19mm pistol.",
-        "translation": "스프링필드 아머리(Springfield Armory) DS 프로디지 9x19mm 권총용 표준 경량 공이입니다."
+        "translation": "스프링필드 아머리(Springfield Armory) DS 프로디지 9x19mm 권총용 표준 경량형 공이치기입니다."
       },
       {
         "key": "665fe6b9c3f47f67713858df Name",
@@ -914,7 +914,7 @@
       {
         "key": "6661012d16fbd2fb75408f87 Description",
         "source": "The CZ 75B is a semi-automatic pistol made by Czech firearm manufacturer ZUB. First introduced in 1975, it is one of the original 'wonder nines' and features a staggered-column magazine, all-steel construction, and a hammer forged barrel. It is widely distributed throughout the world and is the most common handgun in the Czech Republic.",
-        "translation": "CZ 75B는 체코의 총기 제조업체인 ZUB에서 제작한 반자동 권총입니다. 1975년에 처음 도입되었으며, 초기 '원더 나인' 중 하나로 평가받으며, 겹탄창 구조, 전강선 강철 총신, 전강 철제 구조를 특징으로 합니다. 세계적으로 널리 보급되었으며 체코 공화국에서 가장 흔한 권총입니다."
+        "translation": "CZ 75B는 체코의 총기 제조업체 ZUB에서 제작한 반자동 권총입니다. 1975년에 처음 등장했으며, 초기 원더 나인 권총 가운데 하나입니다. 엇갈려 배치된 복열 탄창, 전체 강철 구조, 해머 단조 총열이 특징입니다. 전 세계적으로 널리 보급되었으며 체코에서 가장 흔히 사용되는 권총입니다."
       },
       {
         "key": "666101d005b02d7b36e6e958 Name",
@@ -924,7 +924,7 @@
       {
         "key": "666101d005b02d7b36e6e958 ShortName",
         "source": "CZ 75 Magazine",
-        "translation": "CZ 75"
+        "translation": "CZ 75 탄창"
       },
       {
         "key": "666101d005b02d7b36e6e958 Description",
@@ -1034,7 +1034,7 @@
       {
         "key": "668070f11aff0d6b0cd7fb13 Name",
         "source": "HK Sturmgriff foregrip (Black)",
-        "translation": "헤클러 & 코흐 슈투름그리프 전방 손잡이 (블랙)\n(HK Sturmgriff foregrip (검은색))"
+        "translation": "헤클러 & 코흐 슈투름그리프 전방 손잡이 (블랙)"
       },
       {
         "key": "668070f11aff0d6b0cd7fb13 ShortName",
@@ -1074,12 +1074,12 @@
       {
         "key": "6687512d9e062645579695cd Name",
         "source": "Heritage Ordnance 7.62x51mm 60-Round FAL Retro Drum Magazine",
-        "translation": "65발, 헤리티지 오드넌스 7.62x51mm FAL 레트로 드럼 탄창"
+        "translation": "60발, 헤리티지 오드넌스 7.62x51mm FAL 레트로 드럼 탄창"
       },
       {
         "key": "6687512d9e062645579695cd Description",
         "source": "A 60-round 7.62x51 retro-styled drum magazine designed for the FAL/SA-58 platform.",
-        "translation": "FAL/SA-58 플랫폼용으로 설계된 7.62x51mm 65발 복고풍 스타일 드럼 탄창입니다. 헤리티지 오드넌스(Heritage Ordnance)사에서 제조하였습니다."
+        "translation": "FAL/SA-58 플랫폼용으로 설계된 7.62x51mm 60발 복고풍 드럼 탄창입니다."
       },
       {
         "key": "669fca7f9ed4916116c76d5e Name",
@@ -1154,7 +1154,7 @@
       {
         "key": "669fcbd899f4dc2f8ed7d113 Description",
         "source": "A 24 inch (610mm) barrel manufactured by Heritage Ordnance with mounted combat sights for the Browning Auto-5 12 gauge shotgun.",
-        "translation": "헤리티지 오던스(Heritage Ordnance)에서 제조한 24인치(610mm) 총열로, 전투용 가늠쇠가 장착된 브라우닝(Browning) Auto-5 12게이지 샷건용 총열입니다."
+        "translation": "헤리티지 오던스(Heritage Ordnance)에서 제조한 24인치(610mm) 총열로, 전투용 조준장치가 장착된 브라우닝(Browning) Auto-5 12게이지 샷건용 총열입니다."
       },
       {
         "key": "669fcbe98880c4b9c174db01 Name",
@@ -1264,7 +1264,7 @@
       {
         "key": "66a544c956621d3364f6085e Name",
         "source": "IWI Tavor X95 5.56x45 assault rifle (FDE)",
-        "translation": "IWI 타보르 X95 5.56x45 돌격소총 (사막색)\n(IWI Tavor X95 5.56x45 assault rifle (사막색))"
+        "translation": "IWI 타보르 X95 5.56x45 돌격소총 (사막색)"
       },
       {
         "key": "66a544c956621d3364f6085e ShortName",
@@ -1279,7 +1279,7 @@
       {
         "key": "66a545898022784400d6c836 Name",
         "source": "IWI Tavor X95 5.56x45 assault rifle (OD)",
-        "translation": "IWI 타보르 X95 5.56x45 돌격소총 (올리브 드랩)\n(IWI Tavor X95 5.56x45 assault rifle (올리브 드랩))"
+        "translation": "IWI 타보르 X95 5.56x45 돌격소총 (올리브 드랩)"
       },
       {
         "key": "66a545898022784400d6c836 ShortName",
@@ -1319,7 +1319,7 @@
       {
         "key": "66ba25755bd539b9238365b0 Name",
         "source": "B5 Systems P-Grip 23 AR-15 pistol grip (FDE)",
-        "translation": "B5 시스템즈 P-그립 23 AR-15 권총손잡이 (사막색)\n(B5 Systems P-Grip 23 AR-15 pistol grip (사막색))"
+        "translation": "B5 시스템즈 P-그립 23 AR-15 권총손잡이 (사막색)"
       },
       {
         "key": "66ba25755bd539b9238365b0 Description",
@@ -1329,7 +1329,7 @@
       {
         "key": "66ba25a68e5fcb139f5085e8 Name",
         "source": "IWI Carmel Right Rail Cover (FDE)",
-        "translation": "IWI 카멜 우측 레일 커버 (사막색)\n(IWI Carmel Right Rail Cover (사막색))"
+        "translation": "IWI 카멜 우측 레일 커버 (사막색)"
       },
       {
         "key": "66ba25a68e5fcb139f5085e8 ShortName",
@@ -1344,7 +1344,7 @@
       {
         "key": "66ba25bec683a649a094b04e Name",
         "source": "IWI Carmel Left Rail Cover (FDE)",
-        "translation": "IWI 카멜 좌측 레일 커버 (사막색)\n(IWI Carmel Left Rail Cover (사막색))"
+        "translation": "IWI 카멜 좌측 레일 커버 (사막색)"
       },
       {
         "key": "66ba25bec683a649a094b04e ShortName",
@@ -1389,7 +1389,7 @@
       {
         "key": "66ba2607dea198b6d7a42ef1 Name",
         "source": "IWI Carmel Bottom Rail Cover (FDE)",
-        "translation": "IWI 카멜 하단 레일 커버 (사막색)\n(IWI Carmel Bottom Rail Cover (사막색))"
+        "translation": "IWI 카멜 하단 레일 커버 (사막색)"
       },
       {
         "key": "66ba2607dea198b6d7a42ef1 ShortName",
@@ -1479,7 +1479,7 @@
       {
         "key": "66ba267c60c3c6c47de99a0d Name",
         "source": "IWI Carmel Folding Stock (FDE)",
-        "translation": "IWI 카멜 접이식 개머리판 (사막색)\n(IWI Carmel Folding Stock (사막색))"
+        "translation": "IWI 카멜 접이식 개머리판 (사막색)"
       },
       {
         "key": "66ba267c60c3c6c47de99a0d ShortName",
@@ -1604,7 +1604,7 @@
       {
         "key": "66e71a7ffe3fc79ff68b582b Description",
         "source": "Standard 200-round 5.56x45mm box magazine for the M249 light machine gun.",
-        "translation": "M249 경기관총용 표준 5.56x45mm 200발 탄약 상자입니다."
+        "translation": "M249 경기관총용 표준 5.56x45mm 200발 박스형 탄창입니다."
       },
       {
         "key": "66e71a9d187b580f24ea582f Name",
@@ -1614,7 +1614,7 @@
       {
         "key": "66e71a9d187b580f24ea582f Description",
         "source": "A 100-round soft pack box magazine for the M249 5.56x45mm light machine gun.",
-        "translation": "M249 5.56x45mm 경기관총용 100발 연질 탄약 주머니입니다."
+        "translation": "M249 5.56x45mm 경기관총용 100발 소프트팩형 탄창입니다."
       },
       {
         "key": "66e71ab0796060d309b7b244 Name",
@@ -1729,7 +1729,7 @@
       {
         "key": "66e71d9c49892c1cf24d5b1a Name",
         "source": "M249 Moloc Armament Heavy handguard",
-        "translation": "M249 몰록 아머먼트 중형 총열덮개"
+        "translation": "M249 몰록 아머먼트 중량형 총열덮개"
       },
       {
         "key": "66e71d9c49892c1cf24d5b1a ShortName",
@@ -1739,7 +1739,7 @@
       {
         "key": "66e71d9c49892c1cf24d5b1a Description",
         "source": "MAC Manufactured Heavy RAS Handguard inspired by the KAC RAS system",
-        "translation": "KAC RAS 시스템에서 영감을 받은 MAC 제조 중형 RAS 총열덮개입니다."
+        "translation": "KAC RAS 시스템에서 영감을 받아 MAC에서 제작한 중량형 RAS 총열덮개입니다."
       },
       {
         "key": "66e71dc8fa3ebda7f1034a2b Name",
@@ -1779,7 +1779,7 @@
       {
         "key": "66e88596febdcf9daade16a8 Description",
         "source": "The Zastava M76 is a military semi-automatic designated marksman rifle developed and manufactured by Zastava Arms. The Zastava Arms Company released the M76 in the mid-1970s. Since then it became the standard issue designated marksman rifle in the Serbian army and its predecessor the Yugoslav People's Army (JNA). It was designed to fulfill the same role as the Soviet Dragunov SVD, which was to provide a designated marksman capability to the infantry platoon.",
-        "translation": "자스타바 암즈(Zastava Arms)에서 개발 및 제조한 군용 반자동 지정사수소총입니다. 자스타바 M76은 1970년대 중반에 출시되어 세르비아군과 이전 유고슬라비아 인민군(JNA)의 표준 지정사수소총으로 채택되었습니다. 이 소총은 소련제 드라구노프 SVD와 마찬가지로 보병 분대에 지정사수 전력을 제공하기 위해 설계되었습니다."
+        "translation": "자스타바 암즈(Zastava Arms)에서 개발 및 제조한 군용 반자동 지정사수소총입니다. 자스타바 M76은 1970년대 중반에 출시되어 세르비아군과 이전 유고슬라비아 인민군(JNA)의 표준 지정사수소총으로 채택되었습니다. 이 소총은 소련제 드라구노프 SVD와 마찬가지로 보병 소대에 지정사수 전력을 제공하기 위해 설계되었습니다."
       },
       {
         "key": "66e887960e41855970b03be2 Name",
@@ -1879,7 +1879,7 @@
       {
         "key": "66e888c270c3285b5d91fadb Name",
         "source": "Zastava M76 Custom Gas Tube",
-        "translation": "자스타바 M76 수제 가스튜브"
+        "translation": "자스타바 M76 커스텀 가스 튜브"
       },
       {
         "key": "66e888c270c3285b5d91fadb Description",
@@ -1889,7 +1889,7 @@
       {
         "key": "66e888e39ace35080ccb02bd Name",
         "source": "Zastava M76 gas block handguard assembly with foregrip",
-        "translation": "자스타바 M76 전방 손잡이 포함 총열덮개 어셈블리"
+        "translation": "자스타바 M76 전방 손잡이 장착형 가스 블록·총열덮개 조립체"
       },
       {
         "key": "66e888e39ace35080ccb02bd Description",
@@ -2044,7 +2044,7 @@
       {
         "key": "675ceb83e25d80bc676e15a6 Name",
         "source": "Springfield Armory DS Prodigy 9x19 pistol (FDE)",
-        "translation": "스프링필드 아머리 DS 프로디지 9x19mm 권총 (사막색)\n(Springfield Armory DS Prodigy 9x19mm Handgun Flat Dark Earth)"
+        "translation": "스프링필드 아머리 DS 프로디지 9x19mm 권총 (사막색)"
       },
       {
         "key": "675ceb83e25d80bc676e15a6 ShortName",
@@ -2214,7 +2214,7 @@
       {
         "key": "6761b213607f9a6f79017d23 Description",
         "source": "The Serbu Super Shorty is a compact, stockless, pump-action shotgun chambered in 12-gauge manufactured by Serbu Firearms.",
-        "translation": "세르부 파이어암즈(Serbu Firearms)에서 제작한 서부 슈퍼 쇼티(Super Shorty)는 개머리판이 없는 콤팩트한 펌프액션 12게이지 산탄총입니다."
+        "translation": "세르부 파이어암즈(Serbu Firearms)에서 제작한 세르부 슈퍼 쇼티(Super Shorty)는 개머리판이 없는 콤팩트한 펌프액션 12게이지 산탄총입니다."
       },
       {
         "key": "6761b213607f9a6f79017d40 Name",
@@ -2239,7 +2239,7 @@
       {
         "key": "6761b213607f9a6f79017d41 ShortName",
         "source": "SIN",
-        "translation": "\"죄의 임금\""
+        "translation": "SIN"
       },
       {
         "key": "6761b213607f9a6f79017d41 Description",
@@ -2254,7 +2254,7 @@
       {
         "key": "6761b213607f9a6f79017d42 ShortName",
         "source": "WoS HG",
-        "translation": "죄의 임금"
+        "translation": "WoS 총열덮개"
       },
       {
         "key": "6761b213607f9a6f79017d42 Description",
@@ -2269,7 +2269,7 @@
       {
         "key": "6761b213607f9a6f79017d43 ShortName",
         "source": "WoS upper",
-        "translation": "죄의 임금"
+        "translation": "WoS 상부 총몸"
       },
       {
         "key": "6761b213607f9a6f79017d43 Description",
@@ -2299,7 +2299,7 @@
       {
         "key": "6761b213607f9a6f79017d46 ShortName",
         "source": "WoS PG",
-        "translation": "죄의 임금"
+        "translation": "WoS 권총손잡이"
       },
       {
         "key": "6761b213607f9a6f79017d46 Description",
@@ -2329,7 +2329,7 @@
       {
         "key": "6761b213607f9a6f79017d48 ShortName",
         "source": "WoS CH",
-        "translation": "죄의 임금"
+        "translation": "WoS 장전 손잡이"
       },
       {
         "key": "6761b213607f9a6f79017d48 Description",
@@ -2344,7 +2344,7 @@
       {
         "key": "6761b213607f9a6f79017d52 Description",
         "source": "The Wilson Combat X-frame is a high-capacity 9mm 1911 frame that is similar in size to a traditional compact, single-stack 1911.  The X-frame is machined at Wilson Combat from T6-7075 aluminum and accepts a high-capacity magazine with a grip that is smaller in circumference than a standard 1911 while retaining traditional 1911 controls. ",
-        "translation": "윌슨 컴뱃(Wilson Combat) X-프레임은 고용량 9mm 1911 프레임으로, 전통적인 컴팩트 단열탄 1911과 비슷한 크기입니다. 윌슨 컴뱃에서 T6-7075 알루미늄으로 가공했으며, 표준 1911보다 둘레가 작은 고용량 탄창을 수용하면서도 기존의 1911 조작계를 유지합니다."
+        "translation": "윌슨 컴뱃(Wilson Combat)의 X-프레임은 대용량 9mm 1911 프레임으로, 기존의 소형 단열 탄창식 1911과 크기가 비슷합니다. T6-7075 알루미늄을 절삭 가공해 제작했으며, 기존 1911의 조작 방식을 유지하면서도 표준 1911보다 둘레가 작은 손잡이에 대용량 탄창을 사용할 수 있습니다."
       },
       {
         "key": "6761b213607f9a6f79017d53 Name",
@@ -2489,7 +2489,7 @@
       {
         "key": "676b4e2ff185a450a0b300b4 ShortName",
         "source": "\"Wages of Sin\"",
-        "translation": "\"죄의 임금"
+        "translation": "\"죄의 임금\""
       },
       {
         "key": "676b4e2ff185a450a0b300b4 Description",
@@ -2504,7 +2504,7 @@
       {
         "key": "676b4fbf3cb5dd69a908ccd0 ShortName",
         "source": "SIN",
-        "translation": "죄의 임금"
+        "translation": "SIN"
       },
       {
         "key": "676b4fbf3cb5dd69a908ccd0 Description",
@@ -2519,7 +2519,7 @@
       {
         "key": "676b5088bc973cdc82247b3f ShortName",
         "source": "WoS HG",
-        "translation": "죄의 임금"
+        "translation": "WoS 총열덮개"
       },
       {
         "key": "676b5088bc973cdc82247b3f Description",
@@ -2534,7 +2534,7 @@
       {
         "key": "676b5124f0892bbed71bc377 ShortName",
         "source": "WoS upper",
-        "translation": "죄의 임금"
+        "translation": "WoS 상부 총몸"
       },
       {
         "key": "676b5124f0892bbed71bc377 Description",
@@ -2549,7 +2549,7 @@
       {
         "key": "676b5258816c8784c7495dc5 ShortName",
         "source": "WoS PG",
-        "translation": "죄의 임금"
+        "translation": "WoS 권총손잡이"
       },
       {
         "key": "676b5258816c8784c7495dc5 Description",
@@ -2589,12 +2589,12 @@
       {
         "key": "676b5367fe34b0539b0f96f5 Name",
         "source": "Singuard Arms \"Wages of Sin\" AR-15 charging handle (Black)",
-        "translation": "싱가드 암즈 \"죄의 임금\" AR-15 장전 손잡이 (블랙)\n(Singuard Arms \"Wages of Sin\" AR-15 charging handle (검은색))"
+        "translation": "싱가드 암즈 \"죄의 임금\" AR-15 장전 손잡이 (블랙)"
       },
       {
         "key": "676b5367fe34b0539b0f96f5 ShortName",
         "source": "WoS CH",
-        "translation": "죄의 임금"
+        "translation": "WoS 장전 손잡이"
       },
       {
         "key": "676b5367fe34b0539b0f96f5 Description",
@@ -2604,12 +2604,12 @@
       {
         "key": "676c3cac01023283e5f6a562 Name",
         "source": "Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle (FDE)",
-        "translation": "싱가드 암즈 \"죄의 임금\" 5.56x45 돌격소총 (사막색)\n(Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle (사막색))"
+        "translation": "싱가드 암즈 \"죄의 임금\" 5.56x45 돌격소총 (사막색)"
       },
       {
         "key": "676c3cac01023283e5f6a562 ShortName",
         "source": "\"Wages of Sin\"",
-        "translation": "\"죄의 임금"
+        "translation": "\"죄의 임금\""
       },
       {
         "key": "676c3cac01023283e5f6a562 Description",
@@ -2619,7 +2619,7 @@
       {
         "key": "676c3d1dcf722dad840e520b Name",
         "source": "Singuard Arms \"Wages of Sin\" Handguard (FDE)",
-        "translation": "싱가드 암즈 \"죄의 임금\" 총열덮개 (사막색)\n(Singuard Arms \"Wages of Sin\" Handguard (사막색))"
+        "translation": "싱가드 암즈 \"죄의 임금\" 총열덮개 (사막색)"
       },
       {
         "key": "676c3d1dcf722dad840e520b ShortName",
@@ -2634,7 +2634,7 @@
       {
         "key": "676c3d512d4ab6764b8d793c Name",
         "source": "Singuard Arms \"Wages of Sin\" 5.56x45 muzzle brake (FDE)",
-        "translation": "싱가드 암즈 \"죄의 임금\" 5.56x45 제퇴기 (사막색)\n(Singuard Arms \"Wages of Sin\" 5.56x45 muzzle brake (사막색))"
+        "translation": "싱가드 암즈 \"죄의 임금\" 5.56x45 제퇴기 (사막색)"
       },
       {
         "key": "676c3d512d4ab6764b8d793c ShortName",
@@ -2649,12 +2649,12 @@
       {
         "key": "676c3d67d69e478b3d69cd21 Name",
         "source": "Singuard Arms \"Wages of Sin\" pistol grip (FDE)",
-        "translation": "싱가드 암즈 \"죄의 임금\" 권총손잡이 (사막색)\n(Singuard Arms \"Wages of Sin\" pistol grip (사막색))"
+        "translation": "싱가드 암즈 \"죄의 임금\" 권총손잡이 (사막색)"
       },
       {
         "key": "676c3d67d69e478b3d69cd21 ShortName",
         "source": "WoS PG",
-        "translation": "죄의 임금"
+        "translation": "WoS 권총손잡이"
       },
       {
         "key": "676c3d67d69e478b3d69cd21 Description",
@@ -2664,7 +2664,7 @@
       {
         "key": "676c3d6c1c64d6eacd7b8c16 Name",
         "source": "Singuard Arms \"Wages of Sin\" stock (FDE)",
-        "translation": "싱가드 암즈 \"죄의 임금\" 개머리판 (사막색)\n(Singuard Arms \"Wages of Sin\" stock (사막색))"
+        "translation": "싱가드 암즈 \"죄의 임금\" 개머리판 (사막색)"
       },
       {
         "key": "676c3d6c1c64d6eacd7b8c16 ShortName",
@@ -2679,12 +2679,12 @@
       {
         "key": "676c3d73e56673a0ed44ec14 Name",
         "source": "Singuard Arms \"Wages of Sin\" AR-15 charging handle (FDE)",
-        "translation": "싱가드 암즈 \"죄의 임금\" AR-15 장전 손잡이 (사막색)\n(Singuard Arms \"Wages of Sin\" AR-15 charging handle (사막색))"
+        "translation": "싱가드 암즈 \"죄의 임금\" AR-15 장전 손잡이 (사막색)"
       },
       {
         "key": "676c3d73e56673a0ed44ec14 ShortName",
         "source": "WoS CH",
-        "translation": "죄의 임금"
+        "translation": "WoS 장전 손잡이"
       },
       {
         "key": "676c3d73e56673a0ed44ec14 Description",
@@ -2719,7 +2719,7 @@
       {
         "key": "67748ec2e6a045dc97e2f978 Description",
         "source": "The CZ 75B is a semi-automatic pistol made by Czech firearm manufacturer ZUB. First introduced in 1975, it is one of the original 'wonder nines' and features a staggered-column magazine, all-steel construction, and a hammer forged barrel. It is widely distributed throughout the world and is the most common handgun in the Czech Republic. The CZ 75B Omega has a more refined trigger mechanism over the standard CZ 75B.",
-        "translation": "CZ 75B는 체코 총기 제조업체 ZUB에서 제작한 반자동 권총입니다. 1975년에 처음 도입되었으며, 초기 '원더 나인' 중 하나로 평가받으며, 겹탄창 구조, 전강 철제 구조, 전강선 강철 총신을 특징으로 합니다. 세계적으로 널리 보급되었으며 체코 공화국에서 가장 흔한 권총입니다. CZ 75B 오메가는 표준형보다 개선된 방아쇠 메커니즘을 탑재하고 있습니다."
+        "translation": "CZ 75B는 체코 총기 제조업체 ZUB에서 제작한 반자동 권총입니다. 1975년에 처음 도입되었으며, 초기 '원더 나인' 중 하나로 평가받으며, 겹탄창 구조, 전체 강철 구조, 해머 단조 총열을 특징으로 합니다. 세계적으로 널리 보급되었으며 체코 공화국에서 가장 흔한 권총입니다. CZ 75B 오메가는 표준형보다 개선된 방아쇠 메커니즘을 탑재하고 있습니다."
       },
       {
         "key": "677c9a47baecf3c4b2453365 Name",
@@ -2739,7 +2739,7 @@
       {
         "key": "677c9c0cb4a2eed292d7cada Name",
         "source": "LAR Grizzly 50 Mark V 5.5 inch barrel (Black)",
-        "translation": "LAR 그리즐리 50 Mark V 5.5인치 총열 (블랙)\n(LAR Grizzly 50 Mark V 5.5인치 barrel (검은색))"
+        "translation": "LAR 그리즐리 50 Mark V 5.5인치 총열 (블랙)"
       },
       {
         "key": "677c9c0cb4a2eed292d7cada ShortName",
@@ -2774,7 +2774,7 @@
       {
         "key": "677c9c3105cb23362086eee2 ShortName",
         "source": "Grizzly thr.",
-        "translation": "Grizzly 5.9인치"
+        "translation": "Grizzly 나사산"
       },
       {
         "key": "677c9c3105cb23362086eee2 Description",
@@ -2784,7 +2784,7 @@
       {
         "key": "677c9c38e92069ca8c68b6e1 Name",
         "source": "LAR Grizzly 50 Mark V 5.5 inch barrel (Stainless)",
-        "translation": "LAR 그리즐리 50 Mark V 5.5인치 총열 (스테인리스)\n(LAR Grizzly 50 Mark V 5.5인치 barrel (Stainless))"
+        "translation": "LAR 그리즐리 50 Mark V 5.5인치 총열 (스테인리스)"
       },
       {
         "key": "677c9c38e92069ca8c68b6e1 ShortName",
@@ -2919,7 +2919,7 @@
       {
         "key": "677c9e9d8949d89b64a3baa5 Name",
         "source": "LAR Grizzly 50 Mark V hammer",
-        "translation": "LAR 그리즐리 50 마크 V 공이"
+        "translation": "LAR 그리즐리 50 마크 V 공이치기"
       },
       {
         "key": "677c9e9d8949d89b64a3baa5 ShortName",
@@ -2929,7 +2929,7 @@
       {
         "key": "677c9e9d8949d89b64a3baa5 Description",
         "source": "Standard hammer for the LAR Grizzly 50 Mark V .50 AE pistol.",
-        "translation": "LAR 그리즐리 50 마크 V .50 AE 권총용 표준 공이입니다."
+        "translation": "LAR 그리즐리 50 마크 V .50 AE 권총용 표준 공이치기입니다."
       },
       {
         "key": "677c9eccdfcac18ddc7c6b5b Name",
@@ -2974,7 +2974,7 @@
       {
         "key": "677c9ff40e9b640153417d1a Description",
         "source": "Stainless pistol slide for the LAR Grizzly 50 Mark V .50 AE pistol.",
-        "translation": "LAR 그리즐리 50 Mark V .50 AE 권총용 금색 슬라이드입니다."
+        "translation": "LAR 그리즐리 50 Mark V .50 AE 권총용 스테인리스강 소재의 금색 슬라이드입니다."
       },
       {
         "key": "677ca04bc5fcd4555728b18c Name",
@@ -2989,7 +2989,7 @@
       {
         "key": "677ca12f7599509c79311ade Name",
         "source": "LAR Grizzly 50 Mark V pistol grips (Black)",
-        "translation": "LAR 그리즐리 50 마크 V 권총손잡이 (블랙)\n(LAR Grizzly 50 Mark V pistol grips (검은색))"
+        "translation": "LAR 그리즐리 50 마크 V 권총손잡이 (블랙)"
       },
       {
         "key": "677ca12f7599509c79311ade ShortName",
@@ -3344,7 +3344,7 @@
       {
         "key": "67b177a799cc45072ce66e17 ShortName",
         "source": "UMP-9 8\" thr.",
-        "translation": "UMP-9 8인치\" 나사"
+        "translation": "UMP-9 8인치 나사산"
       },
       {
         "key": "67b177a799cc45072ce66e17 Description",
@@ -3379,17 +3379,17 @@
       {
         "key": "67e8c043679ab98cf5a9a894 Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전체적으로 훌륭한 총열이며, 메카닉이 실력을 유감없이 발휘했습니다."
       },
       {
         "key": "67f2dd6203d3b7ec166970ef Name",
         "source": "IWI Tavor X95 left rail cover (Black)",
-        "translation": "IWI 타보르 X95 좌측 레일 커버 (블랙)\n(IWI Tavor X95 left rail cover (검은색))"
+        "translation": "IWI 타보르 X95 좌측 레일 커버 (블랙)"
       },
       {
         "key": "67f2dd6203d3b7ec166970ef ShortName",
         "source": "X95-L",
-        "translation": "X95 우측"
+        "translation": "X95 좌측"
       },
       {
         "key": "67f2dd6203d3b7ec166970ef Description",
@@ -3399,12 +3399,12 @@
       {
         "key": "67f2ddcd74c13fb90c2d7f1b Name",
         "source": "IWI Tavor X95 right rail cover (Black)",
-        "translation": "IWI 타보르 X95 우측 레일 커버 (블랙)\n(IWI Tavor X95 right rail cover (검은색))"
+        "translation": "IWI 타보르 X95 우측 레일 커버 (블랙)"
       },
       {
         "key": "67f2ddcd74c13fb90c2d7f1b ShortName",
         "source": "X95-R",
-        "translation": "X95 촤측"
+        "translation": "X95 우측"
       },
       {
         "key": "67f2ddcd74c13fb90c2d7f1b Description",
@@ -3414,7 +3414,7 @@
       {
         "key": "67f2de04c3ee93d678d753fb Name",
         "source": "IWI Tavor X95 bottom rail cover (Black)",
-        "translation": "IWI 타보르 X95 하부 레일 커버 (블랙)\n(IWI Tavor X95 bottom rail cover (검은색))"
+        "translation": "IWI 타보르 X95 하부 레일 커버 (블랙)"
       },
       {
         "key": "67f2de04c3ee93d678d753fb ShortName",
@@ -3429,7 +3429,7 @@
       {
         "key": "67f2dedcf0b1e2576dbe8304 Name",
         "source": "IWI Tavor X95 bottom rail cover (FDE)",
-        "translation": "IWI 타보르 X95 하부 레일 커버 (사막색)\n(IWI Tavor X95 bottom rail cover (사막색))"
+        "translation": "IWI 타보르 X95 하부 레일 커버 (사막색)"
       },
       {
         "key": "67f2dedcf0b1e2576dbe8304 ShortName",
@@ -3444,12 +3444,12 @@
       {
         "key": "67f2dee76a5dd6ae06f6b4e5 Name",
         "source": "IWI Tavor X95 right rail cover (FDE)",
-        "translation": "IWI 타보르 X95 우측 레일 커버 (사막색)\n(IWI Tavor X95 right rail cover (사막색))"
+        "translation": "IWI 타보르 X95 우측 레일 커버 (사막색)"
       },
       {
         "key": "67f2dee76a5dd6ae06f6b4e5 ShortName",
         "source": "X95-R",
-        "translation": "X95 촤측"
+        "translation": "X95 우측"
       },
       {
         "key": "67f2dee76a5dd6ae06f6b4e5 Description",
@@ -3459,12 +3459,12 @@
       {
         "key": "67f2deed9766bbb4658a7338 Name",
         "source": "IWI Tavor X95 left rail cover (FDE)",
-        "translation": "IWI 타보르 X95 좌측 레일 커버 (사막색)\n(IWI Tavor X95 left rail cover (사막색))"
+        "translation": "IWI 타보르 X95 좌측 레일 커버 (사막색)"
       },
       {
         "key": "67f2deed9766bbb4658a7338 ShortName",
         "source": "X95-L",
-        "translation": "X95 우측"
+        "translation": "X95 좌측"
       },
       {
         "key": "67f2deed9766bbb4658a7338 Description",
@@ -3474,7 +3474,7 @@
       {
         "key": "67f2df38a28138128f98665f Name",
         "source": "IWI Tavor X95 bottom rail cover (OD)",
-        "translation": "IWI 타보르 X95 하부 레일 커버 (올리브 드랩)\n(IWI Tavor X95 bottom rail cover (올리브 드랩))"
+        "translation": "IWI 타보르 X95 하부 레일 커버 (올리브 드랩)"
       },
       {
         "key": "67f2df38a28138128f98665f ShortName",
@@ -3489,12 +3489,12 @@
       {
         "key": "67f2df3c5579fd26965c5156 Name",
         "source": "IWI Tavor X95 right rail cover (OD)",
-        "translation": "IWI 타보르 X95 우측 레일 커버 (올리브 드랩)\n(IWI Tavor X95 right rail cover (올리브 드랩))"
+        "translation": "IWI 타보르 X95 우측 레일 커버 (올리브 드랩)"
       },
       {
         "key": "67f2df3c5579fd26965c5156 ShortName",
         "source": "X95-R",
-        "translation": "X95 촤측"
+        "translation": "X95 우측"
       },
       {
         "key": "67f2df3c5579fd26965c5156 Description",
@@ -3504,12 +3504,12 @@
       {
         "key": "67f2df4294fbcf035bd31803 Name",
         "source": "IWI Tavor X95 left rail cover (OD)",
-        "translation": "IWI 타보르 X95 좌측 레일 커버 (올리브 드랩)\n(IWI Tavor X95 left rail cover (올리브 드랩))"
+        "translation": "IWI 타보르 X95 좌측 레일 커버 (올리브 드랩)"
       },
       {
         "key": "67f2df4294fbcf035bd31803 ShortName",
         "source": "X95-L",
-        "translation": "X95 우측"
+        "translation": "X95 좌측"
       },
       {
         "key": "67f2df4294fbcf035bd31803 Description",
@@ -3519,7 +3519,7 @@
       {
         "key": "67f425638b8cbfdc0cd1b5f2 Name",
         "source": "IWI Tavor X95 9x19 submachine gun",
-        "translation": "IWI 타보르 X95 9x19mm 돌격소총"
+        "translation": "IWI 타보르 X95 9x19 기관단총"
       },
       {
         "key": "67f425638b8cbfdc0cd1b5f2 ShortName",
@@ -3579,7 +3579,7 @@
       {
         "key": "682b861888721c164979159f Description",
         "source": "A 5.56x45 40-round magazine manufactured by Global Ordnance for AR-15 platform rifles.",
-        "translation": "글로벌 오드넌스(Global Ordnance)에서 AR-15 플랫폼 소총용으로 제작한 5.56x45mm 40들이 탄창입니다."
+        "translation": "글로벌 오드넌스(Global Ordnance)에서 AR-15 플랫폼 소총용으로 제작한 5.56x45mm 40발들이 탄창입니다."
       },
       {
         "key": "682b91f64347b3787a632960 Name",
@@ -3779,7 +3779,7 @@
       {
         "key": "682be7bf16812803987c3715 Description",
         "source": "A 2x red dot carryhandle optic designed to be used on the Ak5C 5.56x45 rifle.",
-        "translation": "ADS 속도 및 명중률 보정 효과는 이 조준기를 사용할 때만 적용됩니다. Ak5C 5.56x45 소총에서 사용하도록 설계된 2배율 레드닷 운반손잡이형 조준경입니다."
+        "translation": "Ak5C 5.56x45 소총에서 사용하도록 설계된 2배율 레드닷 운반손잡이형 조준경입니다."
       },
       {
         "key": "682cfb5d01263131c5c1b1de Name",
@@ -3824,7 +3824,7 @@
       {
         "key": "682d014f0f0eb62eb4269012 Name",
         "source": "TangoDown vertical foregrip (OD)",
-        "translation": "탱고다운 전방 손잡이 (올리브 드랩)\n(TangoDown vertical foregrip (올리브 드랩))"
+        "translation": "탱고다운 전방 손잡이 (올리브 드랩)"
       },
       {
         "key": "682d014f0f0eb62eb4269012 Description",
@@ -3919,12 +3919,12 @@
       {
         "key": "682e8c4bc098b59f14dde097 Description",
         "source": "7.92x57mm Soft Point (SP) is a 196 grain round with a soft-point bullet; intended for hunting, home defense, and target practice, produced by Rifle Line Ammunition. This round, despite it's aim towards flesh-based target, is still plenty capable at penetrating most soft armors.",
-        "translation": "7.92x57mm 소프트 포인트(SP) 탄은 196 그레인 탄환으로, 반연질 탄두를 사용합니다. 사냥, 가정 방어, 표적 사격을 목적으로 어뮤니션(Rifle Line Ammunition)에서 제조하였습니다. 이 탄환은 연조직을 목표로 제작되었지만, 대부분의 연질 방탄재를 관통할 수 있을 만큼 충분한 관통력을 지니고 있습니다."
+        "translation": "7.92x57mm 소프트 포인트(SP) 탄은 소프트 포인트 탄두를 사용하는 196그레인 탄약입니다. 라이플 라인 어뮤니션(Rifle Line Ammunition)이 사냥, 가정 방어, 표적 사격용으로 제조했습니다. 연조직 표적을 겨냥한 탄이지만 대부분의 연질 방탄재를 관통할 수 있는 충분한 관통력을 갖추고 있습니다."
       },
       {
         "key": "682e97bcbbfa734064983a89 Name",
         "source": "Zastava M76 7.92x57 makeshift 44-round drum magazine",
-        "translation": "44발, 자스타바 M76 7.92x57 비정규 드럼 탄창"
+        "translation": "44발, 자스타바 M76 7.92x57 급조형 드럼 탄창"
       },
       {
         "key": "682e97bcbbfa734064983a89 ShortName",
@@ -3934,7 +3934,7 @@
       {
         "key": "682e97bcbbfa734064983a89 Description",
         "source": "A makeshift drum magazine for the Zastava M76 that can hold 44 rounds of 7.92x57mm ammunition.",
-        "translation": "자스타바 M76에 사용할 수 있도록 제작된 7.92x57mm 탄약 44발용 비정규 드럼 탄창입니다."
+        "translation": "자스타바 M76에 사용할 수 있도록 제작된 7.92x57mm 탄약 44발용 급조형 드럼 탄창입니다."
       },
       {
         "key": "6830ce1ecee1ea420a42506a Name",
@@ -4038,13 +4038,13 @@
       {
         "key": "6833b8bc6f8ce71072c4e703 description",
         "source": "Good afternoon Mercenary. We’ve got a messy situation brewing. Those hostile factions out in Woods are hitting our UN aid convoys hard. The world needs to see it plain and clear. I want you to plant three UNTAR tags near their hotspots. Stick them on some executed bodies. Once the news catches wind that BEAR and USEC are butchering blue helmets donations to our operations will pour in. It’s about saving lives through the right kind of spotlight.",
-        "translation": "좋은 오후요, 용병. 지금 상황이 복잡하게 꼬이고 있소. 삼림에서 활동하는 적 세력이 우리 UN 구호 수송대를 심하게 공격하고 있지. 세상이 이걸 똑똑히 볼 필요가 있소. 네가 그들의 거점 근처에 UNTAR 인식표 3개를 심어두길 원하오. 몇 구의 시체에 붙이시오. 곧 언론이 BEAR와 USEC이 UN 병력(블루 헬멧)을 학살하고 있다는 소식을 퍼뜨릴 거고, 그러면 우리 작전에 대한 기부금이 쏟아져 들어올 것이오. 올바른 방식의 스포트라이트를 통해 생명을 구하는 거요.",
+        "translation": "좋은 오후요, 용병. 지금 상황이 복잡하게 꼬이고 있소. 삼림에서 활동하는 적 세력이 우리 UN 구호 수송대를 심하게 공격하고 있지. 세상이 이걸 똑똑히 볼 필요가 있소. 네가 그들의 거점 근처에 UNTAR 인식표 3개를 심어두길 원하오. 처형된 시체 몇 구에 붙이시오. 곧 언론이 BEAR와 USEC이 UN 병력(블루 헬멧)을 학살하고 있다는 소식을 퍼뜨릴 거고, 그러면 우리 작전에 대한 기부금이 쏟아져 들어올 것이오. 올바른 방식의 스포트라이트를 통해 생명을 구하는 거요.",
         "display_type": "quest_description"
       },
       {
         "key": "6833b8bc6f8ce71072c4e703 startedMessageText",
         "source": "Get those tags planted and stage the bodies clean. Then disappear. If anyone traces this back or you get caught you’re just a lone wolf acting on your own.",
-        "translation": "태그를 심고 현장을 깨끗하게 꾸미시오. 그 다음 흔적도 없이 사라지는것이오. 누가 추적하거나 네가 잡히면 당신은 그냥 단독으로 움직인 외로운 늑대일 뿐이오."
+        "translation": "인식표를 심고 시체들이 자연스럽게 보이도록 현장을 꾸미시오. 그런 다음 자취를 감추시오. 누군가 이 일을 추적하거나 자네가 붙잡히면, 자네는 혼자 멋대로 행동한 단독범일 뿐이오."
       },
       {
         "key": "6833b8bc6f8ce71072c4e703 successMessageText",
@@ -4101,7 +4101,7 @@
       {
         "key": "683645245a1c12488166b1a5 description",
         "source": "Our Swedish pals seem to have lost a hard drive during their little \"audit\" of Tarkov’s relief operations. Go fetch it from their abandoned armored vehicle out in the Streets. That drive’s got some juicy details: tax havens, embargoed tech deals, shipping manifests... Get it to me and we could nudge Stockholm into redirecting some UN aid budgets our way. Wouldn’t it be a pity if their shady deals with TerraGroup got out?",
-        "translation": "우리 스웨덴 친구들이 타르코프 구호 작전을 ‘감사’한다며 굴러다니던 중, 하드 드라이브 하나를 잃어버린 모양이오. 도시에 버려진 장갑 차량에서 그걸 찾아오시오. 거기엔 세금 회피처, 금수품 거래, 선적 명세서 같은 알짜 정보가 들어 있소... 그걸 내가 손에 넣으면 스톡홀름이 UN 예산 일부를 우리 쪽으로 돌리도록 유도할 수 있겠지. 그들의 테라그룹과의 더러운 거래가 새어나가면 참 안타깝지 않겠소?",
+        "translation": "우리 스웨덴 친구들이 타르코프 구호 작전을 ‘감사’한다며 진행하던 중, 하드 드라이브 하나를 잃어버린 모양이오. 도시에 버려진 장갑 차량에서 그걸 찾아오시오. 거기엔 세금 회피처, 금수 조치 대상 기술 거래, 선적 명세서 같은 알짜 정보가 들어 있소... 그걸 내가 손에 넣으면 스톡홀름이 UN 예산 일부를 우리 쪽으로 돌리도록 유도할 수 있겠지. 그들의 테라그룹과의 더러운 거래가 새어나가면 참 안타깝지 않겠소?",
         "display_type": "quest_description"
       },
       {
@@ -4187,7 +4187,7 @@
       {
         "key": "6840eb5bce5018a937eb9527 Name",
         "source": "Browning Auto-5 12ga 12 inch barrel (Camo)",
-        "translation": "브라우닝 오토-5 12게이지 12인치 총열 (카모)\n(Browning Auto-5 12ga 12인치 barrel (Camo))"
+        "translation": "브라우닝 오토-5 12게이지 12인치 총열 (카모)"
       },
       {
         "key": "6840eb5bce5018a937eb9527 ShortName",
@@ -4392,12 +4392,12 @@
       {
         "key": "684602c4cb2dfb57366dbea3 Name",
         "source": "Staccato XC hammer",
-        "translation": "스타카토 XC 공이"
+        "translation": "스타카토 XC 공이치기"
       },
       {
         "key": "684602c4cb2dfb57366dbea3 Description",
         "source": "A precision-engineered hammer for the Staccato XC 9x19mm pistol, designed for consistent primer strikes and smooth trigger operation.",
-        "translation": "스타카토 XC 9x19mm 권총용으로 정밀하게 제작된 공이입니다. 일관된 뇌관 타격과 부드러운 방아쇠 작동을 위해 설계되었습니다."
+        "translation": "스타카토 XC 9x19mm 권총용으로 정밀하게 제작된 공이치기입니다. 일관된 뇌관 타격과 부드러운 방아쇠 작동을 위해 설계되었습니다."
       },
       {
         "key": "684602de00667a8b3a8c1881 Name",
@@ -4502,7 +4502,7 @@
       {
         "key": "684606542ae9fafc455c4360 Name",
         "source": "Staccato XC competition hammer",
-        "translation": "스타카토 XC 경기용 공이"
+        "translation": "스타카토 XC 경기용 공이치기"
       },
       {
         "key": "684606542ae9fafc455c4360 ShortName",
@@ -4512,12 +4512,12 @@
       {
         "key": "684606542ae9fafc455c4360 Description",
         "source": "A blue annodized competition hammer for the Staccato XC 9x19mm pistol.",
-        "translation": "스타카토 XC 9x19mm 권총용 파란색 양극산화 처리된 경기용 공이입니다."
+        "translation": "스타카토 XC 9x19mm 권총용 파란색 양극산화 처리된 경기용 공이치기입니다."
       },
       {
         "key": "68460695d918c58b53030c31 Name",
         "source": "Staccato XC stainless hammer",
-        "translation": "스타카토 XC 스테인리스 공이"
+        "translation": "스타카토 XC 스테인리스 공이치기"
       },
       {
         "key": "68460695d918c58b53030c31 ShortName",
@@ -4527,12 +4527,12 @@
       {
         "key": "68460695d918c58b53030c31 Description",
         "source": "A stainless steel performance hammer for the Staccato XC 9x19mm pistol.",
-        "translation": "스타카토(Staccato) XC 9x19mm 권총용 스테인리스 강 성능 공이입니다."
+        "translation": "스타카토(Staccato) XC 9x19mm 권총용 스테인리스 강 성능 공이치기입니다."
       },
       {
         "key": "6846069e5a768dfe9bf56af1 Name",
         "source": "Staccato XC tactical lightweight hammer",
-        "translation": "스타카토 XC 전술 경량 공이"
+        "translation": "스타카토 XC 전술 경량 공이치기"
       },
       {
         "key": "6846069e5a768dfe9bf56af1 ShortName",
@@ -4542,7 +4542,7 @@
       {
         "key": "6846069e5a768dfe9bf56af1 Description",
         "source": "A tactical lightweight hammer for the Staccato XC 9x19mm pistol.",
-        "translation": "스타카토(Staccato) XC 9x19mm 권총용 전술 경량 공이입니다."
+        "translation": "스타카토(Staccato) XC 9x19mm 권총용 전술 경량 공이치기입니다."
       },
       {
         "key": "684606c63dc00b27e95bb5fa Name",
@@ -4597,7 +4597,7 @@
       {
         "key": "684b257022b8260501141308 Name",
         "source": "Taran Tactical JW4 Pit Viper 9x19 pistol",
-        "translation": "타란 택티컬 핏 바이퍼 9x19 권총"
+        "translation": "타란 택티컬 JW4 핏 바이퍼 9x19 권총"
       },
       {
         "key": "684b257022b8260501141308 ShortName",
@@ -4607,7 +4607,7 @@
       {
         "key": "684b257022b8260501141308 Description",
         "source": "A High-performance 9x19 sidearm built for speed and precision with a compensated barrel, crisp trigger, and enhanced sights for rapid target acquisition. Designed to deliver fast follow-up shots and controllable recoil in close-to-mid-range engagements. Manufactured by Taran Tactical Innovations.",
-        "translation": "TTI 핏 바이퍼 9x19 권총은 속도와 정밀성을 위해 설계된 미국산 고성능 권총으로, 반동을 줄이는 내장형 보정기가 포함된 5인치(127mm) 총열과 빠른 리셋이 가능한 방아쇠를 갖추어 높은 연사 속도를 제공합니다. 타란 택티컬 이노베이션스에서 제작하였습니다."
+        "translation": "속도와 정밀도를 위해 설계된 고성능 9x19 권총입니다. 보정 기능이 있는 총열, 경쾌한 방아쇠, 빠른 표적 획득을 위한 개선된 조준장치를 갖췄습니다. 근거리에서 중거리 교전까지 빠른 후속 사격과 제어하기 쉬운 반동을 제공하도록 설계됐으며, 타란 택티컬 이노베이션스(Taran Tactical Innovations)에서 제조했습니다."
       },
       {
         "key": "684b261ee900b79b5be17c74 Name",
@@ -4642,12 +4642,12 @@
       {
         "key": "684b2626a61732cce6be2fdc Name",
         "source": "TTI Pit Viper trigger",
-        "translation": "TTI 바이퍼 2011 스타일 경량 방아쇠"
+        "translation": "TTI 핏 바이퍼 방아쇠"
       },
       {
         "key": "684b2626a61732cce6be2fdc ShortName",
         "source": "Pit Viper",
-        "translation": "바이퍼 2011"
+        "translation": "핏 바이퍼"
       },
       {
         "key": "684b2626a61732cce6be2fdc Description",
@@ -4657,7 +4657,7 @@
       {
         "key": "684b262a5aa7a321ae3a7b5b Name",
         "source": "TTI Pit Viper hammer",
-        "translation": "TTI 핏 바이퍼 해머"
+        "translation": "TTI 핏 바이퍼 공이치기"
       },
       {
         "key": "684b262a5aa7a321ae3a7b5b ShortName",
@@ -4667,7 +4667,7 @@
       {
         "key": "684b262a5aa7a321ae3a7b5b Description",
         "source": "A lightweight hammer for the Pit Viper 9x19mm pistol.",
-        "translation": "TTI 핏 바이퍼 9x19mm 권총용 경량 해머입니다."
+        "translation": "TTI 핏 바이퍼 9x19mm 권총용 경량 공이치기입니다."
       },
       {
         "key": "684b2662bab8ebd87f683c57 Name",
@@ -4682,7 +4682,7 @@
       {
         "key": "684b2662bab8ebd87f683c57 Description",
         "source": "A 9x19mm barrel with front sight post for the TTI Pit Viper 9x19mm pistol.",
-        "translation": "TTI 핏 바이퍼 9x19mm 권총용 5인치 9x19mm 총열로, 전방에 가늠쇠가 장착되어 있습니다."
+        "translation": "TTI 핏 바이퍼 9x19mm 권총용 9x19mm 총열로, 전방에 가늠쇠가 장착되어 있습니다."
       },
       {
         "key": "684b271ce72d12cf50b2a0dd Name",
@@ -4692,7 +4692,7 @@
       {
         "key": "684b271ce72d12cf50b2a0dd ShortName",
         "source": "Pit Viper RS",
-        "translation": "핏 바이퍼"
+        "translation": "핏 바이퍼 가늠자"
       },
       {
         "key": "684b271ce72d12cf50b2a0dd Description",
@@ -4712,7 +4712,7 @@
       {
         "key": "684b64658c4c5f37f2c4e56a Description",
         "source": "A High-performance 9x19 sidearm built for speed and precision with a compensated barrel, crisp trigger, and enhanced sights for rapid target acquisition. Designed to deliver fast follow-up shots and controllable recoil in close-to-mid-range engagements. Manufactured by Taran Tactical Innovations. Stainless Steel version.",
-        "translation": "보정(Compensated) 총열, 반응이 빠른 방아쇠, 그리고 빠른 표적 획득을 위한 향상된 조준장치를 갖춘, 속도와 정밀도를 위해 설계된 고성능 9x19 사이드암입니다. 근거리~중거리 교전에서 빠른 연속 사격과 제어 가능한 반동을 제공하도락 설계되었습니다. 타란 택티컬 이노베이션즈(Taran Tactical Innovations)에서 제조했으며, 스테인리스강 재질로 제작한 버전입니다."
+        "translation": "보정(Compensated) 총열, 반응이 빠른 방아쇠, 그리고 빠른 표적 획득을 위한 향상된 조준장치를 갖춘, 속도와 정밀도를 위해 설계된 고성능 9x19 사이드암입니다. 근거리~중거리 교전에서 빠른 연속 사격과 제어 가능한 반동을 제공하도록 설계되었습니다. 타란 택티컬 이노베이션즈(Taran Tactical Innovations)에서 제조했으며, 스테인리스강 재질로 제작한 버전입니다."
       },
       {
         "key": "684b65e1f87ada48dcd107c4 Name",
@@ -4827,7 +4827,7 @@
       {
         "key": "684e4333ac51c5cdc8a96b7f Name",
         "source": "Remington MSR heavy marksman rifle stock",
-        "translation": "레밍턴 MSR 중형 지정사수 개머리판"
+        "translation": "레밍턴 MSR 중량형 지정사수 개머리판"
       },
       {
         "key": "684e4333ac51c5cdc8a96b7f Description",
@@ -4950,7 +4950,7 @@
       {
         "key": "68561cd4801134be939e11f6 description",
         "source": "Hello mercenary. You know how memories creep up from the old days. Back when I was running things at the Factory I overheard my boss talking about a rare antique smoothbore pistol. Kept it in a fancy display case. Word is it was gifted to some accountant he dealt with. I want that piece for myself now. Something about the craft of it calls to me. Check the Black Knight building over in Military Reserve. That's where that accountant's office used to be. Find it and bring it back. I’ll make it worth your while.",
-        "translation": "반갑군, 용병. 옛날 기억들이 불쑥불쑥 떠오르는 게 어떤 건지 알걸세. 내가 공장을 운영하던 시절, 상사가 희귀한 고풍스러운 매끄러운 총(스무드보어 권총)에 대해 이야기하는 걸 엿들은 적이 있다네. 그건 멋진 전시 케이스 안에 보관되어 있었지. 들리는 말로는 그가 거래하던 회계사 중 한 명에게 선물했다고 하더군. 지금은 내가 그 물건을 갖고 싶다네. 그 수공예품이 내 마음을 끌어. 군사 기지의 블랙 나이트 건물을 확인해보세. 그 회계사의 사무실이 거기에 있었다네. 찾아서 가져오면 보상은 확실히 해주겠네.",
+        "translation": "반갑군, 용병. 옛날 기억들이 불쑥불쑥 떠오르는 게 어떤 건지 알걸세. 내가 공장을 운영하던 시절, 상사가 희귀한 고풍스러운 활강식 권총에 대해 이야기하는 걸 엿들은 적이 있다네. 그건 멋진 전시 케이스 안에 보관되어 있었지. 들리는 말로는 그가 거래하던 회계사 중 한 명에게 선물했다고 하더군. 지금은 내가 그 물건을 갖고 싶다네. 그 수공예품이 내 마음을 끌어. 리저브 군사기지의 블랙 나이트 건물을 확인해보세. 그 회계사의 사무실이 거기에 있었다네. 찾아서 가져오면 보상은 확실히 해주겠네.",
         "display_type": "quest_description"
       },
       {
@@ -4978,7 +4978,7 @@
       {
         "key": "686051774a290eb6f216471f description",
         "source": "I tracked down tracked down a shipment of NATO weapons that was delivered to Customs. We aren't sure what the weapons are, but I want you to go and track them down and mark the shipment for me!",
-        "translation": "세관에 도착한 NATO 무기 수송을 추적했다. 어떤 무기인지 확실치 않지만, 너가 가서 찾아 표시를 해주길 원해!",
+        "translation": "세관으로 배송된 NATO 무기 수송품의 행방을 알아냈다. 어떤 무기인지 확실치 않지만, 네가 가서 찾아 표시를 해주길 원해!",
         "display_type": "quest_description"
       },
       {
@@ -5025,7 +5025,7 @@
       {
         "key": "686095833d3bd21b2828e767 Description",
         "source": "An experimental muzzle brake-compensator for the AEK-973 7.62x39mm assault rifle.",
-        "translation": "AEK-973 7.62x39mm 돌격소총용으로 개발된 실험형 보정기-보정기입니다."
+        "translation": "AEK-973 7.62x39mm 돌격소총용 실험형 제퇴기 겸 보정기입니다."
       },
       {
         "key": "686096ffbb9dec119f64f4b3 Name",
@@ -5035,7 +5035,7 @@
       {
         "key": "686096ffbb9dec119f64f4b3 Description",
         "source": "30-round 7.62x39 magazine for AK-103 and compatible weapons.",
-        "translation": "AK-103용 7.62x39mm 30발 탄창으로, 자두색 색상입니다."
+        "translation": "AK-103 및 호환 무기용 7.62x39mm 30발 탄창입니다. 자두색 버전입니다."
       },
       {
         "key": "686097621aa8418da42c62eb Name",
@@ -5295,7 +5295,7 @@
       {
         "key": "6862b3757fa915587fb36148 Description",
         "source": "An experimental 50-round 7.62x39 polymer quad magazine for the AKM platform.",
-        "translation": "AKM 플랫폼용으로 제작된 실험용 7.62x39mm 50들이 폴리머 쿼드 스택 탄창입니다."
+        "translation": "AKM 플랫폼용으로 제작된 실험용 7.62x39mm 50발들이 폴리머 쿼드 스택 탄창입니다."
       },
       {
         "key": "6862b435bfb984348be4f59b Name",
@@ -5310,7 +5310,7 @@
       {
         "key": "6862b435bfb984348be4f59b Description",
         "source": "A 20-round steel magazine for the AK-47/AKM series of rifles, manufactured for Hungarian Tank crews. This mag has been hastily modified to cut a viewing port into the side of the magazine.",
-        "translation": "헝가리 전차 승무원용으로 제작된 AK-47/AKM 시리즈 소총용 20들이 강철 탄창입니다. 이 탄창은 측면에 잔탄 확인창을 내기 위해 급조된 개조 흔적이 있는 것이 특징입니다."
+        "translation": "헝가리 전차 승무원용으로 제작된 AK-47/AKM 시리즈 소총용 20발들이 강철 탄창입니다. 이 탄창은 측면에 잔탄 확인창을 내기 위해 급조된 개조 흔적이 있는 것이 특징입니다."
       },
       {
         "key": "6862b46837dc96b767cda666 Name",
@@ -5340,7 +5340,7 @@
       {
         "key": "68677d09339b397ed3d37522 Description",
         "source": "The SR-2 Udav (Удав - “Boa”, GRAU Index - 6P72) is a Russian 9×21mm short-recoil-operated semi-automatic pistol. It was released by Central Scientific - Research Institute of Precision Machine Engineering (TsNIITochMash) in 2019 as a replacement for the Makarov PM for the Russian military and passed military trials the month following its release date. The design has many improvements over the Makarov including a polymer frame with better texturing for more comfort, ambidextrous controls, a dedicated accessory rail built into the frame, and removable sights to offer more flexibility than its predecessor.",
-        "translation": "SR-2 우다브(Удав - “보아”, GRAU 지수 - 6P72)는 러시아제 9x21mm 단발 반자동 권총입니다. 중앙정밀기계연구소(TsNIITochMash)가 2019년에 러시아 군용 마카로프 PM을 대체하기 위해 출시했으며, 출시 직후 군사 시험을 통과했습니다. 마카로프 대비 개선된 점으로는 인체공학적 텍스처링을 갖춘 폴리머 프레임, 양손잡이 조작계, 프레임에 내장된 액세서리 레일, 그리고 탈착식 조준기가 있어 전작보다 유연성을 제공합니다."
+        "translation": "SR-2 우다프(Удав - “보아”, GRAU 지수 6P72)는 러시아제 9x21mm 쇼트 리코일 작동식 반자동 권총입니다. 중앙정밀기계연구소(TsNIITochMash)가 러시아군의 마카로프 PM을 대체하기 위해 2019년에 출시했으며, 출시 다음 달 군사 시험을 통과했습니다. 마카로프 대비 개선된 점으로는 파지감이 향상된 표면 질감의 폴리머 프레임, 양손잡이용 조작계, 프레임에 통합된 액세서리 레일, 탈착식 조준기가 있습니다."
       },
       {
         "key": "68677d6e0eeee2ef7f1f4576 Name",
@@ -5395,7 +5395,7 @@
       {
         "key": "686780cea875e915fec121ec ShortName",
         "source": "Udav-P",
-        "translation": "우다프"
+        "translation": "우다프-P"
       },
       {
         "key": "686780cea875e915fec121ec Description",
@@ -5440,12 +5440,12 @@
       {
         "key": "6868d249cdee524f8c0ba45f ShortName",
         "source": "92FS",
-        "translation": "92가늠쇠"
+        "translation": "92FS"
       },
       {
         "key": "6868d249cdee524f8c0ba45f Description",
         "source": "The Beretta 92FS (military designation of M9), was the official service pistol adopted by the United States Armed Forces in 1985. The 92FS won a competition in the 1980s to replace the M1911A1 as the primary sidearm of the U.S. military, beating many other contenders and only narrowly defeating the SIG Sauer P226 for cost reasons. The weapon operates as a short recoil, semi-automatic, single-action/double-action pistol that uses a 15-round staggered box magazine.",
-        "translation": "베레타(Beretta) 92FS(군용 제식명칭 M9)는 1985년에 미국 군대의 공식 제식 권총으로 채택되었습니다. 1980년대 제식 권총 교체 사업에서 M1911A1을 대체할 권총으로 선정되었으며, 비용 문제로 시그 사우어(SIG Sauer) P226을 근소한 차이로 이겼습니다. 이 권총은 쇼트 리코일 작동 방식의 반자동이며, 단발/복발 겸용 작동을 지원하고, 15발들이 계단식 박스 탄창을 사용합니다."
+        "translation": "베레타 92FS(군용 제식명 M9)는 1985년 미국군의 공식 제식 권총으로 채택되었습니다. 1980년대 M1911A1을 대체할 제식 권총 선발 경쟁에서 여러 후보를 제쳤으며, 특히 가격 문제로 SIG 사우어 P226을 근소하게 앞섰습니다. 쇼트 리코일 방식으로 작동하는 싱글액션/더블액션 겸용 반자동 권총이며, 15발들이 복열식 박스 탄창을 사용합니다."
       },
       {
         "key": "6868d3e47515a679f2e06288 Name",
@@ -5455,7 +5455,7 @@
       {
         "key": "6868d3e47515a679f2e06288 ShortName",
         "source": "92FS",
-        "translation": "92가늠쇠"
+        "translation": "92FS"
       },
       {
         "key": "6868d3e47515a679f2e06288 Description",
@@ -5485,7 +5485,7 @@
       {
         "key": "6868d4f7ee6d5f8907d2e355 ShortName",
         "source": "92FS",
-        "translation": "92가늠쇠"
+        "translation": "92FS"
       },
       {
         "key": "6868d4f7ee6d5f8907d2e355 Description",
@@ -5547,7 +5547,7 @@
       {
         "key": "686c26481432fe3c84301de9",
         "source": "Obtain the shipping manifest near the Tigr LAV at the main bridge on Customs",
-        "translation": "세관 메인 다리에 있는 Tigr LAV 근처에서 배송 적하목록 확보하기",
+        "translation": "세관 메인 다리에 있는 Tigr LAV 근처에서 선적 명세서 확보하기",
         "display_type": "quest_objective"
       },
       {
@@ -5559,7 +5559,7 @@
       {
         "key": "686c26dc34ec5f932401b002",
         "source": "Hand over the shipping manifest to Peacekeeper",
-        "translation": "피스키퍼에게 배송 적하목록 건네주기",
+        "translation": "피스키퍼에게 선적 명세서 건네주기",
         "display_type": "quest_objective"
       },
       {
@@ -5571,13 +5571,13 @@
       {
         "key": "686dd4f871840e292fbd1a14 description",
         "source": "Those fucking bastards! I believe I know who attacked my convoy that was carrying my shipment of the M249 SAW! One of my guys told me it looked like a small group of Ex-USEC guys. I need you to go back to Customs and take care of them for me while I figure out why the fuck they stole my guns. I bet those bastards have them stashed somewhere.",
-        "translation": "빌어먹을 놈들! 내 M249 SAW 화물을 실은 수송대를 습격한 게 누군지 짐작이 가오. 내 부하 중 한 명이, 그게 바로 그 빌어먹을 군즈(Goons) 같다고 말했소. 당신이 커스텀으로 돌아가 놈들을 처리해줘야 하오. 놈들이 왜 내 총기를 훔쳤는지 알아내는 동안... 분명 어딘가에 숨겨놨을 것이오.",
+        "translation": "빌어먹을 놈들! 내 M249 SAW 화물을 실은 수송대를 습격한 게 누군지 짐작이 가오. 내 부하 중 한 명이, 전 USEC 출신자들로 보이는 소규모 집단이라고 말했소. 당신이 커스텀으로 돌아가 놈들을 처리해줘야 하오. 놈들이 왜 내 총기를 훔쳤는지 알아내는 동안... 분명 어딘가에 숨겨놨을 것이오.",
         "display_type": "quest_description"
       },
       {
         "key": "686dd4f871840e292fbd1a14 startedMessageText",
         "source": "Go get them, make them pay for even thinking they can intercept my gear.",
-        "translation": "당장 죽여버리시오!!"
+        "translation": "가서 놈들을 잡으시오. 감히 내 장비를 가로챌 생각을 한 대가를 치르게 하시오."
       },
       {
         "key": "686dd4f871840e292fbd1a14 successMessageText",
@@ -5638,7 +5638,7 @@
       {
         "key": "6870170d18b94df2e8700ba0 successMessageText",
         "source": "Nice job getting those crates marked. Looks like those Stray Dogs were trying to cook up something slick with my guns. Here’s your reward, take it.",
-        "translation": "잘했소. 상자 표시를 끝냈군. 군즈 놈들이 내 총으로 뭔가 꾸미려던 모양이순. 여기 보상이오, 가져가시오."
+        "translation": "잘했소. 상자 표시를 끝냈군. 군즈 놈들이 내 총으로 뭔가 꾸미려던 모양이군. 여기 보상이오, 가져가시오."
       },
       {
         "key": "687018c3dc52ab57b5e38363",
@@ -5719,7 +5719,7 @@
       {
         "key": "687314e1ee500b06711955a2 description",
         "source": "Greetings comrade. When the blockade kicked off and most of the reserve base boys ditched the place Glukhar and his crew of scavengers busted into the weapons testing area and grabbed whatever they could get their filthy hands on. Most of that gear is long gone, used up or trashed. But word is the scraps they left behind are about to be moved. Glukhar’s planning to spread his rot further across our land.",
-        "translation": "안녕하신가, 동지. 봉쇄가 시작되면서 대부분의 예비 기지 놈들이 자리를 버리고 도망쳤을 때, 글루카르와 그의 약탈자 무리가 무기 시험 구역을 털어 손에 닿는 대로 더러운 손을 뻗어 챙겼다네. 그 장비 대부분은 이미 사라졌거나 소모되었거나 폐기되었다. 하지만 소문에 따르면 그들이 남겨둔 잔재가 곧 이동될 예정이라더군. 글루카르는 자기 썩은 영향력을 더 넓게 퍼뜨릴 계획을 세우고 있다네.",
+        "translation": "안녕하신가, 동지. 봉쇄가 시작되면서 대부분의 리저브 기지 병력들이 자리를 버리고 도망쳤을 때, 글루카르와 그의 약탈자 무리가 무기 시험 구역을 털어 손에 닿는 대로 더러운 손을 뻗어 챙겼다네. 그 장비 대부분은 이미 사라졌거나 소모되었거나 폐기되었다. 하지만 소문에 따르면 그들이 남겨둔 잔재가 곧 이동될 예정이라더군. 글루카르는 자기 썩은 영향력을 더 넓게 퍼뜨릴 계획을 세우고 있다네.",
         "display_type": "quest_description"
       },
       {
@@ -5730,7 +5730,7 @@
       {
         "key": "687314e1ee500b06711955a2 successMessageText",
         "source": "Nice work warrior. You pulled those goods out before Glukhar’s dogs could move them. Our homeland owes you one. Here’s your cut. Now get lost.",
-        "translation": "잘했군, 전사여. 글루카르의 개들이 움직이기 전에 자네가 그 물건을 빼냈더군. 조국이 제네에게 빚을 졌다네. 여기 자네 몫일세. 해산."
+        "translation": "잘했군, 전사여. 글루카르의 개들이 움직이기 전에 자네가 그 물건을 빼냈더군. 조국이 자네에게 빚을 졌다네. 여기 자네 몫일세. 해산."
       },
       {
         "key": "6873248b615c003311ebb292 name",
@@ -5747,12 +5747,12 @@
       {
         "key": "6873248b615c003311ebb292 startedMessageText",
         "source": "Good Luck out there. Try not to die over this. ",
-        "translation": "조심해라. 죽지 말고 잘 처리해라."
+        "translation": "행운을 빈다. 이 일 때문에 목숨을 잃지는 말고."
       },
       {
         "key": "6873248b615c003311ebb292 successMessageText",
         "source": "Well, damn, merc, you actually pulled it off! Found that console and dvd, huh? Not bad for a glorified scavenger. Dropped ‘em off at the mini theater like I asked, too? My client’s gonna be over the moon, probably crying into his vintage popcorn. You’ve got some skills, operator. Stick around, nice to have someone that don't fuck up a simple fetch job. Now go clean your gear or something.",
-        "translation": "와, 용병, 진짜 해냈군! 콘솔이랑 DVD 찾았지? 명색이 스캐브치곤 나쁘지 않네. 미니 극장에 정확히 놓았나 보네? 고객이 완전 좋아할 거야, 아마 옛날 팝콘 들고 울지도 몰라. 실력 있네, 오퍼레이터. 잘 해내는 사람 있어서 좋다. 이제 장비 정리 좀 해라."
+        "translation": "젠장, 용병, 정말 해냈군! 콘솔하고 DVD를 찾았다고? 고작 스캐브보다 좀 나은 처지치고는 제법이야. 내가 부탁한 대로 미니 영화관에 갖다 놨겠지? 내 고객은 뛸 듯이 기뻐할 거야. 오래된 팝콘을 붙잡고 울지도 모르지. 실력이 있군, 오퍼레이터. 앞으로도 여기 남아서 일해 줘. 간단한 물건 심부름조차 망치지 않는 사람이 있으니 좋네. 이제 가서 장비라도 손질해."
       },
       {
         "key": "6873248b615c003311ebb292 failMessageText",
@@ -5777,7 +5777,7 @@
       {
         "key": "6876b80b37f01b91d94b927c Name",
         "source": "KAC PDW .300 blackout 30-round magazine",
-        "translation": "30발, KAC PDW .300 블랙아웃 탄창(빨간띠)"
+        "translation": "30발, KAC PDW .300 블랙아웃 탄창"
       },
       {
         "key": "6876b80b37f01b91d94b927c Description",
@@ -5810,7 +5810,7 @@
       {
         "key": "6877096d5299037a1c4b7b2f startedMessageText",
         "source": "Thanks for doing this soldier. These guns better be worth it!",
-        "translation": "도와줘서 고맙소, 전사여. 이 총들이 제값을 해야 할 텐데!"
+        "translation": "도와줘서 고맙소, 제군. 이 총들이 제값을 해야 할 텐데!"
       },
       {
         "key": "6877096d5299037a1c4b7b2f successMessageText",
@@ -5849,7 +5849,7 @@
       {
         "key": "68784cf8dbe00560604d51e1 successMessageText",
         "source": "Awesome work! Here is a little extra for your help.",
-        "translation": "멋진 결과요! 덕분에 보너스를 좀 더 챙겨 줄 수 있겠소."
+        "translation": "멋진 일이오! 도와준 대가로 추가 보상을 좀 더 챙겨 드리겠소."
       },
       {
         "key": "68784de02c61f26ddb77ba10",
@@ -5884,18 +5884,18 @@
       {
         "key": "6879a0da60f8d8a90e632755 description",
         "source": "Alright, Merc. I have one more task for you. I got the other shipments of those weapons you tested for purchase. The last thing I am going to ask is you to kill more PMCs, but this time at night. If this goes well I can get one more variant of the weapon and this one looks badass.",
-        "translation": "좋소, 전사여. 마지막 임무가 있소. 네가 시험했던 무기들의 나머지 물량이 도착했소. 마지막으로 부탁할 건 더 많은 PMC들을 처치하는 거요. 이번엔 밤에. 이게 잘 되면 무기의 또 다른 변형을 가져올 수 있을거요. 이번 건은 진짜 끝내주는군.",
+        "translation": "좋소, 용병. 한 가지 임무를 더 맡기겠소. 자네가 시험했던 무기들의 다른 물량을 구매할 수 있게 됐소. 마지막으로 부탁할 일은 PMC들을 더 처치하는 것이오. 단, 이번엔 밤에 해야 하오. 잘만 되면 또 다른 무기 변형도 확보할 수 있을 테니 말이오. 그건 정말 멋진 물건이오.",
         "display_type": "quest_description"
       },
       {
         "key": "6879a0da60f8d8a90e632755 startedMessageText",
         "source": "I am counting on you. Do this and I will reward you well.",
-        "translation": "당신을 믿소, 전사여. 해내면 충분한 보상을 주겠소."
+        "translation": "당신을 믿소. 해내면 충분한 보상을 주겠소."
       },
       {
         "key": "6879a0da60f8d8a90e632755 successMessageText",
         "source": "Hell yeah! Here, take this for payment - I will get a shipment of these weapons ready to distribute soon!",
-        "translation": "좋소! 이 보상을 가져가시오. 곧 이 무기의 신규 물량이 들어올 거요!"
+        "translation": "좋소! 이 보상을 가져가시오. 곧 이 무기들을 배포할 수 있도록 물량을 준비해 두겠소!"
       },
       {
         "key": "6879a222a8d2ec1d371514d0",
@@ -5916,7 +5916,7 @@
       {
         "key": "6879e7fa4c184bd0590dbab6 Description",
         "source": "-CSS AK Charging handle\n -6L23 Camo Mag\n -NPZ PK1 Obzor optic\n -Skeleton folding stock\n -AR type pistol grip adapter\n -F1 skeletongrip with yellow shoelace\n Cash on delivery. ",
-        "translation": "- CSS AK 장전 손잡이\n - 6L23 위장 탄창\n - NPZ PK1 옵조르 조준경\n - 경량 접이식 개머리판\n - AR형 권총손잡이 어댑터\n - 노란 끈이 달린 F1 경량 손잡이\n 착불로 부탁함."
+        "translation": "- CSS AK 장전 손잡이\n - 6L23 위장 탄창\n - NPZ PK1 옵조르 조준경\n - 골격형 접이식 개머리판\n - AR형 권총손잡이 어댑터\n - 노란 끈이 달린 F1 골격형 손잡이\n 착불로 부탁함."
       },
       {
         "key": "687afda52dc9fd6c0e14c602 Name",
@@ -5926,12 +5926,12 @@
       {
         "key": "687afda52dc9fd6c0e14c602 ShortName",
         "source": "EVO 3",
-        "translation": "EVO 3인치"
+        "translation": "EVO 3"
       },
       {
         "key": "687afda52dc9fd6c0e14c602 Description",
         "source": "The CZ Scorpion EVO 3 is a 9mm carbine manufactured by Česká zbrojovka Uherský Brod, the select-fire submachine gun variant is designated A1, and the semi-automatic variant is designated S1. The EVO 3 designation denotes that the firearm is a third generation of CZ's line of small submachine guns started by the Škorpion vz. 61, which is mechanically unrelated.",
-        "translation": "CZ 스콜피온 EVO 3은 체스카 즈브로요브카 우헤르스키 브로드(Česká zbrojovka Uherský Br(올리브 드랩))에서 제작한 9mm 탄환용 카빈입니다. 선택사격 가능한 기관단총 버전은 A1로, 반자동 버전은 S1로 지정됩니다. EVO 3이라는 명칭은 기계적으로 무관한 Škorpion vz. 61부터 시작된 CZ의 소형 기관단총 계열의 3세대 모델임을 뜻합니다."
+        "translation": "CZ 스콜피온 EVO 3은 체스카 즈브로요브카 우헤르스키 브로드(Česká zbrojovka Uherský Brod)에서 제작한 9mm 탄환용 카빈입니다. 선택사격 가능한 기관단총 버전은 A1로, 반자동 버전은 S1로 지정됩니다. EVO 3이라는 명칭은 기계적으로 무관한 Škorpion vz. 61부터 시작된 CZ의 소형 기관단총 계열의 3세대 모델임을 뜻합니다."
       },
       {
         "key": "687afeb41db9f3580324752a Name",
@@ -5971,12 +5971,12 @@
       {
         "key": "687b00468b4fafd5ebb3a763 Name",
         "source": "CZ Scorpion EVO 3 charging handle",
-        "translation": "CZ 스콜피온 EVO 3 조작 손잡이"
+        "translation": "CZ 스콜피온 EVO 3 장전 손잡이"
       },
       {
         "key": "687b00468b4fafd5ebb3a763 Description",
         "source": "Standard charging handle for the CZ Scorpion EVO 3 9x19 submachine gun.",
-        "translation": "CZ 스콜피온 EVO 3 9x19 기관단총용 표준 조작 손잡이입니다."
+        "translation": "CZ 스콜피온 EVO 3 9x19 기관단총용 표준 장전 손잡이입니다."
       },
       {
         "key": "687b02e550e15d9a28c5681e Name",
@@ -6044,18 +6044,18 @@
       {
         "key": "687b616db015c21f329bf45f description",
         "source": "Come in, have a seat. I’ve got something unusual for you today. Sergey’s buried in his own work, tinkering with some high-priority builds. He asked me to deal with it, but I’m stretched thin keeping the reserve in check. Looters are crawling all over, and I’m out here playing whack-a-mole with them, so I’m passing this to you. There’s an AN94 stashed out there, left by someone who wants to stay in the shadows. No names, no details, just how they like it. The rifle’s hidden somewhere at the old makeshift military base near the lake. There’s a list of attachments and mods they want on it. I trust you to get it done right and not run off with the gun.  Get it done, and bring it back to me. I’ll make sure it gets to where it’s supposed to go.  ",
-        "translation": "어서 옵세, 여기 앉게. 오늘은 좀 특이한 게 있어. 세르게이는 우선순위 높은 작업에 파묻혀 있어서 네가 처리해야 하네. 나는 비축 창고 관리하느라 손이 모자라거든. 약탈자들이 들끓고 있어서 두더지 잡기하듯 상대하느라 바쁘다네. 그래서 이걸 자네한테 넘기겠네. AN94가 어딘가에 숨겨져 있을 걸세. 누군가 정체를 드러내고 싶지 않은 사람이 남긴 게지. 이름도 없고, 세부사항도 없어, 그들이 좋아하는 방식대로. 그 소총은 호수 근처의 낡은 임시 군사 기지 어딘가에 숨겨져 있다네. 거기에 원하는 개조 부품과 파츠 목록이 있다네. 자네가 제대로 해낼 거라고 믿고, 총을 들고 도망치지는 않을 거라 생각하네. 잘 끝내서 나한테 가져오면 된다네. 내가 원래 있어야 할 곳으로 가게 해주겠네.",
+        "translation": "어서 옵세, 여기 앉게. 오늘은 좀 특이한 게 있어. 세르게이는 우선순위가 높은 제작 작업에 매달려 있지. 그가 내게 이 일을 맡아 달라고 했지만, 난 리저브 기지를 관리하느라 손이 모자라거든. 약탈자들이 들끓고 있어서 두더지 잡기하듯 상대하느라 바쁘다네. 그래서 이걸 자네한테 넘기겠네. AN94가 어딘가에 숨겨져 있을 걸세. 누군가 정체를 드러내고 싶지 않은 사람이 남긴 게지. 이름도 없고, 세부사항도 없어, 그들이 좋아하는 방식대로. 그 소총은 호수 근처의 낡은 임시 군사 기지 어딘가에 숨겨져 있다네. 거기에 원하는 개조 부품과 파츠 목록이 있다네. 자네가 제대로 해낼 거라고 믿고, 총을 들고 도망치지는 않을 거라 생각하네. 잘 끝내서 나한테 가져오면 된다네. 내가 원래 있어야 할 곳으로 가게 해주겠네.",
         "display_type": "quest_description"
       },
       {
         "key": "687b616db015c21f329bf45f startedMessageText",
         "source": "Watch your back out there. The woods are crawling with scavs, and they’d love to get their hands on a prize like that. Move quick, stay sharp.",
-        "translation": "어서 옵세, 여기 앉게. 오늘은 좀 특이한 게 있어. 세르게이는 우선순위 높은 작업에 파묻혀 있어서 네가 처리해야 하네. 나는 비축 창고 관리하느라 손이 모자라거든. 약탈자들이 들끓고 있어서 두더지 잡기하듯 상대하느라 바쁘다네. 그래서 이걸 자네한테 넘기겠네. AN94가 어딘가에 숨겨져 있을 걸세. 누군가 정체를 드러내고 싶지 않은 사람이 남긴 게지. 이름도 없고, 세부사항도 없어, 그들이 좋아하는 방식대로. 그 소총은 호수 근처의 낡은 임시 군사 기지 어딘가에 숨겨져 있다네. 거기에 원하는 개조 부품과 파츠 목록이 있다네. 자네가 제대로 해낼 거라고 믿고, 총을 들고 도망치지는 않을 거라 생각하네. 잘 끝내서 나한테 가져오면 된다네. 내가 원래 있어야 할 곳으로 가게 해주겠네."
+        "translation": "밖에선 등 뒤를 조심하게. 숲에는 스캐브가 우글거리고, 그런 물건이라면 놈들이 눈독을 들일 걸세. 서두르고 정신 바짝 차리게."
       },
       {
         "key": "687b616db015c21f329bf45f successMessageText",
         "source": "Impressive work. Let me see it...Clean job. You followed the specs to the letter. I’ve got some extra gear stashed away, good stuff from the reserve. You earned it. Oh, Sergey said you should go by and see him, he's got some new wares you might be interested in. \n\n\n\n\n\n\n\n",
-        "translation": "대단하군. 어디... 깔끔하게 처리했군. 사양 그대로 잘 맞췄네. 비축해 둔 좋은 장비가 있는데, 자네에게 줄 수 있다네. 아, 세르게이가 들러 보라고 자네에게 말하더군. 새로운 물건이 좀 생겼다던데, 자네가 관심 가질 만할 걸세. \n\n\n\n\n\n\n\n"
+        "translation": "대단하군. 어디... 깔끔하게 처리했군. 사양 그대로 잘 맞췄네. 비축해 둔 좋은 장비가 있는데, 자네가 받기에 충분한 보수지. 아, 세르게이가 들러 보라고 자네에게 말하더군. 새로운 물건이 좀 생겼다던데, 자네가 관심 가질 만할 걸세. \n\n\n\n\n\n\n\n"
       },
       {
         "key": "687b616db015c21f329bf45f failMessageText",
@@ -6071,7 +6071,7 @@
       {
         "key": "687c00f3ab87dcd3d33110c2",
         "source": "Handover the AN-94 skeletonized stock",
-        "translation": "AN-94 경량형 접이식 개머리판 건네주기",
+        "translation": "AN-94 골격형 개머리판 건네주기",
         "display_type": "quest_objective"
       },
       {
@@ -6117,7 +6117,7 @@
       {
         "key": "687c430e91f5db8685fbbae6 Name",
         "source": "CZ Scorpion EVO 9x19 Magpul PMAG EV9 35-round magazine (Taped)",
-        "translation": "35발, CZ 스콜피온 EVO 9x19 맥풀 PMAG EV9 탄창 (파란 테이프)"
+        "translation": "35발, CZ 스콜피온 EVO 9x19 맥풀 PMAG EV9 탄창 (테이프 부착)"
       },
       {
         "key": "687c430e91f5db8685fbbae6 Description",
@@ -6282,7 +6282,7 @@
       {
         "key": "6881bbc20fda45bcc61e32f7 Name",
         "source": "HB Industries CZ Scorpion EVO 3 DELTA extended charging handle",
-        "translation": "HB 인더스트리즈 CZ 스콜피온 EVO 3 델타 연장형 조작 손잡이"
+        "translation": "HB 인더스트리즈 CZ 스콜피온 EVO 3 델타 연장형 장전 손잡이"
       },
       {
         "key": "6881bbc20fda45bcc61e32f7 ShortName",
@@ -6292,12 +6292,12 @@
       {
         "key": "6881bbc20fda45bcc61e32f7 Description",
         "source": "Extended charging handle for the CZ Scorpion EVO 3 platform, manufactured by HB Industries.",
-        "translation": "HB 인더스트리즈(HB Industries)에서 제작한 CZ 스콜피온 EVO 3용 연장형 조작 손잡이입니다."
+        "translation": "HB 인더스트리즈(HB Industries)에서 제작한 CZ 스콜피온 EVO 3용 연장형 장전 손잡이입니다."
       },
       {
         "key": "6881bc0e9bbdcb7cd92236e0 Name",
         "source": "HB Industries CZ Scorpion EVO 3 DELTA extended charging handle (Red)",
-        "translation": "HB 인더스트리즈 CZ 스콜피온 EVO 3 델타 연장형 조작 손잡이 (레드)"
+        "translation": "HB 인더스트리즈 CZ 스콜피온 EVO 3 델타 연장형 장전 손잡이 (레드)"
       },
       {
         "key": "6881bc0e9bbdcb7cd92236e0 ShortName",
@@ -6307,12 +6307,12 @@
       {
         "key": "6881bc0e9bbdcb7cd92236e0 Description",
         "source": "Extended charging handle for the CZ Scorpion EVO 3 platform, manufactured by HB Industries.",
-        "translation": "HB 인더스트리즈(HB Industries)에서 제작한 CZ 스콜피온 EVO 3용 연장형 조작 손잡이입니다."
+        "translation": "HB 인더스트리즈(HB Industries)에서 제작한 CZ 스콜피온 EVO 3용 연장형 장전 손잡이입니다."
       },
       {
         "key": "6881bc2d07381a49162f8194 Name",
         "source": "HB Industries CZ Scorpion EVO 3 ProStock charging handle",
-        "translation": "HB 인더스트리즈 CZ 스콜피온 EVO 3 프로스톡 조작 손잡이"
+        "translation": "HB 인더스트리즈 CZ 스콜피온 EVO 3 프로스톡 장전 손잡이"
       },
       {
         "key": "6881bc2d07381a49162f8194 ShortName",
@@ -6322,7 +6322,7 @@
       {
         "key": "6881bc2d07381a49162f8194 Description",
         "source": "Alternate charging handle for the CZ Scorpion EVO 3 that offers a slightly larger footprint for better ergonomics over the standard charging handle.",
-        "translation": "CZ 스콜피온 EVO 3용 대안형 조작 손잡이로, 표준형보다 약간 큰 크기로 인체공학적 조작감을 제공합니다."
+        "translation": "CZ 스콜피온 EVO 3용 대안형 장전 손잡이로, 표준형보다 약간 큰 크기로 인체공학적 조작감을 제공합니다."
       },
       {
         "key": "6881bc42bd69c9741111f5b7 Name",
@@ -6412,17 +6412,17 @@
       {
         "key": "6881c17e9ece0d7057d4347a Name",
         "source": "CZ Scorpion EVO 3 A1 tactical mid-length railed handguard",
-        "translation": "CZ 스콜피온 EVO 3 A1 전술형 표준길이 레일 총열덮개"
+        "translation": "CZ 스콜피온 EVO 3 A1 전술형 중간 길이 레일 총열덮개"
       },
       {
         "key": "6881c17e9ece0d7057d4347a ShortName",
         "source": "EVO MID",
-        "translation": "EVO 표준"
+        "translation": "EVO 중간길이"
       },
       {
         "key": "6881c17e9ece0d7057d4347a Description",
         "source": "A mid-length railed tactical handguard for the CZ Scorpion EVO 3 A1 9x19 submachine gun.",
-        "translation": "CZ 스콜피온 EVO 3 A1 9x19 기관단총용 표준길이 전술 레일 총열덮개입니다."
+        "translation": "CZ 스콜피온 EVO 3 A1 9x19 기관단총용 중간 길이 전술 레일 총열덮개입니다."
       },
       {
         "key": "6881c18aaa553ed3873788da Name",
@@ -6507,12 +6507,12 @@
       {
         "key": "688445a5a3ee7a07104c6047 Name",
         "source": "HB Industries CZ Scorpion EVO 3 A1 mid-length M-LOK handguard",
-        "translation": "HB 인더스트리즈 CZ 스콜피온 EVO 3 A1 미드레인지 엠락 총열덮개"
+        "translation": "HB 인더스트리즈 CZ 스콜피온 EVO 3 A1 중간 길이 엠락 총열덮개"
       },
       {
         "key": "688445a5a3ee7a07104c6047 ShortName",
         "source": "HB MID",
-        "translation": "HB 표준"
+        "translation": "HB 중간길이"
       },
       {
         "key": "688445a5a3ee7a07104c6047 Description",
@@ -6633,7 +6633,7 @@
       {
         "key": "68a389b483e34ba38a2b51ac Name",
         "source": "AI AXMC pistol grip (Black)",
-        "translation": "AI AXMC 권총손잡이 (블랙)\n(AI AXMC pistol grip (검은색))"
+        "translation": "AI AXMC 권총손잡이 (블랙)"
       },
       {
         "key": "68a389b483e34ba38a2b51ac ShortName",
@@ -6648,7 +6648,7 @@
       {
         "key": "68a38a4e1586e6d768c4730b Name",
         "source": "AI AXMC AX buttstock (Black)",
-        "translation": "AI AXMC AX 개머리판 (블랙)\n(AI AXMC AX buttstock (검은색))"
+        "translation": "AI AXMC AX 개머리판 (블랙)"
       },
       {
         "key": "68a38a4e1586e6d768c4730b ShortName",
@@ -6663,22 +6663,22 @@
       {
         "key": "68a395a145790fc8225720d3 Name",
         "source": "AI AXMC Multi-Caliber chassis (Black)",
-        "translation": "AI AXMC .338 LM 섀시 (블랙)\n(AI AXMC Multi-Caliber chassis (검은색))"
+        "translation": "AI AXMC 다중 구경 섀시 (블랙)"
       },
       {
         "key": "68a395a145790fc8225720d3 ShortName",
         "source": "AXMC",
-        "translation": "AXMC .338LM"
+        "translation": "AXMC 다중 구경"
       },
       {
         "key": "68a395a145790fc8225720d3 Description",
         "source": "The factory fitted Multi-Caliber chassis for the AXMC sniper rifle, manufactured by Accuracy International.",
-        "translation": "어큐러시 인터내셔널(Accuracy International)이 제작한 AXMC 저격소총용 기본 장착 .338 라푸아 매그넘 섀시입니다."
+        "translation": "어큐러시 인터내셔널(Accuracy International)이 제작한 AXMC 저격소총용 기본 장착 다중 구경 섀시입니다."
       },
       {
         "key": "68a397372b4bebb5474a0bb2 Name",
         "source": "AI AXMC .300 WM upper receiver (.300WM)",
-        "translation": "AI AXMC .300 WM 상부 수신기 (.300WM)"
+        "translation": "AI AXMC .300 WM 상부 총몸 (.300WM)"
       },
       {
         "key": "68a397372b4bebb5474a0bb2 ShortName",
@@ -6688,12 +6688,12 @@
       {
         "key": "68a397372b4bebb5474a0bb2 Description",
         "source": "An upper receiver for the AXMC sniper rifle manufactured by Accuracy International. Equipped with a mount for attaching additional devices.",
-        "translation": "어큐러시 인터내셔널(Accuracy International)이 제작한 AXMC 저격소총용 총몸로, 추가 장비 장착용 마운트가 포함되어 있습니다."
+        "translation": "어큐러시 인터내셔널(Accuracy International)이 제작한 AXMC 저격소총용 상부 총몸으로, 추가 장비 장착용 마운트가 포함되어 있습니다."
       },
       {
         "key": "68a3985b0d24229aa6cecad1 Name",
         "source": "AI AXMC GTAC AR-type pistol grip adapter (Black)",
-        "translation": "AI AXMC GTAC AR 타입 권총손잡이 어댑터 (블랙)\n(AI AXMC GTAC AR-type pistol grip adapter (검은색))"
+        "translation": "AI AXMC GTAC AR 타입 권총손잡이 어댑터 (블랙)"
       },
       {
         "key": "68a3985b0d24229aa6cecad1 Description",
@@ -6703,7 +6703,7 @@
       {
         "key": "68a39ecf2120cea9dcf3f1df Name",
         "source": "AI AXMC padded handguard grip (Black)",
-        "translation": "AI AXMC 패딩 총열덮개 그립 (블랙)\n(AI AXMC padded handguard grip (검은색))"
+        "translation": "AI AXMC 패딩 총열덮개 그립 (블랙)"
       },
       {
         "key": "68a39ecf2120cea9dcf3f1df ShortName",
@@ -6718,7 +6718,7 @@
       {
         "key": "68a39f96b225dcbbc8387d2c Name",
         "source": "AI AXMC AX KeySlot 16 inch handguard (Black)",
-        "translation": "AI AXMC AX 키슬롯 16인치 총열덮개 (블랙)\n(AI AXMC AX KeySlot 16인치 handguard (검은색))"
+        "translation": "AI AXMC AX 키슬롯 16인치 총열덮개 (블랙)"
       },
       {
         "key": "68a39f96b225dcbbc8387d2c ShortName",
@@ -6733,7 +6733,7 @@
       {
         "key": "68a73465322d08c3199b94ff Name",
         "source": "AI AXMC AT X Top Rail (Black)",
-        "translation": "AI AXMC AT X 상부 레일 (블랙)\n(AI AXMC AT X Top Rail (검은색))"
+        "translation": "AI AXMC AT X 상부 레일 (블랙)"
       },
       {
         "key": "68a73465322d08c3199b94ff ShortName",
@@ -6743,12 +6743,12 @@
       {
         "key": "68a73465322d08c3199b94ff Description",
         "source": "A top handguard rail for installation on the KeySlot interface for the AXMC sniper rifle, manufactured by Accuracy International.",
-        "translation": "어큐러시 인터내셔널(Accuracy International)이 제작한 AXMC 저격소총용 탑 총열덮개 레일로, 키슬롯(KeySlot) 인터페이스에 장착됩니다."
+        "translation": "어큐러시 인터내셔널(Accuracy International)이 제작한 AXMC 저격소총용 상부 총열덮개 레일로, 키슬롯(KeySlot) 인터페이스에 장착됩니다."
       },
       {
         "key": "68a73560e0b8a9d684145f83 Name",
         "source": "AI AXMC Adapter Kit short length rail (Black)",
-        "translation": "AI AXMC 어댑터 키트 소형 레일 (블랙)\n(AI AXMC Adapter Kit short length rail (검은색))"
+        "translation": "AI AXMC 어댑터 키트 소형 레일 (블랙)"
       },
       {
         "key": "68a73560e0b8a9d684145f83 ShortName",
@@ -6763,7 +6763,7 @@
       {
         "key": "68a73563a634aa2a969dc629 Name",
         "source": "AI AXMC Adapter Kit medium length rail (Black)",
-        "translation": "AI AXMC 어댑터 키트 중형 레일 (블랙)\n(AI AXMC Adapter Kit medium length rail (검은색))"
+        "translation": "AI AXMC 어댑터 키트 중형 레일 (블랙)"
       },
       {
         "key": "68a73563a634aa2a969dc629 ShortName",
@@ -6788,7 +6788,7 @@
       {
         "key": "68b7466b07fc88a7f1c6d520 Description",
         "source": "A custom weighted compensator for the Beretta 92FS pistol.",
-        "translation": "베레타 92FS 권총용 커스텀 웨이티드(무게 중심 조절용) 보정기입니다."
+        "translation": "베레타 92FS 권총용 커스텀 중량형 보정기입니다."
       },
       {
         "key": "68b7f582e203edda8374ddba Name",
@@ -6898,12 +6898,12 @@
       {
         "key": "68b7f9242936eb3c214e1dd9 Name",
         "source": "HK MK23 hammer",
-        "translation": "HK MK23 공이"
+        "translation": "HK MK23 공이치기"
       },
       {
         "key": "68b7f9242936eb3c214e1dd9 Description",
         "source": "Standard hammer for the HK MK23 .45 ACP pistol.",
-        "translation": "HK MK23 .45 ACP 권총용 표준 공이입니다."
+        "translation": "HK MK23 .45 ACP 권총용 표준 공이치기입니다."
       },
       {
         "key": "68b7f985dd6565e47eb9ee44 Name",
@@ -6918,17 +6918,17 @@
       {
         "key": "68b9c5271bda9c05ec4843c1 Name",
         "source": "HK MK23 skeletonized hammer",
-        "translation": "HK MK23 경량형 공이"
+        "translation": "HK MK23 경량형 공이치기"
       },
       {
         "key": "68b9c5271bda9c05ec4843c1 ShortName",
         "source": "MK23 Skele",
-        "translation": "MK23 경량"
+        "translation": "MK23 골격형"
       },
       {
         "key": "68b9c5271bda9c05ec4843c1 Description",
         "source": "Skeletonized hammer for the HK MK23 .45 ACP pistol.",
-        "translation": "HK MK23 .45 ACP 권총용 경량화 경량 공이입니다. 반응속도를 높이고 무게를 줄여줍니다."
+        "translation": "HK MK23 .45 ACP 권총용 골격형 공이치기입니다."
       },
       {
         "key": "68b9c609e3d2f5545ff25fec Name",
@@ -7058,7 +7058,7 @@
       {
         "key": "68b9ce4e6ac219f4b866616d ShortName",
         "source": "MK23 RSB",
-        "translation": "MK23B가늠자"
+        "translation": "MK23 가늠자 베어링"
       },
       {
         "key": "68b9ce4e6ac219f4b866616d Description",
@@ -7213,7 +7213,7 @@
       {
         "key": "68bf471013cd0729f735bdb3 ShortName",
         "source": "Rock cap",
-        "translation": "락 cap"
+        "translation": "락 캡"
       },
       {
         "key": "68bf471013cd0729f735bdb3 Description",
@@ -7238,7 +7238,7 @@
       {
         "key": "68bf480bd16b24dea69469c7 Name",
         "source": "PSA 5.7 Rock RK1 pistol slide (FDE)",
-        "translation": "PSA 5.7 락 RK1 권총 슬라이드 (사막색)\n(PSA 5.7 Rock RK1 pistol slide (사막색))"
+        "translation": "PSA 5.7 락 RK1 권총 슬라이드 (사막색)"
       },
       {
         "key": "68bf480bd16b24dea69469c7 ShortName",
@@ -7278,7 +7278,7 @@
       {
         "key": "68c23b3d4a286357245eb641 Name",
         "source": "Simonov AG-042/043 rear sight",
-        "translation": "시모노프 AG-042/043 가늠쇠"
+        "translation": "시모노프 AG-042/043 가늠자"
       },
       {
         "key": "68c23b3d4a286357245eb641 Description",
@@ -7338,7 +7338,7 @@
       {
         "key": "68d03088e031ff364882e0d1 Name",
         "source": "HK 417 M110A1 M-LOK handguard",
-        "translation": "HK 417 M110A1 엠락 총열덮개(사막색)"
+        "translation": "HK 417 M110A1 엠락 총열덮개"
       },
       {
         "key": "68d03088e031ff364882e0d1 Description",
@@ -7378,12 +7378,12 @@
       {
         "key": "68d4106532390e96f5a8f664 Name",
         "source": "PMM-12 9x18 12-round magazine",
-        "translation": "12발, PMM-12 9x18 12 탄창"
+        "translation": "12발, PMM-12 9x18 탄창"
       },
       {
         "key": "68d4106532390e96f5a8f664 Description",
         "source": "Standard 12-round magazine for the PMM-12 9x18mm pistol.",
-        "translation": "PMM-12 9x18mm 권총용 표준 12들이 탄창입니다."
+        "translation": "PMM-12 9x18mm 권총용 표준 12발들이 탄창입니다."
       },
       {
         "key": "68d411fe0fe5406a6566ce17 Name",
@@ -7458,7 +7458,7 @@
       {
         "key": "68d5b3d19fbee23bd61f9779 Description",
         "source": "A rail system that mounts to the trigger guard of the PMM-12 pistol that allows for the mounting of tactical devices.",
-        "translation": "전술 장비 장착이 가능하도록 PMM-12 권총의 방항울에 장착하는 레일 시스템입니다."
+        "translation": "전술 장비 장착이 가능하도록 PMM-12 권총의 방아쇠울에 장착하는 레일 시스템입니다."
       },
       {
         "key": "68d5bd9f06a3279b96fb0d3c Name",
@@ -7533,7 +7533,7 @@
       {
         "key": "68d739c05eadd47b0e4617a7 Description",
         "source": "A tactical laser aiming module designed to fit around the trigger guard of the PMM-12 9x18 pistol.",
-        "translation": "PMM-12 9x18 권총의 방항울에 맞게 설계된 전술 레이저 표적지시기입니다."
+        "translation": "PMM-12 9x18 권총의 방아쇠울에 맞게 설계된 전술 레이저 표적지시기입니다."
       },
       {
         "key": "68dd61e02d8ca3d84120bb2a Name",
@@ -7543,7 +7543,7 @@
       {
         "key": "68dd61e02d8ca3d84120bb2a Description",
         "source": "Extended 17-round magazine for the PMM-12 9x18mm pistol.",
-        "translation": "PMM-12 9x18mm 권총용 17들이 확장 탄창입니다."
+        "translation": "PMM-12 9x18mm 권총용 17발들이 확장 탄창입니다."
       },
       {
         "key": "68e0002a0d6a4dab56810fbd Name",
@@ -7758,7 +7758,7 @@
       {
         "key": "68fd4feab87d77a5aaf6bf64 Description",
         "source": "The CheyTac Intervention, also known as the CheyTac M200, is an American bolt-action sniper rifle manufactured by CheyTac USA, which can also be classified as an anti-materiel rifle. It is fed by a seven-round detachable single-stack magazine (an optional five-round magazine is also available). CheyTac Inc. states that the system is capable of delivering sub-MOA accuracy at ranges of up to 2,500 yd (2,286 m).",
-        "translation": "샤이택 M200으로도 알려진 샤이택 인터벤션(CheyTac Intervention)은 미국 샤이택(CheyTac USA) 사에서 제조한 볼트액션 저격소총으로, 대물 저격총으로도 분류됩니다. 7들이 분리형 단열 탄창을 사용하며(선택 사항으로 5들이 탄창 사용 가능), 제조사는 이 시스템이 최대 2,500야드(2,286m) 거리에서 1 MOA 미만의 정확도를 제공할 수 있다고 명시하고 있습니다."
+        "translation": "샤이택 M200으로도 알려진 샤이택 인터벤션(CheyTac Intervention)은 미국 샤이택(CheyTac USA) 사에서 제조한 볼트액션 저격소총으로, 대물 저격총으로도 분류됩니다. 7발들이 분리형 단열 탄창을 사용하며(선택 사항으로 5발들이 탄창 사용 가능), 제조사는 이 시스템이 최대 2,500야드(2,286m) 거리에서 1 MOA 미만의 정확도를 제공할 수 있다고 명시하고 있습니다."
       },
       {
         "key": "68fd537f2965f74cf4a87894 Description",
@@ -7778,37 +7778,37 @@
       {
         "key": "68fd563cbd798f9a26afcdca Name",
         "source": "OmniTech Systems CheyTac M200 MKII skeletonized stock",
-        "translation": "옴니텍 시스템즈 샤이택 M200 MKII 철제 개머리판"
+        "translation": "옴니텍 시스템즈 샤이택 M200 MKII 골격형 개머리판"
       },
       {
         "key": "68fd563cbd798f9a26afcdca ShortName",
         "source": "Mk.2 Skel.",
-        "translation": "Mk.2 철제"
+        "translation": "Mk.2 골격형"
       },
       {
         "key": "68fd563cbd798f9a26afcdca Description",
         "source": "Skeletonized fixed stock for the CheyTac M200 manufactured by OmniTech Systems. Improved MkII variant.",
-        "translation": "옴니텍 시스템즈(OmniTech Systems)에서 제작한 샤이택 M200용 철제 고정식 개머리판으로, 개선된 MKII 버전입니다."
+        "translation": "옴니텍 시스템즈(OmniTech Systems)에서 제작한 샤이택 M200용 골격형 고정식 개머리판으로, 개선된 MKII 버전입니다."
       },
       {
         "key": "68fd56409c78353ecc08f32c Name",
         "source": "OmniTech Systems CheyTac M200 MKI skeletonized stock",
-        "translation": "옴니텍 시스템즈 샤이택 M200 MKI 철제 개머리판"
+        "translation": "옴니텍 시스템즈 샤이택 M200 MKI 골격형 개머리판"
       },
       {
         "key": "68fd56409c78353ecc08f32c ShortName",
         "source": "Mk.1 Skel.",
-        "translation": "Mk.1 철제"
+        "translation": "Mk.1 골격형"
       },
       {
         "key": "68fd56409c78353ecc08f32c Description",
         "source": "Skeletonized fixed stock for the CheyTac M200 manufactured by OmniTech Systems.",
-        "translation": "옴니텍 시스템즈(OmniTech Systems)에서 제작한 샤이택 M200용 철제 고정식 개머리판입니다."
+        "translation": "옴니텍 시스템즈(OmniTech Systems)에서 제작한 샤이택 M200용 골격형 고정식 개머리판입니다."
       },
       {
         "key": "68fd56435b8191dd387da9ff Name",
         "source": "CheyTac M200 Intervention collapsible stock (FDE)",
-        "translation": "샤이택 M200 인터벤션 인입식 개머리판 (사막색)\n(CheyTac M200 Intervention collapsible stock (사막색))"
+        "translation": "샤이택 M200 인터벤션 인입식 개머리판 (사막색)"
       },
       {
         "key": "68fd56435b8191dd387da9ff ShortName",
@@ -7868,7 +7868,7 @@
       {
         "key": "68fd5c3dd4f0cdc4cad9f19c Name",
         "source": "CheyTac M200 Intervention .408 CT 7-round magazine (FDE)",
-        "translation": "7발, 샤이택 M200 인터벤션 .408 CT 탄창 (사막색)\n(CheyTac M200 Intervention .408 CT 7-round magazine (사막색))"
+        "translation": "7발, 샤이택 M200 인터벤션 .408 CT 탄창 (사막색)"
       },
       {
         "key": "68fd5c3dd4f0cdc4cad9f19c Description",
@@ -7893,7 +7893,7 @@
       {
         "key": "68fd5fd0196cfaff433daa9f Name",
         "source": "CheyTac M200 Intervention .408 CT 29 inch barrel (FDE)",
-        "translation": "샤이택 M200 인터벤션 .408 CT 29인치 총열 (사막색)\n(CheyTac M200 Intervention .408 CT 29 inch barrel (사막색))"
+        "translation": "샤이택 M200 인터벤션 .408 CT 29인치 총열 (사막색)"
       },
       {
         "key": "68fd5fd0196cfaff433daa9f ShortName",
@@ -7923,7 +7923,7 @@
       {
         "key": "68fd609fd746b88631211f6a Name",
         "source": "CheyTac M200 Intervention .408 CT custom 20 inch barrel (Camo)",
-        "translation": "샤이택 M200 인터벤션 .408 CT 커스텀 20인치 총열 (카모)\n(CheyTac M200 Intervention .408 CT custom 20인치 barrel (Camo))"
+        "translation": "샤이택 M200 인터벤션 .408 CT 커스텀 20인치 총열 (카모)"
       },
       {
         "key": "68fd609fd746b88631211f6a ShortName",
@@ -7953,7 +7953,7 @@
       {
         "key": "68fd6241ba57f1aa0638bdce Name",
         "source": "CheyTac M200 Intervention .408 CT muzzle brake (FDE)",
-        "translation": "샤이택 M200 인터벤션 .408 CT 총구제퇴기 (사막색)\n(CheyTac M200 Intervention .408 CT muzzle brake (사막색))"
+        "translation": "샤이택 M200 인터벤션 .408 CT 총구제퇴기 (사막색)"
       },
       {
         "key": "68fd6241ba57f1aa0638bdce ShortName",
@@ -7978,7 +7978,7 @@
       {
         "key": "68fd63e8842f704b09062fd1 Name",
         "source": "Elite Iron Windtalker AMF .408 CT sound suppressor (FDE)",
-        "translation": "엘리트 아이언 윈드토커 AMF .408 CT 소음기 (사막색)\n(Elite Iron Windtalker AMF .408 CT sound suppressor (사막색))"
+        "translation": "엘리트 아이언 윈드토커 AMF .408 CT 소음기 (사막색)"
       },
       {
         "key": "68fd63e8842f704b09062fd1 Description",
@@ -7988,7 +7988,7 @@
       {
         "key": "68fd6401e11fcc19f3a8d365 Name",
         "source": "Elite Iron Windtalker AMF .408 CT sound suppressor (Titanium)",
-        "translation": "엘리트 아이언 윈드토커 AMF .408 CT 소음기 (Titanium)"
+        "translation": "엘리트 아이언 윈드토커 AMF .408 CT 소음기 (티타늄)"
       },
       {
         "key": "68fd6401e11fcc19f3a8d365 Description",
@@ -8013,7 +8013,7 @@
       {
         "key": "68fd72a7dbb26b84c33b8a91 Name",
         "source": "CheyTac M200 Invervention bipod (FDE)",
-        "translation": "샤이택 M200 인터벤션 양각대 (사막색)\n(CheyTac M200 Invervention bipod (사막색))"
+        "translation": "샤이택 M200 인터벤션 양각대 (사막색)"
       },
       {
         "key": "68fd72a7dbb26b84c33b8a91 ShortName",
@@ -8058,7 +8058,7 @@
       {
         "key": "68fd74c33e4a9ddcac041e36 Name",
         "source": "CheyTac M200 Intervention tubular handguard (FDE)",
-        "translation": "샤이택 M200 인터벤션 튜브형 총열덮개 (사막색)\n(CheyTac M200 Intervention tubular handguard (사막색))"
+        "translation": "샤이택 M200 인터벤션 튜브형 총열덮개 (사막색)"
       },
       {
         "key": "68fd74c33e4a9ddcac041e36 ShortName",
@@ -8118,7 +8118,7 @@
       {
         "key": "68fd78cb3a0d215355758ca0 Name",
         "source": "CheyTac M200 Intervention carry handle (FDE)",
-        "translation": "샤이택 M200 인터벤션 운반 손잡이 (사막색)\n(CheyTac M200 Intervention carry handle (사막색))"
+        "translation": "샤이택 M200 인터벤션 운반 손잡이 (사막색)"
       },
       {
         "key": "68fd78cb3a0d215355758ca0 ShortName",
@@ -8133,17 +8133,17 @@
       {
         "key": "68fd7987adf46ad6d9ee6c29 Name",
         "source": "CheyTac M200 Intervention skeletonized carry handle",
-        "translation": "샤이택 M200 인터벤션 철제 운반 손잡이"
+        "translation": "샤이택 M200 인터벤션 골격형 운반 손잡이"
       },
       {
         "key": "68fd7987adf46ad6d9ee6c29 ShortName",
         "source": "M200 CHandle Skel.",
-        "translation": "M200 철제 운반"
+        "translation": "M200 골격형 운반"
       },
       {
         "key": "68fd7987adf46ad6d9ee6c29 Description",
         "source": "Skeletonized carry handle system for the CheyTac M200 Intervention .408 CT sniper rifle.",
-        "translation": "샤이택 M200 인터벤션 .408 CT 저격소총용 철제 운반 손잡이 시스템입니다."
+        "translation": "샤이택 M200 인터벤션 .408 CT 저격소총용 골격형 운반 손잡이 시스템입니다."
       },
       {
         "key": "68fd798ae98cfd549152a62a Name",
@@ -8178,12 +8178,12 @@
       {
         "key": "68fd7a61f2b8d96bb3119b19 Name",
         "source": "CheyTac M200 Intervention .408 CT bolt-action sniper rifle (FDE)",
-        "translation": "샤이택 M200 인터벤션 .408 CT 볼트액션 저격소총 (사막색)\n(CheyTac M200 Intervention .408 CT bolt-action sniper rifle (사막색))"
+        "translation": "샤이택 M200 인터벤션 .408 CT 볼트액션 저격소총 (사막색)"
       },
       {
         "key": "68fd7a61f2b8d96bb3119b19 Description",
         "source": "The CheyTac Intervention, also known as the CheyTac M200, is an American bolt-action sniper rifle manufactured by CheyTac USA, which can also be classified as an anti-materiel rifle. It is fed by a seven-round detachable single-stack magazine (an optional five-round magazine is also available). CheyTac Inc. states that the system is capable of delivering sub-MOA accuracy at ranges of up to 2,500 yd (2,286 m).",
-        "translation": "샤이택 M200으로도 알려진 샤이택 인터벤션(CheyTac Intervention)은 미국 샤이택(CheyTac USA) 사에서 제조한 볼트액션 저격소총으로, 대물 저격총으로도 분류됩니다. 7들이 분리형 단열 탄창을 사용하며(선택 사항으로 5들이 탄창 사용 가능), 제조사는 이 시스템이 최대 2,500야드(2,286m) 거리에서 1 MOA 미만의 정확도를 제공할 수 있다고 명시하고 있습니다."
+        "translation": "샤이택 M200으로도 알려진 샤이택 인터벤션(CheyTac Intervention)은 미국 샤이택(CheyTac USA) 사에서 제조한 볼트액션 저격소총으로, 대물 저격총으로도 분류됩니다. 7발들이 분리형 단열 탄창을 사용하며(선택 사항으로 5발들이 탄창 사용 가능), 제조사는 이 시스템이 최대 2,500야드(2,286m) 거리에서 1 MOA 미만의 정확도를 제공할 수 있다고 명시하고 있습니다."
       },
       {
         "key": "68fd7d14ff5a09197b5ab82a Name",
@@ -8193,7 +8193,7 @@
       {
         "key": "68fd7d14ff5a09197b5ab82a Description",
         "source": "The CheyTac Intervention, also known as the CheyTac M200, is an American bolt-action sniper rifle manufactured by CheyTac USA, which can also be classified as an anti-materiel rifle. It is fed by a seven-round detachable single-stack magazine (an optional five-round magazine is also available). CheyTac Inc. states that the system is capable of delivering sub-MOA accuracy at ranges of up to 2,500 yd (2,286 m).",
-        "translation": "샤이택 M200으로도 알려진 샤이택 인터벤션(CheyTac Intervention)은 미국 샤이택(CheyTac USA) 사에서 제조한 볼트액션 저격소총으로, 대물 저격총으로도 분류됩니다. 7들이 분리형 단열 탄창을 사용하며(선택 사항으로 5들이 탄창 사용 가능), 제조사는 이 시스템이 최대 2,500야드(2,286m) 거리에서 1 MOA 미만의 정확도를 제공할 수 있다고 명시하고 있습니다."
+        "translation": "샤이택 M200으로도 알려진 샤이택 인터벤션(CheyTac Intervention)은 미국 샤이택(CheyTac USA) 사에서 제조한 볼트액션 저격소총으로, 대물 저격총으로도 분류됩니다. 7발들이 분리형 단열 탄창을 사용하며(선택 사항으로 5발들이 탄창 사용 가능), 제조사는 이 시스템이 최대 2,500야드(2,286m) 거리에서 1 MOA 미만의 정확도를 제공할 수 있다고 명시하고 있습니다."
       },
       {
         "key": "69066bef905ee9e06c462009 Name",
@@ -8268,7 +8268,7 @@
       {
         "key": "6906a162d418daade71fd113 Name",
         "source": "Magpul Masada polymer folding stock (FDE)",
-        "translation": "맥풀 마사다 폴리머 접철식 개머리판 (사막색)\n(Magpul Masada polymer folding stock (사막색))"
+        "translation": "맥풀 마사다 폴리머 접철식 개머리판 (사막색)"
       },
       {
         "key": "6906a162d418daade71fd113 ShortName",
@@ -8283,7 +8283,7 @@
       {
         "key": "6906a17a1a915892e5b22f76 Name",
         "source": "Magpul Masada PDW collapsing stock (FDE)",
-        "translation": "맥풀 마사다 PDW 인입식 개머리판 (사막색)\n(Magpul Masada PDW collapsing stock (사막색))"
+        "translation": "맥풀 마사다 PDW 인입식 개머리판 (사막색)"
       },
       {
         "key": "6906a17a1a915892e5b22f76 Description",
@@ -8293,7 +8293,7 @@
       {
         "key": "6906a1aeef59ca68d128e8b7 Name",
         "source": "Magpul Masada 5.56x45 assault rifle (FDE)",
-        "translation": "맥풀 마사다 5.56x45 돌격소총 (사막색)\n(Magpul Masada 5.56x45 assault rifle (사막색))"
+        "translation": "맥풀 마사다 5.56x45 돌격소총 (사막색)"
       },
       {
         "key": "6906a1aeef59ca68d128e8b7 ShortName",
@@ -8368,7 +8368,7 @@
       {
         "key": "69101c65d4c0a6aa81d18453 Name",
         "source": "Magpul Masada upper receiver (FDE)",
-        "translation": "맥풀 마사다 상부 총몸 (사막색)\n(Magpul Masada upper receiver (사막색))"
+        "translation": "맥풀 마사다 상부 총몸 (사막색)"
       },
       {
         "key": "69101c65d4c0a6aa81d18453 ShortName",
@@ -8425,7 +8425,7 @@
       {
         "key": "6910e33e89a05bdedbc30d88 Name",
         "source": "Magpul Masada 5.56x45 18.5 inch barrel assembly",
-        "translation": "맥풀 마사다 5.56x45 18.5인치 총열"
+        "translation": "맥풀 마사다 5.56x45 18.5인치 총열 조립체"
       },
       {
         "key": "6910e33e89a05bdedbc30d88 ShortName",
@@ -8455,7 +8455,7 @@
       {
         "key": "691225bcb5266532f914655a Name",
         "source": "Magpul Masada M-LOK polymer handguard (FDE)",
-        "translation": "맥풀 마사다 엠락 폴리머 총열덮개\n(Magpul Masada M-LOK polymer handguard (사막색))"
+        "translation": "맥풀 마사다 엠락 폴리머 총열덮개 (사막색)"
       },
       {
         "key": "691225bcb5266532f914655a ShortName",
@@ -8485,7 +8485,7 @@
       {
         "key": "691226dc484b05df2aa39d50 Name",
         "source": "Magpul Masada flip-up rear sight (FDE)",
-        "translation": "맥풀 마사다 플립업 가늠자 (사막색)\n(Magpul Masada flip-up rear sight (사막색))"
+        "translation": "맥풀 마사다 플립업 가늠자 (사막색)"
       },
       {
         "key": "691226dc484b05df2aa39d50 ShortName",
@@ -8540,7 +8540,7 @@
       {
         "key": "69135b6c141a752c95a76088 Name",
         "source": "Magpul Masada polymer fixed stock (FDE)",
-        "translation": "맥풀 마사다 폴리머 고정식 개머리판 (사막색)\n(Magpul Masada polymer fixed stock (사막색))"
+        "translation": "맥풀 마사다 폴리머 고정식 개머리판 (사막색)"
       },
       {
         "key": "69135b6c141a752c95a76088 ShortName",
@@ -8570,7 +8570,7 @@
       {
         "key": "69135be3f3bd044c799378e1 Name",
         "source": "Magpul Masada DMR fixed stock (FDE)",
-        "translation": "맥풀 마사다 DMR 고정식 개머리판 (사막색)\n(Magpul Masada DMR fixed stock (사막색))"
+        "translation": "맥풀 마사다 DMR 고정식 개머리판 (사막색)"
       },
       {
         "key": "69135be3f3bd044c799378e1 ShortName",
@@ -8615,7 +8615,7 @@
       {
         "key": "6913fd2540e7d9282674b48a Name",
         "source": "Magpul Masada M-LOK DMR handguard (FDE)",
-        "translation": "맥풀 마사다 엠락 DMR 총열덮개 (사막색)\n(Magpul Masada M-LOK DMR handguard (사막색))"
+        "translation": "맥풀 마사다 엠락 DMR 총열덮개 (사막색)"
       },
       {
         "key": "6913fd2540e7d9282674b48a ShortName",
@@ -8645,7 +8645,7 @@
       {
         "key": "6913fe5e597fc50652c10a9e Name",
         "source": "Magpul Masada micro tri-rail handguard (FDE)",
-        "translation": "맥풀 마사다 마이크로 3면 레일 총열덮개 (사막색)\n(Magpul Masada micro tri-rail handguard (사막색))"
+        "translation": "맥풀 마사다 마이크로 3면 레일 총열덮개 (사막색)"
       },
       {
         "key": "6913fe5e597fc50652c10a9e ShortName",
@@ -8675,7 +8675,7 @@
       {
         "key": "6913ffae5f8c4cd1fc523a8d Name",
         "source": "Magpul Masada extended hybrid handguard (FDE)",
-        "translation": "맥풀 마사다 연장 하이브리드 총열덮개 (사막색)\n(Magpul Masada extended hybrid handguard (사막색))"
+        "translation": "맥풀 마사다 연장 하이브리드 총열덮개 (사막색)"
       },
       {
         "key": "6913ffae5f8c4cd1fc523a8d ShortName",
@@ -8705,7 +8705,7 @@
       {
         "key": "691403d630e88f815a0eb65f Name",
         "source": "Magpul Masada M-LOK minimalist handguard (FDE)",
-        "translation": "맥풀 마사다 엠락 미니멀리스트 총열덮개 (사막색)\n(Magpul Masada M-LOK minimalist handguard (사막색))"
+        "translation": "맥풀 마사다 엠락 미니멀리스트 총열덮개 (사막색)"
       },
       {
         "key": "691403d630e88f815a0eb65f ShortName",
@@ -8735,7 +8735,7 @@
       {
         "key": "69140f886648853180548434 Name",
         "source": "Magpul Masada extended KeyMod handguard (FDE)",
-        "translation": "맥풀 마사다 연장 키모드 총열덮개 (사막색)\n(Magpul Masada extended KeyMod handguard (사막색))"
+        "translation": "맥풀 마사다 연장 키모드 총열덮개 (사막색)"
       },
       {
         "key": "69140f886648853180548434 ShortName",
@@ -8750,32 +8750,32 @@
       {
         "key": "691410a4991a22c2782fe0a6 Name",
         "source": "Magpul Masada M-LOK mid-length handguard",
-        "translation": "맥풀 마사다 엠락 표준길이 총열덮개"
+        "translation": "맥풀 마사다 엠락 중간 길이 총열덮개"
       },
       {
         "key": "691410a4991a22c2782fe0a6 ShortName",
         "source": "Masada Mid.",
-        "translation": "마사다 엠락 표준길이"
+        "translation": "마사다 엠락 중간길이"
       },
       {
         "key": "691410a4991a22c2782fe0a6 Description",
         "source": "A mid-length M-LOK handguard for the Magpul Masada 5.56x45mm assault rifle.",
-        "translation": "맥풀 마사다 5.56x45mm 돌격소총용 표준길이 엠락 총열덮개입니다."
+        "translation": "맥풀 마사다 5.56x45mm 돌격소총용 중간 길이 엠락 총열덮개입니다."
       },
       {
         "key": "69141131ab15cbd47ee148b7 Name",
         "source": "Magpul Masada M-LOK mid-length handguard (FDE)",
-        "translation": "맥풀 마사다 엠락 표준길이 총열덮개 (사막색)\n(Magpul Masada M-LOK mid-length handguard (사막색))"
+        "translation": "맥풀 마사다 엠락 중간 길이 총열덮개 (사막색)"
       },
       {
         "key": "69141131ab15cbd47ee148b7 ShortName",
         "source": "Masada Mid",
-        "translation": "마사다 엠락 표준길이"
+        "translation": "마사다 엠락 중간길이"
       },
       {
         "key": "69141131ab15cbd47ee148b7 Description",
         "source": "A mid-length M-LOK handguard for the Magpul Masada 5.56x45mm assault rifle.",
-        "translation": "맥풀 마사다 5.56x45mm 돌격소총용 표준길이 엠락 총열덮개입니다."
+        "translation": "맥풀 마사다 5.56x45mm 돌격소총용 중간 길이 엠락 총열덮개입니다."
       },
       {
         "key": "691610a32a16d7557fc9bf3d Name",
@@ -8795,17 +8795,17 @@
       {
         "key": "69161150f5bffc3b2da93fde Name",
         "source": "Magpul Masada custom M-LOK mid-length handguard (Camo)",
-        "translation": "맥풀 마사다 커스텀 엠락 표준길이 총열덮개 (카모)"
+        "translation": "맥풀 마사다 커스텀 엠락 중간 길이 총열덮개 (카모)"
       },
       {
         "key": "69161150f5bffc3b2da93fde ShortName",
         "source": "Masada Mid",
-        "translation": "마사다 C 표준길이"
+        "translation": "마사다 C 중간길이"
       },
       {
         "key": "69161150f5bffc3b2da93fde Description",
         "source": "A custom mid-length M-LOK handguard for the Magpul Masada 5.56x45mm assault rifle.",
-        "translation": "맥풀 마사다 5.56x45mm 돌격소총용 커스텀 표준길이 엠락 총열덮개입니다."
+        "translation": "맥풀 마사다 5.56x45mm 돌격소총용 커스텀 중간 길이 엠락 총열덮개입니다."
       },
       {
         "key": "6916120d4852f062fe869d9d Name",
@@ -8820,7 +8820,7 @@
       {
         "key": "6916120d4852f062fe869d9d Description",
         "source": "A custom 10.5 inch (266mm) barrel designed to fire .300BLK cartridges for the Magpul Masada rifle.",
-        "translation": "맥풀 마사다 소총용으로 .300 블랙아웃 탄약을 발사하도락 설계된 10.5인치(266mm) 커스텀 총열입니다."
+        "translation": "맥풀 마사다 소총용으로 .300 블랙아웃 탄약을 발사하도록 설계된 10.5인치(266mm) 커스텀 총열입니다."
       },
       {
         "key": "691612be65f7a3e248c8be2a Name",
@@ -8855,7 +8855,7 @@
       {
         "key": "69161451e951cccc2355deef Name",
         "source": "Magpul Masada extended quad rail handguard (FDE)",
-        "translation": "맥풀 마사다 연장 4면 레일 총열덮개 (사막색)\n(Magpul Masada extended quad rail handguard (사막색))"
+        "translation": "맥풀 마사다 연장 4면 레일 총열덮개 (사막색)"
       },
       {
         "key": "69161451e951cccc2355deef ShortName",
@@ -8870,32 +8870,32 @@
       {
         "key": "6916175c3882b02e89b5cfcd Name",
         "source": "Magpul Masada mid-length KeyMod handguard",
-        "translation": "맥풀 마사다 표준길이 키모드 총열덮개"
+        "translation": "맥풀 마사다 중간길이 키모드 총열덮개"
       },
       {
         "key": "6916175c3882b02e89b5cfcd ShortName",
         "source": "Masada KeyMod Mid.",
-        "translation": "마사다 키모드"
+        "translation": "마사다 키모드 중간길이"
       },
       {
         "key": "6916175c3882b02e89b5cfcd Description",
         "source": "Mid-length KeyMod handguard for the Magpul Masada 5.56x45mm assault rifle.",
-        "translation": "맥풀 마사다 5.56x45mm 돌격소총용 표준길이 키모드 총열덮개입니다."
+        "translation": "맥풀 마사다 5.56x45mm 돌격소총용 중간길이 키모드 총열덮개입니다."
       },
       {
         "key": "691617ec4a1edaefd126bbdd Name",
         "source": "Magpul Masada mid-length KeyMod handguard (FDE)",
-        "translation": "맥풀 마사다 표준길이 키모드 총열덮개 (사막색)\n(Magpul Masada mid-length KeyMod handguard (사막색))"
+        "translation": "맥풀 마사다 중간길이 키모드 총열덮개 (사막색)"
       },
       {
         "key": "691617ec4a1edaefd126bbdd ShortName",
         "source": "Masada KeyMod Mid.",
-        "translation": "마사다 키모드"
+        "translation": "마사다 키모드 중간길이"
       },
       {
         "key": "691617ec4a1edaefd126bbdd Description",
         "source": "Mid-length KeyMod handguard for the Magpul Masada 5.56x45mm assault rifle.",
-        "translation": "맥풀 마사다 5.56x45mm 돌격소총용 표준길이 키모드 총열덮개입니다."
+        "translation": "맥풀 마사다 5.56x45mm 돌격소총용 중간길이 키모드 총열덮개입니다."
       },
       {
         "key": "6916183c4556f899f8658e08 Name",
@@ -8915,7 +8915,7 @@
       {
         "key": "691618d83af6725048cc02f6 Name",
         "source": "Magpul Masada RAHG handguard (FDE)",
-        "translation": "맥풀 마사다 RAHG 총열덮개 (사막색)\n(Magpul Masada RAHG handguard (사막색))"
+        "translation": "맥풀 마사다 RAHG 총열덮개 (사막색)"
       },
       {
         "key": "691618d83af6725048cc02f6 ShortName",
@@ -8930,12 +8930,12 @@
       {
         "key": "69161926101e09f9a44a334a Name",
         "source": "Magpul Masada angled M-LOK handguard",
-        "translation": "맥풀 마사다 경사형 RAHG 총열덮개"
+        "translation": "맥풀 마사다 경사형 엠락 총열덮개"
       },
       {
         "key": "69161926101e09f9a44a334a ShortName",
         "source": "Masada M-LOK Angled",
-        "translation": "마사다 RAHG A"
+        "translation": "마사다 엠락 경사형"
       },
       {
         "key": "69161926101e09f9a44a334a Description",
@@ -8945,12 +8945,12 @@
       {
         "key": "6916197a55ad8590aaef2d29 Name",
         "source": "Magpul Masada angled M-LOK handguard (FDE)",
-        "translation": "맥풀 마사다 경사형 RAHG 총열덮개 (사막색)\n(Magpul Masada angled M-LOK handguard (사막색))"
+        "translation": "맥풀 마사다 경사형 엠락 총열덮개 (사막색)"
       },
       {
         "key": "6916197a55ad8590aaef2d29 ShortName",
         "source": "Masada M-LOK Angled",
-        "translation": "마사다 RAHG A"
+        "translation": "마사다 엠락 경사형"
       },
       {
         "key": "6916197a55ad8590aaef2d29 Description",
@@ -8970,12 +8970,12 @@
       {
         "key": "69161a1d649768162e8219ef Description",
         "source": "The Masada is a much rarer instance of the popular Remington ACR, which was designed as a next-generation modular rifle intended to blend the best features of several proven platforms. Built around a fully ambidextrous, user-configurable architecture, the rifle allows for quick caliber changes through barrel-swaps. Manufactured by Magpul. This version has been adapted to use the .300 Blackout Cartridge.",
-        "translation": "마사다(Masada)는 인기 있는 레밍턴 ACR의 매우 희귀한 변형입니다. 여러 검증된 플랫폼의 장점을 결합한 차세대 모듈식 소총으로 설계되었으며, 완전 양손잡이형 사용자 구성 아키텍처를 기반으로 제작되어 총열 교체를 통해 빠른 구경 변경이 가능합니다. 맥풀(Magpul)에서 제조하였습니다. 이 버전은 .300 블랙아웃(.300 블랙아웃) 탄약을 사용하도락 개조되었습니다."
+        "translation": "마사다(Masada)는 인기 있는 레밍턴 ACR의 매우 희귀한 변형입니다. 여러 검증된 플랫폼의 장점을 결합한 차세대 모듈식 소총으로 설계되었으며, 완전 양손잡이형 사용자 구성 아키텍처를 기반으로 제작되어 총열 교체를 통해 빠른 구경 변경이 가능합니다. 맥풀(Magpul)에서 제조하였습니다. 이 버전은 .300 블랙아웃(.300 블랙아웃) 탄약을 사용하도록 개조되었습니다."
       },
       {
         "key": "6920a431c8f2ed5000c540a0 Name",
         "source": "HK XM8 5.56x45 assault rifle (FDE)",
-        "translation": "HK XM8 5.56x45 돌격소총 (사막색)\n(HK XM8 5.56x45 assault rifle (사막색))"
+        "translation": "HK XM8 5.56x45 돌격소총 (사막색)"
       },
       {
         "key": "6920a431c8f2ed5000c540a0 Description",
@@ -9025,7 +9025,7 @@
       {
         "key": "6920a673b4d99e2e53e8603a Description",
         "source": "A 12.5 inch barrel for the HK XM8 5.56x45mm assault rifle. A shorter, carbine length barrel that meets the middle ground for all tactical scenarios.",
-        "translation": "HK XM8 5.56x45mm 돌격소총용 12.5인치 총열입니다. 짧은 카빈 길이 총열로, 모든 전술 상황에서 중간 지점을 맞추는 길이입니다."
+        "translation": "HK XM8 5.56x45mm 돌격소총용 12.5인치 총열입니다. 여러 전술 상황에서 균형 있게 사용하도록 설계된 짧은 카빈 길이 총열입니다."
       },
       {
         "key": "6920a6b08dfe980d89d94df4 Name",
@@ -9065,7 +9065,7 @@
       {
         "key": "6920a93320601fc76c8de492 ShortName",
         "source": "XM8 Rifle",
-        "translation": "XM8 AR"
+        "translation": "XM8 소총형"
       },
       {
         "key": "6920a93320601fc76c8de492 Description",
@@ -9090,12 +9090,12 @@
       {
         "key": "6920aa1a180357c341f46152 Description",
         "source": "A light machine gun polymer handguard with bipod attachment point for the HK XM8 5.56x45mm assault rifle.",
-        "translation": "HK XM8 5.56x45mm 돌격소총용으로, 양각대(양각대) 장착 포인트가 있는 경기관총용 폴리머 총열덮개입니다."
+        "translation": "HK XM8 5.56x45mm 돌격소총용으로, 양각대 장착 포인트가 있는 경기관총용 폴리머 총열덮개입니다."
       },
       {
         "key": "6920aa4f836ff80290857b1f Name",
         "source": "HK XM8 carbine length handguard (FDE)",
-        "translation": "HK XM8 카빈 길이 총열덮개 (사막색)\n(HK XM8 carbine length handguard (사막색))"
+        "translation": "HK XM8 카빈 길이 총열덮개 (사막색)"
       },
       {
         "key": "6920aa4f836ff80290857b1f ShortName",
@@ -9155,12 +9155,12 @@
       {
         "key": "6920acb7ae53665dbdb3227e Name",
         "source": "HK XM8 lmg handguard (FDE)",
-        "translation": "HK XM8 경기관총 총열덮개 (사막색)\n(HK XM8 lmg handguard (사막색))"
+        "translation": "HK XM8 경기관총 총열덮개 (사막색)"
       },
       {
         "key": "6920acb7ae53665dbdb3227e Description",
         "source": "A light machine gun polymer handguard with bipod attachment point for the HK XM8 5.56x45mm assault rifle.",
-        "translation": "HK XM8 5.56x45mm 돌격소총용으로, 양각대(양각대) 장착 포인트가 있는 경기관총용 폴리머 총열덮개입니다."
+        "translation": "HK XM8 5.56x45mm 돌격소총용으로, 양각대 장착 포인트가 있는 경기관총용 폴리머 총열덮개입니다."
       },
       {
         "key": "6920ad9d2ac0e4eedf575708 Name",
@@ -9175,12 +9175,12 @@
       {
         "key": "6920adc519d0f248cbd1721f Name",
         "source": "HK XM8 rifle length handguard (FDE)",
-        "translation": "HK XM8 소총 길이 총열덮개 (사막색)\n(HK XM8 rifle length handguard (사막색))"
+        "translation": "HK XM8 소총 길이 총열덮개 (사막색)"
       },
       {
         "key": "6920adc519d0f248cbd1721f ShortName",
         "source": "XM8 Rifle",
-        "translation": "XM8 AR"
+        "translation": "XM8 소총형"
       },
       {
         "key": "6920adc519d0f248cbd1721f Description",
@@ -9205,7 +9205,7 @@
       {
         "key": "6920ae7e7ef6fb4783d4c1eb Name",
         "source": "HK XM8 polymer stock (FDE)",
-        "translation": "HK XM8 폴리머 개머리판 (사막색)\n(HK XM8 polymer stock (사막색))"
+        "translation": "HK XM8 폴리머 개머리판 (사막색)"
       },
       {
         "key": "6920ae7e7ef6fb4783d4c1eb ShortName",
@@ -9235,7 +9235,7 @@
       {
         "key": "6920aedbd4ca2e433cf09a50 Name",
         "source": "HK XM8 polymer end cap (FDE)",
-        "translation": "HK XM8 폴리머 마감캡 (사막색)\n(HK XM8 polymer end cap (사막색))"
+        "translation": "HK XM8 폴리머 마감캡 (사막색)"
       },
       {
         "key": "6920aedbd4ca2e433cf09a50 ShortName",
@@ -9265,7 +9265,7 @@
       {
         "key": "6920af7f71e0f6cb3095c4e7 Name",
         "source": "HK XM8 polymer folding stock (FDE)",
-        "translation": "HK XM8 폴리머 접이식 개머리판 (사막색)\n(HK XM8 polymer folding stock (사막색))"
+        "translation": "HK XM8 폴리머 접이식 개머리판 (사막색)"
       },
       {
         "key": "6920af7f71e0f6cb3095c4e7 ShortName",
@@ -9290,7 +9290,7 @@
       {
         "key": "6920b030f7c491a1f4fb344b Name",
         "source": "HK XM8 PDW collapsible stock (FDE)",
-        "translation": "HK XM8 PDW 신축형 개머리판 (사막색)\n(HK XM8 PDW collapsible stock (사막색))"
+        "translation": "HK XM8 PDW 신축형 개머리판 (사막색)"
       },
       {
         "key": "6920b030f7c491a1f4fb344b Description",
@@ -9355,7 +9355,7 @@
       {
         "key": "69236a0b2d1260dbca41ef92 Description",
         "source": "An upgraded SV-98 variant developed by Izhmash featuring an adjustable aluminum skeleton type stock. Izhmash expected the upgraded variant to be more economical to produce and offer improved maintainability and accuracy of fire. In 2017 Kalashnikov Concern took over production of the SV-98.",
-        "translation": "Izhmash(이즈마쉬)에서 개발한 업그레이드된 SV-98 변형 모델로, 조절 가능한 알루미늄 경량형 타입 개머리판이 특징입니다. 이즈마쉬는 업그레이드된 변형 모델이 생산 비용을 절감하고 유지보수성과 사격 정확도를 향상시킬 것으로 예상했습니다. 2017년에는 칼라시니코프 컨선(Kalashnikov Concern)이 SV-98의 생산을 인수했습니다."
+        "translation": "Izhmash(이즈마쉬)에서 개발한 업그레이드된 SV-98 변형 모델로, 조절 가능한 알루미늄 골격형 개머리판이 특징입니다. 이즈마쉬는 업그레이드된 변형 모델이 생산 비용을 절감하고 유지보수성과 사격 정확도를 향상시킬 것으로 예상했습니다. 2017년에는 칼라시니코프 컨선(Kalashnikov Concern)이 SV-98의 생산을 인수했습니다."
       },
       {
         "key": "6924c2f800ff4b8d9d689a5c Name",
@@ -9370,7 +9370,7 @@
       {
         "key": "6924c2f800ff4b8d9d689a5c Description",
         "source": "Lever-action rifle chambered for .357 Magnum, manufactured by Henry Repeating Arms. The rifle features a steel receiver with a blued finish, walnut stock and forearm, 10 round internal tube magazine, and a 16.5\" barrel with adjustable semi-buckhorn sights.",
-        "translation": ".357 매그넘 탄을 사용하는 레버액션 소총으로, 헨리 리피팅 암즈(Henry Repeating Arms)에서 제조하였습니다. 블루드 마감 처리된 스틸 총몸과 월넛 재질의 개머리판 및 총열덮개를 갖추고 있으며, 10발 장탄 내부 튜브 탄창과 조절식 세미 벅혼 가늠쇠가 장착된 16.5인치 총열을 특징으로 합니다."
+        "translation": ".357 매그넘 탄을 사용하는 레버액션 소총으로, 헨리 리피팅 암즈(Henry Repeating Arms)에서 제조하였습니다. 블루드 마감 처리된 스틸 총몸과 월넛 재질의 개머리판 및 총열덮개를 갖추고 있으며, 10발 장탄 내부 튜브 탄창과 조절식 세미 벅혼 조준기가 장착된 16.5인치 총열을 특징으로 합니다."
       },
       {
         "key": "6924c38650310c56c1aec96e Name",
@@ -9415,7 +9415,7 @@
       {
         "key": "692662f440a8e88017858d23 Description",
         "source": "Picatinny rail mount for mounting small optics on the Henry Big Boy Steel .357 magnum lever-action rifle.",
-        "translation": "헨리 빅 보이 스틸 .357 매그넘 레버액션 소총에 소형 광학 장비를 장착할 수 있도락 해주는 피카티니 레일 마운트입니다."
+        "translation": "헨리 빅 보이 스틸 .357 매그넘 레버액션 소총에 소형 광학 장비를 장착할 수 있도록 해주는 피카티니 레일 마운트입니다."
       },
       {
         "key": "692f704e5371aadbbb0ada20 Name",
@@ -9425,7 +9425,7 @@
       {
         "key": "692f704e5371aadbbb0ada20 Description",
         "source": "Windage and elevation adjustable, serrated rear sight and rapid acquisition fiber optic front sight for fast, accurate shooting.",
-        "translation": "풍향 및 고저 조절이 가능한 톱니형 가늠자와, 빠르고 정확한 사격을 위한 빠른 조준(rapid acquisition) 섬유광 가늠쇠가 장착되어 있습니다."
+        "translation": "좌우 및 상하 조절이 가능한 톱니형 가늠자와, 빠르고 정확한 사격을 위한 빠른 조준(rapid acquisition) 섬유광 가늠쇠가 장착되어 있습니다."
       },
       {
         "key": "692f704e5371aadbbb0ada22 Name",
@@ -9460,7 +9460,7 @@
       {
         "key": "692f77045371aadbbb0ada2e Description",
         "source": "The Ruger-5.7 is a semi-automatic pistol introduced in December 2019 by Sturm, Ruger & Co. It is the first traditionally-styled semi-automatic pistol to be chambered for the 5.7×28mm cartridge since the introduction of the Excel Arms MP-57 in 2012. Safety features include: 1911-style ambidextrous manual safety; an integrated trigger safety; light-weight firing pin; neutrally balanced sear with significant engagement and strong spring tension; and hammer catch to help prevent the hammer from contacting the firing pin unless the trigger is pulled.",
-        "translation": "루거(Ruger) 5.7은 2019년 12월 Sturm, Ruger & Co.에서 출시한 반자동 권총입니다. 2012년 Excel Arms MP-57 출시 이후 5.7×28mm 탄약을 사용하는 전통적 스타일의 반자동 권총으로는 최초입니다. 안전장치로는 1911 스타일의 양손 조작 가능한 수동 안전장치, 통합 트리거 안전장치, 경량 격발핀, 상당한 접촉과 강한 스프링 텐션을 가진 중립 균형 시어, 그리고 방아쇠를 당기지 않으면 격발핀이 닿지 않도록 돕는 공이 캐치가 포함됩니다."
+        "translation": "루거(Ruger) 5.7은 2019년 12월 Sturm, Ruger & Co.에서 출시한 반자동 권총입니다. 2012년 Excel Arms MP-57 출시 이후 5.7×28mm 탄약을 사용하는 전통적 스타일의 반자동 권총으로는 최초입니다. 안전장치로는 1911 스타일의 양손 조작 가능한 수동 안전장치, 통합 트리거 안전장치, 경량 격발핀, 충분한 맞물림과 강한 스프링 장력을 갖춘 중립 균형 시어, 그리고 방아쇠를 당기지 않는 한 공이치기가 공이에 닿지 않게 하는 공이치기 걸쇠가 포함됩니다."
       },
       {
         "key": "692f77045371aadbbb0ada30 Name",
@@ -9495,12 +9495,12 @@
       {
         "key": "693742e7eab3af9d89349410 Name",
         "source": "Barrett M107A1 .50 BMG anti-material rifle",
-        "translation": "바렛 M107A1 .50 BMG 대전차 저격소총"
+        "translation": "바렛 M107A1 .50 BMG 대물 소총"
       },
       {
         "key": "693742e7eab3af9d89349410 Description",
         "source": "The Barrett M82 (standardized by the U.S. military as the M107) is a recoil-operated, semi-automatic anti-materiel rifle developed by Barrett Firearms Manufacturing and produced in the United States. Also called the Light Fifty (due to its chambering of the .50 BMG 12.7×99mm NATO cartridge), the weapon is classified in three variants: the original M82A1 (and M82A3) models, the bullpup M82A2 model, and the Barrett M107A1, with an attached muzzle brake (designed to accept a suppressor, and made out of titanium instead of steel).",
-        "translation": "바렛 파이어암즈 매뉴팩처링(Barrett Firearms Manufacturing)에서 개발하고 미국에서 생산한 반동작동 반자동 대전차 저격소총입니다. 미군에서 M107으로 표준화된 M82(라이트 피프티라고도 불립니다)는 .50 BMG 12.7×99mm NATO 탄약을 사용하며, 원형 M82A1(및 M82A3), 불펍형 M82A2, 그리고 총구 브레이크가 장착된 바렛 M107A1의 세 가지 변형으로 분류됩니다. 이 총구 브레이크는 소음기 장착이 가능하도락 설계되었으며, 강철 대신 티타늄으로 제작되었습니다."
+        "translation": "바렛 파이어암즈 매뉴팩처링(Barrett Firearms Manufacturing)에서 개발하고 미국에서 생산한 반동작동 반자동 대물 소총입니다. 미군에서 M107으로 표준화된 M82(라이트 피프티라고도 불립니다)는 .50 BMG 12.7×99mm NATO 탄약을 사용하며, 원형 M82A1(및 M82A3), 불펍형 M82A2, 그리고 총구 브레이크가 장착된 바렛 M107A1의 세 가지 변형으로 분류됩니다. 이 총구 브레이크는 소음기 장착이 가능하도록 설계되었으며, 강철 대신 티타늄으로 제작되었습니다."
       },
       {
         "key": "693745d99ef35610fd3bf4ad Name",
@@ -9510,7 +9510,7 @@
       {
         "key": "693745d99ef35610fd3bf4ad Description",
         "source": "Standard bipod system for the M107A1 .50 bmg anti-material rifle.",
-        "translation": "M107A1 .50 BMG 대전차 저격소총용 표준 양각대 시스템입니다."
+        "translation": "M107A1 .50 BMG 대물 소총용 표준 양각대 시스템입니다."
       },
       {
         "key": "693745e76a10f1e0e2cf7853 Name",
@@ -9520,7 +9520,7 @@
       {
         "key": "693745e76a10f1e0e2cf7853 Description",
         "source": "Proprietary suppressor manufactured by Barrett designed specifically for the M107A1 .50 bmg anti-material rifle.",
-        "translation": "바렛(M107A1) .50 BMG 대물 소총 전용으로 설계된 바렛의 전용 소음기입니다."
+        "translation": "바렛(Barrett)이 제작한 M107A1 .50 BMG 대물 소총 전용 소음기입니다."
       },
       {
         "key": "693746d0f61abc0b20e57648 Name",
@@ -9530,12 +9530,12 @@
       {
         "key": "693746d0f61abc0b20e57648 ShortName",
         "source": "QDL M",
-        "translation": "QDL 보정기"
+        "translation": "QDL 제퇴기"
       },
       {
         "key": "693746d0f61abc0b20e57648 Description",
         "source": "Standard muzzle brake for the M107A1 .50 bmg anti-material rifle that allows for mounting of the QDL .50 bmg suppressor.",
-        "translation": "QDL .50 BMG 소음기 장착이 가능하도락 설계된 M107A1 .50 BMG 대전차 저격소총용 표준 보정기입니다."
+        "translation": "QDL .50 BMG 소음기 장착이 가능하도록 설계된 M107A1 .50 BMG 대물 소총용 표준 제퇴기입니다."
       },
       {
         "key": "693747879a9ebdab31a1eddb Name",
@@ -9595,7 +9595,7 @@
       {
         "key": "6938bca4c4ab39c99232873f Description",
         "source": "A 25x59mm XM1099 Armor Piercing Incendiary (API) grenade round intended to pierce heavy armor and burn anything past the armor.",
-        "translation": "중장갑을 관통한 뒤 내부를 소태하도록 설계된 25x59mm XM1099 철갑소이(API) 유탄입니다."
+        "translation": "중장갑을 관통한 뒤 내부를 불태우도록 설계된 25x59mm XM1099 철갑소이(API) 유탄입니다."
       },
       {
         "key": "6938bcbdd8c13e10cd328740 Description",
@@ -9620,7 +9620,7 @@
       {
         "key": "693b4dc302ec6ac27fb92e3d Description",
         "source": "A fabric tactical cheek-rest for the Barrett M107A1 .50 bmg anti-material rifle.",
-        "translation": "바렛(Barrett) M107A1 .50 BMG 대물 저격소총용 패브릭 재질의 전술 칙 레스트입니다."
+        "translation": "바렛(Barrett) M107A1 .50 BMG 대물 소총용 패브릭 재질의 전술 칙 레스트입니다."
       },
       {
         "key": "693b4dc5cd3b6c5b732d1f39 Name",
@@ -9630,12 +9630,12 @@
       {
         "key": "693b4dc5cd3b6c5b732d1f39 Description",
         "source": "A recoil reducing stock attachment with a built in cheek-rest for the Barrett M107A1 .50 bmg anti-material rifle.",
-        "translation": "볼록한 볼기 받침(뺨받침)이 내장된 반동 감소형 개머리판 부착물로, 바렛 M107A1 .50 BMG 대물 소총용입니다."
+        "translation": "뺨받침이 내장된 반동 감소형 개머리판 부착물로, 바렛 M107A1 .50 BMG 대물 소총용입니다."
       },
       {
         "key": "693b4f1d90104a2dd9abc084 Name",
         "source": "Barrett M107A1 20 inch fluted barrel ",
-        "translation": "바렛 M107A1 20인치 플루티드 총열\n(Barrett M107A1 20 inch fluted barrel )"
+        "translation": "바렛 M107A1 20인치 플루티드 총열"
       },
       {
         "key": "693b4f1d90104a2dd9abc084 ShortName",
@@ -9672,12 +9672,12 @@
       {
         "key": "694162205fffc8182d005264 Name",
         "source": "Marlin 1894 Hammer",
-        "translation": "말린 1894 공이"
+        "translation": "말린 1894 공이치기"
       },
       {
         "key": "694162205fffc8182d005264 Description",
         "source": "Hammer for the Marlin 1894 rifle",
-        "translation": "말린(Marlin) 1894 소총용 공이입니다."
+        "translation": "말린(Marlin) 1894 소총용 공이치기입니다."
       },
       {
         "key": "694162205fffc8182d005266 Name",
@@ -9742,7 +9742,7 @@
       {
         "key": "69417a3f787395b8cc0ab136 Description",
         "source": "Anodized aluminum handguard features M-LOK® attachment slots for mounting of accessories.",
-        "translation": "아노다이징 처리된 알루미늄 총열덮개로, 액세서리 장착을 위한 엠락® 장착 슬롯이 포함되어 있습니다."
+        "translation": "양극산화 처리된 알루미늄 총열덮개로, 액세서리 장착을 위한 엠락® 장착 슬롯이 포함되어 있습니다."
       },
       {
         "key": "69417a3f787395b8cc0ab138 Name",
@@ -9832,7 +9832,7 @@
       {
         "key": "6945dec48fb00469cf6e589b Description",
         "source": "A tactical cheek-rest for the Barrett XM109 25x59 anti-material payload rifle rifle.",
-        "translation": "바렛(Barrett) XM109 25x59 대물 저격총용 전술 칙 레스트 입니다."
+        "translation": "바렛(Barrett) XM109 25x59 대물 탄두 소총용 전술 칙 레스트 입니다."
       },
       {
         "key": "6945e2a4ab7c6d358c6e41fb Name",
@@ -9842,7 +9842,7 @@
       {
         "key": "6945e2a4ab7c6d358c6e41fb Description",
         "source": "A 5-round magazine designed for the Barrett XM109 25x59 anti-material payload rifle",
-        "translation": "바렛(Barrett) XM109 25x59 대물 저격총용 5발 탄창입니다."
+        "translation": "바렛(Barrett) XM109 25x59 대물 탄두 소총용 5발 탄창입니다."
       },
       {
         "key": "69464ff61b0557c6882268ba Name",
@@ -9857,27 +9857,27 @@
       {
         "key": "694755c06cb8cad0abfba87f Name",
         "source": "Barrett XM109 QDL muzzle brake",
-        "translation": "바렛 XM109 QDL 총구 브레이크"
+        "translation": "바렛 XM109 QDL 제퇴기"
       },
       {
         "key": "694755c06cb8cad0abfba87f Description",
         "source": "Standard muzzle brake for the XM109 anti-material payload rifle.",
-        "translation": "XM109 대물 저격총용 표준 총구 브레이크입니다."
+        "translation": "XM109 대물 탄두 소총용 표준 제퇴기입니다."
       },
       {
         "key": "694756c1c61e561e10ddc6f0 Name",
         "source": "Barrett XM109 dual-port muzzle brake",
-        "translation": "바렛 XM109 듀얼 포트 총구 브레이크"
+        "translation": "바렛 XM109 듀얼 포트 제퇴기"
       },
       {
         "key": "694756c1c61e561e10ddc6f0 Description",
         "source": "A custom dual-port muzzle brake for the XM109 anti-material payload rifle.",
-        "translation": "XM109 대물 저격총용 커스텀 듀얼 포트 총구 브레이크입니다."
+        "translation": "XM109 대물 탄두 소총용 커스텀 듀얼 포트 제퇴기입니다."
       },
       {
         "key": "69475859861a5fc94441d17b Name",
         "source": "Barrett XM109 25 inch fluted barrel",
-        "translation": "바렛 XM109 25인치 플루티드 총열\n(Barrett XM109 25 inch fluted barrel )"
+        "translation": "바렛 XM109 25인치 플루티드 총열"
       },
       {
         "key": "69475859861a5fc94441d17b ShortName",
@@ -9887,7 +9887,7 @@
       {
         "key": "69475859861a5fc94441d17b Description",
         "source": "Extended 25 inch fluted barrel for the Barrett XM109 anti-material payload rifle.",
-        "translation": "바렛(Barrett) XM109 대물 저격총용 연장형 25인치 플루티드 총열입니다."
+        "translation": "바렛(Barrett) XM109 대물 탄두 소총용 연장형 25인치 플루티드 총열입니다."
       },
       {
         "key": "69475894dcb467228bcd3fb0 Name",
@@ -9902,7 +9902,7 @@
       {
         "key": "69475894dcb467228bcd3fb0 Description",
         "source": "Standard 17 inch fluted barrel for the Barrett XM109 anti-material payload rifle.",
-        "translation": "바렛(Barrett) XM109 대물 저격총용 17인치 플루티드 총열입니다."
+        "translation": "바렛(Barrett) XM109 대물 탄두 소총용 17인치 플루티드 총열입니다."
       },
       {
         "key": "694da5f84825e8c609000001 Name",
@@ -9923,7 +9923,7 @@
       {
         "key": "694dc176d149fc1d52000003 description",
         "source": "Hey merc, we've got an issue. As usual it's money, but don't worry I'm not asking you for more at the moment. You can fill our coffers as needed another way. You see as of right now my... management doesn't see things here as particularly noteworthy or dangerous. I'd like to put a bug in their ear with evidence to prove that we need some heavier firepower to protect us in the region. I'm thinking some standard shells for the BTR I've seen wandering around the area should disappear from the reserve base arsenal and reappear at the place where the BTR stops a couple hundred meters north of the sawmill. You might find some around their motorpool, they have to unload the guns to work on them after all. As always, you'll find your pockets full after the fact. See to it.",
-        "translation": "용병, 문제가 생겼소. 늘 그렇듯이 돈 문제이니 염려하지 마시오. 지금 당장 더 요구하는 것은 아니오. 대신 다른 방식으로 우리 금고를 채워주면 되오. 현 시점에서 내… 경영진은 이곳의 상황을 특별히 주목할 만하거나 위험하다고 보지 않소. 그러나 우리가 이 지역을 지키기 위해 더 강력한 화력이 필요하다는 증거를 그들의 귀에 속삭여 넣고 싶소. 내 생각에는 이 지역을 돌아다니는 BTR에서 사용되는 표준 탄약이 예비 기지의 무기고에서 사라졌다가, 톱 공장 북쪽 몇 백 미터 지점에서 BTR이 멈추는 곳으로 다시 나타나야 하오. 그들의 차량 정비 구역 주변에서 찾을 수 있을지도 모르오. 결국 총을 손보려면 분해해야 하니까. 언제나처럼, 일이 끝나면 당신의 주머니는 두둑해질 것이오. 처리해 주시오.",
+        "translation": "용병, 문제가 생겼소. 늘 그렇듯이 돈 문제이니 염려하지 마시오. 지금 당장 더 요구하는 것은 아니오. 대신 다른 방식으로 우리 금고를 채워주면 되오. 현 시점에서 내… 경영진은 이곳의 상황을 특별히 주목할 만하거나 위험하다고 보지 않소. 그러나 우리가 이 지역을 지키기 위해 더 강력한 화력이 필요하다는 증거를 그들의 귀에 속삭여 넣고 싶소. 내 생각에는 이 지역을 돌아다니는 BTR에서 사용되는 표준 탄약이 리저브 기지의 무기고에서 사라졌다가, 제재소 북쪽 몇 백 미터 지점에서 BTR이 멈추는 곳으로 다시 나타나야 하오. 그들의 차량 정비 구역 주변에서 찾을 수 있을지도 모르오. 어차피 총을 정비하려면 탄약을 빼내야 하니까. 언제나처럼, 일이 끝나면 당신의 주머니는 두둑해질 것이오. 처리해 주시오.",
         "display_type": "quest_description"
       },
       {
@@ -10012,7 +10012,7 @@
       {
         "key": "694e114418e06664c0682cb8 Description",
         "source": "Eliminate 30 enemy PMCs using the Red Wages of Sin",
-        "translation": "싱가드 암즈 \"죄의 임금\"으로 적 PMC 30명 처치하기",
+        "translation": "‘Red Wages of Sin’ 무기를 사용해 적 PMC 30명 처치하기",
         "display_type": "achievement_description"
       },
       {
@@ -10138,12 +10138,12 @@
       {
         "key": "696801005966cfdf3708c740 ShortName",
         "source": "F2000 Rail",
-        "translation": "F2000"
+        "translation": "F2000 레일"
       },
       {
         "key": "696801005966cfdf3708c740 Description",
         "source": "The standard top rail for the FN F2000 assault rifle, allowing for the attachment of various optics and sights.",
-        "translation": "FN F2000 돌격소총용 표준 상부 레일(Top Rail)로, 다양한 광학 장비와 조준경을 장착할 수 있게 해줍니다."
+        "translation": "FN F2000 돌격소총용 표준 상부 레일(Top Rail)로, 다양한 광학 조준기와 기계식 조준기을 장착할 수 있게 해줍니다."
       },
       {
         "key": "696801005966cfdf3708c742 Name",
@@ -10203,12 +10203,12 @@
       {
         "key": "6968029b5966cfdf3708c74a ShortName",
         "source": "F2000S Rail",
-        "translation": "F2000S"
+        "translation": "F2000S 레일"
       },
       {
         "key": "6968029b5966cfdf3708c74a Description",
         "source": "The slovenian top rail for the FN F2000 assault rifle, It incorporates an elevated upper Picatinny rail that also doubles as a carrying handle.",
-        "translation": "FN F2000 돌격소총용 슬로베니아 상부 레일로, 운반 손잡이 역할을 겸하는 높은 상단 피카티니 레일(피카티니 레일)이 통합되어 있습니다."
+        "translation": "FN F2000 돌격소총용 슬로베니아 상부 레일로, 운반 손잡이 역할을 겸하는 높은 상단 피카티니 레일이 통합되어 있습니다."
       },
       {
         "key": "696808315966cfdf3708c74c Name",
@@ -10233,7 +10233,7 @@
       {
         "key": "696808315966cfdf3708c74e ShortName",
         "source": "F2000 TR",
-        "translation": "F2000"
+        "translation": "F2000 3면 레일"
       },
       {
         "key": "696808315966cfdf3708c74e Description",
@@ -10248,7 +10248,7 @@
       {
         "key": "6968098d5966cfdf3708c750 ShortName",
         "source": "F2000 M",
-        "translation": "F2000"
+        "translation": "F2000 모놀리스"
       },
       {
         "key": "6968098d5966cfdf3708c750 Description",
@@ -10338,7 +10338,7 @@
       {
         "key": "696958420d2309811a0fd1d7 ShortName",
         "source": "F2000 SC",
-        "translation": "F2000"
+        "translation": "F2000 조준경 덮개"
       },
       {
         "key": "696958420d2309811a0fd1d7 Description",
@@ -10348,7 +10348,7 @@
       {
         "key": "6969867592a994a633084f70 Name",
         "source": "FN F2000 5.56x45 assault rifle (FDE)",
-        "translation": "FN F2000 5.56x45 돌격소총 사막색\n(FN F2000 5.56x45 assault rifle FDE)"
+        "translation": "FN F2000 5.56x45 돌격소총 사막색"
       },
       {
         "key": "6969867592a994a633084f70 Description",
@@ -10373,7 +10373,7 @@
       {
         "key": "696e417f1a038d893a04a420 ShortName",
         "source": "MSBS Fold.",
-        "translation": "MSBS"
+        "translation": "MSBS 접이식"
       },
       {
         "key": "696e417f1a038d893a04a420 Description",
@@ -10388,7 +10388,7 @@
       {
         "key": "696e417f1a038d893a04a422 ShortName",
         "source": "MSBS HG",
-        "translation": "MSBS"
+        "translation": "MSBS 총열덮개"
       },
       {
         "key": "696e417f1a038d893a04a422 Description",
@@ -10398,7 +10398,7 @@
       {
         "key": "696e43e31a038d893a04a424 Name",
         "source": "MSBS Grot 5.56x45 receiver",
-        "translation": "MSBS Grot 5.56x45 리시버"
+        "translation": "MSBS Grot 5.56x45 총몸"
       },
       {
         "key": "696e43e31a038d893a04a424 Description",
@@ -10408,7 +10408,7 @@
       {
         "key": "696e452a1a038d893a04a429 Name",
         "source": "MSBS Grot 5.56x45 10.5 inch receiver",
-        "translation": "MSBS Grot 5.56x45 10.5인치 리시버"
+        "translation": "MSBS Grot 5.56x45 10.5인치 총몸"
       },
       {
         "key": "696e452a1a038d893a04a429 ShortName",
@@ -10438,7 +10438,7 @@
       {
         "key": "696e46a11a038d893a04a42d ShortName",
         "source": "MSBS PG",
-        "translation": "MSBS"
+        "translation": "MSBS 권총손잡이"
       },
       {
         "key": "696e46a11a038d893a04a42d Description",
@@ -10453,7 +10453,7 @@
       {
         "key": "696fc24464572d85f30aac0b ShortName",
         "source": "MSBS Adpt.",
-        "translation": "MSBS"
+        "translation": "MSBS 어댑터"
       },
       {
         "key": "696fc24464572d85f30aac0b Description",
@@ -10478,7 +10478,7 @@
       {
         "key": "696fc24464572d85f30aac0e Name",
         "source": "MSBS Grot 5.56x45 16 inch receiver",
-        "translation": "MSBS Grot 5.56x45 16인치 리시버"
+        "translation": "MSBS Grot 5.56x45 16인치 총몸"
       },
       {
         "key": "696fc24464572d85f30aac0e ShortName",
@@ -10513,7 +10513,7 @@
       {
         "key": "696fc803cf7469bf38051731 ShortName",
         "source": "MSBS FG A2",
-        "translation": "MSBS"
+        "translation": "MSBS 전방손잡이"
       },
       {
         "key": "696fc803cf7469bf38051731 Description",
@@ -10528,7 +10528,7 @@
       {
         "key": "696fc803cf7469bf38051733 ShortName",
         "source": "MSBS Fold.",
-        "translation": "MSBS"
+        "translation": "MSBS 접이식"
       },
       {
         "key": "696fc803cf7469bf38051733 Description",
@@ -10543,7 +10543,7 @@
       {
         "key": "696fe221cf7469bf38051736 ShortName",
         "source": "MSBS HG",
-        "translation": "MSBS"
+        "translation": "MSBS 총열덮개"
       },
       {
         "key": "696fe221cf7469bf38051736 Description",
@@ -10558,7 +10558,7 @@
       {
         "key": "696fe221cf7469bf38051738 ShortName",
         "source": "MSBS PG",
-        "translation": "MSBS"
+        "translation": "MSBS 권총손잡이"
       },
       {
         "key": "696fe221cf7469bf38051738 Description",
@@ -10573,7 +10573,7 @@
       {
         "key": "696fe281cf7469bf3805173a ShortName",
         "source": "MSBS Adpt.",
-        "translation": "MSBS"
+        "translation": "MSBS 어댑터"
       },
       {
         "key": "696fe281cf7469bf3805173a Description",
@@ -10598,12 +10598,12 @@
       {
         "key": "696fe281cf7469bf3805173c Name",
         "source": "MSBS Grot A2 M-LOK Foregrip (FDE)",
-        "translation": "MSBS Grot A2 M-LOK 수직손잡이 (사막색)"
+        "translation": "MSBS Grot A2 M-LOK 전방 손잡이 (사막색)"
       },
       {
         "key": "696fe281cf7469bf3805173c ShortName",
         "source": "MSBS FG A2",
-        "translation": "MSBS"
+        "translation": "MSBS 전방손잡이"
       },
       {
         "key": "696fe281cf7469bf3805173c Description",
@@ -10613,7 +10613,7 @@
       {
         "key": "696fe281cf7469bf3805173d Name",
         "source": "MSBS Grot 5.56x45 receiver (FDE)",
-        "translation": "MSBS Grot 5.56x45 리시버 (사막색)"
+        "translation": "MSBS Grot 5.56x45 총몸 (사막색)"
       },
       {
         "key": "696fe281cf7469bf3805173d Description",
@@ -10668,7 +10668,7 @@
       {
         "key": "69777201f57d45a2ec02aafc Description",
         "source": "The SA-1 was designed by Alexander Konstantinov who was working at ZiD at the time, who wanted to make a rifle that was comfortable in off-hand full-auto shooting. To achieve this, the SA-01 was designed as an 'inverted bullpup', where the pistol grip was placed above the receiver. This design was deemed too unwieldy and radical, and as such the weapon was evolved into the SA-001, which was a more conventional weapon.",
-        "translation": "SA-1은 당시 ZiD(Degtyarev Plant)에서 근무하던 알렉산더 콘스탄티노프(Alexander Konstantinov)가 설계했으며, 한 손으로도 자동 사격 시 편안하게 사용할 수 있는 소총을 만들고자 했습니다. 이를 위해 SA-01은 역불펍 형태로 설계되어 권총 그립이 수신기 위쪽에 위치했습니다. 그러나 이 설계는 다루기 어렵고 급진적이라는 평가를 받아, 이후 보다 전통적인 형태인 SA-001로 발전하였습니다."
+        "translation": "SA-1은 당시 ZiD에서 근무하던 알렉산드르 콘스탄티노프가 지지물 없이 전자동 사격을 할 때 다루기 편한 소총을 만들기 위해 설계했습니다. 이를 위해 SA-01은 권총손잡이를 총몸 위에 배치한 역불펍 구조로 만들어졌습니다. 하지만 이 구조는 지나치게 다루기 어렵고 급진적이라고 평가받아, 이후 더 전통적인 형태의 SA-001로 발전했습니다."
       },
       {
         "key": "69777201f57d45a2ec02aafe Name",
@@ -10678,7 +10678,7 @@
       {
         "key": "69777201f57d45a2ec02aafe Description",
         "source": "Standard-issue rear sight for SA-1 assault rifles.",
-        "translation": "SA-1 돌격소총용 표준 가늠자입니다.\n(WTT- Armory"
+        "translation": "SA-1 돌격소총용 표준 가늠자입니다."
       },
       {
         "key": "699c9f633ba4c14a55002932 Name",
@@ -10708,7 +10708,7 @@
       {
         "key": "699c9f633ba4c14a55002933 Description",
         "source": "A special 13.8 inch (355mm) barrel meant for the Colt SMG D.E.A silenced handguard",
-        "translation": "콜트 SMG D.E.A silenced 총열덮개용 special 13.8 inch (355mm) 총열 meant입니다."
+        "translation": "콜트 SMG D.E.A 소음형 총열덮개용으로 특별히 설계된 13.8인치(355mm) 총열입니다."
       },
       {
         "key": "699c9f633ba4c14a55002934 Name",
@@ -10723,7 +10723,7 @@
       {
         "key": "699c9f633ba4c14a55002934 Description",
         "source": "A special 13.8 inch (355mm) handguard meant for the Colt SMG D.E.A silenced barrel",
-        "translation": "콜트 SMG D.E.A silenced 총열용 special 13.8 inch (355mm) 총열덮개 meant입니다."
+        "translation": "콜트 SMG D.E.A 소음형 총열용으로 특별히 설계된 13.8인치(355mm) 총열덮개입니다."
       },
       {
         "key": "699c9f633ba4c14a55002935 Name",
@@ -10768,7 +10768,7 @@
       {
         "key": "6a6cd6df8ca3e7453cc7184c Name",
         "source": "FN EVOLYS Polymer stock",
-        "translation": "FN EVOLYS Polymer 개머리판"
+        "translation": "FN EVOLYS 폴리머 개머리판"
       },
       {
         "key": "6a6cd6df8ca3e7453cc7184c Description",
@@ -10818,12 +10818,12 @@
       {
         "key": "6a6ce76d8ca3e7453cc71856 Name",
         "source": "FN EVOLYS 7.62x51 heavy barrel",
-        "translation": "FN EVOLYS 7.62x51 중총열"
+        "translation": "FN EVOLYS 7.62x51 중량형 총열"
       },
       {
         "key": "6a6ce76d8ca3e7453cc71856 Description",
         "source": "A high-quality reinforced heavy barrel for the FN EVOLYS 7.62x51 machine gun, designed for improved accuracy and performance.",
-        "translation": "FN EVOLYS 7.62x51 기관총용 고품질 강화 중총열로, 정확도와 성능 향상을 위해 설계되었습니다."
+        "translation": "FN EVOLYS 7.62x51 기관총용 고품질 강화 중량형 총열로, 정확도와 성능 향상을 위해 설계되었습니다."
       },
       {
         "key": "6a6ce7aa8ca3e7453cc71858 Name",
@@ -10833,7 +10833,7 @@
       {
         "key": "6a6ce7aa8ca3e7453cc71858 ShortName",
         "source": "FN EVOLYS Barrel",
-        "translation": "FN EVOLYS"
+        "translation": "FN EVOLYS 총열"
       },
       {
         "key": "6a6ce7aa8ca3e7453cc71858 Description",
@@ -10903,7 +10903,7 @@
       {
         "key": "70493dc2459f53ff14b14175 Description",
         "source": "The Badger Ordnance IMUNS installs into any Accuracy International Chassis 2.0 (except AS 50’s), replaces the current bipod mounting block and allows the use of clip on night vision devices such as the A/N PVS-22, A/N PVS-24, A/N PVS-27 or other devices like thermal imagers or fusion devices.",
-        "translation": "뱃저 오드넌스(Badger Ordnance) IMUNS는 모든 어큐러시 인터내셔널(Accuracy International) 섀시 2.0(AS 50 제외)에 설치 가능합니다. 기존 양각대 장착 블록을 대체하며, AN/PVS-22, AN/PVS-24, AN/PVS-27과 같은 클립온 방식의 야간 투시경이나 열화상 장비 등을 장착할 수 있도록 확장성을 제공합니다."
+        "translation": "뱃저 오드넌스(Badger Ordnance) IMUNS는 모든 어큐러시 인터내셔널(Accuracy International) 섀시 2.0(AS 50 제외)에 설치 가능합니다. 기존 양각대 장착 블록을 대체하며, AN/PVS-22, AN/PVS-24, AN/PVS-27과 같은 클립온 방식의 야간투시경, 열화상 장비, 영상 융합 장치 등을 장착할 수 있도록 확장성을 제공합니다."
       },
       {
         "key": "8bf881390b6747006aae77a3 Name",
@@ -10943,7 +10943,7 @@
       {
         "key": "924d08fd140d56bc7e395091 Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 메카닉이 이번에는 솜씨를 제대로 발휘한 듯합니다."
       },
       {
         "key": "929ee8d8dea876224fe8daa6 Name",
@@ -10993,7 +10993,7 @@
       {
         "key": "a10805748f12422327de49a8 Description",
         "source": "An extended 18-round magazine for the PM 9x18PM pistol.",
-        "translation": "PM 9x18PM 권총용으로 설계된 확ㄴ장형 18발 탄창입니다."
+        "translation": "PM 9x18PM 권총용으로 설계된 확장형 18발 탄창입니다."
       },
       {
         "key": "a483029913455f81127fd070 Name",
@@ -11003,7 +11003,7 @@
       {
         "key": "a483029913455f81127fd070 Description",
         "source": "A makeshift 55-round 9x18PM drum magazine assemlbed from the parts of an MP-18 drum magazine.",
-        "translation": "MP-18 드럼 탄창의 부품들을 모아 조립한 9x18PM 구경의 55들이 급조형 드럼 탄창입니다."
+        "translation": "MP-18 드럼 탄창의 부품들을 모아 조립한 9x18PM 구경의 55발들이 급조형 드럼 탄창입니다."
       },
       {
         "key": "aab94c09a091574e55810eba Name",
@@ -11018,7 +11018,7 @@
       {
         "key": "aab94c09a091574e55810eba Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 메카닉이 이번에는 솜씨를 제대로 발휘한 듯합니다."
       },
       {
         "key": "ae64bd806a5e9ca6d8ec656c Name",
@@ -11048,7 +11048,7 @@
       {
         "key": "b5764983c9a6fb507af2aeb3 Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 메카닉이 이번에는 솜씨를 제대로 발휘한 듯합니다."
       },
       {
         "key": "c0a00711f992a1aecdc53ae0 Name",
@@ -11073,12 +11073,12 @@
       {
         "key": "c2fb28cafc78fbd58e9ada1d Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 메카닉이 이번에는 솜씨를 제대로 발휘한 듯합니다."
       },
       {
         "key": "c556f40e464c7f09d4c757fc Description",
         "source": "A .338 Norma Magnum (8.6x63mm) 300-grain Norma Golden Target HPBT precision cartridge.\nEngineered for extreme long-range accuracy, this boat-tail match projectile emphasizes ballistic coefficient, wind stability, and consistent shot-to-shot performance. It is not designed for rapid expansion, but its mass and sectional density allow it to retain energy exceptionally well downrange. Manufactured with premium Norma brass and optimized for professional marksman platforms.",
-        "translation": ".338 노르마 매그넘(8.6x63mm) 300그레인 Norma Golden Target HPBT 정밀 카트리지입니다.\n초장거리 명중률을 위해 설계된 이 보트 테일 경기용 탄환은 탄도 계수, 풍향 안정성 및 매 사격 시의 일관된 성능에 중점을 두었습니다. 급격한 팽창용으로 설계되지는 않았으나, 높은 질량과 단면 밀도를 통해 원거리에서도 에너지를 매우 잘 유지합니다. 프리미엄 노르마(Norma) 황동 탄피로 제작되었으며 전문 저격수 플랫폼에 최적화되어 있습니다."
+        "translation": ".338 노르마 매그넘(8.6x63mm) 300그레인 Norma Golden Target HPBT 정밀 카트리지입니다.\n초장거리 명중률을 위해 설계된 이 보트 테일 경기용 탄환은 탄도 계수, 측풍에 대한 안정성 및 매 사격 시의 일관된 성능에 중점을 두었습니다. 급격한 팽창용으로 설계되지는 않았으나, 높은 질량과 단면 밀도를 통해 원거리에서도 에너지를 매우 잘 유지합니다. 프리미엄 노르마(Norma) 황동 탄피로 제작되었으며 전문 저격수 플랫폼에 최적화되어 있습니다."
       },
       {
         "key": "c572ff3cb1b04b5dd73e615b Name",
@@ -11103,7 +11103,7 @@
       {
         "key": "c68564cf5a0d02bc54ea5725 Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 메카닉이 이번에는 솜씨를 제대로 발휘한 듯합니다."
       },
       {
         "key": "c8548cdf0e490383177f37c1 Name",
@@ -11118,22 +11118,22 @@
       {
         "key": "c9dc0b769bd36d06524b9bde Name",
         "source": "AEK series metal skeletonized stock",
-        "translation": "AEK 시리즈용 메탈 경량 개머리판"
+        "translation": "AEK 시리즈용 금속 골격형 개머리판"
       },
       {
         "key": "c9dc0b769bd36d06524b9bde Description",
         "source": "Standard metal skeletonized stock for the AEK series of assault rifles.",
-        "translation": "AEK 시리즈 돌격소총에 사용되는 표준형 금속 경량 개머리판입니다."
+        "translation": "AEK 시리즈 돌격소총에 사용되는 표준형 금속 골격형 개머리판입니다."
       },
       {
         "key": "ca525c0ecc13667bd1ef357c Name",
         "source": "Heritage Ordnance HK MP5 60-Round Casket Magazine",
-        "translation": "60발, HK MP5 헤리티지 오드넌스 카세트형 탄창"
+        "translation": "60발, HK MP5 헤리티지 오드넌스 캐스킷형 탄창"
       },
       {
         "key": "ca525c0ecc13667bd1ef357c ShortName",
         "source": "Casket",
-        "translation": "보석함"
+        "translation": "캐스킷"
       },
       {
         "key": "ca525c0ecc13667bd1ef357c Description",
@@ -11148,7 +11148,7 @@
       {
         "key": "ccab703b048be433c03a671c Description",
         "source": "A 100-round 5.56x45 c-mag style drum magazine designed for the HK MG36.",
-        "translation": "헤클러 & 코흐(HK) MG36용으로 설계된 100들이 C-MAG 스타일 드럼 탄창입니다."
+        "translation": "헤클러 & 코흐(HK) MG36용으로 설계된 100발들이 C-MAG 스타일 드럼 탄창입니다."
       },
       {
         "key": "d4fa8040a5b69d46bf8819e3 Name",
@@ -11158,7 +11158,7 @@
       {
         "key": "d4fa8040a5b69d46bf8819e3 Description",
         "source": "A polymer 5.7x28mm 55-round P90 magazine manufactured by OmniTech Systems. The magazine offers extended capacity over the factory magazine by utilizing a thinner follower and spring mechanism.",
-        "translation": "옴니텍 시스템즈(OmniTech Systems)에서 제작한 폴리머 재질의 5.7x28mm 55들이 P90 탄창입니다. 더 얇은 팔로워와 스프링 메커니즘을 사용하여 기본형 탄창보다 확장된 장탄수를 제공합니다."
+        "translation": "옴니텍 시스템즈(OmniTech Systems)에서 제작한 폴리머 재질의 5.7x28mm 55발들이 P90 탄창입니다. 더 얇은 팔로워와 스프링 메커니즘을 사용하여 기본형 탄창보다 확장된 장탄수를 제공합니다."
       },
       {
         "key": "deee28079e76d537f532021c Name",
@@ -11233,7 +11233,7 @@
       {
         "key": "edf82ccea7041e055852e7dc Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 메카닉이 이번에는 솜씨를 제대로 발휘한 듯합니다."
       },
       {
         "key": "ef91b747041c9337fd9a711b Name",
@@ -11288,7 +11288,7 @@
       {
         "key": "f8c59c78b4d984a2ce1d298d Description",
         "source": "A custom barrel from X-Caliber featuring their cryogenic treatment and fluting. Very nice barrels overall, mechanic has outdone himself.",
-        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 제작자의 정성이 돋보이는 제품입니다."
+        "translation": "초저온 처리와 플루팅 가공이 적용된 엑스-칼리버(X-Caliber)의 커스텀 총열입니다. 전반적으로 매우 훌륭한 품질을 자랑하며, 메카닉이 이번에는 솜씨를 제대로 발휘한 듯합니다."
       },
       {
         "key": "fd1dc8b28bf5a17bbc218dc0 Name",
@@ -11551,7 +11551,7 @@
       {
         "key": "687b616db015c21f329bf45f Description",
         "source": "Come in, have a seat. I’ve got something unusual for you today. Sergey’s buried in his own work, tinkering with some high-priority builds. He asked me to deal with it, but I’m stretched thin keeping the reserve in check. Looters are crawling all over, and I’m out here playing whack-a-mole with them, so I’m passing this to you. There’s an AN94 stashed out there, left by someone who wants to stay in the shadows. No names, no details, just how they like it. The rifle’s hidden somewhere at the old makeshift military base near the lake. There’s a list of attachments and mods they want on it. I trust you to get it done right and not run off with the gun.  Get it done, and bring it back to me. I’ll make sure it gets to where it’s supposed to go.  ",
-        "translation": "어서 옵세, 여기 앉게. 오늘은 좀 특이한 게 있어. 세르게이는 우선순위 높은 작업에 파묻혀 있어서 네가 처리해야 하네. 나는 비축 창고 관리하느라 손이 모자라거든. 약탈자들이 들끓고 있어서 두더지 잡기하듯 상대하느라 바쁘다네. 그래서 이걸 자네한테 넘기겠네. AN94가 어딘가에 숨겨져 있을 걸세. 누군가 정체를 드러내고 싶지 않은 사람이 남긴 게지. 이름도 없고, 세부사항도 없어, 그들이 좋아하는 방식대로. 그 소총은 호수 근처의 낡은 임시 군사 기지 어딘가에 숨겨져 있다네. 거기에 원하는 개조 부품과 파츠 목록이 있다네. 자네가 제대로 해낼 거라고 믿고, 총을 들고 도망치지는 않을 거라 생각하네. 잘 끝내서 나한테 가져오면 된다네. 내가 원래 있어야 할 곳으로 가게 해주겠네.",
+        "translation": "어서 옵세, 여기 앉게. 오늘은 좀 특이한 게 있어. 세르게이는 우선순위가 높은 제작 작업에 매달려 있지. 그가 내게 이 일을 맡아 달라고 했지만, 난 리저브 기지를 관리하느라 손이 모자라거든. 약탈자들이 들끓고 있어서 두더지 잡기하듯 상대하느라 바쁘다네. 그래서 이걸 자네한테 넘기겠네. AN94가 어딘가에 숨겨져 있을 걸세. 누군가 정체를 드러내고 싶지 않은 사람이 남긴 게지. 이름도 없고, 세부사항도 없어, 그들이 좋아하는 방식대로. 그 소총은 호수 근처의 낡은 임시 군사 기지 어딘가에 숨겨져 있다네. 거기에 원하는 개조 부품과 파츠 목록이 있다네. 자네가 제대로 해낼 거라고 믿고, 총을 들고 도망치지는 않을 거라 생각하네. 잘 끝내서 나한테 가져오면 된다네. 내가 원래 있어야 할 곳으로 가게 해주겠네.",
         "match_mode": "item_decorated",
         "display_type": "quest_description"
       },
@@ -11564,7 +11564,7 @@
       {
         "key": "687b616db015c21f329bf45f SuccessMessageText",
         "source": "Impressive work. Let me see it...Clean job. You followed the specs to the letter. I’ve got some extra gear stashed away, good stuff from the reserve. You earned it. Oh, Sergey said you should go by and see him, he's got some new wares you might be interested in. \n\n\n\n\n\n\n\n",
-        "translation": "대단하군. 어디... 깔끔하게 처리했군. 사양 그대로 잘 맞췄네. 비축해 둔 좋은 장비가 있는데, 자네에게 줄 수 있다네. 아, 세르게이가 들러 보라고 자네에게 말하더군. 새로운 물건이 좀 생겼다던데, 자네가 관심 가질 만할 걸세. \n\n\n\n\n\n\n\n",
+        "translation": "대단하군. 어디... 깔끔하게 처리했군. 사양 그대로 잘 맞췄네. 비축해 둔 좋은 장비가 있는데, 자네가 받기에 충분한 보수지. 아, 세르게이가 들러 보라고 자네에게 말하더군. 새로운 물건이 좀 생겼다던데, 자네가 관심 가질 만할 걸세. \n\n\n\n\n\n\n\n",
         "match_mode": "item_decorated"
       },
       {
@@ -11582,7 +11582,7 @@
       {
         "key": "68561cd4801134be939e11f6 Description",
         "source": "Hello mercenary. You know how memories creep up from the old days. Back when I was running things at the Factory I overheard my boss talking about a rare antique smoothbore pistol. Kept it in a fancy display case. Word is it was gifted to some accountant he dealt with. I want that piece for myself now. Something about the craft of it calls to me. Check the Black Knight building over in Military Reserve. That's where that accountant's office used to be. Find it and bring it back. I’ll make it worth your while.",
-        "translation": "반갑군, 용병. 옛날 기억들이 불쑥불쑥 떠오르는 게 어떤 건지 알걸세. 내가 공장을 운영하던 시절, 상사가 희귀한 고풍스러운 매끄러운 총(스무드보어 권총)에 대해 이야기하는 걸 엿들은 적이 있다네. 그건 멋진 전시 케이스 안에 보관되어 있었지. 들리는 말로는 그가 거래하던 회계사 중 한 명에게 선물했다고 하더군. 지금은 내가 그 물건을 갖고 싶다네. 그 수공예품이 내 마음을 끌어. 군사 기지의 블랙 나이트 건물을 확인해보세. 그 회계사의 사무실이 거기에 있었다네. 찾아서 가져오면 보상은 확실히 해주겠네.",
+        "translation": "반갑군, 용병. 옛날 기억들이 불쑥불쑥 떠오르는 게 어떤 건지 알걸세. 내가 공장을 운영하던 시절, 상사가 희귀한 고풍스러운 활강식 권총에 대해 이야기하는 걸 엿들은 적이 있다네. 그건 멋진 전시 케이스 안에 보관되어 있었지. 들리는 말로는 그가 거래하던 회계사 중 한 명에게 선물했다고 하더군. 지금은 내가 그 물건을 갖고 싶다네. 그 수공예품이 내 마음을 끌어. 리저브 군사기지의 블랙 나이트 건물을 확인해보세. 그 회계사의 사무실이 거기에 있었다네. 찾아서 가져오면 보상은 확실히 해주겠네.",
         "match_mode": "item_decorated",
         "display_type": "quest_description"
       },
@@ -11607,14 +11607,14 @@
       {
         "key": "6833b8bc6f8ce71072c4e703 Description",
         "source": "Good afternoon Mercenary. We’ve got a messy situation brewing. Those hostile factions out in Woods are hitting our UN aid convoys hard. The world needs to see it plain and clear. I want you to plant three UNTAR tags near their hotspots. Stick them on some executed bodies. Once the news catches wind that BEAR and USEC are butchering blue helmets donations to our operations will pour in. It’s about saving lives through the right kind of spotlight.",
-        "translation": "좋은 오후요, 용병. 지금 상황이 복잡하게 꼬이고 있소. 삼림에서 활동하는 적 세력이 우리 UN 구호 수송대를 심하게 공격하고 있지. 세상이 이걸 똑똑히 볼 필요가 있소. 네가 그들의 거점 근처에 UNTAR 인식표 3개를 심어두길 원하오. 몇 구의 시체에 붙이시오. 곧 언론이 BEAR와 USEC이 UN 병력(블루 헬멧)을 학살하고 있다는 소식을 퍼뜨릴 거고, 그러면 우리 작전에 대한 기부금이 쏟아져 들어올 것이오. 올바른 방식의 스포트라이트를 통해 생명을 구하는 거요.",
+        "translation": "좋은 오후요, 용병. 지금 상황이 복잡하게 꼬이고 있소. 삼림에서 활동하는 적 세력이 우리 UN 구호 수송대를 심하게 공격하고 있지. 세상이 이걸 똑똑히 볼 필요가 있소. 네가 그들의 거점 근처에 UNTAR 인식표 3개를 심어두길 원하오. 처형된 시체 몇 구에 붙이시오. 곧 언론이 BEAR와 USEC이 UN 병력(블루 헬멧)을 학살하고 있다는 소식을 퍼뜨릴 거고, 그러면 우리 작전에 대한 기부금이 쏟아져 들어올 것이오. 올바른 방식의 스포트라이트를 통해 생명을 구하는 거요.",
         "match_mode": "item_decorated",
         "display_type": "quest_description"
       },
       {
         "key": "6833b8bc6f8ce71072c4e703 StartedMessageText",
         "source": "Get those tags planted and stage the bodies clean. Then disappear. If anyone traces this back or you get caught you’re just a lone wolf acting on your own.",
-        "translation": "태그를 심고 현장을 깨끗하게 꾸미시오. 그 다음 흔적도 없이 사라지는것이오. 누가 추적하거나 네가 잡히면 당신은 그냥 단독으로 움직인 외로운 늑대일 뿐이오.",
+        "translation": "인식표를 심고 시체들이 자연스럽게 보이도록 현장을 꾸미시오. 그런 다음 자취를 감추시오. 누군가 이 일을 추적하거나 자네가 붙잡히면, 자네는 혼자 멋대로 행동한 단독범일 뿐이오.",
         "match_mode": "item_decorated"
       },
       {
@@ -11662,7 +11662,7 @@
       {
         "key": "683645245a1c12488166b1a5 Description",
         "source": "Our Swedish pals seem to have lost a hard drive during their little \"audit\" of Tarkov’s relief operations. Go fetch it from their abandoned armored vehicle out in the Streets. That drive’s got some juicy details: tax havens, embargoed tech deals, shipping manifests... Get it to me and we could nudge Stockholm into redirecting some UN aid budgets our way. Wouldn’t it be a pity if their shady deals with TerraGroup got out?",
-        "translation": "우리 스웨덴 친구들이 타르코프 구호 작전을 ‘감사’한다며 굴러다니던 중, 하드 드라이브 하나를 잃어버린 모양이오. 도시에 버려진 장갑 차량에서 그걸 찾아오시오. 거기엔 세금 회피처, 금수품 거래, 선적 명세서 같은 알짜 정보가 들어 있소... 그걸 내가 손에 넣으면 스톡홀름이 UN 예산 일부를 우리 쪽으로 돌리도록 유도할 수 있겠지. 그들의 테라그룹과의 더러운 거래가 새어나가면 참 안타깝지 않겠소?",
+        "translation": "우리 스웨덴 친구들이 타르코프 구호 작전을 ‘감사’한다며 진행하던 중, 하드 드라이브 하나를 잃어버린 모양이오. 도시에 버려진 장갑 차량에서 그걸 찾아오시오. 거기엔 세금 회피처, 금수 조치 대상 기술 거래, 선적 명세서 같은 알짜 정보가 들어 있소... 그걸 내가 손에 넣으면 스톡홀름이 UN 예산 일부를 우리 쪽으로 돌리도록 유도할 수 있겠지. 그들의 테라그룹과의 더러운 거래가 새어나가면 참 안타깝지 않겠소?",
         "match_mode": "item_decorated",
         "display_type": "quest_description"
       },
@@ -11736,14 +11736,14 @@
       {
         "key": "686dd4f871840e292fbd1a14 Description",
         "source": "Those fucking bastards! I believe I know who attacked my convoy that was carrying my shipment of the M249 SAW! One of my guys told me it looked like a small group of Ex-USEC guys. I need you to go back to Customs and take care of them for me while I figure out why the fuck they stole my guns. I bet those bastards have them stashed somewhere.",
-        "translation": "빌어먹을 놈들! 내 M249 SAW 화물을 실은 수송대를 습격한 게 누군지 짐작이 가오. 내 부하 중 한 명이, 그게 바로 그 빌어먹을 군즈(Goons) 같다고 말했소. 당신이 커스텀으로 돌아가 놈들을 처리해줘야 하오. 놈들이 왜 내 총기를 훔쳤는지 알아내는 동안... 분명 어딘가에 숨겨놨을 것이오.",
+        "translation": "빌어먹을 놈들! 내 M249 SAW 화물을 실은 수송대를 습격한 게 누군지 짐작이 가오. 내 부하 중 한 명이, 전 USEC 출신자들로 보이는 소규모 집단이라고 말했소. 당신이 커스텀으로 돌아가 놈들을 처리해줘야 하오. 놈들이 왜 내 총기를 훔쳤는지 알아내는 동안... 분명 어딘가에 숨겨놨을 것이오.",
         "match_mode": "item_decorated",
         "display_type": "quest_description"
       },
       {
         "key": "686dd4f871840e292fbd1a14 StartedMessageText",
         "source": "Go get them, make them pay for even thinking they can intercept my gear.",
-        "translation": "당장 죽여버리시오!!",
+        "translation": "가서 놈들을 잡으시오. 감히 내 장비를 가로챌 생각을 한 대가를 치르게 하시오.",
         "match_mode": "item_decorated"
       },
       {
@@ -11774,7 +11774,7 @@
       {
         "key": "6870170d18b94df2e8700ba0 SuccessMessageText",
         "source": "Nice job getting those crates marked. Looks like those Stray Dogs were trying to cook up something slick with my guns. Here’s your reward, take it.",
-        "translation": "잘했소. 상자 표시를 끝냈군. 군즈 놈들이 내 총으로 뭔가 꾸미려던 모양이순. 여기 보상이오, 가져가시오.",
+        "translation": "잘했소. 상자 표시를 끝냈군. 군즈 놈들이 내 총으로 뭔가 꾸미려던 모양이군. 여기 보상이오, 가져가시오.",
         "match_mode": "item_decorated"
       },
       {
@@ -11793,7 +11793,7 @@
       {
         "key": "6877096d5299037a1c4b7b2f StartedMessageText",
         "source": "Thanks for doing this soldier. These guns better be worth it!",
-        "translation": "도와줘서 고맙소, 전사여. 이 총들이 제값을 해야 할 텐데!",
+        "translation": "도와줘서 고맙소, 제군. 이 총들이 제값을 해야 할 텐데!",
         "match_mode": "item_decorated"
       },
       {
@@ -11824,7 +11824,7 @@
       {
         "key": "68784cf8dbe00560604d51e1 SuccessMessageText",
         "source": "Awesome work! Here is a little extra for your help.",
-        "translation": "멋진 결과요! 덕분에 보너스를 좀 더 챙겨 줄 수 있겠소.",
+        "translation": "멋진 일이오! 도와준 대가로 추가 보상을 좀 더 챙겨 드리겠소.",
         "match_mode": "item_decorated"
       },
       {
@@ -11836,20 +11836,20 @@
       {
         "key": "6879a0da60f8d8a90e632755 Description",
         "source": "Alright, Merc. I have one more task for you. I got the other shipments of those weapons you tested for purchase. The last thing I am going to ask is you to kill more PMCs, but this time at night. If this goes well I can get one more variant of the weapon and this one looks badass.",
-        "translation": "좋소, 전사여. 마지막 임무가 있소. 네가 시험했던 무기들의 나머지 물량이 도착했소. 마지막으로 부탁할 건 더 많은 PMC들을 처치하는 거요. 이번엔 밤에. 이게 잘 되면 무기의 또 다른 변형을 가져올 수 있을거요. 이번 건은 진짜 끝내주는군.",
+        "translation": "좋소, 용병. 한 가지 임무를 더 맡기겠소. 자네가 시험했던 무기들의 다른 물량을 구매할 수 있게 됐소. 마지막으로 부탁할 일은 PMC들을 더 처치하는 것이오. 단, 이번엔 밤에 해야 하오. 잘만 되면 또 다른 무기 변형도 확보할 수 있을 테니 말이오. 그건 정말 멋진 물건이오.",
         "match_mode": "item_decorated",
         "display_type": "quest_description"
       },
       {
         "key": "6879a0da60f8d8a90e632755 StartedMessageText",
         "source": "I am counting on you. Do this and I will reward you well.",
-        "translation": "당신을 믿소, 전사여. 해내면 충분한 보상을 주겠소.",
+        "translation": "당신을 믿소. 해내면 충분한 보상을 주겠소.",
         "match_mode": "item_decorated"
       },
       {
         "key": "6879a0da60f8d8a90e632755 SuccessMessageText",
         "source": "Hell yeah! Here, take this for payment - I will get a shipment of these weapons ready to distribute soon!",
-        "translation": "좋소! 이 보상을 가져가시오. 곧 이 무기의 신규 물량이 들어올 거요!",
+        "translation": "좋소! 이 보상을 가져가시오. 곧 이 무기들을 배포할 수 있도록 물량을 준비해 두겠소!",
         "match_mode": "item_decorated"
       },
       {
@@ -11861,7 +11861,7 @@
       {
         "key": "694dc176d149fc1d52000003 Description",
         "source": "Hey merc, we've got an issue. As usual it's money, but don't worry I'm not asking you for more at the moment. You can fill our coffers as needed another way. You see as of right now my... management doesn't see things here as particularly noteworthy or dangerous. I'd like to put a bug in their ear with evidence to prove that we need some heavier firepower to protect us in the region. I'm thinking some standard shells for the BTR I've seen wandering around the area should disappear from the reserve base arsenal and reappear at the place where the BTR stops a couple hundred meters north of the sawmill. You might find some around their motorpool, they have to unload the guns to work on them after all. As always, you'll find your pockets full after the fact. See to it.",
-        "translation": "용병, 문제가 생겼소. 늘 그렇듯이 돈 문제이니 염려하지 마시오. 지금 당장 더 요구하는 것은 아니오. 대신 다른 방식으로 우리 금고를 채워주면 되오. 현 시점에서 내… 경영진은 이곳의 상황을 특별히 주목할 만하거나 위험하다고 보지 않소. 그러나 우리가 이 지역을 지키기 위해 더 강력한 화력이 필요하다는 증거를 그들의 귀에 속삭여 넣고 싶소. 내 생각에는 이 지역을 돌아다니는 BTR에서 사용되는 표준 탄약이 예비 기지의 무기고에서 사라졌다가, 톱 공장 북쪽 몇 백 미터 지점에서 BTR이 멈추는 곳으로 다시 나타나야 하오. 그들의 차량 정비 구역 주변에서 찾을 수 있을지도 모르오. 결국 총을 손보려면 분해해야 하니까. 언제나처럼, 일이 끝나면 당신의 주머니는 두둑해질 것이오. 처리해 주시오.",
+        "translation": "용병, 문제가 생겼소. 늘 그렇듯이 돈 문제이니 염려하지 마시오. 지금 당장 더 요구하는 것은 아니오. 대신 다른 방식으로 우리 금고를 채워주면 되오. 현 시점에서 내… 경영진은 이곳의 상황을 특별히 주목할 만하거나 위험하다고 보지 않소. 그러나 우리가 이 지역을 지키기 위해 더 강력한 화력이 필요하다는 증거를 그들의 귀에 속삭여 넣고 싶소. 내 생각에는 이 지역을 돌아다니는 BTR에서 사용되는 표준 탄약이 리저브 기지의 무기고에서 사라졌다가, 제재소 북쪽 몇 백 미터 지점에서 BTR이 멈추는 곳으로 다시 나타나야 하오. 그들의 차량 정비 구역 주변에서 찾을 수 있을지도 모르오. 어차피 총을 정비하려면 탄약을 빼내야 하니까. 언제나처럼, 일이 끝나면 당신의 주머니는 두둑해질 것이오. 처리해 주시오.",
         "match_mode": "item_decorated",
         "display_type": "quest_description"
       },
@@ -11880,7 +11880,7 @@
       {
         "key": "687314e1ee500b06711955a2 Description",
         "source": "Greetings comrade. When the blockade kicked off and most of the reserve base boys ditched the place Glukhar and his crew of scavengers busted into the weapons testing area and grabbed whatever they could get their filthy hands on. Most of that gear is long gone, used up or trashed. But word is the scraps they left behind are about to be moved. Glukhar’s planning to spread his rot further across our land.",
-        "translation": "안녕하신가, 동지. 봉쇄가 시작되면서 대부분의 예비 기지 놈들이 자리를 버리고 도망쳤을 때, 글루카르와 그의 약탈자 무리가 무기 시험 구역을 털어 손에 닿는 대로 더러운 손을 뻗어 챙겼다네. 그 장비 대부분은 이미 사라졌거나 소모되었거나 폐기되었다. 하지만 소문에 따르면 그들이 남겨둔 잔재가 곧 이동될 예정이라더군. 글루카르는 자기 썩은 영향력을 더 넓게 퍼뜨릴 계획을 세우고 있다네.",
+        "translation": "안녕하신가, 동지. 봉쇄가 시작되면서 대부분의 리저브 기지 병력들이 자리를 버리고 도망쳤을 때, 글루카르와 그의 약탈자 무리가 무기 시험 구역을 털어 손에 닿는 대로 더러운 손을 뻗어 챙겼다네. 그 장비 대부분은 이미 사라졌거나 소모되었거나 폐기되었다. 하지만 소문에 따르면 그들이 남겨둔 잔재가 곧 이동될 예정이라더군. 글루카르는 자기 썩은 영향력을 더 넓게 퍼뜨릴 계획을 세우고 있다네.",
         "match_mode": "item_decorated",
         "display_type": "quest_description"
       },
@@ -11893,7 +11893,7 @@
       {
         "key": "687314e1ee500b06711955a2 SuccessMessageText",
         "source": "Nice work warrior. You pulled those goods out before Glukhar’s dogs could move them. Our homeland owes you one. Here’s your cut. Now get lost.",
-        "translation": "잘했군, 전사여. 글루카르의 개들이 움직이기 전에 자네가 그 물건을 빼냈더군. 조국이 제네에게 빚을 졌다네. 여기 자네 몫일세. 해산.",
+        "translation": "잘했군, 전사여. 글루카르의 개들이 움직이기 전에 자네가 그 물건을 빼냈더군. 조국이 자네에게 빚을 졌다네. 여기 자네 몫일세. 해산.",
         "match_mode": "item_decorated"
       },
       {
@@ -11912,7 +11912,7 @@
       {
         "key": "6873248b615c003311ebb292 StartedMessageText",
         "source": "Good Luck out there. Try not to die over this. ",
-        "translation": "조심해라. 죽지 말고 잘 처리해라.",
+        "translation": "행운을 빈다. 이 일 때문에 목숨을 잃지는 말고.",
         "match_mode": "item_decorated"
       },
       {
@@ -11924,7 +11924,7 @@
       {
         "key": "6873248b615c003311ebb292 SuccessMessageText",
         "source": "Well, damn, merc, you actually pulled it off! Found that console and dvd, huh? Not bad for a glorified scavenger. Dropped ‘em off at the mini theater like I asked, too? My client’s gonna be over the moon, probably crying into his vintage popcorn. You’ve got some skills, operator. Stick around, nice to have someone that don't fuck up a simple fetch job. Now go clean your gear or something.",
-        "translation": "와, 용병, 진짜 해냈군! 콘솔이랑 DVD 찾았지? 명색이 스캐브치곤 나쁘지 않네. 미니 극장에 정확히 놓았나 보네? 고객이 완전 좋아할 거야, 아마 옛날 팝콘 들고 울지도 몰라. 실력 있네, 오퍼레이터. 잘 해내는 사람 있어서 좋다. 이제 장비 정리 좀 해라.",
+        "translation": "젠장, 용병, 정말 해냈군! 콘솔하고 DVD를 찾았다고? 고작 스캐브보다 좀 나은 처지치고는 제법이야. 내가 부탁한 대로 미니 영화관에 갖다 놨겠지? 내 고객은 뛸 듯이 기뻐할 거야. 오래된 팝콘을 붙잡고 울지도 모르지. 실력이 있군, 오퍼레이터. 앞으로도 여기 남아서 일해 줘. 간단한 물건 심부름조차 망치지 않는 사람이 있으니 좋네. 이제 가서 장비라도 손질해.",
         "match_mode": "item_decorated"
       },
       {
@@ -11936,7 +11936,7 @@
       {
         "key": "686051774a290eb6f216471f Description",
         "source": "I tracked down tracked down a shipment of NATO weapons that was delivered to Customs. We aren't sure what the weapons are, but I want you to go and track them down and mark the shipment for me!",
-        "translation": "세관에 도착한 NATO 무기 수송을 추적했다. 어떤 무기인지 확실치 않지만, 너가 가서 찾아 표시를 해주길 원해!",
+        "translation": "세관으로 배송된 NATO 무기 수송품의 행방을 알아냈다. 어떤 무기인지 확실치 않지만, 네가 가서 찾아 표시를 해주길 원해!",
         "match_mode": "item_decorated",
         "display_type": "quest_description"
       },
@@ -12060,21 +12060,21 @@
       {
         "key": "694e114418e06664c0682cb8 description",
         "source": "Eliminate 30 enemy PMCs using the Red Wages of Sin",
-        "translation": "싱가드 암즈 \"죄의 임금\"으로 적 PMC 30명 처치하기",
+        "translation": "‘Red Wages of Sin’ 무기를 사용해 적 PMC 30명 처치하기",
         "match_mode": "item_decorated",
         "display_type": "achievement_description"
       },
       {
         "key": "d4fa8040a5b69d46bf8819e3 ShortName",
         "source": "P90",
-        "translation": "P90 상부",
+        "translation": "P90",
         "match_mode": "exact",
         "display_type": "default"
       },
       {
         "key": "687daf1f7353335188000003 ShortName",
         "source": "M8",
-        "translation": "M8 옵틱",
+        "translation": "M8",
         "match_mode": "exact",
         "display_type": "default"
       },
@@ -12095,35 +12095,35 @@
       {
         "key": "687aff780a062c4f04628738 ShortName",
         "source": "EVO 3",
-        "translation": "EVO 3인치",
+        "translation": "EVO 3",
         "match_mode": "exact",
         "display_type": "default"
       },
       {
         "key": "687fb49322e3cb02683967bf ShortName",
         "source": "EVO 3",
-        "translation": "EVO 3인치",
+        "translation": "EVO 3",
         "match_mode": "exact",
         "display_type": "default"
       },
       {
         "key": "687b001103b1d64f98f261e7 ShortName",
         "source": "EVO 3",
-        "translation": "EVO 3인치",
+        "translation": "EVO 3",
         "match_mode": "exact",
         "display_type": "default"
       },
       {
         "key": "687b00468b4fafd5ebb3a763 ShortName",
         "source": "EVO 3",
-        "translation": "EVO 3인치",
+        "translation": "EVO 3",
         "match_mode": "exact",
         "display_type": "default"
       },
       {
         "key": "687fb46ac2f7551f2ce2e4b1 ShortName",
         "source": "EVO 3",
-        "translation": "EVO 3인치",
+        "translation": "EVO 3",
         "match_mode": "exact",
         "display_type": "default"
       },

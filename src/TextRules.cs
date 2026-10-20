@@ -20,6 +20,8 @@ namespace SPT.EditableTranslations
         public string id { get; set; }
         public string key { get; set; }
         public string source { get; set; }
+        // Exact, per-key source variants verified against runtime or independently supplied locale snapshots.
+        public List<string> source_variants { get; set; }
         public string translation { get; set; }
         public string translation_bilingual { get; set; }
         public string display_type { get; set; }

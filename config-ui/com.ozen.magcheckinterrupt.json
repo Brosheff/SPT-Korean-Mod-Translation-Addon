@@ -28,7 +28,7 @@
       "key": "Follows Magazine",
       "source_display_name": "Follows Magazine",
       "source_description": "If enabled, the ammo details UI follows the magazine",
-      "translation_display_name": "탄창 기준 탄창",
+      "translation_display_name": "탄약 정보 UI가 탄창을 따라 이동",
       "translation_description": "활성화하면 탄약 정보 UI가 탄창 위치를 따라 움직입니다.",
       "values": []
     },
@@ -135,7 +135,7 @@
       "key": "Slow Percentage",
       "source_display_name": "Slow Percentage",
       "source_description": "Multiplier for the magazine check animation speed when Slow Animation is enabled",
-      "translation_display_name": "느린 비율",
+      "translation_display_name": "감속 시 애니메이션 속도 배율",
       "translation_description": "느린 애니메이션 기능이 켜져 있을 때 탄창 확인 애니메이션 속도에 적용할 배율입니다.",
       "values": []
     },
@@ -145,7 +145,7 @@
       "source_display_name": "Smoothing Max Delta",
       "source_description": "Max delta for the smoothing of the slow animation. A higher value slows/restores the animation faster",
       "translation_display_name": "보간 최대 변화량",
-      "translation_description": "보간 최대 변화량 값을 설정합니다.",
+      "translation_description": "느린 탄창 확인 애니메이션의 속도 변화를 부드럽게 처리할 최대 변화량입니다. 값이 클수록 감속과 원래 속도로 복귀하는 과정이 빨라집니다.",
       "values": []
     },
     {

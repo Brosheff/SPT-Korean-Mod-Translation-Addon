@@ -15,7 +15,7 @@
       {
         "id": "passive",
         "source": "PASSIVE",
-        "translation": "수동형",
+        "translation": "상시형",
         "match_mode": "exact",
         "note": "은신처 시설 분류 탭"
       }

@@ -34,7 +34,7 @@
       {
         "key": "68509710f0df4dbc5b0ff7fe Description",
         "source": "The MOS (Modular Optic System) slide designed for Glock .40S&W pistols. Manufactured by Glock.",
-        "translation": "글록(Glock) .40 S&W 권총용 MOS(MODular Optic System) 슬라이드로, 글록(Glock)에서 제조하였습니다."
+        "translation": "글록(Glock) .40 S&W 권총용 MOS(Modular Optic System) 슬라이드로, 글록(Glock)에서 제조하였습니다."
       },
       {
         "key": "6851a7436b5a01959e6f54f9 Description",
@@ -124,7 +124,7 @@
       {
         "key": "6857624d565daea78886d0c2 Name",
         "source": "Unity Tactical FAST COG sight mount (FDE)",
-        "translation": "유니티 택티컬 FAST COG 사이트 마운트 (사막색)\n(Unity Tactical FAST COG sight mount (사막색))"
+        "translation": "유니티 택티컬 FAST COG 사이트 마운트 (사막색)"
       },
       {
         "key": "6857624d565daea78886d0c2 Description",
@@ -189,7 +189,7 @@
       {
         "key": "6857c3a0b4fec9f18e5e5e36 Description",
         "source": "A rugged, full-sized 1x red dot optic designed for extended use in harsh conditions. With a crisp 2 MOA dot and up to 50,000 hours of battery life, the ROMEO7 excels in mid-range engagements. Built in a sealed, fog-proof housing with adjustable brightness settings, it’s a dependable choice for assault rifles and designated marksman setup.",
-        "translation": "가혹한 환경에서도 장기간 사용할 수 있도록 설계된 내구성 높은 풀사이즈 1배율 레드닷 조준경입니다. 선명한 2 MOA 도트와 최대 50,000시간의 배터리 수명을 제공하며, 중거리 교전에서 뛰어난 성능을 발휘합니다. 밀폐형 방수/방진 하우징과 조절 가능한 밝기 설정을 갖추어 돌격소총 및 지정사수 구성에 적합한 신뢰성 높은 선택입니다."
+        "translation": "가혹한 환경에서도 장기간 사용할 수 있도록 설계된 내구성 높은 풀사이즈 1배율 레드닷 조준경입니다. 선명한 2 MOA 도트와 최대 50,000시간의 배터리 수명을 제공하며, 중거리 교전에서 뛰어난 성능을 발휘합니다. 김서림 방지 기능이 있는 밀폐형 하우징과 조절 가능한 밝기 설정을 갖추어 돌격소총 및 지정사수 구성에 적합한 신뢰성 높은 선택입니다."
       },
       {
         "key": "68580e9cea46c81b4db2221e Name",
@@ -234,7 +234,7 @@
       {
         "key": "685904bd76b06df2198b2f1b Name",
         "source": "Holosun HE509T X2 reflex sight (FDE)",
-        "translation": "홀로선 HE509T X2 반사식 조준기 (사막색)\n(Holosun HE509T X2 reflex sight (사막색))"
+        "translation": "홀로선 HE509T X2 반사식 조준기 (사막색)"
       },
       {
         "key": "685904bd76b06df2198b2f1b Description",
@@ -244,7 +244,7 @@
       {
         "key": "685912a257837068f1460c7a Name",
         "source": "SIG Sauer ROMEO7 1x30 reflex sight (FDE)",
-        "translation": "시그 사우어 로메오7 1x30 반사식 조준기 (사막색)\n(SIG Sauer ROMEO7 1x30 reflex sight (사막색))"
+        "translation": "시그 사우어 로메오7 1x30 반사식 조준기 (사막색)"
       },
       {
         "key": "685912a257837068f1460c7a ShortName",
@@ -254,7 +254,7 @@
       {
         "key": "685912a257837068f1460c7a Description",
         "source": "A rugged, full-sized 1x red dot optic designed for extended use in harsh conditions. With a crisp 2 MOA dot and up to 50,000 hours of battery life, the ROMEO7 excels in mid-range engagements. Built in a sealed, fog-proof housing with adjustable brightness settings, it’s a dependable choice for assault rifles and designated marksman setup. <color=#9c8638><b>Flat Dark Earth version.</b></color>",
-        "translation": "가혹한 환경에서도 장기간 사용할 수 있도록 설계된 내구성 높은 풀사이즈 1배율 레드닷 조준경입니다. 선명한 2 MOA 도트와 최대 50,000시간의 배터리 수명을 제공하며, 중거리 교전에서 뛰어난 성능을 발휘합니다. 밀폐형 방수/방진 하우징과 조절 가능한 밝기 설정을 갖추어 돌격소총 및 지정사수 구성에 적합한 신뢰성 높은 선택입니다. <color=#9c8638><b>플랫 다크 어스(Flat Dark Earth) 버전입니다.</b></color>"
+        "translation": "가혹한 환경에서도 장기간 사용할 수 있도록 설계된 내구성 높은 풀사이즈 1배율 레드닷 조준경입니다. 선명한 2 MOA 도트와 최대 50,000시간의 배터리 수명을 제공하며, 중거리 교전에서 뛰어난 성능을 발휘합니다. 김서림 방지 기능이 있는 밀폐형 하우징과 조절 가능한 밝기 설정을 갖추어 돌격소총 및 지정사수 구성에 적합한 신뢰성 높은 선택입니다. <color=#9c8638><b>플랫 다크 어스(Flat Dark Earth) 버전입니다.</b></color>"
       },
       {
         "key": "6859137715ae945161f51b1e Name",
@@ -299,7 +299,7 @@
       {
         "key": "68599c5272359bd6b568656c Name",
         "source": "Unity Tactical FAST Micro sight mount (Green)",
-        "translation": "유니티 택티컬 FAST 마이크로 사이트 마운트 (올리브 드랩)"
+        "translation": "유니티 택티컬 FAST 마이크로 사이트 마운트 (그린)"
       },
       {
         "key": "68599c5272359bd6b568656c Description",
@@ -309,7 +309,7 @@
       {
         "key": "68599c64f0a918bcd731198f Name",
         "source": "Unity Tactical FAST Micro sight mount (White)",
-        "translation": "유니티 택티컬 FAST 마이크로 사이트 마운트 (알파인)"
+        "translation": "유니티 택티컬 FAST 마이크로 사이트 마운트 (화이트)"
       },
       {
         "key": "68599c64f0a918bcd731198f Description",
@@ -369,7 +369,7 @@
       {
         "key": "685acb7cdabf1c595fd9b3b7 Name",
         "source": "Unity Tactical FAST MRDS sight mount (FDE)",
-        "translation": "유니티 택티컬 FAST MRDS 사이트 마운트 (사막색)\n(Unity Tactical FAST MRDS sight mount (사막색))"
+        "translation": "유니티 택티컬 FAST MRDS 사이트 마운트 (사막색)"
       },
       {
         "key": "685acb7cdabf1c595fd9b3b7 Description",
@@ -384,17 +384,17 @@
       {
         "key": "685b0a6054f4bf2b066d6c2c Description",
         "source": "A modern Ukrainian-made polymer handguard designed for AK-platform rifles. Features integrated Picatinny rail on top and side M-LOK mounts for attaching tactical accessories. Lightweight yet durable, it improves handling without compromising the rifle’s balance. A solid upgrade for operators looking to modernize classic AK builds while retaining reliability in harsh conditions.",
-        "translation": "AK 플랫폼 소총용으로 설계된 현대적인 우크라이나산 폴리머 총열덮개입니다. 상단에는 피카티니 레일, 측면에는 전술 장비 부착용 엠락 마운트를 통합하고 있습니다. 가벼우면서도 내구성이 높아 사격 제어성을 향상시키며, 혹독한 환경에서도 신뢰성을 유지한 채 클래식 AK를 현대화하려는 운용자에게 훌륭한 업GRY드입니다."
+        "translation": "AK 플랫폼 소총용으로 설계된 현대적인 우크라이나산 폴리머 총열덮개입니다. 상단에는 피카티니 레일, 측면에는 전술 장비 부착용 엠락 마운트를 통합하고 있습니다. 가벼우면서도 내구성이 높아 사격 제어성을 향상시키며, 혹독한 환경에서도 신뢰성을 유지한 채 클래식 AK를 현대화하려는 운용자에게 훌륭한 업그레이드입니다."
       },
       {
         "key": "685b0d680624e87899344355 Name",
         "source": "AK KRUK CRC 1U020-MIL M-LOK handguard (FDE)",
-        "translation": "AK 크루크 CRC 1U020-MIL 엠락 총열덮개 (사막색)\n(AK KRUK CRC 1U020-MIL M-LOK handguard (사막색))"
+        "translation": "AK 크루크 CRC 1U020-MIL 엠락 총열덮개 (사막색)"
       },
       {
         "key": "685b0d680624e87899344355 Description",
         "source": "A modern Ukrainian-made polymer handguard designed for AK-platform rifles. Features integrated Picatinny rail on top and side M-LOK mounts for attaching tactical accessories. Lightweight yet durable, it improves handling without compromising the rifle’s balance. A solid upgrade for operators looking to modernize classic AK builds while retaining reliability in harsh conditions. <color=#9c8638><b>Flat Dark Earth version.</b></color>",
-        "translation": "AK 플랫폼 소총용으로 설계된 현대적인 우크라이나산 폴리머 총열덮개입니다. 상단에는 피카티니 레일, 측면에는 전술 장비 부착용 엠락 마운트를 통합하고 있습니다. 가벼우면서도 내구성이 높아 사격 제어성을 향상시키며, 혹독한 환경에서도 신뢰성을 유지한 채 클래식 AK를 현대화하려는 운용자에게 훌륭한 업GRY드입니다. <color=#9c8638><b>플랫 다크 어스(Flat Dark Earth) 버전입니다.</b></color>"
+        "translation": "AK 플랫폼 소총용으로 설계된 현대적인 우크라이나산 폴리머 총열덮개입니다. 상단에는 피카티니 레일, 측면에는 전술 장비 부착용 엠락 마운트를 통합하고 있습니다. 가벼우면서도 내구성이 높아 사격 제어성을 향상시키며, 혹독한 환경에서도 신뢰성을 유지한 채 클래식 AK를 현대화하려는 운용자에게 훌륭한 업그레이드입니다. <color=#9c8638><b>플랫 다크 어스(Flat Dark Earth) 버전입니다.</b></color>"
       },
       {
         "key": "685b0d8f154cae33f3a47ed9 Name",
@@ -404,7 +404,7 @@
       {
         "key": "685b0d8f154cae33f3a47ed9 Description",
         "source": "A modern Ukrainian-made polymer handguard designed for AK-platform rifles. Features integrated Picatinny rail on top and side M-LOK mounts for attaching tactical accessories. Lightweight yet durable, it improves handling without compromising the rifle’s balance. A solid upgrade for operators looking to modernize classic AK builds while retaining reliability in harsh conditions. <color=#37630e><b>OD Green version.</b></color>",
-        "translation": "AK 플랫폼 소총용으로 설계된 현대적인 우크라이나산 폴리머 총열덮개입니다. 상단에는 피카티니 레일, 측면에는 전술 장비 부착용 엠락 마운트를 통합하고 있습니다. 가벼우면서도 내구성이 높아 사격 제어성을 향상시키며, 혹독한 환경에서도 신뢰성을 유지한 채 클래식 AK를 현대화하려는 운용자에게 훌륭한 업GRY드입니다. <color=#37630e><b>(올리브 드랩) 그린(Olive Drab) 버전입니다.</b></color>"
+        "translation": "AK 플랫폼 소총용으로 설계된 현대적인 우크라이나산 폴리머 총열덮개입니다. 상단에는 피카티니 레일, 측면에는 전술 장비 부착용 엠락 마운트를 통합하고 있습니다. 가벼우면서도 내구성이 높아 사격 제어성을 향상시키며, 혹독한 환경에서도 신뢰성을 유지한 채 클래식 AK를 현대화하려는 운용자에게 훌륭한 업그레이드입니다. <color=#37630e><b>올리브 드랩(OD Green) 버전입니다.</b></color>"
       },
       {
         "key": "685b0dbdb33127b982055205 Name",
@@ -414,12 +414,12 @@
       {
         "key": "685b0dbdb33127b982055205 Description",
         "source": "A modern Ukrainian-made polymer handguard designed for AK-platform rifles. Features integrated Picatinny rail on top and side M-LOK mounts for attaching tactical accessories. Lightweight yet durable, it improves handling without compromising the rifle’s balance. A solid upgrade for operators looking to modernize classic AK builds while retaining reliability in harsh conditions. <color=#b31d1d><b>Anodized Red version.</b></color>",
-        "translation": "AK 플랫폼 소총용으로 설계된 현대적인 우크라이나산 폴리머 총열덮개입니다. 상단에는 피카티니 레일, 측면에는 전술 장비 부착용 엠락 마운트를 통합하고 있습니다. 가벼우면서도 내구성이 높아 사격 제어성을 향상시키며, 혹독한 환경에서도 신뢰성을 유지한 채 클래식 AK를 현대화하려는 운용자에게 훌륭한 업GRY드입니다. <color=#b31d1d><b>아노다이즈 레드(An(올리브 드랩)ized Red) 버전입니다.</b></color>"
+        "translation": "AK 플랫폼 소총용으로 설계된 현대적인 우크라이나산 폴리머 총열덮개입니다. 상단에는 피카티니 레일, 측면에는 전술 장비 부착용 엠락 마운트를 통합하고 있습니다. 가벼우면서도 내구성이 높아 사격 제어성을 향상시키며, 혹독한 환경에서도 신뢰성을 유지한 채 클래식 AK를 현대화하려는 운용자에게 훌륭한 업그레이드입니다. <color=#b31d1d><b>양극산화 레드(Anodized Red) 버전입니다.</b></color>"
       },
       {
         "key": "685c83e3b9ee925a05b52461 Name",
         "source": "5.56x45 HK PM Gen.3 MR556 STANAG 30-round magazine",
-        "translation": "30발, AR-15 5.56x45 HK MR556 PMAG Gen3 STANAG 탄창"
+        "translation": "30발, AR-15 5.56x45 HK PM Gen.3 MR556 STANAG 탄창"
       },
       {
         "key": "685c83e3b9ee925a05b52461 Description",
@@ -449,7 +449,7 @@
       {
         "key": "685d14c26bd75f52d9d4f068 ShortName",
         "source": "DD VFG",
-        "translation": "다니엘 디펜스"
+        "translation": "DD VFG"
       },
       {
         "key": "685d14c26bd75f52d9d4f068 Description",
@@ -464,22 +464,22 @@
       {
         "key": "685d1544a4233f993d69e802 ShortName",
         "source": "DD VFG",
-        "translation": "다니엘 디펜스"
+        "translation": "DD VFG"
       },
       {
         "key": "685d1544a4233f993d69e802 Description",
         "source": "A Rubberized Cover for the EXPS3 series of holographic sights, this specific one painted with a unique Orange and Blue splinter camo. <color=#6c5441><b>Coyote Brown version.</b></color>",
-        "translation": "EXPS3 시리즈 홀로그램 조준경용 고무 코팅 커버입니다. 독특한 오렌지와 블루 스플린터 위장 무늬로 도색되었습니다. <color=#6c5441><b>COY 브라운(Coyote Brown) 버전입니다.</b></color>"
+        "translation": "EXPS3 시리즈 홀로그램 조준경용 고무 코팅 커버입니다. 독특한 오렌지와 블루 스플린터 위장 무늬로 도색되었습니다. <color=#6c5441><b>코요테 브라운(Coyote Brown) 버전입니다.</b></color>"
       },
       {
         "key": "685d1558f7cc3c5737893bbe Name",
         "source": "Daniel Defence Enhanced Picatinny vertical foregrip (Slate Gray)",
-        "translation": "다니엘 디펜스 엔핸스드 피카티니 수직 손잡이 (슬레이트 GRY)"
+        "translation": "다니엘 디펜스 엔핸스드 피카티니 수직 손잡이 (슬레이트 그레이)"
       },
       {
         "key": "685d1558f7cc3c5737893bbe ShortName",
         "source": "DD VFG",
-        "translation": "다니엘 디펜스"
+        "translation": "DD VFG"
       },
       {
         "key": "685d1558f7cc3c5737893bbe Description",
@@ -489,7 +489,7 @@
       {
         "key": "685d43c384852051ef64e4e8 Name",
         "source": "EOTech 553 holographic sight (FDE)",
-        "translation": "이오텍 553 홀로그램 사이트 (사막색)\n(EOTech 553 holographic sight (사막색))"
+        "translation": "이오텍 553 홀로그램 사이트 (사막색)"
       },
       {
         "key": "685d43c384852051ef64e4e8 Description",
@@ -509,7 +509,7 @@
       {
         "key": "685e52a030452e0aa23b53b6 Name",
         "source": "Unity Tactical FAST COMP-series scope mount (FDE)",
-        "translation": "유니티 택티컬 FAST COMP 시리즈 스코프 마운트 (사막색)\n(Unity Tactical FAST COMP-series scope mount (사막색))"
+        "translation": "유니티 택티컬 FAST COMP 시리즈 스코프 마운트 (사막색)"
       },
       {
         "key": "685e52a030452e0aa23b53b6 Description",
@@ -529,7 +529,7 @@
       {
         "key": "685e5326a119194a7cbaa34e Name",
         "source": "Unity Tactical FAST COMP-series scope mount (Green)",
-        "translation": "유니티 택티컬 FAST COMP 시리즈 스코프 마운트 (올리브 드랩)"
+        "translation": "유니티 택티컬 FAST COMP 시리즈 스코프 마운트 (그린)"
       },
       {
         "key": "685e5326a119194a7cbaa34e Description",
@@ -539,7 +539,7 @@
       {
         "key": "685e5339826695a4b438120c Name",
         "source": "Unity Tactical FAST COMP-series scope mount (White)",
-        "translation": "유니티 택티컬 FAST COMP 시리즈 스코프 마운트 (알파인)"
+        "translation": "유니티 택티컬 FAST COMP 시리즈 스코프 마운트 (화이트)"
       },
       {
         "key": "685e5339826695a4b438120c Description",
@@ -564,7 +564,7 @@
       {
         "key": "685ea424ae29ce869f15365a Name",
         "source": "AR-15 5.56x45 HEXMAG Series 2 PMAG 30-round magazine (FDE)",
-        "translation": "30발, AR-15 5.56x45 헥스매그 시리즈2 PMAG 탄창 (사막색)\n(AR-15 5.56x45 HEXMAG Series 2 PMAG 30-round magazine (사막색))"
+        "translation": "30발, AR-15 5.56x45 헥스매그 시리즈2 PMAG 탄창 (사막색)"
       },
       {
         "key": "685ea424ae29ce869f15365a ShortName",
@@ -594,7 +594,7 @@
       {
         "key": "685ea58fd46519c32d440109 Name",
         "source": "AR-15 5.56x45 Strike Industries PMAG 33-round magazine (FDE)",
-        "translation": "33발, AR-15 5.56x45 스트라이크 인더스트리즈 PMAG 탄창 (사막색)\n(AR-15 5.56x45 Strike Industries PMAG 33-round magazine (사막색))"
+        "translation": "33발, AR-15 5.56x45 스트라이크 인더스트리즈 PMAG 탄창 (사막색)"
       },
       {
         "key": "685ea58fd46519c32d440109 ShortName",
@@ -619,7 +619,7 @@
       {
         "key": "68611d271b5181217dee6c31 Name",
         "source": "Kastle Group FRT 226 scope mount (FDE)",
-        "translation": "캐슬 그룹 FRT 226 스코프 마운트 (사막색)\n(Kastle Group FRT 226 scope mount (사막색))"
+        "translation": "캐슬 그룹 FRT 226 스코프 마운트 (사막색)"
       },
       {
         "key": "68611d271b5181217dee6c31 Description",
@@ -629,7 +629,7 @@
       {
         "key": "68611d79d2f8c2caf35ddd39 Name",
         "source": "Kastle Group FRT 226 scope mount (Sand)",
-        "translation": "캐슬 그룹 FRT 226 스코프 마운트 (사막색)"
+        "translation": "캐슬 그룹 FRT 226 스코프 마운트 (모래색)"
       },
       {
         "key": "68611d79d2f8c2caf35ddd39 Description",
@@ -649,7 +649,7 @@
       {
         "key": "68627f891c1601d14b88016a Name",
         "source": "AR-15 Strike Industries Advanced Receiver Extension buffer tube (FDE)",
-        "translation": "AR-15 스트라이크 인더스트리즈 고급형 총몸 연장부 버퍼 튜브 (사막색)\n(AR-15 Strike Industries Advanced Receiver Extension buffer tube (사막색))"
+        "translation": "AR-15 스트라이크 인더스트리즈 고급형 총몸 연장부 버퍼 튜브 (사막색)"
       },
       {
         "key": "68627f891c1601d14b88016a Description",
@@ -694,7 +694,7 @@
       {
         "key": "686693bfa7e7678c13d94dcd Name",
         "source": "AK-74 5.45x39 6L23 modified windowed 30-round magazine",
-        "translation": "30발, AK-74 5.45x39 6L23 개조된 탄창"
+        "translation": "30발, AK-74 5.45x39 6L23 관찰창을 낸 개조형 탄창"
       },
       {
         "key": "686693bfa7e7678c13d94dcd Description",
@@ -704,7 +704,7 @@
       {
         "key": "6866948c33d189a854f4593c Name",
         "source": "AK-74 5.45x39 6L23 modified windowed 30-round magazine (Plum)",
-        "translation": "30발, AK-74 5.45x39 6L23 개조된 탄창 (플럼)"
+        "translation": "30발, AK-74 5.45x39 6L23 관찰창을 낸 개조형 탄창 (플럼)"
       },
       {
         "key": "6866948c33d189a854f4593c Description",
@@ -729,7 +729,7 @@
       {
         "key": "6867211462ddc1942b59637b Name",
         "source": "AK 7.62x39 modified windowed 30-round magazine (issued '55 or later)",
-        "translation": "30발, AK 7.62x39 개조된 탄창 (55년 이후 지급형)"
+        "translation": "30발, AK 7.62x39 관찰창을 낸 개조형 탄창 (55년 이후 지급형)"
       },
       {
         "key": "6867211462ddc1942b59637b Description",
@@ -804,7 +804,7 @@
       {
         "key": "68696009c522f6881c46481b Name",
         "source": "FN FNX slide cover (FDE)",
-        "translation": "FN FNX 슬라이드 커버 (사막색)\n(FN FNX slide cover (사막색))"
+        "translation": "FN FNX 슬라이드 커버 (사막색)"
       },
       {
         "key": "68696009c522f6881c46481b Description",
@@ -819,7 +819,7 @@
       {
         "key": "686a950f332bd39442d996c7 Description",
         "source": "A high-rise scope mount engineered by Unity Tactical for 30mm Low Power Variable Optics. Designed to elevate the optic to a faster, heads-up shooting posture, improving target transitions and situational awareness in dynamic engagements. Built from hard-anodized aluminum with reinforced clamping hardware.",
-        "translation": "유니티 택티컬(Unity Tactical)에서 설계한 30mm 저배율 가변조준경(LPVO, Low Power Variable Optic)용 하이 라이즈 스코프 마운트입니다. 사수를 더 빠르고 직관적인 헤드업 자세로 유도하여 목표 전환 및 전장 인식 능력을 향상시킵니다. 하드 아노다이징 처리된 알루미늄으로 제작되었으며, 강화된 클램핑 하드웨어를 갖추고 있습니다."
+        "translation": "유니티 택티컬(Unity Tactical)에서 설계한 30mm 저배율 가변조준경(LPVO, Low Power Variable Optic)용 하이 라이즈 스코프 마운트입니다. 사수를 더 빠르고 직관적인 헤드업 자세로 유도하여 목표 전환 및 전장 인식 능력을 향상시킵니다. 하드 양극산화 처리된 알루미늄으로 제작되었으며, 강화된 클램핑 하드웨어를 갖추고 있습니다."
       },
       {
         "key": "686a95919c10df31081c9e2b Name",
@@ -834,12 +834,12 @@
       {
         "key": "686a959fea53389283823a5e Name",
         "source": "Unity Tactical FAST LPVO 30mm ring scope mount (FDE)",
-        "translation": "유니티 택티컬 FAST LPVO 30mm 링 스코프 마운트 (사막색)\n(Unity Tactical FAST LPVO 30mm ring scope mount (사막색))"
+        "translation": "유니티 택티컬 FAST LPVO 30mm 링 스코프 마운트 (사막색)"
       },
       {
         "key": "686a959fea53389283823a5e Description",
         "source": "A high-rise scope mount engineered by Unity Tactical for 30mm Low Power Variable Optics. Designed to elevate the optic to a faster, heads-up shooting posture, improving target transitions and situational awareness in dynamic engagements. Built from hard-anodized aluminum with reinforced clamping hardware. <color=#9c8638><b>Flat Dark Earth version.</b></color>",
-        "translation": "유니티 택티컬(Unity Tactical)에서 설계한 30mm 저배율 가변조준경(LPVO, Low Power Variable Optic)용 하이 라이즈 스코프 마운트입니다. 사수를 더 빠르고 직관적인 헤드업 자세로 유도하여 목표 전환 및 전장 인식 능력을 향상시킵니다. 하드 아노다이징 처리된 알루미늄으로 제작되었으며, 강화된 클램핑 하드웨어를 갖추고 있습니다. <color=#9c8638><b>플랫 다크 어스(Flat Dark Earth) 버전입니다.</b></color>"
+        "translation": "유니티 택티컬(Unity Tactical)에서 설계한 30mm 저배율 가변조준경(LPVO, Low Power Variable Optic)용 하이 라이즈 스코프 마운트입니다. 사수를 더 빠르고 직관적인 헤드업 자세로 유도하여 목표 전환 및 전장 인식 능력을 향상시킵니다. 하드 양극산화 처리된 알루미늄으로 제작되었으며, 강화된 클램핑 하드웨어를 갖추고 있습니다. <color=#9c8638><b>플랫 다크 어스(Flat Dark Earth) 버전입니다.</b></color>"
       },
       {
         "key": "686a990e217f312ed3fe65bf Name",
@@ -854,7 +854,7 @@
       {
         "key": "686a99b24e95c2b6c57ef026 Name",
         "source": "Unity Tactical FAST MRO sight mount (FDE)",
-        "translation": "유니티 택티컬 FAST MRO 사이트 마운트 (사막색)\n(Unity Tactical FAST MRO sight mount (사막색))"
+        "translation": "유니티 택티컬 FAST MRO 사이트 마운트 (사막색)"
       },
       {
         "key": "686a99b24e95c2b6c57ef026 Description",
@@ -874,7 +874,7 @@
       {
         "key": "686ad2e1cb1cd4ac811bfe81 Name",
         "source": "AAC Ti-RANT 45S .45 ACP sound suppressor (FDE)",
-        "translation": "AAC Ti-RANT 45S .45 ACP 소음기 (사막색)\n(AAC Ti-RANT 45S .45 ACP sound suppressor (사막색))"
+        "translation": "AAC Ti-RANT 45S .45 ACP 소음기 (사막색)"
       },
       {
         "key": "686ad2e1cb1cd4ac811bfe81 Description",
@@ -909,7 +909,7 @@
       {
         "key": "686be3c56b940ba1dbd41a6c Name",
         "source": "EOTech EFLX reflex sight (FDE)",
-        "translation": "이오텍 EFLX 반사식 조준경 (사막색)\n(EOTech EFLX reflex sight (사막색))"
+        "translation": "이오텍 EFLX 반사식 조준경 (사막색)"
       },
       {
         "key": "686be3c56b940ba1dbd41a6c Description",
@@ -919,7 +919,7 @@
       {
         "key": "686d5bc004f09ae76bde0b8a Name",
         "source": "SilencerCo Osprey 9 2.0 9x19 sound suppressor (FDE)",
-        "translation": "사일런서코 오스프리 9 2.0 9x19 소음기 (사막색)\n(SilencerCo Osprey 9 2.0 9x19 sound suppressor (사막색))"
+        "translation": "사일런서코 오스프리 9 2.0 9x19 소음기 (사막색)"
       },
       {
         "key": "686d5bc004f09ae76bde0b8a ShortName",
@@ -949,7 +949,7 @@
       {
         "key": "686d613f44fd735790193ee4 Name",
         "source": "SilencerCo Osprey 45 2.0 .45 ACP sound suppressor (FDE)",
-        "translation": "사일런서코 오스프리 45 2.0 .45 ACP 소음기 (사막색)\n(SilencerCo Osprey 45 2.0 .45 ACP sound suppressor (사막색))"
+        "translation": "사일런서코 오스프리 45 2.0 .45 ACP 소음기 (사막색)"
       },
       {
         "key": "686d613f44fd735790193ee4 ShortName",
@@ -969,7 +969,7 @@
       {
         "key": "686d787fe69d3f3f9e3f5396 ShortName",
         "source": "UMP Adpt.",
-        "translation": "UMP"
+        "translation": "UMP 어댑터"
       },
       {
         "key": "686d787fe69d3f3f9e3f5396 Description",
@@ -1024,7 +1024,7 @@
       {
         "key": "68704789b4d4fee9db49a148 Name",
         "source": ".40 S&W Tracer ammo pack (50 pcs)",
-        "translation": ".40 S&W 예광탄 ammo pack (50 pcs)"
+        "translation": ".40 S&W 예광탄 탄약 팩 (50발)"
       },
       {
         "key": "68704789b4d4fee9db49a148 ShortName",
@@ -1109,7 +1109,7 @@
       {
         "key": "68747c0f624eec3069961840 Name",
         "source": "Rugged Obsidian9 9x19 sound suppressor",
-        "translation": "루드 옵시디언9 9x19 소음기"
+        "translation": "러기드 옵시디언9 9x19 소음기"
       },
       {
         "key": "68747c0f624eec3069961840 ShortName",
@@ -1119,12 +1119,12 @@
       {
         "key": "68747c0f624eec3069961840 Description",
         "source": "A modular 9x19mm suppressor engineered by Rugged Suppressors for superior performance and adaptability. Built from stainless steel and aluminum, the Obsidian9 offers excellent sound reduction in both full-length and short configurations.",
-        "translation": "루드 서프레서스(Rugged Suppressors)에서 설계한 모듈식 9x19mm 소음기입니다. 스테인리스 스틸과 알루미늄으로 제작되었으며, 풀 길이 및 단축 구성 모두에서 우수한 소음 감소 성능을 제공합니다."
+        "translation": "러기드 서프레서스(Rugged Suppressors)에서 설계한 모듈식 9x19mm 소음기입니다. 스테인리스 스틸과 알루미늄으로 제작되었으며, 풀 길이 및 단축 구성 모두에서 우수한 소음 감소 성능을 제공합니다."
       },
       {
         "key": "68747c45a98cc57be229f32a Name",
         "source": "Rugged Obsidian9 9x19 sound suppressor (FDE)",
-        "translation": "루드 옵시디언9 9x19 소음기 (사막색)\n(Rugged Obsidian9 9x19 sound suppressor (사막색))"
+        "translation": "러기드 옵시디언9 9x19 소음기 (사막색)"
       },
       {
         "key": "68747c45a98cc57be229f32a ShortName",
@@ -1134,12 +1134,12 @@
       {
         "key": "68747c45a98cc57be229f32a Description",
         "source": "A modular 9x19mm suppressor engineered by Rugged Suppressors for superior performance and adaptability. Built from stainless steel and aluminum, the Obsidian9 offers excellent sound reduction in both full-length and short configurations.",
-        "translation": "루드 서프레서스(Rugged Suppressors)에서 설계한 모듈식 9x19mm 소음기입니다. 스테인리스 스틸과 알루미늄으로 제작되었으며, 풀 길이 및 단축 구성 모두에서 우수한 소음 감소 성능을 제공합니다."
+        "translation": "러기드 서프레서스(Rugged Suppressors)에서 설계한 모듈식 9x19mm 소음기입니다. 스테인리스 스틸과 알루미늄으로 제작되었으며, 풀 길이 및 단축 구성 모두에서 우수한 소음 감소 성능을 제공합니다."
       },
       {
         "key": "68747c781db888a663945907 Name",
         "source": "Rugged Obsidian9-S 9x19 sound suppressor",
-        "translation": "루드 옵시디언9-S 9x19 소음기"
+        "translation": "러기드 옵시디언9-S 9x19 소음기"
       },
       {
         "key": "68747c781db888a663945907 ShortName",
@@ -1149,12 +1149,12 @@
       {
         "key": "68747c781db888a663945907 Description",
         "source": "A shortened modular 9x19mm suppressor engineered by Rugged Suppressors for superior performance and adaptability. Built from stainless steel and aluminum, the Obsidian9 offers excellent sound reduction in both full-length and short configurations.",
-        "translation": "루드 서프레서스(Rugged Suppressors)에서 설계한 단축형 모듈식 9x19mm 소음기입니다. 스테인리스 스틸과 알루미늄으로 제작되었으며, 풀 길이 및 단축 구성 모두에서 우수한 소음 감소 성능을 제공합니다."
+        "translation": "러기드 서프레서스(Rugged Suppressors)에서 설계한 단축형 모듈식 9x19mm 소음기입니다. 스테인리스 스틸과 알루미늄으로 제작되었으며, 풀 길이 및 단축 구성 모두에서 우수한 소음 감소 성능을 제공합니다."
       },
       {
         "key": "68747ca718c613cd31cdd50b Name",
         "source": "Rugged Obsidian9-S 9x19 sound suppressor (FDE)",
-        "translation": "루드 옵시디언9-S 9x19 소음기 (사막색)\n(Rugged Obsidian9-S 9x19 sound suppressor (사막색))"
+        "translation": "러기드 옵시디언9-S 9x19 소음기 (사막색)"
       },
       {
         "key": "68747ca718c613cd31cdd50b ShortName",
@@ -1164,7 +1164,7 @@
       {
         "key": "68747ca718c613cd31cdd50b Description",
         "source": "A shortened modular 9x19mm suppressor engineered by Rugged Suppressors for superior performance and adaptability. Built from stainless steel and aluminum, the Obsidian9 offers excellent sound reduction in both full-length and short configurations.",
-        "translation": "루드 서프레서스(Rugged Suppressors)에서 설계한 단축형 모듈식 9x19mm 소음기입니다. 스테인리스 스틸과 알루미늄으로 제작되었으며, 풀 길이 및 단축 구성 모두에서 우수한 소음 감소 성능을 제공합니다."
+        "translation": "러기드 서프레서스(Rugged Suppressors)에서 설계한 단축형 모듈식 9x19mm 소음기입니다. 스테인리스 스틸과 알루미늄으로 제작되었으며, 풀 길이 및 단축 구성 모두에서 우수한 소음 감소 성능을 제공합니다."
       },
       {
         "key": "687532d058893ecc096b66b5 Name",
@@ -1209,7 +1209,7 @@
       {
         "key": "687a0bb2e07f1f44f2bdbd76 Description",
         "source": "The TangoDown BG-18 pistol grip, designed for AR-15 platforms, features a more vertical angle for improved control during CQB and extended use, with aggressive texturing and internal storage for added functionality.",
-        "translation": "AR-15 플랫폼용으로 설계된 탱고다운 BG-18 권총손잡이으로, CQB 및 장시간 사용 시 제어력을 향상시키기 위해 더 수직에 가까운 각도를 가지고 있으며, 공격적인 텍스처링과 내부 수납 공간을 제공합니다."
+        "translation": "AR-15 플랫폼용으로 설계된 탱고다운 BG-18 권총손잡이로, CQB 및 장시간 사용 시 제어력을 향상시키기 위해 더 수직에 가까운 각도를 가지고 있으며, 공격적인 텍스처링과 내부 수납 공간을 제공합니다."
       },
       {
         "key": "687a0d1ebac013983d36b8a0 Name",
@@ -1224,7 +1224,7 @@
       {
         "key": "687a0da9424d2f739168a049 Name",
         "source": "AR-15 Reptilia CQG pistol grip (FDE)",
-        "translation": "AR-15 렙틸리아 CQG 권총손잡이 (사막색)\n(AR-15 Reptilia CQG pistol grip (사막색))"
+        "translation": "AR-15 렙틸리아 CQG 권총손잡이 (사막색)"
       },
       {
         "key": "687a0da9424d2f739168a049 Description",
@@ -1244,12 +1244,12 @@
       {
         "key": "687a0e4ce7b3fde175e51b83 Description",
         "source": "The BCM GUNFIGHTER MOD 0 pistol grip is a low-profile offering for the AR-15 from Bravo Company Manufacturing, designed for improved weapon control in modern combat stances. The MOD 0 features a reduced grip angle, aggressive grip texturing, and internal storage for small tools and batteries.",
-        "translation": "브라보 컴퍼니 메뉴팩쳐링(브라보 컴퍼니 매뉴팩처링(Bravo Company Manufacturing))의 AR-15용 저프로파일 권총손잡이으로, 현대 전투 자세에서 향상된 무기 제어를 위해 설계되었습니다. MOD 0은 감소된 그립 각도, 공격적인 텍스처링, 소형 도구 및 배터리 수납용 내부 저장 공간을 특징으로 합니다."
+        "translation": "브라보 컴퍼니 메뉴팩쳐링(브라보 컴퍼니 매뉴팩처링(Bravo Company Manufacturing))의 AR-15용 저프로파일 권총손잡이로, 현대 전투 자세에서 향상된 무기 제어를 위해 설계되었습니다. MOD 0은 감소된 그립 각도, 공격적인 텍스처링, 소형 도구 및 배터리 수납용 내부 저장 공간을 특징으로 합니다."
       },
       {
         "key": "687a0e88dbda3d3865f5ed12 Name",
         "source": "AR-15 BCM GUNFIGHTER MOD 0 pistol grip (FDE)",
-        "translation": "AR-15 BCM 건파이터 모드 0 권총손잡이 (사막색)\n(AR-15 BCM GUNFIGHTER MOD 0 pistol grip (사막색))"
+        "translation": "AR-15 BCM 건파이터 모드 0 권총손잡이 (사막색)"
       },
       {
         "key": "687a0e88dbda3d3865f5ed12 ShortName",
@@ -1259,7 +1259,7 @@
       {
         "key": "687a0e88dbda3d3865f5ed12 Description",
         "source": "The BCM GUNFIGHTER MOD 0 pistol grip is a low-profile offering for the AR-15 from Bravo Company Manufacturing, designed for improved weapon control in modern combat stances. The MOD 0 features a reduced grip angle, aggressive grip texturing, and internal storage for small tools and batteries. Flat Dark Earth version.",
-        "translation": "브라보 컴퍼니 메뉴팩쳐링(브라보 컴퍼니 매뉴팩처링(Bravo Company Manufacturing))의 AR-15용 저프로파일 권총손잡이으로, 현대 전투 자세에서 향상된 무기 제어를 위해 설계되었습니다. MOD 0은 감소된 그립 각도, 공격적인 텍스처링, 소형 도구 및 배터리 수납용 내부 저장 공간을 특징으로 합니다. 플랫 다크 어스 색상 버전입니다."
+        "translation": "브라보 컴퍼니 매뉴팩처링(Bravo Company Manufacturing)의 AR-15용 저상형 권총손잡이로, 현대 전투 자세에서 향상된 무기 제어를 위해 설계되었습니다. MOD 0은 감소된 그립 각도, 공격적인 텍스처링, 소형 도구 및 배터리 수납용 내부 저장 공간을 특징으로 합니다. 플랫 다크 어스 색상 버전입니다."
       },
       {
         "key": "687a0ec7bd9afa55c3497f6f Name",
@@ -1269,7 +1269,7 @@
       {
         "key": "687a0ec7bd9afa55c3497f6f Description",
         "source": "The Geissele Automatics A22 pistol grip offers a refined grip angle and a contoured shape for enhanced weapon control and comfort. Made from high-strength polymer with an aggressive texture, it ensures a solid hold in adverse conditions.",
-        "translation": "가이슬리 오토매틱스(Geissele Automatics) A22 권총손잡이은 정교한 그립 각도와 인체공학적 윤곽을 제공하여 무기 제어력과 편안함을 향상시킵니다. 고강도 폴리머로 제작되었으며 공격적인 텍스처링으로 열악한 조건에서도 확실한 그립을 보장합니다."
+        "translation": "가이슬리 오토매틱스(Geissele Automatics) A22 권총손잡이는 정교한 그립 각도와 인체공학적 윤곽을 제공하여 무기 제어력과 편안함을 향상시킵니다. 고강도 폴리머로 제작되었으며 공격적인 텍스처링으로 열악한 조건에서도 확실한 그립을 보장합니다."
       },
       {
         "key": "687a0f1220f27767f0a693d4 Name",
@@ -1279,7 +1279,7 @@
       {
         "key": "687a0f1220f27767f0a693d4 Description",
         "source": "The Geissele Automatics A22 pistol grip offers a refined grip angle and a contoured shape for enhanced weapon control and comfort. Made from high-strength polymer with an aggressive texture, it ensures a solid hold in adverse conditions. Desert Dirt Colour version.",
-        "translation": "가이슬리 오토매틱스(Geissele Automatics) A22 권총손잡이은 정교한 그립 각도와 인체공학적 윤곽을 제공하여 무기 제어력과 편안함을 향상시킵니다. 고강도 폴리머로 제작되었으며 공격적인 텍스처링으로 열악한 조건에서도 확실한 그립을 보장합니다. Desert Dirt Colour 버전입니다."
+        "translation": "가이슬리 오토매틱스(Geissele Automatics) A22 권총손잡이는 정교한 그립 각도와 인체공학적 윤곽을 제공하여 무기 제어력과 편안함을 향상시킵니다. 고강도 폴리머로 제작되었으며 공격적인 텍스처링으로 열악한 조건에서도 확실한 그립을 보장합니다. Desert Dirt Colour 버전입니다."
       },
       {
         "key": "687a105600afa7b3f5ed2808 Name",
@@ -1289,7 +1289,7 @@
       {
         "key": "687a105600afa7b3f5ed2808 Description",
         "source": "The Magpul MIAD (Mission Adaptable) polymer pistol grip can be installed on any weapon compatible with AR-15 grips.",
-        "translation": "맥풀 MIAD(Mission Adaptable) 폴리머 권총손잡이은 AR-15 그립 호환 무기라면 어떤 무기에도 장착할 수 있습니다."
+        "translation": "맥풀 MIAD(Mission Adaptable) 폴리머 권총손잡이는 AR-15 그립 호환 무기라면 어떤 무기에도 장착할 수 있습니다."
       },
       {
         "key": "687a370fce925e8795c52050 Name",
@@ -1309,7 +1309,7 @@
       {
         "key": "687a383b0d4513545588373b Name",
         "source": "AR-15 BCM GUNFIGHTER MOD 2 SOPMOD buttstock (FDE)",
-        "translation": "AR-15 BCM 건파이터 모드 2 SOPMOD 개머리판 (사막색)\n(AR-15 BCM GUNFIGHTER MOD 2 SOPMOD buttstock (사막색))"
+        "translation": "AR-15 BCM 건파이터 모드 2 SOPMOD 개머리판 (사막색)"
       },
       {
         "key": "687a383b0d4513545588373b ShortName",
@@ -1349,7 +1349,7 @@
       {
         "key": "687d134da0544fe8d0e262d7 Name",
         "source": "AR-15 BCM Mk.2 5.56x45 upper receiver (FDE)",
-        "translation": "AR-15 BCM Mk.2 5.56x45 상부 총몸 (사막색)\n(AR-15 BCM Mk.2 5.56x45 upper receiver (사막색))"
+        "translation": "AR-15 BCM Mk.2 5.56x45 상부 총몸 (사막색)"
       },
       {
         "key": "687d134da0544fe8d0e262d7 Description",
@@ -1374,7 +1374,7 @@
       {
         "key": "687d15ac7c0dea057107325d Name",
         "source": "AR-15 BCM KMR13 KeyMod 13 inch handguard (FDE)",
-        "translation": "AR-15 BCM KMR13 키모드 13인치 총열덮개 (사막색)\n(AR-15 BCM KMR13 KeyMod 13인치 handguard (사막색))"
+        "translation": "AR-15 BCM KMR13 키모드 13인치 총열덮개 (사막색)"
       },
       {
         "key": "687d15ac7c0dea057107325d ShortName",
@@ -1409,7 +1409,7 @@
       {
         "key": "687fb0bc8c147c752b1e8329 Name",
         "source": "Unity Tactical RAXIS mount (FDE)",
-        "translation": "유니티 택티컬 RAXIS 마운트 (사막색)\n(Unity Tactical RAXIS mount (사막색))"
+        "translation": "유니티 택티컬 RAXIS 마운트 (사막색)"
       },
       {
         "key": "687fb0bc8c147c752b1e8329 Description",
@@ -1419,7 +1419,7 @@
       {
         "key": "6880c7f2d7270a23770b742d Name",
         "source": "Glock Strike Industries ARK pistol slide",
-        "translation": "글록 스크라이크 인더스트리즈 ARK 권총 슬라이드"
+        "translation": "글록 스트라이크 인더스트리즈 ARK 권총 슬라이드"
       },
       {
         "key": "6880c7f2d7270a23770b742d Description",
@@ -1429,12 +1429,12 @@
       {
         "key": "6880ca841783495925bbd7ed Name",
         "source": "Glock Zaffiri Precision ZPS.4 pistol slide",
-        "translation": "글록 Z자파리 프랙션 ZPS.4 권총 슬라이드"
+        "translation": "글록 자피리 프리시전 ZPS.4 권총 슬라이드"
       },
       {
         "key": "6880ca841783495925bbd7ed Description",
         "source": "The Zaffiri Precision ZPS.4 features aggressive window cuts for reduced weight and faster cycling, along with deep serrations for improved grip during manipulation.",
-        "translation": "자파리 프랙션 ZPS.4는 중량 감소 및 빠른 사이클링을 위한 공격적인 윈도우 컷과 조작 중 그립 향상을 위한 깊은 세레이션을 특징으로 합니다."
+        "translation": "자피리 프리시전 ZPS.4는 중량 감소 및 빠른 사이클링을 위한 공격적인 윈도우 컷과 조작 중 그립 향상을 위한 깊은 세레이션을 특징으로 합니다."
       },
       {
         "key": "688aeef2c5d263a8c35b1f34 Name",
@@ -1489,7 +1489,7 @@
       {
         "key": "68922e39bacf39d24ca68ddf Description",
         "source": "The ROMEO9T reflex sight, designed for precision shooting for modern sporting rifles and shotguns. Manufactured by SIG Sauer.",
-        "translation": "현대 스포츠 라이플 및 샷건을 위한 정밀 사격용으로 설계된 로메오9T 반사식 조준경입니다. (SIG Sauer)에서 제조했습니다."
+        "translation": "현대 스포츠 라이플 및 샷건을 위한 정밀 사격용으로 설계된 로메오9T 반사식 조준경입니다. 시그 사우어(SIG Sauer)에서 제조했습니다."
       },
       {
         "key": "6893d1e2483f058199f2e199 Name",
@@ -1604,7 +1604,7 @@
       {
         "key": "6897de1182f827c8f199f355 Name",
         "source": "SIG Sauer ROMEO9T reflex sight (FDE)",
-        "translation": "시그 사우어 로메오9T 반사식 조준경 (사막색)\n(SIG Sauer ROMEO9T reflex sight (사막색))"
+        "translation": "시그 사우어 로메오9T 반사식 조준경 (사막색)"
       },
       {
         "key": "6897de1182f827c8f199f355 ShortName",
@@ -1619,12 +1619,12 @@
       {
         "key": "689ce8bfd4370ee552a641da Name",
         "source": "FN SCAR-20S Multi-Caliber upper receiver (FDE)",
-        "translation": "FN SCAR-20S 다구경 상부 총몸 (사막색)\n(FN SCAR-20S Multi-Caliber upper receiver (사막색))"
+        "translation": "FN SCAR-20S 다구경 상부 총몸 (사막색)"
       },
       {
         "key": "689ce8bfd4370ee552a641da Description",
         "source": "An upper receiver for the SCAR-20S marksman rifle capable of chambering .308 Winchester and 6.5 Creedmoor, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment. Flat Dark Earth version.",
-        "translation": ".308 윈체스터 및 6.5 크리드무어를 챔버링할 수 있는 SCAR-20S 지정사수 라이플용 상부 총몸입니다. 패브리큐 네셔널 헤스탈(Fabrique Nationale Herstal)에서 제조했습니다. 추가 장비 장착을 위한 상단 레일을 갖추고 있습니다. 다크 플랫 어스 버전입니다."
+        "translation": ".308 윈체스터 및 6.5 크리드무어를 챔버링할 수 있는 SCAR-20S 지정사수 라이플용 상부 총몸입니다. 패브리큐 네셔널 헤스탈(Fabrique Nationale Herstal)에서 제조했습니다. 추가 장비 장착을 위한 상단 레일을 갖추고 있습니다. 플랫 다크 어스 버전입니다."
       },
       {
         "key": "689d099c264b71b2da14043f Name",
@@ -1664,7 +1664,7 @@
       {
         "key": "68a10f558d8eb8ea16240237 Name",
         "source": "AR-15 Magpul MOE SL-S buttstock (FDE)",
-        "translation": "AR-15 맥풀 MOE SL-S 개머리판 (사막색)\n(AR-15 Magpul MOE SL-S buttstock (사막색))"
+        "translation": "AR-15 맥풀 MOE SL-S 개머리판 (사막색)"
       },
       {
         "key": "68a10f558d8eb8ea16240237 Description",
@@ -1749,7 +1749,7 @@
       {
         "key": "68bc954419645c0da0e9ea05 Description",
         "source": "HK MP5/40 submachinegun with Navy 3 Round Burst firing mechanism version, which features three-round cutoff. Widely acclaimed model of a submachinegun, primarily known as weapon of GSG9 and similar forces of the world, and famous through frequent appearance in movies and video games.",
-        "translation": "HK MP5/40 기관단총은 네이비(Navy) 3발 점사(Navy 3 Round Burst) 기구 버전으로, 3발 점사 차단 기능을 갖추고 있습니다. 전 세계 GSG9 등 유사 부대의 무기로 널리 알려진 모델이며, 영화 및 게임에서도 자주 등장해 유명해진 기관단총입니다."
+        "translation": "HK MP5/40 기관단총은 네이비(Navy) 3발 점사(Navy 3 Round Burst) 기구 버전으로, 3발 점사 제한 기능을 갖추고 있습니다. 전 세계 GSG9 등 유사 부대의 무기로 널리 알려진 모델이며, 영화 및 게임에서도 자주 등장해 유명해진 기관단총입니다."
       },
       {
         "key": "68bca9416a129b098910b9fc Name",
@@ -1759,7 +1759,7 @@
       {
         "key": "68bca9416a129b098910b9fc ShortName",
         "source": "MP5/40SD supp.",
-        "translation": "MP5/40SD"
+        "translation": "MP5/40SD 소음기"
       },
       {
         "key": "68bca9416a129b098910b9fc Description",
@@ -1784,7 +1784,7 @@
       {
         "key": "68bcab7a6b9eb3d5b9716616 ShortName",
         "source": "MP5/40 3Lug",
-        "translation": "MP5/40"
+        "translation": "MP5/40 3러그"
       },
       {
         "key": "68bcab7a6b9eb3d5b9716616 Description",
@@ -1804,7 +1804,7 @@
       {
         "key": "68bf1d562ea6c565fbd50013 Name",
         "source": "FN SCAR 20 SSR enhanced marksman stock (FDE)",
-        "translation": "FN SCAR 20 SSR 향상된 지정사수 개머리판 (사막색)\n(FN SCAR 20 SSR enhanced marksman stock (사막색))"
+        "translation": "FN SCAR 20 SSR 향상된 지정사수 개머리판 (사막색)"
       },
       {
         "key": "68bf1d562ea6c565fbd50013 Description",
@@ -1974,7 +1974,7 @@
       {
         "key": "692deffb1966298e696fcd8f Name",
         "source": "Irregular Defense OMM optic mount",
-        "translation": "이레귤려 디펜스 OMM 광학 마운트"
+        "translation": "이레귤러 디펜스 OMM 광학 마운트"
       },
       {
         "key": "692deffb1966298e696fcd8f Description",
@@ -1984,7 +1984,7 @@
       {
         "key": "6931f77384aafd27e716b95c Name",
         "source": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 TTI \"Base Pad +5/6\" 35-round magazine",
-        "translation": "35발, AR-15 5.56x45 맥풀 PMAG 30 GEN M3 TTI \"베이스 패드 +5/6\"탄창"
+        "translation": "35발, AR-15 5.56x45 맥풀 PMAG 30 GEN M3 TTI \"베이스 패드 +5/6\" 탄창"
       },
       {
         "key": "6931f77384aafd27e716b95c Description",
@@ -1994,7 +1994,7 @@
       {
         "key": "6931f849d43e8360a516b95e Name",
         "source": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 TTI \"Base Pad +5/6\" 35-round magazine (FDE)",
-        "translation": "35발, AR-15 5.56x45 맥풀 PMAG 30 GEN M3 TTI \"베이스 패드 +5/6\" 탄창 (사막색)\n(AR-15 5.56x45 Magpul PMAG 30 GEN M3 TTI \"Base Pad +5/6\" 35-round magazine (사막색))"
+        "translation": "35발, AR-15 5.56x45 맥풀 PMAG 30 GEN M3 TTI \"베이스 패드 +5/6\" 탄창 (사막색)"
       },
       {
         "key": "6931f849d43e8360a516b95e Description",
@@ -2009,17 +2009,17 @@
       {
         "key": "6931f87427c59f8c0c16b95f Description",
         "source": "A 30-round polymer Magpul PMAG GEN M3 40 magazine with a Taran Tactical Innovations Base Pad to add 6 extra rounds, for 5.56x45 ammunition.",
-        "translation": "5.56x45 탄약용으로, 타란 택티컬 이노베이션즈(Taran Tactical Innovations )베이스 패드를 장착해 6발을 추가로 수용할 수 있는 40발 폴리머 맥풀 PMAG GEN M3 40 탄창입니다."
+        "translation": "5.56x45 탄약용으로, 타란 택티컬 이노베이션즈(Taran Tactical Innovations )베이스 패드를 장착해 6발을 추가로 수용할 수 있는 30발 폴리머 맥풀 PMAG GEN M3 40 탄창입니다."
       },
       {
         "key": "6931f8f4d23c52639416b961 Name",
         "source": "AR-15 5.56x45 Magpul PMAG 40 GEN M3 TTI \"Base Pad +5/6\" 46-round magazine (FDE)",
-        "translation": "46발, AR-15 5.56x45 맥풀 PMAG 40 GEN M3 TTI \"베이스 패드 +5/6\" 탄창 (사막색)\n(AR-15 5.56x45 Magpul PMAG 40 GEN M3 TTI \"Base Pad +5/6\" 46-round magazine (사막색))"
+        "translation": "46발, AR-15 5.56x45 맥풀 PMAG 40 GEN M3 TTI \"베이스 패드 +5/6\" 탄창 (사막색)"
       },
       {
         "key": "6931f8f4d23c52639416b961 Description",
         "source": "A 30-round polymer Magpul PMAG GEN M3 40 magazine with a Taran Tactical Innovations Base Pad to add 6 extra rounds, for 5.56x45 ammunition. Flat Dark Earth version.",
-        "translation": "5.56x45 탄약용으로, 타란 택티컬 이노베이션즈(Taran Tactical Innovations )베이스 패드를 장착해 6발을 추가로 수용할 수 있는 40발 폴리머 맥풀 PMAG GEN M3 40 탄창입니다. 플랫 다크 어스 색상 버전입니다."
+        "translation": "5.56x45 탄약용으로, 타란 택티컬 이노베이션즈(Taran Tactical Innovations )베이스 패드를 장착해 6발을 추가로 수용할 수 있는 30발 폴리머 맥풀 PMAG GEN M3 40 탄창입니다. 플랫 다크 어스 색상 버전입니다."
       },
       {
         "key": "6933acf049b34a172e0fe627 Name",
@@ -2064,7 +2064,7 @@
       {
         "key": "695b224c474010bd136887ba Name",
         "source": "AR-15 Magpul MOE-K2 pistol grip (FDE)",
-        "translation": "AR-15 맥풀 MOE-K2 권총손잡이 (사막색)\n(AR-15 Magpul MOE-K2 pistol grip (사막색))"
+        "translation": "AR-15 맥풀 MOE-K2 권총손잡이 (사막색)"
       },
       {
         "key": "695b224c474010bd136887ba Description",
@@ -2084,12 +2084,12 @@
       {
         "key": "695fa0bf748597b4fa1f9f31 Description",
         "source": "The Sandman-S is a compact, rugged .30 caliber suppressor engineered for maximum sound reduction without excessive length or weight. The Sandman-S uses Dead Air’s Tune-Out technology to deliver effective decibel suppression and consistent point-of-impact shift, making it ideal for precision rifles and designated marksman systems.",
-        "translation": "샌드맨-S는 길이와 무게를 과도하게 늘리지 않으면서 최대 소음 감소를 목표로 설계된 컴팩트하고 견고한 .30구경 소음기입니다. 데드에어(Dead Air)의 튠-아웃(Tune-Out) 기술을 사용하여 효과적인 데시벨 감소와 일관된 탄도 변화를 제공하여 정밀 소총 및 지정사수 시스템에 적합합니다."
+        "translation": "샌드맨-S는 길이와 무게를 과도하게 늘리지 않으면서 최대 소음 감소를 목표로 설계된 컴팩트하고 견고한 .30구경 소음기입니다. 데드에어(Dead Air)의 튠-아웃(Tune-Out) 기술을 사용하여 효과적인 데시벨 감소와 일관된 탄착점 이동를 제공하여 정밀 소총 및 지정사수 시스템에 적합합니다."
       },
       {
         "key": "695fa277f1b7c560d11f9f35 Name",
         "source": "AR-15 AB Arms USS-X stock (FDE)",
-        "translation": "AR-15 AB Arms USS-X 개머리판 (사막색)\n(AR-15 AB Arms USS-X stock (사막색))"
+        "translation": "AR-15 AB Arms USS-X 개머리판 (사막색)"
       },
       {
         "key": "695fa277f1b7c560d11f9f35 Description",
@@ -2104,12 +2104,12 @@
       {
         "key": "695fa382efa7c99a961f9f37 Description",
         "source": "The SBR P*Grip is designed and engineered for M4/M16/AR-15 style rifles and rifle receivers designed to fit AR-15 style pistol grips. Manufactured by American Built Arms.",
-        "translation": "SBR P*Grip은 M4/M16/AR-15 스타일 소총 및 AR-15 스타일 권총손잡이 장착용 소총 수신기를 위해 설계 및 제작되었습니다. American Built Arms에서 제조했습니다."
+        "translation": "SBR P*Grip은 M4/M16/AR-15 스타일 소총 및 AR-15 스타일 권총손잡이 장착용 소총 총몸를 위해 설계 및 제작되었습니다. American Built Arms에서 제조했습니다."
       },
       {
         "key": "695fca555fc8a1adfb51a4a3 Name",
         "source": "Irregular Defense OMM optic mount (FDE)",
-        "translation": "이레귤려 디펜스 OMM 광학 마운트 (사막색)\n(Irregular Defense OMM optic mount (사막색))"
+        "translation": "이레귤러 디펜스 OMM 광학 마운트 (사막색)"
       },
       {
         "key": "695fca555fc8a1adfb51a4a3 Description",
@@ -2119,7 +2119,7 @@
       {
         "key": "6960bc9172fcb3eb9da96b7c Name",
         "source": "Holosun HE510C reflex sight (FDE)",
-        "translation": "홀로선 HE510C 반사식 조준경 (사막색)\n(Holosun HE510C reflex sight (사막색))"
+        "translation": "홀로선 HE510C 반사식 조준경 (사막색)"
       },
       {
         "key": "6960bc9172fcb3eb9da96b7c Description",
@@ -2219,7 +2219,7 @@
       {
         "key": "696c02189dfeee5fd4785db6 Name",
         "source": "AR-15 Adaptiv Defense URR RAHG handguard (Anodized FDE)",
-        "translation": "AR-15 어댑티브 디펜스 URR RAHG 총열덮개 (양극산화 사막색)\n(AR-15 Adaptiv Defense URR RAHG handguard (Anodized 사막색))"
+        "translation": "AR-15 어댑티브 디펜스 URR RAHG 총열덮개 (양극산화 사막색)"
       },
       {
         "key": "696c02189dfeee5fd4785db6 Description",
@@ -2244,7 +2244,7 @@
       {
         "key": "696c2c39eaf80d744d6f5b36 Description",
         "source": "The EOTech EXPS3-DCR holographic sight. Thanks to design features it can be used with a wide range of weapons, even with non-folding sights. Compatible with night vision devices by means of the NV reticle mode. Its main difference over the EXPS3 is that it features a custom reticle.",
-        "translation": "이오텍 EXPS3-DCR 홀로그램 사이트입니다. 설계 특징 덕분에 접이식 조준기가 없는 무기에서도 넓은 범위의 무기에 사용할 수 있습니다. NV 레티클 모드를 통해 야간 투시 장치와 호환됩니다. EXPS3와의 주요 차이점은 커스텀 레티클이 적용되어 있다는 점입니다."
+        "translation": "이오텍 EXPS3-DCR 홀로그램 사이트입니다. 설계 특징 덕분에 접히지 않는 고정식 기계식 조준기가 있는 무기를 포함해 다양한 무기에 사용할 수 있습니다. NV 레티클 모드를 통해 야간 투시 장치와 호환됩니다. EXPS3와의 주요 차이점은 커스텀 레티클이 적용되어 있다는 점입니다."
       },
       {
         "key": "mod_frame",
@@ -2314,7 +2314,7 @@
       {
         "key": "686693bfa7e7678c13d94dcd ShortName",
         "source": "6L23",
-        "translation": "6L23 자두색",
+        "translation": "6L23",
         "match_mode": "exact",
         "display_type": "default"
       },
@@ -2328,35 +2328,35 @@
       {
         "key": "688ff49403a506e2001cb614 ShortName",
         "source": "GEN M3",
-        "translation": "GEN M3 바나나",
+        "translation": "GEN M3",
         "match_mode": "exact",
         "display_type": "default"
       },
       {
         "key": "6931f77384aafd27e716b95c ShortName",
         "source": "GEN M3",
-        "translation": "GEN M3 바나나",
+        "translation": "GEN M3",
         "match_mode": "exact",
         "display_type": "default"
       },
       {
         "key": "6931f849d43e8360a516b95e ShortName",
         "source": "GEN M3",
-        "translation": "GEN M3 바나나",
+        "translation": "GEN M3",
         "match_mode": "exact",
         "display_type": "default"
       },
       {
         "key": "6931f87427c59f8c0c16b95f ShortName",
         "source": "GEN M3",
-        "translation": "GEN M3 바나나",
+        "translation": "GEN M3",
         "match_mode": "exact",
         "display_type": "default"
       },
       {
         "key": "6931f8f4d23c52639416b961 ShortName",
         "source": "GEN M3",
-        "translation": "GEN M3 바나나",
+        "translation": "GEN M3",
         "match_mode": "exact",
         "display_type": "default"
       },

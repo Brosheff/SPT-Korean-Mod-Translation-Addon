@@ -64,7 +64,7 @@
       "key": "Camera Zoom Sprint Speed",
       "source_display_name": "Camera Zoom Sprint Speed",
       "source_description": "Amount to zoom the camera when using the mouse wheel while holding Shift",
-      "translation_display_name": "카메라 확대/축소 달리기 속도",
+      "translation_display_name": "Shift 사용 시 카메라 확대·축소 속도",
       "translation_description": "Shift를 누른 상태에서 마우스 휠을 사용할 때 줌 변화량입니다.",
       "values": []
     },
@@ -145,7 +145,7 @@
       "key": "Remember Last Camera Position",
       "source_display_name": "Remember Last Camera Position",
       "source_description": "If enabled, returning to Freecam mode will put the camera to it's last position which is saved when exiting Freecam mode.",
-      "translation_display_name": "기억 마지막 카메라 위치",
+      "translation_display_name": "마지막 카메라 위치 기억",
       "translation_description": "자유 카메라를 종료할 때 위치를 저장하고, 다시 진입하면 마지막 위치에서 시작합니다.",
       "values": []
     }

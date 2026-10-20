@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <LangVersion>latest</LangVersion>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <AssemblyName>SPT_Mod_Korean_Addon</AssemblyName>
     <ReferenceRoot Condition="'$(ReferenceRoot)' == '' and '$(ADDON_REFERENCE_ROOT)' != ''">$(ADDON_REFERENCE_ROOT)</ReferenceRoot>
     <ReferenceRoot Condition="'$(ReferenceRoot)' == ''">$(MSBuildThisFileDirectory)references</ReferenceRoot>

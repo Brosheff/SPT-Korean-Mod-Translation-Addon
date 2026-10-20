@@ -51,7 +51,7 @@
       "key": "Tag character limit",
       "source_display_name": "Tag character limit",
       "source_description": "Maximum length of the container tag input field. The game's own limit is 16 characters, which is far too short to write an @o rule. Takes effect the next time a tag window is opened.",
-      "translation_display_name": "태그 캐릭터 제한",
+      "translation_display_name": "태그 글자 수 제한",
       "translation_description": "컨테이너 태그 입력란의 최대 글자 수를 늘립니다. 게임 기본 16자는 @o 규칙을 쓰기에 짧기 때문에 제공되는 설정이며, 새로 여는 태그 창부터 적용됩니다.",
       "values": []
     },

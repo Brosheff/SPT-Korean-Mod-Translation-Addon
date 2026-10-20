@@ -44,7 +44,7 @@
       {
         "key": "2eabd4da4ab194eb168e72d3 ShortName",
         "source": "Key Ring",
-        "translation": "열쇠"
+        "translation": "열쇠고리"
       },
       {
         "key": "2eabd4da4ab194eb168e72d3 Description",
@@ -184,7 +184,7 @@
       {
         "key": "6761b213607f9a6f79017af6 Name",
         "source": "Rebel-9 Assaulter Belt (OD)",
-        "translation": "레벨-9 어썰터 벨트 (올리브 드랩)\n(Rebel-9 Assaulter Belt (올리브 드랩))"
+        "translation": "레벨-9 어썰터 벨트 (올리브 드랩)"
       },
       {
         "key": "6761b213607f9a6f79017af6 ShortName",
@@ -194,12 +194,12 @@
       {
         "key": "6761b213607f9a6f79017af6 Description",
         "source": "A mid-tier tactical belt that features a dump pouch. Olive drab variant.",
-        "translation": "레벨-9(Rebel-9)에서 제작한 전술 벨트로, 올리브 드랩 색상 버전입니다."
+        "translation": "덤프 파우치가 포함된 중급 전술 벨트로, 올리브 드랩 색상 버전입니다."
       },
       {
         "key": "6761b213607f9a6f79017af7 Name",
         "source": "Ferro Concepts Bison Assaulter Belt",
-        "translation": "바이슨 돌격용 벨트"
+        "translation": "페로 컨셉츠 바이슨 돌격용 벨트"
       },
       {
         "key": "6761b213607f9a6f79017af7 ShortName",
@@ -209,12 +209,12 @@
       {
         "key": "6761b213607f9a6f79017af7 Description",
         "source": "A Ferro Bison assaulter belt.",
-        "translation": "페로(Ferro)에서 제작한 고급형 전술 벨트로, 내구성과 장비 장착 편의성이 뛰어납니다."
+        "translation": "Ferro Bison 돌격용 벨트입니다."
       },
       {
         "key": "6761b213607f9a6f79017af9 Name",
         "source": "Crye Precision MRB Grenadier Belt",
-        "translation": "MRB 유탄수 벨트"
+        "translation": "크라이 프리시전 MRB 유탄수 벨트"
       },
       {
         "key": "6761b213607f9a6f79017af9 ShortName",
@@ -244,7 +244,7 @@
       {
         "key": "6761b213607f9a6f79017afb Name",
         "source": "Ferro Concepts Grenadier Belt",
-        "translation": "그레네이디어 벨트"
+        "translation": "페로 컨셉츠 그레네이디어 벨트"
       },
       {
         "key": "6761b213607f9a6f79017afb ShortName",
@@ -259,7 +259,7 @@
       {
         "key": "6761b213607f9a6f79017afc Name",
         "source": "Ferro Concepts MARCH Assaulter Belt",
-        "translation": "MARCH 돌격용 벨트"
+        "translation": "페로 컨셉츠 MARCH 돌격용 벨트"
       },
       {
         "key": "6761b213607f9a6f79017afc ShortName",
@@ -274,12 +274,12 @@
       {
         "key": "6761b213607f9a6f79017afd Name",
         "source": "Crye Precision MRB LMG Belt",
-        "translation": "MRB 경기관총수 벨트"
+        "translation": "크라이 프리시전 MRB 경기관총수 벨트"
       },
       {
         "key": "6761b213607f9a6f79017afd ShortName",
         "source": "MRB LMG",
-        "translation": "MRB"
+        "translation": "MRB LMG"
       },
       {
         "key": "6761b213607f9a6f79017afd Description",
@@ -299,7 +299,7 @@
       {
         "key": "6761b213607f9a6f79017afe Description",
         "source": "A practical pistol shooting competition belt.",
-        "translation": "실용 권총 사격 대회를 위해 설계된 경쟁용 벨트로, 탄창과 액세서리를 효율적으로 배치할 수 있습니다."
+        "translation": "실용 권총 사격 대회용 벨트입니다."
       },
       {
         "key": "6761b213607f9a6f79017aff Name",
@@ -319,17 +319,17 @@
       {
         "key": "6761b213607f9a6f79017b65 Name",
         "source": "Mobile Infirmary Secure Container",
-        "translation": "이동식 야전 의료 컨테이너"
+        "translation": "이동식 의무실 잠금식 컨테이너"
       },
       {
         "key": "6761b213607f9a6f79017b65 ShortName",
         "source": "Infirmary",
-        "translation": "야전"
+        "translation": "의무실"
       },
       {
         "key": "6761b213607f9a6f79017b65 Description",
         "source": "A large securable container designed to safely store and carry a small amount of medical supplies in the field.",
-        "translation": "야전 환경에서 의료 물품을 안전하게 운반하고 보관할 수 있도록 설계된 대형 잠금식 컨테이너입니다."
+        "translation": "야전에서 소량의 의료품을 안전하게 보관하고 운반할 수 있도록 설계된 대형 잠금식 컨테이너입니다."
       },
       {
         "key": "6761b213607f9a6f79017b67 Name",
@@ -394,17 +394,17 @@
       {
         "key": "68170b2cb595bf820b60571a Name",
         "source": "TYR Tactical Gunfighter Belt (Skirmisher)",
-        "translation": "티어 건파이터 벨트"
+        "translation": "티어 택티컬 건파이터 벨트 (스커미셔)"
       },
       {
         "key": "68170b2cb595bf820b60571a ShortName",
         "source": "Gunfighter",
-        "translation": "티어"
+        "translation": "건파이터"
       },
       {
         "key": "68170b2cb595bf820b60571a Description",
         "source": "The TYR Tactical Gunfighter belt is a classic belt system often used in both professional work and Civilian every-day carry situations. This specific belt is set up for light Reconnaissance and Skirmish operations.",
-        "translation": "티어(Tyr)에서 제작한 건파이터 벨트로, 경정찰 또는 의료 역할을 위한 경량 구성으로 설계되었습니다."
+        "translation": "TYR Tactical Gunfighter 벨트는 전문 업무와 민간인의 일상 휴대용으로도 사용되는 전통적인 벨트 시스템입니다. 이 모델은 경정찰 및 소규모 교전 임무에 맞춰 구성되었습니다."
       },
       {
         "key": "681baec29eb1732a417bd7dd Name",
@@ -434,7 +434,7 @@
       {
         "key": "681bb00c7fecf6d490b2fb3c Description",
         "source": "The TYR Tactical Gunfighter belt is a classic belt system often used in both professional work and Civilian every-day carry situations. This belt is set up for a general purpose tactical offensive role.",
-        "translation": "티어(Tyr) MCB 건파이터 벨트를 기반으로, 전술 공격 임무를 위해 구성된 범용 전술 벨트입니다."
+        "translation": "TYR Tactical Gunfighter 벨트는 전문 업무와 민간인의 일상 휴대용으로도 사용되는 전통적인 벨트 시스템입니다. 이 모델은 범용 전술 공세 임무에 맞춰 구성되었습니다."
       },
       {
         "key": "681bcd300480896883303f71 Name",
@@ -494,7 +494,7 @@
       {
         "key": "681d124d70b2418646a80fa3 Description",
         "source": "A violin case that can store a rifle or two.",
-        "translation": "라이플 한두 자루정도 숨길 수 있는 바이올린 케이스입니다."
+        "translation": "소총 한두 자루를 보관할 수 있는 바이올린 케이스입니다."
       },
       {
         "key": "681d1395a5c2308fdcbcda92 Name",
@@ -504,7 +504,7 @@
       {
         "key": "681d1395a5c2308fdcbcda92 ShortName",
         "source": "Attachment Case",
-        "translation": "부착물"
+        "translation": "부착물 케이스"
       },
       {
         "key": "681d1395a5c2308fdcbcda92 Description",

@@ -65,3 +65,20 @@ python tools/verify_workflow.py distribution --stage <스테이징 폴더> --zip
 ```
 
 실패 시 검사 메시지를 보고 원본 후보/프로필/훅을 다시 확인합니다. 통과하더라도 실제 SPT DLL 컴파일과 인게임 표시 확인은 별도입니다.
+
+## 1.0.3 응답 전 필수 문서 게이트
+
+프로젝트에 관한 **매 응답 전에** `AGENTS.md`와 `docs/모드번역_작업절차.md` 0·0-A절,
+`docs/응답전_필수확인.md`를 직접 읽는다. 번역 설명·오류 분석은 해당 로더 소스,
+원본 모드, 최신 JSON, 게임 로그/스크린샷까지 교차 확인해야 한다.
+
+```text
+python tools/verify_workflow.py documents
+python -m unittest discover -s tests/WorkflowChecks -v
+```
+
+`documents` 검사는 **지침 파일/필수 조항의 존재**만 확인한다. 실제로 답변마다 문서를 열어 읽었는지,
+게임에서 번역이 표시됐는지를 자동 검증하지 못한다. 사용자가 게임에서 영어 아이템을 제시하면
+정적 검사 통과 사실을 우선하지 말고, `VSK` vs `VKS`처럼 **현재 런타임 원문·키와 번역 프로필
+`source`·상속 `match_mode`·동일 키 충돌을 확인**한다. 하나의 항목을 고쳤다는 사실만으로 전체
+번역 적용 성공을 선언하지 않는다.

@@ -34,7 +34,7 @@
       "key": "Reset Animations",
       "source_display_name": "Reset Animations",
       "source_description": "If a new animaton should be played between every limb being healed. This does not affect the speed at which you heal.",
-      "translation_display_name": "초기화 애니메이션",
+      "translation_display_name": "부위별 치료 애니메이션 다시 시작",
       "translation_description": "부위를 바꿔 치료할 때마다 새 치료 애니메이션을 시작할지 설정합니다. 실제 치료 속도에는 영향을 주지 않습니다.",
       "values": []
     }

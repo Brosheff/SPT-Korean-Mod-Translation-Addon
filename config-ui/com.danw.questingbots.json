@@ -380,7 +380,7 @@
       "source_display_name": "Show Bot Info Overlays",
       "source_description": "Show information about what each bot is doing",
       "translation_display_name": "봇 정보 오버레이 표시",
-      "translation_description": "봇 정보 오버레이 표시 여부를 설정합니다.",
+      "translation_description": "각 봇이 무엇을 하고 있는지 알려 주는 정보 오버레이를 표시합니다.",
       "values": [
         {
           "source": "QuestingLeaders",
@@ -470,7 +470,7 @@
       "source_display_name": "Show Quest Info Overlays",
       "source_description": "Show information about every nearby quest objective location",
       "translation_display_name": "퀘스트 정보 오버레이 표시",
-      "translation_description": "퀘스트 정보 오버레이 표시 여부를 설정합니다.",
+      "translation_description": "주변의 각 퀘스트 목표 위치에 대한 정보를 오버레이로 표시합니다.",
       "values": []
     },
     {
@@ -558,7 +558,7 @@
       "source_display_name": "Map Fraction for Scav Spawning Exclusion Radius",
       "source_description": "Adjusts the distance (relative to the map size) that Scavs are allowed to spawn near human players, PMC's, and player Scavs",
       "translation_display_name": "스캐브 스폰 제외 반경의 맵 비율",
-      "translation_description": "사람 플레이어, PMC, 플레이어 스캐브 주변에 스캐브가 생성되지 않도록 하는 반경을 맵 크기 대비 비율로 조정합니다.",
+      "translation_description": "맵 크기에 비례하여, 사람 플레이어·PMC·플레이어 스캐브 주변에서 스캐브가 생성될 수 있는 거리를 조절합니다. 이 설정은 생성 제외 반경과 관련됩니다.",
       "values": []
     },
     {

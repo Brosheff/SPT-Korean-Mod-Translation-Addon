@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.samc137.ISBinfo",
+  "plugin_name": "ISB SOF Notifier",
+  "categories": [
+    {
+      "source": "Settings for the ISB SOF Notifier plugin",
+      "translation": "ISB 특수부대 알림 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Settings for the ISB SOF Notifier plugin",
+      "key": "Enable in-raid Notifier",
+      "source_display_name": "Enable in-raid Notifier",
+      "source_description": "When enabled, if you are in a raid where ISB operations are taking place, you will receive a notification indicating which types of Operatives are active and their respective numbers.",
+      "translation_display_name": "레이드 중 ISB 알림 활성화",
+      "translation_description": "ISB 작전이 진행 중인 레이드에서 활동 중인 요원 유형과 해당 인원수를 알림으로 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Settings for the ISB SOF Notifier plugin",
+      "key": "Only Show Initial Alert",
+      "source_display_name": "Only Show Initial Alert",
+      "source_description": "When enabled, you will only receive the single initial notification at the start of the raid, and not the recurring updates that refresh as Operatives are eliminated. You can still press the O key at any time to manually check the current status.",
+      "translation_display_name": "첫 알림만 표시",
+      "translation_description": "레이드 시작 시 최초 알림만 표시하고, ISB 요원이 사망함에 따라 갱신되는 반복 알림은 표시하지 않습니다. O 키로 언제든 현재 상태를 직접 확인할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Settings for the ISB SOF Notifier plugin",
+      "key": "Enable Commander Alert",
+      "source_display_name": "Enable Commander Alert",
+      "source_description": "When enabled, a special warning is shown when an ISB Commander and his guard are deployed to hunt you. Disable this to remove that specific alert without affecting the regular ISB notifications.",
+      "translation_display_name": "ISB 지휘관 경고 활성화",
+      "translation_description": "ISB 지휘관과 호위병이 플레이어를 추적하기 위해 투입되면 특별 경고를 표시합니다. 끄더라도 일반 ISB 알림에는 영향을 주지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Settings for the ISB SOF Notifier plugin",
+      "key": "Enable Commander KIA notification",
+      "source_display_name": "Enable Commander KIA notification",
+      "source_description": "When enabled, a dedicated notification is shown when an ISB Commander or his guard is eliminated, separate from the regular ISB withdrawal message.",
+      "translation_display_name": "ISB 지휘관 사망 알림 활성화",
+      "translation_description": "ISB 지휘관 또는 호위병이 사망하면 일반 ISB 철수 메시지와 별도로 전용 알림을 표시합니다.",
+      "values": []
+    }
+  ]
+}

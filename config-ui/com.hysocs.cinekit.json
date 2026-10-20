@@ -307,7 +307,7 @@
       "source_display_name": "Move Forward",
       "source_description": "Key used for move forward.",
       "translation_display_name": "앞으로 이동",
-      "translation_description": "앞으로 이동에 사용할 키입니다.",
+      "translation_description": "자유 카메라를 앞으로 이동시키는 키입니다.",
       "values": []
     },
     {
@@ -316,7 +316,7 @@
       "source_display_name": "Move Backward",
       "source_description": "Key used for move backward.",
       "translation_display_name": "뒤로 이동",
-      "translation_description": "뒤로 이동에 사용할 키입니다.",
+      "translation_description": "자유 카메라를 뒤로 이동시키는 키입니다.",
       "values": []
     },
     {
@@ -325,7 +325,7 @@
       "source_display_name": "Move Left",
       "source_description": "Key used for move left.",
       "translation_display_name": "왼쪽으로 이동",
-      "translation_description": "왼쪽으로 이동에 사용할 키입니다.",
+      "translation_description": "자유 카메라를 왼쪽으로 이동시키는 키입니다.",
       "values": []
     },
     {
@@ -334,7 +334,7 @@
       "source_display_name": "Move Right",
       "source_description": "Key used for move right.",
       "translation_display_name": "오른쪽으로 이동",
-      "translation_description": "오른쪽으로 이동에 사용할 키입니다.",
+      "translation_description": "자유 카메라를 오른쪽으로 이동시키는 키입니다.",
       "values": []
     },
     {
@@ -343,7 +343,7 @@
       "source_display_name": "Move Up",
       "source_description": "Key used for move up.",
       "translation_display_name": "위로 이동",
-      "translation_description": "위로 이동에 사용할 키입니다.",
+      "translation_description": "자유 카메라를 위로 이동시키는 키입니다.",
       "values": []
     },
     {
@@ -352,7 +352,7 @@
       "source_display_name": "Move Down",
       "source_description": "Key used for move down.",
       "translation_display_name": "아래로 이동",
-      "translation_description": "아래로 이동에 사용할 키입니다.",
+      "translation_description": "자유 카메라를 아래로 이동시키는 키입니다.",
       "values": []
     },
     {
@@ -361,7 +361,7 @@
       "source_display_name": "Sprint",
       "source_description": "Key used for sprint.",
       "translation_display_name": "질주",
-      "translation_description": "질주에 사용할 키입니다.",
+      "translation_description": "자유 카메라를 빠르게 이동시키는 키입니다.",
       "values": []
     },
     {
@@ -396,8 +396,8 @@
       "key": "Free Camera - Show Crosshair",
       "source_display_name": "Free Camera - Show Crosshair",
       "source_description": "Toggle Free Camera / Show Crosshair.",
-      "translation_display_name": "중앙점 표시 단축키",
-      "translation_description": "중앙점 표시 설정을 켜거나 끄는 단축키입니다.",
+      "translation_display_name": "자유 카메라 십자선 표시 단축키",
+      "translation_description": "자유 카메라의 십자선 표시 설정을 켜거나 끄는 단축키입니다.",
       "values": []
     },
     {
@@ -414,8 +414,8 @@
       "key": "Free Camera - Player Follows Freecam",
       "source_display_name": "Free Camera - Player Follows Freecam",
       "source_description": "Toggle Free Camera / Player Follows Freecam.",
-      "translation_display_name": "플레이어가 자유 카메라 따라가기 단축키",
-      "translation_description": "플레이어가 자유 카메라 따라가기 설정을 켜거나 끄는 단축키입니다.",
+      "translation_display_name": "플레이어의 자유 카메라 추적 전환 단축키",
+      "translation_description": "플레이어가 자유 카메라를 따라가도록 하는 설정을 켜거나 끄는 단축키입니다.",
       "values": []
     },
     {

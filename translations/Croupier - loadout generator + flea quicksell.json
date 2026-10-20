@@ -137,723 +137,723 @@
     "npc_messages": [
       {
         "id": "messages.json/1",
-        "source": "장비 세트다. 행운을 빌지. 이제 알아서 나가.",
+        "source": "Here is your loadout. Good luck and see yourself out!",
         "translation": "장비 세트다. 행운을 빌지. 이제 알아서 나가.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/2",
-        "source": "돈은 이미 충분히 모아뒀어. 곧 테이프 플레이어 달린 차도 사고, 번쩍이는 양복도 맞추고, 얄타로 떠날 거다.",
+        "source": "I've already saved up enough money. Soon I'll buy a car with a tape player, get a shiny suit made—and head to Yalta!",
         "translation": "돈은 이미 충분히 모아뒀어. 곧 테이프 플레이어 달린 차도 사고, 번쩍이는 양복도 맞추고, 얄타로 떠날 거다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/3",
-        "source": "나 털린 거 들었나? 피땀 흘려 모은 게 전부 사라졌어! 녹음기 세 대, 외제 영화 카메라 세 대, 국산 담배 케이스 세 개, 스웨이드 재킷... 재킷만 세 벌! 그래 놓고 타르코프가 문화 수준 높은 도시라지!",
+        "source": "Have you heard I was robbed? Everything I worked so hard for is gone! Three tape recorders, three foreign-made movie cameras, three domestic cigarette cases, a suede jacket... three jackets! And they say Tarkov is a city of high culture!",
         "translation": "나 털린 거 들었나? 피땀 흘려 모은 게 전부 사라졌어! 녹음기 세 대, 외제 영화 카메라 세 대, 국산 담배 케이스 세 개, 스웨이드 재킷... 재킷만 세 벌! 그래 놓고 타르코프가 문화 수준 높은 도시라지!",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/4",
-        "source": "네 장비는 여기 있다. 고칠 수 있는 건 고치고, 나머지는 그냥 흘려보내. 손쓸 방법이 없으면 문제도 아닌 거다.",
+        "source": "Your loadout’s here. You fix what you can fix and you let the rest go. If there ain't nothin to be done about it it aint even a problem.",
         "translation": "네 장비는 여기 있다. 고칠 수 있는 건 고치고, 나머지는 그냥 흘려보내. 손쓸 방법이 없으면 문제도 아닌 거다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/5",
-        "source": "장비는 준비됐다. 그런데 정말 이걸 원하나? 이 세상에서 네가 제일 안 닮은 게 있다면, 그건 돌아다니는 행운 덩어리거든.",
+        "source": "Your gear’s ready, but are you sure you want it? If there's one thing on this planet you don't look like it's a bunch of good luck walkin around.",
         "translation": "장비는 준비됐다. 그런데 정말 이걸 원하나? 이 세상에서 네가 제일 안 닮은 게 있다면, 그건 돌아다니는 행운 덩어리거든.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/6",
-        "source": "이건 네 장비다. 비슷한 건 많겠지만, 이건 네 거야. 깨끗하게 관리하고 바로 쓸 수 있게 둬.",
+        "source": "This is your loadout. There are many like it, but this one is yours. Keep it clean and ready.",
         "translation": "이건 네 장비다. 비슷한 건 많겠지만, 이건 네 거야. 깨끗하게 관리하고 바로 쓸 수 있게 둬.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/7",
-        "source": "다 됐다. 밖에 나가자마자 잃어버리진 마라.",
+        "source": "All set. Try not to lose it as soon as you step outside.",
         "translation": "다 됐다. 밖에 나가자마자 잃어버리진 마라.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/8",
-        "source": "장비 준비됐다. 보관함에서 막 꺼낸 물건이지. 이제 움직여.",
+        "source": "Your gear’s ready, fresh from the stash. Now get moving.",
         "translation": "장비 준비됐다. 보관함에서 막 꺼낸 물건이지. 이제 움직여.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/9",
-        "source": "좋아, 결제 확인됐다. 네 물건이다. 밖에서 행운을 빌지.",
+        "source": "Alright, payment cleared. Here’s your stuff. Good luck out there.",
         "translation": "좋아, 결제 확인됐다. 네 물건이다. 밖에서 행운을 빌지.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/10",
-        "source": "주문한 건 전부 있고, 덤도 조금 넣었다. 낭비하지 마.",
+        "source": "Everything you ordered—and a little extra. Don’t waste it.",
         "translation": "주문한 건 전부 있고, 덤도 조금 넣었다. 낭비하지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/11",
-        "source": "새 장난감 세트다. 밖에 나가서 놀아라.",
+        "source": "Here’s your new set of toys. Go play outside.",
         "translation": "새 장난감 세트다. 밖에 나가서 놀아라.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/12",
-        "source": "행운의 여신이 네 편인지 보자고. 좋은 사냥 되길.",
+        "source": "Let’s see if Lady Luck’s on your side. Good hunting.",
         "translation": "행운의 여신이 네 편인지 보자고. 좋은 사냥 되길.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/13",
-        "source": "랜덤 장비 세트는 정리됐다. 이제 알아서 나가면 된다.",
+        "source": "Your random loadout is sorted. Now, feel free to see yourself out.",
         "translation": "랜덤 장비 세트는 정리됐다. 이제 알아서 나가면 된다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/14",
-        "source": "우리가 가진 최고 물건을 팔았다... 적어도 굴러다니던 것 중엔 그랬지. 잘 써라.",
+        "source": "Sold you the best we got… or at least what was lying around. Use it well.",
         "translation": "우리가 가진 최고 물건을 팔았다... 적어도 굴러다니던 것 중엔 그랬지. 잘 써라.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/15",
-        "source": "이보다 못한 장비도 본 적 있다. 뭐, 죽은 사람도 많이 봤지만.",
+        "source": "I’ve seen worse kits. Then again, I’ve seen a lot of dead people.",
         "translation": "이보다 못한 장비도 본 적 있다. 뭐, 죽은 사람도 많이 봤지만.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/16",
-        "source": "다 됐다. 살아 돌아오면 내 얘기 좋게 해줘야 할 거다.",
+        "source": "All set. I expect a good word if you come back alive.",
         "translation": "다 됐다. 살아 돌아오면 내 얘기 좋게 해줘야 할 거다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/17",
-        "source": "챙기고 꺼져. 다른 놈이 집어가기 전에.",
+        "source": "Claim it and scram before someone else does.",
         "translation": "챙기고 꺼져. 다른 놈이 집어가기 전에.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/18",
-        "source": "이긴다고 장담은 못 하지만, 이 장비면 시작은 할 수 있겠지.",
+        "source": "I can’t guarantee a win, but this gear’s a start.",
         "translation": "이긴다고 장담은 못 하지만, 이 장비면 시작은 할 수 있겠지.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/19",
-        "source": "됐다. 도박은 끝났고, 이게 네 패다.",
-        "translation": "됐다. 도박은 끝났고, 이게 네 패다.",
+        "source": "Your loadout’s here. Handle it with care—or don’t. Not my problem anymore.",
+        "translation": "장비는 여기 있다. 조심히 다루든 말든 이제 내 알 바 아니야.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/20",
-        "source": "네 세트다. 불평은 받지 않는다. 돈은 이미 냈으니까.",
-        "translation": "네 세트다. 불평은 받지 않는다. 돈은 이미 냈으니까.",
+        "source": "Fresh out of the stash—don’t ask where I got it.",
+        "translation": "보관함에서 막 꺼낸 물건이다. 어디서 구했는지는 묻지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/21",
-        "source": "자, 받으시지. 후회는 나중에 해라.",
-        "translation": "자, 받으시지. 후회는 나중에 해라.",
+        "source": "Congratulations, you’re now the proud owner of some random goodies.",
+        "translation": "축하한다. 이제 무작위로 뽑힌 물건 몇 개의 주인이 됐군.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/22",
-        "source": "좋은 장비일 수도 있고, 아닐 수도 있다. 그래서 재밌는 거지.",
-        "translation": "좋은 장비일 수도 있고, 아닐 수도 있다. 그래서 재밌는 거지.",
+        "source": "Hope you’re more competent than you look. Good luck!",
+        "translation": "겉보기보다 실력이 좋길 바란다. 행운을 빌지!",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/23",
-        "source": "무작위로 뽑은 장비다. 운이 좋았는지 나빴는지는 네가 알아서 확인해.",
-        "translation": "무작위로 뽑은 장비다. 운이 좋았는지 나빴는지는 네가 알아서 확인해.",
+        "source": "A good day for small talk, huh? Take your shit and move along.",
+        "translation": "잡담하기 딱 좋은 날이지, 응? 네 물건이나 챙겨서 꺼져.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/24",
-        "source": "네 물건은 준비됐다. 밖에서 오래 버텨 봐라.",
-        "translation": "네 물건은 준비됐다. 밖에서 오래 버텨 봐라.",
+        "source": "So, still breathing? Must be your lucky day. Grab your gear and move along.",
+        "translation": "아직 살아 있나? 오늘 운이 좋았나 보군. 장비 챙기고 가.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/25",
-        "source": "여기 있다. 이걸 들고도 죽으면 장비 탓은 못 한다.",
-        "translation": "여기 있다. 이걸 들고도 죽으면 장비 탓은 못 한다.",
+        "source": "I’d ask how your last raid went, but I don’t care. Here’s your stuff.",
+        "translation": "지난 레이드가 어땠는지 묻고 싶지만 관심 없어. 네 물건이나 받아.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/26",
-        "source": "거래 끝났다. 물건 챙기고 길 막지 마.",
-        "translation": "거래 끝났다. 물건 챙기고 길 막지 마.",
+        "source": "Don’t get any blood on my floor.",
+        "translation": "내 바닥에 피 묻히지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/27",
-        "source": "네 운을 상자에 담아봤다. 열어보고 울지는 마라.",
-        "translation": "네 운을 상자에 담아봤다. 열어보고 울지는 마라.",
+        "source": "Surprised you made it out. Guess your so-called skills might be working for once.",
+        "translation": "살아 나왔다니 놀랍군. 네 소위 실력이 이번엔 좀 통했나 보지.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/28",
-        "source": "대충 쓸 만한 물건들이다. 목숨 걸기엔 충분하겠지.",
-        "translation": "대충 쓸 만한 물건들이다. 목숨 걸기엔 충분하겠지.",
+        "source": "Busy day for me, no time for small talk. Take your junk and scram.",
+        "translation": "오늘은 바빠서 잡담할 시간 없어. 잡동사니 챙겨서 꺼져.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/29",
-        "source": "장비 나왔다. 마음에 안 들어도 환불은 없다.",
-        "translation": "장비 나왔다. 마음에 안 들어도 환불은 없다.",
+        "source": "Heard you barely crawled out of that last gunfight. Congratulations, I guess. Stuff’s on the table.",
+        "translation": "지난 총격전에서 겨우 기어 나왔다고 들었어. 뭐, 축하한다. 물건은 탁자 위에 있어.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/30",
-        "source": "이 정도면 오늘은 괜찮은 편이다. 물론 너한테도 괜찮을지는 모르겠군.",
-        "translation": "이 정도면 오늘은 괜찮은 편이다. 물론 너한테도 괜찮을지는 모르겠군.",
+        "source": "Here’s your random junk—don’t come whining if it fails.",
+        "translation": "네 무작위 잡동사니다. 망가졌다고 징징대지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/31",
-        "source": "주문 처리 완료. 살아 돌아오면 또 와라.",
-        "translation": "주문 처리 완료. 살아 돌아오면 또 와라.",
+        "source": "Some hotshot asked me what side I’m on. I told him: the side with the most cash. He didn’t seem to like that answer.",
+        "translation": "잘난 놈 하나가 나더러 어느 편이냐고 묻더군. 돈을 제일 많이 주는 편이라고 했더니 마음에 안 드나 봐.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/32",
-        "source": "자, 장비다. 밖에 나가서 숫자를 좀 줄여봐.",
-        "translation": "자, 장비다. 밖에 나가서 숫자를 좀 줄여봐.",
+        "source": "Got a tip on a hidden supply drop. But if everyone’s sniffing it out, it won’t stay hidden for long—good luck fighting off the vultures.",
+        "translation": "숨겨진 보급품 투하 지점에 대한 정보를 들었어. 하지만 모두가 냄새 맡고 찾아다니면 오래 숨겨져 있지는 못할 거다. 몰려드는 하이에나들을 상대할 때 행운을 빌지.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/33",
-        "source": "네 세트가 준비됐다. 잃어버리기 전에 한 번은 써봐라.",
-        "translation": "네 세트가 준비됐다. 잃어버리기 전에 한 번은 써봐라.",
+        "source": "Just heard some newbie ask if the roads are safe. Yeah, sure—if you consider snipers and landmines a friendly neighborhood watch. What an idiot.",
+        "translation": "초보 하나가 길이 안전하냐고 묻더군. 그럼, 저격수랑 지뢰를 친절한 동네 순찰대라고 생각한다면야. 멍청한 놈.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/34",
-        "source": "결과가 나왔다. 카지노라면 이쯤에서 판돈을 챙기는 법이지.",
-        "translation": "결과가 나왔다. 카지노라면 이쯤에서 판돈을 챙기는 법이지.",
+        "source": "I don’t care if you blow yourself up. Just don’t expect a refund.",
+        "translation": "네가 폭사하든 말든 상관없어. 환불은 기대하지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/35",
-        "source": "받아라. 이 장비가 널 살릴지, 아니면 시체에 붙은 장식이 될지는 곧 알게 되겠지.",
-        "translation": "받아라. 이 장비가 널 살릴지, 아니면 시체에 붙은 장식이 될지는 곧 알게 되겠지.",
+        "source": "Heard whispers that the war's finally winding down—again. Don’t hold your breath, friend.",
+        "translation": "전쟁이 드디어 끝나 간다는 소문이 돌더군. 또 말이야. 너무 기대하진 마, 친구.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/36",
-        "source": "여기 있다. 운이 좋으면 이걸 다시 들고 돌아올 거다.",
-        "translation": "여기 있다. 운이 좋으면 이걸 다시 들고 돌아올 거다.",
+        "source": "Word on the street is we’re near the end of this mess. I’ll believe it when I see it.",
+        "translation": "거리 소문으로는 이 난장판도 끝이 가까워졌대. 직접 보기 전까지는 못 믿겠지만.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/37",
-        "source": "뽑기는 끝났다. 이제 타르코프가 널 뽑아먹을 차례야.",
-        "translation": "뽑기는 끝났다. 이제 타르코프가 널 뽑아먹을 차례야.",
+        "source": "People keep talking about peace talks. I’ve been talking about a vacation. We’ll see which comes first.",
+        "translation": "사람들은 자꾸 평화 협상을 얘기하지만, 난 휴가 얘기만 하고 있지. 뭐가 먼저 올지 두고 보자고.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/38",
-        "source": "장비는 준비됐다. 용기는 별도 판매다.",
-        "translation": "장비는 준비됐다. 용기는 별도 판매다.",
+        "source": "Tarkov’s real tired, you can feel it in the air. Everyone’s worn out… even me.",
+        "translation": "타르코프가 정말 지쳤어. 공기에서 느껴질 정도야. 모두 지쳐 버렸지... 나까지도.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/39",
-        "source": "네 몫이다. 내 탓하지 마라. 무작위라고 했잖아.",
-        "translation": "네 몫이다. 내 탓하지 마라. 무작위라고 했잖아.",
+        "source": "They say the fighting’s almost over, but I’ve heard that tune before. Every rumor starts to sound the same.",
+        "translation": "전투가 거의 끝났다고들 하지만 그런 소리는 예전에도 들었지. 이젠 소문이 전부 똑같이 들려.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/40",
-        "source": "괜찮은 세트다. 네가 괜찮게 굴 수 있다면 말이지.",
-        "translation": "괜찮은 세트다. 네가 괜찮게 굴 수 있다면 말이지.",
+        "source": "Everyone’s running on fumes, waiting for the final curtain call. Let’s hope it’s not just another false alarm.",
+        "translation": "모두 기진맥진해서 마지막 막이 내리기만 기다리고 있어. 또 헛소문이 아니길 바라야지.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/41",
-        "source": "여기 있다. 총알 맞기 전에 탄창부터 확인해라.",
-        "translation": "여기 있다. 총알 맞기 전에 탄창부터 확인해라.",
+        "source": "Fatigue is hitting everyone. Hell, we could all use a day off from this madness.",
+        "translation": "다들 피로에 찌들었어. 빌어먹을, 이 미친 짓에서 하루쯤은 쉬어야 한다고.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/42",
-        "source": "이번엔 운이 나쁘지 않았군. 그걸 유지할 수 있을지는 별개지만.",
-        "translation": "이번엔 운이 나쁘지 않았군. 그걸 유지할 수 있을지는 별개지만.",
+        "source": "Some folks think the war’s close to over, but around here, we’ve learned not to bank on hearsay.",
+        "translation": "전쟁이 거의 끝났다고 믿는 사람도 있지만, 여기선 풍문만 믿지 않는 법을 배웠지.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/43",
-        "source": "장비 지급 완료. 이제 밖에 나가서 결과를 만들어 봐.",
-        "translation": "장비 지급 완료. 이제 밖에 나가서 결과를 만들어 봐.",
+        "source": "Heard any gossips about dogovornyachok? I am really tired of this shit, I want this to end.",
+        "translation": "밀약 소문 들었나? 이 빌어먹을 상황이 정말 지긋지긋해. 빨리 끝났으면 좋겠어.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/44",
-        "source": "좋아, 네 판돈은 장비로 바뀌었다. 이제 목숨으로 굴려봐라.",
-        "translation": "좋아, 네 판돈은 장비로 바뀌었다. 이제 목숨으로 굴려봐라.",
+        "source": "Dogovornyak or not, I’m just sick of all this bloodshed. We could use a break from the madness.",
+        "translation": "밀약이 있든 없든, 이 유혈사태가 지긋지긋해. 이 광기에서 좀 쉬었으면 좋겠군.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "messages.json/45",
-        "source": "여기까지다. 챙겨서 나가. 다음 손님 기다린다.",
-        "translation": "여기까지다. 챙겨서 나가. 다음 손님 기다린다.",
+        "source": "They say tired men make deals faster - bullshit. Otherwise why am I still waiting for a dogovornyachok?",
+        "translation": "지친 사람들은 거래를 더 빨리 성사시킨다고? 개소리지. 안 그러면 난 왜 아직도 밀약 소식을 기다리고 있겠어?",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/1",
-        "source": "네가 나한테 판 물건 말인데... 확인해 보니 다른 데서 더 비싸게 받을 수 있었겠더군. 차액이다.",
+        "source": "Listen, regarding the items you sold to me... I did some checking and it seems you could have gotten a better price elsewhere. Here's the difference.",
         "translation": "네가 나한테 판 물건 말인데... 확인해 보니 다른 데서 더 비싸게 받을 수 있었겠더군. 차액이다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/2",
-        "source": "네가 나한테 던지고 간 잡동사니 말인데... 알고 보니 가격을 제대로 후려맞았더라. 받아라. 뭐, 됐다.",
+        "source": "Look, about that junk you dumped on me... turns out you got screwed on the price. Here's what you're owed. Whatever.",
         "translation": "네가 나한테 던지고 간 잡동사니 말인데... 알고 보니 가격을 제대로 후려맞았더라. 받아라. 뭐, 됐다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/3",
-        "source": "그래서... 시장을 확인해 봤다. 다른 데서 더 받을 수 있었어. 차액이다. 매번 기대하진 마.",
+        "source": "Yeah, so... checked the market. You could've gotten more elsewhere. Here's the difference. Don't expect this every time.",
         "translation": "그래서... 시장을 확인해 봤다. 다른 데서 더 받을 수 있었어. 차액이다. 매번 기대하진 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/4",
-        "source": "잘 들어. 네 물건은 내가 준 값보다 더 나갔다. 남은 돈 받아라. 다음엔 시세 좀 알아보고 와.",
+        "source": "Listen up. Your stuff was worth more than what I gave you. Taking the extra. Try doing your homework next time.",
         "translation": "잘 들어. 네 물건은 내가 준 값보다 더 나갔다. 남은 돈 받아라. 다음엔 시세 좀 알아보고 와.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/5",
-        "source": "아, 됐다. 내가 덜 쳐준 모양이군. 남은 금액이다. 이런 일로 내 시간 뺏지 마.",
+        "source": "Ugh, fine. Looks like I underpaid you. Here's what's left over. Stop wasting my time with this.",
         "translation": "아, 됐다. 내가 덜 쳐준 모양이군. 남은 금액이다. 이런 일로 내 시간 뺏지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/6",
-        "source": "계산을 좀 해봤는데... 너, 바가지를 썼더라. 여기 있다. 습관 들이지 마.",
+        "source": "So I ran the numbers... you got ripped off. Here. Don't make a habit of this.",
         "translation": "계산을 좀 해봤는데... 너, 바가지를 썼더라. 여기 있다. 습관 들이지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/7",
-        "source": "네 물건? 그래, 생각보다 더 값이 나가더군. 나머지 받아라. 흥정하는 법이나 좀 배워.",
+        "source": "Your items? Yeah, worth more apparently. Here's the rest. Maybe learn to haggle.",
         "translation": "네 물건? 그래, 생각보다 더 값이 나가더군. 나머지 받아라. 흥정하는 법이나 좀 배워.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/8",
-        "source": "좀 알아봤다. 받을 돈을 놓쳤더군. 네 몫이다. 이제 날 좀 내버려 둬.",
+        "source": "Checked around. You left money on the table. Here's your cut. Now leave me alone.",
         "translation": "좀 알아봤다. 받을 돈을 놓쳤더군. 네 몫이다. 이제 날 좀 내버려 둬.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/9",
-        "source": "이번 한 번만 해주는 거다. 그 잡동사니, 더 비싸게 팔 수 있었어. 받아 들고 가.",
+        "source": "Look, I'm only doing this once - you could've sold that crap for more. Take it and go.",
         "translation": "이번 한 번만 해주는 거다. 그 잡동사니, 더 비싸게 팔 수 있었어. 받아 들고 가.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/10",
-        "source": "네가 손해 본 걸 알아냈다. 차액이다. 내가 네 판매까지 돌봐줄 거라 생각하지 마.",
+        "source": "Found out you got a raw deal. Here's the difference. Don't expect me to babysit your sales.",
         "translation": "네가 손해 본 걸 알아냈다. 차액이다. 내가 네 판매까지 돌봐줄 거라 생각하지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/11",
-        "source": "어쨌든. 네 장비가 너무 싸게 넘어갔다. 빠진 금액이다. 다음엔 생각 좀 해라.",
+        "source": "Whatever. Your gear was underpriced. Here's what's missing. Try thinking next time.",
         "translation": "어쨌든. 네 장비가 너무 싸게 넘어갔다. 빠진 금액이다. 다음엔 생각 좀 해라.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/12",
-        "source": "알았어, 알았어... 시장 가격으론 네가 더 받아야 했더군. 여기 있다. 됐나?",
+        "source": "Alright, alright... market says you deserved more. Here. Happy now?",
         "translation": "알았어, 알았어... 시장 가격으론 네가 더 받아야 했더군. 여기 있다. 됐나?",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/13",
-        "source": "아무래도 내가 덜 쳐준 모양이다. 추가 금액이다. 이제부터는 네가 직접 알아봐.",
+        "source": "So apparently I shortchanged you. Here's the extra. Do your own research from now on.",
         "translation": "아무래도 내가 덜 쳐준 모양이다. 추가 금액이다. 이제부터는 네가 직접 알아봐.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/14",
-        "source": "네 물건? 저평가됐다. 잔금이다. 난 더 중요한 일이 있어.",
+        "source": "Your merchandise? Undervalued. Here's the balance. I've got better things to do.",
         "translation": "네 물건? 저평가됐다. 잔금이다. 난 더 중요한 일이 있어.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/15",
-        "source": "그래, 가격에서 제대로 털렸더군. 받아라. 다음엔 직접 시세 확인 좀 해.",
+        "source": "Yeah, you got shafted on price. Taking this. Maybe check prices yourself sometime.",
         "translation": "그래, 가격에서 제대로 털렸더군. 받아라. 다음엔 직접 시세 확인 좀 해.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/16",
-        "source": "연줄에 좀 물어봤다. 더 잘 받을 수 있었어. 네 몫이다. 다시는 내 시간 낭비하지 마.",
+        "source": "Ran it by some contacts... you could've done better. Here's what's yours. Don't waste my time again.",
         "translation": "연줄에 좀 물어봤다. 더 잘 받을 수 있었어. 네 몫이다. 다시는 내 시간 낭비하지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/17",
-        "source": "좋아, 똑바로 말해주지. 싸게 팔았어. 차액이다. 시장을 배워라.",
+        "source": "Fine, I'll spell it out - you sold cheap. Here's the difference. Learn the market.",
         "translation": "좋아, 똑바로 말해주지. 싸게 팔았어. 차액이다. 시장을 배워라.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/18",
-        "source": "네가 넘긴 물건들 말이야. 더 값어치가 있었다. 여기 있다. 그렇게 눈치 없게 굴지 마.",
+        "source": "Look, those items you offloaded? Worth more. Here. Stop being so clueless.",
         "translation": "네가 넘긴 물건들 말이야. 더 값어치가 있었다. 여기 있다. 그렇게 눈치 없게 굴지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/19",
-        "source": "시세를 확인했다. 너, 제대로 당했더라. 네 돈이다. 머리 좀 써라.",
+        "source": "Checked the going rates. You got screwed. Here's your money. Try using your brain.",
         "translation": "시세를 확인했다. 너, 제대로 당했더라. 네 돈이다. 머리 좀 써라.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/20",
-        "source": "네가 넘긴 물건 말인데... 너무 싸게 넘겼다. 나머지다. 난 네 재무 상담사가 아니야.",
+        "source": "About that stuff you pawned off... underpriced. Here's the rest. I'm not your financial advisor.",
         "translation": "네가 넘긴 물건 말인데... 너무 싸게 넘겼다. 나머지다. 난 네 재무 상담사가 아니야.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/21",
-        "source": "네 물건은 거리에서 더 값이 나갔다. 내가 빚진 금액이다. 이런 일이 반복되게 하지 마.",
+        "source": "Your goods were worth more on the street. Here's what I owe you. Don't make this a pattern.",
         "translation": "네 물건은 거리에서 더 값이 나갔다. 내가 빚진 금액이다. 이런 일이 반복되게 하지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/22",
-        "source": "그래서... 돈을 놓치고 왔더군. 여기 있다. 시장가 좀 보고 다녀라.",
+        "source": "So... turns out you left cash on the table. Here. Maybe pay attention to market prices.",
         "translation": "그래서... 돈을 놓치고 왔더군. 여기 있다. 시장가 좀 보고 다녀라.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/23",
-        "source": "들어봐. 내가 발품 팔아 확인했다. 너, 덜 받았어. 받아라. 난 진짜 할 일이 있다.",
+        "source": "Listen, I did the legwork - you got underpaid. Take this. I've got actual work to do.",
         "translation": "들어봐. 내가 발품 팔아 확인했다. 너, 덜 받았어. 받아라. 난 진짜 할 일이 있다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/24",
-        "source": "네 재고? 내가 준 값보다 비싸게 팔렸다. 네 몫이다. 게으르게 굴지 마.",
+        "source": "Your inventory? Sold it for more than I paid. Here's your share. Stop being lazy.",
         "translation": "네 재고? 내가 준 값보다 비싸게 팔렸다. 네 몫이다. 게으르게 굴지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/25",
-        "source": "알아봤다. 다른 데서 더 짜낼 수 있었더군. 여기 있다. 고맙다는 말은 필요 없다.",
+        "source": "Looked into it. You could've squeezed more out elsewhere. Here. No need to thank me.",
         "translation": "알아봤다. 다른 데서 더 짜낼 수 있었더군. 여기 있다. 고맙다는 말은 필요 없다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/26",
-        "source": "그 물건들 말인데... 시장은 내가 준 가격에 동의하지 않더군. 추가 금액이다. 뭐, 됐다.",
+        "source": "Yeah, about those items... market disagrees with what I gave you. Here's the extra. Whatever.",
         "translation": "그 물건들 말인데... 시장은 내가 준 가격에 동의하지 않더군. 추가 금액이다. 뭐, 됐다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/27",
-        "source": "좀 파봤다. 거래를 잘못했더군. 차액이다. 다음엔 신경 좀 써.",
+        "source": "Did some digging. You got a bad deal. Taking the difference. Pay attention next time.",
         "translation": "좀 파봤다. 거래를 잘못했더군. 차액이다. 다음엔 신경 좀 써.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/28",
-        "source": "네 물건이 실제로는 더 값이 나갔다. 여기 있다. 급하게 팔아넘기는 버릇 좀 고쳐.",
+        "source": "So your stuff was actually worth more. Here. Maybe stop rushing into sales.",
         "translation": "네 물건이 실제로는 더 값이 나갔다. 여기 있다. 급하게 팔아넘기는 버릇 좀 고쳐.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/29",
-        "source": "내 정보원에게 확인했다. 낮게 팔았어. 남은 금액이다. 손잡고 가르쳐줄 생각은 없다.",
+        "source": "Checked with my sources. You sold low. Here's what's left. Don't expect hand-holding.",
         "translation": "내 정보원에게 확인했다. 낮게 팔았어. 남은 금액이다. 손잡고 가르쳐줄 생각은 없다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/30",
-        "source": "네 장비? 저평가했다. 잔금이다. 가격은 네가 직접 배워라.",
+        "source": "Your equipment? Undervalued it. Here's the balance. Try learning prices yourself.",
         "translation": "네 장비? 저평가했다. 잔금이다. 가격은 네가 직접 배워라.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/31",
-        "source": "좋아, 솔직히 말하지. 다른 데서 더 받을 수 있었다. 네 몫이다. 이제 꺼져.",
+        "source": "Fine, I'll be straight - you could've gotten better elsewhere. Here's your cut. Now scram.",
         "translation": "좋아, 솔직히 말하지. 다른 데서 더 받을 수 있었다. 네 몫이다. 이제 꺼져.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/32",
-        "source": "맡기고 간 장비 말인데... 내가 말한 것보다 더 값이 나갔다. 받아라. 익숙해지진 마.",
+        "source": "About that gear you dropped off... worth more than I said. Here. Don't get used to this.",
         "translation": "맡기고 간 장비 말인데... 내가 말한 것보다 더 값이 나갔다. 받아라. 익숙해지진 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/33",
-        "source": "시장가로 보면 네가 손해 봤다. 차액이다. 공부 좀 해라.",
+        "source": "Market says you got screwed. Here's the difference. Maybe do some homework.",
         "translation": "시장가로 보면 네가 손해 봤다. 차액이다. 공부 좀 해라.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/34",
-        "source": "그래서... 그 물건들, 가격이 낮게 잡혔다. 받아라. 난 자선사업 하는 게 아니야.",
+        "source": "Yeah, so... those items were underpriced. Taking this. I'm not running a charity.",
         "translation": "그래서... 그 물건들, 가격이 낮게 잡혔다. 받아라. 난 자선사업 하는 게 아니야.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/35",
-        "source": "숫자를 확인했다. 돈을 놓치고 왔더군. 여기 있다. 너무 쉽게 믿지 마.",
+        "source": "Looked at the numbers. You left money behind. Here. Stop being so trusting.",
         "translation": "숫자를 확인했다. 돈을 놓치고 왔더군. 여기 있다. 너무 쉽게 믿지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/36",
-        "source": "네 물건은 더 값어치가 있었다. 내가 줄 돈이다. 좀 덜 만만하게 굴어봐.",
+        "source": "Your merchandise was worth more. Here's what I owe. Try being less of a pushover.",
         "translation": "네 물건은 더 값어치가 있었다. 내가 줄 돈이다. 좀 덜 만만하게 굴어봐.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/37",
-        "source": "계산해 보니 거래가 안 좋았다. 추가 금액이다. 협상하는 법을 배워.",
+        "source": "Did the math. You got a raw deal. Here's the extra. Learn to negotiate.",
         "translation": "계산해 보니 거래가 안 좋았다. 추가 금액이다. 협상하는 법을 배워.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/38",
-        "source": "아무래도 싸게 판 모양이군. 잔금이다. 네 실수까지 내 탓으로 돌리지 마.",
+        "source": "So apparently you sold cheap. Here's the balance. Don't blame me for your mistakes.",
         "translation": "아무래도 싸게 판 모양이군. 잔금이다. 네 실수까지 내 탓으로 돌리지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/39",
-        "source": "동네를 좀 알아봤다. 더 잘 받을 수 있었어. 여기 있다. 팔기 전에 생각 좀 해.",
+        "source": "Checked around town. You could've done better. Here. Maybe think before selling.",
         "translation": "동네를 좀 알아봤다. 더 잘 받을 수 있었어. 여기 있다. 팔기 전에 생각 좀 해.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/40",
-        "source": "네 물건? 그래, 저평가됐다. 차액이다. 난 갈 곳이 있다.",
+        "source": "Your stuff? Yeah, undervalued. Taking the difference. I've got places to be.",
         "translation": "네 물건? 그래, 저평가됐다. 차액이다. 난 갈 곳이 있다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/41",
-        "source": "들어봐. 그 물건들은 다른 데서 더 비쌌다. 네 돈이다. 후회하게 만들지 마.",
+        "source": "Listen, those goods were worth more elsewhere. Here's your money. Don't make me regret this.",
         "translation": "들어봐. 그 물건들은 다른 데서 더 비쌌다. 네 돈이다. 후회하게 만들지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/42",
-        "source": "시장가가 더 높다는 걸 알아냈다. 네 몫이다. 나쁜 거래로 내 시간 낭비하지 마.",
+        "source": "Found out the market rate was higher. Here's what's yours. Stop wasting my time with bad deals.",
         "translation": "시장가가 더 높다는 걸 알아냈다. 네 몫이다. 나쁜 거래로 내 시간 낭비하지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/43",
-        "source": "그 재고 말인데... 덜 받았더군. 여기 있다. 다음엔 그렇게 절박하게 굴지 마.",
+        "source": "About that inventory... you got shorted. Here. Try not being so desperate next time.",
         "translation": "그 재고 말인데... 덜 받았더군. 여기 있다. 다음엔 그렇게 절박하게 굴지 마.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_messages.json/44",
-        "source": "그래, 또 받을 돈을 놓쳤더군. 나머지다. 빌어먹을 회계사라도 고용해라.",
+        "source": "Yeah, you left cash on the table again. Here's the rest. Maybe hire a damn accountant.",
         "translation": "그래, 또 받을 돈을 놓쳤더군. 나머지다. 빌어먹을 회계사라도 고용해라.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/1",
-        "source": "플리마켓에 네 물건을 올리는 일 말인데... 풋내기 물건은 아무도 안 사. 평판 좀 쌓고 다시 와.",
+        "source": "Yeah, about selling your stuff on the flea... nobody's buying from a rookie. Come back when you've got some reputation.",
         "translation": "플리마켓에 네 물건을 올리는 일 말인데... 풋내기 물건은 아무도 안 사. 평판 좀 쌓고 다시 와.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/2",
-        "source": "봐, 네 전리품은 시장에 못 넘긴다. 사람들은 저레벨 판매자를 믿지 않아. 먼저 레벨부터 올려.",
+        "source": "Look, I can't move your loot on the market. People don't trust low-level sellers. Level up first.",
         "translation": "봐, 네 전리품은 시장에 못 넘긴다. 사람들은 저레벨 판매자를 믿지 않아. 먼저 레벨부터 올려.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/3",
-        "source": "네 물건? 아직은 못 판다. 플리마켓은 초보를 안 믿어. 15레벨 찍고 다시 얘기하자.",
+        "source": "Your items? Can't sell them yet. Flea market doesn't trust newbies. Get to level 15, then we'll talk.",
         "translation": "네 물건? 아직은 못 판다. 플리마켓은 초보를 안 믿어. 15레벨 찍고 다시 얘기하자.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/4",
-        "source": "들어봐. 시장은 네 수준의 사람이 올린 물건엔 손도 안 댄다. 신뢰부터 쌓아.",
+        "source": "Listen, the market won't touch anything from someone your level. Build some credibility first.",
         "translation": "들어봐. 시장은 네 수준의 사람이 올린 물건엔 손도 안 댄다. 신뢰부터 쌓아.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/5",
-        "source": "그래, 안 돼. 플리마켓 구매자들은 저레벨 상인을 피한다. 완전한 무명에서 벗어나고 와.",
+        "source": "Yeah, no. Flea market buyers avoid low-level traders. Come back when you're not a complete nobody.",
         "translation": "그래, 안 돼. 플리마켓 구매자들은 저레벨 상인을 피한다. 완전한 무명에서 벗어나고 와.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/6",
-        "source": "네 물건은 올릴 수 없다. 사람들은 저레벨 전리품을 수상하게 봐. 먼저 증명해.",
+        "source": "Can't list your stuff. People think the loot from low-levels is sketchy. Prove yourself first.",
         "translation": "네 물건은 올릴 수 없다. 사람들은 저레벨 전리품을 수상하게 봐. 먼저 증명해.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/7",
-        "source": "너 같은 풋내기한테선 아무도 안 산다. 경험 좀 쌓고 오면 생각해 보지.",
+        "source": "Nobody's gonna buy from a rookie like you. Get some experience, then I'll consider it.",
         "translation": "너 같은 풋내기한테선 아무도 안 산다. 경험 좀 쌓고 오면 생각해 보지.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/8",
-        "source": "네 평판? 없는 거나 마찬가지야. 레벨을 올리기 전까지 플리마켓은 네 물건을 안 받아.",
+        "source": "Your reputation? Non-existent. Flea market won't touch your items until you level up.",
         "translation": "네 평판? 없는 거나 마찬가지야. 레벨을 올리기 전까지 플리마켓은 네 물건을 안 받아.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/9",
-        "source": "봐, 네 쓰레기도 팔아주고 싶지만... 플리마켓에선 초보를 안 믿어. 15레벨 먼저 찍어.",
+        "source": "Look, I'd sell your garbage but... nobody trusts newbies on the flea. Hit level 15 first.",
         "translation": "봐, 네 쓰레기도 팔아주고 싶지만... 플리마켓에선 초보를 안 믿어. 15레벨 먼저 찍어.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/10",
-        "source": "플리마켓은 저레벨 물건을 원하지 않는다. 사기꾼이 너무 많거든. 나중에 와.",
+        "source": "Flea market doesn't want anything from low-levels. Too many scammers. Come back later.",
         "translation": "플리마켓은 저레벨 물건을 원하지 않는다. 사기꾼이 너무 많거든. 나중에 와.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/11",
-        "source": "그래, 넌 아직 너무 풋내기야. 플리마켓 구매자들은 초보와 거래할 위험을 안 진다. 레벨 올려.",
+        "source": "Yeah, you're too green. Flea buyers won't risk it with rookies. Level up.",
         "translation": "그래, 넌 아직 너무 풋내기야. 플리마켓 구매자들은 초보와 거래할 위험을 안 진다. 레벨 올려.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/12",
-        "source": "네 상품은 못 움직인다. 아직 평판이 없어. 그게 전부다.",
+        "source": "Can't move your merchandise. You don't have the reputation yet. Simple as that.",
         "translation": "네 상품은 못 움직인다. 아직 평판이 없어. 그게 전부다.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/13",
-        "source": "들어봐. 저레벨 판매자는 플리마켓에서 무시당한다. 신뢰부터 쌓고 나서 장사 얘기하자.",
+        "source": "Listen, low-level sellers get ignored on the flea. Build some credibility first, then we talk business.",
         "translation": "들어봐. 저레벨 판매자는 플리마켓에서 무시당한다. 신뢰부터 쌓고 나서 장사 얘기하자.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/14",
-        "source": "네 물건은 괜찮아. 문제는 너다. 아무도 널 몰라. 증명하기 전까진 못 판다. 15레벨 찍고 와.",
+        "source": "Your stuff's fine, but YOU? Nobody knows you. Can't sell until you prove yourself. Go get that 15lvl.",
         "translation": "네 물건은 괜찮아. 문제는 너다. 아무도 널 몰라. 증명하기 전까진 못 판다. 15레벨 찍고 와.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/15",
-        "source": "플리마켓에도 기준은 있다. 저레벨 상인은 그 기준을 못 넘는다. 15레벨 찍어.",
+        "source": "Flea market has standards. Low-level traders don't make the cut. Get to 15.",
         "translation": "플리마켓에도 기준은 있다. 저레벨 상인은 그 기준을 못 넘는다. 15레벨 찍어.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/16",
-        "source": "그래, 안 된다. 사람들은 풋내기 물건을 빌어먹을 쓰레기라고 생각해. 레벨 올리고 다시 해봐.",
+        "source": "Yeah, not happening. People assume rookie stuff is fkn garbage. Level up and try again.",
         "translation": "그래, 안 된다. 사람들은 풋내기 물건을 빌어먹을 쓰레기라고 생각해. 레벨 올리고 다시 해봐.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/17",
-        "source": "아직은 아무것도 올려줄 수 없다. 시장은 새 얼굴을 믿지 않아. 네 존재감이 생기면 다시 와.",
+        "source": "Can't list anything for you yet. Market doesn't trust new faces. Come back when you matter.",
         "translation": "아직은 아무것도 올려줄 수 없다. 시장은 새 얼굴을 믿지 않아. 네 존재감이 생기면 다시 와.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/18",
-        "source": "레벨이 너무 낮다. 플리마켓 구매자들은 풋내기를 건너뛴다. 평판부터 쌓아.",
+        "source": "Your level's too low. Flea buyers skip over rookies. Build your rep first.",
         "translation": "레벨이 너무 낮다. 플리마켓 구매자들은 풋내기를 건너뛴다. 평판부터 쌓아.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/19",
-        "source": "막 시작한 사람한테서 살 사람은 없다. 레벨 좀 올린 다음 거래하자.",
+        "source": "Nobody's buying from someone who just started. Get some levels, then we'll do business.",
         "translation": "막 시작한 사람한테서 살 사람은 없다. 레벨 좀 올린 다음 거래하자.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/20",
-        "source": "봐, 개인적인 건 아니다. 플리마켓이 저레벨을 안 믿을 뿐이야. 밖에서 네 가치를 증명해.",
+        "source": "Look, it's nothing personal - flea market just doesn't trust low-levels. Prove yourself out there.",
         "translation": "봐, 개인적인 건 아니다. 플리마켓이 저레벨을 안 믿을 뿐이야. 밖에서 네 가치를 증명해.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/21",
-        "source": "네 물건은 못 판다. 넌 무명이고, 시장은 무명을 싫어해. 레벨 올려.",
+        "source": "Can't sell your items. You're unknown, and the market doesn't like unknowns. Level up.",
         "translation": "네 물건은 못 판다. 넌 무명이고, 시장은 무명을 싫어해. 레벨 올려.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/22",
-        "source": "그래, 구매자들은 풋내기 판매자를 피한다. 너무 위험하거든. 이름 좀 알리고 와.",
+        "source": "Yeah, buyers avoid rookie sellers. Too risky. Come back when you've got a name.",
         "translation": "그래, 구매자들은 풋내기 판매자를 피한다. 너무 위험하거든. 이름 좀 알리고 와.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/23",
-        "source": "네 물건이 안 팔리는 이유는 물건이 아니라 너야. 평판이 없어. 15레벨 먼저 찍어.",
+        "source": "Your stuff won't sell because YOU won't sell. No reputation. Hit level 15 first.",
         "translation": "네 물건이 안 팔리는 이유는 물건이 아니라 너야. 평판이 없어. 15레벨 먼저 찍어.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/24",
-        "source": "시장은 저레벨 상품에 손대지 않는다. 사람들은 의심스럽다고 생각해. 경험 쌓고 와.",
+        "source": "Market won't touch low-level merchandise. People think it's suspect. Get experienced.",
         "translation": "시장은 저레벨 상품에 손대지 않는다. 사람들은 의심스럽다고 생각해. 경험 쌓고 와.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/25",
-        "source": "아직 네 물건은 시장에 못 넘긴다. 플리마켓 구매자들은 자리 잡은 상인만 원해. 계속 굴러.",
+        "source": "Can't move anything for you to the market yet. Flea buyers want established traders only. Keep grinding.",
         "translation": "아직 네 물건은 시장에 못 넘긴다. 플리마켓 구매자들은 자리 잡은 상인만 원해. 계속 굴러.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/26",
-        "source": "봐, 아무도 네가 누군지 몰라. 플리마켓에선 그게 중요하다. 이름을 만들고 돌아와.",
+        "source": "Look, nobody knows who you are. That matters on the flea. Come back when you've made a name.",
         "translation": "봐, 아무도 네가 누군지 몰라. 플리마켓에선 그게 중요하다. 이름을 만들고 돌아와.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/27",
-        "source": "네 레벨이 '초보'라고 소리치고 있고, 시장은 그걸 싫어해. 먼저 살아남을 수 있다는 걸 증명해.",
+        "source": "Your level screams 'newbie' and the market hates that. Prove you can survive first.",
         "translation": "네 레벨이 '초보'라고 소리치고 있고, 시장은 그걸 싫어해. 먼저 살아남을 수 있다는 걸 증명해.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/28",
-        "source": "그래, 플리마켓은 풋내기용이 아니야. 당한 구매자가 너무 많다. 15레벨 찍고 얘기하자.",
+        "source": "Yeah, flea market's not for rookies. Too many burned buyers. Get to 15, then we talk.",
         "translation": "그래, 플리마켓은 풋내기용이 아니야. 당한 구매자가 너무 많다. 15레벨 찍고 얘기하자.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/29",
-        "source": "네 물건은 플리마켓에 못 올린다. 영리한 구매자들은 저레벨 상인을 걸러낸다. 레벨 올려.",
+        "source": "Can't list your stuff on the flea. Low-level traders get filtered out by smart buyers. Level up.",
         "translation": "네 물건은 플리마켓에 못 올린다. 영리한 구매자들은 저레벨 상인을 걸러낸다. 레벨 올려.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "blackmarket_fail_messages.json/30",
-        "source": "들어본 적도 없는 놈과 거래하고 싶어 하는 사람은 없다. 평판을 쌓고 다시 와.",
+        "source": "Nobody wants to deal with someone they've never heard of. Build your reputation, then come back.",
         "translation": "들어본 적도 없는 놈과 거래하고 싶어 하는 사람은 없다. 평판을 쌓고 다시 와.",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {
         "id": "da931430cadb9a5b",
-        "source": "Nice doing business with you! Here's your cut after tax: {amount}",
-        "translation": "거래 즐거웠다. 세금 떼고 네 몫은 이거다: {amount}",
-        "match_mode": "template",
+        "source": "Nice doing business with you! Here's your cut after tax: ",
+        "translation": "거래 즐거웠다. 세금 떼고 네 몫은 이거다: ",
+        "match_mode": "exact",
         "trader_id": "1337bb0dd843363fcd1be869"
       },
       {

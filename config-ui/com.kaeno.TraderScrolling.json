@@ -16,8 +16,8 @@
       "key": "Scroll Wheel Speed",
       "source_display_name": "Scroll Wheel Speed",
       "source_description": "Adjusts scrolling speed when using mousewheel",
-      "translation_display_name": "스크롤 선택 휠 속도",
-      "translation_description": "스크롤 선택 휠 속도 값을 조정합니다.",
+      "translation_display_name": "마우스 휠 스크롤 속도",
+      "translation_description": "마우스 휠로 스크롤할 때의 이동 속도를 조절합니다.",
       "values": []
     }
   ]

@@ -34,7 +34,7 @@
       "source_display_name": "Left look limit (deg)",
       "source_description": "Maximum head rotation to the left while holding the free-look key. ",
       "translation_display_name": "왼쪽 고개 돌리기 한계 (도)",
-      "translation_description": "왼쪽 고개 돌리기 한계 (도) 값을 설정합니다.",
+      "translation_description": "프리룩 키를 누르고 있는 동안 머리를 왼쪽으로 돌릴 수 있는 최대 각도를 설정합니다.",
       "values": []
     },
     {
@@ -52,7 +52,7 @@
       "source_display_name": "Lift at full turn (m)",
       "source_description": "How far the camera rises once the head is at its turn limit.",
       "translation_display_name": "최대 회전 시 카메라 상승량 (m)",
-      "translation_description": "최대 회전 시 카메라 상승량 (m) 값을 설정합니다.",
+      "translation_description": "머리가 최대 회전 각도에 도달했을 때 카메라 시점이 올라가는 거리(m)입니다.",
       "values": []
     },
     {

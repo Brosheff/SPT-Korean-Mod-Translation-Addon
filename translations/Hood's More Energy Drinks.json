@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.hood.moreenergydrinks",
+  "mod_name": "Hood's More Energy Drinks",
+  "channels": {
+    "locale": [
+      {
+        "key": "694c6d5568b849f7bb05b7a9 Name",
+        "source": "Monster Original Blue Lo-Carb Energy Drink [Common]",
+        "translation": "몬스터 오리지널 블루 저탄수화물 에너지 음료 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7a9 ShortName",
+        "source": "Monster",
+        "translation": "몬스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7a9 Description",
+        "source": "The Lo-Carb Monster Energy Drink is a favorite among scavs that have a taste for increased their ability in scavenging faster and staying alert longer in-raid. Monster Energy Lo-Carb packs a powerful punch and has a smooth, easy drinking flavor, but without glucose. Get the big bad Monster buzz you know and love, but with a sweet & salty citrus twist with a fraction of the carbohydrates and only 30 calories per can and with 140mg of Caffeine.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "저탄수화물 몬스터 에너지는 레이드 중 전리품을 더 빠르게 수색하고 오래 집중하고 싶은 스캐브들이 즐겨 마시는 음료입니다. 포도당을 넣지 않았지만 강렬한 활력과 부드럽고 마시기 쉬운 맛을 제공합니다. 익숙한 몬스터의 짜릿함에 달고 짭짤한 감귤 풍미를 더했습니다. 탄수화물 함량은 낮췄고 한 캔당 열량은 30칼로리, 카페인은 140mg입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ab Name",
+        "source": "Monster Original Green Energy Drink [Common]",
+        "translation": "몬스터 오리지널 그린 에너지 음료 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ab ShortName",
+        "source": "Monster",
+        "translation": "몬스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ab Description",
+        "source": "The Original Green Monster Energy Drink is Tarkov's most scavenged and desired energy drink. Scavs and PMCs alike horde this beverage for both for its taste and affects, which help keep their energy and stamina up longer during raids.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "오리지널 그린 몬스터는 타르코프에서 스캐브들이 가장 많이 찾아 나서는 에너지 음료입니다. 스캐브와 PMC 모두 맛과 효과 때문에 이 음료를 모아 둡니다. 레이드 중 에너지와 지구력을 더 오래 유지하는 데 도움이 됩니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b7 Name",
+        "source": "Ghost Welch's Grape-Cran Energy Drink [Uncommon]",
+        "translation": "고스트 웰치스 그레이프-크랜 에너지 음료 [고급]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b7 ShortName",
+        "source": "Ghost",
+        "translation": "고스트",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b7 Description",
+        "source": "Bursting with notes of concord grape, this refreshing, nostalgic flavor will transport you back to your juicebox days.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "콩코드 포도의 풍미가 가득한 상쾌하고 향수를 불러일으키는 맛입니다. 어린 시절 마시던 작은 주스 팩을 떠올리게 합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ac Name",
+        "source": "Starbucks Double Shot Energy Drink [Common]",
+        "translation": "스타벅스 더블샷 에너지 음료 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ac ShortName",
+        "source": "Starbucks",
+        "translation": "스타벅스",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ac Description",
+        "source": "Enjoy your favorite chilled coffee drink on the go thanks to Starbucks bottled coffee drinks. All made with real Starbucks coffee, you can enjoy the flavor of your favorite café drinks at home and on the go. The perfect late afternoon pick-me-up, Starbucks bottled coffee drinks are great straight from the bottle or enjoyed over ice.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "스타벅스 병 커피와 함께라면 어디서든 시원한 커피를 즐길 수 있습니다. 모두 실제 스타벅스 커피로 만들어 집에서나 이동 중에도 좋아하는 카페 음료의 맛을 느낄 수 있습니다. 늦은 오후 기운을 북돋우기에 좋으며, 병째 마시거나 얼음을 곁들여도 좋습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ad Name",
+        "source": "Bang Purple Haze Energy Drink [Uncommon]",
+        "translation": "뱅 퍼플 헤이즈 에너지 음료 [고급]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ad ShortName",
+        "source": "Bang",
+        "translation": "뱅",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ad Description",
+        "source": "Make no mistake...Bang is not your stereotypical high sugar, life-sucking soda masquerading as an energy drink! High sugar drinks spike blood sugar producing metabolic mayhem causing you to crash harder than a test dummy into a brick wall. Power up with Bang's potent brain and body-rocking fuel: Creatine, Caffeine and BCAAs (Branched Chain Amino Acids).\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "뱅은 설탕을 잔뜩 넣은 탄산음료를 에너지 음료처럼 포장한 제품과 다릅니다. 당분이 많은 음료는 혈당을 급격히 올려 대사를 교란하고, 곧 심한 기력 저하를 일으킵니다. 크레아틴, 카페인, 분지사슬 아미노산(BCAA)을 배합한 뱅으로 두뇌와 신체에 활력을 공급하십시오.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ae Name",
+        "source": "Bang Rainbow Unicorn Energy Drink [Common]",
+        "translation": "뱅 레인보우 유니콘 에너지 음료 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ae ShortName",
+        "source": "Bang",
+        "translation": "뱅",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ae Description",
+        "source": "Bang is not your stereotypical high sugar, life-sucking soda masquerading as an energy drink! High sugar drinks spike blood sugar producing metabolic mayhem causing you to crash harder than a test dummy into a brick wall. Every 16-ounce can of Bang contains 300 milligrams of caffeine, which studies have shown may increase endurance, as well as strength in some cases, along with essential amino acids, CoQ10 and Super Creatine.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "뱅은 설탕 함량이 높아 급격한 혈당 상승과 기력 저하를 일으키는 평범한 탄산음료와 다릅니다. 16온스짜리 한 캔에는 카페인 300mg과 필수 아미노산, 코엔자임 Q10(CoQ10), 슈퍼 크레아틴이 들어 있습니다. 일부 연구에서는 카페인이 지구력과 경우에 따라 근력을 높일 수 있다고 합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7af Name",
+        "source": "Rockstar Sugar Free Energy Drink [Uncommon]",
+        "translation": "록스타 무설탕 에너지 음료 [고급]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7af ShortName",
+        "source": "Rockstar",
+        "translation": "록스타",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7af Description",
+        "source": "Put in the work with Rockstar original sugar free energy drink, fully-charged with B-vitamins and formulated with guarana, taurine, and caffeine to help keep you going and stay focused* with invigorating taste. 75mg caffeine has been shown to help improve attention.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "록스타 오리지널 무설탕 에너지 음료입니다. 비타민 B군과 과라나, 타우린, 카페인을 배합해 활동 중 에너지와 집중력을 유지하도록 돕습니다. 상쾌한 맛을 제공하며, 카페인 75mg이 주의력 향상에 도움이 될 수 있다는 연구 결과가 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b0 Name",
+        "source": "Original S.T.A.L.K.E.R. Energy Drink [Common]",
+        "translation": "오리지널 S.T.A.L.K.E.R. 에너지 음료 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b0 ShortName",
+        "source": "Stalker",
+        "translation": "스토커",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b0 Description",
+        "source": "Energy drink originating from the Pripyat region. This is an excellent energy drink consisting of caffeine, taurine and a mixture of rejuvenating vitamins. Just the ticket when you're too tired to push forward!\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "프리피야트 지역에서 유래한 에너지 음료입니다. 카페인과 타우린, 활력을 되찾는 데 도움이 되는 비타민 혼합물이 들어 있습니다. 지쳐서 더는 앞으로 나아가기 힘들 때 안성맞춤입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7a8 Name",
+        "source": "Arizona Green Tea [Common]",
+        "translation": "애리조나 녹차 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7a8 ShortName",
+        "source": "Arizona",
+        "translation": "애리조나",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7a8 Description",
+        "source": "Taste the tea that started it all, Arizona Tea has been brewing this exact iced tea since 1992! What’s their secret? Keeping it simple. This quality tea is a great-tasting and affordable bottled iced tea option for refrigerators everywhere. Arizona Tea is brewed from hand-selected premium tea leaves from all around the globe. Arizona Tea is available for bulk purchase in 16oz packs of 12. Select from five delicious and diverse Arizona Tea flavors that are sure to leave all tea-lovers tastebuds satisfied.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "애리조나 녹차는 1992년부터 같은 방식으로 만들어 온 아이스티입니다. 비결은 단순함을 지키는 데 있습니다. 세계 각지에서 엄선한 고급 찻잎으로 우려내 맛이 좋고 가격도 합리적입니다. 16온스 병 12개들이 묶음으로도 판매되며, 차 애호가의 입맛에 맞는 다섯 가지 풍미가 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b2 Name",
+        "source": "Arizona Mucho Mango [Common]",
+        "translation": "애리조나 무초 망고 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b2 ShortName",
+        "source": "Arizona",
+        "translation": "애리조나",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b2 Description",
+        "source": "Put a tropical twist on your beverage picks by sipping on this Mucho Mango Juice Cocktail crafted with vitamin C.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "비타민 C를 함유한 무초 망고 주스 칵테일로 음료에 열대 과일의 풍미를 더해 보십시오.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b3 Name",
+        "source": "Arizona Watermelon [Common]",
+        "translation": "애리조나 수박 음료 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b3 ShortName",
+        "source": "Arizona",
+        "translation": "애리조나",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b3 Description",
+        "source": "Inspire a summertime mood with this watermelon-flavored juice that includes immune-boosting vitamin C.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "면역 기능을 돕는 비타민 C가 들어 있는 수박 맛 주스로 여름 분위기를 즐겨 보십시오.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7aa Name",
+        "source": "Monster Zero Ultra White Energy Drink [Common]",
+        "translation": "몬스터 제로 울트라 화이트 에너지 음료 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7aa ShortName",
+        "source": "Monster",
+        "translation": "몬스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7aa Description",
+        "source": "The light, refreshing citrus flavor of Zero Ultra has broken the rules of flavor. 10 calories, zero sugar, and a full load of our Monster Energy blend to keep the good times rolling.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "제로 울트라의 가볍고 상쾌한 감귤 풍미는 기존 에너지 음료의 상식을 뛰어넘습니다. 10칼로리에 설탕은 0g이며, 몬스터 에너지 특유의 배합 성분으로 활력을 제공합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b5 Name",
+        "source": "Monster Zero Ultra Strawberry Dreams Energy Drink [Uncommon]",
+        "translation": "몬스터 제로 울트라 스트로베리 드림스 에너지 음료 [고급]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b5 ShortName",
+        "source": "Monster",
+        "translation": "몬스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b5 Description",
+        "source": "Take just one sip and you''ll be crazy for Ultra Strawberry Dreams. Wonderfully sweet, while slightly tart, this easy-drinking Ultra tastes like a dream. Packed with the Monster Energy blend you love, with just 10 calories and zero sugar.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "울트라 스트로베리 드림스를 한 모금만 마셔도 매료될 것입니다. 기분 좋게 달콤하면서도 약간 새콤하고 부드럽게 넘어갑니다. 좋아하는 몬스터 에너지 배합 성분을 담았지만 열량은 10칼로리이고 설탕은 없습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b6 Name",
+        "source": "Monster Orange Dreamsicle Energy Drink [Uncommon]",
+        "translation": "몬스터 오렌지 드림시클 에너지 음료 [고급]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b6 ShortName",
+        "source": "Monster",
+        "translation": "몬스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b6 Description",
+        "source": "Drenched in our signature style, these cans pop with color and attitude—screaming Monster from every angle. Monster Energy Orange Dreamsicle features a wickedly creamy orange-vanilla ice cream blend that delivers a bold, sweet energy kick you'll love.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "몬스터 특유의 디자인으로 꾸민 캔은 어느 각도에서나 화려한 색과 개성을 드러냅니다. 오렌지 드림시클에는 진하고 부드러운 오렌지·바닐라 아이스크림 풍미가 담겨 있어 달콤하면서도 강렬한 활력을 선사합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ba Name",
+        "source": "Monster Ultra Vice Guava Energy Drink [Rare]",
+        "translation": "몬스터 울트라 바이스 구아바 에너지 음료 [희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ba ShortName",
+        "source": "Monster",
+        "translation": "몬스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ba Description",
+        "source": "Ripened guava flavor with Miami swagger. Ultra Vice Guava has zero sugar, low calories, and the Monster Energy blend to fuel your fire. Bold energy for those who never blend in.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "잘 익은 구아바의 맛에 마이애미 특유의 활기를 더했습니다. 울트라 바이스 구아바는 설탕 없이 낮은 열량과 몬스터 에너지의 배합 성분으로 활력을 제공합니다. 남들과 똑같기를 거부하는 사람을 위한 강렬한 에너지입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b4 Name",
+        "source": "Ghost Blue Raspberry Energy Drink [Common]",
+        "translation": "고스트 블루 라즈베리 에너지 음료 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b4 ShortName",
+        "source": "Ghost",
+        "translation": "고스트",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b4 Description",
+        "source": "Ghost Energy is the fully transparent, fully loaded energy drink we have all been waiting for. Our legendary energy drink features no sugar, no artificial colors, and authentic Blue Raspberry flavor. It contains 200mg of Natural Caffeine from coffee beans, which has been found anecdotally to deliver a smooth, feel-good energy with less jitters and no crash when compared to other forms of caffeine.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "고스트 에너지는 성분을 투명하게 공개한 고함량 에너지 음료입니다. 설탕과 인공 색소를 넣지 않았으며, 진짜 블루 라즈베리 풍미를 살렸습니다. 커피 원두에서 얻은 천연 카페인 200mg이 들어 있습니다. 다른 형태의 카페인보다 초조함이나 급격한 기력 저하가 적고 부드럽게 활력을 준다는 경험담이 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b9 Name",
+        "source": "Ghost Strawbango Energy Drink [Rare]",
+        "translation": "고스트 스트로뱅고 에너지 음료 [희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b9 ShortName",
+        "source": "Ghost",
+        "translation": "고스트",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b9 Description",
+        "source": "Ghost Energy is the fully transparent, fully loaded energy drink we have all been waiting for. Our legendary energy drink features no sugar, no artificial colors, and authentic Strawbango flavor. It contains 200mg of Natural Caffeine from coffee beans, which has been found anecdotally to deliver a smooth, feel-good energy with less jitters and no crash when compared to other forms of caffeine.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "고스트 에너지는 성분을 투명하게 공개한 고함량 에너지 음료입니다. 설탕과 인공 색소를 넣지 않았으며, 진짜 스트로뱅고 풍미를 살렸습니다. 커피 원두에서 얻은 천연 카페인 200mg이 들어 있습니다. 다른 형태의 카페인보다 초조함이나 급격한 기력 저하가 적고 부드럽게 활력을 준다는 경험담이 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b8 Name",
+        "source": "NOS Original Energy Drink [Uncommon]",
+        "translation": "NOS 오리지널 에너지 음료 [고급]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b8 ShortName",
+        "source": "NOS",
+        "translation": "NOS",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b8 Description",
+        "source": "Fuel Up. Fire Up. 100 mile an hour power. Thundering from top gear to no fear, the super-charged take charge. It's time to strap in, or sit it out. How Hard Will You Drive? High Performance Energy.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "연료를 채우고 시동을 거십시오. 시속 100마일의 힘으로 최고 기어부터 두려움 없는 질주까지, 강력한 에너지가 밀어붙입니다. 안전벨트를 매고 뛰어들거나, 아니면 물러서십시오. 얼마나 거칠게 달릴 준비가 됐습니까? 고성능 에너지 음료입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bb Name",
+        "source": "Monster Juice Pipeline Punch Energy Drink [Rare]",
+        "translation": "몬스터 주스 파이프라인 펀치 에너지 음료 [희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bb ShortName",
+        "source": "Monster",
+        "translation": "몬스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bb Description",
+        "source": "Like the Banzai Pipeline of Oahu, Pipeline Punch was destined to become a legend. The perfect carbonated blend of passion fruit, orange, guava, and our Monster Energy blend.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "오아후섬의 반자이 파이프라인처럼 파이프라인 펀치도 전설이 될 운명이었습니다. 패션프루트와 오렌지, 구아바에 몬스터 에너지 배합 성분을 더한 완벽한 탄산 혼합 음료입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bc Name",
+        "source": "Ghost Peaches Energy Drink [Rare]",
+        "translation": "고스트 피치스 에너지 음료 [희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bc ShortName",
+        "source": "Ghost",
+        "translation": "고스트",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bc Description",
+        "source": "Ghost Energy is the fully transparent, fully loaded energy drink we have all been waiting for. Our legendary energy drink features no sugar, no artificial colors, and authentic Strawbango Margarita flavor. It contains 200mg of Natural Caffeine from coffee beans, which has been found anecdotally to deliver a smooth, feel-good energy with less jitters and no crash when compared to other forms of caffeine.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "고스트 에너지는 성분을 투명하게 공개한 고함량 에너지 음료입니다. 설탕과 인공 색소를 넣지 않았으며, 복숭아 특유의 풍미를 살렸습니다. 커피 원두에서 얻은 천연 카페인 200mg이 들어 있습니다. 다른 형태의 카페인보다 초조함이나 급격한 기력 저하가 적고 부드럽게 활력을 준다는 경험담이 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bd Name",
+        "source": "Non Stop Stalker Green Energy Drink [Rare]",
+        "translation": "논스톱 스토커 그린 에너지 음료 [희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bd ShortName",
+        "source": "Stalker",
+        "translation": "스토커",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bd Description",
+        "source": "Rare energy drink originating from the Pripyat region. This is an excellent energy drink consisting of caffeine, taurine and a mixture of rejuvenating vitamins. Just the ticket when you're too tired to push forward!\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "프리피야트 지역에서 유래한 희귀 에너지 음료입니다. 카페인과 타우린, 활력을 되찾는 데 도움이 되는 비타민 혼합물이 들어 있습니다. 지쳐서 더는 앞으로 나아가기 힘들 때 안성맞춤입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7be Name",
+        "source": "Rockstar Energy Drink [Rare]",
+        "translation": "록스타 에너지 음료 [희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7be ShortName",
+        "source": "Rockstar",
+        "translation": "록스타",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7be Description",
+        "source": "Rockstar is scientifically formulated to provide an incredible energy boost for those who lead active and exhausting lifestyles-from athletes to rock stars. Put in the work with our original energy drink, fully-charged with B-vitamins and formulated with guarana, taurine, and caffeine to help keep you going and stay focused* with invigorating taste.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "록스타는 운동선수부터 록스타까지 활동량이 많고 힘든 생활을 하는 사람에게 강한 활력을 제공하도록 과학적으로 배합한 음료입니다. 비타민 B군, 과라나, 타우린, 카페인을 함유하여 활동 중 에너지와 집중력 유지에 도움을 주며 상쾌한 맛을 냅니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bf Name",
+        "source": "C4 Jolly Rancher Energy Drink [Ultra Rare]",
+        "translation": "C4 졸리 랜처 에너지 음료 [초희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bf ShortName",
+        "source": "C4",
+        "translation": "C4",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7bf Description",
+        "source": "WARNING: This energy drink has potentially deadly side effects!\n\nTheres energy drinks…and then theres C4 Energy. C4 Energy's incredible flavor is made with no sugar, zero calories, no artificial flavors, and no compromise on taste. Featuring 200 MG of caffeine and proven ingredients like CarnoSyn Beta-Alanine and BetaPower Betaine, you are about to experience explosive energy, hydration, and endurance.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "경고: 이 에너지 음료는 생명을 위협할 수 있는 부작용을 일으킬 수 있습니다!\n\n일반적인 에너지 음료와 C4 에너지는 차원이 다릅니다. C4의 강렬한 풍미에는 설탕과 칼로리, 인공 향료가 필요하지 않습니다. 카페인 200mg과 카르노신(CarnoSyn) 베타알라닌, 베타파워(BetaPower) 베타인 같은 성분을 함유해 폭발적인 활력과 수분 보충, 지구력을 경험하도록 돕습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c0 Name",
+        "source": "C4 Skittles Energy Drink [Rare]",
+        "translation": "C4 스키틀즈 에너지 음료 [희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c0 ShortName",
+        "source": "C4",
+        "translation": "C4",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c0 Description",
+        "source": "WARNING: This energy drink has potentially deadly side effects!\n\nUnlock your best performance, power, and speed with C4 Performance Energy®. Every can is packed with 200mg of caffeine and CarnoSyn® Beta Alanine for explosive energy you can feel. Made with clinically studied ingredients, ZERO grams of sugar or artificial colors, and carrying the NSF Certified for Sport® label, C4 Performance Energy® is the athletes choice for elevating performance.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "경고: 이 에너지 음료는 생명을 위협할 수 있는 부작용을 일으킬 수 있습니다!\n\n최상의 기량과 힘, 속도를 발휘해 보십시오. 한 캔에는 카페인 200mg과 카르노신(CarnoSyn) 베타알라닌이 들어 있어 강력한 활력을 제공합니다. 임상 연구에 사용된 성분을 배합하고 설탕과 인공 색소는 첨가하지 않았으며, NSF Certified for Sport 인증을 받았습니다. 운동 능력을 끌어올리려는 선수를 위한 음료입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c1 Name",
+        "source": "Monster Pacific Punch Energy Drink [Ultra Rare]",
+        "translation": "몬스터 퍼시픽 펀치 에너지 음료 [초희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c1 ShortName",
+        "source": "Monster",
+        "translation": "몬스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c1 Description",
+        "source": "A carbonated classic fruit punch with our Monster Energy blend, Pacific Punch will help put wind in your sails and keep you steady on course, no matter how rough the seas.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "몬스터 에너지의 배합 성분을 더한 탄산 과일 펀치입니다. 퍼시픽 펀치는 바다가 아무리 거칠어도 돛에 바람을 불어넣듯 활력을 주고 흔들림 없이 나아가도록 도와줍니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c2 Name",
+        "source": "Monster The Doctor Energy Drink [Ultra Rare]",
+        "translation": "몬스터 더 닥터 에너지 음료 [초희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c2 ShortName",
+        "source": "Monster",
+        "translation": "몬스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c2 Description",
+        "source": "WARNING: This energy drink has potentially deadly side effects!\n\nMonster Energy Valentino Rossi VR46 500ml Carbonated Energy Drink and 160mg caffeine. VR46 tastes unlike traditional energy drinks with a light, crisp and refreshing citrus taste. We teamed up with MotoGP Champion, Valentino Rossi AKA 'The Doctor', to create our fastest Monster yet. Serve cold for maximum refreshment.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "경고: 이 에너지 음료는 생명을 위협할 수 있는 부작용을 일으킬 수 있습니다!\n\n발렌티노 로시 VR46 몬스터 에너지는 500ml 탄산 에너지 음료로 카페인 160mg을 함유합니다. 가볍고 산뜻한 감귤 풍미가 기존 에너지 음료와는 다르게 느껴집니다. 모토GP 챔피언 발렌티노 로시, 일명 「더 닥터」와 협업하여 가장 빠른 몬스터를 만들었습니다. 차갑게 마시면 더욱 상쾌합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c3 Name",
+        "source": "Monster Juice Aussie Lemonade Energy Drink [Ultra Rare]",
+        "translation": "몬스터 주스 오지 레모네이드 에너지 음료 [초희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c3 ShortName",
+        "source": "Monster",
+        "translation": "몬스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c3 Description",
+        "source": "WARNING: This energy drink has potentially deadly side effects!\n\nInspired by the land down under and powered by our world-famous Monster Energy blend, Aussie Style Lemonade is a carbonated exotic twist on lemonade. Tart yet sweet, with a burst of fresh citrus flavor.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "경고: 이 에너지 음료는 생명을 위협할 수 있는 부작용을 일으킬 수 있습니다!\n\n호주에서 영감을 얻고 세계적으로 유명한 몬스터 에너지 배합 성분을 더한 오지 스타일 레모네이드입니다. 톡 쏘는 탄산과 독특한 레모네이드 풍미를 결합했으며, 시큼하면서도 달콤한 신선한 감귤 맛이 특징입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c4 Name",
+        "source": "Ghost Swedish Fish Energy Drink [Ultra Rare]",
+        "translation": "고스트 스웨디시 피시 에너지 음료 [초희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c4 ShortName",
+        "source": "Ghost",
+        "translation": "고스트",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c4 Description",
+        "source": "Ghost Energy is the fully transparent, fully loaded energy drink we have all been waiting for. Our legendary energy drink features no sugar, no artificial colors, and authentic Strawbango Margarita flavor. It contains 200mg of Natural Caffeine from coffee beans, which has been found anecdotally to deliver a smooth, feel-good energy with less jitters and no crash when compared to other forms of caffeine.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "고스트 에너지는 성분을 투명하게 공개한 고함량 에너지 음료입니다. 설탕과 인공 색소를 넣지 않았으며, 스웨디시 피시 특유의 풍미를 살렸습니다. 커피 원두에서 얻은 천연 카페인 200mg이 들어 있습니다. 다른 형태의 카페인보다 초조함이나 급격한 기력 저하가 적고 부드럽게 활력을 준다는 경험담이 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c5 Name",
+        "source": "Ghost Raspberry Cream Energy Drink [Ultra Rare]",
+        "translation": "고스트 라즈베리 크림 에너지 음료 [초희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c5 ShortName",
+        "source": "Ghost",
+        "translation": "고스트",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c5 Description",
+        "source": "Feel Good Energy: GHOST Energy is the fully transparent, fully loaded energy drink we've all been waiting for. Authentic Flavors. Zero Sugars.* No BS. Raspberry Cream flavor.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "기분 좋은 활력: 고스트 에너지는 성분을 투명하게 공개한 고함량 에너지 음료입니다. 진정한 풍미와 설탕 0g*을 내세우며, 군더더기 없이 라즈베리 크림 맛을 선보입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c6 Name",
+        "source": "C4 Starburst Energy Drink [Ultra Rare]",
+        "translation": "C4 스타버스트 에너지 음료 [초희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c6 ShortName",
+        "source": "C4",
+        "translation": "C4",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c6 Description",
+        "source": "WARNING: This energy drink has potentially deadly side effects!\n\nUnlock your best performance, power, and speed with C4 Performance Energy. Every can is packed with 200mg of caffeine and CarnoSyn Beta Alanine for explosive energy you can feel. Made with clinically studied ingredients, ZERO grams of sugar or artificial colors, and carrying the NSF Certified for Sport label, C4 Performance Energy® is the athletes choice for elevating performance.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "경고: 이 에너지 음료는 생명을 위협할 수 있는 부작용을 일으킬 수 있습니다!\n\n최상의 기량과 힘, 속도를 발휘해 보십시오. 한 캔에는 카페인 200mg과 카르노신(CarnoSyn) 베타알라닌이 들어 있어 강력한 활력을 제공합니다. 임상 연구에 사용된 성분을 배합하고 설탕과 인공 색소는 첨가하지 않았으며, NSF Certified for Sport 인증을 받았습니다. 운동 능력을 끌어올리려는 선수를 위한 음료입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c7 Name",
+        "source": "Rip It Power Energy Drink [Uncommon]",
+        "translation": "립 잇 파워 에너지 음료 [고급]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c7 ShortName",
+        "source": "Rip It",
+        "translation": "립 잇",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c7 Description",
+        "source": "A thunderous sonic boom to take your tastebuds to soaring new heights.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "천둥 같은 음속 폭발의 짜릿함이 미각을 새로운 경지로 끌어올립니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c8 Name",
+        "source": "Rip It G-Force Energy Drink [Rare]",
+        "translation": "립 잇 G-포스 에너지 음료 [희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c8 ShortName",
+        "source": "Rip It ",
+        "translation": "립 잇",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c8 Description",
+        "source": "30 Gs of high-octane grape goodness. Get ready to get slammed with flavor.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "강력한 포도 풍미가 30G의 가속도처럼 몰아칩니다. 폭발적인 맛을 경험할 준비를 하십시오.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c9 Name",
+        "source": "Rip It Tribute Energy Drink [Ultra Rare]",
+        "translation": "립 잇 트리뷰트 에너지 음료 [초희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c9 ShortName",
+        "source": "Rip It",
+        "translation": "립 잇",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7c9 Description",
+        "source": "Tangy lime and citrusy mandarin join forces in a battle-tested brew for the toughest missions.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "새콤한 라임과 감귤 향이 가장 험난한 임무를 위해 단련된 음료에서 하나로 뭉칩니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ca Name",
+        "source": "Arizona Arnold Palmer Half & Half Iced Tea Lemonade [Common]",
+        "translation": "애리조나 아널드 파머 하프 앤 하프 아이스티 레모네이드 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ca ShortName",
+        "source": "Arizona",
+        "translation": "애리조나",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ca Description",
+        "source": "The name Arnold Palmer has legendary roots as an original beverage combination of half iced tea and half lemonade, widely known for its refreshing taste and ability to revive the senses after a competitive round of golf. AriZona and Arnold Palmer have teamed up to bring you two great versions of Arnold Palmer Lite Half and Half. This version combines traditional black tea and lemonade to make a refreshing, great tasting beverage.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "아널드 파머라는 이름은 아이스티 절반과 레모네이드 절반을 섞은 전설적인 음료에서 유래했습니다. 경기 후 상쾌한 맛으로 감각을 되살려 주는 것으로 유명합니다. 애리조나와 아널드 파머는 하프 앤 하프 라이트 음료 두 종류를 선보였으며, 이 제품은 전통적인 홍차와 레모네이드를 섞어 산뜻하고 맛있는 음료로 만들었습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7cb Name",
+        "source": "Ghost 7-Up Energy Drink [Uncommon]",
+        "translation": "고스트 세븐업 에너지 음료 [고급]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7cb ShortName",
+        "source": "Ghost",
+        "translation": "고스트",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7cb Description",
+        "source": "Light, crisp, and unmistakably refreshing, GHOST x 7UP brings a burst of lemon-lime flavor packed with legendary energy.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "가볍고 산뜻하며 누구나 알아볼 만큼 상쾌합니다. 고스트와 세븐업이 협업하여 레몬·라임 풍미에 강력한 에너지를 더했습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7cc Name",
+        "source": "Non Stop Stalker Original Energy Drink [Common]",
+        "translation": "논스톱 스토커 오리지널 에너지 음료 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7cc ShortName",
+        "source": "Stalker",
+        "translation": "스토커",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7cc Description",
+        "source": "Energy drink originating from the Pripyat region. This is an excellent energy drink consisting of caffeine, taurine and a mixture of rejuvenating vitamins. Just the ticket when you're too tired to push forward!\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "프리피야트 지역에서 유래한 에너지 음료입니다. 카페인과 타우린, 활력을 되찾는 데 도움이 되는 비타민 혼합물이 들어 있습니다. 지쳐서 더는 앞으로 나아가기 힘들 때 안성맞춤입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7cd Name",
+        "source": "Monster Strawberry Shot Energy Drink [Rare]",
+        "translation": "몬스터 스트로베리 샷 에너지 음료 [희귀]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7cd ShortName",
+        "source": "Monster",
+        "translation": "몬스터",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7cd Description",
+        "source": "Monster Energy packs a powerful punch but has a smooth easy drinking flavor. Now with a twist - adding sweet strawberry flavor to top-off the legendary taste you know and love. 100% Monster. With a twist.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "몬스터 에너지는 강렬한 활력을 주면서도 부드럽고 마시기 쉬운 맛을 제공합니다. 여기에 달콤한 딸기 풍미를 더해 익숙하고 사랑받는 전설적인 맛을 완성했습니다. 몬스터 본연의 맛에 새로운 변화를 주었습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ce Name",
+        "source": "Ghost Bubblicious Energy Drink [Uncommon]",
+        "translation": "고스트 버블리셔스 에너지 음료 [고급]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ce ShortName",
+        "source": "Ghost",
+        "translation": "고스트",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7ce Description",
+        "source": "Bright strawberry and classic bubble gum erupt in this mouthwatering, nostalgic flavor.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "상큼한 딸기와 클래식한 풍선껌 맛이 어우러져 군침 돌고 향수를 자극하는 풍미를 선사합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b1 Name",
+        "source": "Non Stop Stalker Red Limited Edition Energy Drink [Uncommon]",
+        "translation": "논스톱 스토커 레드 한정판 에너지 음료 [고급]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b1 ShortName",
+        "source": "Stalker",
+        "translation": "스토커",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb05b7b1 Description",
+        "source": "Energy drink originating from the Pripyat region. This is an excellent energy drink consisting of caffeine, taurine and a mixture of rejuvenating vitamins. Just the ticket when you're too tired to push forward!\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "프리피야트 지역에서 유래한 에너지 음료입니다. 카페인과 타우린, 활력을 되찾는 데 도움이 되는 비타민 혼합물이 들어 있습니다. 지쳐서 더는 앞으로 나아가기 힘들 때 안성맞춤입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb06b7b3 Name",
+        "source": "Ghost A&W Root Beer Energy Drink [Common]",
+        "translation": "고스트 A&W 루트비어 에너지 음료 [일반]",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "694c6d5568b849f7bb06b7b3 ShortName",
+        "source": "Ghost",
+        "translation": "고스트",
+        "match_mode": "exact"
+      },
+      {
+        "key": "694c6d5568b849f7bb06b7b3 Description",
+        "source": "GHOST Energy x A&W Root Beer is a limited-edition, zero-sugar energy drink featuring the classic taste of A&W Root Beer combined with 200 mg of natural caffeine.\n\nItem added by Hood's More Energy Drinks Mod",
+        "translation": "고스트 에너지와 A&W 루트비어가 협업한 한정판 무설탕 에너지 음료입니다. A&W 루트비어 특유의 고전적인 풍미에 천연 카페인 200mg을 더했습니다.",
+        "match_mode": "item_decorated"
+      }
+    ]
+  }
+}

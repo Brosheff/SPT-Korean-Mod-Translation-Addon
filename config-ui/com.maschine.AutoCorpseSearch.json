@@ -52,7 +52,7 @@
       "source_display_name": "Only Own Containers",
       "source_description": "Restrict 'Search On Open' to containers you carry yourself. Turn off to also auto-search containers you open on a corpse or on the ground.",
       "translation_display_name": "본인이 소유한 컨테이너만 적용",
-      "translation_description": "별도 창 자동 수색을 플레이어가 소지한 컨테이너에만 적용합니다. 끄면 시체나 바닥에서 연 컨테이너도 자동으로 수색합니다.",
+      "translation_description": "플레이어가 소지 중인 컨테이너에만 '열 때 자동 수색' 기능을 적용합니다. 끄면 시체나 바닥에서 연 컨테이너도 자동으로 수색합니다.",
       "values": []
     },
     {

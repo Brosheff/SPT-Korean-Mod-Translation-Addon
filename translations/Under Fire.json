@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.harmonyzt.underfire",
+  "mod_name": "Under Fire",
+  "source_mod_version": "1.0.0",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "underfire.adrenaline.effect.display_name",
+        "source": "Adrenaline",
+        "translation": "아드레날린",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

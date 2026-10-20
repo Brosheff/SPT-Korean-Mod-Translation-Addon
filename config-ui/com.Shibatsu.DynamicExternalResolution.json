@@ -17,7 +17,7 @@
       "source_display_name": "DLSS Scaling Mode",
       "source_description": "(Only works when DLSS is Enable) \nImage scaling mode when using DLSS, which will change external rendering to this level when you aiming through the telescopic scope. Default is Ultra Performance Mode (65% resolution downgrade).",
       "translation_display_name": "DLSS 스케일링 방식",
-      "translation_description": "DLSS가 켜져 있을 때만 적용됩니다. 배율 조준 중 외부 화면에 사용할 DLSS 스케일링 모드를 설정합니다. 기본값은 Ultra Performance입니다.",
+      "translation_description": "DLSS가 활성화된 경우에만 적용됩니다. 배율 조준경으로 조준할 때 조준경 외부 영역의 렌더링에 사용할 DLSS 스케일링 모드를 설정합니다. 기본값은 울트라 성능 모드로 해상도를 65% 낮춥니다.",
       "values": [
         {
           "source": "UltraPerformance",
@@ -60,7 +60,7 @@
       "source_display_name": "FSR2 Scaling Mode",
       "source_description": "(Only works when FSR 2.2 is Enable) \nImage scaling mode when using FSR2, which will change external rendering to this level when you aiming through the telescopic scope. Default is Ultra Performance Mode (67% resolution downgrade).",
       "translation_display_name": "FSR2 스케일링 방식",
-      "translation_description": "FSR 2.2가 켜져 있을 때만 적용됩니다. 배율 조준 중 외부 화면에 사용할 FSR2 스케일링 모드를 설정합니다. 기본값은 Ultra Performance입니다.",
+      "translation_description": "FSR 2.2가 활성화된 경우에만 적용됩니다. 배율 조준경으로 조준할 때 조준경 외부 영역의 렌더링에 사용할 FSR2 스케일링 모드를 설정합니다. 기본값은 울트라 성능 모드로 해상도를 67% 낮춥니다.",
       "values": [
         {
           "source": "UltraPerformance",
@@ -94,7 +94,7 @@
       "source_display_name": "FSR3 Scaling Mode",
       "source_description": "(Only works when FSR 3.0 is Enable) \nImage scaling mode when using FSR3, which will change external rendering to this level when you aiming through the telescopic scope. Default is Ultra Performance Mode (67% resolution downgrade).",
       "translation_display_name": "FSR3 스케일링 방식",
-      "translation_description": "FSR 3.0이 켜져 있을 때만 적용됩니다. 배율 조준 중 외부 화면에 사용할 FSR3 스케일링 모드를 설정합니다. 기본값은 Ultra Performance입니다.",
+      "translation_description": "FSR 3.0이 활성화된 경우에만 적용됩니다. 배율 조준경으로 조준할 때 조준경 외부 영역의 렌더링에 사용할 FSR3 스케일링 모드를 설정합니다. 기본값은 울트라 성능 모드로 해상도를 67% 낮춥니다.",
       "values": [
         {
           "source": "UltraPerformance",

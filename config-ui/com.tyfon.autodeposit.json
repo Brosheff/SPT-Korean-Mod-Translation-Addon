@@ -17,7 +17,7 @@
       "source_display_name": "Backpack",
       "source_description": "Whether to show the autodeposit button on your backpack",
       "translation_display_name": "배낭",
-      "translation_description": "배낭 여부를 설정합니다.",
+      "translation_description": "배낭에 자동 보관 버튼을 표시할지 설정합니다.",
       "values": []
     },
     {
@@ -26,7 +26,7 @@
       "source_display_name": "Pockets",
       "source_description": "Whether to show the autodeposit button on your pockets",
       "translation_display_name": "주머니",
-      "translation_description": "주머니 여부를 설정합니다.",
+      "translation_description": "주머니에 자동 보관 버튼을 표시할지 설정합니다.",
       "values": []
     },
     {
@@ -35,7 +35,7 @@
       "source_display_name": "Rig",
       "source_description": "Whether to show the autodeposit button on your rig",
       "translation_display_name": "리그",
-      "translation_description": "리그 여부를 설정합니다.",
+      "translation_description": "전술 조끼에 자동 보관 버튼을 표시할지 설정합니다.",
       "values": []
     },
     {
@@ -44,7 +44,7 @@
       "source_display_name": "Secure Container",
       "source_description": "Whether to show the autodeposit button on your secure container",
       "translation_display_name": "보안 컨테이너",
-      "translation_description": "보안 컨테이너 여부를 설정합니다.",
+      "translation_description": "보안 컨테이너에 자동 보관 버튼을 표시할지 설정합니다.",
       "values": []
     },
     {
@@ -53,7 +53,7 @@
       "source_display_name": "Transfer Screen",
       "source_description": "Whether to show the autodeposit button on the transfer screen",
       "translation_display_name": "전송 화면",
-      "translation_description": "전송 화면 여부를 설정합니다.",
+      "translation_description": "아이템 전송 화면에 자동 보관 버튼을 표시할지 설정합니다.",
       "values": []
     }
   ]

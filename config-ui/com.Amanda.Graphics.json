@@ -322,7 +322,7 @@
       "source_display_name": "OpticDOF Speed",
       "source_description": "Animation speed",
       "translation_display_name": "조준경 심도 속도",
-      "translation_description": "조준경 심도 속도을 설정합니다.",
+      "translation_description": "조준경 심도 속도를 설정합니다.",
       "values": []
     },
     {
@@ -398,7 +398,7 @@
       "source_display_name": "SurroundDOF Speed",
       "source_description": "Animation speed",
       "translation_display_name": "주변 심도 전환 속도",
-      "translation_description": "주변 심도 전환 속도을 설정합니다.",
+      "translation_description": "주변 심도 전환 속도를 설정합니다.",
       "values": []
     },
     {
@@ -456,7 +456,7 @@
       "source_display_name": "UIDOF Speed",
       "source_description": "Animation speed",
       "translation_display_name": "UI 심도 전환 속도",
-      "translation_description": "UI 심도 전환 속도을 설정합니다.",
+      "translation_description": "UI 심도 전환 속도를 설정합니다.",
       "values": []
     },
     {
@@ -568,7 +568,7 @@
       "source_display_name": "WeaponDOF Speed",
       "source_description": "Animation speed",
       "translation_display_name": "무기 심도 속도",
-      "translation_description": "무기 심도 속도을 설정합니다.",
+      "translation_description": "무기 심도 속도를 설정합니다.",
       "values": []
     },
     {
@@ -577,7 +577,7 @@
       "source_display_name": "WeaponDOF Weapon Blur",
       "source_description": "Max Blur Size",
       "translation_display_name": "무기 심도 무기 블러",
-      "translation_description": "무기 심도 무기 블러을 설정합니다.",
+      "translation_description": "무기 심도 효과에서 적용할 최대 흐림 크기를 설정합니다.",
       "values": []
     },
     {
@@ -802,7 +802,7 @@
       "source_display_name": "NVG Original Color",
       "source_description": "Enables back all default color filters",
       "translation_display_name": "NVG 기본 색상",
-      "translation_description": "NVG 기본 색상 여부를 설정합니다.",
+      "translation_description": "야간투시경에 기본 색상 필터를 다시 적용합니다.",
       "values": []
     },
     {
@@ -811,7 +811,7 @@
       "source_display_name": "NVG Original Sky Color",
       "source_description": "Enables back the default sky color for NVG",
       "translation_display_name": "NVG 기본 하늘 색상",
-      "translation_description": "NVG 기본 하늘 색상 여부를 설정합니다.",
+      "translation_description": "야간투시경에 기본 하늘 색상을 다시 적용합니다.",
       "values": []
     },
     {
@@ -841,7 +841,7 @@
       "key": "Night AmbientAmbientContrast",
       "source_display_name": "Night AmbientAmbientContrast",
       "source_description": null,
-      "translation_display_name": "야간 환경음 환경 대비",
+      "translation_display_name": "야간 주변광 대비",
       "translation_description": "",
       "values": []
     },
@@ -1560,7 +1560,7 @@
       "source_display_name": "NVG Original Sky Color",
       "source_description": "Enables back the default sky color for NVG",
       "translation_display_name": "NVG 기본 하늘 색상",
-      "translation_description": "NVG 기본 하늘 색상 여부를 설정합니다.",
+      "translation_description": "야간투시경에 기본 하늘 색상을 다시 적용합니다.",
       "values": []
     },
     {
@@ -1568,7 +1568,7 @@
       "key": "Night AmbientAmbientContrast",
       "source_display_name": "Night AmbientAmbientContrast",
       "source_description": null,
-      "translation_display_name": "야간 환경음 환경 대비",
+      "translation_display_name": "야간 주변광 대비",
       "translation_description": "",
       "values": []
     },

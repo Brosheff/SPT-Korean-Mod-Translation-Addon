@@ -171,7 +171,7 @@
       {
         "key": "672e2e75071e71f8e4a59286 Description",
         "source": "Compact laser and flashlight device for mounting on picatinny rails.",
-        "translation": "피카티니 레일에 장착 가능한 소형 레이저 및 손전등 통합형 장비로, 근접 전투 상황에서 조명과 표적 지시 기능을 제공합니다."
+        "translation": "피카티니 레일에 장착하는 소형 레이저·손전등 통합 장비입니다."
       },
       {
         "key": "672e2e750c562a5e650dc9b3 Name",
@@ -266,7 +266,7 @@
       {
         "key": "672e2e7521f4ccc8cc6d8335 ShortName",
         "source": "DDM16",
-        "translation": "DDM 16인치"
+        "translation": "DDM16"
       },
       {
         "key": "672e2e7521f4ccc8cc6d8335 Description",
@@ -346,7 +346,7 @@
       {
         "key": "672e2e753c97527a5186e73f ShortName",
         "source": "Ronin v2",
-        "translation": "데브택 v2"
+        "translation": "로닌 v2"
       },
       {
         "key": "672e2e753c97527a5186e73f Description",
@@ -416,7 +416,7 @@
       {
         "key": "672e2e754e6844af8e197b00 Description",
         "source": "The MICH was originally part of a series of combat helmets designed for the U.S. Army Special Operations Command as a replacement for the PASGT helmet and the various non-ballistic helmets solely within those units.",
-        "translation": "MICH는 원래 PASGT 헬멧을 대체하기 위해 미 육군 특수작전사령부용으로 설계된 일련의 전투 헬멧의 일부였습니다."
+        "translation": "MICH는 원래 PASGT 헬멧과 해당 부대에서 사용하던 여러 비방탄 헬멧을 대체하기 위해 미 육군 특수작전사령부용으로 설계된 전투 헬멧 계열의 일부였습니다."
       },
       {
         "key": "672e2e754f01ef56b4aa66a3 Name",
@@ -546,7 +546,7 @@
       {
         "key": "672e2e756174d5e5e9f677ee Description",
         "source": "WMLx White - Gen 2 sets the standard for balancing output, reliability, and value in a compact white-light capability for your rifle or carbine. Extensively proven amidst prolonged rapid firing, rough handling, and harsh conditions, it is a match for adversity in any clime or place.",
-        "translation": "이 손전등은 라이플이나 카빈에 장착되는 콤팩트 화이트 라이트로, 출력, 신뢰성, 그리고 효율성을 균형 있게 갖추었습니다. 장시간의 연속 사격과 거친 환경에서도 안정적으로 작동하며, 신속한 조작이 가능한 압력패드 스위치를 탑재했습니다."
+        "translation": "WMLx White 2세대는 소총이나 카빈에 장착하는 소형 백색광 조명으로, 출력·신뢰성·가격 대비 가치 사이의 균형을 갖췄습니다. 장시간의 빠른 연속 사격, 거친 취급, 혹독한 환경에서도 검증됐으며 어떤 기후와 장소에서도 견딜 수 있도록 설계됐습니다."
       },
       {
         "key": "672e2e7563b1a22a3c7b3895 Name",
@@ -566,7 +566,7 @@
       {
         "key": "672e2e75645f9ad09f4b949d Name",
         "source": "Lwrci Railskin OD",
-        "translation": "LWRCI 레일스킨 (올리브 드랩)\n(LWRCI Railskin OD)"
+        "translation": "LWRCI 레일스킨 (올리브 드랩)"
       },
       {
         "key": "672e2e75645f9ad09f4b949d ShortName",
@@ -721,7 +721,7 @@
       {
         "key": "672e2e75929d47eb157491c8 ShortName",
         "source": "DDM16",
-        "translation": "DDM 16인치"
+        "translation": "DDM16"
       },
       {
         "key": "672e2e75929d47eb157491c8 Description",
@@ -731,7 +731,7 @@
       {
         "key": "672e2e759342d416e10caa10 Name",
         "source": "Surefire M640U-BK-PRO Flashlight offset",
-        "translation": "슈어파이어 M640U-BK-프로 오프셋 손전등\n(SureFire M640U-BK-PRO Flashlight offset)"
+        "translation": "슈어파이어 M640U-BK-프로 오프셋 손전등"
       },
       {
         "key": "672e2e759342d416e10caa10 Description",
@@ -846,7 +846,7 @@
       {
         "key": "672e2e75a9332b620bdf4715 Description",
         "source": "The FAST Micro mount features built-in standard height back up iron sights that keep weapons uncluttered, without reducing capability.  Both front and rear BUIS are completely adjustable for windage and elevation. The front sight post can be removed so that the rear BUIS aperture can be used with a traditional front sight such as our FUSION fixed or folding sights  (if present), creating a more conventional sight radius. However, the built in front/rear BUIS is perfect for backup on super short PDW/SMG platforms where rail space is critical for mounting lights and lasers.",
-        "translation": "FAST 마이크로 마운트는 표준 높이의 예비 가늠쇠 및 가늠자를 내장하고 있어 무기를 단순화하면서도 기능을 유지합니다. 전후방 BUIS는 풍향 및 고도 조정이 가능하며, 전방 가늠쇠 기둥은 제거하여 기존의 고정식 또는 접이식 가늠쇠(FUSION 시리즈 등)와 함께 사용할 수 있습니다. 내장된 전후방 조준기는 레일 공간이 제한된 초단형 PDW/기관단총 플랫폼에서 라이트 및 레이저 장착 공간 확보에 최적화되어 있습니다."
+        "translation": "FAST 마이크로 마운트에는 표준 높이의 예비 가늠쇠와 가늠자가 내장되어 있어 무기를 복잡하게 만들지 않으면서 기능을 유지합니다. 전방 및 후방 예비 조준기는 좌우와 상하로 모두 조절할 수 있습니다. 전방 가늠쇠 기둥을 제거하면 후방 예비 가늠자의 조준 구멍을 기존의 고정식 또는 접이식 전방 가늠쇠(예: FUSION 시리즈)와 함께 사용해 일반적인 조준선 길이를 확보할 수 있습니다. 내장된 전후방 예비 조준기는 라이트와 레이저 장착 공간이 중요한 초소형 PDW·기관단총 플랫폼에서 특히 유용합니다."
       },
       {
         "key": "672e2e75aedb36663267e181 Name",
@@ -866,7 +866,7 @@
       {
         "key": "672e2e75afb25b57bd1d1455 Name",
         "source": "CGPC3 TQS (Green)",
-        "translation": "CGPC3 TQS (올리브 드랩)"
+        "translation": "CGPC3 TQS (녹색)"
       },
       {
         "key": "672e2e75afb25b57bd1d1455 Description",
@@ -1181,7 +1181,7 @@
       {
         "key": "672e2e75e2cb5715ab46ae15 Description",
         "source": "What is a Brazilian police beret doing here in Russia?",
-        "translation": "브라질 경찰의 베레모가 러시아에서 발견된 이유는 알 수 없습니다."
+        "translation": "브라질 경찰 베레모가 러시아에 왜 있는 걸까요?"
       },
       {
         "key": "672e2e75e352ae625453519b Name",
@@ -1191,7 +1191,7 @@
       {
         "key": "672e2e75e352ae625453519b Description",
         "source": "Compact laser and flashlight device for mounting on picatinny rails.",
-        "translation": "피카티니 레일에 장착 가능한 소형 레이저 및 손전등 통합형 장비로, 근접 전투 상황에서 조명과 표적 지시 기능을 제공합니다."
+        "translation": "피카티니 레일에 장착하는 소형 레이저·손전등 통합 장비입니다."
       },
       {
         "key": "672e2e75e8c2736e43530008 Name",
@@ -1211,7 +1211,7 @@
       {
         "key": "672e2e75e97f1888187ed37d ShortName",
         "source": "Ronin v2.1",
-        "translation": "데브택 v2.1"
+        "translation": "로닌 v2.1"
       },
       {
         "key": "672e2e75e97f1888187ed37d Description",
@@ -1246,7 +1246,7 @@
       {
         "key": "672e2e75ebb3b5f3e2cb6291 Name",
         "source": "Lwrci Railskin FDE",
-        "translation": "LWRCI 레일스킨 (사막색)\n(LWRCI Railskin FDE)"
+        "translation": "LWRCI 레일스킨 (사막색)"
       },
       {
         "key": "672e2e75ebb3b5f3e2cb6291 ShortName",
@@ -1271,12 +1271,12 @@
       {
         "key": "672e2e75ec239cfca3bedf6d Description",
         "source": "This ghost mask is made from soft cotton stretch fabric that is moisture-wicking, windproof, sweat-wicking, and UV resistant.",
-        "translation": "부드러운 신축성 면 소재로 제작된 고스트 마스크로, 통기성과 방풍성, 땀 흡수 및 자외선 차단 기능을 제공합니다."
+        "translation": "이 고스트 마스크는 부드럽고 신축성 있는 면 소재로 제작됐으며, 습기와 땀 배출 기능, 방풍 기능, 자외선 차단 기능을 갖추고 있습니다."
       },
       {
         "key": "672e2e75ec4a3496b64346c5 Name",
         "source": "Surefire M640U-BK-PRO Flashlight",
-        "translation": "슈어파이어 M640U-프로 손전등\n(SureFire M640U-BK-PRO Flashlight)"
+        "translation": "슈어파이어 M640U-프로 손전등"
       },
       {
         "key": "672e2e75ec4a3496b64346c5 Description",
@@ -1291,7 +1291,7 @@
       {
         "key": "672e2e75ecdecad1471639ad ShortName",
         "source": "LWRCI",
-        "translation": "커버"
+        "translation": "LWRCI"
       },
       {
         "key": "672e2e75ecdecad1471639ad Description",
@@ -1321,7 +1321,7 @@
       {
         "key": "672e2e75f2da844c65b50d6a Description",
         "source": "Compact laser and flashlight device for mounting on picatinny rails.",
-        "translation": "피카티니 레일에 장착 가능한 소형 레이저 및 손전등 통합형 장비로, 근접 전투 상황에서 조명과 표적 지시 기능을 제공합니다."
+        "translation": "피카티니 레일에 장착하는 소형 레이저·손전등 통합 장비입니다."
       },
       {
         "key": "672e2e75f3418d66159240f8 Name",
@@ -1371,7 +1371,7 @@
       {
         "key": "6733edbe21f258964d0d4c5a Description",
         "source": "The OG Honey Badger was developed at AAC by previous owner and Q Founder, Kevin Brittingham and his R&D team at the request of an elite US special operations group looking to replace their MP5-SDs with an upgraded platform.",
-        "translation": "오리지널 허니 뱃저는 AAC에서 Q의 창립자 케빈 브리팅햄과 그의 연구개발팀이 개발했으며, 이는 MP5-SD를 대체할 업그레이드된 플랫폼을 원했던 미 특수작전부대의 요청으로 제작되었습니다."
+        "translation": "오리지널 허니 뱃저는 AAC의 전 소유주이자 Q의 창립자인 케빈 브리팅햄과 그의 연구개발팀이 AAC에서 개발했습니다. 미 특수작전부대가 MP5-SD를 대신할 개선된 플랫폼을 요청한 데 따른 것입니다."
       },
       {
         "key": "6733edc58add9191997aec92 Name",
@@ -1421,7 +1421,7 @@
       {
         "key": "674102e3b161458e6ee0531f Description",
         "source": "The DOT Mount by Reptilia is a lightweight, slim-line mounting solution for a variety of red dot optics. Machined from billet 7075-T6 aluminum with Milspec Type III hard anodized finish, the DOT Mount attaches to any M1913 Picatinny rail, and offers lower 1/3 co-witness with standard AR15-style back-up sights.",
-        "translation": "렙틸리아(Reptilia)의 DOT 마운트는 다양한 레드닷 조준기에 적합한 경량형 슬림 마운팅 솔루션입니다. 7075-T6 알루미늄 빌릿 가공 및 밀스펙 타입 III 하드 아노다이징 처리로 제작되었으며, 모든 M1913 피카티니 레일에 장착 가능하고 표준 AR15 스타일 예비 조준기와 하단 1/3 코위트니스를 제공합니다."
+        "translation": "렙틸리아(Reptilia)의 DOT 마운트는 다양한 레드닷 조준기에 적합한 경량형 슬림 마운팅 솔루션입니다. 7075-T6 알루미늄 빌릿 가공 및 밀스펙 타입 III 하드 양극산화 처리로 제작되었으며, 모든 M1913 피카티니 레일에 장착 가능하고 표준 AR15 스타일 예비 조준기와 하단 1/3 코위트니스를 제공합니다."
       },
       {
         "key": "67429a6fe31216a0757777e1 Name",
@@ -1431,7 +1431,7 @@
       {
         "key": "67429a6fe31216a0757777e1 Description",
         "source": "The SLR Mount is a lightweight, slim-line mounting solution for a variety of red dot optics. Machined from billet 7075-T6 aluminum with Milspec Type III hard anodized finish, the SLR mount attaches to any M1913 Picatinny rail, and offers lower 1/3 co-witness with standard AR15-style back-up sights.",
-        "translation": "SLR 마운트는 다양한 레드닷 조준기에 적합한 경량형 슬림 마운팅 솔루션입니다. 7075-T6 알루미늄 빌릿 가공 및 밀스펙 타입 III 하드 아노다이징 처리로 제작되었으며, 모든 M1913 피카티니 레일에 장착 가능하고 표준 AR15 스타일 예비 조준기와 하단 1/3 코위트니스를 제공합니다."
+        "translation": "SLR 마운트는 다양한 레드닷 조준기에 적합한 경량형 슬림 마운팅 솔루션입니다. 7075-T6 알루미늄 빌릿 가공 및 밀스펙 타입 III 하드 양극산화 처리로 제작되었으며, 모든 M1913 피카티니 레일에 장착 가능하고 표준 AR15 스타일 예비 조준기와 하단 1/3 코위트니스를 제공합니다."
       },
       {
         "key": "67a281fafa6f0dadd5211962 Name",
@@ -1461,7 +1461,7 @@
       {
         "key": "67b1eb6d91f8e59bc799beb1 Name",
         "source": "Surefire M640U-BK-PRO FDE Flashlight offset",
-        "translation": "슈어파이어 M640U-프로 오프셋 손전등 (사막색)\n(SureFire M640U-BK-PRO FDE Flashlight offset)"
+        "translation": "슈어파이어 M640U-프로 오프셋 손전등 (사막색)"
       },
       {
         "key": "67b1eb6d91f8e59bc799beb1 Description",
@@ -1491,7 +1491,7 @@
       {
         "key": "67b8d6cd220640e6846aed85 Name",
         "source": "CGPC3 TQS (Dark)",
-        "translation": "CGPC3 TQS (블랙)"
+        "translation": "CGPC3 TQS (다크)"
       },
       {
         "key": "67b8d6cd220640e6846aed85 Description",
@@ -1511,7 +1511,7 @@
       {
         "key": "684ae8ebb048d86cbdf8d5d9 Description",
         "source": "TGC Rubber Duck sound suppressor designed for use with a 7.62x51 NATO, but also compatible with a most popular rifle calibers. Made of stainless steel and special rubber reducing sounds even more than a regular silencer. Can only be installed on 51T muzzle devices.",
-        "translation": "TGC 러버덕 소음기는 7.62x51 NATO용으로 설계되었으며, 다양한 인기 라이플 구경에도 호환됩니다. 스테인리스강과 특수 고무로 제작되어 일반 소음기보다 더 뛰어난 소음 감소 효과를 제공합니다. 51T 소염기 전용으로 장착할 수 있습니다."
+        "translation": "TGC 러버덕 소음기는 7.62x51 NATO용으로 설계됐으며, 그 밖의 여러 널리 사용되는 소총 구경과도 호환됩니다. 스테인리스강과 특수 고무를 사용해 일반 소음기보다 발사음을 더 줄여 줍니다. 51T 규격 총구 장치에만 장착할 수 있습니다."
       },
       {
         "key": "684ae9d928526b5c284aacb6 Name",
@@ -1521,7 +1521,7 @@
       {
         "key": "684ae9d928526b5c284aacb6 Description",
         "source": "TGC Rubber Duck sound suppressor designed for use with a 7.62x51 NATO, but also compatible with a most popular rifle calibers. Made of stainless steel and special rubber reducing sounds even more than a regular silencer. Can only be installed on 51T muzzle devices.",
-        "translation": "TGC 러버덕 소음기는 7.62x51 NATO용으로 설계되었으며, 다양한 인기 라이플 구경에도 호환됩니다. 스테인리스강과 특수 고무로 제작되어 일반 소음기보다 더 뛰어난 소음 감소 효과를 제공합니다. 51T 소염기 전용으로 장착할 수 있습니다."
+        "translation": "TGC 러버덕 소음기는 7.62x51 NATO용으로 설계됐으며, 그 밖의 여러 널리 사용되는 소총 구경과도 호환됩니다. 스테인리스강과 특수 고무를 사용해 일반 소음기보다 발사음을 더 줄여 줍니다. 51T 규격 총구 장치에만 장착할 수 있습니다."
       },
       {
         "key": "685009b24c99357a3da143e4 Name",
@@ -1686,7 +1686,7 @@
       {
         "key": "672e2e755c49aef3e8a3dd0c ShortName",
         "source": "M203",
-        "translation": "M203 발사기",
+        "translation": "M203",
         "match_mode": "exact",
         "display_type": "default"
       },

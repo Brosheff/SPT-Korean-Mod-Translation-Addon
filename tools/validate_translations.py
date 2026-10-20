@@ -18,6 +18,9 @@ for path in sorted(root.glob('*.json')):
     loc = channels.get('locale') or []
     inherited = None
     seen_keys = set()
+    locale_keys = {r.get('key', '').casefold() for r in loc}
+    trader_ids = {k.rsplit(' ', 1)[0].casefold() for k in (r.get('key', '') for r in loc)
+                  if ' ' in k and k.rsplit(' ', 1)[1].casefold() in ('firstname','lastname','fullname','nickname')}
     for i, r in enumerate(loc):
         if 'match_mode' in r and r.get('match_mode') not in (None, ''):
             inherited = r['match_mode']
@@ -28,6 +31,24 @@ for path in sorted(root.glob('*.json')):
         seen_keys.add(r.get('key'))
         if 'source' not in r or 'translation' not in r:
             errors.append(f'{path.name}: locale[{i}] missing source/translation')
+        # Automatic item-name formatting already appends the original in kr-en.
+        # A manually embedded English name suffix duplicates it and can be stale.
+        key = r.get('key', '')
+        text = r.get('translation', '')
+        if key.endswith(' Name') and isinstance(text, str) and re.search(r'\n\([^\n]*[A-Za-z][^\n]*\)\s*$', text):
+            parent = key.rsplit(' ', 1)[0]
+            quest = any((parent + ' ' + field).casefold() in locale_keys for field in
+                        ('startedMessageText', 'successMessageText', 'acceptPlayerMessage', 'completePlayerMessage'))
+            kind = r.get('display_type') or ('default' if parent.casefold() in trader_ids else
+                                             'quest_title' if quest else 'item_name')
+            if kind == 'item_name':
+                errors.append(f'{path.name}: locale[{i}] embeds a bilingual English suffix in an automatically formatted item_name')
+        if 'source_variants' in r:
+            variants = r['source_variants']
+            if (not isinstance(variants, list) or not 1 <= len(variants) <= 8 or
+                any(not isinstance(v, str) or not v.strip() or v == r.get('source') for v in variants) or
+                len(variants) != len(set(variants))):
+                errors.append(f'{path.name}: locale[{i}] invalid source_variants')
     source_fallbacks = channels.get('locale_source_fallback') or []
     seen_fallback_sources = set()
     for i, r in enumerate(source_fallbacks):

@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.samc137.isbsofextras",
+  "plugin_name": "ISB SOF Extras",
+  "categories": [
+    {
+      "source": "USEC ISB Special Forces Audio Plugin Config",
+      "translation": "USEC ISB 특수부대 음성 설정"
+    },
+    {
+      "source": "USEC ISB Special Forces Blackout Config",
+      "translation": "USEC ISB 특수부대 정전 설정"
+    },
+    {
+      "source": "USEC ISB Special Forces Subtitle Config",
+      "translation": "USEC ISB 특수부대 자막 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "USEC ISB Special Forces Audio Plugin Config",
+      "key": "Enable Laboratory Announcements",
+      "source_display_name": "Enable Laboratory Announcements",
+      "source_description": "When enabled, upon entering a Labs raid, if ISB operators are present, a series of announcements will play over the facility's intercom system informing of the ISB's presence and the start of its operation in the lab.",
+      "translation_display_name": "연구소 안내 방송 활성화",
+      "translation_description": "연구소 레이드에 ISB 요원이 있을 경우, 시설 내 방송 시스템에서 ISB의 진입과 작전 개시를 알리는 안내 방송을 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Audio Plugin Config",
+      "key": "Enable ISB Radio Comms",
+      "source_display_name": "Enable ISB Radio Comms",
+      "source_description": "When enabled, while on a raid where ISB operators are present, you'll be able to hear radio communications between operators, such as Aishi's callouts to them. Great for immersion and for pinpointing their locations.",
+      "translation_display_name": "ISB 무전 교신 활성화",
+      "translation_description": "ISB 요원이 등장하는 레이드에서 아이시가 요원에게 보내는 지시 등을 포함한 교신을 들을 수 있습니다. 현장감과 요원 위치 파악에 도움이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Audio Plugin Config",
+      "key": "Enable ISB KIA Comms",
+      "source_display_name": "Enable ISB KIA Comms",
+      "source_description": "When enabled, while on a raid where ISB operators are present, you'll be able to hear Aishi's and HQ's communication with the other ISB operators when a team member is eliminated in the raid. This is great for immersion, pinpointing positions, and also identifying when a squad member has been taken down.",
+      "translation_display_name": "ISB 전사 보고 무전 활성화",
+      "translation_description": "ISB 요원이 있는 레이드에서 팀원이 사망하면 아이시와 본부가 다른 요원과 나누는 무전을 들을 수 있습니다. 현장감, 위치 파악 및 팀원 사망 확인에 도움이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Audio Plugin Config",
+      "key": "Enable ISB Heavy Damage Comms",
+      "source_display_name": "Enable ISB Heavy Damage Comms",
+      "source_description": "When enabled, while on a raid where ISB operators are present, you'll be able to hear Aishi and HQ's communications about operators who have taken a lot of damage. Great for immersion and for pinpointing their current positions.",
+      "translation_display_name": "ISB 중상 보고 무전 활성화",
+      "translation_description": "ISB 요원이 있는 레이드에서 심각한 피해를 입은 요원에 관한 아이시와 본부의 무전을 들을 수 있습니다. 현장감과 현재 위치 파악에 도움이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Audio Plugin Config",
+      "key": "Enable Aishi ISB Radio Comms",
+      "source_display_name": "Enable Aishi ISB Radio Comms",
+      "source_description": "When enabled, it adds Aishi’s exclusive voice lines to the audio list for coordinating the team, as well as random taunts. Great for immersion and highlighting the bots’ positions.",
+      "translation_display_name": "아이시 전용 무전 활성화",
+      "translation_description": "팀을 지휘하는 아이시의 전용 음성과 무작위 도발 대사를 무전 목록에 추가합니다. 현장감과 봇 위치 파악에 도움이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Audio Plugin Config",
+      "key": "Enable Aishi ISB KIA Comms",
+      "source_display_name": "Enable Aishi ISB KIA Comms",
+      "source_description": "When enabled, it adds Aishi's exclusive voice lines to the audio list to alert the team when one of the allied operators is eliminated. Great for immersion and revealing the bots' positions.",
+      "translation_display_name": "아이시 전용 전사 보고 활성화",
+      "translation_description": "아군 요원이 사망했을 때 팀에 알리는 아이시의 전용 음성을 추가합니다. 현장감과 봇 위치 파악에 도움이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Audio Plugin Config",
+      "key": "Enable Aishi ISB Heavy Damage Comms",
+      "source_display_name": "Enable Aishi ISB Heavy Damage Comms",
+      "source_description": "When enabled, it adds Aishi’s exclusive voice lines to the audio list to alert the team when one of the allied operators takes heavy damage but remains alive. Great for immersion and revealing the bots’ positions.",
+      "translation_display_name": "아이시 전용 중상 보고 활성화",
+      "translation_description": "아군 요원이 큰 피해를 입었지만 생존했을 때 이를 팀에 알리는 아이시의 전용 음성을 추가합니다. 현장감과 봇 위치 파악에 도움이 됩니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Audio Plugin Config",
+      "key": "Laboratory Announcements Volume",
+      "source_display_name": "Laboratory Announcements Volume",
+      "source_description": "Volume of the Laboratory intercom announcements, from 0 to 100. Changes apply in real time, even while an announcement is already playing.",
+      "translation_display_name": "연구소 안내 방송 음량",
+      "translation_description": "연구소 안내 방송 음량을 0~100 사이에서 설정합니다. 방송 재생 중에도 변경 사항이 즉시 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Audio Plugin Config",
+      "key": "ISB Radio Volume",
+      "source_display_name": "ISB Radio Volume",
+      "source_description": "Volume of all ISB radio communications, from 0 to 100. Changes apply in real time. even while an radios is already playing.",
+      "translation_display_name": "ISB 무전 음량",
+      "translation_description": "모든 ISB 무전 음량을 0~100 사이에서 설정합니다. 무전 재생 중에도 변경 사항이 즉시 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Blackout Config",
+      "key": "Laboratory Blackout Event Chance",
+      "source_display_name": "Laboratory Blackout Event Chance",
+      "source_description": "Chance, from 0 to 100, for the complete Laboratory Blackout Event. In Fika, the host or headless decides for every player.",
+      "translation_display_name": "연구소 정전 이벤트 발생 확률",
+      "translation_description": "연구소 전체 정전 이벤트의 발생 확률을 0~100 사이에서 설정합니다. Fika에서는 호스트 또는 헤드리스 서버가 모든 플레이어의 결과를 결정합니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Blackout Config",
+      "key": "Restrict Laboratory Exits",
+      "source_display_name": "Restrict Laboratory Exits",
+      "source_description": "Keeps only the Hangar Gate and Parking Gate exfils available when the blackout starts.",
+      "translation_display_name": "연구소 탈출구 제한",
+      "translation_description": "정전이 시작되면 격납고 게이트와 주차장 게이트 탈출구만 이용할 수 있도록 제한합니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Blackout Config",
+      "key": "Blackout Sound Volume",
+      "source_display_name": "Blackout Sound Volume",
+      "source_description": "Volume of the Blackout Event SFX, from 0 to 100.",
+      "translation_display_name": "정전 효과음 음량",
+      "translation_description": "정전 이벤트 효과음의 음량을 0~100 사이에서 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Subtitle Config",
+      "key": "Enable Map Announcement Subtitles",
+      "source_display_name": "Enable Map Announcement Subtitles",
+      "source_description": "Enables subtitles for the Labs Announcements.",
+      "translation_display_name": "연구소 안내 방송 자막 활성화",
+      "translation_description": "연구소 안내 방송의 자막을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Subtitle Config",
+      "key": "Subtitle Language",
+      "source_display_name": "Subtitle Language",
+      "source_description": "Subtitle locale code. Use Auto to follow the current EFT locale. Supported: en and pt.",
+      "translation_display_name": "자막 언어",
+      "translation_description": "자막 로케일 코드를 설정합니다. Auto는 게임 언어를 따르며, 현재 원본이 지원하는 언어는 en과 pt입니다.",
+      "values": []
+    }
+  ]
+}

@@ -90,6 +90,14 @@ def source_checks(root):
             ids.add(mod_id)
         except (ValueError, OSError, TypeError) as exc:
             errors.append(f'{p.name}: {exc}')
+    # A prior ArenaMode patch failed the user build with CS1026 although JSON
+    # tests passed. Catch basic C# delimiter damage before invoking dotnet.
+    from check_csharp_delimiters import check_sources
+    errors.extend(check_sources(root))
+    # Static checks for explicit capacities and identical-key/identical-source conflicts.
+    # Different sources remain distinct candidates. Never report this as in-game proof.
+    from audit_locale_integrity import audit
+    errors.extend(audit(root / 'translations'))
     # Only guaranteed existing bridge, not a runtime proof of hook installation.
     return errors
 
@@ -97,7 +105,7 @@ def source_checks(root):
 def document_checks(root):
     errors = []
     # GPT/developer document QA is explicitly separate from DLL building.
-    doc_files = ('번역작업안내서.md', '모드번역_작업절차.md',
+    doc_files = ('번역작업안내서.md', '모드번역_작업절차.md', '응답전_필수확인.md',
                  '번역대상_인계기록_양식.md', '배포_업데이트노트_작성지침.md',
                  'prompts/translate_prompt.txt')
     note_files = ('README.md', '번역지원모드목록.md', 'update.md')
@@ -107,6 +115,30 @@ def document_checks(root):
     for name in note_files:
         if not (root / 'note' / name).is_file():
             errors.append('missing public document: note/' + name)
+    # Check repository-facing entrypoint and required response-gate anchors.
+    # This guards missing/mispackaged instructions; it does NOT prove that an
+    # assistant read the files in a later conversation or that in-game text works.
+    required_response_gate = {
+        'AGENTS.md': ('매 턴마다', 'docs/응답전_필수확인.md', '실제'),
+        'docs/모드번역_작업절차.md': ('0-A. 매 답변 전 문서 재확인', '응답전_필수확인.md'),
+        'docs/응답전_필수확인.md': ('매 응답마다', '런타임', '게임'),
+        'docs/번역작업안내서.md': ('매 답변 전 확인', '응답전_필수확인.md'),
+        'docs/TRANSLATION_FORMAT.md': ('실제 게임 원문', 'VSK', 'VKS'),
+        'docs/번역대상_인계기록_양식.md': ('응답 게이트 재확인', '실행 영어 원문'),
+    }
+    for path, phrases in required_response_gate.items():
+        f = root / path
+        if not f.is_file():
+            errors.append('missing mandatory response-gate document: ' + path)
+            continue
+        try:
+            content = f.read_text(encoding='utf-8-sig')
+        except OSError as exc:
+            errors.append('cannot read response-gate document ' + path + ': ' + str(exc))
+            continue
+        for phrase in phrases:
+            if phrase not in content:
+                errors.append('missing response-gate instruction in ' + path + ': ' + phrase)
     for misplaced in ('README.md', 'docs/번역지원모드목록.md',
                       'docs/RELEASE_1.0.1_KO.md', 'docs/RELEASE_1.0.2_KO.md'):
         if (root / misplaced).is_file():

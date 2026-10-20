@@ -34,7 +34,7 @@ def main():
         current = raw_ci.get(key)
         if current is None:
             reason = 'not_present_in_this_server_snapshot'
-        elif any(current.strip() == r['source'].strip() for r in rows):
+        elif any(current.strip() == candidate.strip() for r in rows for candidate in [r['source'], *(r.get('source_variants') or [])]):
             continue
         elif re.search(r'[가-힣]', current):
             reason = 'other_korean_or_already_translated_preserve'
@@ -43,7 +43,7 @@ def main():
         else:
             reason = 'source_mismatch_review_decorations_and_mod_version'
         unmatched.append({'key': rows[0]['key'], 'reason': reason, 'current': current,
-                          'candidates': [{'file': r['file'], 'source': r['source']} for r in rows]})
+                          'candidates': [{'file': r['file'], 'source': r['source'], 'source_variants': r.get('source_variants', [])} for r in rows]})
     uncovered = []
     for key, source in english.items():
         if key in parent or key.casefold() in candidates or not isinstance(source, str): continue

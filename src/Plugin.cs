@@ -6,7 +6,7 @@ using HarmonyLib;
 
 namespace SPT.ModKoreanAddon
 {
-    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.2")]
+    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.3")]
     [BepInDependency("com.GoLani.koreanpatchfix", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("com.mpstark.dynamicmaps", BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin
@@ -51,6 +51,22 @@ namespace SPT.ModKoreanAddon
                 var addonRoot = Path.GetDirectoryName(typeof(Plugin).Assembly.Location);
                 harmony = new Harmony("spt.korean.modtranslation.addon");
                 data = new EditableProfiles(addonRoot);
+                // Under Fire registers its one-off health-effect label in Awake, before
+                // this addon's Start-only small UI hooks. Install only that exact
+                // source-audited literal hook now; keep all other small UI hooks in Start.
+                try
+                {
+                    smallUiHarmony = new Harmony("spt.korean.modtranslation.addon.small-ui");
+                    SmallUiLiteralHooks.EnableUnderFireEarly(smallUiHarmony,
+                        AppDomain.CurrentDomain.GetAssemblies(), data);
+                }
+                catch (Exception earlyError)
+                {
+                    SmallUiLiteralHooks.Disable();
+                    smallUiHarmony?.UnpatchSelf();
+                    smallUiHarmony = null;
+                    Logger.LogWarning("Under Fire early display hook skipped: " + earlyError.Message);
+                }
                 quartermasterCatalog = new QuartermasterContractLocales(addonRoot);
                 AddonBridge.Enable(harmony, originalAssembly, originalRoot, addonRoot, data);
                 // Install the grenade error hook in Awake, not Start: missing BigBrain
@@ -83,6 +99,8 @@ namespace SPT.ModKoreanAddon
             }
             catch (Exception ex)
             {
+                SmallUiLiteralHooks.Disable();
+                smallUiHarmony?.UnpatchSelf();
                 harmony?.UnpatchSelf();
                 Logger.LogError("Addon disabled; original Korean plugin remains unchanged. " + ex.Message);
             }
@@ -130,7 +148,8 @@ namespace SPT.ModKoreanAddon
 
             try
             {
-                smallUiHarmony = new Harmony("spt.korean.modtranslation.addon.small-ui");
+                if (smallUiHarmony == null)
+                    smallUiHarmony = new Harmony("spt.korean.modtranslation.addon.small-ui");
                 var count = SmallUiLiteralHooks.Enable(smallUiHarmony, assemblies, data);
                 var pitLocaleCount = PitFireTeamLocaleHooks.Enable(smallUiHarmony, assemblies, AppDomain.CurrentDomain.BaseDirectory, addonRoot);
             }
@@ -205,7 +224,7 @@ namespace SPT.ModKoreanAddon
             // Korean Patch Fix's custom kr/kr-en mode on its own. Send only the existing
             // CurrentCulture value; failure is isolated and leaves all client UI hooks intact.
             TrySyncServerCulture(lastCulture);
-            Logger.LogInfo("SPT Mod Korean Addon 1.0.2 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
+            Logger.LogInfo("SPT Mod Korean Addon 1.0.3 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
         }
 
         private void Update()

@@ -57,7 +57,7 @@
       "source_display_name": "Ambience Event Cooldown Multiplier",
       "source_description": "Cooldown multiplier for ambience events on this map. Higher values increase the average time between ambience events.",
       "translation_display_name": "환경음 이벤트 재생 간격 배율",
-      "translation_description": "환경음 이벤트 재생 간격 배율 값을 설정합니다.",
+      "translation_description": "해당 맵의 주변 전투음 이벤트에 적용할 재생 대기시간 배율입니다. 값이 클수록 이벤트 사이의 평균 간격이 길어집니다.",
       "values": []
     },
     {
@@ -66,7 +66,7 @@
       "source_display_name": "Enable Events",
       "source_description": "Enable battle sound events on this map?",
       "translation_display_name": "이벤트 활성화",
-      "translation_description": "이벤트 활성화 여부를 설정합니다.",
+      "translation_description": "해당 맵에서 전투음 이벤트를 활성화하거나 비활성화합니다.",
       "values": []
     },
     {
@@ -93,7 +93,7 @@
       "source_display_name": "Max Volume Multiplier",
       "source_description": "Maximum volume multiplier for battle sounds on this map.",
       "translation_display_name": "최대 음량 배율",
-      "translation_description": "최대 음량 배율 값을 설정합니다.",
+      "translation_description": "이 맵에서 재생되는 전투음에 적용할 최대 음량 배율입니다.",
       "values": []
     },
     {
@@ -102,7 +102,7 @@
       "source_display_name": "Min Volume Multiplier",
       "source_description": "Minimum volume multiplier for battle sounds on this map.",
       "translation_display_name": "최소 음량 배율",
-      "translation_description": "최소 음량 배율 값을 설정합니다.",
+      "translation_description": "이 맵에서 재생되는 전투음에 적용할 최소 음량 배율입니다.",
       "values": []
     },
     {

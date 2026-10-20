@@ -144,7 +144,7 @@
       {
         "key": "67f1a1000000000000000116 Description",
         "source": "A match-grade, full-length 16-inch barrel for the KS-1 rifle system, finished in FDE. Employs KAC's highly distinctive ball-milling process to maximize mechanical rigidity and surface cooling area while providing a notable reduction in recoil and full muzzle velocity.",
-        "translation": "FDE 마감이 적용된 KS-1 라이플 시스템용 매치그레이드 풀 렝스 16인치 총열입니다. KAC의 독특한 볼 밀링 공정을 사용해 기계적 강성과 표면 냉각 면적을 극대화하며, 반동 감소와 완전한 총구 속도 확보에 기여합니다."
+        "translation": "FDE 마감이 적용된 KS-1 소총 체계용 매치급 16인치 전장 총열입니다. KAC 특유의 볼 밀링 가공으로 기계적 강성과 표면 냉각 면적을 극대화하면서 반동을 눈에 띄게 줄이고 총구 속도는 온전히 확보합니다."
       },
       {
         "key": "67f1a1000000000000000120 Name",
@@ -284,7 +284,7 @@
       {
         "key": "67f1a2000000000000000116 Description",
         "source": "A match-grade, full-length 16-inch barrel for the KS-1 rifle system. Employs KAC's highly distinctive ball-milling process to maximize mechanical rigidity and surface cooling area while providing a notable reduction in recoil and full muzzle velocity.",
-        "translation": "KS-1 라이플 시스템용 매치그레이드 풀 렝스 16인치 총열입니다. KAC의 독특한 볼 밀링 공정을 사용해 기계적 강성과 표면 냉각 면적을 극대화하며, 반동 감소와 완전한 총구 속도 확보에 기여합니다."
+        "translation": "KS-1 소총 체계용 매치급 16인치 전장 총열입니다. KAC 특유의 볼 밀링 가공으로 기계적 강성과 표면 냉각 면적을 극대화하면서 반동을 눈에 띄게 줄이고 총구 속도는 온전히 확보합니다."
       },
       {
         "key": "67f1a2000000000000000120 Name",
@@ -529,7 +529,7 @@
       {
         "key": "6a4988e8964a3b687e32d32a Description",
         "source": "The Geissele Super Modular Rail MK16 offers unmatched performance for the most demanding shooters. Mounted to your AR-15 upper using the updated version of the proven Geissele Barrel Nut design, the MK16 is not only easy to install and maintain, but offers superior rigidity. Anti-rotation tabs and set-screws ensure that your rail will not rotate, even under the most extreme conditions of use. M1913 picatinny rail on top and M-LOK™ slots on every quadrant ensures maximum customization for all your accessories. The Geissele Super Modular Rail MK16 is precision machined using 7000 Series Aluminum due to its strong, rigid and light properties, and is finished in durable Type-3 Hardcoat anodized.  Also available in 9.3\", 10.5\", and 15\" lengths!\n\nThe Super Modular Rail 13.5\" MK16 M-LOK®, NSN#1005-01-672-4797 (13.5”), has been adopted by USASOC for the URG-I program (Upper Receiver Group Improved).",
-        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 아노다이징으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
+        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 양극산화으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
       },
       {
         "key": "6a498a7665bd6a175e32d337 Name",
@@ -544,7 +544,7 @@
       {
         "key": "6a498a7665bd6a175e32d337 Description",
         "source": "The Geissele Super Modular Rail MK16 offers unmatched performance for the most demanding shooters. Mounted to your AR-15 upper using the updated version of the proven Geissele Barrel Nut design, the MK16 is not only easy to install and maintain, but offers superior rigidity. Anti-rotation tabs and set-screws ensure that your rail will not rotate, even under the most extreme conditions of use. M1913 picatinny rail on top and M-LOK™ slots on every quadrant ensures maximum customization for all your accessories. The Geissele Super Modular Rail MK16 is precision machined using 7000 Series Aluminum due to its strong, rigid and light properties, and is finished in durable Type-3 Hardcoat anodized.  Also available in 9.3\", 10.5\", and 15\" lengths!\n\nThe Super Modular Rail 13.5\" MK16 M-LOK®, NSN#1005-01-672-4797 (13.5”), has been adopted by USASOC for the URG-I program (Upper Receiver Group Improved).",
-        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 아노다이징으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
+        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 양극산화으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
       },
       {
         "key": "6a498ab3de5c16d4fb32d341 Name",
@@ -559,7 +559,7 @@
       {
         "key": "6a498ab3de5c16d4fb32d341 Description",
         "source": "The Geissele Super Modular Rail MK16 offers unmatched performance for the most demanding shooters. Mounted to your AR-15 upper using the updated version of the proven Geissele Barrel Nut design, the MK16 is not only easy to install and maintain, but offers superior rigidity. Anti-rotation tabs and set-screws ensure that your rail will not rotate, even under the most extreme conditions of use. M1913 picatinny rail on top and M-LOK™ slots on every quadrant ensures maximum customization for all your accessories. The Geissele Super Modular Rail MK16 is precision machined using 7000 Series Aluminum due to its strong, rigid and light properties, and is finished in durable Type-3 Hardcoat anodized.  Also available in 9.3\", 10.5\", and 15\" lengths!\n\nThe Super Modular Rail 13.5\" MK16 M-LOK®, NSN#1005-01-672-4797 (13.5”), has been adopted by USASOC for the URG-I program (Upper Receiver Group Improved).",
-        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 아노다이징으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
+        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 양극산화으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
       },
       {
         "key": "6a498af44fdb5b2ab832d34d Name",
@@ -574,12 +574,12 @@
       {
         "key": "6a498af44fdb5b2ab832d34d Description",
         "source": "The Geissele Super Modular Rail MK16 offers unmatched performance for the most demanding shooters. Mounted to your AR-15 upper using the updated version of the proven Geissele Barrel Nut design, the MK16 is not only easy to install and maintain, but offers superior rigidity. Anti-rotation tabs and set-screws ensure that your rail will not rotate, even under the most extreme conditions of use. M1913 picatinny rail on top and M-LOK™ slots on every quadrant ensures maximum customization for all your accessories. The Geissele Super Modular Rail MK16 is precision machined using 7000 Series Aluminum due to its strong, rigid and light properties, and is finished in durable Type-3 Hardcoat anodized.  Also available in 9.3\", 10.5\", and 15\" lengths!\n\nThe Super Modular Rail 13.5\" MK16 M-LOK®, NSN#1005-01-672-4797 (13.5”), has been adopted by USASOC for the URG-I program (Upper Receiver Group Improved).",
-        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 아노다이징으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
+        "translation": "가이슬리 슈퍼 모듈러 레일 MK16은 가장 까다로운 사수에게도 뛰어난 성능을 제공합니다. 검증된 가이슬리 총열 너트 설계를 개선한 제품을 사용해 AR-15 상부 총몸에 장착하며, 설치와 유지보수가 쉽고 강성도 우수합니다. 회전 방지 돌기와 고정 나사가 극한의 사용 환경에서도 레일의 회전을 막아줍니다. 상부의 M1913 피카티니 레일과 각 방향의 엠락(M-LOK) 슬롯은 다양한 부속품을 원하는 대로 구성할 수 있게 해줍니다. 강하고 단단하면서도 가벼운 7000계열 알루미늄을 정밀 가공하고 내구성 높은 3형 경질 양극산화으로 마감했습니다. 9.3인치, 10.5인치, 15인치 길이도 제공됩니다.\n\n13.5인치 슈퍼 모듈러 레일 MK16 엠락 모델(NSN#1005-01-672-4797)은 미 육군 특수작전사령부(USASOC)의 개량형 상부 총몸 사업(URG-I)에 채택되었습니다."
       },
       {
         "key": "6a498b1b7d93f01b6a32d357 Name",
         "source": "Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - Black",
-        "translation": "가이슬리 프리미엄 밀스펙 버퍼 튜브 Super 42 H1 포함 (블랙)\n(Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - Black )"
+        "translation": "가이슬리 프리미엄 밀스펙 버퍼 튜브 Super 42 H1 포함 (블랙)"
       },
       {
         "key": "6a498b1b7d93f01b6a32d357 ShortName",
@@ -589,12 +589,12 @@
       {
         "key": "6a498b1b7d93f01b6a32d357 Description",
         "source": "The Geissele Premium Mil-Spec Buffer Tube is machined from quality 7075-T6 Aluminum and finished in Type 3 Hardcoat Anodize, available in Black or Geissele’s DDC. This rigid and durable buffer tube conforms to all mil-spec standards and features 6 stock positions. This carbine length and mil-spec diameter Premium Buffer Tube is made in the USA and weighs in at 3.7oz, making it the perfect fit for your AR-15 lower and ensuring compatibility with most mil-spec diameter quality AR-15 stocks. Included in the package is a high-quality, mil-spec castle nut and end plate.",
-        "translation": "가이슬리 프리미엄 군용 규격 버퍼 튜브는 고품질 7075-T6 알루미늄을 가공하고 3형 경질 아노다이징으로 마감한 제품으로, 검은색 또는 가이슬리의 사막색(DDC)으로 제공됩니다. 견고하고 내구성이 높으며 모든 군용 규격을 충족하고 개머리판 위치를 6단계로 조절할 수 있습니다. 카빈 길이와 군용 규격 직경을 갖춘 이 미국제 버퍼 튜브는 무게가 3.7온스로, AR-15 하부 총몸에 잘 맞고 군용 규격 직경의 고품질 AR-15 개머리판 대부분과 호환됩니다. 고품질 군용 규격 캐슬 너트와 엔드플레이트가 함께 제공됩니다."
+        "translation": "가이슬리 프리미엄 군용 규격 버퍼 튜브는 고품질 7075-T6 알루미늄을 가공하고 3형 경질 양극산화으로 마감한 제품으로, 검은색 또는 가이슬리의 사막색(DDC)으로 제공됩니다. 견고하고 내구성이 높으며 모든 군용 규격을 충족하고 개머리판 위치를 6단계로 조절할 수 있습니다. 카빈 길이와 군용 규격 직경을 갖춘 이 미국제 버퍼 튜브는 무게가 3.7온스로, AR-15 하부 총몸에 잘 맞고 군용 규격 직경의 고품질 AR-15 개머리판 대부분과 호환됩니다. 고품질 군용 규격 캐슬 너트와 엔드플레이트가 함께 제공됩니다."
       },
       {
         "key": "6a498bb3b3f45596bb32d35b Name",
         "source": "Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - DDC",
-        "translation": "가이슬리 프리미엄 밀스펙 버퍼 튜브 Super 42 H1 포함 (사막색)\n(Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - DDC )"
+        "translation": "가이슬리 프리미엄 밀스펙 버퍼 튜브 Super 42 H1 포함 (사막색)"
       },
       {
         "key": "6a498bb3b3f45596bb32d35b ShortName",
@@ -604,7 +604,7 @@
       {
         "key": "6a498bb3b3f45596bb32d35b Description",
         "source": "The Geissele Premium Mil-Spec Buffer Tube is machined from quality 7075-T6 Aluminum and finished in Type 3 Hardcoat Anodize, available in Black or Geissele’s DDC. This rigid and durable buffer tube conforms to all mil-spec standards and features 6 stock positions. This carbine length and mil-spec diameter Premium Buffer Tube is made in the USA and weighs in at 3.7oz, making it the perfect fit for your AR-15 lower and ensuring compatibility with most mil-spec diameter quality AR-15 stocks. Included in the package is a high-quality, mil-spec castle nut and end plate.",
-        "translation": "가이슬리 프리미엄 군용 규격 버퍼 튜브는 고품질 7075-T6 알루미늄을 가공하고 3형 경질 아노다이징으로 마감한 제품으로, 검은색 또는 가이슬리의 사막색(DDC)으로 제공됩니다. 견고하고 내구성이 높으며 모든 군용 규격을 충족하고 개머리판 위치를 6단계로 조절할 수 있습니다. 카빈 길이와 군용 규격 직경을 갖춘 이 미국제 버퍼 튜브는 무게가 3.7온스로, AR-15 하부 총몸에 잘 맞고 군용 규격 직경의 고품질 AR-15 개머리판 대부분과 호환됩니다. 고품질 군용 규격 캐슬 너트와 엔드플레이트가 함께 제공됩니다."
+        "translation": "가이슬리 프리미엄 군용 규격 버퍼 튜브는 고품질 7075-T6 알루미늄을 가공하고 3형 경질 양극산화으로 마감한 제품으로, 검은색 또는 가이슬리의 사막색(DDC)으로 제공됩니다. 견고하고 내구성이 높으며 모든 군용 규격을 충족하고 개머리판 위치를 6단계로 조절할 수 있습니다. 카빈 길이와 군용 규격 직경을 갖춘 이 미국제 버퍼 튜브는 무게가 3.7온스로, AR-15 하부 총몸에 잘 맞고 군용 규격 직경의 고품질 AR-15 개머리판 대부분과 호환됩니다. 고품질 군용 규격 캐슬 너트와 엔드플레이트가 함께 제공됩니다."
       },
       {
         "key": "6a498c43aa51eb453732d35d Name",
@@ -709,7 +709,7 @@
       {
         "key": "6a49911178ded31d0232d383 Description",
         "source": "The Geissele A17 Grip is a modern take on the classic 1911 grip angle for the AR15/M4 platform.  Incorporating a similar angle as the well-known 1911, the Geissele A17 Grip also features attractive anti-slip texturing and a thicker palm swell to assist with easily attaining a high tight hold.",
-        "translation": "가이슬리 A17 권총손잡이는 AR-15/M4 플랫폼용으로, 1911 계열과 유사한 그립 각도와 두툼한 팜 스웰을 통해 높은 그립을 안정적으로 잡을 수 있도록 설계되었습니다. 미끄럼 방지 텍스처를 적용해 열악한 조건에서도 확실한 파지력을 제공합니다."
+        "translation": "가이슬리 A17 권총손잡이는 AR-15/M4 플랫폼에서 고전적인 1911 권총의 손잡이 각도를 현대적으로 구현한 제품입니다. 1911과 유사한 각도에 미끄럼 방지 표면 처리와 더 두툼한 손바닥 받침을 갖춰, 손잡이를 높은 위치에서 단단히 쥐기 쉽습니다."
       },
       {
         "key": "6a49911b2b6058feb932d384 Name",
@@ -719,7 +719,7 @@
       {
         "key": "6a49911b2b6058feb932d384 Description",
         "source": "The Geissele A17 Grip is a modern take on the classic 1911 grip angle for the AR15/M4 platform.  Incorporating a similar angle as the well-known 1911, the Geissele A17 Grip also features attractive anti-slip texturing and a thicker palm swell to assist with easily attaining a high tight hold.",
-        "translation": "가이슬리 A17 권총손잡이는 AR-15/M4 플랫폼용으로, 1911 계열과 유사한 그립 각도와 두툼한 팜 스웰을 통해 높은 그립을 안정적으로 잡을 수 있도록 설계되었습니다. 미끄럼 방지 텍스처를 적용해 열악한 조건에서도 확실한 파지력을 제공합니다."
+        "translation": "가이슬리 A17 권총손잡이는 AR-15/M4 플랫폼에서 고전적인 1911 권총의 손잡이 각도를 현대적으로 구현한 제품입니다. 1911과 유사한 각도에 미끄럼 방지 표면 처리와 더 두툼한 손바닥 받침을 갖춰, 손잡이를 높은 위치에서 단단히 쥐기 쉽습니다."
       },
       {
         "key": "6a49925a59d7813ce732d388 Name",
@@ -769,7 +769,7 @@
       {
         "key": "6a4a54c4dedfd2327f32d392 Description",
         "source": "The Super Charging Handle (SCH®) is 3D machined from a solid block of aircraft grade 7075-T6 aluminum. Its ambidextrous design allows for seamless operation from either side of the weapon. The levers are dual contoured similar to that of the charging handle of an M14, where not only the x-axis but also the y-axis receive radius cuts. The handling surface of the lever is also checkered, adding a textured grip aiding to the use when operating with gloves. The heightened rear lip of the SCH aids in mitigating gas blow back to the shooter when shooting with short barreled and suppressed weapon systems. All parts are then Type 3 Hardcoat anodized and are available in black and DDC (Desert Dirt Color).",
-        "translation": "슈퍼 장전 손잡이(SCH®)는 항공기용 7075-T6 알루미늄 통소재를 3차원 가공해 제작합니다. 양손잡이 설계로 총기의 어느 쪽에서도 자연스럽게 조작할 수 있습니다. 레버는 M14 장전 손잡이처럼 두 방향으로 곡면 가공되어 X축뿐 아니라 Y축에도 둥근 절삭면을 갖추었습니다. 레버의 조작면에는 격자 무늬가 있어 장갑을 착용했을 때도 잘 잡힙니다. 높게 돌출된 후방 턱은 단총열 및 소음기 장착 총기를 사격할 때 사수에게 역류하는 가스를 줄여줍니다. 모든 부품은 3형 경질 아노다이징으로 마감되며 검은색과 사막색(DDC)으로 제공됩니다."
+        "translation": "슈퍼 장전 손잡이(SCH®)는 항공기용 7075-T6 알루미늄 통소재를 3차원 가공해 제작합니다. 양손잡이 설계로 총기의 어느 쪽에서도 자연스럽게 조작할 수 있습니다. 레버는 M14 장전 손잡이처럼 두 방향으로 곡면 가공되어 X축뿐 아니라 Y축에도 둥근 절삭면을 갖추었습니다. 레버의 조작면에는 격자 무늬가 있어 장갑을 착용했을 때도 잘 잡힙니다. 높게 돌출된 후방 턱은 단총열 및 소음기 장착 총기를 사격할 때 사수에게 역류하는 가스를 줄여줍니다. 모든 부품은 3형 경질 양극산화으로 마감되며 검은색과 사막색(DDC)으로 제공됩니다."
       },
       {
         "key": "6a4aa043613607d28f32d396 Name",
@@ -829,7 +829,7 @@
       {
         "key": "6a6663f2155dd87d487e228f Description",
         "source": "Premium Materials\n: Precision-machined from high-quality 7075-T6 aluminum, this charging handle offers superior strength, durability, and lightweight performance. It's designed to withstand the harshest conditions while maintaining flawless functionality.\n\nType III Hard Coat Finish\n: The Love Handle features a Type III hard coat anodized finish, providing exceptional corrosion resistance and enhancing its longevity. This finish ensures your charging handle remains resilient even in harsh environments.\n\nSmooth Operation\n: The Love Handle  is engineered for smooth and reliable operation, minimizing friction and resistance during cycling. Its ergonomic design ensures comfortable and effortless handling, even in high-stress situations.  The low profile and forward swept handles are designed to have a minimal snag hazards at 2.310\" overall width.\n\nAmbidextrous Compatibility\n: With ambidextrous compatibility, this charging handle accommodates both right-handed and left-handed shooters, providing versatility and convenience for all users.\n\nGas Fence for Reduced Gas Blowback\n: Designed with a gas fence, this charging handle effectively mitigates gas blowback, enhancing your shooting experience by redirecting excess gas away from your face. This feature ensures a cleaner, more comfortable shooting experience.\n\nNoveske Quality\n: Noveske Rifleworks, known for its commitment to excellence, proudly manufactures the Love Handle in the USA. With Noveske, you're getting a product backed by a legacy of quality and innovation.",
-        "translation": "고급 소재\n고품질 7075-T6 알루미늄을 정밀 가공한 장전 손잡이로, 뛰어난 강도와 내구성을 가벼운 무게로 제공합니다. 극도로 열악한 환경에서도 완벽한 기능을 유지하도록 설계되었습니다.\n\n3형 경질 마감\n러브 핸들은 3형 경질 아노다이징 마감으로 뛰어난 내식성과 긴 수명을 제공합니다. 혹독한 환경에서도 견고함을 유지합니다.\n\n부드러운 작동\n작동 중 마찰과 저항을 최소화해 부드럽고 안정적으로 움직이도록 설계되었습니다. 인체공학적 구조로 압박이 심한 상황에서도 편안하고 손쉽게 조작할 수 있습니다. 전체 폭 2.310인치의 낮고 전방으로 기울어진 손잡이는 걸릴 위험을 최소화합니다.\n\n양손 사용\n오른손잡이와 왼손잡이 사수 모두 사용할 수 있어 모든 사용자에게 활용성과 편의성을 제공합니다.\n\n가스 역류 방지벽\n가스 방지벽이 과도한 가스를 얼굴에서 멀어지게 유도하여 역류를 효과적으로 줄입니다. 더 쾌적하고 편안한 사격을 도와줍니다.\n\n노베스키 품질\n탁월함을 추구하는 노베스키 라이플웍스가 러브 핸들을 미국에서 생산합니다. 품질과 혁신의 전통이 뒷받침하는 제품입니다."
+        "translation": "고급 소재\n고품질 7075-T6 알루미늄을 정밀 가공한 장전 손잡이로, 뛰어난 강도와 내구성을 가벼운 무게로 제공합니다. 극도로 열악한 환경에서도 완벽한 기능을 유지하도록 설계되었습니다.\n\n3형 경질 마감\n러브 핸들은 3형 경질 양극산화 마감으로 뛰어난 내식성과 긴 수명을 제공합니다. 혹독한 환경에서도 견고함을 유지합니다.\n\n부드러운 작동\n작동 중 마찰과 저항을 최소화해 부드럽고 안정적으로 움직이도록 설계되었습니다. 인체공학적 구조로 압박이 심한 상황에서도 편안하고 손쉽게 조작할 수 있습니다. 전체 폭 2.310인치의 낮고 전방으로 기울어진 손잡이는 걸릴 위험을 최소화합니다.\n\n양손 사용\n오른손잡이와 왼손잡이 사수 모두 사용할 수 있어 모든 사용자에게 활용성과 편의성을 제공합니다.\n\n가스 역류 방지벽\n가스 방지벽이 과도한 가스를 얼굴에서 멀어지게 유도하여 역류를 효과적으로 줄입니다. 더 쾌적하고 편안한 사격을 도와줍니다.\n\n노베스키 품질\n탁월함을 추구하는 노베스키 라이플웍스가 러브 핸들을 미국에서 생산합니다. 품질과 혁신의 전통이 뒷받침하는 제품입니다."
       },
       {
         "key": "6a6664776b0e668ef57e2298 Name",
@@ -844,7 +844,7 @@
       {
         "key": "6a6664776b0e668ef57e2298 Description",
         "source": "Noveske Chainsaw™ forged upper receiver from 7075-T6 aluminum w/extended feed ramps\nHardcoat type III anodizing\nBlack nitride Noveske marked forward assist\nFeaturing anti-rotation interface with handguard\nPhosphate coated bolt carrier, full auto compatible, chrome lined carrier bore and key\nProperly staked grade 8 American made gas key bolts\nPhosphate bolt made from Carpenter 158 heat treated steel MPI tested (magnetic particle inspected)",
-        "translation": "확장형 급탄 램프가 있는 7075-T6 알루미늄 단조 노베스키 Chainsaw™ 상부 총몸입니다.\n3형 경질 아노다이징 마감\n검은색 질화 처리 및 노베스키 표시가 있는 노리쇠 전진기\n총열덮개와의 회전 방지 결합 구조\n인산염 코팅 노리쇠 뭉치, 완전 자동 사격 호환, 뭉치 내부와 가스 키의 크롬 도금\n확실하게 풀림 방지 처리가 된 미국제 8등급 가스 키 볼트\n열처리된 Carpenter 158 강철로 제작하고 인산염 코팅 및 자분 탐상 검사(MPI)를 거친 노리쇠"
+        "translation": "확장형 급탄 램프가 있는 7075-T6 알루미늄 단조 노베스키 Chainsaw™ 상부 총몸입니다.\n3형 경질 양극산화 마감\n검은색 질화 처리 및 노베스키 표시가 있는 노리쇠 전진기\n총열덮개와의 회전 방지 결합 구조\n인산염 코팅 노리쇠 뭉치, 완전 자동 사격 호환, 뭉치 내부와 가스 키의 크롬 도금\n확실하게 풀림 방지 처리가 된 미국제 8등급 가스 키 볼트\n열처리된 Carpenter 158 강철로 제작하고 인산염 코팅 및 자분 탐상 검사(MPI)를 거친 노리쇠"
       },
       {
         "key": "6a6664ef79918820167e229e Name",
@@ -944,7 +944,7 @@
       {
         "key": "6698d07a9c0503243e3753b4 Name",
         "source": "LMT MRP 7.62x51 Monolithic Upper Receiver",
-        "translation": "LMT MRP 7.62x51 Monolithic Upper 리시버"
+        "translation": "LMT MRP 7.62x51 일체형 상부 총몸"
       },
       {
         "key": "6698d07a9c0503243e3753b4 ShortName",
@@ -999,7 +999,7 @@
       {
         "key": "6a3da86d69fe0a0ad5c17101 Name",
         "source": "Sons of Liberty Gun Works MK1 5.56x45 (Gray Anodized)",
-        "translation": "SOLGW MK1 5.56x45 (회색 아노다이징)"
+        "translation": "SOLGW MK1 5.56x45 (회색 양극산화)"
       },
       {
         "key": "6a3da86d69fe0a0ad5c17101 ShortName",
@@ -1009,12 +1009,12 @@
       {
         "key": "6a3da86d69fe0a0ad5c17101 Description",
         "source": "A highly reliable mil-spec lower receiver manufactured by Sons of Liberty Gun Works for their MK1 AR-15 platform. Machined from forged 7075-T6 aluminum and finished in Gray Anodized. Known for tight tolerances, exceptional durability, and rigorous quality control.",
-        "translation": "선즈 오브 리버티 건 웍스(Sons of Liberty Gun Works)에서 MK1 AR-15 플랫폼용으로 제작한 높은 신뢰성의 밀스펙 하부 총몸입니다. 7075-T6 단조 알루미늄으로 가공되었으며 회색 아노다이징 마감이 적용되었습니다. 타이트한 공차, 뛰어난 내구성, 엄격한 품질 관리로 알려져 있습니다."
+        "translation": "선즈 오브 리버티 건 웍스(Sons of Liberty Gun Works)에서 MK1 AR-15 플랫폼용으로 제작한 높은 신뢰성의 밀스펙 하부 총몸입니다. 7075-T6 단조 알루미늄으로 가공되었으며 회색 양극산화 마감이 적용되었습니다. 타이트한 공차, 뛰어난 내구성, 엄격한 품질 관리로 알려져 있습니다."
       },
       {
         "key": "6a3da86d69fe0a0ad5c17102 Name",
         "source": "Sons of Liberty Gun Works MK1 5.56x45 (FDE Anodized)",
-        "translation": "Sons of Liberty Gun Works MK1 5.56x45 (사막색 아노다이징)"
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 (사막색 양극산화)"
       },
       {
         "key": "6a3da86d69fe0a0ad5c17102 ShortName",
@@ -1024,7 +1024,7 @@
       {
         "key": "6a3da86d69fe0a0ad5c17102 Description",
         "source": "A highly reliable mil-spec lower receiver manufactured by Sons of Liberty Gun Works for their MK1 AR-15 platform. Machined from forged 7075-T6 aluminum and finished in FDE Anodized. Known for tight tolerances, exceptional durability, and rigorous quality control.",
-        "translation": "선즈 오브 리버티 건 웍스(Sons of Liberty Gun Works)에서 MK1 AR-15 플랫폼용으로 제작한 높은 신뢰성의 밀스펙 하부 총몸입니다. 7075-T6 단조 알루미늄으로 가공되었으며 사막색 아노다이징 마감이 적용되었습니다. 타이트한 공차, 뛰어난 내구성, 엄격한 품질 관리로 알려져 있습니다."
+        "translation": "선즈 오브 리버티 건 웍스(Sons of Liberty Gun Works)에서 MK1 AR-15 플랫폼용으로 제작한 높은 신뢰성의 밀스펙 하부 총몸입니다. 7075-T6 단조 알루미늄으로 가공되었으며 사막색 양극산화 마감이 적용되었습니다. 타이트한 공차, 뛰어난 내구성, 엄격한 품질 관리로 알려져 있습니다."
       },
       {
         "key": "6a3da86d69fe0a0ad5c17103 Name",
@@ -1044,7 +1044,7 @@
       {
         "key": "6a3da95acfdde81a0cc1704d Name",
         "source": "Sons of Liberty Gun Works MK1 5.56x45 upper receiver (Black)",
-        "translation": "Sons of Liberty Gun Works MK1 5.56x45 upper 리시버 (검은색)"
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 상부 총몸 (검은색)"
       },
       {
         "key": "6a3da95acfdde81a0cc1704d ShortName",
@@ -1059,7 +1059,7 @@
       {
         "key": "6a3da95acfdde81a0cc17101 Name",
         "source": "Sons of Liberty Gun Works MK1 5.56x45 upper receiver (Gray Anodized)",
-        "translation": "Sons of Liberty Gun Works MK1 5.56x45 upper 리시버 (Gray Anodized)"
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 상부 총몸 (회색 양극산화)"
       },
       {
         "key": "6a3da95acfdde81a0cc17101 ShortName",
@@ -1069,12 +1069,12 @@
       {
         "key": "6a3da95acfdde81a0cc17101 Description",
         "source": "A forged 7075-T6 aluminum flat-top upper receiver made by Sons of Liberty Gun Works, finished in Gray Anodized. Built to strict military specifications to ensure seamless pairing with SOLGW lower receivers and reliable operation in adverse conditions.",
-        "translation": "선즈 오브 리버티 건 웍스에서 제작한 7075-T6 단조 알루미늄 플랫탑 상부 총몸으로, 회색 아노다이징 마감이 적용되었습니다. SOLGW 하부 총몸과 정확히 맞물리도록 엄격한 군용 규격에 맞춰 제작되어 열악한 조건에서도 신뢰성 있는 작동을 제공합니다."
+        "translation": "선즈 오브 리버티 건 웍스에서 제작한 7075-T6 단조 알루미늄 플랫탑 상부 총몸으로, 회색 양극산화 마감이 적용되었습니다. SOLGW 하부 총몸과 정확히 맞물리도록 엄격한 군용 규격에 맞춰 제작되어 열악한 조건에서도 신뢰성 있는 작동을 제공합니다."
       },
       {
         "key": "6a3da95acfdde81a0cc17102 Name",
         "source": "Sons of Liberty Gun Works MK1 5.56x45 upper receiver (FDE Anodized)",
-        "translation": "Sons of Liberty Gun Works MK1 5.56x45 upper 리시버 (FDE Anodized)"
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 상부 총몸 (사막색 양극산화)"
       },
       {
         "key": "6a3da95acfdde81a0cc17102 ShortName",
@@ -1084,12 +1084,12 @@
       {
         "key": "6a3da95acfdde81a0cc17102 Description",
         "source": "A forged 7075-T6 aluminum flat-top upper receiver made by Sons of Liberty Gun Works, finished in FDE Anodized. Built to strict military specifications to ensure seamless pairing with SOLGW lower receivers and reliable operation in adverse conditions.",
-        "translation": "선즈 오브 리버티 건 웍스에서 제작한 7075-T6 단조 알루미늄 플랫탑 상부 총몸으로, 사막색 아노다이징 마감이 적용되었습니다. SOLGW 하부 총몸과 정확히 맞물리도록 엄격한 군용 규격에 맞춰 제작되어 열악한 조건에서도 신뢰성 있는 작동을 제공합니다."
+        "translation": "선즈 오브 리버티 건 웍스에서 제작한 7075-T6 단조 알루미늄 플랫탑 상부 총몸으로, 사막색 양극산화 마감이 적용되었습니다. SOLGW 하부 총몸과 정확히 맞물리도록 엄격한 군용 규격에 맞춰 제작되어 열악한 조건에서도 신뢰성 있는 작동을 제공합니다."
       },
       {
         "key": "6a3da95acfdde81a0cc17103 Name",
         "source": "Sons of Liberty Gun Works MK1 5.56x45 upper receiver (Camo Cerakote)",
-        "translation": "Sons of Liberty Gun Works MK1 5.56x45 upper 리시버 (Camo Cerakote)"
+        "translation": "Sons of Liberty Gun Works MK1 5.56x45 상부 총몸 (위장무늬 세라코트)"
       },
       {
         "key": "6a3da95acfdde81a0cc17103 ShortName",
@@ -1104,7 +1104,7 @@
       {
         "key": "6a3db319a3d2c9be0ec1705d Name",
         "source": "Sons of Liberty Gun Works 10.5-inch M-LOK handguard (Black)",
-        "translation": "Sons of Liberty Gun Works 10.5-inch M-LOK 총열덮개 (검은색)"
+        "translation": "Sons of Liberty Gun Works 10.5인치 M-LOK 총열덮개 (검은색)"
       },
       {
         "key": "6a3db319a3d2c9be0ec1705d ShortName",
@@ -1119,7 +1119,7 @@
       {
         "key": "6a3db319a3d2c9be0ec17101 Name",
         "source": "Sons of Liberty Gun Works 10.5-inch M-LOK handguard (Gray)",
-        "translation": "Sons of Liberty Gun Works 10.5-inch M-LOK 총열덮개 (회색)"
+        "translation": "Sons of Liberty Gun Works 10.5인치 M-LOK 총열덮개 (회색)"
       },
       {
         "key": "6a3db319a3d2c9be0ec17101 ShortName",
@@ -1134,7 +1134,7 @@
       {
         "key": "6a3db319a3d2c9be0ec17102 Name",
         "source": "Sons of Liberty Gun Works 10.5-inch M-LOK handguard (FDE)",
-        "translation": "Sons of Liberty Gun Works 10.5-inch M-LOK 총열덮개 (사막색)"
+        "translation": "Sons of Liberty Gun Works 10.5인치 M-LOK 총열덮개 (사막색)"
       },
       {
         "key": "6a3db319a3d2c9be0ec17102 ShortName",
@@ -1149,7 +1149,7 @@
       {
         "key": "6a3db319a3d2c9be0ec17103 Name",
         "source": "Sons of Liberty Gun Works 10.5-inch M-LOK handguard (Camo)",
-        "translation": "Sons of Liberty Gun Works 10.5-inch M-LOK 총열덮개 (위장무늬)"
+        "translation": "Sons of Liberty Gun Works 10.5인치 M-LOK 총열덮개 (위장무늬)"
       },
       {
         "key": "6a3db319a3d2c9be0ec17103 ShortName",
@@ -1164,7 +1164,7 @@
       {
         "key": "6a3db38bfbceb602afc17068 Name",
         "source": "Sons of Liberty Gun Works 12.75-inch M-LOK handguard (Black)",
-        "translation": "Sons of Liberty Gun Works 12.75-inch M-LOK 총열덮개 (검은색)"
+        "translation": "Sons of Liberty Gun Works 12.75인치 M-LOK 총열덮개 (검은색)"
       },
       {
         "key": "6a3db38bfbceb602afc17068 ShortName",
@@ -1179,7 +1179,7 @@
       {
         "key": "6a3db38bfbceb602afc17101 Name",
         "source": "Sons of Liberty Gun Works 12.75-inch M-LOK handguard (Gray)",
-        "translation": "Sons of Liberty Gun Works 12.75-inch M-LOK 총열덮개 (회색)"
+        "translation": "Sons of Liberty Gun Works 12.75인치 M-LOK 총열덮개 (회색)"
       },
       {
         "key": "6a3db38bfbceb602afc17101 ShortName",
@@ -1194,7 +1194,7 @@
       {
         "key": "6a3db38bfbceb602afc17102 Name",
         "source": "Sons of Liberty Gun Works 12.75-inch M-LOK handguard (FDE)",
-        "translation": "Sons of Liberty Gun Works 12.75-inch M-LOK 총열덮개 (사막색)"
+        "translation": "Sons of Liberty Gun Works 12.75인치 M-LOK 총열덮개 (사막색)"
       },
       {
         "key": "6a3db38bfbceb602afc17102 ShortName",
@@ -1209,7 +1209,7 @@
       {
         "key": "6a3db38bfbceb602afc17103 Name",
         "source": "Sons of Liberty Gun Works 12.75-inch M-LOK handguard (Camo)",
-        "translation": "Sons of Liberty Gun Works 12.75-inch M-LOK 총열덮개 (위장무늬)"
+        "translation": "Sons of Liberty Gun Works 12.75인치 M-LOK 총열덮개 (위장무늬)"
       },
       {
         "key": "6a3db38bfbceb602afc17103 ShortName",
@@ -1289,7 +1289,7 @@
       {
         "key": "6a5a6040fd770b91f8110874 Name",
         "source": "Geissele GFR-X 5.56x45mm Upper Receiver (DDC)",
-        "translation": "Geissele GFR-X 5.56x45mm Upper 리시버 (DDC)"
+        "translation": "Geissele GFR-X 5.56x45mm 상부 총몸 (DDC)"
       },
       {
         "key": "6a5a6040fd770b91f8110874 ShortName",
@@ -1314,7 +1314,7 @@
       {
         "key": "6a6663f771682cb4807e2290 Description",
         "source": "Lower Receiver\n\n    Noveske Chainsaw™ forged lower receiver from 7075-T6 aluminum\n    Enhanced polymer trigger guard\n    Government issue 90 degree safety selector\n    Hardcoat type III anodizing\n    Properly staked Noveske QD sling mount endplate\n    Noveske marked takedown and pivot pin\n    Adjustable tension screw for perfect fit between upper and lower\n    Noveske Single Stage Trigger- 5lbs pull weight- DLC coated and Noveske marked trigger shoe- Nickel Teflon hammer",
-        "translation": "하부 총몸\n\n7075-T6 알루미늄 단조 노베스키 Chainsaw™ 하부 총몸\n개선형 폴리머 방아쇠울\n군 보급형 90도 안전 선택기\n3형 경질 아노다이징\n확실하게 풀림 방지 처리가 된 노베스키 신속 분리식(QD) 슬링 장착 엔드플레이트\n노베스키 표시가 있는 분해 핀과 회전축 핀\n상하부 총몸을 정확히 맞추기 위한 조절식 장력 나사\n노베스키 단일 단계 방아쇠: 방아쇠 압력 5파운드, 다이아몬드 유사 탄소(DLC) 코팅 및 노베스키 표시가 있는 방아쇠 접촉면, 니켈 테플론 해머"
+        "translation": "하부 총몸\n\n7075-T6 알루미늄 단조 노베스키 Chainsaw™ 하부 총몸\n개선형 폴리머 방아쇠울\n군 보급형 90도 안전 선택기\n3형 경질 양극산화\n확실하게 풀림 방지 처리가 된 노베스키 신속 분리식(QD) 슬링 장착 엔드플레이트\n노베스키 표시가 있는 분해 핀과 회전축 핀\n상하부 총몸을 정확히 맞추기 위한 조절식 장력 나사\n노베스키 단일 단계 방아쇠: 방아쇠 압력 5파운드, 다이아몬드 유사 탄소(DLC) 코팅 및 노베스키 표시가 있는 방아쇠 접촉면, 니켈-테플론 공이치기"
       },
       {
         "key": "6a666a22869a3661217e22ac Name",
@@ -1329,7 +1329,7 @@
       {
         "key": "6a66763f8f28b2b77f7e22bd Name",
         "source": "Noveske Generation 3 .300 Blackout Upper Receiver (FDE)",
-        "translation": "Noveske Generation 3 .300 블랙아웃 Upper 리시버 (사막색)"
+        "translation": "Noveske Generation 3 .300 블랙아웃 상부 총몸 (사막색)"
       },
       {
         "key": "6a66763f8f28b2b77f7e22bd ShortName",
@@ -1343,13 +1343,13 @@
       },
       {
         "key": "6a668154ed607881737e22c4 Name",
-        "source": "EOTech EXPS3 (Multicam Black) on LaRue riser w/ Trijicon SkeetIR",
-        "translation": "LaRue 라이저 장착 EOTech EXPS3 (멀티캠 블랙) + Trijicon SkeetIR"
+        "source": "Eotech EXPS3 w/ Trijicon Skeet IR",
+        "translation": "Trijicon Skeet IR 장착 EOTech EXPS3 조준경"
       },
       {
         "key": "6a668154ed607881737e22c4 Description",
-        "source": "An EOTech EXPS3 holographic sight finished in Multicam Black Cerakote, mounted on a LaRue Tactical Picatinny riser to bring the reticle up to a comfortable heads-up position. A Trijicon SkeetIR thermal clip-on sits in front on a flip-to-side mount, swinging into line behind the holo when you need to see heat and folding out of the way when you don't.",
-        "translation": "멀티캠 블랙 세라코트로 마감한 이오텍 EXPS3 홀로그램 조준경입니다. 라루 택티컬 피카티니 높임 마운트에 장착해 고개를 든 편안한 자세에서도 조준점을 볼 수 있습니다. 트리지콘 SkeetIR 열상 부착 장비가 측면으로 젖힐 수 있는 마운트로 전방에 배치되어 있습니다. 열을 봐야 할 때는 홀로그램 조준경과 일직선이 되도록 펼치고, 필요하지 않을 때는 옆으로 접어 시야를 확보할 수 있습니다."
+        "source": "Testing",
+        "translation": "시험 중"
       }
     ]
   }

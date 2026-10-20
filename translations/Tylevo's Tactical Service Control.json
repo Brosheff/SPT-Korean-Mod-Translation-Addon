@@ -456,7 +456,7 @@
       {
         "id": "tsc.ui.exact.024",
         "source": "GUN RUN APPROACHING YOUR AREA",
-        "translation": "기총소사기가 현재 지역으로 접근 중",
+        "translation": "기총소사 공격이 현재 지역으로 접근 중",
         "match_mode": "exact"
       },
       {
@@ -1554,13 +1554,13 @@
       {
         "id": "tsc.ui.dynamic.030",
         "source": "Fire support requires {cost}. {balanceLabel} are still syncing.",
-        "translation": "화력 지원에 {cost}이(가) 필요합니다. {balanceLabel} 정보는 아직 동기화 중입니다.",
+        "translation": "화력 지원 비용: {cost}. {balanceLabel} 정보는 아직 동기화 중입니다.",
         "match_mode": "template"
       },
       {
         "id": "tsc.ui.dynamic.031",
         "source": "Fire support requires {cost}. {balanceLabel}: {balance}.",
-        "translation": "화력 지원에 {cost}이(가) 필요합니다. {balanceLabel}: {balance}.",
+        "translation": "화력 지원 비용: {cost}. {balanceLabel}: {balance}.",
         "match_mode": "template"
       },
       {

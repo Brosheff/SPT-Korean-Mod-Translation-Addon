@@ -2,8 +2,8 @@
   "schema_version": 1,
   "target_spt": "4.1.6",
   "plugin_guid": "com.lennoxp90.coti",
-  "plugin_name": "ECOTI 3.3.2",
-  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "plugin_name": "ECOTI 3.4.0",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation, updated against ECOTI 3.4.0 source. Previous version entries retained as inert fallbacks; runtime keys/values untouched.",
   "categories": [
     {
       "source": "Controls",
@@ -43,9 +43,9 @@
       "section": "Controls",
       "key": "Power Toggle",
       "source_display_name": "Power Toggle",
-      "source_description": "Switches the ECOTI on and off without touching the night vision device. Keep a modifier: EFT does not require an exact match on its own binds, so a bare N would toggle the goggles as well.",
-      "translation_display_name": "강도 전환",
-      "translation_description": "야간투시경 자체는 그대로 둔 채 ECOTI만 켜고 끄는 단축키입니다. EFT는 키 조합을 정확히 일치시키지 않으므로 N 단독처럼 NVG 키와 겹치지 않게 보조키를 함께 지정하는 것이 안전합니다.",
+      "source_description": "Switches the ECOTI on your goggles on and off without touching the night vision device. It never switches the thermal riser, which has its own key (Riser Power Toggle). Keep a modifier: EFT does not require an exact match on its own binds, so a bare N would toggle the goggles as well.",
+      "translation_display_name": "ECOTI 전원 전환",
+      "translation_description": "고글에 장착한 ECOTI 전원만 켜고 끕니다. 야간투시경 자체나 무기에 장착한 열상 라이저의 전원은 바꾸지 않습니다. 열상 라이저는 별도의 「Riser Power Toggle」로 제어합니다. EFT는 자체 단축키에서 보조키를 엄격히 구분하지 않으므로 N 단독으로 지정하면 야간투시경도 전환될 수 있습니다. 보조키를 함께 지정하십시오.",
       "values": []
     },
     {
@@ -54,7 +54,7 @@
       "source_display_name": "Dump Frames",
       "source_description": "Writes this many frames of every thermal render target to coti-dumps/ as PNGs, with per-channel statistics in the log, then stops. Change the number to start a fresh batch. Under a grayscale palette a correct thermal render has neutral channel means; a colour cast means the target was lit rather than thermal.",
       "translation_display_name": "덤프 프레임",
-      "translation_description": "열상 렌더링 프레임과 통계를 coti-dumps 폴더에 저장합니다. 숫자를 변경하면 새 수집을 시작합니다.",
+      "translation_description": "설정한 프레임 수만큼 각 열상 렌더 대상의 프레임을 PNG로 coti-dumps/에 기록하고, 채널별 통계를 로그에 남긴 뒤 중단합니다. 숫자를 바꾸면 새 수집을 시작합니다. 회색조 팔레트에서 정상적인 열상 렌더링은 색상 채널 평균이 중립적이며, 특정 색조로 치우치면 열상이 아니라 조명 효과가 대상에 적용된 것입니다.",
       "values": []
     },
     {
@@ -108,7 +108,7 @@
       "source_display_name": "Tuner Step (scale)",
       "source_description": "Uniform scale per keypress or pose editor button press, as a fraction of true size. Scaling grows the device around the mount bone, so the position needs a small re-nudge afterwards - scale first, then position. Hold Shift while tuning for a quarter of this.",
       "translation_display_name": "조정기 단계 (배율)",
-      "translation_description": "키 또는 자세 편집기 버튼을 한 번 누를 때 적용되는 균일 크기 변화량입니다. 먼저 크기를 맞춘 뒤 위치를 다시 조정하는 것이 좋습니다. Shift를 누르면 이 값의 1/4 단위로 조정합니다.",
+      "translation_description": "키 또는 자세 편집기 버튼을 한 번 누를 때 적용되는 균일 크기 변경 비율입니다. 장착 뼈를 중심으로 크기가 변해 위치가 약간 어긋날 수 있으니 크기를 먼저 조정하고 위치를 다시 맞추세요. Shift를 누르면 이 값의 1/4 단위로 조정합니다.",
       "values": []
     },
     {
@@ -162,7 +162,7 @@
       "source_display_name": "Magnify With Optic",
       "source_description": "Renders a second thermal pass matched to a magnified scope, so heat lines up with what the scope shows instead of with the 1x view around it, and keeps the 1x heat off the lens. Off by default: the COTI is an offset sensor looking downrange on its own axis, so a 1x thermal is what it would really produce. Non-magnified sights are unaffected either way. With Borkel's scope blur on, the heat is aligned onto the blurred scope picture. Potential FPS improvement: leave it off, since on renders the scene a second time while aiming.",
       "translation_display_name": "배율 조준경에 맞춰 열상 확대",
-      "translation_description": "배율 조준경으로 볼 때 별도의 열상 패스를 렌더링해 조준경 화면과 열을 일치시킵니다. 켜면 조준 중 추가 렌더링으로 FPS가 감소할 수 있습니다.",
+      "translation_description": "배율 조준경의 화면에 맞춰 두 번째 열상 패스를 렌더링합니다. 조준경 안의 열상이 조준경 바깥 1배율 영상이 아닌 확대 영상에 맞춰지며, 1배율 열상이 렌즈에 겹치지 않습니다. 기본값은 꺼짐으로, ECOTI가 별도 광축을 가진 센서이므로 실제 장치는 1배율 열상을 만듭니다. 비배율 조준기에는 영향을 주지 않습니다. Borkel의 조준경 블러를 사용하면 흐린 조준경 영상에도 열상이 정렬됩니다. 활성화 시 조준하는 동안 화면을 한 번 더 렌더링하므로 FPS를 아끼려면 끄세요.",
       "values": []
     },
     {
@@ -261,7 +261,7 @@
       "source_display_name": "Sensor Refresh (Hz)",
       "source_description": "The sensor's simulated refresh. The thermal image updates at this rate and holds in between, as a real low-refresh core does, and the frames between cost nothing. 0 updates every frame. Potential FPS improvement: keep it at 60 or lower, since 0 renders the thermal on every frame.",
       "translation_display_name": "센서 갱신 빈도 (Hz)",
-      "translation_description": "열상 센서의 가상 갱신 주파수입니다. 0이면 매 프레임 렌더링하므로 성능에 부담이 될 수 있습니다. 60 이하를 권장합니다.",
+      "translation_description": "열상 센서의 가상 갱신 주파수입니다. 이 간격마다 열상 영상을 다시 생성하고 그 사이 프레임에는 이전 영상을 유지하므로, 실제 저주사율 열상 센서처럼 동작하며 중간 프레임에서는 추가 열상 렌더링 비용이 들지 않습니다. 0이면 매 프레임 갱신합니다. 성능을 높이려면 60Hz 이하를 권장합니다.",
       "values": []
     },
     {
@@ -270,7 +270,7 @@
       "source_display_name": "Sensor Resolution (rows)",
       "source_description": "Vertical resolution of the thermal image. Higher values keep distant targets visible: a target smaller than one pixel of the sensor blends into the cold background and can flicker or vanish. Contour thickness scales to match. Values below 576 are for testing: halving the rows shows what the default does at twice the range.",
       "translation_display_name": "센서 세로 해상도 (행)",
-      "translation_description": "열상 센서의 세로 해상도입니다. 높이면 먼 목표가 픽셀보다 작아져 사라지는 현상을 줄일 수 있습니다. 576 미만은 시험용입니다.",
+      "translation_description": "열상 영상의 세로 해상도입니다. 값이 높으면 원거리 대상의 식별에 유리합니다. 대상이 센서의 1픽셀보다 작아지면 차가운 배경에 섞여 깜빡이거나 사라질 수 있습니다. 윤곽선 두께도 해상도에 맞춰 조정됩니다. 576행 미만은 시험용이며, 행 수를 절반으로 줄이면 기본값에서 관측 거리를 두 배로 늘렸을 때의 효과를 볼 수 있습니다.",
       "values": []
     },
     {
@@ -487,7 +487,7 @@
       "source_display_name": "Glass",
       "source_description": "Glass blocks heat. Plain shows it blank. Reflections also mirrors the bodies in front of it, you included, faintly face-on and strongly at a shallow angle, as real glass does to a thermal imager.",
       "translation_display_name": "유리 열상 처리",
-      "translation_description": "유리의 열 차단·통과 및 반사 방식을 지정합니다. 반사 모드에서는 앞에 있는 물체의 열과 사용자 자신의 열도 각도에 따라 반사됩니다."
+      "translation_description": "유리는 열을 차단합니다. Plain에서는 열이 없는 빈 표면으로 보입니다. Reflections에서는 유리 앞에 있는 사람과 물체, 사용자 자신의 열까지 비칩니다. 정면에서는 희미하고 비스듬한 각도에서는 강하게 반사되어 실제 열상 장비로 본 유리처럼 보입니다."
     },
     {
       "section": "Image",
@@ -496,7 +496,7 @@
       "source_display_name": "Scope Glass Reflections",
       "source_description": "A magnified scope's front and rear glass mirror heat like other glass while Glass is Reflections. Off, scope glass stays Plain. Red dots and holographic sights are never glass.",
       "translation_display_name": "조준경 유리 열 반사",
-      "translation_description": "유리 설정이 반사 모드일 때 배율 조준경 렌즈의 열 반사를 표시합니다. 끄면 투명 처리 대신 반사 없는 유리가 됩니다. 도트·홀로그램 조준경에는 적용되지 않습니다."
+      "translation_description": "Glass 설정이 Reflections이면 배율 조준경의 앞·뒤 렌즈에도 다른 유리처럼 열 반사가 나타납니다. 끄면 조준경 렌즈는 Plain처럼 열이 비치지 않는 유리로 표시됩니다. 도트 및 홀로그램 조준기는 유리 대상으로 취급하지 않습니다."
     },
     {
       "section": "Image",
@@ -548,18 +548,18 @@
       "key": "Mode Toggle",
       "values": [],
       "source_display_name": "Mode Toggle",
-      "source_description": "Switches the thermal between Outline and Full, naming the new mode on the display. Keep a modifier, for the same reason as Power Toggle.",
+      "source_description": "Switches the thermal between Outline and Full. One mode for both devices: the goggle ECOTI and the thermal riser change together. The new mode's name shows in the riser's sight while you aim through it, otherwise in the goggle image. Keep a modifier, for the same reason as Power Toggle.",
       "translation_display_name": "모드 전환",
-      "translation_description": "열상 모드를 윤곽선과 전체 모드 사이에서 전환하고, 전환된 모드명을 화면에 표시합니다. 전원 전환과 마찬가지로 조합키 사용을 권장합니다."
+      "translation_description": "열상 모드를 윤곽선(Outline)과 전체(Full) 사이에서 전환합니다. 고글 ECOTI와 열상 라이저가 동일한 모드를 사용하며 함께 바뀝니다. 새 모드 이름은 라이저 조준 중에는 조준경 안에, 그 밖에는 고글 영상에 표시됩니다. 전원 전환 단축키와 마찬가지로 보조키를 함께 지정하십시오."
     },
     {
       "section": "Controls",
       "key": "Thermal Mode",
       "values": [],
       "source_display_name": "Thermal Mode",
-      "source_description": "Outline draws only the edges of hot things; Full adds a dimmer fill inside them (see Image, Full Mode Fill). Mode Toggle changes this, and the device powers up in it.",
+      "source_description": "Outline draws only the edges of hot things; Full adds a dimmer fill inside them (see Image, Full Mode Fill). Mode Toggle changes this, for the goggle ECOTI and the thermal riser alike, and both power up in it.",
       "translation_display_name": "열상 모드",
-      "translation_description": "윤곽선 모드는 뜨거운 대상의 가장자리만 표시하고, 전체 모드는 내부를 희미하게 채웁니다. 모드 전환으로 변경할 수 있습니다."
+      "translation_description": "윤곽선(Outline) 모드는 고온 물체의 가장자리만 표시하고, 전체(Full) 모드는 윤곽선 안쪽을 약하게 채웁니다(화면 효과 → 전체 모드 채움 참조). 모드 전환 키는 고글 ECOTI와 열상 라이저의 열상 모드에 모두 적용되며, 각 장치는 선택한 열상 모드로 켜집니다."
     },
     {
       "section": "Power Sequence",
@@ -622,7 +622,16 @@
       "source_display_name": "Lens Probe",
       "source_description": "Takes the magnified lens redraw apart: 0 as shipped, 1 the heat texture added to the screen, 2 the lens mesh drawn with the overlay's copy pass, 3 the redraw with culling inverted, 10 to 14 the redraw with that lens shader pass (10 is pass 0), 20 to 24 the same with the heat texture flat grey.",
       "translation_display_name": "렌즈 진단",
-      "translation_description": "배율 조준경 렌더링 경로를 여러 단계로 나누어 테스트하는 개발자용 진단 설정입니다."
+      "translation_description": "배율 조준경 렌즈의 열상 재렌더링 단계를 시험하는 개발자용 진단 설정입니다. 0은 기본 방식, 1은 열상 텍스처를 화면에 추가, 2는 오버레이 복사 패스로 렌즈 메시 렌더링, 3은 컬링을 반전해 재렌더링합니다. 10~14는 각 렌즈 셰이더 패스(10=패스 0), 20~24는 열상 텍스처를 평평한 회색으로 바꿔 같은 패스를 시험합니다."
+    },
+    {
+      "section": "Controls",
+      "key": "Riser Power Toggle",
+      "source_display_name": "Riser Power Toggle",
+      "source_description": "Switches the thermal riser on the weapon in your hands on and off. It is the only key that does, and it never touches the ECOTI on your goggles; the two can be on together. Shift is also EFT's Sprint, so pressing this while moving forward starts a sprint. Keep a modifier, for the same reason as Power Toggle.",
+      "translation_display_name": "열상 라이저 전원 전환",
+      "translation_description": "손에 든 무기의 열상 라이저만 켜고 끕니다. 고글에 장착한 ECOTI 전원에는 영향을 주지 않으며 두 장치를 동시에 켤 수 있습니다. Shift는 게임의 달리기 키이므로 전진 중 함께 누르면 달리기가 시작됩니다. 다른 전원 단축키와 마찬가지로 보조키를 함께 지정하십시오.",
+      "values": []
     }
   ]
 }

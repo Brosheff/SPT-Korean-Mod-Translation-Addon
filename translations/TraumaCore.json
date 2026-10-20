@@ -146,7 +146,7 @@
       {
         "id": "anatomy-exit-wound",
         "source": "Exit wound",
-        "translation": "관통상",
+        "translation": "탄환 출구 상처",
         "match_mode": "segment"
       },
       {

@@ -527,6 +527,222 @@
         "source": "Former Black Division operative and Contract Wars veteran. After piecing together enough of TerraGroup's operations in Norvinsk to know he was expendable, Rook disappeared and built an independent supply network, moving weapons and equipment to PMCs looking for a way out of T*****.",
         "translation": "블랙 디비전의 전직 요원이자 Contract Wars 참전 용사입니다. 노르빈스크에서 벌어진 테라그룹의 작전을 충분히 파악한 끝에 자신이 언제든 버려질 수 있는 존재라는 걸 깨달은 룩은 자취를 감추고 독립적인 보급망을 구축했습니다. 현재는 T*****에서 빠져나갈 방법을 찾는 PMC들에게 무기와 장비를 공급하고 있습니다.",
         "display_type": "default"
+      },
+      {
+        "key": "0315cdb5d1bd2818940f79e2",
+        "source": "JSDF",
+        "translation": "JSDF",
+        "display_type": "default"
+      },
+      {
+        "key": "0315cdb5d1bd2818940f79e2 Name",
+        "source": "JSDF",
+        "translation": "JSDF",
+        "display_type": "default"
+      },
+      {
+        "key": "9b199c74c28970cab47eb984",
+        "source": "M27 IAR ACOG/RMR",
+        "translation": "M27 IAR ACOG/RMR",
+        "display_type": "default"
+      },
+      {
+        "key": "9b199c74c28970cab47eb984 Name",
+        "source": "M27 IAR ACOG/RMR",
+        "translation": "M27 IAR ACOG/RMR",
+        "display_type": "default"
+      },
+      {
+        "key": "41cc60c986395335c9f43ca1",
+        "source": "DDM4 V7 18\" SPR",
+        "translation": "DDM4 V7 18인치 SPR",
+        "display_type": "default"
+      },
+      {
+        "key": "41cc60c986395335c9f43ca1 Name",
+        "source": "DDM4 V7 18\" SPR",
+        "translation": "DDM4 V7 18인치 SPR",
+        "display_type": "default"
+      },
+      {
+        "key": "6e240bbf8f29dc5e0a294efc",
+        "source": "AK-74M Modernized",
+        "translation": "AK-74M 현대화형",
+        "display_type": "default"
+      },
+      {
+        "key": "6e240bbf8f29dc5e0a294efc Name",
+        "source": "AK-74M Modernized",
+        "translation": "AK-74M 현대화형",
+        "display_type": "default"
+      },
+      {
+        "key": "8513e378ce8040f23763d15f",
+        "source": "Rook's M4A1 10.3\" CQBR",
+        "translation": "룩의 M4A1 10.3인치 CQBR",
+        "display_type": "default"
+      },
+      {
+        "key": "8513e378ce8040f23763d15f Name",
+        "source": "Rook's M4A1 10.3\" CQBR",
+        "translation": "룩의 M4A1 10.3인치 CQBR",
+        "display_type": "default"
+      },
+      {
+        "key": "6e00076f27b2b89bad0bb3c6",
+        "source": "HK417A2",
+        "translation": "HK417A2",
+        "display_type": "default"
+      },
+      {
+        "key": "6e00076f27b2b89bad0bb3c6 Name",
+        "source": "HK417A2",
+        "translation": "HK417A2",
+        "display_type": "default"
+      },
+      {
+        "key": "25ef7d4238673d0e7e8e23bd",
+        "source": "FN HAMR IAR",
+        "translation": "FN HAMR IAR",
+        "display_type": "default"
+      },
+      {
+        "key": "25ef7d4238673d0e7e8e23bd Name",
+        "source": "FN HAMR IAR",
+        "translation": "FN HAMR IAR",
+        "display_type": "default"
+      },
+      {
+        "key": "ce55c9a12a502054fd2baf2a",
+        "source": "SIG MCX LVAW",
+        "translation": "SIG MCX LVAW",
+        "display_type": "default"
+      },
+      {
+        "key": "ce55c9a12a502054fd2baf2a Name",
+        "source": "SIG MCX LVAW",
+        "translation": "SIG MCX LVAW",
+        "display_type": "default"
+      },
+      {
+        "key": "9289fe432106aa1c7cafcd83",
+        "source": "M4 SOPMOD II Custom",
+        "translation": "M4 SOPMOD II 커스텀",
+        "display_type": "default"
+      },
+      {
+        "key": "9289fe432106aa1c7cafcd83 Name",
+        "source": "M4 SOPMOD II Custom",
+        "translation": "M4 SOPMOD II 커스텀",
+        "display_type": "default"
+      },
+      {
+        "key": "213e56bb329865ddb5638713",
+        "source": "AK12 Custom",
+        "translation": "AK12 커스텀",
+        "display_type": "default"
+      },
+      {
+        "key": "213e56bb329865ddb5638713 Name",
+        "source": "AK12 Custom",
+        "translation": "AK12 커스텀",
+        "display_type": "default"
+      },
+      {
+        "key": "00ad1fc11def1f0e0353f216",
+        "source": "KAC Mk 11 Mod 0",
+        "translation": "KAC Mk 11 Mod 0",
+        "display_type": "default"
+      },
+      {
+        "key": "00ad1fc11def1f0e0353f216 Name",
+        "source": "KAC Mk 11 Mod 0",
+        "translation": "KAC Mk 11 Mod 0",
+        "display_type": "default"
+      },
+      {
+        "key": "0e64591c34802aa4dc7764c0",
+        "source": "NSW Recce Rifle",
+        "translation": "NSW 정찰 소총",
+        "display_type": "default"
+      },
+      {
+        "key": "0e64591c34802aa4dc7764c0 Name",
+        "source": "NSW Recce Rifle",
+        "translation": "NSW 정찰 소총",
+        "display_type": "default"
+      },
+      {
+        "key": "6c675688f4e7d30930e69930",
+        "source": "BCM Mk2 FDE Carbine",
+        "translation": "BCM Mk2 사막색 카빈",
+        "display_type": "default"
+      },
+      {
+        "key": "6c675688f4e7d30930e69930 Name",
+        "source": "BCM Mk2 FDE Carbine",
+        "translation": "BCM Mk2 사막색 카빈",
+        "display_type": "default"
+      },
+      {
+        "key": "be45029bf635bb995360211e",
+        "source": "Rook's BCM Mk2 16\" Recce",
+        "translation": "룩의 BCM Mk2 16인치 정찰 소총",
+        "display_type": "default"
+      },
+      {
+        "key": "be45029bf635bb995360211e Name",
+        "source": "Rook's BCM Mk2 16\" Recce",
+        "translation": "룩의 BCM Mk2 16인치 정찰 소총",
+        "display_type": "default"
+      },
+      {
+        "key": "5e9e826889b39a8d204eec96",
+        "source": "SIG MCX Rattler PDW",
+        "translation": "SIG MCX Rattler PDW",
+        "display_type": "default"
+      },
+      {
+        "key": "5e9e826889b39a8d204eec96 Name",
+        "source": "SIG MCX Rattler PDW",
+        "translation": "SIG MCX Rattler PDW",
+        "display_type": "default"
+      },
+      {
+        "key": "babe0d083f50fd4fad970b51",
+        "source": "AKS-74U Modernized",
+        "translation": "AKS-74U 현대화형",
+        "display_type": "default"
+      },
+      {
+        "key": "babe0d083f50fd4fad970b51 Name",
+        "source": "AKS-74U Modernized",
+        "translation": "AKS-74U 현대화형",
+        "display_type": "default"
+      },
+      {
+        "key": "991fe7ec16c4ee915442f99c",
+        "source": "SR-15",
+        "translation": "SR-15",
+        "display_type": "default"
+      },
+      {
+        "key": "991fe7ec16c4ee915442f99c Name",
+        "source": "SR-15",
+        "translation": "SR-15",
+        "display_type": "default"
+      },
+      {
+        "key": "6abfc1af010010e9a1192d96",
+        "source": "HK 243",
+        "translation": "HK 243",
+        "display_type": "default"
+      },
+      {
+        "key": "6abfc1af010010e9a1192d96 Name",
+        "source": "HK 243",
+        "translation": "HK 243",
+        "display_type": "default"
       }
     ]
   }

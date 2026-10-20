@@ -45,7 +45,7 @@
       {
         "key": "6738033eb7305d3bdafe9518 Description",
         "source": "A map of Ground Zero. Ignore the fact there's two separate Ground Zero maps but they're the same. Crazy.",
-        "translation": "그라운드 제로 지도입니다. 그라운드 제로가 두 지역으로 나뉘어 있는데 지도는 같다는 사실은 무시하세요. 참 별일입니다.",
+        "translation": "그라운드 제로 지도입니다. 그라운드 제로 지도 두 장이 따로 있지만 실제로는 같은 지도라는 사실은 무시하세요. 참 별일입니다.",
         "match_mode": "exact"
       },
       {
@@ -2914,7 +2914,7 @@
       {
         "id": "map_science_offices",
         "source": "Science Offices",
-        "translation": "과학 연구실",
+        "translation": "과학 부서 사무실",
         "match_mode": "exact",
         "note": "built-in Dynamic Maps map label/marker"
       },
@@ -3222,7 +3222,7 @@
       {
         "id": "map_streets_of_tarkov_tarkovdata",
         "source": "Streets of Tarkov (TarkovData)",
-        "translation": "타르코프 거리 (TarkovData)",
+        "translation": "타르코프 시내 (TarkovData)",
         "match_mode": "exact",
         "note": "map display name"
       },
@@ -3355,7 +3355,7 @@
       {
         "id": "map_terragroup_science_offices",
         "source": "TerraGroup Science Offices",
-        "translation": "테라그룹 과학 연구실",
+        "translation": "테라그룹 과학 부서 사무실",
         "match_mode": "exact",
         "note": "built-in static marker"
       },
@@ -3523,7 +3523,7 @@
       {
         "id": "map_transit_to_streets_of_tarkov",
         "source": "Transit to Streets of Tarkov",
-        "translation": "타르코프 거리로 이동",
+        "translation": "타르코프 시내로 이동",
         "match_mode": "exact",
         "note": "built-in static marker"
       },

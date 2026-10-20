@@ -156,6 +156,15 @@ namespace SPT.ModKoreanAddon
                         if (string.IsNullOrWhiteSpace(r.key) || string.IsNullOrWhiteSpace(r.source) || r.key.StartsWith("_note", StringComparison.Ordinal)
                             || local.ContainsKey(r.key)) throw new InvalidDataException("Invalid/duplicate locale key: " + r.key);
                         if (matchMode != "item_decorated" && matchMode != "exact") throw new InvalidDataException("Invalid locale match mode");
+                        // A verified server-side rename must be scoped to this exact locale key.
+                        // Reject empty, repeated and unbounded aliases instead of introducing fuzzy matching.
+                        if (r.source_variants != null)
+                        {
+                            if (r.source_variants.Count == 0 || r.source_variants.Count > 8 ||
+                                r.source_variants.Any(v => string.IsNullOrWhiteSpace(v) || v == r.source) ||
+                                r.source_variants.Distinct(StringComparer.Ordinal).Count() != r.source_variants.Count)
+                                throw new InvalidDataException("Invalid locale source variants: " + r.key);
+                        }
                         var displayType = displayRules.Resolve(r);
                         if (displayType != LocaleDisplayRules.Default && !string.IsNullOrEmpty(r.translation_bilingual))
                             throw new InvalidDataException("Automatic locale display must not have translation_bilingual: " + r.key);
@@ -167,6 +176,7 @@ namespace SPT.ModKoreanAddon
                         local.Add(r.key, new JObject { ["key"] = r.key, ["source"] = r.source, ["translation"] = r.translation, ["translation_bilingual"] = r.translation_bilingual == null ? JValue.CreateNull() : new JValue(r.translation_bilingual),
                             ["match_mode"] = matchMode, ["mod_name"] = document.mod_name, ["display_type"] = displayType,
                             ["mod_id"] = document.mod_id,
+                            ["source_variants"] = r.source_variants == null ? JValue.CreateNull() : new JArray(r.source_variants),
                             ["name_key"] = displayType == LocaleDisplayRules.ItemDescription ? displayRules.NameKey(r) : null,
                             ["name_source"] = displayType == LocaleDisplayRules.ItemDescription ? displayRules.NameSource(r) : null });
                     }
@@ -217,6 +227,13 @@ namespace SPT.ModKoreanAddon
             return prefix + body.Substring(0, start) + translation + body.Substring(end) + suffix;
         }
 
+        private static bool VerifiedSource(JObject candidate, string runtimeSource)
+        {
+            if (string.Equals((string)candidate["source"], runtimeSource, StringComparison.Ordinal)) return true;
+            if (!(candidate["source_variants"] is JArray variants)) return false;
+            return variants.Any(v => string.Equals((string)v, runtimeSource, StringComparison.Ordinal));
+        }
+
         internal void Apply(string locale, IDictionary<string, string> raw, Dictionary<string, string> result, int decoratedBase, IDictionary<string, string> english)
         {
             if (!LocaleMode.IsKoreanCulture(locale)) return;
@@ -257,10 +274,32 @@ namespace SPT.ModKoreanAddon
                         if (nameSource != null && Regex.IsMatch(nameSource, @"[\uac00-\ud7a3\u3131-\u318e]")) nameSource = null;
                         if (nameSource != null) nameSource = Ammo.Replace(nameSource, "");
                     }
-                    var translation = LocaleDisplayRules.Select(source, (string)e["translation"], (string)e["translation_bilingual"],
-                        (string)e["display_type"], (string)e["mod_name"], locale, nameSource);
+                    // Description headers must reflect the actual verified runtime item name,
+                    // not the older ZIP's spelling, if the Name row explicitly whitelists it.
+                    if (nameKey != null && raw.TryGetValue(nameKey, out var runtimeName) &&
+                        !string.Equals(nameSource, runtimeName, StringComparison.Ordinal) &&
+                        entries.TryGetValue(nameKey, out var nameCandidates) &&
+                        nameCandidates.Any(n => VerifiedSource(n, runtimeName)))
+                        nameSource = runtimeName;
+
                     var allowDecorations = (string)e["match_mode"] == "item_decorated";
-                    var value = Translate(key, incoming, source, translation, allowDecorations);
+                    string value = null;
+                    string translation = null;
+                    // Apply the primary source and only explicitly verified exact alternatives.
+                    // Do not globally replace VSK, ignore the source guard, or override another translation.
+                    var variants = e["source_variants"] as JArray;
+                    for (int sourceIndex = -1; sourceIndex < (variants == null ? 0 : variants.Count); sourceIndex++)
+                    {
+                        var sourceCandidate = sourceIndex == -1 ? source : (string)variants[sourceIndex];
+                        translation = LocaleDisplayRules.Select(sourceCandidate, (string)e["translation"],
+                            (string)e["translation_bilingual"], (string)e["display_type"],
+                            (string)e["mod_name"], locale, nameSource);
+                        value = Translate(key, incoming, sourceCandidate, translation, allowDecorations);
+                        if (value != null) break;
+#if LOCALE_DIAGNOSTICS
+                        if (Translate(key, incoming, translation, translation, allowDecorations) != null) isAlreadyTranslated = true;
+#endif
+                    }
                     if (value != null)
                     {
                         if (selected == null)
@@ -280,9 +319,6 @@ namespace SPT.ModKoreanAddon
 #endif
                         }
                     }
-#if LOCALE_DIAGNOSTICS
-                    else if (Translate(key, incoming, translation, translation, allowDecorations) != null) isAlreadyTranslated = true;
-#endif
                 }
                 if (selected != null)
                 {

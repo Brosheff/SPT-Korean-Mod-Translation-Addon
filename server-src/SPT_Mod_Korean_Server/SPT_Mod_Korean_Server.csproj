@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>SPT_Mod_Korean_Server</AssemblyName>
     <RootNamespace>SPT_Mod_Korean_Server</RootNamespace>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <ReferenceRoot Condition="'$(ReferenceRoot)' == '' and '$(ADDON_REFERENCE_ROOT)' != ''">$(ADDON_REFERENCE_ROOT)</ReferenceRoot>
     <ReferenceRoot Condition="'$(ReferenceRoot)' == ''">$(MSBuildThisFileDirectory)..\..\references</ReferenceRoot>
     <ServerRefRoot>$(ReferenceRoot)\server</ServerRefRoot>

@@ -247,7 +247,7 @@
       "key": "Dynamic Damping Multiplier Range",
       "source_display_name": "Dynamic Damping Multiplier Range",
       "source_description": "Minimum and maximum modifier used for upwards recoil angle multiplier.",
-      "translation_display_name": "동적 감쇠 배율 범위",
+      "translation_display_name": "위쪽 반동 각도 배율에 사용할 동적 감쇠 보정 계수의 최솟값과 최댓값입니다.",
       "translation_description": "동적 감쇠 배율 범위 값을 설정합니다.",
       "values": []
     },
@@ -256,7 +256,7 @@
       "key": "Dynamic Multiplier Range",
       "source_display_name": "Dynamic Multiplier Range",
       "source_description": "Minimum and maximum modifier used for upwards recoil angle multiplier.",
-      "translation_display_name": "동적 배율 범위",
+      "translation_display_name": "위쪽 반동 각도 배율에 사용할 동적 보정 계수의 최솟값과 최댓값입니다.",
       "translation_description": "동적 배율 범위 값을 설정합니다.",
       "values": []
     },
@@ -274,7 +274,7 @@
       "key": "Dynamic Return Speed Multiplier Range",
       "source_display_name": "Dynamic Return Speed Multiplier Range",
       "source_description": "Minimum and maximum modifier used for upwards recoil angle multiplier.",
-      "translation_display_name": "동적 복귀 속도 배율 범위",
+      "translation_display_name": "위쪽 반동 각도 배율에 사용할 동적 복귀 속도 보정 계수의 최솟값과 최댓값입니다.",
       "translation_description": "동적 복귀 속도 배율 범위 값을 설정합니다.",
       "values": []
     },
@@ -284,7 +284,7 @@
       "source_display_name": "Enable Alternate Real Recoil",
       "source_description": "Enables an alternate version of real recoil that uses a spring based system and has auto-compensation.",
       "translation_display_name": "대체 실제 반동 활성화",
-      "translation_description": "대체 실제 반동 활성화 여부를 설정합니다.",
+      "translation_description": "스프링 기반 시스템과 자동 반동 보정 기능을 사용하는 대체 실제 반동 방식을 활성화합니다.",
       "values": []
     },
     {
@@ -302,7 +302,7 @@
       "source_display_name": "Enable Crank Recoil",
       "source_description": "Toggles whether your weapon recoils toward the screen.",
       "translation_display_name": "크랭크 반동 방식 활성화",
-      "translation_description": "크랭크 반동 방식 활성화 여부를 설정합니다.",
+      "translation_description": "무기가 반동으로 화면 쪽으로 밀려나는 동작을 사용할지 설정합니다.",
       "values": []
     },
     {
@@ -320,7 +320,7 @@
       "source_display_name": "Enable Fast Spring",
       "source_description": "Enables fast additional camera recoil.",
       "translation_display_name": "빠른 스프링 활성화",
-      "translation_description": "빠른 스프링 활성화 여부를 설정합니다.",
+      "translation_description": "추가 카메라 반동에 빠른 스프링 효과를 활성화합니다.",
       "values": []
     },
     {
@@ -338,7 +338,7 @@
       "source_display_name": "Enable Slow Spring",
       "source_description": "Enables slow additional camera recoil. Just in case you need an additional spring to control.",
       "translation_display_name": "느린 스프링 활성화",
-      "translation_description": "느린 스프링 활성화 여부를 설정합니다.",
+      "translation_description": "추가 카메라 반동에 느린 스프링 효과를 활성화합니다. 필요할 때 추가 제어용 스프링을 사용할 수 있습니다.",
       "values": []
     },
     {
@@ -347,7 +347,7 @@
       "source_display_name": "Enable Weapon Class Multipliers",
       "source_description": "Enables class specific real recoil multipliers. Recommended to keep enabled since pistols have insane recoil values.",
       "translation_display_name": "무기 종류별 반동 배율 활성화",
-      "translation_description": "무기 종류별 반동 배율 활성화 여부를 설정합니다.",
+      "translation_description": "무기 종류별 실제 반동 배율을 활성화합니다. 권총은 기본 반동 수치가 매우 크므로 켜 두는 것을 권장합니다.",
       "values": []
     },
     {
@@ -365,7 +365,7 @@
       "source_display_name": "Fast Horizontal Mult Min/Max",
       "source_description": "Minimum/maximum horizontal force multiplier for fast recoil spring.",
       "translation_display_name": "빠른 수평 배율 최소/최대",
-      "translation_description": "빠른 수평 배율 최소/최대 값을 설정합니다.",
+      "translation_description": "빠른 반동 스프링에 적용할 수평 힘 배율의 최솟값과 최댓값입니다.",
       "values": []
     },
     {
@@ -401,7 +401,7 @@
       "source_display_name": "Fast Spring Real Recoil Horizontal Min/Max",
       "source_description": "Multiplier range for horizontal recoil. X = minimum, Y = maximum.",
       "translation_display_name": "빠른 스프링 실제 반동 수평 최소/최대",
-      "translation_description": "빠른 스프링 실제 반동 수평 최소/최대 값을 설정합니다.",
+      "translation_description": "빠른 반동 스프링에 적용할 수평 반동 배율 범위입니다. X가 최솟값, Y가 최댓값입니다.",
       "values": []
     },
     {
@@ -410,7 +410,7 @@
       "source_display_name": "Fast Spring Real Recoil Vertical Min/Max",
       "source_description": "Multiplier range for vertical recoil. X = minimum, Y = maximum.",
       "translation_display_name": "빠른 스프링 실제 반동 수직 최소/최대",
-      "translation_description": "빠른 스프링 실제 반동 수직 최소/최대 값을 설정합니다.",
+      "translation_description": "빠른 반동 스프링에 적용할 수직 반동 배율 범위입니다. X가 최솟값, Y가 최댓값입니다.",
       "values": []
     },
     {
@@ -436,7 +436,7 @@
       "key": "Fast Spring Use Real Recoil",
       "source_display_name": "Fast Spring Use Real Recoil",
       "source_description": "Makes fast spring use real recoil direction for impulse direction.",
-      "translation_display_name": "빠른 스프링 사용 실제 반동",
+      "translation_display_name": "빠른 스프링의 충격 방향에 실제 반동 방향 사용",
       "translation_description": "빠른 반동 스프링의 충격 방향에 실제 반동 방향을 사용합니다.",
       "values": []
     },
@@ -653,7 +653,7 @@
       "source_display_name": "Recoil Position Backwards Mult",
       "source_description": "Multiplier for backwards hand recoil.",
       "translation_display_name": "반동 위치 역방향 배율",
-      "translation_description": "반동 위치 역방향 배율 값을 설정합니다.",
+      "translation_description": "손이 뒤로 밀리는 반동에 적용할 배율입니다.",
       "values": []
     },
     {
@@ -716,7 +716,7 @@
       "source_display_name": "Recoil Rotation Up Mult",
       "source_description": "Multiplier for hand recoil angle up/down.",
       "translation_display_name": "반동 회전 위 배율",
-      "translation_description": "반동 회전 위 배율 값을 설정합니다.",
+      "translation_description": "손이 위아래로 회전하는 반동 각도에 적용할 배율입니다.",
       "values": []
     },
     {
@@ -868,7 +868,7 @@
       "key": "Sniper Real Recoil Multiplier",
       "source_display_name": "Sniper Real Recoil Multiplier",
       "source_description": "Real recoil multiplier for sniper rifles.",
-      "translation_display_name": "저격수 실제 반동 배율",
+      "translation_display_name": "저격소총 실제 반동 배율",
       "translation_description": "저격수 실제 반동 배율 값을 설정합니다.",
       "values": []
     },
@@ -878,7 +878,7 @@
       "source_display_name": "Use 1.7.2 Recoil Values",
       "source_description": "(TEMPORARY) Makes real recoil use 1.7.2 values (for the most part) for calculating real recoil force amounts. Requires config changes. Baseline settings: Vertical mult: 2.0, Horizontal mult: 0.7, All category multipliers on their default values (Reset)",
       "translation_display_name": "1.7.2 반동 값 사용",
-      "translation_description": "임시 호환 옵션입니다. 실제 반동 힘 계산에 대부분 1.7.2 버전 값을 사용합니다. 기준 설정은 수직 배율 2.0, 수평 배율 0.7, 무기 분류별 배율 기본값입니다.",
+      "translation_description": "임시 호환 옵션입니다. 실제 반동 힘을 계산할 때 대부분 1.7.2 버전의 값을 사용합니다. 사용하려면 다른 설정도 변경해야 합니다. 기준 설정은 수직 배율 2.0, 수평 배율 0.7, 모든 무기 분류별 배율을 기본값(초기화)으로 지정하는 것입니다.",
       "values": []
     },
     {
@@ -887,7 +887,7 @@
       "source_display_name": "Weapon Sway Multiplier",
       "source_description": "Multiplier for weapon sway. X = horizontal, Y = vertical.",
       "translation_display_name": "무기 흔들림 배율",
-      "translation_description": "무기 흔들림 배율 값을 설정합니다.",
+      "translation_description": "무기 흔들림 배율입니다. X는 수평, Y는 수직 방향에 적용됩니다.",
       "values": []
     }
   ]

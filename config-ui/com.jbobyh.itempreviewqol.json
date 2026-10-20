@@ -17,7 +17,7 @@
       "source_display_name": "Enable Plugin",
       "source_description": "Enables or disables all features of this plugin.",
       "translation_display_name": "모드 활성화",
-      "translation_description": "모드 활성화 여부를 설정합니다.",
+      "translation_description": "아이템 미리보기 개선 플러그인의 모든 기능을 켜거나 끕니다.",
       "values": []
     },
     {

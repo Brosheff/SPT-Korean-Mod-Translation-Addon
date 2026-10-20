@@ -506,109 +506,109 @@
       {
         "id": "casino.blackjack.059",
         "source": "Not enough Roubles -- you have {held}.",
-        "translation": "루블이(가) 부족합니다. 현재 보유량: {held}.",
+        "translation": "루블이 부족합니다. 현재 보유량: {held}.",
         "match_mode": "template"
       },
       {
         "id": "casino.blackjack.060",
         "source": "Not enough Roubles to Double.",
-        "translation": "더블할 루블이(가) 부족합니다.",
+        "translation": "더블할 루블이 부족합니다.",
         "match_mode": "exact"
       },
       {
         "id": "casino.blackjack.061",
         "source": "Not enough Roubles to Split.",
-        "translation": "스플릿할 루블이(가) 부족합니다.",
+        "translation": "스플릿할 루블이 부족합니다.",
         "match_mode": "exact"
       },
       {
         "id": "casino.blackjack.062",
         "source": "Not enough Dollars -- you have {held}.",
-        "translation": "달러이(가) 부족합니다. 현재 보유량: {held}.",
+        "translation": "달러가 부족합니다. 현재 보유량: {held}.",
         "match_mode": "template"
       },
       {
         "id": "casino.blackjack.063",
         "source": "Not enough Dollars to Double.",
-        "translation": "더블할 달러이(가) 부족합니다.",
+        "translation": "더블할 달러가 부족합니다.",
         "match_mode": "exact"
       },
       {
         "id": "casino.blackjack.064",
         "source": "Not enough Dollars to Split.",
-        "translation": "스플릿할 달러이(가) 부족합니다.",
+        "translation": "스플릿할 달러가 부족합니다.",
         "match_mode": "exact"
       },
       {
         "id": "casino.blackjack.065",
         "source": "Not enough Euros -- you have {held}.",
-        "translation": "유로이(가) 부족합니다. 현재 보유량: {held}.",
+        "translation": "유로가 부족합니다. 현재 보유량: {held}.",
         "match_mode": "template"
       },
       {
         "id": "casino.blackjack.066",
         "source": "Not enough Euros to Double.",
-        "translation": "더블할 유로이(가) 부족합니다.",
+        "translation": "더블할 유로가 부족합니다.",
         "match_mode": "exact"
       },
       {
         "id": "casino.blackjack.067",
         "source": "Not enough Euros to Split.",
-        "translation": "스플릿할 유로이(가) 부족합니다.",
+        "translation": "스플릿할 유로가 부족합니다.",
         "match_mode": "exact"
       },
       {
         "id": "casino.blackjack.068",
         "source": "Not enough GpCoins -- you have {held}.",
-        "translation": "GP 코인이(가) 부족합니다. 현재 보유량: {held}.",
+        "translation": "GP 코인이 부족합니다. 현재 보유량: {held}.",
         "match_mode": "template"
       },
       {
         "id": "casino.blackjack.069",
         "source": "Not enough GpCoins to Double.",
-        "translation": "더블할 GP 코인이(가) 부족합니다.",
+        "translation": "더블할 GP 코인이 부족합니다.",
         "match_mode": "exact"
       },
       {
         "id": "casino.blackjack.070",
         "source": "Not enough GpCoins to Split.",
-        "translation": "스플릿할 GP 코인이(가) 부족합니다.",
+        "translation": "스플릿할 GP 코인이 부족합니다.",
         "match_mode": "exact"
       },
       {
         "id": "casino.blackjack.071",
         "source": "Not enough Bitcoin -- you have {held}.",
-        "translation": "비트코인이(가) 부족합니다. 현재 보유량: {held}.",
+        "translation": "비트코인이 부족합니다. 현재 보유량: {held}.",
         "match_mode": "template"
       },
       {
         "id": "casino.blackjack.072",
         "source": "Not enough Bitcoin to Double.",
-        "translation": "더블할 비트코인이(가) 부족합니다.",
+        "translation": "더블할 비트코인이 부족합니다.",
         "match_mode": "exact"
       },
       {
         "id": "casino.blackjack.073",
         "source": "Not enough Bitcoin to Split.",
-        "translation": "스플릿할 비트코인이(가) 부족합니다.",
+        "translation": "스플릿할 비트코인이 부족합니다.",
         "match_mode": "exact"
       },
       {
         "id": "casino.blackjack.074",
         "source": "Not enough LegaMedals -- you have {held}.",
-        "translation": "레가 메달이(가) 부족합니다. 현재 보유량: {held}.",
+        "translation": "레가 메달이 부족합니다. 현재 보유량: {held}.",
         "match_mode": "template"
       },
       {
         "id": "casino.blackjack.075",
         "source": "Not enough LegaMedals to Double.",
-        "translation": "더블할 레가 메달이(가) 부족합니다.",
+        "translation": "더블할 레가 메달이 부족합니다.",
         "match_mode": "exact"
       },
       {
         "id": "casino.blackjack.076",
         "source": "Not enough LegaMedals to Split.",
-        "translation": "스플릿할 레가 메달이(가) 부족합니다.",
+        "translation": "스플릿할 레가 메달이 부족합니다.",
         "match_mode": "exact"
       },
       {
@@ -626,13 +626,13 @@
       {
         "id": "casino.blackjack.079",
         "source": "Discarded an unreadable outstanding stake of {amount} '{wallet}'.",
-        "translation": "읽을 수 없는 미정산 베팅 {amount} '{wallet}'을(를) 폐기했습니다.",
+        "translation": "읽을 수 없는 미정산 베팅을 폐기했습니다. 금액: {amount}, 지갑: '{wallet}'.",
         "match_mode": "template"
       },
       {
         "id": "casino.blackjack.080",
         "source": "Refunded {amount} {wallet} from a round that never finished.",
-        "translation": "완료되지 않은 라운드에서 {amount} {wallet}을(를) 환불했습니다.",
+        "translation": "완료되지 않은 라운드의 베팅액을 환불했습니다. 환불 금액: {amount} {wallet}.",
         "match_mode": "template"
       },
       {
@@ -872,7 +872,7 @@
       {
         "id": "casino.poker.template.013",
         "source": "Not enough {label} -- you have {balance} and the buy-in is {buyIn}.",
-        "translation": "{label}이 부족합니다. 현재 {balance}을 보유하고 있으며 바이인은 {buyIn}입니다.",
+        "translation": "{label} 부족: 현재 보유량 {balance}, 바이인 금액 {buyIn}.",
         "match_mode": "template"
       },
       {
@@ -1334,7 +1334,7 @@
       {
         "id": "casino.roulette.template.013",
         "source": "The smallest bet is {min}; {amount} is less.",
-        "translation": "최소 베팅액은 {min}입니다. 현재 베팅액은 {amount}입니다.",
+        "translation": "최소 베팅액은 {min}입니다. 현재 베팅액 {amount}는 최소 금액에 미달합니다.",
         "match_mode": "template"
       },
       {

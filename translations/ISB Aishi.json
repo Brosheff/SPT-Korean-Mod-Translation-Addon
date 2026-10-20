@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "com.samc137.aishi",
   "mod_name": "ISB Aishi",
-  "source_mod_version": "2.0.2",
+  "source_mod_version": "2.0.3",
   "scope": "Merged Korean translation workset from parts 01-15; clothing kept in a separate workset until its final locale-key generation path is confirmed.",
   "latest_user_overrides": {
     "uppercase_faction_acronyms": {
@@ -640,7 +640,7 @@
       {
         "key": "693ada08f776b05c34f460a5 Description",
         "source": "The Gzhel assault bulletproof vest is designed for assault units of the Ministry of Internal Affairs and other law enforcement agencies. Custom Black Version for ISB Special Forces",
-        "translation": "젤 돌격 방탄복은 내무부 돌격부대와 기타 법 집행기관을 위해 설계되었습니다. ISB 특수부대용 커스텀 검은색 버전입니다."
+        "translation": "그젤 돌격 방탄복은 내무부 돌격부대와 기타 법 집행기관을 위해 설계되었습니다. ISB 특수부대용 커스텀 검은색 버전입니다."
       },
       {
         "key": "693ada144cedf3aae4935143 Name",
@@ -4955,7 +4955,7 @@
       {
         "key": "blackdiv_banner Description",
         "source": "From time to time, rumors spread through Tarkov about a special unit that belongs neither to USEC nor BEAR. According to campfire stories, these special operatives conduct night-time operations to clear restricted facilities and extract valuable TerraGroup data. But among PMC operators, very few believe in the existence of this so-called \"Black Division\", because under the current circumstances, freely inserting and extracting entire combat groups through the blockade ring is practically impossible.",
-        "translation": "타르코프에서는 USEC에도 BEAR에도 속하지 않는 특수부대에 관한 소문이 간간이 퍼집니다. 모닥불가에 떠도는 이야기로는 이 특수 요원들이 야간 작전을 벌여 제한 시설을 정리하고 가치 있는 테라그룹 데이터를 회수한다고 합니다. 하지만 현재 상황에서 봉쇄선을 자유롭게 넘나들며 전투단 전체를 투입하고 철수시키는 것은 사실상 불가능하기 때문에, PMC 오퍼레이터 가운데 이른바 \"블랙 디비전\"의 존재를 믿는 이는 극소수입니다."
+        "translation": "타르코프에서는 때때로 USEC에도 BEAR에도 속하지 않는 특수부대에 관한 소문이 퍼집니다. 모닥불가의 이야기에 따르면 이 특수요원들은 밤에 제한 구역을 소탕하고 가치 있는 테라그룹 데이터를 회수하는 작전을 수행한다고 합니다. 하지만 PMC 요원 중 이른바 “블랙 디비전”의 존재를 믿는 사람은 거의 없습니다. 현재 상황에서 봉쇄선을 자유롭게 드나들며 전투단 전체를 투입하고 철수시키는 것은 사실상 불가능하기 때문입니다."
       },
       {
         "key": "wedge_banner Name",
@@ -5377,7 +5377,7 @@
       {
         "key": "690a39d4876a7ac20dd893bf",
         "source": "Place a Signal Jammer on the last support pillars in the middle of the TerraGroup Complex behind the Coffee Maniac.",
-        "translation": "Coffee Maniac 뒤 테라그룹 단지의 마지막 지지 기둥에 신호 방해기 설치하기"
+        "translation": "Coffee Maniac 뒤 테라그룹 단지 중앙의 마지막 지지 기둥에 신호 방해기 설치하기"
       },
       {
         "key": "690a239a90debae535eb1ac3 successMessageText",
@@ -5734,7 +5734,7 @@
       {
         "key": "690f7562f6aa58ea7c5055f9",
         "source": "Eliminate 15 targets with headshots using a weapon loaded with 5.56x45mm NATO ammunition",
-        "translation": "5.56x45mm NATO 탄약을 장전한 무기로 헤드샷 15회 처치하기"
+        "translation": "5.56x45mm NATO 탄약을 장전한 무기로 적 15명을 헤드샷으로 처치하기"
       },
       {
         "key": "690f6e1e9e966ad660423991 successMessageText",
@@ -6043,7 +6043,7 @@
       {
         "key": "6908e27e694a920c502d0a0d",
         "source": "Locate and mark with an MS2000 the vehicle that dispatched the USEC PMC group in Ground Zero",
-        "translation": "그라운드 제로에서 USEC PMC 분대를 내려준 차량을 찾아 MS2000으로 표시하기"
+        "translation": "그라운드 제로에서 USEC PMC 일행을 내려준 차량을 찾아 MS2000으로 표시하기"
       },
       {
         "key": "69094af99552e06830d5a8e5",
@@ -6063,7 +6063,7 @@
       {
         "key": "6908e22349d63fbaf2dd3b9a description",
         "source": "It's been a while since Mechanic sent you on a mission to collect a very valuable Hard Drive. That complex is much more important than it looks, and that's why you are going back there and setting up a few things for me.\n\nYour first objective is at the drop-off point of a USEC PMC team. I can see from the cameras that everyone was eliminated, so mark the vehicle that dispatched the group. \n\nYour second objective will be on the route these PMCs took, or rather, tried to take. I can see one taken out while hiding behind a barricade. \n\nAs a final objective, you need to position a radio repeater in the offices. We don't want it to be obvious, so find a discreet location, like near a coffee machine in the break area. \n\nThat's all.",
-        "translation": "메카닉이 아주 중요한 하드 드라이브를 회수하라고 널 보낸 지도 좀 됐지. 그 단지는 보기보다 훨씬 중요해. 그래서 다시 그곳에 가서 내 쪽 준비를 몇 가지 해줘야겠어.\n\n첫 번째 목표는 USEC PMC 분대가 내려진 지점이야. 카메라로 보니 전원이 제거됐더군. 그들을 내려준 차량을 표시해. \n\n두 번째 목표는 그 PMC들이 이동했던, 아니 이동하려 했던 경로에 있어. 한 명이 바리케이드 뒤에 숨었다가 제거되는 게 보였어. \n\n마지막으로 사무실 쪽에 무전 중계기를 설치해야 해. 너무 눈에 띄면 안 되니까 휴게 공간의 커피 머신 근처처럼 티 나지 않는 장소를 찾아. \n\n그게 전부야.",
+        "translation": "메카닉이 아주 중요한 하드 드라이브를 회수하라고 널 보낸 지도 좀 됐지. 그 단지는 보기보다 훨씬 중요해. 그래서 다시 그곳에 가서 내 쪽 준비를 몇 가지 해줘야겠어.\n\n첫 번째 목표는 USEC PMC 팀이 하차한 지점이야. 카메라로 보니 전원이 제거됐더군. 그들을 내려준 차량을 표시해. \n\n두 번째 목표는 그 PMC들이 이동했던, 아니 이동하려 했던 경로에 있어. 한 명이 바리케이드 뒤에 숨었다가 제거되는 게 보였어. \n\n마지막으로 사무실 쪽에 무전 중계기를 설치해야 해. 너무 눈에 띄면 안 되니까 휴게 공간의 커피 머신 근처처럼 티 나지 않는 장소를 찾아. \n\n그게 전부야.",
         "display_type": "quest_description"
       },
       {
@@ -6095,7 +6095,7 @@
       {
         "key": "690a2f791a71493ed3475eac",
         "source": "Ensure the success of the operation by eliminating Scavs in Ground Zero.",
-        "translation": "그라운드 제로에서 스캐브 처치하기"
+        "translation": "그라운드 제로에서 스캐브를 처치해 작전 성공 확보하기"
       },
       {
         "key": "69b3a558cd57dd8b3e4a2152",
@@ -6437,7 +6437,7 @@
       {
         "key": "6912aa3f56e36f28b556c7f4 acceptPlayerMessage",
         "source": "You are too green for special operations. Regardless, every ISB agent specializes in handling almost every type of Western weaponry; after all, that is what we work with here. \n\nDuring your time in Tarkov, you must have utilized many different weapons. We cannot risk you getting rusty, so it is time for new training. If you perform well, I guarantee you will have a suitable reward.",
-        "translation": "특수 작전에 투입하기엔 아직 풋내기야. 그래도 모든 ISB 요원은 거의 모든 종류의 서방 무기를 다룰 줄 알아야 해. 결국 우리가 여기서 쓰는 게 그런 무기들이니까. \n\n타르코프에서 지내는 동안 여러 종류의 무기를 써봤겠지. 감이 녹슬게 둘 순 없어. 새 훈련을 시작할 때야. 잘 해내면 그에 걸맞은 보상은 확실히 해줄게."
+        "translation": "특수 작전에 투입하기엔 아직 풋내기야. 그래도 모든 ISB 요원은 거의 모든 종류의 서방 무기를 능숙하게 다뤄. 결국 우리가 여기서 쓰는 게 그런 무기들이니까. \n\n타르코프에서 지내는 동안 여러 종류의 무기를 써봤겠지. 감이 녹슬게 둘 순 없어. 새 훈련을 시작할 때야. 잘 해내면 그에 걸맞은 보상은 확실히 해줄게."
       },
       {
         "key": "6912b2ebc4ea55ab255d15f6",
@@ -6502,7 +6502,7 @@
       {
         "key": "6912aa3f56e36f28b556c7f4 description",
         "source": "You are too green for special operations. Regardless, every ISB agent specializes in handling almost every type of Western weaponry; after all, that is what we work with here. \n\nDuring your time in Tarkov, you must have utilized many different weapons. We cannot risk you getting rusty, so it is time for new training. If you perform well, I guarantee you will have a suitable reward.",
-        "translation": "특수 작전에 투입하기엔 아직 풋내기야. 그래도 모든 ISB 요원은 거의 모든 종류의 서방 무기를 다룰 줄 알아야 해. 결국 우리가 여기서 쓰는 게 그런 무기들이니까. \n\n타르코프에서 지내는 동안 여러 종류의 무기를 써봤겠지. 감이 녹슬게 둘 순 없어. 새 훈련을 시작할 때야. 잘 해내면 그에 걸맞은 보상은 확실히 해줄게.",
+        "translation": "특수 작전에 투입하기엔 아직 풋내기야. 그래도 모든 ISB 요원은 거의 모든 종류의 서방 무기를 능숙하게 다뤄. 결국 우리가 여기서 쓰는 게 그런 무기들이니까. \n\n타르코프에서 지내는 동안 여러 종류의 무기를 써봤겠지. 감이 녹슬게 둘 순 없어. 새 훈련을 시작할 때야. 잘 해내면 그에 걸맞은 보상은 확실히 해줄게.",
         "display_type": "quest_description"
       },
       {
@@ -7468,7 +7468,7 @@
       {
         "key": "6915640dd403a584a1263d04",
         "source": "Hand over a Maska-1SCh armored helmet (Killa Edition) [Found in Raid] and a Maska-1SCh face shield (Killa Edition) [Found in Raid]",
-        "translation": "Maska-1SCh 방탄 헬멧 (킬라 에디션)과 Maska-1SCh 안면 보호대 (킬라 에디션) 건네주기 (인레이드 아이템)"
+        "translation": "Maska-1SCh 방탄 헬멧 (킬라 에디션, 인레이드 아이템)과 Maska-1SCh 안면 보호대 (킬라 에디션, 인레이드 아이템) 건네주기"
       },
       {
         "key": "69156411d5a7ee464e7b81d0",
@@ -8273,7 +8273,7 @@
       {
         "key": "692e773e3b10698b80de19dd description",
         "source": "Ever met Kaban? Don't worry, I won't send you to Streets of Tarkov, but during some reconnaissance, we noticed that some of his personal bodyguards use SAG AK-545 carbines. By default, it's an interesting gun, so we gathered some info to build one—or rather, for you to build one. \n\nEquipment Description \n\nWeapon: SAG AK-545 5.45x39 Carbine \nType: Unsuppressed \nErgonomics: 100 \nHorizontal Recoil: 171 \nVertical Recoil: 59 \n\nEquipment Specifications \n\nStock: AR-15 Daniel Defense Enhanced collapsible buttstock (Black) \nStock Pad: Daniel Defense TCS 12mm buttpad \nGrip: AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip \nMagazine Capacity: 30 \nReceiver: Standard \nCharging Handle: AK Zenit RP-1 charge handle \nSight: EOTech HHS-1 hybrid sight \nHandguard: Standard \nGas Block: Standard \nTactical Grip: Strike Industries Cobra tactical foregrip \nMuzzle: AK Zenit DTK-1 7.62x39 & 5.45x39 muzzle brake-compensator",
-        "translation": "카반을 만난 적 있어? 걱정 마. 타르코프 시내로 보내진 않을 거야. 다만 정찰 중에 그놈의 개인 경호원 몇 명이 SAG AK-545 카빈을 쓰는 걸 확인했어. 기본형부터 꽤 흥미로운 총이라 자료를 좀 모아봤지. 한 정 만들어보려고 말이야. 정확히는 네가 만들어야겠지만.\n\n장비 설명\n\n무기: SAG AK-545 5.45x39 카빈\n형태: 소음기 미장착\n인체공학: 100\n수평 반동: 171\n수직 반동: 59\n\n장비 사양\n\n개머리판: AR-15 Daniel Defense Enhanced 접이식 개머리판 (검은색)\n개머리판 패드: Daniel Defense TCS 12mm 개머리판 패드\n손잡이: AK Custom Arms AGS-74 PRO + Sniper Kit 권총손잡이\n탄창 용량: 30\n리시버: 기본형\n장전 손잡이: AK Zenit RP-1 장전 손잡이\n조준경: EOTech HHS-1 하이브리드 조준경\n총열덮개: 기본형\n가스 블록: 기본형\n전술 손잡이: Strike Industries Cobra 전술 전방손잡이\n총구: AK Zenit DTK-1 7.62x39 & 5.45x39 총구제퇴기-보정기",
+        "translation": "카반을 만난 적 있어? 걱정 마. 타르코프 시내로 보내진 않을 거야. 다만 정찰 중에 그놈의 개인 경호원 몇 명이 SAG AK-545 카빈을 쓰는 걸 확인했어. 기본형부터 꽤 흥미로운 총이라 자료를 좀 모아봤지. 한 정 만들어보려고 말이야. 정확히는 네가 만들어야겠지만.\n\n장비 설명\n\n무기: SAG AK-545 5.45x39 카빈\n형태: 소음기 미장착\n인체공학: 100\n수평 반동: 171\n수직 반동: 59\n\n장비 사양\n\n개머리판: AR-15 Daniel Defense Enhanced 길이 조절식 개머리판 (검은색)\n개머리판 패드: Daniel Defense TCS 12mm 개머리판 패드\n손잡이: AK Custom Arms AGS-74 PRO + Sniper Kit 권총손잡이\n탄창 용량: 30\n리시버: 기본형\n장전 손잡이: AK Zenit RP-1 장전 손잡이\n조준경: EOTech HHS-1 하이브리드 조준경\n총열덮개: 기본형\n가스 블록: 기본형\n전술 손잡이: Strike Industries Cobra 전술 전방손잡이\n총구: AK Zenit DTK-1 7.62x39 & 5.45x39 총구제퇴기-보정기",
         "display_type": "quest_description"
       },
       {
@@ -8310,7 +8310,7 @@
       {
         "key": "692e891b499e7bf623c9a0d7 description",
         "source": "Occasionally, we have a concern with Snipers, and although we have our own marksmen, knowing that you could be hit at any moment by someone you have no idea where they are is terrifying. We recently captured a USEC operator nearby who was giving our people a hard time. He was armed with a DVL-10 sniper rifle, which is becoming quite common in Tarkov according to our records. The team cataloged his weapon's configuration, and now it's up to you. \n\nEquipment Description \n\nWeapon: Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle \nType: Suppressed \nErgonomics: 40 \nHorizontal Recoil: 369 \nVertical Recoil: 40 \n\nEquipment Specifications \n\nStock: Standard \nGrip: AR-15 F1 Firearms Skeletonized style 2 PC pistol grip \nMagazine Capacity: 10 \nScope Mount: Lobaev Arms 30mm scope mount \nSight: EOTech Vudu 1-6x24 30mm riflescope \nTactical Device: Harris S-BRM bipod 6-9\"",
-        "translation": "가끔 저격수 때문에 신경 쓸 일이 생겨. 우리에게도 지정 사수가 있지만, 어디 있는지도 모르는 누군가가 언제든 널 쏠 수 있다는 건 섬뜩한 일이지. 최근 근처에서 우리 인원들을 꽤 애먹이던 USEC 요원을 생포했어. DVL-10 저격소총으로 무장하고 있었는데, 우리 기록을 보면 요즘 타르코프에서 제법 흔해지고 있더군. 팀에서 무기 구성을 기록해뒀으니 이제 네 차례야.\n\n장비 설명\n\n무기: Lobaev Arms DVL-10 7.62x51 볼트액션 저격소총\n형태: 소음기 장착\n인체공학: 40\n수평 반동: 369\n수직 반동: 40\n\n장비 사양\n\n개머리판: 기본형\n손잡이: AR-15 F1 Firearms Skeletonized style 2 PC 권총손잡이\n탄창 용량: 10\n조준경 마운트: Lobaev Arms 30mm 조준경 mount\n조준경: EOTech Vudu 1-6x24 30mm 소총 조준경\n전술 장치: Harris S-BRM 양각대 6-9\"",
+        "translation": "가끔 저격수 때문에 신경 쓸 일이 생겨. 우리에게도 지정 사수가 있지만, 어디 있는지도 모르는 누군가가 언제든 널 쏠 수 있다는 건 섬뜩한 일이지. 최근 근처에서 우리 인원들을 꽤 애먹이던 USEC 요원을 생포했어. DVL-10 저격소총으로 무장하고 있었는데, 우리 기록을 보면 요즘 타르코프에서 제법 흔해지고 있더군. 팀에서 무기 구성을 기록해뒀으니 이제 네 차례야.\n\n장비 설명\n\n무기: Lobaev Arms DVL-10 7.62x51 볼트액션 저격소총\n형태: 소음기 장착\n인체공학: 40\n수평 반동: 369\n수직 반동: 40\n\n장비 사양\n\n개머리판: 기본형\n손잡이: AR-15 F1 Firearms Skeletonized style 2 PC 권총손잡이\n탄창 용량: 10\n조준경 마운트: Lobaev Arms 30mm 조준경 마운트\n조준경: EOTech Vudu 1-6x24 30mm 소총 조준경\n전술 장치: Harris S-BRM 양각대 6-9\"",
         "display_type": "quest_description"
       },
       {
@@ -8342,7 +8342,7 @@
       {
         "key": "69350f8110244587c320fcc3 description",
         "source": "Recently, some of our agents were ambushed by those Raider scum on Reserve. Fortunately, we had no casualties, and unfortunately, neither did they. But during the confrontation, one of them ended up leaving a weapon behind—an AS VAL, which is quite unusual for Raider equipment. We have a new project for you to handle. \n\nEquipment Description \n\nWeapon: AS VAL 9x39 special assault rifle \nType: Suppressed \nErgonomics: 55 \nHorizontal Recoil: 170 \nVertical Recoil: 50 \n\nEquipment Specifications \n\nStock: AR-15 FAB Defense GL-SHOCK buttstock \nGrip: AS VAL Rotor 43 pistol grip with buffer tube \nMagazine Capacity: 30 \nReceiver: Standard \nScope Mount: SVD SAG low profile sidemount / SR-3MP dovetail side rail\nSight: ELCAN Specter HCO holographic sight \nHandguard: Standard \nTactical Grip: Zenit RK-1 tactical foregrip with B-25U mount \nTactical Grip Mount: TOZ 6P29M Rail",
-        "translation": "최근 우리 요원 몇 명이 리저브에서 그 레이더 쓰레기들에게 기습을 당했어. 다행히 우리 쪽 사상자는 없었고, 불행히도 저쪽도 마찬가지였지. 그래도 교전 중 놈들 하나가 무기를 두고 갔어. AS VAL인데, 레이더 장비치고는 꽤 특이하지. 새 프로젝트가 생겼으니 네가 맡아줘.\n\n장비 설명\n\n무기: AS VAL 9x39 특수 돌격소총\n형태: 소음기 장착\n인체공학: 55\n수평 반동: 170\n수직 반동: 50\n\n장비 사양\n\n개머리판: AR-15 FAB Defense GL-SHOCK 개머리판\n손잡이: AS VAL Rotor 43 버퍼 튜브 장착 권총손잡이\n탄창 용량: 30\n리시버: 기본형\n조준경 마운트: SVD SAG 로우 프로파일 사이드 마운트 / SR-3MP 도브테일 사이드 레일\n조준경: ELCAN Specter HCO 홀로그램 조준경\n총열덮개: 기본형\n전술 손잡이: Zenit RK-1 전술 전방손잡이 with B-25U mount\n전술 손잡이 마운트: TOZ 6P29M 레일",
+        "translation": "최근 우리 요원 몇 명이 리저브에서 그 레이더 쓰레기들에게 기습을 당했어. 다행히 우리 쪽 사상자는 없었고, 불행히도 저쪽도 마찬가지였지. 그래도 교전 중 놈들 하나가 무기를 두고 갔어. AS VAL인데, 레이더 장비치고는 꽤 특이하지. 새 프로젝트가 생겼으니 네가 맡아줘.\n\n장비 설명\n\n무기: AS VAL 9x39 특수 돌격소총\n형태: 소음기 장착\n인체공학: 55\n수평 반동: 170\n수직 반동: 50\n\n장비 사양\n\n개머리판: AR-15 FAB Defense GL-SHOCK 개머리판\n손잡이: AS VAL Rotor 43 버퍼 튜브 장착 권총손잡이\n탄창 용량: 30\n리시버: 기본형\n조준경 마운트: SVD SAG 로우 프로파일 사이드 마운트 / SR-3MP 도브테일 사이드 레일\n조준경: ELCAN Specter HCO 홀로그램 조준경\n총열덮개: 기본형\n전술 손잡이: B-25U 마운트가 장착된 Zenit RK-1 전술 전방손잡이\n전술 손잡이 마운트: TOZ 6P29M 레일",
         "display_type": "quest_description"
       },
       {
@@ -8529,7 +8529,7 @@
       {
         "key": "6936230bda2107cc5400e439",
         "source": "Eliminate 3 Scav Snipers with Headshots at a distance of over 50 meters using an SV-98 bolt-action sniper rifle modified according to specifications.",
-        "translation": "요구 사양에 맞게 개조한 SV-98 볼트액션 저격소총으로 50m 이상 거리에서 스캐브 저격수 3명을 헤드샷으로 처치하기"
+        "translation": "요구 사양에 맞게 개조한 SV-98 볼트액션 저격소총으로 50m 초과 거리에서 스캐브 저격수 3명을 헤드샷으로 처치하기"
       },
       {
         "key": "693622dadbceda0ed3ce9b86 description",
@@ -8566,7 +8566,7 @@
       {
         "key": "6936559e123339477ce19f4f description",
         "source": "Worrying situation... We had a direct confrontation with an FSB unit near the WTP on Lighthouse; at least the Rogues still have some consideration for us and helped in the fight. Losses on both sides, and the only thing we got from them was some gear and a modified SR-3M. These weapons are quite hard to come by, so let's catalog everything and set up the project. \n\nEquipment Description \n\nWeapon: SR-3M 9x39 compact assault rifle \nType: Suppressed \nErgonomics: 52.5 \nHorizontal Recoil: 156 \nVertical Recoil: 45 \n\nEquipment Specifications \n\nStock: AR-15 Magpul MOE Carabine stock (Black) \nStock Pad: Magpul MOE Carbine rubber buttpad \nGrip: AS VAL Rotor 43 pistol grip with buffer tube \nMagazine Capacity: 30 \nReceiver: Standard \nCharging Handle: Standard\nSight Mount: SR-3MP dovetail side rail (Black)\nSight: ELCAN SpecterDR 1x/4x scope\nHandguard: SR-3M railed polymer handguard (Black)\nBackup Mount: NcStar MPR45 backup mount \nBackup Mount 2: Trijicon RMR low profile mount \nBackup Sight: Trijicon RMR reflex sight\nTactical Grip: SR-3M polymer foregrip (Black) \nTactical Mod 1: Armytek Predator Pro v3 XHP35 HI flashlight \nMod Mount: B-3 mount \nTactical Mod 2: NcSTAR Tactical Blue Laser \nSuppressor: SR-3M 9x39 sound suppressor",
-        "translation": "걱정스러운 상황이야... 등대의 WTP 근처에서 FSB 부대와 정면으로 충돌했어. 그나마 로그들이 아직 우리를 어느 정도 봐주는지 전투를 도와줬지. 양쪽 모두 손실이 있었고, 우리가 건진 건 장비 몇 개와 개조된 SR-3M 한 정뿐이야. 이런 무기는 구하기도 꽤 어려우니 전부 기록하고 프로젝트를 만들자.\n\n장비 설명\n\n무기: SR-3M 9x39 콤팩트 돌격소총\n형태: 소음기 장착\n인체공학: 52.5\n수평 반동: 156\n수직 반동: 45\n\n장비 사양\n\n개머리판: AR-15 Magpul MOE Carabine 개머리판 (검은색)\n개머리판 패드: Magpul MOE Carbine 고무 개머리판 패드\n손잡이: AS VAL Rotor 43 버퍼 튜브 장착 권총손잡이\n탄창 용량: 30\n리시버: 기본형\n장전 손잡이: 기본형\n조준경 마운트: SR-3MP 도브테일 사이드 레일 (검은색)\n조준경: ELCAN SpecterDR 1x/4x 조준경\n총열덮개: SR-3M 레일 장착 폴리머 총열덮개 (검은색)\n보조 마운트: NcStar MPR45 보조 마운트\n보조 마운트 2: Trijicon RMR low profile mount\n보조 조준경: Trijicon RMR 반사식 조준경\n전술 손잡이: SR-3M 폴리머 전방손잡이 (검은색)\n전술 장치 1: Armytek Predator Pro v3 XHP35 HI 손전등\n장치 마운트: B-3 mount\n전술 장치 2: NcSTAR Tactical Blue Laser\n소음기: SR-3M 9x39 소음기",
+        "translation": "걱정스러운 상황이야... 등대의 WTP 근처에서 FSB 부대와 정면으로 충돌했어. 그나마 로그들이 아직 우리를 어느 정도 봐주는지 전투를 도와줬지. 양쪽 모두 손실이 있었고, 우리가 건진 건 장비 몇 개와 개조된 SR-3M 한 정뿐이야. 이런 무기는 구하기도 꽤 어려우니 전부 기록하고 프로젝트를 만들자.\n\n장비 설명\n\n무기: SR-3M 9x39 콤팩트 돌격소총\n형태: 소음기 장착\n인체공학: 52.5\n수평 반동: 156\n수직 반동: 45\n\n장비 사양\n\n개머리판: AR-15 Magpul MOE Carabine 개머리판 (검은색)\n개머리판 패드: Magpul MOE Carbine 고무 개머리판 패드\n손잡이: AS VAL Rotor 43 버퍼 튜브 장착 권총손잡이\n탄창 용량: 30\n리시버: 기본형\n장전 손잡이: 기본형\n조준경 마운트: SR-3MP 도브테일 사이드 레일 (검은색)\n조준경: ELCAN SpecterDR 1x/4x 조준경\n총열덮개: SR-3M 레일 장착 폴리머 총열덮개 (검은색)\n보조 마운트: NcStar MPR45 보조 마운트\n보조 마운트 2: Trijicon RMR 저상형 마운트\n보조 조준경: Trijicon RMR 반사식 조준경\n전술 손잡이: SR-3M 폴리머 전방손잡이 (검은색)\n전술 장치 1: Armytek Predator Pro v3 XHP35 HI 손전등\n장치 마운트: B-3 마운트\n전술 장치 2: NcSTAR Tactical Blue Laser\n소음기: SR-3M 9x39 소음기",
         "display_type": "quest_description"
       },
       {
@@ -8640,7 +8640,7 @@
       {
         "key": "6936612433e457ba05d926d8 description",
         "source": "The SVDS 7.62x54 sniper rifle is likely the most dangerous of the DMRs, primarily due to its very powerful caliber. We recently bought a high-standard SVD project and need a specimen; since it's a more expensive weapon with very specific modifications, I will consider this your last weapon-building task. Thank you for all your effort so far. \n\nEquipment Description \n\nWeapon: SVDS 7.62x54 sniper rifle \nType: Suppressed \nErgonomics: 32.5 \nHorizontal Recoil: 331 \nVertical Recoil: 106 \n\nEquipment Specifications \n\nStock Tube: AR-15 Strike Industries Advanced Receiver Extension (Anodized Red) \nStock: AR-15 Magpul MOE Carabine stock (Black)\nStock Pad: Magpul MOE Carbine rubber buttpad \nGrip: AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip \nMagazine Capacity: 20 \nReceiver: SVDS custom cut dust cover \nScope Mount: Geissele Super Precision 30mm ring scope mount \nScope Mount Cap: Geissele Super Precision top ring cap \nSight: EOTech Vudu 1-6x24 riflescope \nHandguard: SVD SAG MK1 chassis \nGas Block: Standard \nTactical Grip: SE-5 Express foregrip (Black) \nSuppressor: Rotor 43 7.62x54R sound suppressor",
-        "translation": "SVDS 7.62x54 저격소총은 DMR 중에서도 아마 가장 위험한 축에 들 거야. 무엇보다 탄약이 아주 강력하니까. 최근 고급 사양의 SVD 프로젝트를 하나 구입했고 견본이 필요해. 값비싼 무기에 개조 사양도 아주 구체적이니, 이걸 네 마지막 무기 조립 임무로 하겠어. 지금까지 수고 많았어.\n\n장비 설명\n\n무기: SVDS 7.62x54 저격소총\n형태: 소음기 장착\n인체공학: 32.5\n수평 반동: 331\n수직 반동: 106\n\n장비 사양\n\n개머리판 튜브: AR-15 Strike Industries Advanced Receiver Extension (양극산화 빨간색)\n개머리판: AR-15 Magpul MOE Carabine 개머리판 (검은색)\n개머리판 패드: Magpul MOE Carbine 고무 개머리판 패드\n손잡이: AK Custom Arms AGS-74 PRO + Sniper Kit 권총손잡이\n탄창 용량: 20\n리시버: SVDS 커스텀 컷 먼지덮개\n조준경 마운트: Geissele Super Precision 30mm ring 조준경 mount\n조준경 마운트 캡: Geissele Super Precision top 링 캡\n조준경: EOTech Vudu 1-6x24 소총 조준경\n총열덮개: SVD SAG MK1 섀시\n가스 블록: 기본형\n전술 손잡이: SE-5 Express 전방손잡이 (검은색)\n소음기: Rotor 43 7.62x54R 소음기",
+        "translation": "SVDS 7.62x54 저격소총은 DMR 중에서도 아마 가장 위험한 축에 들 거야. 무엇보다 탄약이 아주 강력하니까. 최근 고급 사양의 SVD 프로젝트를 하나 구입했고 견본이 필요해. 값비싼 무기에 개조 사양도 아주 구체적이니, 이걸 네 마지막 무기 조립 임무로 하겠어. 지금까지 수고 많았어.\n\n장비 설명\n\n무기: SVDS 7.62x54 저격소총\n형태: 소음기 장착\n인체공학: 32.5\n수평 반동: 331\n수직 반동: 106\n\n장비 사양\n\n개머리판 튜브: AR-15 Strike Industries Advanced Receiver Extension (양극산화 빨간색)\n개머리판: AR-15 Magpul MOE Carabine 개머리판 (검은색)\n개머리판 패드: Magpul MOE Carbine 고무 개머리판 패드\n손잡이: AK Custom Arms AGS-74 PRO + Sniper Kit 권총손잡이\n탄창 용량: 20\n리시버: SVDS 커스텀 컷 먼지덮개\n조준경 마운트: Geissele Super Precision 30mm 링 조준경 마운트\n조준경 마운트 캡: Geissele Super Precision top 링 캡\n조준경: EOTech Vudu 1-6x24 소총 조준경\n총열덮개: SVD SAG MK1 섀시\n가스 블록: 기본형\n전술 손잡이: SE-5 Express 전방손잡이 (검은색)\n소음기: Rotor 43 7.62x54R 소음기",
         "display_type": "quest_description"
       },
       {
@@ -8783,7 +8783,7 @@
       {
         "key": "69614e42974cc81ec2536a25",
         "source": "Reach loyalty level 3 with Peacekeeper",
-        "translation": "피스키퍼 우호도 레벨 3 달성하기"
+        "translation": "피스키퍼 충성도 레벨 3 달성하기"
       },
       {
         "key": "6961dfcf46370012416ab8a9 name",
@@ -8978,7 +8978,7 @@
       {
         "key": "6963c440bcac2b7b4af0706f",
         "source": "Reach loyalty level 2 with Aishi",
-        "translation": "아이시 우호도 레벨 2 달성하기"
+        "translation": "아이시 충성도 레벨 2 달성하기"
       },
       {
         "key": "6963c4466bf921c04594b4de",
@@ -9465,7 +9465,7 @@
       {
         "key": "69eb030da45329478b565651 description",
         "source": "We are slowly getting somewhere. You must already be familiar with the \"Rogues\", right? Well, let's just say the ISB and them have a... good relationship. I talked to \"Knight\" and he agreed to help with some devices that can assist us in understanding this drive you found without it, you know, blowing up. He asked for some HKs to resupply their armory. With such a small request, I don't even need to worry that much.\n\nBy the way, take this Jammer! It will ensure that if there really is a danger and it can be triggered remotely, the connection will be cut. And yes, we've already planted several around here.",
-        "translation": "조금씩 실마리가 잡히는군. \"로그\"는 이미 잘 알겠지? 그래, ISB와 그쪽은... 관계가 좋은 편이야. \"나이트\"와 얘기했는데, 네가 찾은 드라이브를, 알잖아, 폭발시키지 않고 분석할 수 있게 도와줄 장비를 몇 개 지원해 주기로 했어. 대신 무기고를 채울 HK 몇 정을 부탁하더군. 그 정도 부탁이면 크게 걱정할 것도 없지.\n\n그리고 이 전파 방해기를 가져가! 정말 위험한 장치고 원격으로 작동시킬 수 있다면 연결을 차단해 줄 거야. 물론 여기 주변에도 이미 여러 개 설치해뒀어.",
+        "translation": "조금씩 실마리가 잡히는군. \"로그\"는 이미 잘 알겠지? 그래, ISB와 그쪽은... 관계가 좋은 편이야. \"나이트\"와 얘기했는데, 네가 찾은 드라이브를, 알잖아, 폭발시키지 않고 분석할 수 있게 도와줄 장비를 몇 개 지원해 주기로 했어. 대신 무기고를 채울 HK 몇 정을 부탁하더군. 그 정도 부탁이면 크게 걱정할 것도 없지.\n\n그리고 이 전파 방해기를 가져가! 그 드라이브가 정말 위험하고 원격으로 폭발시킬 수 있는 물건이라면, 이 방해기가 그 신호 연결을 끊어 줄 거야. 물론 여기 주변에도 이미 여러 대 설치해 뒀어.",
         "display_type": "quest_description"
       },
       {
@@ -9791,7 +9791,7 @@
       {
         "key": "6a66b224dedadf28b18cb718",
         "source": "Reach Loyalty Level 4 with Peacekeeper",
-        "translation": "피스키퍼 우호도 4레벨 달성하기"
+        "translation": "피스키퍼 충성도 레벨 4 달성하기"
       },
       {
         "key": "6a66aec8f53978d72a32a277",
@@ -9881,7 +9881,7 @@
       {
         "key": "6a68172d4c48714815c5bcb8 description",
         "source": "The strike begins now, and we'll see them bleed a little. UNTAR wants us out of Tarkov, right? Then let's show them how humanitarian aid is really done.\n\nWe're going to send several operators to deliver supplies in various areas to civilian refugees, non-combatant PMCs, and anyone else who doesn't want to live in this chaos anymore.\n\nAt the same time, we'll launch some flares so UNTAR can drop their airdrops. Let's see who is more effective.\n\nWe have all our personnel handling the medical supplies. Get us some food provisions and we'll get started.",
-        "translation": "타격은 지금 시작한다. 놈들이 피를 좀 흘리는 꼴을 보자고. UNTAR가 우리더러 타르코프에서 나가라고 했지? 그럼 인도적 지원이란 걸 어떻게 하는지 제대로 보여주자.\n\n여러 지역에 오퍼레이터들을 보내 민간 피난민, 비전투 PMC, 그리고 이 혼란 속에서 더는 살고 싶지 않은 사람들에게 보급품을 전달할 거야.\n\n동시에 신호탄을 몇 발 쏴서 UNTAR가 공중 보급을 떨어뜨리게 하지. 누가 더 효율적인지 보자고.\n\n의료 보급품은 우리 인원 전부가 맡고 있어. 식량만 좀 구해오면 바로 시작한다.",
+        "translation": "타격은 지금 시작한다. 놈들이 피를 좀 흘리는 꼴을 보자고. UNTAR가 우리더러 타르코프에서 나가라고 했지? 그럼 인도적 지원이란 걸 어떻게 하는지 제대로 보여주자.\n\n여러 지역에 오퍼레이터들을 보내 민간 피난민, 비전투 PMC, 그리고 이 혼란에서 벗어나 살고 싶어 하는 사람들에게 보급품을 전달할 거야.\n\n동시에 신호탄을 몇 발 쏴서 UNTAR가 공중 보급을 떨어뜨리게 하지. 누가 더 효율적인지 보자고.\n\n의료 보급품은 우리 인원 전부가 맡고 있어. 식량만 좀 구해오면 바로 시작한다.",
         "display_type": "quest_description"
       },
       {
@@ -9938,7 +9938,7 @@
       {
         "key": "6a6930180b052dcd27aa3b7c description",
         "source": "The time has finally come. The broadcast has been looping for an entire day. Anyone operating in any location is to be considered hostile and neutralized. Just don't forget to look out for our friends.\n\nYou have done a great job since our first conversation. Although you are not in any of my squads, you are invited to join in, and you will be rewarded in the end.\n\nToday will go down in Tarkov's history, and together we will rewrite its destiny.",
-        "translation": "마침내 때가 왔어. 방송은 하루 종일 반복 송출되고 있다. 어느 지역이든 밖에서 활동하는 자는 적으로 간주하고 제거해. 다만 우리 쪽 친구들을 챙기는 건 잊지 마.\n\n처음 대화를 나눈 뒤로 넌 정말 훌륭하게 해냈어. 내 어느 분대에도 소속돼 있진 않지만, 이번 작전에 함께할 자격은 충분해. 끝나면 보상도 받을 거야.\n\n오늘은 타르코프의 역사에 기록될 거고, 우리는 함께 그 운명을 다시 쓸 거야.",
+        "translation": "마침내 때가 왔어. 방송은 하루 종일 반복 송출되고 있다. 어느 지역에서든 활동 중인 자는 적으로 간주하고 제거해. 다만 우리 쪽 친구들을 챙기는 건 잊지 마.\n\n처음 대화를 나눈 뒤로 넌 정말 훌륭하게 해냈어. 내 어느 분대에도 소속돼 있진 않지만, 이번 작전에 함께할 자격은 충분해. 끝나면 보상도 받을 거야.\n\n오늘은 타르코프의 역사에 기록될 거고, 우리는 함께 그 운명을 다시 쓸 거야.",
         "display_type": "quest_description"
       },
       {
@@ -10004,7 +10004,7 @@
       {
         "key": "6941763c6b2e0c64d04ef254 name",
         "source": "Part-time Employee",
-        "translation": "파트타임 직원"
+        "translation": "아르바이트 요원"
       },
       {
         "key": "6941763c6b2e0c64d04ef254 description",
@@ -10014,7 +10014,7 @@
       {
         "key": "69417646c9c13c9353996c4e name",
         "source": "It's not Betrayal, Just Working on my Own",
-        "translation": "배신이 아니라, 내 방식대로 일하는 것뿐"
+        "translation": "배신이 아니라 독자 행동일 뿐"
       },
       {
         "key": "69417646c9c13c9353996c4e description",
@@ -10176,7 +10176,7 @@
       {
         "key": "6a6acfb64d8f7b3935a30e22 description",
         "source": "Hello, soldier! I heard you're trying to get a friend out of a tight spot. Jaeger told me a bit, though he didn't go into much detail.\n\nI plan to send some of my men to Ground Zero. They'll take a look at whatever was left behind and see if they find anything useful. But obviously, I won't send them in while the area is still swarming with Scavs and PMCs, right?\n\nI want you to clear the area before we send the team in. Take care of anyone who might interfere with the operation and let me know when you're done.\n\nGood luck, soldier.",
-        "translation": "안녕하세요. 곤경에 처한 지인을 돕고 계시다고 들었습니다. 예거에게 상황은 대략 전달받았지만 자세한 내용까지 듣지는 못했습니다.\n\n그라운드 제로에 제 인원들을 보낼 예정입니다. 현장에 남은 흔적을 확인하고 쓸 만한 정보가 있는지 조사하게 하죠. 다만 스캐브와 PMC가 돌아다니는 상황에서 인원을 투입할 생각은 없습니다.\n\n팀이 들어가기 전에 구역을 정리해 주세요. 작전을 방해할 수 있는 대상들을 처리하고, 끝나면 알려주세요.\n\n그럼 부탁드리겠습니다.",
+        "translation": "안녕하세요, 군인 양반! 곤경에 처한 지인을 돕고 계시다고 들었습니다. 예거에게 상황은 대략 전달받았지만 자세한 내용까지 듣지는 못했습니다.\n\n그라운드 제로에 제 인원들을 보낼 예정입니다. 현장에 남은 흔적을 확인하고 쓸 만한 정보가 있는지 조사하게 하죠. 다만 스캐브와 PMC가 돌아다니는 상황에서 인원을 투입할 생각은 없습니다.\n\n팀이 들어가기 전에 구역을 정리해 주세요. 작전을 방해할 수 있는 대상들을 처리하고, 끝나면 알려주세요.\n\n행운을 빕니다, 군인 양반.",
         "display_type": "quest_description"
       },
       {
@@ -10198,7 +10198,7 @@
       {
         "key": "6a6ad307b056d89f85a30e2f description",
         "source": "Hey there, soldier!\n\nMy people scoured that TerraGroup building in Ground Zero and found some interesting things. Nothing that seems very important to your situation, so I'll probably sell most of it.\n\nBut they also found a clue that might interest you. Apparently, an unidentified group was guarding documents belonging to someone in a bunker near the bridge on Woods.\n\nMaybe it's the stuff you're looking for. Considering everything we know so far, this is probably our best lead.\n\nHead over there, take a look in the bunker and see what you can find. Let me know when you're done, soldier.",
-        "translation": "확인된 내용이 하나 있습니다.\n\n제 인원들이 그라운드 제로의 테라그룹 건물을 수색했고, 몇 가지 흥미로운 물건을 확보했습니다. 현재 상황과 직접 관련이 없어 보이는 것들은 대부분 처분할 생각입니다.\n\n다만 관심을 가질 만한 단서 하나가 나왔습니다. 정체불명의 집단이 삼림의 다리 근처 벙커에서 누군가의 문서를 지키고 있었다고 합니다.\n\n찾고 계신 자료일 가능성이 있습니다. 지금까지 확인된 정황으로는 현재 가장 유력한 단서죠.\n\n현장으로 가서 벙커를 확인하고, 확보할 수 있는 자료가 있는지 살펴봐 주세요. 끝나면 알려주세요.",
+        "translation": "안녕하세요, 군인 양반!\n\n제 인원들이 그라운드 제로의 테라그룹 건물을 수색했고, 몇 가지 흥미로운 물건을 확보했습니다. 현재 상황과 직접 관련이 없어 보이는 것들은 대부분 처분할 생각입니다.\n\n다만 관심을 가질 만한 단서 하나가 나왔습니다. 정체불명의 집단이 삼림의 다리 근처 벙커에서 누군가의 문서를 지키고 있었다고 합니다.\n\n찾고 계신 자료일 가능성이 있습니다. 지금까지 확인된 정황으로는 현재 가장 유력한 단서죠.\n\n현장으로 가서 벙커를 확인하고, 확보할 수 있는 자료가 있는지 살펴봐 주세요. 끝나면 알려주세요, 군인 양반.",
         "display_type": "quest_description"
       },
       {
@@ -10332,7 +10332,7 @@
       {
         "key": "6a6accfd59a421f7faeef57c",
         "source": "Reach Loyalty Level 2 with Lotus",
-        "translation": "로투스 우호도 2레벨 달성하기"
+        "translation": "로투스 충성도 레벨 2 달성하기"
       },
       {
         "key": "6a321d846b38e922175d1878 Name",
@@ -10349,6 +10349,24 @@
         "key": "6a321d846b38e922175d1878 Description",
         "source": "A device created through reverse engineering of a Hacker device from Ref; it has the ability to hack into authentication systems, granting access to TerraGroup Laboratory facilities or card-based access control panels at any location.",
         "translation": "레프의 해킹 장치를 역설계해 제작한 장치입니다. 인증 시스템을 해킹하여 테라그룹 연구소 시설이나 각 지역의 카드식 출입 통제 패널에 접근할 수 있습니다."
+      },
+      {
+        "key": "6960292c08a0653253dcd002 acceptPlayerMessage",
+        "source": "While I was putting together some HKs for my crew, I heard that some Model 1 FAs have started showing up in Tarkov. It's a pretty rare find right now, so I wish you luck getting your hands on one to finish this task. But I'll tell you this: if you manage to do it, I'll make sure you're properly rewarded with one of our unique Model 1 variants. Who knows, maybe one day I'll even let you buy that model directly from me...",
+        "translation": "우리 팀에 줄 HK를 조립하고 있던 중에 Model 1 FA 몇 정이 타르코프에 들어오기 시작했다는 얘길 들었어. 지금은 꽤 희귀하니 이 과제를 끝낼 한 정을 구할 수 있길 빌어야겠네. 하지만 이것만은 약속하지. 해낸다면 우리만의 특별한 Model 1 개조형으로 제대로 보상해줄게. 누가 알아? 언젠가는 그 모델을 내게서 직접 살 수 있게 해줄지도...",
+        "match_mode": "exact"
+      },
+      {
+        "key": "696195ae9bf30533aca95f17",
+        "source": "Hand over the letter",
+        "translation": "편지 건네주기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "696688e7ef7c846eee6070c5",
+        "source": "Find a keycard marked with blue ink",
+        "translation": "파란 잉크 표시가 있는 키카드 찾기",
+        "match_mode": "exact"
       }
     ]
   }

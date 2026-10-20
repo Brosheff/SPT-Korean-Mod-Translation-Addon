@@ -37,6 +37,7 @@ com.fontaine.fovfix|Fontaine's FOV Fix
 com.fontaine.spt-realism-common-lib|smallui.realismcurveeditor
 com.fontaine.spt-stance-overhaul|Stance Overhaul
 com.harmonyzt.breakoutoutlines|Breakout Outlines
+com.harmonyzt.underfire|com.harmonyzt.underfire
 com.harmonyzt.BringBackConcussion|Bring Back Concussion
 com.harmonyzt.MusicExtender|Music Extender
 com.hysocs.adaptivebotculling|Adaptive Bot Culling
@@ -62,6 +63,7 @@ com.manimal.labsboiler|Manimal's Labs Boiler
 com.manimal.lighthouse|mod_3cd5f301d815
 com.manimal.questbriefingapi|smallui.questbriefingapi
 com.maschine.AutoCorpseSearch|Auto Corpse Search
+com.maschine.ArenaMode|com.maschine.ArenaMode
 com.maschine.EasyMounting|Easy Mounting
 com.maschine.UnloadAllMagazines|UnloadAllMagazines
 com.maschine.WeaponBuilderSearch|smallui.weaponbuildersearch
@@ -78,6 +80,8 @@ com.pein.battleambience|Battle Ambience
 com.pein.camerarecoilmod|Recoil Rework
 com.pein.shadowflickerfix|Shadow Flicker Fix
 com.ruafcomehome.tacticaltoaster|com.ruafcomehome.tacticaltoaster
+com.samc137.isbsofextras|com.samc137.isbspecialforces
+com.samc137.ISBinfo|com.samc137.isbspecialforces
 com.sage.incendiarygrenade|com.sage.incendiarygrenade
 com.shaneeexd.thequartermaster|TheQuartermaster
 com.Shibatsu.DynamicExternalResolution|Dynamic External Resolution
@@ -99,6 +103,7 @@ com.tyfon.uifixes|UIFixes
 com.tyfon.weaponcustomizer|WeaponCustomizer
 com.tyfon.wikilinks|smallui.wikilinks
 com.tylevo.tacticalservicescontrol|com.tylevo.tacticalservicescontrol
+de.tosox.dynamicitemweights|Dynamic Item Weights
 com.vinihns.makeMedsGreatAgain|Make Meds Great Again!
 com.vinihns.makeshotgunsgreatagain|source3.make_shotguns_great_again
 com.vultify.nvgsightdimmer|NVG Sight Dimmer

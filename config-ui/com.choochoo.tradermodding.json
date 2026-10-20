@@ -95,7 +95,7 @@
       "source_display_name": "Show price tags on items",
       "source_description": "Show trader price tags on mod icons",
       "translation_display_name": "부품에 상인 가격 표시",
-      "translation_description": "부품에 상인 가격 표시 여부를 설정합니다.",
+      "translation_description": "부품 아이콘 위에 상인의 판매 가격표를 표시합니다.",
       "values": []
     },
     {

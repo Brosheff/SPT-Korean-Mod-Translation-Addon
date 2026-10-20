@@ -67,7 +67,7 @@
       "source_display_name": "Keyboard Shortcut",
       "source_description": "Key to show boss notifications.",
       "translation_display_name": "단축키",
-      "translation_description": "단축키: 사용할 키를 지정합니다.",
+      "translation_description": "보스 알림을 표시할 때 사용할 단축키입니다.",
       "values": []
     },
     {
@@ -112,7 +112,7 @@
       "source_display_name": "1. Enable Markers",
       "source_description": "Show 3D markers above boss heads.",
       "translation_display_name": "1. 표식 활성화",
-      "translation_description": "1. 표식 활성화 여부를 설정합니다.",
+      "translation_description": "보스 머리 위에 3D 표식을 표시합니다.",
       "values": []
     },
     {
@@ -121,7 +121,7 @@
       "source_display_name": "10. Visibility Distance",
       "source_description": "Maximum distance (meters) to show markers.",
       "translation_display_name": "10. 표시 거리",
-      "translation_description": "10. 표시 거리 값을 설정합니다.",
+      "translation_description": "보스 표식을 표시할 최대 거리(미터)입니다.",
       "values": []
     },
     {
@@ -130,7 +130,7 @@
       "source_display_name": "11. Marker Color",
       "source_description": "Color of boss markers (red by default).",
       "translation_display_name": "11. 표식 색상",
-      "translation_description": "11. 표식 색상 값을 설정합니다.",
+      "translation_description": "보스 표식의 색상을 설정합니다. 기본값은 빨간색입니다.",
       "values": []
     },
     {
@@ -139,7 +139,7 @@
       "source_display_name": "2. Toggle Markers Key",
       "source_description": "Key to toggle marker visibility.",
       "translation_display_name": "2. 표식 전환 단축키",
-      "translation_description": "2. 표식 전환 단축키: 사용할 키를 지정합니다.",
+      "translation_description": "보스 표식 표시 여부를 전환할 단축키입니다.",
       "values": []
     },
     {
@@ -166,7 +166,7 @@
       "source_display_name": "5. Show Boss Name",
       "source_description": "Show boss name on marker.",
       "translation_display_name": "5. 보스 이름 표시",
-      "translation_description": "5. 보스 이름 표시 여부를 설정합니다.",
+      "translation_description": "보스 표식에 보스 이름을 함께 표시합니다.",
       "values": []
     },
     {
@@ -175,7 +175,7 @@
       "source_display_name": "6. Show Distance",
       "source_description": "Show distance to boss on marker.",
       "translation_display_name": "6. 거리 표시",
-      "translation_description": "6. 거리 표시 여부를 설정합니다.",
+      "translation_description": "보스 표식에 보스까지의 거리를 함께 표시합니다.",
       "values": []
     },
     {
@@ -184,7 +184,7 @@
       "source_display_name": "7. Marker Size",
       "source_description": "Font size of the marker.",
       "translation_display_name": "7. 표식 크기",
-      "translation_description": "7. 표식 크기 값을 설정합니다.",
+      "translation_description": "보스 표식에 사용하는 글꼴 크기를 설정합니다.",
       "values": []
     },
     {
@@ -202,7 +202,7 @@
       "source_display_name": "9. Max Scale",
       "source_description": "Maximum scale at far distances.",
       "translation_display_name": "9. 최대 배율",
-      "translation_description": "9. 최대 배율 값을 설정합니다.",
+      "translation_description": "멀리 있는 보스 표식에 적용할 최대 크기 배율입니다.",
       "values": []
     }
   ]

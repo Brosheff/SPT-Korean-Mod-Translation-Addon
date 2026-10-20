@@ -17,7 +17,7 @@
       "source_display_name": "Enabled",
       "source_description": "Enable attachment search in the weapon builder dropdown.",
       "translation_display_name": "활성화",
-      "translation_description": "활성화 여부를 설정합니다.",
+      "translation_description": "무기 빌더의 부착물 선택 목록에서 부착물 검색 기능을 활성화합니다.",
       "values": []
     },
     {

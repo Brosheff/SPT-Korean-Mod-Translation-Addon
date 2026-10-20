@@ -263,45 +263,52 @@
       },
       {
         "id": "qm.ui.template.006",
-        "source": "Hand over {count}x item{fir}{zone}",
+        "source": "\\AHand over (?<count>\\d+)x item(?<fir>(?: \\(Found in Raid\\))?)(?<zone>(?: in [^\\r\\n]+)?)\\z",
         "translation": "{count}개 아이템 건네주기{fir}{zone}",
-        "match_mode": "template"
+        "match_mode": "regex_segment",
+        "note": "원본 CommunityPanel.cs 동적 출력에 대해 단복수와 빈 접미부를 허용. 런타임 별도 TranslateCommunityObjectiveTemplate 적용 여부는 게임 미검증."
       },
       {
         "id": "qm.ui.template.007",
-        "source": "Plant {count}x item{zone}",
+        "source": "\\APlant (?<count>\\d+)x item(?<zone>(?: in [^\\r\\n]+)?)\\z",
         "translation": "{count}개 아이템 설치하기{zone}",
-        "match_mode": "template"
+        "match_mode": "regex_segment",
+        "note": "원본 CommunityPanel.cs 동적 출력에 대해 단복수와 빈 접미부를 허용. 런타임 별도 TranslateCommunityObjectiveTemplate 적용 여부는 게임 미검증."
       },
       {
         "id": "qm.ui.template.008",
-        "source": "Eliminate {count} Scav(s){location}",
+        "source": "\\AEliminate (?<count>\\d+) Scavs?(?<location>(?: on [^\\r\\n]+)?)\\z",
         "translation": "{location} 스캐브 {count}명 처치",
-        "match_mode": "template"
+        "match_mode": "regex_segment",
+        "note": "원본 CommunityPanel.cs 동적 출력에 대해 단복수와 빈 접미부를 허용. 런타임 별도 TranslateCommunityObjectiveTemplate 적용 여부는 게임 미검증."
       },
       {
         "id": "qm.ui.template.009",
-        "source": "Eliminate {count} PMC(s){location}",
+        "source": "\\AEliminate (?<count>\\d+) PMCs?(?<location>(?: on [^\\r\\n]+)?)\\z",
         "translation": "{location} PMC {count}명 처치",
-        "match_mode": "template"
+        "match_mode": "regex_segment",
+        "note": "원본 CommunityPanel.cs 동적 출력에 대해 단복수와 빈 접미부를 허용. 런타임 별도 TranslateCommunityObjectiveTemplate 적용 여부는 게임 미검증."
       },
       {
         "id": "qm.ui.template.010",
-        "source": "Eliminate {count} boss(es){location}",
+        "source": "\\AEliminate (?<count>\\d+) boss(?:es)?(?<location>(?: on [^\\r\\n]+)?)\\z",
         "translation": "{location} 보스 {count}명 처치",
-        "match_mode": "template"
+        "match_mode": "regex_segment",
+        "note": "원본 CommunityPanel.cs 동적 출력에 대해 단복수와 빈 접미부를 허용. 런타임 별도 TranslateCommunityObjectiveTemplate 적용 여부는 게임 미검증."
       },
       {
         "id": "qm.ui.template.011",
-        "source": "Survive {count} raid(s) on {map}",
+        "source": "\\ASurvive (?<count>\\d+) raids? on (?<map>[^\\r\\n]+)\\z",
         "translation": "{map}에서 레이드 {count}회 생존하기",
-        "match_mode": "template"
+        "match_mode": "regex_segment",
+        "note": "원본 CommunityPanel.cs 동적 출력에 대해 단복수와 빈 접미부를 허용. 런타임 별도 TranslateCommunityObjectiveTemplate 적용 여부는 게임 미검증."
       },
       {
         "id": "qm.ui.template.012",
-        "source": "Extract from {map} {count} time(s)",
+        "source": "\\AExtract from (?<map>[^\\r\\n]+) (?<count>\\d+) times?\\z",
         "translation": "{map}에서 {count}회 탈출하기",
-        "match_mode": "template"
+        "match_mode": "regex_segment",
+        "note": "원본 CommunityPanel.cs 동적 출력에 대해 단복수와 빈 접미부를 허용. 런타임 별도 TranslateCommunityObjectiveTemplate 적용 여부는 게임 미검증."
       },
       {
         "id": "qm.ui.template.013",
@@ -311,9 +318,10 @@
       },
       {
         "id": "qm.ui.template.014",
-        "source": "Find {count}x item{fir}{zone}",
+        "source": "\\AFind (?<count>\\d+)x item(?<fir>(?: \\(Found in Raid\\))?)(?<zone>(?: in [^\\r\\n]+)?)\\z",
         "translation": "{count}개 아이템 찾기{fir}{zone}",
-        "match_mode": "template"
+        "match_mode": "regex_segment",
+        "note": "원본 CommunityPanel.cs 동적 출력에 대해 단복수와 빈 접미부를 허용. 런타임 별도 TranslateCommunityObjectiveTemplate 적용 여부는 게임 미검증."
       },
       {
         "id": "qm.ui.template.015",

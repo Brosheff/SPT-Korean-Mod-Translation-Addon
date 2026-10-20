@@ -39,7 +39,7 @@
       "source_display_name": "Force Overheat",
       "source_description": "Keybind to instantly overheat currently active weapon.",
       "translation_display_name": "강제 과열",
-      "translation_description": "강제 과열: 사용할 키를 지정합니다.",
+      "translation_description": "지정한 키를 누르면 현재 사용 중인 무기를 즉시 과열시킵니다.",
       "values": []
     }
   ]

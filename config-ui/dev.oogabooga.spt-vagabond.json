@@ -20,8 +20,8 @@
       "key": "Dump Current Location",
       "source_display_name": "Dump Current Location",
       "source_description": "Press in raid to dump current map, position and yaw to file in the Vagabond mod dir.",
-      "translation_display_name": "덤프 현재 위치",
-      "translation_description": "덤프 현재 위치: 키를 누르는 방식을 설정합니다.",
+      "translation_display_name": "현재 위치 정보 파일로 저장",
+      "translation_description": "레이드 중 이 키를 누르면 현재 맵, 플레이어 위치, 바라보는 방향(yaw)을 Vagabond 모드 폴더의 파일에 기록합니다.",
       "values": []
     },
     {
@@ -29,8 +29,8 @@
       "key": "Dump Extraction From Current Location",
       "source_display_name": "Dump Extraction From Current Location",
       "source_description": "Press in raid to dump a copy/paste ready custom extract snippet using the current player position, to a file in the Vagabond mod dir",
-      "translation_display_name": "덤프 탈출구 에서 현재 위치",
-      "translation_description": "덤프 탈출구 에서 현재 위치: 키를 누르는 방식을 설정합니다.",
+      "translation_display_name": "현재 위치의 탈출구 정의 저장",
+      "translation_description": "레이드 중 이 키를 누르면 플레이어의 현재 위치를 기준으로 바로 복사해 붙여넣을 수 있는 사용자 지정 탈출구 구성문을 Vagabond 모드 폴더의 파일로 저장합니다.",
       "values": []
     },
     {
@@ -38,8 +38,8 @@
       "key": "Dump Transit From Current Location",
       "source_display_name": "Dump Transit From Current Location",
       "source_description": "Press in raid to dump a copy/paste ready custom transit snippet using the current player position, to a file in the Vagabond mod dir",
-      "translation_display_name": "덤프 환승 에서 현재 위치",
-      "translation_description": "덤프 환승 에서 현재 위치: 키를 누르는 방식을 설정합니다.",
+      "translation_display_name": "현재 위치의 환승 지점 정의 저장",
+      "translation_description": "레이드 중 이 키를 누르면 플레이어의 현재 위치를 기준으로 바로 복사해 붙여넣을 수 있는 사용자 지정 환승 지점 구성문을 Vagabond 모드 폴더의 파일로 저장합니다.",
       "values": []
     },
     {
@@ -47,8 +47,8 @@
       "key": "Place Hideout Entrance",
       "source_display_name": "Place Hideout Entrance",
       "source_description": "Press in raid to place the entrance to your hideout at your current location.",
-      "translation_display_name": "배치 은신처 입구",
-      "translation_description": "배치 은신처 입구: 키를 누르는 방식을 설정합니다.",
+      "translation_display_name": "현재 위치에 은신처 입구 배치",
+      "translation_description": "레이드 중 이 키를 누르면 플레이어의 현재 위치에 은신처 입구를 배치합니다.",
       "values": []
     }
   ]

@@ -14,8 +14,8 @@
       },
       {
         "key": "038dbfe3081f1fb84f244fa6",
-        "source": "Eliminate 20 PMCs at night in blacked-out kit",
-        "translation": "검은색 장비를 착용하고 야간에 PMC 20명 처치하기",
+        "source": "Eliminate 20 PMCs at night on Streets of Tarkov or Interchange in blacked-out kit",
+        "translation": "검은색 장비를 착용하고 타르코프 시내 또는 인터체인지에서 야간에 PMC 20명 처치하기",
         "display_type": "quest_objective"
       },
       {
@@ -154,8 +154,8 @@
       },
       {
         "key": "1b3d5e4ce30fa9b697db892f",
-        "source": "Eliminate 10 PMCs or boss guards with an underbarrel grenade launcher",
-        "translation": "하부 부착형 유탄발사기로 PMC 또는 보스 경호원 10명 처치하기",
+        "source": "Eliminate 10 enemies with an underbarrel grenade launcher",
+        "translation": "총열 아래에 장착하는 유탄발사기로 적 10명 처치하기",
         "display_type": "quest_objective"
       },
       {
@@ -317,8 +317,8 @@
       },
       {
         "key": "2b598c660cd56bbdecac5709",
-        "source": "Eliminate 15 PMCs wearing a MultiCam plate carrier",
-        "translation": "멀티캠 플레이트 캐리어를 착용하고 PMC 15명 처치하기",
+        "source": "Eliminate 15 PMCs on Interchange or Streets of Tarkov while wearing a MultiCam plate carrier",
+        "translation": "멀티캠 플레이트 캐리어를 착용하고 인터체인지 또는 타르코프 시내에서 PMC 15명 처치하기",
         "display_type": "quest_objective"
       },
       {
@@ -373,8 +373,8 @@
       },
       {
         "key": "2e3d2a8c9c3c21191f16c01f",
-        "source": "Eliminate 3 PMCs inside Dorms or the Resort with a sidearm or melee weapon",
-        "translation": "기숙사 또는 요양원 내부에서 보조무기나 근접무기로 PMC 3명 처치하기",
+        "source": "Eliminate 3 PMCs on Customs or Shoreline with a sidearm or melee weapon",
+        "translation": "세관 또는 해안선에서 보조무기나 근접무기로 PMC 3명 처치하기",
         "display_type": "quest_objective"
       },
       {
@@ -642,7 +642,7 @@
       {
         "key": "4b902e814e7ea1b97ae580df description",
         "source": "Holy mother of horsepower, bud! You're shooting fifty-cal?! That's not a rifle, that's a friggin' portable artillery piece! Mechanic and I had to machine this suppressor out of solid aircraft-grade titanium just so the muzzle blast wouldn't blow the baffles straight into the next postal code. Hand over that Tank Battery so we can power up the heavy induction welder, and you can silence a literal freight train!",
-        "translation": "세상에, 친구! 50구경을 쏜다고?! 그건 소총이 아니라 들고 다니는 포병 화기잖아! 총구 폭압에 배플이 다음 우편번호 구역까지 날아가지 않게 하려고 메카닉이랑 내가 항공기급 티타늄 통짜를 깎아 이 소음기를 만들었어. 그 탱크 배터리를 건네줘. 중형 유도가열 용접기를 돌릴 전력이 필요하거든. 그러면 화물열차 같은 놈도 조용하게 만들 수 있을 거야!",
+        "translation": "세상에, 친구! 50구경을 쏜다고?! 그건 소총이 아니라 들고 다니는 포병 화기잖아! 총구 폭압에 배플이 다음 우편번호 구역까지 날아가지 않게 하려고 메카닉이랑 내가 항공기급 티타늄 통짜를 깎아 이 소음기를 만들었어. 그 탱크 배터리를 건네줘. 대형 유도가열 용접기를 돌릴 전력이 필요하거든. 그러면 화물열차 같은 놈도 조용하게 만들 수 있을 거야!",
         "display_type": "quest_description"
       },
       {
@@ -788,7 +788,7 @@
       {
         "key": "5b3b6e5d5acfc43398055011 Name",
         "source": "Strike Industries Strike 80 Frame (Tan) w/ KI Internals",
-        "translation": "스트라이크 인더스트리즈 Strike 80 프레임 (탄) / KI 내부 부품 포함"
+        "translation": "스트라이크 인더스트리즈 Strike 80 프레임 (황갈색), KI 내부 부품 포함"
       },
       {
         "key": "5b3b6e5d5acfc43398055011 ShortName",
@@ -887,8 +887,8 @@
       },
       {
         "key": "5f80ecf6cc48ce48db3d6f97",
-        "source": "Eliminate 10 PMCs or Rogues with headshots using a suppressed 5.56 weapon",
-        "translation": "소음기가 장착된 5.56 무기를 사용하여 헤드샷으로 PMC 또는 로그 10명 처치하기",
+        "source": "Eliminate 10 PMCs or Rogues with headshots using the MFMD 5.56 suppressor",
+        "translation": "MFMD 5.56 소음기를 사용해 PMC 또는 로그 10명을 헤드샷으로 처치하기",
         "display_type": "quest_objective"
       },
       {
@@ -900,7 +900,7 @@
       {
         "key": "62811f461d5df4475f46a333 Name",
         "source": "Killer Innovations Velocity Optic Cover Plate (Black)",
-        "translation": "킬러 이노베이션스 Velocity 광학 커버 플레이트 (블랙)\n(Killer Innovations Velocity Optic Cover Plate (검은색))"
+        "translation": "킬러 이노베이션스 Velocity 광학 커버 플레이트 (검은색)"
       },
       {
         "key": "62811f461d5df4475f46a333 ShortName",
@@ -910,7 +910,7 @@
       {
         "key": "62811f461d5df4475f46a333 Description",
         "source": "Billet machined cover plate for the Killer Innovations Velocity Slide. Manufactured from 6061-T6 Aluminum with a black anodized finish, this plate protects the optic cut when a red dot is not installed and continues the slide's aggressive aesthetic.",
-        "translation": "킬러 이노베이션스(Killer Innovations) Velocity 슬라이드용 빌릿 가공 커버 플레이트입니다. 블랙 아노다이징 마감의 6061-T6 알루미늄으로 제작되었으며, 레드 도트가 장착되지 않았을 때 광학 컷을 보호하고 슬라이드의 공격적인 외형을 그대로 이어 줍니다."
+        "translation": "킬러 이노베이션스(Killer Innovations) Velocity 슬라이드용 빌릿 가공 커버 플레이트입니다. 블랙 양극산화 마감의 6061-T6 알루미늄으로 제작되었으며, 레드 도트가 장착되지 않았을 때 광학 컷을 보호하고 슬라이드의 공격적인 외형을 그대로 이어 줍니다."
       },
       {
         "key": "6607416b2604592606334991 name",
@@ -957,17 +957,17 @@
       {
         "key": "686830a0f33be9471feb69da Name",
         "source": "LV119 Covert - Big Meow Edition (Ranger Green)",
-        "translation": "LV119 코버트 멀티캠 트로픽 플레이트 캐리어\n(LV119 Covert Multicam Tropic)"
+        "translation": "LV119 코버트 - 빅 미야옹 에디션 플레이트 캐리어 (레인저 그린)"
       },
       {
         "key": "686830a0f33be9471feb69da ShortName",
         "source": "LV119 Meow",
-        "translation": "LV119 MCT"
+        "translation": "LV119 미야옹"
       },
       {
         "key": "686830a0f33be9471feb69da Description",
         "source": "Spiritus Systems LV119 Covert plate carrier with MK V Placard. Lightweight and low-profile. \n THE CAT DEMANDS BLOOD",
-        "translation": "스피리투스 시스템즈(Spiritus Systems) LV119 코버트 플레이트 캐리어에 MK V 플래카드(Placard)를 구성한 제품입니다. 가볍고, 낮은 프로파일을 제공합니다."
+        "translation": "스피리투스 시스템즈 LV119 코버트 플레이트 캐리어에 MK V 플래카드를 구성한 제품입니다. 가볍고 부피가 작습니다. 고양이는 피를 원합니다!"
       },
       {
         "key": "68b4b52f1a1ff2a6c49ac5be Name",
@@ -1282,7 +1282,7 @@
       {
         "key": "68e028ee33872c8c0b4e5e81 Description",
         "source": "A match-grade barrel threaded for suppression devices. Essential for when your work requires a whisper rather than a shout.",
-        "translation": "소음기 장착 장치를 위한 나사산이 가공된 매치 등급 총열입니다. 일이 '외침'이 아니라 '속삭임'을 요구할 때 필수입니다."
+        "translation": "소음기 등 소음 억제 장치를 장착할 수 있도록 나사산이 가공된 경기용 등급 총열입니다. 소리를 질러서는 안 되는 일을 할 때 필수입니다."
       },
       {
         "key": "68e029fe3948c17cabf65482 Name",
@@ -1322,7 +1322,7 @@
       {
         "key": "690289f47f98dc39096902fd ShortName",
         "source": "ALFA Mod 4",
-        "translation": "BCM 단축형"
+        "translation": "ALFA Mod 4"
       },
       {
         "key": "690289f47f98dc39096902fd Description",
@@ -1567,7 +1567,7 @@
       {
         "key": "6917c54d98d815c7861d1c59 Name",
         "source": "Ops-Core Helmet Cover (Desert Tiger Stripe)",
-        "translation": "옵스코어 헬멧 커버 (Desert Tiger Stripe)"
+        "translation": "옵스코어 헬멧 커버 (사막 타이거 스트라이프)"
       },
       {
         "key": "6917c54d98d815c7861d1c59 ShortName",
@@ -1577,12 +1577,12 @@
       {
         "key": "6917c54d98d815c7861d1c59 Description",
         "source": "Helmet cover in Desert Tiger Stripe pattern. Rugged and abrasion-resistant.",
-        "translation": "Desert Tiger Stripe 패턴의 헬멧 커버입니다. 내구성이 뛰어나고 마모에 강합니다."
+        "translation": "사막 타이거 스트라이프 패턴의 헬멧 커버입니다. 튼튼하고 마모에 강합니다."
       },
       {
         "key": "6917c5f64ae12687885bf18d Name",
         "source": "Ops-Core Helmet Cover (Multicam Black)",
-        "translation": "옵스코어 헬멧 커버 (Multicam Black)"
+        "translation": "옵스코어 헬멧 커버 (멀티캠 블랙)"
       },
       {
         "key": "6917c5f64ae12687885bf18d ShortName",
@@ -1592,12 +1592,12 @@
       {
         "key": "6917c5f64ae12687885bf18d Description",
         "source": "Multicam Black helmet cover for urban low-vis operations.",
-        "translation": "도심 저시인성(로우비스, low-vis) 작전을 위한 Multicam Black 헬멧 커버입니다."
+        "translation": "도심 저시인성 작전을 위한 멀티캠 블랙 헬멧 커버입니다."
       },
       {
         "key": "6917c61265268ecbc220f1f2 Name",
         "source": "Ops-Core Helmet Cover (Multicam Tropic)",
-        "translation": "옵스코어 헬멧 커버 (Multicam Tropic)"
+        "translation": "옵스코어 헬멧 커버 (멀티캠 트로픽)"
       },
       {
         "key": "6917c61265268ecbc220f1f2 ShortName",
@@ -1607,7 +1607,7 @@
       {
         "key": "6917c61265268ecbc220f1f2 Description",
         "source": "Multicam Tropic helmet cover for jungle and woodland environments.",
-        "translation": "정글 및 삼림 환경을 위한 Multicam Tropic 헬멧 커버입니다."
+        "translation": "정글 및 삼림 환경에 쓰는 멀티캠 트로픽 헬멧 커버입니다."
       },
       {
         "key": "6917c633200042156b8bdb52 Name",
@@ -1697,7 +1697,7 @@
       {
         "key": "6920fb556e317e30d954422b Name",
         "source": "Galil ACE Picatinny Top Rail (Short)",
-        "translation": "갈릴 ACE 피카티니 상부 레일 (Short)"
+        "translation": "갈릴 ACE 피카티니 상부 레일 (단축형)"
       },
       {
         "key": "6920fb556e317e30d954422b ShortName",
@@ -1888,12 +1888,12 @@
       {
         "key": "6930cde327aa0ba2c16d3d01 Name",
         "source": "Poly Technologies Type 81 SE (Crimson Red)",
-        "translation": "폴리 테크놀로지스 타입 81 SE (Crimson Red)"
+        "translation": "폴리 테크놀로지스 타입 81 SE (진홍색)"
       },
       {
         "key": "6930cde327aa0ba2c16d3d01 Description",
         "source": "A 'Special Edition' civilian variant of the Chinese Type 81, finished in a distinctive Crimson Red. These rifles often found their way into the Norvinsk region via the Canadian 'grey market' before the borders closed. While it looks like a collector's piece, it retains the legendary short-stroke piston reliability of the military original.",
-        "translation": "중국제 타입 81의 '스페셜 에디션(Special Edition)' 민수형 변형으로, 독특한 Crimson Red 마감이 적용되어 있습니다. 이 소총들은 국경이 닫히기 전 캐나다의 '그레이 마켓(grey market)'을 통해 노르빈스크(Norvinsk) 지역으로 흘러들어온 경우가 많습니다. 겉보기엔 수집품처럼 보이지만, 군용 원형의 전설적인 쇼트 스트로크 피스톤(short-stroke piston) 신뢰성은 그대로 유지하고 있습니다."
+        "translation": "중국제 타입 81의 '스페셜 에디션(Special Edition)' 민수형 변형으로, 독특한 진홍색 마감이 적용되어 있습니다. 이 소총들은 국경이 닫히기 전 캐나다의 '그레이 마켓(grey market)'을 통해 노르빈스크(Norvinsk) 지역으로 흘러들어온 경우가 많습니다. 겉보기엔 수집품처럼 보이지만, 군용 원형의 전설적인 쇼트 스트로크 피스톤(short-stroke piston) 신뢰성은 그대로 유지하고 있습니다."
       },
       {
         "key": "6930cfb2b708723c496d3d09 Name",
@@ -2413,7 +2413,7 @@
       {
         "key": "69599638cd1179848621a204 Name",
         "source": "Poly Technologies Type 81 LMG (Sprayed Tan)",
-        "translation": "폴리 테크놀로지스 타입 81 LMG (탄)"
+        "translation": "폴리 테크놀로지스 타입 81 LMG (황갈색)"
       },
       {
         "key": "69599638cd1179848621a204 ShortName",
@@ -2428,7 +2428,7 @@
       {
         "key": "695998fdbbb7a9ea8221a20e Name",
         "source": "Type 81 Dust Cover (Sprayed Tan)",
-        "translation": "타입 81 더스트 커버 (탄)"
+        "translation": "타입 81 더스트 커버 (황갈색)"
       },
       {
         "key": "695998fdbbb7a9ea8221a20e ShortName",
@@ -2443,12 +2443,12 @@
       {
         "key": "6959993ecb9c07cd0421a210 Name",
         "source": "Type 81 Upper Handguard (Sprayed Tan)",
-        "translation": "타입 81 상부 총열덮개/가스 튜브 어셈블리 (탄)"
+        "translation": "타입 81 상부 총열덮개/가스 튜브 어셈블리 (황갈색)"
       },
       {
         "key": "6959993ecb9c07cd0421a210 ShortName",
         "source": "T81 UHG (Tan)",
-        "translation": "T81 상부 (Tan)"
+        "translation": "T81 상부 (황갈색)"
       },
       {
         "key": "6959993ecb9c07cd0421a210 Description",
@@ -2458,12 +2458,12 @@
       {
         "key": "695999901ac7ab67ee21a213 Name",
         "source": "Type 81 LMG Lower Handguard (Sprayed Tan)",
-        "translation": "타입 81 LMG 하부 총열덮개 (탄)"
+        "translation": "타입 81 LMG 하부 총열덮개 (황갈색)"
       },
       {
         "key": "695999901ac7ab67ee21a213 ShortName",
         "source": "T81 LMG HG (Tan)",
-        "translation": "T81 LMG 하부 (Tan)"
+        "translation": "T81 LMG 하부 (황갈색)"
       },
       {
         "key": "695999901ac7ab67ee21a213 Description",
@@ -2473,12 +2473,12 @@
       {
         "key": "695999fa946736058d21a215 Name",
         "source": "Type 81 LMG Stock (Sprayed Tan)",
-        "translation": "타입 81 LMG 개머리판 (탄)"
+        "translation": "타입 81 LMG 개머리판 (황갈색)"
       },
       {
         "key": "695999fa946736058d21a215 ShortName",
         "source": "T81 LMG Stock (Tan)",
-        "translation": "T81 LMG 개머리판 (Tan)"
+        "translation": "T81 LMG 개머리판 (황갈색)"
       },
       {
         "key": "695999fa946736058d21a215 Description",
@@ -2488,12 +2488,12 @@
       {
         "key": "69599b17ea6e57427e21a218 Name",
         "source": "Type 81 LMG Bipod (Sprayed Tan)",
-        "translation": "타입 81 LMG 양각대 (탄)"
+        "translation": "타입 81 LMG 양각대 (황갈색)"
       },
       {
         "key": "69599b17ea6e57427e21a218 ShortName",
         "source": "T81 Bipod (Tan)",
-        "translation": "T81 LMG 양각대 (Tan)"
+        "translation": "T81 LMG 양각대 (황갈색)"
       },
       {
         "key": "69599b17ea6e57427e21a218 Description",
@@ -2503,12 +2503,12 @@
       {
         "key": "69599b727e06e825d921a21b Name",
         "source": "Type 81 Pistol Grip (Sprayed Tan)",
-        "translation": "타입 81 권총손잡이 (탄)"
+        "translation": "타입 81 권총손잡이 (황갈색)"
       },
       {
         "key": "69599b727e06e825d921a21b ShortName",
         "source": "T81 PG (Tan)",
-        "translation": "T81 그립 (Tan)"
+        "translation": "T81 그립 (황갈색)"
       },
       {
         "key": "69599b727e06e825d921a21b Description",
@@ -2518,12 +2518,12 @@
       {
         "key": "69599be8356917b60121a21d Name",
         "source": "Type 81 LMG Front Sight(Sprayed Tan)",
-        "translation": "타입 81 LMG 가늠쇠/가스 블록 어셈블리 (탄)"
+        "translation": "타입 81 LMG 가늠쇠/가스 블록 어셈블리 (황갈색)"
       },
       {
         "key": "69599be8356917b60121a21d ShortName",
         "source": "T81 LMG FSB (Tan)",
-        "translation": "T81 LMG 가늠쇠 (Tan)"
+        "translation": "T81 LMG 가늠쇠 (황갈색)"
       },
       {
         "key": "69599be8356917b60121a21d Description",
@@ -2533,12 +2533,12 @@
       {
         "key": "6959a1d728c934517821a222 Name",
         "source": "5/8x24 Thread Protector (Sprayed Tan)",
-        "translation": "5/8x24 나사 보호캡 (탄)"
+        "translation": "5/8x24 나사 보호캡 (황갈색)"
       },
       {
         "key": "6959a1d728c934517821a222 ShortName",
         "source": "5/8x24 Prot. (Tan)",
-        "translation": "5/8x24 보호캡 (Tan)"
+        "translation": "5/8x24 보호캡 (황갈색)"
       },
       {
         "key": "6959a1d728c934517821a222 Description",
@@ -2583,12 +2583,12 @@
       {
         "key": "6959ae8a8609fc1ded21a231 Name",
         "source": "Type 81 Upper Handguard (Beech)",
-        "translation": "타입 81 상부 총열덮개/가스 튜브 어셈블리 (Beech)"
+        "translation": "타입 81 상부 총열덮개/가스 튜브 어셈블리 (너도밤나무)"
       },
       {
         "key": "6959ae8a8609fc1ded21a231 ShortName",
         "source": "T81 UHG (Beech)",
-        "translation": "T81 상부 (Beech)"
+        "translation": "T81 상부 (너도밤나무)"
       },
       {
         "key": "6959ae8a8609fc1ded21a231 Description",
@@ -2598,12 +2598,12 @@
       {
         "key": "6959aea76bcb6afbd721a235 Name",
         "source": "Type 81 LMG Lower Handguard (Beech)",
-        "translation": "타입 81 LMG 하부 총열덮개 (Beech)"
+        "translation": "타입 81 LMG 하부 총열덮개 (너도밤나무)"
       },
       {
         "key": "6959aea76bcb6afbd721a235 ShortName",
         "source": "T81 LMG HG (Beech)",
-        "translation": "T81 LMG 하부 (Beech)"
+        "translation": "T81 LMG 하부 (너도밤나무)"
       },
       {
         "key": "6959aea76bcb6afbd721a235 Description",
@@ -2613,12 +2613,12 @@
       {
         "key": "6959aeabb718f8c8e421a237 Name",
         "source": "Type 81 LMG Stock (Beech)",
-        "translation": "타입 81 LMG 개머리판 (Beech)"
+        "translation": "타입 81 LMG 개머리판 (너도밤나무)"
       },
       {
         "key": "6959aeabb718f8c8e421a237 ShortName",
         "source": "T81 LMG Stock (Beech)",
-        "translation": "T81 LMG 개머리판 (Beech)"
+        "translation": "T81 LMG 개머리판 (너도밤나무)"
       },
       {
         "key": "6959aeabb718f8c8e421a237 Description",
@@ -2728,7 +2728,7 @@
       {
         "key": "69604054ad6ba86d79446f6f Name",
         "source": "Type 81 Magpul Zhukov-U handguard (CADPAT MT)",
-        "translation": "타입 81 맥풀 주코프-U 총열덮개 (멀티캠 블랙)\n(Type 81 Magpul Zhukov-U handguard (Multicam Black))"
+        "translation": "타입 81 맥풀 주코프-U 총열덮개 (멀티캠 블랙)"
       },
       {
         "key": "69604054ad6ba86d79446f6f ShortName",
@@ -2738,12 +2738,12 @@
       {
         "key": "69604054ad6ba86d79446f6f Description",
         "source": "The Type 81 Magpul Zhukov-U handguard is installed on the Type 81 compatible weapon systems. Equipped with licensed M-LOK mounts for installation of additional devices or rails. \n CADPAT Multi Terrain version.",
-        "translation": "타입 81(Type 81) 및 호환 무기체계에 장착되는 맥풀(Magpul) 주코프-U 총열덮개입니다. 추가 장비나 레일을 장착할 수 있도록 정식 라이선스의 엠락 마운트를 갖추고 있습니다. 멀티캠 블랙 버전입니다."
+        "translation": "타입 81 및 호환 무기체계에 장착되는 맥풀 주코프-U 총열덮개입니다. 추가 장비나 레일을 장착할 수 있도록 정식 라이선스의 M-LOK 마운트를 갖추었습니다. CADPAT 멀티 터레인 버전입니다."
       },
       {
         "key": "6960434f897946d918446f76 Name",
         "source": "Type 81 Magpul MOE AKM handguard (CADPAT TW)",
-        "translation": "타입 81 맥풀 MOE AKM 총열덮개 (멀티캠 러블)\n(Type 81 Magpul MOE AKM handguard (Multicam Rubble))"
+        "translation": "타입 81 맥풀 MOE AKM 총열덮개 (CADPAT 온대 산림)"
       },
       {
         "key": "6960434f897946d918446f76 ShortName",
@@ -2753,7 +2753,7 @@
       {
         "key": "6960434f897946d918446f76 Description",
         "source": "The Type 81 Magpul MOE AKM handguard is installed on the Type 81 and compatible weapon systems. It comes equipped with licensed M-LOK mounts for the installation of additional devices or rails. \n CADPAT Temparate Woodland version.",
-        "translation": "타입 81(Type 81) 및 호환 무기체계에 장착되는 맥풀(Magpul) MOE AKM 총열덮개입니다. 추가 장비나 레일을 장착할 수 있도록 정식 라이선스의 엠락 마운트를 갖추고 있습니다. 멀티캠 러블(Multicam Rubble) 버전입니다."
+        "translation": "타입 81 및 호환 무기체계에 장착되는 맥풀 MOE AKM 총열덮개입니다. 추가 장비나 레일을 장착할 수 있도록 정식 라이선스의 M-LOK 마운트를 갖추었습니다. CADPAT 온대 산림 버전입니다."
       },
       {
         "key": "6960451b092ed1ff3f446f7b Name",
@@ -2763,7 +2763,7 @@
       {
         "key": "6960451b092ed1ff3f446f7b ShortName",
         "source": "T81 1913",
-        "translation": "T81"
+        "translation": "T81 1913"
       },
       {
         "key": "6960451b092ed1ff3f446f7b Description",
@@ -2968,12 +2968,12 @@
       {
         "key": "697126108e1daf677ae7e8d9 ShortName",
         "source": "417 Single",
-        "translation": "글록 17"
+        "translation": "417 싱글 포트"
       },
       {
         "key": "697126108e1daf677ae7e8d9 Description",
         "source": "The 417 Single Port Compensator by Agency Arms for Gen 5 Glocks. Machined from 7075 Aluminum with a hard anodized finish. Features a single vertical venting port to mitigate muzzle rise.  Rumored to have been imported by a PMC that goes by the name of therealdirtydan.",
-        "translation": "에이전시 암즈(Agency Arms)의 Gen 5 글록용 417 싱글 포트 보정기입니다. 7075 알루미늄으로 가공되었고 하드 아노다이징 마감이 적용되어 있습니다. 단일 수직 배기 포트를 통해 총구 들림을 억제합니다. therealdirtydan이라는 이름의 PMC가 들여온 물건이라는 소문이 있습니다."
+        "translation": "에이전시 암즈(Agency Arms)의 Gen 5 글록용 417 싱글 포트 보정기입니다. 7075 알루미늄으로 가공되었고 하드 양극산화 마감이 적용되어 있습니다. 단일 수직 배기 포트를 통해 총구 들림을 억제합니다. therealdirtydan이라는 이름의 PMC가 들여온 물건이라는 소문이 있습니다."
       },
       {
         "key": "69712816e7a4140950e7e8dd Name",
@@ -3033,7 +3033,7 @@
       {
         "key": "69723adba548ea7d12c39330 Name",
         "source": "IWI Galil ACE Picatinny Mount (Long)",
-        "translation": "IWI 갈릴 ACE 피카티니 마운트 (Long)"
+        "translation": "IWI 갈릴 ACE 피카티니 마운트 (장축형)"
       },
       {
         "key": "69723adba548ea7d12c39330 ShortName",
@@ -3053,7 +3053,7 @@
       {
         "key": "697299c25cf1535be3c39338 ShortName",
         "source": "AA 21-rd",
-        "translation": "글록 17"
+        "translation": "AA 21발"
       },
       {
         "key": "697299c25cf1535be3c39338 Description",
@@ -3063,7 +3063,7 @@
       {
         "key": "6973e015a991f8f91bc3934c Name",
         "source": "Night Fision Stealth Tritium Rear Sight (Glock)",
-        "translation": "나이트 피전 스텔스 트리튬 가늠자 (글록)\n(AARSight)"
+        "translation": "나이트 피전 스텔스 트리튬 가늠자 (글록)"
       },
       {
         "key": "6973e015a991f8f91bc3934c Description",
@@ -3178,7 +3178,7 @@
       {
         "key": "6984ee306e5601e906de0b8a Description",
         "source": "A mounting interface for attaching RMR sights to the custom slide. A bridge between German steel and modern optics.",
-        "translation": "커스텀 슬라이드에 RMR 가늠쇠를 부착하기 위한 마운팅 인터페이스입니다. 독일 강철과 현대식 광학장비를 잇는 다리죠."
+        "translation": "커스텀 슬라이드에 RMR 조준경을 장착하기 위한 마운트 인터페이스입니다. 독일제 강철과 현대 광학장비를 연결해 줍니다."
       },
       {
         "key": "6985167dfe2708752bde0b8e Name",
@@ -3538,7 +3538,7 @@
       {
         "key": "69a9d80bdcbd9088b7eee863 Description",
         "source": "The standard lower handguard for the vz. 58 assault rifle, providing a gripping surface for the shooter's support hand.",
-        "translation": "vz. 58용 총열덮개입니다. 가스 피스톤 튜브와 총열 열기로부터 사용자의 손을 보호하고 지지 손으로 잡을 수 있는 표면을 제공합니다."
+        "translation": "vz. 58 돌격소총의 표준 하부 총열덮개로, 지지손으로 잡을 수 있는 파지면을 제공합니다."
       },
       {
         "key": "69a9d86b8c86b26c6eeee865 Name",
@@ -3553,7 +3553,7 @@
       {
         "key": "69a9d86b8c86b26c6eeee865 Description",
         "source": "The fixed stock for the vz. 58 rifle. Manufactured from a wood-impregnated plastic compound that is affectionately referred to as 'beaver barf' by firearms enthusiasts. It offers decent ergonomics and high durability.",
-        "translation": "vz. 58용 개머리판입니다. 견고한 구조와 적절한 인체공학을 제공하며, 소총 운용에 필요한 안정성을 높여줍니다."
+        "translation": "vz. 58용 고정식 개머리판입니다. 총기 애호가 사이에서 비버 바프라고 불리는 목재 함침 플라스틱 복합재로 제작되어, 적절한 인체공학성과 높은 내구성을 제공합니다."
       },
       {
         "key": "69a9d93604db219c1deee867 Name",
@@ -3578,7 +3578,7 @@
       {
         "key": "69a9d99ddbac50eab8eee869 Description",
         "source": "A lightweight aluminum 30-round magazine designed exclusively for the vz. 58. Unlike AK magazines, it features a built-in follower mechanism to lock the rifle's action open when empty.",
-        "translation": "vz. 58용 경량 탄창입니다. AK 탄창과 달리 빈 탄창 상태에서 노리쇠를 후퇴 고정하는 팔로워 구조를 갖추었습니다."
+        "translation": "vz. 58 전용으로 설계된 경량 알루미늄 30발 탄창입니다. AK 탄창과 달리 빈 탄창 상태에서 노리쇠를 후퇴 고정하는 팔로워 장치가 있습니다."
       },
       {
         "key": "69a9d9fa1ba85d4e13eee86c Name",
@@ -3608,7 +3608,7 @@
       {
         "key": "69a9dbdcdbaad6de81eee871 Description",
         "source": "A standard 30-round vz. 58 aluminum magazine that has been permanently pinned with a rivet to only accept 5 rounds. Designed strictly to comply with the soul-crushing Canadian civilian firearms regulations. Have fun reloading every two and a half seconds, eh?",
-        "translation": "vz. 58용 탄창을 5발만 수용하도록 고정한 탄창입니다. 캐나다 민간 총기 규정을 충족하도록 설계되었으며, 자주 재장전해야 합니다."
+        "translation": "원래 30발을 담는 vz. 58 알루미늄 탄창을 리벳으로 영구 고정해 5발만 수용하도록 만든 제품입니다. 캐나다 민간 총기 규정을 따르도록 설계됐습니다. 이제 2.5초마다 재장전할 준비를 하십시오!"
       },
       {
         "key": "69a9dfa0e55d527115eee872 Name",
@@ -3623,7 +3623,7 @@
       {
         "key": "69a9e0fb79fe0b0af4eee874 Name",
         "source": "MFMD-5.56-1.3-MD-1/2X28Suppressor (Black)",
-        "translation": "MFMD-5.56-1.3-MD-1/2X28 소음기 (검은색)\n(MFMD-5.56-1.3-MD-1/2X28Suppressor (검은색))"
+        "translation": "MFMD-5.56-1.3-MD-1/2X28 소음기 (검은색)"
       },
       {
         "key": "69a9e0fb79fe0b0af4eee874 Description",
@@ -3633,7 +3633,7 @@
       {
         "key": "69a9e1a0170829d138eee876 Name",
         "source": "MFMD-5.56-1.3-MD-1/2X28 Suppressor (FDE)",
-        "translation": "MFMD-5.56-1.3-MD-1/2X28 소음기 (사막색)\n(MFMD-5.56-1.3-MD-1/2X28 Suppressor (사막색))"
+        "translation": "MFMD-5.56-1.3-MD-1/2X28 소음기 (사막색)"
       },
       {
         "key": "69a9e1a0170829d138eee876 Description",
@@ -3753,7 +3753,7 @@
       {
         "key": "69aa0ca9415e4bd496eee889 Description",
         "source": "adapt and overcome",
-        "translation": "vz. 58 플랫폼에 다른 규격의 개머리판이나 버퍼 튜브를 장착할 수 있게 해주는 어댑터입니다. 장착 호환성과 내구성을 높이도록 제작되었습니다."
+        "translation": "상황에 맞춰 적응하고 극복하십시오."
       },
       {
         "key": "69aa0d470be3626d9aeee88b Name",
@@ -3773,7 +3773,7 @@
       {
         "key": "69aa0e555c15e9d675eee897 Description",
         "source": "coat hanger shit",
-        "translation": "vz. 58용 개머리판입니다. 견고한 구조와 적절한 인체공학을 제공하며, 소총 운용에 필요한 안정성을 높여줍니다."
+        "translation": "옷걸이 같은 조잡한 물건입니다."
       },
       {
         "key": "69aa0ed9742a904a11eee899 Name",
@@ -3783,7 +3783,7 @@
       {
         "key": "69aa0ed9742a904a11eee899 Description",
         "source": "The Short upper handguard piece for the vz. 58, covering the gas piston tube to protect the user's hand from the heat of the barrel.",
-        "translation": "vz. 58용 총열덮개입니다. 가스 피스톤 튜브와 총열 열기로부터 사용자의 손을 보호하고 지지 손으로 잡을 수 있는 표면을 제공합니다."
+        "translation": "vz. 58용 단축형 상부 총열덮개입니다. 가스 피스톤 튜브를 덮어 총열의 열로부터 손을 보호합니다."
       },
       {
         "key": "69aa0f6a5e64671cf1eee89c Name",
@@ -3793,7 +3793,7 @@
       {
         "key": "69aa0f6a5e64671cf1eee89c Description",
         "source": "The Short lower handguard for the vz. 58 assault rifle, providing a gripping surface for the shooter's support hand.",
-        "translation": "vz. 58용 총열덮개입니다. 가스 피스톤 튜브와 총열 열기로부터 사용자의 손을 보호하고 지지 손으로 잡을 수 있는 표면을 제공합니다."
+        "translation": "vz. 58 돌격소총용 단축형 하부 총열덮개로, 지지손으로 잡을 수 있는 파지면을 제공합니다."
       },
       {
         "key": "69b17a80d1cca0000ce9244e name",
@@ -3896,7 +3896,7 @@
       {
         "key": "69b5698b5422bd822228ae5d Description",
         "source": "This is the Czech Small Arms (CSA) 30 round .223 & 5.56x45mm magazine for the SA vz 58 rifle.\n    Tough polycarbonate body with finger ribs for easy grip\n    Available in black or translucent smoke for easy round count\n    No tilt follower\n    Chrome steel springs\n    Fully strippable for cleaning",
-        "translation": "vz. 58용 경량 탄창입니다. AK 탄창과 달리 빈 탄창 상태에서 노리쇠를 후퇴 고정하는 팔로워 구조를 갖추었습니다."
+        "translation": "체코 스몰 암스(CSA)의 SA vz. 58 소총용 .223/5.56x45mm 31발 탄창입니다. 손가락 홈이 있는 견고한 폴리카보네이트 몸체로, 검정색 또는 남은 탄약을 확인하기 쉬운 반투명 스모크 색상으로 제공됩니다. 기울어짐을 방지하는 팔로워와 크롬강 스프링을 사용하며, 청소할 때 완전히 분해할 수 있습니다."
       },
       {
         "key": "69b56a182f1ace21b528ae60 Name",
@@ -3906,7 +3906,7 @@
       {
         "key": "69b56a182f1ace21b528ae60 Description",
         "source": "This is the Czech Small Arms (CSA) 5 round (Pinned) .223 & 5.56x45mm magazine for the SA vz 58 rifle.\n   Tough polycarbonate body with finger ribs for easy grip\n    Available in black or translucent smoke for easy round count\n    No tilt follower\n    Chrome steel springs\n    Fully strippable for cleaning",
-        "translation": "vz. 58용 탄창을 5발만 수용하도록 고정한 탄창입니다. 캐나다 민간 총기 규정을 충족하도록 설계되었으며, 자주 재장전해야 합니다."
+        "translation": "CSA의 SA vz.58용 .223 및 5.56x45mm 5발 고정식 탄창입니다. 손가락 홈을 넣은 견고한 폴리카보네이트 몸체로, 검은색 또는 잔탄 확인이 쉬운 반투명 스모크 색상을 제공합니다. 기울어지지 않는 팔로워와 크롬강 스프링을 사용하며 청소를 위해 완전히 분해할 수 있습니다."
       },
       {
         "key": "69b5c78205424d948b96044a Name",
@@ -3936,7 +3936,7 @@
       {
         "key": "69bc242eafe21c19b7fa1bcb Description",
         "source": "This adapter is intended to adapt M14x1 RH muzzles with M14x1 LH muzzle devices. Made from top quality US steel and finished in black oxide.",
-        "translation": "총구 나사산 규격을 다른 총구장치 규격에 맞게 변환해주는 어댑터입니다. 고품질 강재 또는 스테인리스로 제작되었으며 검은색 마감이 적용되어 있습니다."
+        "translation": "M14x1 오른나사(RH) 총구에 M14x1 왼나사(LH) 총구장치를 장착하도록 변환하는 어댑터입니다. 고품질 미국산 강철로 제작되어 검은색 산화피막으로 마감했습니다."
       },
       {
         "key": "69bc291d37403daf02fa1bce Name",
@@ -3951,7 +3951,7 @@
       {
         "key": "69bc291d37403daf02fa1bce Description",
         "source": "The stock adapter mounts easily on the VZ 58 and accepts any M4 style buffer tube. The adapter is made of aluminum and very light weight. The mounting screw is included with the adapter. Manufactured by Czech Small Arms.\nThe adapter mounts the tube at the bottom area of the vz.58 receiver and has slight downward angle. Even though this adapter mounts an M4 style stock higher than the original vz.58 wood impregnated buttstock, it still provides a comfortable cheek weld for iron sights.",
-        "translation": "vz. 58 플랫폼에 다른 규격의 개머리판이나 버퍼 튜브를 장착할 수 있게 해주는 어댑터입니다. 장착 호환성과 내구성을 높이도록 제작되었습니다."
+        "translation": "CSA의 VZ58용 경량 알루미늄 어댑터로, M4 규격 버퍼 튜브를 장착할 수 있고 장착 나사가 포함됩니다. 총몸 아래쪽에서 튜브가 약간 하향으로 기울어지도록 고정됩니다. 순정 개머리판보다 M4형 개머리판을 높은 위치에 장착하지만 기계식 조준기 사용 시에도 볼대기가 편안하도록 설계됐습니다."
       },
       {
         "key": "69bc298c7ccc1024cffa1bd1 Name",
@@ -3961,7 +3961,7 @@
       {
         "key": "69bc298c7ccc1024cffa1bd1 Description",
         "source": "Vz-58 stock adapter allows Sig and other brand stocks and braces which mount to a 1913 Picatinny interface to be used on Vz-58\n\nBest stock for use with iron sights is the Sig Minimalist and Minimalist Plus stock.\nThis adapter mounts the stock inline with the receiver.\nThis adapter was developed from original Czech receivers, aftermarket receivers may fit tight.",
-        "translation": "vz. 58 플랫폼에 다른 규격의 개머리판이나 버퍼 튜브를 장착할 수 있게 해주는 어댑터입니다. 장착 호환성과 내구성을 높이도록 제작되었습니다."
+        "translation": "Vz.58에 1913 피카티니 인터페이스로 장착되는 SIG 및 기타 브랜드 개머리판과 브레이스를 사용할 수 있게 하는 어댑터입니다. 기계식 조준기와 함께 쓰기에는 SIG 미니멀리스트 및 미니멀리스트 플러스 개머리판이 적합합니다. 개머리판을 총몸과 일직선으로 장착하며, 체코제 순정 총몸을 기준으로 설계되어 애프터마켓 총몸에는 꽉 끼일 수 있습니다."
       },
       {
         "key": "69bc29b28f485315c2fa1bd3 Name",
@@ -3976,7 +3976,7 @@
       {
         "key": "69bc29b28f485315c2fa1bd3 Description",
         "source": "Upgrade your firearm with the VZ.58 Zhukov-S Stock Adapter. This top-notch accessory is designed for superior performance and enhanced durability.\n\nThe VZ.58 Zhukov-S Stock Adapter ensures a secure fit for any Zhukov-S stock to your VZ.58 rifle, adding versatility and convenience to your shooting experience. Crafted with precision, the adapter is easy to install and offers a seamless fit, improving the overall functionality of your firearm.",
-        "translation": "vz. 58 플랫폼에 다른 규격의 개머리판이나 버퍼 튜브를 장착할 수 있게 해주는 어댑터입니다. 장착 호환성과 내구성을 높이도록 제작되었습니다."
+        "translation": "VZ58에 Zhukov-S 개머리판을 안정적으로 장착하도록 만든 전용 어댑터입니다. 높은 내구성과 정밀한 결합, 간편한 설치로 호환성과 편의성을 높입니다."
       },
       {
         "key": "69bc2ed044a7c4a09dfa1bd6 Name",
@@ -3991,7 +3991,7 @@
       {
         "key": "69bc2ed044a7c4a09dfa1bd6 Description",
         "source": "A Magpul Zhukov Lower Handguard from an AK that has been modified by a local gunsmith to fit the VZ58 platform and allow the bayonet to still be mounted on the rifle.",
-        "translation": "vz. 58용 총열덮개입니다. 가스 피스톤 튜브와 총열 열기로부터 사용자의 손을 보호하고 지지 손으로 잡을 수 있는 표면을 제공합니다."
+        "translation": "현지 총기공이 AK용 맥풀 주코프 하부 총열덮개를 VZ58에 맞게 개조한 제품입니다. 소총에 총검을 계속 장착할 수 있도록 제작되었습니다."
       },
       {
         "key": "69bc3161361fdfcdd2fa1bda Name",
@@ -4001,7 +4001,7 @@
       {
         "key": "69bc3161361fdfcdd2fa1bda Description",
         "source": "Convert your 14mm x 1 RH (select SKS, SA VZ-58, and Century VZ2008) barrel threads to 1/2\"-28 RH with this premium black stainless steel thread adapter from Infinite Product Solutions! Compatible with both rifle and pistol threads, this is the perfect solution for this particular thread conversion!",
-        "translation": "총구 나사산 규격을 다른 총구장치 규격에 맞게 변환해주는 어댑터입니다. 고품질 강재 또는 스테인리스로 제작되었으며 검은색 마감이 적용되어 있습니다."
+        "translation": "인피니트 프로덕트 솔루션의 검은색 스테인리스강 어댑터로, 일부 SKS·SA VZ-58·Century VZ2008 총열의 14mm×1 오른나사(RH)를 1/2-28 오른나사(RH)로 변환합니다. 소총과 권총 나사산에도 호환됩니다."
       },
       {
         "key": "69bd2f08baa2bff7e2835e54 name",
@@ -4033,7 +4033,7 @@
       {
         "key": "69bdda3023f8c5e2416920cd Description",
         "source": "This adapter is intended to adapt M14x1 RH muzzles with .308 caliber muzzle devices. Made from top quality US steel and finished in black oxide.",
-        "translation": "총구 나사산 규격을 다른 총구장치 규격에 맞게 변환해주는 어댑터입니다. 고품질 강재 또는 스테인리스로 제작되었으며 검은색 마감이 적용되어 있습니다."
+        "translation": "M14x1 오른나사(RH) 총구에 .308 구경 총구장치를 장착하도록 변환하는 어댑터입니다. 고품질 미국산 강철로 제작하고 검은색 산화피막으로 마감했습니다."
       },
       {
         "key": "69bf157bd21e3a7be025e83e name",
@@ -4223,7 +4223,7 @@
       {
         "key": "69e2592cde11021fc0ff1871 Description",
         "source": "The MOE SL-S provides the same advantages of our MOE SL® but adds two waterproof storage compartments for extra batteries, small parts, or gear. The storage tubes are located to help enhance cheek weld while maintaining its slim profile, maneuverability and fast handling. You’ll get fast adjustments to LOP in a stock that’s optimized to work efficiently with modern gear and slings.",
-        "translation": "MOE SL-S는 MOE SL의 장점을 유지하면서 예비 배터리, 소형 부품, 장비를 넣을 수 있는 방수 수납공간 두 개를 추가한 개머리판입니다. 수납 튜브는 뺨 용접을 향상시키도록 배치되어 있으며, 슬림한 형태와 빠른 조작성을 유지합니다."
+        "translation": "MOE SL-S는 MOE SL의 장점을 유지하면서 예비 배터리, 소형 부품이나 장비를 위한 방수 수납공간 두 개를 추가한 개머리판입니다. 수납 튜브는 슬림한 외형과 뛰어난 기동성·조작성을 유지하면서 안정적인 볼대기를 돕도록 배치했습니다. 현대식 장비와 슬링에 맞춰 최적화되었으며 견착 길이(LOP)를 빠르게 조절할 수 있습니다."
       },
       {
         "key": "69e2596c1fad487eefff1872 Name",
@@ -4278,7 +4278,7 @@
       {
         "key": "69e29e097259deabbcff1884 ShortName",
         "source": "Chimera Tan",
-        "translation": "키메라 Tan"
+        "translation": "키메라 황갈색"
       },
       {
         "key": "69e29e097259deabbcff1884 Description",
@@ -4408,7 +4408,7 @@
       {
         "key": "69ea9958a845fd3a7fbbee74 Description",
         "source": "A fully adjustable folding stock featuring a tool-less design for cheek weld and length-of-pull adjustments. Despite its skeletal appearance, it provides the rigid stability required for long-range precision shots.",
-        "translation": "뺨 용접과 견착 길이를 공구 없이 조절할 수 있는 완전 조절식 접이식 개머리판입니다. 골격형 외형에도 불구하고 장거리 정밀 사격에 필요한 단단한 안정성을 제공합니다."
+        "translation": "뺨 밀착 위치과 견착 길이를 공구 없이 조절할 수 있는 완전 조절식 접이식 개머리판입니다. 골격형 외형에도 불구하고 장거리 정밀 사격에 필요한 단단한 안정성을 제공합니다."
       },
       {
         "key": "69ea99e36159e1102bbbee77 Name",
@@ -4498,7 +4498,7 @@
       {
         "key": "69f3de69ac93bcc7b9e34f71 Description",
         "source": "The Steel Tiger is a thoroughly modern tactical interpretation of the Indonesian Karambit. A design collaboration between Lynn C. Thompson and the late custom knife maker Steven Likarich, the Steel Tiger was designed to possess all the best features of this iconic hooked blade and to integrate them seamlessly with modern materials and styling",
-        "translation": "콜드 스틸 스틸 타이거 카람빗입니다. 전술적 운용과 야외 작업을 위해 설계된 근접전/다목적 블레이드로, 휴대성과 내구성을 중시한 구조를 갖추었습니다."
+        "translation": "스틸 타이거는 인도네시아 카람빗을 현대적인 전술 도구로 재해석한 제품입니다. 린 C. 톰프슨과 고(故) 맞춤형 나이프 제작자 스티븐 리카리치가 공동 설계해, 상징적인 갈고리형 칼날의 장점을 현대 소재와 형태에 통합했습니다."
       },
       {
         "key": "69f3e174af10d16d81e34f73 Name",
@@ -4508,7 +4508,7 @@
       {
         "key": "69f3e174af10d16d81e34f73 Description",
         "source": "The Steel Tiger is a thoroughly modern tactical interpretation of the Indonesian Karambit. This one is Multicam Black. A design collaboration between Lynn C. Thompson and the late custom knife maker Steven Likarich, the Steel Tiger was designed to possess all the best features of this iconic hooked blade and to integrate them seamlessly with modern materials and styling",
-        "translation": "콜드 스틸 스틸 타이거 카람빗 (멀티캠 블랙)입니다. 전술적 운용과 야외 작업을 위해 설계된 근접전/다목적 블레이드로, 휴대성과 내구성을 중시한 구조를 갖추었습니다."
+        "translation": "스틸 타이거는 인도네시아 카람빗을 현대적인 전술 도구로 재해석한 칼이며, 이 제품은 멀티캠 블랙 버전입니다. 린 C. 톰프슨과 고(故) 스티븐 리카리치가 공동 설계해 갈고리형 칼날의 특징을 현대 소재와 디자인에 결합했습니다."
       },
       {
         "key": "69f3e17e6111bf6ae2e34f75 Name",
@@ -4518,7 +4518,7 @@
       {
         "key": "69f3e17e6111bf6ae2e34f75 Description",
         "source": "GBRS Group EDC G10 Dagger. A lightweight, compact dagger made out of G10 polycarbonate. Easily concealable but essentially single use. Undetectable by metal detectors. Does not include standard GBRS divorce papers",
-        "translation": "블랙 트라이앵글 X GBRS 그룹 EDC G10 단검입니다. 전술적 운용과 야외 작업을 위해 설계된 근접전/다목적 블레이드로, 휴대성과 내구성을 중시한 구조를 갖추었습니다."
+        "translation": "GBRS 그룹 EDC G10 단검은 G10 폴리카보네이트로 제작된 가볍고 작은 단검입니다. 은닉이 쉽지만 사실상 일회용이며 금속탐지기로는 감지되지 않습니다. GBRS 표준 이혼 서류는 포함되지 않습니다."
       },
       {
         "key": "69f3e188ceadbcbed5e34f77 Name",
@@ -4528,7 +4528,7 @@
       {
         "key": "69f3e188ceadbcbed5e34f77 Description",
         "source": "A customized variant of the classic hunting utility blade, redesigned with tactical ergonomics and reinforced full-tang construction. Features aggressive spine jimping, textured grip scales, and a compact drop-point profile suited for fieldcraft, survival tasks, and close-quarters utility work.",
-        "translation": "벤치메이드 히든 캐니언 헌터 택티컬 에디션입니다. 원본 모드 설명을 기준으로 추가된 항목이며, 게임 내 해당 장비의 기능과 외형 설명을 보존하도록 번역했습니다."
+        "translation": "전통적인 사냥용 다목적 칼을 전술적 인체공학과 강화된 풀탱 구조로 재설계한 맞춤형 제품입니다. 등면의 공격적인 짐핑, 요철이 있는 손잡이 패널, 작은 드롭포인트 칼날 형태를 갖춰 야외 생존과 근접 작업에 적합합니다."
       },
       {
         "key": "69f3e19a4864616557e34f79 Name",
@@ -4538,7 +4538,7 @@
       {
         "key": "69f3e19a4864616557e34f79 Description",
         "source": "A heavy-duty, 'overbuilt' tactical fixed-blade from the Mesa Grande series. This design prioritizes structural integrity above all else, featuring a thick, modified tanto blade and distinctive circular-scalloped G10 scales. Favored by PMCs who require a tool capable of both combat and extreme hard-use prying.",
-        "translation": "메사 그란데 커스텀 전술 전투 나이프입니다. 전술적 운용과 야외 작업을 위해 설계된 근접전/다목적 블레이드로, 휴대성과 내구성을 중시한 구조를 갖추었습니다."
+        "translation": "메사 그란데 시리즈의 튼튼하고 과도할 정도로 견고한 전술용 고정날 칼입니다. 두꺼운 변형 탄토 칼날과 독특한 원형 굴곡의 G10 손잡이 패널로 구조적 강도를 우선하며, 전투나 매우 강한 비틀기 작업이 필요한 PMC에게 선호됩니다."
       },
       {
         "key": "69f4affac52af4c196e34f7b Name",
@@ -4548,7 +4548,7 @@
       {
         "key": "69f4affac52af4c196e34f7b Description",
         "source": "A lightweight skeletonized combat blade manufactured by EDON-TECH using proprietary CPM-T440V steel. Designed for rapid handling and low-profile carry, the knife features an aggressively curved profile, structural cutouts for weight reduction, and a reinforced tactical grip optimized for defensive and utility applications.",
-        "translation": "EDON-TECH CPM-T440V입니다. 전술적 운용과 야외 작업을 위해 설계된 근접전/다목적 블레이드로, 휴대성과 내구성을 중시한 구조를 갖추었습니다."
+        "translation": "EDON-TECH의 독자적인 CPM-T440V 강재로 제작한 경량 골격형 전투용 칼입니다. 빠른 조작과 눈에 덜 띄는 휴대를 위해 급격한 곡선형 칼날, 경량화를 위한 구조적 절개, 방어 및 다목적 작업에 최적화된 강화 전술 손잡이를 갖췄습니다."
       },
       {
         "key": "69fe6849e4e15282c54fccf7 Name",
@@ -4679,7 +4679,7 @@
       },
       {
         "key": "6a063d7c7be336b8eaa07e04 Name",
-        "source": "JPC 1.0 AOR1",
+        "source": "Crye Precision JPC 1.0 plate carrier (AOR1)",
         "translation": "Crye Precision JPC 1.0 플레이트 캐리어 (AOR1)"
       },
       {
@@ -4689,7 +4689,7 @@
       },
       {
         "key": "6a063de26b5633b182a07e09 Name",
-        "source": "JPC 1.0 CADPAT TW",
+        "source": "Crye Precision JPC 1.0 plate carrier (CADPAT TW)",
         "translation": "Crye Precision JPC 1.0 플레이트 캐리어 (CADPAT TW)"
       },
       {
@@ -4699,7 +4699,7 @@
       },
       {
         "key": "6a063e01eccd94bc8aa07e0d Name",
-        "source": "JPC 1.0 cadpat mt",
+        "source": "Crye Precision JPC 1.0 plate carrier (CADPAT MT)",
         "translation": "Crye Precision JPC 1.0 플레이트 캐리어 (CADPAT MT)"
       },
       {
@@ -4709,7 +4709,7 @@
       },
       {
         "key": "6a063e1dbd0e87e04ca07e11 Name",
-        "source": "JPC 1.0 AOR2",
+        "source": "Crye Precision JPC 1.0 plate carrier (AOR2)",
         "translation": "Crye Precision JPC 1.0 플레이트 캐리어 (AOR2)"
       },
       {
@@ -4719,7 +4719,7 @@
       },
       {
         "key": "6a063e5bb485e7090ea07e14 Name",
-        "source": "LBT-6094 AOR1",
+        "source": "LBT-6094 plate carrier (AOR1)",
         "translation": "LBT-6094 플레이트 캐리어 (AOR1)"
       },
       {
@@ -4729,7 +4729,7 @@
       },
       {
         "key": "6a063e672f88f3143fa07e17 Name",
-        "source": "LBT-6094 AOR2",
+        "source": "LBT-6094 plate carrier (AOR2)",
         "translation": "LBT-6094 플레이트 캐리어 (AOR2)"
       },
       {
@@ -4739,7 +4739,7 @@
       },
       {
         "key": "6a063e7ab823859f6fa07e1c Name",
-        "source": "LBT-6094 cadpat mt",
+        "source": "LBT-6094 plate carrier (CADPAT MT)",
         "translation": "LBT-6094 플레이트 캐리어 (CADPAT MT)"
       },
       {
@@ -4749,7 +4749,7 @@
       },
       {
         "key": "6a063e879bc2ed754ca07e20 Name",
-        "source": "LBT-6094 CADPAT TW",
+        "source": "LBT-6094 plate carrier (CADPAT TW)",
         "translation": "LBT-6094 플레이트 캐리어 (CADPAT TW)"
       },
       {
@@ -5030,12 +5030,12 @@
       {
         "key": "6a0e43430b6f88f8d230530e Name",
         "source": "MSA Sordin Headband Cover (ABU Blue)",
-        "translation": "MSA Sordin 헤드밴드 커버 (ABU Blue)"
+        "translation": "MSA Sordin 헤드밴드 커버 (ABU 블루)"
       },
       {
         "key": "6a0e43430b6f88f8d230530e Description",
         "source": "MSA Sordin headband cover in prototype ABU Tigerstripe Blue camo that has been modified to fit the PELTOR  Headband, to provide a comfortable fit. ",
-        "translation": "PELTOR 헤드밴드에 맞도록 개조한 프로토타입 ABU Tigerstripe Blue 위장무늬 MSA Sordin 헤드밴드 커버로, 편안한 착용감을 제공합니다."
+        "translation": "펠터 헤드밴드에 맞도록 개조된 프로토타입 ABU 타이거스트라이프 블루 위장무늬 MSA 소딘 헤드밴드 커버입니다. 편안하게 착용할 수 있습니다."
       },
       {
         "key": "6a0e4358d460e95167305310 Name",
@@ -5200,7 +5200,7 @@
       {
         "key": "6a3ee36d7f4f2267b52ee1bd ShortName",
         "source": "AR-7 bbl 16\"",
-        "translation": "AR-7 bbl 16인치"
+        "translation": "AR-7 16인치 총열"
       },
       {
         "key": "6a3ee36d7f4f2267b52ee1bd Description",
@@ -5220,12 +5220,12 @@
       {
         "key": "6a3ee3c2f2b7441c862ee1c5 Name",
         "source": "Henry AR-7 factory folding stock",
-        "translation": "Henry AR-7 factory folding 개머리판"
+        "translation": "헨리 AR-7 순정 접이식 개머리판"
       },
       {
         "key": "6a3ee3c2f2b7441c862ee1c5 ShortName",
         "source": "AR-7 stock",
-        "translation": "AR-7"
+        "translation": "AR-7 개머리판"
       },
       {
         "key": "6a3ee3c2f2b7441c862ee1c5 Description",
@@ -5360,7 +5360,7 @@
       {
         "key": "6a3fd66af0f63c5a472ee1d2 ShortName",
         "source": "Bizon handguard",
-        "translation": "비존"
+        "translation": "비존 총열덮개"
       },
       {
         "key": "6a3fd66af0f63c5a472ee1d2 Description",
@@ -5375,7 +5375,7 @@
       {
         "key": "6a3fd799319444a8a12ee1d6 ShortName",
         "source": "Bizon 64rd",
-        "translation": "비존 64rd"
+        "translation": "비존 64발"
       },
       {
         "key": "6a3fd799319444a8a12ee1d6 Description",
@@ -5390,7 +5390,7 @@
       {
         "key": "6a3fd895dfdb558c2b2ee1d9 ShortName",
         "source": "Bizon rail",
-        "translation": "비존"
+        "translation": "비존 레일"
       },
       {
         "key": "6a3fd895dfdb558c2b2ee1d9 Description",
@@ -5405,7 +5405,7 @@
       {
         "key": "6a3fd91f0f16d9ab882ee1dc ShortName",
         "source": "Bizon muzzle brake",
-        "translation": "비존"
+        "translation": "비존 총구제퇴기"
       },
       {
         "key": "6a3fd91f0f16d9ab882ee1dc Description",
@@ -5714,8 +5714,8 @@
       },
       {
         "key": "6a96d3fba449b63123305a82",
-        "source": "Eliminate 15 Scavs or PMCs indoors on Factory, Shoreline or Customs with the Ultimax 100",
-        "translation": "공장, 해안선 또는 세관의 실내에서 울티맥스 100으로 스캐브 또는 PMC 15명 처치하기",
+        "source": "Eliminate 15 Scavs or PMCs on Factory, Shoreline or Customs with the Ultimax 100",
+        "translation": "공장, 해안선 또는 세관에서 울티맥스 100으로 스캐브 또는 PMC 15명 처치하기",
         "display_type": "quest_objective"
       },
       {
@@ -5906,7 +5906,7 @@
       {
         "key": "6aa9ce51b6440969b80af588 Description",
         "source": "Come, weary traveler, and rest your little head",
-        "translation": "SPR300 소총용 조절식 볼받침입니다. 편안함과 일관성을 함께 챙겨줍니다."
+        "translation": "어서 오세요, 지친 여행자여. 잠시 작은 머리를 기대고 쉬어 가세요."
       },
       {
         "key": "6aa9ce63bb414f28e50af589 Name",
@@ -5916,7 +5916,7 @@
       {
         "key": "6aa9ce63bb414f28e50af589 Description",
         "source": "Come, weary traveler, and rest your little head",
-        "translation": "SPR300 소총용 조절식 볼받침입니다. 편안함과 일관성을 함께 챙겨줍니다."
+        "translation": "어서 오세요, 지친 여행자여. 잠시 작은 머리를 기대고 쉬어 가세요."
       },
       {
         "key": "6ddf281ec6d37e184d11cc88",
@@ -6016,8 +6016,8 @@
       },
       {
         "key": "77e8cc5131aa3a55073ef308",
-        "source": "Eliminate 8 PMCs or bosses with a .338 Lapua Magnum rifle",
-        "translation": ".338 라푸아 매그넘 소총으로 PMC 또는 보스 8명 처치하기",
+        "source": "Eliminate 8 enemies with a .338 Lapua Magnum rifle",
+        "translation": ".338 라푸아 매그넘 소총으로 적 8명 처치하기",
         "display_type": "quest_objective"
       },
       {
@@ -6400,8 +6400,8 @@
       },
       {
         "key": "b171039783e859e1d979653f",
-        "source": "Modify and hand over an RSASS or SR-25: 65+ ergonomics, under 180 recoil",
-        "translation": "RSASS 또는 SR-25를 인체공학 65 이상, 반동 180 미만으로 개조해 건네주기",
+        "source": "Modify and hand over an RSASS or SR-25: 55+ ergonomics, under 280 total recoil",
+        "translation": "RSASS 또는 SR-25를 인체공학 55 이상, 총반동 280 미만으로 개조해 건네주기",
         "display_type": "quest_objective"
       },
       {
@@ -6504,8 +6504,8 @@
       },
       {
         "key": "bcacffb4c060675cacf427aa",
-        "source": "Land 10 headshot kills with handguns on Interchange",
-        "translation": "인터체인지에서 권총 헤드샷으로 10명 처치하기",
+        "source": "Eliminate 10 Scavs with handgun headshots on Interchange",
+        "translation": "인터체인지에서 권총으로 스캐브 10명을 헤드샷 처치하기",
         "display_type": "quest_objective"
       },
       {
@@ -7058,8 +7058,8 @@
       },
       {
         "key": "f0dfaf7be147d62553c4369b description",
-        "source": "Direct impingement .308 platforms require exacting receiver tolerances to avoid cycling failures under high-pressure handloads. The Aero Precision M5 achieves this balance at a fraction of the mass of military-surplus battle rifles. Provide me a benchmark platform for comparison, along with cooling hardware for my CNC milling center.",
-        "translation": "가스 직동식 .308 플랫폼은 고압 수제 탄약을 사용할 때 작동 불량을 피하려면 총몸 공차가 정밀해야 해. 에어로 프리시전 M5는 군용 불용 전투소총보다 훨씬 가벼우면서도 그 균형을 잡았지. 비교 기준으로 삼을 총기와 내 CNC 머시닝 센터에 쓸 냉각 부품을 가져와 줘.",
+        "source": "Direct impingement .308 platforms require exacting receiver tolerances to avoid cycling failures under high-pressure handloads. The Aero Precision M5 achieves this balance at a fraction of the mass of military-surplus battle rifles. Provide me a benchmark platform for comparison, along with cooling fans and control boards for my CNC milling center.",
+        "translation": "가스 직동식 .308 플랫폼은 고압 수제 탄약을 사용할 때 작동 불량을 피하려면 총몸 공차가 정밀해야 해. 에어로 프리시전 M5는 군용 불용 전투소총보다 훨씬 가벼우면서도 그 균형을 잡았지. 비교 기준으로 삼을 총기와 내 CNC 머시닝 센터에 쓸 냉각 팬 및 제어 기판을 가져와 줘.",
         "display_type": "quest_description"
       },
       {
@@ -7080,8 +7080,8 @@
       },
       {
         "key": "f330d7cd1b9822ce5556a05d",
-        "source": "Eliminate 10 Scavs on Woods with a suppressed 5.56 rifle",
-        "translation": "삼림에서 소음기가 장착된 5.56 소총으로 스캐브 10명 처치하기",
+        "source": "Eliminate 10 Scavs on Woods with a suppressed weapon",
+        "translation": "삼림에서 소음기가 장착된 무기로 스캐브 10명 처치하기",
         "display_type": "quest_objective"
       },
       {
@@ -7130,14 +7130,14 @@
       },
       {
         "key": "f6baf737695fb28c2b3c1134",
-        "source": "Stash 1 Slickers bar in the car trunk near Customs dorms",
-        "translation": "세관 기숙사 근처 자동차 트렁크에 슬리커즈 초콜릿 바 1개 숨겨두기",
+        "source": "Stash 1 bottle of Dan Jackiel whiskey in the car trunk near Customs dorms",
+        "translation": "세관 기숙사 근처 자동차 트렁크에 댄 재키엘 위스키 1병 숨겨두기",
         "display_type": "quest_objective"
       },
       {
         "key": "fa728f9e69d24c733b026f81",
         "source": "Eliminate 15 PMCs or Rogues with a heavy sniper or anti-materiel rifle",
-        "translation": "중저격소총 또는 대물소총으로 PMC 또는 로그 15명 처치하기",
+        "translation": "대형 저격소총 또는 대물소총으로 PMC 또는 로그 15명 처치하기",
         "display_type": "quest_objective"
       },
       {
@@ -7154,8 +7154,8 @@
       },
       {
         "key": "fb4f380e672669dda55551b0 startedMessageText",
-        "source": "Walk out of the forest alive. That is all I ask.",
-        "translation": "숲에서 살아 나오게. 내가 바라는 건 그것뿐이네."
+        "source": "Walk out of the forest alive, and bring me food and water you found yourself. That is all I ask.",
+        "translation": "숲에서 살아 나오고, 직접 발견한 음식과 물을 가져오게. 내가 바라는 건 그것뿐이네."
       },
       {
         "key": "fb4f380e672669dda55551b0 successMessageText",
@@ -7214,12 +7214,12 @@
       {
         "key": "6a0500a28dbfd63b56fa771e Name",
         "source": "Ruger American Rimfire Target Black Laminate stock",
-        "translation": "Ruger American Rimfire Target Black Laminate 개머리판"
+        "translation": "루거 아메리칸 림파이어 타겟 검은색 적층목 개머리판"
       },
       {
         "key": "6a0500a28dbfd63b56fa771e ShortName",
         "source": "American Black stock",
-        "translation": "아메리칸 검은색"
+        "translation": "아메리칸 검은색 개머리판"
       },
       {
         "key": "6a0500a28dbfd63b56fa771e Description",
@@ -7229,7 +7229,7 @@
       {
         "key": "6a05019ca48b70cedcfa7720 Name",
         "source": "Ruger American Rimfire one-piece aluminum scope rail",
-        "translation": "Ruger American Rimfire one-piece aluminum 조준경 레일"
+        "translation": "루거 아메리칸 림파이어 일체형 알루미늄 조준경 레일"
       },
       {
         "key": "6a05019ca48b70cedcfa7720 ShortName",
@@ -7244,12 +7244,12 @@
       {
         "key": "6a05023a48301626ccfa7723 Name",
         "source": "Ruger American Rimfire Synthetic Camo stock",
-        "translation": "Ruger American Rimfire Synthetic Camo 개머리판"
+        "translation": "루거 아메리칸 림파이어 합성수지 위장무늬 개머리판"
       },
       {
         "key": "6a05023a48301626ccfa7723 ShortName",
         "source": "American Camo stock",
-        "translation": "아메리칸 위장무늬"
+        "translation": "아메리칸 위장무늬 개머리판"
       },
       {
         "key": "6a05023a48301626ccfa7723 Description",
@@ -7399,15 +7399,15 @@
       },
       {
         "key": "4a16e3abca436a0c00ef2e18",
-        "source": "Hand over 3 Secure Flash drives found in raid",
-        "translation": "레이드에서 발견한 보안 USB 플래시 드라이브 3개 건네주기",
+        "source": "Hand over 3 SSD drives found in raid",
+        "translation": "레이드에서 발견한 SSD 드라이브 3개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
       {
         "key": "4d2734ec0f7e9b0a70ca6a06",
-        "source": "Hand over 5 40mm HE or HEDP grenades found in raid",
-        "translation": "레이드에서 발견한 40mm HE 또는 HEDP 유탄 5개 건네주기",
+        "source": "Hand over 5 40mm grenades found in raid",
+        "translation": "레이드에서 발견한 40mm 유탄 5발 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -7473,8 +7473,8 @@
       },
       {
         "key": "5d531c0bce9958f842aedd81",
-        "source": "Hand over 2 Secure Flash drives found in raid",
-        "translation": "레이드에서 발견한 보안 USB 플래시 드라이브 2개 건네주기",
+        "source": "Hand over 2 SSD drives found in raid",
+        "translation": "레이드에서 발견한 SSD 드라이브 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -7510,15 +7510,15 @@
       },
       {
         "key": "6ae239e0426cec6734add36f",
-        "source": "Hand over 2 Secure Flash drives found in raid",
-        "translation": "레이드에서 발견한 보안 USB 플래시 드라이브 2개 건네주기",
+        "source": "Hand over 2 SSD drives found in raid",
+        "translation": "레이드에서 발견한 SSD 드라이브 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
       {
         "key": "6d2c04404658a80d09a9086e",
-        "source": "Hand over 2 Car bulbs",
-        "translation": "자동차 전구 2개 건네주기",
+        "source": "Hand over 2 Light bulbs found in raid",
+        "translation": "레이드에서 발견한 전구 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -7628,8 +7628,8 @@
       },
       {
         "key": "c5a5b3b815dc225e1f3c1a44",
-        "source": "Hand over 1 Relay",
-        "translation": "릴레이 1개 건네주기",
+        "source": "Hand over 1 Phase control relay found in raid",
+        "translation": "레이드에서 발견한 위상 제어 릴레이 1개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -7686,8 +7686,8 @@
       },
       {
         "key": "69b30ec8e0f88a8ea828ae3e acceptPlayerMessage",
-        "source": "He provided a list of... strange guns. He said it represents his 'middle-class values'. Whatever that means.",
-        "translation": "그 사람이... 이상한 총기 목록을 줬어. 자기 '중산층의 가치관'을 보여 주는 목록이라더군. 무슨 뜻인지는 모르겠지만.",
+        "source": "I'll take it.",
+        "translation": "맡겠습니다.",
         "match_mode": "item_decorated"
       },
       {
@@ -7752,22 +7752,22 @@
       },
       {
         "key": "38ea0a586e7edab8a7efa686",
-        "source": "Hand over 1 bottle of water",
-        "translation": "생수 1병 건네주기",
+        "source": "Hand over 1 bottle of water found in raid",
+        "translation": "레이드에서 발견한 생수 1병 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
       {
         "key": "45677ad44b81547223d8352e",
-        "source": "Hand over 2 Zenit 2P Klesch flashlights found in raid",
-        "translation": "레이드에서 발견한 Zenit 2P Klesch 손전등 2개 건네주기",
+        "source": "Hand over 2 Zenit Klesch-2P flashlights found in raid",
+        "translation": "레이드에서 발견한 제니트 클레시-2P 손전등 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
       {
         "key": "50b1056d77a5f98dd3983aab",
-        "source": "Hand over 1 pack of \"Strike\" cigarettes",
-        "translation": "Strike 담배 1갑 건네주기",
+        "source": "Hand over 1 pack of \"Strike\" cigarettes found in raid",
+        "translation": "레이드에서 발견한 「Strike」 담배 1갑 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -7838,8 +7838,8 @@
       },
       {
         "key": "1fe7813c2029b39b9d1e5c66",
-        "source": "Hand over 2 Military cables found in raid",
-        "translation": "레이드에서 발견한 군용 케이블 2개 건네주기",
+        "source": "Hand over 2 Military flash drives found in raid",
+        "translation": "레이드에서 발견한 군용 플래시 드라이브 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -8266,8 +8266,8 @@
       },
       {
         "key": "c4c7b5caca35ba828318c707",
-        "source": "Hand over 2 Working LCDs found in raid",
-        "translation": "레이드에서 발견한 작동하는 LCD 2개 건네주기",
+        "source": "Hand over 2 SSD drives found in raid",
+        "translation": "레이드에서 발견한 SSD 드라이브 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -8407,8 +8407,8 @@
       },
       {
         "key": "ef90bd6b54ab50f5fef38b75",
-        "source": "Hand over 2 Secure Flash drives found in raid",
-        "translation": "레이드에서 발견한 보안 USB 플래시 드라이브 2개 건네주기",
+        "source": "Hand over 2 SSD drives found in raid",
+        "translation": "레이드에서 발견한 SSD 드라이브 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -8487,8 +8487,8 @@
       },
       {
         "key": "01a89eafbde95a67dc32bafa",
-        "source": "Hand over 1 Pliers Elite",
-        "translation": "엘리트 플라이어 1개 건네주기",
+        "source": "Hand over 1 Pliers Elite found in raid",
+        "translation": "레이드에서 발견한 엘리트 플라이어 1개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -8567,8 +8567,8 @@
       },
       {
         "key": "0fef76333d3fb7706de92b92",
-        "source": "Hand over 2 Pliers Elite",
-        "translation": "엘리트 플라이어 2개 건네주기",
+        "source": "Hand over 2 Pliers Elite found in raid",
+        "translation": "레이드에서 발견한 엘리트 플라이어 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -8581,8 +8581,8 @@
       },
       {
         "key": "127cb878304d498a4b81e366",
-        "source": "Hand over 1 roll of Insulating tape",
-        "translation": "절연 테이프 1개 건네주기",
+        "source": "Hand over 1 roll of Insulating tape found in raid",
+        "translation": "레이드에서 발견한 절연 테이프 1개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -8594,8 +8594,8 @@
       },
       {
         "key": "189941094b4e4ab2c20b792d",
-        "source": "Hand over 2 Batteries",
-        "translation": "건전지 2개 건네주기",
+        "source": "Hand over 2 AA Batteries found in raid",
+        "translation": "레이드에서 발견한 AA 건전지 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -8638,8 +8638,8 @@
       },
       {
         "key": "21b4fe3e73acd959f85d335d",
-        "source": "Hand over 2 White flares",
-        "translation": "흰색 조명탄 2개 건네주기",
+        "source": "Hand over 2 White flares found in raid",
+        "translation": "레이드에서 발견한 흰색 조명탄 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -8832,8 +8832,8 @@
       },
       {
         "key": "33eba75a79ab05fba66b3299",
-        "source": "Hand over 1 Military corrugated hose found in raid",
-        "translation": "레이드에서 발견한 군용 주름관 1개 건네주기",
+        "source": "Hand over 1 Corrugated hose found in raid",
+        "translation": "레이드에서 발견한 주름관 1개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -8846,8 +8846,8 @@
       },
       {
         "key": "37150d3218541316177cff77",
-        "source": "Hand over 2 packs of screws",
-        "translation": "나사 팩 2개 건네주기",
+        "source": "Hand over 2 packs of Screw nuts found in raid",
+        "translation": "레이드에서 발견한 나사 너트 팩 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -9176,8 +9176,8 @@
       },
       {
         "key": "6b7797220a48f87658e8604f",
-        "source": "Hand over 3 cans of WD-40 (100ml)",
-        "translation": "WD-40 윤활유 100ml 3개 건네주기",
+        "source": "Hand over 3 cans of WD-40 (100ml) found in raid",
+        "translation": "레이드에서 발견한 WD-40(100ml) 3캔 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -9190,8 +9190,8 @@
       },
       {
         "key": "70ce492a8bcacbd2d5e213db",
-        "source": "Hand over 3 Military corrugated tubes found in raid",
-        "translation": "레이드에서 발견한 군용 주름관 3개 건네주기",
+        "source": "Hand over 3 Corrugated hoses found in raid",
+        "translation": "레이드에서 발견한 주름관 3개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -9264,8 +9264,8 @@
       },
       {
         "key": "7f707644cdcf3fbc86aea25a",
-        "source": "Hand over 2 Metal spare parts",
-        "translation": "금속 예비 부품 2개 건네주기",
+        "source": "Hand over 2 Metal spare parts found in raid",
+        "translation": "레이드에서 발견한 금속 예비 부품 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -9277,8 +9277,8 @@
       },
       {
         "key": "8305aea2d849390702690b10",
-        "source": "Hand over 2 bottles of kerosene as degreaser",
-        "translation": "기름때 제거에 쓸 등유 2병 건네주기",
+        "source": "Hand over 2 Expeditionary fuel tanks",
+        "translation": "원정용 연료 탱크 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -9358,8 +9358,8 @@
       },
       {
         "key": "8f9172708a451f5a643bd805",
-        "source": "Hand over 1 Paracord",
-        "translation": "파라코드 1개 건네주기",
+        "source": "Hand over 1 Paracord found in raid",
+        "translation": "레이드에서 발견한 파라코드 1개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -9458,8 +9458,8 @@
       },
       {
         "key": "badae9a2be55ccc302c3c206",
-        "source": "Hand over 1 can of WD-40 (100ml)",
-        "translation": "WD-40 윤활유 100ml 1개 건네주기",
+        "source": "Hand over 1 can of WD-40 (100ml) found in raid",
+        "translation": "레이드에서 발견한 WD-40(100ml) 1캔 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -9516,8 +9516,8 @@
       },
       {
         "key": "ce010975d94d1bd130450aca",
-        "source": "Hand over 5 PMC dogtags, level 35 or higher",
-        "translation": "35레벨 이상 PMC 인식표 5개 건네주기",
+        "source": "Hand over 5 found-in-raid PMC dogtags, level 35 or higher",
+        "translation": "레이드에서 발견한 35레벨 이상 PMC 인식표 5개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -9560,8 +9560,8 @@
       },
       {
         "key": "d6a143cb0b9f375f392e9082",
-        "source": "Hand over 1 Hunting matchbox",
-        "translation": "사냥용 성냥 1개 건네주기",
+        "source": "Hand over 1 Hunting matchbox found in raid",
+        "translation": "레이드에서 발견한 사냥용 성냥 1개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -9574,8 +9574,8 @@
       },
       {
         "key": "dac070573e68c059a623a547",
-        "source": "Hand over 1 Great One card found in raid",
-        "translation": "레이드에서 발견한 Great One 카드 1개 건네주기",
+        "source": "Hand over 1 'The Great One' bronze statue found in raid",
+        "translation": "레이드에서 발견한 「The Great One」 청동상 1개 건네주기",
         "match_mode": "item_decorated"
       },
       {
@@ -9741,8 +9741,8 @@
       },
       {
         "key": "f8f155259f1369a3cb65868d",
-        "source": "Hand over 3 rolls of Duct tape",
-        "translation": "덕트 테이프 3개 건네주기",
+        "source": "Hand over 3 rolls of Duct tape found in raid",
+        "translation": "레이드에서 발견한 덕트 테이프 3롤 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -10000,8 +10000,8 @@
       },
       {
         "key": "0bc3727cef1ee25d5690880c",
-        "source": "Hand over 2 CPU fans",
-        "translation": "CPU 팬 2개 건네주기",
+        "source": "Hand over 2 CPU fans found in raid",
+        "translation": "레이드에서 발견한 CPU 팬 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -10014,8 +10014,8 @@
       },
       {
         "key": "37f083722d6dee53521683fd",
-        "source": "Hand over 2 Printed circuit boards",
-        "translation": "인쇄 회로 기판 2개 건네주기",
+        "source": "Hand over 2 Military circuit boards found in raid",
+        "translation": "레이드에서 발견한 군용 회로 기판 2개 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -10211,8 +10211,8 @@
       },
       {
         "key": "7a745d90927018bbb3b8e632",
-        "source": "Hand over 3 Gunpowder \"Hawk\" found in raid",
-        "translation": "레이드에서 발견한 Hawk 화약 3개 건네주기",
+        "source": "Hand over 3 packs of gunpowder (\"Kite\", \"Eagle\" or \"Hawk\") found in raid",
+        "translation": "레이드에서 발견한 「Kite」, 「Eagle」 또는 「Hawk」 화약 3팩 건네주기",
         "match_mode": "item_decorated",
         "display_type": "quest_objective"
       },
@@ -10415,6 +10415,838 @@
         "translation": "vz. 58 하부 총열덮개",
         "match_mode": "exact",
         "display_type": "default"
+      },
+      {
+        "key": "68b4b52f1a1ff2a6c49ac5be ShortName",
+        "source": "AR-18",
+        "translation": "AR-18",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68ded60bbd53f44248ea324f ShortName",
+        "source": "HK P30",
+        "translation": "HK P30",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6984ea4cd22cdc3936de0b77 ShortName",
+        "source": "HK P30L",
+        "translation": "HK P30L",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68e025fd8d83867f8fe9bc5f ShortName",
+        "source": "P30L RMR",
+        "translation": "P30L RMR",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690a22f8b12972947a6a4723 ShortName",
+        "source": "PPSh BTA",
+        "translation": "PPSh BTA",
+        "match_mode": "exact"
+      },
+      {
+        "key": "690a23ad14158912787e4659 ShortName",
+        "source": "UAS PPSh",
+        "translation": "UAS PPSh",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6917bfb870f5e5d6aea8165d ShortName",
+        "source": "AMP Arms (BLK)",
+        "translation": "AMP 암(검은색)",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6917c633200042156b8bdb52 ShortName",
+        "source": "C11 BB",
+        "translation": "C11 BB",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6917c69f14af1f6aff139dbd ShortName",
+        "source": "C11 NK",
+        "translation": "C11 NK",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6917c6de1d18ca02f4868839 ShortName",
+        "source": "C11 AOR2",
+        "translation": "C11 AOR2",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6920f5d89049842deac34398 ShortName",
+        "source": "ACE 31",
+        "translation": "ACE 31",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6928b6bf523e7af9a6ed2cec ShortName",
+        "source": "SPR300",
+        "translation": "SPR300",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6928ccf3e483449082ed2cfe ShortName",
+        "source": "SPR300 SD",
+        "translation": "SPR300 SD",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6930cde327aa0ba2c16d3d01 ShortName",
+        "source": "T81 SE",
+        "translation": "T81 SE",
+        "match_mode": "exact"
+      },
+      {
+        "key": "693322bda247a70444b155d2 ShortName",
+        "source": "T81 5/30",
+        "translation": "T81 5/30",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6932eef319a1361673b155cd ShortName",
+        "source": "C11 T81 ACR",
+        "translation": "C11 T81 ACR",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69583cac7bad89e9f121a1e0 ShortName",
+        "source": "AM-180",
+        "translation": "AM-180",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6958492171c81a769421a1ff ShortName",
+        "source": "AM-180 Tommy",
+        "translation": "AM-180 Tommy",
+        "match_mode": "exact"
+      },
+      {
+        "key": "695849c97bbef3c79621a200 ShortName",
+        "source": "AM-180 177",
+        "translation": "AM-180 177",
+        "match_mode": "exact"
+      },
+      {
+        "key": "695ffdaedd28a71ea5446f66 ShortName",
+        "source": "Vzor-4",
+        "translation": "Vzor-4",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6967fc674a2b4f226ea35d55 ShortName",
+        "source": "AR18 30",
+        "translation": "AR18 30",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6967fc636ea2d0d46fa35d54 ShortName",
+        "source": "AR18 40",
+        "translation": "AR18 40",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69697d299ab4f546c9a35d6e ShortName",
+        "source": "AM-180 275",
+        "translation": "AM-180 275",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6968fd52be483ad558a35d5c ShortName",
+        "source": "G34",
+        "translation": "G34",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69712e4ce8805e854fe7e8e1 ShortName",
+        "source": "ACE 32",
+        "translation": "ACE 32",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6917c4906c6dac68cc13588a ShortName",
+        "source": "FAST NGH AOR2",
+        "translation": "FAST NGH AOR2",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6998e4f8f156ad13a1f7a055 ShortName",
+        "source": "FAST NGH CADPAT MT",
+        "translation": "FAST NGH CADPAT MT",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69a9dfa0e55d527115eee872 ShortName",
+        "source": "DAM .22lr",
+        "translation": "DAM .22lr",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69a9e0fb79fe0b0af4eee874 ShortName",
+        "source": "MFMD Blk",
+        "translation": "MFMD 검은색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69a9e1a0170829d138eee876 ShortName",
+        "source": "MFMD FDE",
+        "translation": "MFMD 사막색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69a9bd241c35419872eee854 ShortName",
+        "source": "vz. 58",
+        "translation": "vz. 58",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69aa0ed9742a904a11eee899 ShortName",
+        "source": "vz. 58 SUHG",
+        "translation": "vz. 58 상부 총열덮개",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69aa0f6a5e64671cf1eee89c ShortName",
+        "source": "vz. 58 SLHG",
+        "translation": "vz. 58 하부 총열덮개",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69a9da5c989b7745d0eee86e ShortName",
+        "source": "vz. 58 bayo",
+        "translation": "vz. 58 총검",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69a9d99ddbac50eab8eee869 ShortName",
+        "source": "vz. 58 30-rd",
+        "translation": "vz. 58 30발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69a9dbdcdbaad6de81eee871 ShortName",
+        "source": "vz. 58 5-rd",
+        "translation": "vz. 58 5발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69a9d9fa1ba85d4e13eee86c ShortName",
+        "source": "vz. 58 Prot",
+        "translation": "vz. 58 보호캡",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69aa0d470be3626d9aeee88b ShortName",
+        "source": "vz. 58 Short",
+        "translation": "vz. 58 단축형",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69aa0e555c15e9d675eee897 ShortName",
+        "source": "vz. 58 Wire",
+        "translation": "vz. 58 와이어",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69b568b7b69816e00a28ae51 ShortName",
+        "source": "vz. 58 5.56",
+        "translation": "vz. 58 5.56",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69b5698b5422bd822228ae5d ShortName",
+        "source": "CSA 5.56 30rd",
+        "translation": "CSA 5.56 31발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69b56a182f1ace21b528ae60 ShortName",
+        "source": "CSA 5.56 5rd",
+        "translation": "CSA 5.56 5발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69b5c78205424d948b96044a ShortName",
+        "source": "SKS-D",
+        "translation": "SKS-D",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69bae79dde9df8f87bfa1bc6 ShortName",
+        "source": "VZ58 M1-B",
+        "translation": "VZ58 M1-B",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69bc242eafe21c19b7fa1bcb ShortName",
+        "source": "CNC RH-LH",
+        "translation": "CNC RH-LH",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69bdda3023f8c5e2416920cd ShortName",
+        "source": "CNC RH-308",
+        "translation": "CNC RH-308",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69bc3161361fdfcdd2fa1bda ShortName",
+        "source": "IPS RH-LH",
+        "translation": "IPS RH-LH",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69bc298c7ccc1024cffa1bd1 ShortName",
+        "source": "vz58 1913 SA",
+        "translation": "vz58 1913 SA",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a1b2c3d4e5f6a7b8c9d0e20 ShortName",
+        "source": "Aero M5",
+        "translation": "Aero M5",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69e239f2a9e8af1931ff1856 ShortName",
+        "source": "C-Mag 100",
+        "translation": "C-Mag 100",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69e2578f9e2f3658f4ff1863 ShortName",
+        "source": "Breach 308",
+        "translation": "Breach 308",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69e2558872ca7a7ea2ff1861 ShortName",
+        "source": "Saker 762",
+        "translation": "Saker 762",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69e90fbb0655531529ff1891 ShortName",
+        "source": "M4A1 .22LR",
+        "translation": "M4A1 .22LR",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69e90ce8cbaf23280dff188f ShortName",
+        "source": "CMMG 25rd",
+        "translation": "CMMG 25발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69e3d5a9609333ebadff188a ShortName",
+        "source": "DTNVS",
+        "translation": "DTNVS",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69e3d5a8dffbd50412ff1889 ShortName",
+        "source": "PVS-5A",
+        "translation": "PVS-5A",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69ea94d9735c0ab5f2bbee67 ShortName",
+        "source": "CS5",
+        "translation": "CS5",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69ea9f45bd564fec81bbee8a ShortName",
+        "source": "CS5 Brake",
+        "translation": "CS5 제퇴기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69ea9c643d4f056cd6bbee86 ShortName",
+        "source": "CS5 Top",
+        "translation": "CS5 상부",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69f3e17e6111bf6ae2e34f75 ShortName",
+        "source": "GBRS G10",
+        "translation": "GBRS G10",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69f3e188ceadbcbed5e34f77 ShortName",
+        "source": "HCHTE",
+        "translation": "HCHTE",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69f4affac52af4c196e34f7b ShortName",
+        "source": "EDT-440V",
+        "translation": "EDT-440V",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69fe6849e4e15282c54fccf7 ShortName",
+        "source": "M203-C",
+        "translation": "M203-C",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69fe6acda190902b1a4fccff ShortName",
+        "source": "USW",
+        "translation": "USW",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69fe6ad6c4b9b27a984fcd01 ShortName",
+        "source": "USW 17rd",
+        "translation": "USW 17발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69fe6d5e2d6d4cf1904fcd17 ShortName",
+        "source": "Nano",
+        "translation": "Nano",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a05028e51f698d388fa7725 ShortName",
+        "source": "BX-1 10-rd",
+        "translation": "BX-1 10발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a0502f53ab1a759f9fa7729 ShortName",
+        "source": "BX-25 25-rd",
+        "translation": "BX-25 25발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a0e13a9b1f1333de13052c8 ShortName",
+        "source": "AMP Arms Tan",
+        "translation": "AMP 암 황갈색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a0e13c5113b24a5bc3052cb ShortName",
+        "source": "AMP Arms FG",
+        "translation": "AMP 암 수풀색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a0e13e4d4c66b01c53052ce ShortName",
+        "source": "AMP Arms RG",
+        "translation": "AMP 암 RG",
+        "match_mode": "exact"
+      },
+      {
+        "key": "a01000000000000000000001 ShortName",
+        "source": "AMP Blk",
+        "translation": "AMP 검은색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "a01000000000000000000002 ShortName",
+        "source": "AMP FG",
+        "translation": "AMP 수풀색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "a01000000000000000000003 ShortName",
+        "source": "AMP RG",
+        "translation": "AMP RG",
+        "match_mode": "exact"
+      },
+      {
+        "key": "a01000000000000000000004 ShortName",
+        "source": "AMP Tan",
+        "translation": "AMP 황갈색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c06000000000000000000001 ShortName",
+        "source": "ComTac VI DNC",
+        "translation": "ComTac VI DNC",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c06000000000000000000002 ShortName",
+        "source": "ComTac VI DNCBlk",
+        "translation": "ComTac VI DNCBlk",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c06000000000000000000003 ShortName",
+        "source": "ComTac VI MCB",
+        "translation": "ComTac VI MCB",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c06000000000000000000004 ShortName",
+        "source": "ComTac VI UCP",
+        "translation": "ComTac VI UCP",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c04000000000000000000001 ShortName",
+        "source": "ComTac IV Tan",
+        "translation": "ComTac IV 황갈색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c04000000000000000000002 ShortName",
+        "source": "ComTac IV DNC",
+        "translation": "ComTac IV DNC",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c04000000000000000000003 ShortName",
+        "source": "ComTac IV DNCBlk",
+        "translation": "ComTac IV DNCBlk",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c04000000000000000000004 ShortName",
+        "source": "ComTac IV MCB",
+        "translation": "ComTac IV MCB",
+        "match_mode": "exact"
+      },
+      {
+        "key": "cad000000000000000000000 ShortName",
+        "source": "FAST SF CADPAT TW",
+        "translation": "FAST SF CADPAT TW",
+        "match_mode": "exact"
+      },
+      {
+        "key": "d11c00000000000000000000 ShortName",
+        "source": "FAST SF DNC",
+        "translation": "FAST SF DNC",
+        "match_mode": "exact"
+      },
+      {
+        "key": "d11b00000000000000000000 ShortName",
+        "source": "FAST SF DNC Blk",
+        "translation": "FAST SF DNC 검은색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "a11e00000000000000000000 ShortName",
+        "source": "FAST SF MC Alp",
+        "translation": "FAST SF MC Alp",
+        "match_mode": "exact"
+      },
+      {
+        "key": "bac100000000000000000000 ShortName",
+        "source": "FAST SF MCB",
+        "translation": "FAST SF MCB",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a0e17dc7ac877c8423052d4 ShortName",
+        "source": "C11 BB LF-DH",
+        "translation": "C11 BB LF-DH",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a0e17dc8fa4decb3b3052d5 ShortName",
+        "source": "C11 NK MCB",
+        "translation": "C11 NK MCB",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a0e17dd4a9dfc67713052d6 ShortName",
+        "source": "C11 Veg MCB",
+        "translation": "C11 Veg MCB",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a0e18b0fb8c38f6153052dd ShortName",
+        "source": "VLite IR",
+        "translation": "VLite IR",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a0e26261115cb8e9d30530c ShortName",
+        "source": "HB M81",
+        "translation": "HB M81",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a0e43430b6f88f8d230530e ShortName",
+        "source": "HB ABU",
+        "translation": "HB ABU",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a10d9833b4d6ac10952f56a ShortName",
+        "source": "FCPCV5 MCB/WG",
+        "translation": "FCPCV5 MCB/WG",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a1087fe49f3a17012a302ef ShortName",
+        "source": "CR920P",
+        "translation": "CR920P",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a10b78858b039730552f561 ShortName",
+        "source": "CR920 13-round",
+        "translation": "CR920 13발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a10b82392962a745e52f564 ShortName",
+        "source": "CR920P Comp",
+        "translation": "CR920P 보정기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a2b0cc78dcf9203554cd53d ShortName",
+        "source": "TLR-7",
+        "translation": "TLR-7",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a3ee252eb4c98ce392ee1b4 ShortName",
+        "source": "AR-7",
+        "translation": "AR-7",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a3ee3a1f2b7441c862ee1c3 ShortName",
+        "source": "AR-7 CH",
+        "translation": "AR-7 장전 손잡이",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a3ee3e2f2b7441c862ee1c7 ShortName",
+        "source": "AR-7 fluted bbl",
+        "translation": "AR-7 홈가공 총열",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a3ee4a2f2b7441c862ee1c9 ShortName",
+        "source": "AR-7 integ. bbl",
+        "translation": "AR-7 일체형 총열",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a3ee211ef62af0e542ee1b1 ShortName",
+        "source": "AR-7 8rd",
+        "translation": "AR-7 8발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a3f06a77a40b3f0972ee1c0 ShortName",
+        "source": "AR-7 15rd",
+        "translation": "AR-7 15발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94e5390fd25fc05e77be1 ShortName",
+        "source": "T97 G3",
+        "translation": "T97 G3",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94e8c2c9a33fca9451c3b ShortName",
+        "source": "T97 18.7",
+        "translation": "T97 18.7",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94e8cb98c8e4da63f61ec ShortName",
+        "source": "QBZ-97B 11.5",
+        "translation": "QBZ-97B 11.5",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94e9bbfb7b3c1c4b598d2 ShortName",
+        "source": "QBZ-95-1",
+        "translation": "QBZ-95-1",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94e9bf3c63591113cd4dc ShortName",
+        "source": "QBZ-95-1 Tac",
+        "translation": "QBZ-95-1 전술형",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa9674337368ae3894983f5 ShortName",
+        "source": "QBZ-95-1 Tac",
+        "translation": "QBZ-95-1 전술형",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94e9b393576b7d25bccca ShortName",
+        "source": "T97.ca FTU",
+        "translation": "T97.ca FTU",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94e9bef06677f0b5f53b1 ShortName",
+        "source": "T97 G3",
+        "translation": "T97 G3",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94eb475e7df6d6274ab02 ShortName",
+        "source": "QBZ-95-1",
+        "translation": "QBZ-95-1",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94eb4b619885bf1fdec6e ShortName",
+        "source": "QBZ-95-1 Tac",
+        "translation": "QBZ-95-1 전술형",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa973cef02ebc121ed8f639 ShortName",
+        "source": "QBZ-95-1 Tac",
+        "translation": "QBZ-95-1 전술형",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94eb45f7ceb3b9aef1387 ShortName",
+        "source": "T97 G3",
+        "translation": "T97 G3",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94e91fe7f6e1b02044a94 ShortName",
+        "source": "T97 G3",
+        "translation": "T97 G3",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6aa94e91444ac822d132c938 ShortName",
+        "source": " QBZ-95-1",
+        "translation": " QBZ-95-1",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a063e879bc2ed754ca07e20 ShortName",
+        "source": "6094 TW",
+        "translation": "6094 TW",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a063e7ab823859f6fa07e1c ShortName",
+        "source": "6094 MT",
+        "translation": "6094 MT",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a063e5bb485e7090ea07e14 ShortName",
+        "source": "6094 AOR1",
+        "translation": "6094 AOR1",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a063e672f88f3143fa07e17 ShortName",
+        "source": "6094 AOR2",
+        "translation": "6094 AOR2",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a063de26b5633b182a07e09 ShortName",
+        "source": "JPC TW",
+        "translation": "JPC TW",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a063e01eccd94bc8aa07e0d ShortName",
+        "source": "JPC MT",
+        "translation": "JPC MT",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a063d7c7be336b8eaa07e04 ShortName",
+        "source": "JPC AOR1",
+        "translation": "JPC AOR1",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a063e1dbd0e87e04ca07e11 ShortName",
+        "source": "JPC AOR2",
+        "translation": "JPC AOR2",
+        "match_mode": "exact"
+      },
+      {
+        "key": "48172ee9574eb40f06a4c7c3 name",
+        "source": "Militsiya Surplus",
+        "translation": "밀리치야 불용 장비",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "48172ee9574eb40f06a4c7c3 description",
+        "source": "Privyet, warrior. When the MVD rearmed, the old PP-19 Bizons were supposed to be melted down. Supposed to be. I have a crate of them from a police depot that somebody forgot to close - helical magazine, sixty-four rounds of 9x18, folds up small enough to hide under a coat. But I do not hand a sixty-four round gun to a man who has never fired a Makarov cartridge in anger. Kill scavengers with 9x18, and bring me weapon parts from the field so my boys can keep the old ones running.",
+        "translation": "프리벳, 전사여. MVD가 무장을 교체했을 때 낡은 PP-19 비존은 전부 녹여 없애기로 했었지. 원래는 그랬어. 그런데 누군가 문을 잠그는 걸 잊은 경찰 무기고에서 가져온 상자가 하나 있네. 나선형 탄창에 9x18 탄약 64발이 들어가고, 접으면 외투 안에 숨길 수 있을 만큼 작아지지. 하지만 마카로프 탄을 실전에서 한 발도 쏴 본 적 없는 자에게 64발짜리 총을 건네줄 생각은 없네. 9x18 무기로 스캐브들을 처치하고, 우리 부하들이 이 낡은 총들을 계속 굴릴 수 있도록 현장에서 무기 부품을 가져오게.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "48172ee9574eb40f06a4c7c3 startedMessageText",
+        "source": "9x18 only. Makarov, Kedr, Stechkin - the cartridge is the lesson.",
+        "translation": "9x18 탄만 써야 하네. 마카로프, 케드르, 스테츠킨. 이번에는 그 탄약을 익히는 게 목적이야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "48172ee9574eb40f06a4c7c3 successMessageText",
+        "source": "Good. You understand the little cartridge now, so you will understand sixty-four of them. The Bizons are on my shelf. Do not tell the MVD.",
+        "translation": "좋아. 이제 그 작은 탄약을 이해했으니, 그런 탄약 64발이 어떤 의미인지도 알겠지. 비존은 내 선반에 있네. MVD에는 입도 뻥긋하지 말게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "48172ee9574eb40f06a4c7c3 failMessageText",
+        "source": "That's a shame.",
+        "translation": "유감이군.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "48172ee9574eb40f06a4c7c3 acceptPlayerMessage",
+        "source": "I'll take it.",
+        "translation": "맡겠습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "48172ee9574eb40f06a4c7c3 declinePlayerMessage",
+        "source": "Not right now.",
+        "translation": "지금은 어렵습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "48172ee9574eb40f06a4c7c3 completePlayerMessage",
+        "source": "Done.",
+        "translation": "끝냈습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "48172ee9574eb40f06a4c7c3 changeQuestMessageText",
+        "source": "Change of plans.",
+        "translation": "계획이 바뀌었습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "28ba2de648525e4708e54765",
+        "source": "Eliminate 12 Scavs using a 9x18 weapon",
+        "translation": "9x18 무기로 스캐브 12명 처치하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "a68fd16f5951a2dcfeb11afd",
+        "source": "Hand over 3 Weapon parts found in raid",
+        "translation": "레이드에서 발견한 무기 부품 3개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
       }
     ],
     "small_ui": [

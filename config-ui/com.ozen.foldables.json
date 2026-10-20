@@ -29,7 +29,7 @@
       "key": "Fold While Dragging",
       "source_display_name": "Fold While Dragging",
       "source_description": "Enable folding/unfolding while dragging an item using a hotkey",
-      "translation_display_name": "접기 중 드래그",
+      "translation_display_name": "드래그 중 접기/펼치기",
       "translation_description": "아이템을 드래그하는 동안 단축키로 접기/펼치기를 허용합니다.",
       "values": []
     },
@@ -38,7 +38,7 @@
       "key": "Fold While Equipped",
       "source_display_name": "Fold While Equipped",
       "source_description": "Allow folding while gear is equipped",
-      "translation_display_name": "접기 중 장착됨",
+      "translation_display_name": "장착 중 접기 허용",
       "translation_description": "장비에 장착된 상태에서도 접을 수 있는 부품을 접거나 펼칠 수 있게 합니다.",
       "values": []
     },

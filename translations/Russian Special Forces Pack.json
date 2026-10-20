@@ -8,7 +8,7 @@
       {
         "key": "6a8ada430d43213c92dbe371 Name",
         "source": "Kalashnikov AMB-17 9x39 special assault rifle",
-        "translation": "Kalashnikov AMB-17 9x39 special 돌격소총",
+        "translation": "Kalashnikov AMB-17 9x39 특수 돌격소총",
         "match_mode": "item_decorated"
       },
       {
@@ -29,7 +29,7 @@
       {
         "key": "6a9497c3e097b0c6ce414794 Name",
         "source": "AM17 Gen.3 6 inch handguard",
-        "translation": "AM17 Gen.3 6 inch 총열덮개"
+        "translation": "AM17 Gen.3 6인치 총열덮개"
       },
       {
         "key": "6a9497c3e097b0c6ce414794 Description",
@@ -89,7 +89,7 @@
       {
         "key": "6a94a2cee097b0c6ce4147a0 Name",
         "source": "AM17 Gen.3 6 inch Silencer handguard",
-        "translation": "AM17 Gen.3 6 inch Silencer 총열덮개"
+        "translation": "AM17 Gen.3 6인치 소음기용 총열덮개"
       },
       {
         "key": "6a94a2cee097b0c6ce4147a0 Description",
@@ -99,7 +99,7 @@
       {
         "key": "6a94a31ae097b0c6ce4147a2 Name",
         "source": "AM17 Gen.3 5.8 inch Silencer handguard",
-        "translation": "AM17 Gen.3 5.8 inch Silencer 총열덮개"
+        "translation": "AM17 Gen.3 5.8인치 소음기용 총열덮개"
       },
       {
         "key": "6a94a31ae097b0c6ce4147a2 Description",
@@ -109,7 +109,7 @@
       {
         "key": "6a94a31ae097b0c6ce4147a4 Name",
         "source": "AM17 Gen.3 5.7 inch Silencer handguard",
-        "translation": "AM17 Gen.3 5.7 inch Silencer 총열덮개"
+        "translation": "AM17 Gen.3 5.7인치 소음기용 총열덮개"
       },
       {
         "key": "6a94a31ae097b0c6ce4147a4 Description",
@@ -154,7 +154,7 @@
       {
         "key": "6a94a460e097b0c6ce4147ac Description",
         "source": "An adapter for installing buffer tubes for the AM-17 rifle. Allows the use of Picatinny stocks and improves ergonomics.",
-        "translation": "AM-17 소총에 버퍼 튜브를 장착하기 위한 어댑터입니다. 다양한 개머리판을 사용할 수 있으며 인체공학성을 향상합니다."
+        "translation": "AM-17 소총에 버퍼 튜브를 장착하기 위한 어댑터입니다. 피카티니 방식 개머리판을 사용할 수 있으며 인체공학성을 향상합니다."
       },
       {
         "key": "6a94a492e097b0c6ce4147ae Name",
@@ -189,7 +189,7 @@
       {
         "key": "6a95b2eefb598539cc275e5f Name",
         "source": "AMB-17 polymer handguard",
-        "translation": "AMB-17 polymer 총열덮개"
+        "translation": "AMB-17 폴리머 총열덮개"
       },
       {
         "key": "6a95b2eefb598539cc275e5f Description",
@@ -199,7 +199,7 @@
       {
         "key": "6a95e5adfb598539cc275e61 Name",
         "source": "Magpul MBUS Pro flip-up front sight",
-        "translation": "Magpul MBUS Pro flip-up 가늠쇠"
+        "translation": "Magpul MBUS Pro 접이식 가늠쇠"
       },
       {
         "key": "6a95e5adfb598539cc275e61 Description",
@@ -209,7 +209,7 @@
       {
         "key": "6a95e5d5fb598539cc275e63 Name",
         "source": "Magpul MBUS Pro flip-up rear sight",
-        "translation": "Magpul MBUS Pro flip-up 가늠자"
+        "translation": "Magpul MBUS Pro 접이식 가늠자"
       },
       {
         "key": "6a95e5d5fb598539cc275e63 Description",
@@ -219,12 +219,12 @@
       {
         "key": "6a968b0a910dd21fbe9e374b Name",
         "source": "KBP ADS 5.45x39 Amphibious Assault rifle",
-        "translation": "KBP ADS 5.45x39 Amphibious 돌격소총"
+        "translation": "KBP ADS 5.45x39 수륙양용 돌격소총"
       },
       {
         "key": "6a968b0a910dd21fbe9e374b ShortName",
         "source": "ADS Amphibious rifle",
-        "translation": "ADS 수륙양용"
+        "translation": "ADS 수륙양용 소총"
       },
       {
         "key": "6a968b0a910dd21fbe9e374b Description",
@@ -284,7 +284,7 @@
       {
         "key": "6a98a9d503930f8d769fde2d Name",
         "source": "AK-200 polymer handguard",
-        "translation": "AK-200 polymer 총열덮개"
+        "translation": "AK-200 폴리머 총열덮개"
       },
       {
         "key": "6a98a9d503930f8d769fde2d Description",
@@ -294,7 +294,7 @@
       {
         "key": "6a98aa1a03930f8d769fde2f Name",
         "source": "AK-200 railed dust cover",
-        "translation": "AK-200 railed 먼지덮개"
+        "translation": "AK-200 레일 장착형 노리쇠덮개"
       },
       {
         "key": "6a98aa1a03930f8d769fde2f Description",
@@ -394,7 +394,7 @@
       {
         "key": "6a9b0cc05499040aee890f59 Name",
         "source": "PP-2000 Folding Stock",
-        "translation": "PP-2000 Folding 개머리판"
+        "translation": "PP-2000 접이식 개머리판"
       },
       {
         "key": "6a9b0cc05499040aee890f59 Description",
@@ -404,7 +404,7 @@
       {
         "key": "6a9b0cf75499040aee890f5b Name",
         "source": "PP-2000 Fixed stock",
-        "translation": "PP-2000 Fixed 개머리판"
+        "translation": "PP-2000 고정식 개머리판"
       },
       {
         "key": "6a9b0cf75499040aee890f5b Description",
@@ -444,7 +444,7 @@
       {
         "key": "6a9da3be1b88e55ada72f239 Name",
         "source": "A-762 Folding Stock",
-        "translation": "A-762 Folding 개머리판"
+        "translation": "A-762 접이식 개머리판"
       },
       {
         "key": "6a9da3be1b88e55ada72f239 Description",
@@ -464,7 +464,7 @@
       {
         "key": "6a9da6591b88e55ada72f23d Name",
         "source": "A-762 polymer handguard",
-        "translation": "A-762 polymer 총열덮개"
+        "translation": "A-762 폴리머 총열덮개"
       },
       {
         "key": "6a9da6591b88e55ada72f23d Description",
@@ -549,7 +549,7 @@
       {
         "key": "6aa1c72fa10e3944e7f07fd9 Name",
         "source": "SVCh Polymer Stock",
-        "translation": "SVCh Polymer 개머리판"
+        "translation": "SVCh 폴리머 개머리판"
       },
       {
         "key": "6aa1c72fa10e3944e7f07fd9 Description",
@@ -589,7 +589,7 @@
       {
         "key": "6aa1c9b4a10e3944e7f07fe1 Name",
         "source": "SVCh polymer handguard",
-        "translation": "SVCh polymer 총열덮개"
+        "translation": "SVCh 폴리머 총열덮개"
       },
       {
         "key": "6aa1c9b4a10e3944e7f07fe1 Description",
@@ -639,7 +639,7 @@
       {
         "key": "6aa7227d8877550fb7ea7c5d Name",
         "source": "VPO-205 Polymer Stock",
-        "translation": "VPO-205 Polymer 개머리판"
+        "translation": "VPO-205 폴리머 개머리판"
       },
       {
         "key": "6aa7227d8877550fb7ea7c5d Description",
@@ -679,7 +679,7 @@
       {
         "key": "6aa726bd8877550fb7ea7c65 Name",
         "source": "VPO-205 polymer handguard",
-        "translation": "VPO-205 polymer 총열덮개"
+        "translation": "VPO-205 폴리머 총열덮개"
       },
       {
         "key": "6aa726bd8877550fb7ea7c65 Description",
@@ -704,12 +704,12 @@
       {
         "key": "6aa728ec8877550fb7ea7c69 Description",
         "source": "Dissident Arms original accessory for the Vepr 12 Shotgun, featuring authentic mil-spec KeyMod and Magpul M-Lok attachment points.  Stretching out to a stunning 16″; this fore end creates the perfect balance of function and form, making it the longest and highest quality Vepr 12  handguard on the market. Hard coat anodized black.",
-        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 아노다이징 마감입니다."
+        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 양극산화 마감입니다."
       },
       {
         "key": "6aa729718877550fb7ea7c6b Name",
         "source": "VPO-205 mlok medium handguard",
-        "translation": "VPO-205 mlok medium 총열덮개"
+        "translation": "VPO-205 중형 M-LOK 총열덮개"
       },
       {
         "key": "6aa729718877550fb7ea7c6b Description",
@@ -724,22 +724,22 @@
       {
         "key": "6aa72a4a8877550fb7ea7c6d Description",
         "source": "Dissident Arms original accessory for the Vepr 12 Shotgun, featuring authentic mil-spec KeyMod and Magpul M-Lok attachment points.  Stretching out to a stunning 16″; this fore end creates the perfect balance of function and form, making it the longest and highest quality Vepr 12  handguard on the market. Hard coat anodized black.",
-        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 아노다이징 마감입니다."
+        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 양극산화 마감입니다."
       },
       {
         "key": "6aa72a998877550fb7ea7c6f Name",
         "source": "Dissident Arms MOD1 Vepr-12 Tubular Handguard",
-        "translation": "Dissident Arms MOD1 Vepr-12 Tubular 총열덮개"
+        "translation": "Dissident Arms MOD1 Vepr-12 관형 총열덮개"
       },
       {
         "key": "6aa72a998877550fb7ea7c6f Description",
         "source": "Dissident Arms original accessory for the Vepr 12 Shotgun, featuring authentic mil-spec KeyMod and Magpul M-Lok attachment points.  Stretching out to a stunning 16″; this forend creates the perfect balance of function and form, making it the longest and highest quality Vepr 12  handguard on the market.  Hard coat anodized black.",
-        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 아노다이징 마감입니다."
+        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 양극산화 마감입니다."
       },
       {
         "key": "6aa72ae88877550fb7ea7c71 Name",
         "source": "VPO-205 wooden handguard",
-        "translation": "VPO-205 wooden 총열덮개"
+        "translation": "VPO-205 목재 총열덮개"
       },
       {
         "key": "6aa72ae88877550fb7ea7c71 Description",
@@ -789,7 +789,7 @@
       {
         "key": "6aa72c988877550fb7ea7c7b Name",
         "source": "VPO-205 railed dust cover",
-        "translation": "VPO-205 railed 먼지덮개"
+        "translation": "VPO-205 레일 장착형 노리쇠덮개"
       },
       {
         "key": "6aa72c988877550fb7ea7c7b Description",
@@ -799,7 +799,7 @@
       {
         "key": "6aa873b12a75b6d0fce8417b Name",
         "source": "VPO-205 polymer upper handguard",
-        "translation": "VPO-205 polymer upper 총열덮개"
+        "translation": "VPO-205 폴리머 상부 총열덮개"
       },
       {
         "key": "6aa873b12a75b6d0fce8417b Description",
@@ -809,7 +809,7 @@
       {
         "key": "6aa873df2a75b6d0fce8417f Name",
         "source": "VPO-205 Railed upper handguard",
-        "translation": "VPO-205 Railed upper 총열덮개"
+        "translation": "VPO-205 레일 장착형 상부 총열덮개"
       },
       {
         "key": "6aa873df2a75b6d0fce8417f Description",
@@ -859,7 +859,7 @@
       {
         "key": "6aaac273e4cb78c569b193bf Name",
         "source": "SVDM polymer stock",
-        "translation": "SVDM polymer 개머리판"
+        "translation": "SVDM 폴리머 개머리판"
       },
       {
         "key": "6aaac273e4cb78c569b193bf Description",
@@ -879,7 +879,7 @@
       {
         "key": "6aaac436e4cb78c569b193c3 Name",
         "source": "SVDM polymer handguard",
-        "translation": "SVDM polymer 총열덮개"
+        "translation": "SVDM 폴리머 총열덮개"
       },
       {
         "key": "6aaac436e4cb78c569b193c3 Description",
@@ -919,7 +919,7 @@
       {
         "key": "6aaac5eae4cb78c569b193cb Name",
         "source": "VPO-205 polymer upper handguard",
-        "translation": "VPO-205 polymer upper 총열덮개"
+        "translation": "VPO-205 폴리머 상부 총열덮개"
       },
       {
         "key": "6aaac5eae4cb78c569b193cb Description",
@@ -929,7 +929,7 @@
       {
         "key": "6aaac890e4cb78c569b193cd Name",
         "source": "SVDS Railed dust cover",
-        "translation": "SVDS Railed 먼지덮개"
+        "translation": "SVDS 레일 장착형 노리쇠덮개"
       },
       {
         "key": "6aaac890e4cb78c569b193cd Description",
@@ -978,6 +978,918 @@
         "key": "6aaac588e4cb78c569b193c9 ShortName",
         "source": "SVDM FS",
         "translation": "SVDM 가늠쇠",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aac31fac35219b1cf4d2a84 Name",
+        "source": "VKS Vykhlop 12.7x55 bolt-action sniper rifle",
+        "translation": "VKS Vykhlop 12.7x55 볼트액션 저격소총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6aac31fac35219b1cf4d2a84 ShortName",
+        "source": "VSSK",
+        "translation": "VSSK",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aac31fac35219b1cf4d2a84 Description",
+        "source": "VKS (ВКС) or VSSK (ВССК) is a Russian bullpup, straight pull, magazine-fed sniper rifle chambered for the 12.7×55mm STs-130 subsonic round. The weapon is also known by the name VSSK and the additional name Vykhlop (Выхлоп), \"Exhaust\", which comes from the development program. It was developed in around 2002 for the special force units of FSB. The 12.7×55mm VKS silenced sniper rifle is intended for special operations that require silent firing and penetration much superior to that provided by 9×39mm VSS silenced sniper rifle. Typical targets for the VKS are combatants in heavy body armor or behind cover. The weapon uses an integral suppressor.",
+        "translation": "VKS(ВКС) 또는 VSSK(ВССК)는 12.7×55mm STs-130 아음속 탄약을 사용하는 러시아제 불펍식 직선식 노리쇠 저격소총입니다. VSSK라는 명칭 외에 개발 사업에서 유래한 비흘롭(Выхлоп, ‘배기’)이라는 이름으로도 알려져 있습니다. 2002년경 러시아 연방보안국(FSB) 특수부대를 위해 개발되었습니다. VKS 소음 저격소총은 9×39mm VSS 소음 저격소총보다 훨씬 높은 관통력과 조용한 사격이 필요한 특수작전을 위해 설계되었습니다. 주요 표적은 중장갑 방탄복을 착용하거나 엄폐물 뒤에 있는 적 전투원입니다. 일체형 소음기를 사용합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab04d66b07a9b85e5577d0a Name",
+        "source": "VKS Vykhlop 12.7x55 450mm barrel",
+        "translation": "VKS Vykhlop 12.7x55 450mm 총열",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab04d66b07a9b85e5577d0a ShortName",
+        "source": "Vykhlop 450",
+        "translation": "Vykhlop 450",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab04d66b07a9b85e5577d0a Description",
+        "source": "Barrel for the VKS Vykhlop rifle, 450mm length.",
+        "translation": "VKS Vykhlop 소총용 450mm 총열입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab052b6b07a9b85e5577d10 Name",
+        "source": "VKS Vykhlop 12.7x55 680mm barrel",
+        "translation": "VKS Vykhlop 12.7x55 680mm 총열",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab052b6b07a9b85e5577d10 ShortName",
+        "source": "Vykhlop 680",
+        "translation": "Vykhlop 680",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab052b6b07a9b85e5577d10 Description",
+        "source": "Barrel for the VKS Vykhlop rifle, 680mm length.",
+        "translation": "VKS Vykhlop 소총용 680mm 총열입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab051dcb07a9b85e5577d0c Name",
+        "source": "VSK 12.7x55 ST-130 muzzle brake",
+        "translation": "VKS 12.7x55 ST-130 총구제퇴기",
+        "match_mode": "item_decorated",
+        "source_variants": [
+          "VKS 12.7x55 ST-130 muzzle brake"
+        ]
+      },
+      {
+        "key": "6ab051dcb07a9b85e5577d0c ShortName",
+        "source": "VSSK",
+        "translation": "VSSK",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab051dcb07a9b85e5577d0c Description",
+        "source": "Muzzle brake for the VSK 12.7x55 ST-130 rifle. Reduces recoil and muzzle rise.",
+        "translation": "VKS 12.7x55 ST-130 소총용 총구제퇴기입니다. 반동과 총구 앙등을 줄여줍니다.",
+        "match_mode": "item_decorated",
+        "source_variants": [
+          "Muzzle brake for the VKS 12.7x55 ST-130 rifle. Reduces recoil and muzzle rise."
+        ]
+      },
+      {
+        "key": "6ab05288b07a9b85e5577d0e Name",
+        "source": "VSK 12.7x55 ST-130 sound suppressor",
+        "translation": "VSK 12.7x55 ST-130 소음기",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab05288b07a9b85e5577d0e ShortName",
+        "source": "VSK 12.7x55",
+        "translation": "VSK 12.7x55",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab05288b07a9b85e5577d0e Description",
+        "source": "A tactical sound suppressor manufactured by TsKIB for the VSK 12.7x55 bolt-action sniper rifle.",
+        "translation": "TsKIB에서 제작한 VSK 12.7x55 볼트액션 저격소총용 전술 소음기입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab0539fb07a9b85e5577d12 Name",
+        "source": "VKS Vykhlop 12.7x55 5-round magazine",
+        "translation": "5발, VKS Vykhlop 12.7x55 탄창",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab0539fb07a9b85e5577d12 ShortName",
+        "source": "VKS 5rd",
+        "translation": "VKS 5발",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab0539fb07a9b85e5577d12 Description",
+        "source": "A 5-round 12.7x55 polymer magazine for VKS Vykhlop rifles.",
+        "translation": "VKS Vykhlop 소총에 사용하는 12.7x55 탄약용 5발들이 폴리머 탄창입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab053d1b07a9b85e5577d14 Name",
+        "source": "VKS Vykhlop front sight",
+        "translation": "VKS Vykhlop 가늠쇠",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab053d1b07a9b85e5577d14 ShortName",
+        "source": "VKS FS",
+        "translation": "VKS 가늠쇠",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab053d1b07a9b85e5577d14 Description",
+        "source": "A front sight for VKS Vykhlop rifles.",
+        "translation": "VKS Vykhlop 소총용 가늠쇠입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab05441b07a9b85e5577d16 Name",
+        "source": "VKS Vykhlop rear sight",
+        "translation": "VKS Vykhlop 가늠자",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab05441b07a9b85e5577d16 ShortName",
+        "source": "VKS RS",
+        "translation": "VKS 가늠자",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab05441b07a9b85e5577d16 Description",
+        "source": "Rear sight for the VKS Vykhlop rifle",
+        "translation": "VKS Vykhlop 소총용 가늠자입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab06ad9b07a9b85e5577d18 Name",
+        "source": "VSSK Bipod",
+        "translation": "VSSK 양각대",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab06ad9b07a9b85e5577d18 ShortName",
+        "source": "VSSK",
+        "translation": "VSSK",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab06ad9b07a9b85e5577d18 Description",
+        "source": "A bipod for the VSSK sniper rifle",
+        "translation": "VSSK 저격소총용 양각대입니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab2fe90f59f2cb62a571429 Name",
+        "source": "Zenit B-2U rail",
+        "translation": "제니트 B-2U 레일",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab2fe90f59f2cb62a571429 ShortName",
+        "source": "B-2U",
+        "translation": "B-2U",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab2fe90f59f2cb62a571429 Description",
+        "source": "A proprietary rail that allows installation of tactical equipment. Installed on the Basis series interface. Manufactured by Zenit.",
+        "translation": "전술 장비를 장착할 수 있는 전용 레일입니다. Basis 시리즈 인터페이스에 설치합니다. 제니트에서 제조합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab2fe90f59f2cb62a57142a Name",
+        "source": "Zenit B-2 rail",
+        "translation": "제니트 B-2 레일",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab2fe90f59f2cb62a57142a ShortName",
+        "source": "B-2",
+        "translation": "B-2",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab2fe90f59f2cb62a57142a Description",
+        "source": "A proprietary rail that allows installation of tactical equipment. Installed on the Basis series interface. Manufactured by Zenit.",
+        "translation": "전술 장비를 장착할 수 있는 전용 레일입니다. Basis 시리즈 인터페이스에 설치합니다. 제니트에서 제조합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab2dff4f59f2cb62a571425 Name",
+        "source": "AKS-74U Zenit B-11 + B-19N handguard",
+        "translation": "AKS-74U 제니트 B-11 + B-19N 총열덮개",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab2dff4f59f2cb62a571425 ShortName",
+        "source": "B-19N",
+        "translation": "B-19N",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab2dff4f59f2cb62a571425 Description",
+        "source": "The integrally machined B-11 foregrip is manufactured from aluminum alloy D16T with black coating and can be installed instead of the standard-issue foregrip on the AKS-74U. The foregrip is fitted with Picatinny rail mounts on three sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators. Manufactured by Zenit.",
+        "translation": "일체 가공된 B-11 전방 손잡이는 검은색 코팅을 입힌 D16T 알루미늄 합금으로 제작되며, AKS-74U의 표준 전방 손잡이를 대체해 장착할 수 있습니다. 세 면에 피카티니 레일 장착부가 있어 전술용 수직손잡이, 손전등, 레이저 표적지시기 등의 추가 장비를 설치할 수 있습니다. 제니트에서 제조합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab2f75df59f2cb62a571427 Name",
+        "source": "AR-15 ZenitCo Joker-2 11,2 inch free float handguard",
+        "translation": "AR-15 제니트코 Joker-2 11.2인치 프리플로팅 총열덮개",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab2f75df59f2cb62a571427 ShortName",
+        "source": "Joker-2",
+        "translation": "조커-2",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab2f75df59f2cb62a571427 Description",
+        "source": "ZenitCo Joker-2 premium quality free float 11,2 inch AR-15 handguard kit. It features titanium barrel nut and extremely reliable Basis direct attachment system. Handguard is two pieces design. Guaranteed to work with included gas block or others with height of 1.35″ or lower. Joker brings a bit of AK reliability to AR-15 world.",
+        "translation": "제니트코 Joker-2는 AR-15용 고급 11.2인치 프리플로팅 총열덮개 키트입니다. 티타늄 총열 너트와 매우 안정적인 Basis 직접 장착 시스템을 갖추고 있습니다. 총열덮개는 두 부분으로 나뉘는 구조입니다. 동봉된 가스 블록이나 높이 1.35인치 이하인 다른 가스 블록과 함께 사용할 수 있도록 보장합니다. Joker는 AR-15 플랫폼에 AK의 신뢰성을 일부 더해줍니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab04b7fb07a9b85e5577d03 Name",
+        "source": "12.7×55mm STs-130PT",
+        "translation": "12.7×55mm STs-130PT",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab04b7fb07a9b85e5577d03 ShortName",
+        "source": "PT",
+        "translation": "PT",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab04b7fb07a9b85e5577d03 Description",
+        "source": "The 12.7×55mm cartridge is used in some Russian firearms such as the VKS bullpup sniper rifle, the ShAK-12 bullpup battle rifle and the RSh-12 revolver. The cartridge can carry a projectile weighing between 108 grains and 1173 grains and is predominantly used to fire heavy subsonic loads. The high penetration VKS round can penetrate up to 16 mm (0.63 in) of steel at 200 metres (220 yd) or body armor up to GOST 5A or NIJ III at 100 metres (110 yd). The accuracy of this cartridge when loaded with precision VKS bullets is claimed to be one MOA at 100 metres (110 yd) up to the effective range limit of 690 metres (750 yd).",
+        "translation": "12.7×55mm 탄약은 VKS 불펍 저격소총, ShAK-12 불펍 전투소총, RSh-12 리볼버 등 일부 러시아제 총기에 사용됩니다. 탄두 무게는 108~1173그레인이며, 주로 무거운 아음속 탄두를 발사하는 데 사용됩니다. 관통력이 높은 VKS 탄약은 200m 거리에서 최대 16mm(0.63인치) 두께의 강철을 관통하거나, 100m 거리에서 GOST 5A 또는 NIJ III 등급까지의 방탄복을 관통할 수 있습니다. 정밀 VKS 탄두를 장전한 이 탄약의 명중 정밀도는 유효 사거리 한계인 690m(750야드) 이내에서 100m(110야드) 기준 1 MOA라고 알려져 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab04c9ab07a9b85e5577d06 Name",
+        "source": "12.7×55mm STs-130VPS",
+        "translation": "12.7×55mm STs-130VPS",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6ab04c9ab07a9b85e5577d06 ShortName",
+        "source": "VPS",
+        "translation": "VPS",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6ab04c9ab07a9b85e5577d06 Description",
+        "source": "The 12.7×55mm cartridge is used in some Russian firearms such as the VKS bullpup sniper rifle, the ShAK-12 bullpup battle rifle and the RSh-12 revolver. The cartridge can carry a projectile weighing between 108 grains and 1173 grains and is predominantly used to fire heavy subsonic loads. The high penetration VKS round can penetrate up to 16 mm (0.63 in) of steel at 200 metres (220 yd) or body armor up to GOST 5A or NIJ III at 100 metres (110 yd). The accuracy of this cartridge when loaded with precision VKS bullets is claimed to be one MOA at 100 metres (110 yd) up to the effective range limit of 690 metres (750 yd).",
+        "translation": "12.7×55mm 탄약은 VKS 불펍 저격소총, ShAK-12 불펍 전투소총, RSh-12 리볼버 등 일부 러시아제 총기에 사용됩니다. 탄두 무게는 108~1173그레인이며, 주로 무거운 아음속 탄두를 발사하는 데 사용됩니다. 관통력이 높은 VKS 탄약은 200m 거리에서 최대 16mm(0.63인치) 두께의 강철을 관통하거나, 100m 거리에서 GOST 5A 또는 NIJ III 등급까지의 방탄복을 관통할 수 있습니다. 정밀 VKS 탄두를 장전한 이 탄약의 명중 정밀도는 유효 사거리 한계인 690m(750야드) 이내에서 100m(110야드) 기준 1 MOA라고 알려져 있습니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6a9d77d61b88e55ada72f237 ShortName",
+        "source": "A-762 Kord",
+        "translation": "A-762 Kord",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9da3be1b88e55ada72f239 ShortName",
+        "source": "A-762",
+        "translation": "A-762",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9da44e1b88e55ada72f23b ShortName",
+        "source": "A-762 FH",
+        "translation": "A-762 소염기",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9da6591b88e55ada72f23d ShortName",
+        "source": "A-762",
+        "translation": "A-762",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a96a059910dd21fbe9e374c ShortName",
+        "source": "ADS UBGL",
+        "translation": "ADS UBGL",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a973c937313325840144bd1 ShortName",
+        "source": "ADS",
+        "translation": "ADS",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9888aa03930f8d769fde27 ShortName",
+        "source": "AK-200",
+        "translation": "AK-200",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a98a91603930f8d769fde2b ShortName",
+        "source": "AK-200 gas",
+        "translation": "AK-200 가스 튜브",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a98a9d503930f8d769fde2d ShortName",
+        "source": "AK-200",
+        "translation": "AK-200",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a98aa1a03930f8d769fde2f ShortName",
+        "source": "AK-200",
+        "translation": "AK-200",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a98aafb03930f8d769fde31 ShortName",
+        "source": "AK-200",
+        "translation": "AK-200",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9954b397425139faf657d3 ShortName",
+        "source": "AK-205",
+        "translation": "AK-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9417f9e097b0c6ce414793 ShortName",
+        "source": "AM-17 Gen.3",
+        "translation": "AM-17 Gen.3",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9497c3e097b0c6ce414794 ShortName",
+        "source": "AM17 6",
+        "translation": "AM17 6인치",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a94a2cee097b0c6ce4147a0 ShortName",
+        "source": "AM17 6",
+        "translation": "AM17 6인치",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a94a31ae097b0c6ce4147a2 ShortName",
+        "source": "AM17 5.8",
+        "translation": "AM17 5.8인치",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a94a31ae097b0c6ce4147a4 ShortName",
+        "source": "AM17 5.7",
+        "translation": "AM17 5.7인치",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a94984fe097b0c6ce414796 ShortName",
+        "source": "AM17 8.5",
+        "translation": "AM17 8.5인치",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a958051fb598539cc275e5c ShortName",
+        "source": "AM17 10",
+        "translation": "AM17 10인치",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a94a37ee097b0c6ce4147a6 ShortName",
+        "source": "AM17 8",
+        "translation": "AM17 8인치",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a94a37ee097b0c6ce4147a8 ShortName",
+        "source": "AM17 6.3",
+        "translation": "AM17 6.3인치",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9498b9e097b0c6ce414798 ShortName",
+        "source": "AM17",
+        "translation": "AM17",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a949939e097b0c6ce41479a ShortName",
+        "source": "AM17",
+        "translation": "AM17",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a94a3dfe097b0c6ce4147aa ShortName",
+        "source": "AM17",
+        "translation": "AM17",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a94a460e097b0c6ce4147ac ShortName",
+        "source": "AM17",
+        "translation": "AM17",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9499ede097b0c6ce41479c ShortName",
+        "source": "AM17",
+        "translation": "AM17",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a949adce097b0c6ce41479e ShortName",
+        "source": "AM17",
+        "translation": "AM17",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a94a492e097b0c6ce4147ae ShortName",
+        "source": "AM17",
+        "translation": "AM17",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a8ada430d43213c92dbe371 ShortName",
+        "source": "AMB-17",
+        "translation": "AMB-17",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a95b199fb598539cc275e5d ShortName",
+        "source": "AMB-17",
+        "translation": "AMB-17",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a95b2eefb598539cc275e5f ShortName",
+        "source": "AMB-17",
+        "translation": "AMB-17",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9e7c7ba77d4b62cecda25a ShortName",
+        "source": "PLK",
+        "translation": "PLK",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9e8a31a77d4b62cecda25d ShortName",
+        "source": "PLK 92mm",
+        "translation": "PLK 92mm",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9e8a71a77d4b62cecda25f ShortName",
+        "source": "PLK",
+        "translation": "PLK",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9ea420a77d4b62cecda261 ShortName",
+        "source": "PLK RD",
+        "translation": "PLK RD",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9ab5e9753eac745a4ce5ca ShortName",
+        "source": "PP-2000",
+        "translation": "PP-2000",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9b067b5499040aee890f4d ShortName",
+        "source": "PP-2000 20rd",
+        "translation": "PP-2000 20발",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9b06ad5499040aee890f4f ShortName",
+        "source": "PP-2000 44rd",
+        "translation": "PP-2000 44발",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9b08015499040aee890f51 ShortName",
+        "source": "PP2000",
+        "translation": "PP2000",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9b08815499040aee890f53 ShortName",
+        "source": "PP2000",
+        "translation": "PP2000",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9b0b915499040aee890f55 ShortName",
+        "source": "PP2000 170",
+        "translation": "PP2000 170mm",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9b0c505499040aee890f57 ShortName",
+        "source": "PP-2000",
+        "translation": "PP-2000",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9b0cc05499040aee890f59 ShortName",
+        "source": "PP-2000",
+        "translation": "PP-2000",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9b0cf75499040aee890f5b ShortName",
+        "source": "PP-2000",
+        "translation": "PP-2000",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9bf1a6d67da98b239147e3 ShortName",
+        "source": "PP-2000",
+        "translation": "PP-2000",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6a9bf1fed67da98b239147e5 ShortName",
+        "source": "PP-2000 Flash",
+        "translation": "PP-2000 손전등",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa07d6955c3a243f195ed5f ShortName",
+        "source": "SVCh",
+        "translation": "SVCh",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa1c6a6a10e3944e7f07fd8 ShortName",
+        "source": "SVCh 450",
+        "translation": "SVCh 450mm",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa1c72fa10e3944e7f07fd9 ShortName",
+        "source": "SVCh",
+        "translation": "SVCh",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa1f17fa10e3944e7f07fe3 ShortName",
+        "source": "SVCh",
+        "translation": "SVCh",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa1c782a10e3944e7f07fdb ShortName",
+        "source": "SVCh",
+        "translation": "SVCh",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa1c7d0a10e3944e7f07fdd ShortName",
+        "source": "SVCh",
+        "translation": "SVCh",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa1c95fa10e3944e7f07fdf ShortName",
+        "source": "SVCh 10rd",
+        "translation": "SVCh 10발",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa1c9b4a10e3944e7f07fe1 ShortName",
+        "source": "SVCh",
+        "translation": "SVCh",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa9bd88a1ebc11ab0a6b50c ShortName",
+        "source": "SVDM",
+        "translation": "SVDM",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aaac1c0e4cb78c569b193bd ShortName",
+        "source": "SVDM 565",
+        "translation": "SVDM 565mm",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aaac273e4cb78c569b193bf ShortName",
+        "source": "SVDM",
+        "translation": "SVDM",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aaac3b5e4cb78c569b193c1 ShortName",
+        "source": "SVDM",
+        "translation": "SVDM",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aaac436e4cb78c569b193c3 ShortName",
+        "source": "SVDM",
+        "translation": "SVDM",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aaac481e4cb78c569b193c5 ShortName",
+        "source": "SVDM",
+        "translation": "SVDM",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aaac5eae4cb78c569b193cb ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aaac890e4cb78c569b193cd ShortName",
+        "source": "SVDM",
+        "translation": "SVDM",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aab0fa9e4cb78c569b193cf ShortName",
+        "source": "SVDM",
+        "translation": "SVDM",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aad7ea990af71bf0b0d263c Name",
+        "source": "SVDM 7.62x54R sound suppressor",
+        "translation": "SVDM 7.62x54R 소음기",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6aad7ea990af71bf0b0d263c ShortName",
+        "source": "SVDM 7.62x54R",
+        "translation": "SVDM 7.62x54R",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aad7ea990af71bf0b0d263c Description",
+        "source": "The SVDM 7.62x54R sound suppressor is designed for the SVDM sniper rifle. It reduces the sound signature and muzzle flash of the weapon when firing, making it more suitable for stealth operations. Manufactured by Izhmash.",
+        "translation": "SVDM 7.62x54R 소음기는 SVDM 저격소총용으로 설계되었습니다. 사격 시 발생하는 총성과 총구 화염을 줄여 은밀한 작전에 적합합니다. 이즈마쉬에서 제조합니다.",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6aa59cd69d536417f3e88939 ShortName",
+        "source": "VPO-205-03",
+        "translation": "VPO-205-03",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa71fe78877550fb7ea7c59 ShortName",
+        "source": "VPO-205 483",
+        "translation": "VPO-205 483mm",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa887ff2a75b6d0fce84183 ShortName",
+        "source": "VPO-205 680",
+        "translation": "VPO-205 680mm",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa721398877550fb7ea7c5b ShortName",
+        "source": "VPO-205 305",
+        "translation": "VPO-205 305mm",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa7227d8877550fb7ea7c5d ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa722cd8877550fb7ea7c5f ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa723118877550fb7ea7c61 ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa725178877550fb7ea7c63 ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa726bd8877550fb7ea7c65 ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa727b58877550fb7ea7c67 ShortName",
+        "source": "RPK",
+        "translation": "RPK",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa728ec8877550fb7ea7c69 ShortName",
+        "source": "DA MOD2",
+        "translation": "DA MOD2",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa729718877550fb7ea7c6b ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa72a4a8877550fb7ea7c6d ShortName",
+        "source": "DA MOD2",
+        "translation": "DA MOD2",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa72a998877550fb7ea7c6f ShortName",
+        "source": "DA MOD1",
+        "translation": "DA MOD1",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa72ae88877550fb7ea7c71 ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa72b458877550fb7ea7c73 ShortName",
+        "source": "Sb.5",
+        "translation": "Sb.5",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa72b888877550fb7ea7c75 ShortName",
+        "source": "VPO-205 10",
+        "translation": "VPO-205 10발",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa72bc08877550fb7ea7c77 ShortName",
+        "source": "Powermag",
+        "translation": "Powermag",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa72c138877550fb7ea7c79 ShortName",
+        "source": "SGM",
+        "translation": "SGM",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa72c988877550fb7ea7c7b ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa873b12a75b6d0fce8417b ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa873df2a75b6d0fce8417f ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6aa874662a75b6d0fce84181 ShortName",
+        "source": "VPO-205",
+        "translation": "VPO-205",
         "match_mode": "exact",
         "display_type": "default"
       }

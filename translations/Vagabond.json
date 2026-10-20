@@ -666,7 +666,7 @@
       {
         "id": "transit_first_requirement_separator",
         "source": ": & ",
-        "translation": ": ",
+        "translation": ": 및 ",
         "match_mode": "segment"
       },
       {

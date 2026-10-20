@@ -44,7 +44,7 @@
       {
         "key": "67bde548cf0cc29475092192 Description",
         "source": "A flash drive Elektronik used to write the crashed plane crew's conversations. A very valuable piece of intel.",
-        "translation": "추락한 항공기 승무원의 대화를 기록하는 데 Elektronik이 사용한 플래시 드라이브입니다. 매우 가치 있는 정보 조각입니다."
+        "translation": "일렉트로닉이 추락한 항공기의 승무원 대화를 기록하는 데 사용한 플래시 드라이브입니다. 매우 가치 있는 정보 자료입니다."
       },
       {
         "key": "67bde59edb4b617a6c0d69f8 Name",
@@ -139,7 +139,7 @@
       {
         "key": "67c0324acc87f341720274b6 ShortName",
         "source": "RFID encr.",
-        "translation": "암호화된 RFID"
+        "translation": "RFID 암호화기"
       },
       {
         "key": "67c0324acc87f341720274b6 Description",
@@ -499,22 +499,22 @@
       {
         "key": "67c5412bb032bbdb530201ba Name",
         "source": "MXLR hammer",
-        "translation": "MXLR 공이"
+        "translation": "MXLR 격철"
       },
       {
         "key": "67c5412bb032bbdb530201ba ShortName",
         "source": "MXLR ham.",
-        "translation": "MXLR 공이"
+        "translation": "MXLR 격철"
       },
       {
         "key": "67c5412bb032bbdb530201ba Description",
         "source": "A standard-issue hammer for the Marlin MXLR rifle.",
-        "translation": "마를린(Marlin) MXLR 소총에 사용되는 기본형 공이입니다."
+        "translation": "마를린 MXLR 소총용 기본형 격철입니다."
       },
       {
         "key": "67c5414226265106dd06979c Name",
         "source": "M1895/MXLR Ranger Point Precision hammer spur extension",
-        "translation": "M1895/MXLR 레인저 포인트 프리시전 공이 스퍼 연장"
+        "translation": "M1895/MXLR 레인저 포인트 프리시전 격철 돌기 연장 장치"
       },
       {
         "key": "67c5414226265106dd06979c ShortName",
@@ -524,12 +524,12 @@
       {
         "key": "67c5414226265106dd06979c Description",
         "source": "An ergonomic hammer extension for M1895 rifles and compatibles. Manufactured by Ranger Point Precision.",
-        "translation": "M1895 소총 및 호환 모델용 인체공학적 공이 연장 장치입니다. 레인저 포인트 프리시전(Ranger Point Precision)에서 제조했습니다."
+        "translation": "M1895 소총 및 호환 모델용 인체공학적 격철 돌기 연장 장치입니다. 레인저 포인트 프리시전(Ranger Point Precision)에서 제조했습니다."
       },
       {
         "key": "67c5414ed0538d12ec036c0c Name",
         "source": "MXLR hammer spur extension",
-        "translation": "MXLR 공이 스퍼 연장"
+        "translation": "MXLR 격철 돌기 연장 장치"
       },
       {
         "key": "67c5414ed0538d12ec036c0c ShortName",
@@ -539,7 +539,7 @@
       {
         "key": "67c5414ed0538d12ec036c0c Description",
         "source": "An ergonomic hammer extension for the Marlin MXLR.",
-        "translation": "마를린(Marlin) MXLR용 인체공학적 공이 연장 장치입니다."
+        "translation": "마를린(Marlin) MXLR용 인체공학적 격철 돌기 연장 장치입니다."
       },
       {
         "key": "67c54183b032bbdb530201bc Name",
@@ -554,12 +554,12 @@
       {
         "key": "67c54183b032bbdb530201bc Description",
         "source": "A standard loop lever for the Marlin MXLR.",
-        "translation": "Marlin MXLR용 standard loop lever입니다."
+        "translation": "마를린 MXLR용 표준 루프 레버입니다."
       },
       {
         "key": "67c5418f26265106dd06979e Name",
         "source": "M1895/MXLR Ranger Point Precision medium loop lever",
-        "translation": "M1895/MXLR Ranger Point Precision 중형 루프 레버"
+        "translation": "M1895/MXLR 레인저 포인트 프리시전 중형 루프 레버"
       },
       {
         "key": "67c5418f26265106dd06979e ShortName",
@@ -764,7 +764,7 @@
       {
         "key": "67c6de3ce39861860909e8e5 Description",
         "source": "The classic Marlin 1895 lever-action rifle in the MXLR (Marlin Express LEVERevolution) variant. A modern take on the timeless Henry-style lever-action. Comes in a chrome finish and chambered for the special .308 Marlin Express cartridge.",
-        "translation": "MXLR(Marlin Express LEVERevolution) 변체인 클래식 마를린 1895 레버 액션 소총입니다. 영원한 헨리(Henry) 스타일 레버 액션을 현대적으로 해석했습니다. 크롬 마감 처리가 되어 있으며 전용 .308 마를린 익스프레스 탄약을 사용합니다."
+        "translation": "MXLR(Marlin Express LEVERevolution) 변형인 클래식 마를린 1895 레버 액션 소총입니다. 영원한 헨리(Henry) 스타일 레버 액션을 현대적으로 해석했습니다. 크롬 마감 처리가 되어 있으며 전용 .308 마를린 익스프레스 탄약을 사용합니다."
       },
       {
         "key": "67d2c26a504767dad30a9338 Name",
@@ -819,7 +819,7 @@
       {
         "key": "67ff1e209d1f778973073376 Name",
         "source": "M1895/MXLR Ranger Point Precision trigger (Black)",
-        "translation": "M1895/MXLR 레인저 포인트 프리시전 방아쇠 (블랙)\n(M1895/MXLR Ranger Point Precision trigger (검은색))"
+        "translation": "M1895/MXLR 레인저 포인트 프리시전 방아쇠 (블랙)"
       },
       {
         "key": "67ff1e209d1f778973073376 ShortName",
@@ -849,7 +849,7 @@
       {
         "key": "67ff1eaf8e8db1dcb80ccad8 Name",
         "source": "M1895/MXLR Ranger Point Precision hammer spur extension (Black)",
-        "translation": "M1895/MXLR 레인저 포인트 프리시전 공이 스퍼 연장 (블랙)\n(M1895/MXLR Ranger Point Precision hammer spur extension (검은색))"
+        "translation": "M1895/MXLR 레인저 포인트 프리시전 격철 돌기 연장 장치 (블랙)"
       },
       {
         "key": "67ff1eaf8e8db1dcb80ccad8 ShortName",
@@ -859,12 +859,12 @@
       {
         "key": "67ff1eaf8e8db1dcb80ccad8 Description",
         "source": "An ergonomic hammer extension for M1895 rifles and compatibles. Manufactured by Ranger Point Precision. Black version.",
-        "translation": "M1895 소총 및 호환 모델용 인체공학적 공이 연장 장치입니다. 레인저 포인트 프리시전(Ranger Point Precision)에서 제조했습니다. 블랙 버전입니다."
+        "translation": "M1895 소총 및 호환 모델용 인체공학적 격철 돌기 연장 장치입니다. 레인저 포인트 프리시전(Ranger Point Precision)에서 제조했습니다. 블랙 버전입니다."
       },
       {
         "key": "67ff1f9f32abb9a4280b5178 Name",
         "source": "M1895/MXLR Ranger Point Precision aluminum stock (FDE)",
-        "translation": "M1895/MXLR 레인저 포인트 프레시전 알루미늄 개머리판 (사막색)\n(M1895/MXLR Ranger Point Precision aluminum stock (사막색))"
+        "translation": "M1895/MXLR 레인저 포인트 프레시전 알루미늄 개머리판 (사막색)"
       },
       {
         "key": "67ff1f9f32abb9a4280b5178 ShortName",
@@ -894,7 +894,7 @@
       {
         "key": "67ff24b9079850d544096ea6 Name",
         "source": "M1895/MXLR Ranger Point Precision M-LOK handguard (FDE)",
-        "translation": "M1895/MXLR 레인저 포인트 프리시전 엠락 총열덮개 (사막색)\n(M1895/MXLR Ranger Point Precision M-LOK handguard (사막색))"
+        "translation": "M1895/MXLR 레인저 포인트 프리시전 엠락 총열덮개 (사막색)"
       },
       {
         "key": "67ff24b9079850d544096ea6 ShortName",
@@ -924,7 +924,7 @@
       {
         "key": "67ff26a2abb53266190dfc6c Name",
         "source": "M1895/MXLR Magpul ELG M-LOK handguard (FDE)",
-        "translation": "M1895/MXLR 맥풀 ELG 엠락 총열덮개 (사막색)\n(M1895/MXLR Magpul ELG M-LOK handguard (사막색))"
+        "translation": "M1895/MXLR 맥풀 ELG 엠락 총열덮개 (사막색)"
       },
       {
         "key": "67ff26a2abb53266190dfc6c ShortName",
@@ -934,12 +934,12 @@
       {
         "key": "67ff26a2abb53266190dfc6c Description",
         "source": "A handguard for M1895 rifles and compatibles. Equipped with an M-LOK interface for installation of tactical equipment. Manufactured by Magpul. Flat Dark Earth version.",
-        "translation": "M1895 소총 및 호환 기종용 총열덮개입니다. 전술 장비 장착을 위한 엠락 인터페이스가 갖춰져 있습니다. 맥풀(맥풀) 사에서 제작하였으며, 플랫 다크 어스 색상 버전입니다."
+        "translation": "M1895 소총 및 호환 기종용 총열덮개입니다. 전술 장비 장착을 위한 엠락 인터페이스가 갖춰져 있습니다. 맥풀 사에서 제작하였으며, 플랫 다크 어스 색상 버전입니다."
       },
       {
         "key": "67ff2792ea587611b0080956 Name",
         "source": "M1895/MXLR Ranger Point Precision COSTA M-LOK handguard (FDE)",
-        "translation": "M1895/MXLR 레인저 포인트 프리시전 COSTA 엠락 총열덮개 (사막색)\n(M1895/MXLR Ranger Point Precision COSTA M-LOK handguard (사막색))"
+        "translation": "M1895/MXLR 레인저 포인트 프리시전 COSTA 엠락 총열덮개 (사막색)"
       },
       {
         "key": "67ff2792ea587611b0080956 ShortName",
@@ -969,7 +969,7 @@
       {
         "key": "67ff2c16c593c7b94a095e56 Name",
         "source": "M1895/MXLR Magpul ELG stock (FDE)",
-        "translation": "M1895/MXLR 맥풀 ELG 개머리판 (사막색)\n(M1895/MXLR Magpul ELG stock (사막색))"
+        "translation": "M1895/MXLR 맥풀 ELG 개머리판 (사막색)"
       },
       {
         "key": "67ff2c16c593c7b94a095e56 Description",
@@ -999,7 +999,7 @@
       {
         "key": "680f47b20407db2e550c4311 Name",
         "source": "MDR BLK LBL ALX Bipod 20 handguard (FDE)",
-        "translation": "MDR BLK LBL ALX 양각대 20 총열덮개 (사막색)\n(MDR BLK LBL ALX Bipod 20 handguard (사막색))"
+        "translation": "MDR BLK LBL ALX 양각대 20 총열덮개 (사막색)"
       },
       {
         "key": "680f47b20407db2e550c4311 Description",
@@ -1009,7 +1009,7 @@
       {
         "key": "680f55788692125dc00a3354 Name",
         "source": "MDR BLK LBL ALX Bipod 20 handguard (Black)",
-        "translation": "MDR BLK LBL ALX 양각대 20 총열덮개 (블랙)\n(MDR BLK LBL ALX Bipod 20 handguard (검은색))"
+        "translation": "MDR BLK LBL ALX 양각대 20 총열덮개 (블랙)"
       },
       {
         "key": "680f55788692125dc00a3354 Description",
@@ -1019,7 +1019,7 @@
       {
         "key": "680f55b71e275ac1230f2dc6 Name",
         "source": "MDR BLK LBL ALX Bipod 16 handguard (FDE)",
-        "translation": "MDR BLK LBL ALX 양각대 16 총열덮개 (사막색)\n(MDR BLK LBL ALX Bipod 16 handguard (사막색))"
+        "translation": "MDR BLK LBL ALX 양각대 16 총열덮개 (사막색)"
       },
       {
         "key": "680f55b71e275ac1230f2dc6 ShortName",
@@ -1034,7 +1034,7 @@
       {
         "key": "680f5953b93ecb502102816a Name",
         "source": "MDR BLK LBL ALX Bipod 16 handguard (Black)",
-        "translation": "MDR BLK LBL ALX 양각대 16 총열덮개 (블랙)\n(MDR BLK LBL ALX Bipod 16 handguard (검은색))"
+        "translation": "MDR BLK LBL ALX 양각대 16 총열덮개 (블랙)"
       },
       {
         "key": "680f5953b93ecb502102816a Description",
@@ -1094,7 +1094,7 @@
       {
         "key": "681096b551511048940afed9 Name",
         "source": "MDR BLK LBL ALX 20 handguard (FDE)",
-        "translation": "MDR BLK LBL ALX 20 총열덮개 (사막색)\n(MDR BLK LBL ALX 20 handguard (사막색))"
+        "translation": "MDR BLK LBL ALX 20 총열덮개 (사막색)"
       },
       {
         "key": "681096b551511048940afed9 ShortName",
@@ -1109,7 +1109,7 @@
       {
         "key": "68109a1f327033533604170a Name",
         "source": "MDR BLK LBL ALX 20 handguard (Black)",
-        "translation": "MDR BLK LBL ALX 20 총열덮개 (블랙)\n(MDR BLK LBL ALX 20 handguard (검은색))"
+        "translation": "MDR BLK LBL ALX 20 총열덮개 (블랙)"
       },
       {
         "key": "68109a1f327033533604170a ShortName",
@@ -1124,7 +1124,7 @@
       {
         "key": "6810a469f6c2827d680d1f4c Name",
         "source": "MDR BLK LBL ALX 16 handguard (FDE)",
-        "translation": "MDR BLK LBL ALX 16 총열덮개 (사막색)\n(MDR BLK LBL ALX 16 handguard (사막색))"
+        "translation": "MDR BLK LBL ALX 16 총열덮개 (사막색)"
       },
       {
         "key": "6810a469f6c2827d680d1f4c ShortName",
@@ -1139,7 +1139,7 @@
       {
         "key": "6810aa1474bf67765c02e91a Name",
         "source": "MDR BLK LBL ALX 16 handguard (Black)",
-        "translation": "MDR BLK LBL ALX 16 총열덮개 (블랙)\n(MDR BLK LBL ALX 16 handguard (검은색))"
+        "translation": "MDR BLK LBL ALX 16 총열덮개 (블랙)"
       },
       {
         "key": "6810aa1474bf67765c02e91a Description",
@@ -1149,7 +1149,7 @@
       {
         "key": "6810ca87002deee76b04970b Name",
         "source": "MDR Micron M-LOK handguard (FDE)",
-        "translation": "MDR 미크론 엠락 총열덮개 (사막색)\n(MDR Micron M-LOK handguard (사막색))"
+        "translation": "MDR 미크론 엠락 총열덮개 (사막색)"
       },
       {
         "key": "6810ca87002deee76b04970b ShortName",
@@ -1179,7 +1179,7 @@
       {
         "key": "6810d3d8dc7bbeec2f0081c9 Name",
         "source": "MDR Micron M-LOK handguard (Black)",
-        "translation": "MDR 미크론 엠락 총열덮개 (블랙)\n(MDR Micron M-LOK handguard (검은색))"
+        "translation": "MDR 미크론 엠락 총열덮개 (블랙)"
       },
       {
         "key": "6810d3d8dc7bbeec2f0081c9 ShortName",
@@ -1269,7 +1269,7 @@
       {
         "key": "68124640c5fd00ec0a01a237 Name",
         "source": "MCX Cal-X Mid-Piston gas block",
-        "translation": "MCX Cal-X 미드 피스톤 가스 조절기"
+        "translation": "MCX Cal-X 중간 길이 피스톤 가스 블록"
       },
       {
         "key": "68124640c5fd00ec0a01a237 ShortName",
@@ -1279,7 +1279,7 @@
       {
         "key": "68124640c5fd00ec0a01a237 Description",
         "source": "A gas block with a medium length piston designed for the MCX assault rifles, manufactured by SIG Sauer.",
-        "translation": "MCX 돌격소총용으로 설계된 중간 길이의 피스톤 방식 가스 조절기입니다. 시그 사우어(SIG Sauer) 사에서 제작하였습니다."
+        "translation": "MCX 돌격소총용 중간 길이 피스톤의 가스 블록입니다. SIG Sauer에서 제조했습니다."
       },
       {
         "key": "6819f8df28294ec0730db6b4 Name",
@@ -1334,7 +1334,7 @@
       {
         "key": "682315d08639961c6001dbec Name",
         "source": "AK-12 Zenit Sport-12 handguard cover",
-        "translation": "AK-12 제닛 스포츠-12 총열덮개 덮개"
+        "translation": "AK-12 제니트 스포츠-12 총열덮개 커버"
       },
       {
         "key": "682315d08639961c6001dbec ShortName",
@@ -1344,7 +1344,7 @@
       {
         "key": "682315d08639961c6001dbec Description",
         "source": "A handguard cover from the Sport-12 kit for the AK-12 assault rifle. Manufactured by Zenit.",
-        "translation": "AK-12 돌격소총용 스포츠-12 키트에 포함된 총열덮개 덮개입니다. 제닛 사에서 제작하였습니다."
+        "translation": "AK-12 돌격소총용 스포츠-12 키트의 총열덮개 커버입니다. 제니트에서 제조했습니다."
       },
       {
         "key": "682317390ee6ef08a60e4547 Name",
@@ -1364,7 +1364,7 @@
       {
         "key": "682317428639961c6001dbf1 Description",
         "source": "A proprietary rail that allows installation of tactical equipment. Installed on the Basis series interface. Manufactured by Zenit.",
-        "translation": "전술 장비 장착을 가능하게 해주는 전용 레일입니다. Basis 시리즈 인터페이스에 장착됩니다. Zenit 사에서 제작하였습니다."
+        "translation": "전술 장비를 설치할 수 있는 전용 레일입니다. 바지스(Basis) 시리즈 인터페이스에 장착됩니다. 제니트에서 제조했습니다."
       },
       {
         "key": "68235b0b7d3ccc3ca20f4d01 Name",
@@ -1444,7 +1444,7 @@
       {
         "key": "68540aae1e5c6ff6f1051477 Description",
         "source": "A well-known muzzle device commonly called \"The Bulgarian\" in Russia. Its reverse-cone shape makes it highly effective at reducing muzzle flash, and it also slightly lessens the concussive effect when firing indoors. Compatible with any caliber from 5.45 to 7.62 on the AK-74 platform, or with the appropriate adapter on AKM or AK-12 assault rifles.",
-        "translation": "러시아에서 흔히 \"불가리안\"이라 불리는 잘 알려진 총구 장치입니다. 역원뿔 형태로 플래시 감소에 매우 효과적이며, 실내 사격 시 발생하는 반동(충격)도 다소 완화해 줍니다. AK-74 플랫폼에서는 5.45~7.62 구경 모두에 호환되며, AKM 또는 AK-12 돌격소총에서는 적절한 어댑터를 사용하면 장착 가능합니다."
+        "translation": "러시아에서 흔히 \"불가리안\"이라 불리는 총구 장치입니다. 역원뿔 형태로 총구 화염을 효과적으로 줄이며, 실내 사격 때 발생하는 충격파도 약간 완화해 줍니다. AK-74 플랫폼에서는 5.45~7.62 구경과 호환되며, AKM 또는 AK-12 돌격소총에는 적절한 어댑터를 사용해 장착할 수 있습니다."
       },
       {
         "key": "6866ad3853330f9b83064cf9 Name",
@@ -1469,12 +1469,12 @@
       {
         "key": "6871284e9a353bb50606f3ed Name",
         "source": "AS VAL MOD.4 9x39 special assault rifle",
-        "translation": "AS VAL 모드.4 9x39 특수 돌격소총"
+        "translation": "AS VAL MOD.4 9x39 특수 돌격소총"
       },
       {
         "key": "6871284e9a353bb50606f3ed ShortName",
         "source": "AS VAL MOD.4",
-        "translation": "AS VAL 모드.4"
+        "translation": "AS VAL MOD.4"
       },
       {
         "key": "6871284e9a353bb50606f3ed Description",
@@ -1484,12 +1484,12 @@
       {
         "key": "687128c4505fed5f370b1625 Name",
         "source": "AS VAL NB MOD.4 Kit handguard",
-        "translation": "AS VAL NB 모드.4 키트 총열덮개"
+        "translation": "AS VAL NB MOD.4 키트 총열덮개"
       },
       {
         "key": "687128c4505fed5f370b1625 ShortName",
         "source": "MOD.4 Kit",
-        "translation": "모드.4 키트"
+        "translation": "MOD.4 키트"
       },
       {
         "key": "687128c4505fed5f370b1625 Description",
@@ -1499,12 +1499,12 @@
       {
         "key": "68712a7d505fed5f370b1633 Name",
         "source": "AS VAL MOD.4 magwell",
-        "translation": "AS VAL 모드.4 탄창 삽입구"
+        "translation": "AS VAL MOD.4 탄창 삽입구"
       },
       {
         "key": "68712a7d505fed5f370b1633 ShortName",
         "source": "MOD.4",
-        "translation": "모드.4"
+        "translation": "MOD.4"
       },
       {
         "key": "68712a7d505fed5f370b1633 Description",
@@ -1514,12 +1514,12 @@
       {
         "key": "68712b57a1be89347f0d8179 Name",
         "source": "NB MOD.4 Kit 3.5 inch rail",
-        "translation": "NB 모드.4 키트 3.5인치 레일"
+        "translation": "NB MOD.4 키트 3.5인치 레일"
       },
       {
         "key": "68712b57a1be89347f0d8179 ShortName",
         "source": "MOD.4",
-        "translation": "모드.4 3.5인치"
+        "translation": "MOD.4 3.5인치"
       },
       {
         "key": "68712b57a1be89347f0d8179 Description",
@@ -1529,12 +1529,12 @@
       {
         "key": "68712bd4251b8d4c6c04ec19 Name",
         "source": "AS VAL NB MOD.4 Kit top cover",
-        "translation": "AS VAL NB 모드.4 키트 상부 덮개"
+        "translation": "AS VAL NB MOD.4 키트 상부 덮개"
       },
       {
         "key": "68712bd4251b8d4c6c04ec19 ShortName",
         "source": "MOD.4",
-        "translation": "모드.4"
+        "translation": "MOD.4"
       },
       {
         "key": "68712bd4251b8d4c6c04ec19 Description",
@@ -1544,12 +1544,12 @@
       {
         "key": "68712cafa1be89347f0d817c Name",
         "source": "AS VAL MOD.4 9x39 suppressor cap",
-        "translation": "AS VAL 모드.4 9x39 소음기 캡"
+        "translation": "AS VAL MOD.4 9x39 소음기 캡"
       },
       {
         "key": "68712cafa1be89347f0d817c ShortName",
         "source": "MOD.4",
-        "translation": "모드.4"
+        "translation": "MOD.4"
       },
       {
         "key": "68712cafa1be89347f0d817c Description",
@@ -1559,12 +1559,12 @@
       {
         "key": "68712ce2251b8d4c6c04ec1f Name",
         "source": "AS VAL MOD.4 9x39 integral barrel-suppressor",
-        "translation": "AS VAL 모드.4 9x39 일체형 총열 소음기"
+        "translation": "AS VAL MOD.4 9x39 일체형 총열 소음기"
       },
       {
         "key": "68712ce2251b8d4c6c04ec1f ShortName",
         "source": "MOD.4",
-        "translation": "모드.4"
+        "translation": "MOD.4"
       },
       {
         "key": "68712ce2251b8d4c6c04ec1f Description",
@@ -1574,12 +1574,12 @@
       {
         "key": "6878c143254146e6fd043756 Name",
         "source": "AS VAL 9x39 NB MOD.4 muzzle brake",
-        "translation": "AS VAL 9x39 NB 모드.4 제퇴기"
+        "translation": "AS VAL 9x39 NB MOD.4 제퇴기"
       },
       {
         "key": "6878c143254146e6fd043756 ShortName",
         "source": "MOD.4",
-        "translation": "모드.4"
+        "translation": "MOD.4"
       },
       {
         "key": "6878c143254146e6fd043756 Description",
@@ -1589,12 +1589,12 @@
       {
         "key": "6878c1c723c3173d7f06d926 Name",
         "source": "AS VAL 9x39 NB MOD.4 JailBrake muzzle device",
-        "translation": "AS VAL 9x39 NB 모드.4 제일브레이크 총구장치"
+        "translation": "AS VAL 9x39 NB MOD.4 제일브레이크 총구장치"
       },
       {
         "key": "6878c1c723c3173d7f06d926 ShortName",
         "source": "MOD.4 JB",
-        "translation": "제일브레이크"
+        "translation": "MOD.4 JB (또는 MOD.4 제일브레이크)"
       },
       {
         "key": "6878c1c723c3173d7f06d926 Description",
@@ -1664,7 +1664,7 @@
       {
         "key": "6889f1c4f7a5d7de7b089550 Description",
         "source": "A 30-round 5.7x28 magazine for the FN Five-seveN pistol. Manufactured by ProMag.",
-        "translation": "30발, FN 파이브-세븐 권총, 5.7x28mm, 프로맥 사에서 제작"
+        "translation": "프로맥에서 제조한 FN 파이브-세븐 권총용 5.7x28mm 30발들이 탄창입니다."
       },
       {
         "key": "688a0b38467521f9080693a3 Name",
@@ -1709,12 +1709,12 @@
       {
         "key": "688b4bd81cef2a61d0052738 Name",
         "source": "Trijicon SRO reflex sight (FDE)",
-        "translation": "SRO 반사식 조준기 (사막색)\n(Trijicon SRO reflex sight (사막색))"
+        "translation": "SRO 반사식 조준기 (사막색)"
       },
       {
         "key": "688b4bd81cef2a61d0052738 Description",
         "source": "The SRO (Specialized Reflex Optic) is a rugged, compact reflex sight. It can be used as a primary or backup optic. Requires a compatible base to mount on Weaver-style rails. Manufactured by Trijicon. Flat Dark Earth version.",
-        "translation": "트리지콘(Trijicon)에서 제조한 SRO(Specialized Reflex Optic)로, 견고하고 컴팩트한 반사식 조준기입니다. 주 조준경 또는 백업 조준경으로 사용할 수 있으며, 위버(Weaver) 스타일 레일에 장착하려면 호환되는 베이스가 필요합니다. 플랫 다크 어스(FDE) 버전입니다."
+        "translation": "트리지콘(Trijicon)에서 제조한 SRO(Specialized Reflex Optic)로, 견고하고 컴팩트한 반사식 조준기입니다. 주 조준경 또는 백업 조준경으로 사용할 수 있으며, 위버(Weaver) 스타일 레일에 장착하려면 호환되는 베이스가 필요합니다. 플랫 다크 어스(사막색) 버전입니다."
       },
       {
         "key": "688b54a11cef2a61d005273b Name",
@@ -1834,7 +1834,7 @@
       {
         "key": "68916701bd91cc17c109c758 Description",
         "source": "A 20-round 7.62x51 NATO magazine for the AK-308 assault rifle. Manufactured by Kalashnikov Group.",
-        "translation": "20발, AK-308 돌격소총, 7.62x51mm NATO, 칼라시니코프 그룹(Kalashnikov Group) 사에서 제작"
+        "translation": "칼라시니코프 그룹에서 제조한 AK-308 돌격소총용 7.62x51mm NATO 20발들이 탄창입니다."
       },
       {
         "key": "689167248f19dbc8190728ed Name",
@@ -1879,7 +1879,7 @@
       {
         "key": "68935269af943a06e8038c58 Description",
         "source": "A 24-round polymer magazine for the Saiga-308 carbine and AK-308 assault rifle. Manufactured by ProMag.",
-        "translation": "24발, Saiga-308 및 AK-308, 7.62x51mm, 프로맥 사에서 제작한 폴리머 탄창"
+        "translation": "프로맥에서 제조한 사이가-308 카빈 및 AK-308 돌격소총용 폴리머 재질의 24발들이 탄창입니다."
       },
       {
         "key": "689479a4a733b1602007e2eb Name",
@@ -1939,7 +1939,7 @@
       {
         "key": "68947ab5a733b1602007e2fe Name",
         "source": "Mystery Ranch 2 Day Assault Pack (Black)",
-        "translation": "미스터리 랜치(Mystery Ranch) 2 데이 어썰트 팩 (블랙)\n(Mystery Ranch 2 Day Assault Pack (검은색))"
+        "translation": "미스터리 랜치(Mystery Ranch) 2 데이 어썰트 팩 (블랙)"
       },
       {
         "key": "68947ab5a733b1602007e2fe ShortName",
@@ -2114,7 +2114,7 @@
       {
         "key": "689dbded6c7e684817080c29 Name",
         "source": "Wilcox L4G24 NVG Mount (Black)",
-        "translation": "윌콕스 L4G24 NVG 마운트 (블랙)\n(Wilcox L4G24 NVG Mount (검은색))"
+        "translation": "윌콕스 L4G24 NVG 마운트 (블랙)"
       },
       {
         "key": "689dbded6c7e684817080c29 Description",
@@ -2259,7 +2259,7 @@
       {
         "key": "68a639748e1fe612970728e9 Description",
         "source": "An American-made 5.56x45mm assault rifle developed by Colt in the late 1960s as an improved variant of the original AR-15/M16 design. The M16A1 became the standard service rifle of the US military during the Vietnam War, featuring a forward assist and other refinements for reliability in harsh conditions. Though considered outdated by modern standards, it remains a durable and accurate weapon prized by collectors and shooters alike.",
-        "translation": "1960년대 후반 콜트(콜트)에서 원형 AR-15/M16 설계를 개선한 변형으로 개발한 미국산 5.56x45mm 돌격소총입니다. M16A1은 베트남 전쟁 당시 미군의 표준 제식 소총이 되었으며, 열악한 환경에서도 신뢰성을 높이기 위한 포워드 어시스트(forward assist) 등 여러 개선점이 적용되었습니다. 현대 기준으로는 구식으로 여겨지지만, 여전히 내구성과 정확도를 갖춘 무기로 수집가와 사격 애호가들 사이에서 가치가 높습니다."
+        "translation": "1960년대 후반 콜트에서 원형 AR-15/M16 설계를 개선한 변형으로 개발한 미국산 5.56x45mm 돌격소총입니다. M16A1은 베트남 전쟁 당시 미군의 표준 제식 소총이 되었으며, 열악한 환경에서도 신뢰성을 높이기 위한 포워드 어시스트(forward assist) 등 여러 개선점이 적용되었습니다. 현대 기준으로는 구식으로 여겨지지만, 여전히 내구성과 정확도를 갖춘 무기로 수집가와 사격 애호가들 사이에서 가치가 높습니다."
       },
       {
         "key": "68a6399922b1e0bd360afe56 Name",
@@ -2274,7 +2274,7 @@
       {
         "key": "68a63a9522b1e0bd360afe5f Name",
         "source": "AR-15 Colt early type charging handle",
-        "translation": "AR-15 콜트 early type 장전 손잡이"
+        "translation": "AR-15 콜트 초기형 장전 손잡이"
       },
       {
         "key": "68a63a9522b1e0bd360afe5f ShortName",
@@ -2304,7 +2304,7 @@
       {
         "key": "68a63b03e1fb670852024656 Name",
         "source": "AR-15 Colt USGI A1 3-prong 5.56x45 flash hider",
-        "translation": "AR-15 콜트(콜트) USGI A1 3-프롱 5.56x45 소염기"
+        "translation": "AR-15 콜트 USGI A1 3-프롱 5.56x45 소염기"
       },
       {
         "key": "68a63b03e1fb670852024656 ShortName",
@@ -2314,7 +2314,7 @@
       {
         "key": "68a63b03e1fb670852024656 Description",
         "source": "A three-prong flash hider for the AR-15 series rifles, manufactured by Colt. The classic earlier A1 variant made in the 60s, which was later replaced by the more famous Bird Cage type.",
-        "translation": "콜트(콜트)에서 제조한 AR-15 계열 소총용 3-프롱 소염기입니다. 60년대에 제작된 초기 A1 클래식 변형으로, 이후 더 유명한 버드케이지 타입으로 교체되었습니다."
+        "translation": "콜트에서 제조한 AR-15 계열 소총용 3-프롱 소염기입니다. 60년대에 제작된 초기 A1 클래식 변형으로, 이후 더 유명한 버드케이지 타입으로 교체되었습니다."
       },
       {
         "key": "68a63b73c92ee33ffa01bf57 Name",
@@ -2334,7 +2334,7 @@
       {
         "key": "68a63b90e1fb670852024659 Description",
         "source": "An upper receiver for the M16A1E1 assault rifle manufactured by Colt. An early prototype variant between the M16A1 and M16A2, which also served as the basis for the Canadian C7. During the 1980s it was widely fitted to various special carbines produced by Colt.",
-        "translation": "콜트 사에서 제작한 M16A1E1 돌격소총용 상부 총몸입니다. M16A1과 M16A2 사이의 초기 프로토타입 변체이며, 캐나다 C7의 기반이 되기도 했습니다. 1980년대에 콜트에서 생산된 다양한 특수 카빈들에 널리 장착되었습니다."
+        "translation": "콜트 사에서 제작한 M16A1E1 돌격소총용 상부 총몸입니다. M16A1과 M16A2 사이의 초기 프로토타입 변형이며, 캐나다 C7의 기반이 되기도 했습니다. 1980년대에 콜트에서 생산된 다양한 특수 카빈들에 널리 장착되었습니다."
       },
       {
         "key": "68a63b9b8e1fe612970728f7 Name",
@@ -2414,7 +2414,7 @@
       {
         "key": "68a63cb3e1fb670852024664 Description",
         "source": "A triangular fiberglass rifle handguard manufactured by Colt. Standard-issue handguard for M16A1 rifles.",
-        "translation": "콜트(콜트) 사에서 제작한 삼각형 모양의 유리섬유 소재 소총용 총열덮개입니다. M16A1 소총의 표준 지급용 총열덮개입니다."
+        "translation": "콜트 사에서 제작한 삼각형 모양의 유리섬유 소재 소총용 총열덮개입니다. M16A1 소총의 표준 지급용 총열덮개입니다."
       },
       {
         "key": "68a63cc0c92ee33ffa01bf5c Name",
@@ -2424,7 +2424,7 @@
       {
         "key": "68a63cc0c92ee33ffa01bf5c Description",
         "source": "A polymer rifle handguard manufactured by Colt. Standard-issue handguard for M16A2 rifles.",
-        "translation": "콜트(콜트) 사에서 제작한 폴리머 소재의 소총용 총열덮개입니다. M16A2 소총의 표준 지급용 총열덮개입니다."
+        "translation": "콜트 사에서 제작한 폴리머 소재의 소총용 총열덮개입니다. M16A2 소총의 표준 지급용 총열덮개입니다."
       },
       {
         "key": "68a63ccc8a85019a82087956 Name",
@@ -2509,7 +2509,7 @@
       {
         "key": "68a6413b54ef229c4d089238 Description",
         "source": "A bottom part of the A2 handguard, manufactured by Colt. Standard-issue handguard for M16A2 rifles.",
-        "translation": "콜트(콜트) 사에서 제작한 A2 총열덮개의 하단 부품입니다. M16A2 소총의 표준 지급용 총열덮개입니다."
+        "translation": "콜트 사에서 제작한 A2 총열덮개의 하단 부품입니다. M16A2 소총의 표준 지급용 총열덮개입니다."
       },
       {
         "key": "68a641452258a88280055616 Name",
@@ -2649,7 +2649,7 @@
       {
         "key": "68aee9fe130c00663d08aeb6 Name",
         "source": "TKPD handguard (Black)",
-        "translation": "TKPD 총열덮개 (블랙)\n(TKPD handguard (검은색))"
+        "translation": "TKPD 총열덮개 (블랙)"
       },
       {
         "key": "68aee9fe130c00663d08aeb6 Description",
@@ -2669,7 +2669,7 @@
       {
         "key": "68aeed8a8906b00bc800fdd6 Description",
         "source": "A 9.3x64mm Soft Point hunting cartridge loaded with a 17.4 gram semi-jacketed bullet. The bullet delivers increased stopping power at medium ranges and is intended for hunting large game, as it provides strong terminal performance and can cause severe incapacitating wounds on impact.",
-        "translation": "17.4g 반피복 탄두가 장착된 9.3x64mm 소프트포인트(SP) 사냥용 탄환입니다. 중거리에서 강한 제지력을 제공하며, 대형 게임 사냥을 위해 설계되어 충격 시 강한 종결 성능을 발휘하고 심각한 무력화 상처를 유발할 수 있습니다."
+        "translation": "17.4g 반피복 탄두가 장착된 9.3x64mm 소프트포인트(SP) 사냥용 탄약입니다. 중거리에서 높은 저지력을 발휘하며, 큰 사냥감 사냥에 사용하도록 설계되었습니다. 충격 시 높은 종말 효과를 내고 심각한 무력화 상처를 유발할 수 있습니다."
       },
       {
         "key": "68aef9bf4efeccb5220d25c6 Name",
@@ -2679,7 +2679,7 @@
       {
         "key": "68aef9bf4efeccb5220d25c6 Description",
         "source": "A 10-round 9.3x64mm magazine for the TKPD assault carbine.",
-        "translation": "10발, TKPD 돌격 카빈, 9.3x64mm, 표준 탄창"
+        "translation": "TKPD 돌격 카빈용 9.3x64mm 탄약 10발들이 탄창입니다."
       },
       {
         "key": "68b966e44b7f808d5609ac04 Name",
@@ -2739,17 +2739,17 @@
       {
         "key": "68bac6ca653ee6b1e406d978 Description",
         "source": "A civilian 9.3x64mm Full Metal Jacket cartridge loaded with a 17.5 gram fully jacketed bullet. The full metal jacket reduces deformation on impact. This cartridge is most commonly used for sport shooting, training, and zeroing, and is sometimes used for hunting when minimal damage to game is desired.",
-        "translation": "17.5g 전피복 탄두가 장착된 민간용 9.3x64mm 풀 메탈 재킷(FMJ) 탄환입니다. 풀 메탈 재킷은 충격 시 변형을 줄여줍니다. 이 탄환은 주로 스포츠 사격, 훈련 및 영점 조정에 사용되며, 게임에 대한 피해를 최소화해야 하는 사냥에서 가끔 사용됩니다."
+        "translation": "17.5g 전피복 탄두가 장착된 민간용 9.3x64mm 풀 메탈 재킷(FMJ) 탄약입니다. 전피복 탄두는 충격 시 탄두의 변형을 줄여 줍니다. 주로 스포츠 사격, 훈련, 영점 조정에 사용되며, 사냥감의 손상을 최소화하려는 사냥에도 가끔 사용됩니다."
       },
       {
         "key": "68bad8376cb22acf1107a586 Description",
         "source": "A military 9.3x64mm 7N33 cartridge loaded with a 17.4 gram armor-piercing bullet with a steel core. The 7N33 delivers high penetration thanks to its steel core and substantial muzzle energy. Used by Russian special operations forces.",
-        "translation": "강철 코어 장갑관통탄이 장착된 군용 9.3x64mm 7N33 탄환입니다. 7N33은 강철 코어와 높은 탄두 에너지 덕분에 뛰어난 관통력을 발휘합니다. 러시아 특수작전부대에서 사용됩니다."
+        "translation": "17.4g 강철심 철갑탄두를 장착한 군용 9.3x64mm 7N33 탄약입니다. 강철심과 높은 탄두 에너지 덕분에 뛰어난 관통력을 발휘하며 러시아 특수작전부대에서 사용됩니다."
       },
       {
         "key": "68badb6458dbe419740b1520 Name",
         "source": "Magpul UCS buttstock (Black)",
-        "translation": "맥풀 UCS 개머리판 (블랙)\n(Magpul UCS buttstock (검은색))"
+        "translation": "맥풀 UCS 개머리판 (블랙)"
       },
       {
         "key": "68badb6458dbe419740b1520 Description",
@@ -2779,7 +2779,7 @@
       {
         "key": "68bb25270e48a3afd7071216 Name",
         "source": "AR-15 Magpul ACS Carbine stock (Black)",
-        "translation": "AR-15 맥풀 ACS 카빈 개머리판 (블랙)\n(AR-15 Magpul ACS Carbine stock (검은색))"
+        "translation": "AR-15 맥풀 ACS 카빈 개머리판 (블랙)"
       },
       {
         "key": "68bb25270e48a3afd7071216 Description",
@@ -2789,7 +2789,7 @@
       {
         "key": "68bb2a3831ee03fbc00931e6 Name",
         "source": "AR-15 Magpul ACS Carbine stock (FDE)",
-        "translation": "AR-15 맥풀 ACS 카빈 개머리판 (사막색)\n(AR-15 Magpul ACS Carbine stock (사막색))"
+        "translation": "AR-15 맥풀 ACS 카빈 개머리판 (사막색)"
       },
       {
         "key": "68bb2a3831ee03fbc00931e6 Description",
@@ -2809,7 +2809,7 @@
       {
         "key": "68bedc0365e7dcf94f0cb0fc Name",
         "source": "L3Harris AN/PEQ-15 tactical device (Black)",
-        "translation": "L3해리스 AN/PEQ-15 전술 장치 (블랙)\n(L3Harris AN/PEQ-15 tactical device (검은색))"
+        "translation": "L3해리스 AN/PEQ-15 전술 장치 (블랙)"
       },
       {
         "key": "68bedc0365e7dcf94f0cb0fc Description",
@@ -2909,7 +2909,7 @@
       {
         "key": "68c16f6883e2d814b0093f7a Name",
         "source": "AR-15 SLR Rifleworks Sentry 7 gas block",
-        "translation": "AR-15 SLR 라이플워크스 센트리 7 가스 조절기"
+        "translation": "AR-15 SLR 라이플워크스 센트리 7 가스 블록"
       },
       {
         "key": "68c16f6883e2d814b0093f7a ShortName",
@@ -2919,12 +2919,12 @@
       {
         "key": "68c16f6883e2d814b0093f7a Description",
         "source": "A low-profile gas block that replaces the factory gas tube collar on AR-10/AR-15 family carbines and rifles. Manufactured by SLR Rifleworks.",
-        "translation": "AR-10 및 AR-15 계열 카빈과 소총의 순정 가스튜브 칼라를 대체하는 로우 프로파일(Low-profile) 가스 조절기입니다. SLR 라이플워크스(SLR Rifleworks) 사에서 제작하였습니다."
+        "translation": "AR-10 및 AR-15 계열 카빈과 소총의 순정 가스튜브 칼라를 대체하는 로우 프로파일(Low-profile) 가스 블록입니다. SLR 라이플워크스(SLR Rifleworks) 사에서 제작하였습니다."
       },
       {
         "key": "68c16fcffc90c174e50de1ae Name",
         "source": "AR-15 DLG Tactical DLG-138 pistol grip (Black)",
-        "translation": "AR-15 DLG 택티컬 DLG-138 권총손잡이 (블랙)\n(AR-15 DLG Tactical DLG-138 pistol grip (검은색))"
+        "translation": "AR-15 DLG 택티컬 DLG-138 권총손잡이 (블랙)"
       },
       {
         "key": "68c16fcffc90c174e50de1ae Description",
@@ -2934,7 +2934,7 @@
       {
         "key": "68c16fe183e2d814b0093f7c Name",
         "source": "AR-15 DLG Tactical DLG-138 pistol grip (FDE)",
-        "translation": "AR-15 DLG 택티컬 DLG-138 권총손잡이 (사막색)\n(AR-15 DLG Tactical DLG-138 pistol grip (사막색))"
+        "translation": "AR-15 DLG 택티컬 DLG-138 권총손잡이 (사막색)"
       },
       {
         "key": "68c16fe183e2d814b0093f7c Description",
@@ -2954,7 +2954,7 @@
       {
         "key": "68c1701cba442c811207608b Name",
         "source": "AR-15 Custom Guns buffer tube (FDE)",
-        "translation": "AR-15 커스텀 건즈 완충 튜브 (사막색)\n(AR-15 Custom Guns buffer tube (사막색))"
+        "translation": "AR-15 커스텀 건즈 완충 튜브 (사막색)"
       },
       {
         "key": "68c1701cba442c811207608b Description",
@@ -3004,7 +3004,7 @@
       {
         "key": "68c294360f5ebd68290d6c16 Name",
         "source": "NL545 (GP) 5.45x39 upper receiver (FDE)",
-        "translation": "NL545 (GP) 5.45x39 상부 총몸 (사막색)\n(NL545 (GP) 5.45x39 upper receiver (사막색))"
+        "translation": "NL545 (GP) 5.45x39 상부 총몸 (사막색)"
       },
       {
         "key": "68c294360f5ebd68290d6c16 Description",
@@ -3014,7 +3014,7 @@
       {
         "key": "68c294750f5ebd68290d6c1c Name",
         "source": "NL545 (GP) 5.45x39 16.5 inch barrel",
-        "translation": "NL545 (GP) 5.45x39 16.5인치 총열\n(NL545 (GP) 5.45x39 16.5인치 barrel)"
+        "translation": "NL545 (GP) 5.45x39 16.5인치 총열"
       },
       {
         "key": "68c294750f5ebd68290d6c1c ShortName",
@@ -3029,7 +3029,7 @@
       {
         "key": "68c294800f5ebd68290d6c20 Name",
         "source": "NL545 (GP) 5.45x39 11.5 inch barrel",
-        "translation": "NL545 5.45x39 11.5인치 총열\n(NL545 (GP) 5.45x39 11.5인치 barrel)"
+        "translation": "NL545 5.45x39 11.5인치 총열"
       },
       {
         "key": "68c294800f5ebd68290d6c20 ShortName",
@@ -3054,7 +3054,7 @@
       {
         "key": "68c2989dc9061bb2f50478f6 Name",
         "source": "NL545 10.5 inch M-LOK handguard (FDE)",
-        "translation": "NL545 10.5인치 엠락 총열덮개 (사막색)\n(NL545 10.5인치 M-LOK handguard (사막색))"
+        "translation": "NL545 10.5인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "68c2989dc9061bb2f50478f6 ShortName",
@@ -3069,7 +3069,7 @@
       {
         "key": "68c2a99647eb77c6310b170f Name",
         "source": "NL545 gas block",
-        "translation": "NL545 가스 조절기"
+        "translation": "NL545 가스 블록"
       },
       {
         "key": "68c2a99647eb77c6310b170f ShortName",
@@ -3079,7 +3079,7 @@
       {
         "key": "68c2a99647eb77c6310b170f Description",
         "source": "An adjustable gas block designed for NL545 series carbines and assault rifles. Manufactured by Custom Guns.",
-        "translation": "NL545 시리즈 카빈 및 돌격소총용으로 설계된 조절식 가스 조절기입니다. 커스텀 건즈(Custom Guns) 사에서 제작하였습니다."
+        "translation": "NL545 시리즈 카빈 및 돌격소총용으로 설계된 조절식 가스 블록입니다. 커스텀 건즈(Custom Guns) 사에서 제작하였습니다."
       },
       {
         "key": "68c721ef980898142c0b3c5a Name",
@@ -3134,7 +3134,7 @@
       {
         "key": "68caabebc71156cf470bc186 Name",
         "source": "AR-15 Precision Reflex M84 Gas Buster Charging Handle",
-        "translation": "AR-15 Precision Reflex M84 Gas Buster 장전 손잡이"
+        "translation": "AR-15 프리시전 리플렉스 M84 가스 버스터 장전 손잡이"
       },
       {
         "key": "68caabebc71156cf470bc186 ShortName",
@@ -3144,7 +3144,7 @@
       {
         "key": "68caabebc71156cf470bc186 Description",
         "source": "The M84 Gas Buster charging handle for use with AR-15 platform rifles, equipped with the Military Big Latch. Manufactured by Precision Reflex.",
-        "translation": "Precision Reflex에서 제작한 AR-15 플랫폼 소총용 M84 Gas Buster 장전 손잡이입니다. Military Big Latch가 장착되어 있습니다."
+        "translation": "프리시전 리플렉스에서 제조한 AR-15용 M84 가스 버스터 장전 손잡이입니다. 밀리터리 빅 래치가 장착되어 있습니다."
       },
       {
         "key": "68caac02269e10396503acfa Name",
@@ -3154,7 +3154,7 @@
       {
         "key": "68caac02269e10396503acfa Description",
         "source": "A gas block with an integrated foldable front sight for the AR-15 platform. Manufactured by Precision Reflex.",
-        "translation": "AR-15 플랫폼을 위해 가늠쇠가 통합된 형태의 접이식 가스 조절기(Gas block)입니다. 프리시전 리플렉스(Precision Reflex) 사에서 제작하였습니다."
+        "translation": "AR-15 플랫폼용 가스 블록으로, 접이식 가늠쇠가 일체형으로 장착되어 있습니다. 프리시전 리플렉스에서 제조했습니다."
       },
       {
         "key": "68caac14f42a4476cf0be2aa Name",
@@ -3264,7 +3264,7 @@
       {
         "key": "68caacc7933990601c07f479 Description",
         "source": "A.R.M.S. #22 is a universal 30mm scope base mount for installation on Picatinny rails.",
-        "translation": "A.R.M.S. #22는 피카티니 레일(피카티니 레일)에 설치하기 위한 범용 30mm 스코프 베이스 마운트입니다."
+        "translation": "A.R.M.S. #22는 피카티니 레일에 설치할 수 있는 범용 30mm 스코프 베이스 마운트입니다."
       },
       {
         "key": "68caace5f42a4476cf0be2b4 Name",
@@ -3329,7 +3329,7 @@
       {
         "key": "68cc2ae66e59cb54f4054f47 Name",
         "source": "AR-15 Precision Reflex GEN III Round Carbon 12 inch handguard (FDE)",
-        "translation": "AR-15 프리시전 리플렉스 GEN III 라운드 카본 12인치 총열덮개 (사막색)\n(AR-15 Precision Reflex GEN III Round Carbon 12인치 handguard (사막색))"
+        "translation": "AR-15 프리시전 리플렉스 GEN III 라운드 카본 12인치 총열덮개 (사막색)"
       },
       {
         "key": "68cc2ae66e59cb54f4054f47 ShortName",
@@ -3479,17 +3479,17 @@
       {
         "key": "68d566b2aa07af2e14059e01 Name",
         "source": "AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine (FDE)",
-        "translation": "30발, AK-74 5.45x39 맥풀 PMAG 30 GEN M3 탄창 (사막색)\n(AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine (사막색))"
+        "translation": "30발, AK-74 5.45x39 맥풀 PMAG 30 GEN M3 탄창 (사막색)"
       },
       {
         "key": "68d566b2aa07af2e14059e01 Description",
         "source": "A 30-round polymer Magpul Pmag 30 AK74 GEN M3 magazine for 5.45x39 AK and compatible weapons. Flat dark Earth variant.",
-        "translation": "30발, 5.45x39mm AK 및 호환 무기, 5.45x39mm, 맥풀 PMAG 30 GEN M3 폴리머 탄창. 플랫 다크 어스 변체"
+        "translation": "30발, 5.45x39mm AK 및 호환 무기, 5.45x39mm, 맥풀 PMAG 30 GEN M3 폴리머 탄창. 플랫 다크 어스 변형"
       },
       {
         "key": "68d566f3f3d7cd248f0a06db Name",
         "source": "Magpul UCS buttstock (FDE)",
-        "translation": "맥풀 UCS 개머리판 (사막색)\n(Magpul UCS buttstock (사막색))"
+        "translation": "맥풀 UCS 개머리판 (사막색)"
       },
       {
         "key": "68d566f3f3d7cd248f0a06db Description",
@@ -3499,7 +3499,7 @@
       {
         "key": "68d5674bb2573b07dc0d225f Name",
         "source": "AK Zenit RK-3 pistol grip (FDE)",
-        "translation": "AK 제니트 RK-3 권총손잡이 (사막색)\n(AK Zenit RK-3 pistol grip (사막색))"
+        "translation": "AK 제니트 RK-3 권총손잡이 (사막색)"
       },
       {
         "key": "68d5674bb2573b07dc0d225f Description",
@@ -3509,7 +3509,7 @@
       {
         "key": "68d5676f43adc7372a0c8ae0 Name",
         "source": "TKPD handguard (FDE)",
-        "translation": "TKPD 총열덮개 (사막색)\n(TKPD handguard (사막색))"
+        "translation": "TKPD 총열덮개 (사막색)"
       },
       {
         "key": "68d5676f43adc7372a0c8ae0 Description",
@@ -3604,7 +3604,7 @@
       {
         "key": "68df97725d4e135b130392c8 Name",
         "source": "Survivor poster",
-        "translation": "Survivor 포스터"
+        "translation": "생존자 포스터"
       },
       {
         "key": "68df97725d4e135b130392c8 ShortName",
@@ -3634,7 +3634,7 @@
       {
         "key": "68df977e972cf1e1ec072568 Name",
         "source": "Lighthouse poster",
-        "translation": "Lighthouse 포스터"
+        "translation": "등대 포스터"
       },
       {
         "key": "68df977e972cf1e1ec072568 ShortName",
@@ -3649,7 +3649,7 @@
       {
         "key": "68df9785beba86572e097ce8 Name",
         "source": "For Humanity poster",
-        "translation": "For Humanity 포스터"
+        "translation": "인류를 위하여 포스터"
       },
       {
         "key": "68df9785beba86572e097ce8 ShortName",
@@ -3829,7 +3829,7 @@
       {
         "key": "68df9abc5d4e135b130392d2 Description",
         "source": "The material for these walls was scavenged somewhere in Tarkov’s back alleys. Some blocks still carry traces of old street ads.",
-        "translation": "타르코프의 뒷골목 어딘가에서 줏어온 재료들로 만든 벽입니다. 일부 블록에는 여전히 옛 거리 광고의 흔적이 남아 있습니다."
+        "translation": "타르코프 뒷골목에서 주워 온 재료로 만든 벽입니다. 일부 블록에는 옛 거리 광고의 흔적이 남아 있습니다."
       },
       {
         "key": "68df9ac5a38a5e37d80df6cd Name",
@@ -4249,7 +4249,7 @@
       {
         "key": "68e95d71a3d110355b03e529 Description",
         "source": "A standard key, distinguished only by a Mechanic keychain. Seems Elektronik has a sense of humor. And a Tarko figurine supply channel.",
-        "translation": "메카닉 열쇠고리만 달린 평범한 열쇠입니다. Elektronik은 유머 감각도 있고, 타르코 피규어 유통망도 쥔 모양이군요."
+        "translation": "메카닉 열쇠고리로만 구별되는 평범한 열쇠입니다. 일렉트로닉은 유머 감각도 있고 타르코 피규어 유통 경로도 확보한 모양입니다."
       },
       {
         "key": "68e95f4fa4a577e907015787 Name",
@@ -4364,7 +4364,7 @@
       {
         "key": "68f0f63c645c14a02104142a Description",
         "source": "A special stainless steel army dogtag serving the purpose of quickly identifying the wounded and deceased in combat. This particular variant can be used as a thumb drive.",
-        "translation": "전투 중 부상자나 전사자의 신원을 신속하게 확인하기 위한 특수 스테인리스강 군용 인식표입니다. 이 특별한 변체는 USB 드라이브로도 사용할 수 있습니다."
+        "translation": "전투 중 부상자나 전사자의 신원을 신속하게 확인하기 위한 특수 스테인리스강 군용 인식표입니다. 이 특별한 변형는 USB 드라이브로도 사용할 수 있습니다."
       },
       {
         "key": "68f0f64f183146ea530330aa Name",
@@ -4384,7 +4384,7 @@
       {
         "key": "68f0f662859ebec8d501b76a Description",
         "source": "A special stainless steel army dogtag serving the purpose of quickly identifying the wounded and deceased in combat. This particular variant can be used as a thumb drive.",
-        "translation": "전투 중 부상자나 전사자의 신원을 신속하게 확인하기 위한 특수 스테인리스강 군용 인식표입니다. 이 특별한 변체는 USB 드라이브로도 사용할 수 있습니다."
+        "translation": "전투 중 부상자나 전사자의 신원을 신속하게 확인하기 위한 특수 스테인리스강 군용 인식표입니다. 이 특별한 변형는 USB 드라이브로도 사용할 수 있습니다."
       },
       {
         "key": "68f0f8a1375a44d1ed01ea4b Name",
@@ -4679,7 +4679,7 @@
       {
         "key": "68f15ed4edf2ab313f093498 Name",
         "source": "Dogtag (Melted)",
-        "translation": "인식표 (Melted)"
+        "translation": "인식표 (녹아내린)"
       },
       {
         "key": "68f15ed4edf2ab313f093498 ShortName",
@@ -4794,7 +4794,7 @@
       {
         "key": "68f25b27abc35769c505f959 Description",
         "source": "This poster was clearly created under the impression of a truly difficult raid in Tarkov.",
-        "translation": "타르코프에서 정말 힘든 레이드에 참여한 인상으로 제작된 포스터입니다."
+        "translation": "타르코프에서 치른 정말 힘겨운 레이드의 강렬한 인상을 담아 제작된 포스터입니다."
       },
       {
         "key": "68f25b4219a2b503d70dc28d Name",
@@ -5119,12 +5119,12 @@
       {
         "key": "68f8ccb11cc53ada67036e27 Name",
         "source": "Armband (HEAD, EYES Protection)",
-        "translation": "완장 (HEAD, EYES Protection)"
+        "translation": "완장 (HEAD, EYES 보호)"
       },
       {
         "key": "68f8ccb11cc53ada67036e27 ShortName",
         "source": "Prayer",
-        "translation": "플레이어"
+        "translation": "기도"
       },
       {
         "key": "68f8ccb11cc53ada67036e27 Description",
@@ -5134,7 +5134,7 @@
       {
         "key": "68f8ccbc4c78615ba6079b20 Name",
         "source": "Armband (LOOT Prayer)",
-        "translation": "완장 (LOOT Player)"
+        "translation": "완장 (전리품 기도)"
       },
       {
         "key": "68f8ccbc4c78615ba6079b20 ShortName",
@@ -5154,7 +5154,7 @@
       {
         "key": "68f8ccf06a6869fe97026c3b ShortName",
         "source": "Prayer",
-        "translation": "플레이어"
+        "translation": "기도"
       },
       {
         "key": "68f8ccf06a6869fe97026c3b Description",
@@ -5579,7 +5579,7 @@
       {
         "key": "692a512ac59603dc1f8085aa Name",
         "source": "RUAF Major",
-        "translation": "러시아 연방군 소령"
+        "translation": "RUAF 소령"
       },
       {
         "key": "692a512ac59603dc1f8085aa Description",
@@ -5599,7 +5599,7 @@
       {
         "key": "692a512eebb55de8d2b48589 Name",
         "source": "RUAF Ballistic",
-        "translation": "러시아 연방군 탄도복"
+        "translation": "RUAF 탄도복"
       },
       {
         "key": "692a512eebb55de8d2b48589 Description",
@@ -5609,7 +5609,7 @@
       {
         "key": "692a5130f99d081957ccf3a8 Name",
         "source": "RUAF Sergeant",
-        "translation": "러시아 연방군 중사"
+        "translation": "RUAF 중사"
       },
       {
         "key": "692a5130f99d081957ccf3a8 Description",
@@ -5629,7 +5629,7 @@
       {
         "key": "692a51347b48879bf12053be Name",
         "source": "RUAF Corporal",
-        "translation": "러시아 연방군 상병"
+        "translation": "RUAF 상병"
       },
       {
         "key": "692a51347b48879bf12053be Description",
@@ -5649,7 +5649,7 @@
       {
         "key": "692a5138fed1e1e61f1db605 Name",
         "source": "RUAF Lieutenant",
-        "translation": "러시아 연방군 중위"
+        "translation": "RUAF 중위"
       },
       {
         "key": "692a5138fed1e1e61f1db605 Description",
@@ -5699,7 +5699,7 @@
       {
         "key": "692a5142fb9506fb2d8d30a1 Name",
         "source": "RUAF Soldier (V2)",
-        "translation": "러시아 연방군 병사 (V2)"
+        "translation": "RUAF 병사 (V2)"
       },
       {
         "key": "692a5142fb9506fb2d8d30a1 Description",
@@ -5749,7 +5749,7 @@
       {
         "key": "692a515093765380237f77f1 Name",
         "source": "RUAF Ballistic",
-        "translation": "러시아 연방군 탄도복"
+        "translation": "RUAF 탄도복"
       },
       {
         "key": "692a515093765380237f77f1 Description",
@@ -5769,7 +5769,7 @@
       {
         "key": "692a5152251d71685b4e846b Name",
         "source": "RUAF Soldier (V1)",
-        "translation": "러시아 연방군 병사 (V1)"
+        "translation": "RUAF 병사 (V1)"
       },
       {
         "key": "692a5152251d71685b4e846b Description",
@@ -5789,7 +5789,7 @@
       {
         "key": "692a515516f2fb26dbbbb360 Name",
         "source": "RUAF Officer",
-        "translation": "러시아 연방군 장교"
+        "translation": "RUAF 장교"
       },
       {
         "key": "692a515516f2fb26dbbbb360 Description",
@@ -5864,7 +5864,7 @@
       {
         "key": "6932ac762e27c68c800bd836 Name",
         "source": "AR-10 KAC charging handle (Taupe)",
-        "translation": "AR-10 KAC 장전 손잡이 (Taupe)"
+        "translation": "AR-10 KAC 장전 손잡이 (토프)"
       },
       {
         "key": "6932ac762e27c68c800bd836 Description",
@@ -5914,12 +5914,12 @@
       {
         "key": "6932aeebbe542622170428ba Name",
         "source": "AR-10 KAC M110 Double High Picatinny Gas Block",
-        "translation": "AR-10 KAC M110 더블 하이 피카티니 가스 조절기"
+        "translation": "AR-10 KAC M110 더블 하이 피카티니 가스 블록"
       },
       {
         "key": "6932aeebbe542622170428ba Description",
         "source": "A gas block for AR-10 series rifles which adds a Picatinny rail for installation of various tactical devices. Manufactured by Knight's Armament Company.",
-        "translation": "다양한 전술 장비 장착을 위한 피카티니 레일이 추가된 AR-10 시리즈 소총용 가스 조절기입니다. 나이츠 아머먼트 컴퍼니(Knight's Armament Company) 사에서 제작하였습니다."
+        "translation": "다양한 전술 장비 장착을 위한 피카티니 레일이 추가된 AR-10 시리즈 소총용 가스 블록입니다. 나이츠 아머먼트 컴퍼니(Knight's Armament Company) 사에서 제작하였습니다."
       },
       {
         "key": "6932af0bbe542622170428bd Name",
@@ -5944,7 +5944,7 @@
       {
         "key": "6936bd64b2b5b688e50cde36 Name",
         "source": "AR-10 KAC URX 2 12.5 inch handguard (Taupe)",
-        "translation": "AR-10 KAC URX 2 12.5인치 총열덮개 (토프)\n(AR-10 KAC URX 2 12.5인치 handguard (Taupe))"
+        "translation": "AR-10 KAC URX 2 12.5인치 총열덮개 (토프)"
       },
       {
         "key": "6936bd64b2b5b688e50cde36 ShortName",
@@ -5959,7 +5959,7 @@
       {
         "key": "6936bd6f4737190b66053ba6 Name",
         "source": "AR-10 KAC URX 3.1 13.5 inch handguard (Taupe)",
-        "translation": "AR-10 KAC URX 3.1 13.5인치 총열덮개 (토프)\n(AR-10 KAC URX 3.1 13.5인치 handguard (Taupe))"
+        "translation": "AR-10 KAC URX 3.1 13.5인치 총열덮개 (토프)"
       },
       {
         "key": "6936bd6f4737190b66053ba6 ShortName",
@@ -5974,12 +5974,12 @@
       {
         "key": "6936bde84737190b66053bb1 Name",
         "source": "AR-10 KAC M110 Double High Picatinny Gas Block (Taupe)",
-        "translation": "AR-10 KAC M110 더블 하이 피카티니 가스 조절기 (토프)"
+        "translation": "AR-10 KAC M110 더블 하이 피카티니 가스 블록 (토프)"
       },
       {
         "key": "6936bde84737190b66053bb1 Description",
         "source": "A gas block for AR-10 series rifles which adds a Picatinny rail for installation of various tactical devices. Manufactured by Knight's Armament Company. Coated in cerakote Taupe color.",
-        "translation": "다양한 전술 장비 장착을 위한 피카티니 레일이 추가된 AR-10 시리즈 소총용 가스 조절기입니다. 나이츠 아머먼트 컴퍼니 사에서 제작하였으며, 토프(Taupe) 색상의 세라코트(Cerakote) 처리가 되어 있습니다."
+        "translation": "다양한 전술 장비 장착을 위한 피카티니 레일이 추가된 AR-10 시리즈 소총용 가스 블록입니다. 나이츠 아머먼트 컴퍼니 사에서 제작하였으며, 토프(Taupe) 색상의 세라코트(Cerakote) 처리가 되어 있습니다."
       },
       {
         "key": "6936be064737190b66053bb4 Name",
@@ -5994,7 +5994,7 @@
       {
         "key": "6936fe4a3f4d6dfa3900c33c Name",
         "source": "Lower half-mask (Skull Santa)",
-        "translation": "하프 마스크 (해골 산타)"
+        "translation": "하부 반안면 마스크 (해골 산타)"
       },
       {
         "key": "6936fe4a3f4d6dfa3900c33c ShortName",
@@ -6209,7 +6209,7 @@
       {
         "key": "693be056fd3a5c751e00de04 Description",
         "source": "A special additional ballistic protection for the Caiman Hybrid helmet, mounted on the side rails. Manufactured by Galvion. MultiCam Alpine version.",
-        "translation": "카이만 하이브리드 헬멧의 측면 레일에 장착하는 특수 추가 탄도 보호장치입니다. 갤비온(Galvion)에서 제조했습니다. 멀티캠 알파인(멀티캠 알파인) 버전입니다."
+        "translation": "카이만 하이브리드 헬멧의 측면 레일에 장착하는 특수 추가 탄도 보호장치입니다. 갤비온(Galvion)에서 제조했습니다. 멀티캠 알파인 버전입니다."
       },
       {
         "key": "693be0ee50fafa102607aebd Name",
@@ -6224,12 +6224,12 @@
       {
         "key": "693be0ee50fafa102607aebd Description",
         "source": "An additional up-armor helmet shell attachment to elevate or enhance ballistic and fragmentation protection of the Caiman Hybrid Helmet. Manufactured by Galvion. MultiCam Alpine version.",
-        "translation": "카이만 하이브리드 헬멧의 탄도 및 파편 방호를 강화하기 위한 추가 업아머 헬멧 쉘 부착물입니다. 갤비온(Galvion)에서 제조했습니다. 멀티캠 알파인(멀티캠 알파인) 버전입니다."
+        "translation": "카이만 하이브리드 헬멧의 탄도 및 파편 방호를 강화하기 위한 추가 업아머 헬멧 쉘 부착물입니다. 갤비온(Galvion)에서 제조했습니다. 멀티캠 알파인 버전입니다."
       },
       {
         "key": "693be8f650fafa102607aed4 Name",
         "source": "HighCom Striker ULACH IIIA helmet (Winter Mesh Spray)",
-        "translation": "하이컴 스트라이커 ULACH IIIA 헬멧 (Winter Mesh Spray)"
+        "translation": "하이컴 스트라이커 ULACH IIIA 헬멧 (동계 그물망 스프레이 위장)"
       },
       {
         "key": "693be8f650fafa102607aed4 Description",
@@ -6264,7 +6264,7 @@
       {
         "key": "693fd1200ec97e98040bd3f9 Name",
         "source": "Tac-Kek JayPC plate carrier (Black)",
-        "translation": "Tac-Kek JayPC 플레이트 캐리어 (블랙)\n(Tac-Kek JayPC plate carrier (검은색))"
+        "translation": "Tac-Kek JayPC 플레이트 캐리어 (블랙)"
       },
       {
         "key": "693fd1200ec97e98040bd3f9 Description",
@@ -6284,7 +6284,7 @@
       {
         "key": "69412e1d0045b2176002e4eb Name",
         "source": "Extreme cold weather face mask",
-        "translation": "익스트림 콜드 얼굴 마스크"
+        "translation": "극한 한랭용 얼굴 마스크"
       },
       {
         "key": "69412e1d0045b2176002e4eb ShortName",
@@ -6324,7 +6324,7 @@
       {
         "key": "6943c85be2f21398e70378cc Name",
         "source": "Tac-Kek SAPI Level III+ ballistic plate (Replica)",
-        "translation": "Tac-Kek SAPI Level III+ 탄도 플레이트 (Replica)"
+        "translation": "Tac-Kek SAPI Level III+ 탄도 플레이트 (복제품)"
       },
       {
         "key": "6943c85be2f21398e70378cc Description",
@@ -6464,7 +6464,7 @@
       {
         "key": "69485b1b7378b7c11fff89c0",
         "source": "Earn the achievement Headhunt: Alarm Bell",
-        "translation": "\"헤드헌트: 경보\" 업적 획득"
+        "translation": "\"헤드헌트: 경종\" 업적 획득"
       },
       {
         "key": "69485d4228fbbf7227ff89c1 Name",
@@ -6506,7 +6506,7 @@
       {
         "key": "69488da32b65c599809a56b0",
         "source": "Earn the achievement Headhunt: Ain't That A Kick In The Leg",
-        "translation": "\"헤드헌트: 다리에 맞은 것 치고는 나쁘지 않군\" 업적 획득"
+        "translation": "\"헤드헌트: 다리에 한 방\" 업적 획득"
       },
       {
         "key": "69488ddbe04d15d5539a56b1 Name",
@@ -6541,7 +6541,7 @@
       {
         "key": "694890e956549526659a56bb Description",
         "source": "Eliminate 10 PMCs with headshots on every map",
-        "translation": "모든 맵에서 PMC 10명을 헤드샷으로 처치하십시오.",
+        "translation": "각 맵에서 PMC 10명씩 헤드샷으로 처치하십시오.",
         "display_type": "achievement_description"
       },
       {
@@ -6767,7 +6767,7 @@
       {
         "key": "697883474afb9f7de10380ba Description",
         "source": "A true lifesaver for poster collectors. No more bent corners!",
-        "translation": "poster collectors. No more bent corners!용 true lifesaver입니다."
+        "translation": "포스터 수집가에게는 정말 구세주 같은 물건입니다. 이제 모서리가 구겨질 걱정은 없습니다!"
       },
       {
         "key": "697a1bed4fd85417be07c5a6 Name",
@@ -6837,7 +6837,7 @@
       {
         "key": "697c7a457c3b0223c30d16e6 Description",
         "source": "A special steel bulletproof faceshield for the Maska-1SCh (\"Mask-1 Shield\") helmet. ",
-        "translation": "Maska-1SCh (\"Mask-1 Shield\") helmet용 special 강철 bulletproof faceshield입니다."
+        "translation": "Maska-1SCh(마스크-1 실드) 헬멧용 특수 강철 방탄 안면 보호대입니다."
       },
       {
         "key": "697cdbfd14e9320980057487 Name",
@@ -6867,7 +6867,7 @@
       {
         "key": "697cdc8a156bcff2ec04a127 Description",
         "source": "A target for those who are thoroughly sick of these red fellows.",
-        "translation": "those who are thoroughly sick of these red fellows용 target입니다."
+        "translation": "그 붉은 녀석들이 지긋지긋한 사람들을 위한 표적입니다."
       },
       {
         "key": "697cdcfd397fe7d54748a20d Name",
@@ -6877,7 +6877,7 @@
       {
         "key": "697cdcfd397fe7d54748a20d Description",
         "source": "A target for those who are thoroughly sick of these red fellows.",
-        "translation": "those who are thoroughly sick of these red fellows용 target입니다."
+        "translation": "그 붉은 녀석들이 지긋지긋한 사람들을 위한 표적입니다."
       },
       {
         "key": "697cdd1e61e7056d010cf7d3",
@@ -7132,7 +7132,7 @@
       {
         "key": "69b139f2f7f5e39d7b0c04e6 Name",
         "source": "Rash guard (Arena Warrior)",
-        "translation": "래시가드 (Arena Warrior)"
+        "translation": "래시가드 (아레나 워리어)"
       },
       {
         "key": "69b139f2f7f5e39d7b0c04e6",
@@ -7142,7 +7142,7 @@
       {
         "key": "69b144545b118e3eb0073cbf Name",
         "source": "Rash guard (Arena Gladiator)",
-        "translation": "래시가드 (Arena Gladiator)"
+        "translation": "래시가드 (아레나 글래디에이터)"
       },
       {
         "key": "69b144545b118e3eb0073cbf",
@@ -7237,7 +7237,7 @@
       {
         "key": "69bb424e99f3fda8f107247d ShortName",
         "source": "Memento",
-        "translation": "기념품"
+        "translation": "Memento"
       },
       {
         "key": "69bb424e99f3fda8f107247d Description",
@@ -7252,7 +7252,7 @@
       {
         "key": "69bb42b9ce2b96840302b92b Description",
         "source": "The control log of a nuclear power unit records safety parameters, routine inspection results, and various measurements ensuring the safe operation of the Icebreaker’s nuclear reactor.",
-        "translation": "원자력 동력 장치의 제어 기록에는 보안 매개변수, 정기 점검 결과, 그리고 쇄빙선 원자로의 안전한 운용을 보장하기 위한 각종 측정값이 기록됩니다."
+        "translation": "원자력 동력 장치의 제어 기록에는 안전 매개변수, 정기 점검 결과, 그리고 쇄빙선 원자로의 안전한 운용을 보장하기 위한 각종 측정값이 기록됩니다."
       },
       {
         "key": "69bb435ff609db77390b0e25 Name",
@@ -7542,7 +7542,7 @@
       {
         "key": "69cbfe1f6dbaa9badb0c6b13 Description",
         "source": "The AirFrame ballistic helmet sets the standards in protection, comfort, and modularity. The unique overlapping shell design of the AirFrame creates an integrated vent that provides passive cooling and can reduce the damaging effects of explosive blast waves. Highly modular. Manufactured by Crye Precision.",
-        "translation": "Crye Precision에서 제작한 AirFrame 탄도 헬멧 세트는 보호, 편안함 및 모듈성을 중점으로 구성되어 있습니다. AirFrame의 독특한 중첩식 방탄판 디자인은 자연스럽게 통풍구를 만들어 주어서, 지속적인 통풍 기능을 제공해 주고 폭발로 인한 충격파의 피해를 줄여줍니다."
+        "translation": "에어프레임 방탄 헬멧은 보호력, 착용감, 모듈성의 기준을 제시합니다. 독특한 겹침식 외피 설계가 통합 통풍구를 형성하여 자연 냉각을 돕고 폭발 충격파의 유해한 영향을 줄일 수 있습니다. 높은 모듈성을 갖추었으며 Crye Precision에서 제조했습니다."
       },
       {
         "key": "69cbfe34c293038df7002963 Name",
@@ -7687,7 +7687,7 @@
       {
         "key": "69ce76ecda746ebd2603fd04",
         "source": "BEAR Lonsdale",
-        "translation": "BEAR 론스데일"
+        "translation": "BEAR 론즈데일"
       },
       {
         "key": "69ce77141f77d6bab3037696 Name",
@@ -7697,7 +7697,7 @@
       {
         "key": "69ce77141f77d6bab3037696",
         "source": "BEAR Lonsdale",
-        "translation": "BEAR 론스데일"
+        "translation": "BEAR 론즈데일"
       },
       {
         "key": "69ce834e88dd37c3fd095ec3 Name",
@@ -7707,7 +7707,7 @@
       {
         "key": "69ce834e88dd37c3fd095ec3",
         "source": "USEC Alone in Woods",
-        "translation": "USEC 숲속의 외톨이"
+        "translation": "USEC 숲속의 고독"
       },
       {
         "key": "69ce838c6f03ce7fc00437e3 Name",
@@ -7717,7 +7717,7 @@
       {
         "key": "69ce838c6f03ce7fc00437e3",
         "source": "USEC Alone in Woods",
-        "translation": "USEC 숲속의 외톨이"
+        "translation": "USEC 숲속의 고독"
       },
       {
         "key": "69ce8ea6c5fbc777150faf69 Name",
@@ -7757,7 +7757,7 @@
       {
         "key": "69ceab3a8562e71bbe063514 Description",
         "source": "A baseball cap in a MultiCam Black camouflage, worn only with the brim facing backward. Ignore and Override.",
-        "translation": "멀티캠 블랙 위장무늬가 적용된 야구모자입니다. 챙은 뒤로 돌려서만 써야 합니다. Ignore and Override."
+        "translation": "멀티캠 블랙 위장무늬가 적용된 야구모자입니다. 챙은 뒤로 돌려서만 써야 합니다. 무시하고 덮어쓰세요."
       },
       {
         "key": "69cf7b7fdd62188d7505fea9 Name",
@@ -7782,7 +7782,7 @@
       {
         "key": "69cf90749aed3ea997094afa Name",
         "source": "Rash guard (Boomba)",
-        "translation": "래시가드 (Boomba)"
+        "translation": "래시가드 (붐바)"
       },
       {
         "key": "69cf90749aed3ea997094afa",
@@ -7792,7 +7792,7 @@
       {
         "key": "69cf90ac7e099a3f800edb6f Name",
         "source": "Rash guard (Prepare for War)",
-        "translation": "래시가드 (Prepare for War)"
+        "translation": "래시가드 (전쟁 준비)"
       },
       {
         "key": "69cf90ac7e099a3f800edb6f",
@@ -7802,7 +7802,7 @@
       {
         "key": "69cf90d50c8abf3dc904bd0f Name",
         "source": "Rash guard (Blue Raven)",
-        "translation": "래시가드 (Blue Raven)"
+        "translation": "래시가드 (블루 레이븐)"
       },
       {
         "key": "69cf90d50c8abf3dc904bd0f",
@@ -7812,7 +7812,7 @@
       {
         "key": "69cf91052aa615fbd401e8c5 Name",
         "source": "Rash guard (Gray Raven)",
-        "translation": "래시가드 (Gray Raven)"
+        "translation": "래시가드 (그레이 레이븐)"
       },
       {
         "key": "69cf91052aa615fbd401e8c5",
@@ -8037,7 +8037,7 @@
       {
         "key": "69d39aacf1954acdb3083285 Description",
         "source": "A reward for participation in Season 2 BattlePass “Casus Belli”. Rumor has it, it contains items somehow connected to the Arena Champion known as JP. Designed for the most reckless gladiators and can only be opened within the Arena.",
-        "translation": "시즌 2 배틀패스 Casus Belli 참여 보상입니다. Arena 챔피언 JP와 somehow 관련된 물건들이 들어 있다는 소문이 있습니다. 가장 무모한 검투사들을 위해 준비된 상자이며, Arena 안에서만 열 수 있습니다."
+        "translation": "시즌 2 배틀패스 Casus Belli 참여 보상입니다. Arena 챔피언 JP와 어쩐지 관련된 물건들이 들어 있다는 소문이 있습니다. 가장 무모한 검투사들을 위해 준비된 상자이며, Arena 안에서만 열 수 있습니다."
       },
       {
         "key": "69d3c156cdeff2f448010e2e Name",
@@ -8147,7 +8147,7 @@
       {
         "key": "69ef7c77fd73ad53ac0ac5e5",
         "source": "USEC Gen 4",
-        "translation": "USEC 4세대"
+        "translation": "USEC Gen 4"
       },
       {
         "key": "69ef7c9845f58c90fa099aac Name",
@@ -8157,7 +8157,7 @@
       {
         "key": "69ef7c9845f58c90fa099aac",
         "source": "BEAR Slavianka",
-        "translation": "BEAR 슬라뱐카"
+        "translation": "BEAR 슬라비안카"
       },
       {
         "key": "69ef7caf99eabc008b09980f Name",
@@ -8167,7 +8167,7 @@
       {
         "key": "69ef7caf99eabc008b09980f",
         "source": "BEAR Slavianka",
-        "translation": "BEAR 슬라뱐카"
+        "translation": "BEAR 슬라비안카"
       },
       {
         "key": "69ef7cd445f58c90fa099ab2 Name",
@@ -8177,7 +8177,7 @@
       {
         "key": "69ef7cd445f58c90fa099ab2",
         "source": "USEC Gen 4",
-        "translation": "USEC 4세대"
+        "translation": "USEC Gen 4"
       },
       {
         "key": "69f9d319c906cd16da03b374 Name",
@@ -8282,7 +8282,7 @@
       {
         "key": "69f9ecc5df2c2358a904185c Name",
         "source": "QBZ-191 5.8x42 upper receiver",
-        "translation": "QBZ-191 5.8x42 upper 리시버"
+        "translation": "QBZ-191 5.8x42 상부 리시버"
       },
       {
         "key": "69f9ecc5df2c2358a904185c ShortName",
@@ -8297,7 +8297,7 @@
       {
         "key": "69f9f0a86b45e1d5210c6955 Name",
         "source": "QBZ-191 flip-up rear sight",
-        "translation": "QBZ-191 flip-up 가늠자"
+        "translation": "QBZ-191 접이식 가늠자"
       },
       {
         "key": "69f9f0a86b45e1d5210c6955 Description",
@@ -8347,7 +8347,7 @@
       {
         "key": "69f9f111df2c2358a904186f Name",
         "source": "QBZ-191 polymer handguard",
-        "translation": "QBZ-191 polymer 총열덮개"
+        "translation": "QBZ-191 폴리머 총열덮개"
       },
       {
         "key": "69f9f111df2c2358a904186f Description",
@@ -8357,7 +8357,7 @@
       {
         "key": "69f9f12c25db06fcf60a88f1 Name",
         "source": "QBZ-191 Jia Zhou TRS M-LOK 10 inch handguard",
-        "translation": "QBZ-191 Jia Zhou TRS M-LOK 10 inch 총열덮개"
+        "translation": "QBZ-191 Jia Zhou TRS M-LOK 10인치 총열덮개"
       },
       {
         "key": "69f9f12c25db06fcf60a88f1 ShortName",
@@ -8372,7 +8372,7 @@
       {
         "key": "69f9f1356b45e1d5210c6961 Name",
         "source": "QBZ-191 Jia Zhou TRS M-LOK 13.5 inch handguard",
-        "translation": "QBZ-191 Jia Zhou TRS M-LOK 13.5 inch 총열덮개"
+        "translation": "QBZ-191 Jia Zhou TRS M-LOK 13.5인치 총열덮개"
       },
       {
         "key": "69f9f1356b45e1d5210c6961 ShortName",
@@ -8507,7 +8507,7 @@
       {
         "key": "6a147ae25071bc42610640b5 Name",
         "source": "AR-15 Daniel Defense RIS III 9.5 lower handguard (Black)",
-        "translation": "AR-15 Daniel Defense RIS III 9.5 lower 총열덮개 (검은색)"
+        "translation": "AR-15 Daniel Defense RIS III 9.5 하부 총열덮개 (검은색)"
       },
       {
         "key": "6a147ae25071bc42610640b5 ShortName",
@@ -8532,7 +8532,7 @@
       {
         "key": "6a1567e0af9c1c57b700776f Name",
         "source": "AR-15 Daniel Defense RIS III 9.5 lower handguard (Mil Spec+)",
-        "translation": "AR-15 Daniel Defense RIS III 9.5 lower 총열덮개 (Mil Spec+)"
+        "translation": "AR-15 Daniel Defense RIS III 9.5 하부 총열덮개 (Mil Spec+)"
       },
       {
         "key": "6a1567e0af9c1c57b700776f ShortName",
@@ -8567,7 +8567,7 @@
       {
         "key": "6a156ac407619a15b1023bf0 Name",
         "source": "AR-15 Daniel Defense RIS III 12.5 lower handguard (Black)",
-        "translation": "AR-15 Daniel Defense RIS III 12.5 lower 총열덮개 (검은색)"
+        "translation": "AR-15 Daniel Defense RIS III 12.5 하부 총열덮개 (검은색)"
       },
       {
         "key": "6a156ac407619a15b1023bf0 ShortName",
@@ -8582,7 +8582,7 @@
       {
         "key": "6a1571b8060f61ca2c03e06f Name",
         "source": "AR-15 Daniel Defense RIS III 12.5 lower handguard (Mil Spec+)",
-        "translation": "AR-15 Daniel Defense RIS III 12.5 lower 총열덮개 (Mil Spec+)"
+        "translation": "AR-15 Daniel Defense RIS III 12.5 하부 총열덮개 (Mil Spec+)"
       },
       {
         "key": "6a1571b8060f61ca2c03e06f ShortName",
@@ -8617,7 +8617,7 @@
       {
         "key": "6a15785370efdef7be017253 Name",
         "source": "AR-15 Daniel Defense Fixed Front Sight",
-        "translation": "AR-15 Daniel Defense Fixed 가늠쇠"
+        "translation": "AR-15 Daniel Defense 고정식 가늠쇠"
       },
       {
         "key": "6a15785370efdef7be017253 Description",
@@ -8627,7 +8627,7 @@
       {
         "key": "6a1578658d059ca69c0a7853 Name",
         "source": "AR-15 Daniel Defense Fixed Rear Sight",
-        "translation": "AR-15 Daniel Defense Fixed 가늠자"
+        "translation": "AR-15 Daniel Defense 고정식 가늠자"
       },
       {
         "key": "6a1578658d059ca69c0a7853 Description",
@@ -8657,7 +8657,7 @@
       {
         "key": "6a157b9e5ef5195441036c12 Name",
         "source": "HK 416 Geissele SMR HK 10.5 inch handguard (Black)",
-        "translation": "HK 416 Geissele SMR HK 10.5 inch 총열덮개 (검은색)"
+        "translation": "HK 416 Geissele SMR HK 10.5인치 총열덮개 (검은색)"
       },
       {
         "key": "6a157b9e5ef5195441036c12 ShortName",
@@ -8692,7 +8692,7 @@
       {
         "key": "6a157f34cbb8d0c82606c54c Name",
         "source": "HK 416 Geissele SMR HK 10.5 inch handguard (DDC)",
-        "translation": "HK 416 Geissele SMR HK 10.5 inch 총열덮개 (DDC)"
+        "translation": "HK 416 Geissele SMR HK 10.5인치 총열덮개 (DDC)"
       },
       {
         "key": "6a157f34cbb8d0c82606c54c ShortName",
@@ -8707,7 +8707,7 @@
       {
         "key": "6a157f5d8d059ca69c0a7864 Name",
         "source": "HK 416 Geissele SMR HK 14.5 inch handguard (Black)",
-        "translation": "HK 416 Geissele SMR HK 14.5 inch 총열덮개 (검은색)"
+        "translation": "HK 416 Geissele SMR HK 14.5인치 총열덮개 (검은색)"
       },
       {
         "key": "6a157f5d8d059ca69c0a7864 ShortName",
@@ -8722,7 +8722,7 @@
       {
         "key": "6a157fa8af9c1c57b700778f Name",
         "source": "HK 416 Geissele SMR HK 14.5 inch handguard (DDC)",
-        "translation": "HK 416 Geissele SMR HK 14.5 inch 총열덮개 (DDC)"
+        "translation": "HK 416 Geissele SMR HK 14.5인치 총열덮개 (DDC)"
       },
       {
         "key": "6a157fa8af9c1c57b700778f ShortName",
@@ -8777,7 +8777,7 @@
       {
         "key": "6a158e90bf497aade10030e4 Name",
         "source": "HK417/G28 Geissele M110A1 14.5 inch handguard",
-        "translation": "HK417/G28 Geissele M110A1 14.5 inch 총열덮개"
+        "translation": "HK417/G28 Geissele M110A1 14.5인치 총열덮개"
       },
       {
         "key": "6a158e90bf497aade10030e4 ShortName",
@@ -8797,17 +8797,17 @@
       {
         "key": "6a15ae2ae5267ba21c07f98f Description",
         "source": "The HK416 A5 is a further development of the HK416 assault rifle in 5.56x45mm NATO caliber. The most striking changes compared to its previous versions as well as to market available AR platforms include an improved and tool-less gas regulator for suppressor use, a redesigned, user-friendly lower receiver, which allows complete ambidextrous operation of the weapon and ensures optimised magazine compatibility. Additionally, numerous technical improvements to maximize the safety of the operator, weapon reliability, ammunition compatibility, and durability under real operating conditions. RAL 8000 color version.",
-        "translation": "HK416 A5는 5.56x45mm NATO 탄약을 사용하는 HK416 돌격소총의 개량형입니다. 이전 버전 및 시판 AR 플랫폼과 비교했을 때 가장 눈에 띄는 변화는 소음기 사용을 위한 공구 없는 개선형 가스 조절기, 완전한 양손잡이 조작과 향상된 탄창 호환성을 제공하는 사용자 친화적 하부 리시버입니다. 또한 실제 운용 환경에서 사수의 안전, 무기 신뢰성, 탄약 호환성, 내구성을 극대화하기 위한 여러 기술적 개선이 적용되었습니다. RAL 8000 색상 버전입니다."
+        "translation": "HK416 A5는 5.56x45mm NATO 탄약을 사용하는 HK416 돌격소총의 개량형입니다. 이전 버전 및 시판 AR 플랫폼과 비교했을 때 가장 눈에 띄는 변화는 소음기 사용을 위한 공구 없는 개선형 가스 조절기, 완전한 양손잡이 조작과 향상된 탄창 호환성을 제공하는 사용자 친화적 하부 총몸입니다. 또한 실제 운용 환경에서 사수의 안전, 무기 신뢰성, 탄약 호환성, 내구성을 극대화하기 위한 여러 기술적 개선이 적용되었습니다. RAL 8000 색상 버전입니다."
       },
       {
         "key": "6a15ae3e81a4baf60b09bc33 Name",
         "source": "HK 416A5 5.56x45 upper receiver (RAL 8000)",
-        "translation": "HK 416A5 5.56x45 upper 리시버 (RAL 8000)"
+        "translation": "HK 416A5 5.56x45 상부 리시버 (RAL 8000)"
       },
       {
         "key": "6a15ae3e81a4baf60b09bc33 Description",
         "source": "An upper receiver for the 416A5 assault rifle manufactured by Heckler & Koch. Equipped with a mount for attaching additional devices. RAL 8000 version.",
-        "translation": "HK(헤클러 & 코흐)에서 제조한 416A5 돌격소총용 상부 리시버입니다. 추가 장비 장착용 마운트를 갖추고 있습니다. RAL 8000 버전입니다."
+        "translation": "HK(헤클러 & 코흐)에서 제조한 416A5 돌격소총용 상부 총몸입니다. 추가 장비 장착용 마운트를 갖추고 있습니다. RAL 8000 버전입니다."
       },
       {
         "key": "6a15aef607619a15b1023c51 Name",
@@ -9277,7 +9277,7 @@
       {
         "key": "6a3ce9c28ce058e3a2059b15 Name",
         "source": "Type 20 5.56x45 upper receiver",
-        "translation": "Type 20 5.56x45 upper 리시버"
+        "translation": "Type 20 5.56x45 상부 리시버"
       },
       {
         "key": "6a3ce9c28ce058e3a2059b15 Description",
@@ -9362,7 +9362,7 @@
       {
         "key": "6a3ceacd8ce058e3a2059b28 Name",
         "source": "Type 20 flip-up rear sight",
-        "translation": "Type 20 flip-up 가늠자"
+        "translation": "Type 20 접이식 가늠자"
       },
       {
         "key": "6a3ceacd8ce058e3a2059b28 Description",
@@ -9372,7 +9372,7 @@
       {
         "key": "6a3ceadb6280cb85bc03f99a Name",
         "source": "Type 20 flip-up front sight",
-        "translation": "Type 20 flip-up 가늠쇠"
+        "translation": "Type 20 접이식 가늠쇠"
       },
       {
         "key": "6a3ceadb6280cb85bc03f99a Description",
@@ -9417,7 +9417,7 @@
       {
         "key": "6a3d24f45c4035ee7604811d Description",
         "source": "Jeans",
-        "translation": "청바지입니다."
+        "translation": "청바지"
       },
       {
         "key": "6a3d24f45c4035ee7604811d",
@@ -9442,7 +9442,7 @@
       {
         "key": "6a3d251ed055f047a20fff5f Description",
         "source": "Tactical shorts",
-        "translation": "전술 반바지입니다."
+        "translation": "전술 반바지"
       },
       {
         "key": "6a3d251ed055f047a20fff5f",
@@ -9457,7 +9457,7 @@
       {
         "key": "6a3d255b5c4035ee76048122 Description",
         "source": "Tactical shirt",
-        "translation": "전술 셔츠입니다."
+        "translation": "전술 셔츠"
       },
       {
         "key": "6a3d255b5c4035ee76048122",
@@ -9482,7 +9482,7 @@
       {
         "key": "6a3d258c49fe4bef39034610 Description",
         "source": "Tactical shirt",
-        "translation": "전술 셔츠입니다."
+        "translation": "전술 셔츠"
       },
       {
         "key": "6a3d258c49fe4bef39034610",
@@ -9677,7 +9677,7 @@
       {
         "key": "6a461bf82b2264dbe10d0ee6 Name",
         "source": "BD dogtag •|| Green",
-        "translation": "BD 인식표 •|| Green"
+        "translation": "BD 인식표 •|| 녹색"
       },
       {
         "key": "6a461bf82b2264dbe10d0ee6 Description",
@@ -9687,7 +9687,7 @@
       {
         "key": "6a461c41ec88c6b9a509fb17 Name",
         "source": "BD dogtag •||| Red",
-        "translation": "BD 인식표 •||| Red"
+        "translation": "BD 인식표 •||| 빨간색"
       },
       {
         "key": "6a461c41ec88c6b9a509fb17 Description",
@@ -9782,7 +9782,7 @@
       {
         "key": "6a5f9cfcc409750b6e065592 ShortName",
         "source": "BD keys",
-        "translation": "BD 열쇠"
+        "translation": "BD 암호화 키"
       },
       {
         "key": "6a5f9cfcc409750b6e065592 Description",
@@ -10142,7 +10142,7 @@
       {
         "key": "6985eb089edef67ade080b72 Name",
         "source": "AR-15 Tyrant Designs MOD Chevron pistol grip (Red)",
-        "translation": "AR-15 Tyrant Designs MOD Chevron 권총손잡이 (Red)"
+        "translation": "AR-15 Tyrant Designs MOD Chevron 권총손잡이 (빨간색)"
       },
       {
         "key": "6985eb089edef67ade080b72 ShortName",
@@ -10157,7 +10157,7 @@
       {
         "key": "6985ec9fc848f05f4600f6b9 Name",
         "source": "AR-15 Lead Star Arms Ravage stock (Red)",
-        "translation": "AR-15 Lead Star Arms Ravage 개머리판 (Red)"
+        "translation": "AR-15 Lead Star Arms Ravage 개머리판 (빨간색)"
       },
       {
         "key": "6985ec9fc848f05f4600f6b9 Description",
@@ -10167,7 +10167,7 @@
       {
         "key": "6985eca7de77dd8dd50025ba Name",
         "source": "AR-15 Lead Star Arms Ravage stock (Yellow)",
-        "translation": "AR-15 Lead Star Arms Ravage 개머리판 (Yellow)"
+        "translation": "AR-15 Lead Star Arms Ravage 개머리판 (노란색)"
       },
       {
         "key": "6985eca7de77dd8dd50025ba Description",
@@ -10197,7 +10197,7 @@
       {
         "key": "698b358b49b46ae2d0092e86 Name",
         "source": "AR-15 Phase5 Universal Mini Stock (Red)",
-        "translation": "AR-15 Phase5 Universal Mini 개머리판 (Red)"
+        "translation": "AR-15 Phase5 Universal Mini 개머리판 (빨간색)"
       },
       {
         "key": "698b358b49b46ae2d0092e86 Description",
@@ -10207,7 +10207,7 @@
       {
         "key": "698b3592e700c6d632003753 Name",
         "source": "AR-15 Phase5 Universal Mini Stock (Yellow)",
-        "translation": "AR-15 Phase5 Universal Mini 개머리판 (Yellow)"
+        "translation": "AR-15 Phase5 Universal Mini 개머리판 (노란색)"
       },
       {
         "key": "698b3592e700c6d632003753 Description",
@@ -10217,7 +10217,7 @@
       {
         "key": "698dac21772d6f3dc00e4284 Name",
         "source": "AR-15 Tyrant Designs MOD Chevron pistol grip (Yellow)",
-        "translation": "AR-15 Tyrant Designs MOD Chevron 권총손잡이 (Yellow)"
+        "translation": "AR-15 Tyrant Designs MOD Chevron 권총손잡이 (노란색)"
       },
       {
         "key": "698dac21772d6f3dc00e4284 ShortName",
@@ -10272,12 +10272,12 @@
       {
         "key": "69cbfe44897389c1870b2337 Description",
         "source": "The AirFrame ballistic helmet sets the standards in protection, comfort, and modularity. The unique overlapping shell design of the AirFrame creates an integrated vent that provides passive cooling and can reduce the damaging effects of explosive blast waves. Highly modular. Manufactured by Crye Precision.",
-        "translation": "Crye Precision에서 제작한 AirFrame 탄도 헬멧 세트는 보호, 편안함 및 모듈성을 중점으로 구성되어 있습니다. AirFrame의 독특한 중첩식 방탄판 디자인은 자연스럽게 통풍구를 만들어 주어서, 지속적인 통풍 기능을 제공해 주고 폭발로 인한 충격파의 피해를 줄여줍니다."
+        "translation": "에어프레임 방탄 헬멧은 보호력, 착용감, 모듈성의 기준을 제시합니다. 독특한 겹침식 외피 설계가 통합 통풍구를 형성하여 자연 냉각을 돕고 폭발 충격파의 유해한 영향을 줄일 수 있습니다. 높은 모듈성을 갖추었으며 Crye Precision에서 제조했습니다."
       },
       {
         "key": "69d0547c7abd8495220354fb Name",
         "source": "MS2000 Marker",
-        "translation": "MS2000 마커 "
+        "translation": "MS2000 마커"
       },
       {
         "key": "69d0547c7abd8495220354fb Description",
@@ -10753,7 +10753,7 @@
       {
         "key": "68a6fbb07279296357007ce2 Name",
         "source": "AR-15 Strike Industries GRIDLOK 15 inch handguard",
-        "translation": "AR-15 Strike Industries GRIDLOK 15인치 핸드가드"
+        "translation": "AR-15 Strike Industries GRIDLOK 15인치 총열덮개"
       },
       {
         "key": "68a6fff085a17dc1cb008066 Name",
@@ -10763,7 +10763,7 @@
       {
         "key": "6895bd19d55f0ebf6a0c0306 Name",
         "source": "AR-15 Radian Model 1 14 inch handguard",
-        "translation": "AR-15 Radian Model 1 14인치 핸드가드"
+        "translation": "AR-15 Radian Model 1 14인치 총열덮개"
       },
       {
         "key": "68a5dc0c2cd64a8b58023b87 Name",
@@ -10773,17 +10773,17 @@
       {
         "key": "68a6fbfdd31595bb360c73bd Name",
         "source": "AR-15 Strike Industries GRIDLOK 17 inch handguard",
-        "translation": "AR-15 Strike Industries GRIDLOK 17인치 핸드가드"
+        "translation": "AR-15 Strike Industries GRIDLOK 17인치 총열덮개"
       },
       {
         "key": "68a5dc4eed35a7eac1048ff6 Name",
         "source": "AR-15 Strike Industries GRIDLOK 8.5 inch handguard",
-        "translation": "AR-15 Strike Industries GRIDLOK 8.5인치 핸드가드"
+        "translation": "AR-15 Strike Industries GRIDLOK 8.5인치 총열덮개"
       },
       {
         "key": "68a6f3b27279296357007cd7 Name",
         "source": "AR-15 Strike Industries GRIDLOK 11 inch handguard",
-        "translation": "AR-15 Strike Industries GRIDLOK 11인치 핸드가드"
+        "translation": "AR-15 Strike Industries GRIDLOK 11인치 총열덮개"
       },
       {
         "key": "68a7000d7708ac5120060527 Name",
@@ -10893,7 +10893,7 @@
       {
         "key": "6895becad55f0ebf6a0c0311 Name",
         "source": "AR-15 Radian Weapons Model 1 5.56x45 upper receiver",
-        "translation": "AR-15 Radian Weapons Model 1 5.56x45 상부 리시버"
+        "translation": "AR-15 Radian Weapons Model 1 5.56x45 상부 총몸"
       },
       {
         "key": "688b2dba67bf6fa26c07e918 Name",
@@ -11738,7 +11738,7 @@
       {
         "key": "68a6fff085a17dc1cb008066 ShortName",
         "source": "GRIDLOK base",
-        "translation": "GRIDLOK base"
+        "translation": "GRIDLOK 베이스"
       },
       {
         "key": "6895bd19d55f0ebf6a0c0306 ShortName",
@@ -11753,7 +11753,7 @@
       {
         "key": "68a5dc0c2cd64a8b58023b87 ShortName",
         "source": "GRIDLOK base",
-        "translation": "GRIDLOK base"
+        "translation": "GRIDLOK 베이스"
       },
       {
         "key": "68a6fbfdd31595bb360c73bd ShortName",
@@ -11803,7 +11803,7 @@
       {
         "key": "68a7000d7708ac5120060527 ShortName",
         "source": "GRIDLOK base",
-        "translation": "GRIDLOK base"
+        "translation": "GRIDLOK 베이스"
       },
       {
         "key": "680f55788692125dc00a3354 ShortName",
@@ -13003,7 +13003,7 @@
       {
         "key": "68e95d71a3d110355b03e529 ShortName",
         "source": "Elektronik",
-        "translation": "Elektronik"
+        "translation": "일렉트로닉"
       },
       {
         "key": "68c165f1903341d88b092b2a ShortName",
@@ -13338,7 +13338,7 @@
       {
         "key": "6a3cea5e94a96a17e00c4b6f ShortName",
         "source": "Type 20 gas",
-        "translation": "Type 20 gas"
+        "translation": "Type 20 가스"
       },
       {
         "key": "6a182c0fae175e037a0be40c ShortName",
@@ -14018,7 +14018,7 @@
       {
         "key": "6895becad55f0ebf6a0c0311 Description",
         "source": "A precision CNC machined upper receiver for the AR-15 platform. Manufactured by Radian Weapons.",
-        "translation": "AR-15 플랫폼용 정밀 CNC 가공 상부 리시버입니다. Radian Weapons에서 제조합니다."
+        "translation": "AR-15 플랫폼용 정밀 CNC 가공 상부 총몸입니다. Radian Weapons에서 제조합니다."
       },
       {
         "key": "688b2dba67bf6fa26c07e918 Description",
@@ -14078,17 +14078,17 @@
       {
         "key": "68bede2fd6da72c13f03db91 Description",
         "source": "Red shutter glasses for the true 2010 partygoers. Sucks that you can't see anything with them on.",
-        "translation": "진정한 2010년대 파티광을 위한 빨간색 셔터 선글라스입니다. 쓰면 아무것도 제대로 안 보인다는 게 문제입니다."
+        "translation": "진정한 2010년 파티광을 위한 빨간색 셔터 선글라스입니다. 쓰면 아무것도 제대로 안 보인다는 게 문제입니다."
       },
       {
         "key": "68bede1d233f2c935b0eda02 Description",
         "source": "Blue shutter glasses for the true 2010 partygoers. Sucks that you can't see anything with them on.",
-        "translation": "진정한 2010년대 파티광을 위한 파란색 셔터 선글라스입니다. 쓰면 아무것도 제대로 안 보인다는 게 문제입니다."
+        "translation": "진정한 2010년 파티광을 위한 파란색 셔터 선글라스입니다. 쓰면 아무것도 제대로 안 보인다는 게 문제입니다."
       },
       {
         "key": "68bede896b0736bebc012ad7 Description",
         "source": "A classic 2010 internet meme brought to life in eyewear form. Throw these on and never remove them after.",
-        "translation": "2010년대 고전 인터넷 밈을 안경으로 구현했습니다. 한번 쓰면 다시는 벗지 마세요."
+        "translation": "2010년 고전 인터넷 밈을 안경으로 구현했습니다. 한번 쓰면 다시는 벗지 마세요."
       },
       {
         "key": "68bedd43af253218c00ebbb2 Description",
@@ -14098,17 +14098,17 @@
       {
         "key": "68d6b3568f9527c33609ce83 Description",
         "source": "Black shutter glasses for the true 2010 partygoers. Sucks that you can't see anything with them on.",
-        "translation": "진정한 2010년대 파티광을 위한 검은색 셔터 선글라스입니다. 쓰면 아무것도 제대로 안 보인다는 게 문제입니다."
+        "translation": "진정한 2010년 파티광을 위한 검은색 셔터 선글라스입니다. 쓰면 아무것도 제대로 안 보인다는 게 문제입니다."
       },
       {
         "key": "68bede2876e02b9e340ef10f Description",
         "source": "Green shutter glasses for the true 2010 partygoers. Sucks that you can't see anything with them on.",
-        "translation": "진정한 2010년대 파티광을 위한 녹색 셔터 선글라스입니다. 쓰면 아무것도 제대로 안 보인다는 게 문제입니다."
+        "translation": "진정한 2010년 파티광을 위한 녹색 셔터 선글라스입니다. 쓰면 아무것도 제대로 안 보인다는 게 문제입니다."
       },
       {
         "key": "68bede355f1439bc3c0bf814 Description",
         "source": "White shutter glasses for the true 2010 partygoers. Sucks that you can't see anything with them on.",
-        "translation": "진정한 2010년대 파티광을 위한 흰색 셔터 선글라스입니다. 쓰면 아무것도 제대로 안 보인다는 게 문제입니다."
+        "translation": "진정한 2010년 파티광을 위한 흰색 셔터 선글라스입니다. 쓰면 아무것도 제대로 안 보인다는 게 문제입니다."
       },
       {
         "key": "68bc315be6068f34a7016e94 Description",
@@ -14408,28 +14408,28 @@
       {
         "key": "68dbb1acb59e2c0b7e08e4df",
         "source": "USEC Legionnaire MC",
-        "translation": "유섹 레기오나르 MC",
+        "translation": "USEC 레기오나르 MC",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "68dbb43cb59e2c0b7e08e4e1",
         "source": "USEC Legionnaire Olive",
-        "translation": "유섹 레기오나르 올리브",
+        "translation": "USEC 레기오나르 올리브",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "68dbfa6d005715f7470f7869",
         "source": "BEAR Sumrak Reverse Side",
-        "translation": "베어 슘라크 리버스 사이드",
+        "translation": "BEAR 슘라크 리버스 사이드",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "68dbfab0fe547b515a0db954",
         "source": "BEAR Recon EMR",
-        "translation": "베어 정찰병 EMR",
+        "translation": "BEAR 정찰병 EMR",
         "match_mode": "exact",
         "display_type": "item_name"
       },
@@ -14443,28 +14443,28 @@
       {
         "key": "692a511e9ac4bd1eda468361",
         "source": "Civilian Port Jacket (Yellow)",
-        "translation": "민간인 항만 재킷 (옐로우)",
+        "translation": "민간인 항만 재킷 (노란색)",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "692a512089cce448e339fba1",
         "source": "Civilian Port Sweater (Orange)",
-        "translation": "민간인 항만 스웨터 (오렌지)",
+        "translation": "민간인 항만 스웨터 (주황색)",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "692a5122bb1141d8e32b562f",
         "source": "Civilian Port Raincoat (Orange)",
-        "translation": "민간인 항만 우의 (오렌지)",
+        "translation": "민간인 항만 우의 (주황색)",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "692a512ac59603dc1f8085aa",
         "source": "RUAF Major",
-        "translation": "러시아 연방군 소령",
+        "translation": "RUAF 소령",
         "match_mode": "exact",
         "display_type": "item_name"
       },
@@ -14478,28 +14478,28 @@
       {
         "key": "692a512eebb55de8d2b48589",
         "source": "RUAF Ballistic",
-        "translation": "러시아 연방군 탄도복",
+        "translation": "RUAF 탄도복",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "692a5130f99d081957ccf3a8",
         "source": "RUAF Sergeant",
-        "translation": "러시아 연방군 중사",
+        "translation": "RUAF 중사",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "692a5132686937f290a6d0f5",
         "source": "Civilian Port Raincoat (Yellow)",
-        "translation": "민간인 항만 우의 (옐로우)",
+        "translation": "민간인 항만 우의 (노란색)",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "692a51347b48879bf12053be",
         "source": "RUAF Corporal",
-        "translation": "러시아 연방군 상병",
+        "translation": "RUAF 상병",
         "match_mode": "exact",
         "display_type": "item_name"
       },
@@ -14513,7 +14513,7 @@
       {
         "key": "692a5138fed1e1e61f1db605",
         "source": "RUAF Lieutenant",
-        "translation": "러시아 연방군 중위",
+        "translation": "RUAF 중위",
         "match_mode": "exact",
         "display_type": "item_name"
       },
@@ -14527,7 +14527,7 @@
       {
         "key": "692a513bbc931b68be2e9602",
         "source": "Civilian Port Sweater (Yellow)",
-        "translation": "민간인 항만 스웨터 (옐로우)",
+        "translation": "민간인 항만 스웨터 (노란색)",
         "match_mode": "exact",
         "display_type": "item_name"
       },
@@ -14541,14 +14541,14 @@
       {
         "key": "692a51407ade417d173331a2",
         "source": "Civilian Port Jacket (Orange)",
-        "translation": "민간인 항만 재킷 (오렌지)",
+        "translation": "민간인 항만 재킷 (주황색)",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "692a5142fb9506fb2d8d30a1",
         "source": "RUAF Soldier (V2)",
-        "translation": "러시아 연방군 병사 (V2)",
+        "translation": "RUAF 병사 (V2)",
         "match_mode": "exact",
         "display_type": "item_name"
       },
@@ -14583,7 +14583,7 @@
       {
         "key": "692a515093765380237f77f1",
         "source": "RUAF Ballistic",
-        "translation": "러시아 연방군 탄도복",
+        "translation": "RUAF 탄도복",
         "match_mode": "exact",
         "display_type": "item_name"
       },
@@ -14597,7 +14597,7 @@
       {
         "key": "692a5152251d71685b4e846b",
         "source": "RUAF Soldier (V1)",
-        "translation": "러시아 연방군 병사 (V1)",
+        "translation": "RUAF 병사 (V1)",
         "match_mode": "exact",
         "display_type": "item_name"
       },
@@ -14611,35 +14611,35 @@
       {
         "key": "692a515516f2fb26dbbbb360",
         "source": "RUAF Officer",
-        "translation": "러시아 연방군 장교",
+        "translation": "RUAF 장교",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "6943e6c4f5320785380eb0ec",
         "source": "USEC Gold Squadron",
-        "translation": "유섹 골드 스쿼드론",
+        "translation": "USEC 골드 스쿼드론",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "6943e6f371a234d6c00d598a",
         "source": "USEC Gold Squadron",
-        "translation": "유섹 골드 스쿼드론",
+        "translation": "USEC 골드 스쿼드론",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "6945416cd456b032ae071604",
         "source": "BEAR Senezh",
-        "translation": "베어 세네즈",
+        "translation": "BEAR 세네즈",
         "match_mode": "exact",
         "display_type": "item_name"
       },
       {
         "key": "6945419bbea259180a06f6b2",
         "source": "BEAR Senezh",
-        "translation": "베어 세네즈",
+        "translation": "BEAR 세네즈",
         "match_mode": "exact",
         "display_type": "item_name"
       },
@@ -15467,7 +15467,7 @@
       {
         "key": "6a675d75fd8364ead7039dd8 Name",
         "source": "AR-15 Unique-ARs Heat Shield (Anodized Yellow)",
-        "translation": "AR-15 Unique-ARs 방열판 (아노다이징 노란색)"
+        "translation": "AR-15 Unique-ARs 방열판 (양극산화 노란색)"
       },
       {
         "key": "6a675d75fd8364ead7039dd8 ShortName",
@@ -15477,12 +15477,12 @@
       {
         "key": "6a675d75fd8364ead7039dd8 Description",
         "source": "A heat shield for the Unique-ARs handguards. Anodized Yellow version.",
-        "translation": "Unique-ARs 총열덮개용 방열판입니다. 노란색 아노다이징 처리 버전입니다."
+        "translation": "Unique-ARs 총열덮개용 방열판입니다. 노란색 양극산화 처리 버전입니다."
       },
       {
         "key": "6a675d00358304130d098d4f Name",
         "source": "AR-15 Unique-ARs Heat Shield (Anodized Red)",
-        "translation": "AR-15 Unique-ARs 방열판 (아노다이징 빨간색)"
+        "translation": "AR-15 Unique-ARs 방열판 (양극산화 빨간색)"
       },
       {
         "key": "6a675d00358304130d098d4f ShortName",
@@ -15492,12 +15492,12 @@
       {
         "key": "6a675d00358304130d098d4f Description",
         "source": "A heat shield for the Unique-ARs handguards. Anodized Red version.",
-        "translation": "Unique-ARs 총열덮개용 방열판입니다. 빨간색 아노다이징 처리 버전입니다."
+        "translation": "Unique-ARs 총열덮개용 방열판입니다. 빨간색 양극산화 처리 버전입니다."
       },
       {
         "key": "6a675d8f2ff856278106eb69 Name",
         "source": "AR-15 Unique-ARs Heat Shield (Anodized Grey)",
-        "translation": "AR-15 Unique-ARs 방열판 (아노다이징 회색)"
+        "translation": "AR-15 Unique-ARs 방열판 (양극산화 회색)"
       },
       {
         "key": "6a675d8f2ff856278106eb69 ShortName",
@@ -15507,7 +15507,7 @@
       {
         "key": "6a675d8f2ff856278106eb69 Description",
         "source": "A heat shield for the Unique-ARs handguards. Anodized Grey version.",
-        "translation": "Unique-ARs 총열덮개용 방열판입니다. 회색 아노다이징 처리 버전입니다."
+        "translation": "Unique-ARs 총열덮개용 방열판입니다. 회색 양극산화 처리 버전입니다."
       },
       {
         "key": "6a84a6e460e6219f160d088d Name",
@@ -15762,7 +15762,7 @@
       {
         "key": "6a6720479d7f57e84800faed Name",
         "source": "AK Hexagon Cheese Grater mod.1 handguard (Anodized Grey)",
-        "translation": "AK 헥사곤 치즈 그레이터 mod.1 총열덮개 (아노다이징 회색)"
+        "translation": "AK 헥사곤 치즈 그레이터 mod.1 총열덮개 (양극산화 회색)"
       },
       {
         "key": "6a6720479d7f57e84800faed ShortName",
@@ -15772,12 +15772,12 @@
       {
         "key": "6a6720479d7f57e84800faed Description",
         "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Grey version.",
-        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 회색 아노다이징 처리 버전입니다."
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 회색 양극산화 처리 버전입니다."
       },
       {
         "key": "6a671d320578b5a41000c298 Name",
         "source": "AK Hexagon Cheese Grater mod.1 handguard (Anodized Red)",
-        "translation": "AK 헥사곤 치즈 그레이터 mod.1 총열덮개 (아노다이징 빨간색)"
+        "translation": "AK 헥사곤 치즈 그레이터 mod.1 총열덮개 (양극산화 빨간색)"
       },
       {
         "key": "6a671d320578b5a41000c298 ShortName",
@@ -15787,12 +15787,12 @@
       {
         "key": "6a671d320578b5a41000c298 Description",
         "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Red version.",
-        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 빨간색 아노다이징 처리 버전입니다."
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 빨간색 양극산화 처리 버전입니다."
       },
       {
         "key": "6a6720592ff856278106eb3e Name",
         "source": "AK Hexagon Cheese Grater mod.1 handguard (Anodized Yellow)",
-        "translation": "AK 헥사곤 치즈 그레이터 mod.1 총열덮개 (아노다이징 노란색)"
+        "translation": "AK 헥사곤 치즈 그레이터 mod.1 총열덮개 (양극산화 노란색)"
       },
       {
         "key": "6a6720592ff856278106eb3e ShortName",
@@ -15802,12 +15802,12 @@
       {
         "key": "6a6720592ff856278106eb3e Description",
         "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Yellow version.",
-        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 노란색 아노다이징 처리 버전입니다."
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 노란색 양극산화 처리 버전입니다."
       },
       {
         "key": "6a6724bddfb2de5e320d451d Name",
         "source": "AK Hexagon Cheese Grater mod.2 handguard (Anodized Grey)",
-        "translation": "AK 헥사곤 치즈 그레이터 mod.2 총열덮개 (아노다이징 회색)"
+        "translation": "AK 헥사곤 치즈 그레이터 mod.2 총열덮개 (양극산화 회색)"
       },
       {
         "key": "6a6724bddfb2de5e320d451d ShortName",
@@ -15817,12 +15817,12 @@
       {
         "key": "6a6724bddfb2de5e320d451d Description",
         "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Grey version.",
-        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 회색 아노다이징 처리 버전입니다."
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 회색 양극산화 처리 버전입니다."
       },
       {
         "key": "6a67250406a5419b2508f23e Name",
         "source": "AK Hexagon Cheese Grater mod.2 handguard (Anodized Yellow)",
-        "translation": "AK 헥사곤 치즈 그레이터 mod.2 총열덮개 (아노다이징 노란색)"
+        "translation": "AK 헥사곤 치즈 그레이터 mod.2 총열덮개 (양극산화 노란색)"
       },
       {
         "key": "6a67250406a5419b2508f23e ShortName",
@@ -15832,12 +15832,12 @@
       {
         "key": "6a67250406a5419b2508f23e Description",
         "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Yellow version.",
-        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 노란색 아노다이징 처리 버전입니다."
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 노란색 양극산화 처리 버전입니다."
       },
       {
         "key": "6a6721edecf09d43410cba5a Name",
         "source": "AK Hexagon Cheese Grater mod.2 handguard (Anodized Red)",
-        "translation": "AK 헥사곤 치즈 그레이터 mod.2 총열덮개 (아노다이징 빨간색)"
+        "translation": "AK 헥사곤 치즈 그레이터 mod.2 총열덮개 (양극산화 빨간색)"
       },
       {
         "key": "6a6721edecf09d43410cba5a ShortName",
@@ -15847,7 +15847,7 @@
       {
         "key": "6a6721edecf09d43410cba5a Description",
         "source": "A handguard for AK family automatic rifles, manufactured by Hexagon. Anodized Red version.",
-        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 빨간색 아노다이징 처리 버전입니다."
+        "translation": "헥사곤에서 제작한 AK 계열 자동소총용 총열덮개입니다. 빨간색 양극산화 처리 버전입니다."
       },
       {
         "key": "6a56665a3b664c6b2c0d784a Name",

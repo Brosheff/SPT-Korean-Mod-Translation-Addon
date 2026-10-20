@@ -541,7 +541,7 @@
       {
         "key": "69134cc64dbd6823605fe7a5 Name",
         "source": "Ops-Core SLAAP armor helmet plate (Tan) Mk6",
-        "translation": "Ops-Core SLAAP 장갑 헬멧 플레이트 (탄) Mk6"
+        "translation": "Ops-Core SLAAP 헬멧 방탄판 (탄색) Mk6"
       },
       {
         "key": "69134cc64dbd6823605fe7a5 Description",
@@ -551,7 +551,7 @@
       {
         "key": "6718b97058e531407e3e074f",
         "source": "Kill anyone that moves",
-        "translation": "움직이는 것은 전부 사살하기",
+        "translation": "움직이는 사람은 누구든 사살하기",
         "display_type": "quest_objective"
       },
       {
@@ -1595,7 +1595,7 @@
       {
         "key": "69a6a9b5ee118893702e2a7e",
         "source": "Mark the transit to the Reserve base with a MS2000, theres a tree close to it",
-        "translation": "리저브 기지로 이어지는 지역이동 지점 근처 나무에 MS2000 마커 설치하기",
+        "translation": "리저브 기지로 이어지는 지역이동 지점에 MS2000 마커 설치하기 (근처에 나무가 있음)",
         "display_type": "quest_objective"
       },
       {
@@ -1781,7 +1781,7 @@
       {
         "key": "69a8031bbf2c80ca0c8e8cfd startedMessageText",
         "source": "They need more",
-        "translation": "그들에게 더 필요하다고 해."
+        "translation": "그들에게는 더 많은 게 필요해."
       },
       {
         "key": "69a8031bbf2c80ca0c8e8cfd successMessageText",

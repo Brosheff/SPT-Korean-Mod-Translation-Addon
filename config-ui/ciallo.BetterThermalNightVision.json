@@ -209,7 +209,7 @@
       "source_display_name": "Block Optic Scope (?)",
       "source_description": "Keep ordinary optic glass opaque and incompatible with helmet thermal. Native thermal scopes still use the Thermal Optic settings.",
       "translation_display_name": "일반 조준경 렌즈 차단 (?)",
-      "translation_description": "일반 배율 조준경의 유리를 불투명하게 유지하여 헬멧 열상 장비와 호환되지 않게 합니다. 전용 열상 조준경에는 일반 열상 설정이 적용됩니다."
+      "translation_description": "일반 광학 조준경의 유리를 불투명하게 유지하여 헬멧 장착 열상 장비와 함께 쓸 수 없게 합니다. 전용 열상 조준경은 계속 Thermal Optic 설정을 따릅니다."
     },
     {
       "section": "T7 Thermal",
@@ -227,7 +227,7 @@
       "source_display_name": "Depth Fade (?)",
       "source_description": "Lower is more visible on far distance. T7 Default is 0.03",
       "translation_display_name": "원거리 감쇠 (?)",
-      "translation_description": "값이 낮을수록 먼 거리의 대상이 더 선명하게 보입니다."
+      "translation_description": "값이 낮을수록 먼 거리의 대상이 더 잘 보입니다. T7 기본값은 0.03입니다."
     },
     {
       "section": "T7 Thermal",
@@ -270,7 +270,7 @@
       "source_display_name": "Color Passthrough (?)",
       "source_description": "Use the BD-T7/S-style full-color heat-bearing buffer. This bypasses palette presentation while enabled.",
       "translation_display_name": "원색 열상 표시 (?)",
-      "translation_description": "BD-T7/S 방식의 원색 열상 버퍼를 사용합니다. 활성화하면 색상 팔레트 표시를 건너뜁니다."
+      "translation_description": "BD-T7/S 방식의 전체 색상 정보와 열 정보가 담긴 버퍼를 사용합니다. 활성화하면 색상 팔레트를 통한 표시를 건너뜁니다."
     },
     {
       "section": "T7 Thermal",

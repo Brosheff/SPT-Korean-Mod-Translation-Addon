@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "de.tosox.dynamicitemweights",
+  "plugin_name": "Dynamic Item Weights",
+  "_note": "원본 모드 C# Config.Bind 기준 F12 표시 번역. 설정 ID, 저장값, 선택값은 변경하지 않음.",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Debug",
+      "translation": "2. 디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Untick to disable dynamic item weights",
+      "translation_display_name": "동적 아이템 무게 활성화",
+      "translation_description": "체크를 해제하면 아이템의 무게가 사용량에 따라 변하는 기능이 비활성화됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Default Tare Fraction",
+      "source_display_name": "Default Tare Fraction",
+      "source_description": "Fallback tare weight as fraction of original weight",
+      "translation_display_name": "기본 용기 무게 비율",
+      "translation_description": "개별 용기 무게가 지정되지 않은 아이템에 적용할 기본 빈 용기 무게의 비율입니다. 아이템 원래 무게를 기준으로 계산합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Debug",
+      "key": "Verbose Logging",
+      "source_display_name": "Verbose Logging",
+      "source_description": "Write additional details to the log for troubleshooting",
+      "translation_display_name": "상세 로그 기록",
+      "translation_description": "문제 해결을 위해 로그에 추가 상세 정보를 기록합니다.",
+      "values": []
+    }
+  ]
+}

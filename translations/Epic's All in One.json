@@ -54,7 +54,7 @@
       {
         "key": "01f50d1bf4a8e1ee51c0b0fe Name",
         "source": "AR-15 Daniel Defense RIS III 9.5 inch handguard (FDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 9.5인치 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 9.5인치 handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III 9.5인치 총열덮개 (사막색)"
       },
       {
         "key": "01f50d1bf4a8e1ee51c0b0fe ShortName",
@@ -99,12 +99,12 @@
       {
         "key": "033ccd2711dabbb7eecea522 Name",
         "source": "AR-15 Daniel Defense RIS III 9.5 inch lower handguard (FDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 9.5인치 하부 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 9.5인치 lower handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III 9.5인치 하부 총열덮개 (사막색)"
       },
       {
         "key": "033ccd2711dabbb7eecea522 ShortName",
         "source": "RIS III 9.5L",
-        "translation": "RIS III 9.5인치"
+        "translation": "RIS III 9.5인치 하부"
       },
       {
         "key": "033ccd2711dabbb7eecea522 Description",
@@ -114,12 +114,12 @@
       {
         "key": "0377e32842c4024a423c472e Name",
         "source": "SIG Sauer ROMEO8T /w G33",
-        "translation": "시그 사우어 로메오8T /w G33"
+        "translation": "시그 사우어 ROMEO8T 및 G33 확대기"
       },
       {
         "key": "0377e32842c4024a423c472e ShortName",
         "source": "ROMEO8T G33 Mag",
-        "translation": "로메오8T G33"
+        "translation": "ROMEO8T G33 확대기"
       },
       {
         "key": "0377e32842c4024a423c472e Description",
@@ -149,7 +149,7 @@
       {
         "key": "04a8d9c50f3227ef6550e613 Name",
         "source": "AR-15 Geissele SMR MK8 15 inch M-LOK handguard (BLK)",
-        "translation": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK8 15인치 M-LOK handguard (BLK))"
+        "translation": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (블랙)"
       },
       {
         "key": "04a8d9c50f3227ef6550e613 ShortName",
@@ -194,12 +194,12 @@
       {
         "key": "06f91b13baa74bd3f49b387c Name",
         "source": "AR-15 Daniel Defense RIS III FSP 13 lower handguard (DFDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III FSP 13인치 하부 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III FSP 13 lower handguard (D사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III FSP 13인치 하부 총열덮개 (DFDE)"
       },
       {
         "key": "06f91b13baa74bd3f49b387c ShortName",
         "source": "RIS III 13L",
-        "translation": "RIS III 13인치"
+        "translation": "RIS III 13인치 하부"
       },
       {
         "key": "06f91b13baa74bd3f49b387c Description",
@@ -209,7 +209,7 @@
       {
         "key": "07c74d946af09d5059bd38db Name",
         "source": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (Cobalt)",
-        "translation": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (코발트)\n(AR-15 Daniel Defense MFR 13.5인치 M-LOK handguard (Cobalt))"
+        "translation": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (코발트)"
       },
       {
         "key": "07c74d946af09d5059bd38db ShortName",
@@ -249,17 +249,17 @@
       {
         "key": "08940f5c853aa6acf4049bc2 Name",
         "source": "Aimpoint Micro T-1 /w Unity FTC (Black)",
-        "translation": "에임포인트 마이크로 T-1 /w 유니티 FTC (블랙)\n(Aimpoint Micro T-1 /w Unity FTC (검은색))"
+        "translation": "에임포인트 마이크로 T-1 및 유니티 FTC (블랙)"
       },
       {
         "key": "08940f5c853aa6acf4049bc2 Description",
         "source": "The FAST FTC OMNI magnifier mount employs a simple force-to-overcome mechanism, stowing the magnifier below the optical sight plane and completely within the footprint of the weapon’s receiver when not in use. UNITY™ Tactical’s FTC (flip-to-center) technology eliminates the flip-to-side placement of legacy products so users receive all the benefits of magnification when required with no snag hazards or occlusion of sight pictures when stowed. The G33 Magnifier is the selected magnifier of USSOCOM, and is compact and lightweight.",
-        "translation": "FAST FTC OMNI 확대기 마운트는 저항을 극복하는 단순한 메커니즘을 통해 확대기를 조준면 아래로 접고 총기의 총몸 내에 완전히 수납할 수 있도록 설계되었습니다. UNITY 택티컬의 FTC(플립 투 센터) 기술은 기존 측면 회전 방식의 문제를 제거하여, 필요 시 확대 기능을 제공하면서도 걸림이나 시야 방해를 없앱니다. G33 확대기는 USSOCOM의 공식 채택 확대기이며, 작고 경량입니다."
+        "translation": "FAST FTC OMNI 확대기 마운트는 간단한 힘으로 조작되는 기구를 사용해, 사용하지 않을 때 확대기를 조준선 아래로 접어 총몸의 외형 범위 안에 들어오게 합니다. 유니티 택티컬의 FTC(중앙 접이식) 기술은 기존 제품처럼 측면으로 돌출되지 않아 필요할 때 배율을 제공하면서 수납 시 걸림이나 조준 시야 가림을 방지합니다. G33 확대기는 USSOCOM이 채택한 소형 경량 확대기입니다."
       },
       {
         "key": "08ce1f8189bcb4aa4a490d28 Name",
         "source": "KAC Suppressor shroud 6 inch (FDE)",
-        "translation": "KAC 소음기 보호 덮개 6인치 (사막색)\n(KAC Suppressor shroud 6인치 (사막색))"
+        "translation": "KAC 소음기 보호 덮개 6인치 (사막색)"
       },
       {
         "key": "08ce1f8189bcb4aa4a490d28 ShortName",
@@ -274,7 +274,7 @@
       {
         "key": "08eb2cce6b620c5c8550a0b5 Name",
         "source": "Trijicon ACOG TA648-308H 6x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA648-308H 6x48 조준경 (블랙)\n(Trijicon ACOG TA648-308H 6x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA648-308H 6x32 조준경 (블랙)"
       },
       {
         "key": "08eb2cce6b620c5c8550a0b5 Description",
@@ -309,12 +309,12 @@
       {
         "key": "09a00fdd295d5f374c3b6829 Description",
         "source": "Midwest Industries designed the Night Fighter handguards in an effort to provide a more rigid platform for mounting weapon lasers so as to reduce the impact shift between shots, including an extended 4140 steel barrel nut. Made in USA.",
-        "translation": "무기 레이저 장착 시 사격 간 영향 이동을 줄이기 위해 보다 견고한 플랫폼을 제공하고자 미드웨스트 인더스트리즈가 설계한 나이트 파이터(Night Fighter) 총열덮개입니다. 연장형 4140 스틸 배럴 너트 포함. 미국산입니다."
+        "translation": "미드웨스트 인더스트리즈는 무기용 레이저를 장착했을 때 사격 간 탄착점 이동을 줄일 수 있도록 더 견고한 플랫폼을 제공하는 나이트 파이터 총열덮개를 설계했습니다. 연장형 4140 강철 총열 너트가 포함되며, 미국에서 제작되었습니다."
       },
       {
         "key": "09b44a7e34b49045e3308e58 Name",
         "source": "KAC Suppressor shroud 4 inch (FDE)",
-        "translation": "KAC 소음기 보호 덮개 4인치 (사막색)\n(KAC Suppressor shroud 4 inch (사막색))"
+        "translation": "KAC 소음기 보호 덮개 4인치 (사막색)"
       },
       {
         "key": "09b44a7e34b49045e3308e58 ShortName",
@@ -329,7 +329,7 @@
       {
         "key": "09f8fed0abd75fbd0f81cd91 Name",
         "source": "Trijicon ACOG TA648MGO-M2 6x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA648MGO-M2 6x48 조준경 (블랙)\n(Trijicon ACOG TA648MGO-M2 6x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA648MGO-M2 6x32 조준경 (블랙)"
       },
       {
         "key": "09f8fed0abd75fbd0f81cd91 Description",
@@ -339,7 +339,7 @@
       {
         "key": "0a4fce1b6ffcba383df0def7 Name",
         "source": "KAC QDC/MCQ-PRT 5.56x45 sound suppressor (FDE)",
-        "translation": "KAC QDC/MCQ-PRT 5.56x45 소음기 (사막색)\n(KAC QDC/MCQ-PRT 5.56x45 sound suppressor (사막색))"
+        "translation": "KAC QDC/MCQ-PRT 5.56x45 소음기 (사막색)"
       },
       {
         "key": "0a4fce1b6ffcba383df0def7 Description",
@@ -359,7 +359,7 @@
       {
         "key": "0a64906cf9e00f3d10314995 Description",
         "source": "Compatible with DPMS high rail style receivers, Midwest Industries made this combat rail for the AR-10 style rifle to give its end users more options for accessorizing their .308 AR. Made in USA.",
-        "translation": "DPMS 하이 레일 스타일 총몸과 호환되며, 미드웨스트 인더스트리즈가 AR-10 스타일 소총에 다양한 액세서리 장착 옵션을 제공하기 위해 설계한 컴뱃 레일입니다. 미국산입니다."
+        "translation": "DPMS 하이 레일 방식 총몸과 호환되며, 미드웨스트 인더스트리즈가 AR-10 계열 .308 소총에 다양한 부착 장비 선택지를 제공하도록 제작한 컴뱃 레일입니다. 미국산입니다."
       },
       {
         "key": "0af5f6a5aa9712e11c733fb9 Name",
@@ -369,7 +369,7 @@
       {
         "key": "0af5f6a5aa9712e11c733fb9 Description",
         "source": "The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962.",
-        "translation": "레밍턴 암즈가 1962년부터 제조한 볼트액션 중심화기 소총 시리즈입니다."
+        "translation": "레밍턴 모델 700은 레밍턴 암즈가 1962년부터 제조한 중앙격발식 볼트액션 소총 시리즈입니다."
       },
       {
         "key": "0b33e835730e05c6a996f452 Name",
@@ -379,17 +379,17 @@
       {
         "key": "0b33e835730e05c6a996f452 Description",
         "source": "The SCI-SIX is a centerfire rifle silencer intended for use on semiautomatic and automatic 5.56x45mm host weapons, with no barrel length restrictions.  The silencer mounts to the host firearm with a flash hider mount that left hand threads to the silencer body.",
-        "translation": "SCI-SIX는 반자동 및 자동 5.56x45mm 소총에 사용하기 위한 센터파이어 소음기로, 총열 길이 제한이 없습니다. 이 소음기는 좌나사산 소염기 마운트를 통해 총기에 장착됩니다."
+        "translation": "SCI-SIX는 반자동 및 자동 5.56x45mm 소총에 사용하기 위한 센터파이어 소음기로, 총열 길이 제한이 없습니다. 소염기 마운트가 소음기 본체에 왼나사 방식으로 체결되며, 이를 통해 총기에 장착됩니다."
       },
       {
         "key": "0bba67a701522f99575b181f Name",
         "source": "AR-15 Daniel Defense RIS III FSP 13 lower handguard (FDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III FSP 13인치 하부 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III FSP 13 lower handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III FSP 13인치 하부 총열덮개 (사막색)"
       },
       {
         "key": "0bba67a701522f99575b181f ShortName",
         "source": "RIS III 13L",
-        "translation": "RIS III 13인치"
+        "translation": "RIS III 13인치 하부"
       },
       {
         "key": "0bba67a701522f99575b181f Description",
@@ -399,7 +399,7 @@
       {
         "key": "0ce051265bcb619558b2ef9a Name",
         "source": "Steiner OTAL-C tactical device (FDE-IR)",
-        "translation": "슈타이너 OTAL-C 전술 장비 (사막색-IR)\n(Steiner OTAL-C tactical device (사막색-IR))"
+        "translation": "슈타이너 OTAL-C 전술 장비 (사막색-IR)"
       },
       {
         "key": "0ce051265bcb619558b2ef9a Description",
@@ -429,12 +429,12 @@
       {
         "key": "0d26a697d357f0ea3f8f9a83 Description",
         "source": "Compatible with the standard NATO flash hider, the Rotex-V is the optimal solution when a suppressor, mount- and detachable within seconds with a high suppression rate is needed. Besides that it very effectively suppresses the muzzle flash.",
-        "translation": "표준 NATO 소염기와 호환되며, 로텍스-V 디플렉터는 빠른 장착 및 분리가 가능한 효율적인 섬광 억제 솔루션입니다. 본 제품은 B&T(B&T)에서 제작되었습니다."
+        "translation": "표준 NATO 소염기와 호환되는 Rotex-V는 소음 억제율이 높고 몇 초 만에 장착하거나 분리할 수 있는 소음기가 필요할 때 적합합니다. 또한 총구 섬광도 효과적으로 억제합니다."
       },
       {
         "key": "0d914f394390e16506a949da Name",
         "source": "Reptilia AUS 34mm top ring cap (FDE)",
-        "translation": "렙틸리아 AUS 34mm 상부 링 캡 (사막색)\n(Reptilia AUS 34mm top ring cap (사막색))"
+        "translation": "렙틸리아 AUS 34mm 상부 링 캡 (사막색)"
       },
       {
         "key": "0d914f394390e16506a949da ShortName",
@@ -479,7 +479,7 @@
       {
         "key": "0ebd9f8dfaf03d6bf5db3b96 Name",
         "source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Aqua)",
-        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (아쿠아)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Aqua))"
+        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (아쿠아)"
       },
       {
         "key": "0ebd9f8dfaf03d6bf5db3b96 ShortName",
@@ -529,12 +529,12 @@
       {
         "key": "10c1dae2a05599e8a2b59cda Name",
         "source": "AR-10 Surefire SF3P 7.62x51 Flash Hider",
-        "translation": "AR-10 슈어파이어 SF3P 7.62x51 소염기\n(AR-10 SureFire SF3P 7.62x51 Flash Hider)"
+        "translation": "AR-10 슈어파이어 SF3P 7.62x51 소염기"
       },
       {
         "key": "10c1dae2a05599e8a2b59cda Description",
         "source": "The SureFire SF3P-762 three-prong flash hider, which fits AR-10 weapons and variants, features a greatly reduced muzzle flash. The SF3P-762 also serves as a rock-solid mounting adapter for SureFire SOCOM Series 7.62mm Fast-Attach sound suppressors.",
-        "translation": "슈어파이어(SureFire)의 SF3P-762 3프롱 소염기는 AR-10 및 변형 플랫폼에 장착되며, 총구 화염를 크게 줄여줍니다. 또한 슈어파이어 SOCOM 시리즈 7.62mm 패스트어태치(Fast-Attach) 소음기의 견고한 마운팅 어댑터 역할을 합니다."
+        "translation": "슈어파이어(SureFire)의 SF3P-762 3프롱 소염기는 AR-10 및 변형 플랫폼에 장착되며, 총구 화염을 크게 줄여줍니다. 또한 슈어파이어 SOCOM 시리즈 7.62mm 패스트어태치(Fast-Attach) 소음기의 견고한 마운팅 어댑터 역할을 합니다."
       },
       {
         "key": "1158a282d95f6102038b4aed Name",
@@ -569,7 +569,7 @@
       {
         "key": "13f0c13d451f2c56fbf46548 Name",
         "source": "AR-15 Geissele SMR MK8 7 inch M-LOK handguard (ODG)",
-        "translation": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK8 7인치 M-LOK handguard (ODG))"
+        "translation": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (올리브 드랩)"
       },
       {
         "key": "13f0c13d451f2c56fbf46548 ShortName",
@@ -584,7 +584,7 @@
       {
         "key": "14c562c1c4f9f783c107ef27 Name",
         "source": "AR-15 Geissele SMR MK16 10.5 inch M-LOK handguard (DDC)",
-        "translation": "AR-15 가이슬리 SMR MK16 10.5인치 엠락 총열덮개 (DDC)\n(AR-15 Geissele SMR MK16 10.5인치 M-LOK handguard (DDC))"
+        "translation": "AR-15 가이슬리 SMR MK16 10.5인치 엠락 총열덮개 (DDC)"
       },
       {
         "key": "14c562c1c4f9f783c107ef27 ShortName",
@@ -599,7 +599,7 @@
       {
         "key": "1541c03f68a57b9f4d937a38 Name",
         "source": "AR-15 BCM  MCMR 13 inch M-LOK handguard (FDE)",
-        "translation": "AR-15 BCM MCMR 13인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 13인치 M-LOK handguard (사막색))"
+        "translation": "AR-15 BCM MCMR 13인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "1541c03f68a57b9f4d937a38 ShortName",
@@ -614,7 +614,7 @@
       {
         "key": "159023b10fa02ac28247fce3 Name",
         "source": "Reptilia 34mm ROF-90 ACRO mount for Reptilia scope mounts (FDE)",
-        "translation": "렙틸리아 34mm ROF-90 ACRO 마운트 (사막색)\n(Reptilia 34mm ROF-90 ACRO mount for Reptilia scope mounts (사막색))"
+        "translation": "렙틸리아 34mm ROF-90 ACRO 마운트 (사막색)"
       },
       {
         "key": "159023b10fa02ac28247fce3 Description",
@@ -629,12 +629,12 @@
       {
         "key": "173203ac7780e64538343f21 Description",
         "source": "This model P/N: 3850-028. The Cadex MX1 muzzle brake is designed to deflect the muzzle blast away from the shooter and his spotter. Gases exit sideways and upwards to reduce felt recoil, dust cloud and improve rifle control. It will soften your 338 Lapua recoil as if it was a 243 Win. Self-timing design using a pinch bolt.",
-        "translation": "카덱스 디펜스(Cadex Defense)의 MX1 보정기는 가스 배출을 통해 반동과 먼지 발생을 줄이며, 사수와 스포터의 제어력을 향상시킵니다. 셀프 타이밍 핀치 볼트 설계를 적용했습니다."
+        "translation": "부품 번호는 3850-028입니다. 카덱스 MX1 총구제퇴기는 총구 폭압을 사수와 관측자로부터 멀리 보내도록 설계되었습니다. 가스를 측면과 위쪽으로 배출하여 체감 반동과 먼지 발생을 줄이고 총기 제어력을 높입니다. .338 라푸아 탄약의 반동을 .243 윈체스터 수준으로 완화합니다. 핀치 볼트를 이용한 셀프 타이밍 설계입니다."
       },
       {
         "key": "17349a0b7403daafd5f7feb9 Name",
         "source": "AR-15 Daniel Defense RIS III 9.5 inch handguard (DFDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 9.5인치 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 9.5인치 handguard (D사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III 9.5인치 총열덮개 (D사막색)"
       },
       {
         "key": "17349a0b7403daafd5f7feb9 ShortName",
@@ -674,7 +674,7 @@
       {
         "key": "18a7cf56c4de695573ac3b2f Name",
         "source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Olive Drab)",
-        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (올리브 드랩)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Olive Drab))"
+        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (올리브 드랩)"
       },
       {
         "key": "18a7cf56c4de695573ac3b2f ShortName",
@@ -689,7 +689,7 @@
       {
         "key": "18b71fb6878ffa6640e75aa1 Name",
         "source": "AR-15 Knights Armament URX 4 8.5 inch M-LOK handguard (FDE)",
-        "translation": "AR-15 나이츠 아머먼트 URX 4 8.5인치 엠락 총열덮개 (사막색)\n(AR-15 Knights Armament URX 4 8.5인치 M-LOK handguard (사막색))"
+        "translation": "AR-15 나이츠 아머먼트 URX 4 8.5인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "18b71fb6878ffa6640e75aa1 ShortName",
@@ -704,7 +704,7 @@
       {
         "key": "1a72eed8a4467f67e02eb6a5 Name",
         "source": "AR-15 Daniel Defense RIS III 10.5 inch handguard (FDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 10.5인치 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 10.5인치 handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III 10.5인치 총열덮개 (사막색)"
       },
       {
         "key": "1a72eed8a4467f67e02eb6a5 ShortName",
@@ -744,7 +744,7 @@
       {
         "key": "1c852a7fd73bcde9d3ff968b Name",
         "source": "Reptilia 1.93\" mount for Aimpoint ACRO (FDE)",
-        "translation": "렙틸리아 1.93인치 마운트 (에임포인트 ACRO용, 사막색)\n(Reptilia 1.93\" mount for Aimpoint ACRO (사막색))"
+        "translation": "렙틸리아 1.93인치 마운트 (에임포인트 ACRO용, 사막색)"
       },
       {
         "key": "1c852a7fd73bcde9d3ff968b ShortName",
@@ -759,7 +759,7 @@
       {
         "key": "1d145684ac5119451eec9699 Name",
         "source": "AR-15 B&T Rotex-V 5.56x45 Deflector (FDE)",
-        "translation": "AR-15 B&T 로텍스-V 5.56x45 디플렉터 (사막색)\n(AR-15 B&T Rotex-V 5.56x45 Deflector (사막색))"
+        "translation": "AR-15 B&T 로텍스-V 5.56x45 디플렉터 (사막색)"
       },
       {
         "key": "1d145684ac5119451eec9699 ShortName",
@@ -784,7 +784,7 @@
       {
         "key": "1e3c5a570c1c628376877232 Name",
         "source": "Trijicon ACOG TA31H Amber 4x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA31H 엠버 4x32 조준경 (블랙)\n(Trijicon ACOG TA31H Amber 4x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA31H 엠버 4x32 조준경 (블랙)"
       },
       {
         "key": "1e3c5a570c1c628376877232 Description",
@@ -855,7 +855,7 @@
       {
         "key": "21db41fa34f997937c78b9d1 Name",
         "source": "KAC QDC/MCQ-PRT 5.56x45 sound suppressor (BLK)",
-        "translation": "KAC QDC MCQ-PRT 5.56 소음기 블랙"
+        "translation": "KAC QDC/MCQ-PRT 5.56x45 소음기 (블랙)"
       },
       {
         "key": "21db41fa34f997937c78b9d1 Description",
@@ -875,7 +875,7 @@
       {
         "key": "22a72cf93077b10b2cd6b96e Name",
         "source": "AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard (BLK)",
-        "translation": "AR-15 가이슬리 SMR MK16 13.5인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK16 13.5인치 M-LOK handguard (BLK))"
+        "translation": "AR-15 가이슬리 SMR MK16 13.5인치 엠락 총열덮개 (블랙)"
       },
       {
         "key": "22a72cf93077b10b2cd6b96e ShortName",
@@ -890,7 +890,7 @@
       {
         "key": "2336c17a2248a7d516220592 Name",
         "source": "AR-15 Geissele SMR MK4 9.5 inch handguard (ODG)",
-        "translation": "AR-15 가이슬리 SMR MK4 9.5인치 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK4 9.5인치 handguard (ODG))"
+        "translation": "AR-15 가이슬리 SMR MK4 9.5인치 총열덮개 (올리브 드랩)"
       },
       {
         "key": "2336c17a2248a7d516220592 ShortName",
@@ -935,7 +935,7 @@
       {
         "key": "24a57da0bf24002c1b8b31d9 Name",
         "source": "CGS SCI-SIX 5.56x45 sound suppressor (FDE)",
-        "translation": "CGS SCI-SIX 5.56x45 소음기 (사막색)\n(CGS SCI-SIX 5.56x45 sound suppressor (사막색))"
+        "translation": "CGS SCI-SIX 5.56x45 소음기 (사막색)"
       },
       {
         "key": "24a57da0bf24002c1b8b31d9 Description",
@@ -945,7 +945,7 @@
       {
         "key": "252d9d1d2552909d0a76033c Name",
         "source": "Ops-Core AMP Communication Headset (Black)",
-        "translation": "옵스코어 AMP 통신 헤드셋 (블랙)\n(Ops-Core AMP Communication Headset (검은색))"
+        "translation": "옵스코어 AMP 통신 헤드셋 (블랙)"
       },
       {
         "key": "252d9d1d2552909d0a76033c Description",
@@ -955,7 +955,7 @@
       {
         "key": "253279f21f3222961c5dfa8d Name",
         "source": "Eotech OGL tactical device (Black)",
-        "translation": "이오텍 OGL 전술 장비 (블랙)\n(EOTech OGL tactical device (검은색))"
+        "translation": "이오텍 OGL 전술 장비 (블랙)"
       },
       {
         "key": "253279f21f3222961c5dfa8d Description",
@@ -990,7 +990,7 @@
       {
         "key": "26aab2ba6d945ea7877cfded Name",
         "source": "AR-15 Armalite M16A1 fixed stock type D",
-        "translation": "AR-15 아말라이트 M16A1 고정형 개머리판 Type D\n(AR-15 Armalite M16A1 fixed stock type D (EpicsAIO))"
+        "translation": "AR-15 아말라이트 M16A1 고정형 개머리판 Type D"
       },
       {
         "key": "26aab2ba6d945ea7877cfded Description",
@@ -1035,7 +1035,7 @@
       {
         "key": "27b92c2226b1110635235c2e Name",
         "source": "Reptilia 34mm ROF-90 RMR mount for Reptilia scope mounts (FDE)",
-        "translation": "렙틸리아 34mm ROF-90 RMR 마운트 (사막색)\n(Reptilia 34mm ROF-90 RMR mount for Reptilia scope mounts (사막색))"
+        "translation": "렙틸리아 34mm ROF-90 RMR 마운트 (사막색)"
       },
       {
         "key": "27b92c2226b1110635235c2e Description",
@@ -1075,7 +1075,7 @@
       {
         "key": "297eecda3d70301b822b6cf9 Name",
         "source": "AR-15 Geissele SMR MK8 13 inch M-LOK handguard (BLK)",
-        "translation": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK8 13인치 M-LOK handguard (BLK))"
+        "translation": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (블랙)"
       },
       {
         "key": "297eecda3d70301b822b6cf9 ShortName",
@@ -1105,12 +1105,12 @@
       {
         "key": "2adbfe8b01c45020b7a77a9e Name",
         "source": "AR-15 Magpul DT Carbine Stock (Black)",
-        "translation": "AR-15 맥풀 DT 카빈 개머리판 (블랙)\n(AR-15 Magpul DT Carbine Stock (검은색))"
+        "translation": "AR-15 맥풀 DT 카빈 개머리판 (블랙)"
       },
       {
         "key": "2adbfe8b01c45020b7a77a9e Description",
         "source": "The DT Carbine Stock is a drop-in replacement buttstock for AR15/M16/M4 carbines (or comparable platforms) equipped with Mil-Spec profile receiver extensions. It merges the best features of the SL® and CTR® product lines with its new dual tensioning technology, which provides greater strength and security for a more rugged and stable platform that’s easy to adjust.",
-        "translation": "맥풀(Magpul)의 DT 카빈 개머리판은 SL 및 CTR 제품군의 장점을 결합하고 듀얼 텐션(Dual-Tension) 기술을 적용하여 견고하고 안정적인 플랫폼을 제공합니다."
+        "translation": "맥풀(Magpul)의 DT 카빈 개머리판은 SL 및 CTR 제품군의 장점을 결합하고 듀얼 텐션(Dual-Tension) 기술을 적용하여 견고하고 안정적인 플랫폼을 제공합니다. 밀스펙 규격 총몸 연장관을 사용하는 AR-15/M16/M4 카빈 및 유사 플랫폼에 호환됩니다."
       },
       {
         "key": "2aed3f0a15813b3d366fcdb9 Name",
@@ -1170,7 +1170,7 @@
       {
         "key": "2dd0bae941a035f84debc5d1 Name",
         "source": "AR-15 Daniel Defense RIS III FSP 13 handguard (FDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III FSP 13 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III FSP 13 handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III FSP 13 총열덮개 (사막색)"
       },
       {
         "key": "2dd0bae941a035f84debc5d1 ShortName",
@@ -1230,7 +1230,7 @@
       {
         "key": "3373f8268f40bbd0f302bfe4 Name",
         "source": "AR-15 Geissele SMR MK8 7 inch M-LOK handguard (BLK)",
-        "translation": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK8 7인치 M-LOK handguard (BLK))"
+        "translation": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (블랙)"
       },
       {
         "key": "3373f8268f40bbd0f302bfe4 ShortName",
@@ -1305,7 +1305,7 @@
       {
         "key": "364b69dba974eba7ec8a4f1a Description",
         "source": "The Magpul STR (Storage/Type Restricted) Carbine Stock – Mil-Spec is a drop-in replacement buttstock for AR15/M4 carbines using Mil-Spec sized receiver extension tubes. A storage-capable version of the CTR®, the STR has improved cheek weld and two water resistant battery tubes on a compact, reinforced polymer A-frame design.",
-        "translation": "맥풀(Magpul)의 STR(Storage/Type Restricted) 카빈 개머리판은 밀스펙 총몸 연장관에 호환되며, 향상된 치크웰드와 방수 배터리 튜브를 갖춘 강화 폴리머 구조입니다."
+        "translation": "맥풀(Magpul)의 STR(Storage/Type Restricted) 카빈 개머리판은 밀스펙 총몸 연장관에 호환되며, 향상된 치크웰드와 방수 배터리 수납 튜브 2개를 갖춘 강화 폴리머 구조입니다. CTR 개머리판의 수납 기능을 확장한 모델입니다."
       },
       {
         "key": "36743efe52b803c9ec56ba99 Name",
@@ -1320,12 +1320,12 @@
       {
         "key": "36743efe52b803c9ec56ba99 Description",
         "source": "A 16 inch barrel for AR-15 based weapons chambered in .300 blackout.",
-        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃(.300 블랙아웃) 구경의 406mm 총열입니다."
+        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃 구경의 406mm 총열입니다."
       },
       {
         "key": "36c4b709b7b9465d6e875d35 Name",
         "source": "Aimpoint ACRO P-2 reflex sight (FDE)",
-        "translation": "에임포인트 ACRO P-2 반사 조준경 (사막색)\n(Aimpoint ACRO P-2 reflex sight (사막색))"
+        "translation": "에임포인트 ACRO P-2 반사 조준경 (사막색)"
       },
       {
         "key": "36c4b709b7b9465d6e875d35 Description",
@@ -1335,7 +1335,7 @@
       {
         "key": "394ddec62819583ac6b760d7 Name",
         "source": "AR-15 Magpul DT-PR Carbine Stock (FDE)",
-        "translation": "AR-15 맥풀 DT-PR 카빈 개머리판 (사막색)\n(AR-15 Magpul DT-PR Carbine Stock (사막색))"
+        "translation": "AR-15 맥풀 DT-PR 카빈 개머리판 (사막색)"
       },
       {
         "key": "394ddec62819583ac6b760d7 Description",
@@ -1345,7 +1345,7 @@
       {
         "key": "3a3eee114512382f2537f2a5 Name",
         "source": "AR-15 Geissele SMR MK4 9.5 inch handguard (DDC)",
-        "translation": "AR-15 가이슬리 SMR MK4 9.5인치 총열덮개 (DDC)\n(AR-15 Geissele SMR MK4 9.5인치 handguard (DDC))"
+        "translation": "AR-15 가이슬리 SMR MK4 9.5인치 총열덮개 (DDC)"
       },
       {
         "key": "3a3eee114512382f2537f2a5 ShortName",
@@ -1370,7 +1370,7 @@
       {
         "key": "3b690b1d6ab6940d0e231895 Name",
         "source": "MCX Rattler pistol grip (FDE)",
-        "translation": "MCX 래틀러 권총손잡이 (사막색)\n(MCX Rattler pistol grip (사막색))"
+        "translation": "MCX 래틀러 권총손잡이 (사막색)"
       },
       {
         "key": "3b690b1d6ab6940d0e231895 ShortName",
@@ -1400,12 +1400,12 @@
       {
         "key": "3cc1a01be7839321ab030074 Name",
         "source": "SureFire SOCOM762-Ti2 7.62x51 sound suppressor (FDE)",
-        "translation": "슈어파이어 SOCOM762-Ti2 7.62 소음기 사막색\n(SureFire SOCOM762-Ti2 7.62x51 sound suppressor (사막색))"
+        "translation": "슈어파이어 SOCOM762-Ti2 7.62x51 소음기 (FDE, 사막색)"
       },
       {
         "key": "3cc1a01be7839321ab030074 Description",
         "source": "The SOCOM762-Ti2 enhances Surefire’s exceptional titanium suppressor line by providing the ultimate lightweight suppressor for 7.62 mm and .308-caliber bolt-action rifles. We designed it to exceed military sniper rifle suppressor specifications, making it the ideal lightweight suppressor for hunters and long-range precision shooters alike.",
-        "translation": "슈어파이어 SOCOM762-Ti2(SureFire SOCOM762-Ti2) 7.62 소음기 FDE는 초경량 티타늄으로 제작되어 장거리 정밀 사격 및 헌팅용 볼트액션 라이플에 최적화되어 있습니다. 군용 저격 소음기 규격을 초과하는 성능을 제공하며, 가벼우면서도 견고한 내구성을 갖췄습니다."
+        "translation": "슈어파이어 SOCOM762-Ti2(SureFire SOCOM762-Ti2) 7.62mm 소음기 FDE는 초경량 티타늄으로 제작되어 장거리 정밀 사격 및 헌팅용 7.62mm 및 .308 구경 볼트액션 소총에 최적화되어 있습니다. 군용 저격 소음기 규격을 초과하는 성능을 제공하며, 가벼우면서도 견고한 내구성을 갖췄습니다."
       },
       {
         "key": "3d17dc4ba9343629fff763d6 Name",
@@ -1460,7 +1460,7 @@
       {
         "key": "3f9e58d5bea75f1a0ca43399 Name",
         "source": "AR-15 B5 Systems Bravo stock (FDE)",
-        "translation": "AR-15 B5 시스템 브라보 개머리판 (사막색)\n(AR-15 B5 Systems Bravo stock (사막색))"
+        "translation": "AR-15 B5 시스템 브라보 개머리판 (사막색)"
       },
       {
         "key": "3f9e58d5bea75f1a0ca43399 ShortName",
@@ -1470,7 +1470,7 @@
       {
         "key": "3f9e58d5bea75f1a0ca43399 Description",
         "source": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA.",
-        "translation": "B5 시스템(B5 Systems)의 브라보 개머리판은 SOPMOD 치크웰드, 일체형 QD 슬링 마운트, 미끄럼 방지 버트 패드, 향상된 잠금 레버를 갖추고 있습니다. 슬림한 디자인으로 신속하고 안정적인 어깨 밀착이 가능하며, 밀스펙 재질로 제작되어 내구성이 뛰어납니다."
+        "translation": "B5 시스템(B5 Systems)의 브라보 개머리판은 SOPMOD 치크웰드, 일체형 QD 슬링 마운트, 미끄럼 방지 버트 패드, 향상된 잠금 레버를 갖추고 있습니다. 슬림한 디자인으로 신속하고 안정적인 어깨 밀착이 가능하며, 밀스펙 재질로 제작되어 내구성이 뛰어납니다. SOPMOD에 있던 수납 기능을 제외하여 외형을 슬림하게 만들었습니다."
       },
       {
         "key": "40c62378fa93a829532ecc5e Name",
@@ -1480,7 +1480,7 @@
       {
         "key": "40c62378fa93a829532ecc5e Description",
         "source": "The M4-2000's extreme durability is maximized by CNC automated fusion welding of every high-temperature aerospace alloy component used in its construction- making 100% suppressed full-auto fire possible on barrels as short as 10 inches. The back-pressure lowering design of the silencer aids in shooter comfort, reduces weapon fouling, and minimizes cyclic rate increase. As a final step, tapered-bore EDM technology is utilized to ensure precise bore alignment resulting in enhanced accuracy and maximum performance. By eliminating approximately 97% of the muzzle report, the M4-2000 preserves the hearing of the shooter and nearby support personnel, Eliminating muzzle flash in the harshest of environments.",
-        "translation": "M4-2000은 고온 항공우주 합금 부품을 CNC 융합 용접하여 극도의 내구성을 자랑합니다. 10인치 총열에서도 완전 자동 사격이 가능하며, 후압 감소 설계로 쾌적한 사격과 낮은 오염, 안정된 발사 속도를 제공합니다. 약 97%의 소음을 줄여 사수와 지원 인원의 청력을 보호합니다."
+        "translation": "M4-2000은 고온 항공우주 합금 부품을 CNC 융합 용접하여 극도의 내구성을 자랑합니다. 10인치 총열에서도 완전 자동 사격이 가능하며, 후압 감소 설계로 쾌적한 사격과 낮은 오염, 안정된 발사 속도를 제공합니다. 약 97%의 소음을 줄여 사수와 지원 인원의 청력을 보호합니다. 최종 단계에서 테이퍼 보어 방전가공(EDM) 기술로 소음기 통로를 정확하게 정렬해 명중률과 성능을 높였습니다. 혹독한 환경에서도 총구 화염을 제거합니다."
       },
       {
         "key": "4129c7c9c0669b718451b168 Name",
@@ -1500,7 +1500,7 @@
       {
         "key": "41e97223a2ad6374a096ae14 Name",
         "source": "Eotech EXPS3 /w Unity FTC (FDE)",
-        "translation": "이오텍 EXPS3 /w 유니티 FTC (사막색)\n(EOTech EXPS3 /w Unity FTC (사막색))"
+        "translation": "이오텍 EXPS3 /w 유니티 FTC (사막색)"
       },
       {
         "key": "41e97223a2ad6374a096ae14 Description",
@@ -1510,7 +1510,7 @@
       {
         "key": "427426766389fca83151e49a Name",
         "source": "Trijicon ACOG TA31-C Red 4x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA31-C 레드 4x32 조준경 (블랙)\n(Trijicon ACOG TA31-C Red 4x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA31-C 레드 4x32 조준경 (블랙)"
       },
       {
         "key": "427426766389fca83151e49a Description",
@@ -1545,7 +1545,7 @@
       {
         "key": "4330375080cfa3b0acf681c0 Name",
         "source": "Geissele Super Precision T1 Lower 1/3 Co-Witness mount (Black)",
-        "translation": "가이슬리 슈퍼 프리시전 T1 로워 1/3 코위트니스 마운트 (블랙)\n(Geissele Super Precision T1 Lower 1/3 Co-Witness mount (검은색))"
+        "translation": "가이슬리 슈퍼 프리시전 T1 로워 1/3 코위트니스 마운트 (블랙)"
       },
       {
         "key": "4330375080cfa3b0acf681c0 Description",
@@ -1570,7 +1570,7 @@
       {
         "key": "43814001cfda6adc7f69fe6b Name",
         "source": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (Cobalt)",
-        "translation": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (코발트)\n(AR-15 Daniel Defense MFR 15인치 M-LOK handguard (Cobalt))"
+        "translation": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (코발트)"
       },
       {
         "key": "43814001cfda6adc7f69fe6b ShortName",
@@ -1600,7 +1600,7 @@
       {
         "key": "43f5accd8a978396dfb0754c ShortName",
         "source": "RIS III 12.5L",
-        "translation": "RIS III 12.5인치"
+        "translation": "현행 명칭 끝에 하부 표기(예: RIS III 12.5인치 하부)를 넣습니다."
       },
       {
         "key": "43f5accd8a978396dfb0754c Description",
@@ -1625,7 +1625,7 @@
       {
         "key": "44805f562c61dd6f99629991 Name",
         "source": "AR-15 5.56x45mm 11.5 inch barrel",
-        "translation": "AR-15 5.56x45mm 11.5인치 총열\n(AR-15 5.56x45mm 11.5인치 barrel (Epics AIO))"
+        "translation": "AR-15 5.56x45mm 11.5인치 총열"
       },
       {
         "key": "44805f562c61dd6f99629991 ShortName",
@@ -1665,7 +1665,7 @@
       {
         "key": "4656b02dbe4bfa4a3a9e6d40 Name",
         "source": "AK-101 5.56x45 PUFGUN 30-round magazine (FDE)",
-        "translation": "30발, AK-101 5.56x45 퍼프건 탄창 (사막색)\n(AK-101 5.56x45 PUFGUN 30-round magazine (사막색))"
+        "translation": "30발, AK-101 5.56x45 퍼프건 탄창 (사막색)"
       },
       {
         "key": "4656b02dbe4bfa4a3a9e6d40 ShortName",
@@ -1680,7 +1680,7 @@
       {
         "key": "467eb5903b8a619b136c6e93 Name",
         "source": "AR-15 Geissele SMR MK16 10.5 inch M-LOK handguard (BLK)",
-        "translation": "AR-15 가이슬리 SMR MK16 10.5인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK16 10.5인치 M-LOK handguard (BLK))"
+        "translation": "AR-15 가이슬리 SMR MK16 10.5인치 엠락 총열덮개 (블랙)"
       },
       {
         "key": "467eb5903b8a619b136c6e93 ShortName",
@@ -1710,12 +1710,12 @@
       {
         "key": "46a173acb55a8e6eb3599227 Name",
         "source": "Daniel Defense pistol grip (Black)",
-        "translation": "다니엘 디펜스 권총손잡이 (블랙)\n(Daniel Defense pistol grip (검은색))"
+        "translation": "다니엘 디펜스 권총손잡이 (블랙)"
       },
       {
         "key": "46a173acb55a8e6eb3599227 ShortName",
         "source": "DD PG",
-        "translation": "다니엘 디펜스"
+        "translation": "다니엘 디펜스 권총손잡이"
       },
       {
         "key": "46a173acb55a8e6eb3599227 Description",
@@ -1730,7 +1730,7 @@
       {
         "key": "46cd26d8aff75c3562a031e5 Description",
         "source": "The muzzle brake compensator \"DTK-2\" is designed for installation on \"AK\" carbines caliber 7.62 and 5.45 mm.",
-        "translation": "제니트코(Zenitco)의 DTK-2 보정기 보정기는 7.62mm 및 5.45mm 구경의 AK 카빈에 장착하도록 설계되었습니다."
+        "translation": "제니트코 DTK-2 보정기는 7.62mm 및 5.45mm AK 카빈용입니다."
       },
       {
         "key": "474fc2c71c535aaa54973e7f Name",
@@ -1740,7 +1740,7 @@
       {
         "key": "474fc2c71c535aaa54973e7f ShortName",
         "source": "RIS III 13L",
-        "translation": "RIS III 13인치"
+        "translation": "현행 명칭 끝에 하부 표기(예: RIS III 12.5인치 하부)를 넣습니다."
       },
       {
         "key": "474fc2c71c535aaa54973e7f Description",
@@ -1750,7 +1750,7 @@
       {
         "key": "48b2b70316ee11cd78074149 Name",
         "source": "AR-15 B&T Rotex-V Compact 5.56x45 sound suppressor (FDE)",
-        "translation": "AR-15 B&T 로텍스-V 컴팩트 5.56x45 소음기 (사막색)\n(AR-15 B&T Rotex-V Compact 5.56x45 sound suppressor (사막색))"
+        "translation": "AR-15 B&T 로텍스-V 컴팩트 5.56x45 소음기 (사막색)"
       },
       {
         "key": "48b2b70316ee11cd78074149 ShortName",
@@ -1775,7 +1775,7 @@
       {
         "key": "49d2d35e1289ec81e2dae68d Name",
         "source": "AR-15 BCM  MCMR 10 inch M-LOK handguard (FDE)",
-        "translation": "AR-15 BCM MCMR 10인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 10 inch M-LOK handguard (사막색))"
+        "translation": "AR-15 BCM MCMR 10인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "49d2d35e1289ec81e2dae68d ShortName",
@@ -1805,7 +1805,7 @@
       {
         "key": "4b81488c78c8a8ac7d37f9b9 Description",
         "source": "A Colt M4A1 modified by Mechanic to better fire AAC's .300 blackout round. This round is known for being a subsonic performer, effectively the United States' version of Russia's VSS when suppressed. The unsuppressed weapon is still a hard hitting supersonic 30 caliber performer, capable of reaching out in excess of 300 meters.",
-        "translation": "메카닉(Mechanic)이 AAC의 .300 블랙아웃(.300 블랙아웃) 탄을 효율적으로 발사할 수 있도록 개조한 콜트 M4A1 돌격소총입니다. 이 탄은 소음기 장착 시 아음속으로 운용되어 러시아의 VSS와 유사한 성능을 발휘합니다. 소음기를 제거한 상태에서도 강력한 초음속 30구경탄으로 300미터 이상 유효 사거리를 확보할 수 있습니다."
+        "translation": "메카닉(Mechanic)이 AAC의 .300 블랙아웃 탄을 효율적으로 발사할 수 있도록 개조한 콜트 M4A1 돌격소총입니다. 이 탄은 소음기 장착 시 아음속으로 운용되어 러시아의 VSS와 유사한 성능을 발휘합니다. 소음기를 제거한 상태에서도 강력한 초음속 30구경탄으로 300미터 이상 유효 사거리를 확보할 수 있습니다."
       },
       {
         "key": "4c467c02973c90a5284cb89a Name",
@@ -1820,7 +1820,7 @@
       {
         "key": "4c834636cd952988d60d6561 Name",
         "source": "AR-15 Geissele SMR MK8 13 inch M-LOK handguard (DDC)",
-        "translation": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (사막색)\n(AR-15 Geissele SMR MK8 13인치 M-LOK handguard (DDC))"
+        "translation": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "4c834636cd952988d60d6561 ShortName",
@@ -1835,7 +1835,7 @@
       {
         "key": "4da17d6e133487626488aa2d Name",
         "source": "AK SAG MK3 Chassis System (GRY)",
-        "translation": "AK SAG MK3 섀시 시스템 (그레이)\n(AK SAG MK3 Chassis System (그레이))"
+        "translation": "AK SAG MK3 섀시 시스템 (그레이)"
       },
       {
         "key": "4da17d6e133487626488aa2d Description",
@@ -1845,7 +1845,7 @@
       {
         "key": "4de0d40a43a9c998bf67b5ba Name",
         "source": "AR-15 Hogue Vertical Polymer Pistol Grip (Black)",
-        "translation": "AR-15 호그 수직 폴리머 권총손잡이 (블랙)\n(AR-15 Hogue Vertical Polymer Pistol Grip (검은색))"
+        "translation": "AR-15 호그 수직 폴리머 권총손잡이 (블랙)"
       },
       {
         "key": "4de0d40a43a9c998bf67b5ba ShortName",
@@ -1860,7 +1860,7 @@
       {
         "key": "4e826b607efd7bd4630609c9 Name",
         "source": "MCX Rattler M-lok handguard (FDE)",
-        "translation": "MCX 래틀러 엠락 총열덮개 (사막색)\n(MCX Rattler M-lok handguard (사막색))"
+        "translation": "MCX 래틀러 엠락 총열덮개 (사막색)"
       },
       {
         "key": "4e826b607efd7bd4630609c9 Description",
@@ -1885,7 +1885,7 @@
       {
         "key": "4eec6c5df7521b4c5512d257 Name",
         "source": "AR-15 Knights Armament URX 4 13 inch M-LOK handguard (FDE)",
-        "translation": "AR-15 나이츠 아머먼트 URX 4 13인치 엠락 총열덮개 (사막색)\n(AR-15 Knights Armament URX 4 13인치 M-LOK handguard (사막색))"
+        "translation": "AR-15 나이츠 아머먼트 URX 4 13인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "4eec6c5df7521b4c5512d257 ShortName",
@@ -1900,7 +1900,7 @@
       {
         "key": "4ff0af6a0e6cdbd096c0197c Name",
         "source": "AR-15 Geissele SMR MK8 15 inch M-LOK handguard (ODG)",
-        "translation": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK8 15인치 M-LOK handguard (ODG))"
+        "translation": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (올리브 드랩)"
       },
       {
         "key": "4ff0af6a0e6cdbd096c0197c ShortName",
@@ -1965,7 +1965,7 @@
       {
         "key": "51ef8504f4a2e4d2029ff682 Name",
         "source": "Steiner CQBL-1 tactical device (FDE)",
-        "translation": "슈타이너 CQBL-1 전술 장비 (사막색)\n(Steiner CQBL-1 tactical device (사막색))"
+        "translation": "슈타이너 CQBL-1 전술 장비 (사막색)"
       },
       {
         "key": "51ef8504f4a2e4d2029ff682 Description",
@@ -2035,7 +2035,7 @@
       {
         "key": "530833cf60b51e399df58ecf Name",
         "source": "AR-15 Geissele SMR MK4 13 inch handguard (DDC)",
-        "translation": "AR-15 가이슬리 SMR MK4 13인치 총열덮개 (DDC)\n(AR-15 Geissele SMR MK4 13인치 handguard (DDC))"
+        "translation": "AR-15 가이슬리 SMR MK4 13인치 총열덮개 (DDC)"
       },
       {
         "key": "530833cf60b51e399df58ecf ShortName",
@@ -2050,7 +2050,7 @@
       {
         "key": "530c92166b34a8f2c2c96732 Name",
         "source": "Trijicon ACOG TA31-C Green 4x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA31-C 녹색 4x32 조준경 (블랙)\n(Trijicon ACOG TA31-C Green 4x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA31-C 녹색 4x32 조준경 (블랙)"
       },
       {
         "key": "530c92166b34a8f2c2c96732 Description",
@@ -2060,7 +2060,7 @@
       {
         "key": "539b18d0242b3bc3d4ed0e7a Name",
         "source": "AR-15 BCM  MCMR 15 inch M-LOK handguard (FDE)",
-        "translation": "AR-15 BCM MCMR 15인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 15인치 M-LOK handguard (사막색))"
+        "translation": "AR-15 BCM MCMR 15인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "539b18d0242b3bc3d4ed0e7a ShortName",
@@ -2075,7 +2075,7 @@
       {
         "key": "5518037d5b8964f16bd7fa0b Name",
         "source": "Trijicon ACOG TA31F Green 4x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA31F 녹색 4x32 조준경 (블랙)\n(Trijicon ACOG TA31F Green 4x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA31F 녹색 4x32 조준경 (블랙)"
       },
       {
         "key": "5518037d5b8964f16bd7fa0b Description",
@@ -2095,7 +2095,7 @@
       {
         "key": "559582b091fc761d95c2da36 Name",
         "source": "HK 416A5 Geissele SMR 10.5 inch handguard (DDC)",
-        "translation": "HK 416A5 가이슬리 SMR 10.5인치 총열덮개 (DDC)\n(HK 416A5 Geissele SMR 10.5인치 handguard (DDC))"
+        "translation": "HK 416A5 가이슬리 SMR 10.5인치 총열덮개 (DDC)"
       },
       {
         "key": "559582b091fc761d95c2da36 ShortName",
@@ -2110,7 +2110,7 @@
       {
         "key": "55d267e876b4709cc2115736 Name",
         "source": "SureFire SOCOM556-Mini2 5.56x45 sound suppressor (BLK)",
-        "translation": "슈어파이어 SOCOM556-미니2 5.56 소음기 블랙"
+        "translation": "슈어파이어 SOCOM556-Mini2 5.56x45 소음기 (블랙)"
       },
       {
         "key": "55d267e876b4709cc2115736 ShortName",
@@ -2125,7 +2125,7 @@
       {
         "key": "55dccd6302404bfc237a814e Name",
         "source": "Reptilia 1.93\" mount for Aimpoint ACRO (Black)",
-        "translation": "렙틸리아 1.93인치 마운트 (에임포인트 ACRO용, 블랙)\n(Reptilia 1.93\" mount for Aimpoint ACRO (검은색))"
+        "translation": "렙틸리아 1.93인치 마운트 (에임포인트 ACRO용, 블랙)"
       },
       {
         "key": "55dccd6302404bfc237a814e ShortName",
@@ -2140,12 +2140,12 @@
       {
         "key": "5658c6dbe290e948a715c896 Name",
         "source": "AR-15 Daniel Defense RIS III 12.5 lower handguard (FDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 12.5인치 하부 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 12.5 lower handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III 12.5인치 하부 총열덮개 (사막색)"
       },
       {
         "key": "5658c6dbe290e948a715c896 ShortName",
         "source": "RIS III 12.5L",
-        "translation": "RIS III 12.5인치"
+        "translation": "현행 명칭 끝에 하부 표기(예: RIS III 12.5인치 하부)를 넣습니다."
       },
       {
         "key": "5658c6dbe290e948a715c896 Description",
@@ -2195,7 +2195,7 @@
       {
         "key": "57f28a7ffb22e277b0234219 Description",
         "source": "Produced by Saiga out of the Izhmash factory as a civilian version of the AK-74N. Semi automatic only, factory fitted with a 10 round magazine.",
-        "translation": "이즈마쉬(Izhmash) 공장에서 사이가(사이가)가 생산한 AK-74N의 민수용 버전입니다. 반자동 전용으로, 출고 시 10발 탄창이 기본 장착되어 있습니다."
+        "translation": "이즈마쉬(Izhmash) 공장에서 생산한 사이가의 AK-74N의 민수용 버전입니다. 반자동 전용으로, 출고 시 10발 탄창이 기본 장착되어 있습니다."
       },
       {
         "key": "5876ae6ee0d1feabe0da00d1 Name",
@@ -2250,12 +2250,12 @@
       {
         "key": "5a6d510008f101731e1ccad1 Name",
         "source": "AR-15 Daniel Defense RIS III 9.5 inch lower handguard (DFDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 9.5인치 하부 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 9.5인치 lower handguard (D사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III 9.5인치 하부 총열덮개 (D사막색)"
       },
       {
         "key": "5a6d510008f101731e1ccad1 ShortName",
         "source": "RIS III 9.5L",
-        "translation": "RIS III 9.5인치"
+        "translation": "현행 명칭 끝에 하부 표기(예: RIS III 12.5인치 하부)를 넣습니다."
       },
       {
         "key": "5a6d510008f101731e1ccad1 Description",
@@ -2270,12 +2270,12 @@
       {
         "key": "5b62e4a75ec6adea49b29abc ShortName",
         "source": "Faux Dissipator",
-        "translation": "AR-15 16인치"
+        "translation": "페이크 디시페이터"
       },
       {
         "key": "5b62e4a75ec6adea49b29abc Description",
         "source": "This barrel is the result of a person wanting a front sight post at the rifle gas position but wanting the recoil impulse and malfunction chance of a carbine gassed barrel. Really fugly, but here we are. Why they didn't just go rifle gas is beyond me.",
-        "translation": "라이플 가스 위치에 가늠쇠를 설치하고자 하지만 카빈 가스 시스템의 반동과 작동 특성을 유지하기 위해 설계된 16인치 총열입니다. 독특한 구조로, 일반적인 라이플 가스 시스템과는 차별화된 성능을 제공합니다."
+        "translation": "라이플 가스 위치의 가늠쇠를 원하지만 카빈 가스 총열의 반동과 오작동 가능성은 그대로인 특이한 구성이라는 내용을 보존합니다."
       },
       {
         "key": "5b6e75274d865619855c447a Name",
@@ -2370,7 +2370,7 @@
       {
         "key": "5ce8cf47be4bcafcae8c7bd9 Name",
         "source": "AR-15 Geissele SMR MK4 15 inch handguard (DDC)",
-        "translation": "AR-15 가이슬리 SMR MK4 15인치 총열덮개 (DDC)\n(AR-15 Geissele SMR MK4 15인치 handguard (DDC))"
+        "translation": "AR-15 가이슬리 SMR MK4 15인치 총열덮개 (DDC)"
       },
       {
         "key": "5ce8cf47be4bcafcae8c7bd9 ShortName",
@@ -2405,7 +2405,7 @@
       {
         "key": "5f66e08d584ab061cc6dddab Name",
         "source": "HK SP5K polymer handguard",
-        "translation": "HK SP5K polymer 총열덮개"
+        "translation": "HK SP5K 폴리머 총열덮개"
       },
       {
         "key": "5f66e08d584ab061cc6dddab Description",
@@ -2430,7 +2430,7 @@
       {
         "key": "602d21ba485acbec2665bb9f Name",
         "source": "AR-15 Hogue Vertical Polymer Pistol Grip (FDE)",
-        "translation": "AR-15 호그 수직 폴리머 권총손잡이 (사막색)\n(AR-15 Hogue Vertical Polymer Pistol Grip (사막색))"
+        "translation": "AR-15 호그 수직 폴리머 권총손잡이 (사막색)"
       },
       {
         "key": "602d21ba485acbec2665bb9f ShortName",
@@ -2445,7 +2445,7 @@
       {
         "key": "622d454e517ae2325e623625 Name",
         "source": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (Mil-FDE)",
-        "translation": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (사막색)\n(AR-15 Daniel Defense MFR 15인치 M-LOK handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "622d454e517ae2325e623625 ShortName",
@@ -2510,7 +2510,7 @@
       {
         "key": "6581a57dfb78e9f0f816c845 Name",
         "source": "AR-15 Daniel Defense RIS III 12.5 inch handguard (FDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 12.5인치 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 12.5인치 handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III 12.5인치 총열덮개 (사막색)"
       },
       {
         "key": "6581a57dfb78e9f0f816c845 ShortName",
@@ -2535,7 +2535,7 @@
       {
         "key": "66079d40016c0de3509a31e7 Name",
         "source": "Geissele Super Precision T1 Absolute Co-Witness mount (Black)",
-        "translation": "가이슬리 슈퍼 프리시전 T1 앱솔루트 코위트니스 마운트 (블랙)\n(Geissele Super Precision T1 Absolute Co-Witness mount (검은색))"
+        "translation": "가이슬리 슈퍼 프리시전 T1 앱솔루트 코위트니스 마운트 (블랙)"
       },
       {
         "key": "66079d40016c0de3509a31e7 Description",
@@ -2619,7 +2619,7 @@
       {
         "key": "67a198d04e36e7c17ead7f55 Name",
         "source": "Otter Creek Labs Polonium-K 5.56x45 sound suppressor (FDE)",
-        "translation": "오터 크릭 랩스 폴로늄-K 5.56x45 소음기 (사막색)\n(Otter Creek Labs Polonium-K 5.56x45 sound suppressor (사막색))"
+        "translation": "오터 크릭 랩스 폴로늄-K 5.56x45 소음기 (사막색)"
       },
       {
         "key": "67a198d04e36e7c17ead7f55 ShortName",
@@ -2634,7 +2634,7 @@
       {
         "key": "67a54f392f91e5360ecfa677 Name",
         "source": "AR-15 Geissele SMR MK4 7 inch handguard (ODG)",
-        "translation": "AR-15 가이슬리 SMR MK4 7인치 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK4 7인치 handguard (ODG))"
+        "translation": "AR-15 가이슬리 SMR MK4 7인치 총열덮개 (올리브 드랩)"
       },
       {
         "key": "67a54f392f91e5360ecfa677 ShortName",
@@ -2679,7 +2679,7 @@
       {
         "key": "6878917c7adb7e17eb1273ce Name",
         "source": "AR-10 Surefire Warcomp 7.62x51 Flash Hider",
-        "translation": "AR-10 슈어파이어 워콤프 7.62x51 소염기\n(AR-10 SureFire Warcomp 7.62x51 Flash Hider)"
+        "translation": "AR-10 슈어파이어 워콤프 7.62x51 소염기"
       },
       {
         "key": "6878917c7adb7e17eb1273ce ShortName",
@@ -2694,7 +2694,7 @@
       {
         "key": "687ff858ff57353a91a66ca5 Name",
         "source": "HK 416A5 Geissele SMR 10.5 inch handguard (BLK)",
-        "translation": "HK 416A5 가이슬리 SMR 10.5인치 총열덮개 (블랙)\n(HK 416A5 Geissele SMR 10.5인치 handguard (BLK))"
+        "translation": "HK 416A5 가이슬리 SMR 10.5인치 총열덮개 (블랙)"
       },
       {
         "key": "687ff858ff57353a91a66ca5 ShortName",
@@ -2822,7 +2822,7 @@
       {
         "key": "68ecc6afc9baacad535b09b5 Description",
         "source": " The SureFire Warden Blast Regulator for 5.56 and 7.62 mm weapons is engineered to direct the concussive blast of the fired round forward of the weapon system without venting gas to the side, as seen with standard muzzle brakes. This aids in reducing the overpressure felt by others immediately to the left and/or right of the shooter’s firing position.",
-        "translation": "슈어파이어 워든 블라스트 리듀서(SureFire Warden Blast Regulator) 블랙은 5.56mm 및 7.62mm 구경 무기용으로 설계된 폭발 압력 조절기입니다. 표준 보정기가 측면으로 가스를 배출하는 것과 달리, 워든은 가스를 전방으로 배출하여 사수 주변의 과도한 압력과 소음을 줄여줍니다. 이는 실내 사격이나 근접 전투(CQB) 환경에서 팀원 보호와 쾌적한 사격 환경을 제공합니다. QD(Quick Detach) 방식으로 신속한 장착과 분리가 가능합니다."
+        "translation": "슈어파이어 워든 블라스트 레귤레이터(SureFire Warden Blast Regulator)는 5.56mm 및 7.62mm 화기용으로 설계된 장치입니다. 일반적인 총구제퇴기처럼 가스를 측면으로 배출하지 않고 사격 시 발생하는 충격파를 총구 전방으로 향하게 합니다. 이를 통해 사수의 바로 왼쪽이나 오른쪽에 있는 사람들이 받는 과압을 줄여 줍니다."
       },
       {
         "key": "690458c8c8f726648b11ac19 Name",
@@ -2847,7 +2847,7 @@
       {
         "key": "690da468f4f15d2850000001 Description",
         "source": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA.",
-        "translation": "브라보 개머리판은 SOPMOD 볼륨 패드, 일체형 회전 방지 퀵 디스커넥트 슬링 마운트, 미끄럼 방지 쿠션형 볼륨 패드, 향상된 그립감 개머리판 래치를 유지합니다. 브라보는 SOPMOD의 수납 기능을 제거하여 더 슬림한 프로파일을 제공하며, 개머리판 후면을 각도 처리하여 어깨와 볼에 빠르고 일관되게 개머리판을 위치시키도록 합니다. 밀-스펙(Mil-Spec) 재료 및 마감으로 제작되었으며, 미국에서 자랑스럽게 제작되었습니다."
+        "translation": "SOPMOD의 볼 접촉감(치크 웰드), 회전 방지 QD 슬링 마운트, 미끄럼 방지 쿠션형 개머리판 패드 등을 명확히 구분합니다."
       },
       {
         "key": "690da468f4f15d2850000002 Name",
@@ -2862,7 +2862,7 @@
       {
         "key": "690da468f4f15d2850000002 Description",
         "source": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA.",
-        "translation": "브라보 개머리판은 SOPMOD 볼륨 패드, 일체형 회전 방지 퀵 디스커넥트 슬링 마운트, 미끄럼 방지 쿠션형 볼륨 패드, 향상된 그립감 개머리판 래치를 유지합니다. 브라보는 SOPMOD의 수납 기능을 제거하여 더 슬림한 프로파일을 제공하며, 개머리판 후면을 각도 처리하여 어깨와 볼에 빠르고 일관되게 개머리판을 위치시키도록 합니다. 밀-스펙(Mil-Spec) 재료 및 마감으로 제작되었으며, 미국에서 자랑스럽게 제작되었습니다."
+        "translation": "SOPMOD의 볼 접촉감(치크 웰드), 회전 방지 QD 슬링 마운트, 미끄럼 방지 쿠션형 개머리판 패드 등을 명확히 구분합니다."
       },
       {
         "key": "690da468f4f15d2850000003 Name",
@@ -2877,7 +2877,7 @@
       {
         "key": "690da468f4f15d2850000003 Description",
         "source": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA.",
-        "translation": "브라보 개머리판은 SOPMOD 볼륨 패드, 일체형 회전 방지 퀵 디스커넥트 슬링 마운트, 미끄럼 방지 쿠션형 볼륨 패드, 향상된 그립감 개머리판 래치를 유지합니다. 브라보는 SOPMOD의 수납 기능을 제거하여 더 슬림한 프로파일을 제공하며, 개머리판 후면을 각도 처리하여 어깨와 볼에 빠르고 일관되게 개머리판을 위치시키도록 합니다. 밀-스펙(Mil-Spec) 재료 및 마감으로 제작되었으며, 미국에서 자랑스럽게 제작되었습니다."
+        "translation": "SOPMOD의 볼 접촉감(치크 웰드), 회전 방지 QD 슬링 마운트, 미끄럼 방지 쿠션형 개머리판 패드 등을 명확히 구분합니다."
       },
       {
         "key": "690da468f4f15d2850000004 Name",
@@ -2892,22 +2892,22 @@
       {
         "key": "690da468f4f15d2850000004 Description",
         "source": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA.",
-        "translation": "브라보 개머리판은 SOPMOD 볼륨 패드, 일체형 회전 방지 퀵 디스커넥트 슬링 마운트, 미끄럼 방지 쿠션형 볼륨 패드, 향상된 그립감 개머리판 래치를 유지합니다. 브라보는 SOPMOD의 수납 기능을 제거하여 더 슬림한 프로파일을 제공하며, 개머리판 후면을 각도 처리하여 어깨와 볼에 빠르고 일관되게 개머리판을 위치시키도록 합니다. 밀-스펙(Mil-Spec) 재료 및 마감으로 제작되었으며, 미국에서 자랑스럽게 제작되었습니다."
+        "translation": "SOPMOD의 볼 접촉감(치크 웰드), 회전 방지 QD 슬링 마운트, 미끄럼 방지 쿠션형 개머리판 패드 등을 명확히 구분합니다."
       },
       {
         "key": "694f146cd178947eaf000001 Name",
         "source": "Steiner DBAL-D2 tactical device (FDE)",
-        "translation": "슈타이너 DBAL-A3 전술 장비 (사막색)\n(Steiner DBAL-D2 tactical device (사막색))"
+        "translation": "슈타이너 DBAL-D2 전술 장비 (사막색)"
       },
       {
         "key": "694f146cd178947eaf000001 ShortName",
         "source": "DBAL-D2",
-        "translation": "DBAL-A3"
+        "translation": "DBAL-D2"
       },
       {
         "key": "694f146cd178947eaf000001 Description",
         "source": "Manufactured with high definition, aspherical telescopic lens technology, the DBAL-D2 features a 2° to 30° adjustable illumination beam. This highly collimated beam significantly enhances night vision performance and offers an eye-safe means of illuminating distances greater than 1000 m.",
-        "translation": "이중 빔 적외선 레이저 및 조사기 조합은 저조도 및 무조도 작전에서 탁월한 정밀도를 제공합니다. DBAL-A3는 중거리 및 근접 전투에서의 표적 획득을 지원하는 새로운 확산 조절형 IR 조명 기술을 최초로 도입한 모델입니다."
+        "translation": "이중 빔 적외선 레이저 및 조사기 조합은 저조도 및 무조도 작전에서 탁월한 정밀도를 제공합니다. DBAL-D2는 중거리 및 근접 전투에서의 표적 획득을 지원하는 새로운 확산 조절형 IR 조명 기술을 최초로 도입한 모델입니다."
       },
       {
         "key": "6958b14ffd6eb5da65000001 name",
@@ -3083,7 +3083,7 @@
       {
         "key": "69d5a4e350e9bfc39f000001 Name",
         "source": "AR-15 Daniel Defense RIS II FSP 12.25 inch handguard (Black)",
-        "translation": "AR-15 Daniel Defense RIS II FSP 12.25 inch 총열덮개 (검은색)"
+        "translation": "AR-15 다니엘 디펜스 RIS II FSP 12.25인치 총열덮개 (검정색)"
       },
       {
         "key": "69d5a4e350e9bfc39f000001 ShortName",
@@ -3098,7 +3098,7 @@
       {
         "key": "69d5a4e350e9bfc39f000003 Name",
         "source": "AR-15 Daniel Defense RIS II 12.25 lower handguard (Black)",
-        "translation": "AR-15 Daniel Defense RIS II 12.25 lower 총열덮개 (검은색)"
+        "translation": "AR-15 다니엘 디펜스 RIS II 12.25인치 하부 총열덮개 (검정색)"
       },
       {
         "key": "69d5a4e350e9bfc39f000003 ShortName",
@@ -3108,7 +3108,7 @@
       {
         "key": "69d5a4e350e9bfc39f000003 Description",
         "source": "The Daniel Defense RIS II 12.25 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Coyote Brown version.",
-        "translation": "다니엘 디펜스(Daniel Defense) RIS II 12.25 하부 총열덮개는 경량 항공기용 알루미늄 합금으로 제작되었으며, 추가 장비와 액세서리 장착을 위한 RIS 인터페이스를 갖추고 있습니다. COY 브라운 색상 버전입니다."
+        "translation": "다니엘 디펜스 RIS II 12.25인치 하부 총열덮개입니다. 가볍고 내구성이 높은 항공기용 알루미늄 합금으로 제작됐으며, 추가 장비와 부착물을 장착하는 RIS 인터페이스를 갖췄습니다. 검정색 모델입니다."
       },
       {
         "key": "6a160d6847cc29671d000001 Name",
@@ -3148,7 +3148,7 @@
       {
         "key": "6a17d1bd98c6bf6da000000a Name",
         "source": "AR-15 Daniel Defense RIS II 12.25 lower handguard (Black)",
-        "translation": "AR-15 Daniel Defense RIS II 12.25 lower 총열덮개 (검은색)"
+        "translation": "AR-15 다니엘 디펜스 RIS II 12.25인치 하부 총열덮개 (검정색)"
       },
       {
         "key": "6a17d1bd98c6bf6da000000a ShortName",
@@ -3158,7 +3158,7 @@
       {
         "key": "6a17d1bd98c6bf6da000000a Description",
         "source": "The Daniel Defense RIS II 12.25 lower handguard. Made with light but durable aircraft aluminum alloy. Equipped with RIS interface for installation of additional devices and accessories. Coyote Brown version.",
-        "translation": "다니엘 디펜스(Daniel Defense) RIS II 12.25 하부 총열덮개는 경량 항공기용 알루미늄 합금으로 제작되었으며, 추가 장비와 액세서리 장착을 위한 RIS 인터페이스를 갖추고 있습니다. COY 브라운 색상 버전입니다."
+        "translation": "다니엘 디펜스 RIS II 12.25인치 하부 총열덮개입니다. 가볍고 내구성이 높은 항공기용 알루미늄 합금으로 제작됐으며, 추가 장비와 부착물을 장착하는 RIS 인터페이스를 갖췄습니다. 검정색 모델입니다."
       },
       {
         "key": "6a722ba4aab105b3e4000001 Name",
@@ -3213,7 +3213,7 @@
       {
         "key": "6a740e7d877d300204894a56 Name",
         "source": "AKS-74U SAG MK3 handguard (Plum)",
-        "translation": "AKS-74U SAG MK3 총열덮개 (Plum)"
+        "translation": "(플럼색) 또는 (자주색)"
       },
       {
         "key": "6a740e7d877d300204894a56 Description",
@@ -3263,7 +3263,7 @@
       {
         "key": "6a74121539ffe026f9894a5b Name",
         "source": "AKS-74U SAG MK3 dust cover (Plum)",
-        "translation": "AKS-74U SAG MK3 먼지덮개 (Plum)"
+        "translation": "(플럼색) 또는 (자주색)"
       },
       {
         "key": "6a74121539ffe026f9894a5b Description",
@@ -3273,7 +3273,7 @@
       {
         "key": "6c06aaf97171cda862583e24 Name",
         "source": "AR-15 BCM  MCMR 9 inch M-LOK handguard (FDE)",
-        "translation": "AR-15 BCM MCMR 9인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 9 inch M-LOK handguard (사막색))"
+        "translation": "AR-15 BCM MCMR 9인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "6c06aaf97171cda862583e24 ShortName",
@@ -3328,17 +3328,17 @@
       {
         "key": "6d9f22a75064ebb92b3ece1c Description",
         "source": "The M4-2000's extreme durability is maximized by CNC automated fusion welding of every high-temperature aerospace alloy component used in its construction- making 100% suppressed full-auto fire possible on barrels as short as 10 inches. The back-pressure lowering design of the silencer aids in shooter comfort, reduces weapon fouling, and minimizes cyclic rate increase. As a final step, tapered-bore EDM technology is utilized to ensure precise bore alignment resulting in enhanced accuracy and maximum performance. By eliminating approximately 97% of the muzzle report, the M4-2000 preserves the hearing of the shooter and nearby support personnel, Eliminating muzzle flash in the harshest of environments.",
-        "translation": "M4-2000은 고온 항공우주 합금 부품을 CNC 융합 용접하여 극도의 내구성을 자랑합니다. 10인치 총열에서도 완전 자동 사격이 가능하며, 후압 감소 설계로 쾌적한 사격과 낮은 오염, 안정된 발사 속도를 제공합니다. 약 97%의 소음을 줄여 사수와 지원 인원의 청력을 보호합니다."
+        "translation": "M4-2000은 고온 항공우주 합금 부품을 CNC 융합 용접하여 극도의 내구성을 자랑합니다. 10인치 총열에서도 완전 자동 사격이 가능하며, 후압 감소 설계로 쾌적한 사격과 낮은 오염, 안정된 발사 속도를 제공합니다. 약 97%의 소음을 줄여 사수와 지원 인원의 청력을 보호합니다. 최종 단계에서 테이퍼 보어 방전가공(EDM) 기술로 소음기 통로를 정확하게 정렬해 명중률과 성능을 높였습니다. 혹독한 환경에서도 총구 화염을 제거합니다."
       },
       {
         "key": "6efbc3fc36558fb085bbc36e Name",
         "source": "SureFire SOCOM762-Ti2 7.62x51 sound suppressor (BLK)",
-        "translation": "슈어파이어 SOCOM762-Ti2 7.62 소음기 블랙"
+        "translation": "슈어파이어 SOCOM762-Ti2 7.62x51 소음기 (BLK, 검정색)"
       },
       {
         "key": "6efbc3fc36558fb085bbc36e Description",
         "source": "The SOCOM762-Ti2 enhances Surefire’s exceptional titanium suppressor line by providing the ultimate lightweight suppressor for 7.62 mm and .308-caliber bolt-action rifles. We designed it to exceed military sniper rifle suppressor specifications, making it the ideal lightweight suppressor for hunters and long-range precision shooters alike.",
-        "translation": "슈어파이어 SOCOM762-Ti2(SureFire SOCOM762-Ti2) 7.62 소음기 블랙은 초경량 티타늄으로 제작되어 장거리 정밀 사격 및 헌팅용 볼트액션 라이플에 최적화되어 있습니다. 군용 저격 소음기 규격을 초과하는 성능을 제공하며, 가벼우면서도 견고한 내구성을 갖췄습니다."
+        "translation": "슈어파이어 SOCOM762-Ti2(SureFire SOCOM762-Ti2) 7.62mm 소음기 블랙은 초경량 티타늄으로 제작되어 장거리 정밀 사격 및 헌팅용 7.62mm 및 .308 구경 볼트액션 소총에 최적화되어 있습니다. 군용 저격 소음기 규격을 초과하는 성능을 제공하며, 가벼우면서도 견고한 내구성을 갖췄습니다."
       },
       {
         "key": "6f33aaf0c3f65f299ec74b1a Name",
@@ -3358,7 +3358,7 @@
       {
         "key": "6ff95267a947d1c2856f3c0f Name",
         "source": "AR-15 Geissele SMR MK8 9.5 inch M-LOK handguard (ODG)",
-        "translation": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK8 9.5인치 M-LOK handguard (ODG))"
+        "translation": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (올리브 드랩)"
       },
       {
         "key": "6ff95267a947d1c2856f3c0f ShortName",
@@ -3383,7 +3383,7 @@
       {
         "key": "70eb49132ee4b5a739b8fa7f Description",
         "source": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA.",
-        "translation": "B5 시스템(B5 Systems)의 브라보 개머리판은 SOPMOD 치크웰드, 일체형 QD 슬링 마운트, 미끄럼 방지 버트 패드, 향상된 잠금 레버를 갖추고 있습니다. 슬림한 디자인으로 신속하고 안정적인 어깨 밀착이 가능하며, 밀스펙 재질로 제작되어 내구성이 뛰어납니다."
+        "translation": "B5 시스템(B5 Systems)의 브라보 개머리판은 SOPMOD 치크웰드, 일체형 QD 슬링 마운트, 미끄럼 방지 버트 패드, 향상된 잠금 레버를 갖추고 있습니다. 슬림한 디자인으로 신속하고 안정적인 어깨 밀착이 가능하며, 밀스펙 재질로 제작되어 내구성이 뛰어납니다. SOPMOD에 있던 수납 기능을 제외하여 외형을 슬림하게 만들었습니다."
       },
       {
         "key": "71da7f0c9145e92bd1022c53 Name",
@@ -3403,7 +3403,7 @@
       {
         "key": "71e6bc96b1a4cce0b4340b20 Name",
         "source": "Reptilia Lower 1/3 mount for Aimpoint ACRO (Black)",
-        "translation": "렙틸리아 로워 1/3 마운트 (에임포인트 ACRO용, 블랙)\n(Reptilia Lower 1/3 mount for Aimpoint ACRO (검은색))"
+        "translation": "렙틸리아 로워 1/3 마운트 (에임포인트 ACRO용, 블랙)"
       },
       {
         "key": "71e6bc96b1a4cce0b4340b20 ShortName",
@@ -3493,7 +3493,7 @@
       {
         "key": "75423eeee232e178d80c4925 Name",
         "source": "AR-15 Geissele SMR MK8 9.5 inch M-LOK handguard (DDC)",
-        "translation": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (DDC)\n(AR-15 Geissele SMR MK8 9.5인치 M-LOK handguard (DDC))"
+        "translation": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (DDC)"
       },
       {
         "key": "75423eeee232e178d80c4925 ShortName",
@@ -3508,7 +3508,7 @@
       {
         "key": "756ab0aa38d8481397f2813a Name",
         "source": "AK Hogue OverMolded pistol grip (Black)",
-        "translation": "AK 호그 이중 사출 권총손잡이 (블랙)\n(AK Hogue OverMolded pistol grip (검은색))"
+        "translation": "AK 호그 이중 사출 권총손잡이 (블랙)"
       },
       {
         "key": "756ab0aa38d8481397f2813a ShortName",
@@ -3548,7 +3548,7 @@
       {
         "key": "75aaff6e4b9746a9a43aed1b Description",
         "source": "A 5.5 inch barrel for the MCX Rattler, chambered in .300 BLK. This will not work with standard MCX uppers due to the modified chamber geometry.",
-        "translation": "MCX 래틀러(Rattler)용 5.5인치 총열이며, .300 검정색 탄약에 맞춰져 있습니다. 표준 MCX 상부총몸과는 챔버 구조가 달라 호환되지 않습니다."
+        "translation": "MCX 래틀러용 5.5인치 총열로 .300 블랙아웃 탄을 사용합니다. 변경된 약실 구조로 표준 MCX 상부 총몸과는 호환되지 않습니다."
       },
       {
         "key": "764bac2a60fb452dd29cba6e Name",
@@ -3563,7 +3563,7 @@
       {
         "key": "765efc3218305b91ce279f7c Name",
         "source": "Trijicon ACOG TA31-CH Green 4x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA31-CH 녹색 4x32 조준경 (블랙)\n(Trijicon ACOG TA31-CH Green 4x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA31-CH 녹색 4x32 조준경 (블랙)"
       },
       {
         "key": "765efc3218305b91ce279f7c Description",
@@ -3583,7 +3583,7 @@
       {
         "key": "788eac2547e9e3f30daa57ba Name",
         "source": "AR-15 UTG M16A2 style fixed stock (FDE)",
-        "translation": "AR-15 UTG M16A2 스타일 고정형 개머리판 (사막색)\n(AR-15 UTG M16A2 style fixed stock (사막색) (EpicsAIO))"
+        "translation": "AR-15 UTG M16A2 스타일 고정형 개머리판 (사막색)"
       },
       {
         "key": "788eac2547e9e3f30daa57ba ShortName",
@@ -3618,12 +3618,12 @@
       {
         "key": "797e1ab4422217d7cfe3d299 ShortName",
         "source": "SpecterDR 1.5-6",
-        "translation": "스펙터DRDR 1.5-6"
+        "translation": "스펙터DR 1.5-6 / 해당 설명 내 SpecterDR 중복 제거"
       },
       {
         "key": "797e1ab4422217d7cfe3d299 Description",
         "source": "The ELCAN SpecterDR 1.5x/6x Legacy is the second evolution in the family of Dual Role Optical Sights. Based upon the battle-proven SpecterDR design, the SpecterDR 1.5x/6x provides higher magnification to enable greater precision and longer engagement ranges, while at the same time providing exceptional field of view in CQB mode.",
-        "translation": "엘칸 스펙터(ELCAN Specter)DRDR 1.5x/6x Legacy는 듀얼 롤(Dual Role) 광학 조준경의 두 번째 진화형으로, 전투에서 입증된 스펙터DR 디자인을 기반으로 제작되었습니다. 1.5배에서 6배까지의 고배율 전환을 통해 더 먼 거리에서 정밀한 사격이 가능하며, CQB 모드에서는 넓은 시야각을 제공합니다."
+        "translation": "스펙터DR 1.5-6 / 해당 설명 내 SpecterDR 중복 제거"
       },
       {
         "key": "79b662be6504a4c5c58b662e Name",
@@ -3643,7 +3643,7 @@
       {
         "key": "7a431acbc2bc03fb8305fc93 Name",
         "source": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (Deep Woods)",
-        "translation": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (딥 우드)\n(AR-15 Daniel Defense MFR 15인치 M-LOK handguard (Deep Woods))"
+        "translation": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (딥 우드)"
       },
       {
         "key": "7a431acbc2bc03fb8305fc93 ShortName",
@@ -3658,7 +3658,7 @@
       {
         "key": "7af1b735539670b26a3fe68b Name",
         "source": "Reptilia AUS 34mm ring scope mount (FDE)",
-        "translation": "렙틸리아 AUS 34mm 링 스코프 마운트 (사막색)\n(Reptilia AUS 34mm ring scope mount (사막색))"
+        "translation": "렙틸리아 AUS 34mm 링 스코프 마운트 (사막색)"
       },
       {
         "key": "7af1b735539670b26a3fe68b Description",
@@ -3678,13 +3678,13 @@
       {
         "key": "7c552af4e4a6f701383ae4e1",
         "source": "Find a couple tubes of \"Salty Dog Beef Sausage\"",
-        "translation": "Salty Dog 소고기 소시지 몇개 건네주기",
+        "translation": "Salty Dog 소고기 소시지 두 개 찾기",
         "display_type": "quest_objective"
       },
       {
         "key": "7ca248803b89788492384ba2 Name",
         "source": "Eotech EXPS3 /w G33",
-        "translation": "이오텍 EXPS3 /w G33\n(EOTech EXPS3 /w G33)"
+        "translation": "이오텍 EXPS3 /w G33"
       },
       {
         "key": "7ca248803b89788492384ba2 Description",
@@ -3719,7 +3719,7 @@
       {
         "key": "7e07f0150bb32a595e2c142b Name",
         "source": "Reptilia Offset mount for Aimpoint ACRO (FDE)",
-        "translation": "렙틸리아 옵셋 마운트 (에임포인트 ACRO용, 사막색)\n(Reptilia Offset mount for Aimpoint ACRO (사막색))"
+        "translation": "렙틸리아 옵셋 마운트 (에임포인트 ACRO용, 사막색)"
       },
       {
         "key": "7e07f0150bb32a595e2c142b ShortName",
@@ -3764,7 +3764,7 @@
       {
         "key": "7fcdd565380cb8fc9b0fb1f1 Name",
         "source": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (BLK)",
-        "translation": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (블랙)\n(AR-15 Daniel Defense MFR 15인치 M-LOK handguard (BLK))"
+        "translation": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (블랙)"
       },
       {
         "key": "7fcdd565380cb8fc9b0fb1f1 ShortName",
@@ -3779,12 +3779,12 @@
       {
         "key": "7fe5839a2d1e2eb9c6045f11 Name",
         "source": "AR-15 Surefire Warcomp Closed Tine 5.56x45 flash Hider",
-        "translation": "AR-15 슈어파이어 Warcomp 클로즈드 타인 5.56x45 소염기\n(AR-15 SureFire Warcomp Closed Tine 5.56x45 flash Hider)"
+        "translation": "AR-15 슈어파이어 Warcomp 클로즈드 타인 5.56x45 소염기"
       },
       {
         "key": "7fe5839a2d1e2eb9c6045f11 Description",
         "source": "If a traditional birdcage flash hider is what you want, SureFire’s WARCOMP-556-CTN significantly reduces muzzle flash with every shot fired and helps reduce muzzle rise for easier target tracking and faster follow-up shots. Its closed tines reduce the chance you'll snag your barrel in environments where there is dense vegetation or other items that might catch an open-tine flash hider.",
-        "translation": "슈어파이어(SureFire)의 WARCOMP-556-CTN은 총구 화염를 크게 줄이고 총구 상승을 억제하여 목표 추적을 쉽게 해줍니다. 클로즈드 타인 설계로 밀집된 식생이나 장애물에 걸릴 위험을 줄였습니다."
+        "translation": "슈어파이어(SureFire)의 WARCOMP-556-CTN은 총구 화염을 크게 줄이고 총구 상승을 억제하여 목표 추적을 쉽게 해줍니다. 클로즈드 타인 설계로 밀집된 식생이나 장애물에 걸릴 위험을 줄였습니다."
       },
       {
         "key": "807cce3153fd6d07fa931fa1 Name",
@@ -3804,7 +3804,7 @@
       {
         "key": "80cbe6559756b8811d5542e5 Name",
         "source": "AR-15 Surefire SFMB 5.56x45 Muzzle brake",
-        "translation": "AR-15 슈어파이어 SFMB 5.56x45 보정기\n(AR-15 SureFire SFMB 5.56x45 Muzzle brake)"
+        "translation": "AR-15 슈어파이어 SFMB 5.56x45 보정기"
       },
       {
         "key": "80cbe6559756b8811d5542e5 Description",
@@ -3814,7 +3814,7 @@
       {
         "key": "80cf189d3de1a40fb52a902f Name",
         "source": "AR-15 Hogue OverMolded Carbine stock (Black)",
-        "translation": "AR-15 호그 이중 사출 카빈 개머리판 (블랙)\n(AR-15 Hogue OverMolded Carbine stock (검은색))"
+        "translation": "AR-15 호그 이중 사출 카빈 개머리판 (블랙)"
       },
       {
         "key": "80cf189d3de1a40fb52a902f ShortName",
@@ -3869,7 +3869,7 @@
       {
         "key": "81fb194d053a4ccedce3782d Name",
         "source": "SIG Sauer ROMEO8T /w Unity FTC (Black)",
-        "translation": "시그 사우어 로메오8T /w 유니티 FTC (블랙)\n(SIG Sauer ROMEO8T /w Unity FTC (검은색))"
+        "translation": "시그 사우어 로메오8T /w 유니티 FTC (블랙)"
       },
       {
         "key": "81fb194d053a4ccedce3782d ShortName",
@@ -3884,7 +3884,7 @@
       {
         "key": "82144d6a0be3285243f60c50 Name",
         "source": "AR-15 B&T Rotex-V Compact 5.56x45 sound suppressor (GRY)",
-        "translation": "AR-15 B&T 로텍스-V 컴팩트 5.56x45 소음기 (그레이)\n(AR-15 B&T Rotex-V Compact 5.56x45 sound suppressor (그레이))"
+        "translation": "AR-15 B&T 로텍스-V 컴팩트 5.56x45 소음기 (그레이)"
       },
       {
         "key": "82144d6a0be3285243f60c50 ShortName",
@@ -3899,7 +3899,7 @@
       {
         "key": "85089908aa319642316b9cfb Name",
         "source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Pink)",
-        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (핑크)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Pink))"
+        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (핑크)"
       },
       {
         "key": "85089908aa319642316b9cfb ShortName",
@@ -3914,7 +3914,7 @@
       {
         "key": "855c66034be3bb6aece3919b Name",
         "source": "AR-15 .300 blackout 14.5 inch barrel",
-        "translation": "AR-15 .300 블랙아웃 370mm 총열"
+        "translation": "AR-15 .300 블랙아웃 14.5인치 총열"
       },
       {
         "key": "855c66034be3bb6aece3919b ShortName",
@@ -3924,7 +3924,7 @@
       {
         "key": "855c66034be3bb6aece3919b Description",
         "source": "A 14.5 inch barrel for AR-15 based weapons chambered in .300 blackout.",
-        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃(.300 블랙아웃) 구경의 370mm 총열입니다."
+        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃 구경의 370mm 총열입니다."
       },
       {
         "key": "857f6f505667d85233704faa Name",
@@ -3939,7 +3939,7 @@
       {
         "key": "857f6f505667d85233704faa Description",
         "source": "The Bravo stock maintains the SOPMOD cheek weld, one piece anti-rotation quick disconnect sling mount, no slip cushioned buttpad, and improved sure grip stock latch. The Bravo omits the storage capability of the SOPMOD to provide a slimmer profile and angles the rear of the stock ensuring quick and consistent stock placement against the shoulder and cheek. Made of Mil-Spec materials and finishes. Proudly made in the USA.",
-        "translation": "B5 시스템(B5 Systems)의 브라보 개머리판은 SOPMOD 치크웰드, 일체형 QD 슬링 마운트, 미끄럼 방지 버트 패드, 향상된 잠금 레버를 갖추고 있습니다. 슬림한 디자인으로 신속하고 안정적인 어깨 밀착이 가능하며, 밀스펙 재질로 제작되어 내구성이 뛰어납니다."
+        "translation": "B5 시스템(B5 Systems)의 브라보 개머리판은 SOPMOD 치크웰드, 일체형 QD 슬링 마운트, 미끄럼 방지 버트 패드, 향상된 잠금 레버를 갖추고 있습니다. 슬림한 디자인으로 신속하고 안정적인 어깨 밀착이 가능하며, 밀스펙 재질로 제작되어 내구성이 뛰어납니다. SOPMOD에 있던 수납 기능을 제외하여 외형을 슬림하게 만들었습니다."
       },
       {
         "key": "85a2077a2a40a73a0f95f74a Name",
@@ -3959,12 +3959,12 @@
       {
         "key": "85ce98958d5359f66eef9b0d Description",
         "source": "This model P/N: 3850-024. The Cadex MX1 muzzle brake is designed to deflect the muzzle blast away from the shooter and his spotter. Gases exit sideways and upwards to reduce felt recoil, dust cloud and improve rifle control. It will soften your 338 Lapua recoil as if it was a 243 Win. Self-timing design using a pinch bolt.",
-        "translation": "카덱스 디펜스(Cadex Defense)의 MX1 보정기는 .338 라푸아 매그넘 구경에 사용되며, 반동과 먼지 발생을 줄이고 제어력을 향상시킵니다. 셀프 타이밍 핀치 볼트 설계를 적용했습니다."
+        "translation": "부품 번호는 3850-024입니다. 카덱스 MX1 총구제퇴기는 총구 폭압을 사수와 관측자로부터 멀리 보내도록 설계되었습니다. 가스를 측면과 위쪽으로 배출하여 체감 반동과 먼지 발생을 줄이고 총기 제어력을 높입니다. .338 라푸아 탄약의 반동을 .243 윈체스터 수준으로 완화합니다. 핀치 볼트를 이용한 셀프 타이밍 설계입니다."
       },
       {
         "key": "86171495d4b6145eb4f0f1d5 Name",
         "source": "AR-15 Daniel Defense RIS III FSP 13 handguard (DFDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III FSP 13인치 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III FSP 13 handguard (D사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III FSP 13인치 총열덮개 (D사막색)"
       },
       {
         "key": "86171495d4b6145eb4f0f1d5 ShortName",
@@ -3979,7 +3979,7 @@
       {
         "key": "86509ab9a719ec35d68335ec Name",
         "source": "Trijicon ACOG TA31H Green 4x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA31H 녹색 4x32 조준경 (블랙)\n(Trijicon ACOG TA31H Green 4x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA31H 녹색 4x32 조준경 (블랙)"
       },
       {
         "key": "86509ab9a719ec35d68335ec Description",
@@ -4044,12 +4044,12 @@
       {
         "key": "887069265f946005918c6279 Name",
         "source": "AR-15 Daniel Defense RIS III 10.5 lower handguard (DFDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 10.5인치 하부 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 10.5 lower handguard (D사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III 10.5인치 하부 총열덮개 (D사막색)"
       },
       {
         "key": "887069265f946005918c6279 ShortName",
         "source": "RIS III 10.5L",
-        "translation": "RIS III 10.5인치"
+        "translation": "현행 명칭 끝에 하부 표기(예: RIS III 12.5인치 하부)를 넣습니다."
       },
       {
         "key": "887069265f946005918c6279 Description",
@@ -4059,7 +4059,7 @@
       {
         "key": "8a25358a28252c3b7fcb7e4a Name",
         "source": "AK-74 Zenit DTK Putnik 5.45x39 sound suppressor (FDE)",
-        "translation": "AK-74 제니트 DTK 푸트니크 5.45x39 소음기 (사막색)\n(AK-74 Zenit DTK Putnik 5.45x39 sound suppressor (사막색))"
+        "translation": "AK-74 제니트 DTK 푸트니크 5.45x39 소음기 (사막색)"
       },
       {
         "key": "8a25358a28252c3b7fcb7e4a Description",
@@ -4089,7 +4089,7 @@
       {
         "key": "8af8534244b4e4189d53bec2 Description",
         "source": "The Magpul Bipod for M-LOK offers serious strength and versatility at a price that provides unmatched value. Our lightweight Mil-Spec hard anodized 6061 T-6 aluminum and injection-molded polymer bipod brings innovation in ergonomics, functionality, strength and value together.",
-        "translation": "엠락용 맥풀 양각대는 뛰어난 강도와 다용도를 합리적인 가격에 제공합니다. 경량의 밀스펙 하드 아노다이징 처리된 6061 T-6 알루미늄과 사출 성형 폴리머로 제작되어, 인체공학, 기능성, 강도, 가성비를 모두 갖추고 있습니다."
+        "translation": "엠락용 맥풀 양각대는 뛰어난 강도와 다용도를 합리적인 가격에 제공합니다. 경량의 밀스펙 하드 양극산화 처리된 6061 T-6 알루미늄과 사출 성형 폴리머로 제작되어, 인체공학, 기능성, 강도, 가성비를 모두 갖추고 있습니다."
       },
       {
         "key": "8ba3e8781a976de83ca7e6e4 Name",
@@ -4114,7 +4114,7 @@
       {
         "key": "8d28d2b0bc17dad17f09676d Description",
         "source": "Daniel SoundGuard Powered by KGM Suppressors utilize cutting-edge gas-flow dynamics that eliminate over-gassing and direct most gasses forward, not back in a shooter’s face. So, you experience less toxic gas blowback and can concentrate on putting more shots on target. State-of-the-art KGM technology significantly lowers impulse noise levels, protecting against hearing loss, while a patent-pending baffle stack and proprietary coating on internal parts reduce a firearm’s flash signature to virtually zero. Patent-pending gas-flow pathing stabilizes rounds to ensure extreme accuracy with minimal point-of-impact shift.",
-        "translation": "다니엘 디펜스(Daniel Defense)의 사운드가드 소음기는 KGM 소음기의 기술을 적용하여 제작되었으며, 첨단 가스 흐름 제어 설계를 통해 과도한 가스 유입을 방지하고 대부분의 가스를 사수 방향으로 배출하여 얼굴 쪽 가스 유입을 최소화합니다. 이를 통해 독성 가스 역류를 줄여 사격 집중도를 높이며, 첨단 KGM 기술은 충격 소음을 효과적으로 감소시켜 청력을 보호합니다. 특허 출원 중인 배플 스택(baffle stack)과 내부 부품 코팅은 섬광(플래시)을 거의 완전히 제거하며, 안정적인 가스 흐름 경로 설계는 명중률 향상과 최소한의 명중점 이동을 보장합니다."
+        "translation": "대부분의 가스를 전방으로 배출하고 사수 얼굴 쪽 역류를 줄인다는 방향 관계를 명확히 고칩니다."
       },
       {
         "key": "8d59d8b10a4c2e85b871c317 Name",
@@ -4149,7 +4149,7 @@
       {
         "key": "8d9e9ff3020f92eb5fc46680 Name",
         "source": "Leupold LCO /w Unity FTC (Black)",
-        "translation": "레오폴드 LCO /w 유니티 FTC (블랙)\n(Leupold LCO /w Unity FTC (검은색))"
+        "translation": "레오폴드 LCO /w 유니티 FTC (블랙)"
       },
       {
         "key": "8d9e9ff3020f92eb5fc46680 Description",
@@ -4159,7 +4159,7 @@
       {
         "key": "8e91893cd97979e31dc69ff4 Name",
         "source": "Trijicon ACOG TA31F Red 4x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA31F 레드 4x32 조준경 (블랙)\n(Trijicon ACOG TA31F Red 4x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA31F 레드 4x32 조준경 (블랙)"
       },
       {
         "key": "8e91893cd97979e31dc69ff4 Description",
@@ -4204,7 +4204,7 @@
       {
         "key": "8f3a04aaba92798bf7c59f91 Description",
         "source": "An 18in barrel for AR-15 based weapons chambered in .300 blackout.",
-        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃(.300 블랙아웃) 구경의 18인치 총열입니다."
+        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃 구경의 18인치 총열입니다."
       },
       {
         "key": "8f6b1094af72e578b924205f Name",
@@ -4219,7 +4219,7 @@
       {
         "key": "8f6edf466418c1b8d9356625 Name",
         "source": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (BLK)",
-        "translation": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (블랙)\n(AR-15 Daniel Defense MFR 13.5인치 M-LOK handguard (BLK))"
+        "translation": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (블랙)"
       },
       {
         "key": "8f6edf466418c1b8d9356625 ShortName",
@@ -4264,7 +4264,7 @@
       {
         "key": "9065d7003f6f4f62ca099bbf Name",
         "source": "5.56x45 Colt AR-15 Straight 20-round magazine",
-        "translation": "20발, 콜트 AR-15 5.56x45 직선형 탄창\n(5.56x45 Colt AR-15 Straight 20-round magazine (EpicsAIO))"
+        "translation": "20발, 콜트 AR-15 5.56x45 직선형 탄창"
       },
       {
         "key": "9065d7003f6f4f62ca099bbf ShortName",
@@ -4319,12 +4319,12 @@
       {
         "key": "920e1fdd287c92fd605183d4 Description",
         "source": "A 20in barrel for AR-15 based weapons chambered in .300 blackout.",
-        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃(.300 블랙아웃) 구경의 20인치 총열입니다."
+        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃 구경의 20인치 총열입니다."
       },
       {
         "key": "923987338260a1bb89e6a11b Name",
         "source": "Magpul M-LOK 2.5 inch rail (for bipods only)",
-        "translation": "맥풀 엠락 2.5인치 레일 (양각대 전용)\n(Magpul M-LOK 2.5인치 rail (for bipods only))"
+        "translation": "맥풀 엠락 2.5인치 레일 (양각대 전용)"
       },
       {
         "key": "923987338260a1bb89e6a11b ShortName",
@@ -4464,12 +4464,12 @@
       {
         "key": "981bedd65e69fa6439c52c84 Description",
         "source": "A 12.5 inch barrel for AR-15 based weapons chambered in .300 blackout.",
-        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃(.300 블랙아웃) 구경의 12.5인치 카빈 가스 시스템 총열입니다."
+        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃 구경의 12.5인치 카빈 가스 시스템 총열입니다."
       },
       {
         "key": "986150a30f2c89c4555dead5 Name",
         "source": "Reptilia Lower 1/3 mount for Aimpoint ACRO (FDE)",
-        "translation": "렙틸리아 로워 1/3 마운트 (에임포인트 ACRO용, 사막색)\n(Reptilia Lower 1/3 mount for Aimpoint ACRO (사막색))"
+        "translation": "렙틸리아 로워 1/3 마운트 (에임포인트 ACRO용, 사막색)"
       },
       {
         "key": "986150a30f2c89c4555dead5 ShortName",
@@ -4484,7 +4484,7 @@
       {
         "key": "98faf3e813c71c69fdc058a6 Name",
         "source": "Trijicon ACOG TA31H Red 4x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA31H 레드 4x32 조준경 (블랙)\n(Trijicon ACOG TA31H Red 4x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA31H 레드 4x32 조준경 (블랙)"
       },
       {
         "key": "98faf3e813c71c69fdc058a6 Description",
@@ -4494,7 +4494,7 @@
       {
         "key": "9911241c521cf272e28138ab Name",
         "source": "Otter Creek Labs Polonium 5.56x45 sound suppressor (FDE)",
-        "translation": "오터 크릭 랩스 폴로늄 5.56x45 소음기 (사막색)\n(Otter Creek Labs Polonium 5.56x45 sound suppressor (사막색))"
+        "translation": "오터 크릭 랩스 폴로늄 5.56x45 소음기 (사막색)"
       },
       {
         "key": "9911241c521cf272e28138ab ShortName",
@@ -4529,7 +4529,7 @@
       {
         "key": "99b4f9090dabbe90dd48a5ee Name",
         "source": "AR-15 BCM  MCMR 8 inch M-LOK handguard (FDE)",
-        "translation": "AR-15 BCM MCMR 8인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 8인치 M-LOK handguard (사막색))"
+        "translation": "AR-15 BCM MCMR 8인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "99b4f9090dabbe90dd48a5ee ShortName",
@@ -4559,7 +4559,7 @@
       {
         "key": "9a4179548257f7a1f63f30b1 Name",
         "source": "AR-15 Surefire Eliminator 5.56x45 Flash Hider",
-        "translation": "AR-15 슈어파이어 엘리미네이터 5.56x45 소염기\n(AR-15 SureFire Eliminator 5.56x45 Flash Hider)"
+        "translation": "AR-15 슈어파이어 엘리미네이터 5.56x45 소염기"
       },
       {
         "key": "9a4179548257f7a1f63f30b1 ShortName",
@@ -4589,7 +4589,7 @@
       {
         "key": "9c8b54c2f8c843fe7ce6c6ca Name",
         "source": "SureFire SOCOM762-RC2 7.62X51 sound suppressor (FDE)",
-        "translation": "슈어파이어 SOCOM762-RC2 7.62 소음기 사막색\n(SureFire SOCOM762-RC2 7.62X51 sound suppressor (사막색))"
+        "translation": "슈어파이어 SOCOM762-RC2 7.62x51 소음기 (사막색)"
       },
       {
         "key": "9c8b54c2f8c843fe7ce6c6ca Description",
@@ -4609,7 +4609,7 @@
       {
         "key": "9d60f153bb8ee15f018f180b Name",
         "source": "AR-15 Maxim Gen 7 CQB buttpad (Black)",
-        "translation": "AR-15 맥심 Gen 7 CQB 개머리판 완충패드 (블랙)\n(AR-15 Maxim Gen 7 CQB buttpad (검은색))"
+        "translation": "AR-15 맥심 Gen 7 CQB 개머리판 완충패드 (블랙)"
       },
       {
         "key": "9d60f153bb8ee15f018f180b ShortName",
@@ -4634,7 +4634,7 @@
       {
         "key": "9e7ef7236e5189be2386e4c2 Description",
         "source": "An 11.5 inch barrel for AR-15 based weapons chambered in .300 blackout.",
-        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃(.300 블랙아웃) 구경의 11.5인치 총열입니다."
+        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃 구경의 11.5인치 총열입니다."
       },
       {
         "key": "9ebdaeae9c89c472c3fdcad7 Name",
@@ -4669,7 +4669,7 @@
       {
         "key": "9eec17c39b0fca74b9e6827c Name",
         "source": "AR-15 Daniel Defense MFR 9 inch M-LOK handguard (Mil-FDE)",
-        "translation": "AR-15 다니엘 디펜스 MFR 9인치 엠락 총열덮개 (사막색)\n(AR-15 Daniel Defense MFR 9 inch M-LOK handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 MFR 9인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "9eec17c39b0fca74b9e6827c ShortName",
@@ -4684,7 +4684,7 @@
       {
         "key": "9f56d67e30b6ee14fbd99821 Name",
         "source": "SureFire SOCOM556-RC3 5.56x45 sound suppressor (FDE)",
-        "translation": "슈어파이어 SOCOM556-RC3 5.56x45 소음기 (사막색)\n(SureFire SOCOM556-RC3 5.56x45 sound suppressor (사막색))"
+        "translation": "슈어파이어 SOCOM556-RC3 5.56x45 소음기 (사막색)"
       },
       {
         "key": "9f56d67e30b6ee14fbd99821 Description",
@@ -4704,7 +4704,7 @@
       {
         "key": "a06aec4316ac6ff7353845f4 Description",
         "source": "An 8.5 inch barrel for AR-15 based weapons chambered in .300 Blackout.",
-        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃(.300 블랙아웃) 구경의 8.5인치 총열입니다."
+        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃 구경의 8.5인치 총열입니다."
       },
       {
         "key": "a09395d8869ada4af71dace2 Name",
@@ -4719,7 +4719,7 @@
       {
         "key": "a0abb28616af5a7f474b3649 Name",
         "source": "AR-15 Daniel Defense MFR 10 inch M-LOK handguard (Mil-FDE)",
-        "translation": "AR-15 다니엘 디펜스 MFR 10인치 엠락 총열덮개 (사막색)\n(AR-15 Daniel Defense MFR 10 inch M-LOK handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 MFR 10인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "a0abb28616af5a7f474b3649 ShortName",
@@ -4749,7 +4749,7 @@
       {
         "key": "a1fd0589018e71233daeb331 Description",
         "source": "Daniel SoundGuard Powered by KGM Suppressors utilize cutting-edge gas-flow dynamics that eliminate over-gassing and direct most gasses forward, not back in a shooter’s face. So, you experience less toxic gas blowback and can concentrate on putting more shots on target. State-of-the-art KGM technology significantly lowers impulse noise levels, protecting against hearing loss, while a patent-pending baffle stack and proprietary coating on internal parts reduce a firearm’s flash signature to virtually zero. Patent-pending gas-flow pathing stabilizes rounds to ensure extreme accuracy with minimal point-of-impact shift.",
-        "translation": "다니엘 디펜스(Daniel Defense)의 사운드가드 소음기는 KGM 소음기의 기술을 적용하여 제작되었으며, 첨단 가스 흐름 제어 설계를 통해 과도한 가스 유입을 방지하고 대부분의 가스를 사수 방향으로 배출하여 얼굴 쪽 가스 유입을 최소화합니다. 이를 통해 독성 가스 역류를 줄여 사격 집중도를 높이며, 첨단 KGM 기술은 충격 소음을 효과적으로 감소시켜 청력을 보호합니다. 특허 출원 중인 배플 스택(baffle stack)과 내부 부품 코팅은 섬광(플래시)을 거의 완전히 제거하며, 안정적인 가스 흐름 경로 설계는 명중률 향상과 최소한의 명중점 이동을 보장합니다."
+        "translation": "다니엘 디펜스(Daniel Defense)의 사운드가드 소음기는 KGM 소음기의 기술을 적용하여 제작되었으며, 첨단 가스 흐름 제어 설계를 통해 과도한 가스 유입을 방지하고 대부분의 가스를 사수의 얼굴 쪽이 아니라 전방으로 배출하여 얼굴 쪽 가스 유입을 최소화합니다. 이를 통해 독성 가스 역류를 줄여 사격 집중도를 높이며, 첨단 KGM 기술은 충격 소음을 효과적으로 감소시켜 청력을 보호합니다. 특허 출원 중인 배플 스택(baffle stack)과 내부 부품 코팅은 섬광(플래시)을 거의 완전히 제거하며, 안정적인 가스 흐름 경로 설계는 명중률 향상과 최소한의 명중점 이동을 보장합니다."
       },
       {
         "key": "a3a94608ed92771a766c6244 Name",
@@ -4784,7 +4784,7 @@
       {
         "key": "a5c171496c1870f205a3c972 Name",
         "source": "Vortex UH-1 /w Unity FTC (Black)",
-        "translation": "보텍스 UH-1 /w 유니티 FTC (블랙)\n(Vortex UH-1 /w Unity FTC (검은색))"
+        "translation": "보텍스 UH-1 /w 유니티 FTC (블랙)"
       },
       {
         "key": "a5c171496c1870f205a3c972 Description",
@@ -4794,7 +4794,7 @@
       {
         "key": "a5c7765dce79778422ff4e1c Name",
         "source": "AK Hogue OverMolded pistol grip (FDE)",
-        "translation": "AK 호그 이중 사출 권총손잡이 (사막색)\n(AK Hogue OverMolded pistol grip (사막색))"
+        "translation": "AK 호그 이중 사출 권총손잡이 (사막색)"
       },
       {
         "key": "a5c7765dce79778422ff4e1c Description",
@@ -4804,7 +4804,7 @@
       {
         "key": "a66f8c0dc225ec71541a8be1 Name",
         "source": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (Mil-FDE)",
-        "translation": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (사막색)\n(AR-15 Daniel Defense MFR 13.5인치 M-LOK handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "a66f8c0dc225ec71541a8be1 ShortName",
@@ -4829,7 +4829,7 @@
       {
         "key": "a6a1f3e9ff8c9bddaf8ab5f3 Name",
         "source": "Gemtech Neutron 7.62x51 sound suppressor",
-        "translation": "젬텍 뉴트론 7.62 소음기"
+        "translation": "젬텍 뉴트론 7.62x51 소음기"
       },
       {
         "key": "a6a1f3e9ff8c9bddaf8ab5f3 ShortName",
@@ -4844,7 +4844,7 @@
       {
         "key": "a87b4ff0e4df1af49c4d48b7 Name",
         "source": "Leupold D-Evo off-axis 6x20 compact scope (FDE)",
-        "translation": "레오폴드 D-Evo 오프셋 6x20 컴팩트 조준경 (사막색)\n(Leupold D-Evo off-axis 6x20 compact scope (사막색))"
+        "translation": "레오폴드 D-Evo 오프셋 6x20 컴팩트 조준경 (사막색)"
       },
       {
         "key": "a87b4ff0e4df1af49c4d48b7 Description",
@@ -4864,7 +4864,7 @@
       {
         "key": "aac2e5628ec0f31213f1f53b Name",
         "source": "AR-15 B&T Rotex-V 5.56x45 sound suppressor (GRY)",
-        "translation": "AR-15 B&T 로텍스-V 5.56x45 소음기 (그레이)\n(AR-15 B&T Rotex-V 5.56x45 sound suppressor (그레이))"
+        "translation": "AR-15 B&T 로텍스-V 5.56x45 소음기 (그레이)"
       },
       {
         "key": "aac2e5628ec0f31213f1f53b ShortName",
@@ -4884,12 +4884,12 @@
       {
         "key": "aad64351987e90dfe662da95 Description",
         "source": "The muzzle brake compensator \"DTK-2V\" is designed for installation on \"Saiga-9\" carbines caliber 9 mm.",
-        "translation": "제니트코(Zenitco)의 DTK-2V 보정기 보정기는 9mm 구경 사이가-9 카빈에 장착하도록 설계되었습니다."
+        "translation": "제니트코 DTK-2V 보정기는 9mm 사이가-9 카빈에 장착하도록 설계되었습니다."
       },
       {
         "key": "aad949705aece28fb98b820f Name",
         "source": "Trijicon ACOG TA648-308 6x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA648-308 6x48 조준경 (블랙)\n(Trijicon ACOG TA648-308 6x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA648-308 6x48 조준경 (블랙)"
       },
       {
         "key": "aad949705aece28fb98b820f Description",
@@ -4924,7 +4924,7 @@
       {
         "key": "ac265f6a7dbd415d6c0771af Name",
         "source": "AK Hogue OverMolded pistol grip (Ghillie Green)",
-        "translation": "AK 호그 이중 사출 권총손잡이 (길리)"
+        "translation": "AK 호그 이중 사출 권총손잡이 (길리 그린)"
       },
       {
         "key": "ac265f6a7dbd415d6c0771af ShortName",
@@ -4969,7 +4969,7 @@
       {
         "key": "acc415b469ea6ac82c20ea5f Name",
         "source": "HK 416A5 Geissele SMR 14.5 inch handguard (BLK)",
-        "translation": "HK 416A5 가이슬리 SMR 14.5인치 총열덮개 (블랙)\n(HK 416A5 Geissele SMR 14.5인치 handguard (BLK))"
+        "translation": "HK 416A5 가이슬리 SMR 14.5인치 총열덮개 (블랙)"
       },
       {
         "key": "acc415b469ea6ac82c20ea5f ShortName",
@@ -4984,7 +4984,7 @@
       {
         "key": "acf4e504691e34de50b23583 Name",
         "source": "Irregular Defense HESYCHIA SIXK 6mm sound suppressor (Green)",
-        "translation": "Irregular Defense HESYCHIA SIXK 6mm 소음기 (Green)"
+        "translation": "이레귤러 디펜스 헤시키아 SIXK 6mm 소음기 (녹색)"
       },
       {
         "key": "acf4e504691e34de50b23583 Description",
@@ -5004,12 +5004,12 @@
       {
         "key": "ad483d8373c8ff078103aaa1 Name",
         "source": "AR-15 Surefire Closed Tine 5.56x45 Flash Hider",
-        "translation": "AR-15 슈어파이어 클로즈드 타인 5.56x45 소염기\n(AR-15 SureFire Closed Tine 5.56x45 Flash Hider)"
+        "translation": "AR-15 슈어파이어 클로즈드 타인 5.56x45 소염기"
       },
       {
         "key": "ad483d8373c8ff078103aaa1 Description",
         "source": "SureFire adapters serve as rock-solid, precision mounting platforms for SureFire SOCOM Fast-Attach Suppressors, as well as, serving as a standalone muzzle device. The SFCT-556-1/2-28 closed-tine adapter closely represents a traditional birdcage flash hider, with wrench flats for easy installation.",
-        "translation": "슈어파이어(SureFire)의 SFCT-556 클로즈드 타인(Closed Tine) 소염기는 SOCOM 패스트어태치(Fast-Attach) 소음기용 정밀 마운팅 플랫폼으로, 전통적인 버드케이지 스타일을 재현하였으며 렌치 플랫으로 간편한 설치가 가능합니다."
+        "translation": "슈어파이어 어댑터는 SOCOM Fast-Attach 소음기 장착대이자 독립형 총구 장치입니다. SFCT-556-1/2-28 클로즈드 타인 어댑터는 전통적인 버드케이지 소염기와 유사하며, 렌치 평면으로 쉽게 설치할 수 있습니다."
       },
       {
         "key": "ad81fd2ff8a755342ea626c4 Name",
@@ -5019,7 +5019,7 @@
       {
         "key": "ad81fd2ff8a755342ea626c4 ShortName",
         "source": "Visor Stock",
-        "translation": "바이저 스톡"
+        "translation": "바이저 개머리판"
       },
       {
         "key": "ad81fd2ff8a755342ea626c4 Description",
@@ -5094,7 +5094,7 @@
       {
         "key": "b153f5e0bc943eeb4acd66f9 ShortName",
         "source": "Vert",
-        "translation": "버트"
+        "translation": "수직"
       },
       {
         "key": "b153f5e0bc943eeb4acd66f9 Description",
@@ -5174,7 +5174,7 @@
       {
         "key": "b5bf48db97ac14368929441e Name",
         "source": "AR-15 Geissele SMR MK4 7 inch handguard (DDC)",
-        "translation": "AR-15 가이슬리 SMR MK4 7인치 총열덮개 (DDC)\n(AR-15 Geissele SMR MK4 7인치 handguard (DDC))"
+        "translation": "AR-15 가이슬리 SMR MK4 7인치 총열덮개 (DDC)"
       },
       {
         "key": "b5bf48db97ac14368929441e ShortName",
@@ -5209,7 +5209,7 @@
       {
         "key": "b7b10f13bd22b361d850dad4 ShortName",
         "source": "3H Rear",
-        "translation": "3H가늠자"
+        "translation": "3홀 후방"
       },
       {
         "key": "b7b10f13bd22b361d850dad4 Description",
@@ -5224,7 +5224,7 @@
       {
         "key": "b7d643dc4b783b2805c743c9 ShortName",
         "source": "PSO 900",
-        "translation": "PSO 900발"
+        "translation": "PSO 900"
       },
       {
         "key": "b7d643dc4b783b2805c743c9 Description",
@@ -5249,7 +5249,7 @@
       {
         "key": "b9a6137901c6b1dd27c0c0cd Name",
         "source": "SureFire SOCOM556-Mini2 5.56x45 sound suppressor (FDE)",
-        "translation": "슈어파이어 SOCOM556-미니2 5.56 소음기 사막색\n(SureFire SOCOM556-Mini2 5.56x45 sound suppressor (사막색))"
+        "translation": "슈어파이어 SOCOM556-Mini2 5.56x45 소음기 (사막색)"
       },
       {
         "key": "b9a6137901c6b1dd27c0c0cd ShortName",
@@ -5259,12 +5259,12 @@
       {
         "key": "b9a6137901c6b1dd27c0c0cd Description",
         "source": "When the going gets tight, an inch can mean the difference between efficiently engaging the enemy or getting caught in a vulnerable position. That’s why we created the SOCOM556-MINI2. It delivers performance levels similar to the model that assured SureFire’s victory in the demanding USSOCOM suppressor trials, but in a more compact package optimized for 14.5-inch and longer barrels.",
-        "translation": "슈어파이어 SOCOM556-미니2(SureFire SOCOM556-Mini2) 5.56 소음기 FDE는 협소한 전투 환경에서도 효율적인 사격을 가능하게 하기 위해 설계되었습니다. USSOCOM 시험을 통과한 모델과 유사한 성능을 제공하면서도 더 짧은 길이로 제작되어 14.5인치 이상 총열에 최적화되어 있습니다."
+        "translation": "슈어파이어 SOCOM556-미니2(SureFire SOCOM556-Mini2) 5.56 소음기 사막색는 협소한 전투 환경에서도 효율적인 사격을 가능하게 하기 위해 설계되었습니다. USSOCOM 시험을 통과한 모델과 유사한 성능을 제공하면서도 더 짧은 길이로 제작되어 14.5인치 이상 총열에 최적화되어 있습니다."
       },
       {
         "key": "b9acede708b1c97d3c895862 Name",
         "source": "AR-15 Daniel Defense RIS III 12.5 inch handguard (DFDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 12.5인치 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 12.5인치 handguard (D사막색))"
+        "translation": "기존 한국어 이름의 (D사막색)을 (DFDE)로 변경"
       },
       {
         "key": "b9acede708b1c97d3c895862 ShortName",
@@ -5279,17 +5279,17 @@
       {
         "key": "ba84e1c4ee4d504cb0bdbb0d Name",
         "source": "Surefire SOCOM338-Ti .338 LM sound suppressor",
-        "translation": "슈어파이어 SOCOM338-Ti .338 LM 소음기\n(SureFire SOCOM338-Ti .338 LM sound suppressor)"
+        "translation": "슈어파이어 SOCOM338-Ti .338 LM 소음기"
       },
       {
         "key": "ba84e1c4ee4d504cb0bdbb0d Description",
         "source": "The SOCOM338-Ti for .338 Lapua sniper rifles is a combat-ready suppressor hewn from high-grade titanium, one of the world’s lightest and most durable materials. Designed and built with extreme tolerances to ensure accuracy, it meets the demands of the most qualified precision sniper rifle shooters in the world. No one has tighter bore runout tolerances than we do, proving that this is the choice for the precision marksman. The SOCOM338 provides unsurpassed signature reduction, nominal and consistent shift in a weapon’s point of impact, and significantly reduced back pressure for consistent results. Expertly engineered, it gets you to where you want to go, no matter how far away it is.",
-        "translation": "SOCOM338-Ti는 .338 라푸아 저격소총용으로 설계된 전투용 소음기로, 고급 티타늄으로 제작되어 가볍고 매우 견고합니다. 정밀 사수를 위한 극도의 공차와 정확도를 보장하며, 발사 충격 감소와 안정적인 명중 지점을 제공합니다. 정밀 저격수에게 최적의 선택입니다."
+        "translation": ".338 라푸아 저격소총용 SOCOM338-Ti는 고급 티타늄으로 제작한 전투용 소음기로, 매우 가볍고 내구성이 뛰어납니다. 극히 엄격한 제작 공차로 사격 정확도를 유지하도록 설계되어 숙련된 정밀 저격수의 요구를 충족합니다. 소음기 통로의 축 흔들림 허용오차를 엄격하게 관리하여 정밀 사격에 적합합니다. 발사 징후를 효과적으로 줄이고, 탄착점 이동을 작고 일정하게 유지하며, 후압을 크게 줄여 일관된 결과를 제공합니다. 먼 거리의 목표를 상대할 때에도 정밀한 성능을 발휘하도록 설계되었습니다."
       },
       {
         "key": "bb4bb5d7e4f3ad7a1f19571e Name",
         "source": "Steiner DBAL-i2 tactical device (Black)",
-        "translation": "슈타이너 DBAL-i2 전술 장비 (블랙)\n(Steiner DBAL-i2 tactical device (검은색))"
+        "translation": "슈타이너 DBAL-i2 전술 장비 (블랙)"
       },
       {
         "key": "bb4bb5d7e4f3ad7a1f19571e Description",
@@ -5299,7 +5299,7 @@
       {
         "key": "bb51865a7e56f49a5af59829 Name",
         "source": "AR-15 Colt FiberLite stock",
-        "translation": "AR-15 콜트 파이버라이트 개머리판\n(AR-15 Colt FiberLite stock (EpicsAIO))"
+        "translation": "AR-15 콜트 파이버라이트 개머리판"
       },
       {
         "key": "bb51865a7e56f49a5af59829 ShortName",
@@ -5324,7 +5324,7 @@
       {
         "key": "bc1310a6a0aaa46970321e55 Name",
         "source": "AR-15 Magpul DT Carbine Stock (FDE)",
-        "translation": "AR-15 맥풀 DT 카빈 개머리판 (사막색)\n(AR-15 Magpul DT Carbine Stock (사막색))"
+        "translation": "AR-15 맥풀 DT 카빈 개머리판 (사막색)"
       },
       {
         "key": "bc1310a6a0aaa46970321e55 Description",
@@ -5344,7 +5344,7 @@
       {
         "key": "bc9a059a5c6cb11a3b57c670 Description",
         "source": "A 13.7in barrel for AR-15 based weapons chambered in .300 blackout.",
-        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃(.300 블랙아웃) 구경의 13.7인치 핸슨(Hanson) 카빈 총열입니다."
+        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃 구경의 13.7인치 핸슨(Hanson) 카빈 총열입니다."
       },
       {
         "key": "bd3a8b28356d9c6509966546 Description",
@@ -5389,7 +5389,7 @@
       {
         "key": "be1851da8c6438810d9aae86 Name",
         "source": "AR-15 Geissele SMR MK4 15 inch handguard (ODG)",
-        "translation": "AR-15 가이슬리 SMR MK4 15인치 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK4 15인치 handguard (ODG))"
+        "translation": "AR-15 가이슬리 SMR MK4 15인치 총열덮개 (올리브 드랩)"
       },
       {
         "key": "be1851da8c6438810d9aae86 ShortName",
@@ -5436,7 +5436,7 @@
       {
         "key": "befa747c1e35a5283d2b4b66 Name",
         "source": "HK 416A5 Geissele SMR 14.5 inch handguard (DDC)",
-        "translation": "HK 416A5 가이슬리 SMR 14.5인치 총열덮개 (DDC)\n(HK 416A5 Geissele SMR 14.5인치 handguard (DDC))"
+        "translation": "HK 416A5 가이슬리 SMR 14.5인치 총열덮개 (DDC)"
       },
       {
         "key": "befa747c1e35a5283d2b4b66 ShortName",
@@ -5461,7 +5461,7 @@
       {
         "key": "bf593ba2155d31edd2b421c7 Name",
         "source": "Otter Creek Labs Polonium 7.62x51 sound suppressor (FDE)",
-        "translation": "오터 크릭 랩스 폴로늄 7.62x51 소음기 (사막색)\n(Otter Creek Labs Polonium 7.62x51 sound suppressor (사막색))"
+        "translation": "오터 크릭 랩스 폴로늄 7.62x51 소음기 (사막색)"
       },
       {
         "key": "bf593ba2155d31edd2b421c7 ShortName",
@@ -5471,7 +5471,7 @@
       {
         "key": "bf593ba2155d31edd2b421c7 Description",
         "source": "The Polonium is made to be a quiet, duty rated, hard use 5.56 suppressor and is offered in both standard and K length options. If you’re looking for the best size, weight and price to sound performance ratio on the market that you can beat the absolute crap out of then look no further than the Polonium series.",
-        "translation": "폴로늄(Polonium)은 조용하고, 임무 등급(duty rated)의 고강도 사용이 가능한 소음기로, 표준 길이와 K 길이 버전으로 제공됩니다. 시장에서 크기, 무게, 가격 대비 음향 성능 비율이 매우 우수하며, 극한 환경에서도 안정적인 성능을 제공합니다."
+        "translation": "폴로늄(Polonium)은 조용하고, 임무 등급(duty rated)의 고강도 사용이 가능한 5.56 소음기로, 표준 길이와 K 길이 버전으로 제공됩니다. 시장에서 크기, 무게, 가격 대비 음향 성능 비율이 매우 우수하며, 극한 환경에서도 안정적인 성능을 제공합니다."
       },
       {
         "key": "bf822c61ce39580e026b6801 Name",
@@ -5481,12 +5481,12 @@
       {
         "key": "bf822c61ce39580e026b6801 Description",
         "source": "The Flash Hider-QD 556 is designed to mitigate flash when unsuppressed. It is compatible with HX-QD series (556k, 556, 762, 762 Ti and Magnum Ti) and FLOW series (556k and 762 Ti) suppressors.",
-        "translation": "헉스웍스(Huxwrx)의 QD 556 소염기는 비소음기 상태에서 플래시를 억제하도록 설계되었습니다. HX-QD 및 FLOW 시리즈 소음기와 호환됩니다."
+        "translation": "헉스웍스 QD 556 소염기는 소음기를 장착하지 않았을 때 섬광을 줄이며, HX-QD(556k, 556, 762, 762 Ti, Magnum Ti) 및 FLOW(556k, 762 Ti) 소음기와 호환됩니다."
       },
       {
         "key": "bf8cf7b9d0f73ce039591c65 Name",
         "source": "Trijicon ACOG TA648MGO-M240 6x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA648MGO-M240 6x48 조준경 (블랙)\n(Trijicon ACOG TA648MGO-M240 6x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA648MGO-M240 6x48 조준경 (블랙)"
       },
       {
         "key": "bf8cf7b9d0f73ce039591c65 Description",
@@ -5496,7 +5496,7 @@
       {
         "key": "bfa234cc36aac6c9e1190ab1 Name",
         "source": "KAC QDC/CRS-PRT 5.56x45 sound suppressor (FDE)",
-        "translation": "KAC QDC/CRS-PRT 5.56x45 소음기 (사막색)\n(KAC QDC/CRS-PRT 5.56x45 sound suppressor (사막색))"
+        "translation": "KAC QDC/CRS-PRT 5.56x45 소음기 (사막색)"
       },
       {
         "key": "bfa234cc36aac6c9e1190ab1 Description",
@@ -5506,7 +5506,7 @@
       {
         "key": "bfe86caecde6728199b9eed5 Name",
         "source": "AR-15 Colt M16A2 fixed stock",
-        "translation": "AR-15 콜트 M16A2 고정형 개머리판\n(AR-15 Colt M16A2 fixed stock (EpicsAIO))"
+        "translation": "AR-15 콜트 M16A2 고정형 개머리판"
       },
       {
         "key": "bfe86caecde6728199b9eed5 ShortName",
@@ -5526,7 +5526,7 @@
       {
         "key": "c05b151aa1c288e00f6204a8 ShortName",
         "source": "RIS III 9.5L",
-        "translation": "RIS III 9.5인치"
+        "translation": "RIS III 9.5 하부"
       },
       {
         "key": "c05b151aa1c288e00f6204a8 Description",
@@ -5536,7 +5536,7 @@
       {
         "key": "c0e0bac29a8c50eff201f00e Name",
         "source": "Steiner CQBL-1 tactical device (Black)",
-        "translation": "슈타이너 CQBL-1 전술 장비 (블랙)\n(Steiner CQBL-1 tactical device (검은색))"
+        "translation": "슈타이너 CQBL-1 전술 장비 (블랙)"
       },
       {
         "key": "c0e0bac29a8c50eff201f00e Description",
@@ -5546,7 +5546,7 @@
       {
         "key": "c0f85d7483fde9c114eb3c54 Name",
         "source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Olive Green)",
-        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (올리브 드랩)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Olive Green))"
+        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (올리브 드랩)"
       },
       {
         "key": "c0f85d7483fde9c114eb3c54 ShortName",
@@ -5561,7 +5561,7 @@
       {
         "key": "c26f2af872656829feb27c08 Name",
         "source": "Unity Tactical FAST Micro Mount, 2.26 (FDE)",
-        "translation": "유니티 택티컬 FAST 마이크로 마운트, 2.26인치 (사막색)\n(Unity Tactical FAST Micro Mount, 2.26 (사막색))"
+        "translation": "유니티 택티컬 FAST 마이크로 마운트, 2.26인치 (사막색)"
       },
       {
         "key": "c26f2af872656829feb27c08 ShortName",
@@ -5576,7 +5576,7 @@
       {
         "key": "c2b24307fb89f8984723bcdd Name",
         "source": "AR-15 BCM  MCMR 7 inch M-LOK handguard (FDE)",
-        "translation": "AR-15 BCM MCMR 7인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 7인치 M-LOK handguard (사막색))"
+        "translation": "AR-15 BCM MCMR 7인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "c2b24307fb89f8984723bcdd ShortName",
@@ -5591,7 +5591,7 @@
       {
         "key": "c3ad313c8108f49a65187daf Name",
         "source": "Trijicon ACOG TA648-50 6x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA648-50 6x48 조준경 (블랙)\n(Trijicon ACOG TA648-50 6x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA648-50 6x48 조준경 (블랙)"
       },
       {
         "key": "c3ad313c8108f49a65187daf Description",
@@ -5601,7 +5601,7 @@
       {
         "key": "c492dd59489e2096f9461ffb Name",
         "source": "AR-15 Magpul DT Carbine Stock (Foliage Green)",
-        "translation": "AR-15 맥풀 DT 카빈 개머리판 (FG)"
+        "translation": "AR-15 맥풀 DT 카빈 개머리판 (폴리지 그린)"
       },
       {
         "key": "c492dd59489e2096f9461ffb Description",
@@ -5651,7 +5651,7 @@
       {
         "key": "c569fa63e462980552ecdc77 Name",
         "source": "Eotech OGL tactical device (FDE)",
-        "translation": "이오텍 OGL 전술 장비 (사막색)\n(EOTech OGL tactical device (사막색))"
+        "translation": "이오텍 OGL 전술 장비 (사막색)"
       },
       {
         "key": "c569fa63e462980552ecdc77 Description",
@@ -5661,17 +5661,17 @@
       {
         "key": "c6b01e3e7a1ec6168254e687 Name",
         "source": "AR-15 .300 blackout 10.3 inch barrel",
-        "translation": "AR-15 .300 블랙아웃 260mm 총열"
+        "translation": "AR-15 .300 블랙아웃 10.3인치 총열"
       },
       {
         "key": "c6b01e3e7a1ec6168254e687 ShortName",
         "source": "10.3\" .300",
-        "translation": " .300 10.3인치"
+        "translation": ".300 10.3인치"
       },
       {
         "key": "c6b01e3e7a1ec6168254e687 Description",
         "source": "A 10.3 inch barrel for AR-15 based weapons chambered in .300 blackout.",
-        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃(.300 블랙아웃) 구경의 260mm 총열입니다."
+        "translation": "AR-15 기반 무기용 .300 블랙아웃 구경의 10.3인치 총열입니다."
       },
       {
         "key": "c9257470d63d1452d7617308 Name",
@@ -5736,7 +5736,7 @@
       {
         "key": "ca9b71e00031160119ab1e58 Name",
         "source": "Geissele Super Precision T1 Absolute Co-Witness mount (FDE)",
-        "translation": "가이슬리 슈퍼 프리시전 T1 앱솔루트 코위트니스 마운트 (사막색)\n(Geissele Super Precision T1 Absolute Co-Witness mount (사막색))"
+        "translation": "가이슬리 슈퍼 프리시전 T1 앱솔루트 코위트니스 마운트 (사막색)"
       },
       {
         "key": "ca9b71e00031160119ab1e58 Description",
@@ -5816,7 +5816,7 @@
       {
         "key": "cc4134b4c122adad37aa342a Name",
         "source": "SureFire Warden Fast-Attach Blast Regulator (FDE)",
-        "translation": "슈어파이어 워든 블라스트 리듀서 사막색\n(SureFire Warden Fast-Attach Blast Regulator (사막색))"
+        "translation": "슈어파이어 워든 블라스트 리듀서 사막색"
       },
       {
         "key": "cc4134b4c122adad37aa342a ShortName",
@@ -5831,7 +5831,7 @@
       {
         "key": "cd1f0458b18b79f2da3ad03f Name",
         "source": "Trijicon ACOG TA648 6x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA648 6x48 조준경 (블랙)\n(Trijicon ACOG TA648 6x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA648 6x48 조준경 (블랙)"
       },
       {
         "key": "cd1f0458b18b79f2da3ad03f Description",
@@ -5856,7 +5856,7 @@
       {
         "key": "cd97339d6bfa982e1539bb1c ShortName",
         "source": "Dissipator",
-        "translation": "AR-15 16인치"
+        "translation": "디시페이터"
       },
       {
         "key": "cd97339d6bfa982e1539bb1c Description",
@@ -5866,7 +5866,7 @@
       {
         "key": "cdd912ad2c46dc2c85ddabe9 Name",
         "source": "AR-15 Knights Armament URX 4 14.5 inch M-LOK handguard (FDE)",
-        "translation": "AR-15 나이츠 아머먼트 URX 4 14.5인치 엠락 총열덮개 (사막색)\n(AR-15 Knights Armament URX 4 14.5인치 M-LOK handguard (사막색))"
+        "translation": "AR-15 나이츠 아머먼트 URX 4 14.5인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "cdd912ad2c46dc2c85ddabe9 ShortName",
@@ -5881,7 +5881,7 @@
       {
         "key": "ce6d6c62180c5cdbc048ec06 Name",
         "source": "AR-15 Geissele SMR MK8 7 inch M-LOK handguard (DDC)",
-        "translation": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (DDC)\n(AR-15 Geissele SMR MK8 7인치 M-LOK handguard (DDC))"
+        "translation": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (DDC)"
       },
       {
         "key": "ce6d6c62180c5cdbc048ec06 ShortName",
@@ -5926,7 +5926,7 @@
       {
         "key": "d04e8e4692ccca8ee535f3da Name",
         "source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Slate Grey)",
-        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (슬레이트 GRY)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Slate Grey))"
+        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (슬레이트 그레이)"
       },
       {
         "key": "d04e8e4692ccca8ee535f3da ShortName",
@@ -5946,7 +5946,7 @@
       {
         "key": "d08180b5c44b8b094246f8c3 ShortName",
         "source": "RIS III 10.5L",
-        "translation": "RIS III 10.5인치"
+        "translation": "RIS III 10.5 하부"
       },
       {
         "key": "d08180b5c44b8b094246f8c3 Description",
@@ -5966,12 +5966,12 @@
       {
         "key": "d0b292e070ee6c5263285461 Description",
         "source": "A 12.5 inch mid gas barrel for AR-15 based weapons chambered in .300 blackout.",
-        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃(.300 블랙아웃) 구경의 12.5인치 미드 가스 시스템 총열입니다."
+        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃 구경의 12.5인치 미드 가스 시스템 총열입니다."
       },
       {
         "key": "d107e3b5a93a69ccfcb9f439 Name",
         "source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (FDE)",
-        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (사막색)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (사막색))"
+        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (사막색)"
       },
       {
         "key": "d107e3b5a93a69ccfcb9f439 ShortName",
@@ -5996,7 +5996,7 @@
       {
         "key": "d11567e6b00e6b18db43b036 Description",
         "source": "The FATman Hex Brake was created to solve issues faced by many competition shooters and precision rifle builders. The 2 large (FAT) ventilated baffle sections and chambers create the compensation needed to reduce the overall recoil felt by the shooter. The FATman Hex Brake includes two top ports machined at a 20 Deg. forward directed angle.",
-        "translation": "페이즈 5(Phase 5)의 팻맨 헥스(FATman Hex) 보정기는 대형 환기식 베플을 사용해 반동을 줄이고 상단 포트로 총구 상승을 억제합니다. 경쟁 사격 및 정밀 소총 빌드에 최적화된 설계입니다."
+        "translation": "대형 환기식 배플 2개가 반동을 줄이며, 상부 포트 2개는 전방으로 20도 기울어지도록 가공되어 있습니다. (전체 설명에 추가)"
       },
       {
         "key": "d14d71c0f588fde9942cf62f Name",
@@ -6026,7 +6026,7 @@
       {
         "key": "d21e3b7f7c8f308c1beba55c Name",
         "source": "AR-15 Geissele SMR MK16 9.5 inch M-LOK handguard (BLK)",
-        "translation": "AR-15 가이슬리 SMR MK16 9.5인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK16 9.5인치 M-LOK handguard (BLK))"
+        "translation": "AR-15 가이슬리 SMR MK16 9.5인치 엠락 총열덮개 (블랙)"
       },
       {
         "key": "d21e3b7f7c8f308c1beba55c ShortName",
@@ -6041,7 +6041,7 @@
       {
         "key": "d2234d6695f82aae5012f0d5 Name",
         "source": "AR-15 Geissele SMR MK8 15 inch M-LOK handguard (DDC)",
-        "translation": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (사막색)\n(AR-15 Geissele SMR MK8 15인치 M-LOK handguard (DDC))"
+        "translation": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "d2234d6695f82aae5012f0d5 ShortName",
@@ -6056,13 +6056,13 @@
       {
         "key": "d2873c4fe32fa94215de778e",
         "source": "Find a couple packs of \"Army Crackers\"",
-        "translation": "군용 크래커 몇개 건네주기",
+        "translation": "군용 크래커 두 팩 찾기",
         "display_type": "quest_objective"
       },
       {
         "key": "d29f21dabbdb6a8577bd5a4c Name",
         "source": "AR-15 B&T Rotex-V 5.56x45 Deflector (GRY)",
-        "translation": "AR-15 B&T 로텍스-V 5.56x45 디플렉터 (그레이)\n(AR-15 B&T Rotex-V 5.56x45 Deflector (그레이))"
+        "translation": "AR-15 B&T 로텍스-V 5.56x45 디플렉터 (그레이)"
       },
       {
         "key": "d29f21dabbdb6a8577bd5a4c ShortName",
@@ -6072,12 +6072,12 @@
       {
         "key": "d29f21dabbdb6a8577bd5a4c Description",
         "source": "Compatible with the standard NATO flash hider, the Rotex-V is the optimal solution when a suppressor, mount- and detachable within seconds with a high suppression rate is needed. Besides that it very effectively suppresses the muzzle flash.",
-        "translation": "표준 NATO 소염기와 호환되며, 로텍스-V 디플렉터는 빠른 장착 및 분리가 가능한 효율적인 섬광 억제 솔루션입니다. 본 제품은 B&T(B&T)에서 제작되었습니다."
+        "translation": "표준 NATO 소염기와 호환되는 로텍스-V(Rotex-V) 소음기는 몇 초 만에 장착하거나 분리할 수 있고, 높은 소음 억제 성능을 제공합니다. 또한 총구 화염도 효과적으로 줄여 줍니다."
       },
       {
         "key": "d358ade47bd93cce3bb7afa6 Name",
         "source": "AR-15 Knights Armament URX 4 10.75 inch M-LOK handguard (FDE)",
-        "translation": "AR-15 나이츠 아머먼트 URX 4 10.75인치 엠락 총열덮개 (사막색)\n(AR-15 Knights Armament URX 4 10.75인치 M-LOK handguard (사막색))"
+        "translation": "AR-15 나이츠 아머먼트 URX 4 10.75인치 엠락 총열덮개 (사막색)"
       },
       {
         "key": "d358ade47bd93cce3bb7afa6 ShortName",
@@ -6092,7 +6092,7 @@
       {
         "key": "d3e07e32dc01693c226878dc Name",
         "source": "GBRS Hydra riser combo mount (FDE)",
-        "translation": "GBRS 히드라 라이저 콤보 마운트 (사막색)\n(GBRS Hydra riser combo mount (사막색))"
+        "translation": "GBRS 히드라 라이저 콤보 마운트 (사막색)"
       },
       {
         "key": "d3e07e32dc01693c226878dc ShortName",
@@ -6112,12 +6112,12 @@
       {
         "key": "d40c79f8cd80c888bd960068 ShortName",
         "source": "AR15 12.5C",
-        "translation": "AR-15  12.5인치"
+        "translation": "AR-15 12.5인치 카빈"
       },
       {
         "key": "d40c79f8cd80c888bd960068 Description",
         "source": "A 12.5 inch barrel for AR-15 based weapons chambered in 5.56x45.",
-        "translation": "AR-15 기반 무기에 사용되는 5.56x45mm 구경의 12.5인치 카빈 가스 시스템 총열입니다."
+        "translation": "AR-15 기반 5.56x45 탄약 사용 무기용 12.5인치 총열입니다."
       },
       {
         "key": "d4424e8a8d6e6789adbfcde2 Name",
@@ -6142,12 +6142,12 @@
       {
         "key": "d461f4916807b7599b22f284 Description",
         "source": "The Polonium is made to be a quiet, duty rated, hard use 5.56 suppressor and is offered in both standard and K length options. If you’re looking for the best size, weight and price to sound performance ratio on the market that you can beat the absolute crap out of then look no further than the Polonium series.",
-        "translation": "폴로늄(Polonium)은 조용하고, 임무 등급(duty rated)의 고강도 사용이 가능한 소음기로, 표준 길이와 K 길이 버전으로 제공됩니다. 시장에서 크기, 무게, 가격 대비 음향 성능 비율이 매우 우수하며, 극한 환경에서도 안정적인 성능을 제공합니다."
+        "translation": "폴로늄(Polonium)은 조용하고, 임무 등급(duty rated)의 고강도 사용이 가능한 5.56 소음기로, 표준 길이와 K 길이 버전으로 제공됩니다. 시장에서 크기, 무게, 가격 대비 음향 성능 비율이 매우 우수하며, 극한 환경에서도 안정적인 성능을 제공합니다."
       },
       {
         "key": "d4f59f06b5099086743e3b62 Name",
         "source": "Wilcox RAID Xe tactical device (FDE)",
-        "translation": "윌콕스 RAID Xe 전술 장비 (사막색)\n(Wilcox RAID Xe tactical device (사막색))"
+        "translation": "윌콕스 RAID Xe 전술 장비 (사막색)"
       },
       {
         "key": "d4f59f06b5099086743e3b62 Description",
@@ -6157,7 +6157,7 @@
       {
         "key": "d55014a6621462a7463f15aa Name",
         "source": "AR-15 Surefire ProComp 5.56x45 muzzle brake",
-        "translation": "AR-15 슈어파이어 프로콤프 5.56x45 보정기\n(AR-15 SureFire ProComp 5.56x45 muzzle brake)"
+        "translation": "AR-15 슈어파이어 프로콤프 5.56x45 보정기"
       },
       {
         "key": "d55014a6621462a7463f15aa ShortName",
@@ -6182,7 +6182,7 @@
       {
         "key": "d62cced77df83a0683e38fbc Name",
         "source": "Wilcox RAID Xe tactical device (Black)",
-        "translation": "윌콕스 RAID Xe 전술 장비 (블랙)\n(Wilcox RAID Xe tactical device (검은색))"
+        "translation": "윌콕스 RAID Xe 전술 장비 (블랙)"
       },
       {
         "key": "d62cced77df83a0683e38fbc Description",
@@ -6232,7 +6232,7 @@
       {
         "key": "d725dee093285dd61f1a434d Name",
         "source": "AR-15 Geissele SMR MK4 13 inch handguard (ODG)",
-        "translation": "AR-15 가이슬리 SMR MK4 13인치 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK4 13인치 handguard (ODG))"
+        "translation": "AR-15 가이슬리 SMR MK4 13인치 총열덮개 (올리브 드랩)"
       },
       {
         "key": "d725dee093285dd61f1a434d ShortName",
@@ -6302,7 +6302,7 @@
       {
         "key": "dc11a1427ce1fc75d04a1e38 Name",
         "source": "MCX Rattler upper receiver (FDE)",
-        "translation": "MCX 래틀러 상부총몸 (사막색)\n(MCX Rattler upper receiver (사막색))"
+        "translation": "MCX 래틀러 상부총몸 (사막색)"
       },
       {
         "key": "dc11a1427ce1fc75d04a1e38 ShortName",
@@ -6317,7 +6317,7 @@
       {
         "key": "dc443bf6ab32570c69096e37 Name",
         "source": "Geissele Super Precision T1 Lower 1/3 Co-Witness mount (FDE)",
-        "translation": "가이슬리 슈퍼 프리시전 T1 로워 1/3 코위트니스 마운트 (사막색)\n(Geissele Super Precision T1 Lower 1/3 Co-Witness mount (사막색))"
+        "translation": "가이슬리 슈퍼 프리시전 T1 로워 1/3 코위트니스 마운트 (사막색)"
       },
       {
         "key": "dc443bf6ab32570c69096e37 Description",
@@ -6327,7 +6327,7 @@
       {
         "key": "dc9e078ba13e848c475e7446 Name",
         "source": "HK MP5 Slimline polymer handguard",
-        "translation": "HK MP5 Slimline polymer 총열덮개"
+        "translation": "HK MP5 슬림라인 폴리머 총열덮개"
       },
       {
         "key": "dc9e078ba13e848c475e7446 Description",
@@ -6347,7 +6347,7 @@
       {
         "key": "dd7caf9bd203b146528c8da4 Name",
         "source": "Aimpoint ACRO P-2 reflex sight (Black)",
-        "translation": "에임포인트 ACRO P-2 반사 조준경 (블랙)\n(Aimpoint ACRO P-2 reflex sight (검은색))"
+        "translation": "에임포인트 ACRO P-2 반사 조준경 (블랙)"
       },
       {
         "key": "dd7caf9bd203b146528c8da4 Description",
@@ -6377,7 +6377,7 @@
       {
         "key": "df523ec57199fcc4f92fa25c Description",
         "source": "The integrally machined B-10 foregrip is manufactured from aluminum alloy D16T with black coating and can be installed instead of the standard-issue foregrip on an AK. It's fitted with Picatinny rail mounts on two sides, allowing for the installation of additional equipment such as tactical foregrips, flashlights, and laser designators. Manufactured by Zenit.",
-        "translation": "제니트(Zenit)에서 제작한 B-10 하부 총열덮개는 D16T 알루미늄 합금으로 가공되었으며, 기본 하부 총열덮개를 대체합니다. 양측에 피카티니 레일을 장착할 수 있어 전술 손잡이, 손전등, 레이저 표적기 등의 부착이 가능합니다."
+        "translation": "제니트(Zenit)에서 제작한 B-10 하부 총열덮개는 검은색 코팅 처리된 D16T 알루미늄 합금으로 가공되었으며, 기본 하부 총열덮개를 대체합니다. 양측에 피카티니 레일을 장착할 수 있어 전술 손잡이, 손전등, 레이저 표적기 등의 부착이 가능합니다."
       },
       {
         "key": "df76c6ddaa6fd565159b9679 Name",
@@ -6407,7 +6407,7 @@
       {
         "key": "df9d8454a7214334710f8fc0 Name",
         "source": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (Deep Woods)",
-        "translation": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (딥 우드)\n(AR-15 Daniel Defense MFR 13.5인치 M-LOK handguard (Deep Woods))"
+        "translation": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (딥 우드)"
       },
       {
         "key": "df9d8454a7214334710f8fc0 ShortName",
@@ -6447,12 +6447,12 @@
       {
         "key": "e14eccdfdd902727fe268ed1 Description",
         "source": "SureFire SFMB muzzle brake suppressor adapters greatly reduce both recoil impulse and muzzle rise so that your weapon tracks straight back, keeping you on target for faster shot-to-shot recovery. Our proprietary Impulse Diffusion design minimizes side blast and rear-directed concussion effects. Precision machined from U.S. mill-certified heat-treated stainless steel bar stock and DLC-coated for extreme durability, they are available for a variety of weapon calibers and muzzle thread specs, and every SFMB serves as a rock-solid mounting adapter for SureFire’s combat-proven SOCOM Series Fast-Attach® suppressors. The SFMB design incorporates multiple bearing surfaces to ensure superior suppressor alignment. Blind pilot holes at the 3 o’ clock and 9 o’clock positions enable fine-tuning of recoil characteristics for individual shooting styles or ammunition characteristics.",
-        "translation": "슈어파이어(SureFire)의 SFMB 보정기는 반동과 총구 상승을 크게 줄이고, 임펄스 디퓨전 설계를 적용해 측면 폭발과 후방 충격을 최소화합니다. 열처리된 스테인리스 스틸을 정밀 가공하고 DLC 코팅을 적용해 내구성을 높였으며, SOCOM 시리즈 소음기 마운팅 어댑터로도 사용됩니다."
+        "translation": "슈어파이어(SureFire)의 SFMB 총구제퇴기 겸 소음기 어댑터는 반동 충격과 총구 상승을 크게 줄여 총기가 곧게 후퇴하도록 하므로 연속 사격 시 빠르게 조준을 회복할 수 있습니다. 독자적인 임펄스 디퓨전(Impulse Diffusion) 설계로 측면 폭압과 후방 충격파를 최소화합니다. 미국 공인 제강소의 열처리 스테인리스강 봉재를 정밀 가공하고 DLC 코팅을 적용해 내구성이 높습니다. 다양한 탄종과 총구 나사산 규격으로 제공되며, 슈어파이어 SOCOM 시리즈 패스트어태치 소음기를 견고하게 장착하는 어댑터 역할을 합니다. 여러 접촉면이 소음기를 정확하게 정렬하며, 3시와 9시 방향의 막힌 파일럿 홀로 사격 방식이나 탄약 특성에 맞춰 반동 특성을 미세 조정할 수 있습니다."
       },
       {
         "key": "e1543def58291668bac8e2c8 Name",
         "source": "Unity FAST Optic Riser (FDE)",
-        "translation": "유니티 FAST 옵틱 라이저 (사막색)\n(Unity FAST Optic Riser (사막색))"
+        "translation": "유니티 FAST 옵틱 라이저 (사막색)"
       },
       {
         "key": "e1543def58291668bac8e2c8 Description",
@@ -6477,12 +6477,12 @@
       {
         "key": "e214a01a6e82932b9ba17c2a Name",
         "source": "AR-15 Daniel Defense RIS III 12.5 lower handguard (DFDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 12.5인치 하부 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 12.5 lower handguard (D사막색))"
+        "translation": "기존 한국어 이름의 (D사막색)을 (DFDE)로 변경"
       },
       {
         "key": "e214a01a6e82932b9ba17c2a ShortName",
         "source": "RIS III 12.5L",
-        "translation": "RIS III 12.5인치"
+        "translation": "RIS III 12.5 하부"
       },
       {
         "key": "e214a01a6e82932b9ba17c2a Description",
@@ -6502,7 +6502,7 @@
       {
         "key": "e37c8df358fdec9a8780ea8c Name",
         "source": "CGS SCI-SIX 5.56x45 sound suppressor (GRY)",
-        "translation": "CGS SCI-SIX 5.56x45 소음기 (그레이)\n(CGS SCI-SIX 5.56x45 sound suppressor (그레이))"
+        "translation": "CGS SCI-SIX 5.56x45 소음기 (그레이)"
       },
       {
         "key": "e37c8df358fdec9a8780ea8c Description",
@@ -6537,7 +6537,7 @@
       {
         "key": "e486df50a1cc3fbc01855f96 Name",
         "source": "AR-15 Maxim Gen 7 CQB stock tube (Black)",
-        "translation": "AR-15 맥심 Gen 7 CQB 개머리판 튜브 (블랙)\n(AR-15 Maxim Gen 7 CQB stock tube (검은색))"
+        "translation": "AR-15 맥심 Gen 7 CQB 개머리판 튜브 (블랙)"
       },
       {
         "key": "e486df50a1cc3fbc01855f96 ShortName",
@@ -6597,7 +6597,7 @@
       {
         "key": "e57cc5261d4937c1a15aa004 Name",
         "source": "AR-15 Geissele SMR MK8 13 inch M-LOK handguard (ODG)",
-        "translation": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK8 13인치 M-LOK handguard (ODG))"
+        "translation": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (올리브 드랩)"
       },
       {
         "key": "e57cc5261d4937c1a15aa004 ShortName",
@@ -6612,7 +6612,7 @@
       {
         "key": "e5a6a64960d3f9901e3b0df1 Name",
         "source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Red)",
-        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (레드)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Red))"
+        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (레드)"
       },
       {
         "key": "e5a6a64960d3f9901e3b0df1 ShortName",
@@ -6627,7 +6627,7 @@
       {
         "key": "e7033144137177533f1fe6cf Name",
         "source": "AR-15 Magpul PRS Lite stock (FDE)",
-        "translation": "AR-15 맥풀 PRS 라이트 개머리판 (사막색)\n(AR-15 Magpul PRS Lite stock (사막색))"
+        "translation": "AR-15 맥풀 PRS 라이트 개머리판 (사막색)"
       },
       {
         "key": "e7033144137177533f1fe6cf ShortName",
@@ -6642,7 +6642,7 @@
       {
         "key": "e727709694036c1f49f234e6 Name",
         "source": "Steiner DBAL-i2 tactical device (FDE)",
-        "translation": "슈타이너 DBAL-i2 전술 장비 (사막색)\n(Steiner DBAL-i2 tactical device (사막색))"
+        "translation": "슈타이너 DBAL-i2 전술 장비 (사막색)"
       },
       {
         "key": "e727709694036c1f49f234e6 Description",
@@ -6707,7 +6707,7 @@
       {
         "key": "e8d92f66b5cf4553048c5f5b Name",
         "source": "Matech Folding rear sight",
-        "translation": "메이텍 접이식 가늠자\n(Matech Folding rear sight (Epics AIO))"
+        "translation": "메이텍 접이식 가늠자"
       },
       {
         "key": "e8d92f66b5cf4553048c5f5b ShortName",
@@ -6722,7 +6722,7 @@
       {
         "key": "e9341af94ccbdf828aac2ed4 Name",
         "source": "Trijicon ACOG TA31-C Amber 4x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA31-C 엠버 4x32 조준경 (블랙)\n(Trijicon ACOG TA31-C Amber 4x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA31-C 엠버 4x32 조준경 (블랙)"
       },
       {
         "key": "e9341af94ccbdf828aac2ed4 Description",
@@ -6732,7 +6732,7 @@
       {
         "key": "e94de16b0e19077ac1a4c90a Name",
         "source": "AR-10 Surefire Eliminator 7.62x51 Flash Hider",
-        "translation": "AR-10 슈어파이어 엘리미네이터 7.62x51 소염기\n(AR-10 SureFire Eliminator 7.62x51 Flash Hider)"
+        "translation": "AR-10 슈어파이어 엘리미네이터 7.62x51 소염기"
       },
       {
         "key": "e94de16b0e19077ac1a4c90a ShortName",
@@ -6747,7 +6747,7 @@
       {
         "key": "e99dbf09963efebab19a118b Name",
         "source": "Steiner OTAL-C tactical device (FDE-Vis)",
-        "translation": "슈타이너 OTAL-C 전술 장비 (사막색-Vis)\n(Steiner OTAL-C tactical device (사막색-Vis))"
+        "translation": "슈타이너 OTAL-C 전술 장비 (사막색-Vis)"
       },
       {
         "key": "e99dbf09963efebab19a118b Description",
@@ -6757,7 +6757,7 @@
       {
         "key": "e9e54ee074512c35ceff755f Name",
         "source": "AR-15 Daniel Defense RIS III 10.5 inch handguard (DFDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 10.5인치 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 10.5인치 handguard (D사막색))"
+        "translation": "기존 한국어 이름의 (D사막색)을 (DFDE)로 변경"
       },
       {
         "key": "e9e54ee074512c35ceff755f ShortName",
@@ -6782,12 +6782,12 @@
       {
         "key": "eb314fb4d8025c0d696a3ffc Name",
         "source": "AR-15 Daniel Defense RIS III 10.5 lower handguard (FDE)",
-        "translation": "AR-15 다니엘 디펜스 RIS III 10.5인치 하부 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 10.5 lower handguard (사막색))"
+        "translation": "AR-15 다니엘 디펜스 RIS III 10.5인치 하부 총열덮개 (사막색)"
       },
       {
         "key": "eb314fb4d8025c0d696a3ffc ShortName",
         "source": "RIS III 10.5L",
-        "translation": "RIS III 10.5인치"
+        "translation": "RIS III 10.5 하부"
       },
       {
         "key": "eb314fb4d8025c0d696a3ffc Description",
@@ -6812,7 +6812,7 @@
       {
         "key": "eb35aa47f15f9bd6f211c967 Name",
         "source": "AR-15 MFT BATTLELINK Minimalist stock (Black)",
-        "translation": "AR-15 MFT 배틀링크 미니멀리스트 개머리판 (블랙)\n(AR-15 MFT BATTLELINK Minimalist stock (검은색))"
+        "translation": "AR-15 MFT 배틀링크 미니멀리스트 개머리판 (블랙)"
       },
       {
         "key": "eb35aa47f15f9bd6f211c967 ShortName",
@@ -6827,7 +6827,7 @@
       {
         "key": "eb3ba7bf51c35159a78e90e9 Name",
         "source": "AR-15 Hogue OverMolded Carbine stock (Aqua)",
-        "translation": "AR-15 호그 이중 사출 카빈 개머리판 (AQUA)"
+        "translation": "AR-15 호그 이중 사출 카빈 개머리판 (아쿠아)"
       },
       {
         "key": "eb3ba7bf51c35159a78e90e9 ShortName",
@@ -6902,7 +6902,7 @@
       {
         "key": "edb383eec77614c936e627ec Name",
         "source": "KAC Suppressor shroud 6 inch (BLK)",
-        "translation": "KAC 소음기 보호 덮개 6인치 (블랙)\n(KAC Suppressor shroud 6인치 (BLK))"
+        "translation": "KAC 소음기 보호 덮개 6인치 (블랙)"
       },
       {
         "key": "edb383eec77614c936e627ec ShortName",
@@ -6917,7 +6917,7 @@
       {
         "key": "ee43d2dd34047cbe88ccf551 Name",
         "source": "SureFire SOCOM762-Mini2 7.62x51 sound suppressor (FDE)",
-        "translation": "슈어파이어 SOCOM762-Mini2 7.62x51 소음기 (사막색)\n(SureFire SOCOM762-Mini2 7.62x51 sound suppressor (사막색))"
+        "translation": "슈어파이어 SOCOM762-Mini2 7.62x51 소음기 (사막색)"
       },
       {
         "key": "ee43d2dd34047cbe88ccf551 Description",
@@ -6927,7 +6927,7 @@
       {
         "key": "ee7de8251099e046b66a27a8 Name",
         "source": "Trijicon ACOG TA31-CH Red 4x32 scope (Black)",
-        "translation": "트리지콘 ACOG TA31-CH 레드 4x32 조준경 (블랙)\n(Trijicon ACOG TA31-CH Red 4x32 scope (검은색))"
+        "translation": "트리지콘 ACOG TA31-CH 레드 4x32 조준경 (블랙)"
       },
       {
         "key": "ee7de8251099e046b66a27a8 Description",
@@ -6997,7 +6997,7 @@
       {
         "key": "ef976a5a821bbb0200991f9a Name",
         "source": "AR-10 Surefire SFMB 7.62x51 Muzzle brake",
-        "translation": "AR-10 슈어파이어 SFMB 7.62x51 보정기\n(AR-10 SureFire SFMB 7.62x51 Muzzle brake)"
+        "translation": "AR-10 슈어파이어 SFMB 7.62x51 보정기"
       },
       {
         "key": "ef976a5a821bbb0200991f9a Description",
@@ -7007,7 +7007,7 @@
       {
         "key": "f07a16a89f1c954f72bbf50e Name",
         "source": "Reptilia Offset mount for Aimpoint ACRO (Black)",
-        "translation": "렙틸리아 옵셋 마운트 (에임포인트 ACRO용, 블랙)\n(Reptilia Offset mount for Aimpoint ACRO (검은색))"
+        "translation": "렙틸리아 옵셋 마운트 (에임포인트 ACRO용, 블랙)"
       },
       {
         "key": "f07a16a89f1c954f72bbf50e ShortName",
@@ -7022,7 +7022,7 @@
       {
         "key": "f07b843f00a254d10d80ea5a Name",
         "source": "SureFire SOCOM762-RC2 7.62X51 sound suppressor (BLK)",
-        "translation": "슈어파이어 SOCOM762-RC2 7.62 소음기 블랙"
+        "translation": "슈어파이어 SOCOM762-RC2 7.62x51 소음기 (블랙)"
       },
       {
         "key": "f07b843f00a254d10d80ea5a Description",
@@ -7032,7 +7032,7 @@
       {
         "key": "f1d4272393162487b5896f2f Name",
         "source": "AR-15 B&T Rotex-V 5.56x45 sound suppressor (FDE)",
-        "translation": "AR-15 B&T 로텍스-V 5.56x45 소음기 (사막색)\n(AR-15 B&T Rotex-V 5.56x45 sound suppressor (사막색))"
+        "translation": "AR-15 B&T 로텍스-V 5.56x45 소음기 (사막색)"
       },
       {
         "key": "f1d4272393162487b5896f2f ShortName",
@@ -7077,7 +7077,7 @@
       {
         "key": "f4da160b9f3bbdb55ee46201 ShortName",
         "source": "3H front",
-        "translation": "3H가늠쇠"
+        "translation": "3홀 전방"
       },
       {
         "key": "f4da160b9f3bbdb55ee46201 Description",
@@ -7087,7 +7087,7 @@
       {
         "key": "f5977d24bf0cb52fda608b51 Name",
         "source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Black)",
-        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (블랙)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (검은색))"
+        "translation": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (블랙)"
       },
       {
         "key": "f5977d24bf0cb52fda608b51 ShortName",
@@ -7147,7 +7147,7 @@
       {
         "key": "f8774eaf5abb081a89bbb950 Description",
         "source": "A 16in barrel for AR-15 based weapons chambered in .300 blackout.",
-        "translation": "AR-15 기반 무기에 사용되는 .300 블랙아웃(.300 블랙아웃) 구경의 16인치 핸슨(Hanson) 카빈 총열입니다."
+        "translation": "AR-15 기반 .300 Blackout 탄약 사용 무기용 16인치 총열입니다."
       },
       {
         "key": "f896348f6bab6164ae6e0c2e Name",
@@ -7177,7 +7177,7 @@
       {
         "key": "f9cb5d76e3639ef3c27c5294 Name",
         "source": "AR-15 Geissele SMR MK8 9.5 inch M-LOK handguard (BLK)",
-        "translation": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK8 9.5인치 M-LOK handguard (BLK))"
+        "translation": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (블랙)"
       },
       {
         "key": "f9cb5d76e3639ef3c27c5294 ShortName",
@@ -7227,7 +7227,7 @@
       {
         "key": "fe901517ef9bffafcf0ac2f6 Description",
         "source": "The VS-29 handguard produced by Vezhlivyy Strelok for the Saiga 9 carbine.",
-        "translation": "베즐리비 스트렐록(Vezhlivyy Strelok)에서 제작한 VS-29 총열덮개로, 사이가-9 카빈 또는 비탸즈 플랫폼에 사용됩니다."
+        "translation": "베즐리비 스트렐록(Vezhlivyy Strelok)에서 사이가-9 카빈용으로 제작한 VS-29 총열덮개입니다."
       },
       {
         "key": "febb6abefa4e99c34833d986 Name",
@@ -7264,12 +7264,12 @@
       {
         "key": "ff2c2fd5d1e216e8aa91f992 acceptPlayerMessage",
         "source": "Hey who's there? Oh it's some PMC who thinks he can barge into my hotel room. Well listen here fuckstick, I don't take kindly to strangers so what do you want? That look on your face gives me the idea you know about as much of what's going on as me. Well here, take a seat and we can talk about the situation I'm in before you give your side.",
-        "translation": "야 친구, 이제 막 알게 됐지만 말이지, 내가 다음 계획을 세우는 동안 간식 좀 있으면 엄청 도움이 될 거 같아. 날 게으른 놈이라 생각하진 마. 이런 거 구하러 돌아다녀 보긴 했어, 진짜야. 아마 내가 제대로 못 찾은 걸 수도 있어. 난 여기가 고향이 아니거든. 소세지랑 크래커 좀 갖다줘. 꼭 필요한 건 아니지만, 만약 돌아다니다가 찾으면 정말 고맙지. 고마워."
+        "translation": "누구야? 내 호텔 방에 함부로 들이닥친 PMC 놈이군. 잘 들어, 이 개자식아. 난 낯선 사람이 반갑지 않아. 원하는 게 뭐야? 네 표정을 보니 너도 지금 상황을 나만큼이나 모르는 것 같군. 여기 앉아. 네 얘기를 듣기 전에 내가 처한 상황부터 이야기하자."
       },
       {
         "key": "ffbf7c0c8acab5ec67bf4788 Name",
         "source": "AR-15 Magpul STR Carbine Stock (FDE)",
-        "translation": "AR-15 맥풀 STR 카빈 개머리판 (사막색)\n(AR-15 Magpul STR Carbine Stock (사막색))"
+        "translation": "AR-15 맥풀 STR 카빈 개머리판 (사막색)"
       },
       {
         "key": "ffbf7c0c8acab5ec67bf4788 Description",
@@ -7284,7 +7284,7 @@
       {
         "key": "ffc95b9d143f52202a311820 Description",
         "source": "A modified version of the Kalashnikov AK-102 that is chambered in .300 blackout.",
-        "translation": ".300 블랙아웃(.300 블랙아웃) 탄을 사용하는 칼라시니코프(Kalashnikov) AK-102의 개량형 돌격소총입니다."
+        "translation": ".300 블랙아웃 탄을 사용하는 칼라시니코프(Kalashnikov) AK-102의 개량형 돌격소총입니다."
       },
       {
         "key": "68ba43080599dad8b1000001 Name",
@@ -7309,7 +7309,7 @@
       {
         "key": "6a17d1bd98c6bf6da000000b Name",
         "source": "AR-15 Daniel Defense RIS II FSP 9.5 handguard (Black)",
-        "translation": "AR-15 Daniel Defense RIS II FSP 9.5 총열덮개 (검은색)"
+        "translation": "AR-15 다니엘 디펜스 RIS II FSP 9.5 총열덮개 (검은색)"
       },
       {
         "key": "6a17d1bd98c6bf6da000000b Description",
@@ -7319,7 +7319,7 @@
       {
         "key": "6a17d1bd98c6bf6da000000c Name",
         "source": "AR-15 Daniel Defense RIS II FSP 9.5 lower handguard (Black)",
-        "translation": "AR-15 Daniel Defense RIS II FSP 9.5 lower 총열덮개 (검은색)"
+        "translation": "AR-15 다니엘 디펜스 RIS II FSP 9.5 하부 총열덮개 (검은색)"
       },
       {
         "key": "6a17d1bd98c6bf6da000000c Description",
@@ -7329,7 +7329,7 @@
       {
         "key": "6a1889fce506c69d80000001 Name",
         "source": "AR-15 Daniel Defense RIS II FSP 9.5 lower handguard (Coyote Brown)",
-        "translation": "AR-15 Daniel Defense RIS II FSP 9.5 lower 총열덮개 (Coyote Brown)"
+        "translation": "AR-15 다니엘 디펜스 RIS II FSP 9.5 하부 총열덮개 (코요테 브라운)"
       },
       {
         "key": "6a1889fce506c69d80000001 Description",
@@ -7339,7 +7339,7 @@
       {
         "key": "6a2ddd631e7427aae2000001 Name",
         "source": "AR-15 Wilson Combat Starburst pistol grip (Black)",
-        "translation": "AR-15 Wilson Combat Starburst 권총손잡이 (검은색)"
+        "translation": "AR-15 윌슨 컴뱃 스타버스트 권총손잡이 (검은색)"
       },
       {
         "key": "6a2ddd631e7427aae2000001 Description",
@@ -7349,7 +7349,7 @@
       {
         "key": "6a2ddd631e7427aae2000003 Name",
         "source": "AR-15 Wilson Combat Starburst pistol grip (FDE)",
-        "translation": "AR-15 Wilson Combat Starburst 권총손잡이 (사막색)"
+        "translation": "AR-15 윌슨 컴뱃 스타버스트 권총손잡이 (사막색)"
       },
       {
         "key": "6a2ddd631e7427aae2000003 Description",
@@ -7371,27 +7371,27 @@
       {
         "key": "4e826b607efd7bd4630609c9 ShortName",
         "source": "Rattler HG",
-        "translation": "래틀러",
+        "translation": "래틀러 총열덮개",
         "match_mode": "item_decorated"
       },
       {
         "key": "a5c7765dce79778422ff4e1c ShortName",
         "source": "OMRG FDE",
-        "translation": "호그 고무",
+        "translation": "호그 고무 (사막색)",
         "match_mode": "exact",
         "display_type": "default"
       },
       {
         "key": "2e681ada9836f6e030080191 ShortName",
         "source": "FAST",
-        "translation": "FAST 바이저",
+        "translation": "FAST 라이저",
         "match_mode": "exact",
         "display_type": "default"
       },
       {
         "key": "e1543def58291668bac8e2c8 ShortName",
         "source": "FAST",
-        "translation": "FAST 바이저",
+        "translation": "FAST",
         "match_mode": "exact",
         "display_type": "default"
       },
@@ -7436,6 +7436,947 @@
         "translation": "스타버스트",
         "match_mode": "exact",
         "display_type": "default"
+      },
+      {
+        "key": "0257250579c25ee07a7fd721 ShortName",
+        "source": "OTAL-C",
+        "translation": "OTAL-C",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "026dfdb287f69c3025f0f728 ShortName",
+        "source": "CompM5",
+        "translation": "CompM5"
+      },
+      {
+        "key": "028cf9570b14453d61753a76 ShortName",
+        "source": "TA31H",
+        "translation": "TA31H"
+      },
+      {
+        "key": "0433f01e906bc793e94272dd ShortName",
+        "source": "TA31-C",
+        "translation": "TA31-C"
+      },
+      {
+        "key": "08940f5c853aa6acf4049bc2 ShortName",
+        "source": "Micro T-1 Unity Mag",
+        "translation": "마이크로 T-1 유니티 확대기"
+      },
+      {
+        "key": "08eb2cce6b620c5c8550a0b5 ShortName",
+        "source": "TA648-308H",
+        "translation": "TA648-308H"
+      },
+      {
+        "key": "09f8fed0abd75fbd0f81cd91 ShortName",
+        "source": "TA648MGO-M2",
+        "translation": "TA648MGO-M2"
+      },
+      {
+        "key": "0a4fce1b6ffcba383df0def7 ShortName",
+        "source": "MCQ-PRT",
+        "translation": "MCQ-PRT"
+      },
+      {
+        "key": "0af5f6a5aa9712e11c733fb9 ShortName",
+        "source": "M700 .277",
+        "translation": "M700 .277"
+      },
+      {
+        "key": "0b33e835730e05c6a996f452 ShortName",
+        "source": "SCI-SIX",
+        "translation": "SCI-SIX"
+      },
+      {
+        "key": "0ce051265bcb619558b2ef9a ShortName",
+        "source": "OTAL-C",
+        "translation": "OTAL-C"
+      },
+      {
+        "key": "0ce104382851509ab14fb19c ShortName",
+        "source": "ROF-90 RMR",
+        "translation": "ROF-90 RMR"
+      },
+      {
+        "key": "101e593cde9a1f6fb8476d1e ShortName",
+        "source": "KAC 3T",
+        "translation": "KAC 3T"
+      },
+      {
+        "key": "10a09a7adb949d7516c96c2f ShortName",
+        "source": "RBS-C 762",
+        "translation": "RBS-C 762"
+      },
+      {
+        "key": "10c1dae2a05599e8a2b59cda ShortName",
+        "source": "SF3P-762",
+        "translation": "SF3P-762"
+      },
+      {
+        "key": "159023b10fa02ac28247fce3 ShortName",
+        "source": "ROF-90 ACRO",
+        "translation": "ROF-90 ACRO"
+      },
+      {
+        "key": "173203ac7780e64538343f21 ShortName",
+        "source": "MX1 762",
+        "translation": "MX1 762"
+      },
+      {
+        "key": "185bbb4e20e87b9aec36b1d5 ShortName",
+        "source": "74M Pic",
+        "translation": "74M 피카티니"
+      },
+      {
+        "key": "1bae6028d20d6b3f15bac845 ShortName",
+        "source": "Triarc V2",
+        "translation": "트라이아크 V2"
+      },
+      {
+        "key": "1de63dfb52c91ccb9dd2c83a ShortName",
+        "source": "NGAL",
+        "translation": "NGAL"
+      },
+      {
+        "key": "1e3c5a570c1c628376877232 ShortName",
+        "source": "TA31H",
+        "translation": "TA31H"
+      },
+      {
+        "key": "20c6ee849ac15cb4e31472c9 ShortName",
+        "source": "R1X",
+        "translation": "R1X"
+      },
+      {
+        "key": "21592d3fa4a2a0fa07fc5c2e ShortName",
+        "source": "QDC CQB 762",
+        "translation": "QDC CQB 762"
+      },
+      {
+        "key": "21cc9c10a1749109db74b288 ShortName",
+        "source": "762-Mini2",
+        "translation": "762-Mini2"
+      },
+      {
+        "key": "21db41fa34f997937c78b9d1 ShortName",
+        "source": "MCQ-PRT",
+        "translation": "MCQ-PRT"
+      },
+      {
+        "key": "22345a1c542354f86796efda ShortName",
+        "source": "UH-1 G33 Mag",
+        "translation": "UH-1 G33"
+      },
+      {
+        "key": "24a57da0bf24002c1b8b31d9 ShortName",
+        "source": "SCI-SIX",
+        "translation": "SCI-SIX"
+      },
+      {
+        "key": "252d9d1d2552909d0a76033c ShortName",
+        "source": "AMP",
+        "translation": "AMP"
+      },
+      {
+        "key": "253279f21f3222961c5dfa8d ShortName",
+        "source": "OGL",
+        "translation": "OGL"
+      },
+      {
+        "key": "2589a5a2424122404cf3a94c ShortName",
+        "source": "CompM5",
+        "translation": "CompM5"
+      },
+      {
+        "key": "26aab2ba6d945ea7877cfded ShortName",
+        "source": "M16A1 Type D",
+        "translation": "M16A1 D형"
+      },
+      {
+        "key": "275def25d1abe9b101511271 ShortName",
+        "source": "PEAK",
+        "translation": "PEAK"
+      },
+      {
+        "key": "2775bf11211bb12aec490f56 ShortName",
+        "source": "MAMS",
+        "translation": "MAMS"
+      },
+      {
+        "key": "27b92c2226b1110635235c2e ShortName",
+        "source": "ROF-90 RMR",
+        "translation": "ROF-90 RMR"
+      },
+      {
+        "key": "2adbfe8b01c45020b7a77a9e ShortName",
+        "source": "DT",
+        "translation": "DT"
+      },
+      {
+        "key": "2aed3f0a15813b3d366fcdb9 ShortName",
+        "source": "Tyr ULV",
+        "translation": "타이르 ULV"
+      },
+      {
+        "key": "2e31bdb165e6f6f7ac19b0d8 ShortName",
+        "source": "LCO G33 Mag",
+        "translation": "LCO G33"
+      },
+      {
+        "key": "32ae89929c7e53b5e412acb3 ShortName",
+        "source": "SCI-SIX",
+        "translation": "SCI-SIX"
+      },
+      {
+        "key": "35adebfd2014a2861056138b ShortName",
+        "source": "LCO",
+        "translation": "LCO"
+      },
+      {
+        "key": "364b69dba974eba7ec8a4f1a ShortName",
+        "source": "STR",
+        "translation": "STR"
+      },
+      {
+        "key": "36c4b709b7b9465d6e875d35 ShortName",
+        "source": "ACRO P-2",
+        "translation": "ACRO P-2"
+      },
+      {
+        "key": "394ddec62819583ac6b760d7 ShortName",
+        "source": "DT-PR",
+        "translation": "DT-PR"
+      },
+      {
+        "key": "3a67dd4a1cda6a6d29bafc0e ShortName",
+        "source": "Mk47 409mm 5.45",
+        "translation": "Mk47 409mm 5.45"
+      },
+      {
+        "key": "3cc1a01be7839321ab030074 ShortName",
+        "source": "762-Ti2",
+        "translation": "762-Ti2"
+      },
+      {
+        "key": "3dc691f607ffed3228bf6ca2 ShortName",
+        "source": "AK-15",
+        "translation": "AK-15"
+      },
+      {
+        "key": "3f18b9a4a43e2c071b08179a ShortName",
+        "source": "MRO",
+        "translation": "MRO"
+      },
+      {
+        "key": "40c62378fa93a829532ecc5e ShortName",
+        "source": "M4-2000",
+        "translation": "M4-2000"
+      },
+      {
+        "key": "41e97223a2ad6374a096ae14 ShortName",
+        "source": "EXPS3 Unity Mag",
+        "translation": "EXPS3 유니티"
+      },
+      {
+        "key": "427426766389fca83151e49a ShortName",
+        "source": "TA31-C",
+        "translation": "TA31-C"
+      },
+      {
+        "key": "42aac757e1ac8161f6ec6766 ShortName",
+        "source": "ROF-45 RMR",
+        "translation": "ROF-45 RMR"
+      },
+      {
+        "key": "4330375080cfa3b0acf681c0 ShortName",
+        "source": "SP-T1 H",
+        "translation": "SP-T1 H"
+      },
+      {
+        "key": "43b167b7a5c61d36f59f0783 ShortName",
+        "source": "AK-15 MB",
+        "translation": "AK-15 보정기"
+      },
+      {
+        "key": "45b07217916365a3171c079e ShortName",
+        "source": "AE M4",
+        "translation": "AE M4"
+      },
+      {
+        "key": "46cd26d8aff75c3562a031e5 ShortName",
+        "source": "DTK-2",
+        "translation": "DTK-2"
+      },
+      {
+        "key": "48dd8b7edd39c0ab164435ad ShortName",
+        "source": "PEAK",
+        "translation": "PEAK"
+      },
+      {
+        "key": "4af1cb09ea310f1fcf94d32a ShortName",
+        "source": "NXS 3.5-15",
+        "translation": "NXS 3.5-15"
+      },
+      {
+        "key": "4b81488c78c8a8ac7d37f9b9 ShortName",
+        "source": "M4 .300",
+        "translation": "M4 .300 블랙아웃"
+      },
+      {
+        "key": "4c467c02973c90a5284cb89a ShortName",
+        "source": "SAG MK3",
+        "translation": "SAG MK3"
+      },
+      {
+        "key": "4da17d6e133487626488aa2d ShortName",
+        "source": "SAG MK3",
+        "translation": "SAG MK3"
+      },
+      {
+        "key": "51054b0249f56482df575434 ShortName",
+        "source": "TA31-CH",
+        "translation": "TA31-CH"
+      },
+      {
+        "key": "5114ba0ec07b64d2027476c3 ShortName",
+        "source": "TA31-C",
+        "translation": "TA31-C"
+      },
+      {
+        "key": "51ef8504f4a2e4d2029ff682 ShortName",
+        "source": "CQBL-1",
+        "translation": "CQBL-1"
+      },
+      {
+        "key": "52b4ebb9ffb12bb3826e6cb3 ShortName",
+        "source": "B-9M",
+        "translation": "B-9M"
+      },
+      {
+        "key": "52ce1b65b13e1035808c4fd2 ShortName",
+        "source": "Mk47 5.45",
+        "translation": "Mk47 5.45"
+      },
+      {
+        "key": "530c92166b34a8f2c2c96732 ShortName",
+        "source": "TA31-C",
+        "translation": "TA31-C"
+      },
+      {
+        "key": "5518037d5b8964f16bd7fa0b ShortName",
+        "source": "TA31F",
+        "translation": "TA31F"
+      },
+      {
+        "key": "551ec269e7bb299d728da89e ShortName",
+        "source": "ETM 762",
+        "translation": "ETM 762"
+      },
+      {
+        "key": "58c0a16f420c97fe1c3d2e27 ShortName",
+        "source": "Hesco U211",
+        "translation": "헤스코 U211"
+      },
+      {
+        "key": "58c3819c7e3f0593dbb9851a ShortName",
+        "source": "TA44",
+        "translation": "TA44"
+      },
+      {
+        "key": "5b6e75274d865619855c447a ShortName",
+        "source": "AMP",
+        "translation": "AMP"
+      },
+      {
+        "key": "5c262445ceaffa8a1cd9e758 ShortName",
+        "source": "RL-1",
+        "translation": "RL-1"
+      },
+      {
+        "key": "5c7d55de2e221644f31bff68 Name",
+        "source": "Aimpoint CompM4s reflex sight",
+        "translation": "에임포인트 CompM4s 반사 조준경"
+      },
+      {
+        "key": "5c7d55de2e221644f31bff68 ShortName",
+        "source": "CompM4",
+        "translation": "CompM4"
+      },
+      {
+        "key": "5c7d55de2e221644f31bff68 Description",
+        "source": "The Aimpoint CompM4s is a rugged red dot sight featuring a 2 MOA aiming dot and a low-mounted battery compartment. Powered by a single AA battery, it offers night vision compatibility and up to 80,000 hours of continuous operation.",
+        "translation": "에임포인트 CompM4s는 2 MOA 조준점과 낮은 위치의 배터리 수납부를 갖춘 견고한 레드닷 조준경입니다. AA 배터리 1개로 작동하며 야간투시 장비와 호환되고, 최대 80,000시간 동안 연속으로 사용할 수 있습니다."
+      },
+      {
+        "key": "5c827a7866c78dab05eb7637 ShortName",
+        "source": "EMAG",
+        "translation": "EMAG"
+      },
+      {
+        "key": "5eb8a73e2c5eae1c5118afcb ShortName",
+        "source": "D-Evo",
+        "translation": "D-Evo"
+      },
+      {
+        "key": "627c4fe34b0a558e8a3642a1 ShortName",
+        "source": "AKS-74UN .300",
+        "translation": "AKS-74UN .300 블랙아웃"
+      },
+      {
+        "key": "6504516826a65f22fcb408bb ShortName",
+        "source": "556-RC2",
+        "translation": "556-RC2"
+      },
+      {
+        "key": "65f119212ffe657478130322 ShortName",
+        "source": "CNC War.",
+        "translation": "CNC 워리어"
+      },
+      {
+        "key": "66079d40016c0de3509a31e7 ShortName",
+        "source": "SP-T1 L",
+        "translation": "SP-T1 L"
+      },
+      {
+        "key": "673dee1aa998f18003f111f5 ShortName",
+        "source": "DBAL-A3",
+        "translation": "DBAL-A3"
+      },
+      {
+        "key": "690458c8c8f726648b11ac19 ShortName",
+        "source": "1A2-BRM",
+        "translation": "1A2-BRM"
+      },
+      {
+        "key": "6cc7d60178706926401b7c8d ShortName",
+        "source": "Fluke 87V",
+        "translation": "플루크 87V"
+      },
+      {
+        "key": "6d875b085e791a94448f6373 ShortName",
+        "source": "TA31-CH",
+        "translation": "TA31-CH"
+      },
+      {
+        "key": "6d9f22a75064ebb92b3ece1c ShortName",
+        "source": "M4-2000",
+        "translation": "M4-2000"
+      },
+      {
+        "key": "6efbc3fc36558fb085bbc36e ShortName",
+        "source": "762-Ti2",
+        "translation": "762-Ti2"
+      },
+      {
+        "key": "726928d910aacf0b1b40b934 ShortName",
+        "source": "SAG MK3",
+        "translation": "SAG MK3"
+      },
+      {
+        "key": "72bbf927bf5b1d4a0837485b ShortName",
+        "source": "MCX 5.56",
+        "translation": "MCX 5.56"
+      },
+      {
+        "key": "748cfa27eb4b3fe30f51fd9d ShortName",
+        "source": "VS-29",
+        "translation": "VS-29"
+      },
+      {
+        "key": "764bac2a60fb452dd29cba6e ShortName",
+        "source": "MPI",
+        "translation": "MPI"
+      },
+      {
+        "key": "765efc3218305b91ce279f7c ShortName",
+        "source": "TA31-CH",
+        "translation": "TA31-CH"
+      },
+      {
+        "key": "77f31a56076dc8e398797a7c ShortName",
+        "source": "OTAL-C",
+        "translation": "OTAL-C"
+      },
+      {
+        "key": "7af1b735539670b26a3fe68b ShortName",
+        "source": "AUS 34mm",
+        "translation": "AUS 34mm"
+      },
+      {
+        "key": "7b3525a6de4f4847921529c0 ShortName",
+        "source": "ROF-90 ACRO",
+        "translation": "ROF-90 ACRO"
+      },
+      {
+        "key": "7ca248803b89788492384ba2 ShortName",
+        "source": "EXPS3 G33 Mag",
+        "translation": "EXPS3 G33"
+      },
+      {
+        "key": "7df07162a928f5e9ab26404a ShortName",
+        "source": "XM-177E2",
+        "translation": "XM-177E2"
+      },
+      {
+        "key": "7e6c09774462ad3ef5025f08 ShortName",
+        "source": "AMP",
+        "translation": "AMP"
+      },
+      {
+        "key": "7e907f07001010565675cab3 ShortName",
+        "source": "Mk47 254mm 5.45",
+        "translation": "Mk47 254mm 5.45"
+      },
+      {
+        "key": "7f35c72194fb98852c83a2da ShortName",
+        "source": "MCX 3PR",
+        "translation": "MCX 3PR"
+      },
+      {
+        "key": "7fe5839a2d1e2eb9c6045f11 ShortName",
+        "source": "WCCTN-556",
+        "translation": "WCCTN-556"
+      },
+      {
+        "key": "80cbe6559756b8811d5542e5 ShortName",
+        "source": "SFMB-556",
+        "translation": "SFMB-556"
+      },
+      {
+        "key": "85a2077a2a40a73a0f95f74a ShortName",
+        "source": "LT724",
+        "translation": "LT724"
+      },
+      {
+        "key": "85ce98958d5359f66eef9b0d ShortName",
+        "source": "MX1 338",
+        "translation": "MX1 338"
+      },
+      {
+        "key": "86509ab9a719ec35d68335ec ShortName",
+        "source": "TA31H",
+        "translation": "TA31H"
+      },
+      {
+        "key": "86f1db244188717106a25806 ShortName",
+        "source": "KAC NVG",
+        "translation": "KAC NVG"
+      },
+      {
+        "key": "8d28d2b0bc17dad17f09676d ShortName",
+        "source": "SG-556",
+        "translation": "SG-556"
+      },
+      {
+        "key": "8d9e9ff3020f92eb5fc46680 ShortName",
+        "source": "LCO Unity Mag",
+        "translation": "LCO 유니티"
+      },
+      {
+        "key": "8e91893cd97979e31dc69ff4 ShortName",
+        "source": "TA31F",
+        "translation": "TA31F"
+      },
+      {
+        "key": "8ec622c17502df08341f14a2 ShortName",
+        "source": "X-15",
+        "translation": "X-15"
+      },
+      {
+        "key": "939c742f7dad852286188029 ShortName",
+        "source": "AKS-74UB .300",
+        "translation": "AKS-74UB .300 블랙아웃"
+      },
+      {
+        "key": "959b54e7798be68a1a54ff81 ShortName",
+        "source": "ROF-90 RMR",
+        "translation": "ROF-90 RMR"
+      },
+      {
+        "key": "96cff8d59fab622a65e41136 ShortName",
+        "source": "TA31-C",
+        "translation": "TA31-C"
+      },
+      {
+        "key": "96f5c38a676e11e13544dfba ShortName",
+        "source": "Mk47 9x39",
+        "translation": "Mk47 9x39"
+      },
+      {
+        "key": "98faf3e813c71c69fdc058a6 ShortName",
+        "source": "TA31H",
+        "translation": "TA31H"
+      },
+      {
+        "key": "9930f05d4e38813e5ef5ff90 ShortName",
+        "source": "MCX 3PR",
+        "translation": "MCX 3PR"
+      },
+      {
+        "key": "9936df6f6d9d13591df75e06 ShortName",
+        "source": "RT-6",
+        "translation": "RT-6"
+      },
+      {
+        "key": "9c8b54c2f8c843fe7ce6c6ca ShortName",
+        "source": "762-RC2",
+        "translation": "762-RC2"
+      },
+      {
+        "key": "9d387502b50d1f4b0fb8b0ce ShortName",
+        "source": "SAG M4",
+        "translation": "SAG M4"
+      },
+      {
+        "key": "9f56d67e30b6ee14fbd99821 ShortName",
+        "source": "556-RC3",
+        "translation": "556-RC3"
+      },
+      {
+        "key": "a1552040390284f58de50a7a ShortName",
+        "source": "TA31H",
+        "translation": "TA31H"
+      },
+      {
+        "key": "a1fd0589018e71233daeb331 ShortName",
+        "source": "SG-762",
+        "translation": "SG-762"
+      },
+      {
+        "key": "a5c171496c1870f205a3c972 ShortName",
+        "source": "UH-1 Unity Mag",
+        "translation": "UH-1 유니티"
+      },
+      {
+        "key": "a681a1c93529b1fb2118488a ShortName",
+        "source": "AN/PEQ-15A",
+        "translation": "AN/PEQ-15A"
+      },
+      {
+        "key": "a87b4ff0e4df1af49c4d48b7 ShortName",
+        "source": "D-Evo",
+        "translation": "D-Evo"
+      },
+      {
+        "key": "a9567853f9fc33f38c4180ac ShortName",
+        "source": "TA31F",
+        "translation": "TA31F"
+      },
+      {
+        "key": "aad64351987e90dfe662da95 ShortName",
+        "source": "DTK-2V",
+        "translation": "DTK-2V"
+      },
+      {
+        "key": "aad949705aece28fb98b820f ShortName",
+        "source": "TA648-308",
+        "translation": "TA648-308"
+      },
+      {
+        "key": "ac14dc7aa887301d799e3b2b ShortName",
+        "source": "OPS INC",
+        "translation": "OPS INC"
+      },
+      {
+        "key": "ad483d8373c8ff078103aaa1 ShortName",
+        "source": "SFCT-556",
+        "translation": "SFCT-556"
+      },
+      {
+        "key": "afcb0df7801fadd95111a3d6 ShortName",
+        "source": "AEM5",
+        "translation": "AEM5"
+      },
+      {
+        "key": "b098f4d751ddc6246acdf160 ShortName",
+        "source": "B22",
+        "translation": "B22"
+      },
+      {
+        "key": "b1c1a92264b2e9c5dc64506e ShortName",
+        "source": "CTF-2",
+        "translation": "CTF-2"
+      },
+      {
+        "key": "ba84e1c4ee4d504cb0bdbb0d ShortName",
+        "source": "SOCOM338-Ti",
+        "translation": "SOCOM338-Ti"
+      },
+      {
+        "key": "bb4bb5d7e4f3ad7a1f19571e ShortName",
+        "source": "DBAL-i2",
+        "translation": "DBAL-i2"
+      },
+      {
+        "key": "bbbdc1a53659b64553a51b4c ShortName",
+        "source": "B-21L",
+        "translation": "B-21L"
+      },
+      {
+        "key": "bc1310a6a0aaa46970321e55 ShortName",
+        "source": "DT FDE",
+        "translation": "DT 사막색"
+      },
+      {
+        "key": "befd7a2bbc07793f73133f2c ShortName",
+        "source": "FAST LPVO",
+        "translation": "FAST LPVO"
+      },
+      {
+        "key": "bf822c61ce39580e026b6801 ShortName",
+        "source": "QD 556",
+        "translation": "QD 556"
+      },
+      {
+        "key": "bf8cf7b9d0f73ce039591c65 ShortName",
+        "source": "TA648MGO-M240",
+        "translation": "TA648MGO-M240"
+      },
+      {
+        "key": "bfa234cc36aac6c9e1190ab1 ShortName",
+        "source": "CRS-PRT",
+        "translation": "CRS-PRT"
+      },
+      {
+        "key": "c0e0bac29a8c50eff201f00e ShortName",
+        "source": "CQBL-1",
+        "translation": "CQBL-1"
+      },
+      {
+        "key": "c3ad313c8108f49a65187daf ShortName",
+        "source": "TA648-50",
+        "translation": "TA648-50"
+      },
+      {
+        "key": "c492dd59489e2096f9461ffb ShortName",
+        "source": "DT FG",
+        "translation": "DT 수풀색"
+      },
+      {
+        "key": "c544b1b34703aebab8ee0e5c ShortName",
+        "source": "M53A1",
+        "translation": "M53A1"
+      },
+      {
+        "key": "c569fa63e462980552ecdc77 ShortName",
+        "source": "OGL",
+        "translation": "OGL"
+      },
+      {
+        "key": "ca9b71e00031160119ab1e58 ShortName",
+        "source": "SP-T1 L",
+        "translation": "SP-T1 L"
+      },
+      {
+        "key": "caa063259af7ba16d12efdec ShortName",
+        "source": "RMR",
+        "translation": "RMR"
+      },
+      {
+        "key": "cd1f0458b18b79f2da3ad03f ShortName",
+        "source": "TA648",
+        "translation": "TA648"
+      },
+      {
+        "key": "cd54f04eb7f0410772acbf35 ShortName",
+        "source": "AMP",
+        "translation": "AMP"
+      },
+      {
+        "key": "d1d91c5935812a383f894338 ShortName",
+        "source": "DT-PR",
+        "translation": "DT-PR"
+      },
+      {
+        "key": "d4424e8a8d6e6789adbfcde2 ShortName",
+        "source": "ROF-45 RMR",
+        "translation": "ROF-45 RMR"
+      },
+      {
+        "key": "d4f59f06b5099086743e3b62 ShortName",
+        "source": "RAID Xe",
+        "translation": "RAID Xe"
+      },
+      {
+        "key": "d58286c3428cd91b964031e4 ShortName",
+        "source": "AKS Pic",
+        "translation": "AKS 피카티니"
+      },
+      {
+        "key": "d62cced77df83a0683e38fbc ShortName",
+        "source": "RAID Xe",
+        "translation": "RAID Xe"
+      },
+      {
+        "key": "d672109946fe88b803449054 ShortName",
+        "source": "AK-101 .300",
+        "translation": "AK-101 .300 블랙아웃"
+      },
+      {
+        "key": "d86734035b117af77620caf0 ShortName",
+        "source": "Mk47 254mm 9x39",
+        "translation": "Mk47 254mm 9x39"
+      },
+      {
+        "key": "dc443bf6ab32570c69096e37 ShortName",
+        "source": "SP-T1 H",
+        "translation": "SP-T1 H"
+      },
+      {
+        "key": "dd6b29946db0932ea75e09c4 ShortName",
+        "source": "AK-15",
+        "translation": "AK-15"
+      },
+      {
+        "key": "dd7caf9bd203b146528c8da4 ShortName",
+        "source": "ACRO P-2",
+        "translation": "ACRO P-2"
+      },
+      {
+        "key": "df523ec57199fcc4f92fa25c ShortName",
+        "source": "B-10",
+        "translation": "B-10"
+      },
+      {
+        "key": "dfb4f1c3e5b85305c24ed2bc ShortName",
+        "source": "CRS-PRT",
+        "translation": "CRS-PRT"
+      },
+      {
+        "key": "e0070ec5799a2d6228eca115 ShortName",
+        "source": "KAC USPT",
+        "translation": "KAC USPT"
+      },
+      {
+        "key": "e14eccdfdd902727fe268ed1 ShortName",
+        "source": "SFMB 338",
+        "translation": "SFMB 338"
+      },
+      {
+        "key": "e35149017403373f6b780e3b ShortName",
+        "source": "RM35",
+        "translation": "RM35"
+      },
+      {
+        "key": "e37c8df358fdec9a8780ea8c ShortName",
+        "source": "SCI-SIX",
+        "translation": "SCI-SIX"
+      },
+      {
+        "key": "e3dcf75199f821636a95cb9b ShortName",
+        "source": "AUS 34mm",
+        "translation": "AUS 34mm"
+      },
+      {
+        "key": "e727709694036c1f49f234e6 ShortName",
+        "source": "DBAL-i2",
+        "translation": "DBAL-i2"
+      },
+      {
+        "key": "e76f8cc1a9991402c3577669 ShortName",
+        "source": "Mk47 254mm 9x39",
+        "translation": "Mk47 254mm 9x39"
+      },
+      {
+        "key": "e9341af94ccbdf828aac2ed4 ShortName",
+        "source": "TA31-C",
+        "translation": "TA31-C"
+      },
+      {
+        "key": "e99dbf09963efebab19a118b ShortName",
+        "source": "OTAL-C",
+        "translation": "OTAL-C"
+      },
+      {
+        "key": "ea0407e322d619bdb163795c ShortName",
+        "source": "556-RC3",
+        "translation": "556-RC3"
+      },
+      {
+        "key": "ebef489a3c50f53e143480f9 ShortName",
+        "source": "LEAF",
+        "translation": "LEAF"
+      },
+      {
+        "key": "ed05294ed53c0400ae0e8a55 ShortName",
+        "source": "AKS-74U .300",
+        "translation": "AKS-74U .300 블랙아웃"
+      },
+      {
+        "key": "ed3ce625f8d5660361ffaf30 ShortName",
+        "source": "TA31H",
+        "translation": "TA31H"
+      },
+      {
+        "key": "ee43d2dd34047cbe88ccf551 ShortName",
+        "source": "762-Mini2",
+        "translation": "762-Mini2"
+      },
+      {
+        "key": "ee7de8251099e046b66a27a8 ShortName",
+        "source": "TA31-CH",
+        "translation": "TA31-CH"
+      },
+      {
+        "key": "ee8d5029626f7ba2e1510676 ShortName",
+        "source": "ROF-90 RMR",
+        "translation": "ROF-90 RMR"
+      },
+      {
+        "key": "eebec7fdda3d612c25d48af6 ShortName",
+        "source": "SAG MK3",
+        "translation": "SAG MK3"
+      },
+      {
+        "key": "ef29cf641c7f772a1c0237ad ShortName",
+        "source": "G19X HR",
+        "translation": "G19X HR"
+      },
+      {
+        "key": "ef976a5a821bbb0200991f9a ShortName",
+        "source": "SFMB-762",
+        "translation": "SFMB-762"
+      },
+      {
+        "key": "f07b843f00a254d10d80ea5a ShortName",
+        "source": "762-RC2",
+        "translation": "762-RC2"
+      },
+      {
+        "key": "f4792fb5785c3cbfcd5e8e42 ShortName",
+        "source": "TA31F",
+        "translation": "TA31F"
+      },
+      {
+        "key": "f5a80c63c2845fbc7c0c00b0 ShortName",
+        "source": "TA44",
+        "translation": "TA44"
+      },
+      {
+        "key": "f849f458cb4ad62c5d8b96e1 ShortName",
+        "source": "KAC NVG",
+        "translation": "KAC NVG"
+      },
+      {
+        "key": "f896348f6bab6164ae6e0c2e ShortName",
+        "source": "SAG MK3",
+        "translation": "SAG MK3"
+      },
+      {
+        "key": "fe901517ef9bffafcf0ac2f6 ShortName",
+        "source": "VS-29",
+        "translation": "VS-29"
+      },
+      {
+        "key": "ffbf7c0c8acab5ec67bf4788 ShortName",
+        "source": "STR",
+        "translation": "STR"
+      },
+      {
+        "key": "ffc95b9d143f52202a311820 ShortName",
+        "source": "AK-102 .300",
+        "translation": "AK-102 .300 블랙아웃"
       }
     ]
   }

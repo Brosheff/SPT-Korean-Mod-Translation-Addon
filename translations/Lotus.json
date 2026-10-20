@@ -299,7 +299,7 @@
       {
         "key": "674722094d7136405657dc31",
         "source": "Hand over the Household Items Spray",
-        "translation": "생활용품 건네주기"
+        "translation": "생활용품 스프레이 건네주기"
       },
       {
         "key": "674721e986f435b80234da65 name",
@@ -840,7 +840,7 @@
       {
         "key": "67ee61b9f56b571ce703eec4 description",
         "source": "Okay we waited like two hours now, I think it's time now. I actually got the next lead on these shipments. You see, the thing about the USECs did not give anything else that could help us much further, however a friend reached out to me over the radio.\n\nWe talked about these shipments, seems like me and Therapist weren't the only ones interested in them, but my friend wasn't that interested in those, anyway...\nSince this friend wasn't interested, he decided to help us. He printed out some documents - Allegedly Terragroup related. One reads \"0022\" while the other one reads \"0031\", just so you know how they look like... roughly. He stashed both folders somewhere in the customs zone.\n\nThe first folder should be located somewhere in the Tarcone director's office, I think somewhere under the desk. The second folder should be hidden in one of the bunkhouses, right next to one of these Terragroup shipments actually. I suggest you grab them quickly before some scavs find them. Bring those folders to me.\n\nWhen you finished that part of the job, you gotta check on the cargoes, make sure nobody swept the place clean. After all that is done, I'd say it's a good time to contact that friend I talked about.",
-        "translation": "좋습니다. 두 시간쯤 기다렸으니 이제 움직일 때가 됐군요. 화물과 관련된 다음 단서를 확보했습니다. USEC 쪽을 조사한 결과만으로는 더 나아갈 만한 정보가 나오지 않았는데, 마침 지인 한 명이 무전으로 연락해 왔습니다.\n\n그 사람과 이 화물 이야기를 나눴습니다. 저와 테라피스트만 관심을 갖고 있던 건 아니었던 모양이지만, 그 지인은 화물 자체에는 별 관심이 없더군요. 그래서 저희를 돕기로 했습니다. 테라그룹과 관련된 것으로 보이는 문서 몇 장을 출력해 두었다고 합니다. 하나에는 \"0022\", 다른 하나에는 \"0031\"이라고 적혀 있습니다. 대략 어떻게 생겼는지 알아두세요. 두 보안 케이스는 세관 지역 어딘가에 숨겨뒀다고 합니다.\n\n첫 번째는 타르콘 회사 감독관 사무실 어딘가, 아마 책상 아래에 있을 겁니다. 두 번째는 컨테이너 숙소 중 하나에 숨겨져 있을 텐데, 공교롭게도 테라그룹 화물 차량 바로 근처입니다. 스캐브들이 먼저 주워가기 전에 빨리 확보하는 편이 좋겠습니다. 두 케이스 모두 제게 가져오세요.\n\n그 일이 끝나면 화물 차량도 다시 확인해서 누군가 싹 쓸어가지는 않았는지 살펴보세요. 전부 마치고 나면, 아까 말한 그 지인에게 연락할 때가 됐습니다.",
+        "translation": "좋습니다. 두 시간쯤 기다렸으니 이제 움직일 때가 됐군요. 화물과 관련된 다음 단서를 확보했습니다. USEC 쪽을 조사한 결과만으로는 더 나아갈 만한 정보가 나오지 않았는데, 마침 지인 한 명이 무전으로 연락해 왔습니다.\n\n그 사람과 이 화물 이야기를 나눴습니다. 저와 테라피스트만 관심을 갖고 있던 건 아니었던 모양이지만, 그 지인은 화물 자체에는 별 관심이 없더군요. 그래서 저희를 돕기로 했습니다. 테라그룹과 관련된 것으로 보이는 문서 몇 장을 출력해 두었다고 합니다. 하나에는 \"0022\", 다른 하나에는 \"0031\"이라고 적혀 있습니다. 대략 어떻게 생겼는지 알아두세요. 두 서류철는 세관 지역 어딘가에 숨겨뒀다고 합니다.\n\n첫 번째는 타르콘 회사 감독관 사무실 어딘가, 아마 책상 아래에 있을 겁니다. 두 번째는 컨테이너 숙소 중 하나에 숨겨져 있을 텐데, 공교롭게도 테라그룹 화물 차량 바로 근처입니다. 스캐브들이 먼저 주워가기 전에 빨리 확보하는 편이 좋겠습니다. 두 서류철 모두 제게 가져오세요.\n\n그 일이 끝나면 화물 차량도 다시 확인해서 누군가 싹 쓸어가지는 않았는지 살펴보세요. 전부 마치고 나면, 아까 말한 그 지인에게 연락할 때가 됐습니다.",
         "display_type": "quest_description"
       },
       {
@@ -866,22 +866,22 @@
       {
         "key": "67effa713f0259084cf72c6d",
         "source": "Install a WI-FI Camera facing the Truck carrying the Cargo from the North",
-        "translation": "화물 트럭 북쪽을 향하도록 WI-FI 카메라 설치하기"
+        "translation": "화물을 운반하는 트럭을 북쪽에서 바라보도록 WI-FI 카메라 설치하기"
       },
       {
         "key": "67effa778781969442d0ab18",
         "source": "Install a WI-FI Camera facing the Truck carrying the Cargo from the East",
-        "translation": "화물 트럭 동쪽을 향하도록 WI-FI 카메라 설치하기"
+        "translation": "화물을 운반하는 트럭을 동쪽에서 바라보도록 WI-FI 카메라 설치하기"
       },
       {
         "key": "67effa83c8dee65c3c8b752d",
         "source": "Install a WI-FI Camera facing the Truck carrying the Cargo from the South",
-        "translation": "화물 트럭 남쪽을 향하도록 WI-FI 카메라 설치하기"
+        "translation": "화물을 운반하는 트럭을 남쪽에서 바라보도록 WI-FI 카메라 설치하기"
       },
       {
         "key": "67effa95cdfd09c18db35356",
         "source": "Install a WI-FI Camera facing the Truck carrying the Cargo from the West",
-        "translation": "화물 트럭 서쪽을 향하도록 WI-FI 카메라 설치하기"
+        "translation": "화물을 운반하는 트럭을 서쪽에서 바라보도록 WI-FI 카메라 설치하기"
       },
       {
         "key": "67effb0a760243d752a1dcde",
@@ -1994,7 +1994,7 @@
       {
         "key": "6747b6d1b00b3bfcb6b02f94 description",
         "source": "Soldier do you remember the man in the tower? Well he calls himself lightkeeper, who sees everyone and everything. Well he does not seem too excited about my presense, I don't know why but we need to investigate that, I already know you and mechanic are working together, and mechanic is trying to work with lightkeeper. I am guessing he asked you for help?\nDon't worry, I won't stop you. I need something from you however, you need to check out the gate of the bridge that leads to his island, I heard the rumors about bad things happening when crossing the bridge, so I advise you to avoid crossing it. Don't forget to put down a camera next to the gate, I want to see who and what is leaving and entering that island.\nNow the next thing you should do is clear out the area from operators, to distract lightkeeper and his guards. Use professional equipment, something high caliber and precise...\nI was thinking of a SR-25 or RSASS, are you familiar with these? I hope so, because you will need the experience with those weapons. Good luck soldier.",
-        "translation": "탑에 있는 남자를 기억하십니까? 스스로를 등대지기라고 부르는 인물 말입니다. 모든 사람과 모든 일을 지켜본다고 하죠. 그런데 제 존재를 그다지 반기는 것 같지 않습니다. 이유는 모르겠지만 조사할 필요가 있습니다.\n\n당신과 메카닉이 함께 일하고 있고, 메카닉이 등대지기와 접촉하려 한다는 사실도 알고 있습니다. 아마 당신에게 도움을 요청했겠죠? 걱정하지 마세요. 그 일을 막을 생각은 없습니다.\n\n대신 제 부탁이 하나 있습니다. 그의 섬으로 이어지는 다리 입구를 확인해 주세요. 다리를 건너다 좋지 않은 일을 겪었다는 소문이 있으니 직접 건너는 건 권하지 않습니다. 게이트 근처에 WI-FI 카메라도 설치하세요. 누가 섬을 드나드는지 확인하고 싶습니다.\n\n그다음에는 등대지기와 경비들의 시선을 돌릴 수 있도록 주변 PMC 오퍼레이터를 정리해 주세요. 고위력에 정확도도 높은 전문적인 장비를 쓰는 편이 좋겠군요. SR-25나 RSASS 정도면 적합할 겁니다. 익숙한 무기이길 바랍니다. 이번 일에는 그 숙련도가 필요할 테니까요.",
+        "translation": "탑에 있는 남자를 기억하십니까? 스스로를 등대지기라고 부르는 인물 말입니다. 모든 사람과 모든 일을 지켜본다고 하죠. 그런데 제 존재를 그다지 반기는 것 같지 않습니다. 이유는 모르겠지만 조사할 필요가 있습니다.\n\n당신과 메카닉이 함께 일하고 있고, 메카닉이 등대지기와 접촉하려 한다는 사실도 알고 있습니다. 아마 당신에게 도움을 요청했겠죠? 걱정하지 마세요. 그 일을 막을 생각은 없습니다.\n\n대신 제 부탁이 하나 있습니다. 그의 섬으로 이어지는 다리 입구를 확인해 주세요. 다리를 건너다 좋지 않은 일을 겪었다는 소문이 있으니 직접 건너는 건 권하지 않습니다. 게이트 근처에 WI-FI 카메라도 설치하세요. 누가, 그리고 무엇이 그 섬을 드나드는지 확인하고 싶습니다.\n\n그다음에는 등대지기와 경비들의 시선을 돌릴 수 있도록 주변 PMC 오퍼레이터를 정리해 주세요. 고위력에 정확도도 높은 전문적인 장비를 쓰는 편이 좋겠군요. SR-25나 RSASS 정도면 적합할 겁니다. 익숙한 무기이길 바랍니다. 이번 일에는 그 숙련도가 필요할 테니까요.",
         "display_type": "quest_description"
       },
       {
@@ -2081,7 +2081,7 @@
       {
         "key": "6798d6406ad52e1849131aee description",
         "source": "Good day soldier, I hope you're feeling well because I surely don't, a few of my guys were sent out for a job. However they never returned, and we could not reach them with the radio. It's unlikely that they dipped, so it's safe to assume they were killed. But by who? It's not like they're amateurs, they were actually pretty experienced operators.\n\nAnyway, I sent them out to the forest to check out the emercom camp for a certain task, we lost signal right before they got close to it. Maybe they got ambushed there? And considering that it's a medical camp you will likely find lots of bodies, I believe most of them were dumped inside containers, so I suggest checking all the opened containers inside the camp.\n\nMy guys were USEC, so check if any of the bodies wear USEC clothes or something, maybe their killers also left some gear on them that let's you identify them. And don't forget to be careful, I doubt you will be alone when searching that place, good luck out there soldier.",
-        "translation": "안녕하세요. 오늘은 상태가 괜찮으셨으면 좋겠군요. 저는 그렇지 못하거든요. 제 사람 몇 명을 계약 하나 때문에 내보냈는데 아직 돌아오지 않았습니다. 무전 연락도 끊겼고요. 도망쳤을 가능성은 낮으니, 누군가에게 당했다고 보는 편이 맞겠죠. 문제는 누구에게 당했느냐는 겁니다. 초짜들이 아니라 경험이 꽤 많은 오퍼레이터들이었거든요.\n\n제가 그들을 삼림의 EMERCOM 기지로 보냈습니다. 특정 업무를 확인하러 가던 중이었는데, 기지에 거의 도착하기 직전에 신호가 끊겼어요. 그곳에서 매복을 당했을 수도 있겠군요. 의료 기지인 만큼 시신이 많이 있을 가능성도 있습니다. 들은 바로는 상당수가 컨테이너 안에 버려졌다고 하니, 기지 안에서 열려 있는 컨테이너들을 전부 확인해 주세요.\n\n제 사람들은 USEC이었습니다. 시신 중에 USEC 복장을 한 사람이 있는지 확인하고, 공격자들이 신원을 알아볼 만한 장비를 남겼는지도 살펴봐 주세요. 그리고 조심하세요. 그곳을 조사하는 동안 혼자일 가능성은 낮습니다.",
+        "translation": "안녕하세요. 오늘은 상태가 괜찮으셨으면 좋겠군요. 저는 그렇지 못하거든요. 제 사람 몇 명을 계약 하나 때문에 내보냈는데 아직 돌아오지 않았습니다. 무전 연락도 끊겼고요. 도망쳤을 가능성은 낮으니, 누군가에게 당했다고 보는 편이 맞겠죠. 문제는 누구에게 당했느냐는 겁니다. 초짜들이 아니라 경험이 꽤 많은 오퍼레이터들이었거든요.\n\n제가 그들을 삼림의 EMERCOM 기지로 보냈습니다. 특정 업무를 확인하러 가던 중이었는데, 기지에 거의 도착하기 직전에 신호가 끊겼어요. 그곳에서 매복을 당했을 수도 있겠군요. 의료 기지인 만큼 시신이 많이 있을 가능성도 있습니다. 제 생각에는 시신 대부분이 컨테이너 안에 버려졌을 것으로 보이니, 기지 안에서 열려 있는 컨테이너들을 전부 확인해 주세요.\n\n제 사람들은 USEC이었습니다. 시신 중에 USEC 복장을 한 사람이 있는지 확인하고, 공격자들이 신원을 알아볼 만한 장비를 남겼는지도 살펴봐 주세요. 그리고 조심하세요. 그곳을 조사하는 동안 혼자일 가능성은 낮습니다.",
         "display_type": "quest_description"
       },
       {
@@ -3115,7 +3115,7 @@
       {
         "key": "674dd931e687ffb6dba76b68 description",
         "source": "I got news for you, take a seat.\nRecently a former friend of Jaeger has gone mad, started hunting down people, mainly BEAR and USEC. Previously the man had values, only attacked people that he considered dishonorable. People who survived encounters with him said that they never met someone so crazy, he is placing explosive traps anywhere everywhere, shoots almost everyone he sees. Some Vendors also got annoyed of this guy, including me, however I don't want Jaeger to know that I ordered a hit on his friends, or former friends.\n\nThey call him \"Partisan\", he is well armed, sometimes with a grenadelauncher, his bag is filled with grenades and tripwires. Be extremely careful when dealing with this issue, got it? Oh and bring me one of his belongings, something that you can associate with him. I'll hear from you, good luck out there.",
-        "translation": "새 소식이 있습니다. 앉으시죠.\n\n최근 예거의 옛 친구 하나가 완전히 미쳐버렸다고 합니다. 사람들을 사냥하기 시작했는데, 주로 BEAR와 USEC을 노립니다. 예전에는 나름의 원칙이 있어서 자신이 비열하다고 판단한 사람들만 공격했다고 합니다. 살아남은 사람들 말로는 그렇게 미친 사람은 처음 봤다더군요. 곳곳에 폭발물 함정을 깔고, 눈에 보이는 사람 대부분에게 총을 쏜다고 합니다. 저를 포함해 몇몇 상인들도 그 때문에 상당히 골치가 아픕니다. 다만 제가 예거의 친구, 정확히는 옛 친구에게 처리를 의뢰했다는 사실은 예거가 알지 않았으면 합니다.\n\n사람들은 그를 \"파르티잔\"이라고 부릅니다. 무장도 상당하고, 가끔 유탄발사기까지 들고 다니며 가방에는 수류탄과 트립와이어가 가득하다고 합니다. 이번 건은 특히 조심해서 처리하세요. 그리고 그 사람과 연관 지을 수 있는 물건 하나를 가져와 주세요. 끝나면 연락 바랍니다.",
+        "translation": "새 소식이 있습니다. 앉으시죠.\n\n최근 예거의 옛 친구 하나가 완전히 미쳐버렸다고 합니다. 사람들을 사냥하기 시작했는데, 주로 BEAR와 USEC을 노립니다. 예전에는 나름의 원칙이 있어서 자신이 비열하다고 판단한 사람들만 공격했다고 합니다. 살아남은 사람들 말로는 그렇게 미친 사람은 처음 봤다더군요. 곳곳에 폭발물 함정을 깔고, 눈에 보이는 사람 대부분에게 총을 쏜다고 합니다. 저를 포함해 몇몇 상인들도 그 때문에 상당히 골치가 아픕니다. 다만 제가 예거의 친구, 정확히는 옛 친구를 제거하라고 의뢰했다는 사실은 예거가 알지 않았으면 합니다.\n\n사람들은 그를 \"파르티잔\"이라고 부릅니다. 무장도 상당하고, 가끔 유탄발사기까지 들고 다니며 가방에는 수류탄과 트립와이어가 가득하다고 합니다. 이번 건은 특히 조심해서 처리하세요. 그리고 그 사람과 연관 지을 수 있는 물건 하나를 가져와 주세요. 끝나면 연락 바랍니다.",
         "display_type": "quest_description"
       },
       {
@@ -3410,7 +3410,7 @@
       {
         "key": "674728d52fe62c289180baf3 description",
         "source": "Okay now it's time to make our move. I want you to take out the guards of the gang leaders that had relations to the army. They should not see you, let them think that it's an ambush, so wait till it's dark outside. I really hope that this will work out, but if you do it properly we should be fine.\n\nMy plan is that they will be more cautious after you wipe out a few of them, for the next part you need to dress up in a russian army outfit again and get rid of a bunch of bandits again, they will probably think that is the russian army who attacked them, which might make them attack one of the RUAF camps and make the gangs lose a bunch of guys.",
-        "translation": "좋습니다. 이제 실제로 움직일 때입니다. 러시아군과 연줄이 있던 갱단 두목들의 경비병들을 처리해 주세요. 당신의 모습을 봐서는 안 됩니다. 매복 공격을 당했다고 생각하게 만들어야 하니 밤이 될 때까지 기다리세요. 제대로 처리한다면 계획대로 흘러갈 겁니다.\n\n몇 명을 잃고 나면 갱단들도 더 경계하기 시작하겠죠. 다음 단계에서는 다시 러시아군 복장을 하고 스캐브들을 처리할 겁니다. 그러면 러시아군이 자신들을 공격했다고 판단할 가능성이 높습니다. 운이 좋다면 그들이 RUAF 야영지 하나를 공격하게 만들 수 있고, 양쪽 모두 상당한 인원을 잃겠죠.",
+        "translation": "좋습니다. 이제 실제로 움직일 때입니다. 러시아군과 연줄이 있던 갱단 두목들의 경비병들을 처리해 주세요. 당신의 모습을 봐서는 안 됩니다. 매복 공격을 당했다고 생각하게 만들어야 하니 밤이 될 때까지 기다리세요. 제대로 처리한다면 계획대로 흘러갈 겁니다.\n\n몇 명을 잃고 나면 갱단들도 더 경계하기 시작하겠죠. 다음 단계에서는 다시 러시아군 복장을 하고 스캐브들을 처리할 겁니다. 그러면 러시아군이 자신들을 공격했다고 판단할 가능성이 높습니다. 운이 좋다면 그들이 RUAF 야영지 하나를 공격하게 되어 갱단 측이 상당한 인원을 잃겠죠.",
         "display_type": "quest_description"
       },
       {
@@ -4825,7 +4825,7 @@
       {
         "key": "6747beb0723e16cc522b30a9 description",
         "source": "Are you good with assault rifles? What a question, a soldier that doesn't know how to use a weapon, how ridiculous...\nAnyway, how about you prove your combat skills? Learn how to handle assault rifles, train your aim and learn how to control your recoil. Prove your skills warrior, I count on you.",
-        "translation": "돌격소총은 익숙하게 다루십니까? 군인이 무기 다루는 법을 모른다면 우스운 일이겠죠.\n\n그럼 전투 능력을 증명해 보시죠. 돌격소총을 다루는 법을 익히고, 조준과 반동 제어도 꾸준히 훈련하세요. 실력을 보여주시면 그에 맞는 거래 조건을 열어드리겠습니다.",
+        "translation": "돌격소총은 익숙하게 다루십니까? 군인이 무기 다루는 법을 모른다면 우스운 일이겠죠.\n\n그럼 전투 능력을 증명해 보시죠. 돌격소총을 다루는 법을 익히고, 조준과 반동 제어도 꾸준히 훈련하세요. 실력을 증명해 보세요. 당신을 믿고 맡기겠습니다.",
         "display_type": "quest_description"
       },
       {
@@ -5378,7 +5378,7 @@
       {
         "key": "67d7fa81e32b6be5326c4935 description",
         "source": "Hey there! I got an exquisite offer for you.\n\nYou still remember the job from recently, do you? The one about the auto assault shotguns. Some gunsmith managed to modify semi automatic saiga 12 shotguns to be capable of fully automatic firing, how crazy is that!\n\nI could establish some connection and maybe you will get access to these weapons yourself? You should really see these beasts in action - wouldn't want to stand at the receiving end of that barrel, trust me.\nAnyway, enough talk. You gotta bring some supplies, a few of these ordinary saiga shotguns obviously, aswell as some AKM rifles. Make sure the AKs are fully automatic.\nDon't forget some weapon parts, and a few tools to work with, copy? Avoid bringing broken stuff.",
-        "translation": "안녕하세요. 꽤 괜찮은 제안이 하나 들어왔습니다.\n\n최근에 맡겼던 완전자동 산탄총 건, 기억하시죠? 어떤 총기 기술자가 반자동 사이가-12를 완전자동으로 사격할 수 있게 개조했다고 합니다. 꽤 과격한 물건이죠.\n\n제가 공급망을 하나 연결해 두면 당신도 이런 무기를 구할 수 있을 겁니다. 실제로 굴러가는 모습을 직접 보는 편이 좋겠죠. 저라면 그 총구 앞에는 서고 싶지 않겠지만요.\n\n본론으로 들어가겠습니다. 일반 사이가-12 산탄총 몇 정과 AKM 계열 소총을 가져와 주세요. AK 쪽은 반드시 완전자동 사격이 가능한 모델이어야 합니다. 무기 부품과 작업용 공구도 필요합니다. 망가진 물건은 곤란하니 상태가 좋은 것으로 준비해 주세요.",
+        "translation": "안녕하세요. 꽤 괜찮은 제안이 하나 들어왔습니다.\n\n최근에 맡겼던 완전자동 산탄총 건, 기억하시죠? 어떤 총기 기술자가 반자동 사이가-12를 완전자동으로 사격할 수 있게 개조했다고 합니다. 꽤 과격한 물건이죠.\n\n제가 공급망을 하나 연결해 두면 당신도 이런 무기를 구할 수 있을 겁니다. 실제로 굴러가는 모습을 직접 보는 편이 좋겠죠. 저라면 그 총구 앞에는 서고 싶지 않겠지만요.\n\n본론으로 들어가겠습니다. 일반 사이가-12 산탄총 몇 정과 AKM 계열 소총도 몇 정 가져와 주세요. AK 쪽은 반드시 완전자동 사격이 가능한 모델이어야 합니다. 무기 부품과 작업용 공구도 필요합니다. 망가진 물건은 곤란하니 상태가 좋은 것으로 준비해 주세요.",
         "display_type": "quest_description"
       },
       {
@@ -5419,7 +5419,7 @@
       {
         "key": "67d7ffac0a45f6fea894beb7 description",
         "source": "Alright then, good news for you.\n\nThe gunsmith dude finished working on the weapons. We worked out something to have a stable supply chain of these weapons, you can have the ones you brought the supplies for.\n\nNow to the test - Look for some bandits or whoever else causes trouble on your way and tear them apart with that beast. I suggest you try out your aim with the weapon aswell, so you should hit some people in the arms and legs, and also the body.\n\nCome back later and tell me about the performance, I'm sure it won't be too big of a hassle for you. And bring me back the gun after you're done.",
-        "translation": "좋은 소식입니다.\n\n총기 기술자가 작업을 끝냈습니다. 이 무기를 안정적으로 공급받을 수 있는 경로도 마련했고요. 당신이 재료를 마련한 만큼 한 정은 직접 시험해 보셔도 됩니다.\n\n이제 성능 시험입니다. 길에서 마주치는 스캐브든 다른 골칫거리든 이 무기로 처리해 주세요. 조작성도 확인해야 하니 팔과 다리, 몸통에도 직접 사격해 보시죠.\n\n충분히 시험한 뒤 성능이 어땠는지 알려주세요. 당신에게는 크게 어려운 일이 아닐 겁니다. 시험이 끝나면 총도 다시 가져오시고요.",
+        "translation": "좋은 소식입니다.\n\n총기 기술자가 무기 제작을 끝냈습니다. 이 무기를 안정적으로 공급받을 경로도 마련했고요. 당신이 재료를 가져온 무기들은 가져다 쓰셔도 됩니다.\n\n이제 성능 시험입니다. 길에서 마주치는 도적이나 다른 골칫거리들을 이 무기로 처치해 보세요. 조준 성능도 시험해야 하니 팔과 다리, 몸통에도 명중시켜 보시죠.\n\n나중에 돌아와 성능이 어땠는지 알려주세요. 당신에게는 그리 어려운 일이 아닐 겁니다. 시험을 마치면 총도 다시 가져와 주세요.",
         "display_type": "quest_description"
       },
       {
@@ -5440,7 +5440,7 @@
       {
         "key": "6769e676aaf099da20b7d467 description",
         "source": "Sometimes you can't just get rid of anyone with a headshot, some people wear armor on their head, well in that case it would be something like a helmet for example, or an armored mask but you know what I mean by that...\nAnyway, it's important to know how to take care of it even when your target protects their head, not everything can be stopped by just wearing a heavy bowl on your head.\n\nAre you able to take out some people who are wearing armored headwear? But make sure you eliminate them with a headshot, no cheating. That will be your first challenge for now, good luck out there warrior.",
-        "translation": "항상 헤드샷 한 발로 끝나는 건 아닙니다. 머리에도 방탄 장비를 두르는 사람들이 있으니까요. 헬멧이나 방탄 마스크 같은 것 말입니다.\n\n표적이 머리를 보호하고 있을 때도 확실하게 처리하는 법은 알아둘 필요가 있습니다. 무거운 쇳덩이를 머리에 썼다고 모든 탄환을 막을 수 있는 건 아니니까요.\n\n방탄 머리 장비를 착용한 적들을 상대해 보시겠습니까? 단, 반드시 헤드샷으로 처리해 주세요. 편법은 인정하지 않겠습니다. 첫 번째 과제는 이 정도로 하죠. 조심해서 다녀오세요.",
+        "translation": "항상 헤드샷 한 발로 끝나는 건 아닙니다. 머리에도 방탄 장비를 두르는 사람들이 있으니까요. 헬멧이나 방탄 마스크 같은 것 말입니다.\n\n표적이 머리를 보호하고 있을 때도 확실하게 처리하는 법은 알아둘 필요가 있습니다. 무거운 쇳덩이를 머리에 썼다고 모든 탄환을 막을 수 있는 건 아니니까요.\n\n방탄 머리 장비를 착용한 적들을 상대해 보시겠습니까? 단, 반드시 헤드샷으로 처리해 주세요. 편법은 인정하지 않겠습니다. 첫 번째 과제는 이 정도로 하죠. 행운을 빕니다, 제군.",
         "display_type": "quest_description"
       },
       {
@@ -5461,13 +5461,13 @@
       {
         "key": "6769ef9901adb8c734063eae description",
         "source": "Alright, let's make it more difficult, most bandits and operators here are able to afford cheap headwear, but what about those who wear better stuff? Specifically armor class four, decent but still pretty common, I'm sure it won't be such a problem for you, will it?",
-        "translation": "좋습니다. 이번에는 난도를 조금 올려보죠. 이곳의 스캐브나 오퍼레이터들도 값싼 머리 장비 정도는 구할 수 있습니다. 그렇다면 좀 더 제대로 된 장비를 쓴 상대는 어떨까요?\n\n방탄 등급 4 이상으로 잡겠습니다. 꽤 쓸 만한 등급이지만 아주 드문 물건도 아닙니다. 당신에게는 크게 문제가 되지 않겠죠?",
+        "translation": "좋습니다. 이번에는 난도를 조금 올려보죠. 이곳의 도적이나 오퍼레이터들도 값싼 머리 보호구 정도는 살 수 있습니다. 그렇다면 좀 더 좋은 장비를 착용한 상대는 어떨까요?\n\n구체적으로 방탄 등급 4 장비를 말합니다. 꽤 괜찮은 등급이지만 여전히 흔한 편이죠. 당신에게는 크게 문제가 되지 않겠죠?",
         "display_type": "quest_description"
       },
       {
         "key": "6769ef9901adb8c734063eae successMessagetext",
         "source": "Perfect, however the next job is gonna be a little more difficult... Anyway don't forget your reward, you know where it's stashed.",
-        "translation": "완벽합니다. 다음 계약은 조금 더 까다로울 겁니다. 보수도 잊지 마세요. 늘 전달하던 곳에 준비해 두겠습니다."
+        "translation": "완벽합니다. 다만 다음 계약은 조금 더 어려울 겁니다... 아무튼 보수도 잊지 마세요. 어디에 숨겨 두었는지는 아시죠."
       },
       {
         "key": "6769f19bd7596790a9041340",
@@ -5482,13 +5482,13 @@
       {
         "key": "6769f0be9610d5eb0d23e7cc description",
         "source": "Ready for another challenge? Alright, listen up then.\nClass four headwear might be not that rare, but class five and six...\nMost operators hate them because they fuck up your hearing and your vision if you wear a visor with them, but the bandits don't care at all. If you want to have more luck with finding people who are wearing these helmets, I suggest you check on some of the local gangs, specifically the bodyguards there. You know what you need to do, report back to me once your done, and good luck.",
-        "translation": "다음 과제도 준비되셨습니까? 좋습니다.\n방탄 등급 4 정도는 흔한 편이지만 5나 6은 이야기가 다르죠.\n\n대부분의 오퍼레이터는 이런 장비를 꺼립니다. 무겁고, 바이저까지 내리면 청각과 시야를 크게 방해하니까요. 하지만 지역 갱단은 그런 걸 별로 신경 쓰지 않는 모양입니다. 이런 헬멧을 쓴 표적을 찾고 싶다면 각 지역 갱단, 특히 보스 경호원들을 확인해 보세요. 무엇을 해야 하는지는 아시겠죠. 끝나면 보고해 주세요.",
+        "translation": "다음 과제도 준비되셨습니까? 좋습니다. 그럼 잘 들으세요.\n방탄 등급 4 머리 보호구는 그다지 드물지 않지만, 5등급과 6등급은 이야기가 다릅니다.\n대부분의 오퍼레이터는 이런 장비를 싫어합니다. 바이저까지 착용하면 청각과 시야를 심하게 방해하거든요. 하지만 지역 도적들은 전혀 신경 쓰지 않습니다. 이런 헬멧을 쓴 상대를 더 쉽게 찾으려면 지역 갱단, 특히 그 경호원들을 살펴보세요. 해야 할 일은 아시죠? 끝나면 보고해 주세요. 행운을 빕니다.",
         "display_type": "quest_description"
       },
       {
         "key": "6769f0be9610d5eb0d23e7cc successMessagetext",
         "source": "You're back, great! So how was the hunt? Fun right? I know, anyway don't forget to pick up your payment.",
-        "translation": "돌아오셨군요. 좋습니다. 사냥은 좀 즐거웠습니까? 어쨌든 약속한 보수는 챙겨가세요."
+        "translation": "돌아오셨군요. 좋습니다! 사냥은 어땠습니까? 재미있었죠? 그럴 줄 알았습니다. 아무튼 보수도 꼭 챙겨 가세요."
       },
       {
         "key": "67517b1dce089a3dd8afdf4d",
@@ -5534,7 +5534,7 @@
       {
         "key": "67517bceebe6088837aa2dab description",
         "source": "Moving on, how about 5.56x45 weapons and ten-round magazines?\nI hope you are prepared because that will be the next challenge. So far I only know about ar-15 and aug compatible ten-rounders, so good luck.\n\nSpecified Magazines :\n - 5.56x45 Magpul PMAG 10 GEN M3 STANAG 10-Round Magazine\n - Steyr AUG 5.56x45 10-Round Magazine",
-        "translation": "다음은 5.56x45 무기와 10발 탄창입니다.\n이번 과제도 준비해 두시죠. 제가 아는 범위에서는 AR-15와 AUG용 10발 탄창이 있습니다. 어떤 쪽을 선택하든 조건만 맞으면 됩니다.\n\n지정 탄창:\n - 10발, 맥풀 PMAG 10 GEN M3 STANAG 5.56x45 탄창\n - 10발, 슈타이어 AUG 5.56x45 탄창",
+        "translation": "다음은 5.56x45 탄종의 무기와 10발 탄창입니다.\n이번 과제가 바로 그 도전이니 준비해 두셨길 바랍니다. 지금까지 제가 아는 10발 탄창은 AR-15 계열과 AUG에 호환되는 것들뿐입니다. 행운을 빕니다.\n\n지정 탄창:\n - 10발, 맥풀 PMAG 10 GEN M3 STANAG 5.56x45 탄창\n - 10발, 슈타이어 AUG 5.56x45 탄창",
         "display_type": "quest_description"
       },
       {
@@ -5612,7 +5612,7 @@
       {
         "key": "67517c8c5c2a6190c8dae8a4 description",
         "source": "Hold on there! We're not done, there is a second part, other 7.62x51 guns also have ten-round magazines, you're gonna hate them so you better prepare mentally.\nI don't think you would want to use a FAL with a ten-round magazine, you still have the option, but an M1A with a ten-rounder would be valid aswell, come back when you're done and good luck out there.\n\nSpecified Magazines :\n - M1A 7.62x51 10-Round Magazine\n - SA-58 / FAL 7.62x51 10-Round Magazine",
-        "translation": "잠깐, 아직 끝난 게 아닙니다. 7.62x51 무기 중에는 10발 탄창을 쓰는 것이 더 있거든요. 아마 마음에 들지는 않을 테니 미리 각오해 두시는 편이 좋겠습니다.\n\nFAL에 10발 탄창을 쓰고 싶지는 않겠지만 선택은 자유입니다. M1A의 10발 탄창을 사용해도 조건은 충족됩니다. 끝나면 돌아오세요.\n\n지정 탄창:\n - 10발, M1A 7.62x51 탄창\n - 10발, SA-58 / FAL 7.62x51 탄창",
+        "translation": "잠깐, 아직 끝난 게 아닙니다. 두 번째 과제가 있어요. 다른 7.62x51 무기들에도 10발 탄창이 있습니다. 분명 마음에 들지 않을 테니 단단히 각오하세요.\n\nFAL에 10발 탄창을 쓰고 싶지는 않겠지만 그 방법도 선택할 수 있습니다. M1A에 10발 탄창을 쓰는 것도 인정됩니다. 끝나면 돌아오세요. 행운을 빕니다.\n\n지정 탄창:\n - 10발, M1A 7.62x51 탄창\n - 10발, SA-58 / FAL 7.62x51 탄창",
         "display_type": "quest_description"
       },
       {
@@ -5670,7 +5670,7 @@
       {
         "key": "67548fb1d293a6e93d5184a4 successMessagetext",
         "source": "Amazing, one less bandit, but don't get too excited, I got more tasks for you warrior.",
-        "translation": "좋습니다. 골칫거리 하나가 줄었군요. 하지만 너무 만족하지는 마세요. 아직 맡길 계약이 더 있습니다."
+        "translation": "훌륭합니다. 도적 하나가 줄었군요. 하지만 너무 들뜨지는 마세요, 전사님. 아직 맡길 일이 더 있습니다."
       },
       {
         "key": "67575d0e2a131233a0aeb50e",
@@ -5772,7 +5772,7 @@
       {
         "key": "67575de81b1736276da6f0c3 description",
         "source": "Let me check my list real quick...\nHmmm, the maniac at the ULTRA shopping mall? Oh boy, I don't think we should pick a fight with this guy, word got around how dangerous this guy is. Eliminating squads of PMC operatives all by himself... Wow...\n\nWell, good think we don't need to get our hands dirty, except for one thing however. You still remember how to set up grenade traps? Fantastic! That's the plan again, somewhere on the garage floor he has his own saferoom where he basically lives and keeps all his goods, I heard rumors about tunnels that were connecting to bunkers or something and apparently one of these tunnels can be found inside there. Hmm, shame we won't find out when this guy is dead.\n\nYou know what to do, locate that saferoom and plant a trap outside of it, no need to get your hands dirty if you can get rid of this asshole the easy way, right?",
-        "translation": "목록을 좀 확인해 보죠...\n음, ULTRA 쇼핑몰의 그 미치광이라. 이 사람과 정면으로 싸우는 건 그리 좋은 선택이 아닐 것 같군요. 혼자서 PMC 분대까지 쓸어버린다는 이야기가 돌 정도니까요.\n\n다행히 직접 손을 더럽힐 필요는 없습니다. 수류탄 함정 설치법은 아직 기억하시죠? 이번에도 같은 방법을 쓰겠습니다. 지하 주차장 쪽에 그자가 자기 물건을 보관하며 지내는 세이프룸이 있다고 합니다. 벙커와 이어지는 터널 이야기도 있던데, 그중 하나가 안에 연결돼 있다는 소문도 있고요. 그자가 사라지고 나면 확인하기 어렵겠지만요.\n\n세이프룸을 찾아 입구에 함정을 설치해 주세요. 쉬운 방법으로 처리할 수 있다면 굳이 정면승부를 할 필요는 없겠죠.",
+        "translation": "목록을 좀 확인해 보죠...\n음, ULTRA 쇼핑몰의 그 미치광이라. 이 사람과 정면으로 싸우는 건 그리 좋은 선택이 아닐 것 같군요. 혼자서 PMC 분대까지 쓸어버린다는 이야기가 돌 정도니까요.\n\n다행히 직접 손을 더럽힐 필요는 없습니다. 수류탄 함정 설치법은 아직 기억하시죠? 이번에도 같은 방법을 쓰겠습니다. 지하 주차장 쪽에 그자가 자기 물건을 보관하며 지내는 세이프룸이 있다고 합니다. 벙커와 이어지는 터널 이야기도 있던데, 그중 하나가 안에 연결돼 있다는 소문도 있고요. 그자가 죽고 나면 확인하기 어렵겠지만요.\n\n세이프룸을 찾아 입구에 함정을 설치해 주세요. 쉬운 방법으로 처리할 수 있다면 굳이 정면승부를 할 필요는 없겠죠.",
         "display_type": "quest_description"
       },
       {
@@ -5864,7 +5864,7 @@
       {
         "key": "6762516bfbdc2715070c1800 description",
         "source": "Well... Bad news. Remember the grenade trap you set up at the gang's stash at the sawmill?\n\nLooks like a few curious PMCs tried to pick a fight with this bandit gang and somehow your trap got destroyed or disarmed, I could only assume...\nSo now it's plan B, you take care of these bandits yourself the old fashion way. Get rid of their leader, and don't forget the two bodyguards who follow him around everywhere. Also bring me one of the leader's primary weapons, clean condition. Got it?",
-        "translation": "좋지 않은 소식이 있습니다. 제재소 갱단의 은닉처에 설치했던 수류탄 함정 기억하시죠?\n\n호기심 많은 PMC 몇 명이 그 갱단과 싸움을 벌인 모양인데, 그 과정에서 함정이 파괴됐거나 해제된 것 같습니다. 흔적이 거의 남지 않아 확실한 건 아니지만요.\n\n그래서 계획 B로 가겠습니다. 이번에는 직접 처리해 주세요. 우두머리와 늘 따라다니는 경호원 둘을 제거하고, 우두머리가 쓰는 주무기 중 하나도 상태 좋은 것으로 가져와 주세요. 이해하셨죠?",
+        "translation": "흠... 안 좋은 소식입니다. 제재소 갱단의 은닉처에 설치했던 수류탄 함정 기억하시죠?\n\n호기심 많은 PMC 몇 명이 그 갱단과 싸움을 벌이려 했던 모양입니다. 그 과정에서 당신이 설치한 함정이 파괴됐거나 해제된 것 같은데, 어디까지나 제 추측입니다.\n\n그러니 이제 계획 B로 가죠. 이번에는 그 도적들을 직접 처리해 주세요. 우두머리를 제거하고, 언제나 곁을 지키는 경호원 두 명도 잊지 마세요. 우두머리의 주무기 중 하나를 상태 좋은 것으로 가져와 주세요. 알겠습니까?",
         "display_type": "quest_description"
       },
       {
@@ -5905,7 +5905,7 @@
       {
         "key": "67624ce5ad9d2e9714bf6120 description",
         "source": "I hate to tell you, but you need to know.\nWell it turns out someone got a bit curious, and another dealer hired operators to search for sanitars office. Well, by the looks of it, someone disarmed it, at least that is my theory because there is no trace of it left. As if it was never there...\n\nWell, you know what you have to do, while you're at it, bring me sanitar's bag. Beware of his bodyguards however, they are extremely dangerous, armed to the teeth, top tier armor, weapons and ammunition. Sanitar however...\nNot such a big threat as you'd think, still someone you need to worry about, and keep in mind how crazy these people are, stay safe and good luck.",
-        "translation": "좋은 소식은 아닙니다만 알아두셔야 합니다.\n다른 상인이 호기심을 보였는지 오퍼레이터들을 고용해 세니타의 사무실을 뒤졌다고 합니다. 그 과정에서 우리가 설치한 함정이 해제된 것 같습니다. 적어도 제 추측으로는 그렇습니다. 흔적이 완전히 사라졌거든요.\n\n이제 무엇을 해야 할지는 아시겠죠. 세니타와 경호원들을 직접 처리해 주세요. 그리고 세니타의 가방도 가져오시고요. 경호원들은 특히 조심하세요. 최상급 방어구와 무기, 탄약으로 무장한 위험한 자들입니다. 세니타 본인은 생각만큼 강한 상대는 아닐 수도 있지만 방심할 사람도 아닙니다. 모두 제정신이 아닌 자들이니 안전을 우선하시죠.",
+        "translation": "좋은 소식은 아닙니다만 알아두셔야 합니다.\n다른 상인이 호기심을 보였는지 오퍼레이터들을 고용해 세니타의 사무실을 뒤졌다고 합니다. 그 과정에서 우리가 설치한 함정이 해제된 것 같습니다. 적어도 제 추측으로는 그렇습니다. 흔적이 완전히 사라졌거든요.\n\n이제 무엇을 해야 할지는 아시겠죠. 세니타와 경호원들을 직접 처리해 주세요. 그리고 세니타의 가방도 가져오시고요. 경호원들은 특히 조심하세요. 최상급 방어구와 무기, 탄약으로 무장한 위험한 자들입니다. 세니타 본인은 생각만큼 강한 상대는 아닐 수도 있지만 방심할 사람도 아닙니다. 모두 제정신이 아닌 자들이니 몸조심하시고 행운을 빕니다.",
         "display_type": "quest_description"
       },
       {
@@ -5941,13 +5941,13 @@
       {
         "key": "6747c1e4c6f655f7863b727f description",
         "source": "Hello, you busy? Do you like shopping, because I do! Unfortunately the ULTRA shopping mall in Tarkov is way too hot. I heard that the place is stocked up with high value stuff. Apparently there is some maniac running around there who is looting everything and gunning down whoever he sees. Heavily armored and dressed in a black tracksuit with white stripes, you won't overlook him. I have an idea tho, just killing this psychopath would make some people think that the mall is safer now, so whats my plan now? Right, you kill him and then take his shit, smoke a bunch of PMC operatives while you are dressed like him, use one of his guns aswell. Do it for some time to make the people think that the mall is still heated.\n\nKilla Gear :\n - Maska-1SCh Killa Edition / Diamond Age NeoSteel\n - 6B13M Killa Edition\n - RPK-16 / AKMS / PP-19 Vityaz / TT-33 / Desert Eagle Pistol\n\nWhy do I even need to write this down for you? You will take his gear anyway... forget it, keep this note just in case.",
-        "translation": "안녕하세요. 지금 바쁘십니까? 쇼핑은 좋아하시나요? 저는 꽤 좋아합니다. 문제는 타르코프의 ULTRA 쇼핑몰이 너무 위험하다는 거죠. 값나가는 물건이 상당히 많이 남아 있다는 이야기를 들었습니다. 그런데 검은색 바탕에 흰 줄이 들어간 운동복을 입고 중무장한 미치광이가 돌아다니면서 보이는 사람마다 쏴버린다고 하더군요. 못 알아볼 일은 없을 겁니다.\n\n그자를 그냥 죽여버리면 사람들이 쇼핑몰이 안전해졌다고 생각하겠죠. 그래서 한 단계 더 가겠습니다. 킬라를 처리한 뒤 그자의 장비를 챙겨 입고, 같은 계열의 무기를 사용해 PMC 오퍼레이터들을 처리하세요. 쇼핑몰이 아직도 위험하다는 인상을 충분히 남겨야 합니다. 그동안 제 사람들은 필요한 물건을 챙길 수 있을 테니까요.\n\n킬라 장비:\n - Maska-1SCh 킬라 에디션 / Diamond Age NeoSteel\n - 6B13M 킬라 에디션\n - RPK-16 / AKMS / PP-19 비탸지 / TT-33 / 데저트 이글 권총\n\n이걸 왜 굳이 적어드리는지 모르겠군요. 어차피 장비는 챙기실 테니까요. 그래도 혹시 모르니 목록은 가지고 계세요.",
+        "translation": "안녕하세요. 지금 바쁘십니까? 쇼핑은 좋아하시나요? 저는 꽤 좋아합니다. 문제는 타르코프의 ULTRA 쇼핑몰이 너무 위험하다는 거죠. 값나가는 물건이 상당히 많이 남아 있다는 이야기를 들었습니다. 그런데 검은색 바탕에 흰 줄이 들어간 운동복을 입고 중무장한 미치광이가 돌아다니면서 보이는 사람마다 쏴버린다고 하더군요. 못 알아볼 일은 없을 겁니다.\n\n그자를 그냥 죽여버리면 사람들이 쇼핑몰이 안전해졌다고 생각하겠죠. 그래서 한 단계 더 가겠습니다. 킬라를 처리한 뒤 그자의 장비를 챙겨 입고, 그자가 쓰던 무기 가운데 하나를 사용해 PMC 오퍼레이터들을 처리하세요. 쇼핑몰이 아직도 위험하다는 인상을 충분히 남겨야 합니다.\n\n킬라 장비:\n - Maska-1SCh 킬라 에디션 / Diamond Age NeoSteel\n - 6B13M 킬라 에디션\n - RPK-16 / AKMS / PP-19 비탸지 / TT-33 / 데저트 이글 권총\n\n이걸 왜 굳이 적어드리는지 모르겠군요. 어차피 장비는 챙기실 테니까요. 그래도 혹시 모르니 목록은 가지고 계세요.",
         "display_type": "quest_description"
       },
       {
         "key": "6747c1e4c6f655f7863b727f successMessagetext",
         "source": "Nice one, the fucker is dead and some of my guys managed to completely loot the stores. Good job!",
-        "translation": "잘하셨습니다. 그자가 사라진 사이 제 사람들이 매장을 제대로 훑어냈습니다. 좋은 결과군요."
+        "translation": "좋습니다. 그 자식이 죽었고 제 사람들도 매장을 모조리 털어냈습니다. 잘하셨습니다!"
       },
       {
         "key": "676255a02e0ba311e6eea0c2",
@@ -5987,7 +5987,7 @@
       {
         "key": "6762543fbaa292049e4cea52 description",
         "source": "Well hello there soldier. I am not sure if you noticed already, but somewhere in the old chemical factory there is this crazy guy running around with a sledgehammer beating almost everyone he sees to death, absolute maniac...\n\nLong story short, we need to get rid of this crazy motherfucker, temporary or permanent, doesn't matter, and we need his gear and some time. Be careful when fighting, you might not be the only one looking for him, and this madman is armed to the teeth and is very armored, and make sure his gear is not too damaged alright?",
-        "translation": "안녕하세요. 이미 보셨는지는 모르겠지만, 오래된 화학 공장에 대형 망치를 들고 돌아다니며 보이는 사람을 두들겨 죽이는 미치광이가 있습니다.\n\n요점만 말씀드리죠. 일시적이든 영구적이든 그자를 치워야 합니다. 그리고 장비도 필요합니다. 교전할 때는 조심하세요. 당신 말고도 그자를 노리는 사람이 있을 수 있고, 본인도 중무장에 방탄 장비까지 제대로 갖추고 있습니다. 가져올 장비는 너무 망가뜨리지 않는 편이 좋겠습니다.",
+        "translation": "안녕하세요. 이미 보셨는지는 모르겠지만, 오래된 화학 공장에 대형 망치를 들고 돌아다니며 보이는 사람을 두들겨 죽이는 미치광이가 있습니다.\n\n요점만 말씀드리죠. 일시적이든 영구적이든 그자를 치워야 합니다. 그자의 장비도 필요하고, 시간도 조금 필요합니다. 교전할 때는 조심하세요. 당신 말고도 그자를 노리는 사람이 있을 수 있고, 본인도 중무장에 방탄 장비까지 제대로 갖추고 있습니다. 가져올 장비는 너무 망가뜨리지 않는 편이 좋겠습니다.",
         "display_type": "quest_description"
       },
       {
@@ -6054,7 +6054,7 @@
       {
         "key": "6757627e2e0ce3039da399f0 description",
         "source": "Maybe it wasn't the brightest idea to use these kind of traps against this weakling, since he always hides behind his bodyguards they were the ones who got greeted by your traps.\n\nHe might be a coward, but that doesn't mean that he can't be dangerous, after all he already is such a big problem.\n\nAnyway, you take him out, don't forget his guards, take his golden gun and bring it to me. Also, wouldn't it be funny if you take out all his guards first and then him? He'd be scared to death, anyway, ready to pay back these guys again?",
-        "translation": "그 겁쟁이를 상대로 함정을 쓴 건 썩 좋은 판단이 아니었던 것 같습니다. 늘 경호원들 뒤에 숨어 다니는 사람이라 정작 함정에 걸린 건 부하들이었을 가능성이 높거든요.\n\n겁쟁이라고 해서 위험하지 않은 건 아닙니다. 이미 우리 사업에 상당한 골칫거리가 되고 있으니까요.\n\n이번에는 직접 처리해 주세요. 경호원들도 잊지 마시고, 르샬라가 쓰는 황금색 권총도 가져오세요. 경호원들을 먼저 전부 정리한 뒤 마지막에 그자를 처리하면 꽤 재미있는 광경이 되겠군요. 이번에도 확실하게 정산하고 오시죠.",
+        "translation": "그 겁쟁이를 상대로 이런 함정을 쓴 건 그리 좋은 생각이 아니었을지도 모르겠습니다. 그자는 늘 경호원들 뒤에 숨어 있으니, 당신이 설치한 함정에 걸린 건 경호원들이었죠.\n\n겁쟁이라고 해서 위험하지 않은 건 아닙니다. 이미 우리에게 큰 골칫거리니까요.\n\n아무튼 이번에는 그자를 직접 처리해 주세요. 경호원들도 잊지 말고, 그자의 황금색 권총을 가져오세요. 경호원들을 먼저 전부 처리하고 마지막에 그자를 처치하면 꽤 재미있지 않겠습니까? 겁에 질려 죽을 지경이 될 텐데요. 자, 다시 한번 놈들에게 대가를 치르게 해 줄 준비는 됐습니까?",
         "display_type": "quest_description"
       },
       {
@@ -6122,7 +6122,7 @@
       {
         "key": "6762597817a433eeee2ef47a successMessagetext",
         "source": "Good. Let's hope these guys don't come back anytime soon.",
-        "translation": "좋습니다. 당분간 그 사람들이 다시 문제를 일으키지 않기를 바라야겠군요."
+        "translation": "좋습니다. 그놈들이 당분간 다시 돌아오지 않기를 바라야겠군요."
       },
       {
         "key": "67625c3a662f4b906135fdd9",
@@ -6142,7 +6142,7 @@
       {
         "key": "67625a4c9ac37a06ed638698 description",
         "source": "By the looks of it, this weird assault rifle you took from glukhar is a real beast, it fires 12.7x55mm rounds, no wonder he carried it around.\nIt seems like he was one of few who had access to these kind of weapons, which could mean that the military base might have more visitors than usual if people notice that this gang is absent.\n\nI guess it wouldn't hurt to get rid of a bunch of operators there with one of these rifles? And keep in mind that this thing attracts attention, people will be looking for you, after all you aren't the only one who hunts these bandits down.\nWell, good luck out there, and don't forget to collect all the dogtags you obtain.",
-        "translation": "글루하에게서 가져온 그 돌격소총은 정말 괴물 같은 물건이군요. 12.7x55mm 탄을 쓴다니 그자가 들고 다닌 것도 이해가 됩니다.\n\n이런 무기를 구할 수 있는 사람이 많지 않았다면, 갱단이 사라졌다는 소문이 돈 뒤 군사 기지를 찾는 사람이 늘어날 가능성이 높습니다.\n\n그렇다면 그곳에서 이 소총으로 오퍼레이터들을 조금 정리해 두는 것도 나쁘지 않겠죠. 다만 이 무기는 소리가 크고 눈에 잘 띕니다. 당신을 노리는 사람들도 생길 겁니다. 그 갱단을 사냥하는 사람이 당신뿐인 건 아니니까요. 처리한 PMC의 인식표도 잊지 말고 가져오세요.",
+        "translation": "글루하에게서 가져온 그 돌격소총은 정말 괴물 같은 물건이군요. 12.7x55mm 탄을 쓴다니 그자가 들고 다닌 것도 이해가 됩니다.\n\n이런 무기를 구할 수 있는 사람이 많지 않았다면, 갱단이 사라졌다는 소문이 돈 뒤 군사 기지를 찾는 사람이 늘어날 가능성이 높습니다.\n\n그렇다면 그곳에서 이 소총으로 오퍼레이터들을 조금 정리해 두는 것도 나쁘지 않겠죠. 다만 이 무기는 소리가 크고 눈에 잘 띕니다. 당신을 노리는 사람들도 생길 겁니다. 그 갱단을 사냥하는 사람이 당신뿐인 건 아니니까요. 행운을 빕니다. 처리한 PMC의 인식표도 잊지 말고 가져오세요.",
         "display_type": "quest_description"
       },
       {
@@ -6198,7 +6198,7 @@
       {
         "key": "6747c0991fa4b29ab5692551 name",
         "source": "Bandit Hunt - Imports",
-        "translation": "갱단 사냥 - 수입품"
+        "translation": "갱단 사냥 - 외지인들"
       },
       {
         "key": "6747c0991fa4b29ab5692551 description",
@@ -6264,7 +6264,7 @@
       {
         "key": "6748842621601ad21fb2bcb9 description",
         "source": "Listen up soldier, this is a special task. So I did my research, turns out that the island is guarded by cultists marksmen, they are deadly and accurate. Be careful with them, take them out from a distance with a high power rifle, I might lend you a very special sniper rifle and a few bullets for it to take these guys out. And don't forget that the island bridge is full of mines, be careful when crossing it, however you will most likely need to visit the island to take this guys gear, I want to see his mask, chestrig and both of his weapons. I count on you, good luck.\n\nOh wait, one more thing, I assume mechanic helped you get this weird transmitter thing, right?\nDo yourself a favor, don't take it with you when killing this weird cultist, it will probably get decoded and leave a trace.",
-        "translation": "이번에는 특별한 계약입니다. 조사해 보니 그 섬은 컬티스트 명사수들이 지키고 있더군요. 정확하고 치명적인 자들이니 조심해야 합니다. 장거리에서 고위력 소총으로 처리하는 편이 좋겠습니다. 필요하다면 제가 특수한 저격소총과 탄약 몇 발을 빌려드릴 수도 있습니다.\n\n섬으로 이어지는 다리에는 지뢰가 가득하니 건널 때 특히 주의하세요. 그래도 그자의 장비를 확보하려면 결국 섬에 들어가야 할 겁니다. 마스크와 체스트 리그, 그리고 그자가 사용하는 두 종류의 무기를 전부 확인하고 싶습니다. 당신을 믿겠습니다.\n\n아, 한 가지 더. 메카닉에게서 이상한 송신기 하나를 받으셨죠? 이 컬티스트를 처리하러 갈 때는 가져가지 않는 편이 좋습니다. 암호가 풀리거나 흔적이 남을 수도 있으니까요.",
+        "translation": "이번에는 특별한 계약입니다. 조사해 보니 그 섬은 컬티스트 명사수들이 지키고 있더군요. 정확하고 치명적인 자들이니 조심해야 합니다. 장거리에서 고위력 소총으로 처리하는 편이 좋겠습니다. 필요하다면 제가 특수한 저격소총과 탄약 몇 발을 빌려드릴 수도 있습니다.\n\n섬으로 이어지는 다리에는 지뢰가 가득하니 건널 때 특히 주의하세요. 그래도 그자의 장비를 확보하려면 결국 섬에 들어가야 할 겁니다. 마스크와 체스트 리그, 그리고 그자가 사용하는 두 종류의 무기를 전부 확인하고 싶습니다. 당신을 믿겠습니다. 행운을 빕니다.\n\n아, 한 가지 더. 메카닉에게서 이상한 송신기 하나를 받으셨죠? 이 컬티스트를 처리하러 갈 때는 가져가지 않는 편이 좋습니다. 암호가 풀리거나 흔적이 남을 수도 있으니까요.",
         "display_type": "quest_description"
       },
       {
@@ -6557,7 +6557,7 @@
       {
         "key": "677eed2aa7eeba8a46e225c3 successMessagetext",
         "source": "Fantastic work out there soldier, so what do you think? Are these weapons ideal for people with taste?",
-        "translation": "훌륭했습니다. 어떻습니까? 이 무기들이 정말 취향 있는 사람에게 딱 맞던가요?"
+        "translation": "현장에서 훌륭하게 해내셨습니다, 군인. 그래서 어떻습니까? 이 무기들이 정말 취향을 아는 사람들에게 딱 맞는 무기였습니까?"
       },
       {
         "key": "674887692b31cf452fd6e603",
@@ -6816,13 +6816,13 @@
       {
         "key": "67488968207f0a42349fcf8b description",
         "source": "So, we are making an attempt to raid the military base. It's also really dangerous, full of raiders, bandits and PMC operatives. There is also this former russian marine with his guys, top tier armor and weapons so be careful when you see them.\n\nI really need some documents and technology that is located in that base, I would be very grateful if you can clean up the base a little so I can send someone else in there again to grab the stuff I need. We will stay in touch.",
-        "translation": "이번에는 군사 기지를 정리할 생각입니다. 상당히 위험한 곳이죠. 레이더, 스캐브, PMC 오퍼레이터가 가득합니다. 전직 러시아 해병 출신이라는 우두머리와 부하들도 있고요. 최상급 방어구와 무기로 무장했으니 마주치면 조심하세요.\n\n그 기지 안에 제가 꼭 확보해야 할 문서와 기술 자료가 있습니다. 먼저 그곳을 조금 정리해 주시면, 제 사람을 다시 들여보내 필요한 물건을 회수할 수 있을 겁니다. 처리해 주신다면 큰 도움이 되겠군요. 연락은 계속 유지하겠습니다.",
+        "translation": "이번에는 군사 기지를 급습해 볼 생각입니다. 그곳은 상당히 위험합니다. 레이더와 도적, PMC 오퍼레이터가 가득하죠. 전직 러시아 해병이라는 자와 그 부하들도 있습니다. 최상급 방탄복과 무기로 무장했으니 마주치면 조심하세요.\n\n그 기지에는 제가 꼭 확보해야 할 문서와 기술 관련 물품이 있습니다. 먼저 그곳의 적들을 조금 정리해 주시면 제 사람을 다시 들여보내 필요한 물건을 가져오게 할 수 있을 겁니다. 그렇게 해주신다면 정말 고맙겠습니다. 계속 연락하겠습니다.",
         "display_type": "quest_description"
       },
       {
         "key": "67488968207f0a42349fcf8b successMessagetext",
         "source": "Yep, it's a lot safer to go in there now. Thank you soldier.",
-        "translation": "이제 들어가기가 훨씬 안전해졌군요. 감사합니다."
+        "translation": "그래, 이제 그곳에 들어가기가 훨씬 안전해졌군. 고맙네, 제군."
       },
       {
         "key": "67488a2ece1b6c89d84fd834",
@@ -6955,7 +6955,7 @@
       {
         "key": "67488b377f95f5b5e21b605c successMessagetext",
         "source": "Wow, just wow. You really got a lot of blood on your hands now haha! Nice one soldier, a true warrior that is keeping the region safer. Take this, you certainly deserve it.",
-        "translation": "이건 정말 대단하군요. 이제 손에 피를 꽤 많이 묻히셨겠습니다. 그래도 지역을 더 안전하게 만든 건 사실이죠. 이건 받아가세요. 충분히 받을 만한 보수입니다."
+        "translation": "와, 정말 대단하군요. 이제 손에 피를 잔뜩 묻히셨겠어요. 하하! 잘하셨습니다, 제군. 이 지역을 더 안전하게 만드는 진정한 전사로군요. 자, 이걸 받으세요. 충분히 받을 자격이 있습니다."
       },
       {
         "key": "6750a256ff1e6da76af89655",
@@ -7041,7 +7041,7 @@
       {
         "key": "6750a04d753056276248642d successMessagetext",
         "source": "Excellent. For your own protection I had to keep your identity a secret to the other vendors, the risk just would be too high considering how many dangerous and powerful people you got rid off... for now at least. Anyway, you never know how many loyal people they got hidden right infront of your eyes.",
-        "translation": "훌륭합니다. 당신이 얼마나 위험하고 영향력 있는 사람들을 처리했는지 생각하면, 신변 보호를 위해 다른 상인들에게는 당신의 신원을 숨길 수밖에 없었습니다. 적어도 지금은요. 그들에게 충성하는 사람이 바로 눈앞 어디에 숨어 있을지 알 수 없으니까요."
+        "translation": "훌륭합니다. 당신이 그렇게 많은 위험하고 강력한 사람들을 제거한 것을 생각하면, 신변 보호를 위해 다른 상인들에게도 당신의 신원을 숨길 수밖에 없었습니다. 적어도 지금으로서는 말이죠. 그들에게 충성하는 사람들이 바로 당신 눈앞에 얼마나 많이 숨어 있을지는 알 수 없으니까요."
       },
       {
         "key": "679a2a703a8c4b8a9cadc6d1",
@@ -7076,7 +7076,7 @@
       {
         "key": "679a16f9588df6cd38f9de8d description",
         "source": "I received your message mercenary, I guess that is one way to contact me, you know you could have come here personally, right?\nAnyway, to the point, you need help with something and I need someone to do a few jobs for me.\nOr is it someone else who's requiring my assistance, and you are just the messenger? But hey, unless you started to work for some local criminal gang or some shady dealer, I don't mind, none of my business, although I'd wish to meet whoever sent you, but that's a concern for later.\n\nOnto business then, there are servers located in the Terragroup laboratory in section B21. I claimed some of them some time ago when I sent mercs like you into the lab for a job, however recently one of them got damaged.\nI assume there has been a firefight in the server room... Collateral damage if I had to guess.\n\nAh yeah, one more thing, while you're at it running around and fixing things, the camera outside my hideout could use a repair too, it's acting up for some reason, beeping and lights are flickering, I would fix it myself but more important things require my attention at the moment.\n\nThe server room has four sections, my servers are located in the part where the lights are out. If you enter the server room from section B22, you need to look all the way left, that's where they should be, and the one you need to fix is blocked off by a ladder.\nThis is as much info as I can give you, and it's pretty much more than enough to handle this job, understood?",
-        "translation": "메시지는 받았네, 용병. 연락하는 방법이야 여러 가지라지만 직접 찾아와도 됐다는 건 알고 있겠지?\n\n아무튼 본론으로 가지. 자네는 도움이 필요하고, 나는 몇 가지 일을 처리해 줄 사람이 필요하네. 아니면 내 도움이 필요한 건 다른 사람이고 자네는 단순한 전달책인가? 뭐, 자네가 현지 범죄 조직이나 수상한 장사치 밑에서 일하기 시작한 게 아니라면 상관없네. 내 알 바는 아니지. 누가 자네를 보냈는지는 한번 만나보고 싶지만, 그건 나중 문제고.\n\n일 이야기부터 하지. 테라그룹 연구소 B21 구역에 서버가 몇 대 있네. 예전에 자네 같은 용병들을 연구소로 보냈을 때 내가 확보해 둔 것들인데, 최근 그중 한 대가 손상됐어. 서버실에서 총격전이 있었던 모양이더군. 아마 유탄이나 총알에 얻어맞은 부수적 피해겠지.\n\n아, 하나 더 있네. 어차피 여기저기 돌아다니며 수리할 거라면 내 은신처 밖 카메라도 좀 손봐주게. 무슨 문제인지 삑삑거리면서 불빛이 깜빡이고 있어. 내가 직접 고쳐도 되지만 지금은 더 중요한 일에 손이 묶여 있거든.\n\n서버실은 네 구역으로 나뉘어 있고, 내 서버는 불이 꺼진 쪽에 있네. B22 구역에서 서버실로 들어가면 맨 왼쪽을 보게. 거기 있을 거야. 수리해야 할 서버 앞은 사다리로 막혀 있고. 이 정도면 충분하고도 남는 정보겠지. 이해했나?",
+        "translation": "메시지는 받았네, 용병. 연락하는 방법이야 여러 가지라지만 직접 찾아와도 됐다는 건 알고 있겠지?\n\n아무튼 본론으로 가지. 자네는 도움이 필요하고, 나는 몇 가지 일을 처리해 줄 사람이 필요하네. 아니면 내 도움이 필요한 건 다른 사람이고 자네는 단순한 전달책인가? 뭐, 자네가 현지 범죄 조직이나 수상한 장사치 밑에서 일하기 시작한 게 아니라면 상관없네. 내 알 바는 아니지. 누가 자네를 보냈는지는 한번 만나보고 싶지만, 그건 나중 문제고.\n\n일 이야기부터 하지. 테라그룹 연구소 B21 구역에 서버가 몇 대 있네. 예전에 자네 같은 용병들을 연구소로 보냈을 때 내가 확보해 둔 것들인데, 최근 그중 한 대가 손상됐어. 서버실에서 총격전이 있었던 모양이더군. 총격전의 부수적 피해였던 것 같네.\n\n아, 하나 더 있네. 어차피 여기저기 돌아다니며 수리할 거라면 내 은신처 밖 카메라도 좀 손봐주게. 무슨 문제인지 삑삑거리면서 불빛이 깜빡이고 있어. 내가 직접 고쳐도 되지만 지금은 더 중요한 일에 손이 묶여 있거든.\n\n서버실은 네 구역으로 나뉘어 있고, 내 서버는 불이 꺼진 쪽에 있네. B22 구역에서 서버실로 들어가면 맨 왼쪽을 보게. 거기 있을 거야. 수리해야 할 서버 앞은 사다리로 막혀 있고. 이 정도면 충분하고도 남는 정보겠지. 이해했나?",
         "display_type": "quest_description"
       },
       {
@@ -7249,7 +7249,7 @@
       {
         "key": "6747bb9ec325240ca382f8a9 description",
         "source": "Listen young one, I need a favor. Recently a bunch of people stumbled upon me when I came back to my camp from a hunting trip, they were looking for help. They told me their story so I asked them why they are still here in Tarkov, they do not belong here, it's not safe for them, they are neither soldiers, bandits or here for business. I don't know why but they chose to stay in Tarkov after evacuation, managed to survive until today, thought that all of this would'nt take too long. Well... here we are. I was told that they were starving for days already so I had to feed them. I might know who to contact to get them out of the zone so that doesn't need to be your concern, I can handle that already. The thing I need from you now is that my food supply got kinda short, after all my supply is not meant for a group of starving guys. Can you organize that for me? This would help me out a lot.",
-        "translation": "잘 듣게, 젊은 친구. 부탁이 하나 있네. 얼마 전 사냥을 마치고 야영지로 돌아오는데 사람들이 몇 명 나를 찾아왔어. 도움을 구하고 있더군.\n\n사정을 듣고 왜 아직 타르코프에 남아 있느냐고 물었지. 군인도, 스캐브도 아니고 장사를 하러 온 사람들도 아닌데 이곳은 그들에게 너무 위험하니까. 왜 그랬는지는 모르겠지만 대피 때 타르코프에 남기로 했고, 사태가 오래가지 않을 거라 생각하면서 지금까지 어떻게든 살아남은 모양이야. 그런데 결국 이 지경이 됐지.\n\n며칠째 굶고 있었다기에 일단 먹을 것을 나눠줬네. 이들을 지역 밖으로 빼낼 연락책은 내가 알고 있으니 그쪽은 자네가 걱정하지 않아도 돼. 문제는 내 식량 비축분이 크게 줄었다는 거야. 애초에 굶주린 사람 여럿을 먹이려고 준비한 물자가 아니었거든.\n\n식량을 좀 마련해 줄 수 있겠나? 큰 도움이 될 걸세.",
+        "translation": "잘 듣게, 젊은 친구. 부탁이 하나 있네. 얼마 전 사냥을 마치고 야영지로 돌아오는 길에 사람들 몇 명과 우연히 마주쳤어. 도움을 구하고 있더군.\n\n그들의 사정을 듣고는 왜 아직 타르코프에 남아 있느냐고 물었지. 군인도, 갱단원도, 장사를 하러 온 사람들도 아닌데 이곳은 그들에게 안전한 장소가 아니니까. 왜 그런지는 모르겠지만 대피할 때 떠나지 않고 타르코프에 남기로 했고, 사태가 오래가지 않으리라 생각하며 오늘까지 어떻게든 살아남았다는 거야. 그런데 이 지경이 됐지.\n\n며칠째 굶고 있었다기에 일단 먹을 것을 나눠줬네. 그들을 이 지역 밖으로 데리고 나갈 사람은 내가 연락할 수 있을 것 같으니 자네가 신경 쓰지 않아도 돼. 그건 내가 처리하겠네. 문제는 내 식량 비축분이 크게 줄었다는 거야. 애초에 굶주린 사람 여럿을 먹이려고 준비한 물자가 아니었거든.\n\n먹을 것을 좀 마련해 줄 수 있겠나? 큰 도움이 될 걸세.",
         "display_type": "quest_description"
       },
       {
@@ -7316,7 +7316,7 @@
       {
         "key": "677b7c879a8cf3681ecf1673 description",
         "source": "Good day young one, I was notified about certain events, you seem to be in some trouble right now, no?\nBut there's actually something else, why not help eachother? There's work to be done, and you came in just in time, I'll try to help you as good as I can, don't worry.\n\nI should probably tell you already what I need from you, a close friend told me about a special kind of wine, stored somewhere in the middle of the city where it all started. You already know the story...\nAnyway, I can bother you with history lessons another time, there are more important matters now. So, do you want to hear what I have to offer? Alright then, my friend wants to get that beverage out of that place and take it somewhere quiet and uncontested for now. I was thinking about the shopping mall outside of the customs zone, somewhere inside a dirty fast-food restaurant kitchen where nobody dares to go.\nThis shouldn't be too much trouble for you I suppose, hide the wine in the burger spot kitchen, or whatever that place is called, of course you have to eliminate those who get too curious, but make sure you only clear out the people inside of the mall, whenever you feel like you're done, get out of there without a scratch.\n\nWe can sit down and talk, have a cup of tea if you'd like, and you tell me everything you wanted to tell me and I'll help you wherever I can. Sounds like a fair deal?",
-        "translation": "어서 오게, 젊은 친구. 요즘 일이 좀 꼬이고 있다는 소식을 들었네. 맞지?\n그런데 마침 다른 일도 하나 있어. 서로 도와보는 건 어떤가? 처리할 일이 있고 자네가 딱 맞는 때에 왔군. 나도 가능한 한 자네를 돕겠네. 걱정하지 말게.\n\n내가 필요한 걸 먼저 말하지. 가까운 지인이 특별한 와인 한 병 이야기를 해주더군. 모든 일이 시작된 도심 어딘가에 보관돼 있다고 해. 그 이야기는 자네도 알고 있겠지.\n역사 이야기는 다음에 하고, 지금은 더 중요한 게 있네. 그 사람은 그 술을 거기서 빼내 당분간 조용하고 아무도 다투지 않을 곳에 두고 싶어 해. 세관 구역 밖의 쇼핑몰이 좋겠더군. 사람들이 잘 들어가지 않는 지저분한 패스트푸드 식당 주방 같은 곳 말이야.\n\n자네라면 어렵지 않을 거라 생각하네. 와인을 버거 스팟 주방에 숨겨두게. 이름이 정확히 그건지는 모르겠지만 말이지. 지나치게 호기심을 보이는 자들이 있으면 정리해도 좋지만, 쇼핑몰 안에 있는 자들만 처리하게. 충분하다 싶으면 다치지 말고 빠져나오고.\n\n그 뒤엔 앉아서 차라도 한 잔 하지. 자네가 하고 싶었던 이야기를 들려주면 내가 도울 수 있는 건 돕겠네. 공평한 거래 아닌가?",
+        "translation": "어서 오게, 젊은 친구. 요즘 일이 좀 꼬이고 있다는 소식을 들었네. 맞지?\n그런데 마침 다른 일도 하나 있어. 서로 도와보는 건 어떤가? 처리할 일이 있고 자네가 딱 맞는 때에 왔군. 나도 가능한 한 자네를 돕겠네. 걱정하지 말게.\n\n내가 필요한 걸 먼저 말하지. 가까운 지인이 특별한 와인 한 병 이야기를 해주더군. 모든 일이 시작된 도심 어딘가에 보관돼 있다고 해. 그 이야기는 자네도 알고 있겠지.\n역사 이야기는 다음에 하고, 지금은 더 중요한 게 있네. 그 사람은 그 술을 거기서 빼내 당분간 조용하고 아무도 다투지 않을 곳에 두고 싶어 해. 세관 구역 밖의 쇼핑몰이 좋겠더군. 사람들이 잘 들어가지 않는 지저분한 패스트푸드 식당 주방 같은 곳 말이야.\n\n자네라면 어렵지 않을 거라 생각하네. 와인을 버거 스팟 주방에 숨겨두게. 이름이 정확히 그건지는 모르겠지만 말이지. 지나치게 호기심을 보이는 자들은 반드시 처리하게. 다만 쇼핑몰 안에 있는 자들만 상대해야 하네. 충분하다 싶으면 다치지 말고 빠져나오고.\n\n그 뒤엔 앉아서 차라도 한 잔 하지. 자네가 하고 싶었던 이야기를 들려주면 내가 도울 수 있는 건 돕겠네. 공평한 거래 아닌가?",
         "display_type": "quest_description"
       },
       {
@@ -7444,7 +7444,7 @@
       {
         "key": "6747bd8c191f49b33d3cd12f description",
         "source": "My man I got something for you again.\n\nYou need to head to the mall and visit some spots, then install a camera in the hallway near the gunstore. After that we need to know how to activate the saferoom on the garage level. I heard rumors that there is a switch somewhere in the bathrooms in some restaurant, should be on the top floor. If you locate that, you need to put down a marker near the switch.\n\nAnd while you are at the mall, take out some PMCs. My men placed bets already, I made a bet that you will smoke all of them with one of these german UMP submachine guns that you were stashing earlier.\n\nCan you manage that? You know how much I hate to lose bets so I can't let that slide, got it?",
-        "translation": "형씨, 또 일이 하나 생겼어.\n\n쇼핑몰로 가서 몇 군데를 확인하고, 총포상 근처 복도에 카메라를 설치해. 그다음에는 지하 주차장의 안전실 탈출구를 어떻게 작동시키는지 알아내야 해. 위층 식당의 화장실 어딘가에 스위치가 있다는 소문이 있더군. 찾으면 그 스위치 근처에 마커를 하나 설치해 둬.\n\n그리고 쇼핑몰에 있는 동안 PMC도 좀 정리해. 내 사람들끼리 벌써 내기를 걸었거든. 나는 형씨가 전에 숨겨뒀던 그 독일제 UMP 기관단총으로 놈들을 싹 쓸어버린다 쪽에 걸었지.\n\n할 수 있겠지? 내가 내기에서 지는 걸 얼마나 싫어하는지 알잖아. 이건 꼭 이겨야 한다고.",
+        "translation": "형씨, 또 일이 하나 생겼어.\n\n쇼핑몰로 가서 몇 군데를 확인하고, 총포상 근처 복도에 카메라를 설치해. 그다음에는 지하 주차장의 안전실 탈출구를 어떻게 작동시키는지 알아내야 해. 최상층에 있는 식당의 화장실 어딘가에 스위치가 있다는 소문이 있더군. 찾으면 그 스위치 근처에 마커를 하나 설치해 둬.\n\n그리고 쇼핑몰에 있는 동안 PMC도 좀 정리해. 내 사람들끼리 벌써 내기를 걸었거든. 나는 형씨가 전에 숨겨뒀던 그 독일제 UMP 기관단총으로 놈들을 싹 쓸어버린다 쪽에 걸었지.\n\n할 수 있겠지? 내가 내기에서 지는 걸 얼마나 싫어하는지 알잖아. 이건 꼭 이겨야 한다고.",
         "display_type": "quest_description"
       },
       {
@@ -7750,7 +7750,7 @@
       {
         "key": "67486e6cca3b547b79d43af0 description",
         "source": "Well well well, you chose to work with me and peacekeeper? Good choice operator! Me and him got something that you need to help us with, we got a bear problem.\n\nFirst of all you need to know that we can't let you kill any of the rogue USEC operators or their leaders, so be careful with them.\nYou need to take out BEARs at the military base and the industrial area. And while you are at it, go get us some western weapons, no pistols, no knives, proper western firearms, top quality. And make sure to find them yourself!\n\nReport back to me when you are done.",
-        "translation": "오호, 나와 피스키퍼 둘 다와 일하기로 했나? 좋은 선택이야, 오퍼레이터. 우리 둘이 형씨에게 맡길 일이 하나 있어. BEAR 쪽이 문제거든.\n\n먼저 확실히 해둘 게 있어. USEC 로그나 그 지휘관들은 건드리면 안 돼. 우리 작전에 필요한 놈들이니까 조심해.\n군사 기지와 공업 지대에서 BEAR 오퍼레이터들을 정리해 줘. 간 김에 서방제 무기도 몇 정 구해오고. 권총이나 칼 같은 건 말고 제대로 된 서방제 주무기 말이야. 품질 좋은 것으로, 그리고 반드시 직접 찾아온 물건이어야 해.\n\n끝나면 보고해.",
+        "translation": "오호, 나와 피스키퍼 둘 다와 일하기로 했나? 좋은 선택이야, 오퍼레이터. 우리 둘이 형씨에게 맡길 일이 하나 있어. BEAR 쪽이 문제거든.\n\n먼저 확실히 해둘 게 있어. USEC 로그 오퍼레이터나 그 지휘관들을 죽여서는 안 돼. 그러니 조심하라고.\n군사 기지와 공업 지대에서 BEAR 오퍼레이터들을 정리해 줘. 그러면서 서방제 무기도 좀 구해오고. 권총이나 칼 같은 건 말고, 제대로 된 고품질 서방제 화기 말이야. 그리고 반드시 직접 찾아온 물건이어야 해.\n\n끝나면 보고해.",
         "display_type": "quest_description"
       },
       {
@@ -8040,7 +8040,7 @@
       {
         "key": "67d81e2d84b72d8378a6bfe6",
         "source": "Eliminate Hostiles while using a M3 Super 90 equipped with an 11-Shell or 13-Shell Magazine on Factory",
-        "translation": "팩토리에서 11발 또는 13발 탄창을 장착한 M3 Super 90으로 적대 세력 처치하기"
+        "translation": "공장에서 11발 또는 13발 탄창을 장착한 M3 Super 90으로 적대 세력 처치하기"
       },
       {
         "key": "67487e792e79477fa1472f8f name",
@@ -8171,7 +8171,7 @@
       {
         "key": "6747ba52be104f742964f8fa name",
         "source": "Valuable Payment",
-        "translation": "고액 보수"
+        "translation": "값진 보수"
       },
       {
         "key": "6747ba52be104f742964f8fa description",
@@ -8182,7 +8182,7 @@
       {
         "key": "6747ba52be104f742964f8fa successMessagetext",
         "source": "Good choice! Who knows what other shady people might have been involved in this...",
-        "translation": "좋은 선택이야! 안 그랬으면 또 어떤 수상한 놈들이 끼어들었을지 누가 알겠어..."
+        "translation": "좋은 선택이야! 이 일에 또 어떤 수상한 놈들이 연루돼 있었을지 누가 알겠어..."
       },
       {
         "key": "6747ba52be104f742964f8fa failMessageText",
@@ -8319,7 +8319,7 @@
       {
         "key": "676af80852ad1f5baf0e8d95 description",
         "source": "We have another task for you, listen carefully.\nSomeone who has been on our wanted-list for a while now managed to get out of Tarkov, however he has been dealing with certain goods by hiring smugglers to get them out of Tarkov into the outside world.\n\nWe were told about an order of a russian army gear set, helmet, vest and AK rifle. The plan is to plant these items in the location the dealers agreed on, then a few of our people will track them down again. You need to locate the plane wreck that has crashed somewhere in the middle of the forest, get inside the cockpit and hide the goods there, and beware of other mercs.\nWe will hear from you soon.",
-        "translation": "다른 일이 있다. 잘 들어라.\n한동안 우리 수배 명단에 올라 있던 자가 타르코프 밖으로 빠져나갔다. 하지만 밀수꾼들을 고용해 특정 물품을 타르코프 밖으로 빼돌리는 거래를 계속하고 있다.\n\n러시아군 장비 세트 주문이 들어왔다는 정보를 얻었다. 헬멧, 방탄복, AK 소총이다. 계획은 거래자들이 합의한 장소에 물건을 심어두는 거다. 그러면 우리 쪽 사람들이 다시 추적할 수 있다. 삼림 한가운데 어딘가에 추락한 비행기 잔해가 있다. 조종석을 찾아 들어가서 물건을 숨겨라. 다른 용병들도 조심하고.\n곧 다시 연락하겠다.",
+        "translation": "다른 일이 있다. 잘 들어라.\n한동안 우리 수배 명단에 올라 있던 자가 타르코프 밖으로 빠져나갔다. 하지만 밀수꾼들을 고용해 특정 물품을 타르코프 밖으로 빼돌리는 거래를 계속하고 있다.\n\n러시아군 장비 세트 주문이 들어왔다는 정보를 얻었다. 헬멧, 방탄복, AK 소총이다. 계획은 거래자들이 합의한 장소에 물건을 심어두는 거다. 그러면 우리 쪽 사람들이 다시 추적할 수 있다. 삼림 한가운데 어딘가에 추락한 비행기 잔해가 있다. 조종석을 찾아 들어가서 물건을 숨겨라. 다른 용병들도 조심하고.\n곧 네 보고를 기다리겠다.",
         "display_type": "quest_description"
       },
       {
@@ -8469,7 +8469,7 @@
       {
         "key": "6747c312165746c2dd1e19f2 description",
         "source": "Hello again, you already investigated the Military Base carefully, yes? Good, I know you have been there a bunch of times now so you are basically an expert at this.\n\nSo, listen carefully, this is important. Theres this bunker near the white rook building and the trainyard. People use it to exfil from the base, mainly PMCs. Go to the base and look for the exfil, make sure to place a camera there, I wanna see who else goes there, after that extract from that location through that exfil.\n\nAnd while you are there, make sure to neutralize some targets, I wanna see how good you are while handling certain weapons, use a SR-2M submachine gun, I can lend you one but don't lose it! I won't give you another one if that happens, good luck out there.",
-        "translation": "또 왔군. 군사 기지는 이미 꼼꼼히 조사해봤지? 좋아. 이제 거긴 수도 없이 드나들었으니 거의 전문가나 다름없겠군.\n\n잘 듣게. 중요한 일이야. 화이트 룩 건물과 기차역 근처에 벙커가 하나 있네. 사람들이 그곳으로 기지에서 빠져나가지. 대부분 PMC들이고. 기지로 가서 탈출구를 찾고, 그곳에 카메라를 설치하게. 누가 또 드나드는지 보고 싶어. 그다음에는 그 탈출구로 직접 빠져나오게.\n\n간 김에 적대 세력도 좀 정리하게. 특정 무기를 얼마나 잘 다루는지 보고 싶군. SR-2M 기관단총을 쓰게. 한 정 빌려줄 수는 있지만 잃어버리진 말게! 잃어버리면 두 번째는 없네. 행운을 비네.",
+        "translation": "또 왔군. 군사 기지는 이미 꼼꼼히 조사해 봤지? 좋아. 이제 거긴 여러 번 드나들었으니 거의 전문가나 다름없겠군.\n\n잘 듣게. 중요한 일이야. 화이트 룩 건물과 철도 차량기지 근처에 벙커가 하나 있네. 사람들이 그곳으로 기지에서 탈출하지. 대부분 PMC들이야. 기지로 가서 그 탈출구를 찾고, 그곳에 카메라를 설치하게. 누가 또 드나드는지 보고 싶어. 그다음에는 그 탈출구를 통해 직접 빠져나오게.\n\n거기 간 김에 표적들도 좀 처리하게. 특정 무기를 얼마나 잘 다루는지 보고 싶군. SR-2M 기관단총을 쓰게. 한 정 빌려줄 수는 있지만 잃어버리진 말게! 잃어버리면 두 번째는 없네. 행운을 비네.",
         "display_type": "quest_description"
       },
       {
@@ -8536,7 +8536,7 @@
       {
         "key": "6747c3ffc2b2062f1de93906 description",
         "source": "Warrior I got something special again, I don't want any outsiders involved in this so be careful.\n\nYou know my opinion on the imports, I want you to take a bunch of them out, understood? Go around and look for normal USECs, Operators like you. And then look for these weird rogue outlaws at the water treatment plant and make sure to get their leaders too.\n\nI count on you warrior and keep one thing in mind, if anyone else asks you for a similar job, do me the favor and reject them, I trust you so don't disappoint me.",
-        "translation": "제군, 이번에도 특별한 일이 하나 있네. 외부인이 끼어드는 건 원치 않으니 조심하게.\n\n수입품에 대한 내 생각은 자네도 알겠지. 이번에는 그것들을 한꺼번에 치워줬으면 하네. 평범한 USEC 오퍼레이터부터 찾아서 정리하게. 그다음 수처리장에 있는 이상한 로그 무법자들과 그 지휘관들까지 처리하고.\n\n자네를 믿네, 제군. 그리고 한 가지 기억하게. 다른 누가 비슷한 일을 부탁하더라도 내 부탁 하나 들어주게. 거절해. 난 자네를 믿고 있으니 실망시키지 말게.",
+        "translation": "제군, 이번에도 특별한 일이 하나 있네. 외부인이 끼어드는 건 원치 않으니 조심하게.\n\n외지인들에 대한 내 생각은 자네도 알겠지. 이번에는 그자들을 한꺼번에 치워줬으면 하네. 평범한 USEC 오퍼레이터부터 찾아서 정리하게. 그다음 수처리장에 있는 이상한 로그 무법자들과 그 지휘관들까지 처리하고.\n\n자네를 믿네, 제군. 그리고 한 가지 기억하게. 다른 누가 비슷한 일을 부탁하더라도 내 부탁 하나 들어주게. 거절해. 난 자네를 믿고 있으니 실망시키지 말게.",
         "display_type": "quest_description"
       },
       {
@@ -8552,7 +8552,7 @@
       {
         "key": "6747c45d4439feb13a95f7f5",
         "source": "Eliminate Hostiles from over 125 Meters away while using any Russian or Soviet DMR or Bolt-Action Rifle",
-        "translation": "러시아 또는 소련제 지정사수소총이나 볼트액션 소총으로 125m 이상 거리에서 적대 세력 처치하기"
+        "translation": "러시아 또는 소련제 지정사수소총이나 볼트액션 소총으로 125m를 초과하는 거리에서 적대 세력 처치하기"
       },
       {
         "key": "6747c4519384707fcc251844 name",
@@ -8755,7 +8755,7 @@
       {
         "key": "67d819cef7fef8e29237ceef",
         "source": "Eliminate Hostiles while using a Saiga-12k equipped with a GK-02 Muzzle Brake or Hexagon Suppressor on Factory",
-        "translation": "팩토리에서 GK-02 제퇴기 또는 Hexagon 소음기를 장착한 Saiga-12K로 적대 세력 처치하기"
+        "translation": "공장에서 GK-02 제퇴기 또는 Hexagon 소음기를 장착한 Saiga-12K로 적대 세력 처치하기"
       },
       {
         "key": "6748694525ed5b74088bbd08 name",
@@ -8886,12 +8886,12 @@
       {
         "key": "67ee6eb50a104964874bf9a1",
         "source": "Obtain Expeditionary Fuel Tanks ( Full Durability )",
-        "translation": "레이드에서 여행용 연료통 발견하기 (내구도 100%)"
+        "translation": "원정용 연료통 확보하기 (내구도 100%)"
       },
       {
         "key": "67ee6eb542c00f116c5505db",
         "source": "Hand over the Fuel Tanks ( Full Durability )",
-        "translation": "여행용 연료통 건네주기 (내구도 100%)"
+        "translation": "원정용 연료통 건네주기 (내구도 100%)"
       },
       {
         "key": "67ee61bb0084128bf23f5477 name",
@@ -8927,27 +8927,27 @@
       {
         "key": "67f00e76bfd9c18a09788dd9",
         "source": "Hand over the Secure Folder \"0022\" to the BTR Driver",
-        "translation": "보안 케이스 0022를 BTR 운전병에게 건네주기"
+        "translation": "보안 서류철 0022를 BTR 운전병에게 건네주기"
       },
       {
         "key": "67f00e768f5a0a04bfa7096a",
         "source": "Obtain the Secure Folder \"0022\" from Customs again in case of losing it",
-        "translation": "분실 시 세관에서 보안 케이스 0022 다시 획득하기"
+        "translation": "분실 시 세관에서 보안 서류철 0022 다시 획득하기"
       },
       {
         "key": "67f00e94724fed8ecf01a280",
         "source": "Hand over the Secure Folder \"0031\" to the BTR Driver",
-        "translation": "보안 케이스 0031을 BTR 운전병에게 건네주기"
+        "translation": "보안 서류철 0031을 BTR 운전병에게 건네주기"
       },
       {
         "key": "67f00e94f04c5824297e9b34",
         "source": "Obtain the Secure Folder \"0031\" from Customs again in case of losing it",
-        "translation": "분실 시 세관에서 보안 케이스 0031 다시 획득하기"
+        "translation": "분실 시 세관에서 보안 서류철 0031 다시 획득하기"
       },
       {
         "key": "67f01070155214edef3a3e65",
         "source": "Clear out the Emercom Camp from any Hostiles on Woods",
-        "translation": "삼림의 응급구호 캠프에서 적대 세력 정리하기"
+        "translation": "삼림의 EMERCOM 캠프에서 적대 세력 소탕하기"
       },
       {
         "key": "67f010d6f509ca32699a1293",
@@ -8967,7 +8967,7 @@
       {
         "key": "67efd3e59f0821f600a4ebed description",
         "source": "Work? For you? Always! Haha! Yes come on in, sit down and listen carefully.\n\nYour friend Lotus told me to expect two deliveries from you, two folders with some details on these shipments. I hope you brought them already. You can do more dirty work once these folders are in my possession, got it?\n\nAnyway, here's the important part now, some people have been causing a lot of trouble around this area lately, scaring off customers and shit, you know how much I hate that.\n\nAll hell breaks loose whenever these fucks arrive, usually around the two villages and inside the emercom camp. Can you get rid of these assholes? Really can't stand their presence.",
-        "translation": "일? 자네한테? 언제든 있지! 하하! 자, 들어와 앉아서 잘 듣게.\n\n자네 친구 로터스가 물건 두 개를 받을 거라고 미리 알려줬어. 그 화물에 관한 정보가 든 서류철 두 개라던데, 벌써 가져왔으면 좋겠군. 그 서류들이 내 손에 들어오면 자네가 더러운 일도 좀 더 해줄 수 있겠지. 알겠나?\n\n아무튼 이제 중요한 얘기야. 요즘 이 일대에서 몇몇 놈들이 계속 문제를 일으키면서 손님들을 겁먹게 하고 있어. 내가 그런 걸 얼마나 싫어하는지 알잖아.\n\n그 자식들이 나타나면 늘 난리가 나. 보통 두 마을하고 응급구호 캠프 근처에서 말이지. 그놈들 좀 치워줄 수 있겠나? 정말 꼴도 보기 싫군.",
+        "translation": "일? 자네한테? 언제든 있지! 하하! 자, 들어와 앉아서 잘 듣게.\n\n자네 친구 로터스가 물건 두 개를 받을 거라고 미리 알려줬어. 그 화물에 관한 정보가 든 서류철 두 개라던데, 벌써 가져왔으면 좋겠군. 그 서류들이 내 손에 들어오면 자네가 더러운 일도 좀 더 해줄 수 있겠지. 알겠나?\n\n아무튼 이제 중요한 얘기야. 요즘 이 일대에서 몇몇 놈들이 계속 문제를 일으키면서 손님들을 겁먹게 하고 있어. 내가 그런 걸 얼마나 싫어하는지 알잖아.\n\n그 자식들이 나타나면 늘 난리가 나. 보통 두 마을 주변과 EMERCOM 캠프 안에서 말이지. 그놈들 좀 치워줄 수 있겠나? 정말 꼴도 보기 싫군.",
         "display_type": "quest_description"
       },
       {
@@ -9008,7 +9008,7 @@
       {
         "key": "67d7eacee3d42141de3389ba name",
         "source": "Notified",
-        "translation": "통보받은 정보"
+        "translation": "통보받음"
       },
       {
         "key": "67d7eacee3d42141de3389ba description",
@@ -9122,7 +9122,7 @@
       {
         "key": "6812693ccc1cb45c73910644 successMessagetext",
         "source": "So the rumors were true? Maybe some stories are more than just tales huh. Enjoy your meal!",
-        "translation": "그 소문들이 사실이었나? 어떤 이야기는 그냥 소문이 아닌가 보군. 잘 먹어, 챔피언!"
+        "translation": "그 소문들이 사실이었나? 어떤 이야기는 단순한 전설이 아닌 모양이군. 맛있게 먹어!"
       },
       {
         "key": "68b1ce3eebd81229e7790810",
@@ -9163,7 +9163,7 @@
       {
         "key": "68b1cf3fed5b59b8c54f0d43 description",
         "source": "Aye, we're not done here my guy! That's not how advertising works, some of our posters are gone. And none of my guys are in the position to help with this at the moment, they're here in the Arena doing more important work. You're out there however...\n\nSo, why don't you lend a hand again? I'll give you the posters, you won't need to spend a single rouble for that, how does that sound, huh? That's what I thought, wow you operators can be really greedy. Anyway, don't lose these posters, the next samples will cost you! Oh, I forgot to tell you where you need to put them. Do you know where the busstation is? Near the resort, that's where it is. I believe there was a bus left directly in the middle of it, perfect for a poster. You should place the second poster on the big helicopter at the Resort, I heard lots of operators walk past these spots. That's our target audience, perfect! Now hush hush! Off you go, work is calling! Do this before the bandits are regrouping.",
-        "translation": "어이, 아직 안 끝났어, 친구! 광고가 그렇게 한 번 하고 끝나는 줄 알아? 포스터 몇 장이 사라졌다고. 지금 내 사람들은 아무도 이 일을 도울 상황이 아니야. 다들 아레나에서 더 중요한 일을 하고 있거든. 하지만 넌 밖에 있잖아...\n\n그러니까 한 번 더 도와주지 그래? 포스터는 내가 줄게. 루블 한 푼도 쓸 필요 없어. 어때, 괜찮지? 역시 그럴 줄 알았어. 와, 오퍼레이터들은 정말 욕심이 많다니까. 아무튼 포스터 잃어버리지 마. 다음 장부터는 돈 받을 거야! 아, 어디에 붙일지도 말 안 했군. 리조트 근처 버스 정류장 알지? 한가운데 노란색 버스가 하나 남아 있을 거야. 포스터 붙이기 딱 좋아. 두 번째는 리조트의 큰 헬리콥터에 붙여. 오퍼레이터들이 그 근처를 많이 지난다더군. 바로 우리가 노리는 고객층이지, 완벽해! 자자, 얼른 가! 일이 부른다고! 도적들이 다시 몰려오기 전에 끝내.",
+        "translation": "어이, 아직 안 끝났어, 친구! 광고가 그렇게 한 번 하고 끝나는 줄 알아? 포스터 몇 장이 사라졌다고. 지금 내 사람들은 아무도 이 일을 도울 상황이 아니야. 다들 아레나에서 더 중요한 일을 하고 있거든. 하지만 넌 밖에 있잖아...\n\n그러니까 한 번 더 도와주지 그래? 포스터는 내가 줄게. 루블 한 푼도 쓸 필요 없어. 어때, 괜찮지? 역시 그럴 줄 알았어. 와, 오퍼레이터들은 정말 욕심이 많다니까. 아무튼 포스터 잃어버리지 마. 다음 장부터는 돈 받을 거야! 아, 어디에 붙일지도 말 안 했군. 리조트 근처 버스 정류장 알지? 한가운데 버스 한 대가 남아 있을 거야. 포스터 붙이기 딱 좋아. 두 번째는 리조트의 큰 헬리콥터에 붙여. 오퍼레이터들이 그 근처를 많이 지난다더군. 바로 우리가 노리는 고객층이지, 완벽해! 자자, 얼른 가! 일이 부른다고! 도적들이 다시 몰려오기 전에 끝내.",
         "display_type": "quest_description"
       },
       {
@@ -9209,7 +9209,7 @@
       {
         "key": "68b1d274cdbd4e83382c7678 description",
         "source": "Remember when we first met, you helped with supplying snacks to our audience, right? Of course you do, haha! Well, I need more this time. You know, a show can be as good as it gets... But with something nice to eat and drink, it can always get better, understand? The audience needs that. It helps even more with funding, of course you'll be paid for your trouble.\n\nIf you don't know where to start looking, I suggest you head down to the military base, I heard that it contains large food reserves. Priozersk seems to be excellent for that too, but seeing trees and bushes everywhere can get you pretty tired, you know how it is. Anyway, you think you can help out here again? That would be much apprechiated, and I think the crowd would love it too.",
-        "translation": "처음 만났을 때 기억나? 관객들 먹을 간식 조달하는 걸 도와줬잖아. 당연히 기억하지, 하하! 이번엔 더 필요해. 공연이 아무리 훌륭해도 말이야... 먹고 마실 게 괜찮으면 언제든 더 좋아질 수 있어. 알겠지? 관객들한텐 그런 게 필요해. 수익에도 도움이 되고. 물론 수고한 만큼 보수는 줄 거야.\n\n어디서부터 찾아야 할지 모르겠으면 군사 기지로 가봐. 식량 비축분이 많다고 들었어. 프리오제르스크도 괜찮다던데, 온통 나무와 수풀만 보고 있으면 꽤 피곤하잖아. 무슨 말인지 알지. 아무튼 이번에도 도와줄 수 있겠어? 정말 고맙겠고, 관객들도 좋아할 거야.",
+        "translation": "처음 만났을 때 기억나? 관객들 먹을 간식 조달하는 걸 도와줬잖아. 당연히 기억하지, 하하! 이번엔 더 필요해. 공연이 아무리 훌륭해도 말이야... 먹고 마실 게 괜찮으면 언제든 더 좋아질 수 있어. 알겠지? 관객들한텐 그런 게 필요해. 자금 마련에도 더 큰 도움이 되고. 물론 수고한 만큼 보수는 줄 거야.\n\n어디서부터 찾아야 할지 모르겠으면 군사 기지로 가봐. 식량 비축분이 많다고 들었어. 프리오제르스크도 괜찮다던데, 온통 나무와 수풀만 보고 있으면 꽤 피곤하잖아. 무슨 말인지 알지. 아무튼 이번에도 도와줄 수 있겠어? 정말 고맙겠고, 관객들도 좋아할 거야.",
         "display_type": "quest_description"
       },
       {
@@ -9963,7 +9963,7 @@
       {
         "key": "680390e437806877136227f6 description",
         "source": "There's something Lotus and me need your help with - Right now if possible. This Arena guy found out about these Terragroup drugs. I have no clue how he figured that out! I made sure to get rid of all our tracks. We were the only ones knowing about it, well now it's time to act.\n\nWe need help with finding a decent hiding place for these stimulants, I can do the part with moving the actual cargo, you only need to find a good spot. Can you do that? This stuff shouldn't become accessible to some \"gladiators\" or the Arena administrators, it's some serious stuff you know?\n\nI was thinking about the mountain, there should be some bunkers there, cultists used to live in there back then, but now they are sealed and nobody ever goes there .So can you lend a hand here?",
-        "translation": "로터스와 내가 자네 도움이 필요한 일이 하나 있네. 가능하면 지금 당장 말이지. 그 아레나 녀석이 테라그룹 약물에 대해 알아냈어. 대체 어떻게 알아낸 건지 모르겠군! 흔적은 전부 지웠다고 생각했는데. 원래는 우리만 알고 있었지만, 이제 행동해야겠어.\n\n그 자극제를 숨길 만한 제대로 된 장소를 찾아야 하네. 실제 화물을 옮기는 건 내가 할 테니, 자네는 좋은 장소만 찾아주면 돼. 할 수 있겠나? 이 물건이 \"검투사\"들이나 아레나 운영진 손에 들어가면 안 돼. 꽤 심각한 물건이라고.\n\n산 쪽을 생각하고 있었네. 거기 벙커가 몇 개 있을 거야. 예전에는 컬티스트들이 살던 곳인데 지금은 봉쇄됐고 아무도 드나들지 않지. 그러니 이 일 좀 도와주겠나?",
+        "translation": "로터스와 내가 자네 도움이 필요한 일이 하나 있네. 가능하면 지금 당장 말이지. 그 아레나 녀석이 테라그룹 약물에 대해 알아냈어. 대체 어떻게 알아낸 건지 모르겠군! 우리 흔적은 하나도 남기지 않도록 확실히 지워뒀는데. 원래는 우리만 알고 있었지만, 이제 행동해야겠어.\n\n그 자극제를 숨길 만한 제대로 된 장소를 찾아야 하네. 실제 화물을 옮기는 건 내가 할 테니, 자네는 좋은 장소만 찾아주면 돼. 할 수 있겠나? 이 물건이 \"검투사\"들이나 아레나 운영진 손에 들어가면 안 돼. 꽤 심각한 물건이라고.\n\n산 쪽을 생각하고 있었네. 거기 벙커가 몇 개 있을 거야. 예전에는 컬티스트들이 살던 곳인데 지금은 봉쇄됐고 아무도 드나들지 않지. 그러니 이 일 좀 도와주겠나?",
         "display_type": "quest_description"
       },
       {
@@ -10311,13 +10311,13 @@
       {
         "key": "6812941396bf52b87fada560 description",
         "source": "Hi! Ragman let me know that you are also involved in the \"thing\" now, I'm assuming he already explained what this is about, right? We have dealt with this Ref guy before and let me tell you this... Multiple of these operations at once are a big deal you know, it's not easy and it's definitely not cheap. We could use any help we can get and you are one of our most valuable and reliable people.\n\nSo are you interested in a job? Of course you will be paid, as always, when have we every disappointed you, soldier? Me and Arshavir had a convoy, armored vehicles here, geared guys there - Yet someone still managed to take it down! And the culprit didn't plan on making this a secret, it was Ref's hounds!\n\nThe convoy was carrying tons of special weapons to a classified location, I think we lost contact with them near the emercom checkpoint outside the ULTRA shopping mall. I need someone to check it out and see if they took everything or if something is still there.",
-        "translation": "안녕하세요. 래그맨에게 당신도 이번 일에 참여하게 됐다고 들었습니다. 이미 상황은 설명했겠죠? 레프와는 전에도 부딪힌 적이 있습니다. 이런 규모의 작전을 여러 건 동시에 굴리는 건 간단한 일이 아니고, 비용도 만만치 않죠. 가능한 지원은 전부 필요합니다. 당신은 그중에서도 제가 가장 신뢰하는 인력 중 하나고요.\n\n의뢰 하나 맡으시겠습니까? 물론 보수는 지급합니다. 언제 제가 약속한 대가를 빼먹은 적이 있었나요? 아르샤비르와 제가 운용하던 수송대가 있었습니다. 장갑차량에 무장 인원까지 붙였는데도 누군가 전부 무너뜨렸죠. 범인은 굳이 숨길 생각도 없었습니다. 레프의 사냥개들이었어요.\n\n그 수송대에는 기밀 장소로 보내던 특수 무기가 대량으로 실려 있었습니다. ULTRA 쇼핑몰 바깥 EMERCOM 검문소 근처에서 연락이 끊긴 걸로 기억합니다. 현장을 확인해서 놈들이 전부 가져갔는지, 남은 게 있는지 확인해 주세요.",
+        "translation": "안녕하세요. 래그맨에게 당신도 이번 일에 참여하게 됐다고 들었습니다. 이미 상황은 설명했겠죠? 레프와는 전에도 부딪힌 적이 있습니다. 이런 규모의 작전을 여러 건 동시에 굴리는 건 간단한 일이 아니고, 비용도 만만치 않죠. 가능한 지원은 전부 필요합니다. 당신은 우리에게 가장 소중하고 믿음직한 인력 중 한 명이고요.\n\n의뢰 하나 맡으시겠습니까? 물론 보수는 지급합니다. 언제 제가 약속한 대가를 빼먹은 적이 있었나요, 군인 양반? 아르샤비르와 제가 운용하던 수송대가 있었습니다. 장갑차량에 무장 인원까지 붙였는데도 누군가 전부 무너뜨렸죠. 범인은 굳이 숨길 생각도 없었습니다. 레프의 사냥개들이었어요.\n\n그 수송대에는 기밀 장소로 보내던 특수 무기가 대량으로 실려 있었습니다. ULTRA 쇼핑몰 바깥 EMERCOM 검문소 근처에서 연락이 끊긴 걸로 기억합니다. 현장을 확인해서 놈들이 전부 가져갔는지, 남은 게 있는지 확인해 주세요.",
         "display_type": "quest_description"
       },
       {
         "key": "6812941396bf52b87fada560 successMessagetext",
         "source": "Not even dust remained? Wow, these guys are greedy assholes. I'll stay in touch, you'll hear from me or Arshavir later.",
-        "translation": "먼지 하나 안 남았다고요? 대단하군요. 욕심도 많은 놈들이네요. 계속 연락드리겠습니다. 저나 아르샤비르에게 곧 소식이 갈 겁니다."
+        "translation": "먼지 하나 안 남았다고요? 대단하군요. 욕심도 많은 놈들이네요. 계속 연락하겠습니다. 나중에 저나 아르샤비르가 직접 소식을 전해드리겠습니다."
       },
       {
         "key": "6812959ab6158cc75bf26e33",
@@ -10358,7 +10358,7 @@
       {
         "key": "681295120afc09bdf4472485 successMessagetext",
         "source": "Did you find the laptop? Great. I'll let someone check on it as soon as possible, thanks soldier. The radio repeaters are up and running too.",
-        "translation": "노트북은 찾으셨군요. 좋습니다. 바로 사람을 붙여 확인해 보죠. 수고하셨습니다. 무선 재송신기도 정상적으로 작동 중이네요."
+        "translation": "노트북은 찾으셨군요. 좋습니다. 바로 사람을 붙여 확인해 보죠. 감사합니다, 군인 양반. 무선 재송신기도 정상적으로 작동 중이네요."
       },
       {
         "key": "68129752ce261732f133838f",
@@ -10709,7 +10709,7 @@
       {
         "key": "68b075f82fe99bf60e9ad7f2 successMessagetext",
         "source": "So you found it huh, anyone there cause you trouble? I hope not, come on... I know you would have dealt with it like a professional! Anyway, your payment is on it's way.",
-        "translation": "찾았어? 거기서 누가 문제를 일으키진 않았고? 뭐, 네가 프로답게 처리했겠지. 아무튼 보수는 보내고 있어."
+        "translation": "찾았어? 거기서 누가 문제를 일으키진 않았고? 안 그랬으면 좋겠군. 그래도 네가 프로답게 처리했겠지. 아무튼 보수는 보내고 있어."
       },
       {
         "key": "68b07a9b6ca5c5656df4ef43",
@@ -10990,7 +10990,7 @@
       {
         "key": "68c0c07968c6bca3a3306adc",
         "source": "Reach Level 3 Loyalty with Skier",
-        "translation": "스키어 우호도 3레벨 달성하기"
+        "translation": "스키어 충성도 레벨 3 달성하기"
       },
       {
         "key": "68c0bfe82d85ac7091436bb2 name",
@@ -11000,7 +11000,7 @@
       {
         "key": "68c0bfe82d85ac7091436bb2 description",
         "source": "I assume you have heard the news, no? Well let me share my wisdom, champion. These smugglers weren't just some nobodies, apparently some of the local dealers are involved in this aswell, I knew some of these guys were shady but wow... Didn't know they had that much dirt on their hands.\n\nThis Skier guy who works at the port is a really greedy fuck, I know you work for him occasionally, so you might know what I am talking about. He's an important player in this line of work, however he isn't the only one, after all there are many shady people in town. This \"Fence\" guy is a perfect example, nobody knows who he is or if he's even real, I mean what's the deal with him? Rumors have been floating around that Fence isn't actually one person, but a collective of them, but who knows and honestly who cares.\n\nBoth of them are a problem. In case you're interesting in taking care of this mess, you're welcome to think of a way to help with that.",
-        "translation": "소식은 들었겠지? 아니야? 그럼 이 챔피언에게 내가 아는 걸 좀 알려줘야겠군. 그 밀수업자들이 그냥 이름 없는 잡것들이 아니었어. 현지 상인들 중 몇 놈도 이 일에 끼어 있는 모양이더라고. 몇몇 놈들이 수상하다는 건 알고 있었지만... 세상에, 손에 묻힌 게 이렇게 많을 줄은 몰랐네.\n\n항구에서 일하는 스키어라는 놈, 욕심이 아주 끝이 없어. 네가 가끔 그놈 일을 해주는 걸 아니까 무슨 말인지 알겠지. 이 바닥에선 꽤 중요한 인물이지만 걔 하나뿐인 건 아니야. 이 동네엔 수상한 인간이 널렸잖아. \"펜스\"라는 놈이 딱 그래. 누군지도 모르고, 실제 한 사람인지조차 모르겠어. 대체 정체가 뭐냐고? 펜스가 한 사람이 아니라 여러 사람의 집단이라는 소문도 돌아. 뭐, 누가 알겠어. 솔직히 관심도 없고.\n\n어쨌든 둘 다 골칫거리야. 이 난장판을 좀 정리할 생각이 있다면, 어떻게 손댈지 고민해 봐도 좋겠어.",
+        "translation": "소식은 들었겠지? 아니야? 그럼 내가 아는 걸 좀 알려주지, 챔피언. 그 밀수업자들이 그냥 이름 없는 잡것들이 아니었어. 현지 상인들 중 몇 놈도 이 일에 끼어 있는 모양이더라고. 몇몇 놈들이 수상하다는 건 알고 있었지만... 세상에, 손에 묻힌 게 이렇게 많을 줄은 몰랐네.\n\n항구에서 일하는 스키어라는 놈, 욕심이 아주 끝이 없어. 네가 가끔 그놈 일을 해주는 걸 아니까 무슨 말인지 알겠지. 이 바닥에선 꽤 중요한 인물이지만 걔 하나뿐인 건 아니야. 이 동네엔 수상한 인간이 널렸잖아. \"펜스\"라는 놈이 딱 그래. 누군지도 모르고, 실제 한 사람인지조차 모르겠어. 대체 정체가 뭐냐고? 펜스가 한 사람이 아니라 여러 사람의 집단이라는 소문도 돌아. 뭐, 누가 알겠어. 솔직히 관심도 없고.\n\n어쨌든 둘 다 골칫거리야. 이 난장판을 좀 정리할 생각이 있다면, 어떻게 손댈지 고민해 봐도 좋겠어.",
         "display_type": "quest_description"
       },
       {
@@ -11259,7 +11259,7 @@
       {
         "key": "68c422298f2722ca9f7d24a3 description",
         "source": "Hey there! How's life? Everything alright? Cool!\n\nI was informed about some current events, nothing that affects me actually but it did catch my attention in some way... Is this about Ref? Ugh... I am kinda tired of this stuff, but on the other side I would really like to profit from this, and damaging his Arena business in any way is always a win on my side. Apparently some smugglers were taken down recently? Smugglers that seriously damage my own business! I just have to get involved in here, you know?\n\nIf you know about anything, or if you have some way of helping here, I'd be super grateful if you would be able to make yourself useful here, I have some extra gear you might like and nobody is ready to buy it so getting it for free might be something you'd be interested it, hmm?",
-        "translation": "안녕하세요. 요즘은 어떠세요? 별일 없으셨죠? 좋습니다.\n\n최근 돌아가는 상황에 대해 이야기를 좀 들었습니다. 제 일에 직접적인 영향이 있는 건 아니지만, 그래도 관심이 가는 부분이 있더군요... 레프 얘기냐고요? 하... 솔직히 이 일에는 조금 지쳤습니다. 하지만 여기서 이익을 낼 수 있다면 이야기가 달라지죠. 그의 아레나 사업에 타격을 줄 수 있다면 제 입장에서는 언제나 이득이고요. 최근 밀수업자 몇 명이 정리됐다고 들었습니다. 제 사업에도 꽤 큰 피해를 주던 밀수업자들이요. 그렇다면 저도 그냥 보고만 있을 수는 없겠죠.\n\n혹시 관련 정보를 알고 있거나 제가 개입하는 데 도움을 줄 방법이 있다면 협조해 주셨으면 합니다. 마침 당신이 좋아할 만한 여분 장비가 좀 있는데, 사겠다는 사람이 없어서 말이죠. 일을 도와주시면 보수 대신 그 장비를 드리는 것도 괜찮은 거래가 될 것 같은데, 어떠세요?",
+        "translation": "안녕하세요. 요즘은 어떠세요? 별일 없으셨죠? 좋습니다.\n\n최근 돌아가는 상황에 대해 이야기를 좀 들었습니다. 제 일에 직접적인 영향이 있는 건 아니지만, 그래도 관심이 가는 부분이 있더군요... 레프 얘기냐고요? 하... 솔직히 이 일에는 조금 지쳤습니다. 하지만 여기서 이익을 낼 수 있다면 이야기가 달라지죠. 그의 아레나 사업에 타격을 줄 수 있다면 제 입장에서는 언제나 이득이고요. 최근 밀수업자 몇 명이 정리됐다고 들었습니다. 제 사업에도 꽤 큰 피해를 주던 밀수업자들이요. 그렇다면 저도 그냥 보고만 있을 수는 없겠죠.\n\n혹시 관련 정보를 알고 있거나 제가 개입하는 데 도움을 줄 방법이 있다면 협조해 주셨으면 합니다. 마침 당신이 좋아할 만한 여분 장비가 좀 있는데, 사겠다는 사람이 없어서 말이죠. 도와주신다면 그 장비를 공짜로 드릴 수도 있습니다. 관심 있으십니까?",
         "display_type": "quest_description"
       },
       {
@@ -11331,7 +11331,7 @@
       {
         "key": "68c432f157baa1fbcd13447d description",
         "source": "Yo, lad, I got something for you, it's important so take a listen, and don't get distracted by some birds. This Ref guy stole some of my goods, you remember that I suppose, well guess what, I got a lead on where he hid some of the cargo, no idea what he wants with them, perhaps this is like a deal or something and he is waiting for his buyer to pick it up, perhaps not, who knows.\n\nAnyway, I need someone to find the place, tell me if the cargo is there or not, I might send over someone to check it out, maybe we can catch the buyer off guard and squeeze some information out of him? Oh I meant to politely ask him for details on this case.\n\nI believe it's close to warehouse three and four in the customs zone, I think you once checked out the zone yourself, right? You're familiar with that place so why don't you take a gander.",
-        "translation": "어이, 형씨. 아직 갈 생각 하지 마. 중요한 일이 하나 있으니까 귀 기울여. 새 구경이나 하면서 딴짓하지 말고. 그 레프라는 개자식이 내 물건을 훔친 건 기억하지? 그런데 말이야, 놈이 화물 일부를 어디에 숨겼는지 단서를 잡았어. 그걸 왜 거기에 둔 건지는 몰라. 거래 물건이라 구매자가 가져가길 기다리는 걸 수도 있고, 아닐 수도 있지. 누가 알겠어.\n\n어쨌든 장소를 찾아서 화물이 있는지만 확인해 줘. 사람을 몇 보내서 살펴보게 할 수도 있어. 운이 좋으면 구매자를 기습해서 정보를 좀 짜낼 수도 있겠지? 아, 물론 사건에 대해 \"정중하게\" 물어본다는 뜻이야.\n\n세관의 3번 창고와 4번 창고 근처라고 들었어. 형씨도 예전에 그 구역을 살펴본 적 있지? 익숙한 곳이니 한 번 둘러봐.",
+        "translation": "어이, 형씨. 중요한 얘기가 하나 있으니 잘 들어. 새 구경이나 하면서 딴짓하지 말고. 그 레프라는 개자식이 내 물건을 훔친 건 기억하지? 그런데 말이야, 놈이 화물 일부를 어디에 숨겼는지 단서를 잡았어. 그걸 왜 거기에 둔 건지는 몰라. 거래 물건이라 구매자가 가져가길 기다리는 걸 수도 있고, 아닐 수도 있지. 누가 알겠어.\n\n어쨌든 장소를 찾아서 화물이 있는지만 확인해 줘. 사람을 몇 보내서 살펴보게 할 수도 있어. 운이 좋으면 구매자를 기습해서 정보를 좀 짜낼 수도 있겠지? 아, 물론 사건에 대해 \"정중하게\" 물어본다는 뜻이야.\n\n세관의 3번 창고와 4번 창고 근처라고 들었어. 형씨도 예전에 그 구역을 살펴본 적 있지? 익숙한 곳이니 한 번 둘러봐.",
         "display_type": "quest_description"
       },
       {
@@ -11767,7 +11767,7 @@
       {
         "key": "680e807527f51292fa6b2f9e successMessagetext",
         "source": "Thank you for doing the right thing warrior! Well done. I knew I could trust you.",
-        "translation": "올바른 선택을 해주셔서 감사합니다. 잘하셨습니다. 당신이라면 믿을 수 있을 줄 알았습니다."
+        "translation": "올바른 선택을 해주셔서 감사합니다, 전사여! 잘하셨습니다. 당신이라면 믿을 수 있을 줄 알았습니다."
       },
       {
         "key": "680e807527f51292fa6b2f9e failMessageText",
@@ -11952,7 +11952,7 @@
       {
         "key": "68665a3b90bfb5b2fc3eab8d successMessagetext",
         "source": "Looks like you took good care of it, well done out there.",
-        "translation": "깔끔하게 처리했나 보군. 잘했어, 챔피언."
+        "translation": "깔끔하게 처리했나 보군. 잘했어."
       },
       {
         "key": "68a9de9230a93188c1cfd77e",
@@ -12043,7 +12043,7 @@
       {
         "key": "68aa055fda2fdadeda09f85e description",
         "source": "So... Cape Dalniy, about that. I'm guessing he tried to escape through the ocean, there's a small pier at the beach west of the train depot near the water treatment plant, a few rowboats were kept on that spot. He might have used one of them to get out of there.\n\nA few of my guys managed to get their hands on CCTV camera footage from the northern checkpoint and it showed how he ran inside a small shack and came out a few hours later, guessing he took some rest in their, maybe he left us some clues? Check out the place, take this marker with you just in case you find something, and if you do, please use the device.\n\nNow, the pier... What's up with that place to begin with you might ask? Well obviously, multiple boats were parked there, likely used to evacuate a few people. Not sure how many managed to get out, if any...\nSince you'll be close to it, I suggest you check out the beach aswell,",
-        "translation": "그래... 달니 곶 말인데. 그놈은 바다를 통해 빠져나가려 했던 것 같아. 수처리장 근처 기차역 서쪽 해변에 작은 부두가 하나 있고, 거기에 노 젓는 보트 몇 척이 있었다더군. 그중 하나를 타고 빠져나갔을지도 모르지.\n\n내 사람 몇 명이 북부 검문소 CCTV 영상을 손에 넣었는데, 그놈이 작은 오두막 안으로 뛰어 들어갔다가 몇 시간 뒤에 나오는 장면이 찍혀 있었어. 안에서 좀 쉬었나 보지. 단서라도 남겨뒀을 수 있으니 그곳을 확인해 봐. 혹시 뭔가 찾을 경우를 대비해 마커도 하나 가져가고, 찾으면 꼭 표시해 둬.\n\n그리고 부두 말인데... 애초에 거긴 뭐 하는 곳이었냐고? 당연히 보트 여러 척이 정박돼 있었지. 사람 몇 명을 빼내는 데 썼을 가능성이 높아. 실제로 몇 명이나 빠져나갔는지는 모르겠지만...\n어차피 근처까지 갈 테니 해변도 같이 확인해 봐.",
+        "translation": "그래... 달니 곶 말인데. 그놈은 바다를 통해 빠져나가려 했던 것 같아. 수처리장 근처 철도 차량기지 서쪽 해변에 작은 부두가 하나 있고, 거기에 노 젓는 보트 몇 척이 있었다더군. 그중 하나를 타고 빠져나갔을지도 모르지.\n\n내 사람 몇 명이 북부 검문소 CCTV 영상을 손에 넣었는데, 그놈이 작은 오두막 안으로 뛰어 들어갔다가 몇 시간 뒤에 나오는 장면이 찍혀 있었어. 안에서 좀 쉬었나 보지. 단서라도 남겨뒀을 수 있으니 그곳을 확인해 봐. 혹시 뭔가 찾을 경우를 대비해 마커도 하나 가져가고, 찾으면 꼭 표시해 둬.\n\n그리고 부두 말인데... 애초에 거긴 뭐 하는 곳이었냐고? 당연히 보트 여러 척이 정박돼 있었지. 사람 몇 명을 빼내는 데 썼을 가능성이 높아. 실제로 몇 명이나 빠져나갔는지는 모르겠지만...\n어차피 근처까지 갈 테니 해변도 같이 확인해 봐.",
         "display_type": "quest_description"
       },
       {
@@ -12181,7 +12181,7 @@
       {
         "key": "68b85170b361cb40dcf8035e description",
         "source": "We know a lot more about this case now, thanks to your work of course. This Ref guy seems to have way more connections than I thought, pretty dangerous connections. You know that's not something we can just ignore, right? And his friend Ryba had a lot of ties to Terragroup I suggest you head down into the city center, the documents you brought earlier mentioned something about Tarbank, maybe we can find something useful there?Banking records perhaps, that would be super helpful, you know.\n\nMaybe you should check out the ATMs? One of them might still work, take a radio transmitter with you just in case you find one. Also USEC had their ties in this thing too, after all they were working with Terragroup, since the business center was the hot zone of the contract wars. It's guaranteed that you will find some sort of stash full of weapons, maybe even directly outside the Tarbank building? Well, just in case you find something, please mark it.\n\nI also suggest you clear out the building if you manage to find something of importance. Thank you, and good luck out there.",
-        "translation": "당신 덕분에 이 사건에 대해 훨씬 많은 걸 알게 됐습니다. 레프라는 사람은 제가 생각했던 것보다 훨씬 넓은 인맥을 가지고 있더군요. 그것도 상당히 위험한 인맥입니다. 이걸 그냥 무시할 수는 없다는 건 아시겠죠? 그의 친구 리바 역시 테라그룹과 깊이 연결돼 있었습니다. 전에 가져오신 문서에 타르뱅크 관련 내용이 있었으니 도심으로 가보시죠. 쓸 만한 자료를 찾을 수도 있습니다. 은행 거래 기록 같은 거라면 특히 가치가 있겠군요.\n\nATM도 확인해 보세요. 아직 작동하는 기기가 하나쯤 있을지도 모릅니다. 발견할 경우를 대비해 무선 중계기를 가져가시고요. USEC 역시 이 일과 연관돼 있었을 겁니다. 결국 테라그룹을 위해 일하던 사람들이고, 비즈니스 센터는 계약 전쟁 당시 핵심 교전 지역이었으니까요. 무기 은닉처 하나쯤은 반드시 남아 있을 겁니다. 어쩌면 타르뱅크 건물 바로 밖에 있을 수도 있겠죠. 발견하면 표시해 주세요.\n\n중요한 걸 찾았다면 건물 안의 적대 세력도 정리해 주시는 편이 좋겠습니다. 부탁드리죠. 조심해서 다녀오세요.",
+        "translation": "당신 덕분에 이 사건에 대해 훨씬 많은 걸 알게 됐습니다. 레프라는 사람은 제가 생각했던 것보다 훨씬 넓은 인맥을 가지고 있더군요. 그것도 상당히 위험한 인맥입니다. 이걸 그냥 무시할 수는 없다는 건 아시겠죠? 그의 친구 리바 역시 테라그룹과 깊이 연결돼 있었습니다. 전에 가져오신 문서에 타르뱅크 관련 내용이 있었으니 도심으로 가보시죠. 쓸 만한 자료를 찾을 수도 있습니다. 은행 거래 기록 같은 거라면 특히 가치가 있겠군요.\n\nATM도 확인해 보세요. 아직 작동하는 기기가 하나쯤 있을지도 모릅니다. 발견할 경우를 대비해 무선 중계기를 가져가시고요. USEC 역시 이 일과 연관돼 있었을 겁니다. 결국 테라그룹을 위해 일하던 사람들이고, 비즈니스 센터는 계약 전쟁 당시 핵심 교전 지역이었으니까요. 무기 은닉처 하나쯤은 반드시 남아 있을 겁니다. 어쩌면 타르뱅크 건물 바로 밖에 있을 수도 있겠죠. 발견하면 표시해 주세요.\n\n중요한 걸 찾았다면 건물 안의 적대 세력도 정리해 주시는 편이 좋겠습니다. 감사합니다. 밖에서도 행운을 빕니다.",
         "display_type": "quest_description"
       },
       {
@@ -12451,7 +12451,7 @@
       {
         "key": "68c050219acd85c21d60b669 description",
         "source": "I expected you.\n\nI heard you and Lotus started taking care of this already, is that true? Well, in that case, let's continue. However, your work had very little impact to this operation, no offense. It's just that there is way more to this than what meets the eye, you might have expected this, maybe not, you tell me. You want know what happened to the gangsters? They're nothing to worry about anymore, USEC took care of them when they claimed the territory and set up their bases around the premises.\n\nFrom Zryachiy's observation, nobody actually looted all of their weapon stashes, some where swept clean by the locals, but most of them were left alone, unfortunately he couldn't get a clear view on all of them. It would only make sense to deploy a few footsoldiers there, don't you think? I assume you're already very familiar with that area, so why don't you take a look at it for me?",
-        "translation": "기다리고 있었네.\n\n자네와 로터스가 이미 이 일을 처리하기 시작했다는 얘길 들었네. 사실인가? 그렇다면 계속하지. 다만 기분 나쁘게 듣지는 말게. 지금까지 자네들이 한 일은 이번 작전에 큰 영향을 주진 못했네. 겉으로 보이는 것보다 훨씬 더 복잡한 일이니까. 자네가 예상했을 수도 있고 아닐 수도 있겠지. 그 조직폭력배들에게 무슨 일이 있었는지 궁금한가? 이제 그들은 걱정할 필요 없네. USEC이 이 지역을 차지하고 주변에 기지를 세울 때 이미 처리했으니 말일세.\n\n즈랴치가 지켜본 바로는 그들의 무기 은닉처가 전부 털린 건 아니었네. 현지인들이 깨끗이 가져간 곳도 있지만 대부분은 그대로 남아 있다더군. 유감스럽게도 모든 위치를 뚜렷하게 볼 수는 없었다고 하네. 그렇다면 직접 발로 확인할 사람을 보내는 게 순리 아니겠나? 자네는 이미 그 지역에 아주 익숙할 테니, 나 대신 한번 살펴봐 주게.",
+        "translation": "기다리고 있었네.\n\n자네와 로터스가 이미 이 일을 처리하기 시작했다는 얘길 들었네. 사실인가? 그렇다면 계속하지. 다만 기분 나쁘게 듣지는 말게. 지금까지 자네들이 한 일은 이번 작전에 큰 영향을 주진 못했네. 겉으로 보이는 것보다 훨씬 더 복잡한 일이니까. 자네가 예상했을 수도 있고 아닐 수도 있겠지. 그 조직폭력배들에게 무슨 일이 있었는지 궁금한가? 이제 그들은 걱정할 필요 없네. USEC이 이 지역을 차지하고 주변에 기지를 세울 때 이미 처리했으니 말일세.\n\n즈랴치가 지켜본 바로는 그들의 무기 은닉처가 전부 털린 건 아니었네. 현지인들이 깨끗이 가져간 곳도 있지만 대부분은 그대로 남아 있다더군. 유감스럽게도 모든 위치를 뚜렷하게 볼 수는 없었다고 하네. 그렇다면 그곳에 현장 요원 몇 명을 보내 확인해 보는 게 순리 아니겠나? 자네는 이미 그 지역에 아주 익숙할 테니, 나 대신 한번 살펴봐 주게.",
         "display_type": "quest_description"
       },
       {
@@ -12487,22 +12487,22 @@
       {
         "key": "68c0800757524c91516aa84d",
         "source": "Locate the first Terragroup Cargo inside the Trainyard's Warehouse on Lighthouse",
-        "translation": "등대 기차역 창고 안에서 첫 번째 테라그룹 화물 찾기"
+        "translation": "등대 철도 차량기지 창고 안에서 첫 번째 테라그룹 화물 찾기"
       },
       {
         "key": "68c0801fcade3775e7c9e301",
         "source": "Locate the second Terragroup Cargo inside the Trainyard's Warehouse on Lighthouse",
-        "translation": "등대 기차역 창고 안에서 두 번째 테라그룹 화물 찾기"
+        "translation": "등대 철도 차량기지 창고 안에서 두 번째 테라그룹 화물 찾기"
       },
       {
         "key": "68c080296fe0cf592ffe2696",
         "source": "Locate the third Terragroup Cargo inside the Trainyard's Warehouse on Lighthouse",
-        "translation": "등대 기차역 창고 안에서 세 번째 테라그룹 화물 찾기"
+        "translation": "등대 철도 차량기지 창고 안에서 세 번째 테라그룹 화물 찾기"
       },
       {
         "key": "68c0802ed2ea6448067c65e4",
         "source": "Find the first batch of Terragroup Chemicals inside the Trainyard's Warehouse",
-        "translation": "기차역 창고 안에서 첫 번째 테라그룹 화학물질 묶음 찾기"
+        "translation": "철도 차량기지 창고 안에서 첫 번째 테라그룹 화학물질 묶음 찾기"
       },
       {
         "key": "68c08040da5f226a62893106",
@@ -12527,7 +12527,7 @@
       {
         "key": "68c07c94fd7357fff87e46a7 description",
         "source": "Not quite punctual like I am used to from a \"professional\", but it's alright. Zryachiy told me that he saw a few of the blue helmets wandering around the villas. I thought they retreated from Cape Dalniy, but by the looks of it I was mistaken.\n\nSpeaking of the blue helmets... You weren't wrong when you said that there's more at the villa, Zryachiy's guys found a UN vehicle near the entrance, what the hell are those guys doing there? This is very suspicious, something is wrong. I have my contacts at UNTAR, I always know when something is up, but none of them seem to know anything about it, so either they're lying or the people who have been spotted are doing their own thing, and that is never a good sign.\n\nI tried contacting the rogue USEC group, apparently they saw them walk towards the trainyard but lost contact after. If it's nothing related to building their secret drug operation, I assume it has to do with Terragroup, so I suggest you keep your eyes peeled. Are you able to handle this kind of task by yourself?",
-        "translation": "\"전문가\"인 자네답지 않게 조금 늦었군. 뭐, 괜찮네. 즈랴치가 빌라 주변을 돌아다니는 파란 헬멧 몇 명을 봤다고 하더군. 그들이 달니 곶에서 철수한 줄 알았는데, 내가 틀렸던 모양이야.\n\n파란 헬멧 이야기가 나와서 말인데... 빌라에 더 확인할 게 있다는 자네 말이 맞았네. 즈랴치의 사람들이 입구 근처에서 UN 차량을 발견했다더군. 그자들이 거기서 대체 뭘 하고 있는 건가? 아주 수상해. 뭔가 잘못됐네. UNTAR 쪽에는 내 연락책들이 있어서 무슨 일이 생기면 대개 알고 있지. 그런데 이번 일은 아무도 모른다고 하더군. 그들이 거짓말을 하고 있거나, 목격된 자들이 독단적으로 움직이고 있다는 뜻이겠지. 어느 쪽이든 좋은 신호는 아니네.\n\nUSEC 로그 쪽에도 연락해 봤네. 그들 말로는 파란 헬멧들이 기차역 방향으로 이동하는 걸 봤지만 그 뒤로는 놓쳤다고 하더군. 비밀 마약 제조소를 다시 만들려는 게 아니라면 테라그룹과 관련된 일일 가능성이 높네. 눈을 크게 뜨고 살펴보게. 이 정도 일은 자네 혼자 처리할 수 있겠나?",
+        "translation": "\"전문가\"인 자네답지 않게 조금 늦었군. 뭐, 괜찮네. 즈랴치가 빌라 주변을 돌아다니는 파란 헬멧 몇 명을 봤다고 하더군. 그들이 달니 곶에서 철수한 줄 알았는데, 내가 틀렸던 모양이야.\n\n파란 헬멧 이야기가 나와서 말인데... 빌라에 더 확인할 게 있다는 자네 말이 맞았네. 즈랴치의 사람들이 입구 근처에서 UN 차량을 발견했다더군. 그자들이 거기서 대체 뭘 하고 있는 건가? 아주 수상해. 뭔가 잘못됐네. UNTAR 쪽에는 내 연락책들이 있어서 무슨 일이 생기면 대개 알고 있지. 그런데 이번 일은 아무도 모른다고 하더군. 그들이 거짓말을 하고 있거나, 목격된 자들이 독단적으로 움직이고 있다는 뜻이겠지. 어느 쪽이든 좋은 신호는 아니네.\n\nUSEC 로그 쪽에도 연락해 봤네. 그들 말로는 파란 헬멧들이 철도 차량기지 방향으로 이동하는 걸 봤지만 그 뒤로는 놓쳤다고 하더군. 그들의 비밀 마약 사업을 구축하는 일과 관련이 없다면 테라그룹과 관련된 일일 가능성이 높네. 눈을 크게 뜨고 살펴보게. 이 정도 일은 자네 혼자 처리할 수 있겠나?",
         "display_type": "quest_description"
       },
       {
@@ -12548,7 +12548,7 @@
       {
         "key": "68c07c94fd7357fff87e46a7 completePlayerMessage",
         "source": "I found Terragroup crates inside the warehouse near the trainyard, but not the normal kind, something's up... I managed to stumble across barrels of chemicals too, I marked them just to be safe.",
-        "translation": "기차역 근처 창고에서 테라그룹 상자들을 찾았습니다. 평범한 화물은 아닌 것 같습니다. 화학물질이 든 드럼통도 발견해서 혹시 몰라 표시해 뒀습니다."
+        "translation": "철도 차량기지 근처 창고에서 테라그룹 상자들을 찾았습니다. 평범한 화물은 아닌 것 같습니다. 화학물질이 든 드럼통도 발견해서 혹시 몰라 표시해 뒀습니다."
       },
       {
         "key": "68c0897c59a505616f409a21",
@@ -12614,7 +12614,7 @@
       {
         "key": "68c09bfeaba069e31ac74fbb",
         "source": "Find the second batch of Terragroup Chemicals outside the Trainyard's Warehouse",
-        "translation": "기차역 창고 밖에서 두 번째 테라그룹 화학물질 묶음 찾기"
+        "translation": "철도 차량기지 창고 밖에서 두 번째 테라그룹 화학물질 묶음 찾기"
       }
     ]
   }

@@ -57,7 +57,7 @@
       "source_display_name": "Hotkey",
       "source_description": "Key used to load ammo outside the inventory",
       "translation_display_name": "단축키",
-      "translation_description": "단축키: 사용할 키를 지정합니다.",
+      "translation_description": "인벤토리 화면을 열지 않고 탄약을 장전할 때 사용할 단축키입니다.",
       "values": []
     },
     {
