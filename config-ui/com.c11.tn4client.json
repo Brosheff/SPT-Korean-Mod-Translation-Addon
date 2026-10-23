@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.c11.tn4client",
   "plugin_name": "C11-TN4-Client",
+  "mod_version": "4.0.29",
   "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
   "categories": [
     {

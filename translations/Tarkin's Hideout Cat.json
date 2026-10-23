@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.hideoutcat",
   "mod_name": "Tarkin's Hideout Cat",
+  "mod_version": "1.1.1",
   "channels": {
     "small_ui": [
       {

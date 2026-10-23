@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "xyz.drakia.quickmovetocontainer",
   "plugin_name": "DrakiaXYZ-QuickMoveToContainer",
+  "mod_version": "1.5.0",
   "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
   "categories": [
     {

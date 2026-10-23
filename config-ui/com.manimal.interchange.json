@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.manimal.interchange",
   "plugin_name": "Manimal-InterchangeRework",
+  "mod_version": "1.0.8",
   "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
   "categories": [
     {

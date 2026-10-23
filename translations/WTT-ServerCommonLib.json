@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "mod_158ca5b8c626",
   "mod_name": "WTT-ServerCommonLib",
+  "mod_version": "3.0.6",
   "channels": {
     "locale": [
       {

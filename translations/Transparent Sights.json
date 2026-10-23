@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.transparentsights",
   "mod_name": "Transparent Sights",
+  "mod_version": "0.2.2",
   "channels": {
     "small_ui": [
       {

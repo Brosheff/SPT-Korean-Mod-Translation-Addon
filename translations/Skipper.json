@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.skipper",
   "mod_name": "Skipper",
+  "mod_version": "1.1.5",
   "channels": {
     "small_ui": [
       {

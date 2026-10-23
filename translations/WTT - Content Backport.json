@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "mod_5549b83ca3eb",
   "mod_name": "WTT - Content Backport",
+  "mod_version": "2.0.5",
   "channels": {
     "locale": [
       {

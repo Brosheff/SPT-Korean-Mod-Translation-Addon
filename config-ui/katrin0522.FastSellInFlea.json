@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "katrin0522.FastSellInFlea",
   "plugin_name": "SPT-FastInFleaSell-main",
+  "mod_version": "1.3.1",
   "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
   "categories": [
     {

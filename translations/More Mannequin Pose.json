@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "source3.custom_mannequin_pose",
   "mod_name": "More Mannequin Pose",
+  "mod_version": "2.0.0",
   "channels": {
     "locale": [
       {

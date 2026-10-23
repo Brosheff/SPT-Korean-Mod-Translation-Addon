@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "ChooChoo.TraderModding",
   "mod_name": "Trader Modding And Improved Weapon Building",
+  "mod_version": "2.1.2",
   "channels": {
     "notifications": [
       {

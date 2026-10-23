@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.weaponbuildersearch",
   "mod_name": "WeaponBuilderSearch",
+  "mod_version": "2.0.0",
   "channels": {
     "small_ui": [
       {

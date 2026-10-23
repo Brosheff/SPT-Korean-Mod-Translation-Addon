@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "7Bpencil.WeaponCamoAndStickers",
   "plugin_name": "7Bpencil.WeaponCamoAndStickers",
+  "mod_version": "1.19.0",
   "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Source verified against Weapon Camo & Stickers 1.19.0 Plugin.cs. Config keys and saved values are not modified.",
   "categories": [
     {

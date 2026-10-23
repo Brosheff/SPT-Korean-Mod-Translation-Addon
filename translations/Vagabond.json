@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "Vagabond",
   "mod_name": "Vagabond",
+  "mod_version": "0.8.3",
   "channels": {
     "locale": [
       {

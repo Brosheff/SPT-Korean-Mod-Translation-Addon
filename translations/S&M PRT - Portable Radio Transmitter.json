@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "source3.suomi_prt",
   "mod_name": "S&M PRT - Portable Radio Transmitter",
+  "mod_version": "1.0.2",
   "channels": {
     "locale": [
       {

@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "source3.make_shotguns_great_again",
   "mod_name": "Make Shotguns Great Again!",
+  "mod_version": "1.19.0",
   "channels": {
     "locale": [
       {
@@ -303,8 +304,8 @@
       },
       {
         "key": "6910e8d90b57259e9dd34f78 Description",
-        "source": "A 750mm long .700 Nitro Express barrel for MP-700 double-barreled rifle. Because of the pressure of the .700 Nitro Express cartridge, the barrel is extremely heavy. Manufactured by Holland & Holland.",
-        "translation": "MP-700 쌍열 소총용 750mm 길이의 .700 Nitro Express 총열입니다. .700 Nitro Express 탄약의 높은 압력을 견뎌야 하므로 총열은 매우 무겁습니다. 홀랜드 & 홀랜드(Holland & Holland)에서 제조했습니다."
+        "source": "A 725mm long .700 Nitro Express barrel for MP-700 double-barreled rifle. Because of the pressure of the .700 Nitro Express cartridge, the barrel is extremely heavy. Manufactured by Holland & Holland.",
+        "translation": "MP-700 쌍열 소총용 725mm 길이의 .700 Nitro Express 총열입니다. .700 Nitro Express 탄약의 높은 압력을 견뎌야 하므로 총열은 매우 무겁습니다. 홀랜드 & 홀랜드(Holland & Holland)에서 제조했습니다."
       },
       {
         "key": "6910e86bbcb9218635891ae2 Name",
@@ -712,6 +713,846 @@
         "source": "Eliminate PMCs using any 12ga shotgun with a suppressor",
         "translation": "소음기를 장착한 12게이지 산탄총을 사용해 PMC 사살",
         "display_type": "quest_objective"
+      },
+      {
+        "key": "3ed19bd544854f098ce5c2bb Name",
+        "source": ".410/76 lead birdshot",
+        "translation": ".410/76 lead birdshot",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "3ed19bd544854f098ce5c2bb ShortName",
+        "source": ".410 birdshot",
+        "translation": ".410 birdshot"
+      },
+      {
+        "key": "3ed19bd544854f098ce5c2bb Description",
+        "source": "A .410/76 shotshell loaded with fine lead shot for small game and unarmored targets at short range.",
+        "translation": "소형 사냥감이나 짧은 거리의 비장갑 표적을 겨냥해 미세한 납 산탄을 장전한 .410/76 산탄입니다."
+      },
+      {
+        "key": "36d2e4ec1ac64ab19d477d5b Name",
+        "source": ".410/76 000 buckshot",
+        "translation": ".410/76 000 buckshot",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "36d2e4ec1ac64ab19d477d5b ShortName",
+        "source": ".410 000",
+        "translation": ".410 000"
+      },
+      {
+        "key": "36d2e4ec1ac64ab19d477d5b Description",
+        "source": "A .410/76 shotshell loaded with five large lead pellets. It delivers a stronger impact per pellet than birdshot, with limited armor penetration.",
+        "translation": "커다란 납 산탄 5개를 장전한 .410/76 산탄입니다. 조류용 산탄보다 개별 탄자의 충격력이 강하지만 방어구 관통력은 제한적입니다."
+      },
+      {
+        "key": "6aea74e19d394c03816fd104 Name",
+        "source": ".410/76 lead slug",
+        "translation": ".410/76 lead slug",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6aea74e19d394c03816fd104 ShortName",
+        "source": ".410 slug",
+        "translation": ".410 slug"
+      },
+      {
+        "key": "6aea74e19d394c03816fd104 Description",
+        "source": "A .410/76 shotshell carrying a single lead slug. It provides a more focused impact than shot loads, with modest armor penetration.",
+        "translation": "단일 납 슬러그 탄두를 사용하는 .410/76 산탄입니다. 산탄형 탄약보다 충격이 한곳에 집중되지만 방어구 관통력은 높지 않습니다."
+      },
+      {
+        "key": "6e3dfcf763fec3ef30a9e954 Name",
+        "source": "Bailiff 410 revolver",
+        "translation": "베일리프 410 .410 리볼버",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6e3dfcf763fec3ef30a9e954 ShortName",
+        "source": "Bailiff 410",
+        "translation": "베일리프 410"
+      },
+      {
+        "key": "6e3dfcf763fec3ef30a9e954 Description",
+        "source": "A compact five-shot revolver with a 2-inch barrel, built to fire .410/76 shotshells. Light and quick to handle, with fixed fiber-optic sights and no mounts for accessories. The short barrel costs muzzle velocity and makes it kick harder than the heavier Raging Judge. It can fire in single-action or double-action mode.",
+        "translation": "2인치 총열을 장착하고 .410/76 산탄을 발사하는 소형 5연발 리볼버입니다. 가볍고 다루기 쉬우며 고정식 광섬유 조준기가 있지만 부착물 장착부는 없습니다. 짧은 총열로 인해 탄속이 낮고 무거운 레이징 저지보다 반동이 강합니다. 싱글액션과 더블액션으로 사격할 수 있습니다."
+      },
+      {
+        "key": "f214da7cd7c34d27f8086a1d Name",
+        "source": "Bailiff 410 5-round cylinder",
+        "translation": "5발, 베일리프 410 .410/76 실린더",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "f214da7cd7c34d27f8086a1d ShortName",
+        "source": "Bailiff cyl.",
+        "translation": "베일리프 실린더"
+      },
+      {
+        "key": "f214da7cd7c34d27f8086a1d Description",
+        "source": "A five-chamber .410/76 cylinder for the Bailiff 410 revolver.",
+        "translation": "베일리프 410 리볼버용 .410/76 탄약 5발을 수용하는 실린더입니다."
+      },
+      {
+        "key": "f68e9b5e505b6ac446e28fbb Name",
+        "source": "Chiappa Triple Crown 12ga triple-barrel shotgun",
+        "translation": "키아파 트리플 크라운 12게이지 삼연장 산탄총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "f68e9b5e505b6ac446e28fbb ShortName",
+        "source": "Triple Crown",
+        "translation": "트리플 크라운"
+      },
+      {
+        "key": "f68e9b5e505b6ac446e28fbb Description",
+        "source": "A break-action shotgun with three 28-inch barrels set in a triangle, made by Chiappa Firearms in Italy. A single trigger fires the right, left and top barrels in turn. Fed with 12 gauge shells.",
+        "translation": "이탈리아 키아파 파이어암스에서 제작한 삼연장 중절식 산탄총입니다. 28인치 총열 세 개가 삼각형으로 배치되어 있으며, 방아쇠 하나로 오른쪽, 왼쪽, 위쪽 총열 순서대로 발사합니다. 12게이지 산탄을 사용합니다."
+      },
+      {
+        "key": "bb4361711417c939a40c540d Name",
+        "source": "Chiappa Triple Crown 12ga 711mm triple barrel",
+        "translation": "키아파 트리플 크라운 12게이지 711mm 삼연장 총열",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "bb4361711417c939a40c540d ShortName",
+        "source": "TC 711mm",
+        "translation": "TC 711mm"
+      },
+      {
+        "key": "bb4361711417c939a40c540d Description",
+        "source": "A set of three 711mm long 12 gauge barrels for the Chiappa Triple Crown shotgun, with a bead front sight.",
+        "translation": "키아파 트리플 크라운 산탄총용 711mm 12게이지 총열 세 개로 이루어진 총열 세트입니다. 비드형 가늠쇠가 장착되어 있습니다."
+      },
+      {
+        "key": "a885d565511eb39be5d9ee7e Name",
+        "source": "Monolith Arms P-12 12ga pump-action shotgun",
+        "translation": "모놀리스 암스 P-12 12게이지 불펍 펌프액션 산탄총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "a885d565511eb39be5d9ee7e ShortName",
+        "source": "P-12",
+        "translation": "P-12"
+      },
+      {
+        "key": "a885d565511eb39be5d9ee7e Description",
+        "source": "An American 12ga bullpup pump-action shotgun designed around 2005 by Brian F. Abbott of Monolith Arms. It feeds from a 20-round detachable magazine that lies flat on top of the receiver, in the manner of the FN P90, and is cycled by a pump with an integrated vertical foregrip. According to its designer, the prototype combined 3D-printed parts with off-the-shelf components to make repairs easier, and was meant to have an adjustable trigger pull. It was revealed in a 2008 promotional video that never showed it firing, and never reached production: the only prototype is said to have been sold to a manufacturer that chose not to produce it.",
+        "translation": "모놀리스 암스의 브라이언 F. 애벗이 2005년 무렵 설계한 미국제 12게이지 불펍 펌프액션 산탄총입니다. FN P90처럼 총몸 위에 평평하게 놓인 탈착식 20발 탄창에서 급탄하며, 수직 전방손잡이가 결합된 펌프를 조작해 장전합니다. 설계자에 따르면 시제품은 수리를 쉽게 하도록 3D 프린팅 부품과 기성 부품을 함께 사용했고, 방아쇠 압력도 조절할 계획이었습니다. 2008년 홍보 영상에 공개되었지만 실제 발사 장면은 없었고 양산되지 않았습니다. 유일한 시제품은 생산을 포기한 제조사에 판매된 것으로 알려져 있습니다."
+      },
+      {
+        "key": "665ae38202c6064011c73a4a Name",
+        "source": "Monolith Arms P-12 12ga 445mm barrel",
+        "translation": "모놀리스 암스 P-12 12게이지 445mm 총열",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "665ae38202c6064011c73a4a ShortName",
+        "source": "P-12 445mm",
+        "translation": "P-12 445mm"
+      },
+      {
+        "key": "665ae38202c6064011c73a4a Description",
+        "source": "The 445mm smoothbore barrel of the Monolith Arms P-12, with no muzzle thread. It is fixed to the weapon.",
+        "translation": "모놀리스 암스 P-12용 445mm 활강 총열입니다. 총구 나사산이 없으며 무기에 고정되어 있습니다."
+      },
+      {
+        "key": "404cd6ac317b73172b0fda02 Name",
+        "source": "Monolith Arms P-12 12ga 20-round magazine",
+        "translation": "20발, 모놀리스 암스 P-12 12게이지 탄창",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "404cd6ac317b73172b0fda02 ShortName",
+        "source": "P-12 20",
+        "translation": "P-12 20"
+      },
+      {
+        "key": "404cd6ac317b73172b0fda02 Description",
+        "source": "A 20-round translucent polymer magazine for the Monolith Arms P-12. It sits flat on top of the receiver and holds the shells crosswise in a staggered double row; the top shell turns in line with the bore as it feeds.",
+        "translation": "모놀리스 암스 P-12용 반투명 폴리머 20발 탄창입니다. 총몸 위에 평평하게 장착되며, 탄약을 서로 엇갈린 두 줄로 가로 방향으로 수납합니다. 급탄될 때 맨 위의 탄약이 총열 축과 나란하게 돌아갑니다."
+      },
+      {
+        "key": "bb588a5a9ed5cb07327eba77 Name",
+        "source": "Mossberg 590M 12ga pump-action shotgun",
+        "translation": "모스버그 590M 12게이지 펌프액션 산탄총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "bb588a5a9ed5cb07327eba77 ShortName",
+        "source": "590M",
+        "translation": "590M"
+      },
+      {
+        "key": "bb588a5a9ed5cb07327eba77 Description",
+        "source": "A magazine-fed derivative of the Mossberg 590 pump-action shotgun. It keeps the proven 590 action, heavy-walled 18.5\" barrel and standard furniture, but feeds from a detachable double-stack box magazine inserted in front of the trigger guard, making reloads much faster than with a tube.",
+        "translation": "모스버그 590 펌프액션 산탄총을 탈착식 탄창 급탄 방식으로 개조한 파생형입니다. 검증된 590의 작동 방식과 두꺼운 18.5인치 총열, 기본 외장 부품을 유지하면서 방아쇠울 앞쪽에 삽입하는 탈착식 복열 박스 탄창을 사용해 관형 탄창보다 훨씬 빠르게 재장전할 수 있습니다."
+      },
+      {
+        "key": "162b0d6a578295ec06b77318 Name",
+        "source": "Mossberg 590M 12ga 470mm barrel",
+        "translation": "모스버그 590M 12게이지 470mm 총열",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "162b0d6a578295ec06b77318 ShortName",
+        "source": "590M 470mm",
+        "translation": "590M 470mm"
+      },
+      {
+        "key": "162b0d6a578295ec06b77318 Description",
+        "source": "The heavy-walled 470mm (18.5\") barrel of the Mossberg 590M with its front bead sight. It is fixed to the weapon.",
+        "translation": "비드형 가늠쇠가 장착된 모스버그 590M용 두꺼운 470mm(18.5인치) 총열입니다. 무기에 고정되어 있습니다."
+      },
+      {
+        "key": "606eedf13730da2369b2ca2e Name",
+        "source": "Mossberg 590M forend",
+        "translation": "모스버그 590M 펌프 총열덮개",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "606eedf13730da2369b2ca2e ShortName",
+        "source": "590M forend",
+        "translation": "590M 펌프"
+      },
+      {
+        "key": "606eedf13730da2369b2ca2e Description",
+        "source": "The standard ribbed polymer pump forend of the Mossberg 590M. Also fits the Mossberg 590A1.",
+        "translation": "모스버그 590M용 기본 골이 있는 폴리머 펌프 총열덮개입니다. 모스버그 590A1에도 장착할 수 있습니다."
+      },
+      {
+        "key": "d7c4f475ae1508ebf78d05b9 Name",
+        "source": "Mossberg 590M stock",
+        "translation": "모스버그 590M 개머리판",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "d7c4f475ae1508ebf78d05b9 ShortName",
+        "source": "590M stock",
+        "translation": "590M 개머리판"
+      },
+      {
+        "key": "d7c4f475ae1508ebf78d05b9 Description",
+        "source": "The standard synthetic stock of the Mossberg 590M. Also fits the Mossberg 590A1.",
+        "translation": "모스버그 590M의 기본 합성수지 개머리판입니다. 모스버그 590A1에도 장착할 수 있습니다."
+      },
+      {
+        "key": "acf7e1a5c0029dd024ba2cf4 Name",
+        "source": "Mossberg 590M 12ga 10-round magazine",
+        "translation": "10발, 모스버그 590M 12게이지 탄창",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "acf7e1a5c0029dd024ba2cf4 ShortName",
+        "source": "590M 10",
+        "translation": "590M 10"
+      },
+      {
+        "key": "acf7e1a5c0029dd024ba2cf4 Description",
+        "source": "A 10-round double-stack polymer magazine for the Mossberg 590M.",
+        "translation": "모스버그 590M용 복열 폴리머 10발 탄창입니다."
+      },
+      {
+        "key": "d74f3873e67437d9b93503b1 Name",
+        "source": "MTs 20-01 20ga bolt-action shotgun",
+        "translation": "MTs 20-01 20게이지 볼트액션 산탄총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "d74f3873e67437d9b93503b1 ShortName",
+        "source": "MTs 20-01",
+        "translation": "MTs 20-01"
+      },
+      {
+        "key": "d74f3873e67437d9b93503b1 Description",
+        "source": "A 20 gauge bolt-action hunting shotgun with a detachable box magazine, made in Tula by TsKIB SOO since 1979. The TOZ-106 was developed from it as a compact version. The full-length 635mm barrel gives the shot more velocity and a tighter group than the TOZ-106, at the cost of weight and handling. Uses the same MTs 20-01 Sb.3 magazines, stocks and dovetail mount as the TOZ-106.",
+        "translation": "툴라의 TsKIB SOO에서 1979년부터 생산한 탈착식 박스 탄창 방식의 20게이지 볼트액션 사냥용 산탄총입니다. TOZ-106은 이 총기의 소형 파생형으로 개발되었습니다. 635mm 길이의 총열은 TOZ-106보다 높은 탄속과 조밀한 탄착군을 제공하지만 무게가 늘고 조작성이 떨어집니다. TOZ-106과 같은 MTs 20-01 Sb.3 탄창, 개머리판, 도브테일 마운트를 사용합니다."
+      },
+      {
+        "key": "942a7379f8a5005fb72aab36 Name",
+        "source": "Panzer Arms SCR-XII 12ga shotgun",
+        "translation": "팬저 암스 SCR-XII 12게이지 산탄총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "942a7379f8a5005fb72aab36 ShortName",
+        "source": "SCR-XII",
+        "translation": "SCR-XII"
+      },
+      {
+        "key": "942a7379f8a5005fb72aab36 Description",
+        "source": "A semi-automatic 12 gauge shotgun built by Panzer Arms of Turkey in the image of the FN SCAR: the same lower, folding stock, flip-up sights and modular rails, with a 12 gauge upper receiver, a 406mm barrel threaded for Saiga-12 pattern muzzle devices and dedicated Mk12 box magazines. Most FN SCAR stocks, rails and accessories fit it.",
+        "translation": "터키의 팬저 암스가 FN SCAR의 외형을 본떠 제작한 반자동 12게이지 산탄총입니다. 같은 하부 총몸과 접이식 개머리판, 접이식 조준기, 모듈식 레일을 사용하며, 12게이지 상부 총몸과 사이가-12 규격 총구장치를 장착할 수 있는 나사산형 406mm 총열, 전용 Mk12 박스 탄창을 갖추고 있습니다. 대부분의 FN SCAR 개머리판, 레일, 부착물과 호환됩니다."
+      },
+      {
+        "key": "0d02a125c0f623e82561b4dd Name",
+        "source": "Panzer Arms SCR-XII 12ga upper receiver (FDE)",
+        "translation": "팬저 암스 SCR-XII 12게이지 상부 총몸 (사막색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "0d02a125c0f623e82561b4dd ShortName",
+        "source": "SCR-XII FDE",
+        "translation": "SCR-XII 사막색"
+      },
+      {
+        "key": "0d02a125c0f623e82561b4dd Description",
+        "source": "The 12 gauge upper receiver of the Panzer Arms SCR-XII, based on the FN SCAR-H upper with an enlarged ejection port for shotgun shells. Takes the SCAR rails, sights and optics.",
+        "translation": "FN SCAR-H 상부 총몸을 기반으로 산탄 탄피 배출을 위해 배출구를 넓힌 팬저 암스 SCR-XII의 12게이지 상부 총몸입니다. SCAR용 레일, 조준기, 광학 장비를 장착할 수 있습니다."
+      },
+      {
+        "key": "36d9e29e9e18cae29f415304 Name",
+        "source": "SCR-XII 12ga 406mm barrel",
+        "translation": "SCR-XII 12게이지 406mm 총열",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "36d9e29e9e18cae29f415304 ShortName",
+        "source": "SCR-XII 406mm",
+        "translation": "SCR-XII 406mm"
+      },
+      {
+        "key": "36d9e29e9e18cae29f415304 Description",
+        "source": "A 406mm (16\") 12 gauge barrel for the Panzer Arms SCR-XII, threaded for Saiga-12 pattern muzzle devices.",
+        "translation": "팬저 암스 SCR-XII용 406mm(16인치) 12게이지 총열입니다. 사이가-12 규격 총구장치에 맞는 나사산이 있습니다."
+      },
+      {
+        "key": "1e70902e9924798d0fd0dd01 Name",
+        "source": "SCR-XII 12ga Mk12 5-round magazine",
+        "translation": "5발, SCR-XII 12게이지 Mk12 탄창",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "1e70902e9924798d0fd0dd01 ShortName",
+        "source": "Mk12 5",
+        "translation": "Mk12 5"
+      },
+      {
+        "key": "1e70902e9924798d0fd0dd01 Description",
+        "source": "A 5-round Mk12 steel box magazine for the Panzer Arms SCR-XII.",
+        "translation": "팬저 암스 SCR-XII용 Mk12 강철제 박스 탄창입니다. 5발을 수용합니다."
+      },
+      {
+        "key": "01cdd2822a8d2ff0e1090179 Name",
+        "source": "SCR-XII 12ga Mk12 10-round magazine",
+        "translation": "10발, SCR-XII 12게이지 Mk12 탄창",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "01cdd2822a8d2ff0e1090179 ShortName",
+        "source": "Mk12 10",
+        "translation": "Mk12 10"
+      },
+      {
+        "key": "01cdd2822a8d2ff0e1090179 Description",
+        "source": "A curved 10-round Mk12 steel box magazine for the Panzer Arms SCR-XII.",
+        "translation": "팬저 암스 SCR-XII용 곡선형 Mk12 강철제 박스 탄창입니다. 10발을 수용합니다."
+      },
+      {
+        "key": "c5fa8b1bf60b412e8347d3c2 Name",
+        "source": "Taurus Raging Judge .410 revolver",
+        "translation": "토러스 레이징 저지 .410 리볼버",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "c5fa8b1bf60b412e8347d3c2 ShortName",
+        "source": "Raging Judge",
+        "translation": "레이징 저지"
+      },
+      {
+        "key": "c5fa8b1bf60b412e8347d3c2 Description",
+        "source": "A heavy-frame Taurus revolver adapted for .410/76 shotshells. This five-shot configuration has an integral rubber grip. It can fire in single-action or double-action mode.",
+        "translation": ".410/76 산탄을 발사하도록 개조한 대형 프레임의 토러스 리볼버입니다. 이 5연발 사양에는 일체형 고무 손잡이가 장착되어 있으며, 싱글액션과 더블액션으로 사격할 수 있습니다."
+      },
+      {
+        "key": "09780e809ecc4a3897fc87b2 Name",
+        "source": "Raging Judge .410 5-round cylinder",
+        "translation": "5발, 레이징 저지 .410/76 실린더",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "09780e809ecc4a3897fc87b2 ShortName",
+        "source": "RJ cylinder",
+        "translation": "RJ 실린더"
+      },
+      {
+        "key": "09780e809ecc4a3897fc87b2 Description",
+        "source": "A five-chamber .410/76 cylinder for the Raging Judge revolver.",
+        "translation": "레이징 저지 리볼버용 .410/76 탄약 5발을 수용하는 실린더입니다."
+      },
+      {
+        "key": "5e1b4ffbc020e40d245266be Name",
+        "source": "Remington Model 7188 12ga select-fire shotgun",
+        "translation": "레밍턴 모델 7188 12게이지 선택사격 산탄총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "5e1b4ffbc020e40d245266be ShortName",
+        "source": "7188",
+        "translation": "7188"
+      },
+      {
+        "key": "5e1b4ffbc020e40d245266be Description",
+        "source": "A select-fire derivative of the Remington 1100 developed in the late 1960s for US Navy special warfare units. The gas-operated action fires in semi-automatic or fully automatic mode at about 420 rounds per minute, fed from an extended 8-round tube magazine. It has a 508mm barrel under a ventilated heat shield, a wooden stock and fixed sights. Only a small number were built.",
+        "translation": "미 해군 특수전 부대를 위해 1960년대 후반 개발한 레밍턴 1100의 선택사격 파생형입니다. 가스 작동식으로 반자동과 분당 약 420발의 완전자동 사격이 가능하며, 확장형 8발 관형 탄창에서 급탄합니다. 통풍식 방열덮개 아래에 508mm 총열이 있고 목재 개머리판과 고정식 조준기가 달려 있습니다. 소량만 제작되었습니다."
+      },
+      {
+        "key": "281afdffaac60e3e5fa128aa Name",
+        "source": "Remington 7188 12ga 8-round tube magazine",
+        "translation": "8발, 레밍턴 7188 12게이지 관형 탄창",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "281afdffaac60e3e5fa128aa ShortName",
+        "source": "7188 8",
+        "translation": "7188 8"
+      },
+      {
+        "key": "281afdffaac60e3e5fa128aa Description",
+        "source": "The extended 8-round tube magazine built into the Remington 7188. It is part of the weapon and cannot be removed.",
+        "translation": "레밍턴 7188에 내장된 확장형 8발 관형 탄창입니다. 무기의 일부이므로 분리할 수 없습니다."
+      },
+      {
+        "key": "f5b9d1ae6e4c3a80eaa12c9d Name",
+        "source": "Remington 7188 508mm 12ga barrel",
+        "translation": "레밍턴 7188 12게이지 508mm 총열",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "f5b9d1ae6e4c3a80eaa12c9d ShortName",
+        "source": "7188 508mm",
+        "translation": "7188 508mm"
+      },
+      {
+        "key": "f5b9d1ae6e4c3a80eaa12c9d Description",
+        "source": "The 508mm (20\") barrel of the Remington 7188, under its ventilated heat shield. It is fixed to the weapon and accepts 12ga chokes and suppressors.",
+        "translation": "통풍식 방열덮개 아래에 장착되는 레밍턴 7188용 508mm(20인치) 총열입니다. 무기에 고정되어 있으며 12게이지 초크와 소음기를 장착할 수 있습니다."
+      },
+      {
+        "key": "0efca72fbd6c5a42c5fd980f Name",
+        "source": "Saiga-12 \"Spike\" 12ga bullpup shotgun",
+        "translation": "사이가-12 스파이크 12게이지 불펍 산탄총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "0efca72fbd6c5a42c5fd980f ShortName",
+        "source": "Saiga Spike",
+        "translation": "사이가 스파이크"
+      },
+      {
+        "key": "0efca72fbd6c5a42c5fd980f Description",
+        "source": "A Saiga-12 semi-automatic shotgun rebuilt into a bullpup chassis by Spike's Tactical. Moving the action and the magazine behind the pistol grip keeps the full-length barrel while making the weapon much shorter and better balanced than the stock Saiga. The chassis has Picatinny rails for optics, iron sights, tactical devices and a foregrip, and the barrel keeps the Saiga thread for muzzle devices. Feeds from standard Saiga-12 magazines.",
+        "translation": "스파이크스 택티컬이 사이가-12 반자동 산탄총을 불펍 섀시로 개조한 무기입니다. 작동부와 탄창을 권총손잡이 뒤로 옮겨 총열 길이를 유지하면서 기본 사이가보다 전장이 훨씬 짧고 균형도 좋아졌습니다. 섀시에는 광학 조준기, 기계식 조준기, 전술 장비, 전방손잡이용 피카티니 레일이 있고 총열의 사이가 규격 총구 나사산도 유지됩니다. 일반 사이가-12 탄창으로 급탄합니다."
+      },
+      {
+        "key": "4d68c8b0c0228345bad1e89d Name",
+        "source": "KS-23K 23x75 bullpup shotgun",
+        "translation": "KS-23K 23x75 불펍 산탄총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "4d68c8b0c0228345bad1e89d ShortName",
+        "source": "KS-23K",
+        "translation": "KS-23K"
+      },
+      {
+        "key": "4d68c8b0c0228345bad1e89d Description",
+        "source": "A bullpup development of the KS-23 special carbine made by the Tula Arms Plant for the Russian Ministry of Internal Affairs. It keeps the pump action and the 23mm barrel of the KS-23, but the 23x75mmR shells are fed from a detachable 7-round box magazine behind the pistol grip, which makes the weapon much shorter and faster to reload.",
+        "translation": "툴라 조병창이 러시아 내무부를 위해 제작한 KS-23 특수 카빈의 불펍 파생형입니다. KS-23의 펌프액션 방식과 23mm 총열을 유지하면서 23x75mmR 탄약을 권총손잡이 뒤쪽의 탈착식 7발 박스 탄창에서 급탄하므로 전장이 훨씬 짧고 재장전이 빨라졌습니다."
+      },
+      {
+        "key": "d77bca0a1c270326e6449445 Name",
+        "source": "KS-23K 23x75 barrel",
+        "translation": "KS-23K 23x75 총열",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "d77bca0a1c270326e6449445 ShortName",
+        "source": "KS-23K barrel",
+        "translation": "KS-23K 총열"
+      },
+      {
+        "key": "d77bca0a1c270326e6449445 Description",
+        "source": "The 23mm barrel of the KS-23K. It is fixed to the weapon.",
+        "translation": "KS-23K용 23mm 총열입니다. 무기에 고정되어 있습니다."
+      },
+      {
+        "key": "0f98d458a715ae5bb3ce7b72 Name",
+        "source": "KS-23K pump forend",
+        "translation": "KS-23K 펌프 총열덮개",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "0f98d458a715ae5bb3ce7b72 ShortName",
+        "source": "KS-23K pump",
+        "translation": "KS-23K 펌프"
+      },
+      {
+        "key": "0f98d458a715ae5bb3ce7b72 Description",
+        "source": "The pump forend of the KS-23K. It is fixed to the weapon.",
+        "translation": "KS-23K용 펌프식 총열덮개입니다. 무기에 고정되어 있습니다."
+      },
+      {
+        "key": "d00cd85e29bc4f793abc8a50 Name",
+        "source": "KS-23K 23x75 7-round magazine",
+        "translation": "7발, KS-23K 23x75 탄창",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "d00cd85e29bc4f793abc8a50 ShortName",
+        "source": "KS-23K 7",
+        "translation": "KS-23K 7"
+      },
+      {
+        "key": "d00cd85e29bc4f793abc8a50 Description",
+        "source": "A 7-round steel box magazine for 23x75mmR shells, made for the KS-23K bullpup shotgun.",
+        "translation": "KS-23K 불펍 산탄총용 23x75mmR 탄약 7발을 수용하는 강철제 박스 탄창입니다."
+      },
+      {
+        "key": "d6f4775ed6deafe2706de0d7 Name",
+        "source": "TOZ KS-23S 23x75 semi-automatic shotgun",
+        "translation": "TOZ KS-23S 23x75 반자동 산탄총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "d6f4775ed6deafe2706de0d7 ShortName",
+        "source": "KS-23S",
+        "translation": "KS-23S"
+      },
+      {
+        "key": "d6f4775ed6deafe2706de0d7 Description",
+        "source": "A semi-automatic conversion of the TOZ KS-23 special carbine. The pump action gave way to a gas-operated bolt with a charging handle on the right side of a reworked receiver, and the magazine tube was extended to hold six 23x75mm shells. It keeps the 700mm barrel, forend, wooden stock and sights of the KS-23M, and accepts the same stocks and the Rusak sight on its dovetail rail.",
+        "translation": "TOZ KS-23 특수 카빈을 반자동으로 개조한 무기입니다. 펌프액션 대신 개조된 총몸 오른쪽에 장전 손잡이를 갖춘 가스 작동식 노리쇠를 사용하고, 관형 탄창을 23x75mm 탄약 6발 수용으로 연장했습니다. KS-23M의 700mm 총열과 총열덮개, 목재 개머리판, 조준기를 유지하며 도브테일 레일에는 같은 개머리판과 루사크 조준기를 장착할 수 있습니다."
+      },
+      {
+        "key": "5db7c8f937454c211a9b6abf Name",
+        "source": "TTI JW4 Dracarys GEN-12 12ga semi-automatic shotgun",
+        "translation": "TTI JW4 드라카리스 GEN-12 12게이지 반자동 산탄총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "5db7c8f937454c211a9b6abf ShortName",
+        "source": "Dracarys",
+        "translation": "드라카리스"
+      },
+      {
+        "key": "5db7c8f937454c211a9b6abf Description",
+        "source": "A competition-tuned 12 gauge semi-automatic shotgun built by Taran Tactical Innovations on the Genesis Arms GEN-12, an AR-10 pattern shotgun upper with a short-recoil action. Made famous by John Wick: Chapter 4, it keeps the familiar AR controls, a right-side reciprocating charging knob and a full-length top rail, and feeds from dedicated box magazines. Modular like any AR: grips, buffer tubes, stocks and handguards can be swapped.",
+        "translation": "타란 택티컬 이노베이션스가 제네시스 암스 GEN-12를 기반으로 경기용으로 조정한 12게이지 반자동 산탄총입니다. GEN-12는 짧은 반동을 이용하는 AR-10형 산탄총 상부 총몸을 사용합니다. 영화 존 윅 4로 유명해진 이 무기는 익숙한 AR 조작계와 우측의 왕복식 장전 손잡이, 전장 길이의 상부 레일을 갖추고 전용 박스 탄창에서 급탄합니다. 다른 AR 계열 무기처럼 손잡이, 버퍼 튜브, 개머리판, 총열덮개를 교체할 수 있습니다."
+      },
+      {
+        "key": "f00ba3722e268faae8e382a8 Name",
+        "source": "TTI Dracarys GEN-12 12ga receiver (JW4 Grey)",
+        "translation": "TTI 드라카리스 GEN-12 12게이지 상·하부 총몸 세트 (JW4 회색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "f00ba3722e268faae8e382a8 ShortName",
+        "source": "GEN-12 Grey",
+        "translation": "GEN-12 회색"
+      },
+      {
+        "key": "f00ba3722e268faae8e382a8 Description",
+        "source": "The upper and lower receiver set of the Dracarys GEN-12 in JW4 Grey: a Genesis Arms 12 gauge short-recoil upper on an AR-10 pattern lower, with a full-length top rail.",
+        "translation": "JW4 회색 마감의 드라카리스 GEN-12 상·하부 총몸 세트입니다. AR-10 규격 하부 총몸에 제네시스 암스의 짧은 반동식 12게이지 상부 총몸을 결합했으며, 전장 길이의 상부 레일이 있습니다."
+      },
+      {
+        "key": "8194711ae34a9cd37c4a3033 Name",
+        "source": "TTI Dracarys GEN-12 12ga receiver (Black)",
+        "translation": "TTI 드라카리스 GEN-12 12게이지 상·하부 총몸 세트 (검은색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "8194711ae34a9cd37c4a3033 ShortName",
+        "source": "GEN-12 Black",
+        "translation": "GEN-12 검은색"
+      },
+      {
+        "key": "8194711ae34a9cd37c4a3033 Description",
+        "source": "The upper and lower receiver set of the Dracarys GEN-12 in Black: a Genesis Arms 12 gauge short-recoil upper on an AR-10 pattern lower, with a full-length top rail.",
+        "translation": "검은색 마감의 드라카리스 GEN-12 상·하부 총몸 세트입니다. AR-10 규격 하부 총몸에 제네시스 암스의 짧은 반동식 12게이지 상부 총몸을 결합했으며, 전장 길이의 상부 레일이 있습니다."
+      },
+      {
+        "key": "85577e55463212a89ca5864c Name",
+        "source": "TTI Dracarys GEN-12 12ga receiver (FDE)",
+        "translation": "TTI 드라카리스 GEN-12 12게이지 상·하부 총몸 세트 (사막색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "85577e55463212a89ca5864c ShortName",
+        "source": "GEN-12 FDE",
+        "translation": "GEN-12 사막색"
+      },
+      {
+        "key": "85577e55463212a89ca5864c Description",
+        "source": "The upper and lower receiver set of the Dracarys GEN-12 in FDE: a Genesis Arms 12 gauge short-recoil upper on an AR-10 pattern lower, with a full-length top rail.",
+        "translation": "사막색 마감의 드라카리스 GEN-12 상·하부 총몸 세트입니다. AR-10 규격 하부 총몸에 제네시스 암스의 짧은 반동식 12게이지 상부 총몸을 결합했으며, 전장 길이의 상부 레일이 있습니다."
+      },
+      {
+        "key": "6374b8ea6e2a1f031b8edb6f Name",
+        "source": "TTI Dracarys GEN-12 handguard (JW4 Grey)",
+        "translation": "TTI 드라카리스 GEN-12 총열덮개 (JW4 회색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "6374b8ea6e2a1f031b8edb6f ShortName",
+        "source": "GEN-12 Grey",
+        "translation": "GEN-12 회색"
+      },
+      {
+        "key": "6374b8ea6e2a1f031b8edb6f Description",
+        "source": "The factory handguard of the Dracarys GEN-12 in JW4 Grey, with a full-length top rail and accessory mounting points.",
+        "translation": "전장 길이의 상부 레일과 부착물 장착 지점을 갖춘 JW4 회색 마감의 드라카리스 GEN-12 기본 총열덮개입니다."
+      },
+      {
+        "key": "9bcbdc63c5362c0992b3609e Name",
+        "source": "TTI Dracarys GEN-12 handguard (Black)",
+        "translation": "TTI 드라카리스 GEN-12 총열덮개 (검은색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "9bcbdc63c5362c0992b3609e ShortName",
+        "source": "GEN-12 Black",
+        "translation": "GEN-12 검은색"
+      },
+      {
+        "key": "9bcbdc63c5362c0992b3609e Description",
+        "source": "The factory handguard of the Dracarys GEN-12 in Black, with a full-length top rail and accessory mounting points.",
+        "translation": "전장 길이의 상부 레일과 부착물 장착 지점을 갖춘 검은색 마감의 드라카리스 GEN-12 기본 총열덮개입니다."
+      },
+      {
+        "key": "a5891b6421140c63068c27e9 Name",
+        "source": "TTI Dracarys GEN-12 handguard (FDE)",
+        "translation": "TTI 드라카리스 GEN-12 총열덮개 (사막색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "a5891b6421140c63068c27e9 ShortName",
+        "source": "GEN-12 FDE",
+        "translation": "GEN-12 사막색"
+      },
+      {
+        "key": "a5891b6421140c63068c27e9 Description",
+        "source": "The factory handguard of the Dracarys GEN-12 in FDE, with a full-length top rail and accessory mounting points.",
+        "translation": "전장 길이의 상부 레일과 부착물 장착 지점을 갖춘 사막색 마감의 드라카리스 GEN-12 기본 총열덮개입니다."
+      },
+      {
+        "key": "59826745f24ffdc4e68ce11f Name",
+        "source": "Dracarys GEN-12 12ga 267mm barrel",
+        "translation": "드라카리스 GEN-12 12게이지 267mm 총열",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "59826745f24ffdc4e68ce11f ShortName",
+        "source": "GEN-12 267mm",
+        "translation": "GEN-12 267mm"
+      },
+      {
+        "key": "59826745f24ffdc4e68ce11f Description",
+        "source": "A 267mm (10.5\") barrel for the Dracarys GEN-12, threaded for Saiga-12 pattern muzzle devices. The short-barreled version made famous by John Wick: Chapter 4.",
+        "translation": "드라카리스 GEN-12용 267mm(10.5인치) 총열입니다. 사이가-12 규격 총구장치용 나사산이 가공되어 있으며 영화 존 윅 4로 유명해진 단총열 사양입니다."
+      },
+      {
+        "key": "f6c450b3547026ceda23d7d4 Name",
+        "source": "Dracarys GEN-12 12ga 457mm barrel",
+        "translation": "드라카리스 GEN-12 12게이지 457mm 총열",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "f6c450b3547026ceda23d7d4 ShortName",
+        "source": "GEN-12 457mm",
+        "translation": "GEN-12 457mm"
+      },
+      {
+        "key": "f6c450b3547026ceda23d7d4 Description",
+        "source": "A 457mm (18\") barrel for the Dracarys GEN-12, threaded for Saiga-12 pattern muzzle devices. Higher velocity and a tighter pattern than the short barrel.",
+        "translation": "드라카리스 GEN-12용 457mm(18인치) 총열입니다. 사이가-12 규격 총구장치용 나사산이 있으며 단총열형보다 탄속이 빠르고 탄착군이 더 조밀합니다."
+      },
+      {
+        "key": "d3ae7dd7cb8a4ef4cf189925 Name",
+        "source": "TTI Dracarys 12ga compensator",
+        "translation": "TTI 드라카리스 12게이지 보정기",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "d3ae7dd7cb8a4ef4cf189925 ShortName",
+        "source": "TTI comp",
+        "translation": "TTI 보정기"
+      },
+      {
+        "key": "d3ae7dd7cb8a4ef4cf189925 Description",
+        "source": "A ported compensator made by Taran Tactical Innovations for the Dracarys GEN-12. Fits Saiga-12 pattern threads.",
+        "translation": "타란 택티컬 이노베이션스가 드라카리스 GEN-12용으로 제작한 가스 배출구가 있는 보정기입니다. 사이가-12 규격 나사산에 장착할 수 있습니다."
+      },
+      {
+        "key": "5ea40da664d336517d40e641 Name",
+        "source": "AR-15 BCM GUNFIGHTER Mod 0 stock",
+        "translation": "AR-15 BCM GUNFIGHTER Mod 0 개머리판",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "5ea40da664d336517d40e641 ShortName",
+        "source": "GF Mod 0",
+        "translation": "GF Mod 0"
+      },
+      {
+        "key": "5ea40da664d336517d40e641 Description",
+        "source": "The BCM GUNFIGHTER Mod 0 stock for AR-15 buffer tubes, the factory stock of the Dracarys GEN-12.",
+        "translation": "AR-15 버퍼 튜브용 BCM GUNFIGHTER Mod 0 개머리판입니다. 드라카리스 GEN-12의 기본 개머리판입니다."
+      },
+      {
+        "key": "c51219273cbdb3d240faf698 Name",
+        "source": "AR-15 BCM GUNFIGHTER Mod 3 pistol grip",
+        "translation": "AR-15 BCM GUNFIGHTER Mod 3 권총손잡이",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "c51219273cbdb3d240faf698 ShortName",
+        "source": "GF Mod 3",
+        "translation": "GF Mod 3"
+      },
+      {
+        "key": "c51219273cbdb3d240faf698 Description",
+        "source": "The BCM GUNFIGHTER Mod 3 pistol grip for AR-15 based systems, the factory grip of the Dracarys GEN-12.",
+        "translation": "AR-15 기반 무기용 BCM GUNFIGHTER Mod 3 권총손잡이입니다. 드라카리스 GEN-12의 기본 손잡이입니다."
+      },
+      {
+        "key": "3c893ca0df864892c4970258 Name",
+        "source": "Dracarys GEN-12 12ga 10-round magazine",
+        "translation": "10발, 드라카리스 GEN-12 12게이지 탄창",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "3c893ca0df864892c4970258 ShortName",
+        "source": "GEN-12 10",
+        "translation": "GEN-12 10"
+      },
+      {
+        "key": "3c893ca0df864892c4970258 Description",
+        "source": "A 10-round magazine for the Genesis Arms GEN-12 and the Dracarys.",
+        "translation": "제네시스 암스 GEN-12 및 드라카리스용 10발 탄창입니다."
+      },
+      {
+        "key": "71b6935f560e07319266291e Name",
+        "source": "Dracarys GEN-12 12ga 15-round magazine",
+        "translation": "15발, 드라카리스 GEN-12 12게이지 탄창",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "71b6935f560e07319266291e ShortName",
+        "source": "GEN-12 15",
+        "translation": "GEN-12 15"
+      },
+      {
+        "key": "71b6935f560e07319266291e Description",
+        "source": "An extended 15-round magazine for the Genesis Arms GEN-12 and the Dracarys.",
+        "translation": "제네시스 암스 GEN-12 및 드라카리스용 확장형 15발 탄창입니다."
+      },
+      {
+        "key": "Caliber410g",
+        "source": ".410/76",
+        "translation": ".410/76",
+        "match_mode": "exact"
+      },
+      {
+        "key": "7fc0502616b83467ac6b54c7",
+        "source": "Black",
+        "translation": "검은색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "a9e3feeb475fa0841062b622",
+        "source": "FDE",
+        "translation": "사막색",
+        "match_mode": "exact"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "forced_next",
+        "source": "Next shot: {0}",
+        "translation": "다음 발사: {0} 강제 기능 고장",
+        "match_mode": "template"
+      },
+      {
+        "id": "forced_cancel",
+        "source": "Forced malfunction cancelled: {0}",
+        "translation": "강제 기능 고장을 취소했습니다: {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "forced_need_weapon",
+        "source": "Forced malfunction: hold a firearm first.",
+        "translation": "강제 기능 고장을 설정하려면 먼저 총기를 들고 있어야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "forced_cant",
+        "source": "Can't force {0} on {1}: {2}",
+        "translation": "{1}에 {0} 기능 고장을 강제로 적용할 수 없습니다: {2}",
+        "match_mode": "template"
+      },
+      {
+        "id": "forced_skip",
+        "source": "Forced {0} skipped: {1}",
+        "translation": "{0} 강제 기능 고장을 건너뛰었습니다: {1}",
+        "match_mode": "template"
+      },
+      {
+        "id": "forced_discard",
+        "source": "Forced {0} discarded: {1}",
+        "translation": "{0} 강제 기능 고장이 취소되었습니다: {1}",
+        "match_mode": "template"
+      },
+      {
+        "id": "forced_reason_type",
+        "source": "this weapon type has no malfunctions in the game",
+        "translation": "게임에서 이 무기 유형에는 기능 고장이 발생하지 않습니다",
+        "match_mode": "segment"
+      },
+      {
+        "id": "forced_reason_misfire",
+        "source": "the weapon does not allow misfires",
+        "translation": "이 무기에서는 불발이 발생하지 않습니다",
+        "match_mode": "segment"
+      },
+      {
+        "id": "forced_reason_jam",
+        "source": "the weapon does not allow jams",
+        "translation": "이 무기에서는 탄 걸림이 발생하지 않습니다",
+        "match_mode": "segment"
+      },
+      {
+        "id": "forced_reason_feed",
+        "source": "the weapon does not allow feed failures",
+        "translation": "이 무기에서는 급탄 불량이 발생하지 않습니다",
+        "match_mode": "segment"
+      },
+      {
+        "id": "forced_reason_slide",
+        "source": "the weapon does not allow slide malfunctions",
+        "translation": "이 무기에서는 노리쇠 걸림이 발생하지 않습니다",
+        "match_mode": "segment"
+      },
+      {
+        "id": "forced_reason_unknown",
+        "source": "unknown malfunction type",
+        "translation": "알 수 없는 기능 고장 유형입니다",
+        "match_mode": "segment"
+      },
+      {
+        "id": "forced_reason_bolt",
+        "source": "last round with bolt catch (the bolt locks back instead)",
+        "translation": "노리쇠 멈치가 작동하는 마지막 탄약입니다(대신 노리쇠가 후퇴 고정됩니다)",
+        "match_mode": "segment"
+      },
+      {
+        "id": "forced_reason_ammo",
+        "source": "needs a round left in the magazine",
+        "translation": "탄창에 탄약이 최소 1발 남아 있어야 합니다",
+        "match_mode": "segment"
       }
     ]
   }

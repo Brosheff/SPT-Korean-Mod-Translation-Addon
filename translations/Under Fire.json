@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "com.harmonyzt.underfire",
   "mod_name": "Under Fire",
-  "source_mod_version": "1.0.0",
+  "mod_version": "1.0.0",
   "channels": {
     "small_ui": [
       {

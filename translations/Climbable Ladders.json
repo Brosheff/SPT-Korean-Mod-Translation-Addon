@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.ladders",
   "mod_name": "Climbable Ladders",
+  "mod_version": "1.0.4",
   "channels": {
     "small_ui": [
       {

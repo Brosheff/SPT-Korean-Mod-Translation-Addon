@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.mapvariants",
   "mod_name": "Map Variants",
+  "mod_version": "1.0.1",
   "channels": {
     "small_ui": [
       {

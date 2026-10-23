@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "ciallo.BetterThermalNightVision",
   "plugin_name": "Better Thermal & Night Vision",
+  "mod_version": "2.1.1",
   "categories": [
     {
       "source": "Thermal Optic",

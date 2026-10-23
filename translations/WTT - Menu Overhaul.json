@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.menuoverhaul",
   "mod_name": "WTT - Menu Overhaul",
+  "mod_version": "1.3.0",
   "channels": {
     "small_ui": [
       {

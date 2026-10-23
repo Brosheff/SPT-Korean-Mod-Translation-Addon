@@ -659,5 +659,6 @@
         "match_mode": "exact"
       }
     ]
-  }
+  },
+  "mod_version": "3.4.1"
 }

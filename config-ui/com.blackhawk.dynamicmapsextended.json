@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.blackhawk.dynamicmapsextended",
   "plugin_name": "DynamicMaps Extended",
+  "mod_version": "4.2.0",
   "categories": [
     {
       "source": "Map Style",

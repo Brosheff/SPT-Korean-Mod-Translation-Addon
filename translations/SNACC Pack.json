@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "source3.snacc",
   "mod_name": "SNACC Pack",
+  "mod_version": "1.0.0",
   "channels": {
     "locale": [
       {

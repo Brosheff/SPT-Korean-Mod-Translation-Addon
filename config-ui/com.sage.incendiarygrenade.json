@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.sage.incendiarygrenade",
   "plugin_name": "Incendiary Grenade",
+  "mod_version": "1.1.0",
   "categories": [
     {
       "source": "Audio",

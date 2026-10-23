@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.harmonyzt.underfire",
   "plugin_name": "Under Fire",
+  "mod_version": "1.0.0",
   "_note": "원본 모드 C# Config.Bind 기준 F12 표시 번역. 설정 ID, 저장값, 선택값은 변경하지 않음.",
   "categories": [
     {

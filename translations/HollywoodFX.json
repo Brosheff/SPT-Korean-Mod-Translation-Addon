@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "HollywoodFX",
   "mod_name": "HollywoodFX",
+  "mod_version": "3.0.0",
   "channels": {
     "notifications": [
       {

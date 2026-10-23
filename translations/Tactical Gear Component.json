@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "mod_a0aa485aba1d",
   "mod_name": "Tactical Gear Component",
+  "mod_version": "3.0.0",
   "channels": {
     "locale": [
       {

@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.borkel.nvgmasks",
   "plugin_name": "RealisticNVG-client-2-master",
+  "mod_version": "3.0.4",
   "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified. Includes data-driven NVG, lens-layout and thermal settings generated at runtime.",
   "categories": [
     {

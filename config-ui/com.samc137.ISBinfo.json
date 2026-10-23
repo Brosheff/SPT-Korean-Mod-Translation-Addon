@@ -3,10 +3,15 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.samc137.ISBinfo",
   "plugin_name": "ISB SOF Notifier",
+  "mod_version": "2.0.1",
   "categories": [
     {
       "source": "Settings for the ISB SOF Notifier plugin",
       "translation": "ISB 특수부대 알림 설정"
+    },
+    {
+      "source": "Logging",
+      "translation": "로그"
     }
   ],
   "entries": [
@@ -44,6 +49,15 @@
       "source_description": "When enabled, a dedicated notification is shown when an ISB Commander or his guard is eliminated, separate from the regular ISB withdrawal message.",
       "translation_display_name": "ISB 지휘관 사망 알림 활성화",
       "translation_description": "ISB 지휘관 또는 호위병이 사망하면 일반 ISB 철수 메시지와 별도로 전용 알림을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Logging",
+      "key": "Diagnostic Logs",
+      "source_display_name": "Diagnostic Logs",
+      "source_description": "Enable informational and debug diagnostics for this plugin. Warnings and errors remain enabled.",
+      "translation_display_name": "진단 로그",
+      "translation_description": "이 플러그인의 정보 및 디버그 진단 로그를 활성화합니다. 경고와 오류 로그는 계속 표시됩니다.",
       "values": []
     }
   ]

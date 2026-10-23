@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "ContinuousLoadAmmo",
   "mod_name": "Continuous Load Ammo",
+  "mod_version": "1.2.0",
   "channels": {
     "notifications": [
       {

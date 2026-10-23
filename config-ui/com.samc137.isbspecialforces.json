@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.samc137.isbspecialforces",
+  "plugin_name": "ISB Special Forces",
+  "mod_version": "2.0.1",
+  "categories": [
+    {
+      "source": "Logging",
+      "translation": "로그"
+    },
+    {
+      "source": "Performance",
+      "translation": "성능"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Logging",
+      "key": "Diagnostic Logs",
+      "source_display_name": "Diagnostic Logs",
+      "source_description": "Enable informational and debug diagnostics for this plugin. Warnings and errors remain enabled.",
+      "translation_display_name": "진단 로그",
+      "translation_description": "이 플러그인의 정보 및 디버그 진단 로그를 활성화합니다. 경고와 오류 로그는 계속 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Incremental Memory Budget",
+      "source_display_name": "Incremental Memory Budget",
+      "source_description": "Experimental memory control. Requests 0.5 ms incremental GC slices after 768 MB growth above the raid baseline, but native GC can exceed this budget and cause frame spikes. Disabled by default. Each process manages its own memory; enabled or externally manual GC is preserved.",
+      "translation_display_name": "점진적 메모리 예산",
+      "translation_description": "실험적인 메모리 제어 기능입니다. 레이드 기준 메모리 사용량이 768MB 증가하면 0.5ms 단위의 점진적 가비지 컬렉션을 요청합니다. 다만 네이티브 GC가 이 시간을 초과해 프레임 지연이 생길 수 있습니다. 기본적으로 꺼져 있으며 각 프로세스가 별도로 관리합니다. 이미 활성화된 설정이나 외부 수동 GC는 유지됩니다.",
+      "values": []
+    }
+  ]
+}

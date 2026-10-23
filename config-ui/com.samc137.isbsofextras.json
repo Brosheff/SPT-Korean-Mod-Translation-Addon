@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.samc137.isbsofextras",
   "plugin_name": "ISB SOF Extras",
+  "mod_version": "2.0.1",
   "categories": [
     {
       "source": "USEC ISB Special Forces Audio Plugin Config",
@@ -15,6 +16,14 @@
     {
       "source": "USEC ISB Special Forces Subtitle Config",
       "translation": "USEC ISB 특수부대 자막 설정"
+    },
+    {
+      "source": "Logging",
+      "translation": "로그"
+    },
+    {
+      "source": "Audio",
+      "translation": "오디오"
     }
   ],
   "entries": [
@@ -58,7 +67,7 @@
       "section": "USEC ISB Special Forces Audio Plugin Config",
       "key": "Enable Aishi ISB Radio Comms",
       "source_display_name": "Enable Aishi ISB Radio Comms",
-      "source_description": "When enabled, it adds Aishi’s exclusive voice lines to the audio list for coordinating the team, as well as random taunts. Great for immersion and highlighting the bots’ positions.",
+      "source_description": "When enabled, it adds Aishi's exclusive voice lines to the audio list for coordinating the team, as well as random taunts. Great for immersion and highlighting the bots' positions.",
       "translation_display_name": "아이시 전용 무전 활성화",
       "translation_description": "팀을 지휘하는 아이시의 전용 음성과 무작위 도발 대사를 무전 목록에 추가합니다. 현장감과 봇 위치 파악에 도움이 됩니다.",
       "values": []
@@ -76,7 +85,7 @@
       "section": "USEC ISB Special Forces Audio Plugin Config",
       "key": "Enable Aishi ISB Heavy Damage Comms",
       "source_display_name": "Enable Aishi ISB Heavy Damage Comms",
-      "source_description": "When enabled, it adds Aishi’s exclusive voice lines to the audio list to alert the team when one of the allied operators takes heavy damage but remains alive. Great for immersion and revealing the bots’ positions.",
+      "source_description": "When enabled, it adds Aishi's exclusive voice lines to the audio list to alert the team when one of the allied operators takes heavy damage but remains alive. Great for immersion and revealing the bots' positions.",
       "translation_display_name": "아이시 전용 중상 보고 활성화",
       "translation_description": "아군 요원이 큰 피해를 입었지만 생존했을 때 이를 팀에 알리는 아이시의 전용 음성을 추가합니다. 현장감과 봇 위치 파악에 도움이 됩니다.",
       "values": []
@@ -103,9 +112,9 @@
       "section": "USEC ISB Special Forces Blackout Config",
       "key": "Laboratory Blackout Event Chance",
       "source_display_name": "Laboratory Blackout Event Chance",
-      "source_description": "Chance, from 0 to 100, for the complete Laboratory Blackout Event. In Fika, the host or headless decides for every player.",
+      "source_description": "Chance, from 0 to 100, for a normal Laboratory Blackout when the server ContainmentBreach event was not selected. In Fika, the host or headless decides for every player.",
       "translation_display_name": "연구소 정전 이벤트 발생 확률",
-      "translation_description": "연구소 전체 정전 이벤트의 발생 확률을 0~100 사이에서 설정합니다. Fika에서는 호스트 또는 헤드리스 서버가 모든 플레이어의 결과를 결정합니다.",
+      "translation_description": "서버에서 격리 실패 이벤트가 선택되지 않았을 때 발생하는 일반 연구소 정전 확률입니다(0~100). Fika에서는 호스트 또는 헤드리스 서버가 모든 플레이어에 대해 결정합니다.",
       "values": []
     },
     {
@@ -139,9 +148,108 @@
       "section": "USEC ISB Special Forces Subtitle Config",
       "key": "Subtitle Language",
       "source_display_name": "Subtitle Language",
-      "source_description": "Subtitle locale code. Use Auto to follow the current EFT locale. Supported: en and pt.",
+      "source_description": "Subtitle locale code. Use Auto to follow the current EFT locale. Supported: en, pt, ru and ch (Simplified Chinese; zh-CN is also accepted).",
       "translation_display_name": "자막 언어",
-      "translation_description": "자막 로케일 코드를 설정합니다. Auto는 게임 언어를 따르며, 현재 원본이 지원하는 언어는 en과 pt입니다.",
+      "translation_description": "자막 언어 코드입니다. Auto는 현재 EFT 언어 설정을 따릅니다. 지원 언어: en, pt, ru, ch(중국어 간체, zh-CN도 허용).",
+      "values": []
+    },
+    {
+      "section": "Logging",
+      "key": "Diagnostic Logs",
+      "source_display_name": "Diagnostic Logs",
+      "source_description": "Enable informational and debug diagnostics for this plugin. Warnings and errors remain enabled.",
+      "translation_display_name": "진단 로그",
+      "translation_description": "이 플러그인의 정보 및 디버그 진단 로그를 활성화합니다. 경고와 오류 로그는 계속 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Audio Plugin Config",
+      "key": "Enable White Tusks Common Comms",
+      "source_display_name": "Enable White Tusks Common Comms",
+      "source_description": "When enabled, White Tusks use their dedicated common radio, KIA and heavy-damage audio branches when files are available, falling back to the regular ISB pools when they are not.",
+      "translation_display_name": "화이트 터스크 일반 무전 활성화",
+      "translation_description": "화이트 터스크가 전용 일반 무전, 전사(KIA) 및 중상 음성 경로를 사용합니다. 해당 파일이 없으면 기존 ISB 음성으로 대체합니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Audio Plugin Config",
+      "key": "Enable White Tusk Aishi Comms",
+      "source_display_name": "Enable White Tusk Aishi Comms",
+      "source_description": "When enabled, White Tusks use their dedicated Aishi radio, KIA and heavy-damage audio branches when files are available, falling back to the regular Aishi pools when they are not.",
+      "translation_display_name": "화이트 터스크 아이시 무전 활성화",
+      "translation_description": "화이트 터스크가 전용 아이시 무전, 전사(KIA) 및 중상 음성 경로를 사용합니다. 해당 파일이 없으면 기존 아이시 음성으로 대체합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Laboratory Announcements Volume",
+      "source_display_name": "Laboratory Announcements Volume",
+      "source_description": "Volume of the Laboratory intercom announcements, from 0 to 100. Changes apply in real time, even while an announcement is already playing.",
+      "translation_display_name": "연구소 안내 방송 음량",
+      "translation_description": "연구소 안내 방송 음량을 0~100 사이에서 설정합니다. 방송 재생 중에도 변경 사항이 즉시 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Containment Breach Alarm Volume",
+      "source_display_name": "Containment Breach Alarm Volume",
+      "source_description": "Alarm volume, from 0 to 100. Changes apply immediately.",
+      "translation_display_name": "격리 실패 경보 음량",
+      "translation_description": "격리 실패 경보 음량을 0~100으로 조정합니다. 변경 사항은 즉시 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Dead Man Switch Alarm Volume",
+      "source_display_name": "Dead Man Switch Alarm Volume",
+      "source_description": "Volume of the Dead Man Switch alarm and warning track, from 0 to 100. The voice and alarm share one recording. Changes apply immediately; other announcements and EventEnd keep their own announcement volume.",
+      "translation_display_name": "데드맨 스위치 경보 음량",
+      "translation_description": "데드맨 스위치 경보 및 경고 녹음의 음량을 0~100으로 조정합니다. 음성과 경보가 하나의 녹음 파일을 공유합니다. 변경 사항은 즉시 적용되며, 다른 안내 방송과 EventEnd는 별도의 안내 방송 음량을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "ISB Radio Volume",
+      "source_display_name": "ISB Radio Volume",
+      "source_description": "Volume of all ISB radio communications, from 0 to 100. Changes apply in real time, even while a radio communication is already playing.",
+      "translation_display_name": "ISB 무전 음량",
+      "translation_description": "모든 ISB 무전 음량을 0~100 사이에서 설정합니다. 무전 재생 중에도 변경 사항이 즉시 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Blackout Sound Volume",
+      "source_display_name": "Blackout Sound Volume",
+      "source_description": "Volume of black_out_huge.wav, from 0 to 100. Normal blackouts use it when power fails; during a ContainmentBreach it is reserved for the Master emergency power restoration control.",
+      "translation_display_name": "정전 효과음 음량",
+      "translation_description": "black_out_huge.wav 효과음의 음량을 0~100으로 조정합니다. 일반 정전에서는 전원 장애 시 사용하고, 격리 실패 이벤트 중에는 주 비상 전원 복구 장치에만 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Blackout Config",
+      "key": "Enable ContainmentBreach Event",
+      "source_display_name": "Enable ContainmentBreach Event",
+      "source_description": "Plays the configured lockdown trigger audio when the server ContainmentBreach event is active for the current Laboratory raid.",
+      "translation_display_name": "격리 실패 이벤트 활성화",
+      "translation_description": "이번 연구소 레이드에서 서버의 격리 실패 이벤트가 활성화되어 있으면 설정된 시설 봉쇄 트리거 음성을 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "ContainmentBreach Volume",
+      "source_display_name": "ContainmentBreach Volume",
+      "source_description": "Volume of the ContainmentBreach trigger audio, from 0 to 100.",
+      "translation_display_name": "격리 실패 트리거 음량",
+      "translation_description": "격리 실패 이벤트 트리거 음량을 0~100으로 조정합니다.",
+      "values": []
+    },
+    {
+      "section": "USEC ISB Special Forces Blackout Config",
+      "key": "Containment Breach Event Chance",
+      "source_display_name": "Containment Breach Event Chance",
+      "source_description": "Normal event chance for future raids. Saves the server JSON; active quest guarantees still take priority. Change before starting a raid. (Host Only)",
+      "translation_display_name": "격리 실패 이벤트 확률",
+      "translation_description": "향후 레이드에서 격리 실패 이벤트가 일반적으로 발생할 확률을 지정합니다. 서버 JSON에 저장하며 활성 퀘스트의 확정 발생 조건이 우선합니다. 레이드 시작 전에 변경하십시오. (호스트 전용)",
       "values": []
     }
   ]

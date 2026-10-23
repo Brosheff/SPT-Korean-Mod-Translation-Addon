@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.tyfon.wikilinks",
   "plugin_name": "WikiLinks",
+  "mod_version": "2.0.0",
   "_note": "SOURCE3 WikiLinks 2.0.0 F12 Configuration Manager display-only Korean translation.",
   "categories": [
     {

@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.wtt.commonlib",
   "plugin_name": "WTT-ClientCommonLib",
+  "mod_version": "3.0.6",
   "categories": [
     {
       "source": "General",

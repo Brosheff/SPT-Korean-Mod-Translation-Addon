@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "mod_48ddd7f236e5",
   "mod_name": "Painter",
+  "mod_version": "3.0.0",
   "channels": {
     "locale": [
       {

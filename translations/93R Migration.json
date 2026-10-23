@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "source3.93r_migration",
   "mod_name": "93R Migration",
+  "mod_version": "1.1.2",
   "channels": {
     "locale": [
       {

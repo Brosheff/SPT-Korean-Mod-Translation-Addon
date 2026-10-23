@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.maschine.ArenaMode",
   "plugin_name": "maschine-ArenaMode 0.1.1",
+  "mod_version": "0.1.1",
   "_note": "ArenaMode 0.1.1 client source Config.Bind + per-mode helper + info panel scoped wrapper. Exact English source preserved; only F12 display translated.",
   "categories": [
     {

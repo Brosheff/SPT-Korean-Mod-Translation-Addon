@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "mod_2253b0d46785",
   "mod_name": "ECOT - Eukyre's Consortium of Things",
+  "mod_version": "2.0.1",
   "channels": {
     "locale": [
       {

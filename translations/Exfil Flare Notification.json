@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.flareeventnotifier",
   "mod_name": "Exfil Flare Notification",
+  "mod_version": "1.0.6",
   "channels": {
     "small_ui": [
       {

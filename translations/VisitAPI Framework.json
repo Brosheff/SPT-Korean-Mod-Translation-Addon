@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "com.sora.visitapi",
   "mod_name": "VisitAPI Framework",
+  "mod_version": "1.3.5",
   "channels": {
     "locale": [
       {

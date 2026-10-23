@@ -6,7 +6,7 @@ using HarmonyLib;
 
 namespace SPT.ModKoreanAddon
 {
-    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.3")]
+    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.4")]
     [BepInDependency("com.GoLani.koreanpatchfix", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("com.mpstark.dynamicmaps", BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin
@@ -224,7 +224,7 @@ namespace SPT.ModKoreanAddon
             // Korean Patch Fix's custom kr/kr-en mode on its own. Send only the existing
             // CurrentCulture value; failure is isolated and leaves all client UI hooks intact.
             TrySyncServerCulture(lastCulture);
-            Logger.LogInfo("SPT Mod Korean Addon 1.0.3 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
+            Logger.LogInfo("SPT Mod Korean Addon 1.0.4 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
         }
 
         private void Update()

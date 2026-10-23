@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.cj.useFromAnywhere",
   "plugin_name": "Use Items Anywhere",
+  "mod_version": "2.1.5",
   "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
   "categories": [
     {

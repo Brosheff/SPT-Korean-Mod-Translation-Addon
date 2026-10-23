@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.cinekit",
   "mod_name": "CineKit - Freecam, Cinematic Camera, Point Path Editor & Follower",
+  "mod_version": "1.2.0",
   "channels": {
     "small_ui": [
       {

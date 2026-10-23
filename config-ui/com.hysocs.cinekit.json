@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.hysocs.cinekit",
   "plugin_name": "Hysocs-CineKit",
+  "mod_version": "1.2.0",
   "_note": "SOURCE3 CineKit 1.2.0 source-audited F12 display-only Korean translation. Dynamic movement/toggle hotkey entries are included; config keys and saved values are not modified.",
   "categories": [
     {

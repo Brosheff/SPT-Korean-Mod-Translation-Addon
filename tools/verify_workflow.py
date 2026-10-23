@@ -7,6 +7,7 @@ inventory to evaluate the completeness of a previous source audit.
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path, PurePosixPath
 import sys
 import zipfile
@@ -45,6 +46,8 @@ def source_checks(root):
     for p in configs:
         try:
             doc = json_file(p)
+            if 'source_mod_version' in doc or not isinstance(doc.get('mod_version'), str) or not doc['mod_version'].strip():
+                errors.append(p.name + ': invalid/obsolete mod_version metadata')
             if doc.get('plugin_guid') != p.stem:
                 errors.append(p.name + ': plugin_guid differs from filename')
             if p.stem in guids:
@@ -78,10 +81,23 @@ def source_checks(root):
                     cats.add(cat['source'])
         except (ValueError, OSError, TypeError) as exc:
             errors.append(f'{p.name}: {exc}')
+    # Current release targets Aishi 2.0.4 / Special Forces 2.0.1 only.
+    # Deleted old-version compatibility profiles must not reappear unnoticed.
+    deprecated_profiles = (
+        'ISB Aishi - 2.0.3 Compatibility.json',
+        'ISB Special Forces - 2.0.0 Compatibility.json',
+    )
+    for old_name in deprecated_profiles:
+        if (root / 'translations' / old_name).is_file():
+            errors.append('obsolete mod-version compatibility profile must be removed: ' + old_name)
+    if (root / 'tools' / 'check_upgrade_compatibility.py').is_file():
+        errors.append('obsolete old-version compatibility checker must be removed')
     ids = set()
     for p in sorted((root / 'translations').glob('*.json')):
         try:
             doc = json_file(p)
+            if 'source_mod_version' in doc or not isinstance(doc.get('mod_version'), str) or not doc['mod_version'].strip():
+                errors.append(p.name + ': invalid/obsolete mod_version metadata')
             mod_id = doc.get('mod_id')
             if not mod_id:
                 errors.append(p.name + ': missing mod_id')
@@ -99,6 +115,118 @@ def source_checks(root):
     from audit_locale_integrity import audit
     errors.extend(audit(root / 'translations'))
     # Only guaranteed existing bridge, not a runtime proof of hook installation.
+    return errors
+
+
+# Authoritative working-document registry. AGENTS.md must link to each active
+# document; histories are preserved but cannot serve as current instructions.
+ACTIVE_WORKING_DOCS = (
+    'docs/모드번역_작업절차.md',
+    'docs/응답전_필수확인.md',
+    'docs/번역작업안내서.md',
+    'docs/TRANSLATION_FORMAT.md',
+    'docs/prompts/translate_prompt.txt',
+    'docs/번역대상_인계기록_양식.md',
+    'docs/배포_업데이트노트_작성지침.md',
+    'tools/VERIFY_WORKFLOW.md',
+)
+HISTORICAL_DOCS = (
+    'docs/1.0.4_릴리스_인계_20261022.md',
+    'docs/1.0.4_덮어쓰기_회귀복구_20261023.md',
+    'docs/1.0.4_전면회귀_원본코드추적_20261023.md',
+    'docs/1.0.4_최신버전_전용구성_20261023.md',
+    'docs/3개_모드_신버전_인계_20261022.md',
+    'docs/3개모드_퀘스트화자_정밀재검수_20261022.md',
+    'docs/PARENT_PATTERN_AUDIT_1.7.14.md',
+    'docs/LOCALE_DISPLAY_1.0.0_KO.md',
+)
+DOCUMENTED_UNBUNDLED_TESTS = (
+    'tests/LocaleDisplayContract',
+    'tests/ServerDisplayContract',
+    'tests/CasinoWriteContract',
+    'tests/WorkflowChecks',
+)
+
+
+def document_reference_checks(root):
+    """Audit navigation, stale directions, links and claimed test availability.
+
+    Does not prove reading compliance, translation quality, DLL build or game use.
+    Docs under docs/patches are intentionally outside this audit.
+    """
+    errors = []
+    entry = root / 'AGENTS.md'
+    if not entry.is_file():
+        return ['missing central document entrypoint: AGENTS.md']
+    entry_text = entry.read_text(encoding='utf-8-sig')
+    if '## 문서 읽기 순서와 역할 — 단일 진입점' not in entry_text:
+        errors.append('AGENTS.md is missing authoritative reading-order/role index')
+    if '역사·기술 참고 자료' not in entry_text or '현행 지시' not in entry_text:
+        errors.append('AGENTS.md does not distinguish historical records from current rules')
+    process = root / 'docs' / '모드번역_작업절차.md'
+    if process.is_file() and 'AGENTS.md' not in process.read_text(encoding='utf-8-sig'):
+        errors.append('top-level procedure does not delegate reading order to AGENTS.md')
+
+    # Markdown links are tested as actual paths, not merely presence of text.
+    markdown_link = re.compile(r'(?<!!)\[[^\]]+\]\(([^)]+)\)')
+    for rel in ('AGENTS.md',) + ACTIVE_WORKING_DOCS:
+        doc = root / rel
+        if not doc.is_file():
+            errors.append('missing active working document: ' + rel)
+            continue
+        body = doc.read_text(encoding='utf-8-sig')
+        if rel != 'AGENTS.md' and rel not in entry_text:
+            errors.append('working document absent from AGENTS.md central index: ' + rel)
+        for link in markdown_link.findall(body):
+            dest = link.split('#', 1)[0].strip()
+            if not dest or dest.startswith(('http:', 'https:', 'mailto:', '/')):
+                continue
+            linked = (doc.parent / dest).resolve()
+            if not linked.is_relative_to(root.resolve()) or not linked.is_file():
+                errors.append(f'broken document link: {rel} -> {link}')
+        # The oldest release numbers and former standalone Docs.zip must never
+        # silently reappear as live steps in instructions.
+        for stale in ('Docs.zip', '전체 1.0.3 신규·수정 항목'):
+            if stale in body:
+                errors.append(f'stale working-document instruction in {rel}: {stale}')
+        if rel != 'AGENTS.md':
+            # Unavailable test must be described as such at the point of use.
+            for line_no, line in enumerate(body.splitlines(), 1):
+                found = re.findall(r'tests/[A-Za-z0-9_.\-/]+', line)
+                if not found:
+                    continue
+                if all((root / name.rstrip('./')).exists() for name in found):
+                    continue
+                if not any(status in line for status in ('미동봉', '미실시', '원본 없음', '없습니다', '없으므로', '없는', '존재할 때', '확보한 경우', '확보된 경우')):
+                    errors.append(f'unqualified missing-test reference: {rel}:{line_no}')
+                if rel != 'tools/VERIFY_WORKFLOW.md':
+                    test_status_file = root / 'tools/VERIFY_WORKFLOW.md'
+                    test_status = test_status_file.read_text(encoding='utf-8-sig') if test_status_file.is_file() else ''
+                    for test_path in found:
+                        if test_path.rstrip('./') not in test_status:
+                            errors.append(f'missing-test path is absent from status index: {rel}:{line_no}: {test_path}')
+
+    for rel in HISTORICAL_DOCS:
+        doc = root / rel
+        if not doc.is_file():
+            errors.append('missing historical record: ' + rel)
+            continue
+        first = doc.read_text(encoding='utf-8-sig').splitlines()[:2]
+        if not first or not first[0].startswith('> **') or not any(word in first[0] for word in ('이력', '폐기', '참고')):
+            errors.append('historical record missing non-normative banner: ' + rel)
+
+    status = root / 'tools' / 'VERIFY_WORKFLOW.md'
+    if status.is_file():
+        content = status.read_text(encoding='utf-8-sig')
+        if (root / 'tests').is_dir() and '현재 제공된 **1.0.4 소스 ZIP에는 `tests/` 디렉터리가 없습니다.**' in content:
+            errors.append('tools/VERIFY_WORKFLOW.md incorrectly says all tests are unbundled')
+        if not (root / 'tests').is_dir():
+            for name in DOCUMENTED_UNBUNDLED_TESTS:
+                if name not in content:
+                    errors.append('missing unbundled test status in tools/VERIFY_WORKFLOW.md: ' + name)
+        # Unconditional test commands were previously copied into working docs.
+        if 'python -m unittest discover -s tests/WorkflowChecks -v' in content and not (root / 'tests/WorkflowChecks').is_dir():
+            errors.append('documentation recommends running tests/WorkflowChecks that is not bundled')
     return errors
 
 
@@ -153,6 +281,17 @@ def document_checks(root):
                 errors.append('note/update.md does not match client release version')
     except OSError as exc:
         errors.append('cannot inspect release documentation version: ' + str(exc))
+    # The public support list must reflect the current per-profile versions.
+    try:
+        from build_supported_mods import render_supported_mods
+        target = root / 'note' / '번역지원모드목록.md'
+        if target.is_file():
+            if target.read_text(encoding='utf-8-sig') != render_supported_mods(root):
+                errors.append('note/번역지원모드목록.md differs from current mod_version profiles; run build_supported_mods.py')
+    except (OSError, ValueError, KeyError, AssertionError) as exc:
+        errors.append('cannot verify support list versions: ' + str(exc))
+    # Cross-file consistency is independent from runtime and DLL validation.
+    errors.extend(document_reference_checks(root))
     # extras is not an addon input. No optional original-mod patches in source packaging.
     if (root / 'extras').exists():
         errors.append('unsupported root extras/: independent mod patches are forbidden')

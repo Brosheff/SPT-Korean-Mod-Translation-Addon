@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "7Bpencil.TransparentSights",
   "plugin_name": "SPT.TransparentSights-master",
+  "mod_version": "0.2.2",
   "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
   "categories": [
     {

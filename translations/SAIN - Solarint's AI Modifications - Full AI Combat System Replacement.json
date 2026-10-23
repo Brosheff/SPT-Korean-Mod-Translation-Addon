@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.sain",
   "mod_name": "SAIN - Solarint's AI Modifications - Full AI Combat System Replacement",
+  "mod_version": "4.5.1",
   "channels": {
     "small_ui": [
       {

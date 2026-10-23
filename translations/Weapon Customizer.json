@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "WeaponCustomizer",
   "mod_name": "Weapon Customizer",
+  "mod_version": "4.0.0",
   "channels": {
     "notifications": [
       {

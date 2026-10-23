@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.traumacore",
   "mod_name": "TraumaCore",
+  "mod_version": "1.7.0",
   "channels": {
     "small_ui": [
       {

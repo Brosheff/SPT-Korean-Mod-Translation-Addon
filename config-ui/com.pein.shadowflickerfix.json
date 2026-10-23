@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.pein.shadowflickerfix",
   "plugin_name": "Shadow Flicker Fix",
+  "mod_version": "1.5.3",
   "_note": "SOURCE2 source-audited F12 Configuration Manager display-only Korean translation. Saved config keys/values are never modified.",
   "categories": [
     {

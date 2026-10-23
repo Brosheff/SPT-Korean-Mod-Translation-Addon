@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "moxopixel.advanced.modding.lights",
   "plugin_name": "Advanced Modding Lights",
+  "mod_version": "2.0.0",
   "_note": "SOURCE3 source-audited SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
   "categories": [
     {

@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.useitemsanywhere",
   "mod_name": "Use Items Anywhere",
+  "mod_version": "2.1.5",
   "channels": {
     "small_ui": [
       {

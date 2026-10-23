@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "com.samc137.isbspecialforces",
   "mod_name": "ISB Special Forces",
-  "source_mod_version": "2.0.0",
+  "mod_version": "2.0.1",
   "channels": {
     "locale": [
       {
@@ -15,8 +15,8 @@
       },
       {
         "key": "6941763c6b2e0c64d04ef254 description",
-        "source": "Locate and neutralize ISB Regular Operatives 50 times.",
-        "translation": "ISB 일반 요원을 찾아 50회 제압합니다.",
+        "source": "Locate and neutralize ISB operatives carrying Pawn dogtags (Regular Operatives, Heavy Operatives and Marksman) 50 times.",
+        "translation": "폰 도그태그를 소지한 ISB 요원(일반 요원, 중무장 요원, 지정사수)을 찾아 50회 제압합니다.",
         "match_mode": "exact",
         "display_type": "achievement_description"
       },
@@ -29,8 +29,8 @@
       },
       {
         "key": "69417646c9c13c9353996c4e description",
-        "source": "Locate and neutralize ISB Regular Operatives 150 times.",
-        "translation": "ISB 일반 요원을 찾아 150회 제압합니다.",
+        "source": "Locate and neutralize ISB operatives carrying Pawn dogtags (Regular Operatives, Heavy Operatives and Marksman) 150 times.",
+        "translation": "폰 도그태그를 소지한 ISB 요원(일반 요원, 중무장 요원, 지정사수)을 찾아 150회 제압합니다.",
         "match_mode": "exact",
         "display_type": "achievement_description"
       },
@@ -43,8 +43,8 @@
       },
       {
         "key": "6941764b021c3b1630cf28d5 description",
-        "source": "Locate and neutralize ISB Regular Operatives 300 times.",
-        "translation": "ISB 일반 요원을 찾아 300회 제압합니다.",
+        "source": "Locate and neutralize ISB operatives carrying Pawn dogtags (Regular Operatives, Heavy Operatives and Marksman) 300 times.",
+        "translation": "폰 도그태그를 소지한 ISB 요원(일반 요원, 중무장 요원, 지정사수)을 찾아 300회 제압합니다.",
         "match_mode": "exact",
         "display_type": "achievement_description"
       },
@@ -57,8 +57,8 @@
       },
       {
         "key": "6a5d3f64a8b2157267046245 description",
-        "source": "Locate and neutralize ISB Special Agents (Team Leaders and Specialists) 30 times.",
-        "translation": "ISB 특수 요원(팀장과 전문 요원)을 찾아 30회 제압합니다.",
+        "source": "Locate and neutralize ISB Special Agents (Team Leaders, Specialists, Scouts and Assassins) 30 times.",
+        "translation": "ISB 특수 요원(팀장, 전문 요원, 정찰 요원, 암살 요원)을 찾아 30회 제압합니다.",
         "match_mode": "exact",
         "display_type": "achievement_description"
       },
@@ -71,8 +71,8 @@
       },
       {
         "key": "6a5d3f7ffc741ffbbf091b8e description",
-        "source": "Locate and neutralize ISB Special Agents (Team Leaders and Specialists) 90 times.",
-        "translation": "ISB 특수 요원(팀장과 전문 요원)을 찾아 90회 제압합니다.",
+        "source": "Locate and neutralize ISB Special Agents (Team Leaders, Specialists, Scouts and Assassins) 90 times.",
+        "translation": "ISB 특수 요원(팀장, 전문 요원, 정찰 요원, 암살 요원)을 찾아 90회 제압합니다.",
         "match_mode": "exact",
         "display_type": "achievement_description"
       },
@@ -85,8 +85,8 @@
       },
       {
         "key": "6a5d3f83cfd86f66e72d47a5 description",
-        "source": "Locate and neutralize ISB Special Agents (Team Leaders and Specialists) 150 times.",
-        "translation": "ISB 특수 요원(팀장과 전문 요원)을 찾아 150회 제압합니다.",
+        "source": "Locate and neutralize ISB Special Agents (Team Leaders, Specialists, Scouts and Assassins) 150 times.",
+        "translation": "ISB 특수 요원(팀장, 전문 요원, 정찰 요원, 암살 요원)을 찾아 150회 제압합니다.",
         "match_mode": "exact",
         "display_type": "achievement_description"
       },
@@ -194,6 +194,38 @@
         "translation": "미궁에서 ISB 팀장 처치하기",
         "match_mode": "exact",
         "display_type": "quest_objective"
+      },
+      {
+        "key": "ISB/Amnesty/name",
+        "source": "Clean Record",
+        "translation": "기록 정리",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "ISB/Amnesty/description",
+        "source": "I gave you a radio like this so you wouldn't go around shooting at my people. Well, you can imagine they must be pretty upset, and I don't blame them. How about doing your part so I can help clear your name with them?",
+        "translation": "내 사람들을 쏘고 다니지 말라고 이런 무전기를 준 거야. 그쪽이 단단히 화났을 거라는 건 알겠지? 나라도 그랬을 거야. 내가 그 사람들과의 문제를 해결해 줄 수 있도록, 너도 네 몫을 좀 해보는 게 어때?",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "ISB/Amnesty/startedMessageText",
+        "source": "Hand over dollars as compensation for your “betrayal”",
+        "translation": "‘배신’에 대한 배상금으로 달러를 건네주기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "ISB/Amnesty/handover",
+        "source": "Hand over dollars as compensation for your “betrayal”",
+        "translation": "‘배신’에 대한 배상금으로 달러를 건네주기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "ISB/Amnesty/successMessageText",
+        "source": "That'll be enough. Thanks! I'll make sure you don't get shot again.",
+        "translation": "그 정도면 됐어. 고마워! 다시는 총에 맞는 일이 없도록 조치할게.",
+        "match_mode": "exact"
       }
     ],
     "small_ui": [
@@ -259,7 +291,7 @@
       },
       {
         "id": "sf.subtitle.announcement.ISB-HackReport.02",
-        "source": "<b>Unknown:</b> REPORT TO TOP-SIDE FOR IMMEDIATE QUEESTIONING",
+        "source": "<b>Unknown:</b> REPORT TO TOP-SIDE FOR IMMEDIATE QUESTIONING",
         "translation": "<b>미확인 인물:</b> 즉시 지상으로 올라와 심문을 받아라.",
         "match_mode": "exact"
       },
@@ -417,6 +449,12 @@
         "id": "sf.notify.literal.16",
         "source": "ISB Unknown (",
         "translation": "미확인 ISB 요원 (",
+        "match_mode": "exact"
+      },
+      {
+        "id": "sf.subtitle.announcement.ISB-HackReport.02.cue",
+        "source": "<b>Unknown:</b> REPORT TO TOP-SIDE FOR IMMEDIATE QUEESTIONING",
+        "translation": "<b>미확인 인물:</b> 즉시 지상으로 올라와 심문을 받아라.",
         "match_mode": "exact"
       }
     ],

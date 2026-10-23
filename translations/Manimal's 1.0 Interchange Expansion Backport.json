@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "mod_69c5ddfe1691",
   "mod_name": "Manimal's 1.0 Interchange Expansion Backport",
+  "mod_version": "1.0.8",
   "channels": {
     "locale": [
       {

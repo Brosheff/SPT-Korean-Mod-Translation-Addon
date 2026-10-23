@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "source3.ratshot_of_usual_size",
   "mod_name": "Ratshot of Usual Size",
+  "mod_version": "2.0.0",
   "channels": {
     "locale": [
       {

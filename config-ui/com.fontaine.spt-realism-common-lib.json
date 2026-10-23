@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.fontaine.spt-realism-common-lib",
   "plugin_name": "Realism Common Lib",
+  "mod_version": "0.0.2",
   "categories": [
     {
       "source": "1. Debug and Dev Tools",

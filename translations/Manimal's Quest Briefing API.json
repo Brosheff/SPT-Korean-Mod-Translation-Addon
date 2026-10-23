@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "smallui.questbriefingapi",
   "mod_name": "Manimal's Quest Briefing API",
+  "mod_version": "1.0.0",
   "channels": {
     "small_ui": [
       {

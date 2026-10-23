@@ -2,8 +2,9 @@
   "schema_version": 1,
   "target_spt": "4.1.6",
   "plugin_guid": "com.lennoxp90.coti",
-  "plugin_name": "ECOTI 3.4.0",
-  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation, updated against ECOTI 3.4.0 source. Previous version entries retained as inert fallbacks; runtime keys/values untouched.",
+  "plugin_name": "ECOTI 3.4.1",
+  "mod_version": "3.4.1",
+  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation, checked against ECOTI 3.4.1 CotiF12Config.cs. Previous-version entries retained as inert fallbacks; runtime keys and saved values unchanged.",
   "categories": [
     {
       "source": "Controls",

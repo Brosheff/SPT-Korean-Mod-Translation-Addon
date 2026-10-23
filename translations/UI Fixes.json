@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "UIFixes",
   "mod_name": "UI Fixes",
+  "mod_version": "6.0.3",
   "channels": {
     "notifications": [
       {

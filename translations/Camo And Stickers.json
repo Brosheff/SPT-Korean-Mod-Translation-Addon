@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "7Bpencil.WeaponCamoAndStickers.UI",
   "mod_name": "Camo And Stickers",
+  "mod_version": "1.9.2",
   "channels": {
     "ui_literals": [
       {

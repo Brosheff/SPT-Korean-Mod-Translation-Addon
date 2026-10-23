@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "com.mybutthasarash.sptcasino",
   "mod_name": "SPT Casino",
+  "mod_version": "1.3.3",
   "channels": {
     "small_ui": [
       {

@@ -3,6 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "com.Luna.LunnayalunaLotus",
   "mod_name": "Lotus",
+  "mod_version": "4.0.1",
   "channels": {
     "locale": [
       {
