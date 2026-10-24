@@ -1,0 +1,1620 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.manimal.terminal",
+  "mod_name": "Manimal Terminal",
+  "mod_version": "0.2.2",
+  "channels": {
+    "locale": [
+      {
+        "key": "6a8f4d5e90206485fa1d2d5a name",
+        "source": "Falling Skies - Part 1",
+        "translation": "추락한 하늘 - 1부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5a description",
+        "source": "Ah, there you are, warrior. Got something that might interest you. Word is a plane came down somewhere in the Priozersk nature reserve. Nobody seems to know what happened—or nobody wants to say. Either way, a wreck like that doesn't just fall out of the sky without leaving something worth finding. Head to Woods, track it down, and have a look around. Bring me anything interesting you find. Well? You in?",
+        "translation": "오, 왔나, 제군. 자네가 흥미를 느낄 만한 소식이 있어. 프리오제르스크 자연보호구역 어딘가에 비행기가 추락했다더군. 무슨 일이 있었는지 아무도 모르거나, 알아도 입을 다무는 모양이야. 어쨌든 하늘에서 떨어진 잔해에는 쓸 만한 게 남기 마련이지. 삼림으로 가서 추락 지점을 찾고 주변을 조사해 봐. 흥미로운 물건이 있으면 가져오게. 어때, 해보겠나?",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5a startedMessageText",
+        "source": "Track down the fallen plane in the Priozersk nature reserve and look over the wreck.",
+        "translation": "프리오제르스크 자연보호구역에서 추락한 비행기를 찾아 잔해를 조사하게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5a successMessageText",
+        "source": "Ah, you ran into it, huh? It's been there a while, but nobody really knows much! You and I, rookie, we're alike in one thing: I decided to figure this out too. We can help each other.",
+        "translation": "오, 찾았군? 한동안 거기 있었지만 알려진 건 별로 없지! 신병, 자네와 나에게 공통점이 하나 있어. 나도 이 일을 파헤치기로 했거든. 서로 도우면 되겠군.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5a failMessageText",
+        "source": "No wreck, no story. Go back to Woods and find the plane.",
+        "translation": "잔해가 없으면 알아낼 이야기도 없지. 삼림으로 돌아가 비행기를 찾아.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d62",
+        "source": "Locate the fallen plane",
+        "translation": "추락한 비행기 찾기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5b name",
+        "source": "Falling Skies - Part 2",
+        "translation": "추락한 하늘 - 2부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5b description",
+        "source": "Prove yourself to me! Once you've earned my second loyalty level, come ask me again about the fallen plane. Then we'll help each other.",
+        "translation": "실력을 증명해 봐! 나와의 우호도를 2레벨까지 올리고 나서 추락한 비행기에 관해 다시 물어보게. 그때는 서로 도울 수 있을 거야.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5b startedMessageText",
+        "source": "Reach Loyalty Level 2 with Prapor, then report back about the fallen plane.",
+        "translation": "프라퍼의 우호도 2레벨을 달성한 뒤 추락한 비행기에 대해 보고하게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5b successMessageText",
+        "source": "Good. Now we can talk about the plane properly. I found out that the first ones to leave the city were big shots from TerraGroup. One or two people leaving could be a coincidence, but this was a massive crowd all at once—like those bastards knew everything beforehand.",
+        "translation": "좋아. 이제 그 비행기 얘기를 제대로 해보지. 도시를 가장 먼저 빠져나간 놈들이 테라그룹의 높으신 분들이라는 걸 알아냈어. 한두 명이었다면 우연이겠지만, 한꺼번에 엄청난 인파가 떠났지. 그 자식들이 무슨 일이 일어날지 미리 알기라도 했다는 듯 말이야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5b failMessageText",
+        "source": "Trust is earned, not requested. Come back when your standing proves it.",
+        "translation": "신뢰는 요구한다고 얻는 게 아니야. 자네 평판으로 증명하고 다시 와.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d66",
+        "source": "Reach Loyalty Level 2 with Prapor",
+        "translation": "프라퍼 우호도 2레벨 달성하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5c name",
+        "source": "Falling Skies - Part 3",
+        "translation": "추락한 하늘 - 3부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5c description",
+        "source": "The TerraGroup people always rode around in black G-Wagons, and that's how they were trying to leave the city. I've got a tip that one of them was carrying a very important thumb drive. Rumor has it the drive has information about that plane—something very important. I smell one hell of a secret here! Where there are secrets, there's big money. The big shot with the flash drive got taken out. I don't know if the Scavs shot him, the military intercepted him, or it was someone else. In any case, it looks like the guy left the flash drive in his car.",
+        "translation": "테라그룹 놈들은 항상 검은색 G바겐을 타고 다녔어. 도시에서 빠져나가려 할 때도 그랬지. 그중 한 명이 아주 중요한 USB 드라이브를 가지고 있었다는 제보를 받았네. 그 비행기에 관한 대단한 정보가 담겼다는 소문이야. 큰 비밀 냄새가 나는군! 비밀이 있는 곳에는 큰돈도 있지. 그런데 드라이브를 지닌 거물은 죽어버렸어. 스캐브가 쐈는지, 군이 저지했는지, 다른 누군가가 처리했는지는 몰라. 어쨌든 그자가 차 안에 드라이브를 남겨둔 것 같아.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5c startedMessageText",
+        "source": "Search the G-Wagon by Shoreline's collapsed tunnel and bring me its flash drive.",
+        "translation": "해안선의 붕괴된 터널 근처에서 G바겐을 수색하고 USB 드라이브를 가져오게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5c successMessageText",
+        "source": "Perfection! I was right to think it had something important on it.",
+        "translation": "완벽하군! 역시 중요한 정보가 들어 있을 줄 알았어.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5c failMessageText",
+        "source": "The drive is still beside that G-Wagon. Bring it back before somebody else finds it.",
+        "translation": "드라이브는 아직 그 G바겐 근처에 있어. 다른 사람이 찾기 전에 가져와.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d68",
+        "source": "Find the G-Wagon flash drive in raid",
+        "translation": "레이드에서 G바겐의 USB 드라이브 찾기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d69",
+        "source": "Hand over the item",
+        "translation": "아이템 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5d name",
+        "source": "Falling Skies - Part 4",
+        "translation": "추락한 하늘 - 4부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5d description",
+        "source": "There were three big shots on board: TerraGroup's vice president and two Security Council members. I asked around—there was no proper rescue operation. Those people weren't just anyone; they were high-ranking, important passengers. Now it makes sense. The flash drive confirms the plane was shot down! The information alone is worth a lot, but if we can also find out who ordered the hit, it will be worth even more. So I'm planning to get the black box. I've already set everything up. When you find the flight recorder, leave it for Elektronik at Fisherman's Island on the coast. There's a corner room in the old house. Elektronik will grab it from there himself.",
+        "translation": "비행기에는 거물 셋이 탔어. 테라그룹 부사장과 안보위원회 위원 두 명이지. 알아보니 제대로 된 구조 작전도 없었더군. 평범한 승객들이 아니라 고위 인사들이었는데 말이야. 이제 앞뒤가 맞아떨어져. USB 드라이브에 따르면 그 비행기는 격추된 거야! 이 정보만으로도 큰돈이 되지만 누가 격추를 명령했는지 알아내면 값어치가 더 올라가겠지. 그래서 블랙박스를 찾으려 하네. 준비는 다 해뒀어. 비행기록장치를 찾으면 해안가 어부의 섬에 있는 일렉트로니크에게 전달해. 낡은 집 구석방에 남겨두면 그자가 직접 가져갈 거야.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5d startedMessageText",
+        "source": "Recover the flight recorder on Woods, then conceal it in the ruined room on Fisherman's Island.",
+        "translation": "삼림에서 비행기록장치를 회수한 다음 어부의 섬에 있는 폐허가 된 방에 숨겨두게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5d successMessageText",
+        "source": "Yeah, but it's not all good news. Elektronik says his supplies are cut off, and he's got no tools to deal with the flight recorder.",
+        "translation": "그래, 하지만 나쁜 소식도 있어. 일렉트로니크의 보급이 끊겼고 비행기록장치를 다룰 공구도 없다는군.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5d failMessageText",
+        "source": "Recover the recorder and hide it where I told you. My men aren't searching two maps for your mistakes.",
+        "translation": "비행기록장치를 찾아 내가 말한 곳에 숨겨. 자네 실수 때문에 부하들을 지도 두 곳에 보내진 않을 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d6c",
+        "source": "Find the crashed plane's flight recorder in raid",
+        "translation": "레이드에서 추락한 비행기의 비행기록장치 찾기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d6d",
+        "source": "Leave the flight recorder in the specified spot",
+        "translation": "지정된 장소에 비행기록장치 두기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5e name",
+        "source": "Falling Skies - Part 5",
+        "translation": "추락한 하늘 - 5부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5e description",
+        "source": "Stop crying, I'm not asking for free! Elektronik says his supplies are cut off, and he's got no tools to deal with the flight recorder. I'd lend him mine, but everything is already reserved. You'll have to look for some electronic parts in the wild. I'll send you a full list with my guys. Once you get everything, pass it to me, and I'll forward it to Elektronik through Mechanic. No more drop-offs on the coast this time. You'll need to wait a bit after this; I'll contact you when it's ready.",
+        "translation": "징징대지 마. 공짜로 해달라는 것도 아니잖나! 일렉트로니크의 보급이 끊겼고 비행기록장치를 다룰 공구도 없다더군. 내 것을 빌려주고 싶지만 전부 다른 데 쓰기로 돼 있어. 그러니 자네가 밖에서 전자 부품을 찾아와야겠어. 부하들을 통해 목록을 전해줄 테니 전부 구해 내게 가져와. 메카닉을 거쳐 일렉트로니크에게 전달하겠네. 이번에는 해안가에 물건을 내려놓을 필요 없어. 그 뒤에는 잠시 기다려야 할 거야. 준비되면 연락하지.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5e startedMessageText",
+        "source": "Bring me three rechargeable batteries, five printed circuit boards, and two toolsets, all found in raid.",
+        "translation": "레이드에서 찾은 충전식 배터리 3개, 인쇄회로기판 5개, 공구 세트 2개를 가져오게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5e successMessageText",
+        "source": "All here? Good job. Perfection! I'll sort it out and get everything to Elektronik.",
+        "translation": "전부 가져왔나? 잘했어. 완벽하군! 내가 정리해서 일렉트로니크에게 보내겠네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5e failMessageText",
+        "source": "Elektronik needs every part on that list, found in raid. Bring me the complete set.",
+        "translation": "일렉트로니크에게는 목록에 있는 부품 전부가 필요해. 레이드에서 찾은 물건으로 빠짐없이 가져와.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d6f",
+        "source": "Hand over 3 Rechargeable batteries found in raid",
+        "translation": "레이드에서 찾은 충전식 배터리 3개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d70",
+        "source": "Hand over 5 Printed circuit boards found in raid",
+        "translation": "레이드에서 찾은 인쇄회로기판 5개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d71",
+        "source": "Hand over 2 Toolsets found in raid",
+        "translation": "레이드에서 찾은 공구 세트 2개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5f name",
+        "source": "Falling Skies - Part 6",
+        "translation": "추락한 하늘 - 6부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5f description",
+        "source": "Now we've got news: good and bad. The box burned. Relax—Elektronik got a transcript of the conversations, but this bastard isn't giving it up for free. Seems like the intel is very, very serious. He's asking for a real fortune, but you know what? I'll pay him. We've made a deal after all. I need you to pick up his secure flash drive from the drop point. It's at Shoreline again, in some moldy old house. Bring it here. I'll be waiting.",
+        "translation": "좋은 소식과 나쁜 소식이 들어왔어. 블랙박스가 불에 탔다는군. 진정하게. 일렉트로니크가 대화 내용의 기록은 확보했지만 그 자식이 공짜로 내놓으려 하지 않아. 정보가 아주 중대한 모양이야. 엄청난 돈을 요구하더군. 하지만 내가 내기로 했어. 어쨌든 거래를 했으니까. 자네는 지정된 장소에서 그자의 보안 USB 드라이브를 회수해 오면 돼. 또 해안선이야. 곰팡내 나는 낡은 집에 있다더군. 여기로 가져와. 기다리고 있겠네.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5f startedMessageText",
+        "source": "Find Elektronik's secure flash drive in the chairman's house and hand it over to me.",
+        "translation": "회장의 집에서 일렉트로니크의 보안 USB 드라이브를 찾아 내게 건네주게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5f successMessageText",
+        "source": "There you are, soldier! Finally some good news. Hand it over. What in the goddamn... What kind of shit went down there?! And who the hell is this Mister Kerman...? Hang on a second, someone's calling. Alright, this is urgent. You go for now; I'll be in touch later, friend. My guys will give you the reward.",
+        "translation": "왔군, 병사! 드디어 좋은 소식이야. 어디 줘봐. 대체 이게 무슨... 거기서 무슨 일이 있었던 거야?! 이 커먼이라는 작자는 또 누구지...? 잠깐, 전화가 왔군. 좋아, 급한 일이 생겼어. 자네는 일단 가봐. 나중에 연락하지, 친구. 보상은 부하들이 챙겨줄 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d5f failMessageText",
+        "source": "The chairman's house, abandoned village, Shoreline. I need Elektronik's drive, not excuses.",
+        "translation": "해안선 폐촌에 있는 회장의 집이야. 변명 말고 일렉트로니크의 드라이브를 가져와.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d73",
+        "source": "Find Elektronik's secure flash drive in raid",
+        "translation": "레이드에서 일렉트로니크의 보안 USB 드라이브 찾기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d74",
+        "source": "Hand over the item",
+        "translation": "아이템 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d60 name",
+        "source": "Falling Skies - Part 7",
+        "translation": "추락한 하늘 - 7부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d60 description",
+        "source": "Elektronik's transcript mentioned some Mister Kerman, and now he called me himself. Used a voice scrambler, ha. He said there was an armored case on that plane. When the plane started coming apart, it fell out. Kerman claimed it contained a ticket out of Tarkov. Yeah, he actually called it that—the 'Ticket.' Find that case. By my calculations, it should have landed somewhere around Woods. Oh, and one more thing: I sold the information about the downed plane. You helped me a lot, so here's your cut from a pretty big website. Now go find me that case.",
+        "translation": "일렉트로니크의 기록에는 커먼 씨라는 인물이 나오더군. 그런데 그자가 직접 내게 전화를 걸었어. 목소리 변조기까지 쓰더군, 하! 비행기 안에 장갑 케이스가 있었다는 거야. 기체가 부서지기 시작할 때 밖으로 떨어졌다더군. 커먼은 그 안에 타르코프를 빠져나갈 표가 들어 있다고 했어. 정말로 '티켓'이라고 부르더라고. 그 케이스를 찾아. 내 계산으로는 삼림 근처에 떨어졌을 거야. 아, 한 가지 더. 격추된 비행기 정보를 팔았어. 자네가 크게 도와줬으니 대형 웹사이트에서 받은 돈 중 자네 몫도 줄게. 이제 가서 케이스를 찾아오게.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d60 startedMessageText",
+        "source": "Recover the armored case from the plane's cockpit and deliver it directly to me.",
+        "translation": "비행기 조종석에서 장갑 케이스를 회수해 내게 직접 가져오게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d60 successMessageText",
+        "source": "Alrighty, let's take a look. Give it here, and you're dismissed. A deal's a deal—my guys will give you the one and a half million.",
+        "translation": "좋아, 어디 보자. 이리 줘. 이제 가봐도 돼. 거래는 거래니까. 부하들이 150만 루블을 지급할 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d60 failMessageText",
+        "source": "The case is in that cockpit, and it comes directly to me. Don't make me repeat myself.",
+        "translation": "케이스는 조종석에 있어. 다른 곳 말고 내게 직접 가져와. 두 번 말하게 하지 마.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d77",
+        "source": "Find the armored case in raid",
+        "translation": "레이드에서 장갑 케이스 찾기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2d78",
+        "source": "Hand over the item",
+        "translation": "아이템 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e01 name",
+        "source": "The Ticket - Part 1",
+        "translation": "티켓 - 1부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e01 description",
+        "source": "About that armored case—you did your part, warrior, but I am not telling you who bought it. Not yet. If you want the name, prove that trusting you will not come back to bite me. TerraGroup left four sets of evidence scattered around the Lab: finances, developments, staff records, and project reports. Find all four folders, compile their contents onto a clean SSD at your Intelligence Center, and bring the finished drive to me.",
+        "translation": "그 장갑 케이스 말인데, 전사. 자네는 할 일을 다 했지만 누가 샀는지는 알려줄 수 없어. 아직은 말이야. 구매자의 이름이 궁금하다면 자네를 믿어도 뒤통수를 맞지 않을 거라는 걸 증명하게. 테라그룹이 연구소 곳곳에 증거 서류 네 묶음을 남겼어. 재무, 개발, 직원 기록, 프로젝트 보고서지. 서류 네 묶음을 전부 찾아 정보 센터에서 깨끗한 SSD 하나에 내용을 취합한 다음 완성된 드라이브를 가져오게.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e01 startedMessageText",
+        "source": "Find the four TerraGroup evidence folders on the Lab, compile them onto a clean SSD, and hand it over.",
+        "translation": "연구소에서 테라그룹 증거 서류 네 묶음을 찾아 깨끗한 SSD에 취합한 뒤 내게 건네주게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e01 successMessageText",
+        "source": "Clean work. You found everything and brought it back without losing the trail. That proves you can follow instructions, but it still does not buy the buyer's name. I have another job.",
+        "translation": "깔끔하게 처리했군. 흔적을 놓치지 않고 모두 찾아왔어. 지시를 따를 수 있다는 건 증명했지만 구매자의 이름을 알려줄 정도는 아니야. 다른 일이 남아 있네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e01 failMessageText",
+        "source": "Four folders from the Lab, one clean SSD. Find them, compile the evidence, and bring me the finished drive.",
+        "translation": "연구소의 서류 네 묶음과 깨끗한 SSD 하나야. 증거를 취합해서 완성된 드라이브를 가져와.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e11",
+        "source": "Obtain the SSD with TerraGroup evidence",
+        "translation": "테라그룹 증거가 담긴 SSD 확보하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e12",
+        "source": "Hand over the SSD with TerraGroup evidence",
+        "translation": "테라그룹 증거가 담긴 SSD 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e13",
+        "source": "Find the TerraGroup finance evidence on The Lab",
+        "translation": "연구소에서 테라그룹 재무 증거 찾기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e14",
+        "source": "Find the TerraGroup development evidence on The Lab",
+        "translation": "연구소에서 테라그룹 개발 증거 찾기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e15",
+        "source": "Find the TerraGroup staff evidence on The Lab",
+        "translation": "연구소에서 테라그룹 직원 기록 증거 찾기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e16",
+        "source": "Find the TerraGroup reports evidence on The Lab",
+        "translation": "연구소에서 테라그룹 프로젝트 보고서 증거 찾기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e02 name",
+        "source": "The Ticket - Part 2",
+        "translation": "티켓 - 2부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e02 description",
+        "source": "The Streets are crawling with people who think the old rules no longer apply. Thin them out. Fifty targets, anyone hostile enough to stand in your way. Show me you can finish a long job without losing your head, and we keep talking.",
+        "translation": "타르코프 시내에는 옛 규칙 따위는 더 이상 통하지 않는다고 믿는 놈들이 득실거려. 놈들의 수를 줄여. 자네를 막아서는 적 50명을 처리하게. 긴 임무를 끝까지 침착하게 해낼 수 있다는 걸 보여주면 이야기를 계속하지.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e02 startedMessageText",
+        "source": "Eliminate 50 targets on Streets of Tarkov.",
+        "translation": "타르코프 시내에서 적 50명을 처치하게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e02 successMessageText",
+        "source": "Fifty. Good. One last test—shorter, harder, and no room for luck.",
+        "translation": "50명. 좋아. 마지막 시험이 하나 남았어. 더 짧고 어려우며 운에 맡길 여지도 없지.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e02 failMessageText",
+        "source": "The count is fifty. Keep working.",
+        "translation": "목표는 50명이야. 계속해.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e21",
+        "source": "Eliminate 50 targets on Streets of Tarkov",
+        "translation": "타르코프 시내에서 적 50명 처치하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e03 name",
+        "source": "The Ticket - Part 3",
+        "translation": "티켓 - 3부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e03 description",
+        "source": "Four PMC operators in one raid, and you come home alive afterward. Do that and I will tell you exactly where the armored case went. Fail to return and the answer will not matter to you anyway.",
+        "translation": "한 레이드에서 PMC 대원 네 명을 처치하고 살아 돌아와. 성공하면 장갑 케이스가 정확히 어디로 갔는지 알려주지. 돌아오지 못한다면 답을 알아도 소용없을 테고.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e03 startedMessageText",
+        "source": "Eliminate 4 PMCs in one raid, then survive and extract.",
+        "translation": "한 레이드에서 PMC 4명을 처치하고 생존 후 탈출하게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e03 successMessageText",
+        "source": "Alright, you earned it. I sold the armored case to the Lightkeeper. If you want it back, that is who you need to face. I cannot open his island for you and I will not pretend otherwise—earn your own access, stay on his good side, then ask him about the case.",
+        "translation": "좋아, 자격을 증명했군. 장갑 케이스는 등대지기에게 팔았어. 되찾고 싶다면 그를 만나야 해. 내 힘으로 그 섬을 열어줄 수는 없고 가능한 척하지도 않겠네. 직접 출입 자격을 얻고 그의 신뢰를 유지한 다음 케이스에 관해 물어보게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e03 failMessageText",
+        "source": "Four PMCs in one raid, then make it home alive.",
+        "translation": "한 레이드에서 PMC 네 명을 처치하고 살아 돌아와.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e31",
+        "source": "Eliminate 4 PMCs in a single raid",
+        "translation": "한 레이드에서 PMC 4명 처치하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e34",
+        "source": "Survive and extract from the raid",
+        "translation": "레이드에서 생존 후 탈출하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e04 name",
+        "source": "The Ticket - Part 4",
+        "translation": "티켓 - 4부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e04 description",
+        "source": "Prapor says the Lightkeeper bought the armored case. Gain access to the island through the existing Lightkeeper progression, speak to him in raid, and bring the three TerraGroup Blue Folders he requests.",
+        "translation": "프라퍼의 말로는 등대지기가 장갑 케이스를 샀다고 합니다. 기존 등대지기 임무를 진행해 섬에 들어갈 자격을 얻고, 레이드 중 그와 대화한 뒤 그가 요구하는 테라그룹 파란 서류철 3개를 가져오십시오.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e04 startedMessageText",
+        "source": "Bring three TerraGroup Blue Folders to the Lightkeeper.",
+        "translation": "테라그룹 파란 서류철 3개를 등대지기에게 가져오십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e04 successMessageText",
+        "source": "The material is genuine. The armored case exists, and I am prepared to return it after one final service.",
+        "translation": "자료가 진품이군. 장갑 케이스는 존재하며 마지막으로 한 가지 일을 해준다면 돌려주겠네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e04 failMessageText",
+        "source": "The Lightkeeper requires three TerraGroup Blue Folders.",
+        "translation": "등대지기에게 테라그룹 파란 서류철 3개가 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e42",
+        "source": "Obtain three TerraGroup Blue Folders",
+        "translation": "테라그룹 파란 서류철 3개 확보하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e43",
+        "source": "Hand over three TerraGroup Blue Folders",
+        "translation": "테라그룹 파란 서류철 3개 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e05 name",
+        "source": "The Ticket - Part 5",
+        "translation": "티켓 - 5부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e05 description",
+        "source": "The Lightkeeper wants a message delivered at ULTRA. Launch a yellow signal flare at the shopping center's main entrance, eliminate fifteen targets on Interchange during that raid, and survive. Return to him in raid when it is done.",
+        "translation": "등대지기가 ULTRA에서 신호를 보내라고 합니다. 쇼핑센터 정문에서 노란색 신호탄을 발사하고, 같은 레이드의 인터체인지에서 적 15명을 처치한 뒤 생존하십시오. 완료하면 레이드 중 그에게 돌아가십시오.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e05 startedMessageText",
+        "source": "Signal ULTRA, eliminate 15 targets on Interchange, and survive the raid.",
+        "translation": "ULTRA에서 신호를 보내고 인터체인지에서 적 15명을 처치한 뒤 생존하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e05 successMessageText",
+        "source": "The signal was seen and the response was sufficient. The armored case is yours again.",
+        "translation": "신호는 전달됐고 대응도 충분했네. 장갑 케이스는 다시 자네 것일세.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e05 failMessageText",
+        "source": "The signal and the eliminations must be completed before you leave Interchange alive.",
+        "translation": "신호 발사와 적 처치를 모두 마친 뒤 인터체인지에서 생존 탈출해야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e51",
+        "source": "Launch a yellow signal flare at ULTRA's main entrance",
+        "translation": "ULTRA 정문에서 노란색 신호탄 발사하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e54",
+        "source": "Eliminate 15 targets on Interchange in the same raid",
+        "translation": "같은 레이드의 인터체인지에서 적 15명 처치하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e59",
+        "source": "Survive and extract from Interchange",
+        "translation": "인터체인지에서 생존 후 탈출하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e06 name",
+        "source": "The Ticket - Part 6",
+        "translation": "티켓 - 6부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e06 description",
+        "source": "Yes? What's up? You need a briefcase opened? Okay, got it. Is the case with you? Hand it over, I'll size up the work. Hm, alright. What if—no. I cannot open it right now. I don't have the proper tools. But I know where you may find what we need. As far as I know, TerraGroup worked on some kind of special jammers. I need one of those. In their labs, of course. Bring me the jammer and I'll show you how to use it. Now go, you have your objective.",
+        "translation": "음? 무슨 일이죠? 서류가방을 열어달라고요? 좋아요, 알겠습니다. 가방은 가져오셨나요? 이리 줘보세요. 어떤 작업인지 살펴보죠. 흠, 이렇게 하면... 아니, 안 되겠군요. 지금은 열 수 없습니다. 필요한 공구가 없어요. 하지만 그걸 어디서 구할 수 있을지는 압니다. 듣기로는 테라그룹이 특수 전파 방해기를 연구했다더군요. 그 장치 하나가 필요합니다. 물론 연구소에 있겠죠. 방해기를 가져오시면 사용법을 알려드리겠습니다. 자, 가보세요. 해야 할 일은 아시겠죠.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e06 startedMessageText",
+        "source": "Find an experimental signal jammer in The Lab and bring it back to Mechanic.",
+        "translation": "연구소에서 실험용 신호 방해기를 찾아 메카닉에게 가져오십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e06 successMessageText",
+        "source": "Yes, this is the jammer I meant. Keep it with the case. I'll show you how to suppress the lock with it at your Workbench.",
+        "translation": "네, 제가 말한 방해기가 맞습니다. 케이스와 함께 보관하세요. 작업대에서 이걸로 잠금을 무력화하는 방법을 알려드리겠습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e06 failMessageText",
+        "source": "The experimental jammer should still be somewhere in TerraGroup's laboratory.",
+        "translation": "실험용 방해기는 아직 테라그룹 연구소 어딘가에 있을 겁니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e61",
+        "source": "Find the experimental signal jammer in The Lab",
+        "translation": "연구소에서 실험용 신호 방해기 찾기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e0a name",
+        "source": "The Ticket - Part 7",
+        "translation": "티켓 - 7부",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e0a description",
+        "source": "Kruglov's RFID keycard opens the way to TerraGroup's evacuation point, but not the military checkpoint at Terminal. Prapor can arrange passage when you hand over the card and three hundred million roubles.",
+        "translation": "크루글로프의 RFID 키카드는 테라그룹의 대피 지점으로 가는 길을 열어주지만, 터미널의 군 검문소까지 통과시켜 주지는 않습니다. 키카드와 3억 루블을 프라퍼에게 건네주면 통행을 주선받을 수 있습니다.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e0a startedMessageText",
+        "source": "Give Prapor Kruglov's RFID keycard and hand over 300,000,000 roubles to secure passage.",
+        "translation": "크루글로프의 RFID 키카드를 프라퍼에게 건네주고 통행을 확보하기 위해 300,000,000루블을 지불하게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e0a successMessageText",
+        "source": "Here is the note. The checkpoint soldiers will know what it means. Take it to Terminal and do not stop until Tarkov is behind you.",
+        "translation": "여기 쪽지가 있네. 검문소 병사들은 무슨 뜻인지 알 거야. 터미널로 가져가서 타르코프를 완전히 벗어날 때까지 멈추지 마.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2e0a failMessageText",
+        "source": "The price is three hundred million roubles. Not a kopeck less.",
+        "translation": "가격은 3억 루블이야. 단 한 푼도 깎아줄 수 없어.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2ea1",
+        "source": "Hand over 300,000,000 roubles",
+        "translation": "300,000,000루블 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2ea5",
+        "source": "Find Kruglov's RFID keycard",
+        "translation": "크루글로프의 RFID 키카드 찾기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2ea6",
+        "source": "Hand over Kruglov's RFID keycard",
+        "translation": "크루글로프의 RFID 키카드 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f40",
+        "source": "I'm looking for something, and you can help me with this.",
+        "translation": "찾는 게 있는데, 도와주실 수 있겠습니까?",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f41",
+        "source": "Interesting. Speak precisely. My time is valuable.",
+        "translation": "흥미롭군. 정확하게 말하게. 내 시간은 귀하니까.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f42",
+        "source": "I'm looking for the TerraGroup case.",
+        "translation": "테라그룹의 케이스를 찾고 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f43",
+        "source": "I need the case Prapor handed you.",
+        "translation": "프라퍼가 당신에게 넘긴 케이스가 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f44",
+        "source": "And? You think I collect everything marked TerraGroup like that Ragman? You're mistaken.",
+        "translation": "그래서? 내가 래그맨처럼 테라그룹 표시가 붙은 물건이라면 전부 수집하는 줄 아나? 착각이야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f45",
+        "source": "The case I'm talking about was given to you by Prapor.",
+        "translation": "제가 말하는 건 프라퍼가 당신에게 넘긴 케이스입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f46",
+        "source": "Next time, don't waste either your time or mine on pointless questions. Yes, I have the case. And this case is far too important to hand it over just like that.",
+        "translation": "다음부터는 쓸데없는 질문으로 서로 시간을 낭비하지 말게. 그래, 케이스는 내가 갖고 있어. 하지만 아무 이유 없이 내줄 만큼 가벼운 물건이 아니야.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f47",
+        "source": "Maybe we can make a deal?",
+        "translation": "거래할 수 있을까요?",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f48",
+        "source": "Seems like you're starting to understand something.",
+        "translation": "이제야 뭔가 이해하기 시작하는군.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f49",
+        "source": "Fine. I'll trade the case for your work. You'll have to prove yourself. Agreed?",
+        "translation": "좋아. 일을 해준다면 케이스를 넘겨주지. 우선 자네가 그럴 자격이 있는지 증명해야 하네. 동의하나?",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f4a",
+        "source": "Like I have a choice.",
+        "translation": "선택권이 있기는 한가요?",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f4b",
+        "source": "No one said you did.",
+        "translation": "선택권이 있다고 말한 적은 없네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f4c",
+        "source": "Listen carefully, I won't repeat twice: you need to find the blue folder documents in Tarkov. I don't want them freely available to anyone thinking they're smart enough to ask questions.",
+        "translation": "똑똑히 듣게. 두 번 말하지 않겠네. 타르코프에서 파란 서류철에 든 문서들을 찾아오게. 뭔가 안다고 우쭐대며 캐묻는 자들 손에 들어가게 둘 생각은 없네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f4d",
+        "source": "Once you hand them to me, you'll get the next task.",
+        "translation": "내게 문서를 건네주면 다음 일을 알려주지.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f4e",
+        "source": "Now go.",
+        "translation": "이제 가보게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f4f",
+        "source": "I have all the documents.",
+        "translation": "문서는 전부 가져왔습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f80",
+        "source": "Leave",
+        "translation": "나가기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f81",
+        "source": "This is not all of them. Return when you have the rest.",
+        "translation": "아직 전부가 아니군. 나머지를 구해서 돌아오게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f82",
+        "source": "Good, you'll hand them over when you leave.",
+        "translation": "좋아. 떠날 때 문서를 넘겨주게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f83",
+        "source": "Now listen for your task at the Interchange, you'll have to draw attention. You know how. After that, you eliminate all those who come.",
+        "translation": "이제 인터체인지에서 자네가 할 일을 알려주지. 사람들의 주의를 끌어야 하네. 방법은 알겠지? 그리고 몰려오는 놈들을 전부 제거하게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f84",
+        "source": "I'm here about the blue folder documents.",
+        "translation": "파란 서류철에 관해 이야기하러 왔습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f85",
+        "source": "I'm here about the blue folder documents.",
+        "translation": "파란 서류철에 관해 이야기하러 왔습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f86",
+        "source": "Interesting. I took that case for a reason. It is important.",
+        "translation": "흥미롭군. 내가 괜히 그 케이스를 가져간 게 아니야. 중요한 물건이지.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f87",
+        "source": "All this has to be done in one time slot, without breaks.",
+        "translation": "이 모든 일을 한 번의 레이드에서 쉬지 않고 끝내야 하네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f88",
+        "source": "Clear?",
+        "translation": "알겠나?",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f89",
+        "source": "Understood!",
+        "translation": "알겠습니다!",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f8b",
+        "source": "Then go. Time doesn't wait.",
+        "translation": "그럼 가보게. 시간은 자네를 기다려주지 않네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f8c",
+        "source": "Leave",
+        "translation": "나가기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f8d",
+        "source": "Accept the Interchange task.",
+        "translation": "인터체인지 임무 수락하기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f70",
+        "source": "You said there was one final condition for the armored case.",
+        "translation": "장갑 케이스에 마지막 조건이 하나 남았다고 하셨죠.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f71",
+        "source": "Remind me what you want done at ULTRA.",
+        "translation": "ULTRA에서 무슨 일을 해야 하는지 다시 알려주십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f72",
+        "source": "The tasks are complete.",
+        "translation": "임무를 모두 끝냈습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f73",
+        "source": "Go to ULTRA's main entrance. Launch a yellow signal flare, then eliminate fifteen targets on Interchange before leaving the raid alive. The message must be unmistakable.",
+        "translation": "ULTRA 정문으로 가게. 노란색 신호탄을 쏜 다음 같은 레이드의 인터체인지에서 적 15명을 제거하고 살아서 탈출하게. 메시지는 분명하게 전달되어야 하네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f74",
+        "source": "Understood. I will return when it is done.",
+        "translation": "알겠습니다. 끝내고 돌아오겠습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f75",
+        "source": "Yes, I know. You handled everything.",
+        "translation": "알고 있네. 자네가 모두 처리했지.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f76",
+        "source": "I need the case. Right now.",
+        "translation": "지금 당장 케이스가 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f77",
+        "source": "Here's your reward.",
+        "translation": "여기 보상이네.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f78",
+        "source": "This time, do not give it to anyone. Use it yourself.",
+        "translation": "이번에는 누구에게도 넘기지 말게. 직접 사용하게.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a8f4d5e90206485fa1d2f79",
+        "source": "Leave",
+        "translation": "나가기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "5704e5a4d2720bb45b8b4567 Name",
+        "source": "Terminal",
+        "translation": "터미널",
+        "match_mode": "exact"
+      },
+      {
+        "key": "5704e5a4d2720bb45b8b4567 Description",
+        "source": "The southern port Terminal has been under Russian Armed Forces control since the beginning of the Tarkov conflict. After the city was sealed off, the terminal was fortified and became the primary evacuation point, sought by both civilian refugees and PMC units. According to unconfirmed reports, TerraGroup personnel were also evacuated through this port.",
+        "translation": "타르코프 분쟁이 시작된 이래 남부 항구 터미널은 러시아군의 통제 아래 있었습니다. 도시가 봉쇄된 뒤 터미널은 요새화되었으며, 민간인 피난민과 PMC 부대가 모두 몰려드는 주요 대피 지점이 되었습니다. 확인되지 않은 보고에 따르면 테라그룹 관계자들도 이 항구를 통해 대피했다고 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "65cc8f81a9aac3e77d0cfd3e Name",
+        "source": "Terminal",
+        "translation": "터미널",
+        "match_mode": "exact"
+      },
+      {
+        "key": "65cc8f81a9aac3e77d0cfd3e Description",
+        "source": "The southern port Terminal has been under Russian Armed Forces control since the beginning of the Tarkov conflict. After the city was sealed off, the terminal was fortified and became the primary evacuation point, sought by both civilian refugees and PMC units. According to unconfirmed reports, TerraGroup personnel were also evacuated through this port.",
+        "translation": "타르코프 분쟁이 시작된 이래 남부 항구 터미널은 러시아군의 통제 아래 있었습니다. 도시가 봉쇄된 뒤 터미널은 요새화되었으며, 민간인 피난민과 PMC 부대가 모두 몰려드는 주요 대피 지점이 되었습니다. 확인되지 않은 보고에 따르면 테라그룹 관계자들도 이 항구를 통해 대피했다고 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6925a2c38bdebd9e2302692e Name",
+        "source": "Terminal",
+        "translation": "터미널",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6925a2c38bdebd9e2302692e Description",
+        "source": "The southern port Terminal has been under Russian Armed Forces control since the beginning of the Tarkov conflict. After the city was sealed off, the terminal was fortified and became the primary evacuation point, sought by both civilian refugees and PMC units. According to unconfirmed reports, TerraGroup personnel were also evacuated through this port.",
+        "translation": "타르코프 분쟁이 시작된 이래 남부 항구 터미널은 러시아군의 통제 아래 있었습니다. 도시가 봉쇄된 뒤 터미널은 요새화되었으며, 민간인 피난민과 PMC 부대가 모두 몰려드는 주요 대피 지점이 되었습니다. 확인되지 않은 보고에 따르면 테라그룹 관계자들도 이 항구를 통해 대피했다고 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6901f52709598eae190be134 Name",
+        "source": "Terminal",
+        "translation": "터미널",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6901f52709598eae190be134 Description",
+        "source": "The southern port Terminal has been under Russian Armed Forces control since the beginning of the Tarkov conflict. After the city was sealed off, the terminal was fortified and became the primary evacuation point, sought by both civilian refugees and PMC units. According to unconfirmed reports, TerraGroup personnel were also evacuated through this port.",
+        "translation": "타르코프 분쟁이 시작된 이래 남부 항구 터미널은 러시아군의 통제 아래 있었습니다. 도시가 봉쇄된 뒤 터미널은 요새화되었으며, 민간인 피난민과 PMC 부대가 모두 몰려드는 주요 대피 지점이 되었습니다. 확인되지 않은 보고에 따르면 테라그룹 관계자들도 이 항구를 통해 대피했다고 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "67a0e494e8fc6968ef0fc9da Name",
+        "source": "Equipment cabinet",
+        "translation": "장비 캐비닛",
+        "match_mode": "exact"
+      },
+      {
+        "key": "67a0e494e8fc6968ef0fc9da ShortName",
+        "source": "Equipment cabinet",
+        "translation": "장비 캐비닛",
+        "match_mode": "exact"
+      },
+      {
+        "key": "67a0e494e8fc6968ef0fc9da Description",
+        "source": "Equipment cabinet",
+        "translation": "장비 캐비닛",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6851450d30cad62593003fa8 Name",
+        "source": "Soldier body",
+        "translation": "병사 시신",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6851450d30cad62593003fa8 ShortName",
+        "source": "Soldier body",
+        "translation": "병사 시신",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6851450d30cad62593003fa8 Description",
+        "source": "Soldier body",
+        "translation": "병사 시신",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a5b9af76a25d8e6e0e2e56 Name",
+        "source": "Equipment cabinet",
+        "translation": "장비 캐비닛",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a5b9af76a25d8e6e0e2e56 ShortName",
+        "source": "Equipment cabinet",
+        "translation": "장비 캐비닛",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a5b9af76a25d8e6e0e2e56 Description",
+        "source": "Equipment cabinet",
+        "translation": "장비 캐비닛",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69122598e5b8725fb10f6a93 Name",
+        "source": "Soldier body",
+        "translation": "병사 시신",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69122598e5b8725fb10f6a93 ShortName",
+        "source": "Soldier body",
+        "translation": "병사 시신",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69122598e5b8725fb10f6a93 Description",
+        "source": "Soldier body",
+        "translation": "병사 시신",
+        "match_mode": "exact"
+      },
+      {
+        "key": "691226272a5ee538f10d2f11 Name",
+        "source": "Safe",
+        "translation": "금고",
+        "match_mode": "exact"
+      },
+      {
+        "key": "691226272a5ee538f10d2f11 ShortName",
+        "source": "Safe",
+        "translation": "금고",
+        "match_mode": "exact"
+      },
+      {
+        "key": "691226272a5ee538f10d2f11 Description",
+        "source": "Safe",
+        "translation": "금고",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69122762e5b8725fb10f6b32 Name",
+        "source": "Weapon box",
+        "translation": "무기 상자",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69122762e5b8725fb10f6b32 ShortName",
+        "source": "Weapon box",
+        "translation": "무기 상자",
+        "match_mode": "exact"
+      },
+      {
+        "key": "69122762e5b8725fb10f6b32 Description",
+        "source": "Weapon box",
+        "translation": "무기 상자",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a4c0ffee0000000000cab1 Name",
+        "source": "Equipment Cabinet",
+        "translation": "장비 캐비닛",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a4c0ffee0000000000cab1 ShortName",
+        "source": "EqCabinet",
+        "translation": "장비함",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a4c0ffee0000000000cab1 Description",
+        "source": "A tall port-authority equipment cabinet. Whatever the terminal crews locked away is still inside.",
+        "translation": "항만 당국에서 사용하는 높은 장비 캐비닛입니다. 터미널 직원들이 안에 무엇을 잠가 두었는지는 알 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "68a67d00000000000000a501 name",
+        "source": "Survivor",
+        "translation": "생존자",
+        "match_mode": "exact",
+        "display_type": "achievement_title"
+      },
+      {
+        "key": "68a67d00000000000000a501 description",
+        "source": "Escape from Tarkov no matter the cost.",
+        "translation": "어떤 대가를 치르더라도 타르코프에서 탈출하십시오.",
+        "match_mode": "exact",
+        "display_type": "achievement_description"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "terminal_ui_001",
+        "source": "<b>MP Officer:</b> Stop! Security check!",
+        "translation": "<b>헌병 장교:</b> 멈춰! 보안 검사다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_002",
+        "source": "<b>MP Officer:</b> Where do you think you’re heading all geared up like that?",
+        "translation": "<b>헌병 장교:</b> 그렇게 무장하고 어딜 가려는 거야?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_003",
+        "source": "<b>MP Officer:</b> No gear past this checkpoint.",
+        "translation": "<b>헌병 장교:</b> 검문소 너머로 장비는 가져갈 수 없어.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_004",
+        "source": "<b>MP Officer:</b> Relax! You won’t need that on the other side.",
+        "translation": "<b>헌병 장교:</b> 진정해! 저쪽에선 필요 없을 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_005",
+        "source": "<b>Soldier:</b> He’s clear!",
+        "translation": "<b>병사:</b> 검사 끝났습니다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_006",
+        "source": "<b>MP Officer:</b> Alright, move it.",
+        "translation": "<b>헌병 장교:</b> 좋아, 이동해.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_007",
+        "source": "<b>MP Officer:</b> Stay close, follow my instructions precisely, unless you wanna end up in a body bag.",
+        "translation": "<b>헌병 장교:</b> 바짝 붙어서 내 지시를 정확히 따라. 시체 가방에 실리기 싫다면 말이야.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_008",
+        "source": "<b>MP Officer:</b> You’ll have to wait your turn for evac.",
+        "translation": "<b>헌병 장교:</b> 대피 순서가 올 때까지 기다려야 해.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_009",
+        "source": "<b>MP Officer:</b> I think we’ve got some water over there, so you'll manage.",
+        "translation": "<b>헌병 장교:</b> 저쪽에 물이 좀 있을 테니 버틸 수 있겠지.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_010",
+        "source": "<b>Soldier:</b> Eyes off!",
+        "translation": "<b>병사:</b> 눈 돌려!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_011",
+        "source": "<b>MP Officer:</b> One more violation — and you’ll end up outside the gate again!",
+        "translation": "<b>헌병 장교:</b> 한 번만 더 규정을 어기면 다시 문밖으로 쫓아낸다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_012",
+        "source": "<b>MP Officer:</b> This is a restricted area under martial law. Keep your nose out!",
+        "translation": "<b>헌병 장교:</b> 여기는 계엄령에 따른 통제 구역이야. 참견하지 마!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_013",
+        "source": "<b>MP Officer:</b> We’re going inside now. Eyes forward, don’t ask questions.",
+        "translation": "<b>헌병 장교:</b> 이제 안으로 들어간다. 앞만 보고 질문하지 마.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_014",
+        "source": "<b>MP Officer:</b> Follow the instructions to the letter. Otherwise we won’t go easy on you. ",
+        "translation": "<b>헌병 장교:</b> 지시를 한 글자도 어기지 마. 아니면 가만두지 않겠어.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_015",
+        "source": "<b>MP Officer:</b> Alright, that’s your stop. Stay here.",
+        "translation": "<b>헌병 장교:</b> 좋아, 여기까지야. 여기 있어.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_016",
+        "source": "<b>MP Officer:</b> Relax, you’ll be fine.",
+        "translation": "<b>헌병 장교:</b> 진정해. 괜찮을 거야.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_017",
+        "source": "<b>MP Officer:</b> I see movement!",
+        "translation": "<b>헌병 장교:</b> 움직임 포착!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_018",
+        "source": "<b>Soldier:</b> Over here! This way! We are leaving!",
+        "translation": "<b>병사:</b> 이쪽이다! 여기로! 출발한다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_019",
+        "source": "<b>MP Officer:</b> There he is!",
+        "translation": "<b>헌병 장교:</b> 저기 있다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_020",
+        "source": "<b>Soldier:</b> Looks like it’s quieted down. You can wait outside if you want.",
+        "translation": "<b>병사:</b> 이제 좀 조용해진 것 같군. 원한다면 밖에서 기다려도 돼.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_021",
+        "source": "<b>Soldier:</b> Who knows when you’ll see Tarkov again. We’re leaving in one minute.",
+        "translation": "<b>병사:</b> 타르코프를 다시 언제 보게 될지 모르잖아. 1분 뒤에 출발한다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_022",
+        "source": "<b>Soldier:</b> After that, head into the compartment, no roaming around the ship!",
+        "translation": "<b>병사:</b> 그다음엔 선실로 들어가. 배 안을 돌아다니지 마!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_023",
+        "source": "<b>Soldier:</b> Hey! Get up!",
+        "translation": "<b>병사:</b> 이봐! 일어나!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_024",
+        "source": "<b>MP Officer:</b> Incoming!",
+        "translation": "<b>헌병 장교:</b> 적이 온다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_025",
+        "source": "<b>Radio:</b> Confirmed! I confirm, the base is under attack!\n<b>MP Officer:</b> Move! Move!",
+        "translation": "<b>무전:</b> 확인! 기지가 공격받고 있다, 확인했다!\n<b>헌병 장교:</b> 움직여! 움직여!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_026",
+        "source": "<b>MP Officer:</b> Movement outside the perimeter! Multiple!",
+        "translation": "<b>헌병 장교:</b> 경계선 밖에 적 다수 포착!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_027",
+        "source": "<b>MP Officer:</b> Pasha's down!\n<b>MP Officer:</b> Hold your positions!",
+        "translation": "<b>헌병 장교:</b> 파샤가 쓰러졌다!\n<b>헌병 장교:</b> 위치를 사수해!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_028",
+        "source": "<b>MP Officer:</b> Suppressive fire!",
+        "translation": "<b>헌병 장교:</b> 제압 사격!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_029",
+        "source": "<b>Scav:</b> Spread out!",
+        "translation": "<b>스캐브:</b> 흩어져!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_030",
+        "source": "<b>Scav:</b> Time to kick some ass!\n<b>Scav:</b> Let’s roll!",
+        "translation": "<b>스캐브:</b> 놈들에게 본때를 보여주자!\n<b>스캐브:</b> 가자!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_031",
+        "source": "<b>MP Officer:</b> They're pushing through the center!",
+        "translation": "<b>헌병 장교:</b> 놈들이 중앙을 돌파하고 있어!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_032",
+        "source": "<b>Scav:</b> Eat this, bitch!",
+        "translation": "<b>스캐브:</b> 이거나 먹어라, 개자식아!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_033",
+        "source": "<b>MP Officer:</b> I'm hit!",
+        "translation": "<b>헌병 장교:</b> 나 맞았어!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_034",
+        "source": "<b>Loudspeaker:</b> The enemy has broken through to the loading zone! Evacuation will end in 3 minutes!",
+        "translation": "<b>확성기:</b> 적이 적재 구역을 돌파했습니다! 3분 후 대피를 종료합니다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_035",
+        "source": "ESCAPED FROM TARKOV",
+        "translation": "타르코프 탈출",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_036",
+        "source": "AND SURVIVED",
+        "translation": "생존",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_037",
+        "source": "You ran, hoping to escape. It seemed like it would all end outside Tarkov — but hell erupted behind you. You didn't know you were part of the chain that destroyed the city. While the ashes were still warm, TerraGroup was reborn — and the world fell at its feet. You survived. But at what cost.",
+        "translation": "당신은 탈출을 바라며 도망쳤습니다. 타르코프만 벗어나면 모든 것이 끝날 줄 알았지만, 등 뒤에서 지옥이 펼쳐졌습니다. 자신이 도시를 파괴한 연쇄 사건의 한 고리였다는 사실조차 알지 못했습니다. 재가 채 식기도 전에 테라그룹은 다시 일어섰고, 세상은 그 발아래 굴복했습니다. 당신은 살아남았습니다. 하지만 그 대가는 무엇이었을까요?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_038",
+        "source": "Endings Achieved: 1/1",
+        "translation": "달성한 엔딩: 1/1",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_039",
+        "source": "You ran for the sake of survival. You chose the path of a runaway, not a seeker of truth. You thought all would end once you left the cursed city. But behind you, Tarkov erupted in flames.\n\nYou never saw the whole picture. Never realized that your step was a link in the chain that doomed the city.",
+        "translation": "당신은 살아남기 위해 도망쳤습니다. 진실을 찾는 대신 도망자의 길을 택했습니다. 저주받은 도시를 떠나기만 하면 모든 게 끝날 줄 알았습니다. 하지만 당신의 등 뒤에서 타르코프는 불길에 휩싸였습니다.\n\n당신은 진실의 전모를 보지 못했습니다. 자신이 내디딘 발걸음이 도시를 파멸시킨 사건의 한 고리였다는 사실도 깨닫지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_040",
+        "source": "And in that moment, while the ashes had yet to settle, TerraGroup rose from the ruins — as if they had awaited this very hour. The world fell to its knees before them, and you were left with nothing. Alive, yet hollow. Saved, yet branded by guilt.\n\nYou survived. But at what cost?",
+        "translation": "그리고 그 순간, 재가 채 가라앉기도 전에 테라그룹은 폐허 속에서 다시 일어났습니다. 마치 이때를 기다려온 것처럼 말입니다. 세상은 그들 앞에 무릎을 꿇었고, 당신에게는 아무것도 남지 않았습니다. 살아 있지만 텅 비어 있고, 구원받았지만 죄책감을 짊어지게 되었습니다.\n\n당신은 살아남았습니다. 하지만 어떤 대가를 치렀습니까?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_041",
+        "source": "COMPLETION RESULTS",
+        "translation": "완료 결과",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_042",
+        "source": "REACHED ENDING",
+        "translation": "도달한 엔딩",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_043",
+        "source": "Congratulations! You have successfully completed the final trial. The story has been recorded, and the world has returned to the state it was in before the events at the port terminal.\n\nIf you wish to see a different outcome, start again from a clean slate. To do this, you will need to fully reset your profile or obtain Prestige.\n\nIt has been a long and challenging journey. Thank you for seeing it through to the end with us.\n\nAnd a special thank you from Manimal for playing my mod.\n\n;)",
+        "translation": "축하합니다! 마지막 시련을 성공적으로 마쳤습니다. 이야기는 기록되었고, 세계는 항구 터미널에서 사건이 벌어지기 전 상태로 돌아갔습니다.\n\n다른 결말을 보고 싶다면 처음부터 다시 시작하십시오. 이를 위해서는 프로필을 완전히 초기화하거나 프레스티지를 획득해야 합니다.\n\n길고 험난한 여정이었습니다. 끝까지 함께해 주셔서 감사합니다.\n\n제 모드를 플레이해 주신 여러분께 Manimal이 특별한 감사를 전합니다.\n\n;)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_044",
+        "source": "OK",
+        "translation": "확인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_045",
+        "source": "NEXT",
+        "translation": "다음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_046",
+        "source": "BACK",
+        "translation": "뒤로",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_047",
+        "source": "Hideout customization",
+        "translation": "은신처 꾸미기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_048",
+        "source": "Survivor's walls",
+        "translation": "생존자의 벽",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_049",
+        "source": "Survivor's ceiling",
+        "translation": "생존자의 천장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_050",
+        "source": "Dogtag",
+        "translation": "인식표",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_051",
+        "source": "Dogtag (Survivor)",
+        "translation": "생존자의 인식표",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_052",
+        "source": "Survivor's floor",
+        "translation": "생존자의 바닥",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_053",
+        "source": "Item",
+        "translation": "아이템",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_054",
+        "source": "Survivor poster",
+        "translation": "생존자 포스터",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_055",
+        "source": "Main menu background",
+        "translation": "메인 메뉴 배경",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_056",
+        "source": "\"Bleak Horizon\"",
+        "translation": "\"암울한 지평선\"",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_057",
+        "source": "Armband (Survivor)",
+        "translation": "생존자 완장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_058",
+        "source": "Character Level",
+        "translation": "캐릭터 레벨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_059",
+        "source": "Favorite Weapon",
+        "translation": "주로 사용한 무기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_060",
+        "source": "Prestige Level",
+        "translation": "프레스티지 레벨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_061",
+        "source": "K/D",
+        "translation": "처치/사망 비율",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_062",
+        "source": "Total Played Time",
+        "translation": "총 플레이 시간",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_063",
+        "source": "Game Style",
+        "translation": "플레이 방식",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_064",
+        "source": "Game Edition",
+        "translation": "게임 에디션",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_065",
+        "source": "PMC Eliminated",
+        "translation": "PMC 처치 수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_066",
+        "source": "Game Mode",
+        "translation": "게임 모드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_067",
+        "source": "Scavs Eliminated",
+        "translation": "스캐브 처치 수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_068",
+        "source": "Total Raid Count",
+        "translation": "총 레이드 횟수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_069",
+        "source": "Bosses Neutralized",
+        "translation": "보스 처치 수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_070",
+        "source": "Longest Win Streak",
+        "translation": "최다 연속 승리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_071",
+        "source": "Survival Rate",
+        "translation": "생존율",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_072",
+        "source": "RAID KILL LIST",
+        "translation": "레이드 처치 목록",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_073",
+        "source": "kill list unavailable",
+        "translation": "처치 기록을 사용할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_074",
+        "source": "Repair",
+        "translation": "수리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_076",
+        "source": "Repair without tools (risky)",
+        "translation": "공구 없이 수리(위험)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_078",
+        "source": "Drain the reservoir",
+        "translation": "저수조 배수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_080",
+        "source": "Inspect panel",
+        "translation": "제어판 점검",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_082",
+        "source": "Plant",
+        "translation": "폭약 설치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_084",
+        "source": "Open",
+        "translation": "열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_086",
+        "source": "Open (requires Elite Strength)",
+        "translation": "열기(근력 엘리트 필요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_088",
+        "source": "Repairing {0:F1}",
+        "translation": "수리 중 {0:F1}",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_090",
+        "source": "Planting charge {0:F1}",
+        "translation": "폭약 설치 중 {0:F1}",
+        "match_mode": "exact"
+      },
+      {
+        "id": "terminal_ui_092",
+        "source": "Opening gate {0:F1}",
+        "translation": "게이트 여는 중 {0:F1}",
+        "match_mode": "exact"
+      }
+    ],
+    "notifications": [
+      {
+        "source": "Port security has confiscated your equipment. It is locked in one of the terminal's equipment cabinets.",
+        "translation": "항구 보안대가 장비를 압수했습니다. 터미널의 장비 캐비닛 중 한 곳에 보관되어 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "source": "Power restored — the pump station panel is live",
+        "translation": "전력이 복구되었습니다. 펌프장 제어판을 사용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "source": "Repair failed — the cabinet shocked you",
+        "translation": "수리에 실패했습니다. 전기 캐비닛에서 감전되었습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "source": "The panel has no power — repair the broken electrical cabinet first",
+        "translation": "제어판에 전원이 들어오지 않습니다. 먼저 고장 난 전기 캐비닛을 수리하십시오.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

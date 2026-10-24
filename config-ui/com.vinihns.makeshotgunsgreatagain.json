@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.vinihns.makeshotgunsgreatagain",
   "plugin_name": "Make Shotguns Great Again",
-  "mod_version": "1.15.0",
+  "mod_version": "1.19.0",
   "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
   "categories": [
     {
@@ -17,6 +17,10 @@
     {
       "source": "KS-23 Mount Calibration",
       "translation": "KS-23 마운트 보정"
+    },
+    {
+      "source": "Debug",
+      "translation": "디버그"
     }
   ],
   "entries": [
@@ -141,7 +145,7 @@
       "section": "KS-23 Mount Calibration",
       "key": "Enable Mount Alignment Fix",
       "source_display_name": "Enable Mount Alignment Fix",
-      "source_description": "Apply a rotation offset to the KS-23 rail mount so optics zero matches the barrel.",
+      "source_description": "Correct the KS-23 shot direction while aiming so optics on the rail mount hit where the reticle points.",
       "translation_display_name": "마운트 정렬 보정 활성화",
       "translation_description": "KS-23 레일 마운트에 회전 오프셋을 적용해 조준경의 영점이 총열과 일치하도록 합니다.",
       "values": []
@@ -171,6 +175,69 @@
       "source_description": "Log each applied shot correction to the BepInEx console.",
       "translation_display_name": "디버그 로그",
       "translation_description": "적용된 각 발사 보정값을 BepInEx 콘솔에 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Enable Forced Malfunction Keys",
+      "source_display_name": "Enable Forced Malfunction Keys",
+      "source_description": "Enable the hotkeys below. Each one forces that malfunction on your next shot; press it again to cancel. Revolvers, break-action and one-shot weapons have no malfunctions in the game.",
+      "translation_display_name": "강제 기능 고장 단축키 활성화",
+      "translation_description": "아래 단축키를 활성화합니다. 각 단축키를 누르면 다음 발사 시 해당 기능 고장이 강제로 발생하고, 다시 누르면 취소됩니다. 게임에서 리볼버, 중절식 및 단발 무기는 기능 고장이 발생하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Force Misfire",
+      "source_display_name": "Force Misfire",
+      "source_description": "Hotkey: the next shot gets this malfunction (needs \"Enable Forced Malfunction Keys\").",
+      "translation_display_name": "불발 강제 발생",
+      "translation_description": "단축키를 누르면 다음 발사 시 불발이 발생합니다. 「강제 기능 고장 단축키 활성화」가 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Force Jam",
+      "source_display_name": "Force Jam",
+      "source_description": "Hotkey: the next shot gets this malfunction (needs \"Enable Forced Malfunction Keys\").",
+      "translation_display_name": "탄 걸림 강제 발생",
+      "translation_description": "단축키를 누르면 다음 발사 시 탄 걸림이 발생합니다. 「강제 기능 고장 단축키 활성화」가 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Force Hard Slide",
+      "source_display_name": "Force Hard Slide",
+      "source_description": "Hotkey: the next shot gets this malfunction (needs \"Enable Forced Malfunction Keys\").",
+      "translation_display_name": "노리쇠 걸림(심각) 강제 발생",
+      "translation_description": "단축키를 누르면 다음 발사 시 심각한 노리쇠 걸림이 발생합니다. 「강제 기능 고장 단축키 활성화」가 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Force Soft Slide",
+      "source_display_name": "Force Soft Slide",
+      "source_description": "Hotkey: the next shot gets this malfunction (needs \"Enable Forced Malfunction Keys\").",
+      "translation_display_name": "노리쇠 걸림(경미) 강제 발생",
+      "translation_description": "단축키를 누르면 다음 발사 시 경미한 노리쇠 걸림이 발생합니다. 「강제 기능 고장 단축키 활성화」가 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Force Feed Failure",
+      "source_display_name": "Force Feed Failure",
+      "source_description": "Hotkey: the next shot gets this malfunction (needs \"Enable Forced Malfunction Keys\").",
+      "translation_display_name": "급탄 불량 강제 발생",
+      "translation_description": "단축키를 누르면 다음 발사 시 급탄 불량이 발생합니다. 「강제 기능 고장 단축키 활성화」가 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Log Pellet Spread",
+      "source_display_name": "Log Pellet Spread",
+      "source_description": "Log the pellet spread of each of your multi-pellet shots to the BepInEx log: the value the game used and the cone measured on the pellets.",
+      "translation_display_name": "산탄 분산도 로그 기록",
+      "translation_description": "여러 탄자가 발사되는 사격마다 게임에서 사용한 분산도 값과 실제 탄자에서 측정한 원뿔형 분산각을 BepInEx 로그에 기록합니다.",
       "values": []
     }
   ]

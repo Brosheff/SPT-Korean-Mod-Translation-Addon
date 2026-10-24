@@ -61,6 +61,7 @@ com.manimal.icebreaker|Icebreaker
 com.manimal.interchange|mod_69c5ddfe1691
 com.manimal.labsboiler|Manimal's Labs Boiler
 com.manimal.lighthouse|mod_3cd5f301d815
+com.manimal.terminal|com.manimal.terminal
 com.manimal.questbriefingapi|smallui.questbriefingapi
 com.maschine.AutoCorpseSearch|Auto Corpse Search
 com.maschine.ArenaMode|com.maschine.ArenaMode

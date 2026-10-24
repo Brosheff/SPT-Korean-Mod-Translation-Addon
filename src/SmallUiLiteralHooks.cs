@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -491,6 +491,10 @@ namespace SPT.ModKoreanAddon
                 assemblies.TryGetValue(DoomArcadeAssemblyName, out var doomArcadeAssembly))
                 total += PatchDoomArcadeMenu(doomArcadeAssembly);
 
+            if (profiles.HasRules("com.manimal.terminal", Channel) &&
+                assemblies.TryGetValue("ManimalTerminalClient", out var manimalTerminalAssembly))
+                total += ManimalTerminalUiHooks.Enable(patcher, data, manimalTerminalAssembly);
+
             if (profiles.HasRules(ArenaProfileId, Channel))
             {
                 assemblies.TryGetValue(ArenaAssemblyName, out var arenaAssembly);
@@ -503,6 +507,7 @@ namespace SPT.ModKoreanAddon
         internal static void Disable()
         {
             ArenaModeUiHooks.Disable();
+            ManimalTerminalUiHooks.Disable();
             lock (Gate)
             {
                 if (enabled) AppDomain.CurrentDomain.AssemblyLoad -= OnAssemblyLoad;
@@ -751,7 +756,9 @@ namespace SPT.ModKoreanAddon
                     StringComparison.OrdinalIgnoreCase);
                 var isArenaMode = string.Equals(assemblyName, "maschine-ArenaMode.Client",
                     StringComparison.OrdinalIgnoreCase);
-                if (!isDoomArcade && !isQuartermaster && !isArmorExpert && !isIsbNotifier && !isIsbSubtitle && !isUnderFire && !isArenaMode) return;
+                var isManimalTerminal = string.Equals(assemblyName, "ManimalTerminalClient",
+                    StringComparison.OrdinalIgnoreCase);
+                if (!isDoomArcade && !isQuartermaster && !isArmorExpert && !isIsbNotifier && !isIsbSubtitle && !isUnderFire && !isArenaMode && !isManimalTerminal) return;
 
                 EditableProfiles data;
                 lock (Gate)
@@ -759,6 +766,13 @@ namespace SPT.ModKoreanAddon
                     if (!enabled || harmony == null || profiles == null) return;
                     if (earlyUnderFireOnly && !isUnderFire) return;
                     data = profiles;
+                }
+
+                if (isManimalTerminal)
+                {
+                    if (!data.HasRules("com.manimal.terminal", Channel)) return;
+                    ManimalTerminalUiHooks.Enable(harmony, data, assembly);
+                    return;
                 }
 
                 if (isDoomArcade)
