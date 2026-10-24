@@ -18,8 +18,6 @@ https://sp-mod.com/mod/1629/spt-korean-project-locale-patcher
 - **ISB Special Forces 2.0.1:** 신규 F12 설정과 ‘기록 정리’ 퀘스트 문구 번역 추가
 
 ### 기존 번역 개선
-- **Incendiary Grenade 1.1.0:** 현행 모드 기준으로 아이템·F12 설정 번역 대응 정보 갱신
-- **Make Shotguns Great Again! 1.19.0:** 신규 산탄총·부품·탄약 번역 및 추가 F12 설정 대응
 - **ECOTI 3.4.1:** 변경된 모드 버전에 맞춰 기존 로케일·F12 설정 대응 정보 갱신
 - **ISB Aishi 2.0.4:** 장비·퀘스트 원문 변경 대응, 퀘스트 목표 표시 및 상인별 대사 말투 보완
 - **ISB Special Forces 2.0.1:** 업적 조건·자막·F12 설정 원문 변경 대응

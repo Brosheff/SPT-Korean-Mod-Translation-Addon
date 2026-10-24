@@ -38,8 +38,7 @@ namespace SPT.ModKoreanAddon
                 ["com.danw.questingbots"] = "QuestingBots",
                 ["com.tyfon.uifixes"] = "UIFixes",
                 ["com.manimal.icebreaker"] = "Icebreaker",
-                ["com.tyfon.hideoutinprogress"] = "HideoutInProgress",
-                ["com.vinihns.makeshotgunsgreatagain"] = "source3.make_shotguns_great_again"
+                ["com.tyfon.hideoutinprogress"] = "HideoutInProgress"
             };
 
         private static readonly Dictionary<Assembly, string> ProfileByAssembly =

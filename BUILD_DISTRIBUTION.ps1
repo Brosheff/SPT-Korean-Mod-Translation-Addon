@@ -1,4 +1,4 @@
-﻿param(
+param(
     # Reference assemblies only; never accept or discover a game installation directory.
     [Parameter(Position = 0)] [string]$ReferenceRoot = '',
     [Parameter(Position = 1)] [string]$PythonExe = 'python',
@@ -71,7 +71,7 @@ if (-not (Get-Command $PythonExe -ErrorAction SilentlyContinue)) { Fail "Python 
 
 $clientProject = Join-Path $root 'SPT_Mod_Korean_Addon.csproj'
 $serverProject = Join-Path $root 'server-src\SPT_Mod_Korean_Server\SPT_Mod_Korean_Server.csproj'
-$restoreConfig = Join-Path $root 'tools\NuGet.Offline.Config'
+$restoreConfig = Join-Path $root 'docs\tools\NuGet.Offline.Config'
 Require-File $clientProject 'Client project'
 Require-File $serverProject 'Server project'
 Require-File $restoreConfig 'Offline NuGet config'
@@ -86,17 +86,17 @@ Write-Host "References: $refs"
 
 # Source documentation is GPT/developer guidance, not a build dependency.
 # Do not migrate, move, delete, or require docs/note files during a DLL build.
-Run-Python @((Join-Path $root 'tools\verify_workflow.py'), 'source') 'Translation source validation'
-Run-Python @((Join-Path $root 'tools\validate_translations.py')) 'Translation JSON validation'
-Run-Python @((Join-Path $root 'tools\verify_quartermaster_contracts.py')) 'Quartermaster contract validation'
-Run-Python @((Join-Path $root 'tools\build_supported_mods.py')) 'Support list generation'
+Run-Python @((Join-Path $root 'docs\tools\verify_workflow.py'), 'source') 'Translation source validation'
+Run-Python @((Join-Path $root 'docs\tools\validate_translations.py')) 'Translation JSON validation'
+Run-Python @((Join-Path $root 'docs\tools\verify_quartermaster_contracts.py')) 'Quartermaster contract validation'
+Run-Python @((Join-Path $root 'docs\tools\build_supported_mods.py')) 'Support list generation'
 
 # Optional developer audit, never implicitly required for an ordinary build.
 if ([bool]$HandoffManifest -ne [bool]$CandidateInventory) {
     Fail 'Both -HandoffManifest and -CandidateInventory are required together.'
 }
 if ($HandoffManifest) {
-    Run-Python @((Join-Path $root 'tools\verify_workflow.py'), 'handoff', '--manifest', $HandoffManifest, '--inventory', $CandidateInventory, '--require-complete') 'Candidate coverage audit'
+    Run-Python @((Join-Path $root 'docs\tools\verify_workflow.py'), 'handoff', '--manifest', $HandoffManifest, '--inventory', $CandidateInventory, '--require-complete') 'Candidate coverage audit'
 }
 
 # Both projects resolve their compile-only reference DLLs from this directory.
@@ -150,7 +150,7 @@ Write-Host '[4/4] Verifying install ZIP...' -ForegroundColor Cyan
 $zip = Join-Path $distRoot ($packageName + '.zip')
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 [System.IO.Compression.ZipFile]::CreateFromDirectory($stage, $zip, [System.IO.Compression.CompressionLevel]::Optimal, $false)
-Run-Python @((Join-Path $root 'tools\verify_workflow.py'), 'distribution', '--stage', $stage, '--zip', $zip) 'Release ZIP validation'
+Run-Python @((Join-Path $root 'docs\tools\verify_workflow.py'), 'distribution', '--stage', $stage, '--zip', $zip) 'Release ZIP validation'
 $hash = (Get-FileHash -LiteralPath $zip -Algorithm SHA256).Hash.ToLowerInvariant()
 Set-Content -LiteralPath ($zip + '.sha256.txt') -Value ($hash + '  ' + [System.IO.Path]::GetFileName($zip)) -Encoding ASCII
 Write-Host ''
