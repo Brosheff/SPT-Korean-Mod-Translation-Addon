@@ -1,0 +1,39 @@
+﻿quest_id,trader_id,original_directory,english_title,addon_title_registered,note
+6a8f758e89e9b37443ceab22,579dc571d53a0658a154fbec,CustomQuests/fence/Quests/quest_definitions.json,No Mercy,YES,일부 원본 모드 연동 조건부 퀘스트
+5f369eeac01a188bc7dc06d0,690766de550bc322a810ea1e,CustomQuests/690766de550bc322a810ea1e/Quests/quest_definitions.json,Level 999,NO,일부 원본 모드 연동 조건부 퀘스트
+935421a346e854a6d2337c37,690766de550bc322a810ea1e,CustomQuests/690766de550bc322a810ea1e/Quests/quest_definitions.json,Connections Always Help,NO,일부 원본 모드 연동 조건부 퀘스트
+f999ba37e8dda410954c0c1f,690766de550bc322a810ea1e,CustomQuests/690766de550bc322a810ea1e/Quests/quest_definitions.json,A Friendly Warning,NO,일부 원본 모드 연동 조건부 퀘스트
+4660ba9168903321ed40bfee,690766de550bc322a810ea1e,CustomQuests/690766de550bc322a810ea1e/Quests/quest_definitions.json,Testing Your Nerves,NO,일부 원본 모드 연동 조건부 퀘스트
+ba02d1c72f3ca4c5d6625bf2,690766de550bc322a810ea1e,CustomQuests/690766de550bc322a810ea1e/Quests/quest_definitions.json,Well... Congratulations,NO,일부 원본 모드 연동 조건부 퀘스트
+35dc82a3c84b4c0a8a0646d8,690766de550bc322a810ea1e,ISBAndManimalLabs/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] Heavy Firewall,NO,일부 원본 모드 연동 조건부 퀘스트
+10413f0d043844c6a69a88db,690766de550bc322a810ea1e,ISBAndManimalLabs/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] Emergency Credentials,NO,일부 원본 모드 연동 조건부 퀘스트
+637a389d84da48a4a34dfd17,690766de550bc322a810ea1e,ISBAndManimalLabs/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] Fully Isolated Circuit,NO,일부 원본 모드 연동 조건부 퀘스트
+b8432fd547b146bfa8b77dd6,690766de550bc322a810ea1e,ISBAndManimalLabs/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] Data Extraction,NO,일부 원본 모드 연동 조건부 퀘스트
+8e4f5535e0bf4135b8a90ec7,690766de550bc322a810ea1e,ISBAndManimalLabs/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] Putting Out the Fire,NO,일부 원본 모드 연동 조건부 퀘스트
+ca7b2ef7bca84efe967f9b40,5a7c2eca46aef81a7ca2145d,ISBAndManimalLabs/Quests/Mechanic/Quests/quest_definitions.json,[CONTAINMENT BREACH] Active Connection,NO,일부 원본 모드 연동 조건부 퀘스트
+55ccb3bc5af1428fb03001df,5c0647fdd443bc2504c2d371,ISBAndBlackDiv/Quests/Jaeger/Quests/quest_definitions.json,[CONTAINMENT BREACH] Living is Good,NO,일부 원본 모드 연동 조건부 퀘스트
+0ca9dfa7d14d42f2bd5acdb0,690766de550bc322a810ea1e,ISBAndBlackDiv/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] Breaking the Siege,NO,일부 원본 모드 연동 조건부 퀘스트
+db3b1511110c41cdbab6d4f6,690766de550bc322a810ea1e,ISBAndBlackDiv/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] Identification,NO,일부 원본 모드 연동 조건부 퀘스트
+0b69f84d68d74db7b5dea117,690766de550bc322a810ea1e,ISBAndBlackDiv/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,"[CONTAINMENT BREACH] Darkness, No Power, Fire, can it get worse?",NO,일부 원본 모드 연동 조건부 퀘스트
+8b708ff6d7e641e38f6f2be0,690766de550bc322a810ea1e,ISBAndBlackDiv/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] Chain of Custody,NO,일부 원본 모드 연동 조건부 퀘스트
+8367ca4830984afeb8551aaa,690766de550bc322a810ea1e,ISBAndBlackDiv/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] Global-Level Biohazard,NO,일부 원본 모드 연동 조건부 퀘스트
+a3f407eb22cd41769e6f4c5f,690766de550bc322a810ea1e,ISBAndBlackDiv/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] No Way Out,NO,일부 원본 모드 연동 조건부 퀘스트
+5387285ba1624dab9ac06d72,690766de550bc322a810ea1e,ISBAndBlackDiv/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] Targeting Leadership,NO,일부 원본 모드 연동 조건부 퀘스트
+52588eccea984354a13b53f4,690766de550bc322a810ea1e,ISBAndBlackDiv/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] I Don't Care About the Conflict of Interest (Pick Side),NO,일부 원본 모드 연동 조건부 퀘스트
+1184c00a9ec847be987be767,690766de550bc322a810ea1e,ISBAndBlackDiv/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] You Shouldn't Interfere (Pick Side),NO,일부 원본 모드 연동 조건부 퀘스트
+cd993bfe6ed447dcaab85d04,690766de550bc322a810ea1e,ISBAndBlackDiv/Quests/690766de550bc322a810ea1e/Quests/quest_definitions.json,[CONTAINMENT BREACH] Fine Espionage (Pick Side),NO,일부 원본 모드 연동 조건부 퀘스트
+dd715e78ab984c14909da407,5a7c2eca46aef81a7ca2145d,ISBAndBlackDiv/Quests/Mechanic/Quests/quest_definitions.json,[CONTAINMENT BREACH] Playing with Fire,NO,일부 원본 모드 연동 조건부 퀘스트
+f1a90496778649e8b955e60d,5a7c2eca46aef81a7ca2145d,ISBAndBlackDiv/Quests/Mechanic/Quests/quest_definitions.json,[CONTAINMENT BREACH] Path to the Exit,NO,일부 원본 모드 연동 조건부 퀘스트
+a38b841cae6d46dab703e8eb,5a7c2eca46aef81a7ca2145d,ISBAndBlackDiv/Quests/Mechanic/Quests/quest_definitions.json,[CONTAINMENT BREACH] Power Source,NO,일부 원본 모드 연동 조건부 퀘스트
+c9304d1a70414b398f840595,5a7c2eca46aef81a7ca2145d,ISBAndBlackDiv/Quests/Mechanic/Quests/quest_definitions.json,[CONTAINMENT BREACH] Powering Up,NO,일부 원본 모드 연동 조건부 퀘스트
+9dfc181b7e2944bd9d40308b,5a7c2eca46aef81a7ca2145d,ISBAndBlackDiv/Quests/Mechanic/Quests/quest_definitions.json,[CONTAINMENT BREACH] Helping a Friend,NO,일부 원본 모드 연동 조건부 퀘스트
+8e039d03e80f41788f9b9819,579dc571d53a0658a154fbec,ISBAndBlackDiv/Quests/Fence/Quests/quest_definitions.json,"[CONTAINMENT BREACH] The ""White Tusks""",NO,일부 원본 모드 연동 조건부 퀘스트
+66a3c03136254144b3cf9e93,579dc571d53a0658a154fbec,ISBAndBlackDiv/Quests/Fence/Quests/quest_definitions.json,[CONTAINMENT BREACH] Burning Files,NO,일부 원본 모드 연동 조건부 퀘스트
+e4e78f48c1e44d898e8ad5e3,54cb57776803fa99248b456e,ISBAndBlackDiv/Quests/Therapist/Quests/quest_definitions.json,[CONTAINMENT BREACH] Studies Come First,NO,일부 원본 모드 연동 조건부 퀘스트
+64e6df2f30554b3ea6e4e1c9,54cb57776803fa99248b456e,ISBAndBlackDiv/Quests/Therapist/Quests/quest_definitions.json,[CONTAINMENT BREACH] Health at Risk,NO,일부 원본 모드 연동 조건부 퀘스트
+a5933b154fe34593947956c8,5935c25fb3acc3127c3d8cd9,ISBAndBlackDiv/Quests/Peacekeeper/Quests/quest_definitions.json,[CONTAINMENT BREACH] Rubbing Salt in the Wound (Pick Side),NO,일부 원본 모드 연동 조건부 퀘스트
+688a35cea49a4833a17c74b0,5ac3b934156ae10c4430e83c,ISBAndBlackDiv/Quests/Ragman/Quests/quest_definitions.json,[CONTAINMENT BREACH] Making a Profit,NO,일부 원본 모드 연동 조건부 퀘스트
+85baf5fc8723406a88b049a5,58330581ace78e27b8b10cee,ISBAndBlackDiv/Quests/Skier/Quests/quest_definitions.json,[CONTAINMENT BREACH] Conflict of Interest (Pick Side),NO,일부 원본 모드 연동 조건부 퀘스트
+1f6a892b5dda4241868ffd09,58330581ace78e27b8b10cee,ISBAndBlackDiv/Quests/Skier/Quests/quest_definitions.json,[CONTAINMENT BREACH] Holding Your Breath,NO,일부 원본 모드 연동 조건부 퀘스트
+a3b3fae920584af7b941a2fc,6747208ef022cbbfc65c41bf,ISBAndLotus/Quests/6747208ef022cbbfc65c41bf/Quests/quest_definitions.json,[CONTAINMENT BREACH] Antidotes Are Never Unnecessary,NO,일부 원본 모드 연동 조건부 퀘스트
+6e49a30eafa8409bbf623897,6747208ef022cbbfc65c41bf,ISBAndLotus/Quests/6747208ef022cbbfc65c41bf/Quests/quest_definitions.json,[CONTAINMENT BREACH] Known Threat Entity,NO,일부 원본 모드 연동 조건부 퀘스트

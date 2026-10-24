@@ -25,6 +25,8 @@ namespace SPT.EditableTranslations
         public string translation { get; set; }
         public string translation_bilingual { get; set; }
         public string display_type { get; set; }
+        // Only for individually audited stable keys from English-only server locale files.
+        public bool seed_missing { get; set; }
         public string name_key { get; set; }
         public string match_mode { get; set; }
         public string exclusive_group { get; set; }

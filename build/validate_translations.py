@@ -31,6 +31,10 @@ for path in sorted(root.glob('*.json')):
         seen_keys.add(r.get('key'))
         if 'source' not in r or 'translation' not in r:
             errors.append(f'{path.name}: locale[{i}] missing source/translation')
+        if 'seed_missing' in r and r['seed_missing'] is not True:
+            errors.append(f'{path.name}: locale[{i}] seed_missing must be true or omitted')
+        if r.get('seed_missing') and (inherited != 'exact' or not r.get('source') or not r.get('key')):
+            errors.append(f'{path.name}: locale[{i}] seed_missing requires an exact key/source')
         # Automatic item-name formatting already appends the original in kr-en.
         # A manually embedded English name suffix duplicates it and can be stale.
         key = r.get('key', '')

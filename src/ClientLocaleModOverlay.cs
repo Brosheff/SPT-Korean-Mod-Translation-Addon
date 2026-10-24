@@ -176,6 +176,7 @@ namespace SPT.ModKoreanAddon
                         local.Add(r.key, new JObject { ["key"] = r.key, ["source"] = r.source, ["translation"] = r.translation, ["translation_bilingual"] = r.translation_bilingual == null ? JValue.CreateNull() : new JValue(r.translation_bilingual),
                             ["match_mode"] = matchMode, ["mod_name"] = document.mod_name, ["display_type"] = displayType,
                             ["mod_id"] = document.mod_id,
+                            ["seed_missing"] = r.seed_missing,
                             ["source_variants"] = r.source_variants == null ? JValue.CreateNull() : new JArray(r.source_variants),
                             ["name_key"] = displayType == LocaleDisplayRules.ItemDescription ? displayRules.NameKey(r) : null,
                             ["name_source"] = displayType == LocaleDisplayRules.ItemDescription ? displayRules.NameSource(r) : null });
@@ -248,12 +249,22 @@ namespace SPT.ModKoreanAddon
             foreach (var pair in entries)
             {
                 var key = pair.Key;
-                if (!raw.TryGetValue(key, out var incoming))
+                // Some source-audited server mods register quest/dialogue locales in
+                // English only. Their stable keys can be absent from the Korean server
+                // payload, even though the game later falls back to their English values.
+                // Only explicitly opted-in profiles may supply such missing keys. Never
+                // replace an existing non-English value supplied by another translator.
+                var presentInRaw = raw.TryGetValue(key, out var incoming);
+                if (!presentInRaw)
                 {
+                    if (!pair.Value.Any(e => (bool)e["seed_missing"]))
+                    {
 #if LOCALE_DIAGNOSTICS
-                    excluded.Add(Excluded(pair.Value[0], "not_present_in_server_locale", null));
+                        excluded.Add(Excluded(pair.Value[0], "not_present_in_server_locale", null));
 #endif
-                    continue;
+                        continue;
+                    }
+                    result.TryGetValue(key, out incoming);
                 }
                 string selected = null;
                 JObject selectedEntry = null;
@@ -262,7 +273,13 @@ namespace SPT.ModKoreanAddon
 #endif
                 foreach (var e in pair.Value)
                 {
+                    if (!presentInRaw && !(bool)e["seed_missing"]) continue;
                     var source = (string)e["source"];
+                    // Seed only a verified, stable source-key pair. When another
+                    // translator has already supplied a different value, the source
+                    // check below rejects it without modifying that value.
+                    var candidateIncoming = presentInRaw ? incoming :
+                        (incoming == null || string.Equals(incoming, key, StringComparison.Ordinal) ? source : incoming);
                     var nameSource = (string)e["name_source"];
                     var nameKey = (string)e["name_key"];
                     if (string.IsNullOrWhiteSpace(nameSource) && nameKey != null)
@@ -294,7 +311,7 @@ namespace SPT.ModKoreanAddon
                         translation = LocaleDisplayRules.Select(sourceCandidate, (string)e["translation"],
                             (string)e["translation_bilingual"], (string)e["display_type"],
                             (string)e["mod_name"], locale, nameSource);
-                        value = Translate(key, incoming, sourceCandidate, translation, allowDecorations);
+                        value = Translate(key, candidateIncoming, sourceCandidate, translation, allowDecorations);
                         if (value != null) break;
 #if LOCALE_DIAGNOSTICS
                         if (Translate(key, incoming, translation, translation, allowDecorations) != null) isAlreadyTranslated = true;

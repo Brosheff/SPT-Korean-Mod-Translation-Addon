@@ -1,0 +1,2995 @@
+{
+  "reason": "ItemName automatically appends original for kr-en, so manually embedded English suffix is not allowed",
+  "count": 427,
+  "changes": [
+    {
+      "file": "WTT- Armory.json",
+      "key": "2fc4f74291323723f4e2b05d Name",
+      "old": "맥밀란 A5 개머리판 레밍턴 700 롱 액션용, (사막색)\n(McMillan A5 stock for Remington 700 long action (사막색))",
+      "new": "맥밀란 A5 개머리판 레밍턴 700 롱 액션용, (사막색)",
+      "had_source": "McMillan A5 stock for Remington 700 long action (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "665fe0e865683281eb8e7ed6 Name",
+      "old": "스프링필드 아머리 DS 프로디지 9x19mm 권총\n(Springfield Armory DS Prodigy 9x19mm Handgun)",
+      "new": "스프링필드 아머리 DS 프로디지 9x19mm 권총",
+      "had_source": "Springfield Armory DS Prodigy 9x19 pistol"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "668070f11aff0d6b0cd7fb13 Name",
+      "old": "헤클러 & 코흐 슈투름그리프 전방 손잡이 (블랙)\n(HK Sturmgriff foregrip (검은색))",
+      "new": "헤클러 & 코흐 슈투름그리프 전방 손잡이 (블랙)",
+      "had_source": "HK Sturmgriff foregrip (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "66a544c956621d3364f6085e Name",
+      "old": "IWI 타보르 X95 5.56x45 돌격소총 (사막색)\n(IWI Tavor X95 5.56x45 assault rifle (사막색))",
+      "new": "IWI 타보르 X95 5.56x45 돌격소총 (사막색)",
+      "had_source": "IWI Tavor X95 5.56x45 assault rifle (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "66a545898022784400d6c836 Name",
+      "old": "IWI 타보르 X95 5.56x45 돌격소총 (올리브 드랩)\n(IWI Tavor X95 5.56x45 assault rifle (올리브 드랩))",
+      "new": "IWI 타보르 X95 5.56x45 돌격소총 (올리브 드랩)",
+      "had_source": "IWI Tavor X95 5.56x45 assault rifle (OD)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "66ba25755bd539b9238365b0 Name",
+      "old": "B5 시스템즈 P-그립 23 AR-15 권총손잡이 (사막색)\n(B5 Systems P-Grip 23 AR-15 pistol grip (사막색))",
+      "new": "B5 시스템즈 P-그립 23 AR-15 권총손잡이 (사막색)",
+      "had_source": "B5 Systems P-Grip 23 AR-15 pistol grip (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "66ba25a68e5fcb139f5085e8 Name",
+      "old": "IWI 카멜 우측 레일 커버 (사막색)\n(IWI Carmel Right Rail Cover (사막색))",
+      "new": "IWI 카멜 우측 레일 커버 (사막색)",
+      "had_source": "IWI Carmel Right Rail Cover (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "66ba25bec683a649a094b04e Name",
+      "old": "IWI 카멜 좌측 레일 커버 (사막색)\n(IWI Carmel Left Rail Cover (사막색))",
+      "new": "IWI 카멜 좌측 레일 커버 (사막색)",
+      "had_source": "IWI Carmel Left Rail Cover (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "66ba2607dea198b6d7a42ef1 Name",
+      "old": "IWI 카멜 하단 레일 커버 (사막색)\n(IWI Carmel Bottom Rail Cover (사막색))",
+      "new": "IWI 카멜 하단 레일 커버 (사막색)",
+      "had_source": "IWI Carmel Bottom Rail Cover (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "66ba267c60c3c6c47de99a0d Name",
+      "old": "IWI 카멜 접이식 개머리판 (사막색)\n(IWI Carmel Folding Stock (사막색))",
+      "new": "IWI 카멜 접이식 개머리판 (사막색)",
+      "had_source": "IWI Carmel Folding Stock (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "675ceb83e25d80bc676e15a6 Name",
+      "old": "스프링필드 아머리 DS 프로디지 9x19mm 권총 (사막색)\n(Springfield Armory DS Prodigy 9x19mm Handgun Flat Dark Earth)",
+      "new": "스프링필드 아머리 DS 프로디지 9x19mm 권총 (사막색)",
+      "had_source": "Springfield Armory DS Prodigy 9x19 pistol (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "676b5367fe34b0539b0f96f5 Name",
+      "old": "싱가드 암즈 \"죄의 임금\" AR-15 장전 손잡이 (블랙)\n(Singuard Arms \"Wages of Sin\" AR-15 charging handle (검은색))",
+      "new": "싱가드 암즈 \"죄의 임금\" AR-15 장전 손잡이 (블랙)",
+      "had_source": "Singuard Arms \"Wages of Sin\" AR-15 charging handle (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "676c3cac01023283e5f6a562 Name",
+      "old": "싱가드 암즈 \"죄의 임금\" 5.56x45 돌격소총 (사막색)\n(Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle (사막색))",
+      "new": "싱가드 암즈 \"죄의 임금\" 5.56x45 돌격소총 (사막색)",
+      "had_source": "Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "676c3d1dcf722dad840e520b Name",
+      "old": "싱가드 암즈 \"죄의 임금\" 총열덮개 (사막색)\n(Singuard Arms \"Wages of Sin\" Handguard (사막색))",
+      "new": "싱가드 암즈 \"죄의 임금\" 총열덮개 (사막색)",
+      "had_source": "Singuard Arms \"Wages of Sin\" Handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "676c3d512d4ab6764b8d793c Name",
+      "old": "싱가드 암즈 \"죄의 임금\" 5.56x45 제퇴기 (사막색)\n(Singuard Arms \"Wages of Sin\" 5.56x45 muzzle brake (사막색))",
+      "new": "싱가드 암즈 \"죄의 임금\" 5.56x45 제퇴기 (사막색)",
+      "had_source": "Singuard Arms \"Wages of Sin\" 5.56x45 muzzle brake (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "676c3d67d69e478b3d69cd21 Name",
+      "old": "싱가드 암즈 \"죄의 임금\" 권총손잡이 (사막색)\n(Singuard Arms \"Wages of Sin\" pistol grip (사막색))",
+      "new": "싱가드 암즈 \"죄의 임금\" 권총손잡이 (사막색)",
+      "had_source": "Singuard Arms \"Wages of Sin\" pistol grip (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "676c3d6c1c64d6eacd7b8c16 Name",
+      "old": "싱가드 암즈 \"죄의 임금\" 개머리판 (사막색)\n(Singuard Arms \"Wages of Sin\" stock (사막색))",
+      "new": "싱가드 암즈 \"죄의 임금\" 개머리판 (사막색)",
+      "had_source": "Singuard Arms \"Wages of Sin\" stock (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "676c3d73e56673a0ed44ec14 Name",
+      "old": "싱가드 암즈 \"죄의 임금\" AR-15 장전 손잡이 (사막색)\n(Singuard Arms \"Wages of Sin\" AR-15 charging handle (사막색))",
+      "new": "싱가드 암즈 \"죄의 임금\" AR-15 장전 손잡이 (사막색)",
+      "had_source": "Singuard Arms \"Wages of Sin\" AR-15 charging handle (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "677c9c0cb4a2eed292d7cada Name",
+      "old": "LAR 그리즐리 50 Mark V 5.5인치 총열 (블랙)\n(LAR Grizzly 50 Mark V 5.5인치 barrel (검은색))",
+      "new": "LAR 그리즐리 50 Mark V 5.5인치 총열 (블랙)",
+      "had_source": "LAR Grizzly 50 Mark V 5.5 inch barrel (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "677c9c38e92069ca8c68b6e1 Name",
+      "old": "LAR 그리즐리 50 Mark V 5.5인치 총열 (스테인리스)\n(LAR Grizzly 50 Mark V 5.5인치 barrel (Stainless))",
+      "new": "LAR 그리즐리 50 Mark V 5.5인치 총열 (스테인리스)",
+      "had_source": "LAR Grizzly 50 Mark V 5.5 inch barrel (Stainless)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "677ca12f7599509c79311ade Name",
+      "old": "LAR 그리즐리 50 마크 V 권총손잡이 (블랙)\n(LAR Grizzly 50 Mark V pistol grips (검은색))",
+      "new": "LAR 그리즐리 50 마크 V 권총손잡이 (블랙)",
+      "had_source": "LAR Grizzly 50 Mark V pistol grips (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "67f2dd6203d3b7ec166970ef Name",
+      "old": "IWI 타보르 X95 좌측 레일 커버 (블랙)\n(IWI Tavor X95 left rail cover (검은색))",
+      "new": "IWI 타보르 X95 좌측 레일 커버 (블랙)",
+      "had_source": "IWI Tavor X95 left rail cover (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "67f2ddcd74c13fb90c2d7f1b Name",
+      "old": "IWI 타보르 X95 우측 레일 커버 (블랙)\n(IWI Tavor X95 right rail cover (검은색))",
+      "new": "IWI 타보르 X95 우측 레일 커버 (블랙)",
+      "had_source": "IWI Tavor X95 right rail cover (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "67f2de04c3ee93d678d753fb Name",
+      "old": "IWI 타보르 X95 하부 레일 커버 (블랙)\n(IWI Tavor X95 bottom rail cover (검은색))",
+      "new": "IWI 타보르 X95 하부 레일 커버 (블랙)",
+      "had_source": "IWI Tavor X95 bottom rail cover (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "67f2dedcf0b1e2576dbe8304 Name",
+      "old": "IWI 타보르 X95 하부 레일 커버 (사막색)\n(IWI Tavor X95 bottom rail cover (사막색))",
+      "new": "IWI 타보르 X95 하부 레일 커버 (사막색)",
+      "had_source": "IWI Tavor X95 bottom rail cover (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "67f2dee76a5dd6ae06f6b4e5 Name",
+      "old": "IWI 타보르 X95 우측 레일 커버 (사막색)\n(IWI Tavor X95 right rail cover (사막색))",
+      "new": "IWI 타보르 X95 우측 레일 커버 (사막색)",
+      "had_source": "IWI Tavor X95 right rail cover (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "67f2deed9766bbb4658a7338 Name",
+      "old": "IWI 타보르 X95 좌측 레일 커버 (사막색)\n(IWI Tavor X95 left rail cover (사막색))",
+      "new": "IWI 타보르 X95 좌측 레일 커버 (사막색)",
+      "had_source": "IWI Tavor X95 left rail cover (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "67f2df38a28138128f98665f Name",
+      "old": "IWI 타보르 X95 하부 레일 커버 (올리브 드랩)\n(IWI Tavor X95 bottom rail cover (올리브 드랩))",
+      "new": "IWI 타보르 X95 하부 레일 커버 (올리브 드랩)",
+      "had_source": "IWI Tavor X95 bottom rail cover (OD)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "67f2df3c5579fd26965c5156 Name",
+      "old": "IWI 타보르 X95 우측 레일 커버 (올리브 드랩)\n(IWI Tavor X95 right rail cover (올리브 드랩))",
+      "new": "IWI 타보르 X95 우측 레일 커버 (올리브 드랩)",
+      "had_source": "IWI Tavor X95 right rail cover (OD)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "67f2df4294fbcf035bd31803 Name",
+      "old": "IWI 타보르 X95 좌측 레일 커버 (올리브 드랩)\n(IWI Tavor X95 left rail cover (올리브 드랩))",
+      "new": "IWI 타보르 X95 좌측 레일 커버 (올리브 드랩)",
+      "had_source": "IWI Tavor X95 left rail cover (OD)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "682d014f0f0eb62eb4269012 Name",
+      "old": "탱고다운 전방 손잡이 (올리브 드랩)\n(TangoDown vertical foregrip (올리브 드랩))",
+      "new": "탱고다운 전방 손잡이 (올리브 드랩)",
+      "had_source": "TangoDown vertical foregrip (OD)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6840eb5bce5018a937eb9527 Name",
+      "old": "브라우닝 오토-5 12게이지 12인치 총열 (카모)\n(Browning Auto-5 12ga 12인치 barrel (Camo))",
+      "new": "브라우닝 오토-5 12게이지 12인치 총열 (카모)",
+      "had_source": "Browning Auto-5 12ga 12 inch barrel (Camo)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68a389b483e34ba38a2b51ac Name",
+      "old": "AI AXMC 권총손잡이 (블랙)\n(AI AXMC pistol grip (검은색))",
+      "new": "AI AXMC 권총손잡이 (블랙)",
+      "had_source": "AI AXMC pistol grip (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68a38a4e1586e6d768c4730b Name",
+      "old": "AI AXMC AX 개머리판 (블랙)\n(AI AXMC AX buttstock (검은색))",
+      "new": "AI AXMC AX 개머리판 (블랙)",
+      "had_source": "AI AXMC AX buttstock (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68a395a145790fc8225720d3 Name",
+      "old": "AI AXMC .338 LM 섀시 (블랙)\n(AI AXMC Multi-Caliber chassis (검은색))",
+      "new": "AI AXMC .338 LM 섀시 (블랙)",
+      "had_source": "AI AXMC Multi-Caliber chassis (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68a3985b0d24229aa6cecad1 Name",
+      "old": "AI AXMC GTAC AR 타입 권총손잡이 어댑터 (블랙)\n(AI AXMC GTAC AR-type pistol grip adapter (검은색))",
+      "new": "AI AXMC GTAC AR 타입 권총손잡이 어댑터 (블랙)",
+      "had_source": "AI AXMC GTAC AR-type pistol grip adapter (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68a39ecf2120cea9dcf3f1df Name",
+      "old": "AI AXMC 패딩 총열덮개 그립 (블랙)\n(AI AXMC padded handguard grip (검은색))",
+      "new": "AI AXMC 패딩 총열덮개 그립 (블랙)",
+      "had_source": "AI AXMC padded handguard grip (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68a39f96b225dcbbc8387d2c Name",
+      "old": "AI AXMC AX 키슬롯 16인치 총열덮개 (블랙)\n(AI AXMC AX KeySlot 16인치 handguard (검은색))",
+      "new": "AI AXMC AX 키슬롯 16인치 총열덮개 (블랙)",
+      "had_source": "AI AXMC AX KeySlot 16 inch handguard (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68a73465322d08c3199b94ff Name",
+      "old": "AI AXMC AT X 상부 레일 (블랙)\n(AI AXMC AT X Top Rail (검은색))",
+      "new": "AI AXMC AT X 상부 레일 (블랙)",
+      "had_source": "AI AXMC AT X Top Rail (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68a73560e0b8a9d684145f83 Name",
+      "old": "AI AXMC 어댑터 키트 소형 레일 (블랙)\n(AI AXMC Adapter Kit short length rail (검은색))",
+      "new": "AI AXMC 어댑터 키트 소형 레일 (블랙)",
+      "had_source": "AI AXMC Adapter Kit short length rail (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68a73563a634aa2a969dc629 Name",
+      "old": "AI AXMC 어댑터 키트 중형 레일 (블랙)\n(AI AXMC Adapter Kit medium length rail (검은색))",
+      "new": "AI AXMC 어댑터 키트 중형 레일 (블랙)",
+      "had_source": "AI AXMC Adapter Kit medium length rail (Black)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68bf480bd16b24dea69469c7 Name",
+      "old": "PSA 5.7 락 RK1 권총 슬라이드 (사막색)\n(PSA 5.7 Rock RK1 pistol slide (사막색))",
+      "new": "PSA 5.7 락 RK1 권총 슬라이드 (사막색)",
+      "had_source": "PSA 5.7 Rock RK1 pistol slide (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68fd56435b8191dd387da9ff Name",
+      "old": "샤이택 M200 인터벤션 인입식 개머리판 (사막색)\n(CheyTac M200 Intervention collapsible stock (사막색))",
+      "new": "샤이택 M200 인터벤션 인입식 개머리판 (사막색)",
+      "had_source": "CheyTac M200 Intervention collapsible stock (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68fd5c3dd4f0cdc4cad9f19c Name",
+      "old": "7발, 샤이택 M200 인터벤션 .408 CT 탄창 (사막색)\n(CheyTac M200 Intervention .408 CT 7-round magazine (사막색))",
+      "new": "7발, 샤이택 M200 인터벤션 .408 CT 탄창 (사막색)",
+      "had_source": "CheyTac M200 Intervention .408 CT 7-round magazine (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68fd5fd0196cfaff433daa9f Name",
+      "old": "샤이택 M200 인터벤션 .408 CT 29인치 총열 (사막색)\n(CheyTac M200 Intervention .408 CT 29 inch barrel (사막색))",
+      "new": "샤이택 M200 인터벤션 .408 CT 29인치 총열 (사막색)",
+      "had_source": "CheyTac M200 Intervention .408 CT 29 inch barrel (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68fd609fd746b88631211f6a Name",
+      "old": "샤이택 M200 인터벤션 .408 CT 커스텀 20인치 총열 (카모)\n(CheyTac M200 Intervention .408 CT custom 20인치 barrel (Camo))",
+      "new": "샤이택 M200 인터벤션 .408 CT 커스텀 20인치 총열 (카모)",
+      "had_source": "CheyTac M200 Intervention .408 CT custom 20 inch barrel (Camo)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68fd6241ba57f1aa0638bdce Name",
+      "old": "샤이택 M200 인터벤션 .408 CT 총구제퇴기 (사막색)\n(CheyTac M200 Intervention .408 CT muzzle brake (사막색))",
+      "new": "샤이택 M200 인터벤션 .408 CT 총구제퇴기 (사막색)",
+      "had_source": "CheyTac M200 Intervention .408 CT muzzle brake (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68fd63e8842f704b09062fd1 Name",
+      "old": "엘리트 아이언 윈드토커 AMF .408 CT 소음기 (사막색)\n(Elite Iron Windtalker AMF .408 CT sound suppressor (사막색))",
+      "new": "엘리트 아이언 윈드토커 AMF .408 CT 소음기 (사막색)",
+      "had_source": "Elite Iron Windtalker AMF .408 CT sound suppressor (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68fd72a7dbb26b84c33b8a91 Name",
+      "old": "샤이택 M200 인터벤션 양각대 (사막색)\n(CheyTac M200 Invervention bipod (사막색))",
+      "new": "샤이택 M200 인터벤션 양각대 (사막색)",
+      "had_source": "CheyTac M200 Invervention bipod (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68fd74c33e4a9ddcac041e36 Name",
+      "old": "샤이택 M200 인터벤션 튜브형 총열덮개 (사막색)\n(CheyTac M200 Intervention tubular handguard (사막색))",
+      "new": "샤이택 M200 인터벤션 튜브형 총열덮개 (사막색)",
+      "had_source": "CheyTac M200 Intervention tubular handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68fd78cb3a0d215355758ca0 Name",
+      "old": "샤이택 M200 인터벤션 운반 손잡이 (사막색)\n(CheyTac M200 Intervention carry handle (사막색))",
+      "new": "샤이택 M200 인터벤션 운반 손잡이 (사막색)",
+      "had_source": "CheyTac M200 Intervention carry handle (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "68fd7a61f2b8d96bb3119b19 Name",
+      "old": "샤이택 M200 인터벤션 .408 CT 볼트액션 저격소총 (사막색)\n(CheyTac M200 Intervention .408 CT bolt-action sniper rifle (사막색))",
+      "new": "샤이택 M200 인터벤션 .408 CT 볼트액션 저격소총 (사막색)",
+      "had_source": "CheyTac M200 Intervention .408 CT bolt-action sniper rifle (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6906a162d418daade71fd113 Name",
+      "old": "맥풀 마사다 폴리머 접철식 개머리판 (사막색)\n(Magpul Masada polymer folding stock (사막색))",
+      "new": "맥풀 마사다 폴리머 접철식 개머리판 (사막색)",
+      "had_source": "Magpul Masada polymer folding stock (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6906a17a1a915892e5b22f76 Name",
+      "old": "맥풀 마사다 PDW 인입식 개머리판 (사막색)\n(Magpul Masada PDW collapsing stock (사막색))",
+      "new": "맥풀 마사다 PDW 인입식 개머리판 (사막색)",
+      "had_source": "Magpul Masada PDW collapsing stock (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6906a1aeef59ca68d128e8b7 Name",
+      "old": "맥풀 마사다 5.56x45 돌격소총 (사막색)\n(Magpul Masada 5.56x45 assault rifle (사막색))",
+      "new": "맥풀 마사다 5.56x45 돌격소총 (사막색)",
+      "had_source": "Magpul Masada 5.56x45 assault rifle (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "69101c65d4c0a6aa81d18453 Name",
+      "old": "맥풀 마사다 상부 총몸 (사막색)\n(Magpul Masada upper receiver (사막색))",
+      "new": "맥풀 마사다 상부 총몸 (사막색)",
+      "had_source": "Magpul Masada upper receiver (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "691225bcb5266532f914655a Name",
+      "old": "맥풀 마사다 엠락 폴리머 총열덮개\n(Magpul Masada M-LOK polymer handguard (사막색))",
+      "new": "맥풀 마사다 엠락 폴리머 총열덮개",
+      "had_source": "Magpul Masada M-LOK polymer handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "691226dc484b05df2aa39d50 Name",
+      "old": "맥풀 마사다 플립업 가늠자 (사막색)\n(Magpul Masada flip-up rear sight (사막색))",
+      "new": "맥풀 마사다 플립업 가늠자 (사막색)",
+      "had_source": "Magpul Masada flip-up rear sight (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "69135b6c141a752c95a76088 Name",
+      "old": "맥풀 마사다 폴리머 고정식 개머리판 (사막색)\n(Magpul Masada polymer fixed stock (사막색))",
+      "new": "맥풀 마사다 폴리머 고정식 개머리판 (사막색)",
+      "had_source": "Magpul Masada polymer fixed stock (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "69135be3f3bd044c799378e1 Name",
+      "old": "맥풀 마사다 DMR 고정식 개머리판 (사막색)\n(Magpul Masada DMR fixed stock (사막색))",
+      "new": "맥풀 마사다 DMR 고정식 개머리판 (사막색)",
+      "had_source": "Magpul Masada DMR fixed stock (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6913fd2540e7d9282674b48a Name",
+      "old": "맥풀 마사다 엠락 DMR 총열덮개 (사막색)\n(Magpul Masada M-LOK DMR handguard (사막색))",
+      "new": "맥풀 마사다 엠락 DMR 총열덮개 (사막색)",
+      "had_source": "Magpul Masada M-LOK DMR handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6913fe5e597fc50652c10a9e Name",
+      "old": "맥풀 마사다 마이크로 3면 레일 총열덮개 (사막색)\n(Magpul Masada micro tri-rail handguard (사막색))",
+      "new": "맥풀 마사다 마이크로 3면 레일 총열덮개 (사막색)",
+      "had_source": "Magpul Masada micro tri-rail handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6913ffae5f8c4cd1fc523a8d Name",
+      "old": "맥풀 마사다 연장 하이브리드 총열덮개 (사막색)\n(Magpul Masada extended hybrid handguard (사막색))",
+      "new": "맥풀 마사다 연장 하이브리드 총열덮개 (사막색)",
+      "had_source": "Magpul Masada extended hybrid handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "691403d630e88f815a0eb65f Name",
+      "old": "맥풀 마사다 엠락 미니멀리스트 총열덮개 (사막색)\n(Magpul Masada M-LOK minimalist handguard (사막색))",
+      "new": "맥풀 마사다 엠락 미니멀리스트 총열덮개 (사막색)",
+      "had_source": "Magpul Masada M-LOK minimalist handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "69140f886648853180548434 Name",
+      "old": "맥풀 마사다 연장 키모드 총열덮개 (사막색)\n(Magpul Masada extended KeyMod handguard (사막색))",
+      "new": "맥풀 마사다 연장 키모드 총열덮개 (사막색)",
+      "had_source": "Magpul Masada extended KeyMod handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "69141131ab15cbd47ee148b7 Name",
+      "old": "맥풀 마사다 엠락 표준길이 총열덮개 (사막색)\n(Magpul Masada M-LOK mid-length handguard (사막색))",
+      "new": "맥풀 마사다 엠락 표준길이 총열덮개 (사막색)",
+      "had_source": "Magpul Masada M-LOK mid-length handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "69161451e951cccc2355deef Name",
+      "old": "맥풀 마사다 연장 4면 레일 총열덮개 (사막색)\n(Magpul Masada extended quad rail handguard (사막색))",
+      "new": "맥풀 마사다 연장 4면 레일 총열덮개 (사막색)",
+      "had_source": "Magpul Masada extended quad rail handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "691617ec4a1edaefd126bbdd Name",
+      "old": "맥풀 마사다 표준길이 키모드 총열덮개 (사막색)\n(Magpul Masada mid-length KeyMod handguard (사막색))",
+      "new": "맥풀 마사다 표준길이 키모드 총열덮개 (사막색)",
+      "had_source": "Magpul Masada mid-length KeyMod handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "691618d83af6725048cc02f6 Name",
+      "old": "맥풀 마사다 RAHG 총열덮개 (사막색)\n(Magpul Masada RAHG handguard (사막색))",
+      "new": "맥풀 마사다 RAHG 총열덮개 (사막색)",
+      "had_source": "Magpul Masada RAHG handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6916197a55ad8590aaef2d29 Name",
+      "old": "맥풀 마사다 경사형 RAHG 총열덮개 (사막색)\n(Magpul Masada angled M-LOK handguard (사막색))",
+      "new": "맥풀 마사다 경사형 RAHG 총열덮개 (사막색)",
+      "had_source": "Magpul Masada angled M-LOK handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6920a431c8f2ed5000c540a0 Name",
+      "old": "HK XM8 5.56x45 돌격소총 (사막색)\n(HK XM8 5.56x45 assault rifle (사막색))",
+      "new": "HK XM8 5.56x45 돌격소총 (사막색)",
+      "had_source": "HK XM8 5.56x45 assault rifle (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6920aa4f836ff80290857b1f Name",
+      "old": "HK XM8 카빈 길이 총열덮개 (사막색)\n(HK XM8 carbine length handguard (사막색))",
+      "new": "HK XM8 카빈 길이 총열덮개 (사막색)",
+      "had_source": "HK XM8 carbine length handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6920acb7ae53665dbdb3227e Name",
+      "old": "HK XM8 경기관총 총열덮개 (사막색)\n(HK XM8 lmg handguard (사막색))",
+      "new": "HK XM8 경기관총 총열덮개 (사막색)",
+      "had_source": "HK XM8 lmg handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6920adc519d0f248cbd1721f Name",
+      "old": "HK XM8 소총 길이 총열덮개 (사막색)\n(HK XM8 rifle length handguard (사막색))",
+      "new": "HK XM8 소총 길이 총열덮개 (사막색)",
+      "had_source": "HK XM8 rifle length handguard (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6920ae7e7ef6fb4783d4c1eb Name",
+      "old": "HK XM8 폴리머 개머리판 (사막색)\n(HK XM8 polymer stock (사막색))",
+      "new": "HK XM8 폴리머 개머리판 (사막색)",
+      "had_source": "HK XM8 polymer stock (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6920aedbd4ca2e433cf09a50 Name",
+      "old": "HK XM8 폴리머 마감캡 (사막색)\n(HK XM8 polymer end cap (사막색))",
+      "new": "HK XM8 폴리머 마감캡 (사막색)",
+      "had_source": "HK XM8 polymer end cap (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6920af7f71e0f6cb3095c4e7 Name",
+      "old": "HK XM8 폴리머 접이식 개머리판 (사막색)\n(HK XM8 polymer folding stock (사막색))",
+      "new": "HK XM8 폴리머 접이식 개머리판 (사막색)",
+      "had_source": "HK XM8 polymer folding stock (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6920b030f7c491a1f4fb344b Name",
+      "old": "HK XM8 PDW 신축형 개머리판 (사막색)\n(HK XM8 PDW collapsible stock (사막색))",
+      "new": "HK XM8 PDW 신축형 개머리판 (사막색)",
+      "had_source": "HK XM8 PDW collapsible stock (FDE)"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "693b4f1d90104a2dd9abc084 Name",
+      "old": "바렛 M107A1 20인치 플루티드 총열\n(Barrett M107A1 20 inch fluted barrel )",
+      "new": "바렛 M107A1 20인치 플루티드 총열",
+      "had_source": "Barrett M107A1 20 inch fluted barrel "
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "69475859861a5fc94441d17b Name",
+      "old": "바렛 XM109 25인치 플루티드 총열\n(Barrett XM109 25 inch fluted barrel )",
+      "new": "바렛 XM109 25인치 플루티드 총열",
+      "had_source": "Barrett XM109 25 inch fluted barrel"
+    },
+    {
+      "file": "WTT- Armory.json",
+      "key": "6969867592a994a633084f70 Name",
+      "old": "FN F2000 5.56x45 돌격소총 사막색\n(FN F2000 5.56x45 assault rifle FDE)",
+      "new": "FN F2000 5.56x45 돌격소총 사막색",
+      "had_source": "FN F2000 5.56x45 assault rifle (FDE)"
+    },
+    {
+      "file": "WTT - Pack 'n' Strap.json",
+      "key": "6761b213607f9a6f79017af6 Name",
+      "old": "레벨-9 어썰터 벨트 (올리브 드랩)\n(Rebel-9 Assaulter Belt (올리브 드랩))",
+      "new": "레벨-9 어썰터 벨트 (올리브 드랩)",
+      "had_source": "Rebel-9 Assaulter Belt (OD)"
+    },
+    {
+      "file": "JSOC Service Weapon Replacment Program.json",
+      "key": "6a498b1b7d93f01b6a32d357 Name",
+      "old": "가이슬리 프리미엄 밀스펙 버퍼 튜브 Super 42 H1 포함 (블랙)\n(Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - Black )",
+      "new": "가이슬리 프리미엄 밀스펙 버퍼 튜브 Super 42 H1 포함 (블랙)",
+      "had_source": "Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - Black"
+    },
+    {
+      "file": "JSOC Service Weapon Replacment Program.json",
+      "key": "6a498bb3b3f45596bb32d35b Name",
+      "old": "가이슬리 프리미엄 밀스펙 버퍼 튜브 Super 42 H1 포함 (사막색)\n(Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - DDC )",
+      "new": "가이슬리 프리미엄 밀스펙 버퍼 튜브 Super 42 H1 포함 (사막색)",
+      "had_source": "Geissele Premium Mil-Spec Buffer Tube with Super 42® H1 - DDC"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "6857624d565daea78886d0c2 Name",
+      "old": "유니티 택티컬 FAST COG 사이트 마운트 (사막색)\n(Unity Tactical FAST COG sight mount (사막색))",
+      "new": "유니티 택티컬 FAST COG 사이트 마운트 (사막색)",
+      "had_source": "Unity Tactical FAST COG sight mount (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "685904bd76b06df2198b2f1b Name",
+      "old": "홀로선 HE509T X2 반사식 조준기 (사막색)\n(Holosun HE509T X2 reflex sight (사막색))",
+      "new": "홀로선 HE509T X2 반사식 조준기 (사막색)",
+      "had_source": "Holosun HE509T X2 reflex sight (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "685912a257837068f1460c7a Name",
+      "old": "시그 사우어 로메오7 1x30 반사식 조준기 (사막색)\n(SIG Sauer ROMEO7 1x30 reflex sight (사막색))",
+      "new": "시그 사우어 로메오7 1x30 반사식 조준기 (사막색)",
+      "had_source": "SIG Sauer ROMEO7 1x30 reflex sight (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "685acb7cdabf1c595fd9b3b7 Name",
+      "old": "유니티 택티컬 FAST MRDS 사이트 마운트 (사막색)\n(Unity Tactical FAST MRDS sight mount (사막색))",
+      "new": "유니티 택티컬 FAST MRDS 사이트 마운트 (사막색)",
+      "had_source": "Unity Tactical FAST MRDS sight mount (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "685b0d680624e87899344355 Name",
+      "old": "AK 크루크 CRC 1U020-MIL 엠락 총열덮개 (사막색)\n(AK KRUK CRC 1U020-MIL M-LOK handguard (사막색))",
+      "new": "AK 크루크 CRC 1U020-MIL 엠락 총열덮개 (사막색)",
+      "had_source": "AK KRUK CRC 1U020-MIL M-LOK handguard (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "685d43c384852051ef64e4e8 Name",
+      "old": "이오텍 553 홀로그램 사이트 (사막색)\n(EOTech 553 holographic sight (사막색))",
+      "new": "이오텍 553 홀로그램 사이트 (사막색)",
+      "had_source": "EOTech 553 holographic sight (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "685e52a030452e0aa23b53b6 Name",
+      "old": "유니티 택티컬 FAST COMP 시리즈 스코프 마운트 (사막색)\n(Unity Tactical FAST COMP-series scope mount (사막색))",
+      "new": "유니티 택티컬 FAST COMP 시리즈 스코프 마운트 (사막색)",
+      "had_source": "Unity Tactical FAST COMP-series scope mount (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "685ea424ae29ce869f15365a Name",
+      "old": "30발, AR-15 5.56x45 헥스매그 시리즈2 PMAG 탄창 (사막색)\n(AR-15 5.56x45 HEXMAG Series 2 PMAG 30-round magazine (사막색))",
+      "new": "30발, AR-15 5.56x45 헥스매그 시리즈2 PMAG 탄창 (사막색)",
+      "had_source": "AR-15 5.56x45 HEXMAG Series 2 PMAG 30-round magazine (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "685ea58fd46519c32d440109 Name",
+      "old": "33발, AR-15 5.56x45 스트라이크 인더스트리즈 PMAG 탄창 (사막색)\n(AR-15 5.56x45 Strike Industries PMAG 33-round magazine (사막색))",
+      "new": "33발, AR-15 5.56x45 스트라이크 인더스트리즈 PMAG 탄창 (사막색)",
+      "had_source": "AR-15 5.56x45 Strike Industries PMAG 33-round magazine (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "68611d271b5181217dee6c31 Name",
+      "old": "캐슬 그룹 FRT 226 스코프 마운트 (사막색)\n(Kastle Group FRT 226 scope mount (사막색))",
+      "new": "캐슬 그룹 FRT 226 스코프 마운트 (사막색)",
+      "had_source": "Kastle Group FRT 226 scope mount (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "68627f891c1601d14b88016a Name",
+      "old": "AR-15 스트라이크 인더스트리즈 고급형 총몸 연장부 버퍼 튜브 (사막색)\n(AR-15 Strike Industries Advanced Receiver Extension buffer tube (사막색))",
+      "new": "AR-15 스트라이크 인더스트리즈 고급형 총몸 연장부 버퍼 튜브 (사막색)",
+      "had_source": "AR-15 Strike Industries Advanced Receiver Extension buffer tube (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "68696009c522f6881c46481b Name",
+      "old": "FN FNX 슬라이드 커버 (사막색)\n(FN FNX slide cover (사막색))",
+      "new": "FN FNX 슬라이드 커버 (사막색)",
+      "had_source": "FN FNX slide cover (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "686a959fea53389283823a5e Name",
+      "old": "유니티 택티컬 FAST LPVO 30mm 링 스코프 마운트 (사막색)\n(Unity Tactical FAST LPVO 30mm ring scope mount (사막색))",
+      "new": "유니티 택티컬 FAST LPVO 30mm 링 스코프 마운트 (사막색)",
+      "had_source": "Unity Tactical FAST LPVO 30mm ring scope mount (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "686a99b24e95c2b6c57ef026 Name",
+      "old": "유니티 택티컬 FAST MRO 사이트 마운트 (사막색)\n(Unity Tactical FAST MRO sight mount (사막색))",
+      "new": "유니티 택티컬 FAST MRO 사이트 마운트 (사막색)",
+      "had_source": "Unity Tactical FAST MRO sight mount (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "686ad2e1cb1cd4ac811bfe81 Name",
+      "old": "AAC Ti-RANT 45S .45 ACP 소음기 (사막색)\n(AAC Ti-RANT 45S .45 ACP sound suppressor (사막색))",
+      "new": "AAC Ti-RANT 45S .45 ACP 소음기 (사막색)",
+      "had_source": "AAC Ti-RANT 45S .45 ACP sound suppressor (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "686be3c56b940ba1dbd41a6c Name",
+      "old": "이오텍 EFLX 반사식 조준경 (사막색)\n(EOTech EFLX reflex sight (사막색))",
+      "new": "이오텍 EFLX 반사식 조준경 (사막색)",
+      "had_source": "EOTech EFLX reflex sight (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "686d5bc004f09ae76bde0b8a Name",
+      "old": "사일런서코 오스프리 9 2.0 9x19 소음기 (사막색)\n(SilencerCo Osprey 9 2.0 9x19 sound suppressor (사막색))",
+      "new": "사일런서코 오스프리 9 2.0 9x19 소음기 (사막색)",
+      "had_source": "SilencerCo Osprey 9 2.0 9x19 sound suppressor (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "686d613f44fd735790193ee4 Name",
+      "old": "사일런서코 오스프리 45 2.0 .45 ACP 소음기 (사막색)\n(SilencerCo Osprey 45 2.0 .45 ACP sound suppressor (사막색))",
+      "new": "사일런서코 오스프리 45 2.0 .45 ACP 소음기 (사막색)",
+      "had_source": "SilencerCo Osprey 45 2.0 .45 ACP sound suppressor (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "68747c45a98cc57be229f32a Name",
+      "old": "루드 옵시디언9 9x19 소음기 (사막색)\n(Rugged Obsidian9 9x19 sound suppressor (사막색))",
+      "new": "루드 옵시디언9 9x19 소음기 (사막색)",
+      "had_source": "Rugged Obsidian9 9x19 sound suppressor (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "68747ca718c613cd31cdd50b Name",
+      "old": "루드 옵시디언9-S 9x19 소음기 (사막색)\n(Rugged Obsidian9-S 9x19 sound suppressor (사막색))",
+      "new": "루드 옵시디언9-S 9x19 소음기 (사막색)",
+      "had_source": "Rugged Obsidian9-S 9x19 sound suppressor (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "687a0da9424d2f739168a049 Name",
+      "old": "AR-15 렙틸리아 CQG 권총손잡이 (사막색)\n(AR-15 Reptilia CQG pistol grip (사막색))",
+      "new": "AR-15 렙틸리아 CQG 권총손잡이 (사막색)",
+      "had_source": "AR-15 Reptilia CQG pistol grip (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "687a0e88dbda3d3865f5ed12 Name",
+      "old": "AR-15 BCM 건파이터 모드 0 권총손잡이 (사막색)\n(AR-15 BCM GUNFIGHTER MOD 0 pistol grip (사막색))",
+      "new": "AR-15 BCM 건파이터 모드 0 권총손잡이 (사막색)",
+      "had_source": "AR-15 BCM GUNFIGHTER MOD 0 pistol grip (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "687a383b0d4513545588373b Name",
+      "old": "AR-15 BCM 건파이터 모드 2 SOPMOD 개머리판 (사막색)\n(AR-15 BCM GUNFIGHTER MOD 2 SOPMOD buttstock (사막색))",
+      "new": "AR-15 BCM 건파이터 모드 2 SOPMOD 개머리판 (사막색)",
+      "had_source": "AR-15 BCM GUNFIGHTER MOD 2 SOPMOD buttstock (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "687d134da0544fe8d0e262d7 Name",
+      "old": "AR-15 BCM Mk.2 5.56x45 상부 총몸 (사막색)\n(AR-15 BCM Mk.2 5.56x45 upper receiver (사막색))",
+      "new": "AR-15 BCM Mk.2 5.56x45 상부 총몸 (사막색)",
+      "had_source": "AR-15 BCM Mk.2 5.56x45 upper receiver (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "687d15ac7c0dea057107325d Name",
+      "old": "AR-15 BCM KMR13 키모드 13인치 총열덮개 (사막색)\n(AR-15 BCM KMR13 KeyMod 13인치 handguard (사막색))",
+      "new": "AR-15 BCM KMR13 키모드 13인치 총열덮개 (사막색)",
+      "had_source": "AR-15 BCM KMR13 KeyMod 13 inch handguard (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "687fb0bc8c147c752b1e8329 Name",
+      "old": "유니티 택티컬 RAXIS 마운트 (사막색)\n(Unity Tactical RAXIS mount (사막색))",
+      "new": "유니티 택티컬 RAXIS 마운트 (사막색)",
+      "had_source": "Unity Tactical RAXIS mount (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "6897de1182f827c8f199f355 Name",
+      "old": "시그 사우어 로메오9T 반사식 조준경 (사막색)\n(SIG Sauer ROMEO9T reflex sight (사막색))",
+      "new": "시그 사우어 로메오9T 반사식 조준경 (사막색)",
+      "had_source": "SIG Sauer ROMEO9T reflex sight (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "689ce8bfd4370ee552a641da Name",
+      "old": "FN SCAR-20S 다구경 상부 총몸 (사막색)\n(FN SCAR-20S Multi-Caliber upper receiver (사막색))",
+      "new": "FN SCAR-20S 다구경 상부 총몸 (사막색)",
+      "had_source": "FN SCAR-20S Multi-Caliber upper receiver (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "68a10f558d8eb8ea16240237 Name",
+      "old": "AR-15 맥풀 MOE SL-S 개머리판 (사막색)\n(AR-15 Magpul MOE SL-S buttstock (사막색))",
+      "new": "AR-15 맥풀 MOE SL-S 개머리판 (사막색)",
+      "had_source": "AR-15 Magpul MOE SL-S buttstock (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "68bf1d562ea6c565fbd50013 Name",
+      "old": "FN SCAR 20 SSR 향상된 지정사수 개머리판 (사막색)\n(FN SCAR 20 SSR enhanced marksman stock (사막색))",
+      "new": "FN SCAR 20 SSR 향상된 지정사수 개머리판 (사막색)",
+      "had_source": "FN SCAR 20 SSR enhanced marksman stock (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "6931f849d43e8360a516b95e Name",
+      "old": "35발, AR-15 5.56x45 맥풀 PMAG 30 GEN M3 TTI \"베이스 패드 +5/6\" 탄창 (사막색)\n(AR-15 5.56x45 Magpul PMAG 30 GEN M3 TTI \"Base Pad +5/6\" 35-round magazine (사막색))",
+      "new": "35발, AR-15 5.56x45 맥풀 PMAG 30 GEN M3 TTI \"베이스 패드 +5/6\" 탄창 (사막색)",
+      "had_source": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 TTI \"Base Pad +5/6\" 35-round magazine (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "6931f8f4d23c52639416b961 Name",
+      "old": "46발, AR-15 5.56x45 맥풀 PMAG 40 GEN M3 TTI \"베이스 패드 +5/6\" 탄창 (사막색)\n(AR-15 5.56x45 Magpul PMAG 40 GEN M3 TTI \"Base Pad +5/6\" 46-round magazine (사막색))",
+      "new": "46발, AR-15 5.56x45 맥풀 PMAG 40 GEN M3 TTI \"베이스 패드 +5/6\" 탄창 (사막색)",
+      "had_source": "AR-15 5.56x45 Magpul PMAG 40 GEN M3 TTI \"Base Pad +5/6\" 46-round magazine (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "695b224c474010bd136887ba Name",
+      "old": "AR-15 맥풀 MOE-K2 권총손잡이 (사막색)\n(AR-15 Magpul MOE-K2 pistol grip (사막색))",
+      "new": "AR-15 맥풀 MOE-K2 권총손잡이 (사막색)",
+      "had_source": "AR-15 Magpul MOE-K2 pistol grip (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "695fa277f1b7c560d11f9f35 Name",
+      "old": "AR-15 AB Arms USS-X 개머리판 (사막색)\n(AR-15 AB Arms USS-X stock (사막색))",
+      "new": "AR-15 AB Arms USS-X 개머리판 (사막색)",
+      "had_source": "AR-15 AB Arms USS-X stock (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "695fca555fc8a1adfb51a4a3 Name",
+      "old": "이레귤려 디펜스 OMM 광학 마운트 (사막색)\n(Irregular Defense OMM optic mount (사막색))",
+      "new": "이레귤려 디펜스 OMM 광학 마운트 (사막색)",
+      "had_source": "Irregular Defense OMM optic mount (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "6960bc9172fcb3eb9da96b7c Name",
+      "old": "홀로선 HE510C 반사식 조준경 (사막색)\n(Holosun HE510C reflex sight (사막색))",
+      "new": "홀로선 HE510C 반사식 조준경 (사막색)",
+      "had_source": "Holosun HE510C reflex sight (FDE)"
+    },
+    {
+      "file": "ECOT - Eukyre's Consortium of Things.json",
+      "key": "696c02189dfeee5fd4785db6 Name",
+      "old": "AR-15 어댑티브 디펜스 URR RAHG 총열덮개 (양극산화 사막색)\n(AR-15 Adaptiv Defense URR RAHG handguard (Anodized 사막색))",
+      "new": "AR-15 어댑티브 디펜스 URR RAHG 총열덮개 (양극산화 사막색)",
+      "had_source": "AR-15 Adaptiv Defense URR RAHG handguard (Anodized FDE)"
+    },
+    {
+      "file": "C11 - True North.json",
+      "key": "62811f461d5df4475f46a333 Name",
+      "old": "킬러 이노베이션스 Velocity 광학 커버 플레이트 (블랙)\n(Killer Innovations Velocity Optic Cover Plate (검은색))",
+      "new": "킬러 이노베이션스 Velocity 광학 커버 플레이트 (블랙)",
+      "had_source": "Killer Innovations Velocity Optic Cover Plate (Black)"
+    },
+    {
+      "file": "C11 - True North.json",
+      "key": "686830a0f33be9471feb69da Name",
+      "old": "LV119 코버트 멀티캠 트로픽 플레이트 캐리어\n(LV119 Covert Multicam Tropic)",
+      "new": "LV119 코버트 멀티캠 트로픽 플레이트 캐리어",
+      "had_source": "LV119 Covert - Big Meow Edition (Ranger Green)"
+    },
+    {
+      "file": "C11 - True North.json",
+      "key": "69604054ad6ba86d79446f6f Name",
+      "old": "타입 81 맥풀 주코프-U 총열덮개 (멀티캠 블랙)\n(Type 81 Magpul Zhukov-U handguard (Multicam Black))",
+      "new": "타입 81 맥풀 주코프-U 총열덮개 (멀티캠 블랙)",
+      "had_source": "Type 81 Magpul Zhukov-U handguard (CADPAT MT)"
+    },
+    {
+      "file": "C11 - True North.json",
+      "key": "6960434f897946d918446f76 Name",
+      "old": "타입 81 맥풀 MOE AKM 총열덮개 (멀티캠 러블)\n(Type 81 Magpul MOE AKM handguard (Multicam Rubble))",
+      "new": "타입 81 맥풀 MOE AKM 총열덮개 (멀티캠 러블)",
+      "had_source": "Type 81 Magpul MOE AKM handguard (CADPAT TW)"
+    },
+    {
+      "file": "C11 - True North.json",
+      "key": "6973e015a991f8f91bc3934c Name",
+      "old": "나이트 피전 스텔스 트리튬 가늠자 (글록)\n(AARSight)",
+      "new": "나이트 피전 스텔스 트리튬 가늠자 (글록)",
+      "had_source": "Night Fision Stealth Tritium Rear Sight (Glock)"
+    },
+    {
+      "file": "C11 - True North.json",
+      "key": "69a9e0fb79fe0b0af4eee874 Name",
+      "old": "MFMD-5.56-1.3-MD-1/2X28 소음기 (검은색)\n(MFMD-5.56-1.3-MD-1/2X28Suppressor (검은색))",
+      "new": "MFMD-5.56-1.3-MD-1/2X28 소음기 (검은색)",
+      "had_source": "MFMD-5.56-1.3-MD-1/2X28Suppressor (Black)"
+    },
+    {
+      "file": "C11 - True North.json",
+      "key": "69a9e1a0170829d138eee876 Name",
+      "old": "MFMD-5.56-1.3-MD-1/2X28 소음기 (사막색)\n(MFMD-5.56-1.3-MD-1/2X28 Suppressor (사막색))",
+      "new": "MFMD-5.56-1.3-MD-1/2X28 소음기 (사막색)",
+      "had_source": "MFMD-5.56-1.3-MD-1/2X28 Suppressor (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "67ff1e209d1f778973073376 Name",
+      "old": "M1895/MXLR 레인저 포인트 프리시전 방아쇠 (블랙)\n(M1895/MXLR Ranger Point Precision trigger (검은색))",
+      "new": "M1895/MXLR 레인저 포인트 프리시전 방아쇠 (블랙)",
+      "had_source": "M1895/MXLR Ranger Point Precision trigger (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "67ff1eaf8e8db1dcb80ccad8 Name",
+      "old": "M1895/MXLR 레인저 포인트 프리시전 공이 스퍼 연장 (블랙)\n(M1895/MXLR Ranger Point Precision hammer spur extension (검은색))",
+      "new": "M1895/MXLR 레인저 포인트 프리시전 공이 스퍼 연장 (블랙)",
+      "had_source": "M1895/MXLR Ranger Point Precision hammer spur extension (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "67ff1f9f32abb9a4280b5178 Name",
+      "old": "M1895/MXLR 레인저 포인트 프레시전 알루미늄 개머리판 (사막색)\n(M1895/MXLR Ranger Point Precision aluminum stock (사막색))",
+      "new": "M1895/MXLR 레인저 포인트 프레시전 알루미늄 개머리판 (사막색)",
+      "had_source": "M1895/MXLR Ranger Point Precision aluminum stock (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "67ff24b9079850d544096ea6 Name",
+      "old": "M1895/MXLR 레인저 포인트 프리시전 엠락 총열덮개 (사막색)\n(M1895/MXLR Ranger Point Precision M-LOK handguard (사막색))",
+      "new": "M1895/MXLR 레인저 포인트 프리시전 엠락 총열덮개 (사막색)",
+      "had_source": "M1895/MXLR Ranger Point Precision M-LOK handguard (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "67ff26a2abb53266190dfc6c Name",
+      "old": "M1895/MXLR 맥풀 ELG 엠락 총열덮개 (사막색)\n(M1895/MXLR Magpul ELG M-LOK handguard (사막색))",
+      "new": "M1895/MXLR 맥풀 ELG 엠락 총열덮개 (사막색)",
+      "had_source": "M1895/MXLR Magpul ELG M-LOK handguard (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "67ff2792ea587611b0080956 Name",
+      "old": "M1895/MXLR 레인저 포인트 프리시전 COSTA 엠락 총열덮개 (사막색)\n(M1895/MXLR Ranger Point Precision COSTA M-LOK handguard (사막색))",
+      "new": "M1895/MXLR 레인저 포인트 프리시전 COSTA 엠락 총열덮개 (사막색)",
+      "had_source": "M1895/MXLR Ranger Point Precision COSTA M-LOK handguard (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "67ff2c16c593c7b94a095e56 Name",
+      "old": "M1895/MXLR 맥풀 ELG 개머리판 (사막색)\n(M1895/MXLR Magpul ELG stock (사막색))",
+      "new": "M1895/MXLR 맥풀 ELG 개머리판 (사막색)",
+      "had_source": "M1895/MXLR Magpul ELG stock (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "680f47b20407db2e550c4311 Name",
+      "old": "MDR BLK LBL ALX 양각대 20 총열덮개 (사막색)\n(MDR BLK LBL ALX Bipod 20 handguard (사막색))",
+      "new": "MDR BLK LBL ALX 양각대 20 총열덮개 (사막색)",
+      "had_source": "MDR BLK LBL ALX Bipod 20 handguard (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "680f55788692125dc00a3354 Name",
+      "old": "MDR BLK LBL ALX 양각대 20 총열덮개 (블랙)\n(MDR BLK LBL ALX Bipod 20 handguard (검은색))",
+      "new": "MDR BLK LBL ALX 양각대 20 총열덮개 (블랙)",
+      "had_source": "MDR BLK LBL ALX Bipod 20 handguard (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "680f55b71e275ac1230f2dc6 Name",
+      "old": "MDR BLK LBL ALX 양각대 16 총열덮개 (사막색)\n(MDR BLK LBL ALX Bipod 16 handguard (사막색))",
+      "new": "MDR BLK LBL ALX 양각대 16 총열덮개 (사막색)",
+      "had_source": "MDR BLK LBL ALX Bipod 16 handguard (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "680f5953b93ecb502102816a Name",
+      "old": "MDR BLK LBL ALX 양각대 16 총열덮개 (블랙)\n(MDR BLK LBL ALX Bipod 16 handguard (검은색))",
+      "new": "MDR BLK LBL ALX 양각대 16 총열덮개 (블랙)",
+      "had_source": "MDR BLK LBL ALX Bipod 16 handguard (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "681096b551511048940afed9 Name",
+      "old": "MDR BLK LBL ALX 20 총열덮개 (사막색)\n(MDR BLK LBL ALX 20 handguard (사막색))",
+      "new": "MDR BLK LBL ALX 20 총열덮개 (사막색)",
+      "had_source": "MDR BLK LBL ALX 20 handguard (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68109a1f327033533604170a Name",
+      "old": "MDR BLK LBL ALX 20 총열덮개 (블랙)\n(MDR BLK LBL ALX 20 handguard (검은색))",
+      "new": "MDR BLK LBL ALX 20 총열덮개 (블랙)",
+      "had_source": "MDR BLK LBL ALX 20 handguard (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "6810a469f6c2827d680d1f4c Name",
+      "old": "MDR BLK LBL ALX 16 총열덮개 (사막색)\n(MDR BLK LBL ALX 16 handguard (사막색))",
+      "new": "MDR BLK LBL ALX 16 총열덮개 (사막색)",
+      "had_source": "MDR BLK LBL ALX 16 handguard (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "6810aa1474bf67765c02e91a Name",
+      "old": "MDR BLK LBL ALX 16 총열덮개 (블랙)\n(MDR BLK LBL ALX 16 handguard (검은색))",
+      "new": "MDR BLK LBL ALX 16 총열덮개 (블랙)",
+      "had_source": "MDR BLK LBL ALX 16 handguard (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "6810ca87002deee76b04970b Name",
+      "old": "MDR 미크론 엠락 총열덮개 (사막색)\n(MDR Micron M-LOK handguard (사막색))",
+      "new": "MDR 미크론 엠락 총열덮개 (사막색)",
+      "had_source": "MDR Micron M-LOK handguard (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "6810d3d8dc7bbeec2f0081c9 Name",
+      "old": "MDR 미크론 엠락 총열덮개 (블랙)\n(MDR Micron M-LOK handguard (검은색))",
+      "new": "MDR 미크론 엠락 총열덮개 (블랙)",
+      "had_source": "MDR Micron M-LOK handguard (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "688b4bd81cef2a61d0052738 Name",
+      "old": "SRO 반사식 조준기 (사막색)\n(Trijicon SRO reflex sight (사막색))",
+      "new": "SRO 반사식 조준기 (사막색)",
+      "had_source": "Trijicon SRO reflex sight (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68947ab5a733b1602007e2fe Name",
+      "old": "미스터리 랜치(Mystery Ranch) 2 데이 어썰트 팩 (블랙)\n(Mystery Ranch 2 Day Assault Pack (검은색))",
+      "new": "미스터리 랜치(Mystery Ranch) 2 데이 어썰트 팩 (블랙)",
+      "had_source": "Mystery Ranch 2 Day Assault Pack (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "689dbded6c7e684817080c29 Name",
+      "old": "윌콕스 L4G24 NVG 마운트 (블랙)\n(Wilcox L4G24 NVG Mount (검은색))",
+      "new": "윌콕스 L4G24 NVG 마운트 (블랙)",
+      "had_source": "Wilcox L4G24 NVG Mount (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68aee9fe130c00663d08aeb6 Name",
+      "old": "TKPD 총열덮개 (블랙)\n(TKPD handguard (검은색))",
+      "new": "TKPD 총열덮개 (블랙)",
+      "had_source": "TKPD handguard (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68badb6458dbe419740b1520 Name",
+      "old": "맥풀 UCS 개머리판 (블랙)\n(Magpul UCS buttstock (검은색))",
+      "new": "맥풀 UCS 개머리판 (블랙)",
+      "had_source": "Magpul UCS buttstock (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68bb25270e48a3afd7071216 Name",
+      "old": "AR-15 맥풀 ACS 카빈 개머리판 (블랙)\n(AR-15 Magpul ACS Carbine stock (검은색))",
+      "new": "AR-15 맥풀 ACS 카빈 개머리판 (블랙)",
+      "had_source": "AR-15 Magpul ACS Carbine stock (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68bb2a3831ee03fbc00931e6 Name",
+      "old": "AR-15 맥풀 ACS 카빈 개머리판 (사막색)\n(AR-15 Magpul ACS Carbine stock (사막색))",
+      "new": "AR-15 맥풀 ACS 카빈 개머리판 (사막색)",
+      "had_source": "AR-15 Magpul ACS Carbine stock (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68bedc0365e7dcf94f0cb0fc Name",
+      "old": "L3해리스 AN/PEQ-15 전술 장치 (블랙)\n(L3Harris AN/PEQ-15 tactical device (검은색))",
+      "new": "L3해리스 AN/PEQ-15 전술 장치 (블랙)",
+      "had_source": "L3Harris AN/PEQ-15 tactical device (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68c16fcffc90c174e50de1ae Name",
+      "old": "AR-15 DLG 택티컬 DLG-138 권총손잡이 (블랙)\n(AR-15 DLG Tactical DLG-138 pistol grip (검은색))",
+      "new": "AR-15 DLG 택티컬 DLG-138 권총손잡이 (블랙)",
+      "had_source": "AR-15 DLG Tactical DLG-138 pistol grip (Black)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68c16fe183e2d814b0093f7c Name",
+      "old": "AR-15 DLG 택티컬 DLG-138 권총손잡이 (사막색)\n(AR-15 DLG Tactical DLG-138 pistol grip (사막색))",
+      "new": "AR-15 DLG 택티컬 DLG-138 권총손잡이 (사막색)",
+      "had_source": "AR-15 DLG Tactical DLG-138 pistol grip (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68c1701cba442c811207608b Name",
+      "old": "AR-15 커스텀 건즈 완충 튜브 (사막색)\n(AR-15 Custom Guns buffer tube (사막색))",
+      "new": "AR-15 커스텀 건즈 완충 튜브 (사막색)",
+      "had_source": "AR-15 Custom Guns buffer tube (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68c294360f5ebd68290d6c16 Name",
+      "old": "NL545 (GP) 5.45x39 상부 총몸 (사막색)\n(NL545 (GP) 5.45x39 upper receiver (사막색))",
+      "new": "NL545 (GP) 5.45x39 상부 총몸 (사막색)",
+      "had_source": "NL545 (GP) 5.45x39 upper receiver (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68c294750f5ebd68290d6c1c Name",
+      "old": "NL545 (GP) 5.45x39 16.5인치 총열\n(NL545 (GP) 5.45x39 16.5인치 barrel)",
+      "new": "NL545 (GP) 5.45x39 16.5인치 총열",
+      "had_source": "NL545 (GP) 5.45x39 16.5 inch barrel"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68c294800f5ebd68290d6c20 Name",
+      "old": "NL545 5.45x39 11.5인치 총열\n(NL545 (GP) 5.45x39 11.5인치 barrel)",
+      "new": "NL545 5.45x39 11.5인치 총열",
+      "had_source": "NL545 (GP) 5.45x39 11.5 inch barrel"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68c2989dc9061bb2f50478f6 Name",
+      "old": "NL545 10.5인치 엠락 총열덮개 (사막색)\n(NL545 10.5인치 M-LOK handguard (사막색))",
+      "new": "NL545 10.5인치 엠락 총열덮개 (사막색)",
+      "had_source": "NL545 10.5 inch M-LOK handguard (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68cc2ae66e59cb54f4054f47 Name",
+      "old": "AR-15 프리시전 리플렉스 GEN III 라운드 카본 12인치 총열덮개 (사막색)\n(AR-15 Precision Reflex GEN III Round Carbon 12인치 handguard (사막색))",
+      "new": "AR-15 프리시전 리플렉스 GEN III 라운드 카본 12인치 총열덮개 (사막색)",
+      "had_source": "AR-15 Precision Reflex GEN III Round Carbon 12 inch handguard (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68d566b2aa07af2e14059e01 Name",
+      "old": "30발, AK-74 5.45x39 맥풀 PMAG 30 GEN M3 탄창 (사막색)\n(AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine (사막색))",
+      "new": "30발, AK-74 5.45x39 맥풀 PMAG 30 GEN M3 탄창 (사막색)",
+      "had_source": "AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68d566f3f3d7cd248f0a06db Name",
+      "old": "맥풀 UCS 개머리판 (사막색)\n(Magpul UCS buttstock (사막색))",
+      "new": "맥풀 UCS 개머리판 (사막색)",
+      "had_source": "Magpul UCS buttstock (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68d5674bb2573b07dc0d225f Name",
+      "old": "AK 제니트 RK-3 권총손잡이 (사막색)\n(AK Zenit RK-3 pistol grip (사막색))",
+      "new": "AK 제니트 RK-3 권총손잡이 (사막색)",
+      "had_source": "AK Zenit RK-3 pistol grip (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "68d5676f43adc7372a0c8ae0 Name",
+      "old": "TKPD 총열덮개 (사막색)\n(TKPD handguard (사막색))",
+      "new": "TKPD 총열덮개 (사막색)",
+      "had_source": "TKPD handguard (FDE)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "6936bd64b2b5b688e50cde36 Name",
+      "old": "AR-10 KAC URX 2 12.5인치 총열덮개 (토프)\n(AR-10 KAC URX 2 12.5인치 handguard (Taupe))",
+      "new": "AR-10 KAC URX 2 12.5인치 총열덮개 (토프)",
+      "had_source": "AR-10 KAC URX 2 12.5 inch handguard (Taupe)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "6936bd6f4737190b66053ba6 Name",
+      "old": "AR-10 KAC URX 3.1 13.5인치 총열덮개 (토프)\n(AR-10 KAC URX 3.1 13.5인치 handguard (Taupe))",
+      "new": "AR-10 KAC URX 3.1 13.5인치 총열덮개 (토프)",
+      "had_source": "AR-10 KAC URX 3.1 13.5 inch handguard (Taupe)"
+    },
+    {
+      "file": "WTT - Content Backport.json",
+      "key": "693fd1200ec97e98040bd3f9 Name",
+      "old": "Tac-Kek JayPC 플레이트 캐리어 (블랙)\n(Tac-Kek JayPC plate carrier (검은색))",
+      "new": "Tac-Kek JayPC 플레이트 캐리어 (블랙)",
+      "had_source": "Tac-Kek JayPC plate carrier (Black)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "66326bfd46817c660d01512d Name",
+      "old": "체이스 택티컬 범프 헬멧 (블랙)\n(Tactical Bump Helmet (검은색))",
+      "new": "체이스 택티컬 범프 헬멧 (블랙)",
+      "had_source": "Tactical Bump Helmet (Black)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "66326bfd46817c660d01513e Name",
+      "old": "스컬 마스크 (블랙)\n(Skull Mask(검은색))",
+      "new": "스컬 마스크 (블랙)",
+      "had_source": "Skull Mask(Black)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "66326bfd46817c660d015146 Name",
+      "old": "GPNVG-18 야간 투시경 (블랙)\n(GPNVG-18 Night Vision goggles (검은색))",
+      "new": "GPNVG-18 야간 투시경 (블랙)",
+      "had_source": "GPNVG-18 Night Vision goggles (Black)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "66326bfd46817c660d015148 Name",
+      "old": "GPNVG-18 야간 투시경 (올리브 드랩)\n(GPNVG-18 Night Vision goggles (올리브 드랩))",
+      "new": "GPNVG-18 야간 투시경 (올리브 드랩)",
+      "had_source": "GPNVG-18 Night Vision goggles (OD)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "6673b1ac5cae0610f1079d71 Name",
+      "old": "6Sh118 레이드 백팩 (블랙)\n(6Sh118 raid backpack (검은색))",
+      "new": "6Sh118 레이드 백팩 (블랙)",
+      "had_source": "6Sh118 raid backpack (Black)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "6673b1ac5cae0610f1079d73 Name",
+      "old": "프로그맨 스크림 넷 (블랙)\n(Frogman Scrim Net (검은색))",
+      "new": "프로그맨 스크림 넷 (블랙)",
+      "had_source": "Frogman Scrim Net (Black)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "6673b1ac5cae0610f1079d75 Name",
+      "old": "프로그맨 스크림 넷 (올리브 드랩)\n(Frogman Scrim Net (올리브 드랩))",
+      "new": "프로그맨 스크림 넷 (올리브 드랩)",
+      "had_source": "Frogman Scrim Net (OD)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "668bc5cd834c88e06b08b6aa Name",
+      "old": "데브택 로닌 방탄 헬멧 (블랙)\n(DevTac Ronin ballistic helmet (검은색))",
+      "new": "데브택 로닌 방탄 헬멧 (블랙)",
+      "had_source": "DevTac Ronin ballistic helmet (Black)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "669819683571cb050b0b6394 Name",
+      "old": "ACH 하이컷 전술 헬멧 (블랙)\n(ACH High Cut Tactical Helmet (검은색))",
+      "new": "ACH 하이컷 전술 헬멧 (블랙)",
+      "had_source": "ACH High Cut Tactical Helmet (Black)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "66b94b886af54725ea0a4b93 Name",
+      "old": "FORT 디펜더-2 방탄복 (올리브 드랩)\n(FORT Defender-2 body armor(올리브 드랩))",
+      "new": "FORT 디펜더-2 방탄복 (올리브 드랩)",
+      "had_source": "FORT Defender-2 body armor(OD)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "66bf757f27d0b097db0ace58 Name",
+      "old": "옵스코어 SF 하이컷 헬멧 (올리브 드랩)\n(Ops-Core SF High Cut Helmet (올리브 드랩))",
+      "new": "옵스코어 SF 하이컷 헬멧 (올리브 드랩)",
+      "had_source": "Ops-Core SF High Cut Helmet (OD)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "66bf757f27d0b097db0ace61 Name",
+      "old": "옵스코어 SF 하이컷 헬멧 (블랙)\n(Ops-Core SF High Cut Helmet (검은색))",
+      "new": "옵스코어 SF 하이컷 헬멧 (블랙)",
+      "had_source": "Ops-Core SF High Cut Helmet (Black)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "676a1476242dea0ba69ebbd8 Name",
+      "old": "옵스코어 SF 워리어 헬멧 (블랙)\n(Ops-Core SF Warrior Helmet (검은색))",
+      "new": "옵스코어 SF 워리어 헬멧 (블랙)",
+      "had_source": "Ops-Core SF Warrior Helmet (Black)"
+    },
+    {
+      "file": "WTT- Artem.json",
+      "key": "6771bdde30136eb8171a4b36 Name",
+      "old": "페로 컨셉츠 NVG 배터리 팩 (블랙)\n(Ferro Concepts Battery Pack (검은색))",
+      "new": "페로 컨셉츠 NVG 배터리 팩 (블랙)",
+      "had_source": "Ferro Concepts Battery Pack (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "01f50d1bf4a8e1ee51c0b0fe Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 9.5인치 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 9.5인치 handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 9.5인치 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 9.5 inch handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "033ccd2711dabbb7eecea522 Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 9.5인치 하부 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 9.5인치 lower handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 9.5인치 하부 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 9.5 inch lower handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "04a8d9c50f3227ef6550e613 Name",
+      "old": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK8 15인치 M-LOK handguard (BLK))",
+      "new": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (블랙)",
+      "had_source": "AR-15 Geissele SMR MK8 15 inch M-LOK handguard (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "06f91b13baa74bd3f49b387c Name",
+      "old": "AR-15 다니엘 디펜스 RIS III FSP 13인치 하부 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III FSP 13 lower handguard (D사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III FSP 13인치 하부 총열덮개 (D사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III FSP 13 lower handguard (DFDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "07c74d946af09d5059bd38db Name",
+      "old": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (코발트)\n(AR-15 Daniel Defense MFR 13.5인치 M-LOK handguard (Cobalt))",
+      "new": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (코발트)",
+      "had_source": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (Cobalt)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "08940f5c853aa6acf4049bc2 Name",
+      "old": "에임포인트 마이크로 T-1 /w 유니티 FTC (블랙)\n(Aimpoint Micro T-1 /w Unity FTC (검은색))",
+      "new": "에임포인트 마이크로 T-1 /w 유니티 FTC (블랙)",
+      "had_source": "Aimpoint Micro T-1 /w Unity FTC (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "08ce1f8189bcb4aa4a490d28 Name",
+      "old": "KAC 소음기 보호 덮개 6인치 (사막색)\n(KAC Suppressor shroud 6인치 (사막색))",
+      "new": "KAC 소음기 보호 덮개 6인치 (사막색)",
+      "had_source": "KAC Suppressor shroud 6 inch (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "08eb2cce6b620c5c8550a0b5 Name",
+      "old": "트리지콘 ACOG TA648-308H 6x48 조준경 (블랙)\n(Trijicon ACOG TA648-308H 6x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA648-308H 6x48 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA648-308H 6x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "09b44a7e34b49045e3308e58 Name",
+      "old": "KAC 소음기 보호 덮개 4인치 (사막색)\n(KAC Suppressor shroud 4 inch (사막색))",
+      "new": "KAC 소음기 보호 덮개 4인치 (사막색)",
+      "had_source": "KAC Suppressor shroud 4 inch (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "09f8fed0abd75fbd0f81cd91 Name",
+      "old": "트리지콘 ACOG TA648MGO-M2 6x48 조준경 (블랙)\n(Trijicon ACOG TA648MGO-M2 6x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA648MGO-M2 6x48 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA648MGO-M2 6x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "0a4fce1b6ffcba383df0def7 Name",
+      "old": "KAC QDC/MCQ-PRT 5.56x45 소음기 (사막색)\n(KAC QDC/MCQ-PRT 5.56x45 sound suppressor (사막색))",
+      "new": "KAC QDC/MCQ-PRT 5.56x45 소음기 (사막색)",
+      "had_source": "KAC QDC/MCQ-PRT 5.56x45 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "0bba67a701522f99575b181f Name",
+      "old": "AR-15 다니엘 디펜스 RIS III FSP 13인치 하부 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III FSP 13 lower handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III FSP 13인치 하부 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III FSP 13 lower handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "0ce051265bcb619558b2ef9a Name",
+      "old": "슈타이너 OTAL-C 전술 장비 (사막색-IR)\n(Steiner OTAL-C tactical device (사막색-IR))",
+      "new": "슈타이너 OTAL-C 전술 장비 (사막색-IR)",
+      "had_source": "Steiner OTAL-C tactical device (FDE-IR)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "0d914f394390e16506a949da Name",
+      "old": "렙틸리아 AUS 34mm 상부 링 캡 (사막색)\n(Reptilia AUS 34mm top ring cap (사막색))",
+      "new": "렙틸리아 AUS 34mm 상부 링 캡 (사막색)",
+      "had_source": "Reptilia AUS 34mm top ring cap (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "0ebd9f8dfaf03d6bf5db3b96 Name",
+      "old": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (아쿠아)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Aqua))",
+      "new": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (아쿠아)",
+      "had_source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Aqua)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "10c1dae2a05599e8a2b59cda Name",
+      "old": "AR-10 슈어파이어 SF3P 7.62x51 소염기\n(AR-10 SureFire SF3P 7.62x51 Flash Hider)",
+      "new": "AR-10 슈어파이어 SF3P 7.62x51 소염기",
+      "had_source": "AR-10 Surefire SF3P 7.62x51 Flash Hider"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "13f0c13d451f2c56fbf46548 Name",
+      "old": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK8 7인치 M-LOK handguard (ODG))",
+      "new": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (올리브 드랩)",
+      "had_source": "AR-15 Geissele SMR MK8 7 inch M-LOK handguard (ODG)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "14c562c1c4f9f783c107ef27 Name",
+      "old": "AR-15 가이슬리 SMR MK16 10.5인치 엠락 총열덮개 (DDC)\n(AR-15 Geissele SMR MK16 10.5인치 M-LOK handguard (DDC))",
+      "new": "AR-15 가이슬리 SMR MK16 10.5인치 엠락 총열덮개 (DDC)",
+      "had_source": "AR-15 Geissele SMR MK16 10.5 inch M-LOK handguard (DDC)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "1541c03f68a57b9f4d937a38 Name",
+      "old": "AR-15 BCM MCMR 13인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 13인치 M-LOK handguard (사막색))",
+      "new": "AR-15 BCM MCMR 13인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 BCM  MCMR 13 inch M-LOK handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "159023b10fa02ac28247fce3 Name",
+      "old": "렙틸리아 34mm ROF-90 ACRO 마운트 (사막색)\n(Reptilia 34mm ROF-90 ACRO mount for Reptilia scope mounts (사막색))",
+      "new": "렙틸리아 34mm ROF-90 ACRO 마운트 (사막색)",
+      "had_source": "Reptilia 34mm ROF-90 ACRO mount for Reptilia scope mounts (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "17349a0b7403daafd5f7feb9 Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 9.5인치 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 9.5인치 handguard (D사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 9.5인치 총열덮개 (D사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 9.5 inch handguard (DFDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "18a7cf56c4de695573ac3b2f Name",
+      "old": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (올리브 드랩)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Olive Drab))",
+      "new": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (올리브 드랩)",
+      "had_source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Olive Drab)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "18b71fb6878ffa6640e75aa1 Name",
+      "old": "AR-15 나이츠 아머먼트 URX 4 8.5인치 엠락 총열덮개 (사막색)\n(AR-15 Knights Armament URX 4 8.5인치 M-LOK handguard (사막색))",
+      "new": "AR-15 나이츠 아머먼트 URX 4 8.5인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 Knights Armament URX 4 8.5 inch M-LOK handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "1a72eed8a4467f67e02eb6a5 Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 10.5인치 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 10.5인치 handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 10.5인치 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 10.5 inch handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "1c852a7fd73bcde9d3ff968b Name",
+      "old": "렙틸리아 1.93인치 마운트 (에임포인트 ACRO용, 사막색)\n(Reptilia 1.93\" mount for Aimpoint ACRO (사막색))",
+      "new": "렙틸리아 1.93인치 마운트 (에임포인트 ACRO용, 사막색)",
+      "had_source": "Reptilia 1.93\" mount for Aimpoint ACRO (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "1d145684ac5119451eec9699 Name",
+      "old": "AR-15 B&T 로텍스-V 5.56x45 디플렉터 (사막색)\n(AR-15 B&T Rotex-V 5.56x45 Deflector (사막색))",
+      "new": "AR-15 B&T 로텍스-V 5.56x45 디플렉터 (사막색)",
+      "had_source": "AR-15 B&T Rotex-V 5.56x45 Deflector (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "1e3c5a570c1c628376877232 Name",
+      "old": "트리지콘 ACOG TA31H 엠버 4x32 조준경 (블랙)\n(Trijicon ACOG TA31H Amber 4x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA31H 엠버 4x32 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA31H Amber 4x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "22a72cf93077b10b2cd6b96e Name",
+      "old": "AR-15 가이슬리 SMR MK16 13.5인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK16 13.5인치 M-LOK handguard (BLK))",
+      "new": "AR-15 가이슬리 SMR MK16 13.5인치 엠락 총열덮개 (블랙)",
+      "had_source": "AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "2336c17a2248a7d516220592 Name",
+      "old": "AR-15 가이슬리 SMR MK4 9.5인치 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK4 9.5인치 handguard (ODG))",
+      "new": "AR-15 가이슬리 SMR MK4 9.5인치 총열덮개 (올리브 드랩)",
+      "had_source": "AR-15 Geissele SMR MK4 9.5 inch handguard (ODG)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "24a57da0bf24002c1b8b31d9 Name",
+      "old": "CGS SCI-SIX 5.56x45 소음기 (사막색)\n(CGS SCI-SIX 5.56x45 sound suppressor (사막색))",
+      "new": "CGS SCI-SIX 5.56x45 소음기 (사막색)",
+      "had_source": "CGS SCI-SIX 5.56x45 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "252d9d1d2552909d0a76033c Name",
+      "old": "옵스코어 AMP 통신 헤드셋 (블랙)\n(Ops-Core AMP Communication Headset (검은색))",
+      "new": "옵스코어 AMP 통신 헤드셋 (블랙)",
+      "had_source": "Ops-Core AMP Communication Headset (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "253279f21f3222961c5dfa8d Name",
+      "old": "이오텍 OGL 전술 장비 (블랙)\n(EOTech OGL tactical device (검은색))",
+      "new": "이오텍 OGL 전술 장비 (블랙)",
+      "had_source": "Eotech OGL tactical device (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "26aab2ba6d945ea7877cfded Name",
+      "old": "AR-15 아말라이트 M16A1 고정형 개머리판 Type D\n(AR-15 Armalite M16A1 fixed stock type D (EpicsAIO))",
+      "new": "AR-15 아말라이트 M16A1 고정형 개머리판 Type D",
+      "had_source": "AR-15 Armalite M16A1 fixed stock type D"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "27b92c2226b1110635235c2e Name",
+      "old": "렙틸리아 34mm ROF-90 RMR 마운트 (사막색)\n(Reptilia 34mm ROF-90 RMR mount for Reptilia scope mounts (사막색))",
+      "new": "렙틸리아 34mm ROF-90 RMR 마운트 (사막색)",
+      "had_source": "Reptilia 34mm ROF-90 RMR mount for Reptilia scope mounts (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "297eecda3d70301b822b6cf9 Name",
+      "old": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK8 13인치 M-LOK handguard (BLK))",
+      "new": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (블랙)",
+      "had_source": "AR-15 Geissele SMR MK8 13 inch M-LOK handguard (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "2adbfe8b01c45020b7a77a9e Name",
+      "old": "AR-15 맥풀 DT 카빈 개머리판 (블랙)\n(AR-15 Magpul DT Carbine Stock (검은색))",
+      "new": "AR-15 맥풀 DT 카빈 개머리판 (블랙)",
+      "had_source": "AR-15 Magpul DT Carbine Stock (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "2dd0bae941a035f84debc5d1 Name",
+      "old": "AR-15 다니엘 디펜스 RIS III FSP 13 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III FSP 13 handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III FSP 13 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III FSP 13 handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "3373f8268f40bbd0f302bfe4 Name",
+      "old": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK8 7인치 M-LOK handguard (BLK))",
+      "new": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (블랙)",
+      "had_source": "AR-15 Geissele SMR MK8 7 inch M-LOK handguard (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "36c4b709b7b9465d6e875d35 Name",
+      "old": "에임포인트 ACRO P-2 반사 조준경 (사막색)\n(Aimpoint ACRO P-2 reflex sight (사막색))",
+      "new": "에임포인트 ACRO P-2 반사 조준경 (사막색)",
+      "had_source": "Aimpoint ACRO P-2 reflex sight (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "394ddec62819583ac6b760d7 Name",
+      "old": "AR-15 맥풀 DT-PR 카빈 개머리판 (사막색)\n(AR-15 Magpul DT-PR Carbine Stock (사막색))",
+      "new": "AR-15 맥풀 DT-PR 카빈 개머리판 (사막색)",
+      "had_source": "AR-15 Magpul DT-PR Carbine Stock (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "3a3eee114512382f2537f2a5 Name",
+      "old": "AR-15 가이슬리 SMR MK4 9.5인치 총열덮개 (DDC)\n(AR-15 Geissele SMR MK4 9.5인치 handguard (DDC))",
+      "new": "AR-15 가이슬리 SMR MK4 9.5인치 총열덮개 (DDC)",
+      "had_source": "AR-15 Geissele SMR MK4 9.5 inch handguard (DDC)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "3b690b1d6ab6940d0e231895 Name",
+      "old": "MCX 래틀러 권총손잡이 (사막색)\n(MCX Rattler pistol grip (사막색))",
+      "new": "MCX 래틀러 권총손잡이 (사막색)",
+      "had_source": "MCX Rattler pistol grip (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "3cc1a01be7839321ab030074 Name",
+      "old": "슈어파이어 SOCOM762-Ti2 7.62 소음기 사막색\n(SureFire SOCOM762-Ti2 7.62x51 sound suppressor (사막색))",
+      "new": "슈어파이어 SOCOM762-Ti2 7.62 소음기 사막색",
+      "had_source": "SureFire SOCOM762-Ti2 7.62x51 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "3f9e58d5bea75f1a0ca43399 Name",
+      "old": "AR-15 B5 시스템 브라보 개머리판 (사막색)\n(AR-15 B5 Systems Bravo stock (사막색))",
+      "new": "AR-15 B5 시스템 브라보 개머리판 (사막색)",
+      "had_source": "AR-15 B5 Systems Bravo stock (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "41e97223a2ad6374a096ae14 Name",
+      "old": "이오텍 EXPS3 /w 유니티 FTC (사막색)\n(EOTech EXPS3 /w Unity FTC (사막색))",
+      "new": "이오텍 EXPS3 /w 유니티 FTC (사막색)",
+      "had_source": "Eotech EXPS3 /w Unity FTC (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "427426766389fca83151e49a Name",
+      "old": "트리지콘 ACOG TA31-C 레드 4x32 조준경 (블랙)\n(Trijicon ACOG TA31-C Red 4x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA31-C 레드 4x32 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA31-C Red 4x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "4330375080cfa3b0acf681c0 Name",
+      "old": "가이슬리 슈퍼 프리시전 T1 로워 1/3 코위트니스 마운트 (블랙)\n(Geissele Super Precision T1 Lower 1/3 Co-Witness mount (검은색))",
+      "new": "가이슬리 슈퍼 프리시전 T1 로워 1/3 코위트니스 마운트 (블랙)",
+      "had_source": "Geissele Super Precision T1 Lower 1/3 Co-Witness mount (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "43814001cfda6adc7f69fe6b Name",
+      "old": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (코발트)\n(AR-15 Daniel Defense MFR 15인치 M-LOK handguard (Cobalt))",
+      "new": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (코발트)",
+      "had_source": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (Cobalt)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "44805f562c61dd6f99629991 Name",
+      "old": "AR-15 5.56x45mm 11.5인치 총열\n(AR-15 5.56x45mm 11.5인치 barrel (Epics AIO))",
+      "new": "AR-15 5.56x45mm 11.5인치 총열",
+      "had_source": "AR-15 5.56x45mm 11.5 inch barrel"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "4656b02dbe4bfa4a3a9e6d40 Name",
+      "old": "30발, AK-101 5.56x45 퍼프건 탄창 (사막색)\n(AK-101 5.56x45 PUFGUN 30-round magazine (사막색))",
+      "new": "30발, AK-101 5.56x45 퍼프건 탄창 (사막색)",
+      "had_source": "AK-101 5.56x45 PUFGUN 30-round magazine (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "467eb5903b8a619b136c6e93 Name",
+      "old": "AR-15 가이슬리 SMR MK16 10.5인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK16 10.5인치 M-LOK handguard (BLK))",
+      "new": "AR-15 가이슬리 SMR MK16 10.5인치 엠락 총열덮개 (블랙)",
+      "had_source": "AR-15 Geissele SMR MK16 10.5 inch M-LOK handguard (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "46a173acb55a8e6eb3599227 Name",
+      "old": "다니엘 디펜스 권총손잡이 (블랙)\n(Daniel Defense pistol grip (검은색))",
+      "new": "다니엘 디펜스 권총손잡이 (블랙)",
+      "had_source": "Daniel Defense pistol grip (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "48b2b70316ee11cd78074149 Name",
+      "old": "AR-15 B&T 로텍스-V 컴팩트 5.56x45 소음기 (사막색)\n(AR-15 B&T Rotex-V Compact 5.56x45 sound suppressor (사막색))",
+      "new": "AR-15 B&T 로텍스-V 컴팩트 5.56x45 소음기 (사막색)",
+      "had_source": "AR-15 B&T Rotex-V Compact 5.56x45 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "49d2d35e1289ec81e2dae68d Name",
+      "old": "AR-15 BCM MCMR 10인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 10 inch M-LOK handguard (사막색))",
+      "new": "AR-15 BCM MCMR 10인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 BCM  MCMR 10 inch M-LOK handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "4c834636cd952988d60d6561 Name",
+      "old": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (사막색)\n(AR-15 Geissele SMR MK8 13인치 M-LOK handguard (DDC))",
+      "new": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 Geissele SMR MK8 13 inch M-LOK handguard (DDC)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "4da17d6e133487626488aa2d Name",
+      "old": "AK SAG MK3 섀시 시스템 (그레이)\n(AK SAG MK3 Chassis System (그레이))",
+      "new": "AK SAG MK3 섀시 시스템 (그레이)",
+      "had_source": "AK SAG MK3 Chassis System (GRY)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "4de0d40a43a9c998bf67b5ba Name",
+      "old": "AR-15 호그 수직 폴리머 권총손잡이 (블랙)\n(AR-15 Hogue Vertical Polymer Pistol Grip (검은색))",
+      "new": "AR-15 호그 수직 폴리머 권총손잡이 (블랙)",
+      "had_source": "AR-15 Hogue Vertical Polymer Pistol Grip (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "4e826b607efd7bd4630609c9 Name",
+      "old": "MCX 래틀러 엠락 총열덮개 (사막색)\n(MCX Rattler M-lok handguard (사막색))",
+      "new": "MCX 래틀러 엠락 총열덮개 (사막색)",
+      "had_source": "MCX Rattler M-lok handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "4eec6c5df7521b4c5512d257 Name",
+      "old": "AR-15 나이츠 아머먼트 URX 4 13인치 엠락 총열덮개 (사막색)\n(AR-15 Knights Armament URX 4 13인치 M-LOK handguard (사막색))",
+      "new": "AR-15 나이츠 아머먼트 URX 4 13인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 Knights Armament URX 4 13 inch M-LOK handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "4ff0af6a0e6cdbd096c0197c Name",
+      "old": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK8 15인치 M-LOK handguard (ODG))",
+      "new": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (올리브 드랩)",
+      "had_source": "AR-15 Geissele SMR MK8 15 inch M-LOK handguard (ODG)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "51ef8504f4a2e4d2029ff682 Name",
+      "old": "슈타이너 CQBL-1 전술 장비 (사막색)\n(Steiner CQBL-1 tactical device (사막색))",
+      "new": "슈타이너 CQBL-1 전술 장비 (사막색)",
+      "had_source": "Steiner CQBL-1 tactical device (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "530833cf60b51e399df58ecf Name",
+      "old": "AR-15 가이슬리 SMR MK4 13인치 총열덮개 (DDC)\n(AR-15 Geissele SMR MK4 13인치 handguard (DDC))",
+      "new": "AR-15 가이슬리 SMR MK4 13인치 총열덮개 (DDC)",
+      "had_source": "AR-15 Geissele SMR MK4 13 inch handguard (DDC)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "530c92166b34a8f2c2c96732 Name",
+      "old": "트리지콘 ACOG TA31-C 녹색 4x32 조준경 (블랙)\n(Trijicon ACOG TA31-C Green 4x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA31-C 녹색 4x32 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA31-C Green 4x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "539b18d0242b3bc3d4ed0e7a Name",
+      "old": "AR-15 BCM MCMR 15인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 15인치 M-LOK handguard (사막색))",
+      "new": "AR-15 BCM MCMR 15인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 BCM  MCMR 15 inch M-LOK handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "5518037d5b8964f16bd7fa0b Name",
+      "old": "트리지콘 ACOG TA31F 녹색 4x32 조준경 (블랙)\n(Trijicon ACOG TA31F Green 4x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA31F 녹색 4x32 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA31F Green 4x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "559582b091fc761d95c2da36 Name",
+      "old": "HK 416A5 가이슬리 SMR 10.5인치 총열덮개 (DDC)\n(HK 416A5 Geissele SMR 10.5인치 handguard (DDC))",
+      "new": "HK 416A5 가이슬리 SMR 10.5인치 총열덮개 (DDC)",
+      "had_source": "HK 416A5 Geissele SMR 10.5 inch handguard (DDC)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "55dccd6302404bfc237a814e Name",
+      "old": "렙틸리아 1.93인치 마운트 (에임포인트 ACRO용, 블랙)\n(Reptilia 1.93\" mount for Aimpoint ACRO (검은색))",
+      "new": "렙틸리아 1.93인치 마운트 (에임포인트 ACRO용, 블랙)",
+      "had_source": "Reptilia 1.93\" mount for Aimpoint ACRO (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "5658c6dbe290e948a715c896 Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 12.5인치 하부 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 12.5 lower handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 12.5인치 하부 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 12.5 lower handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "5a6d510008f101731e1ccad1 Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 9.5인치 하부 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 9.5인치 lower handguard (D사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 9.5인치 하부 총열덮개 (D사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 9.5 inch lower handguard (DFDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "5ce8cf47be4bcafcae8c7bd9 Name",
+      "old": "AR-15 가이슬리 SMR MK4 15인치 총열덮개 (DDC)\n(AR-15 Geissele SMR MK4 15인치 handguard (DDC))",
+      "new": "AR-15 가이슬리 SMR MK4 15인치 총열덮개 (DDC)",
+      "had_source": "AR-15 Geissele SMR MK4 15 inch handguard (DDC)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "602d21ba485acbec2665bb9f Name",
+      "old": "AR-15 호그 수직 폴리머 권총손잡이 (사막색)\n(AR-15 Hogue Vertical Polymer Pistol Grip (사막색))",
+      "new": "AR-15 호그 수직 폴리머 권총손잡이 (사막색)",
+      "had_source": "AR-15 Hogue Vertical Polymer Pistol Grip (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "622d454e517ae2325e623625 Name",
+      "old": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (사막색)\n(AR-15 Daniel Defense MFR 15인치 M-LOK handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (Mil-FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "6581a57dfb78e9f0f816c845 Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 12.5인치 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 12.5인치 handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 12.5인치 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 12.5 inch handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "66079d40016c0de3509a31e7 Name",
+      "old": "가이슬리 슈퍼 프리시전 T1 앱솔루트 코위트니스 마운트 (블랙)\n(Geissele Super Precision T1 Absolute Co-Witness mount (검은색))",
+      "new": "가이슬리 슈퍼 프리시전 T1 앱솔루트 코위트니스 마운트 (블랙)",
+      "had_source": "Geissele Super Precision T1 Absolute Co-Witness mount (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "67a198d04e36e7c17ead7f55 Name",
+      "old": "오터 크릭 랩스 폴로늄-K 5.56x45 소음기 (사막색)\n(Otter Creek Labs Polonium-K 5.56x45 sound suppressor (사막색))",
+      "new": "오터 크릭 랩스 폴로늄-K 5.56x45 소음기 (사막색)",
+      "had_source": "Otter Creek Labs Polonium-K 5.56x45 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "67a54f392f91e5360ecfa677 Name",
+      "old": "AR-15 가이슬리 SMR MK4 7인치 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK4 7인치 handguard (ODG))",
+      "new": "AR-15 가이슬리 SMR MK4 7인치 총열덮개 (올리브 드랩)",
+      "had_source": "AR-15 Geissele SMR MK4 7 inch handguard (ODG)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "6878917c7adb7e17eb1273ce Name",
+      "old": "AR-10 슈어파이어 워콤프 7.62x51 소염기\n(AR-10 SureFire Warcomp 7.62x51 Flash Hider)",
+      "new": "AR-10 슈어파이어 워콤프 7.62x51 소염기",
+      "had_source": "AR-10 Surefire Warcomp 7.62x51 Flash Hider"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "687ff858ff57353a91a66ca5 Name",
+      "old": "HK 416A5 가이슬리 SMR 10.5인치 총열덮개 (블랙)\n(HK 416A5 Geissele SMR 10.5인치 handguard (BLK))",
+      "new": "HK 416A5 가이슬리 SMR 10.5인치 총열덮개 (블랙)",
+      "had_source": "HK 416A5 Geissele SMR 10.5 inch handguard (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "694f146cd178947eaf000001 Name",
+      "old": "슈타이너 DBAL-A3 전술 장비 (사막색)\n(Steiner DBAL-D2 tactical device (사막색))",
+      "new": "슈타이너 DBAL-A3 전술 장비 (사막색)",
+      "had_source": "Steiner DBAL-D2 tactical device (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "6c06aaf97171cda862583e24 Name",
+      "old": "AR-15 BCM MCMR 9인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 9 inch M-LOK handguard (사막색))",
+      "new": "AR-15 BCM MCMR 9인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 BCM  MCMR 9 inch M-LOK handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "6ff95267a947d1c2856f3c0f Name",
+      "old": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK8 9.5인치 M-LOK handguard (ODG))",
+      "new": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (올리브 드랩)",
+      "had_source": "AR-15 Geissele SMR MK8 9.5 inch M-LOK handguard (ODG)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "71e6bc96b1a4cce0b4340b20 Name",
+      "old": "렙틸리아 로워 1/3 마운트 (에임포인트 ACRO용, 블랙)\n(Reptilia Lower 1/3 mount for Aimpoint ACRO (검은색))",
+      "new": "렙틸리아 로워 1/3 마운트 (에임포인트 ACRO용, 블랙)",
+      "had_source": "Reptilia Lower 1/3 mount for Aimpoint ACRO (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "75423eeee232e178d80c4925 Name",
+      "old": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (DDC)\n(AR-15 Geissele SMR MK8 9.5인치 M-LOK handguard (DDC))",
+      "new": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (DDC)",
+      "had_source": "AR-15 Geissele SMR MK8 9.5 inch M-LOK handguard (DDC)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "756ab0aa38d8481397f2813a Name",
+      "old": "AK 호그 이중 사출 권총손잡이 (블랙)\n(AK Hogue OverMolded pistol grip (검은색))",
+      "new": "AK 호그 이중 사출 권총손잡이 (블랙)",
+      "had_source": "AK Hogue OverMolded pistol grip (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "765efc3218305b91ce279f7c Name",
+      "old": "트리지콘 ACOG TA31-CH 녹색 4x32 조준경 (블랙)\n(Trijicon ACOG TA31-CH Green 4x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA31-CH 녹색 4x32 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA31-CH Green 4x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "788eac2547e9e3f30daa57ba Name",
+      "old": "AR-15 UTG M16A2 스타일 고정형 개머리판 (사막색)\n(AR-15 UTG M16A2 style fixed stock (사막색) (EpicsAIO))",
+      "new": "AR-15 UTG M16A2 스타일 고정형 개머리판 (사막색)",
+      "had_source": "AR-15 UTG M16A2 style fixed stock (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "7a431acbc2bc03fb8305fc93 Name",
+      "old": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (딥 우드)\n(AR-15 Daniel Defense MFR 15인치 M-LOK handguard (Deep Woods))",
+      "new": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (딥 우드)",
+      "had_source": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (Deep Woods)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "7af1b735539670b26a3fe68b Name",
+      "old": "렙틸리아 AUS 34mm 링 스코프 마운트 (사막색)\n(Reptilia AUS 34mm ring scope mount (사막색))",
+      "new": "렙틸리아 AUS 34mm 링 스코프 마운트 (사막색)",
+      "had_source": "Reptilia AUS 34mm ring scope mount (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "7ca248803b89788492384ba2 Name",
+      "old": "이오텍 EXPS3 /w G33\n(EOTech EXPS3 /w G33)",
+      "new": "이오텍 EXPS3 /w G33",
+      "had_source": "Eotech EXPS3 /w G33"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "7e07f0150bb32a595e2c142b Name",
+      "old": "렙틸리아 옵셋 마운트 (에임포인트 ACRO용, 사막색)\n(Reptilia Offset mount for Aimpoint ACRO (사막색))",
+      "new": "렙틸리아 옵셋 마운트 (에임포인트 ACRO용, 사막색)",
+      "had_source": "Reptilia Offset mount for Aimpoint ACRO (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "7fcdd565380cb8fc9b0fb1f1 Name",
+      "old": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (블랙)\n(AR-15 Daniel Defense MFR 15인치 M-LOK handguard (BLK))",
+      "new": "AR-15 다니엘 디펜스 MFR 15인치 엠락 총열덮개 (블랙)",
+      "had_source": "AR-15 Daniel Defense MFR 15 inch M-LOK handguard (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "7fe5839a2d1e2eb9c6045f11 Name",
+      "old": "AR-15 슈어파이어 Warcomp 클로즈드 타인 5.56x45 소염기\n(AR-15 SureFire Warcomp Closed Tine 5.56x45 flash Hider)",
+      "new": "AR-15 슈어파이어 Warcomp 클로즈드 타인 5.56x45 소염기",
+      "had_source": "AR-15 Surefire Warcomp Closed Tine 5.56x45 flash Hider"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "80cbe6559756b8811d5542e5 Name",
+      "old": "AR-15 슈어파이어 SFMB 5.56x45 보정기\n(AR-15 SureFire SFMB 5.56x45 Muzzle brake)",
+      "new": "AR-15 슈어파이어 SFMB 5.56x45 보정기",
+      "had_source": "AR-15 Surefire SFMB 5.56x45 Muzzle brake"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "80cf189d3de1a40fb52a902f Name",
+      "old": "AR-15 호그 이중 사출 카빈 개머리판 (블랙)\n(AR-15 Hogue OverMolded Carbine stock (검은색))",
+      "new": "AR-15 호그 이중 사출 카빈 개머리판 (블랙)",
+      "had_source": "AR-15 Hogue OverMolded Carbine stock (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "81fb194d053a4ccedce3782d Name",
+      "old": "시그 사우어 로메오8T /w 유니티 FTC (블랙)\n(SIG Sauer ROMEO8T /w Unity FTC (검은색))",
+      "new": "시그 사우어 로메오8T /w 유니티 FTC (블랙)",
+      "had_source": "SIG Sauer ROMEO8T /w Unity FTC (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "82144d6a0be3285243f60c50 Name",
+      "old": "AR-15 B&T 로텍스-V 컴팩트 5.56x45 소음기 (그레이)\n(AR-15 B&T Rotex-V Compact 5.56x45 sound suppressor (그레이))",
+      "new": "AR-15 B&T 로텍스-V 컴팩트 5.56x45 소음기 (그레이)",
+      "had_source": "AR-15 B&T Rotex-V Compact 5.56x45 sound suppressor (GRY)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "85089908aa319642316b9cfb Name",
+      "old": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (핑크)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Pink))",
+      "new": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (핑크)",
+      "had_source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Pink)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "86171495d4b6145eb4f0f1d5 Name",
+      "old": "AR-15 다니엘 디펜스 RIS III FSP 13인치 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III FSP 13 handguard (D사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III FSP 13인치 총열덮개 (D사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III FSP 13 handguard (DFDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "86509ab9a719ec35d68335ec Name",
+      "old": "트리지콘 ACOG TA31H 녹색 4x32 조준경 (블랙)\n(Trijicon ACOG TA31H Green 4x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA31H 녹색 4x32 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA31H Green 4x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "887069265f946005918c6279 Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 10.5인치 하부 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 10.5 lower handguard (D사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 10.5인치 하부 총열덮개 (D사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 10.5 lower handguard (DFDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "8a25358a28252c3b7fcb7e4a Name",
+      "old": "AK-74 제니트 DTK 푸트니크 5.45x39 소음기 (사막색)\n(AK-74 Zenit DTK Putnik 5.45x39 sound suppressor (사막색))",
+      "new": "AK-74 제니트 DTK 푸트니크 5.45x39 소음기 (사막색)",
+      "had_source": "AK-74 Zenit DTK Putnik 5.45x39 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "8d9e9ff3020f92eb5fc46680 Name",
+      "old": "레오폴드 LCO /w 유니티 FTC (블랙)\n(Leupold LCO /w Unity FTC (검은색))",
+      "new": "레오폴드 LCO /w 유니티 FTC (블랙)",
+      "had_source": "Leupold LCO /w Unity FTC (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "8e91893cd97979e31dc69ff4 Name",
+      "old": "트리지콘 ACOG TA31F 레드 4x32 조준경 (블랙)\n(Trijicon ACOG TA31F Red 4x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA31F 레드 4x32 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA31F Red 4x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "8f6edf466418c1b8d9356625 Name",
+      "old": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (블랙)\n(AR-15 Daniel Defense MFR 13.5인치 M-LOK handguard (BLK))",
+      "new": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (블랙)",
+      "had_source": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "9065d7003f6f4f62ca099bbf Name",
+      "old": "20발, 콜트 AR-15 5.56x45 직선형 탄창\n(5.56x45 Colt AR-15 Straight 20-round magazine (EpicsAIO))",
+      "new": "20발, 콜트 AR-15 5.56x45 직선형 탄창",
+      "had_source": "5.56x45 Colt AR-15 Straight 20-round magazine"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "923987338260a1bb89e6a11b Name",
+      "old": "맥풀 엠락 2.5인치 레일 (양각대 전용)\n(Magpul M-LOK 2.5인치 rail (for bipods only))",
+      "new": "맥풀 엠락 2.5인치 레일 (양각대 전용)",
+      "had_source": "Magpul M-LOK 2.5 inch rail (for bipods only)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "986150a30f2c89c4555dead5 Name",
+      "old": "렙틸리아 로워 1/3 마운트 (에임포인트 ACRO용, 사막색)\n(Reptilia Lower 1/3 mount for Aimpoint ACRO (사막색))",
+      "new": "렙틸리아 로워 1/3 마운트 (에임포인트 ACRO용, 사막색)",
+      "had_source": "Reptilia Lower 1/3 mount for Aimpoint ACRO (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "98faf3e813c71c69fdc058a6 Name",
+      "old": "트리지콘 ACOG TA31H 레드 4x32 조준경 (블랙)\n(Trijicon ACOG TA31H Red 4x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA31H 레드 4x32 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA31H Red 4x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "9911241c521cf272e28138ab Name",
+      "old": "오터 크릭 랩스 폴로늄 5.56x45 소음기 (사막색)\n(Otter Creek Labs Polonium 5.56x45 sound suppressor (사막색))",
+      "new": "오터 크릭 랩스 폴로늄 5.56x45 소음기 (사막색)",
+      "had_source": "Otter Creek Labs Polonium 5.56x45 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "99b4f9090dabbe90dd48a5ee Name",
+      "old": "AR-15 BCM MCMR 8인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 8인치 M-LOK handguard (사막색))",
+      "new": "AR-15 BCM MCMR 8인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 BCM  MCMR 8 inch M-LOK handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "9a4179548257f7a1f63f30b1 Name",
+      "old": "AR-15 슈어파이어 엘리미네이터 5.56x45 소염기\n(AR-15 SureFire Eliminator 5.56x45 Flash Hider)",
+      "new": "AR-15 슈어파이어 엘리미네이터 5.56x45 소염기",
+      "had_source": "AR-15 Surefire Eliminator 5.56x45 Flash Hider"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "9c8b54c2f8c843fe7ce6c6ca Name",
+      "old": "슈어파이어 SOCOM762-RC2 7.62 소음기 사막색\n(SureFire SOCOM762-RC2 7.62X51 sound suppressor (사막색))",
+      "new": "슈어파이어 SOCOM762-RC2 7.62 소음기 사막색",
+      "had_source": "SureFire SOCOM762-RC2 7.62X51 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "9d60f153bb8ee15f018f180b Name",
+      "old": "AR-15 맥심 Gen 7 CQB 개머리판 완충패드 (블랙)\n(AR-15 Maxim Gen 7 CQB buttpad (검은색))",
+      "new": "AR-15 맥심 Gen 7 CQB 개머리판 완충패드 (블랙)",
+      "had_source": "AR-15 Maxim Gen 7 CQB buttpad (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "9eec17c39b0fca74b9e6827c Name",
+      "old": "AR-15 다니엘 디펜스 MFR 9인치 엠락 총열덮개 (사막색)\n(AR-15 Daniel Defense MFR 9 inch M-LOK handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 MFR 9인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense MFR 9 inch M-LOK handguard (Mil-FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "9f56d67e30b6ee14fbd99821 Name",
+      "old": "슈어파이어 SOCOM556-RC3 5.56x45 소음기 (사막색)\n(SureFire SOCOM556-RC3 5.56x45 sound suppressor (사막색))",
+      "new": "슈어파이어 SOCOM556-RC3 5.56x45 소음기 (사막색)",
+      "had_source": "SureFire SOCOM556-RC3 5.56x45 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "a0abb28616af5a7f474b3649 Name",
+      "old": "AR-15 다니엘 디펜스 MFR 10인치 엠락 총열덮개 (사막색)\n(AR-15 Daniel Defense MFR 10 inch M-LOK handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 MFR 10인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense MFR 10 inch M-LOK handguard (Mil-FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "a5c171496c1870f205a3c972 Name",
+      "old": "보텍스 UH-1 /w 유니티 FTC (블랙)\n(Vortex UH-1 /w Unity FTC (검은색))",
+      "new": "보텍스 UH-1 /w 유니티 FTC (블랙)",
+      "had_source": "Vortex UH-1 /w Unity FTC (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "a5c7765dce79778422ff4e1c Name",
+      "old": "AK 호그 이중 사출 권총손잡이 (사막색)\n(AK Hogue OverMolded pistol grip (사막색))",
+      "new": "AK 호그 이중 사출 권총손잡이 (사막색)",
+      "had_source": "AK Hogue OverMolded pistol grip (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "a66f8c0dc225ec71541a8be1 Name",
+      "old": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (사막색)\n(AR-15 Daniel Defense MFR 13.5인치 M-LOK handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (Mil-FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "a87b4ff0e4df1af49c4d48b7 Name",
+      "old": "레오폴드 D-Evo 오프셋 6x20 컴팩트 조준경 (사막색)\n(Leupold D-Evo off-axis 6x20 compact scope (사막색))",
+      "new": "레오폴드 D-Evo 오프셋 6x20 컴팩트 조준경 (사막색)",
+      "had_source": "Leupold D-Evo off-axis 6x20 compact scope (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "aac2e5628ec0f31213f1f53b Name",
+      "old": "AR-15 B&T 로텍스-V 5.56x45 소음기 (그레이)\n(AR-15 B&T Rotex-V 5.56x45 sound suppressor (그레이))",
+      "new": "AR-15 B&T 로텍스-V 5.56x45 소음기 (그레이)",
+      "had_source": "AR-15 B&T Rotex-V 5.56x45 sound suppressor (GRY)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "aad949705aece28fb98b820f Name",
+      "old": "트리지콘 ACOG TA648-308 6x48 조준경 (블랙)\n(Trijicon ACOG TA648-308 6x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA648-308 6x48 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA648-308 6x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "acc415b469ea6ac82c20ea5f Name",
+      "old": "HK 416A5 가이슬리 SMR 14.5인치 총열덮개 (블랙)\n(HK 416A5 Geissele SMR 14.5인치 handguard (BLK))",
+      "new": "HK 416A5 가이슬리 SMR 14.5인치 총열덮개 (블랙)",
+      "had_source": "HK 416A5 Geissele SMR 14.5 inch handguard (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "ad483d8373c8ff078103aaa1 Name",
+      "old": "AR-15 슈어파이어 클로즈드 타인 5.56x45 소염기\n(AR-15 SureFire Closed Tine 5.56x45 Flash Hider)",
+      "new": "AR-15 슈어파이어 클로즈드 타인 5.56x45 소염기",
+      "had_source": "AR-15 Surefire Closed Tine 5.56x45 Flash Hider"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "b5bf48db97ac14368929441e Name",
+      "old": "AR-15 가이슬리 SMR MK4 7인치 총열덮개 (DDC)\n(AR-15 Geissele SMR MK4 7인치 handguard (DDC))",
+      "new": "AR-15 가이슬리 SMR MK4 7인치 총열덮개 (DDC)",
+      "had_source": "AR-15 Geissele SMR MK4 7 inch handguard (DDC)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "b9a6137901c6b1dd27c0c0cd Name",
+      "old": "슈어파이어 SOCOM556-미니2 5.56 소음기 사막색\n(SureFire SOCOM556-Mini2 5.56x45 sound suppressor (사막색))",
+      "new": "슈어파이어 SOCOM556-미니2 5.56 소음기 사막색",
+      "had_source": "SureFire SOCOM556-Mini2 5.56x45 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "b9acede708b1c97d3c895862 Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 12.5인치 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 12.5인치 handguard (D사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 12.5인치 총열덮개 (D사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 12.5 inch handguard (DFDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "ba84e1c4ee4d504cb0bdbb0d Name",
+      "old": "슈어파이어 SOCOM338-Ti .338 LM 소음기\n(SureFire SOCOM338-Ti .338 LM sound suppressor)",
+      "new": "슈어파이어 SOCOM338-Ti .338 LM 소음기",
+      "had_source": "Surefire SOCOM338-Ti .338 LM sound suppressor"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "bb4bb5d7e4f3ad7a1f19571e Name",
+      "old": "슈타이너 DBAL-i2 전술 장비 (블랙)\n(Steiner DBAL-i2 tactical device (검은색))",
+      "new": "슈타이너 DBAL-i2 전술 장비 (블랙)",
+      "had_source": "Steiner DBAL-i2 tactical device (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "bb51865a7e56f49a5af59829 Name",
+      "old": "AR-15 콜트 파이버라이트 개머리판\n(AR-15 Colt FiberLite stock (EpicsAIO))",
+      "new": "AR-15 콜트 파이버라이트 개머리판",
+      "had_source": "AR-15 Colt FiberLite stock"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "bc1310a6a0aaa46970321e55 Name",
+      "old": "AR-15 맥풀 DT 카빈 개머리판 (사막색)\n(AR-15 Magpul DT Carbine Stock (사막색))",
+      "new": "AR-15 맥풀 DT 카빈 개머리판 (사막색)",
+      "had_source": "AR-15 Magpul DT Carbine Stock (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "be1851da8c6438810d9aae86 Name",
+      "old": "AR-15 가이슬리 SMR MK4 15인치 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK4 15인치 handguard (ODG))",
+      "new": "AR-15 가이슬리 SMR MK4 15인치 총열덮개 (올리브 드랩)",
+      "had_source": "AR-15 Geissele SMR MK4 15 inch handguard (ODG)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "befa747c1e35a5283d2b4b66 Name",
+      "old": "HK 416A5 가이슬리 SMR 14.5인치 총열덮개 (DDC)\n(HK 416A5 Geissele SMR 14.5인치 handguard (DDC))",
+      "new": "HK 416A5 가이슬리 SMR 14.5인치 총열덮개 (DDC)",
+      "had_source": "HK 416A5 Geissele SMR 14.5 inch handguard (DDC)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "bf593ba2155d31edd2b421c7 Name",
+      "old": "오터 크릭 랩스 폴로늄 7.62x51 소음기 (사막색)\n(Otter Creek Labs Polonium 7.62x51 sound suppressor (사막색))",
+      "new": "오터 크릭 랩스 폴로늄 7.62x51 소음기 (사막색)",
+      "had_source": "Otter Creek Labs Polonium 7.62x51 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "bf8cf7b9d0f73ce039591c65 Name",
+      "old": "트리지콘 ACOG TA648MGO-M240 6x48 조준경 (블랙)\n(Trijicon ACOG TA648MGO-M240 6x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA648MGO-M240 6x48 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA648MGO-M240 6x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "bfa234cc36aac6c9e1190ab1 Name",
+      "old": "KAC QDC/CRS-PRT 5.56x45 소음기 (사막색)\n(KAC QDC/CRS-PRT 5.56x45 sound suppressor (사막색))",
+      "new": "KAC QDC/CRS-PRT 5.56x45 소음기 (사막색)",
+      "had_source": "KAC QDC/CRS-PRT 5.56x45 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "bfe86caecde6728199b9eed5 Name",
+      "old": "AR-15 콜트 M16A2 고정형 개머리판\n(AR-15 Colt M16A2 fixed stock (EpicsAIO))",
+      "new": "AR-15 콜트 M16A2 고정형 개머리판",
+      "had_source": "AR-15 Colt M16A2 fixed stock"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "c0e0bac29a8c50eff201f00e Name",
+      "old": "슈타이너 CQBL-1 전술 장비 (블랙)\n(Steiner CQBL-1 tactical device (검은색))",
+      "new": "슈타이너 CQBL-1 전술 장비 (블랙)",
+      "had_source": "Steiner CQBL-1 tactical device (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "c0f85d7483fde9c114eb3c54 Name",
+      "old": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (올리브 드랩)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Olive Green))",
+      "new": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (올리브 드랩)",
+      "had_source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Olive Green)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "c26f2af872656829feb27c08 Name",
+      "old": "유니티 택티컬 FAST 마이크로 마운트, 2.26인치 (사막색)\n(Unity Tactical FAST Micro Mount, 2.26 (사막색))",
+      "new": "유니티 택티컬 FAST 마이크로 마운트, 2.26인치 (사막색)",
+      "had_source": "Unity Tactical FAST Micro Mount, 2.26 (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "c2b24307fb89f8984723bcdd Name",
+      "old": "AR-15 BCM MCMR 7인치 엠락 총열덮개 (사막색)\n(AR-15 BCM  MCMR 7인치 M-LOK handguard (사막색))",
+      "new": "AR-15 BCM MCMR 7인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 BCM  MCMR 7 inch M-LOK handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "c3ad313c8108f49a65187daf Name",
+      "old": "트리지콘 ACOG TA648-50 6x48 조준경 (블랙)\n(Trijicon ACOG TA648-50 6x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA648-50 6x48 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA648-50 6x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "c569fa63e462980552ecdc77 Name",
+      "old": "이오텍 OGL 전술 장비 (사막색)\n(EOTech OGL tactical device (사막색))",
+      "new": "이오텍 OGL 전술 장비 (사막색)",
+      "had_source": "Eotech OGL tactical device (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "ca9b71e00031160119ab1e58 Name",
+      "old": "가이슬리 슈퍼 프리시전 T1 앱솔루트 코위트니스 마운트 (사막색)\n(Geissele Super Precision T1 Absolute Co-Witness mount (사막색))",
+      "new": "가이슬리 슈퍼 프리시전 T1 앱솔루트 코위트니스 마운트 (사막색)",
+      "had_source": "Geissele Super Precision T1 Absolute Co-Witness mount (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "cc4134b4c122adad37aa342a Name",
+      "old": "슈어파이어 워든 블라스트 리듀서 사막색\n(SureFire Warden Fast-Attach Blast Regulator (사막색))",
+      "new": "슈어파이어 워든 블라스트 리듀서 사막색",
+      "had_source": "SureFire Warden Fast-Attach Blast Regulator (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "cd1f0458b18b79f2da3ad03f Name",
+      "old": "트리지콘 ACOG TA648 6x48 조준경 (블랙)\n(Trijicon ACOG TA648 6x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA648 6x48 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA648 6x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "cdd912ad2c46dc2c85ddabe9 Name",
+      "old": "AR-15 나이츠 아머먼트 URX 4 14.5인치 엠락 총열덮개 (사막색)\n(AR-15 Knights Armament URX 4 14.5인치 M-LOK handguard (사막색))",
+      "new": "AR-15 나이츠 아머먼트 URX 4 14.5인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 Knights Armament URX 4 14.5 inch M-LOK handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "ce6d6c62180c5cdbc048ec06 Name",
+      "old": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (DDC)\n(AR-15 Geissele SMR MK8 7인치 M-LOK handguard (DDC))",
+      "new": "AR-15 가이슬리 SMR MK8 7인치 엠락 총열덮개 (DDC)",
+      "had_source": "AR-15 Geissele SMR MK8 7 inch M-LOK handguard (DDC)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "d04e8e4692ccca8ee535f3da Name",
+      "old": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (슬레이트 GRY)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Slate Grey))",
+      "new": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (슬레이트 GRY)",
+      "had_source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Slate Grey)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "d107e3b5a93a69ccfcb9f439 Name",
+      "old": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (사막색)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (사막색))",
+      "new": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (사막색)",
+      "had_source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "d21e3b7f7c8f308c1beba55c Name",
+      "old": "AR-15 가이슬리 SMR MK16 9.5인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK16 9.5인치 M-LOK handguard (BLK))",
+      "new": "AR-15 가이슬리 SMR MK16 9.5인치 엠락 총열덮개 (블랙)",
+      "had_source": "AR-15 Geissele SMR MK16 9.5 inch M-LOK handguard (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "d2234d6695f82aae5012f0d5 Name",
+      "old": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (사막색)\n(AR-15 Geissele SMR MK8 15인치 M-LOK handguard (DDC))",
+      "new": "AR-15 가이슬리 SMR MK8 15인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 Geissele SMR MK8 15 inch M-LOK handguard (DDC)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "d29f21dabbdb6a8577bd5a4c Name",
+      "old": "AR-15 B&T 로텍스-V 5.56x45 디플렉터 (그레이)\n(AR-15 B&T Rotex-V 5.56x45 Deflector (그레이))",
+      "new": "AR-15 B&T 로텍스-V 5.56x45 디플렉터 (그레이)",
+      "had_source": "AR-15 B&T Rotex-V 5.56x45 Deflector (GRY)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "d358ade47bd93cce3bb7afa6 Name",
+      "old": "AR-15 나이츠 아머먼트 URX 4 10.75인치 엠락 총열덮개 (사막색)\n(AR-15 Knights Armament URX 4 10.75인치 M-LOK handguard (사막색))",
+      "new": "AR-15 나이츠 아머먼트 URX 4 10.75인치 엠락 총열덮개 (사막색)",
+      "had_source": "AR-15 Knights Armament URX 4 10.75 inch M-LOK handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "d3e07e32dc01693c226878dc Name",
+      "old": "GBRS 히드라 라이저 콤보 마운트 (사막색)\n(GBRS Hydra riser combo mount (사막색))",
+      "new": "GBRS 히드라 라이저 콤보 마운트 (사막색)",
+      "had_source": "GBRS Hydra riser combo mount (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "d4f59f06b5099086743e3b62 Name",
+      "old": "윌콕스 RAID Xe 전술 장비 (사막색)\n(Wilcox RAID Xe tactical device (사막색))",
+      "new": "윌콕스 RAID Xe 전술 장비 (사막색)",
+      "had_source": "Wilcox RAID Xe tactical device (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "d55014a6621462a7463f15aa Name",
+      "old": "AR-15 슈어파이어 프로콤프 5.56x45 보정기\n(AR-15 SureFire ProComp 5.56x45 muzzle brake)",
+      "new": "AR-15 슈어파이어 프로콤프 5.56x45 보정기",
+      "had_source": "AR-15 Surefire ProComp 5.56x45 muzzle brake"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "d62cced77df83a0683e38fbc Name",
+      "old": "윌콕스 RAID Xe 전술 장비 (블랙)\n(Wilcox RAID Xe tactical device (검은색))",
+      "new": "윌콕스 RAID Xe 전술 장비 (블랙)",
+      "had_source": "Wilcox RAID Xe tactical device (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "d725dee093285dd61f1a434d Name",
+      "old": "AR-15 가이슬리 SMR MK4 13인치 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK4 13인치 handguard (ODG))",
+      "new": "AR-15 가이슬리 SMR MK4 13인치 총열덮개 (올리브 드랩)",
+      "had_source": "AR-15 Geissele SMR MK4 13 inch handguard (ODG)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "dc11a1427ce1fc75d04a1e38 Name",
+      "old": "MCX 래틀러 상부총몸 (사막색)\n(MCX Rattler upper receiver (사막색))",
+      "new": "MCX 래틀러 상부총몸 (사막색)",
+      "had_source": "MCX Rattler upper receiver (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "dc443bf6ab32570c69096e37 Name",
+      "old": "가이슬리 슈퍼 프리시전 T1 로워 1/3 코위트니스 마운트 (사막색)\n(Geissele Super Precision T1 Lower 1/3 Co-Witness mount (사막색))",
+      "new": "가이슬리 슈퍼 프리시전 T1 로워 1/3 코위트니스 마운트 (사막색)",
+      "had_source": "Geissele Super Precision T1 Lower 1/3 Co-Witness mount (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "dd7caf9bd203b146528c8da4 Name",
+      "old": "에임포인트 ACRO P-2 반사 조준경 (블랙)\n(Aimpoint ACRO P-2 reflex sight (검은색))",
+      "new": "에임포인트 ACRO P-2 반사 조준경 (블랙)",
+      "had_source": "Aimpoint ACRO P-2 reflex sight (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "df9d8454a7214334710f8fc0 Name",
+      "old": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (딥 우드)\n(AR-15 Daniel Defense MFR 13.5인치 M-LOK handguard (Deep Woods))",
+      "new": "AR-15 다니엘 디펜스 MFR 13.5인치 엠락 총열덮개 (딥 우드)",
+      "had_source": "AR-15 Daniel Defense MFR 13.5 inch M-LOK handguard (Deep Woods)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e1543def58291668bac8e2c8 Name",
+      "old": "유니티 FAST 옵틱 라이저 (사막색)\n(Unity FAST Optic Riser (사막색))",
+      "new": "유니티 FAST 옵틱 라이저 (사막색)",
+      "had_source": "Unity FAST Optic Riser (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e214a01a6e82932b9ba17c2a Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 12.5인치 하부 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 12.5 lower handguard (D사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 12.5인치 하부 총열덮개 (D사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 12.5 lower handguard (DFDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e37c8df358fdec9a8780ea8c Name",
+      "old": "CGS SCI-SIX 5.56x45 소음기 (그레이)\n(CGS SCI-SIX 5.56x45 sound suppressor (그레이))",
+      "new": "CGS SCI-SIX 5.56x45 소음기 (그레이)",
+      "had_source": "CGS SCI-SIX 5.56x45 sound suppressor (GRY)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e486df50a1cc3fbc01855f96 Name",
+      "old": "AR-15 맥심 Gen 7 CQB 개머리판 튜브 (블랙)\n(AR-15 Maxim Gen 7 CQB stock tube (검은색))",
+      "new": "AR-15 맥심 Gen 7 CQB 개머리판 튜브 (블랙)",
+      "had_source": "AR-15 Maxim Gen 7 CQB stock tube (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e57cc5261d4937c1a15aa004 Name",
+      "old": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (올리브 드랩)\n(AR-15 Geissele SMR MK8 13인치 M-LOK handguard (ODG))",
+      "new": "AR-15 가이슬리 SMR MK8 13인치 엠락 총열덮개 (올리브 드랩)",
+      "had_source": "AR-15 Geissele SMR MK8 13 inch M-LOK handguard (ODG)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e5a6a64960d3f9901e3b0df1 Name",
+      "old": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (레드)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (Red))",
+      "new": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (레드)",
+      "had_source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Red)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e7033144137177533f1fe6cf Name",
+      "old": "AR-15 맥풀 PRS 라이트 개머리판 (사막색)\n(AR-15 Magpul PRS Lite stock (사막색))",
+      "new": "AR-15 맥풀 PRS 라이트 개머리판 (사막색)",
+      "had_source": "AR-15 Magpul PRS Lite stock (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e727709694036c1f49f234e6 Name",
+      "old": "슈타이너 DBAL-i2 전술 장비 (사막색)\n(Steiner DBAL-i2 tactical device (사막색))",
+      "new": "슈타이너 DBAL-i2 전술 장비 (사막색)",
+      "had_source": "Steiner DBAL-i2 tactical device (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e8d92f66b5cf4553048c5f5b Name",
+      "old": "메이텍 접이식 가늠자\n(Matech Folding rear sight (Epics AIO))",
+      "new": "메이텍 접이식 가늠자",
+      "had_source": "Matech Folding rear sight"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e9341af94ccbdf828aac2ed4 Name",
+      "old": "트리지콘 ACOG TA31-C 엠버 4x32 조준경 (블랙)\n(Trijicon ACOG TA31-C Amber 4x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA31-C 엠버 4x32 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA31-C Amber 4x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e94de16b0e19077ac1a4c90a Name",
+      "old": "AR-10 슈어파이어 엘리미네이터 7.62x51 소염기\n(AR-10 SureFire Eliminator 7.62x51 Flash Hider)",
+      "new": "AR-10 슈어파이어 엘리미네이터 7.62x51 소염기",
+      "had_source": "AR-10 Surefire Eliminator 7.62x51 Flash Hider"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e99dbf09963efebab19a118b Name",
+      "old": "슈타이너 OTAL-C 전술 장비 (사막색-Vis)\n(Steiner OTAL-C tactical device (사막색-Vis))",
+      "new": "슈타이너 OTAL-C 전술 장비 (사막색-Vis)",
+      "had_source": "Steiner OTAL-C tactical device (FDE-Vis)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "e9e54ee074512c35ceff755f Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 10.5인치 총열덮개 (D사막색)\n(AR-15 Daniel Defense RIS III 10.5인치 handguard (D사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 10.5인치 총열덮개 (D사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 10.5 inch handguard (DFDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "eb314fb4d8025c0d696a3ffc Name",
+      "old": "AR-15 다니엘 디펜스 RIS III 10.5인치 하부 총열덮개 (사막색)\n(AR-15 Daniel Defense RIS III 10.5 lower handguard (사막색))",
+      "new": "AR-15 다니엘 디펜스 RIS III 10.5인치 하부 총열덮개 (사막색)",
+      "had_source": "AR-15 Daniel Defense RIS III 10.5 lower handguard (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "eb35aa47f15f9bd6f211c967 Name",
+      "old": "AR-15 MFT 배틀링크 미니멀리스트 개머리판 (블랙)\n(AR-15 MFT BATTLELINK Minimalist stock (검은색))",
+      "new": "AR-15 MFT 배틀링크 미니멀리스트 개머리판 (블랙)",
+      "had_source": "AR-15 MFT BATTLELINK Minimalist stock (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "edb383eec77614c936e627ec Name",
+      "old": "KAC 소음기 보호 덮개 6인치 (블랙)\n(KAC Suppressor shroud 6인치 (BLK))",
+      "new": "KAC 소음기 보호 덮개 6인치 (블랙)",
+      "had_source": "KAC Suppressor shroud 6 inch (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "ee43d2dd34047cbe88ccf551 Name",
+      "old": "슈어파이어 SOCOM762-Mini2 7.62x51 소음기 (사막색)\n(SureFire SOCOM762-Mini2 7.62x51 sound suppressor (사막색))",
+      "new": "슈어파이어 SOCOM762-Mini2 7.62x51 소음기 (사막색)",
+      "had_source": "SureFire SOCOM762-Mini2 7.62x51 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "ee7de8251099e046b66a27a8 Name",
+      "old": "트리지콘 ACOG TA31-CH 레드 4x32 조준경 (블랙)\n(Trijicon ACOG TA31-CH Red 4x32 scope (검은색))",
+      "new": "트리지콘 ACOG TA31-CH 레드 4x32 조준경 (블랙)",
+      "had_source": "Trijicon ACOG TA31-CH Red 4x32 scope (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "ef976a5a821bbb0200991f9a Name",
+      "old": "AR-10 슈어파이어 SFMB 7.62x51 보정기\n(AR-10 SureFire SFMB 7.62x51 Muzzle brake)",
+      "new": "AR-10 슈어파이어 SFMB 7.62x51 보정기",
+      "had_source": "AR-10 Surefire SFMB 7.62x51 Muzzle brake"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "f07a16a89f1c954f72bbf50e Name",
+      "old": "렙틸리아 옵셋 마운트 (에임포인트 ACRO용, 블랙)\n(Reptilia Offset mount for Aimpoint ACRO (검은색))",
+      "new": "렙틸리아 옵셋 마운트 (에임포인트 ACRO용, 블랙)",
+      "had_source": "Reptilia Offset mount for Aimpoint ACRO (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "f1d4272393162487b5896f2f Name",
+      "old": "AR-15 B&T 로텍스-V 5.56x45 소음기 (사막색)\n(AR-15 B&T Rotex-V 5.56x45 sound suppressor (사막색))",
+      "new": "AR-15 B&T 로텍스-V 5.56x45 소음기 (사막색)",
+      "had_source": "AR-15 B&T Rotex-V 5.56x45 sound suppressor (FDE)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "f5977d24bf0cb52fda608b51 Name",
+      "old": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (블랙)\n(AR-15 Hogue Extended Length Overmolded 15인치 handguard (검은색))",
+      "new": "AR-15 호그 연장형 이중 사출 15인치 총열덮개 (블랙)",
+      "had_source": "AR-15 Hogue Extended Length Overmolded 15 inch handguard (Black)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "f9cb5d76e3639ef3c27c5294 Name",
+      "old": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (블랙)\n(AR-15 Geissele SMR MK8 9.5인치 M-LOK handguard (BLK))",
+      "new": "AR-15 가이슬리 SMR MK8 9.5인치 엠락 총열덮개 (블랙)",
+      "had_source": "AR-15 Geissele SMR MK8 9.5 inch M-LOK handguard (BLK)"
+    },
+    {
+      "file": "Epic's All in One.json",
+      "key": "ffbf7c0c8acab5ec67bf4788 Name",
+      "old": "AR-15 맥풀 STR 카빈 개머리판 (사막색)\n(AR-15 Magpul STR Carbine Stock (사막색))",
+      "new": "AR-15 맥풀 STR 카빈 개머리판 (사막색)",
+      "had_source": "AR-15 Magpul STR Carbine Stock (FDE)"
+    },
+    {
+      "file": "Tactical Gear Component.json",
+      "key": "672e2e75645f9ad09f4b949d Name",
+      "old": "LWRCI 레일스킨 (올리브 드랩)\n(LWRCI Railskin OD)",
+      "new": "LWRCI 레일스킨 (올리브 드랩)",
+      "had_source": "Lwrci Railskin OD"
+    },
+    {
+      "file": "Tactical Gear Component.json",
+      "key": "672e2e759342d416e10caa10 Name",
+      "old": "슈어파이어 M640U-BK-프로 오프셋 손전등\n(SureFire M640U-BK-PRO Flashlight offset)",
+      "new": "슈어파이어 M640U-BK-프로 오프셋 손전등",
+      "had_source": "Surefire M640U-BK-PRO Flashlight offset"
+    },
+    {
+      "file": "Tactical Gear Component.json",
+      "key": "672e2e75ebb3b5f3e2cb6291 Name",
+      "old": "LWRCI 레일스킨 (사막색)\n(LWRCI Railskin FDE)",
+      "new": "LWRCI 레일스킨 (사막색)",
+      "had_source": "Lwrci Railskin FDE"
+    },
+    {
+      "file": "Tactical Gear Component.json",
+      "key": "672e2e75ec4a3496b64346c5 Name",
+      "old": "슈어파이어 M640U-프로 손전등\n(SureFire M640U-BK-PRO Flashlight)",
+      "new": "슈어파이어 M640U-프로 손전등",
+      "had_source": "Surefire M640U-BK-PRO Flashlight"
+    },
+    {
+      "file": "Tactical Gear Component.json",
+      "key": "67b1eb6d91f8e59bc799beb1 Name",
+      "old": "슈어파이어 M640U-프로 오프셋 손전등 (사막색)\n(SureFire M640U-BK-PRO FDE Flashlight offset)",
+      "new": "슈어파이어 M640U-프로 오프셋 손전등 (사막색)",
+      "had_source": "Surefire M640U-BK-PRO FDE Flashlight offset"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68acd6643b73c1809c03fd36 Name",
+      "old": "BCM 건파이터 개머리판 (블랙)\n(BCM Gunfighter stock (검은색))",
+      "new": "BCM 건파이터 개머리판 (블랙)",
+      "had_source": "BCM Gunfighter stock (Black)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68b5e34459bf769d25000001 Name",
+      "old": "AR-15 렙틸리아 RECC-E 개머리판 베이스 (블랙)\n(AR-15 Reptilia RECC-E stock base (검은색))",
+      "new": "AR-15 렙틸리아 RECC-E 개머리판 베이스 (블랙)",
+      "had_source": "AR-15 Reptilia RECC-E stock base (Black)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68b5e474fbf78a6b59000002 Name",
+      "old": "AR-15 렙틸리아 RECC-E 개머리판 베이스 (사막색)\n(AR-15 Reptilia RECC-E stock base (사막색))",
+      "new": "AR-15 렙틸리아 RECC-E 개머리판 베이스 (사막색)",
+      "had_source": "AR-15 Reptilia RECC-E stock base (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68b5e474fbf78a6b59000004 Name",
+      "old": "AR-15 렙틸리아 RECC-E 개머리판 암 (블랙)\n(AR-15 Reptilia RECC-E stock arm (검은색))",
+      "new": "AR-15 렙틸리아 RECC-E 개머리판 암 (블랙)",
+      "had_source": "AR-15 Reptilia RECC-E stock arm (Black)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68b5e474fbf78a6b59000005 Name",
+      "old": "AR-15 렙틸리아 RECC-E 개머리판 암 (사막색)\n(AR-15 Reptilia RECC-E stock arm (사막색))",
+      "new": "AR-15 렙틸리아 RECC-E 개머리판 암 (사막색)",
+      "had_source": "AR-15 Reptilia RECC-E stock arm (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68b60691723514e8fc0d8a50 Name",
+      "old": "볼터 CASV M4 총열덮개 (사막색)\n(VLTOR CASV M4 handguard (사막색))",
+      "new": "볼터 CASV M4 총열덮개 (사막색)",
+      "had_source": "VLTOR CASV M4 handguard (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68b7658b24ef22c4b60177ac Name",
+      "old": "AR-15 BCM KMR13 키모드 13인치 총열덮개 (커버 포함)\n(AR-15 BCM KMR13 KeyMod 13인치 handguard (Covers))",
+      "new": "AR-15 BCM KMR13 키모드 13인치 총열덮개 (커버 포함)",
+      "had_source": "AR-15 BCM KMR13 KeyMod 13 inch handguard"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68b89af3e5eff7014a0e1346 Name",
+      "old": "AR-15 BCM KMR13 키모드 13인치 총열덮개 (팍스 아르마타)\n(AR-15 BCM KMR13 KeyMod 13인치 handguard (Pax Armata))",
+      "new": "AR-15 BCM KMR13 키모드 13인치 총열덮개 (팍스 아르마타)",
+      "had_source": "AR-15 BCM KMR13 KeyMod 13 inch handguard (Pax Armata)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68bd7b4d8ce7029b6409b4a3 Name",
+      "old": "아나콘다 피카티니 라이저 (사막색)\n(Anaconda Picatinny Riser (사막색))",
+      "new": "아나콘다 피카티니 라이저 (사막색)",
+      "had_source": "Anaconda Picatinny Riser (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68bdb058d3008fee9e07a942 Name",
+      "old": "B5 브라보-C 개머리판 (사막색)\n(B5 Bravo-C Stock (사막색))",
+      "new": "B5 브라보-C 개머리판 (사막색)",
+      "had_source": "B5 Bravo-C Stock (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68c3305a5cb3ac684f078d1d Name",
+      "old": "MK-12 모드 0 소염기\n(Mk-12 Mod 0 FlashHider )",
+      "new": "MK-12 모드 0 소염기",
+      "had_source": "Mk-12 Mod 0 FlashHider "
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68c5613ff19e7d06d6029a42 Name",
+      "old": "BCM 건파이터 모드 4 권총손잡이 (사막색)\n(BCM GunFighter Mod 4 pistol grip (사막색))",
+      "new": "BCM 건파이터 모드 4 권총손잡이 (사막색)",
+      "had_source": "BCM GunFighter Mod 4 pistol grip (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68c5613ff19e7d06d6029a45 Name",
+      "old": "B5 P22 권총손잡이 (사막색)\n(b5 P22 pistol grip (사막색))",
+      "new": "B5 P22 권총손잡이 (사막색)",
+      "had_source": "b5 P22 pistol grip (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68c734bdcac1ff3d420fceb3 Name",
+      "old": "스트라이크 인더스트리즈 사이드와인더 전방 가늠쇠 (사막색, 접힘)\n(Strike Industries Sidewinder Front Sight (사막색) Folded)",
+      "new": "스트라이크 인더스트리즈 사이드와인더 전방 가늠쇠 (사막색, 접힘)",
+      "had_source": "Strike Industries Sidewinder Front Sight (FDE) Folded"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68c734bdcac1ff3d420fceb4 Name",
+      "old": "스트라이크 인더스트리즈 사이드와인더 후방 가늠쇠 (사막색) 접힘\n(Strike Industries Sidewinder Rear Sight (사막색) Folded)",
+      "new": "스트라이크 인더스트리즈 사이드와인더 후방 가늠쇠 (사막색) 접힘",
+      "had_source": "Strike Industries Sidewinder Rear Sight (FDE) Folded"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68c734bdcac1ff3d420fceb5 Name",
+      "old": "스트라이크 인더스트리즈 사이드와인더 후방 가늠쇠 (사막색)\n(Strike Industries Sidewinder Rear Sight (사막색))",
+      "new": "스트라이크 인더스트리즈 사이드와인더 후방 가늠쇠 (사막색)",
+      "had_source": "Strike Industries Sidewinder Rear Sight (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68c734bdcac1ff3d420fceb6 Name",
+      "old": "스트라이크 인더스트리즈 사이드와인더 전방 가늠쇠 (사막색)\n(Strike Industries Sidewinder Front Sight (사막색))",
+      "new": "스트라이크 인더스트리즈 사이드와인더 전방 가늠쇠 (사막색)",
+      "had_source": "Strike Industries Sidewinder Front Sight (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68c74b75cac1ff3d420fceca Name",
+      "old": "로터 43 총열덮개 (AK-12용) (사막색)\n(Rotor 43 Handguard for The AK-12 (사막색))",
+      "new": "로터 43 총열덮개 (AK-12용) (사막색)",
+      "had_source": "Rotor 43 AK-12 Handguard FDE"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68c74b75cac1ff3d420fcecd Name",
+      "old": "로터 43 총열덮개 (AK-12용)\n(Rotor 43 Handguard for The AK-12)",
+      "new": "로터 43 총열덮개 (AK-12용)",
+      "had_source": "Rotor 43 AK-12 Handguard"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68cc8c8364bcae283b0e0a5c Name",
+      "old": "제니트코 PT-2 경기관총용 신축형 개머리판 (사막색)\n(ZenitCo PT-2 LMG Telescopic Stock (사막색))",
+      "new": "제니트코 PT-2 경기관총용 신축형 개머리판 (사막색)",
+      "had_source": "ZenitCo PT-2 LMG Telescopic Stock (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68cc8c8364bcae283b0e0a65 Name",
+      "old": "PK 제니트 B-50 총열덮개 (사막색)\n(PK Zenit B-50 handguard (사막색))",
+      "new": "PK 제니트 B-50 총열덮개 (사막색)",
+      "had_source": "PK Zenit B-50 handguard (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68d06cc7bc54e7c1b40cb9ed Name",
+      "old": "AK-12용 S12 총열덮개\n(S12 Handguard for The AK-12 )",
+      "new": "AK-12용 S12 총열덮개",
+      "had_source": "AK-12 Zenit Sport-12 handguard"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68d06cc7bc54e7c1b40cb9ee Name",
+      "old": "AK-12용 S12 총열덮개 (사막색)\n(S12 Handguard for The AK-12 (사막색))",
+      "new": "AK-12용 S12 총열덮개 (사막색)",
+      "had_source": "AK-12 Zenit Sport-12 handguard FDE"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68d06cc7bc54e7c1b40cb9ef Name",
+      "old": "AK-12용 S12U 총열덮개 (사막색)\n(S12U Handguard for The AK-12 (사막색))",
+      "new": "AK-12용 S12U 총열덮개 (사막색)",
+      "had_source": "AK-12 Zenit Sport-12U handguard FDE"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68d06cc7bc54e7c1b40cb9f0 Name",
+      "old": "AK-12용 S12U 총열덮개\n(S12U Handguard for The AK-12)",
+      "new": "AK-12용 S12U 총열덮개",
+      "had_source": "AK-12 Zenit Sport-12U handguard"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68d7db2929420f94ff04cb16 Name",
+      "old": "슈타이너 DBAL-A3용 압력 패드\n(Pressure pad for Steiner DBAL-A3)",
+      "new": "슈타이너 DBAL-A3용 압력 패드",
+      "had_source": "Pressure pad for Steiner DBAL-A4"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68d96442d7aac8a7a904daf1 Name",
+      "old": "SUR300 상부 총몸 (사막색)\n(SUR300 Upper Receiver (사막색))",
+      "new": "SUR300 상부 총몸 (사막색)",
+      "had_source": "SUR300 Upper Receiver (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68d96442d7aac8a7a904daf3 Name",
+      "old": "SUR300 중간 길이 총열덮개 (사막색)\n(SUR300 Medium Length Handguard (사막색))",
+      "new": "SUR300 중간 길이 총열덮개 (사막색)",
+      "had_source": "SUR300 Medium Length Handguard (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68d96442d7aac8a7a904daf6 Name",
+      "old": "SUR300 중간 길이 총열덮개 (Alt 사막색)\n(SUR300 Medium Length Handguard (Alt 사막색))",
+      "new": "SUR300 중간 길이 총열덮개 (Alt 사막색)",
+      "had_source": "SUR300 Medium Length Handguard (Alt FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68d96442d7aac8a7a904daf8 Name",
+      "old": "SUR300 장거리용 총열덮개 (사막색)\n(SUR300 Long Length Handguard (사막색))",
+      "new": "SUR300 장거리용 총열덮개 (사막색)",
+      "had_source": "SUR300 Long Length Handguard (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68d96442d7aac8a7a904dafa Name",
+      "old": "SUR300 장전 손잡이 (사막색)\n(SUR300 Charging Handle (사막색))",
+      "new": "SUR300 장전 손잡이 (사막색)",
+      "had_source": "SUR300 Charging Handle (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68d96442d7aac8a7a904db0c Name",
+      "old": "제니트 스포트-1 총열덮개 (사막색)\n(Zenit Sport-1 Handguard (사막색))",
+      "new": "제니트 스포트-1 총열덮개 (사막색)",
+      "had_source": "Zenit Sport-1 Handguard (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68dd9032a83c8f7ea2083f46 Name",
+      "old": "제니트 B-33 (타이트 리벳) (사막색)\n(Zenit B-33 with tight rivets (사막색))",
+      "new": "제니트 B-33 (타이트 리벳) (사막색)",
+      "had_source": "Zenit B-33 with tight rivets (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68e257fb2a8dbe0b9903bb2d Name",
+      "old": "제니트 스포트-4 총열덮개 (사막색)\n(Zenit Sport-4 Handguard (사막색))",
+      "new": "제니트 스포트-4 총열덮개 (사막색)",
+      "had_source": "Zenit Sport-4 Handguard (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68e84293bc3a402bbb07e11d Name",
+      "old": "자스타바 M19 MCS 7.62x39 돌격소총 (사막색)\n(Zastava M19 MCS 7.62x39 assault rifle (사막색))",
+      "new": "자스타바 M19 MCS 7.62x39 돌격소총 (사막색)",
+      "had_source": "Zastava M19 MCS 7.62x39 assault rifle (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68e84293bc3a402bbb07e11e Name",
+      "old": "자스타바 M19 총열덮개 (사막색)\n(Zastava M19 handguard (사막색))",
+      "new": "자스타바 M19 총열덮개 (사막색)",
+      "had_source": "Zastava M19 handguard (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68e84293bc3a402bbb07e11f Name",
+      "old": "자스타바 M19 7.62x39 16.3인치 총열 (사막색)\n(Zastava M19 7.62x39 16.3 inch barrel (사막색))",
+      "new": "자스타바 M19 7.62x39 16.3인치 총열 (사막색)",
+      "had_source": "Zastava M19 7.62x39 16.3 inch barrel (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68e84293bc3a402bbb07e120 Name",
+      "old": "자스타바 M19 상부 총몸 (사막색)\n(Zastava M19 upper receiver (사막색))",
+      "new": "자스타바 M19 상부 총몸 (사막색)",
+      "had_source": "Zastava M19 upper receiver (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68e84293bc3a402bbb07e121 Name",
+      "old": "자스타바 M19 표준 장전 손잡이 (사막색)\n(Zastava M19 standard charging handle (사막색))",
+      "new": "자스타바 M19 표준 장전 손잡이 (사막색)",
+      "had_source": "Zastava M19 standard charging handle (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68e84293bc3a402bbb07e122 Name",
+      "old": "자스타바 M19 접이식 개머리판 (사막색)\n(Zastava M19 folding stock (사막색))",
+      "new": "자스타바 M19 접이식 개머리판 (사막색)",
+      "had_source": "Zastava M19 folding stock (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68e84293bc3a402bbb07e123 Name",
+      "old": "자스타바 M19 권총손잡이 (사막색)\n(Zastava M19 pistol grip (사막색))",
+      "new": "자스타바 M19 권총손잡이 (사막색)",
+      "had_source": "Zastava M19 pistol grip (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68e84293bc3a402bbb07e124 Name",
+      "old": "자스타바 M19 표준 가늠자 (사막색)\n(Zastava M19 stndard rear sight (사막색))",
+      "new": "자스타바 M19 표준 가늠자 (사막색)",
+      "had_source": "Zastava M19 stndard rear sight (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68e95e883eb804510c028a85 Name",
+      "old": "자스타바 M19 7.62x39 10인치 총열 (사막색)\n(Zastava M19 7.62x39 10 inch barrel (사막색))",
+      "new": "자스타바 M19 7.62x39 10인치 총열 (사막색)",
+      "had_source": "Zastava M19 7.62x39 10 inch barrel (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68fe57f92b85e5d74c05a576 Name",
+      "old": "B1301 맥풀 주코프 총열덮개 (사막색)\n(B1301 Magpul Zhukov handguard (사막색))",
+      "new": "B1301 맥풀 주코프 총열덮개 (사막색)",
+      "had_source": "B1301 Magpul Zhukov handguard (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68fe57f92b85e5d74c05a579 Name",
+      "old": "B1301 표준 전방 손잡이 (사막색)\n(B1301 standard forearm (사막색))",
+      "new": "B1301 표준 전방 손잡이 (사막색)",
+      "had_source": "B1301 standard forearm (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68fe57f92b85e5d74c05a57c Name",
+      "old": "B1301 총열덮개 모드.2 (사막색)\n(B1301 Handguard Mod.2 (사막색))",
+      "new": "B1301 총열덮개 모드.2 (사막색)",
+      "had_source": "B1301 Handguard Mod.2 (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68fe57f92b85e5d74c05a57e Name",
+      "old": "B1301 맥풀 SGA 폴리머 개머리판 (사막색)\n(B1301 Magpul SGA polymer stock for Beretta 1301 (사막색))",
+      "new": "B1301 맥풀 SGA 폴리머 개머리판 (사막색)",
+      "had_source": "B1301 Magpul SGA polymer stock for Beretta 1301 (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68fe5b162b85e5d74c05a582 Name",
+      "old": "베레타 1301 표준 개머리판 (사막색)\n(Beretta 1301 standard stock (사막색))",
+      "new": "베레타 1301 표준 개머리판 (사막색)",
+      "had_source": "Beretta 1301 standard stock (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68fe896c2b85e5d74c05a5ac Name",
+      "old": "베레타 1301 12게이지 470mm 총열 (사막색)\n(Beretta 1301 12ga barrel 470mm (사막색))",
+      "new": "베레타 1301 12게이지 470mm 총열 (사막색)",
+      "had_source": "Beretta 1301 12ga barrel 470mm (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "68fe896c2b85e5d74c05a5ae Name",
+      "old": "베레타 1301 택티컬 마린 12게이지 반자동 산탄총 (사막색)\n(Beretta 1301 Tactical Marine 12ga semi-automatic shotgun (사막색))",
+      "new": "베레타 1301 택티컬 마린 12게이지 반자동 산탄총 (사막색)",
+      "had_source": "Beretta 1301 Tactical Marine 12ga semi-automatic shotgun (FDE)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "6953be84a080184e990e04fe Name",
+      "old": "FAB 디펜스 RAPS 신속 조절 정밀 개머리판 (사막색)\n(FAB Defence RAPS (Rapid Adjustment Precision Stock) 사막색)",
+      "new": "FAB 디펜스 RAPS 신속 조절 정밀 개머리판 (사막색)",
+      "had_source": "FAB Defence RAPS (Rapid Adjustment Precision Stock) FDE"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "69d44e3d9e11b4757df438ad Name",
+      "old": "Steyr AUG A3 .300 블랙아웃 돌격소총 (검은색)\n(Steyr AUG A3 .300 Blackout assault rifle (검은색))",
+      "new": "Steyr AUG A3 .300 블랙아웃 돌격소총 (검은색)",
+      "had_source": "Steyr AUG A3 .300 Blackout assault rifle (Black)"
+    },
+    {
+      "file": "Eco's Attachment Emporium.json",
+      "key": "69d9622a06dc0abe0209b65f Name",
+      "old": "팬저 암즈 BP12 12-round 12/70 탄창\n(Panzer Arms BP12 12-round 12/70 magazine)",
+      "new": "팬저 암즈 BP12 12-round 12/70 탄창",
+      "had_source": "Panzer Arms BP12 10-round 12/70 magazine"
+    }
+  ]
+}

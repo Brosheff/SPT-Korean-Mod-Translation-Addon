@@ -1,0 +1,929 @@
+[
+  {
+    "file": "Content Backport - Prestiges.json",
+    "key": "68d3fe84757f8967ec09099b name",
+    "source": "Five Plus",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\ContentBackportPrestiges-master\\ContentBackportPrestigesServer\\db\\CustomAchievements\\Achievements\\prestige_achievements.json",
+      "SPT_Runtime\\user\\mods\\archangelwtf-contentbackportprestiges\\db\\CustomAchievements\\Achievements\\prestige_achievements.json"
+    ]
+  },
+  {
+    "file": "Content Backport - Prestiges.json",
+    "key": "68d3fe84757f8967ec09099b description",
+    "source": "Earn the Prestige level 5",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\ContentBackportPrestiges-master\\ContentBackportPrestigesServer\\db\\CustomAchievements\\Achievements\\prestige_achievements.json",
+      "SPT_Runtime\\user\\mods\\archangelwtf-contentbackportprestiges\\db\\CustomAchievements\\Achievements\\prestige_achievements.json"
+    ]
+  },
+  {
+    "file": "Content Backport - Prestiges.json",
+    "key": "68d3ff840531ed76e808866c name",
+    "source": "No Limit to Perfection",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\ContentBackportPrestiges-master\\ContentBackportPrestigesServer\\db\\CustomAchievements\\Achievements\\prestige_achievements.json",
+      "SPT_Runtime\\user\\mods\\archangelwtf-contentbackportprestiges\\db\\CustomAchievements\\Achievements\\prestige_achievements.json"
+    ]
+  },
+  {
+    "file": "Content Backport - Prestiges.json",
+    "key": "68d3ff840531ed76e808866c description",
+    "source": "Earn the Prestige level 6",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\ContentBackportPrestiges-master\\ContentBackportPrestigesServer\\db\\CustomAchievements\\Achievements\\prestige_achievements.json",
+      "SPT_Runtime\\user\\mods\\archangelwtf-contentbackportprestiges\\db\\CustomAchievements\\Achievements\\prestige_achievements.json"
+    ]
+  },
+  {
+    "file": "ECOT - Eukyre's Consortium of Things.json",
+    "key": "691ecb9b1664a484f03a2611 name",
+    "source": "FNX-45 Rookie",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "reference-sources\\새 폴더\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "SPT_Runtime\\user\\mods\\EukyreECOT\\db\\CustomAchievements\\Achievements\\FNX_Kills.json"
+    ]
+  },
+  {
+    "file": "ECOT - Eukyre's Consortium of Things.json",
+    "key": "691ecb9b1664a484f03a2611 description",
+    "source": "Kill 25 PMCs with the FNX-45 Tactical .45 ACP pistol",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "reference-sources\\새 폴더\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "SPT_Runtime\\user\\mods\\EukyreECOT\\db\\CustomAchievements\\Achievements\\FNX_Kills.json"
+    ]
+  },
+  {
+    "file": "ECOT - Eukyre's Consortium of Things.json",
+    "key": "691ecb4c394fe2ef9c3a2610",
+    "source": "Kill 25 PMCs with the FNX-45 Tactical .45 ACP pistol",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "reference-sources\\새 폴더\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "SPT_Runtime\\user\\mods\\EukyreECOT\\db\\CustomAchievements\\Achievements\\FNX_Kills.json"
+    ]
+  },
+  {
+    "file": "ECOT - Eukyre's Consortium of Things.json",
+    "key": "691ecbb23b845bc0903a2612 name",
+    "source": "FNX-45 Enthusiast",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "reference-sources\\새 폴더\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "SPT_Runtime\\user\\mods\\EukyreECOT\\db\\CustomAchievements\\Achievements\\FNX_Kills.json"
+    ]
+  },
+  {
+    "file": "ECOT - Eukyre's Consortium of Things.json",
+    "key": "691ecbb23b845bc0903a2612 description",
+    "source": "Kill 50 PMCs with the FNX-45 Tactical .45 ACP pistol",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "reference-sources\\새 폴더\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "SPT_Runtime\\user\\mods\\EukyreECOT\\db\\CustomAchievements\\Achievements\\FNX_Kills.json"
+    ]
+  },
+  {
+    "file": "ECOT - Eukyre's Consortium of Things.json",
+    "key": "691ecbb38eda9aa8a73a2613",
+    "source": "Kill 50 PMCs with the FNX-45 Tactical .45 ACP pistol",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "reference-sources\\새 폴더\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "SPT_Runtime\\user\\mods\\EukyreECOT\\db\\CustomAchievements\\Achievements\\FNX_Kills.json"
+    ]
+  },
+  {
+    "file": "ECOT - Eukyre's Consortium of Things.json",
+    "key": "691ecbc872bfcbd28b3a2616 name",
+    "source": "FNX-45 Master",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "reference-sources\\새 폴더\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "SPT_Runtime\\user\\mods\\EukyreECOT\\db\\CustomAchievements\\Achievements\\FNX_Kills.json"
+    ]
+  },
+  {
+    "file": "ECOT - Eukyre's Consortium of Things.json",
+    "key": "691ecbc872bfcbd28b3a2616 description",
+    "source": "Kill 100 PMCs with the FNX-45 Tactical .45 ACP pistol",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "reference-sources\\새 폴더\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "SPT_Runtime\\user\\mods\\EukyreECOT\\db\\CustomAchievements\\Achievements\\FNX_Kills.json"
+    ]
+  },
+  {
+    "file": "ECOT - Eukyre's Consortium of Things.json",
+    "key": "69729447c9ec43219b4f8e69",
+    "source": "Kill 100 PMCs with the FNX-45 Tactical .45 ACP pistol",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "reference-sources\\새 폴더\\Eukyre-Consortium-2.0.1\\EukyreECOT\\Resources\\db\\CustomAchievements\\Achievements\\FNX_Kills.json",
+      "SPT_Runtime\\user\\mods\\EukyreECOT\\db\\CustomAchievements\\Achievements\\FNX_Kills.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6945add7f611786d999f67c9 Name",
+    "source": "Headhunt: Mask Off",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6945add7f611786d999f67c9 Description",
+    "source": "Eliminate Tagilla with headshots 5 times",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6945fed89b863ef9ce9f67ce Name",
+    "source": "Field Tested: Tactical Tomahawk",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6945fed89b863ef9ce9f67ce Description",
+    "source": "Eliminate 3 targets with the Kiba Arms Tactical Tomahawk in a single raid",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69460c424c23a6e66f9f67d3 Name",
+    "source": "Eights and Aces: Dead Man's Hand",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69460c424c23a6e66f9f67d3 Description",
+    "source": "Eliminate 8 PMCs with headshots using any Revolver",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694735758b9b166676ff89b6 Name",
+    "source": "Headhunt: The Long Game",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694735758b9b166676ff89b6 Description",
+    "source": "Eliminate Zryachiy with headshots 3 times from 350+ meters",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69485047a741eee797ff89bb Name",
+    "source": "Headhunt: Alarm Bell",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69485047a741eee797ff89bb Description",
+    "source": "Eliminate 11 Scavs with headshots between the hours of 6am-11am in a single raid",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69485d4228fbbf7227ff89c1 Name",
+    "source": "Headhunt: Bishop Takes Knight",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69485d4228fbbf7227ff89c1 Description",
+    "source": "Eliminate Knight with headshots on Customs, Shoreline, Lighthouse and Woods",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69485d491300b85773ff89c3",
+    "source": "Kill Knight with a headshot on Customs",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69485e1d811f8e1e9eff89c7",
+    "source": "Kill Knight with a headshot on Woods",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69485e59b66152e3e0ff89ce",
+    "source": "Kill Knight with a headshot on Shoreline",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69485ea2860fa0532aff89d6",
+    "source": "Kill Knight with a headshot on Lighthouse",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69488ddbe04d15d5539a56b1 Name",
+    "source": "Headhunt: Ain't That A Kick In The Leg",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69488ddbe04d15d5539a56b1 Description",
+    "source": "Eliminate Killa with leg-shots 5 times",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69488f0bc7b96c28559a56b6 Name",
+    "source": "Forgotten: Rat Exterminator",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69488f0bc7b96c28559a56b6 Description",
+    "source": "Eliminate 150 Scavs with headshots",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694890e956549526659a56bb Name",
+    "source": "Echo of Battle: Across All Fronts",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694890e956549526659a56bb Description",
+    "source": "Eliminate 10 PMCs with headshots on every map",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694890ede770941a029a56bd",
+    "source": "Eliminate 10 PMCs on Customs",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948920a020ecb29589a56c4",
+    "source": "Eliminate 10 PMCs on Factory",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948922b2168533b8b9a56c9",
+    "source": "Eliminate 10 PMCs on Ground Zero",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948931f6d248943789a56d3",
+    "source": "Eliminate 10 PMCs on Streets of Tarkov",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948933406f8f12ec19a56d7",
+    "source": "Eliminate 10 PMCs on Labs",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948935ca05ba888d29a56db",
+    "source": "Eliminate 10 PMCs on Woods",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "69489379fade9f901f9a56e0",
+    "source": "Eliminate 10 PMCs on Lighthouse",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694893b1dd5f6b36669a56e4",
+    "source": "Eliminate 10 PMCs on Reserve",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694893cce6ed18f3c49a56e8",
+    "source": "Eliminate 10 PMCs on Shoreline",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694893e1b846e397199a56ec",
+    "source": "Eliminate 10 PMCs on Interchange",
+    "display_type": "achievement_condition",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948990c05f4f91bdb9a56f3 Name",
+    "source": "Congratulations! You're a Cheater!",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948990c05f4f91bdb9a56f3 Description",
+    "source": "Use a commando code to receive locked content... Like a cheater.",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948996f192a4d4fc09a56f7 Name",
+    "source": "Shut Up and Take My Roubles!",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948996f192a4d4fc09a56f7 Description",
+    "source": "Use a commando code to receive the preorder content. Early supporter's privilege, don't @ me!",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948bdfa8c37d412919a56fa Name",
+    "source": "Square Off",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948bdfa8c37d412919a56fa Description",
+    "source": "Eliminate 20 enemies on Factory in a single raid",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948bed64eec012e689a56ff Name",
+    "source": "Explosive Liquidation",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "6948bed64eec012e689a56ff Description",
+    "source": "Eliminate 8 PMCs using grenades in a single raid",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694c5527d1d40bd7db9a571a Name",
+    "source": "Backstabber",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694c5527d1d40bd7db9a571a Description",
+    "source": "Use a commando code to unlock access to the Arena clothing. Et tu, PMC?",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694c5cae0256a6bd999a5721 Name",
+    "source": "When I said 'I want all the clothes...'",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694c5cae0256a6bd999a5721 Description",
+    "source": "Use a commando code to unlock access to Civilian, RUAF, and Black Division Clothes. Hey, wait, you aren't supposed to have these!",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694c60b50cb1e6ad639a5723 Name",
+    "source": "I 'Escaped'",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694c60b50cb1e6ad639a5723 Description",
+    "source": "Use a commando code to Receive the four different endings content",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694c6575af08f6f1d59a5737 Name",
+    "source": "Prestige 67",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694c6575af08f6f1d59a5737 Description",
+    "source": "Use a commando code to unlock Prestige 5 and 6 content. 67 67 67 67 67 67",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694d58833cff7ff7be31c5e8 Name",
+    "source": "Twitch Guy! Twitch Guy!",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694d58833cff7ff7be31c5e8 Description",
+    "source": "Use a commando code to Receive all post 1.0 Twitch drop content",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694dbb05a4a61e9ad031c609 Name",
+    "source": "Gettin' Drippy With It",
+    "display_type": "achievement_title",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT - Content Backport.json",
+    "key": "694dbb05a4a61e9ad031c609 Description",
+    "source": "Eliminate 69 PMCs. Nice.",
+    "display_type": "default",
+    "evidence": [
+      "SPT_Runtime\\user\\mods\\WTT-ContentBackport\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "6910b4469b3fa14d813de155 Name",
+    "source": "You Actually Used This Thing?",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "6910b4469b3fa14d813de155 Description",
+    "source": "Eliminate 1 enemy using the Hi-Point C9 pistol",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "693c94e3b993b9416d6501a3 Name",
+    "source": "Helmet Check!",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "693c94e3b993b9416d6501a3 Description",
+    "source": "Shoot 20 PMC's in the head using the Barrett M107A1 .50 BMG anti-material rifle",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e0d8851fee79757682ca4 Name",
+    "source": "Grandpa's Got a Gun",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e0d8851fee79757682ca4 Description",
+    "source": "Eliminate 15 enemy scavs using the Browning Auto-5 Shotgun",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e0fdb0984faf074682ca8 Name",
+    "source": "Close Encounters of the Shotgun Kind",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e0fdb0984faf074682ca8 Description",
+    "source": "Eliminate 5 enemy scavs on Factory within 5 meters using the Serbu Super Shorty Shotgun",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e1063088b36b489682cac Name",
+    "source": "Tokyo Grift",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e1063088b36b489682cac Description",
+    "source": "Eliminate 15 enemy scavs with leg-shots using the Minebea PM-9",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e10ca6b29ea7d14682cb0 Name",
+    "source": "Poverty Doesn't Taste Great",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e10ca6b29ea7d14682cb0 Description",
+    "source": "Eliminate 20 enemy scavs using the Hi-Point C9 pistol. The gun that shouldn't work but somehow does. Like you.",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e110ec53e29d1d4682cb4 Name",
+    "source": "I'm a Burst Fire Believer",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e110ec53e29d1d4682cb4 Description",
+    "source": "Eliminate 25 enemy PMCs using the AN-94",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e114418e06664c0682cb8 Name",
+    "source": "Blood Money",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e114418e06664c0682cb8 Description",
+    "source": "Eliminate 30 enemy PMCs using the Red Wages of Sin",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "6910b4469b3fa14d813de155 name",
+    "source": "You Actually Used This Thing?",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "6910b4469b3fa14d813de155 description",
+    "source": "Eliminate 1 enemy using the Hi-Point C9 pistol",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "693c94e3b993b9416d6501a3 name",
+    "source": "Helmet Check!",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "693c94e3b993b9416d6501a3 description",
+    "source": "Shoot 20 PMC's in the head using the Barrett M107A1 .50 BMG anti-material rifle",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e0d8851fee79757682ca4 name",
+    "source": "Grandpa's Got a Gun",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e0d8851fee79757682ca4 description",
+    "source": "Eliminate 15 enemy scavs using the Browning Auto-5 Shotgun",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e0fdb0984faf074682ca8 name",
+    "source": "Close Encounters of the Shotgun Kind",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e0fdb0984faf074682ca8 description",
+    "source": "Eliminate 5 enemy scavs on Factory within 5 meters using the Serbu Super Shorty Shotgun",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e1063088b36b489682cac name",
+    "source": "Tokyo Grift",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e1063088b36b489682cac description",
+    "source": "Eliminate 15 enemy scavs with leg-shots using the Minebea PM-9",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e10ca6b29ea7d14682cb0 name",
+    "source": "Poverty Doesn't Taste Great",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e10ca6b29ea7d14682cb0 description",
+    "source": "Eliminate 20 enemy scavs using the Hi-Point C9 pistol. The gun that shouldn't work but somehow does. Like you.",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e110ec53e29d1d4682cb4 name",
+    "source": "I'm a Burst Fire Believer",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e110ec53e29d1d4682cb4 description",
+    "source": "Eliminate 25 enemy PMCs using the AN-94",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e114418e06664c0682cb8 name",
+    "source": "Blood Money",
+    "display_type": "achievement_title",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  },
+  {
+    "file": "WTT- Armory.json",
+    "key": "694e114418e06664c0682cb8 description",
+    "source": "Eliminate 30 enemy PMCs using the Red Wages of Sin",
+    "display_type": "default",
+    "evidence": [
+      "reference-sources\\SPT CLIENT SOUCES\\WTT-Armory-4.1-dev\\WTT-Armory\\Resources\\db\\CustomAchievements\\Achievements\\achievements.json",
+      "SPT_Runtime\\user\\mods\\WTT-Armory\\db\\CustomAchievements\\Achievements\\achievements.json"
+    ]
+  }
+]
