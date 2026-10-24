@@ -1,4 +1,4 @@
-param(
+﻿param(
     # Reference assemblies only; never accept or discover a game installation directory.
     [Parameter(Position = 0)] [string]$ReferenceRoot = '',
     [Parameter(Position = 1)] [string]$PythonExe = 'python',
@@ -36,6 +36,9 @@ if ([string]::IsNullOrWhiteSpace($ReferenceRoot)) {
     }
 }
 $ReferenceRoot = $ReferenceRoot.Trim().Trim('"')
+if (-not [System.IO.Path]::IsPathRooted($ReferenceRoot)) {
+    $ReferenceRoot = Join-Path $root $ReferenceRoot
+}
 try { $refs = [System.IO.Path]::GetFullPath($ReferenceRoot) }
 catch { Fail "Invalid reference library path: $ReferenceRoot" }
 
@@ -71,10 +74,8 @@ if (-not (Get-Command $PythonExe -ErrorAction SilentlyContinue)) { Fail "Python 
 
 $clientProject = Join-Path $root 'SPT_Mod_Korean_Addon.csproj'
 $serverProject = Join-Path $root 'server-src\SPT_Mod_Korean_Server\SPT_Mod_Korean_Server.csproj'
-$restoreConfig = Join-Path $root 'docs\tools\NuGet.Offline.Config'
 Require-File $clientProject 'Client project'
 Require-File $serverProject 'Server project'
-Require-File $restoreConfig 'Offline NuGet config'
 [xml]$projectXml = Get-Content -LiteralPath $clientProject -Raw
 $versionNode = $projectXml.SelectSingleNode('/Project/PropertyGroup/Version')
 if ($null -eq $versionNode -or $versionNode.InnerText -notmatch '^\d+\.\d+\.\d+$') { Fail 'Invalid client release version.' }
@@ -85,29 +86,39 @@ Write-Host "Project: $root"
 Write-Host "References: $refs"
 
 # Source documentation is GPT/developer guidance, not a build dependency.
-# Do not migrate, move, delete, or require docs/note files during a DLL build.
-Run-Python @((Join-Path $root 'docs\tools\verify_workflow.py'), 'source') 'Translation source validation'
-Run-Python @((Join-Path $root 'docs\tools\validate_translations.py')) 'Translation JSON validation'
-Run-Python @((Join-Path $root 'docs\tools\verify_quartermaster_contracts.py')) 'Quartermaster contract validation'
-Run-Python @((Join-Path $root 'docs\tools\build_supported_mods.py')) 'Support list generation'
+# docs/ is optional GPT workspace. The release support list is generated from active data under note/.
+Run-Python @((Join-Path $root 'build\verify_release.py'), 'source') 'Translation source validation'
+Run-Python @((Join-Path $root 'build\validate_translations.py')) 'Translation JSON validation'
+Run-Python @((Join-Path $root 'build\verify_quartermaster_contracts.py')) 'Quartermaster contract validation'
+Run-Python @((Join-Path $root 'build\build_supported_mods.py')) 'Support list generation'
 
-# Optional developer audit, never implicitly required for an ordinary build.
-if ([bool]$HandoffManifest -ne [bool]$CandidateInventory) {
-    Fail 'Both -HandoffManifest and -CandidateInventory are required together.'
-}
-if ($HandoffManifest) {
-    Run-Python @((Join-Path $root 'docs\tools\verify_workflow.py'), 'handoff', '--manifest', $HandoffManifest, '--inventory', $CandidateInventory, '--require-complete') 'Candidate coverage audit'
+# Developer handoff audit is deliberately not part of release build.
+# Handoff evidence is a separate developer audit, never part of release compilation.
+if ($HandoffManifest -or $CandidateInventory) {
+    Fail 'Handoff audit must run separately from the distribution build.'
 }
 
 # Both projects resolve their compile-only reference DLLs from this directory.
 # Environment variable avoids command-line quoting problems with Unicode paths.
 $env:ADDON_REFERENCE_ROOT = $refs
-Write-Host '[1/4] Restoring and building client...' -ForegroundColor Cyan
-Run-Dotnet @('restore', $clientProject, '--configfile', $restoreConfig) 'Client restore'
-Run-Dotnet @('build', $clientProject, '-c', $Configuration, '--no-restore') 'Client compilation'
-Write-Host '[2/4] Restoring and building server...' -ForegroundColor Cyan
-Run-Dotnet @('restore', $serverProject, '--configfile', $restoreConfig) 'Server restore'
-Run-Dotnet @('build', $serverProject, '-c', $Configuration, '--no-restore') 'Server compilation'
+$env:PYTHONDONTWRITEBYTECODE = '1'  # Do not leave Python caches in source ZIP trees.
+# Build must not depend on a NuGet config stored under docs/ or elsewhere.
+# Package sources stay offline; only the local SDK/package cache is used.
+$restoreConfig = Join-Path ([System.IO.Path]::GetTempPath()) ([System.IO.Path]::GetRandomFileName() + '.NuGet.Config')
+try {
+    $offlineXml = '<?xml version="1.0" encoding="utf-8"?><configuration><packageSources><clear /></packageSources></configuration>'
+    [System.IO.File]::WriteAllText($restoreConfig, $offlineXml, [System.Text.UTF8Encoding]::new($false))
+    Write-Host '[1/4] Restoring and building client...' -ForegroundColor Cyan
+    Run-Dotnet @('restore', $clientProject, '--configfile', $restoreConfig) 'Client restore'
+    Run-Dotnet @('build', $clientProject, '-c', $Configuration, '--no-restore') 'Client compilation'
+    Write-Host '[2/4] Restoring and building server...' -ForegroundColor Cyan
+    Run-Dotnet @('restore', $serverProject, '--configfile', $restoreConfig) 'Server restore'
+    Run-Dotnet @('build', $serverProject, '-c', $Configuration, '--no-restore') 'Server compilation'
+} finally {
+    if (Test-Path -LiteralPath $restoreConfig) {
+        Remove-Item -LiteralPath $restoreConfig -Force -ErrorAction SilentlyContinue
+    }
+}
 
 $clientDll = Join-Path $root "bin\$Configuration\net48\SPT_Mod_Korean_Addon.dll"
 $serverDll = Join-Path $root "server-src\SPT_Mod_Korean_Server\bin\$Configuration\net10.0\SPT_Mod_Korean_Server.dll"
@@ -150,7 +161,7 @@ Write-Host '[4/4] Verifying install ZIP...' -ForegroundColor Cyan
 $zip = Join-Path $distRoot ($packageName + '.zip')
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 [System.IO.Compression.ZipFile]::CreateFromDirectory($stage, $zip, [System.IO.Compression.CompressionLevel]::Optimal, $false)
-Run-Python @((Join-Path $root 'docs\tools\verify_workflow.py'), 'distribution', '--stage', $stage, '--zip', $zip) 'Release ZIP validation'
+Run-Python @((Join-Path $root 'build\verify_release.py'), 'distribution', '--stage', $stage, '--zip', $zip) 'Release ZIP validation'
 $hash = (Get-FileHash -LiteralPath $zip -Algorithm SHA256).Hash.ToLowerInvariant()
 Set-Content -LiteralPath ($zip + '.sha256.txt') -Value ($hash + '  ' + [System.IO.Path]::GetFileName($zip)) -Encoding ASCII
 Write-Host ''
