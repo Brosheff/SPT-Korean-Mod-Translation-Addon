@@ -14,8 +14,6 @@
 https://sp-mod.com/mod/1629/spt-korean-project-locale-patcher
 
 ### 신규 번역 지원
-- **ISB Aishi 2.0.4:** 신규 퀘스트·반복 계약·빠른 이동 관련 로케일 문구 추가
-- **ISB Special Forces 2.0.1:** 신규 F12 설정과 ‘기록 정리’ 퀘스트 문구 번역 추가
 - **Manimal Terminal 0.2.2:** 신규 퀘스트·등대지기 대화·컨테이너·지도·업적 번역, F12 설정 및 컷신 자막·에필로그 화면 번역 데이터 추가
 
 ### 기존 번역 개선
