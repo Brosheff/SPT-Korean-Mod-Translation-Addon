@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.20fpsguy.backpackgunslot",
+  "plugin_name": "Backpack Gun Slot",
+  "mod_version": "1.0.1",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Draw the backpack gun slot in the gear tab.",
+      "translation_display_name": "활성화",
+      "translation_description": "장비 화면에 배낭 총기 슬롯을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Slot name",
+      "source_display_name": "Slot name",
+      "source_description": "Internal name of the backpack child slot. Keep in sync with the server mod config.",
+      "translation_display_name": "슬롯 내부 이름",
+      "translation_description": "배낭 하위 슬롯의 내부 이름입니다. 서버 모드 설정과 일치해야 합니다. 저장값은 번역하지 마세요.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Slot caption",
+      "source_display_name": "Slot caption",
+      "source_description": "Label shown above the injected slot on the gear doll.",
+      "translation_display_name": "슬롯 표시 이름",
+      "translation_description": "장비 화면에 추가된 슬롯 위에 표시되는 문구입니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Debug logging",
+      "source_display_name": "Debug logging",
+      "source_description": "Verbose log of slot injection.",
+      "translation_display_name": "디버그 로그",
+      "translation_description": "슬롯 추가 과정을 자세히 로그에 기록합니다.",
+      "values": []
+    }
+  ]
+}

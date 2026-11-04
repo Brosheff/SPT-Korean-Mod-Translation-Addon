@@ -9,13 +9,13 @@
       {
         "key": "676cf3143a78aa252404fb73 Name",
         "source": "Custom Barrel \"Resonant\" For AK Rifle",
-        "translation": "AK 소총용 \"공명\" 커스텀 총열",
+        "translation": "AK 소총용 \"레조넌트\" 커스텀 총열",
         "match_mode": "item_decorated"
       },
       {
         "key": "676cf3143a78aa252404fb73 ShortName",
         "source": "ResonantBar",
-        "translation": "공명"
+        "translation": "레조넌트"
       },
       {
         "key": "676cf3143a78aa252404fb73 Description",
@@ -85,12 +85,12 @@
       {
         "key": "676cf3143a78aa252404fb78 Name",
         "source": "Custom Foregrip \"Resonant\"",
-        "translation": "\"공명\" 커스텀 전방손잡이"
+        "translation": "\"레조넌트\" 커스텀 전방손잡이"
       },
       {
         "key": "676cf3143a78aa252404fb78 ShortName",
         "source": "Resonant FG",
-        "translation": "공명"
+        "translation": "레조넌트"
       },
       {
         "key": "676cf3143a78aa252404fb78 Description",
@@ -100,12 +100,12 @@
       {
         "key": "676cf3143a78aa252404fb79 Name",
         "source": "Custom Mount Dovetail \"Resonant\" For AK Rifle",
-        "translation": "AK 소총용 \"공명\" 커스텀 도브테일 마운트"
+        "translation": "AK 소총용 \"레조넌트\" 커스텀 도브테일 마운트"
       },
       {
         "key": "676cf3143a78aa252404fb79 ShortName",
         "source": "Resonant Rail",
-        "translation": "공명"
+        "translation": "레조넌트"
       },
       {
         "key": "676cf3143a78aa252404fb79 Description",
@@ -115,12 +115,12 @@
       {
         "key": "676cf3143a78aa252404fb7a Name",
         "source": "OKP-7 \"Resonant\" Special Version",
-        "translation": "OKP-7 \"공명\" 특수형"
+        "translation": "OKP-7 \"레조넌트\" 특수형"
       },
       {
         "key": "676cf3143a78aa252404fb7a ShortName",
         "source": "OKP-7 Resonant",
-        "translation": "OKP-7 공명"
+        "translation": "OKP-7 레조넌트"
       },
       {
         "key": "676cf3143a78aa252404fb7a Description",
@@ -130,12 +130,12 @@
       {
         "key": "676cf3143a78aa252404fb7b Name",
         "source": "Custom \"Resonant\" AK Rifle",
-        "translation": "\"공명\" 커스텀 AK 소총"
+        "translation": "\"레조넌트\" 커스텀 AK 소총"
       },
       {
         "key": "676cf3143a78aa252404fb7b ShortName",
         "source": "Resonant",
-        "translation": "공명"
+        "translation": "레조넌트"
       },
       {
         "key": "676cf3143a78aa252404fb7b Description",

@@ -1,0 +1,663 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.matsix.fogsix",
+  "plugin_name": "FogSix",
+  "mod_version": "1.0.1",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Look",
+      "translation": "외관"
+    },
+    {
+      "source": "Ground Mist",
+      "translation": "지면 연무"
+    },
+    {
+      "source": "Lights",
+      "translation": "조명"
+    },
+    {
+      "source": "Sun Shadows",
+      "translation": "태양광 그림자"
+    },
+    {
+      "source": "Interiors",
+      "translation": "실내"
+    },
+    {
+      "source": "Range",
+      "translation": "거리"
+    },
+    {
+      "source": "Performance",
+      "translation": "성능"
+    },
+    {
+      "source": "Legacy",
+      "translation": "구형 방식"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Replace Tarkov's fog with volumetric fog. Off: flatscreen restores Tarkov's vanilla fog; in VR (SPT-VR loaded) it disables Tarkov's fog entirely instead, since it renders wrong in stereo.",
+      "translation_display_name": "활성화",
+      "translation_description": "게임의 안개를 체적 안개로 바꿉니다. 끄면 일반 화면에서는 게임 기본 안개로 돌아갑니다. SPT-VR에서는 기본 안개가 입체 화면에 잘못 표시되므로 완전히 비활성화됩니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Debug Log",
+      "source_display_name": "Debug Log",
+      "source_description": "Log the live weather Fog value + computed density and the light/fog CPU timings once a second.",
+      "translation_display_name": "디버그 로그",
+      "translation_description": "현재 날씨의 안개 값, 계산된 안개 밀도, 조명·안개 CPU 처리 시간을 1초마다 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Density Scale",
+      "source_display_name": "Density Scale",
+      "source_description": "Fog extinction at FULL fog (when WeatherCurve.Fog reaches 'Full Fog At'). ~0.03 cuts player visibility to roughly what SAIN cuts bot vision to in heavy fog (~40%), so it stays fair; raise for thicker fog (but then you see less far than the bots do).",
+      "translation_display_name": "안개 밀도 배율",
+      "translation_description": "안개가 최대 수준일 때의 소광 계수입니다. 약 0.03이면 짙은 안개에서 SAIN이 봇 시야를 줄이는 수준(약 40%)으로 플레이어 가시거리가 제한됩니다. 값을 높이면 안개가 더 짙어지지만 봇보다 멀리 보지 못할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Full Fog At",
+      "source_display_name": "Full Fog At",
+      "source_description": "The WeatherCurve.Fog value treated as FULL (max-density) fog. 0.075 = Tarkov's 'Heavy fog', so the in-game weather settings actually scale the fog (Fog lighter, Heavy fog full), with Heavy fog matched to SAIN's max bot-vision penalty. Drop it to 0.018 (SAIN's cap) for strict fairness at every fog level — but then 'Fog' and 'Heavy fog' look identical (both already max the bots' penalty, so the visual can't tell them apart).",
+      "translation_display_name": "최대 안개 기준값",
+      "translation_description": "WeatherCurve.Fog가 이 값에 도달하면 최대 밀도로 간주합니다. 0.075는 게임의 짙은 안개에 해당하여 날씨에 따라 밀도가 달라집니다. 0.018(SAIN 상한)로 낮추면 모든 안개에서 봇과 시야 조건이 비슷하지만 보통 안개와 짙은 안개의 모습이 거의 같아집니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Ground Fog",
+      "source_display_name": "Ground Fog",
+      "source_description": "World-anchored ground fog: the dense layer sits at the map's ground level and thins with ALTITUDE, so it pools in valleys/trees and you can climb hills or buildings above it and look down on it. Off = the fog follows your camera height (always around you, can't get above it). When on, use Height Offset to position the layer and Height Falloff for its thickness.",
+      "translation_display_name": "지면 고정 안개",
+      "translation_description": "안개층을 맵의 지면 높이에 고정합니다. 고도가 높아질수록 옅어져 계곡·숲에는 안개가 모이고 언덕이나 건물 위에서는 내려다볼 수 있습니다. 끄면 안개가 카메라 높이를 따라다닙니다. 높이는 높이 오프셋, 두께는 높이 감쇠로 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Height Falloff",
+      "source_display_name": "Height Falloff",
+      "source_description": "How fast the fog thins with altitude. Smaller = taller fog layer (reaches higher). With Ground Fog on, this is the layer's thickness — lower it if fog is too thin at head height, raise it to escape the fog at a lower altitude.",
+      "translation_display_name": "고도 감쇠",
+      "translation_description": "고도가 높아질수록 안개가 옅어지는 속도입니다. 작을수록 안개층이 높게 형성됩니다. 지면 고정 안개가 켜진 경우 안개층 두께를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Height Offset",
+      "source_display_name": "Height Offset",
+      "source_description": "Raises (+) / lowers (-) the full-density fog floor. Relative to the camera normally; relative to the map's ground level (LevelSettings.ZeroLevel) when Ground Fog is on — raise it until fog is dense at your feet, then hills above that poke out of the fog.",
+      "translation_display_name": "안개 높이 오프셋",
+      "translation_description": "최대 밀도 안개층의 높이를 올리거나 내립니다. 평상시에는 카메라 기준, 지면 고정 안개가 켜지면 맵의 지면 기준으로 계산합니다. 발밑에 안개가 깔리도록 올리면 높은 지형은 안개 위로 드러납니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Wispiness",
+      "source_display_name": "Wispiness",
+      "source_description": "0 = uniform haze, 1 = fully wispy fog.",
+      "translation_display_name": "안개 흩어짐",
+      "translation_description": "0은 균일한 연무, 1은 완전히 들쭉날쭉한 안개입니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Noise Scale",
+      "source_display_name": "Noise Scale",
+      "source_description": "Size of the wisps (smaller = larger features).",
+      "translation_display_name": "안개 무늬 크기",
+      "translation_description": "안개 무늬의 크기입니다. 값을 낮추면 무늬가 커집니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Sun Glow",
+      "source_display_name": "Sun Glow",
+      "source_description": "Strength of the sun's glow through the fog by day (0 = none).",
+      "translation_display_name": "햇빛 번짐",
+      "translation_description": "낮에 안개를 통과하는 태양빛의 번짐 강도입니다. 0은 없음입니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Moon Glow",
+      "source_display_name": "Moon Glow",
+      "source_description": "Strength of the moon's glow through the fog at night (0 = none).",
+      "translation_display_name": "달빛 번짐",
+      "translation_description": "밤에 안개를 통과하는 달빛의 번짐 강도입니다. 0은 없음입니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Atmospheric Sun Color",
+      "source_display_name": "Atmospheric Sun Color",
+      "source_description": "Colour the sun's glow through the fog from a physically-based atmosphere (white sun reddened along the sun ray) instead of Tarkov's TOD colours — matches the sun on the CloudSix clouds. On = physical; off = the old TOD colour.",
+      "translation_display_name": "대기 기반 태양 색상",
+      "translation_description": "게임의 시간대 색상 대신 물리 기반 대기 산란 색상을 안개 속 태양빛에 적용합니다. 구름의 태양색과 일치하며 해가 낮을수록 붉어집니다. 끄면 기본 시간대 색상을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Sun Color Warmth",
+      "source_display_name": "Sun Color Warmth",
+      "source_description": "How red the fog's sun glow goes at sunrise/sunset. 1 = orange (default); lower = more neutral; higher = deeper red. Only when 'Atmospheric Sun Color' is on.",
+      "translation_display_name": "태양광 색온감",
+      "translation_description": "일출·일몰 때 안개 속 태양빛의 붉은 정도입니다. 1은 기본 주황색, 낮추면 중립색, 높이면 진한 붉은색입니다. 대기 기반 태양 색상에서만 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Base Warmth",
+      "source_display_name": "Base Warmth",
+      "source_description": "How much the base fog haze warms toward the sunset colour near the horizon (golden hour), so the distant fog doesn't read a clinical white while the sky and clouds go gold. 0 = flat neutral base; higher = warmer. Uses 'Sun Color Warmth' for how warm.",
+      "translation_display_name": "기본 안개 온색감",
+      "translation_description": "해 질 무렵 수평선 근처의 안개가 따뜻한 색을 띠는 정도입니다. 0은 중립색이며 높을수록 따뜻해집니다. 색상은 태양광 색온감에 따라 정해집니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Sun Glow Focus",
+      "source_display_name": "Sun Glow Focus",
+      "source_description": "How tightly the glow concentrates toward the sun.",
+      "translation_display_name": "햇빛 집중도",
+      "translation_description": "안개 속 빛 번짐이 태양 방향에 집중되는 정도입니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Wind Speed",
+      "source_display_name": "Wind Speed",
+      "source_description": "Multiplier on the game's live wind for fog drift.",
+      "translation_display_name": "바람 속도 배율",
+      "translation_description": "게임의 현재 바람이 안개를 이동시키는 속도의 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Ground Mist",
+      "key": "Ground Mist",
+      "source_display_name": "Ground Mist",
+      "source_description": "A thin, wispy mist hugging the ground that drifts between the trees — a separate sharp low layer on top of the main height fog. Anchored to the map's ground (use Mist Height to sit it on the terrain you walk on).",
+      "translation_display_name": "지면 연무",
+      "translation_description": "나무 사이를 흘러다니는 낮고 가는 안개층을 기본 지면 안개 위에 추가합니다. 맵의 지면에 고정되며 연무 높이로 발밑 위치를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Ground Mist",
+      "key": "Mist Density",
+      "source_display_name": "Mist Density",
+      "source_description": "How thick the ground mist is. Raise for soupier mist.",
+      "translation_display_name": "지면 연무 밀도",
+      "translation_description": "지면에 깔린 연무의 진한 정도입니다. 값을 높이면 더 짙어집니다.",
+      "values": []
+    },
+    {
+      "section": "Ground Mist",
+      "key": "Mist Height",
+      "source_display_name": "Mist Height",
+      "source_description": "World height of the mist relative to the map's ground level. Raise/lower until the mist sits at your feet (the ground reference is often below play height).",
+      "translation_display_name": "지면 연무 높이",
+      "translation_description": "맵 기준 지면에 대한 연무의 높이입니다. 기준 높이가 실제 보행 지면보다 낮을 수 있으므로 발높이에 맞게 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Ground Mist",
+      "key": "Mist Thickness",
+      "source_display_name": "Mist Thickness",
+      "source_description": "How tall the mist band is, in metres — it fades out above this. Small = low-lying ground mist; larger = a deeper bank.",
+      "translation_display_name": "지면 연무 두께",
+      "translation_description": "연무층의 높이입니다(미터). 이 높이보다 위쪽에서는 점차 사라집니다. 작으면 얇게 깔리고 크면 두터운 층을 이룹니다.",
+      "values": []
+    },
+    {
+      "section": "Ground Mist",
+      "key": "Mist Wisp Size",
+      "source_display_name": "Mist Wisp Size",
+      "source_description": "Size of the wisps. Smaller value = bigger, smoother patches.",
+      "translation_display_name": "연무 무늬 크기",
+      "translation_description": "연무 덩어리 크기입니다. 작을수록 무늬가 크고 부드러워집니다.",
+      "values": []
+    },
+    {
+      "section": "Ground Mist",
+      "key": "Mist Patchiness",
+      "source_display_name": "Mist Patchiness",
+      "source_description": "Higher = patchier, with clearer gaps between the wisps; lower = more even.",
+      "translation_display_name": "연무 불균일도",
+      "translation_description": "높을수록 연무 덩어리 사이에 맑은 틈이 많아지고, 낮으면 고르게 퍼집니다.",
+      "values": []
+    },
+    {
+      "section": "Ground Mist",
+      "key": "Mist Detail",
+      "source_display_name": "Mist Detail",
+      "source_description": "Turbulence/detail of the wisps. 0 = smooth round blobs; higher = swirly, organic, wispy structure inside each clump.",
+      "translation_display_name": "연무 세부 무늬",
+      "translation_description": "연무의 난류와 세부 구조입니다. 0은 매끈한 둥근 덩어리, 높을수록 소용돌이치는 유기적인 무늬입니다.",
+      "values": []
+    },
+    {
+      "section": "Lights",
+      "key": "Local Lights",
+      "source_display_name": "Local Lights",
+      "source_description": "Let realtime point/spot lights (your flashlight, lamps, flares) brighten and beam through the fog. No shadows, so light passes through walls (a known limitation for world lights).",
+      "translation_display_name": "국소 조명",
+      "translation_description": "손전등·가로등·조명탄 등 실시간 점광원과 스포트라이트가 안개를 밝히고 광선을 표시합니다. 그림자는 지원하지 않아 일부 광원이 벽을 통과할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Lights",
+      "key": "Light Brightness",
+      "source_display_name": "Light Brightness",
+      "source_description": "How strongly local lights light up the fog. Raise for brighter beams/glow.",
+      "translation_display_name": "조명 밝기",
+      "translation_description": "국소 조명이 안개를 밝히는 강도입니다. 높이면 광선과 번짐이 밝아집니다.",
+      "values": []
+    },
+    {
+      "section": "Lights",
+      "key": "Light Range",
+      "source_display_name": "Light Range",
+      "source_description": "Multiplier on each light's reach into the fog (how far the glow extends).",
+      "translation_display_name": "조명 범위",
+      "translation_description": "각 조명의 빛이 안개 속으로 퍼지는 거리 배율입니다.",
+      "values": []
+    },
+    {
+      "section": "Lights",
+      "key": "Light Focus",
+      "source_display_name": "Light Focus",
+      "source_description": "How forward-scattering local lights are. HIGH = a tight beam that only glows when you look into it and barely veils objects seen through it from the side; LOW = a broad, hazy glow that washes the background. Raise this if distant objects light up when you look through a beam.",
+      "translation_display_name": "조명 산란 집중도",
+      "translation_description": "국소 조명의 전방 산란 정도입니다. 높으면 빛을 정면에서 볼 때 집중된 광선이 나타나고 측면 시야의 흐림은 줄어듭니다. 낮으면 넓은 연무가 배경을 흐립니다. 광선을 통과해 보는 원거리 물체가 과하게 빛나면 높여 보세요.",
+      "values": []
+    },
+    {
+      "section": "Lights",
+      "key": "Light Falloff",
+      "source_display_name": "Light Falloff",
+      "source_description": "How fast a light's glow dims away from the bulb. HIGH = realistic inverse-square look: bright core, fades fast, no visible boundary. LOW = the glow stays strong out to its full range — but against the sky the range boundary can read as a soft disc/circle around the light. Lower it if lights feel too dim after this change (and/or raise Light Brightness).",
+      "translation_display_name": "조명 감쇠",
+      "translation_description": "광원에서 멀어질수록 빛이 약해지는 속도입니다. 높으면 중심이 밝고 빠르게 줄어 경계가 자연스럽습니다. 낮으면 끝까지 밝지만 하늘을 배경으로 둥근 경계가 보일 수 있습니다. 너무 어두우면 값을 낮추거나 조명 밝기를 높이세요.",
+      "values": []
+    },
+    {
+      "section": "Lights",
+      "key": "Light Edge Softness",
+      "source_display_name": "Light Edge Softness",
+      "source_description": "Feathers the edge of spotlight beams in the fog: brightness ramps in from the cone edge toward the beam core instead of cutting at the surface. 0 = hard-edged cone (sharpest, and skips the extra math entirely).",
+      "translation_display_name": "광선 가장자리 부드러움",
+      "translation_description": "안개 속 스포트라이트 원뿔 경계를 부드럽게 만듭니다. 0은 선명한 경계이며 추가 계산도 생략됩니다.",
+      "values": []
+    },
+    {
+      "section": "Lights",
+      "key": "Max Lights",
+      "source_display_name": "Max Lights",
+      "source_description": "How many lights can glow in the fog at once (the most important nearby ones win). Higher = farther lamps glow too on light-dense maps like Streets; costs GPU per light.",
+      "translation_display_name": "최대 동시 조명",
+      "translation_description": "안개에 동시에 영향을 주는 광원 수입니다. 가까운 주요 광원을 우선합니다. 높이면 조명이 많은 맵의 먼 광원도 표시되지만 광원별 GPU 비용이 증가합니다.",
+      "values": []
+    },
+    {
+      "section": "Sun Shadows",
+      "key": "Sun Shadows",
+      "source_display_name": "Sun Shadows",
+      "source_description": "God rays: shadow the sun's glow in the fog where trees/buildings block it, so you get shafts of light. Samples the sun's shadow map.",
+      "translation_display_name": "태양광 그림자",
+      "translation_description": "나무·건물이 태양빛을 차단하는 안개 구간에 그림자를 넣어 빛기둥을 만듭니다. 태양 그림자 맵을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Sun Shadows",
+      "key": "Shadow Strength",
+      "source_display_name": "Shadow Strength",
+      "source_description": "How dark the shadowed shafts are. 0 = no shadowing, 1 = full.",
+      "translation_display_name": "빛기둥 그림자 강도",
+      "translation_description": "빛기둥 안의 그림자 강도입니다. 0은 그림자 없음, 1은 최대입니다.",
+      "values": []
+    },
+    {
+      "section": "Sun Shadows",
+      "key": "Shadow Bias",
+      "source_display_name": "Shadow Bias",
+      "source_description": "Depth bias to kill shadow acne (self-shadowing speckle). Raise if the fog is speckled with shadow noise; lower if shafts look detached from the trees.",
+      "translation_display_name": "그림자 깊이 편향",
+      "translation_description": "자체 그림자 점무늬를 줄이기 위한 깊이 편향입니다. 안개에 얼룩이 생기면 높이고, 빛기둥이 나무에서 떨어져 보이면 낮추세요.",
+      "values": []
+    },
+    {
+      "section": "Sun Shadows",
+      "key": "Flip Shadow",
+      "source_display_name": "Flip Shadow",
+      "source_description": "Flips the shadow depth comparison for the platform's Z convention. ON is correct on this build (reversed-Z); untick only if shafts come out inverted (lit where it should be dark).",
+      "translation_display_name": "그림자 깊이 반전",
+      "translation_description": "플랫폼의 깊이 좌표 비교를 반전합니다. 현재 빌드는 켠 상태가 정상입니다. 밝고 어두운 영역이 거꾸로 나타날 때만 끄세요.",
+      "values": []
+    },
+    {
+      "section": "Sun Shadows",
+      "key": "Shadow Distance",
+      "source_display_name": "Shadow Distance",
+      "source_description": "How far the god rays reach (metres). The sun's shadow map only has good data near the camera; beyond this the fog is just lit (no shadow). LOWER this if you see a soft circle/disc in the distance — that's the shadow map going unreliable past its range.",
+      "translation_display_name": "빛기둥 거리",
+      "translation_description": "태양빛 그림자가 적용되는 최대 거리입니다(미터). 멀리서는 그림자 맵이 부정확해 안개가 그림자 없이 밝아집니다. 먼 곳에 원형 경계가 보이면 줄이세요.",
+      "values": []
+    },
+    {
+      "section": "Sun Shadows",
+      "key": "Shadow Softness",
+      "source_display_name": "Shadow Softness",
+      "source_description": "Blurs the shadow shafts (PCF). Higher = softer, hazier shafts; 0 = razor sharp (every leaf visible). Real god rays are soft, so a little goes a long way.",
+      "translation_display_name": "빛기둥 부드러움",
+      "translation_description": "PCF로 빛기둥 그림자를 흐리게 합니다. 높이면 부드럽고 흐릿해지고 0이면 잎사귀까지 선명합니다.",
+      "values": []
+    },
+    {
+      "section": "Sun Shadows",
+      "key": "Shaft Dust",
+      "source_display_name": "Shaft Dust",
+      "source_description": "Dust motes drifting/glowing inside the sun shafts. 0 = off. Raise for a dustier, particle-filled beam.",
+      "translation_display_name": "빛기둥 먼지",
+      "translation_description": "태양광 빛기둥에서 떠다니며 반짝이는 먼지 입자입니다. 0은 끔입니다.",
+      "values": []
+    },
+    {
+      "section": "Sun Shadows",
+      "key": "Dust Grain Size",
+      "source_display_name": "Dust Grain Size",
+      "source_description": "Size of the dust specks. Higher = finer grain — but too fine flickers (the fog is only sampled every metre or so).",
+      "translation_display_name": "먼지 입자 크기",
+      "translation_description": "먼지 무늬의 입도입니다. 높이면 알갱이가 더 미세해지지만 너무 높으면 깜빡일 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Sun Shadows",
+      "key": "Dust Distance",
+      "source_display_name": "Dust Distance",
+      "source_description": "How far from you the dust motes show (m): full strength to half this distance, gone by it. Farther out the fog cells get too coarse for motes and the dust just reads as shimmer — lower this if it does.",
+      "translation_display_name": "먼지 표시 거리",
+      "translation_description": "먼지 입자가 보이는 최대 거리입니다(미터). 절반 거리까지는 최대 강도로 나타나다가 끝까지 사라집니다. 멀리서 흔들리는 빛무늬가 생기면 줄이세요.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Interior Fog Thinning",
+      "source_display_name": "Interior Fog Thinning",
+      "source_description": "Thin the fog inside buildings. Primary: the game's own indoor shelter volumes, cleared exactly along each view ray (correct through windows, any room size). Fallback for interiors those don't cover: Tarkov's per-pixel interior mask, distance-gated. Off = fog fills interiors.",
+      "translation_display_name": "실내 안개 감소",
+      "translation_description": "건물 내부의 안개를 줄입니다. 기본적으로 게임의 실내 보호 구역을 따라 시선 광선의 실내 구간만 지웁니다. 보호 구역이 없는 실내는 거리 제한 픽셀 마스크를 보조로 사용합니다. 끄면 실내에도 안개가 가득 찹니다.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Interior Reduction",
+      "source_display_name": "Interior Reduction",
+      "source_description": "How much to thin the fog inside buildings. 0 = no change, 1 = fully clear indoors.",
+      "translation_display_name": "실내 안개 감소량",
+      "translation_description": "실내 안개를 줄이는 정도입니다. 0은 변화 없음, 1은 실내 안개 완전 제거입니다.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Interior Shelter Volumes",
+      "source_display_name": "Interior Shelter Volumes",
+      "source_description": "Clear fog along the exact indoor SEGMENTS of each view ray, using the game's IndoorTrigger shelter boxes (what it uses for rain/reverb indoors). Fixes the per-pixel model's failure cases: big rooms clear to the far wall, and looking in a window no longer punches a hole in the outdoor fog. Off = the old per-pixel model everywhere.",
+      "translation_display_name": "실내 보호 구역 사용",
+      "translation_description": "게임의 IndoorTrigger 공간을 이용해 시선의 실제 실내 구간에서만 안개를 제거합니다. 큰 방의 먼 벽까지 안개를 지우며 창문 너머 바깥 안개에는 구멍을 내지 않습니다. 끄면 기존 픽셀 기반 방식을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Interior Volume Padding",
+      "source_display_name": "Interior Volume Padding",
+      "source_description": "Scales the shelter boxes. Below 1 shrinks them (a film of fog appears at walls/ceilings if a box under-fills its room); above 1 grows them (clearing can leak just outside doorways and windows). 1 = the game's exact boxes.",
+      "translation_display_name": "실내 구역 크기 보정",
+      "translation_description": "실내 보호 구역의 크기를 조절합니다. 1 미만이면 방 경계에 안개가 남을 수 있고, 1 초과이면 출입구 밖까지 안개 제거가 확장될 수 있습니다. 1은 게임 기본 크기입니다.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Interior Volume Debug View",
+      "source_display_name": "Interior Volume Debug View",
+      "source_description": "Recon overlay: GREEN where the view ray passes through a shelter volume (brighter = more of the ray covered), RED where the game's pixel mask marks interior, BLUE where the surface is under the map's rain cover. Red-ONLY rooms have no volumetric signal at all (pixel fallback). Needs Interior Fog Thinning on. Turn off after checking.",
+      "translation_display_name": "실내 구역 디버그 보기",
+      "translation_description": "시선이 보호 구역을 통과하는 곳은 초록색(밝을수록 길게 통과), 픽셀 마스크의 실내는 빨간색, 비가 닿지 않는 곳은 파란색으로 표시합니다. 빨간색만 나타나면 구역 데이터가 없어 픽셀 방식에 의존합니다. 실내 안개 감소가 켜져 있어야 합니다. 확인 후 끄세요.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Rain-Cover Reduction",
+      "source_display_name": "Rain-Cover Reduction",
+      "source_description": "Thin the fog wherever the map's RAIN can't reach, sampled from the game's own rain-occlusion depth map (the WeatherObstacle mesh). Catches interiors that have no shelter volume — if rain can't get into a building, its fog thins. Note it applies under ANY authored rain cover (overhangs, possibly tree canopies — check the debug view's BLUE tint). 0 = off.",
+      "translation_display_name": "빗물 차단 구역 안개 감소",
+      "translation_description": "게임의 비 차단 깊이 맵을 기준으로 비가 닿지 않는 곳의 안개를 줄입니다. 실내 보호 구역이 없는 건물도 처리하지만 차양이나 나뭇잎 아래에도 영향을 줄 수 있습니다. 파란색 디버그 표시로 확인하세요. 0은 끔입니다.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Rain-Cover Flip",
+      "source_display_name": "Rain-Cover Flip",
+      "source_description": "Depth convention of the rain-cover map. ON is correct on this build (reversed-Z); flip only if cover reads inverted (fog thins in the open, stays thick under roofs).",
+      "translation_display_name": "비 차단 깊이 반전",
+      "translation_description": "비 차단 맵의 깊이 비교 방향을 반전합니다. 현재 빌드는 켠 상태가 정상입니다. 노천에서 안개가 줄고 지붕 밑에서 짙어지면 바꾸세요.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Rain-Cover Bias",
+      "source_display_name": "Rain-Cover Bias",
+      "source_description": "Metres below the rain-cover surface over which the shelter fades in. Small = crisp under roof edges; larger = softer.",
+      "translation_display_name": "비 차단 경계 보정",
+      "translation_description": "비를 막는 표면 아래에서 실내 판정이 적용되기까지의 깊이입니다(미터). 작으면 지붕 경계가 선명하고 높으면 부드러워집니다.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Interior Max Clear Distance",
+      "source_display_name": "Interior Max Clear Distance",
+      "source_description": "FALLBACK-model reach (interiors with no shelter volume): only clear the fog on interior surfaces within this distance (m) of you. Lower = tighter (fewer stray clears from outside a window), but a big fallback room may keep fog on its far wall.",
+      "translation_display_name": "실내 보조 제거 최대 거리",
+      "translation_description": "보호 구역이 없는 실내에서 픽셀 방식으로 안개를 제거할 수 있는 최대 거리입니다(미터). 낮으면 창문 밖의 잘못된 제거가 줄지만 큰 방의 먼 벽에는 안개가 남을 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Interior Edge Softness",
+      "source_display_name": "Interior Edge Softness",
+      "source_description": "Feathers the interior mask's hard rectangular edges so the fog thins with a soft transition instead of a crisp cutout. 0 = off (sharp).",
+      "translation_display_name": "실내 경계 부드러움",
+      "translation_description": "실내 마스크의 딱딱한 사각 경계를 부드럽게 이어줍니다. 0은 날카로운 경계입니다.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Interior Mask Channel",
+      "source_display_name": "Interior Mask Channel",
+      "source_description": "Which channel of the game's interior mask marks 'indoors'. 3 = alpha (the usual one, since the interior tint is often black so only alpha carries coverage); 4 = brightest of R/G/B; 0/1/2 = R/G/B. If interiors aren't thinning, turn on Interior Debug View to see which channel lights up.",
+      "translation_display_name": "실내 마스크 채널",
+      "translation_description": "게임의 실내 마스크에서 실내 여부를 담은 채널입니다. 3=알파(일반적), 4=RGB 최대값, 0/1/2=빨강/초록/파랑입니다. 안개가 줄지 않으면 실내 디버그 화면으로 실제 채널을 확인하세요.",
+      "values": []
+    },
+    {
+      "section": "Interiors",
+      "key": "Interior Debug View",
+      "source_display_name": "Interior Debug View",
+      "source_description": "Replace the screen with the game's raw interior mask: RED where its alpha is set, GREEN where any RGB is set. Building interiors should light up. If they're RED set Mask Channel to 3; if GREEN set it to 4. Turn this off once picked.",
+      "translation_display_name": "실내 마스크 디버그",
+      "translation_description": "화면을 원본 실내 마스크로 대체합니다. 알파가 있으면 빨간색, RGB 값이 있으면 초록색입니다. 실내가 빨갛다면 채널 3, 초록이라면 4를 사용하세요. 확인 후 끄세요.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Fog Transparents",
+      "source_display_name": "Fog Transparents",
+      "source_description": "Older analytic glass fog, replaced by Volumetric Glass. Fogs glass/windows from the game's _Density global, which our fog patch leaves stale; we drive it ourselves, weather-matched to the volumetric fog.",
+      "translation_display_name": "투명 재질 안개",
+      "translation_description": "이전 방식의 유리 안개입니다. 체적 유리로 대체됐지만 게임의 _Density 전역값을 날씨에 맞게 별도로 조절해 유리·창문에도 기본 분석형 안개를 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Transparent Fog Density",
+      "source_display_name": "Transparent Fog Density",
+      "source_description": "Density of the fog on glass at FULL fog (Fog Transparents). Raise = thicker glass haze. (The game's own value is pinned near-zero, so we drive it ourselves.) 0 = off.",
+      "translation_display_name": "유리 안개 밀도",
+      "translation_description": "최대 안개 시 유리에 표시되는 밀도입니다. 높이면 유리 연무가 짙어지며 0은 끔입니다. 게임 기본값 대신 모드가 직접 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Transparent Fog Brightness",
+      "source_display_name": "Transparent Fog Brightness",
+      "source_description": "Brightness of the glass fog colour (Fog Transparents). The sky-derived colour is HDR-bright and blows out the glass's additive in-scatter — lower this if the glass over-brightens.",
+      "translation_display_name": "유리 안개 밝기",
+      "translation_description": "유리 위 안개 색상의 밝기입니다. 하늘에서 가져온 HDR 색상이 유리를 지나치게 밝히면 낮추세요.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Volumetric Glass",
+      "source_display_name": "Volumetric Glass",
+      "source_description": "Windows fog from the volumetric fog itself, at their own distance (FogSix's port of the game's window shader, swapped in at raid load). Off = the game's window shader with its analytic fog.",
+      "translation_display_name": "체적 유리 안개",
+      "translation_description": "창문 자체의 거리에서 체적 안개를 적용합니다. 레이드 시작 시 창문 셰이더를 교체합니다. 끄면 기존 분석형 안개의 게임 창문 셰이더를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Range",
+      "key": "Start Distance",
+      "source_display_name": "Start Distance",
+      "source_description": "Fog starts this many metres from the camera.",
+      "translation_display_name": "안개 시작 거리",
+      "translation_description": "카메라에서 이 거리만큼 떨어진 곳부터 안개가 시작됩니다(미터).",
+      "values": []
+    },
+    {
+      "section": "Range",
+      "key": "Max Distance",
+      "source_display_name": "Max Distance",
+      "source_description": "How far the fog reaches (also caps the march for the sky).",
+      "translation_display_name": "안개 최대 거리",
+      "translation_description": "안개가 뻗는 최대 거리입니다. 하늘 방향 레이 마칭 거리도 제한합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Froxel Fog",
+      "source_display_name": "Froxel Fog",
+      "source_description": "Frostbite-style froxel volumetrics (Hillaire 2015): fog density and lighting are computed once per view-frustum voxel into a small 3D volume, accumulated over frames IN the volume, and each pixel just integrates that tiny volume — there is NO per-pixel jitter or noise anywhere in this mode, by construction. Most stable AND cheapest mode. While on, Raymarch Steps / Step Jitter / Half-Resolution Marching don't apply (they belong to the legacy raymarch, which Off restores).",
+      "translation_display_name": "프로셀 체적 안개",
+      "translation_description": "Frostbite 방식의 프로셀(시야 절두체 복셀) 안개입니다. 작은 3차원 격자에서 밀도와 조명을 계산·누적한 뒤 각 픽셀이 그 결과를 사용합니다. 픽셀별 지터가 없어 안정적이고 비용이 낮습니다. 켜면 기존 레이 마칭 단계·지터·반해상도 설정은 적용되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Froxel Resolution",
+      "source_display_name": "Froxel Resolution",
+      "source_description": "Froxel grid size: Low 128x72, Medium 160x92, High 240x136 screen tiles. Higher = crisper fog shapes/shaft edges for more GPU. Fog is soft — Medium is usually plenty.",
+      "translation_display_name": "프로셀 해상도",
+      "translation_description": "프로셀 격자 크기입니다. 낮음 128×72, 보통 160×92, 높음 240×136입니다. 높을수록 안개 형태와 빛기둥 경계가 선명해지지만 GPU 비용이 늘어납니다. 보통이면 충분한 경우가 많습니다.",
+      "values": [
+        {
+          "source": "Low",
+          "translation": "낮음"
+        },
+        {
+          "source": "Medium",
+          "translation": "보통"
+        },
+        {
+          "source": "High",
+          "translation": "높음"
+        }
+      ]
+    },
+    {
+      "section": "Performance",
+      "key": "Froxel Depth Slices",
+      "source_display_name": "Froxel Depth Slices",
+      "source_description": "Depth slices in the froxel volume (exponentially spaced, 0.5m to Froxel Range). More = finer near/mid detail (mist bands, shaft edges).",
+      "translation_display_name": "프로셀 깊이 구간",
+      "translation_description": "프로셀 공간의 깊이 슬라이스 수입니다. 0.5m부터 최대 범위까지 지수적으로 분포합니다. 많을수록 가까운·중간 거리의 연무층과 빛기둥 경계가 정밀해집니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Froxel Range",
+      "source_display_name": "Froxel Range",
+      "source_description": "Distance the froxel volume covers, metres. Beyond it the fog switches to the exact analytic height-fog integral (perfectly smooth; wisps/god rays/dust are near-field effects and only exist inside this range).",
+      "translation_display_name": "프로셀 적용 거리",
+      "translation_description": "프로셀 공간이 처리하는 거리입니다(미터). 이후에는 부드러운 분석형 높이 안개로 전환되며, 연무 무늬·빛기둥·먼지는 이 범위 안에만 나타납니다.",
+      "values": []
+    },
+    {
+      "section": "Legacy",
+      "key": "Raymarch Steps (Legacy)",
+      "source_display_name": "Raymarch Steps (Legacy)",
+      "source_description": "LEGACY RAYMARCH ONLY — no effect while Froxel Fog is on. Steps per ray of the old screen-space march. Higher = smoother (less banding), more GPU.",
+      "translation_display_name": "광선 탐색 단계(구형)",
+      "translation_description": "구형 레이 마칭에만 적용됩니다. 프로셀 안개가 켜진 경우 효과가 없습니다. 높일수록 줄무늬가 줄지만 GPU 부담이 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "Legacy",
+      "key": "Step Jitter (Legacy)",
+      "source_display_name": "Step Jitter (Legacy)",
+      "source_description": "LEGACY RAYMARCH ONLY — no effect while Froxel Fog is on. Fixed per-pixel march offset that dissolves coarse-step banding into grain. Froxel mode has no per-pixel jitter at all, which is the point of it.",
+      "translation_display_name": "단계 지터(구형)",
+      "translation_description": "구형 레이 마칭에만 적용됩니다. 픽셀별 위치를 이동시켜 거친 줄무늬를 입자로 분산합니다. 프로셀 모드는 픽셀별 지터를 사용하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Legacy",
+      "key": "Half-Resolution Marching (Legacy)",
+      "source_display_name": "Half-Resolution Marching (Legacy)",
+      "source_description": "LEGACY RAYMARCH ONLY — no effect while Froxel Fog is on. Marches the old path at half resolution with a depth-aware upsample.",
+      "translation_display_name": "반해상도 탐색(구형)",
+      "translation_description": "구형 레이 마칭에만 적용됩니다. 깊이 정보를 이용해 반해상도로 탐색한 결과를 확대합니다. 프로셀 모드가 켜지면 효과가 없습니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Temporal Smoothing",
+      "source_display_name": "Temporal Smoothing",
+      "source_description": "Frame-to-frame accumulation of the fog. In Froxel Fog mode this is the volume history blend (the Frostbite temporal integration): higher = smoother, more converged fog; 0.9-0.95 recommended, and changes to weather/lights still track within a few frames. 0 = no accumulation (raw per-frame volume). In legacy mode it drives the old screen-space history resolve instead.",
+      "translation_display_name": "시간 누적 평활화",
+      "translation_description": "프레임 사이의 안개 누적량입니다. 프로셀에서는 3차원 공간의 이전 결과를 혼합합니다. 높을수록 부드럽고 안정적이며 0.9~0.95를 권장합니다. 0은 누적하지 않습니다. 구형 모드에서는 화면 공간의 이전 결과를 혼합합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Baked Noise Texture",
+      "source_display_name": "Baked Noise Texture",
+      "source_description": "Fetches the wisp/mist/dust noise from a pre-baked tiling 3D texture (one texture tap per step) instead of recomputing it per raymarch step — the single biggest per-step GPU cost. Same look (the pattern repeats every ~800 m, hidden by wind drift). Off = the exact procedural noise, for A/B.",
+      "translation_display_name": "미리 계산된 노이즈",
+      "translation_description": "연무·안개·먼지의 노이즈를 매 단계에서 계산하는 대신 반복되는 3D 텍스처에서 읽습니다. 단계별 GPU 비용이 크게 줄고 바람 이동으로 반복 무늬가 덜 보입니다. 끄면 절차적 노이즈를 사용해 비교합니다.",
+      "values": []
+    },
+    {
+      "section": "Legacy",
+      "key": "Wispiness Fade Distance (Legacy)",
+      "source_display_name": "Wispiness Fade Distance (Legacy)",
+      "source_description": "LEGACY RAYMARCH ONLY — no effect while Froxel Fog is on. Distance where wisp noise fades to uniform fog and stops being computed. 0 = never fade.",
+      "translation_display_name": "안개 무늬 감쇠 거리(구형)",
+      "translation_description": "구형 레이 마칭에만 적용됩니다. 무늬가 균일한 안개로 바뀌고 노이즈 계산이 중단되는 거리입니다. 0은 계속 유지합니다.",
+      "values": []
+    }
+  ]
+}

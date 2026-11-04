@@ -76,7 +76,7 @@ def source_checks(root):
                     cats.add(cat['source'])
         except (ValueError, OSError, TypeError) as exc:
             errors.append(f'{p.name}: {exc}')
-    # Current release targets Aishi 2.0.4 / Special Forces 2.0.1 only.
+    # Current release targets Aishi 2.0.5 / Special Forces 2.0.2 only.
     # Deleted old-version compatibility profiles must not reappear unnoticed.
     deprecated_profiles = (
         'ISB Aishi - 2.0.3 Compatibility.json',
@@ -107,6 +107,8 @@ def source_checks(root):
     # Different sources remain distinct candidates. Never report this as in-game proof.
     from audit_locale_integrity import audit
     errors.extend(audit(root / 'translations'))
+    from verify_locale_selection_contract import check as check_locale_selection
+    errors.extend(check_locale_selection(root))
     # Build inputs only. GPT workspace/document location is independently checked
     # by the optional `documents` command and must never block a DLL build.
     # In particular, Upload/, backups and archived releases are not build inputs.

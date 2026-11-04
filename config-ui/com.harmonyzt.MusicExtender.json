@@ -2,9 +2,9 @@
   "schema_version": 1,
   "target_spt": "4.1.6",
   "plugin_guid": "com.harmonyzt.MusicExtender",
-  "plugin_name": "MusicExtender-master",
-  "mod_version": "1.1.1",
-  "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
+  "plugin_name": "MusicExtender",
+  "mod_version": "1.2.0",
+  "_note": "SPT 4.1.6 display-only F12 Korean translation from the supplied source. Saved section/key/enum values are unchanged. Independent UI/CustomDrawer requires separate audit.",
   "categories": [
     {
       "source": "Music",
@@ -17,8 +17,8 @@
       "key": "Custom Music Only",
       "source_display_name": "Custom Music Only",
       "source_description": "REQUIRES RESTART. When enabled, only custom music will play. When disabled, custom music is mixed with the vanilla music.",
-      "translation_display_name": "사용자 음악 전용",
-      "translation_description": "활성화하면 사용자 음악만 재생하고, 비활성화하면 사용자 음악과 기본 게임 음악을 함께 사용합니다. 변경 후 재시작이 필요합니다.",
+      "translation_display_name": "사용자 음악만 재생",
+      "translation_description": "활성화하면 사용자 음악만 재생합니다. 끄면 사용자 음악과 기본 게임 음악을 함께 재생합니다. 변경 후 게임을 재시작해야 합니다.",
       "values": []
     },
     {
@@ -27,7 +27,16 @@
       "source_display_name": "Play in Hideout",
       "source_description": "Will keep playing music once you enter hideout.",
       "translation_display_name": "은신처에서도 음악 재생",
-      "translation_description": "은신처에 들어간 뒤에도 현재 재생 중인 음악을 계속 재생합니다.",
+      "translation_description": "은신처에 들어가도 재생 중인 음악이 계속 재생됩니다.",
+      "values": []
+    },
+    {
+      "section": "Music",
+      "key": "Play Custom Music Packs",
+      "source_display_name": "Play Custom Music Packs",
+      "source_description": "REQUIRES RESTART. Play music packs added by addons in 'Custom' folder inside Resources. Disable to use only the tracks shipped with this mod.",
+      "translation_display_name": "추가 음악 팩 재생",
+      "translation_description": "Resources 폴더의 Custom 폴더에 애드온이 추가한 음악 팩을 재생합니다. 끄면 이 모드에 기본 포함된 곡만 사용합니다. 변경 후 게임을 재시작해야 합니다.",
       "values": []
     }
   ]

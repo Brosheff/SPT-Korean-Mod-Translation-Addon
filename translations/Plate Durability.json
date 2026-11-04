@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.mybutthasarash.platedurability",
+  "mod_name": "Plate Durability",
+  "mod_version": "1.0.0",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "com.mybutthasarash.platedurability.ui.001",
+        "source": "Empty",
+        "translation": "비어 있음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.platedurability.ui.002",
+        "source": "Broken",
+        "translation": "파손",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.platedurability.ui.003",
+        "source": "max",
+        "translation": "최대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.platedurability.ui.004",
+        "source": "Plates fitted",
+        "translation": "장착된 방탄판",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.platedurability.ui.005",
+        "source": " broken (",
+        "translation": " 파손 (",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

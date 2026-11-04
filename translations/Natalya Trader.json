@@ -2013,6 +2013,54 @@
         "source": "Secretive ex russian soldier",
         "translation": "정체를 숨기고 있는 전직 러시아 군인입니다.",
         "match_mode": "exact"
+      },
+      {
+        "key": "67e179c98011d62426c9412d ShortName",
+        "source": "Gen P4",
+        "translation": "젠 프로 4",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67e179c935563e326180ce7d ShortName",
+        "source": "Gen P5",
+        "translation": "젠 프로 5",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67e179c99591ffcd472a270a ShortName",
+        "source": "Gen P6",
+        "translation": "젠 프로 6",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "674815ecf20ca8e28a207007 ShortName",
+        "source": "L4 Col S",
+        "translation": "4레벨 목 보호대",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67481bf4c77efad1cb48527f ShortName",
+        "source": "L5 Col S",
+        "translation": "5레벨 목 보호대",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67481bf41c82c08a792913fa ShortName",
+        "source": "L6 Col S",
+        "translation": "6레벨 목 보호대",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "674815ecb107ad4bd99235e4 ShortName",
+        "source": "Mk6 S A",
+        "translation": "Mk6 측면 장갑",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "674815ec0e1737c294820e25 ShortName",
+        "source": "TK F Mk6",
+        "translation": "택-켁 안면 Mk6",
+        "match_mode": "item_decorated"
       }
     ]
   }

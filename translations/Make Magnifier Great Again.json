@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.alanyung-yl.makemagnifiergreatagain",
+  "mod_name": "Make Magnifier Great Again",
+  "mod_version": "0.7.2",
+  "channels": {
+    "locale": [
+      {
+        "key": "31d49a6fcf9e8c1864d7e401 Name",
+        "source": "EOTECH G33 Magnifier",
+        "translation": "EOTECH G33 확대경",
+        "match_mode": "item_decorated",
+        "display_type": "item_name"
+      },
+      {
+        "key": "31d49a6fcf9e8c1864d7e401 ShortName",
+        "source": "G33",
+        "translation": "G33"
+      },
+      {
+        "key": "31d49a6fcf9e8c1864d7e401 Description",
+        "source": "Proof-of-concept standalone EOTech G33 magnifier from MakeMagnifierGreatAgain. Pair it with a supported 1x optic in its front mod_scope slot.",
+        "translation": "MakeMagnifierGreatAgain의 독립형 EOTech G33 확대경 시제품입니다. 전방 mod_scope 슬롯에 호환되는 1배율 광학 조준경을 장착하여 사용합니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "31d49a6fcf9e8c1864d7e420 Name",
+        "source": "EOTECH G33 Magnifier w/ Unity FAST FTC OMNI (FDE)",
+        "translation": "Unity FAST FTC OMNI 마운트 장착 EOTECH G33 확대경 (사막색)",
+        "match_mode": "item_decorated",
+        "display_type": "item_name"
+      },
+      {
+        "key": "31d49a6fcf9e8c1864d7e420 ShortName",
+        "source": "G33 FTC FDE",
+        "translation": "G33 FTC FDE"
+      },
+      {
+        "key": "31d49a6fcf9e8c1864d7e420 Description",
+        "source": "An FDE EOTECH G33 magnifier on a Unity FAST FTC OMNI mount, adapted from EpicAIO with an MMGA-compatible front mod_scope slot.",
+        "translation": "EpicAIO를 기반으로 개조한 사막색 EOTECH G33 확대경으로, Unity FAST FTC OMNI 마운트에 장착되어 있습니다. MMGA와 호환되는 전방 mod_scope 슬롯을 갖추고 있습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "31d49a6fcf9e8c1864d7e430 Name",
+        "source": "EOTECH G33 Magnifier w/ Unity FAST FTC OMNI",
+        "translation": "Unity FAST FTC OMNI 마운트 장착 EOTECH G33 확대경",
+        "match_mode": "item_decorated",
+        "display_type": "item_name"
+      },
+      {
+        "key": "31d49a6fcf9e8c1864d7e430 ShortName",
+        "source": "G33 FTC",
+        "translation": "G33 FTC"
+      },
+      {
+        "key": "31d49a6fcf9e8c1864d7e430 Description",
+        "source": "A black EOTECH G33 magnifier on a Unity FAST FTC OMNI mount, adapted from EpicAIO with an MMGA-compatible front mod_scope slot.",
+        "translation": "EpicAIO를 기반으로 개조한 검은색 EOTECH G33 확대경으로, Unity FAST FTC OMNI 마운트에 장착되어 있습니다. MMGA와 호환되는 전방 mod_scope 슬롯을 갖추고 있습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "31d49a6fcf9e8c1864d7e440 Name",
+        "source": "EOTECH G33 Magnifier (Tan)",
+        "translation": "EOTECH G33 확대경 (황갈색)",
+        "match_mode": "item_decorated",
+        "display_type": "item_name"
+      },
+      {
+        "key": "31d49a6fcf9e8c1864d7e440 ShortName",
+        "source": "G33 Tan",
+        "translation": "G33 황갈색"
+      },
+      {
+        "key": "31d49a6fcf9e8c1864d7e440 Description",
+        "source": "A tan EOTECH G33 magnifier adapted from EpicAIO's EXPS3 low-magnifier pair, with the baked EXPS3 replaced by an MMGA-compatible front mod_scope slot.",
+        "translation": "EpicAIO의 EXPS3와 확대경이 결합된 낮은 장착 위치의 구성을 개조한 황갈색 EOTECH G33 확대경입니다. 모델에 고정되어 있던 EXPS3 대신 MMGA 호환 전방 mod_scope 슬롯을 사용합니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "6a668154ed607881737e22c4 Name",
+        "source": "Trijicon SkeetIR-L thermal clip-on (MMGA)",
+        "translation": "Trijicon SkeetIR-L 열화상 클립온 (MMGA)",
+        "match_mode": "item_decorated",
+        "display_type": "item_name",
+        "source_alternatives": [
+          {
+            "source": "EOTech EXPS3 (Multicam Black) on LaRue riser w/ Trijicon SkeetIR",
+            "translation": "LaRue 라이저 및 Trijicon SkeetIR 장착 EOTech EXPS3 홀로그래픽 조준경 (멀티캠 블랙)"
+          }
+        ]
+      },
+      {
+        "key": "6a668154ed607881737e22c4 ShortName",
+        "source": "SkeetIR MMGA",
+        "translation": "SkeetIR MMGA"
+      },
+      {
+        "key": "6a668154ed607881737e22c4 Description",
+        "source": "JSOC's Trijicon SkeetIR-L upgraded by MakeMagnifierGreatAgain: a standalone 1x thermal clip-on with a separated mount base and a child optic slot.",
+        "translation": "MakeMagnifierGreatAgain에서 개선한 JSOC의 Trijicon SkeetIR-L입니다. 마운트 베이스가 분리되어 있고 하위 광학 장비 장착 슬롯을 갖춘 독립형 1배율 열화상 클립온 장비입니다.",
+        "display_type": "item_description",
+        "source_alternatives": [
+          {
+            "source": "An EOTech EXPS3 holographic sight finished in Multicam Black Cerakote, mounted on a LaRue Tactical Picatinny riser to bring the reticle up to a comfortable heads-up position. A Trijicon SkeetIR thermal clip-on sits in front on a flip-to-side mount, swinging into line behind the holo when you need to see heat and folding out of the way when you don't.",
+            "translation": "멀티캠 블랙 세라코트 도장이 적용된 EOTech EXPS3 홀로그래픽 조준경입니다. 편안한 높이에서 조준할 수 있도록 LaRue Tactical 피카티니 라이저에 장착되어 있습니다. 전방의 측면 전환식 마운트에는 Trijicon SkeetIR 열화상 클립온이 장착되어 있습니다. 열상 관측이 필요할 때는 홀로그래픽 조준경과 광축을 일치시키고, 필요하지 않을 때는 옆으로 접어 둘 수 있습니다."
+          }
+        ]
+      }
+    ]
+  }
+}

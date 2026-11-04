@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.matsix.pomsix",
+  "plugin_name": "POMSix",
+  "mod_version": "1.0.2",
+  "categories": [
+    {
+      "source": "POM",
+      "translation": "POM"
+    },
+    {
+      "source": "Tessellation",
+      "translation": "테셀레이션"
+    },
+    {
+      "source": "Roads",
+      "translation": "도로"
+    },
+    {
+      "source": "Advanced",
+      "translation": "고급"
+    }
+  ],
+  "entries": [
+    {
+      "section": "POM",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Parallax occlusion mapping on terrain.",
+      "translation_display_name": "활성화",
+      "translation_description": "지형에 시차 차폐 매핑(POM)을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Displacement Mode",
+      "source_display_name": "Displacement Mode",
+      "source_description": "POM = per-pixel parallax (cheapest, fakes depth inside the flat surface). Tessellation = the terrain mesh is really subdivided and displaced near you (true silhouettes, but a mesh can only hold shapes a few triangles wide, so fine detail is softer). Hybrid = both as ONE surface: tessellation builds the big shapes and silhouettes, POM carves the fine detail the mesh can't hold (heaviest, best). All use the same generated heights; roads keep their POM.",
+      "translation_display_name": "변위 방식",
+      "translation_description": "POM: 픽셀별 시차로 평평한 표면에 깊이를 흉내 내며 비용이 가장 낮습니다. 테셀레이션: 가까운 지형 메시를 실제로 세분화하고 변위시켜 윤곽을 만들지만 미세한 디테일은 약해집니다. 하이브리드: 두 방식을 하나의 표면에 적용해 큰 형태는 테셀레이션으로, 미세한 형태는 POM으로 표현합니다(비용과 품질 모두 가장 높음). 모두 동일한 높이 데이터를 사용하고 도로에는 POM을 유지합니다.",
+      "values": [
+        {
+          "source": "POM",
+          "translation": "POM"
+        },
+        {
+          "source": "Tessellation",
+          "translation": "테셀레이션"
+        },
+        {
+          "source": "Hybrid",
+          "translation": "하이브리드"
+        }
+      ]
+    },
+    {
+      "section": "Tessellation",
+      "key": "Displacement",
+      "source_display_name": "Displacement",
+      "source_description": "How deep the relief goes in Tessellation and Hybrid, in meters (in Hybrid this is the total: geometry + POM carve; POM Height is unused there). Carved INTO the ground (stone tops stay on the walkable surface), so feet and roads never sink into raised terrain.",
+      "translation_display_name": "변위 깊이",
+      "translation_description": "테셀레이션 및 하이브리드의 지형 굴곡 깊이입니다(미터). 하이브리드에서는 기하 변위와 POM을 합친 전체 깊이로, POM 높이 설정은 사용하지 않습니다. 지형을 위로 솟게 하지 않고 아래로 파므로 발과 도로가 솟은 표면에 파묻히지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Tessellation",
+      "key": "Triangle Size",
+      "source_display_name": "Triangle Size",
+      "source_description": "Target on-screen size of tessellated triangles, in pixels (Tessellation and Hybrid). Smaller = denser mesh and finer geometric detail, more GPU. The height detail each vertex samples is matched to this density, so the surface stays stable (no swimming) at any setting.",
+      "translation_display_name": "삼각형 크기",
+      "translation_description": "테셀레이션된 삼각형의 목표 화면 크기입니다(픽셀). 작을수록 메시가 촘촘해져 세부 형태가 좋아지지만 GPU 부하가 증가합니다. 정점에서 참조하는 높이 디테일도 이 밀도에 맞춰 조정해 표면 흔들림을 방지합니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Height",
+      "source_display_name": "Height",
+      "source_description": "Displacement strength. The illusion of relief POM digs into the ground.",
+      "translation_display_name": "POM 높이",
+      "translation_description": "POM이 지면 안쪽에 파이는 듯한 굴곡을 만드는 변위 강도입니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Fade Start",
+      "source_display_name": "Fade Start",
+      "source_description": "Distance where POM starts fading out. Main perf knob — POM costs per-pixel, x2 in VR.",
+      "translation_display_name": "거리 감쇠 시작",
+      "translation_description": "이 거리부터 POM 효과가 감소합니다. 픽셀마다 계산하므로 성능에 큰 영향을 주며 VR에서는 비용이 두 배입니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Fade Distance",
+      "source_display_name": "Fade Distance",
+      "source_description": "Fade-out range past Fade Start (fully off at start + distance).",
+      "translation_display_name": "거리 감쇠 구간",
+      "translation_description": "감쇠 시작 거리에서 완전히 사라질 때까지의 추가 거리입니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Steps",
+      "source_display_name": "Steps",
+      "source_description": "Max ray-march steps. The full count is spent at GRAZING angles (ground-level views, where rays cross the most texels); looking straight down uses about a third. Higher = cleaner steep relief, more cost.",
+      "translation_display_name": "광선 탐색 단계",
+      "translation_description": "최대 레이 마칭 단계 수입니다. 지면을 비스듬히 볼수록 최대 단계까지 사용하고 바로 아래로 볼 때는 약 3분의 1을 사용합니다. 높을수록 가파른 지형의 모양이 선명하지만 성능 비용이 증가합니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Smoothing",
+      "source_display_name": "Smoothing",
+      "source_description": "Mip levels of blur on the derived height field. Rounds the relief into coarse shapes (fine detail stays in the normal map); 0 = raw per-texel height (crunchy/spiky). In Tessellation/Hybrid each level also adds half a mip of safety blur to the mesh heights.",
+      "translation_display_name": "높이 맵 평활화",
+      "translation_description": "생성한 높이 데이터에 적용하는 밉맵 단계별 흐림입니다. 굴곡은 큰 형태로 둥글어지고 미세한 질감은 노멀 맵에 남습니다. 0은 원본 텍셀 높이입니다. 테셀레이션/하이브리드는 단계마다 메시 높이에 추가 안전 흐림을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Self Shadow",
+      "source_display_name": "Self Shadow",
+      "source_description": "Stones cast soft shadows into crevices along the sun/moon direction (Prism horizon method on the height mips). 0 = off. Terrain only.",
+      "translation_display_name": "자체 그림자",
+      "translation_description": "높이 맵의 지평선 정보를 이용해 돌이 홈에 부드러운 그림자를 드리우게 합니다. 그림자 방향은 해와 달을 따릅니다. 0은 끔이며 지형에만 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Height AO",
+      "source_display_name": "Height AO",
+      "source_description": "Ambient occlusion from the height-field horizon — pits and gaps darken ambient light. 0 = off. Terrain only.",
+      "translation_display_name": "높이 기반 AO",
+      "translation_description": "높이 데이터의 지평선으로 주변광을 차폐하여 구덩이와 틈을 어둡게 합니다. 0은 끔이며 지형에만 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Relief Balance",
+      "source_display_name": "Relief Balance",
+      "source_description": "How relief depth is shared between ground materials. 1 = relative depth measured from each texture's own normal map (sand stays nearly flat, rubble goes deep); 0 = every material gets the same depth. Live — no regeneration.",
+      "translation_display_name": "재질별 굴곡 배분",
+      "translation_description": "지면 재질 간 굴곡 깊이를 배분합니다. 1은 각 재질 노멀 맵에 따른 상대 깊이(모래는 평탄, 자갈은 깊음), 0은 모든 재질에 같은 깊이를 적용합니다. 변경 시 재생성할 필요가 없습니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Grazing Depth",
+      "source_display_name": "Grazing Depth",
+      "source_description": "Relief depth when looking ALONG the ground (standing, crouched, prone). 0 = MicroSplat's stock flattening (relief never deeper than seen from ~45°, so eye-level ground reads 3-10x too shallow); 1 = physically correct parallax. If very low angles show banding or swimming, raise Steps or lower this. Terrain POM + roads.",
+      "translation_display_name": "낮은 시선의 굴곡 깊이",
+      "translation_description": "지면을 낮은 각도로 바라볼 때의 굴곡입니다. 0은 MicroSplat 기본 평탄화로 눈높이에서 굴곡이 지나치게 얕아질 수 있고, 1은 물리적으로 올바른 시차입니다. 아주 낮은 각도에서 줄무늬·흔들림이 나타나면 단계 수를 높이거나 값을 낮추세요. 지형 POM과 도로에 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Height Blending",
+      "source_display_name": "Height Blending",
+      "source_description": "Blend ground materials by their real heights instead of the game's linear cross-fade: stones poke through dirt, sand fills the gaps between rocks. 0 = vanilla blending. Fades back to vanilla with the POM fade distance, so the far terrain handoff stays seamless.",
+      "translation_display_name": "높이 기반 재질 혼합",
+      "translation_description": "기본 선형 혼합 대신 재질의 실제 높이에 따라 지면을 섞습니다. 돌은 흙 위로 솟고 모래는 틈을 채웁니다. POM 감쇠 거리에 따라 기본 혼합으로 돌아가 먼 지형과의 경계가 자연스럽게 이어집니다. 0은 기본 혼합입니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Depth Offset",
+      "source_display_name": "Depth Offset",
+      "source_description": "Write the displaced surface depth, in the camera AND the shadow map. Objects sink into pits instead of clipping at a flat line, sun shadows fall across the relief, and reflections/AO/fog/upscaler reprojection all see the displaced ground (less POM smearing in motion). Terrain only.",
+      "translation_display_name": "깊이 오프셋",
+      "translation_description": "카메라와 그림자 맵에 변위된 표면의 깊이를 기록합니다. 물체가 홈에 자연스럽게 파묻히고 태양 그림자가 굴곡을 따릅니다. 반사·AO·안개·업스케일러도 변위 지형을 인식해 움직임 중 POM 번짐이 줄어듭니다. 지형에만 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "POM",
+      "key": "Roads",
+      "source_display_name": "Roads",
+      "source_description": "Swap road/path/sidewalk materials to the POMSix road shader (POM from heights generated out of each road texture's own normal map, like the terrain).",
+      "translation_display_name": "도로 POM",
+      "translation_description": "도로·길·보도 재질을 POMSix 도로 셰이더로 바꿉니다. 지형처럼 도로 텍스처의 노멀 맵에서 높이를 생성합니다.",
+      "values": []
+    },
+    {
+      "section": "Roads",
+      "key": "Flatten Under Roads",
+      "source_display_name": "Flatten Under Roads",
+      "source_description": "Flatten the tessellated terrain (Tessellation and Hybrid) under and beside roads, from a top-down mask of the road meshes built at raid load. Roads sit on level ground; a displaced mesh there left a cliff along every crumbled edge that ambient occlusion shaded as a wall. POM's visible relief is not changed; only the depth it writes is levelled under roads, so ambient occlusion and fog don't see pits through the road surface.",
+      "translation_display_name": "도로 아래 지형 평탄화",
+      "translation_description": "레이드 시작 시 만든 도로 마스크를 기준으로 테셀레이션/하이브리드 지형의 도로 주변을 평탄화합니다. 도로 가장자리의 가짜 절벽과 AO 문제를 방지합니다. 보이는 POM 굴곡은 유지하되 도로 아래 깊이만 평탄화해 AO와 안개가 도로를 뚫고 구덩이를 보지 않게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Roads",
+      "key": "Road Relief",
+      "source_display_name": "Road Relief",
+      "source_description": "Strength of the road relief. 1 = the depth each road texture's own normal map describes, so every road and every layer of it gets relief in proportion to its features; higher exaggerates, 0 = flat.",
+      "translation_display_name": "도로 굴곡 강도",
+      "translation_description": "도로 텍스처 노멀 맵이 나타내는 굴곡의 강도입니다. 1은 재질별 본래 깊이, 높이면 강조, 0은 평평하게 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Advanced",
+      "key": "Blended March",
+      "source_display_name": "Blended March",
+      "source_description": "March ONE surface made of both top ground layers blended by height. Off = the stock path: each layer marched separately and the two results cross-faded, which doubles or smears the relief at every material transition.",
+      "translation_display_name": "혼합 레이 마칭",
+      "translation_description": "높이로 혼합한 두 지면 재질을 하나의 표면으로 레이 마칭합니다. 끄면 각 재질을 별도로 탐색한 뒤 섞으므로 경계에서 굴곡이 이중으로 보이거나 번질 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Advanced",
+      "key": "Tessellation Patch Culling",
+      "source_display_name": "Tessellation Patch Culling",
+      "source_description": "Skip tessellating terrain patches outside the view (and each shadow cascade). Pure perf win; turn off only to rule it out if ground ever goes missing at the screen edges.",
+      "translation_display_name": "테셀레이션 패치 컬링",
+      "translation_description": "화면과 그림자 캐스케이드 밖의 지형 패치는 테셀레이션하지 않습니다. 성능을 개선합니다. 화면 가장자리에서 지형이 사라지는 문제가 의심될 때만 꺼 보세요.",
+      "values": []
+    },
+    {
+      "section": "Advanced",
+      "key": "QDM Traversal",
+      "source_display_name": "QDM Traversal",
+      "source_description": "PERFORMANCE option: quadtree hierarchical marching — cheaper than the linear march but visibly chunkier (point-sampled cells). Leave off for quality; turn on if POM cost matters more. Terrain only; needs generated heights.",
+      "translation_display_name": "QDM 탐색",
+      "translation_description": "성능 우선 옵션입니다. 선형 탐색보다 가벼운 사분 트리 계층 탐색을 사용하지만 블록이 두드러질 수 있습니다. 품질 우선이면 끄고, POM 비용을 낮춰야 할 때 켜세요. 지형에서만 적용되며 생성된 높이 데이터가 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Advanced",
+      "key": "Height-Derived Normals",
+      "source_display_name": "Height-Derived Normals",
+      "source_description": "EXPERIMENTAL: shade the terrain with normals computed from the marched height field instead of the normal maps — self-consistent with the displacement but loses fine detail. Most setups look better with this OFF.",
+      "translation_display_name": "높이 기반 노멀",
+      "translation_description": "실험적 기능입니다. 노멀 맵 대신 탐색된 높이에서 계산한 노멀로 지형을 음영 처리합니다. 변위와 일관성이 높지만 미세 질감이 사라집니다. 대부분은 끈 상태가 더 보기 좋습니다.",
+      "values": []
+    },
+    {
+      "section": "Advanced",
+      "key": "Road Max Depth",
+      "source_display_name": "Road Max Depth",
+      "source_description": "Deepest any road relief may go, in meters. A safety limit for road textures stretched over a large area, whose normal maps would otherwise describe very deep relief.",
+      "translation_display_name": "도로 최대 깊이",
+      "translation_description": "도로의 굴곡이 파고들 수 있는 최대 깊이입니다(미터). 넓게 늘어난 도로 텍스처가 과도하게 깊어지는 현상을 제한합니다.",
+      "values": []
+    },
+    {
+      "section": "Advanced",
+      "key": "Road Ground Alignment",
+      "source_display_name": "Road Ground Alignment",
+      "source_description": "How a road's layers line up in height. 1 = at their ground level, so loose stones stand on top of the asphalt (the asphalt sits a little below the road plane to make room); 0 = at their highest points, which leaves stones flush with the asphalt, in pits.",
+      "translation_display_name": "도로 지면 높이 정렬",
+      "translation_description": "도로 재질 층의 높이 정렬입니다. 1은 지면 높이를 기준으로 자갈이 아스팔트 위에 솟도록 하고, 0은 최상단 높이를 기준으로 자갈이 아스팔트와 나란하게 파인 홈에 놓이도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "Advanced",
+      "key": "Recon Dump",
+      "source_display_name": "Recon Dump",
+      "source_description": "Log every MicroSplat terrain's shader interface at raid load + dump debug textures.",
+      "translation_display_name": "지형 분석 기록",
+      "translation_description": "레이드 시작 시 모든 MicroSplat 지형의 셰이더 인터페이스를 로그로 출력하고 디버그 텍스처를 덤프합니다.",
+      "values": []
+    },
+    {
+      "section": "Advanced",
+      "key": "Debug View",
+      "source_display_name": "Debug View",
+      "source_description": "Paints POM internals on the ground. Terrain: 1=ray inputs (R=march strength, G=tangent frame health, B=distance fade), 2=surface height the ray hit (white=top), 3=depth offset (red=deeper). Roads: 1=vertex colors, 2=blend weights, 3=relief depth (white = Road Max Depth, red tint = limited by it).",
+      "translation_display_name": "디버그 화면",
+      "translation_description": "지형에 POM 내부 데이터를 표시합니다. 지형: 1=광선 입력(R: 강도, G: 접선 프레임 상태, B: 거리 감쇠), 2=광선이 닿은 표면 높이(흰색: 최상단), 3=깊이 오프셋(빨강: 더 깊음). 도로: 1=정점 색상, 2=혼합 가중치, 3=굴곡 깊이(흰색: 도로 최대 깊이, 붉은색: 제한됨).",
+      "values": []
+    }
+  ]
+}

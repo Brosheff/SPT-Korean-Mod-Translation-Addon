@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.matsix.aosix",
+  "plugin_name": "AOSix",
+  "mod_version": "2.0.1",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Bounce Light",
+      "translation": "2. 반사광"
+    },
+    {
+      "source": "3. Debug",
+      "translation": "3. 디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Replace the game's SSAO with AOSix. Quality follows the in-game SSAO setting (Off = no AO; Colored Highest Quality also tints the bounce light by surface color). Disabled = the game's own AO.",
+      "translation_display_name": "활성화",
+      "translation_description": "게임 기본 SSAO를 AOSix로 대체합니다. 품질은 게임 내 SSAO 설정을 따릅니다(끔: AO 비활성, 색상 적용 최고 품질: 표면 색상으로 반사광도 착색). 끄면 게임 기본 AO를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Intensity",
+      "source_display_name": "Intensity",
+      "source_description": "AO strength. 1 = physically based; higher darkens contact shadows more.",
+      "translation_display_name": "AO 강도",
+      "translation_description": "주변광 차폐의 강도입니다. 1은 물리적으로 계산된 값이며, 높일수록 접촉 그림자가 진해집니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Radius",
+      "source_display_name": "Radius",
+      "source_description": "World-space reach of the occlusion, in meters.",
+      "translation_display_name": "차폐 반경",
+      "translation_description": "공간에서 주변광 차폐가 미치는 거리입니다. 단위는 미터입니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Radius Under Ray-Traced GI",
+      "source_display_name": "Radius Under Ray-Traced GI",
+      "source_description": "The reach used instead of Radius while TraceSix's ray-traced light lights the picture (TraceSix's Ambient Occlusion = ScreenSpace lays this AO on it). Its rays already shade corners and walls; past a short reach the AO would darken them twice. This is for the contact detail the rays are too coarse for.",
+      "translation_display_name": "광선 추적 GI 사용 시 AO 반경",
+      "translation_description": "TraceSix의 광선 추적 조명이 활성화된 동안 일반 반경 대신 사용할 값입니다. TraceSix의 주변광 차폐가 ScreenSpace이면 이 AO를 더합니다. 광선 자체가 구석과 벽에 그림자를 만들므로 반경이 너무 크면 이중으로 어두워집니다. 광선이 표현하지 못하는 미세 접촉부만 보강합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Thickness",
+      "source_display_name": "Thickness",
+      "source_description": "How thick an occluder is assumed to be, in meters. Lower lets light pass behind thin things (grass, poles, railings); higher treats everything as solid.",
+      "translation_display_name": "차폐물 두께",
+      "translation_description": "차폐물의 추정 두께입니다(미터). 낮으면 풀·기둥·난간처럼 얇은 물체 뒤로 빛이 통과하고, 높이면 물체를 더 두꺼운 고체로 취급합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Max Screen Radius",
+      "source_display_name": "Max Screen Radius",
+      "source_description": "Cap on the radius in screen space, as % of screen height. Keeps AO on close objects (gun, hands) sampling their own features instead of the whole screen. Vanilla HBAO uses ~256 px (24% at 1080p).",
+      "translation_display_name": "최대 화면 반경",
+      "translation_description": "AO 표본 반경의 상한을 화면 높이의 백분율로 설정합니다. 가까운 무기·손 등이 화면 전체 대신 자신의 표면을 참조하게 합니다. 기본 HBAO는 1080p에서 약 256픽셀(24%)을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Min Step Pixels",
+      "source_display_name": "Min Step Pixels",
+      "source_description": "Depth steps smaller than this many pixels (at their distance) are not occluders. Hides the false AO line where road/terrain layers meet (meshes floating a few cm apart, a few px tall at road distance) while the same few cm on the gun, dozens of px, keep their shading. 0 = off.",
+      "translation_display_name": "최소 깊이 단차(픽셀)",
+      "translation_description": "화면 거리 기준 이 픽셀 수보다 작은 깊이 차이는 차폐물로 취급하지 않습니다. 도로와 지형 경계의 잘못된 AO 선을 줄이면서 가까운 무기의 음영은 유지합니다. 0은 비활성화입니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Max Distance",
+      "source_display_name": "Max Distance",
+      "source_description": "AO fades out toward this distance (starting at 35% of it).",
+      "translation_display_name": "최대 거리",
+      "translation_description": "이 거리까지 AO가 점차 약해집니다. 설정 거리의 35% 지점부터 감소합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Occlude Custom Ambient",
+      "source_display_name": "Occlude Custom Ambient",
+      "source_description": "EFT adds its sky ambient in a late pass that ignores AO, which washes the AO out. On = that ambient is occluded too. Off = the game's original pass (for comparison).",
+      "translation_display_name": "사용자 지정 주변광 차폐",
+      "translation_description": "EFT는 AO를 무시하는 하늘 주변광을 후처리로 더해 차폐 효과를 흐리게 합니다. 켜면 해당 주변광에도 AO를 적용합니다. 끄면 비교를 위해 기본 게임 처리를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Bounce Light",
+      "key": "Bounce Light",
+      "source_display_name": "Bounce Light",
+      "source_description": "EXPERIMENTAL. Adds the light that nearby lit surfaces throw back: colour bleeding from walls and ground, a soft glow past the edge of sunlit patches, lamps lighting what is next to them. Gathered on screen from the previous frame, so only what is in view contributes. Flatscreen only for now. Quality follows the in-game SSAO setting.",
+      "translation_display_name": "반사광",
+      "translation_description": "실험적 기능입니다. 주변에 빛을 받은 벽·지면의 색상 번짐과 반사 조명, 햇빛 경계 바깥의 부드러운 빛을 표현합니다. 이전 프레임에서 화면에 보이는 표면만 기여합니다. 현재 일반 화면 모드만 지원하며 품질은 게임 내 SSAO 설정을 따릅니다.",
+      "values": []
+    },
+    {
+      "section": "2. Bounce Light",
+      "key": "Bounce Strength",
+      "source_display_name": "Bounce Strength",
+      "source_description": "How strong the bounced light is. 1 = as gathered.",
+      "translation_display_name": "반사광 강도",
+      "translation_description": "수집한 반사광의 강도입니다. 1은 계산된 원래 값입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Bounce Light",
+      "key": "Bounce Radius",
+      "source_display_name": "Bounce Radius",
+      "source_description": "How far away a surface can be and still light this one, in meters (also limited on screen by Max Screen Radius). With TraceSix installed and lighting the picture this is capped at Radius (the AO's): TraceSix already holds the light of everything farther than that, and adding it again would count it twice.",
+      "translation_display_name": "반사광 반경",
+      "translation_description": "표면이 다른 표면에 빛을 전달할 수 있는 최대 거리입니다(미터). 화면에서는 최대 화면 반경의 제한도 받습니다. TraceSix의 조명이 활성화되면 이 값을 AO 반경 이하로 제한해 원거리 조명의 이중 계산을 방지합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Bounce Light",
+      "key": "Bounce Max Source Brightness",
+      "source_display_name": "Bounce Max Source Brightness",
+      "source_description": "Brightest pixel the bounce may gather from. Keeps one glaring bulb or glint from flickering across everything near it.",
+      "translation_display_name": "반사광 원본 최대 밝기",
+      "translation_description": "반사광으로 수집할 수 있는 원본 픽셀의 최대 밝기입니다. 밝은 전구나 반짝임 하나가 주변 전체를 깜빡이게 하는 현상을 줄입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Debug",
+      "key": "Show AO Only",
+      "source_display_name": "Show AO Only",
+      "source_description": "Replace the scene with the AO term.",
+      "translation_display_name": "AO만 표시",
+      "translation_description": "장면을 AO 계산 결과로 대체해 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Debug",
+      "key": "Debug Log",
+      "source_display_name": "Debug Log",
+      "source_description": "Log the AO setup every few seconds.",
+      "translation_display_name": "디버그 로그",
+      "translation_description": "몇 초마다 AO 설정을 로그에 기록합니다.",
+      "values": []
+    }
+  ]
+}

@@ -45,14 +45,31 @@ namespace SPT.ModKoreanAddon
             if (field == null || field.FieldType != typeof(Dictionary<string,string>)) throw new MissingFieldException(type.FullName, name);
             return field;
         }
+        // Some mod locale providers may register keys differing only by case (for example,
+        // an item "Name" and a clothing "name"). Reconstructing such a dictionary with an
+        // OrdinalIgnoreCase comparer would throw, aborting the *entire* addon merge. Preserve
+        // the provider's distinct keys whenever an actual case alias is present.
+        private static bool HasCaseAliases(IEnumerable<string> keys)
+        {
+            var seen = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            foreach (var key in keys)
+                if (!seen.Add(key)) return true;
+            return false;
+        }
+
         private static void AfterMerge(object __instance, string __0, IDictionary<string,string> __1, ref Dictionary<string,string> __result)
         {
             if (__0 != "kr" && __0 != "kr-en") return;
             try
             {
-                // Work on a copy: any extension failure leaves the original return value intact.
-                var result = new Dictionary<string,string>(__result, StringComparer.OrdinalIgnoreCase);
-                var raw = new Dictionary<string,string>(StringComparer.OrdinalIgnoreCase);
+                // Work on copies: an extension failure leaves the original return value intact.
+                // Keep the existing case-insensitive path for ordinary locales; switch both
+                // dictionaries to exact-case keys only if either input has case aliases.
+                // Never silently coalesce independent locale values into one key.
+                var comparer = HasCaseAliases(__result.Keys) || HasCaseAliases(__1.Keys)
+                    ? StringComparer.Ordinal : StringComparer.OrdinalIgnoreCase;
+                var result = new Dictionary<string,string>(__result, comparer);
+                var raw = new Dictionary<string,string>(comparer);
                 foreach (var e in __1) raw[e.Key] = e.Value;
                 var patch = (Dictionary<string,string>)(__0 == "kr" ? korean : bilingual).GetValue(__instance);
                 var source = (Dictionary<string,string>)baseline.GetValue(__instance);

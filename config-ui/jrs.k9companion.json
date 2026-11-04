@@ -1,0 +1,526 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "jrs.k9companion",
+  "plugin_name": "JRS-K9Companion",
+  "mod_version": "1.1.0",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Movement",
+      "translation": "이동"
+    },
+    {
+      "source": "Combat",
+      "translation": "전투"
+    },
+    {
+      "source": "Search",
+      "translation": "수색"
+    },
+    {
+      "source": "Survival",
+      "translation": "생존"
+    },
+    {
+      "source": "Appearance",
+      "translation": "외형"
+    },
+    {
+      "source": "Controls",
+      "translation": "조작"
+    },
+    {
+      "source": "Hideout",
+      "translation": "은신처"
+    },
+    {
+      "source": "Audio",
+      "translation": "오디오"
+    },
+    {
+      "source": "Dog camera",
+      "translation": "개 카메라"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Spawn your companion in raids.",
+      "translation_display_name": "레이드 동반 활성화",
+      "translation_description": "레이드에 반려견을 소환합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "FollowDistance",
+      "source_display_name": "FollowDistance",
+      "source_description": "Where the dog stops beside you, in metres.",
+      "translation_display_name": "따라오기 거리",
+      "translation_description": "개가 플레이어 곁에 멈춰 서는 거리입니다. 단위는 미터입니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "RunDistance",
+      "source_display_name": "RunDistance",
+      "source_description": "Further than this from you the dog runs instead of walking.",
+      "translation_display_name": "달리기 시작 거리",
+      "translation_description": "플레이어와의 거리가 이 값보다 멀어지면 개가 걷는 대신 달립니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "SprintDistance",
+      "source_display_name": "SprintDistance",
+      "source_description": "Further than this from you the dog sprints to catch up.",
+      "translation_display_name": "전력질주 시작 거리",
+      "translation_description": "플레이어와의 거리가 이 값보다 멀어지면 개가 따라잡기 위해 전력질주합니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "WalkSpeedMultiplier",
+      "source_display_name": "WalkSpeedMultiplier",
+      "source_description": "Scales walking and sneaking speed; animation playback follows.",
+      "translation_display_name": "걷기 속도 배율",
+      "translation_description": "걷기와 은신 이동 속도를 조절합니다. 애니메이션 재생 속도도 그에 맞춰 바뀝니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "RunSpeedMultiplier",
+      "source_display_name": "RunSpeedMultiplier",
+      "source_description": "Scales trotting and running speed; animation playback follows.",
+      "translation_display_name": "달리기 속도 배율",
+      "translation_description": "속보와 달리기 속도를 조절합니다. 애니메이션 재생 속도도 그에 맞춰 바뀝니다.",
+      "values": []
+    },
+    {
+      "section": "Movement",
+      "key": "SprintSpeedMultiplier",
+      "source_display_name": "SprintSpeedMultiplier",
+      "source_description": "Scales sprinting speed; animation playback follows.",
+      "translation_display_name": "전력질주 속도 배율",
+      "translation_description": "전력질주 속도를 조절합니다. 애니메이션 재생 속도도 그에 맞춰 바뀝니다.",
+      "values": []
+    },
+    {
+      "section": "Combat",
+      "key": "CombatMode",
+      "source_display_name": "CombatMode",
+      "source_description": "Off: the dog only follows and obeys commands. AI ignore it, it cannot attack, and it cannot be hurt or killed. On: the dog can attack, hostile AI can shoot it, and it can always be killed.",
+      "translation_display_name": "전투 모드",
+      "translation_description": "끄면 개는 따라오거나 명령만 수행하며, AI는 개를 무시하고 개는 공격하거나 다치거나 죽지 않습니다. 켜면 개가 공격할 수 있으며 적대 AI의 공격을 받아 죽을 수도 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Combat",
+      "key": "Dog aggression",
+      "source_display_name": "Dog aggression",
+      "source_description": "Only used when CombatMode is on. Passive: alerts you to enemies (growls, barks, tells you where) and attacks only when ordered (Over There). Defensive: also goes for enemies that target, shoot or hurt you or the dog. Aggressive: also attacks any hostile AI it detects within the engagement distance.",
+      "translation_display_name": "개의 공격 성향",
+      "translation_description": "전투 모드에서만 적용됩니다. 수동적: 으르렁거리거나 짖어 적의 위치를 알리며, 「저쪽으로」 명령을 받아야 공격합니다. 방어적: 플레이어나 개를 조준·사격하거나 피해를 준 적도 공격합니다. 공격적: 교전 거리 내에서 탐지한 적대 AI를 선제공격합니다.",
+      "values": [
+        {
+          "source": "Passive",
+          "translation": "수동적"
+        },
+        {
+          "source": "Defensive",
+          "translation": "방어적"
+        },
+        {
+          "source": "Aggressive",
+          "translation": "공격적"
+        }
+      ]
+    },
+    {
+      "section": "Combat",
+      "key": "Maximum engagement distance",
+      "source_display_name": "Maximum engagement distance",
+      "source_description": "How far from you, in metres, the dog will go after an enemy.",
+      "translation_display_name": "최대 교전 거리",
+      "translation_description": "개가 플레이어에게서 떨어져 적을 추격할 수 있는 최대 거리입니다. 단위는 미터입니다.",
+      "values": []
+    },
+    {
+      "section": "Combat",
+      "key": "Approach",
+      "source_display_name": "Approach",
+      "source_description": "How the dog goes for an enemy. Auto: straight in if it's really close, and works its way in out of sight if it's further off, changing as the distance does. Stealth: always works its way in out of sight (behind buildings, walls and bushes), then rushes the last few metres. Direct: runs straight at it.",
+      "translation_display_name": "적 접근 방식",
+      "translation_description": "자동: 가까운 적에게는 곧바로 돌진하고 먼 적에게는 엄폐를 이용해 접근하며 거리에 따라 방식을 바꿉니다. 은밀: 건물·벽·수풀에 몸을 숨기며 접근한 뒤 마지막 몇 미터에서 돌진합니다. 직진: 적에게 곧바로 달려듭니다.",
+      "values": [
+        {
+          "source": "Auto",
+          "translation": "자동"
+        },
+        {
+          "source": "Stealth",
+          "translation": "은밀"
+        },
+        {
+          "source": "Direct",
+          "translation": "직진"
+        }
+      ]
+    },
+    {
+      "section": "Combat",
+      "key": "Auto approach: rush within",
+      "source_display_name": "Auto approach: rush within",
+      "source_description": "Under the Auto approach, an enemy this close (in metres) gets a straight attack.",
+      "translation_display_name": "자동 접근 시 돌진 거리",
+      "translation_description": "자동 접근 방식에서 적이 이 거리 이내에 있으면 곧바로 공격합니다. 단위는 미터입니다.",
+      "values": []
+    },
+    {
+      "section": "Combat",
+      "key": "Defend range",
+      "source_display_name": "Defend range",
+      "source_description": "With 'defends you' or 'any enemy', how far from you (in metres) the dog goes after someone shooting at you or at it, with no order needed. Fights it starts for any other reason stay within the maximum engagement distance.",
+      "translation_display_name": "방어 시 추격 거리",
+      "translation_description": "「주인 방어」나 「모든 적 공격」 성향일 때, 플레이어나 개에게 총을 쏜 적을 명령 없이 추격할 수 있는 거리입니다. 다른 이유로 시작된 교전에는 최대 교전 거리가 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Search",
+      "key": "Valuable alert (roubles)",
+      "source_display_name": "Valuable alert (roubles)",
+      "source_description": "In raids the dog barks once at loot near it (loose or in a container) worth at least this much each, and says what and where. 0 = off.",
+      "translation_display_name": "귀중품 발견 알림 기준(루블)",
+      "translation_description": "레이드 중 개 주변의 단일 아이템 가치가 이 금액 이상이면 개가 한 번 짖으며 물품과 위치를 알립니다. 바닥 또는 보관함 안의 물품이 대상이며, 0이면 끕니다.",
+      "values": []
+    },
+    {
+      "section": "Combat",
+      "key": "Ordered attack range",
+      "source_display_name": "Ordered attack range",
+      "source_description": "How far away you can send the dog with Over There: at an enemy you aim at (or near), or to hunt where you aim. Fights it starts on its own stay within the maximum engagement distance.",
+      "translation_display_name": "명령 공격 거리",
+      "translation_description": "「저쪽으로」 명령으로 조준한 적이나 해당 방향의 사냥 목표를 향해 개를 보낼 수 있는 최대 거리입니다. 자율 교전에는 별도 최대 교전 거리가 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Combat",
+      "key": "Bites to kill",
+      "source_display_name": "Bites to kill",
+      "source_description": "The dog goes for the throat, under the helmet and any collar: how many bites kill a scav, PMC or player, armour or not. A fraction mixes the two either side: 2.5 = two bites for half of them, three for the rest.",
+      "translation_display_name": "처치에 필요한 물기 횟수",
+      "translation_description": "개가 헬멧이나 목 보호대 아래의 목을 공격해 스캐브·PMC·플레이어를 처치하기까지 필요한 물기 횟수입니다. 방어구의 영향을 받지 않습니다. 소수값이면 두 횟수를 섞어 적용합니다. 예: 2.5는 절반을 2회, 나머지를 3회에 처치합니다.",
+      "values": []
+    },
+    {
+      "section": "Combat",
+      "key": "Bites to kill a boss",
+      "source_display_name": "Bites to kill a boss",
+      "source_description": "The same for bosses (their guards count as everyone else).",
+      "translation_display_name": "보스 처치에 필요한 물기 횟수",
+      "translation_description": "보스를 처치하는 데 필요한 물기 횟수입니다. 보스 경호원에는 일반 적 기준이 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Combat",
+      "key": "Bite cooldown",
+      "source_display_name": "Bite cooldown",
+      "source_description": "Seconds between bites.",
+      "translation_display_name": "물기 재사용 대기시간",
+      "translation_description": "연속으로 물기 공격을 할 때의 간격입니다. 단위는 초입니다.",
+      "values": []
+    },
+    {
+      "section": "Combat",
+      "key": "Bite stagger",
+      "source_display_name": "Bite stagger",
+      "source_description": "Seconds a bitten enemy is thrown off (loses its aim, shoots badly) before it turns on the dog. 0 turns it off.",
+      "translation_display_name": "물기 피격 경직 시간",
+      "translation_description": "개에게 물린 적이 조준을 잃고 명중률이 떨어지는 시간입니다. 이후 적이 개를 공격할 수 있습니다. 단위는 초이며, 0이면 비활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Combat",
+      "key": "Dog health",
+      "source_display_name": "Dog health",
+      "source_description": "Hit points per raid when CombatMode is on.",
+      "translation_display_name": "개 체력",
+      "translation_description": "전투 모드에서 레이드당 적용되는 개의 체력입니다.",
+      "values": []
+    },
+    {
+      "section": "Survival",
+      "key": "EnableSurvivalNeeds",
+      "source_display_name": "EnableSurvivalNeeds",
+      "source_description": "Hunger and thirst. They drop slowly while you play, are saved between raids and restarts, and only ever slow the dog down (in combat mode); they never hurt or kill it.",
+      "translation_display_name": "생존 욕구 활성화",
+      "translation_description": "허기와 갈증이 플레이 중 서서히 감소하며 레이드와 게임 재시작 사이에도 저장됩니다. 전투 모드에서 개를 느리게 만들 뿐, 피해를 주거나 죽이지는 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Survival",
+      "key": "HungerDecayRate",
+      "source_display_name": "HungerDecayRate",
+      "source_description": "Hunger lost per hour of raid time, in percent (half that while resting in the hideout).",
+      "translation_display_name": "시간당 허기 감소율",
+      "translation_description": "레이드 시간 한 시간당 감소하는 허기의 비율(%)입니다. 은신처에서 쉴 때는 절반만 감소합니다.",
+      "values": []
+    },
+    {
+      "section": "Survival",
+      "key": "ThirstDecayRate",
+      "source_display_name": "ThirstDecayRate",
+      "source_description": "Thirst lost per hour of raid time, in percent (half that while resting in the hideout).",
+      "translation_display_name": "시간당 갈증 감소율",
+      "translation_description": "레이드 시간 한 시간당 감소하는 갈증의 비율(%)입니다. 은신처에서 쉴 때는 절반만 감소합니다.",
+      "values": []
+    },
+    {
+      "section": "Survival",
+      "key": "AutoFeedInHideout",
+      "source_display_name": "AutoFeedInHideout",
+      "source_description": "In the hideout, top up nearly empty dishes from your stash and gear automatically (dog food or meat, and water).",
+      "translation_display_name": "은신처 자동 급식",
+      "translation_description": "은신처에서 사료나 물그릇이 거의 비면 보관함 또는 장비에서 개 사료·고기·물을 꺼내 자동으로 채웁니다.",
+      "values": []
+    },
+    {
+      "section": "Survival",
+      "key": "CarryOverInjuries",
+      "source_display_name": "CarryOverInjuries",
+      "source_description": "Wounds from a combat-mode raid stay with the dog until they heal (resting at the kennel, or a medical kit in the DOG tab). Below 25% health the dog stays home. Off: the dog starts every raid at full health, as before 0.16.",
+      "translation_display_name": "부상 상태 유지",
+      "translation_description": "전투 모드 레이드에서 입은 상처는 견사 휴식이나 DOG 탭의 구급상자로 회복할 때까지 남습니다. 체력이 25% 미만이면 개를 레이드에 데려갈 수 없습니다. 끄면 매 레이드에서 최대 체력으로 시작합니다.",
+      "values": []
+    },
+    {
+      "section": "Appearance",
+      "key": "Scale",
+      "source_display_name": "Scale",
+      "source_description": "Dog size; applied when it spawns.",
+      "translation_display_name": "개 크기 배율",
+      "translation_description": "개를 소환할 때 적용할 몸 크기입니다.",
+      "values": []
+    },
+    {
+      "section": "Controls",
+      "key": "Recall",
+      "source_display_name": "Recall",
+      "source_description": "Bring the dog back beside you.",
+      "translation_display_name": "개 호출",
+      "translation_description": "개를 플레이어 옆으로 다시 불러옵니다.",
+      "values": []
+    },
+    {
+      "section": "Hideout",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Spawn in the hideout as well as raids.",
+      "translation_display_name": "은신처 동반 활성화",
+      "translation_description": "레이드뿐 아니라 은신처에서도 개를 소환합니다.",
+      "values": []
+    },
+    {
+      "section": "Hideout",
+      "key": "Wander when bored",
+      "source_display_name": "Wander when bored",
+      "source_description": "After resting a while the dog gets up, wanders round the hideout, comes to say hello, then goes back to its bed.",
+      "translation_display_name": "심심할 때 돌아다니기",
+      "translation_description": "개가 잠시 쉬다가 일어나 은신처를 돌아다니고 플레이어에게 인사한 뒤 침대로 돌아갑니다.",
+      "values": []
+    },
+    {
+      "section": "Appearance",
+      "key": "Name",
+      "source_display_name": "Name",
+      "source_description": "Name on the collar tag and command display.",
+      "translation_display_name": "반려견 이름",
+      "translation_description": "목줄 인식표와 명령 화면에 표시할 개 이름입니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Play companion sounds and recall whistle locally.",
+      "translation_display_name": "동물 소리 활성화",
+      "translation_description": "반려견의 소리와 호출 호루라기를 로컬에서 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Rare whining",
+      "source_display_name": "Rare whining",
+      "source_description": "Occasional quiet whine while resting; suppressed when crouching.",
+      "translation_display_name": "가끔 낑낑거리기",
+      "translation_description": "휴식 중 가끔 낮은 낑낑거림을 냅니다. 플레이어가 웅크리면 소리를 내지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Volume",
+      "source_display_name": "Volume",
+      "source_description": "Local companion sound volume.",
+      "translation_display_name": "동물 소리 음량",
+      "translation_description": "로컬에서 재생되는 반려견 소리의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Breathing volume",
+      "source_display_name": "Breathing volume",
+      "source_description": "How loud the dog's breathing is, next to its other sounds (it breathes all the time: quietly at rest, harder after running or when hurt). 0 = silent.",
+      "translation_display_name": "숨소리 음량",
+      "translation_description": "다른 반려견 소리와 비교한 숨소리 음량입니다. 개는 쉬는 동안 조용히 숨 쉬고 달리거나 다치면 더 거칠게 숨 쉽니다. 0이면 들리지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Dog camera",
+      "key": "Show feed",
+      "source_display_name": "Show feed",
+      "source_description": "Top left of the screen in a raid: what the dog's camera sees, when it wears the camera vest or the clip-on action camera.",
+      "translation_display_name": "개 카메라 화면 표시",
+      "translation_description": "레이드 중 카메라 조끼 또는 장착형 액션 카메라를 착용한 개의 시야를 화면 왼쪽 위에 보여줍니다.",
+      "values": []
+    },
+    {
+      "section": "Dog camera",
+      "key": "Size",
+      "source_display_name": "Size",
+      "source_description": "Height of the feed, as a share of the screen's height.",
+      "translation_display_name": "개 카메라 화면 크기",
+      "translation_description": "카메라 화면의 높이를 게임 화면 전체 높이에 대한 비율로 정합니다.",
+      "values": []
+    },
+    {
+      "section": "Dog camera",
+      "key": "Frames per second",
+      "source_display_name": "Frames per second",
+      "source_description": "How often the feed updates. Each update draws the scene once more, so lower is cheaper.",
+      "translation_display_name": "개 카메라 초당 프레임",
+      "translation_description": "카메라 화면의 갱신 횟수입니다. 갱신할 때마다 장면을 추가로 렌더링하므로 낮을수록 성능 부담이 줄어듭니다.",
+      "values": []
+    },
+    {
+      "section": "Dog camera",
+      "key": "Position",
+      "source_display_name": "Position",
+      "source_description": "Where the feed shows: top left next to the health figure, top left corner, or top right.",
+      "translation_display_name": "개 카메라 위치",
+      "translation_description": "카메라 화면을 체력 표시 옆 왼쪽 위, 화면 왼쪽 위 또는 오른쪽 위에 배치합니다.",
+      "values": [
+        {
+          "source": "NextToHealth",
+          "translation": "체력 표시 옆"
+        },
+        {
+          "source": "TopLeft",
+          "translation": "왼쪽 위"
+        },
+        {
+          "source": "TopRight",
+          "translation": "오른쪽 위"
+        }
+      ]
+    },
+    {
+      "section": "Dog camera",
+      "key": "Resolution",
+      "source_display_name": "Resolution",
+      "source_description": "Low: 384x216, no shadows or grass, less detail (cheapest). Medium: 640x360 with grass, haze and shadows close by. High: as sharp as the feed is on screen (up to 960x540), full detail, shadows further out. Higher costs more.",
+      "translation_display_name": "개 카메라 해상도",
+      "translation_description": "낮음: 384×216, 그림자·풀 없이 낮은 화질로 성능 부담이 가장 적습니다. 보통: 640×360, 가까운 거리의 풀·안개·그림자를 표시합니다. 높음: 화면 표시 크기에 맞춰 최대 960×540으로 렌더링하며 먼 거리 그림자까지 표현합니다. 높을수록 성능 부담이 커집니다.",
+      "values": [
+        {
+          "source": "Low",
+          "translation": "낮음"
+        },
+        {
+          "source": "Medium",
+          "translation": "보통"
+        },
+        {
+          "source": "High",
+          "translation": "높음"
+        }
+      ]
+    },
+    {
+      "section": "Dog camera",
+      "key": "Grass",
+      "source_display_name": "Grass",
+      "source_description": "Draw the game's grass and bushes in the feed (Medium and High). Off is a little cheaper.",
+      "translation_display_name": "개 카메라 풀 묘사",
+      "translation_description": "카메라 화면에 게임의 풀과 수풀을 렌더링합니다(보통·높음). 끄면 성능 부담이 조금 줄어듭니다.",
+      "values": []
+    },
+    {
+      "section": "Controls",
+      "key": "Stay or follow",
+      "source_display_name": "Stay or follow",
+      "source_description": "Toggle stay and follow.",
+      "translation_display_name": "대기/따라오기 전환",
+      "translation_description": "개에게 대기 또는 따라오기 명령을 번갈아 내립니다.",
+      "values": []
+    },
+    {
+      "section": "Controls",
+      "key": "Lie down",
+      "source_display_name": "Lie down",
+      "source_description": "Lie down here.",
+      "translation_display_name": "엎드리기",
+      "translation_description": "개에게 현재 위치에 엎드리라고 명령합니다.",
+      "values": []
+    },
+    {
+      "section": "Controls",
+      "key": "Rename dog",
+      "source_display_name": "Rename dog",
+      "source_description": "Open the in-game dog naming dialog when nearby.",
+      "translation_display_name": "개 이름 변경",
+      "translation_description": "개가 가까이에 있을 때 게임 내 이름 변경 대화상자를 엽니다.",
+      "values": []
+    },
+    {
+      "section": "Controls",
+      "key": "Pet",
+      "source_display_name": "Pet",
+      "source_description": "Pet the dog when within 2.5 metres (also in its interact menu).",
+      "translation_display_name": "개 쓰다듬기",
+      "translation_description": "개가 2.5m 이내에 있으면 쓰다듬습니다. 상호작용 메뉴에서도 실행할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Controls",
+      "key": "Food",
+      "source_display_name": "Food",
+      "source_description": "Refill the food dish in the hideout.",
+      "translation_display_name": "사료 보충",
+      "translation_description": "은신처의 사료 그릇을 보충합니다.",
+      "values": []
+    },
+    {
+      "section": "Controls",
+      "key": "Water",
+      "source_display_name": "Water",
+      "source_description": "Refill the water dish in the hideout.",
+      "translation_display_name": "식수 보충",
+      "translation_description": "은신처의 물그릇을 보충합니다.",
+      "values": []
+    },
+    {
+      "section": "Controls",
+      "key": "Dog camera",
+      "source_display_name": "Dog camera",
+      "source_description": "Show or hide the dog camera feed (raids, when the dog wears a camera).",
+      "translation_display_name": "개 카메라 표시 전환",
+      "translation_description": "레이드 중 개가 카메라를 착용했을 때 화면을 표시하거나 숨깁니다.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.mybutthasarash.platedurability",
+  "plugin_name": "Plate Durability",
+  "mod_version": "1.0.0",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Durability",
+      "translation": "2. 내구도"
+    },
+    {
+      "source": "3. Look",
+      "translation": "3. 외형"
+    },
+    {
+      "source": "4. In raid",
+      "translation": "4. 레이드 중"
+    },
+    {
+      "source": "5. Debug",
+      "translation": "5. 디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Show plate gauge",
+      "source_display_name": "Show plate gauge",
+      "source_description": "A small gauge in the corner of body armor and armored rigs: one bar per plate, in the order front, back, left, right.",
+      "translation_display_name": "방탄판 게이지 표시",
+      "translation_description": "방탄복 및 방탄 전술 조끼 아이콘의 모서리에 방탄판별 작은 게이지를 표시합니다. 앞·뒤·왼쪽·오른쪽 순으로 막대가 하나씩 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "On body armor",
+      "source_display_name": "On body armor",
+      "source_description": "Plate carriers and armor vests.",
+      "translation_display_name": "방탄복에 표시",
+      "translation_description": "플레이트 캐리어와 방탄복에 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "On armored rigs",
+      "source_display_name": "On armored rigs",
+      "source_description": "Tactical rigs that take plates.",
+      "translation_display_name": "방탄 전술 조끼에 표시",
+      "translation_description": "방탄판을 장착할 수 있는 전술 조끼에 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "In the stash and inventory",
+      "source_display_name": "In the stash and inventory",
+      "source_description": "Your stash, equipment, containers, loot and every other screen that is not a trader or the flea market.",
+      "translation_display_name": "보관함과 인벤토리에 표시",
+      "translation_description": "상인과 벼룩시장을 제외한 보관함, 장비, 컨테이너, 전리품 및 기타 화면에서 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "At traders",
+      "source_display_name": "At traders",
+      "source_description": "The trader's goods and your own items on the trade screen.",
+      "translation_display_name": "상인 화면에 표시",
+      "translation_description": "상인 판매 물품과 거래 화면에 표시되는 소지품에 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "On the flea market",
+      "source_display_name": "On the flea market",
+      "source_description": "Flea market offers and the add-offer window.",
+      "translation_display_name": "벼룩시장에 표시",
+      "translation_description": "벼룩시장 매물과 판매 등록 창에 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Show soft armor bar",
+      "source_display_name": "Show soft armor bar",
+      "source_description": "A thin bar under the plates for the built-in soft armor (front, back, sides, collar, groin). It shows the weakest of them.",
+      "translation_display_name": "소프트 아머 게이지 표시",
+      "translation_description": "방탄판 아래에 내장형 소프트 아머용 가느다란 막대를 표시합니다. 앞·뒤·양옆·목·사타구니 부위 중 내구도가 가장 낮은 부분을 나타냅니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Show slot letters",
+      "source_display_name": "Show slot letters",
+      "source_description": "A label under each bar: the slot (F, B, L, R) or the plate's class, see Slot labels.",
+      "translation_display_name": "슬롯 표기 표시",
+      "translation_description": "막대 아래에 슬롯 위치(F/B/L/R) 또는 방탄 등급을 표시합니다. 아래 슬롯 표기 설정을 참조하세요.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Slot labels",
+      "source_display_name": "Slot labels",
+      "source_description": "Letters: F, B, L and R. ArmorClass: each plate's armor class (a dash for an empty slot). Not drawn in the Slim style.",
+      "translation_display_name": "슬롯 표기 방식",
+      "translation_description": "Letters는 앞(F)·뒤(B)·왼쪽(L)·오른쪽(R)을 표시하고, ArmorClass는 각 방탄판의 방탄 등급을 표시합니다(빈 슬롯은 대시). Slim 스타일에서는 표시하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Detailed plate tooltip",
+      "source_display_name": "Detailed plate tooltip",
+      "source_description": "The game's plate tooltip (hover the durability numbers on an armor icon) lists every slot, empty ones too, in front, back, left, right order, with each plate's durability in colour, a percentage, broken plates and repair wear. Off: the vanilla rows.",
+      "translation_display_name": "방탄판 상세 툴팁",
+      "translation_description": "방탄복 아이콘의 내구도 숫자에 마우스를 올리면 앞·뒤·왼쪽·오른쪽 순으로 빈 슬롯까지 모두 보여줍니다. 방탄판별 내구도 색상, 비율, 파손 여부 및 수리로 감소한 최대 내구도를 표시합니다. 끄면 게임 기본 행을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Hover the gauge for details",
+      "source_display_name": "Hover the gauge for details",
+      "source_description": "Pointing at the gauge opens the plate tooltip too, not only pointing at the numbers.",
+      "translation_display_name": "게이지에 마우스를 올려 상세 정보 표시",
+      "translation_description": "내구도 숫자뿐 아니라 게이지에 마우스를 올려도 방탄판 툴팁을 엽니다.",
+      "values": []
+    },
+    {
+      "section": "2. Durability",
+      "key": "Full bar means",
+      "source_display_name": "Full bar means",
+      "source_description": "OriginalMaximum: a full bar is the plate as new, the same scale as the durability bar on equipped weapons and the one the game's protection maths uses, so a plate repaired down to 40/40 from 55 reads 73%. CurrentMaximum: a full bar is the plate's maximum after repairs, as the tooltip numbers read.",
+      "translation_display_name": "게이지 최대치 기준",
+      "translation_description": "OriginalMaximum은 새 방탄판의 원래 최대 내구도를 막대 전체로 표시합니다. 게임의 방호 계산 및 무기 내구도 게이지와 같은 기준입니다. 예를 들어 55에서 40/40으로 수리된 방탄판은 73%로 표시합니다. CurrentMaximum은 수리 후 남은 최대 내구도를 막대 전체로 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Durability",
+      "key": "Show repair wear",
+      "source_display_name": "Show repair wear",
+      "source_description": "Mark the maximum durability a plate has lost to repairs as a dark cap on top of its bar, like the wear segment on weapon durability bars. Only with OriginalMaximum.",
+      "translation_display_name": "수리 마모 표시",
+      "translation_description": "방탄판의 수리로 줄어든 최대 내구도를 막대 위쪽에 어두운 부분으로 표시합니다. OriginalMaximum 기준에서만 동작합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Durability",
+      "key": "Hide on healthy armor",
+      "source_display_name": "Hide on healthy armor",
+      "source_description": "Show the gauge only once a plate is worn, broken or missing.",
+      "translation_display_name": "정상 방탄복에서는 숨기기",
+      "translation_description": "방탄판이 마모되거나 파손 또는 누락된 경우에만 게이지를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Durability",
+      "key": "Healthy above (%)",
+      "source_display_name": "Healthy above (%)",
+      "source_description": "With Hide on healthy armor: armor counts as healthy while every plate and soft insert is at or above this.",
+      "translation_display_name": "정상 판정 기준(%)",
+      "translation_description": "정상 방탄복 숨기기가 켜져 있을 때 모든 방탄판과 소프트 아머 삽입재의 내구도가 이 수치 이상이면 정상으로 판정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Look",
+      "key": "Style",
+      "source_display_name": "Style",
+      "source_description": "Smoke: a soft see-through shadow behind the bars, muted colours. Classic: a dark framed panel, bright colours. Bare: no backing, outlined bars and letters. Slim: no backing and no letters, thin bars, half the size.",
+      "translation_display_name": "게이지 스타일",
+      "translation_description": "Smoke는 반투명 그림자와 차분한 색상, Classic은 어두운 테두리와 선명한 색상, Bare는 배경 없이 윤곽선만, Slim은 배경과 글자 없이 절반 크기의 가느다란 막대를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Look",
+      "key": "Corner",
+      "source_display_name": "Corner",
+      "source_description": "Where on the icon the gauge sits. It moves clear of the game's own icons and text in that corner (and other mods' icons): right of them at the bottom, under the item name, quick-slot number or trader price at the top.",
+      "translation_display_name": "표시 모서리",
+      "translation_description": "아이템 아이콘에서 게이지를 표시할 위치입니다. 게임 및 다른 모드의 아이콘·글자와 겹치지 않게 하단에서는 옆으로, 상단에서는 이름·단축 슬롯 번호·상인 가격 아래로 배치됩니다.",
+      "values": []
+    },
+    {
+      "section": "3. Look",
+      "key": "Size",
+      "source_display_name": "Size",
+      "source_description": "Gauge size. It also shrinks by itself on small items so it never runs into the durability numbers.",
+      "translation_display_name": "게이지 크기",
+      "translation_description": "게이지 크기를 조절합니다. 작은 아이템에서는 내구도 숫자와 겹치지 않도록 자동으로 더 작아집니다.",
+      "values": []
+    },
+    {
+      "section": "3. Look",
+      "key": "Animate changes",
+      "source_display_name": "Animate changes",
+      "source_description": "Bars slide to their new level when a plate takes damage, is repaired or swapped.",
+      "translation_display_name": "변경 애니메이션",
+      "translation_description": "방탄판이 피해를 입거나 수리·교체되면 막대가 새 수치로 부드럽게 이동합니다.",
+      "values": []
+    },
+    {
+      "section": "4. In raid",
+      "key": "Message when a plate breaks",
+      "source_display_name": "Message when a plate breaks",
+      "source_description": "In raid, when a plate in the armor or rig you are wearing is shot to zero, the game shows a message in the top right saying which one.",
+      "translation_display_name": "방탄판 파손 알림",
+      "translation_description": "레이드 중 착용한 방탄복·전술 조끼의 방탄판이 총격으로 내구도 0이 되면 오른쪽 위에 해당 위치를 알립니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Log armor readings",
+      "source_display_name": "Log armor readings",
+      "source_description": "Write each armor's plate slots and durabilities to LogOutput.log when its gauge is drawn.",
+      "translation_display_name": "방탄판 판독 로그",
+      "translation_description": "게이지를 그릴 때 방탄판 슬롯 및 내구도를 LogOutput.log에 기록합니다.",
+      "values": []
+    }
+  ],
+  "_note": "SPT 4.1.6 display-only F12 Korean translation from the supplied source. Saved section/key/enum values are unchanged. Independent UI/CustomDrawer requires separate audit."
+}

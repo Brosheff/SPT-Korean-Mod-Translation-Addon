@@ -1,0 +1,2187 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "jrs.k9companion",
+  "mod_name": "K9Companion",
+  "mod_version": "1.1.0",
+  "channels": {
+    "locale": [
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10001 name",
+        "source": "A Man's Best Friend",
+        "translation": "인간의 가장 친한 친구",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10001 description",
+        "source": "Since the evacuation half of Tarkov's pets and working dogs have gone feral, and the other half are starving in back yards, waiting for owners who aren't coming back. I stayed for them. You don't have to understand that, only help.\n\nBefore I can take in a single animal I need supplies: three tins of dog food, two bottles of clean water and a proper medical kit. Nothing fancy. Just enough that the next dog brought to my door doesn't die on the table. Find them out there, not in a shop: dog food turns up wherever tinned beef does, and scavs carry it.",
+        "translation": "타르코프에서 대피가 시작된 뒤 반려동물과 사역견의 절반은 야생화됐고, 나머지 절반은 돌아오지 않을 주인을 기다리며 뒷마당에서 굶주리고 있습니다. 저는 그 동물들 때문에 남았습니다. 이해해 달라는 게 아닙니다. 그저 도와주십시오.\n\n동물 한 마리라도 받아들이려면 개 사료 세 통, 깨끗한 물 두 병, 제대로 된 구급상자가 필요합니다. 거창한 물건은 아닙니다. 다음에 진료소로 실려 올 개가 진료대 위에서 죽지 않게 할 최소한의 물자죠. 상점이 아니라 현장에서 직접 찾아주십시오. 개 사료는 소고기 통조림이 나오는 곳에서 발견되며 스캐브도 가지고 다닙니다.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10001 startedMessageText",
+        "source": "Bring them to the clinic. And don't open the tins on the way, I know what soldiers' rations taste like.",
+        "translation": "진료소로 가져오십시오. 오는 길에 통조림을 뜯지는 마시고요. 군용 식량이 어떤 맛인지는 저도 잘 압니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10001 successMessageText",
+        "source": "That will keep a dog alive for a week. You have no idea how rare that is in this city. I'll remember it.",
+        "translation": "이 정도면 개 한 마리가 일주일은 버팁니다. 이 도시에서 그게 얼마나 귀한 일인지 모르실 겁니다. 이 도움은 기억하겠습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20100",
+        "source": "Hand over found in raid cans of dog food or packs of dog meat",
+        "translation": "레이드에서 발견한 개 사료 통조림 또는 개고기 팩 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20101",
+        "source": "Hand over found in raid drinking water",
+        "translation": "레이드에서 발견한 식수 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20102",
+        "source": "Hand over a found in raid medical kit",
+        "translation": "레이드에서 발견한 구급상자 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10004 name",
+        "source": "The Missing Unit",
+        "translation": "실종된 부대",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10004 description",
+        "source": "Before the conflict the city's police kennel boarded its dogs with us. When the shooting started, the staff ran and the dogs scattered. One of them, Rex of unit seven, had a handler who went looking for him and never came back. I want to know where those dogs went.\n\nStart with Rex's identification tag. Scavs pick up anything that shines, and PMCs take whatever the scavs had, so search everyone you put down, on any map. On Customs they also turn up in the scav corpses lying about, in jacket pockets and at the back of drawers. Find it yourself; I don't want something somebody sold you.",
+        "translation": "전쟁 전에는 경찰의 견사에서 우리 진료소에 개들을 맡기곤 했습니다. 총격전이 시작되자 직원들은 달아났고 개들은 흩어졌습니다. 그중 7번 부대의 렉스라는 개가 있었죠. 담당 핸들러가 찾아 나섰다가 돌아오지 않았습니다. 저는 그 개들이 어디로 갔는지 알아야겠습니다.\n\n렉스의 인식표부터 찾으십시오. 스캐브는 반짝이는 물건이라면 무엇이든 주워가고 PMC는 스캐브가 가진 것을 가져갑니다. 어느 맵이든 처치한 자들의 소지품을 뒤져 보십시오. 세관에서는 쓰러진 스캐브의 시신, 재킷 주머니, 서랍 안에서도 찾을 수 있습니다. 직접 찾아오십시오. 남이 팔던 물건은 필요 없습니다.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10004 startedMessageText",
+        "source": "Rex's tag. Search every scav and PMC you put down.",
+        "translation": "렉스의 인식표입니다. 처치한 스캐브와 PMC의 소지품을 모두 확인하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10004 successMessageText",
+        "source": "Rex's tag. Scratched, but you can still read it, and his unit number is on my old boarding list: six dogs on the last truck, bound for a 'temporary kennel' in the Woods. Temporary. The army's favourite word. Find me that dog and I'll sell you proper protective jackets for her. And take these: the army left more than dogs behind.",
+        "translation": "렉스의 인식표군요. 긁혔지만 글자는 읽힙니다. 제 옛 위탁 명부에도 부대 번호가 있군요. 마지막 트럭에는 개 여섯 마리가 실려 삼림의 '임시 견사'로 향했다고 적혀 있습니다. 임시라니. 군인들이 참 좋아하는 말이죠. 그 개를 찾아주시면 제대로 된 보호용 재킷을 판매하겠습니다. 그리고 이것도 가져가십시오. 군이 남긴 건 개들만이 아니었습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20403",
+        "source": "Find a K9 identification tag in raid (on scavs and PMCs, or in scav corpses, jackets and drawers on Customs)",
+        "translation": "레이드에서 K9 인식표 찾기 (스캐브·PMC 소지품 또는 세관의 스캐브 시신·재킷·서랍)",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20404",
+        "source": "Hand over the K9 identification tag",
+        "translation": "K9 인식표 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10005 name",
+        "source": "Trust Is Earned",
+        "translation": "신뢰는 쌓는 것입니다",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10005 description",
+        "source": "One of them made it. A hunter saw a dog living in the ZB-016 bunker on the Woods: thin, wary, still wearing what's left of a service harness. She won't come to a stranger, and she will bite.\n\nDon't try to catch her. Leave food and water in the bunker, then get out of there alive. She'll follow the scent, and if she trusts you she'll be at my door by the time you get back. If you have no dog of your own, she will be yours. If you already have one, she'll stay with me; I always have room for one more. Either way you'll need somewhere proper to keep a dog.",
+        "translation": "그중 한 마리가 살아남았습니다. 사냥꾼이 삼림의 ZB-016 벙커에서 살고 있는 개를 봤답니다. 말랐고 경계심이 강하지만, 망가진 근무용 하네스는 아직 걸치고 있었습니다. 낯선 사람에게 다가오지 않을 겁니다. 물 수도 있고요.\n\n억지로 붙잡지 마십시오. 벙커에 사료와 물을 놓고 살아서 나오시면 됩니다. 냄새를 따라올 것이고 당신을 믿게 되면 돌아올 때쯤 제 진료소 앞에 와 있을 겁니다. 아직 개가 없다면 당신의 개가 될 겁니다. 이미 한 마리를 기르고 있다면 제가 맡겠습니다. 한 마리 더 보살필 자리는 언제나 있으니까요. 어느 쪽이든 개를 기를 제대로 된 공간이 필요할 겁니다.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10005 startedMessageText",
+        "source": "Food and water in the bunker, then leave. Don't wait for her. Don't shoot anything near that bunker if you can help it.",
+        "translation": "벙커에 사료와 물을 두고 떠나십시오. 개를 기다리지 마시고요. 가능하다면 그 벙커 근처에서 총도 쏘지 마십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10005 successMessageText",
+        "source": "She came in at dawn, limping, with her nose full of your scent. She let me look at her paw. That is trust; don't waste it. Now build her a kennel. I've marked out a corner of your rest area for it: you'll find the plans under the Rest Space in your hideout. Bring the materials and build it properly. And here's a black collar for her, better than that rag: put it in her collar slot in the DOG tab.",
+        "translation": "동틀 무렵 절뚝거리며 들어왔습니다. 코에는 당신 냄새가 가득했죠. 제게 발을 살펴보게 해줬습니다. 그게 신뢰입니다. 헛되이 하지 마십시오. 이제 견사를 지으셔야 합니다. 은신처 휴식 공간 한쪽을 표시해뒀습니다. 설계도는 휴식 공간 항목에서 찾을 수 있습니다. 자재를 가져와 제대로 지으십시오. 그리고 이 낡은 목줄보다 나은 검은 목줄을 드리겠습니다. DOG 탭의 목줄 슬롯에 넣어주십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20500",
+        "source": "Stash found in raid dog food in the ZB-016 bunker on Woods",
+        "translation": "삼림의 ZB-016 벙커에 레이드에서 발견한 개 사료 숨기기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20501",
+        "source": "Stash found in raid drinking water in the ZB-016 bunker on Woods",
+        "translation": "삼림의 ZB-016 벙커에 레이드에서 발견한 식수 숨기기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20502",
+        "source": "Survive and extract from Woods",
+        "translation": "삼림에서 생존 후 탈출하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10008 name",
+        "source": "Teeth and Steel",
+        "translation": "이빨과 강철",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10008 description",
+        "source": "A dog that won't come back when you call is a liability, not a partner. Work with yours: make it follow you, sit when it's told and come when it's called. You'll find the commands under DOG in your gesture menu.\n\nThen, out there, a dog in the open is a target. Put armour on her, a proper protective jacket, class two or better, and take her into the fights she was trained for. Combat mode, your people call it. Survive three raids together. And when someone comes at you, let her do what she does: five enemies down with your dog at your side.",
+        "translation": "불렀을 때 돌아오지 않는 개는 동료가 아니라 위험 요소입니다. 당신의 개를 훈련시키십시오. 따라오게 하고, 지시하면 앉게 하고, 부르면 오게 하십시오. 명령은 제스처 메뉴의 DOG 항목에 있습니다.\n\n전장에 나간 개는 표적이 됩니다. 2등급 이상의 제대로 된 보호용 재킷을 입히고, 훈련받은 일을 할 수 있도록 전투에 데려가십시오. 여러분은 그걸 '전투 모드'라고 부르더군요. 함께 레이드 세 번을 살아 돌아오십시오. 누군가 공격하면 개가 할 일을 하게 두십시오. 개를 곁에 둔 상태에서 적 다섯 명을 처치하시면 됩니다.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10008 startedMessageText",
+        "source": "Short words, the same words every time. Then armour, then the rest.",
+        "translation": "짧은 명령어를 늘 같은 방식으로 쓰십시오. 그다음 방어구, 그리고 나머지 훈련입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10008 successMessageText",
+        "source": "She watches your hands now, not the gunfire, and her jacket stopped a round that would have gone through her lungs. I dug it out; keep it if you want a souvenir. She's earned a proper collar: a tactical one, with a buckle that won't give (it's in your reward; her collar slot is in the DOG tab). I've found fleece lining for her bed too, and the cloth to keep her jacket in one piece.",
+        "translation": "이제는 총성 대신 당신의 손짓을 살핍니다. 보호 재킷이 폐를 꿰뚫었을 총탄을 막았습니다. 제가 빼냈으니 기념으로 간직하셔도 됩니다. 이 개는 제대로 된 목줄을 받을 자격이 있습니다. 쉽게 풀리지 않는 버클이 달린 전술 목줄을 보상으로 드립니다. DOG 탭의 목줄 슬롯에 착용시키십시오. 침대에 깔 양털 안감과 보호 재킷을 수선할 천도 구해뒀습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20800",
+        "source": "Equip your dog with a protective jacket (armour class 2 or higher)",
+        "translation": "개에게 방어구 등급 2 이상인 보호 재킷 착용시키기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20801",
+        "source": "Survive raids with your dog alive",
+        "translation": "개를 살린 채 레이드에서 생존하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20802",
+        "source": "Eliminate enemies while your dog is with you",
+        "translation": "개와 동행한 상태에서 적 처치하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20803",
+        "source": "Give your dog the Follow command",
+        "translation": "개에게 따라오기 명령 내리기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20804",
+        "source": "Give your dog the Sit command",
+        "translation": "개에게 앉기 명령 내리기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20805",
+        "source": "Call your dog with Come here",
+        "translation": "이리 와 명령으로 개 부르기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d1000a name",
+        "source": "The Last Handler",
+        "translation": "마지막 핸들러",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d1000a description",
+        "source": "The base had a canine unit; the unit had an insignia. Its last handler wore it until the day he didn't come back. Since then those badges have gone from hand to hand: scavs and PMCs carry them for luck, and there's said to be one lying around the dorms on Customs. I'd like one back where it belongs: on the wall of my clinic, above the kennels.\n\nAnd the strays keep coming in worse every week. One of my K9 veterinary kits went missing with a runner, and it turned up in that house on Customs your people call the crack house: there'll be more of them there. Bring me one you find yourself, not one you bought from me, and two medical kits besides. Then I want to see the two of you work: five raids together, both of you coming home. After that I'll give you what that handler's dog wore: the unit's elite harness.",
+        "translation": "기지에는 군견 부대가 있었고 그 부대에는 휘장이 있었습니다. 마지막 핸들러는 돌아오지 못한 날까지 그 휘장을 달고 다녔죠. 그 후 휘장들은 이 손에서 저 손으로 넘어갔습니다. 스캐브와 PMC가 행운의 부적으로 지니고, 세관의 기숙사에도 하나가 남아 있다는군요. 원래 있어야 할 자리로 돌려놓고 싶습니다. 제 진료소의 견사 위 벽에 말입니다.\n\n유기견들의 상태는 매주 나빠지고 있습니다. 심부름꾼이 가져갔다가 잃어버린 K9 수의용 구급상자가 세관의 크랙하우스에서 발견됐다고 합니다. 그곳에 더 있을 겁니다. 제가 판 것이 아니라 직접 찾아낸 물건 하나와 다른 구급상자 두 개를 가져오십시오. 그리고 두 분이 함께 일하는 모습을 보겠습니다. 다섯 번의 레이드에서 둘 다 살아 돌아오십시오. 그러면 마지막 핸들러의 개가 착용했던 부대용 최상급 하네스를 드리겠습니다.",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d1000a startedMessageText",
+        "source": "The insignia, a vet kit from the crack house, then five raids. Bring her home every time.",
+        "translation": "부대 휘장, 크랙하우스에서 구한 수의용 구급상자, 그리고 다섯 번의 레이드입니다. 매번 개를 무사히 데려오십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d1000a successMessageText",
+        "source": "There. It's back where it belongs, and the kit is back in my cupboard; I'll keep making more: come and buy them when you need them. You will. And this is yours: the elite harness, plated. Light, tough and armoured like a tank. She'll look like she owns the place, which, frankly, she does. Come by any time; there's always work for a handler and a good dog.",
+        "translation": "이제 휘장이 제자리를 찾았군요. 구급상자도 다시 찬장에 들어왔습니다. 앞으로도 만들 테니 필요하면 찾아와 구매하십시오. 분명 필요할 겁니다. 그리고 이건 당신 몫입니다. 방탄판이 장착된 최상급 하네스죠. 가볍고 튼튼하며 전차처럼 방호력이 좋습니다. 이 개는 세상이 자기 것인 양 걸어 다니겠군요. 솔직히 틀린 말도 아니죠. 언제든 들르십시오. 좋은 개와 핸들러에게 맡길 일은 늘 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20a00",
+        "source": "Find the K9 unit insignia in raid (on scavs and PMCs, or in the Dorms on Customs)",
+        "translation": "레이드에서 K9 부대 휘장 찾기 (스캐브·PMC 소지품 또는 세관의 기숙사)",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20a01",
+        "source": "Hand over the K9 unit insignia",
+        "translation": "K9 부대 휘장 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20a02",
+        "source": "Complete raids with your dog alive",
+        "translation": "개를 살린 채 레이드 완료하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20a04",
+        "source": "Find a K9 veterinary kit in raid (in the crack house on Customs)",
+        "translation": "레이드에서 K9 수의용 구급상자 찾기 (세관의 크랙하우스)",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20a05",
+        "source": "Hand over the K9 veterinary kit",
+        "translation": "K9 수의용 구급상자 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d20a06",
+        "source": "Hand over found in raid medical kits",
+        "translation": "레이드에서 발견한 구급상자 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10011 name",
+        "source": "Daily Rations",
+        "translation": "일일 배급",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10011 description",
+        "source": "The strays eat every day. So do I, nearly. Five tins of dog food, please. (Contract: available again 24 hours after you complete it.)",
+        "translation": "유기견들은 매일 먹어야 합니다. 저도 거의 매일은 먹고요. 개 사료 다섯 통을 부탁드립니다. (계약: 완료한 지 24시간이 지나면 다시 받을 수 있습니다.)",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10011 startedMessageText",
+        "source": "Five tins.",
+        "translation": "다섯 통입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10011 successMessageText",
+        "source": "Thank you. They'll eat tonight.",
+        "translation": "고맙습니다. 오늘 밤은 개들이 굶지 않겠군요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d21100",
+        "source": "Hand over found in raid cans of dog food or packs of dog meat",
+        "translation": "레이드에서 발견한 개 사료 통조림 또는 개고기 팩 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10012 name",
+        "source": "Safe Return",
+        "translation": "무사 귀환",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10012 description",
+        "source": "Take your dog out and bring her back. Twice. That's all I ask. (Contract: available again 24 hours after you complete it.)",
+        "translation": "개를 데리고 나갔다가 무사히 데려오십시오. 두 번입니다. 제가 바라는 건 그뿐입니다. (계약: 완료한 지 24시간이 지나면 다시 받을 수 있습니다.)",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10012 startedMessageText",
+        "source": "Both of you, both times.",
+        "translation": "두 번 모두 당신과 개가 함께 돌아와야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10012 successMessageText",
+        "source": "Good. That's the job, really. Everything else is detail.",
+        "translation": "좋습니다. 사실 그게 핵심입니다. 나머지는 부차적인 일이죠.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d21200",
+        "source": "Extract with your dog alive",
+        "translation": "개를 살린 채 탈출하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10013 name",
+        "source": "Supply Run",
+        "translation": "의료품 조달",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10013 description",
+        "source": "I'm out of supplies again. Three items: bloodsets, saline, medical tools, syringes, whatever you find. I'll make you a K9 field kit from them. (Contract: available again 24 hours after you complete it.)",
+        "translation": "의료품이 또 떨어졌군요. 혈액 채취 세트, 생리식염수, 의료 도구, 주사기 등 무엇이든 세 개만 가져와주십시오. 그걸로 K9 야전용 구급상자를 만들어드리겠습니다. (계약: 완료한 지 24시간이 지나면 다시 받을 수 있습니다.)",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10013 startedMessageText",
+        "source": "Three items. Sealed if you can.",
+        "translation": "세 개입니다. 가능하면 밀봉된 것으로 부탁드립니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10013 successMessageText",
+        "source": "Here's your kit. Use it before she needs it, not after.",
+        "translation": "구급상자입니다. 개가 쓰러진 다음이 아니라, 필요할 때 제때 사용하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d21300",
+        "source": "Hand over found in raid medical supplies (bloodsets, saline, medical tools, syringes or ophthalmoscopes)",
+        "translation": "레이드에서 발견한 의료품 건네주기 (혈액 채취 세트·생리식염수·의료 도구·주사기·검안경)",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10014 name",
+        "source": "Working Partnership",
+        "translation": "함께하는 일",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10014 description",
+        "source": "Five successful raids with your dog this week. I pay for steady work, not heroics. (Contract: available again 7 days after you complete it.)",
+        "translation": "이번 주에 개와 함께 다섯 차례 레이드에서 무사히 귀환하십시오. 저는 영웅담이 아니라 꾸준한 일에 보수를 지급합니다. (계약: 완료한 지 7일이 지나면 다시 받을 수 있습니다.)",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10014 startedMessageText",
+        "source": "Five raids. Steady.",
+        "translation": "다섯 차례입니다. 꾸준히 하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10014 successMessageText",
+        "source": "A week of good work. Here's a week of pay.",
+        "translation": "한 주 동안 수고하셨습니다. 일주일치 보수입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d21400",
+        "source": "Complete raids with your dog alive",
+        "translation": "개를 살린 채 레이드 완료하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10015 name",
+        "source": "The Pack",
+        "translation": "한 무리",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10015 description",
+        "source": "I have a whole pack now. Ten tins of dog food, and I'll give you something the army left behind: a tactical armour jacket, never worn, plates and all. (Contract: available again 7 days after you complete it.)",
+        "translation": "이제 제게도 한 무리의 개들이 있습니다. 개 사료 열 통을 가져오시면 군대가 남긴 물건을 드리겠습니다. 한 번도 착용하지 않은 전술 방탄 재킷으로, 방탄판까지 모두 갖춰져 있습니다. (계약: 완료한 지 7일이 지나면 다시 받을 수 있습니다.)",
+        "match_mode": "exact",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10015 startedMessageText",
+        "source": "Ten tins. They eat like wolves.",
+        "translation": "열 통입니다. 늑대처럼 먹어치우는 녀석들이죠.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d10015 successMessageText",
+        "source": "Never worn. Make sure it gets dirty.",
+        "translation": "아직 아무도 입지 않은 새것입니다. 앞으로는 실컷 흙투성이가 되게 해주십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d21500",
+        "source": "Hand over found in raid cans of dog food or packs of dog meat",
+        "translation": "레이드에서 발견한 개 사료 통조림 또는 개고기 팩 건네주기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d0a0 FullName",
+        "source": "Dr. Wei Yang",
+        "translation": "웨이 양 박사",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d0a0 FirstName",
+        "source": "Wei",
+        "translation": "웨이",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d0a0 Nickname",
+        "source": "Dr. Yang",
+        "translation": "양 박사",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d0a0 Location",
+        "source": "Tarkov veterinary clinic",
+        "translation": "타르코프 동물병원",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d0a0 Description",
+        "source": "Before the conflict Dr. Yang ran the only veterinary clinic in Tarkov. He stayed for the animals that were left behind, and now keeps the city's working dogs fed, watered and patched up - for a fair price.",
+        "translation": "전쟁 전 양 박사는 타르코프에서 유일한 동물병원을 운영했습니다. 그는 버려진 동물들을 위해 도시에 남았으며, 지금도 합당한 비용을 받고 사역견들에게 먹이와 물을 제공하고 부상을 치료합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "DogJacket",
+        "source": "Jacket",
+        "translation": "재킷",
+        "match_mode": "exact"
+      },
+      {
+        "key": "DogHead",
+        "source": "Head",
+        "translation": "머리",
+        "match_mode": "exact"
+      },
+      {
+        "key": "DogCamera",
+        "source": "Camera",
+        "translation": "카메라",
+        "match_mode": "exact"
+      },
+      {
+        "key": "DogCollar",
+        "source": "Collar",
+        "translation": "목줄",
+        "match_mode": "exact"
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d062 Name",
+        "source": "Can of dog food",
+        "translation": "개 사료 통조림",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d062 ShortName",
+        "source": "Dog food",
+        "translation": "개 사료",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d062 Description",
+        "source": "Canned dog food (55% hunger for your dog). Feed it from the DOG group of the Y menu, or put it in the hideout food bowl. Found wherever tinned beef is, and scavs carry it. You can eat it yourself, but it does you little good and leaves you thirsty.",
+        "translation": "반려견의 허기를 55% 채워주는 개 사료 통조림입니다. Y 메뉴의 DOG 그룹에서 먹이거나 은신처의 사료 그릇에 놓을 수 있습니다. 소고기 통조림이 나오는 곳에서 발견되며 스캐브도 가지고 다닙니다. 사람이 먹을 수도 있지만 얻는 에너지는 적고 갈증만 심해집니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d064 Name",
+        "source": "Pack of dog meat",
+        "translation": "개 사료용 생고기 팩",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d064 ShortName",
+        "source": "Dog meat",
+        "translation": "개고기 팩",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d064 Description",
+        "source": "Raw meat portions for dogs (40% hunger for your dog). Cheaper than canned food. Found wherever dried beef is, and scavs carry it. People can eat it too, if they're desperate: very little energy, and a lot of thirst.",
+        "translation": "반려견의 허기를 40% 채워주는 개 사료용 생고기입니다. 통조림보다 저렴하며 말린 소고기가 나오는 곳에서 발견되고 스캐브도 가지고 다닙니다. 극한 상황에서는 사람도 먹을 수 있지만 얻는 에너지는 매우 적고 갈증은 크게 늘어납니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60001 Name",
+        "source": "K9 identification tag",
+        "translation": "K9 인식표",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60001 ShortName",
+        "source": "K9 tag",
+        "translation": "K9 인식표",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60001 Description",
+        "source": "A stamped steel tag from a working dog's collar: unit number, dog's name, handler's name. Scavs and PMCs carry them, and they turn up in scav corpses, jackets and drawers on Customs. Dr. Yang wants to know whose it was. Dr. Yang's K9 questline.",
+        "translation": "사역견의 목줄에 달려 있던 강철 인식표입니다. 부대 번호와 개의 이름, 핸들러의 이름이 새겨져 있습니다. 스캐브나 PMC가 지니고 다니며, 세관의 스캐브 시신·재킷·서랍에서도 발견됩니다. 양 박사는 원래 누구의 것이었는지 알고 싶어 합니다. 양 박사의 K9 임무와 관련된 물품입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60002 Name",
+        "source": "Dog handler's jacket",
+        "translation": "군견 핸들러 재킷",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60002 ShortName",
+        "source": "Handler",
+        "translation": "핸들러",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60002 Description",
+        "source": "A worn fleece jacket with a K9 patch on the sleeve. It still carries the handler's scent. Dr. Yang's K9 questline.",
+        "translation": "소매에 K9 패치가 붙은 낡은 플리스 재킷입니다. 아직도 핸들러의 체취가 남아 있습니다. 양 박사의 K9 임무와 관련된 물품입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60003 Name",
+        "source": "Dog whistle",
+        "translation": "군견 훈련용 호루라기",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60003 ShortName",
+        "source": "Whistle",
+        "translation": "호루라기",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60003 Description",
+        "source": "A brass training whistle on a lanyard, the kind a handler uses at the edge of a dog's hearing. Dr. Yang's K9 questline.",
+        "translation": "목걸이 줄이 달린 황동 훈련용 호루라기입니다. 핸들러가 개에게 소리가 닿을 만한 거리에서 사용합니다. 양 박사의 K9 임무와 관련된 물품입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60004 Name",
+        "source": "K9 transport records",
+        "translation": "K9 수송 기록",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60004 ShortName",
+        "source": "K9 log",
+        "translation": "K9 기록",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60004 Description",
+        "source": "A transport log from the military base: which dogs left, in which truck, and where to. Dr. Yang's K9 questline.",
+        "translation": "군 기지에서 작성된 군견 수송 기록입니다. 어떤 개가 어느 트럭에 실려 어디로 이동했는지 적혀 있습니다. 양 박사의 K9 임무와 관련된 물품입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60005 Name",
+        "source": "Veterinary supply case",
+        "translation": "수의 의료용품 상자",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60005 ShortName",
+        "source": "Vet case",
+        "translation": "수의용 상자",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60005 Description",
+        "source": "A sealed case of veterinary sutures, antiseptic and dosing syringes. Dr. Yang no longer needs these: The Last Handler takes a K9 veterinary kit. Dr. Yang's K9 questline.",
+        "translation": "수의용 봉합사, 소독약, 투약용 주사기가 담긴 밀봉 상자입니다. 양 박사는 이제 이것을 필요로 하지 않습니다. 「마지막 핸들러」 임무에는 K9 수의용 구급상자가 필요합니다. 양 박사의 K9 임무와 관련된 물품입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60006 Name",
+        "source": "K9 unit insignia",
+        "translation": "K9 부대 휘장",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60006 ShortName",
+        "source": "K9 badge",
+        "translation": "K9 휘장",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60006 Description",
+        "source": "The cloth-and-metal insignia of the base's canine unit. Scavs and PMCs carry them for luck, and they turn up in the Dorms on Customs. Dr. Yang's K9 questline.",
+        "translation": "군 기지 군견부대의 천·금속제 휘장입니다. 스캐브와 PMC가 행운의 부적으로 지니고 다니며, 세관 기숙사에서도 발견됩니다. 양 박사의 K9 임무와 관련된 물품입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60010 Name",
+        "source": "K9 veterinary kit",
+        "translation": "K9 수의용 구급상자",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60010 ShortName",
+        "source": "K9 vet",
+        "translation": "K9 구급",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60010 Description",
+        "source": "Dr. Yang's field kit for working dogs: wound dressings, antiseptic and a sedative. The only thing that heals your dog, and for your dog only: use it with your dog beside you and you treat the dog. A full kit restores all of its health, a part-used one its share, and only what the dog needs is used (it goes half as far again at a kennel with a veterinary station).",
+        "translation": "양 박사가 사역견을 위해 만든 야전용 구급상자입니다. 상처 드레싱, 소독약, 진정제가 들어 있습니다. 반려견을 치료할 수 있는 유일한 물품이며 사람에게는 사용할 수 없습니다. 개가 곁에 있을 때 사용하면 개를 치료합니다. 온전한 구급상자는 체력을 모두 회복시키고, 일부 사용한 구급상자는 남은 양만큼 회복시킵니다. 필요한 만큼만 소비하며 수의 시설을 갖춘 견사에서는 치료 효율이 1.5배가 됩니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60011 Name",
+        "source": "K9 training treats",
+        "translation": "K9 훈련용 간식",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60011 ShortName",
+        "source": "Treats",
+        "translation": "훈련 간식",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60011 Description",
+        "source": "Dried liver treats for training and rewards. Your dog eats them like food (15% hunger).",
+        "translation": "훈련과 보상에 사용하는 말린 간 간식입니다. 개에게 먹이면 일반 사료처럼 허기를 15% 채웁니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60012 Name",
+        "source": "K9 premium dog food",
+        "translation": "K9 고급 사료",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60012 ShortName",
+        "source": "K9 food+",
+        "translation": "K9 고급",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60012 Description",
+        "source": "A large tin of high-protein working-dog food: a whole day's food for your dog (100% hunger).",
+        "translation": "고단백 사역견 사료가 담긴 대형 통조림입니다. 반려견의 하루 식사량에 해당하며 허기를 100% 채웁니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60013 Name",
+        "source": "K9 fleece bed liner",
+        "translation": "K9 플리스 침구 안감",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60013 ShortName",
+        "source": "Bed liner",
+        "translation": "침구 안감",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60013 Description",
+        "source": "A fitted fleece liner for the kennel bed: the first bed upgrade in the DOG tab (instead of a fleece fabric).",
+        "translation": "견사 침대에 맞게 제작된 플리스 안감입니다. DOG 탭에서 첫 번째 침대 업그레이드에 사용하며, 일반 플리스 천 대신 소비됩니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60014 Name",
+        "source": "K9 thermal dog bed",
+        "translation": "K9 보온 침대",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60014 ShortName",
+        "source": "Thermal bed",
+        "translation": "보온 침대",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60014 Description",
+        "source": "An insulated, raised working-dog bed: the second bed upgrade in the DOG tab (instead of ripstop and paracord).",
+        "translation": "바닥에서 띄워 단열 처리한 사역견용 침대입니다. DOG 탭에서 두 번째 침대 업그레이드에 사용하며, 립스톱 천과 파라코드 대신 소비됩니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60015 Name",
+        "source": "K9 training kit",
+        "translation": "K9 훈련 키트",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60015 ShortName",
+        "source": "Training",
+        "translation": "훈련 키트",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60015 Description",
+        "source": "Long line, clicker and bite sleeve. Use it in the DOG tab (TRAIN) to train your dog a level (up to 3): each level lets it smell valuables 2 m further off.",
+        "translation": "긴 훈련줄, 클리커, 물기 훈련용 소매가 들어 있습니다. DOG 탭의 훈련 메뉴에서 사용하면 반려견의 훈련 수준이 1단계 올라갑니다(최대 3단계). 단계마다 귀중품을 냄새로 탐지하는 거리가 2m 늘어납니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60017 Name",
+        "source": "K9 training collar (Coyote)",
+        "translation": "K9 훈련용 목줄 (코요테)",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60017 ShortName",
+        "source": "K9 collar",
+        "translation": "K9 목줄",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60017 Description",
+        "source": "A coyote nylon training collar with a quick-release buckle and a D-ring. Put it in your dog's collar slot in the DOG tab; the dog keeps it in raids.",
+        "translation": "퀵 릴리스 버클과 D링이 달린 코요테색 나일론 훈련용 목줄입니다. DOG 탭에서 반려견의 목줄 슬롯에 장착하십시오. 레이드에 나가도 착용 상태가 유지됩니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60018 Name",
+        "source": "K9 training collar (Black)",
+        "translation": "K9 훈련용 목줄 (검은색)",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60018 ShortName",
+        "source": "K9 collar",
+        "translation": "K9 목줄",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60018 Description",
+        "source": "A black reinforced nylon training collar with a metal buckle. Put it in your dog's collar slot in the DOG tab; the dog keeps it in raids.",
+        "translation": "금속 버클이 달린 검은색 강화 나일론 훈련용 목줄입니다. DOG 탭에서 반려견의 목줄 슬롯에 장착하십시오. 레이드에 나가도 착용 상태가 유지됩니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60016 Name",
+        "source": "K9 tactical collar",
+        "translation": "K9 전술 목줄",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60016 ShortName",
+        "source": "K9 collar",
+        "translation": "K9 목줄",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60016 Description",
+        "source": "A wide handler's collar with a cobra buckle that won't give and a grab handle. Put it in your dog's collar slot in the DOG tab; the dog keeps it in raids.",
+        "translation": "쉽게 풀리지 않는 코브라 버클과 손잡이가 달린 넓은 핸들러용 목줄입니다. DOG 탭에서 반려견의 목줄 슬롯에 장착하십시오. 레이드에 나가도 착용 상태가 유지됩니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60030 Name",
+        "source": "K9 armour locker",
+        "translation": "K9 방어구 보관함",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60030 ShortName",
+        "source": "Locker",
+        "translation": "보관함",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60030 Description",
+        "source": "The Working Dog Station's locker: dog jackets, food, water and medical supplies.",
+        "translation": "사역견 시설의 보관함입니다. 개의 보호 재킷, 사료, 식수, 의료용품을 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60031 Name",
+        "source": "K9 premium storage",
+        "translation": "K9 고급 보관함",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60031 ShortName",
+        "source": "Storage",
+        "translation": "고급 보관함",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60031 Description",
+        "source": "The Tactical K9 Facility's storage room: dog jackets, food, water and medical supplies.",
+        "translation": "전술 K9 시설의 보관 공간입니다. 개의 보호 재킷, 사료, 식수, 의료용품을 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d061 Name",
+        "source": "K9 Chest Rig (Black)",
+        "translation": "K9 체스트 리그 (검은색)",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d061 ShortName",
+        "source": "K9 Rig",
+        "translation": "K9 리그",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d061 Description",
+        "source": "No armour: light and quick. A K9 action camera clips onto it. Carries a 4x4 load. Put it on your dog in the DOG tab and fill it like any container; it goes into PMC raids with the dog (look at the dog and press your interact key to open it) and comes home with you when you both make it out.",
+        "translation": "방탄 기능이 없어 가볍고 민첩합니다. K9 액션 카메라를 부착할 수 있습니다. 4×4칸의 물품을 수납합니다. DOG 탭에서 개에게 장착한 뒤 일반 보관함처럼 물품을 넣으십시오. PMC 레이드에 반려견과 함께 가져가며, 개를 바라보고 상호작용 키를 누르면 열 수 있습니다. 플레이어와 개가 모두 생존하여 탈출하면 내용물도 함께 돌아옵니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d073 Name",
+        "source": "K9 Pocket Vest (Black)",
+        "translation": "K9 포켓 방탄조끼 (검은색)",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d073 ShortName",
+        "source": "K9 Pocket",
+        "translation": "K9 포켓",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d073 Description",
+        "source": "Armour class 3 over the chest and back, durability 40; the dog moves at 95% speed in it. Wear carries over between raids; repair it at a kennel with a Working Dog Station using aramid, Cordura or ripstop fabric, or KEKTAPE. Takes front and back armour plates (any the game has; fit them in its inspect window or drag them onto it): a plate stops a round where it covers, before the vest's own armour. A K9 action camera clips onto it. Carries a 5x4 load. Put it on your dog in the DOG tab and fill it like any container; it goes into PMC raids with the dog (look at the dog and press your interact key to open it) and comes home with you when you both make it out.",
+        "translation": "가슴과 등을 보호하는 방어구 등급 3, 내구도 40의 방탄조끼입니다. 착용 시 반려견의 이동 속도는 95%가 됩니다. 손상 상태는 레이드 사이에도 유지되며, 사역견 시설을 갖춘 견사에서 아라미드, 코듀라, 립스톱 천 또는 켁테이프으로 수리할 수 있습니다. 전면·후면 방탄판을 장착할 수 있습니다. 게임에 존재하는 방탄판을 검사 창에서 장착하거나 조끼 위로 끌어다 놓으십시오. 해당 부위를 맞으면 조끼 자체 방어구보다 방탄판이 먼저 탄환을 막습니다. K9 액션 카메라를 부착할 수 있습니다. 5×4칸의 물품을 수납합니다. DOG 탭에서 개에게 장착한 뒤 일반 보관함처럼 물품을 넣으십시오. PMC 레이드에 반려견과 함께 가져가며, 개를 바라보고 상호작용 키를 누르면 열 수 있습니다. 플레이어와 개가 모두 생존하여 탈출하면 내용물도 함께 돌아옵니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d071 Name",
+        "source": "K9 Tactical Vest (Olive)",
+        "translation": "K9 전술 방탄조끼 (올리브)",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d071 ShortName",
+        "source": "K9 Tactical",
+        "translation": "K9 전술",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d071 Description",
+        "source": "Armour class 4 over the chest and back, durability 50; the dog moves at 91% speed in it. Wear carries over between raids; repair it at a kennel with a Working Dog Station using aramid fiber or Cordura fabric. Takes front and back armour plates (any the game has; fit them in its inspect window or drag them onto it): a plate stops a round where it covers, before the vest's own armour. A K9 action camera clips onto it. Carries a 5x5 load. Put it on your dog in the DOG tab and fill it like any container; it goes into PMC raids with the dog (look at the dog and press your interact key to open it) and comes home with you when you both make it out.",
+        "translation": "가슴과 등을 보호하는 방어구 등급 4, 내구도 50의 방탄조끼입니다. 착용 시 반려견의 이동 속도는 91%가 됩니다. 손상 상태는 레이드 사이에도 유지되며, 사역견 시설을 갖춘 견사에서 아라미드 섬유 또는 코듀라 천으로 수리할 수 있습니다. 전면·후면 방탄판을 장착할 수 있습니다. 게임에 존재하는 방탄판을 검사 창에서 장착하거나 조끼 위로 끌어다 놓으십시오. 해당 부위를 맞으면 조끼 자체 방어구보다 방탄판이 먼저 탄환을 막습니다. K9 액션 카메라를 부착할 수 있습니다. 5×5칸의 물품을 수납합니다. DOG 탭에서 개에게 장착한 뒤 일반 보관함처럼 물품을 넣으십시오. PMC 레이드에 반려견과 함께 가져가며, 개를 바라보고 상호작용 키를 누르면 열 수 있습니다. 플레이어와 개가 모두 생존하여 탈출하면 내용물도 함께 돌아옵니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d06020 Name",
+        "source": "K9 Assault Vest (Camo)",
+        "translation": "K9 강습 방탄조끼 (위장무늬)",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d06020 ShortName",
+        "source": "K9 Assault",
+        "translation": "K9 강습",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d06020 Description",
+        "source": "Armour class 5 over the chest and back, durability 75; the dog moves at 93% speed in it. Wear carries over between raids; repair it at a kennel with a Working Dog Station using aramid fiber or Cordura fabric. Takes front, back and side armour plates (any the game has; fit them in its inspect window or drag them onto it): a plate stops a round where it covers, before the vest's own armour. A K9 action camera clips onto it. Carries a 6x6 load. Put it on your dog in the DOG tab and fill it like any container; it goes into PMC raids with the dog (look at the dog and press your interact key to open it) and comes home with you when you both make it out.",
+        "translation": "가슴과 등을 보호하는 방어구 등급 5, 내구도 75의 방탄조끼입니다. 착용 시 반려견의 이동 속도는 93%가 됩니다. 손상 상태는 레이드 사이에도 유지되며, 사역견 시설을 갖춘 견사에서 아라미드 섬유 또는 코듀라 천으로 수리할 수 있습니다. 전면·후면·측면 방탄판을 장착할 수 있습니다. 게임에 존재하는 방탄판을 검사 창에서 장착하거나 조끼 위로 끌어다 놓으십시오. 해당 부위를 맞으면 조끼 자체 방어구보다 방탄판이 먼저 탄환을 막습니다. K9 액션 카메라를 부착할 수 있습니다. 6×6칸의 물품을 수납합니다. DOG 탭에서 개에게 장착한 뒤 일반 보관함처럼 물품을 넣으십시오. PMC 레이드에 반려견과 함께 가져가며, 개를 바라보고 상호작용 키를 누르면 열 수 있습니다. 플레이어와 개가 모두 생존하여 탈출하면 내용물도 함께 돌아옵니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d06021 Name",
+        "source": "K9 Camera Vest (Coyote)",
+        "translation": "K9 카메라 방탄조끼 (코요테)",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d06021 ShortName",
+        "source": "K9 CamVest",
+        "translation": "K9 카메라",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d06021 Description",
+        "source": "Armour class 4 over the chest and back, durability 55; the dog moves at 92% speed in it. Wear carries over between raids; repair it at a kennel with a Working Dog Station using aramid fiber or Cordura fabric. Takes front and back armour plates (any the game has; fit them in its inspect window or drag them onto it): a plate stops a round where it covers, before the vest's own armour. Carries a 6x5 load. Put it on your dog in the DOG tab and fill it like any container; it goes into PMC raids with the dog (look at the dog and press your interact key to open it) and comes home with you when you both make it out.",
+        "translation": "가슴과 등을 보호하는 방어구 등급 4, 내구도 55의 방탄조끼입니다. 착용 시 반려견의 이동 속도는 92%가 됩니다. 손상 상태는 레이드 사이에도 유지되며, 사역견 시설을 갖춘 견사에서 아라미드 섬유 또는 코듀라 천으로 수리할 수 있습니다. 전면·후면 방탄판을 장착할 수 있습니다. 게임에 존재하는 방탄판을 검사 창에서 장착하거나 조끼 위로 끌어다 놓으십시오. 해당 부위를 맞으면 조끼 자체 방어구보다 방탄판이 먼저 탄환을 막습니다. 6×5칸의 물품을 수납합니다. DOG 탭에서 개에게 장착한 뒤 일반 보관함처럼 물품을 넣으십시오. PMC 레이드에 반려견과 함께 가져가며, 개를 바라보고 상호작용 키를 누르면 열 수 있습니다. 플레이어와 개가 모두 생존하여 탈출하면 내용물도 함께 돌아옵니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d074 Name",
+        "source": "K9 basic protective jacket (old) (Black)",
+        "translation": "K9 구형 기본 보호 재킷",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d074 ShortName",
+        "source": "K9 Old jacket",
+        "translation": "K9 구형 재킷",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d074 Description",
+        "source": "Armour class 2 over the chest and back, durability 30; the dog moves at 98% speed in it. Wear carries over between raids; repair it at a kennel with a Working Dog Station using aramid, Cordura or ripstop fabric, or KEKTAPE. A K9 action camera clips onto it. Carries a 4x4 load. Put it on your dog in the DOG tab and fill it like any container; it goes into PMC raids with the dog (look at the dog and press your interact key to open it) and comes home with you when you both make it out.",
+        "translation": "가슴과 등을 보호하는 방어구 등급 2, 내구도 30의 방탄조끼입니다. 착용 시 반려견의 이동 속도는 98%가 됩니다. 손상 상태는 레이드 사이에도 유지되며, 사역견 시설을 갖춘 견사에서 아라미드, 코듀라, 립스톱 천 또는 켁테이프으로 수리할 수 있습니다. K9 액션 카메라를 부착할 수 있습니다. 4×4칸의 물품을 수납합니다. DOG 탭에서 개에게 장착한 뒤 일반 보관함처럼 물품을 넣으십시오. PMC 레이드에 반려견과 함께 가져가며, 개를 바라보고 상호작용 키를 누르면 열 수 있습니다. 플레이어와 개가 모두 생존하여 탈출하면 내용물도 함께 돌아옵니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d072 Name",
+        "source": "K9 heavy armour (old) (Camo)",
+        "translation": "K9 구형 중장갑 조끼",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d072 ShortName",
+        "source": "K9 Old armour",
+        "translation": "K9 구형 장갑",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d072 Description",
+        "source": "Armour class 5 over the chest and back, durability 60; the dog moves at 86% speed in it. Wear carries over between raids; repair it at a kennel with a Working Dog Station using aramid fiber or Cordura fabric. A K9 action camera clips onto it. Carries a 6x5 load. Put it on your dog in the DOG tab and fill it like any container; it goes into PMC raids with the dog (look at the dog and press your interact key to open it) and comes home with you when you both make it out.",
+        "translation": "가슴과 등을 보호하는 방어구 등급 5, 내구도 60의 방탄조끼입니다. 착용 시 반려견의 이동 속도는 86%가 됩니다. 손상 상태는 레이드 사이에도 유지되며, 사역견 시설을 갖춘 견사에서 아라미드 섬유 또는 코듀라 천으로 수리할 수 있습니다. K9 액션 카메라를 부착할 수 있습니다. 6×5칸의 물품을 수납합니다. DOG 탭에서 개에게 장착한 뒤 일반 보관함처럼 물품을 넣으십시오. PMC 레이드에 반려견과 함께 가져가며, 개를 바라보고 상호작용 키를 누르면 열 수 있습니다. 플레이어와 개가 모두 생존하여 탈출하면 내용물도 함께 돌아옵니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60022 Name",
+        "source": "K9 Ballistic Goggles (Tan)",
+        "translation": "K9 탄도 방호 고글 (황갈색)",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60022 ShortName",
+        "source": "K9 Goggles",
+        "translation": "K9 고글",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60022 Description",
+        "source": "Strap-on ballistic goggles cut for a dog's head: tinted lens over the eyes, strap behind the ears. Put them on your dog's head in the DOG tab. Lost if the dog or you die in a raid.",
+        "translation": "개 머리 형태에 맞춘 착용형 탄도 방호 고글입니다. 눈에는 착색 렌즈가, 귀 뒤에는 고정끈이 놓입니다. DOG 탭에서 머리 슬롯에 착용시키십시오. 레이드에서 플레이어나 개가 사망하면 잃습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60023 Name",
+        "source": "K9 Ballistic Goggles (Black)",
+        "translation": "K9 탄도 방호 고글 (검은색)",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60023 ShortName",
+        "source": "K9 Goggles",
+        "translation": "K9 고글",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60023 Description",
+        "source": "Strap-on ballistic goggles cut for a dog's head: smoked lens over the eyes, strap behind the ears. Put them on your dog's head in the DOG tab. Lost if the dog or you die in a raid.",
+        "translation": "개 머리 형태에 맞춘 착용형 탄도 방호 고글입니다. 눈에는 연기색 렌즈가, 귀 뒤에는 고정끈이 놓입니다. DOG 탭에서 머리 슬롯에 착용시키십시오. 레이드에서 플레이어나 개가 사망하면 잃습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60025 Name",
+        "source": "K9 Action Camera (Black)",
+        "translation": "K9 액션 카메라 (검은색)",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60025 ShortName",
+        "source": "K9 Cam",
+        "translation": "K9 카메라",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60025 Description",
+        "source": "A rugged action camera on a harness mount. It clips onto the back of whatever K9 jacket your dog wears, facing forward (the camera vest has its own), so you can watch what your dog sees in a raid. Fit it in the DOG tab. Lost if the dog or you die in a raid.",
+        "translation": "하네스 마운트에 고정하는 견고한 액션 카메라입니다. 반려견이 착용한 K9 재킷의 등 쪽에 전방을 향하도록 장착하며, 카메라 조끼에는 자체 카메라가 있습니다. DOG 탭에서 장착하면 레이드 중 반려견의 시야를 볼 수 있습니다. 레이드에서 플레이어나 개가 사망하면 잃습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60024 Name",
+        "source": "K9 Camera Headset (old)",
+        "translation": "K9 구형 카메라 헤드셋",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60024 ShortName",
+        "source": "K9 Headset",
+        "translation": "K9 헤드셋",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d60024 Description",
+        "source": "No longer made: it becomes a K9 Action Camera.",
+        "translation": "단종된 장비입니다. K9 액션 카메라로 전환됩니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d080 Name",
+        "source": "K9 dog",
+        "translation": "K9 반려견",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d080 ShortName",
+        "source": "Dog",
+        "translation": "반려견",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a5d0c0c4fb9a3c5e1d0d080 Description",
+        "source": "What your dog is wearing.",
+        "translation": "반려견이 착용 중인 장비입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description",
+        "seed_missing": true
+      }
+    ],
+    "small_ui": [
+      {
+        "id": " in stock",
+        "source": " in stock",
+        "translation": " 보유",
+        "match_mode": "exact"
+      },
+      {
+        "id": " is in good health.",
+        "source": " is in good health.",
+        "translation": "은(는) 건강한 상태입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": " isn't hungry.",
+        "source": " isn't hungry.",
+        "translation": "은(는) 배고프지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": " isn't thirsty.",
+        "source": " isn't thirsty.",
+        "translation": "은(는) 목마르지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": " materials",
+        "source": " materials",
+        "translation": " 재료",
+        "match_mode": "exact"
+      },
+      {
+        "id": " vet kit",
+        "source": " vet kit",
+        "translation": " 수의용 구급상자",
+        "match_mode": "exact"
+      },
+      {
+        "id": " vet kits",
+        "source": " vet kits",
+        "translation": " 수의용 구급상자",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ANY ENEMY",
+        "source": "ANY ENEMY",
+        "translation": "모든 적",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ARMOUR LOCKER",
+        "source": "ARMOUR LOCKER",
+        "translation": "방호 장비 보관함",
+        "match_mode": "exact"
+      },
+      {
+        "id": "BED",
+        "source": "BED",
+        "translation": "침대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Both bowls are full.",
+        "source": "Both bowls are full.",
+        "translation": "두 그릇 모두 가득 차 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Cancel",
+        "source": "Cancel",
+        "translation": "취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Choose a name (up to 16 characters).",
+        "source": "Choose a name (up to 16 characters).",
+        "translation": "반려견 이름을 입력하십시오(최대 16자).",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Comes with you (no gear on a Scav raid).",
+        "source": "Comes with you (no gear on a Scav raid).",
+        "translation": "플레이어와 동행합니다(스캐브 레이드에서는 장비 미착용).",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Comes with you.",
+        "source": "Comes with you.",
+        "translation": "플레이어와 동행합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Could not save the name. Please try again.",
+        "source": "Could not save the name. Please try again.",
+        "translation": "이름을 저장하지 못했습니다. 다시 시도하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "DEFENDS YOU",
+        "source": "DEFENDS YOU",
+        "translation": "플레이어 방어",
+        "match_mode": "exact"
+      },
+      {
+        "id": "DOG",
+        "source": "DOG",
+        "translation": "반려견",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Drag a K9 jacket, goggles or collar into its slot; plates and an action camera onto the jacket. Jacket and goggles go into PMC raids with the dog and are lost if it or you die; the collar is never lost.",
+        "source": "Drag a K9 jacket, goggles or collar into its slot; plates and an action camera onto the jacket. Jacket and goggles go into PMC raids with the dog and are lost if it or you die; the collar is never lost.",
+        "translation": "K9 재킷·고글·목걸이를 각각 해당 슬롯에 끌어 놓으십시오. 방탄판과 액션 카메라는 재킷에 장착합니다. PMC 레이드에서 개나 플레이어가 죽으면 재킷과 고글을 잃지만, 목걸이는 사라지지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "FEED DOG",
+        "source": "FEED DOG",
+        "translation": "사료 먹이기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "FILL BOWLS",
+        "source": "FILL BOWLS",
+        "translation": "그릇 채우기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Feed dog",
+        "source": "Feed dog",
+        "translation": "개에게 먹이 주기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Fleece-lined bed",
+        "source": "Fleece-lined bed",
+        "translation": "플리스 안감 침대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Follow me.",
+        "source": "Follow me.",
+        "translation": "따라와.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Food and water are available at the hideout bed.",
+        "source": "Food and water are available at the hideout bed.",
+        "translation": "은신처의 침대 옆에서 사료와 물을 줄 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Full speed",
+        "source": "Full speed",
+        "translation": "최대 이동 속도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "GIVE WATER",
+        "source": "GIVE WATER",
+        "translation": "물 주기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Give water",
+        "source": "Give water",
+        "translation": "물 주기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Give water to dog",
+        "source": "Give water to dog",
+        "translation": "개에게 물 주기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Goes for every enemy it detects, and whoever shoots at you.",
+        "source": "Goes for every enemy it detects, and whoever shoots at you.",
+        "translation": "발견한 모든 적과 플레이어를 공격하는 적을 공격합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Good dog, ",
+        "source": "Good dog, ",
+        "translation": "잘했어, ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "HEAL DOG",
+        "source": "HEAL DOG",
+        "translation": "개 치료하기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Jacket presets",
+        "source": "Jacket presets",
+        "translation": "재킷 프리셋",
+        "match_mode": "exact"
+      },
+      {
+        "id": "K9 Kennel upgrades",
+        "source": "K9 Kennel upgrades",
+        "translation": "K9 견사 업그레이드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Kennel",
+        "source": "Kennel",
+        "translation": "견사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Kennel care is for out of raids.",
+        "source": "Kennel care is for out of raids.",
+        "translation": "견사 돌봄은 레이드 밖에서만 가능합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "LEVEL ",
+        "source": "LEVEL ",
+        "translation": "레벨 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Lie down.",
+        "source": "Lie down.",
+        "translation": "엎드려.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Makeshift Kennel",
+        "source": "Makeshift Kennel",
+        "translation": "임시 견사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Move closer to pet your dog.",
+        "source": "Move closer to pet your dog.",
+        "translation": "쓰다듬으려면 반려견 가까이 이동하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Move closer to rename your dog.",
+        "source": "Move closer to rename your dog.",
+        "translation": "이름을 바꾸려면 반려견 가까이 이동하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Move closer to the dishes.",
+        "source": "Move closer to the dishes.",
+        "translation": "그릇 가까이 이동하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "NEEDS DROP",
+        "source": "NEEDS DROP",
+        "translation": "욕구 감소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "NO SIGNAL",
+        "source": "NO SIGNAL",
+        "translation": "신호 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "NOT BUILT",
+        "source": "NOT BUILT",
+        "translation": "미건설",
+        "match_mode": "exact"
+      },
+      {
+        "id": "No K9 veterinary kit in your stash, lockers or gear (Dr. Yang sells them).",
+        "source": "No K9 veterinary kit in your stash, lockers or gear (Dr. Yang sells them).",
+        "translation": "보관함·사물함·장비에 K9 수의용 구급상자가 없습니다(양 박사에게서 구입할 수 있습니다).",
+        "match_mode": "exact"
+      },
+      {
+        "id": "No armour",
+        "source": "No armour",
+        "translation": "방호 장비 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "No dog food or meat in your stash, lockers or gear.",
+        "source": "No dog food or meat in your stash, lockers or gear.",
+        "translation": "보관함·사물함·장비에 개 사료나 고기가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "No dog food or meat to fill the bowl with.",
+        "source": "No dog food or meat to fill the bowl with.",
+        "translation": "그릇에 채울 개 사료나 고기가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "No dog yet",
+        "source": "No dog yet",
+        "translation": "반려견 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "No dog.",
+        "source": "No dog.",
+        "translation": "반려견이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "No drinking water in your stash, lockers or gear.",
+        "source": "No drinking water in your stash, lockers or gear.",
+        "translation": "보관함·사물함·장비에 식수가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "No jacket this raid.",
+        "source": "No jacket this raid.",
+        "translation": "이번 레이드에는 재킷이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "No water to fill the bowl with.",
+        "source": "No water to fill the bowl with.",
+        "translation": "그릇에 채울 물이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "None on a Scav raid",
+        "source": "None on a Scav raid",
+        "translation": "스캐브 레이드에서 사용 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ON ORDER",
+        "source": "ON ORDER",
+        "translation": "명령 시",
+        "match_mode": "exact"
+      },
+      {
+        "id": "OPEN JACKET",
+        "source": "OPEN JACKET",
+        "translation": "재킷 열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "One thing at a time.",
+        "source": "One thing at a time.",
+        "translation": "한 번에 하나씩만 실행할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Only follows you: it can't attack or be hurt, and enemies ignore it.",
+        "source": "Only follows you: it can't attack or be hurt, and enemies ignore it.",
+        "translation": "플레이어를 따라오기만 합니다. 개는 공격하거나 피해를 입지 않으며 적들도 개를 무시합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Open camera vest",
+        "source": "Open camera vest",
+        "translation": "카메라 조끼 열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Open chest rig",
+        "source": "Open chest rig",
+        "translation": "가슴 장비 열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Open the kennel from its paw icon on the hideout overview.",
+        "source": "Open the kennel from its paw icon on the hideout overview.",
+        "translation": "은신처 개요 화면에서 발바닥 아이콘을 눌러 견사를 여십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "PREMIUM STORAGE",
+        "source": "PREMIUM STORAGE",
+        "translation": "고급 보관함",
+        "match_mode": "exact"
+      },
+      {
+        "id": "PRESET ",
+        "source": "PRESET ",
+        "translation": "프리셋 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Plain bed",
+        "source": "Plain bed",
+        "translation": "일반 침대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Please enter a name.",
+        "source": "Please enter a name.",
+        "translation": "이름을 입력하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "RECOVERY",
+        "source": "RECOVERY",
+        "translation": "회복",
+        "match_mode": "exact"
+      },
+      {
+        "id": "RENAME",
+        "source": "RENAME",
+        "translation": "이름 변경",
+        "match_mode": "exact"
+      },
+      {
+        "id": "REPAIR",
+        "source": "REPAIR",
+        "translation": "수리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Runs straight at them.",
+        "source": "Runs straight at them.",
+        "translation": "적을 향해 곧바로 돌진합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "SMELLS LOOT WITHIN",
+        "source": "SMELLS LOOT WITHIN",
+        "translation": "수색 감지 거리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Save",
+        "source": "Save",
+        "translation": "저장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Stay.",
+        "source": "Stay.",
+        "translation": "기다려.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Stays home this raid.",
+        "source": "Stays home this raid.",
+        "translation": "이번 레이드는 견사에 남습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Stays home: ",
+        "source": "Stays home: ",
+        "translation": "견사에 남음: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Survival needs are off.",
+        "source": "Survival needs are off.",
+        "translation": "생존 욕구가 비활성화되어 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "TAKE DOG: ",
+        "source": "TAKE DOG: ",
+        "translation": "반려견 동행: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "TRAIN DOG",
+        "source": "TRAIN DOG",
+        "translation": "개 훈련",
+        "match_mode": "exact"
+      },
+      {
+        "id": "TRAINING",
+        "source": "TRAINING",
+        "translation": "훈련",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Tactical K9 Facility",
+        "source": "Tactical K9 Facility",
+        "translation": "전술 K9 시설",
+        "match_mode": "exact"
+      },
+      {
+        "id": "That didn't work.",
+        "source": "That didn't work.",
+        "translation": "작업을 수행하지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "The dog isn't wearing an armoured jacket.",
+        "source": "The dog isn't wearing an armoured jacket.",
+        "translation": "반려견이 방호 재킷을 착용하지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "The dog's gear isn't set up yet: restart the SPT server (the K9 Companion server mod sets it up).",
+        "source": "The dog's gear isn't set up yet: restart the SPT server (the K9 Companion server mod sets it up).",
+        "translation": "반려견 장비 설정이 완료되지 않았습니다. SPT 서버를 재시작하십시오(K9 Companion 서버 모드가 장비를 등록합니다).",
+        "match_mode": "exact"
+      },
+      {
+        "id": "The jacket is in full repair.",
+        "source": "The jacket is in full repair.",
+        "translation": "재킷은 수리가 필요 없는 상태입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Thermal bedding",
+        "source": "Thermal bedding",
+        "translation": "보온 침구",
+        "match_mode": "exact"
+      },
+      {
+        "id": "UPGRADE BED",
+        "source": "UPGRADE BED",
+        "translation": "침대 업그레이드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "VET STATION",
+        "source": "VET STATION",
+        "translation": "동물 진료소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "WHEN TO ATTACK",
+        "source": "WHEN TO ATTACK",
+        "translation": "공격 조건",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Warns you about enemies, and attacks when you order Over There.",
+        "source": "Warns you about enemies, and attacks when you order Over There.",
+        "translation": "적의 접근을 경고하며, 그곳으로 공격 명령을 내리면 공격합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Working Dog Station",
+        "source": "Working Dog Station",
+        "translation": "사역견 시설",
+        "match_mode": "exact"
+      },
+      {
+        "id": "You don't have a dog yet. Dr. Yang's questline (Trust Is Earned) brings you one.",
+        "source": "You don't have a dog yet. Dr. Yang's questline (Trust Is Earned) brings you one.",
+        "translation": "아직 반려견이 없습니다. 양 박사의 퀘스트 연계(신뢰는 얻는 것)를 완료하면 반려견을 얻을 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "Your dog isn't with you.",
+        "source": "Your dog isn't with you.",
+        "translation": "반려견이 곁에 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "camera vest",
+        "source": "camera vest",
+        "translation": "카메라 조끼",
+        "match_mode": "exact"
+      },
+      {
+        "id": "chest rig",
+        "source": "chest rig",
+        "translation": "가슴 장비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "click to wear  ·  shift-click to save the jacket on the dog",
+        "source": "click to wear  ·  shift-click to save the jacket on the dog",
+        "translation": "클릭: 착용  ·  Shift+클릭: 개가 착용한 재킷 저장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "fully upgraded",
+        "source": "fully upgraded",
+        "translation": "최대 업그레이드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "in the raid with you",
+        "source": "in the raid with you",
+        "translation": "레이드에 동행 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "out of raids only",
+        "source": "out of raids only",
+        "translation": "레이드 밖에서만 가능",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pocket vest",
+        "source": "pocket vest",
+        "translation": "주머니 조끼",
+        "match_mode": "exact"
+      },
+      {
+        "id": "you have no dog yet",
+        "source": "you have no dog yet",
+        "translation": "아직 반려견이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-101",
+        "source": "drag to turn",
+        "translation": "드래그하여 회전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-102",
+        "source": "ready to deploy",
+        "translation": "출격 준비 완료",
+        "match_mode": "segment"
+      },
+      {
+        "id": "k9-screen-103",
+        "source": "none yet",
+        "translation": "아직 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-104",
+        "source": "open",
+        "translation": "열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-105",
+        "source": "fully trained",
+        "translation": "훈련 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-106",
+        "source": "APPROACH",
+        "translation": "접근 방식",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-107",
+        "source": "STEALTH",
+        "translation": "은밀 접근",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-108",
+        "source": "DIRECT",
+        "translation": "직접 돌격",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-109",
+        "source": "AUTO",
+        "translation": "자동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-110",
+        "source": "ON",
+        "translation": "켜짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-111",
+        "source": "OFF",
+        "translation": "꺼짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-112",
+        "source": "COMBAT",
+        "translation": "전투",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-113",
+        "source": "BEHAVIOUR",
+        "translation": "행동 방식",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-114",
+        "source": "LOAD",
+        "translation": "적재량",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-115",
+        "source": "HEALTH",
+        "translation": "체력",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-116",
+        "source": "THIRST",
+        "translation": "갈증",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-117",
+        "source": "HUNGER",
+        "translation": "허기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-118",
+        "source": "^K9 dog(?=  ·  )",
+        "translation": "반려견",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-119",
+        "source": "(?<=>)Healthy(?=</color>)",
+        "translation": "건강",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-120",
+        "source": "(?<=>)Unknown(?=</color>)",
+        "translation": "상태 불명",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-121",
+        "source": "(?<=>)Critical(?=</color>)",
+        "translation": "위독",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-122",
+        "source": "(?<=>)Badly injured(?=</color>)",
+        "translation": "중상",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-123",
+        "source": "(?<=>)Injured(?=</color>)",
+        "translation": "부상",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-124",
+        "source": "(?<=>)Hungry(?=</color>)",
+        "translation": "허기짐",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-125",
+        "source": "(?<=>)Thirsty(?=</color>)",
+        "translation": "목마름",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-126",
+        "source": "(?<name>[^<]+?) is too badly hurt to deploy \\((?<percent>\\d+)%\\)",
+        "translation": "{name}: 부상이 심해 출격할 수 없습니다 ({percent}%)",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-127",
+        "source": "(?<=<b>)Class (?<class>\\d+)(?=</b>)",
+        "translation": "방탄 등급 {class}",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-128",
+        "source": "Durability (?<current>\\d+(?:\\.\\d+)?)/(?<max>\\d+(?:\\.\\d+)?)",
+        "translation": "내구도 {current}/{max}",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-129",
+        "source": "Speed (?<speed>\\d+(?:\\.\\d+)?)%",
+        "translation": "이동 속도 {speed}%",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-130",
+        "source": "(?<count>\\d+) items inside",
+        "translation": "내부 아이템 {count}개",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-131",
+        "source": "(?<count>\\d+) item\\(s\\)\\.",
+        "translation": "아이템 {count}개.",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-132",
+        "source": "\\+(?<rate>\\d+(?:\\.\\d+)?)% an hour",
+        "translation": "시간당 +{rate}%",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-133",
+        "source": "(?<rate>\\d+(?:\\.\\d+)?)% as fast",
+        "translation": "기본 대비 {rate}% 속도",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-139",
+        "source": "level (?<level>\\d+) of 3",
+        "translation": "훈련 {level}/3단계",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-134",
+        "source": "(?<level>\\d+) of 3",
+        "translation": "{level}/3",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-135",
+        "source": "(?<count>\\d+) in stock",
+        "translation": "보유 {count}개",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-136",
+        "source": "(?<count>\\d+) materials",
+        "translation": "재료 {count}개",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-137",
+        "source": "(?<count>\\d+) vet kits?",
+        "translation": "수의용 구급상자 {count}개",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-138",
+        "source": "food (?<food>\\d+)%  water (?<water>\\d+)%",
+        "translation": "사료 {food}% · 물 {water}%",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-140",
+        "source": "^to fleece-lined bed$",
+        "translation": "플리스 안감 침대로 업그레이드",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-141",
+        "source": "^to thermal bedding$",
+        "translation": "보온 침대로 업그레이드",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-142",
+        "source": "Next: Makeshift Kennel",
+        "translation": "다음: 임시 견사",
+        "match_mode": "segment"
+      },
+      {
+        "id": "k9-screen-143",
+        "source": "Next: Working Dog Station",
+        "translation": "다음: 사역견 시설",
+        "match_mode": "segment"
+      },
+      {
+        "id": "k9-screen-144",
+        "source": "Next: Tactical K9 Facility",
+        "translation": "다음: 전술 K9 시설",
+        "match_mode": "segment"
+      },
+      {
+        "id": "k9-screen-145",
+        "source": "Complete Dr. Yang's quest Trust Is Earned",
+        "translation": "양 박사의 '신뢰는 쌓는 것입니다' 퀘스트를 완료하십시오",
+        "match_mode": "segment"
+      },
+      {
+        "id": "k9-screen-146",
+        "source": "ready to build in your Rest Space",
+        "translation": "은신처 휴식 공간에서 건설할 수 있습니다",
+        "match_mode": "segment"
+      },
+      {
+        "id": "k9-screen-147",
+        "source": "Build the Makeshift Kennel first",
+        "translation": "임시 견사를 먼저 건설하십시오",
+        "match_mode": "segment"
+      },
+      {
+        "id": "k9-screen-148",
+        "source": "Build the Working Dog Station first",
+        "translation": "사역견 시설을 먼저 건설하십시오",
+        "match_mode": "segment"
+      },
+      {
+        "id": "k9-screen-149",
+        "source": "Requires Dr\\. Yang loyalty level (?<level>\\d+)",
+        "translation": "양 박사 우호도 {level}단계 필요",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-150",
+        "source": "Building the Makeshift Kennel: (?<hours>\\d+)h (?<minutes>\\d+)m left",
+        "translation": "임시 견사 건설 중 · 남은 시간 {hours}시간 {minutes}분",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-151",
+        "source": "Building the Working Dog Station: (?<hours>\\d+)h (?<minutes>\\d+)m left",
+        "translation": "사역견 시설 건설 중 · 남은 시간 {hours}시간 {minutes}분",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-152",
+        "source": "Building the Tactical K9 Facility: (?<hours>\\d+)h (?<minutes>\\d+)m left",
+        "translation": "전술 K9 시설 건설 중 · 남은 시간 {hours}시간 {minutes}분",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-153",
+        "source": "(?<=  ·  )quest Trust Is Earned(?=$)",
+        "translation": "'신뢰는 쌓는 것입니다' 퀘스트",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-154",
+        "source": "^Straight at anything within (?<distance>\\d+(?:\\.\\d+)?) m, and works its way in to anything further off\\.$",
+        "translation": "{distance}m 이내의 적에게는 곧장 돌격하고, 더 먼 적에게는 은밀하게 접근합니다.",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-155",
+        "source": "^Also goes for whoever shoots at you or it, up to (?<distance>\\d+(?:\\.\\d+)?) m away, unasked\\.$",
+        "translation": "플레이어나 반려견을 공격하는 적은 {distance}m 이내에서 명령 없이 공격합니다.",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-156",
+        "source": "Stand next to the dog to open it.",
+        "translation": "재킷을 열려면 반려견 옆으로 이동하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-kits-50",
+        "source": "kits go 50% further",
+        "translation": "수의용 구급상자 효율 +50%",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-screen-title-157",
+        "source": "(?<= ·  )MAKESHIFT KENNEL",
+        "translation": "임시 견사",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-title-158",
+        "source": "(?<= ·  )WORKING DOG STATION",
+        "translation": "사역견 시설",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-title-159",
+        "source": "(?<= ·  )TACTICAL K9 FACILITY",
+        "translation": "전술 K9 시설",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-kennel-level",
+        "source": "^(?:LEVEL|레벨) (?<level>\\d+)  ·  ",
+        "translation": "{level}단계 · ",
+        "match_mode": "regex_segment"
+      },
+      {
+        "id": "k9-screen-built",
+        "source": "Built",
+        "translation": "건설 완료",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

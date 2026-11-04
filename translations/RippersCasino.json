@@ -1,0 +1,1805 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.itsripper.ripperscasino",
+  "mod_name": "RippersCasino",
+  "mod_version": "1.0.1",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "ripperscasino.ui.001",
+        "source": "RIPPERS CASINO",
+        "translation": "리퍼스 카지노",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.002",
+        "source": "EXIT",
+        "translation": "나가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.003",
+        "source": "AVAILABLE CHIPS",
+        "translation": "보유 칩",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.004",
+        "source": "RESUME PAYMENT",
+        "translation": "결제 재개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.005",
+        "source": "Choose your game",
+        "translation": "게임 선택",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.006",
+        "source": "Play the house or take a seat with a rival.",
+        "translation": "카지노를 상대로 플레이하거나 다른 참가자와 겨루세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.007",
+        "source": "GAMES",
+        "translation": "게임 목록",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.008",
+        "source": "PLAY THE HOUSE",
+        "translation": "카지노와 대결",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.009",
+        "source": "TAKE A SEAT",
+        "translation": "자리에 앉기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.010",
+        "source": "PLAY  →",
+        "translation": "플레이  →",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.011",
+        "source": "TAKE A SEAT  →",
+        "translation": "참가  →",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.012",
+        "source": "Scavenger's Luck",
+        "translation": "스캐빈저의 행운",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.013",
+        "source": "Three reels · One payline · Up to 100× your wager",
+        "translation": "릴 3개 · 당첨 라인 1개 · 판돈의 최대 100배",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.014",
+        "source": "WAGER",
+        "translation": "베팅 금액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.015",
+        "source": "LAST PAYOUT",
+        "translation": "직전 지급액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.016",
+        "source": "JACKPOT",
+        "translation": "잭팟",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.017",
+        "source": "LARGE WIN",
+        "translation": "대박",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.018",
+        "source": "NICE WIN",
+        "translation": "당첨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.019",
+        "source": "WIN",
+        "translation": "승리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.020",
+        "source": "CONTINUE",
+        "translation": "계속",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.021",
+        "source": "SPINNING…",
+        "translation": "회전 중…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.022",
+        "source": "SPIN",
+        "translation": "돌리기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.023",
+        "source": "STOP AUTO",
+        "translation": "자동 중지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.024",
+        "source": "AUTO",
+        "translation": "자동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.025",
+        "source": "PAYOUT TABLE",
+        "translation": "배당표",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.026",
+        "source": "THREE MATCHING SYMBOLS",
+        "translation": "같은 심볼 3개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.027",
+        "source": "EXACTLY TWO CHERRIES  /  ",
+        "translation": "체리 정확히 2개  /  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.028",
+        "source": "Payouts include your wager.",
+        "translation": "지급액에는 원래 판돈이 포함됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.029",
+        "source": "The cashier",
+        "translation": "환전소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.030",
+        "source": "1 CHIP = 1,000 RUB · Exchange currency and chips · No fees",
+        "translation": "칩 1개 = 1,000루블 · 화폐와 칩 교환 · 수수료 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.031",
+        "source": "Cash reserve  ",
+        "translation": "현금 잔액  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.032",
+        "source": "CURRENCY",
+        "translation": "화폐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.033",
+        "source": "Cashier unavailable. Check the casino installation.",
+        "translation": "환전소를 이용할 수 없습니다. 카지노 설치 상태를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.034",
+        "source": "DEPOSIT / ",
+        "translation": "입금 / ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.035",
+        "source": "WITHDRAW / WHOLE CHIPS",
+        "translation": "출금 / 정수 칩",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.036",
+        "source": "MAX DEPOSIT",
+        "translation": "최대 입금",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.037",
+        "source": "MAX WITHDRAW",
+        "translation": "최대 출금",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.038",
+        "source": "PROCESSING…",
+        "translation": "처리 중…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.039",
+        "source": "DEPOSIT",
+        "translation": "입금",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.040",
+        "source": "WITHDRAW",
+        "translation": "출금",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.041",
+        "source": "STASH FUNDS",
+        "translation": "보관함 자금",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.042",
+        "source": "Cashier unavailable.",
+        "translation": "환전소 이용 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.043",
+        "source": " available to deposit.",
+        "translation": " 입금 가능 금액이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.044",
+        "source": " to deposit. Maximum: ",
+        "translation": "을(를) 입금하세요. 최대: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.045",
+        "source": "No chips to withdraw.",
+        "translation": "출금할 칩이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.046",
+        "source": "Reserve too small for 1 ",
+        "translation": "잔액이 1단위에 미달합니다: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.047",
+        "source": ". Choose RUB.",
+        "translation": ". 루블을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.048",
+        "source": " / Cash out to exchange these chips.",
+        "translation": " / 이 칩을 환전하려면 게임에서 정산하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.049",
+        "source": "Casino settings",
+        "translation": "카지노 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.050",
+        "source": "Sound, ambience and your saved game.",
+        "translation": "음향, 환경음 및 게임 저장 정보",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.051",
+        "source": "CASINO SOUND",
+        "translation": "카지노 음향",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.052",
+        "source": "UNMUTE",
+        "translation": "음소거 해제",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.053",
+        "source": "MUTE",
+        "translation": "음소거",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.054",
+        "source": "HIDEOUT AMBIENCE",
+        "translation": "은신처 환경음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.055",
+        "source": "Hideout ambience quietens while the casino is open and returns when you leave.",
+        "translation": "카지노 이용 중에는 은신처 환경음이 작아지며, 나가면 원래대로 돌아옵니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.056",
+        "source": "YOUR GAME",
+        "translation": "게임 저장 정보",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.057",
+        "source": "Won",
+        "translation": "승리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.058",
+        "source": "Lost",
+        "translation": "패배",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.059",
+        "source": "Stood",
+        "translation": "스탠드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.060",
+        "source": "Push",
+        "translation": "무승부",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.061",
+        "source": "Bust",
+        "translation": "버스트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.062",
+        "source": "Blackjack",
+        "translation": "블랙잭",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.063",
+        "source": "Waiting",
+        "translation": "대기 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.064",
+        "source": "DEALER / HOUSE",
+        "translation": "딜러 / 하우스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.065",
+        "source": "BANKROLL",
+        "translation": "보유 판돈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.066",
+        "source": "Dealer’s card is face down",
+        "translation": "딜러의 카드가 뒤집혀 있습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.067",
+        "source": "YOUR TURN",
+        "translation": "내 차례",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.068",
+        "source": "PLAYING",
+        "translation": "진행 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.069",
+        "source": "LEFT",
+        "translation": "떠남",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.070",
+        "source": "Not enough table chips. Cash out to change your bankroll.",
+        "translation": "테이블 칩이 부족합니다. 정산한 뒤 판돈을 변경하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.071",
+        "source": "Enter an even wager within your table bankroll.",
+        "translation": "테이블 보유 칩 범위에서 짝수 금액을 베팅하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.072",
+        "source": "Choose a wager, then deal.",
+        "translation": "베팅 금액을 선택한 뒤 카드를 받으세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.073",
+        "source": "Timeout: stand",
+        "translation": "시간 초과 시 스탠드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.074",
+        "source": "Even wagers · Exact 3:2 · Buttons ±2",
+        "translation": "짝수 베팅 · 정확한 3:2 배당 · 버튼 단위 ±2",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.075",
+        "source": "STAND",
+        "translation": "스탠드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.076",
+        "source": "DOUBLE",
+        "translation": "더블다운",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.077",
+        "source": "DEAL",
+        "translation": "딜",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.078",
+        "source": "CASINO HOME",
+        "translation": "카지노 홈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.079",
+        "source": "LEAVE AFTER HAND",
+        "translation": "핸드 종료 후 나가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.080",
+        "source": "CASH OUT",
+        "translation": "정산하기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.081",
+        "source": "RESUME",
+        "translation": "재개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.082",
+        "source": "TABLE BANKROLL",
+        "translation": "테이블 보유 칩",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.083",
+        "source": "RETURN TO GAME",
+        "translation": "게임으로 돌아가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.084",
+        "source": "Cash out of your current game before opening another.",
+        "translation": "다른 게임을 시작하려면 현재 게임을 먼저 정산하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.085",
+        "source": " chips. Unused chips return when you cash out.",
+        "translation": "칩입니다. 사용하지 않은 칩은 정산 시 반환됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.086",
+        "source": "FORFEIT / LEAVE",
+        "translation": "기권 / 나가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.087",
+        "source": "Texas Hold’em",
+        "translation": "텍사스 홀덤",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.088",
+        "source": "No-limit Hold’em · No house fee · Timeout: check or fold",
+        "translation": "노리밋 홀덤 · 하우스 수수료 없음 · 시간 초과 시 체크 또는 폴드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.089",
+        "source": " winners",
+        "translation": "명 승리",
+        "match_mode": "segment"
+      },
+      {
+        "id": "ripperscasino.ui.090",
+        "source": "SMALL BLIND",
+        "translation": "스몰 블라인드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.091",
+        "source": "BIG BLIND",
+        "translation": "빅 블라인드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.092",
+        "source": "Set the big blind, then deal.",
+        "translation": "빅 블라인드를 설정한 뒤 카드를 나누세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.093",
+        "source": "Raise to: your total bet this round",
+        "translation": "레이즈 금액은 이번 라운드의 총 베팅액입니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.094",
+        "source": "Small blind: half the big blind",
+        "translation": "스몰 블라인드는 빅 블라인드의 절반입니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.095",
+        "source": "FOLD",
+        "translation": "폴드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.096",
+        "source": "CHECK",
+        "translation": "체크",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.097",
+        "source": "RAISE TO",
+        "translation": "레이즈 금액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.098",
+        "source": "ALL-IN",
+        "translation": "올인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.099",
+        "source": "European Roulette",
+        "translation": "유럽식 룰렛",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.100",
+        "source": "PLAY ROULETTE",
+        "translation": "룰렛 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.101",
+        "source": "Unused chips return when you cash out. Zero loses outside bets.",
+        "translation": "사용하지 않은 칩은 정산 시 반환됩니다. 0이 나오면 외부 베팅은 패배합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.102",
+        "source": "Single zero · Numbers pay 35:1 · Dozens/columns 2:1 · Outside bets 1:1",
+        "translation": "싱글 제로 · 숫자 35:1 · 더즌/열 2:1 · 외부 베팅 1:1",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.103",
+        "source": "BETTING OPEN",
+        "translation": "베팅 가능",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.104",
+        "source": "SINGLE ZERO",
+        "translation": "싱글 제로",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.105",
+        "source": "Payouts include your wager",
+        "translation": "지급액에 판돈 포함",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.106",
+        "source": "WAGERED",
+        "translation": "베팅액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.107",
+        "source": "NET RESULT",
+        "translation": "순손익",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.108",
+        "source": "Bets closed. The wheel is turning…",
+        "translation": "베팅 마감. 룰렛 휠이 돌고 있습니다…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.109",
+        "source": "Open betting for the next spin.",
+        "translation": "다음 회전의 베팅을 여세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.110",
+        "source": "Bets closed. Ball in play.",
+        "translation": "베팅 마감. 공이 굴러가고 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.111",
+        "source": "Ready for the next spin.",
+        "translation": "다음 회전 준비 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.112",
+        "source": "Place your chips before time runs out",
+        "translation": "제한 시간 내에 칩을 놓으세요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.113",
+        "source": "CLEAR BETS",
+        "translation": "베팅 지우기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.114",
+        "source": "OPEN BETTING",
+        "translation": "베팅 열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.115",
+        "source": "Waiting for the start…",
+        "translation": "출발 대기 중…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.116",
+        "source": "Race in progress · Bets closed",
+        "translation": "경주 진행 중 · 베팅 마감",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.117",
+        "source": " WINS  /  ",
+        "translation": " 우승  /  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.118",
+        "source": "NO WIN",
+        "translation": "당첨 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.119",
+        "source": "Boss Racing",
+        "translation": "보스 경주",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.120",
+        "source": "Six bosses. One finish line. Choose your runner.",
+        "translation": "보스 여섯 명, 결승선 하나. 참가 보스를 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.121",
+        "source": "× PAYOUT",
+        "translation": "× 배당",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.122",
+        "source": "WINNER",
+        "translation": "우승자",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.123",
+        "source": "LIVE",
+        "translation": "진행 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.124",
+        "source": "READY",
+        "translation": "준비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.125",
+        "source": "RACE IN PROGRESS…",
+        "translation": "경주 진행 중…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.126",
+        "source": "START RACE",
+        "translation": "경주 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.127",
+        "source": "LAST RACE  /  ",
+        "translation": "직전 경주  /  ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.128",
+        "source": "Russian Roulette",
+        "translation": "러시안 룰렛",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.129",
+        "source": "Six chambers. One winner.",
+        "translation": "약실 여섯 개, 승자 한 명.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.130",
+        "source": "WAGER PER MATCH",
+        "translation": "경기당 베팅액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.131",
+        "source": "PRIZE POOL",
+        "translation": "상금 총액",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.132",
+        "source": "RIVAL",
+        "translation": "상대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.133",
+        "source": "LAST TURN",
+        "translation": "직전 차례",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.134",
+        "source": "LAST MATCH",
+        "translation": "직전 경기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.135",
+        "source": "Your rival is ready.",
+        "translation": "상대가 준비됐습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.136",
+        "source": "Empty chamber",
+        "translation": "빈 약실",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.137",
+        "source": "Forfeited",
+        "translation": "기권",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.138",
+        "source": "RIVAL'S TURN",
+        "translation": "상대 차례",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.139",
+        "source": "WAITING",
+        "translation": "대기 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.140",
+        "source": "FORFEITED",
+        "translation": "기권",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.141",
+        "source": "Choose your wager.",
+        "translation": "베팅 금액을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.142",
+        "source": "Timeout forfeits your wager",
+        "translation": "시간 초과 시 판돈 몰수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.143",
+        "source": " table chips / No fee",
+        "translation": " 테이블 칩 / 수수료 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.144",
+        "source": "Cash out to change your bankroll",
+        "translation": "정산한 뒤 판돈을 변경하세요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.145",
+        "source": "CHAMBER TURNING…",
+        "translation": "약실 회전 중…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.146",
+        "source": "TAKE TURN",
+        "translation": "격발하기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.147",
+        "source": "START MATCH",
+        "translation": "경기 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.148",
+        "source": " chips",
+        "translation": " 칩",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.ui.149",
+        "source": "No table chips. Cash out.",
+        "translation": "테이블 칩이 없습니다. 정산하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.150",
+        "source": "SLOTS",
+        "translation": "슬롯머신",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.151",
+        "source": "DEPOSIT / WITHDRAW",
+        "translation": "입금 / 출금",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.152",
+        "source": "BOSS RACING",
+        "translation": "보스 경주",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.153",
+        "source": "SETTINGS",
+        "translation": "설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.154",
+        "source": "BLACKJACK",
+        "translation": "블랙잭",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.155",
+        "source": "POKER",
+        "translation": "포커",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.156",
+        "source": "RUSSIAN ROULETTE",
+        "translation": "러시안 룰렛",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.157",
+        "source": "ROULETTE",
+        "translation": "룰렛",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.158",
+        "source": "SCAVENGER’S LUCK",
+        "translation": "스캐빈저의 행운",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.159",
+        "source": "TEXAS HOLD’EM",
+        "translation": "텍사스 홀덤",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.160",
+        "source": "EUROPEAN ROULETTE",
+        "translation": "유럽식 룰렛",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.161",
+        "source": "Three reels. Six symbols.",
+        "translation": "릴 3개, 심볼 6종.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.162",
+        "source": "Back a boss on the Factory circuit.",
+        "translation": "팩토리 경주에 참가한 보스에게 베팅하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.163",
+        "source": "Beat the dealer. Blackjack pays 3:2.",
+        "translation": "딜러를 이기세요. 블랙잭은 3:2로 지급됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.164",
+        "source": "Texas Hold’em against up to four rivals.",
+        "translation": "최대 네 명의 상대와 텍사스 홀덤을 플레이하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.165",
+        "source": "A single-zero wheel. Place your bets.",
+        "translation": "싱글 제로 룰렛 휠입니다. 베팅하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.166",
+        "source": "DIAMOND",
+        "translation": "다이아몬드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.167",
+        "source": "BAR",
+        "translation": "바",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.168",
+        "source": "BELL",
+        "translation": "종",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.169",
+        "source": "CHERRY",
+        "translation": "체리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.static.170",
+        "source": "LEMON",
+        "translation": "레몬",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.171",
+        "source": "Open Rippers Casino from the hideout laptop.",
+        "translation": "은신처 노트북에서 리퍼스 카지노를 여세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.172",
+        "source": "Casino interrupted. No payment was sent. Reopen to try again.",
+        "translation": "카지노 연결이 중단됐습니다. 결제는 전송되지 않았습니다. 다시 열어 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.173",
+        "source": "Loading…",
+        "translation": "불러오는 중…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.174",
+        "source": "Casino unavailable. Close and reopen to try again.",
+        "translation": "카지노를 사용할 수 없습니다. 닫았다가 다시 열어 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.175",
+        "source": "Previous payment restored.",
+        "translation": "이전 결제가 복구되었습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.176",
+        "source": "A payment is waiting. Choose Resume to finish it.",
+        "translation": "처리 대기 중인 결제가 있습니다. ‘재개’를 선택해 마무리하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.177",
+        "source": "That amount is too large. Choose a smaller amount.",
+        "translation": "금액이 너무 큽니다. 더 작은 금액을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.178",
+        "source": "Your saved game could not be opened. Close the casino and check the log.",
+        "translation": "저장된 게임을 열 수 없습니다. 카지노를 닫고 로그를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.179",
+        "source": "Casino unavailable. Check the installation and try again.",
+        "translation": "카지노를 사용할 수 없습니다. 설치 상태를 확인하고 다시 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.180",
+        "source": "Payment could not be started. Close and reopen the casino.",
+        "translation": "결제를 시작할 수 없습니다. 카지노를 닫았다가 다시 여세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.181",
+        "source": "Stash busy. No payment was sent. Choose Resume to try again.",
+        "translation": "보관함이 사용 중입니다. 결제는 전송되지 않았습니다. ‘재개’를 선택해 다시 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.182",
+        "source": "Payment interrupted. Restart Tarkov to refresh your stash.",
+        "translation": "결제가 중단됐습니다. 보관함을 갱신하려면 타르코프를 다시 시작하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.183",
+        "source": "Transaction interrupted. Restart Tarkov to reload your stash.",
+        "translation": "거래가 중단됐습니다. 보관함을 다시 불러오려면 타르코프를 재시작하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.184",
+        "source": "No payout.",
+        "translation": "지급금이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.185",
+        "source": "Casino versions do not match. Update the casino installation.",
+        "translation": "카지노 버전이 일치하지 않습니다. 카지노 모드를 업데이트하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.186",
+        "source": "Game recovery is required. Your records are saved; check the server log.",
+        "translation": "게임 복구가 필요합니다. 기록은 저장되어 있습니다. 서버 로그를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.187",
+        "source": "That amount is too large. Choose a smaller wager.",
+        "translation": "금액이 너무 큽니다. 베팅 금액을 줄이세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.188",
+        "source": "Your last game is still being saved. Close and reopen the casino to retry.",
+        "translation": "이전 게임이 아직 저장 중입니다. 카지노를 닫았다가 다시 열어 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.189",
+        "source": "Your last payment is still being saved. Close and reopen the casino to retry.",
+        "translation": "이전 결제가 아직 저장 중입니다. 카지노를 닫았다가 다시 열어 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.190",
+        "source": "Your payment could not be saved. Choose Resume before playing again.",
+        "translation": "결제를 저장하지 못했습니다. 게임을 재개하기 전에 ‘재개’를 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.followup.191",
+        "source": "The amount is too large. Choose a smaller wager.",
+        "translation": "금액이 너무 큽니다. 베팅 금액을 줄이세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.192",
+        "source": "Boss Racing is unavailable.\nClose the casino and try again.",
+        "translation": "보스 경주를 이용할 수 없습니다.\n카지노를 닫았다가 다시 시도해 주세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.193",
+        "source": "Choose a runner and wager.\nPayouts include your wager.",
+        "translation": "경주자와 베팅 금액을 선택하세요.\n지급액에는 베팅 원금이 포함됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.194",
+        "source": "Face the dealer alongside up to two rivals.\nChoose your table bankroll.",
+        "translation": "최대 두 명의 경쟁자와 함께 딜러를 상대합니다.\n테이블 자금을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.195",
+        "source": "Play against one to four rivals.\nChoose your table bankroll.",
+        "translation": "한 명에서 네 명의 경쟁자와 대결합니다.\n테이블 자금을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.196",
+        "source": "Set the big blind, then deal.\nThe small blind is half the big blind.\nNo ante or house fee.",
+        "translation": "빅 블라인드를 설정하고 카드를 나눕니다.\n스몰 블라인드는 빅 블라인드의 절반입니다.\n앤티나 수수료는 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.197",
+        "source": "Choose your table bankroll.\nOpen betting and place your chips.",
+        "translation": "테이블 자금을 선택하세요.\n베팅을 열고 칩을 놓으세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.198",
+        "source": "STRAIGHT NUMBER    35:1\nDOZENS / COLUMNS     2:1\nOUTSIDE BETS               1:1",
+        "translation": "단일 번호    35:1\n더즌 / 열     2:1\n외부 베팅               1:1",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.199",
+        "source": "Face a rival.\nChoose the chips you bring to the table.",
+        "translation": "경쟁자와 맞대결합니다.\n테이블에 가져갈 칩을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.200",
+        "source": "Your rival matches your wager.\nWinner takes the pool.",
+        "translation": "상대도 같은 금액을 베팅합니다.\n승자가 판돈 전액을 가져갑니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.201",
+        "source": "Withdrawals include your reserve.\nLeave space in your stash for payment.",
+        "translation": "출금액에는 잔액이 포함됩니다.\n대금을 받을 수 있도록 보관함에 공간을 확보해 주세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.202",
+        "source": "Adjust casino sound.\nYour Tarkov master volume also applies.",
+        "translation": "카지노 음량을 조절합니다.\n타르코프의 전체 음량 설정도 적용됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.203",
+        "source": "Display interrupted during payment. Restart Tarkov.",
+        "translation": "결제 도중 화면 출력이 중단됐습니다. 타르코프를 다시 시작하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.204",
+        "source": "Your payment record is protected. Restart Tarkov before using your stash again.",
+        "translation": "결제 기록은 보존되었습니다. 보관함을 다시 사용하기 전에 타르코프를 재시작하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.205",
+        "source": "Your payment could not be confirmed. Restart Tarkov.",
+        "translation": "결제 여부를 확인하지 못했습니다. 타르코프를 재시작하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.206",
+        "source": "Casino state has not completed.",
+        "translation": "카지노 상태 업데이트가 완료되지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.207",
+        "source": "Invalid state.",
+        "translation": "올바르지 않은 상태입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.208",
+        "source": "Restart Tarkov before trying this payment again.",
+        "translation": "결제를 다시 시도하기 전에 타르코프를 재시작하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.209",
+        "source": "Unknown reel symbol.",
+        "translation": "알 수 없는 릴 기호입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.210",
+        "source": "The casino is not ready. Close and try again.",
+        "translation": "카지노가 준비되지 않았습니다. 닫았다가 다시 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.211",
+        "source": "The casino is closed.",
+        "translation": "카지노가 문을 닫았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.212",
+        "source": "Requires Generator level 1 and Intelligence Center level 1.",
+        "translation": "발전기 1레벨과 정보 센터 1레벨이 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.213",
+        "source": "Your saved balance could not be opened. Close the casino and check the log.",
+        "translation": "저장된 잔액을 열지 못했습니다. 카지노를 닫고 로그를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.214",
+        "source": "Your saved casino data could not be opened. Check the server log.",
+        "translation": "저장된 카지노 데이터를 열지 못했습니다. 서버 로그를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.215",
+        "source": "Your stash could not be opened. Close and reopen the casino.",
+        "translation": "보관함을 열지 못했습니다. 카지노를 닫았다가 다시 여세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.216",
+        "source": "Your stash could not be updated. Close and reopen the casino.",
+        "translation": "보관함을 갱신하지 못했습니다. 카지노를 닫았다가 다시 여세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.217",
+        "source": "Not enough stash space for the complete payout. Free stash space and try again.",
+        "translation": "대금 전액을 받을 보관함 공간이 부족합니다. 공간을 확보하고 다시 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.218",
+        "source": "This currency is unavailable.",
+        "translation": "이 화폐는 사용할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.219",
+        "source": "Unsupported currency.",
+        "translation": "지원하지 않는 화폐입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.220",
+        "source": "Your bankroll could not be restored. Close the casino and check the log.",
+        "translation": "테이블 자금을 복구하지 못했습니다. 카지노를 닫고 로그를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.221",
+        "source": "Table unavailable. Your bankroll is saved. Close and reopen to try again.",
+        "translation": "테이블을 이용할 수 없습니다. 테이블 자금은 보존되었습니다. 닫았다가 다시 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.222",
+        "source": "Empty table response.",
+        "translation": "테이블 응답이 비어 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.223",
+        "source": "Invalid table snapshot.",
+        "translation": "유효하지 않은 테이블 상태 데이터입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.224",
+        "source": "A full table snapshot is required.",
+        "translation": "테이블 전체 상태 데이터가 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.225",
+        "source": "Your character is being saved. Choose Resume to try again.",
+        "translation": "캐릭터 데이터를 저장 중입니다. 재개를 선택하여 다시 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.226",
+        "source": "Invalid inventory debit.",
+        "translation": "유효하지 않은 보관함 차감 요청입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.227",
+        "source": "Inventory debit did not complete.",
+        "translation": "보관함 화폐 차감이 완료되지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.228",
+        "source": "Invalid inventory credit.",
+        "translation": "유효하지 않은 보관함 지급 요청입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.229",
+        "source": "Cannot reserve payout space.",
+        "translation": "대금 지급에 필요한 공간을 확보할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.230",
+        "source": "Invalid inventory stack.",
+        "translation": "유효하지 않은 아이템 묶음입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.231",
+        "source": "CASINO CLOSED",
+        "translation": "카지노 폐쇄",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.232",
+        "source": "PAYMENT RECOVERY",
+        "translation": "결제 복구",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.233",
+        "source": "QUIT TARKOV",
+        "translation": "타르코프 종료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.234",
+        "source": "OUT",
+        "translation": "탈락",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.235",
+        "source": "Up to {amount} table chips / No fee",
+        "translation": "최대 테이블 칩 {amount}개 / 수수료 없음",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.236",
+        "source": "Turn: {player} · {seconds}s",
+        "translation": "차례: {player} · {seconds}초",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.237",
+        "source": "BET {amount}",
+        "translation": "베팅 {amount}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.238",
+        "source": "CALL {amount}",
+        "translation": "콜 {amount}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.012",
+        "source": "Matches your wager",
+        "translation": "상대가 같은 금액을 베팅합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.thirdpass.013",
+        "source": "Bankroll {minimum}–{maximum} chips. Unused chips return when you cash out.",
+        "translation": "테이블 자금 {minimum}~{maximum}칩. 사용하지 않은 칩은 정산할 때 반환됩니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.014",
+        "source": "Bankroll {amount} / Net {net}",
+        "translation": "테이블 자금 {amount} / 순손익 {net}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.007",
+        "source": "Bankroll returned to your balance.",
+        "translation": "테이블 자금이 잔액으로 반환되었습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.secondpass.239",
+        "source": "Bankroll {amount}",
+        "translation": "테이블 자금 {amount}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.240",
+        "source": "Wager {amount}",
+        "translation": "베팅 {amount}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.241",
+        "source": "Matches {amount}",
+        "translation": "베팅 금액 일치: {amount}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.242",
+        "source": "Empty chambers: {count}\nMissing your turn forfeits the wager.",
+        "translation": "빈 약실: {count}\n제때 차례를 진행하지 않으면 베팅금을 잃습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.243",
+        "source": "{player} wins {amount}.",
+        "translation": "{player} 승리 · 상금 {amount}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.244",
+        "source": "{player}  /  {wager}  /  WIN RETURNS {win}",
+        "translation": "{player} / 베팅 {wager} / 당첨 시 {win}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.245",
+        "source": "{amount}× PAYOUT",
+        "translation": "배당 {amount}배",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.246",
+        "source": "Insufficient {currency} in your stash.",
+        "translation": "보관함에 {currency}가 부족합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.247",
+        "source": "1 {currency} = {rate} RUB\nRemaining value stays in your cash reserve.",
+        "translation": "1 {currency} = {rate} RUB\n남은 금액은 현금 잔액에 보관됩니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.secondpass.248",
+        "source": "Reserve after deposit: ",
+        "translation": "입금 후 잔액: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "ripperscasino.secondpass.249",
+        "source": "Reserve after withdrawal: ",
+        "translation": "출금 후 잔액: ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "ripperscasino.secondpass.250",
+        "source": "  /  WIN RETURNS ",
+        "translation": " / 당첨 시 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "ripperscasino.secondpass.251",
+        "source": "Split pot · ",
+        "translation": "분할 팟 · ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "ripperscasino.secondpass.252",
+        "source": "AT THE TABLE / ",
+        "translation": "테이블 보유 / ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "ripperscasino.thirdpass.001",
+        "source": "HIT",
+        "translation": "히트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.thirdpass.002",
+        "source": "ACCOUNT",
+        "translation": "계정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.thirdpass.003",
+        "source": "LOADING…",
+        "translation": "불러오는 중…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.thirdpass.004",
+        "source": "UNAVAILABLE",
+        "translation": "이용 불가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.thirdpass.005",
+        "source": "REELS RUNNING…",
+        "translation": "릴 회전 중…",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.thirdpass.006",
+        "source": "Action restored.",
+        "translation": "이전 행동을 복구했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.thirdpass.008",
+        "source": "Leaving after this round.",
+        "translation": "이번 라운드가 끝나면 퇴장합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.thirdpass.009",
+        "source": "Out",
+        "translation": "탈락",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.thirdpass.010",
+        "source": "Your balance and results are saved automatically. Closing the casino does not cancel placed bets.\n\nIf a payment is interrupted, reopen the casino and choose Resume. Exit or Esc returns to the hideout.",
+        "translation": "잔액과 게임 결과는 자동으로 저장됩니다. 카지노를 닫아도 이미 접수된 베팅은 취소되지 않습니다.\n\n결제가 중단되면 카지노를 다시 열고 ‘재개’를 선택하세요. 나가기 또는 Esc 키를 누르면 은신처로 돌아갑니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.thirdpass.011",
+        "source": "Choose a chip, then click the board to place it.\nZero loses outside bets; no special refunds apply.",
+        "translation": "칩을 선택한 뒤 베팅판을 클릭해 배치하세요.\n0이 나오면 외부 베팅은 패배하며, 별도의 환급은 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.thirdpass.015",
+        "source": "{decks} decks · Blackjack pays 3:2 · Dealer stands on soft 17",
+        "translation": "카드 덱 {decks}개 · 블랙잭 배당 3:2 · 딜러는 소프트 17에서 스탠드",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.016",
+        "source": "DEALER {total}",
+        "translation": "딜러 {total}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.017",
+        "source": "STACK {amount}",
+        "translation": "보유 칩 {amount}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.018",
+        "source": "Won {profit}",
+        "translation": "승리 {profit}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.019",
+        "source": "Lost {profit}",
+        "translation": "패배 {profit}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.020",
+        "source": "Stood {profit}",
+        "translation": "스탠드 {profit}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.021",
+        "source": "Push {profit}",
+        "translation": "무승부 {profit}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.022",
+        "source": "Bust {profit}",
+        "translation": "버스트 {profit}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.023",
+        "source": "Blackjack {profit}",
+        "translation": "블랙잭 {profit}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.024",
+        "source": "Waiting {profit}",
+        "translation": "대기 중 {profit}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.025",
+        "source": "YOU / {name}",
+        "translation": "나 / {name}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.026",
+        "source": "{winner} WINS  /  PAID {amount} CHIPS",
+        "translation": "{winner} 승리 / {amount}칩 지급",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.027",
+        "source": "{winner} WINS  /  NO WIN",
+        "translation": "{winner} 승리 / 지급 없음",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.028",
+        "source": "JACKPOT  /  PAID  {amount} CHIPS",
+        "translation": "잭팟 / {amount}칩 지급",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.029",
+        "source": "PAID  {amount} CHIPS",
+        "translation": "{amount}칩 지급",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.030",
+        "source": "Cash reserve  {amount} RUB",
+        "translation": "현금 잔액  {amount} RUB",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.031",
+        "source": "DEPOSIT / {currency}",
+        "translation": "입금 / {currency}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.032",
+        "source": "No {currency} available to deposit.",
+        "translation": "입금할 수 있는 {currency}가 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.033",
+        "source": "Enter {currency} to deposit. Maximum: {maximum}.",
+        "translation": "입금할 {currency} 금액을 입력하세요. 최대: {maximum}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.034",
+        "source": "Reserve too small for 1 {currency}. Choose RUB.",
+        "translation": "현금 잔액이 1 {currency} 미만입니다. RUB를 선택하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.035",
+        "source": "Available: {chips}.\nUse 0 to withdraw only the reserve.",
+        "translation": "출금 가능: {chips}.\n현금 잔액만 출금하려면 0을 입력하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.036",
+        "source": "RESULT / {number}",
+        "translation": "결과 / {number}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.037",
+        "source": "Betting closes in {seconds}s",
+        "translation": "베팅 마감까지 {seconds}초",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.038",
+        "source": "Prize {amount}",
+        "translation": "상금 {amount}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.039",
+        "source": "Enter 1–{maximum} chips",
+        "translation": "1~{maximum}칩을 입력하세요",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.040",
+        "source": "{player}\nEmpty chamber",
+        "translation": "{player}\n빈 약실",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.041",
+        "source": "{player}\nOut",
+        "translation": "{player}\n탈락",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.042",
+        "source": "{player}\nForfeited",
+        "translation": "{player}\n기권",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.043",
+        "source": "Net {profit}",
+        "translation": "순손익 {profit}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.thirdpass.044",
+        "source": "\n\nYour payment record is protected. Restart Tarkov before using your stash again.",
+        "translation": "\n\n결제 기록은 보호됩니다. 보관함을 다시 사용하기 전에 타르코프를 재시작하세요.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "ripperscasino.thirdpass.045",
+        "source": "BIG BLIND {amount}",
+        "translation": "빅 블라인드 {amount}",
+        "match_mode": "template"
+      },
+      {
+        "id": "ripperscasino.fourthpass.001",
+        "source": "Log in with a PMC to use the casino.",
+        "translation": "카지노를 이용하려면 PMC 캐릭터로 로그인해야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "ripperscasino.fourthpass.002",
+        "source": "Unknown RippersCasino operation.",
+        "translation": "알 수 없는 카지노 작업 요청입니다.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

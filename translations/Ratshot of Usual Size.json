@@ -20,12 +20,12 @@
       {
         "key": "694176e3a6753021c575d7d8 Description",
         "source": "A 6.8x51mm Shotshell is a cartridge containing 55 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "6.8x51mm Shotshell 탄약에는 작은 산탄 55개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "6.8x51mm 산탄 탄약에는 작은 산탄 55개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "694177488f3ab66de693f56a Name",
         "source": "6.8x51mm Shotshell ammo pack (20 pcs)",
-        "translation": "6.8x51mm Shotshell 탄약 팩 (20발)"
+        "translation": "6.8x51mm 산탄 탄약 팩 (20발)"
       },
       {
         "key": "694177488f3ab66de693f56a ShortName",
@@ -35,7 +35,7 @@
       {
         "key": "694177488f3ab66de693f56a Description",
         "source": "A pack of 6.8x51mm Shotshell ammo, 20 rounds.",
-        "translation": "6.8x51mm Shotshell 탄약 20발이 들어 있는 탄약 팩입니다."
+        "translation": "6.8x51mm 산탄 탄약 20발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "6941ccef24ad69dcab0d9a60 Name",
@@ -50,12 +50,12 @@
       {
         "key": "6941ccef24ad69dcab0d9a60 Description",
         "source": "A .50 AE Shotshell is a cartridge containing 50 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": ".50 AE Shotshell 탄약에는 작은 산탄 50개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": ".50 AE 산탄 탄약에는 작은 산탄 50개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "6941ccef24ad69dcab0d9a61 Name",
         "source": ".50 AE Shotshell ammo pack (20 pcs)",
-        "translation": ".50 AE Shotshell 탄약 팩 (20발)"
+        "translation": ".50 AE 산탄 탄약 팩 (20발)"
       },
       {
         "key": "6941ccef24ad69dcab0d9a61 ShortName",
@@ -65,7 +65,7 @@
       {
         "key": "6941ccef24ad69dcab0d9a61 Description",
         "source": "A pack of 50AE Shotshell ammo, 20 rounds.",
-        "translation": ".50 AE Shotshell 탄약 20발이 들어 있는 탄약 팩입니다."
+        "translation": ".50 AE 산탄 탄약 20발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3e949e1efd66cdeb9 Name",
@@ -80,12 +80,12 @@
       {
         "key": "694176e3e949e1efd66cdeb9 Description",
         "source": "A 5.56x45mm Shotshell is a cartridge containing 40 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "5.56x45mm Shotshell 탄약에는 작은 산탄 40개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "5.56x45mm 산탄 탄약에는 작은 산탄 40개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "6941774849d15f0f5b818afe Name",
         "source": "5.56x45mm Shotshell ammo pack (30 pcs)",
-        "translation": "5.56x45mm Shotshell 탄약 팩 (30발)"
+        "translation": "5.56x45mm 산탄 탄약 팩 (30발)"
       },
       {
         "key": "6941774849d15f0f5b818afe ShortName",
@@ -95,7 +95,7 @@
       {
         "key": "6941774849d15f0f5b818afe Description",
         "source": "A pack of 5.56x45mm Shotshell ammo, 30 rounds.",
-        "translation": "5.56x45mm Shotshell 탄약 30발이 들어 있는 탄약 팩입니다."
+        "translation": "5.56x45mm 산탄 탄약 30발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e33fc735c0022895ce Name",
@@ -110,12 +110,12 @@
       {
         "key": "694176e33fc735c0022895ce Description",
         "source": "A 5.7x28mm Shotshell is a cartridge containing 28 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "5.7x28mm Shotshell 탄약에는 작은 산탄 28개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "5.7x28mm 산탄 탄약에는 작은 산탄 28개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "694177485958084358a7dcae Name",
         "source": "5.7x28mm Shotshell ammo pack (50 pcs)",
-        "translation": "5.7x28mm Shotshell 탄약 팩 (50발)"
+        "translation": "5.7x28mm 산탄 탄약 팩 (50발)"
       },
       {
         "key": "694177485958084358a7dcae ShortName",
@@ -125,7 +125,7 @@
       {
         "key": "694177485958084358a7dcae Description",
         "source": "A pack of 5.7x28mm Shotshell ammo, 50 rounds.",
-        "translation": "5.7x28mm Shotshell 탄약 50발이 들어 있는 탄약 팩입니다."
+        "translation": "5.7x28mm 산탄 탄약 50발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3fa9d5cd029350504 Name",
@@ -140,12 +140,12 @@
       {
         "key": "694176e3fa9d5cd029350504 Description",
         "source": "A 7.62x25mm TT Shotshell is a cartridge containing 40 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "7.62x25mm TT Shotshell 탄약에는 작은 산탄 40개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "7.62x25mm TT 산탄 탄약에는 작은 산탄 40개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "69417748c64fea5a778f93c6 Name",
         "source": "7.62x25mm TT Shotshell ammo pack (50 pcs)",
-        "translation": "7.62x25mm TT Shotshell 탄약 팩 (50발)"
+        "translation": "7.62x25mm TT 산탄 탄약 팩 (50발)"
       },
       {
         "key": "69417748c64fea5a778f93c6 ShortName",
@@ -155,7 +155,7 @@
       {
         "key": "69417748c64fea5a778f93c6 Description",
         "source": "A pack of 7.62x25mm TT Shotshell ammo, 50 rounds.",
-        "translation": "7.62x25mm TT Shotshell 탄약 50발이 들어 있는 탄약 팩입니다."
+        "translation": "7.62x25mm TT 산탄 탄약 50발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3f835cf02aa21e6f5 Name",
@@ -170,12 +170,12 @@
       {
         "key": "694176e3f835cf02aa21e6f5 Description",
         "source": "A 9x39mm Shotshell is a cartridge containing 90 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "9x39mm Shotshell 탄약에는 작은 산탄 90개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "9x39mm 산탄 탄약에는 작은 산탄 90개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "69417749f2d9af57547f0f9a Name",
         "source": "9x39mm Shotshell ammo pack (20 pcs)",
-        "translation": "9x39mm Shotshell 탄약 팩 (20발)"
+        "translation": "9x39mm 산탄 탄약 팩 (20발)"
       },
       {
         "key": "69417749f2d9af57547f0f9a ShortName",
@@ -185,7 +185,7 @@
       {
         "key": "69417749f2d9af57547f0f9a Description",
         "source": "A pack of 9x39mm Shotshell ammo, 20 rounds.",
-        "translation": "9x39mm Shotshell 탄약 20발이 들어 있는 탄약 팩입니다."
+        "translation": "9x39mm 산탄 탄약 20발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3020fd69b3b7a710a Name",
@@ -200,12 +200,12 @@
       {
         "key": "694176e3020fd69b3b7a710a Description",
         "source": "A 7.62x51mm Shotshell is a cartridge containing 65 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "7.62x51mm Shotshell 탄약에는 작은 산탄 65개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "7.62x51mm 산탄 탄약에는 작은 산탄 65개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "69417749b069ccc5e64fb9ef Name",
         "source": "7.62x51mm Shotshell ammo pack (20 pcs)",
-        "translation": "7.62x51mm Shotshell 탄약 팩 (20발)"
+        "translation": "7.62x51mm 산탄 탄약 팩 (20발)"
       },
       {
         "key": "69417749b069ccc5e64fb9ef ShortName",
@@ -215,7 +215,7 @@
       {
         "key": "69417749b069ccc5e64fb9ef Description",
         "source": "A pack of 7.62x51mm Shotshell ammo, 20 rounds.",
-        "translation": "7.62x51mm Shotshell 탄약 20발이 들어 있는 탄약 팩입니다."
+        "translation": "7.62x51mm 산탄 탄약 20발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "6941c68724ad69dcab0d9a2c Name",
@@ -230,12 +230,12 @@
       {
         "key": "6941c68724ad69dcab0d9a2c Description",
         "source": "A .338 Lapua Magnum Shotshell is a cartridge containing 75 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": ".338 Lapua Magnum Shotshell 탄약에는 작은 산탄 75개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": ".338 라푸아 매그넘 산탄 탄약에는 작은 산탄 75개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "6941c68724ad69dcab0d9a2d Name",
         "source": ".338 Lapua Magnum Shotshell ammo pack (20 pcs)",
-        "translation": ".338 Lapua Magnum Shotshell 탄약 팩 (20발)"
+        "translation": ".338 라푸아 매그넘 산탄 탄약 팩 (20발)"
       },
       {
         "key": "6941c68724ad69dcab0d9a2d ShortName",
@@ -245,7 +245,7 @@
       {
         "key": "6941c68724ad69dcab0d9a2d Description",
         "source": "A pack of .338 Lapua Magnum Shotshell ammo, 20 rounds.",
-        "translation": ".338 Lapua Magnum Shotshell 탄약 20발이 들어 있는 탄약 팩입니다."
+        "translation": ".338 라푸아 매그넘 산탄 탄약 20발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3c7e22dfff9f68e7a Name",
@@ -260,12 +260,12 @@
       {
         "key": "694176e3c7e22dfff9f68e7a Description",
         "source": "A 4.6x30mm Shotshell is a cartridge containing 25 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "4.6x30mm Shotshell 탄약에는 작은 산탄 25개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "4.6x30mm 산탄 탄약에는 작은 산탄 25개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "69417748a9e233ee04f21c39 Name",
         "source": "4.6x30mm Shotshell ammo pack (25 pcs)",
-        "translation": "4.6x30mm Shotshell 탄약 팩 (25발)"
+        "translation": "4.6x30mm 산탄 탄약 팩 (25발)"
       },
       {
         "key": "69417748a9e233ee04f21c39 ShortName",
@@ -275,7 +275,7 @@
       {
         "key": "69417748a9e233ee04f21c39 Description",
         "source": "A pack of 4.6x30mm Shotshell ammo, 25 rounds.",
-        "translation": "4.6x30mm Shotshell 탄약 25발이 들어 있는 탄약 팩입니다."
+        "translation": "4.6x30mm 산탄 탄약 25발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "6941bc7224ad69dcab0d9a24 Name",
@@ -290,12 +290,12 @@
       {
         "key": "6941bc7224ad69dcab0d9a24 Description",
         "source": "A 9x18mm PM Shotshell is a cartridge containing 30 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "9x18mm PM Shotshell 탄약에는 작은 산탄 30개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "9x18mm PM 산탄 탄약에는 작은 산탄 30개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "69417749d52334f3f5c37ce1 Name",
         "source": "9x18mm PM Shotshell ammo pack (50 pcs)",
-        "translation": "9x18mm PM Shotshell 탄약 팩 (50발)"
+        "translation": "9x18mm PM 산탄 탄약 팩 (50발)"
       },
       {
         "key": "69417749d52334f3f5c37ce1 ShortName",
@@ -305,7 +305,7 @@
       {
         "key": "69417749d52334f3f5c37ce1 Description",
         "source": "A pack of 9x18mm Shotshell ammo, 50 rounds.",
-        "translation": "9x18mm PM Shotshell 탄약 50발이 들어 있는 탄약 팩입니다."
+        "translation": "9x18mm PM 산탄 탄약 50발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3946245abd99b4e77 Name",
@@ -320,12 +320,12 @@
       {
         "key": "694176e3946245abd99b4e77 Description",
         "source": "A 7.62x54mm R Shotshell is a cartridge containing 70 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "7.62x54mm R Shotshell 탄약에는 작은 산탄 70개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "7.62x54mm R 산탄 탄약에는 작은 산탄 70개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "694177499fd6ccd2741d1a03 Name",
         "source": "7.62x54mm R Shotshell ammo pack (20 pcs)",
-        "translation": "7.62x54mm R Shotshell 탄약 팩 (20발)"
+        "translation": "7.62x54mm R 산탄 탄약 팩 (20발)"
       },
       {
         "key": "694177499fd6ccd2741d1a03 ShortName",
@@ -335,7 +335,7 @@
       {
         "key": "694177499fd6ccd2741d1a03 Description",
         "source": "A pack of 7.62x54mm R Shotshell ammo, 20 rounds.",
-        "translation": "7.62x54mm R Shotshell 탄약 20발이 들어 있는 탄약 팩입니다."
+        "translation": "7.62x54mm R 산탄 탄약 20발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "697394742c60d93f9c058b20 Name",
@@ -350,12 +350,12 @@
       {
         "key": "697394742c60d93f9c058b20 Description",
         "source": "A .357 Magnum Shotshell is a cartridge containing 40 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": ".357 Magnum Shotshell 탄약에는 작은 산탄 40개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": ".357 매그넘 산탄 탄약에는 작은 산탄 40개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "697394fa2c60d93f9c058b22 Name",
         "source": ".357 Magnum Shotshell ammo pack (50 pcs)",
-        "translation": ".357 Magnum Shotshell 탄약 팩 (50발)"
+        "translation": ".357 매그넘 산탄 탄약 팩 (50발)"
       },
       {
         "key": "697394fa2c60d93f9c058b22 ShortName",
@@ -365,7 +365,7 @@
       {
         "key": "697394fa2c60d93f9c058b22 Description",
         "source": "A pack of .357 Magnum Shotshell ammo, 50 rounds.",
-        "translation": ".357 Magnum Shotshell 탄약 50발이 들어 있는 탄약 팩입니다."
+        "translation": ".357 매그넘 산탄 탄약 50발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3465970ee4d306c27 Name",
@@ -380,12 +380,12 @@
       {
         "key": "694176e3465970ee4d306c27 Description",
         "source": "A 9x21mm Shotshell is a cartridge containing 38 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "9x21mm Shotshell 탄약에는 작은 산탄 38개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "9x21mm 산탄 탄약에는 작은 산탄 38개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "69417749945f34730bfcccda Name",
         "source": "9x21mm Shotshell ammo pack (50 pcs)",
-        "translation": "9x21mm Shotshell 탄약 팩 (50발)"
+        "translation": "9x21mm 산탄 탄약 팩 (50발)"
       },
       {
         "key": "69417749945f34730bfcccda ShortName",
@@ -395,7 +395,7 @@
       {
         "key": "69417749945f34730bfcccda Description",
         "source": "A pack of 9x21mm Shotshell ammo, 50 rounds.",
-        "translation": "9x21mm Shotshell 탄약 50발이 들어 있는 탄약 팩입니다."
+        "translation": "9x21mm 산탄 탄약 50발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3d2d62f3c9c78718f Name",
@@ -410,12 +410,12 @@
       {
         "key": "694176e3d2d62f3c9c78718f Description",
         "source": "A 7.62x39mm Shotshell is a cartridge containing 60 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "7.62x39mm Shotshell 탄약에는 작은 산탄 60개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "7.62x39mm 산탄 탄약에는 작은 산탄 60개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "6941774842f1afbe18fd5fa1 Name",
         "source": "7.62x39mm Shotshell ammo pack (20 pcs)",
-        "translation": "7.62x39mm Shotshell 탄약 팩 (20발)"
+        "translation": "7.62x39mm 산탄 탄약 팩 (20발)"
       },
       {
         "key": "6941774842f1afbe18fd5fa1 ShortName",
@@ -425,7 +425,7 @@
       {
         "key": "6941774842f1afbe18fd5fa1 Description",
         "source": "A pack of 7.62x39 Shotshell ammo, 20 rounds.",
-        "translation": "7.62x39mm Shotshell 탄약 20발이 들어 있는 탄약 팩입니다."
+        "translation": "7.62x39mm 산탄 탄약 20발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3719115d32a13b3d7 Name",
@@ -440,12 +440,12 @@
       {
         "key": "694176e3719115d32a13b3d7 Description",
         "source": "A .300 Blackout Shotshell is a cartridge containing 72 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": ".300 블랙아웃 Shotshell 탄약에는 작은 산탄 72개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": ".300 블랙아웃 산탄 탄약에는 작은 산탄 72개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "69417748ce3a11fb300feecf Name",
         "source": ".300 Blackout Shotshell ammo pack (20 pcs)",
-        "translation": ".300 블랙아웃 Shotshell 탄약 팩 (20발)"
+        "translation": ".300 블랙아웃 산탄 탄약 팩 (20발)"
       },
       {
         "key": "69417748ce3a11fb300feecf ShortName",
@@ -455,7 +455,7 @@
       {
         "key": "69417748ce3a11fb300feecf Description",
         "source": "A pack of .300 Blackout Shotshell ammo, 20 rounds.",
-        "translation": ".300 블랙아웃 Shotshell 탄약 20발이 들어 있는 탄약 팩입니다."
+        "translation": ".300 블랙아웃 산탄 탄약 20발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3546e6a2f4eba1f8f Name",
@@ -470,12 +470,12 @@
       {
         "key": "694176e3546e6a2f4eba1f8f Description",
         "source": "A 12.7x55mm Shotshell is a cartridge containing 90 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "12.7x55mm Shotshell 탄약에는 작은 산탄 90개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "12.7x55mm 산탄 탄약에는 작은 산탄 90개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "6941774883b8881300c83b7f Name",
         "source": "12.7x55mm Shotshell ammo pack (20 pcs)",
-        "translation": "12.7x55mm Shotshell 탄약 팩 (20발)"
+        "translation": "12.7x55mm 산탄 탄약 팩 (20발)"
       },
       {
         "key": "6941774883b8881300c83b7f ShortName",
@@ -485,7 +485,7 @@
       {
         "key": "6941774883b8881300c83b7f Description",
         "source": "A pack of 12.7x55 Shotshell ammo, 20 rounds.",
-        "translation": "12.7x55mm Shotshell 탄약 20발이 들어 있는 탄약 팩입니다."
+        "translation": "12.7x55mm 산탄 탄약 20발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "6973db6cb191fe9f5105d862 Name",
@@ -500,12 +500,12 @@
       {
         "key": "6973db6cb191fe9f5105d862 Description",
         "source": "A 5.45x39mm Shotshell is a cartridge containing 45 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "5.45x39mm Shotshell 탄약에는 작은 산탄 45개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "5.45x39mm 산탄 탄약에는 작은 산탄 45개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "6973db6cb191fe9f5105d863 Name",
         "source": "5.45x39mm Shotshell ammo pack (30 pcs)",
-        "translation": "5.45x39mm Shotshell 탄약 팩 (30발)"
+        "translation": "5.45x39mm 산탄 탄약 팩 (30발)"
       },
       {
         "key": "6973db6cb191fe9f5105d863 ShortName",
@@ -515,7 +515,7 @@
       {
         "key": "6973db6cb191fe9f5105d863 Description",
         "source": "A pack of 5.45x39mm Shotshell ammo, 30 rounds.",
-        "translation": "5.45x39mm Shotshell 탄약 30발이 들어 있는 탄약 팩입니다."
+        "translation": "5.45x39mm 산탄 탄약 30발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3a0ec2ff488acb243 Name",
@@ -530,12 +530,12 @@
       {
         "key": "694176e3a0ec2ff488acb243 Description",
         "source": "A 9x19mm Shotshell is a cartridge containing 35 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": "9x19mm Shotshell 탄약에는 작은 산탄 35개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": "9x19mm 산탄 탄약에는 작은 산탄 35개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "6941774966e9be168bd0f9c8 Name",
         "source": "9x19mm Shotshell ammo pack (50 pcs)",
-        "translation": "9x19mm Shotshell 탄약 팩 (50발)"
+        "translation": "9x19mm 산탄 탄약 팩 (50발)"
       },
       {
         "key": "6941774966e9be168bd0f9c8 ShortName",
@@ -545,7 +545,7 @@
       {
         "key": "6941774966e9be168bd0f9c8 Description",
         "source": "A pack of 9x19mm Shotshell ammo, 50 rounds.",
-        "translation": "9x19mm Shotshell 탄약 50발이 들어 있는 탄약 팩입니다."
+        "translation": "9x19mm 산탄 탄약 50발이 들어 있는 탄약 팩입니다."
       },
       {
         "key": "694176e3eae24242993d3d22 Name",
@@ -560,7 +560,7 @@
       {
         "key": "694176e3eae24242993d3d22 Description",
         "source": "A .366 TKM Drobovoy is a cartridge containing 80 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": ".366 TKM Drobovoy 탄약에는 작은 산탄 80개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": ".366 TKM Drobovoy 탄약에는 작은 산탄 80개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "69417748761445a7b5f030ed Name",
@@ -590,12 +590,12 @@
       {
         "key": "694176e3064b5582cd92924a Description",
         "source": "A .45 ACP Shotshell is a cartridge containing 45 small pellets designed for elimination of rodents where a full shotgun shell would be considered overkill. In a pinch, it can be used offensively as a deterrent for burglars or enemy combatants wondering why they were just stung by many angry lead hornets. Manufactured by ZharArms.",
-        "translation": ".45 ACP Shotshell 탄약에는 작은 산탄 45개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈(ZharArms)에서 제조했습니다."
+        "translation": ".45 ACP 산탄 탄약에는 작은 산탄 45개가 들어 있으며, 일반 산탄총 탄약을 쓰기에는 과하다고 여겨지는 상황에서 설치류를 제거하도록 설계되었습니다. 급할 때는 침입자나 적 전투원에게 공격용 억제 수단으로 사용할 수도 있으며, 맞은 상대는 성난 납 말벌 떼에 쏘인 듯한 기분을 맛보게 됩니다. 자르암즈에서 제조했습니다."
       },
       {
         "key": "694177480b095f519812d49d Name",
         "source": ".45 ACP Shotshell ammo pack (50 pcs)",
-        "translation": ".45 ACP Shotshell 탄약 팩 (50발)"
+        "translation": ".45 ACP 산탄 탄약 팩 (50발)"
       },
       {
         "key": "694177480b095f519812d49d ShortName",
@@ -605,7 +605,7 @@
       {
         "key": "694177480b095f519812d49d Description",
         "source": "A pack of .45 ACP Shotshell ammo, 50 rounds.",
-        "translation": ".45 ACP Shotshell 탄약 50발이 들어 있는 탄약 팩입니다."
+        "translation": ".45 ACP 산탄 탄약 50발이 들어 있는 탄약 팩입니다."
       }
     ]
   }

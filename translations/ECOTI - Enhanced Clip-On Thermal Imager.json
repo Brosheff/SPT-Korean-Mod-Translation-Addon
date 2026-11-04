@@ -9,157 +9,183 @@
         "key": "6a7f15387b68c336e18e8977 Description",
         "source": "Enhanced clip-on thermal imager by Safran Defense & Space (Optics 1). Uncooled LWIR microbolometer, 640x480 at 17 um pixel pitch, 8-12 um sensitivity, 1x optical unity magnification, 30 degree circular field of view at f/1.15. Clips to the objective of a PVS-14 style night vision device and injects an outline-mode thermal overlay into the tube. Runs 3.5 hours on a single CR123A.",
         "translation": "Safran Defense & Space(Optics 1)의 개량형 클립온 열상 장비입니다. 비냉각식 LWIR 마이크로볼로미터를 사용하며, 해상도는 640x480, 픽셀 피치는 17μm, 감응 파장은 8~12μm입니다. 광학 배율은 1배, f/1.15에서 원형 시야각은 30도입니다. PVS-14 계열 야간투시경의 대물렌즈 앞에 부착해 윤곽선 방식의 열상 오버레이를 영상관에 투사합니다. CR123A 배터리 하나로 약 3.5시간 작동합니다.",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6a7f15387b68c336e18e8977 Name",
         "source": "AN/PAS-29B ECOTI enhanced clip-on thermal imager",
         "translation": "AN/PAS-29B ECOTI 개량형 클립온 열상 장비",
-        "match_mode": "exact"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad3016bab020957abb6ca3b Name",
         "source": "LennoxP90 TR-1 thermal sight riser",
         "translation": "LennoxP90 TR-1 열상 조준경 높이 조절 마운트",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad3016bab020957abb6ca3b ShortName",
         "source": "TR-1",
         "translation": "TR-1",
-        "match_mode": "exact"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad3016bab020957abb6ca3b Description",
         "source": "Picatinny sight riser with an uncooled thermal core in its housing. Pogo contacts in its top rail feed the thermal image into the red dot or sight mounted on it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
         "translation": "피카티니 조준경 높이 조절 마운트로, 하우징 내부에 비냉각식 열상 코어가 들어 있습니다. 상단 레일의 포고핀 접점이 장착된 레드닷 또는 조준경에 열상 영상을 전달합니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad408a96bf1f761d970a4ff Name",
         "source": "LennoxP90 TR-1 thermal sight riser (Tan)",
         "translation": "LennoxP90 TR-1 열상 조준경 높이 조절 마운트 (황갈색)",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad408a96bf1f761d970a4ff ShortName",
         "source": "TR-1",
         "translation": "TR-1",
-        "match_mode": "exact"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad408a96bf1f761d970a4ff Description",
         "source": "Picatinny sight riser with an uncooled thermal core in its housing. Pogo contacts in its top rail feed the thermal image into the red dot or sight mounted on it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
         "translation": "피카티니 조준경 높이 조절 마운트로, 하우징 내부에 비냉각식 열상 코어가 들어 있습니다. 상단 레일의 포고핀 접점이 장착된 레드닷 또는 조준경에 열상 영상을 전달합니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad5739462c39577194eedc5 Name",
         "source": "LennoxP90 TSR-1 thermal scope ring 30mm",
         "translation": "LennoxP90 TSR-1 30mm 열상 조준경 링 마운트",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad5739462c39577194eedc5 ShortName",
         "source": "TSR-1",
         "translation": "TSR-1",
-        "match_mode": "exact"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad5739462c39577194eedc5 Description",
         "source": "One-piece 30mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
         "translation": "30mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad573a014ebd436fbd1dfda Name",
         "source": "LennoxP90 TSR-1 thermal scope ring 30mm (Tan)",
         "translation": "LennoxP90 TSR-1 30mm 열상 조준경 링 마운트 (황갈색)",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad573a014ebd436fbd1dfda ShortName",
         "source": "TSR-1",
         "translation": "TSR-1",
-        "match_mode": "exact"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad573a014ebd436fbd1dfda Description",
         "source": "One-piece 30mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
         "translation": "30mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad5775e327076f93b3b36bf Name",
         "source": "LennoxP90 TSR-2 thermal scope ring 34mm",
         "translation": "LennoxP90 TSR-2 34mm 열상 조준경 링 마운트",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad5775e327076f93b3b36bf ShortName",
         "source": "TSR-2",
         "translation": "TSR-2",
-        "match_mode": "exact"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad5775e327076f93b3b36bf Description",
         "source": "One-piece 34mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
         "translation": "34mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad57762f51afaf4379f19a2 Name",
         "source": "LennoxP90 TSR-2 thermal scope ring 34mm (Tan)",
         "translation": "LennoxP90 TSR-2 34mm 열상 조준경 링 마운트 (황갈색)",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad57762f51afaf4379f19a2 ShortName",
         "source": "TSR-2",
         "translation": "TSR-2",
-        "match_mode": "exact"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad57762f51afaf4379f19a2 Description",
         "source": "One-piece 34mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
         "translation": "34mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad577679385f594db176ad6 Name",
         "source": "LennoxP90 TSR-3 thermal scope ring 35mm",
         "translation": "LennoxP90 TSR-3 35mm 열상 조준경 링 마운트",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad577679385f594db176ad6 ShortName",
         "source": "TSR-3",
         "translation": "TSR-3",
-        "match_mode": "exact"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad577679385f594db176ad6 Description",
         "source": "One-piece 35mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
         "translation": "35mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad5776a93ea4db35ed55dcf Name",
         "source": "LennoxP90 TSR-3 thermal scope ring 35mm (Tan)",
         "translation": "LennoxP90 TSR-3 35mm 열상 조준경 링 마운트 (황갈색)",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad5776a93ea4db35ed55dcf ShortName",
         "source": "TSR-3",
         "translation": "TSR-3",
-        "match_mode": "exact"
+        "match_mode": "exact",
+        "seed_missing": true
       },
       {
         "key": "6ad5776a93ea4db35ed55dcf Description",
         "source": "One-piece 35mm scope ring mount with an uncooled thermal core in a housing on its side. Contacts in the rings feed the thermal image into the scope they hold, magnified with it. Runs on one 18650 cell. Made by LennoxP90 Industries.",
         "translation": "35mm 조준경용 일체형 링 마운트로, 측면 하우징에 비냉각식 열상 코어가 들어 있습니다. 링의 접점이 장착된 조준경으로 열상 영상을 전달하며 영상도 함께 확대됩니다. 18650 배터리 하나로 작동합니다. LennoxP90 Industries에서 제작했습니다.",
-        "match_mode": "item_decorated"
+        "match_mode": "exact",
+        "seed_missing": true
       }
     ],
     "small_ui": [

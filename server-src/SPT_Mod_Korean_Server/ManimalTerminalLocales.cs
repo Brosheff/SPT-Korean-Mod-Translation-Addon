@@ -26,7 +26,7 @@ public sealed class ManimalTerminalLocales(
         "6a8f4d5e90206485fa1d2f50"
     };
 
-    private sealed record Rule(string Source, string Translation, string DisplayType);
+    private sealed record Rule(string Source, string Translation, string DisplayType, bool SeedMissing);
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
@@ -57,9 +57,18 @@ public sealed class ManimalTerminalLocales(
                     var applied = 0;
                     foreach (var row in rules)
                     {
-                        if (!localeData.TryGetValue(row.Key, out var current) ||
-                            !string.Equals(current, row.Value.Source, StringComparison.Ordinal))
-                            continue; // preserve other translators and changed originals
+                        if (localeData.TryGetValue(row.Key, out var current))
+                        {
+                            if (!string.Equals(current, row.Value.Source, StringComparison.Ordinal))
+                                continue; // preserve other translators and changed originals
+                        }
+                        else if (!row.Value.SeedMissing ||
+                                 !row.Value.DisplayType.StartsWith("achievement_", StringComparison.Ordinal))
+                        {
+                            // Only source-audited achievement IDs explicitly marked seed_missing
+                            // may be added. Other English-only quests retain their old behavior.
+                            continue;
+                        }
                         localeData[row.Key] = Format(row.Key, row.Value, culture, rules);
                         applied++;
                     }
@@ -113,7 +122,9 @@ public sealed class ManimalTerminalLocales(
             if (string.IsNullOrWhiteSpace(key) || string.IsNullOrWhiteSpace(source) ||
                 string.IsNullOrWhiteSpace(translation)) continue;
             var display = r.TryGetProperty("display_type", out var type) ? type.GetString() ?? "" : "";
-            if (!result.TryAdd(key, new Rule(source, translation, display)))
+            var seedMissing = r.TryGetProperty("seed_missing", out var seed) &&
+                              seed.ValueKind == JsonValueKind.True;
+            if (!result.TryAdd(key, new Rule(source, translation, display, seedMissing)))
                 throw new InvalidDataException("Duplicate Manimal locale key: " + key);
         }
         return result;

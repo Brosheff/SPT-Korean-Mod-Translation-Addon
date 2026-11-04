@@ -37,6 +37,10 @@ def check_rows(profiles):
             if not all(isinstance(s, str) for s in (key, source, trans)):
                 continue
             seen[(key.casefold(), source)].append((name, key, trans))
+            for alternative in row.get('source_alternatives', []) or []:
+                if isinstance(alternative, dict) and isinstance(alternative.get('source'), str) and isinstance(alternative.get('translation'), str):
+                    seen[(key.casefold(), alternative['source'])].append(
+                        (name, key, alternative['translation']))
             # Only report if each side has a single unambiguous expressed capacity.
             # For complex descriptions (multiple capacities), a human must check context.
             original = set(int(x) for x in ROUND_IN_ENGLISH.findall(source))

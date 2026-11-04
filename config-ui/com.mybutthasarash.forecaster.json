@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.mybutthasarash.forecaster",
+  "plugin_name": "SPT Forecaster",
+  "mod_version": "1.0.0",
+  "categories": [
+    {
+      "source": "Forecast",
+      "translation": "일기예보"
+    },
+    {
+      "source": "Radar",
+      "translation": "기상 레이더"
+    },
+    {
+      "source": "Storms",
+      "translation": "폭풍"
+    },
+    {
+      "source": "Debug",
+      "translation": "디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Forecast",
+      "key": "Show forecast",
+      "source_display_name": "Show forecast",
+      "source_description": "Show the selected time slot's weather forecast above the time bar on the location screen.",
+      "translation_display_name": "일기예보 표시",
+      "translation_description": "위치 선택 화면에서 선택한 시간대의 일기예보를 시간 표시줄 위에 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Forecast",
+      "key": "Raid weather follows the forecast",
+      "source_display_name": "Raid weather follows the forecast",
+      "source_description": "Give the raid the weather the forecast showed. Off leaves raid weather to SPT, and the forecast may then be wrong.",
+      "translation_display_name": "레이드 날씨에 예보 적용",
+      "translation_description": "레이드 날씨를 일기예보에 표시된 상태로 설정합니다. 끄면 SPT가 날씨를 결정하므로 예보와 실제 날씨가 다를 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Forecast",
+      "key": "Lock weather when the slot is confirmed",
+      "source_display_name": "Lock weather when the slot is confirmed",
+      "source_description": "The raid's weather starts from the moment you press Next or Ready, so loading time cannot move it into a different block.",
+      "translation_display_name": "시간대 확정 시 날씨 고정",
+      "translation_description": "다음 또는 준비 버튼을 누른 시점의 레이드 날씨를 기준으로 고정해 로딩 중 다른 시간대의 날씨로 넘어가지 않게 합니다.",
+      "values": []
+    },
+    {
+      "section": "Forecast",
+      "key": "Fog thickness",
+      "source_display_name": "Fog thickness",
+      "source_description": "How thick mist, fog, dense fog and thick fog are in raid (1 is the mod's default, 2 twice as thick above clear air). Takes effect from the next raid; the forecast's words don't change. Thicker fog also hides you from bots.",
+      "translation_display_name": "안개 농도",
+      "translation_description": "레이드에서 옅은 안개부터 짙은 안개까지의 농도를 조절합니다. 1은 모드 기본값이고 2는 맑은 공기보다 안개가 두 배 짙다는 뜻입니다. 다음 레이드부터 적용되며 예보 문구는 변하지 않습니다. 짙은 안개는 봇에게 발견될 가능성도 줄입니다.",
+      "values": []
+    },
+    {
+      "section": "Radar",
+      "key": "Show weather radar",
+      "source_display_name": "Show weather radar",
+      "source_description": "Draw the weather radar over the map on the location screen, for the selected time slot.",
+      "translation_display_name": "기상 레이더 표시",
+      "translation_description": "위치 선택 화면의 지도 위에 선택한 시간대의 기상 레이더를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Radar",
+      "key": "Radar opacity",
+      "source_display_name": "Radar opacity",
+      "source_description": "How strongly the radar is drawn. 1 is the default light wash; lower lets more of the map show through.",
+      "translation_display_name": "레이더 불투명도",
+      "translation_description": "레이더 표시의 강도를 조절합니다. 1은 기본값이며 낮추면 지도가 더 잘 보입니다.",
+      "values": []
+    },
+    {
+      "section": "Radar",
+      "key": "Show radar key",
+      "source_display_name": "Show radar key",
+      "source_description": "Show which radar colour means which weather, in the forecast box under the playback slider.",
+      "translation_display_name": "레이더 범례 표시",
+      "translation_description": "예보 영역의 재생 슬라이더 아래에 레이더 색상별 날씨를 설명하는 범례를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Storms",
+      "key": "Lightning and thunder",
+      "source_display_name": "Lightning and thunder",
+      "source_description": "Lightning flashes and thunder while a thunderstorm is over or near the map. The flash lights the sky and the outdoors (and shows through windows, not in closed rooms); the game's own indoor sound muffles the thunder.",
+      "translation_display_name": "번개와 천둥",
+      "translation_description": "지도 위나 근처에 뇌우가 있을 때 번개와 천둥이 발생합니다. 번개는 하늘과 실외를 비추고 창문 너머로 보이지만 밀폐된 실내는 비추지 않습니다. 천둥 소리는 게임의 실내 감쇠 효과를 따릅니다.",
+      "values": []
+    },
+    {
+      "section": "Storms",
+      "key": "Lightning brightness",
+      "source_display_name": "Lightning brightness",
+      "source_description": "How bright lightning flashes are. It always shows more at night than by day.",
+      "translation_display_name": "번개 밝기",
+      "translation_description": "번개 섬광의 밝기입니다. 낮보다 밤에 더 밝게 보이도록 처리됩니다.",
+      "values": []
+    },
+    {
+      "section": "Storms",
+      "key": "Thunder volume",
+      "source_display_name": "Thunder volume",
+      "source_description": "How loud thunder is, on top of the game's own volume settings.",
+      "translation_display_name": "천둥 음량",
+      "translation_description": "게임 자체 음량 설정에 더해 천둥 소리의 크기를 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Radar",
+      "key": "Play the raid on the radar",
+      "source_display_name": "Play the raid on the radar",
+      "source_description": "When you pick a map and time, the radar plays that raid's weather through twice (as long as the map's raid time), then rests on the raid's start.",
+      "translation_display_name": "레이더에서 레이드 날씨 재생",
+      "translation_description": "지도와 시간을 고르면 레이더에서 해당 레이드 진행 시간만큼의 날씨를 두 번 재생한 뒤 레이드 시작 시점으로 돌아갑니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Log weather details",
+      "source_display_name": "Log weather details",
+      "source_description": "Write the forecast and the raid's applied weather to the BepInEx log, for checking that they match.",
+      "translation_display_name": "상세 날씨 로그",
+      "translation_description": "예보와 레이드에 실제 적용된 날씨를 BepInEx 로그에 기록해 두 값이 일치하는지 확인합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Force weather pattern",
+      "source_display_name": "Force weather pattern",
+      "source_description": "Make the whole region use one weather pattern, to see how it looks. The radar, the forecast and raid weather all follow it. Off uses the server's seeded patterns.",
+      "translation_display_name": "날씨 패턴 강제 지정",
+      "translation_description": "지역 전체를 하나의 날씨 패턴으로 설정해 외형을 확인합니다. 레이더·예보·레이드가 모두 이를 따릅니다. Off는 서버에서 정해진 날씨 패턴을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Preview hours ahead",
+      "source_display_name": "Preview hours ahead",
+      "source_description": "Show the location screen's radar and forecast this many in-game hours ahead, to watch weather develop. Raids keep the real time.",
+      "translation_display_name": "미리 볼 시간(시간)",
+      "translation_description": "위치 화면의 레이더와 예보를 지정된 게임 내 시간만큼 앞당겨 표시해 날씨 변화를 살펴봅니다. 실제 레이드 시작 시간은 변경되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Force thunderstorm",
+      "source_display_name": "Force thunderstorm",
+      "source_description": "In raid, lightning and thunder as if a storm were overhead or this far off, whatever the forecast says (the rain and sky stay the forecast's). Works with Lightning and thunder off.",
+      "translation_display_name": "뇌우 강제 지정",
+      "translation_description": "예보와 상관없이 레이드에서 폭풍이 머리 위에 있거나 지정 거리에서 발생한 것처럼 번개와 천둥을 재생합니다. 비와 하늘은 예보대로 유지됩니다. 번개와 천둥 설정이 꺼져 있어도 작동합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Debug strike distance (m)",
+      "source_display_name": "Debug strike distance (m)",
+      "source_description": "How far away the strikes below land: sets the flash's brightness, the thunder's delay (about 3 s per km), loudness and dullness, and near or far recordings (under 1.5 km is near).",
+      "translation_display_name": "시험용 낙뢰 거리(m)",
+      "translation_description": "아래 시험 기능에서 낙뢰가 발생할 거리입니다. 섬광 밝기, 천둥 지연(약 1km당 3초), 음량·먹먹함, 근거리·원거리 음원을 결정합니다(1.5km 미만은 근거리).",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Strike lightning now",
+      "source_display_name": "Strike lightning now",
+      "source_description": "Tick in raid: one strike at the debug distance, flash and thunder.",
+      "translation_display_name": "지금 낙뢰 발생",
+      "translation_description": "레이드에서 선택하면 시험 거리에 낙뢰 1회를 발생시켜 섬광과 천둥을 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Flash only now",
+      "source_display_name": "Flash only now",
+      "source_description": "Tick in raid: one lightning flash at the debug distance, no thunder.",
+      "translation_display_name": "섬광만 발생",
+      "translation_description": "레이드에서 선택하면 시험 거리에 번개 섬광 1회를 발생시키고 천둥은 재생하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Thunder only now",
+      "source_display_name": "Thunder only now",
+      "source_description": "Tick in raid: thunder from the debug distance, played at once, no flash.",
+      "translation_display_name": "천둥만 재생",
+      "translation_description": "레이드에서 선택하면 섬광 없이 시험 거리에서 천둥을 즉시 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Strike lightning key",
+      "source_display_name": "Strike lightning key",
+      "source_description": "Key that strikes lightning at the debug distance in raid, flash and thunder.",
+      "translation_display_name": "낙뢰 단축키",
+      "translation_description": "레이드에서 시험 거리에 번개와 천둥을 발생시키는 단축키입니다.",
+      "values": []
+    }
+  ],
+  "_note": "SPT 4.1.6 display-only F12 Korean translation from the supplied source. Saved section/key/enum values are unchanged. Independent UI/CustomDrawer requires separate audit."
+}

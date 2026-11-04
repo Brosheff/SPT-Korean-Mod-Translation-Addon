@@ -53,6 +53,39 @@ for path in sorted(root.glob('*.json')):
                 any(not isinstance(v, str) or not v.strip() or v == r.get('source') for v in variants) or
                 len(variants) != len(set(variants))):
                 errors.append(f'{path.name}: locale[{i}] invalid source_variants')
+        # A different configuration at the SAME runtime item ID can have an
+        # independent translation. It is not a same-meaning source_variants alias.
+        # Missing type/name/source, unsafe duplicate text, or preformatted
+        # brackets must fail in the mandatory build-owned validator.
+        if 'source_alternatives' in r:
+            alternatives = r['source_alternatives']
+            kind = r.get('display_type') or ('item_name' if key.endswith(' Name') else
+                                              'item_description' if key.endswith(' Description') else None)
+            if kind not in ('item_name', 'item_description') or r.get('display_type') != kind:
+                errors.append(f'{path.name}: locale[{i}] source_alternatives require an explicit audited item display_type')
+            if not isinstance(alternatives, list) or not 1 <= len(alternatives) <= 8:
+                errors.append(f'{path.name}: locale[{i}] source_alternatives must have 1-8 items')
+            else:
+                allowed_sources = {r.get('source'), *(r.get('source_variants') or [])}
+                for j, variant in enumerate(alternatives):
+                    if not isinstance(variant, dict) or set(variant) != {'source', 'translation'}:
+                        errors.append(f'{path.name}: locale[{i}] alternative[{j}] needs exactly source/translation')
+                        continue
+                    source = variant['source']
+                    ko = variant['translation']
+                    if not isinstance(source, str) or not source.strip() or source in allowed_sources:
+                        errors.append(f'{path.name}: locale[{i}] alternative[{j}] empty/duplicate source')
+                    else:
+                        allowed_sources.add(source)
+                    if not isinstance(ko, str) or not ko.strip():
+                        errors.append(f'{path.name}: locale[{i}] alternative[{j}] empty translation')
+                    elif kind == 'item_name' and re.search(r'\n\([^\n]*[A-Za-z][^\n]*\)\s*$', ko):
+                        errors.append(f'{path.name}: locale[{i}] alternative[{j}] manually embeds the English name')
+                    elif kind == 'item_description' and (
+                        ko.startswith('[' + str(source) + ']') or
+                        (isinstance(d.get('mod_name'), str) and
+                         ko.rstrip().endswith('\n(' + d['mod_name'] + ')'))):
+                        errors.append(f'{path.name}: locale[{i}] alternative[{j}] manually embeds the automatic header/credit')
     source_fallbacks = channels.get('locale_source_fallback') or []
     seen_fallback_sources = set()
     for i, r in enumerate(source_fallbacks):
@@ -126,10 +159,21 @@ for path in sorted(root.glob('*.json')):
         if ch == 'server_messages':
             seen_server_sources = set()
             for i, r in enumerate(rows or []):
-                if r.get('match_mode') not in ('exact', 'segment'):
-                    errors.append(f'{path.name}: server_messages[{i}] must use exact or segment match_mode')
+                if r.get('match_mode') not in ('exact', 'segment', 'template'):
+                    errors.append(f'{path.name}: server_messages[{i}] must use exact, segment or template match_mode')
                 if not r.get('id') or not r.get('source') or not r.get('translation'):
                     errors.append(f'{path.name}: server_messages[{i}] requires id/source/translation')
+                if r.get('match_mode') == 'template':
+                    # The server's ServerTextRules demands exact placeholder parity.
+                    # Enforce this at build time as well as when loading the live DLL.
+                    placeholders = lambda text: set(re.findall(r'\{([A-Za-z_][A-Za-z0-9_]*|[0-9]+)\}', text or ''))
+                    source_names = placeholders(r.get('source'))
+                    translation_names = placeholders(r.get('translation'))
+                    if not source_names or source_names != translation_names:
+                        errors.append(f'{path.name}: server_messages[{i}] template source/translation placeholders differ')
+                    bilingual = r.get('translation_bilingual')
+                    if bilingual and source_names != placeholders(bilingual):
+                        errors.append(f'{path.name}: server_messages[{i}] template bilingual placeholders differ')
                 if r.get('source') in seen_server_sources:
                     errors.append(f'{path.name}: server_messages[{i}] duplicate source')
                 seen_server_sources.add(r.get('source'))

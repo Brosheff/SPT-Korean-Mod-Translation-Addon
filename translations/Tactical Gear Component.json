@@ -102,7 +102,7 @@
       {
         "key": "672e2e7500543603d91e0101 Name",
         "source": "Nomad Reflex Sight",
-        "translation": "노마드 반사 조준기"
+        "translation": "노마드 반사식 조준기"
       },
       {
         "key": "672e2e7500543603d91e0101 ShortName",
@@ -112,12 +112,12 @@
       {
         "key": "672e2e7500543603d91e0101 Description",
         "source": "The Nomad Reflex Sight is a compact reflex sight for close range engagements. It features a 1x magnification and a 20mm objective lens. The sight is equipped with a 3 MOA red dot and has a 1 MOA click adjustment.",
-        "translation": "노마드(Nomad) 반사 조준기는 근거리 교전을 위한 콤팩트한 반사식 조준기입니다. 1배율 확대율과 20mm 대물렌즈를 갖추고 있으며, 3 MOA 레드닷과 1 MOA 클릭 조정 기능이 있습니다."
+        "translation": "노마드 반사식 조준기는 근거리 교전용 소형 반사식 조준기입니다. 1배율과 직경 20mm의 대물렌즈를 갖췄으며, 3 MOA 레드 도트와 클릭당 1 MOA의 조절 기능을 제공합니다."
       },
       {
         "key": "672e2e75033ea9ca8bef91bc Name",
         "source": "FAST Optic Riser",
-        "translation": "FAST 옵틱 라이저"
+        "translation": "FAST 조준기 라이저"
       },
       {
         "key": "672e2e75033ea9ca8bef91bc Description",
@@ -137,7 +137,7 @@
       {
         "key": "672e2e7503876d1630af50b0 Description",
         "source": "A very solid angled grip in pure steel. Crafted by Painter.",
-        "translation": "순수 강철로 제작된 매우 견고한 앵글 손잡이입니다. 페인터(Painter)가 제작했습니다."
+        "translation": "순수 강철로 제작된 매우 견고한 앵글 손잡이입니다. 페인터가 제작했습니다."
       },
       {
         "key": "672e2e7504b1f1d5b0e4209c Name",
@@ -152,12 +152,12 @@
       {
         "key": "672e2e7505c0ffbaf790db95 Name",
         "source": "SureFire flashlight with pressure pad",
-        "translation": "슈어파이어 압력패드 손전등"
+        "translation": "슈어파이어 압력패드 전술 조명"
       },
       {
         "key": "672e2e7505c0ffbaf790db95 Description",
         "source": "WMLx White - Gen 2 sets the standard for balancing output, reliability, and value in a compact white-light capability for your rifle or carbine. Extensively proven amidst prolonged rapid firing, rough handling, and harsh conditions, it is a match for adversity in any clime or place.",
-        "translation": "이 손전등은 라이플이나 카빈에 장착되는 콤팩트 화이트 라이트로, 출력, 신뢰성, 그리고 효율성을 균형 있게 갖추었습니다. 장시간의 연속 사격과 거친 환경에서도 안정적으로 작동하며, 신속한 조작이 가능한 압력패드 스위치를 탑재했습니다."
+        "translation": "WMLx White 2세대는 소총이나 카빈에 장착하는 소형 백색광 전술 조명으로, 출력과 신뢰성, 가격 대비 가치 사이의 균형을 갖췄습니다. 장시간의 빠른 연속 사격과 거친 취급, 혹독한 환경에서도 성능이 입증되었으며, 다양한 기후와 장소의 악조건에 대응할 수 있습니다."
       },
       {
         "key": "672e2e75071e71f8e4a59286 Name",
@@ -172,7 +172,7 @@
       {
         "key": "672e2e75071e71f8e4a59286 Description",
         "source": "Compact laser and flashlight device for mounting on picatinny rails.",
-        "translation": "피카티니 레일에 장착하는 소형 레이저·손전등 통합 장비입니다."
+        "translation": "피카티니 레일 장착용 소형 레이저·전술 조명 일체형 장비입니다."
       },
       {
         "key": "672e2e750c562a5e650dc9b3 Name",
@@ -182,12 +182,12 @@
       {
         "key": "672e2e750c562a5e650dc9b3 Description",
         "source": "Designed for shooters who want the lightest, strongest, and most compact quick-detach red dot sight mount possible. The LEAP/01 redefines the standard for mounting your Aimpoint Micro T-2 footprint compatible optic to your AR-15 Picatinny top rail.",
-        "translation": "스칼라웍스(Scalarworks)에서 제조한 가장 가볍고 강력하며 콤팩트한 퀵디태치 방식의 레드닷 마운트를 원하는 사수들을 위해 설계되었습니다. LEAP/01은 Aimpoint Micro T-2 규격의 옵틱을 AR-15 피카티니 상부 레일에 장착하기 위한 새로운 표준을 제시합니다."
+        "translation": "가능한 한 가볍고 견고하며 작은 신속 탈착식 도트 조준경 마운트를 원하는 사수를 위해 설계되었습니다. LEAP/01은 에임포인트 마이크로 T-2 장착 규격과 호환되는 광학 조준경을 AR-15의 피카티니 상부 레일에 장착하는 새로운 기준을 제시합니다."
       },
       {
         "key": "672e2e750cd8dfd1fee34a08 Name",
         "source": "AR-15 ZipLine stock",
-        "translation": "AR-15 ZipLine 개머리판"
+        "translation": "AR-15 집라인 개머리판"
       },
       {
         "key": "672e2e750cd8dfd1fee34a08 Description",
@@ -232,7 +232,7 @@
       {
         "key": "672e2e75195420ccca420a2f Description",
         "source": "The 6mm Advanced Rifle Cartridge (6x38mm), or 6mm ARC for short, is a 6 mm (.243) caliber intermediate rifle cartridge introduced by Hornady in 2020, as a low-recoil, high-accuracy long-range cartridge, designed for use in the AR-15 platform at request of a specialized group within the U.S. DoD for its multipurpose combat rifle program.",
-        "translation": "6mm ARC(Advanced Rifle Cartridge)는 혼디(Hornady)사가 2020년에 개발한 6mm (.243 구경) 중간 탄환으로, AR-15 플랫폼용으로 미 국방부 특수부대의 다목적 전투소총 프로그램 요구에 따라 제작되었습니다. 낮은 반동과 높은 명중률, 장거리 사격 성능을 특징으로 합니다."
+        "translation": "6mm ARC(Advanced Rifle Cartridge, 6x38mm)는 호너디가 2020년에 선보인 6mm(.243구경) 중간위력 소총탄입니다. 미 국방부 내 전문 조직이 다목적 전투소총 사업을 위해 요청한 것으로, AR-15 플랫폼에서 사용하도록 낮은 반동과 높은 명중률을 갖춘 장거리용 탄약으로 설계되었습니다."
       },
       {
         "key": "672e2e751a561533f23a2635 Name",
@@ -247,7 +247,7 @@
       {
         "key": "672e2e751a561533f23a2635 Description",
         "source": "Daniel Defense MFR 15.0 M-LOK rail, which comes from the DDM4V7 PRO edition. Length of 15\", it has everything you need on the battlefield.",
-        "translation": "다니엘 디펜스(Daniel Defense)의 MFR 15.0 엠락 레일로, DDM4V7 PRO 에디션에 적용된 제품입니다. 길이 15\"로 전장에서 필요한 모든 기능을 제공합니다."
+        "translation": "다니엘 디펜스의 MFR 15.0 엠락 레일로, DDM4V7 PRO 에디션에 사용된 제품입니다. 길이는 15인치이며, 전장에서 필요한 기능을 갖췄습니다."
       },
       {
         "key": "672e2e751ff683e9432cb5af Name",
@@ -272,7 +272,7 @@
       {
         "key": "672e2e7521f4ccc8cc6d8335 Description",
         "source": "Daniel Defense MFR 14.0 M-LOK rail, which comes from the DDM4V7 PRO edition. Length of 14\", it has everything you need on the battlefield.",
-        "translation": "다니엘 디펜스(Daniel Defense)의 MFR 14.0 엠락 레일로, DDM4V7 PRO 에디션에 적용된 제품입니다. 길이 14\"로 전장에서 필요한 모든 기능을 제공합니다."
+        "translation": "다니엘 디펜스의 MFR 14.0 엠락 레일로, DDM4V7 PRO 에디션에 사용된 제품입니다. 길이는 14인치이며, 전장에서 필요한 기능을 갖췄습니다."
       },
       {
         "key": "672e2e7526ba61dbb88be7ff Name",
@@ -287,7 +287,7 @@
       {
         "key": "672e2e7526ba61dbb88be7ff Description",
         "source": "A pouch for all your meds, produced by Painter.",
-        "translation": "페인터(Painter)가 제작한 의료품 전용 수납 파우치입니다."
+        "translation": "페인터가 제작한 의료품 전용 수납 파우치입니다."
       },
       {
         "key": "672e2e7531ffa75ea676c3ea Name",
@@ -307,7 +307,7 @@
       {
         "key": "672e2e7533a70f23dfe4c8bb Description",
         "source": "The MOE SL-M Carbine Stock is a drop-in replacement buttstock for AR15/M4 Mil-Spec carbine buffer tubes. It was specifically developed for ultra-compact, PDW-style military platform requirements and for users desiring a smaller, lighter stock.",
-        "translation": "MOE SL-M 카빈 개머리판은 AR15/M4 밀스펙 카빈 버퍼 튜브용 드롭인 교체형 개머리판입니다. 초소형 PDW 스타일 군용 플랫폼이나 경량화를 원하는 사용자를 위해 특별히 개발되었습니다."
+        "translation": "MOE SL-M 카빈 개머리판은 AR-15/M4 군용 규격 카빈 완충관에 별도 가공 없이 교체 장착할 수 있습니다. 초소형 PDW 형태의 군용 플랫폼에 필요한 조건을 충족하고, 더 작고 가벼운 개머리판을 원하는 사용자를 위해 특별히 개발되었습니다."
       },
       {
         "key": "672e2e7535b901cc0cb57e73 Name",
@@ -337,7 +337,7 @@
       {
         "key": "672e2e753a1ea309958b56cc Description",
         "source": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform.",
-        "translation": "BCM이 최초로 도입한 KMR 총열덮개의 배럴 너트 및 잠금 설계와 동일한 업계 선도적 구조를 채용한 MCMR 시리즈의 총열덮개로, 엠락 플랫폼에서 사수에게 높은 모듈성과 유연성을 제공합니다."
+        "translation": "MCMR 시리즈 총열덮개는 BCM이 KMR 총열덮개에서 처음 선보인 업계 선도적인 총열 고정 너트와 잠금 구조를 그대로 채용해, 엠락 플랫폼에서 다양한 장비를 조합할 수 있도록 합니다."
       },
       {
         "key": "672e2e753c97527a5186e73f Name",
@@ -357,7 +357,7 @@
       {
         "key": "672e2e753f9d1074231fa6a2 Name",
         "source": "M700 7.62x51 15 inch threaded barrel",
-        "translation": "M700 7.62x51 15인치 나사산 총열"
+        "translation": "M700 7.62x51 15인치 나사산 가공 총열"
       },
       {
         "key": "672e2e753f9d1074231fa6a2 ShortName",
@@ -367,7 +367,7 @@
       {
         "key": "672e2e753f9d1074231fa6a2 Description",
         "source": "A 15 inch threaded barrel for Remington Model 700 sniper rifle chambered in 7.62x51 NATO ammo.",
-        "translation": "7.62x51 NATO 탄을 사용하는 레밍턴(Remington) 모델 700 저격소총용 15인치 나사산 총열입니다."
+        "translation": "7.62x51 NATO 탄약을 사용하는 레밍턴 모델 700 저격소총용 15인치 나사산 가공 총열입니다."
       },
       {
         "key": "672e2e753ffe524d70e8cd8f Name",
@@ -402,12 +402,12 @@
       {
         "key": "672e2e7546454a975e0b7a3b ShortName",
         "source": "GF MOD3",
-        "translation": "GF 모드3"
+        "translation": "GF MOD3"
       },
       {
         "key": "672e2e7546454a975e0b7a3b Description",
         "source": "Lightweight polymer tactical grip produced by BCM. Modded with grip tape that holds the universe together.",
-        "translation": "BCM에서 제작한 경량 폴리머 전술용 손잡이입니다. 손잡이에는 강력한 접착력을 가진 그립 테이프가 부착되어 있습니다."
+        "translation": "BCM에서 제작한 경량 폴리머 전술용 손잡이입니다. 우주라도 붙잡아 둘 듯한 그립 테이프를 감아 개조한 제품입니다."
       },
       {
         "key": "672e2e754e6844af8e197b00 Name",
@@ -422,7 +422,7 @@
       {
         "key": "672e2e754f01ef56b4aa66a3 Name",
         "source": "Wrapped 5.56x45 silencer",
-        "translation": "랩드 5.56x45 소음기"
+        "translation": "외피로 감싼 5.56x45 소음기"
       },
       {
         "key": "672e2e754f01ef56b4aa66a3 ShortName",
@@ -432,12 +432,12 @@
       {
         "key": "672e2e754f01ef56b4aa66a3 Description",
         "source": "This wrapped silencer is designed for installation on AR or AK based 5.56x45 rifles. It is made of stainless steel and has a special coating that reduces the sound of shots.",
-        "translation": "이 랩드(Wrapped) 소음기는 AR 또는 AK 기반의 5.56x45 소총에 장착하도록 설계되었습니다. 스테인리스강으로 제작되었으며, 발사음 감소를 위한 특수 코팅이 적용되어 있습니다."
+        "translation": "외피로 감싼 이 소음기는 AR 또는 AK 계열의 5.56x45 소총에 장착하도록 설계되었습니다. 스테인리스강으로 제작되었으며 발사음을 줄이는 특수 코팅이 적용되어 있습니다."
       },
       {
         "key": "672e2e75500922dee75bf400 Name",
         "source": "AR-15 ZipLine handguard",
-        "translation": "AR-15 ZipLine 총열덮개"
+        "translation": "AR-15 집라인 총열덮개"
       },
       {
         "key": "672e2e75500922dee75bf400 Description",
@@ -497,17 +497,17 @@
       {
         "key": "672e2e755aa052b1e954dd68 Description",
         "source": "Stelio is a 4.6x30 mm suppressor produced by Painter (TGC).",
-        "translation": "스텔리오(Stelio)는 페인터가 제작한 4.6x30mm 소음기입니다."
+        "translation": "스텔리오는 페인터가 제작한 4.6x30mm 소음기입니다."
       },
       {
         "key": "672e2e755ab53b635a4d4f39 Name",
         "source": "Trijicon MRO Reflex Sight",
-        "translation": "트리지콘 MRO 반사 조준기"
+        "translation": "트리지콘 MRO 반사식 조준기"
       },
       {
         "key": "672e2e755ab53b635a4d4f39 Description",
         "source": "The Trijicon MRO (Miniature Rifle Optic) is a sealed, miniature reflex sight intended for use on rifles, carbines, and shotguns to provide fast target acquisition.",
-        "translation": "트리지콘(Trijicon) MRO(미니어처 라이플 옵틱)는 라이플, 카빈, 산탄총 등에 사용하도록 설계된 밀폐형 소형 반사식 조준기로, 빠른 표적 획득을 지원합니다."
+        "translation": "트리지콘 MRO(미니어처 라이플 옵틱)는 라이플, 카빈, 산탄총 등에 사용하도록 설계된 밀폐형 소형 반사식 조준기로, 빠른 표적 획득을 지원합니다."
       },
       {
         "key": "672e2e755afaba52a4af5e45 Name",
@@ -522,12 +522,12 @@
       {
         "key": "672e2e755c49aef3e8a3dd0c Name",
         "source": "AR-15 M16 M203 heat shield handguard",
-        "translation": "AR-15 M16 M203 방열 덮개"
+        "translation": "AR-15 M16 M203 방열 총열덮개"
       },
       {
         "key": "672e2e755c49aef3e8a3dd0c Description",
         "source": "Heat shield handguard for M16A4 and M4A1 with M203 grenade launcher.",
-        "translation": "M203 유탄발사기가 장착된 M16A4 및 M4A1용 방열 덮개입니다."
+        "translation": "M203 유탄발사기가 장착된 M16A4와 M4A1용 방열 총열덮개입니다."
       },
       {
         "key": "672e2e755cebe435a3b4dba5 Name",
@@ -537,12 +537,12 @@
       {
         "key": "672e2e755cebe435a3b4dba5 Description",
         "source": "The DD Magazine is the only AR-15 magazine worthy of the Daniel Defense name and is built with the same quality and standards as their world-class firearms. Its 32-round capacity for 5.56mm and 300 Blackout rounds is the most notable enhancement while maintaining the same size as industry-standard 30-round magazines.",
-        "translation": "DD 탄창은 다니엘 디펜스(Daniel Defense)의 이름에 걸맞은 유일한 AR-15 탄창으로, 자사의 세계적 수준의 화기와 동일한 품질 기준으로 제작되었습니다. 5.56mm와 300 블랙아웃 탄을 위한 32발 용량은 기존 30발 탄창 크기를 유지하면서도 향상된 성능을 제공합니다."
+        "translation": "DD 탄창은 다니엘 디펜스의 이름에 걸맞은 AR-15 탄창으로, 자사의 세계적 수준의 화기와 같은 품질 및 규격에 따라 제작되었습니다. 업계 표준 30발 탄창과 크기는 같으면서 5.56mm와 .300 블랙아웃 탄약을 32발까지 수용하는 점이 가장 두드러진 개선 사항입니다."
       },
       {
         "key": "672e2e756174d5e5e9f677ee Name",
         "source": "SureFire flashlight with pressure pad (FDE)",
-        "translation": "슈어파이어 압력패드 손전등 (사막색)"
+        "translation": "슈어파이어 압력패드 전술 조명 (사막색)"
       },
       {
         "key": "672e2e756174d5e5e9f677ee Description",
@@ -617,12 +617,12 @@
       {
         "key": "672e2e7578374ac936625f9a Description",
         "source": "Daniel Defense MFR 15.0 M-LOK rail, which comes from the DDM4V7 PRO edition. Length of 15\", it has everything you need on the battlefield.",
-        "translation": "다니엘 디펜스(Daniel Defense)의 MFR 15.0 엠락 레일로, DDM4V7 PRO 에디션에 적용된 제품입니다. 길이 15\"로 전장에서 필요한 모든 기능을 제공합니다."
+        "translation": "다니엘 디펜스의 MFR 15.0 엠락 레일로, DDM4V7 PRO 에디션에 사용된 제품입니다. 길이는 15인치이며, 전장에서 필요한 기능을 갖췄습니다."
       },
       {
         "key": "672e2e757a1e6eeae1841933 Name",
         "source": "INFORCE WMLX GEN 2",
-        "translation": "인포스 WMLX 2세대 손전등"
+        "translation": "인포스 WMLX 2세대 전술 조명"
       },
       {
         "key": "672e2e757a1e6eeae1841933 Description",
@@ -642,7 +642,7 @@
       {
         "key": "672e2e757e294bf6e5ecb944 Description",
         "source": "Low profile M-LOK 2.8 inch rail created by Painter, allows installation of additional equipment on the handguards equipped with an M-LOK interface.",
-        "translation": "페인터(Painter)가 제작한 로우 프로파일 엠락 2.8인치 레일로, 엠락 인터페이스가 적용된 총열덮개에 추가 장비를 장착할 수 있게 합니다."
+        "translation": "페인터가 제작한 높이가 낮은 2.8인치 엠락 레일로, 엠락 장착 규격을 갖춘 총열덮개에 추가 장비를 장착할 수 있습니다."
       },
       {
         "key": "672e2e757e517ac4552086d1 Name",
@@ -667,22 +667,22 @@
       {
         "key": "672e2e757efbbef26ff61046 ShortName",
         "source": "GF MOD3",
-        "translation": "GF 모드3"
+        "translation": "GF MOD3"
       },
       {
         "key": "672e2e757efbbef26ff61046 Description",
         "source": "Lightweight polymer tactical grip produced by BCM. Modded with grip tape that holds the universe together.",
-        "translation": "BCM에서 제작한 경량 폴리머 전술용 손잡이입니다. 손잡이에는 강력한 접착력을 가진 그립 테이프가 부착되어 있습니다."
+        "translation": "BCM에서 제작한 경량 폴리머 전술용 손잡이입니다. 우주라도 붙잡아 둘 듯한 그립 테이프를 감아 개조한 제품입니다."
       },
       {
         "key": "672e2e75848c5da68dd122f0 Name",
         "source": "Magpul MOE2 pistol grip (Black)",
-        "translation": "맥풀 MOE2 권총손잡이 (블랙)"
+        "translation": "맥풀 MOE2 권총손잡이 (검은색)"
       },
       {
         "key": "672e2e75848c5da68dd122f0 Description",
         "source": "The polymer Magpul MOE2 pistol grip can be installed on any weapon compatible with AR-15 pistol grips. Thanks to the ergonomic shape and anti-slip texture, it makes the weapon grip and control more comfortably. The inside of the grip contains free space for spare parts, tools, batteries, and an accessories kit. Comes in black and flat dark earth.",
-        "translation": "폴리머 소재로 제작된 맥풀(Magpul) MOE2 권총손잡이는 AR-15 규격 권총손잡이 호환 무기라면 어디에나 장착할 수 있습니다. 인체공학적 형상과 미끄럼 방지 텍스처 덕분에 조작감과 제어성이 향상됩니다. 내부에는 예비 부품, 도구, 배터리, 액세서리 키트를 수납할 수 있는 공간이 있으며, 블랙과 FDE 색상으로 제공됩니다."
+        "translation": "폴리머 소재로 제작된 맥풀(Magpul) MOE2 권총손잡이는 AR-15 규격 권총손잡이 호환 무기라면 어디에나 장착할 수 있습니다. 인체공학적 형상과 미끄럼 방지 텍스처 덕분에 조작감과 제어성이 향상됩니다. 내부에는 예비 부품, 도구, 배터리, 액세서리 키트를 수납할 수 있는 공간이 있으며, 검은색과 사막색으로 제공됩니다."
       },
       {
         "key": "672e2e758808bacbb9d5abc4 Name",
@@ -692,7 +692,7 @@
       {
         "key": "672e2e758808bacbb9d5abc4 Description",
         "source": "Ammunition storage pouch produced by Painter.",
-        "translation": "페인터(Painter)가 제작한 탄약 수납용 파우치입니다."
+        "translation": "페인터가 제작한 탄약 수납용 파우치입니다."
       },
       {
         "key": "672e2e758977f29e3a29cd9c Name",
@@ -702,7 +702,7 @@
       {
         "key": "672e2e758977f29e3a29cd9c Description",
         "source": "The Knight's Armament Company QDC 556 sound suppressor, designed for use with 5.56x45 caliber weapon systems. Can only be installed on the KAC QDC 3-Prong Flash Eliminator.",
-        "translation": "나이츠 아머먼트 컴퍼니(Knight’s Armament Company)에서 제작한 QDC 5.56 소음기로, 5.56x45 구경 체계용으로 설계되었습니다. KAC QDC 3프롱 소염기에만 장착할 수 있습니다."
+        "translation": "나이츠 아르마먼트 컴퍼니에서 제작한 QDC 556 소음기로, 5.56x45 구경 무기용으로 설계되었습니다. KAC QDC 3프롱 소염기에만 장착할 수 있습니다."
       },
       {
         "key": "672e2e758c2bcbf1b2421359 Name",
@@ -727,17 +727,17 @@
       {
         "key": "672e2e75929d47eb157491c8 Description",
         "source": "Daniel Defense MFR 14.0 M-LOK rail, which comes from the DDM4V7 PRO edition. Length of 14\", it has everything you need on the battlefield.",
-        "translation": "다니엘 디펜스(Daniel Defense)의 MFR 14.0 엠락 레일로, DDM4V7 PRO 에디션에 적용된 제품입니다. 길이 14\"로 전장에서 필요한 모든 기능을 제공합니다."
+        "translation": "다니엘 디펜스의 MFR 14.0 엠락 레일로, DDM4V7 PRO 에디션에 사용된 제품입니다. 길이는 14인치이며, 전장에서 필요한 기능을 갖췄습니다."
       },
       {
         "key": "672e2e759342d416e10caa10 Name",
         "source": "Surefire M640U-BK-PRO Flashlight offset",
-        "translation": "슈어파이어 M640U-BK-프로 오프셋 손전등"
+        "translation": "슈어파이어 M640U-BK-PRO 오프셋 전술 조명"
       },
       {
         "key": "672e2e759342d416e10caa10 Description",
         "source": "With its recoil-proof, ultra-high-output LED delivering 1000 lumens of blinding white light, the Scout Light Pro is ready for action. Its proprietary TIR lens shapes the light into a far-reaching beam with ample surround light for exceptional peripheral vision, making it ideal for medium to longer-range applications. SureFires new Low-Profile Mount (LPM) delivers unprecedented versatility, allowing the user to optimize the lights position relative to the rail.",
-        "translation": "반동에 강한 초고출력 LED로 1,000루멘의 강력한 백색광을 방출하는 스카우트 라이트 프로는 즉시 전투에 투입할 수 있는 손전등입니다. 독자적인 TIR 렌즈는 원거리까지 도달하는 빔을 형성하며, 넓은 주변광으로 탁월한 시야를 제공합니다. 슈어파이어(SureFire)의 신형 로우 프로파일 마운트(LPM)는 레일에 대한 위치 조정을 최적화할 수 있는 높은 호환성을 제공합니다."
+        "translation": "반동에 견디는 초고출력 LED로 1,000루멘의 강력한 백색광을 내는 스카우트 라이트 프로 전술 조명입니다. 독자적인 TIR 렌즈는 먼 거리까지 닿는 집중광과 주변광을 함께 제공해 주변 시야를 확보하며, 중·장거리에서 사용하기 적합합니다. 슈어파이어의 신형 저상형 마운트(LPM)는 레일을 기준으로 조명 위치를 조절할 수 있어 장착 유연성이 높습니다."
       },
       {
         "key": "672e2e7595d3b3be0daf9055 Name",
@@ -762,7 +762,7 @@
       {
         "key": "672e2e759623bcd75fbfb04c Description",
         "source": "Perfect mount to use with the Aimpoint Micro T-1 reflex sight.",
-        "translation": "에임포인트(Aimpoint) 마이크로 T-1 반사 조준기와 함께 사용하기에 완벽한 마운트입니다."
+        "translation": "에임포인트 마이크로 T-1 반사식 조준경에 적합한 마운트입니다."
       },
       {
         "key": "672e2e759b231e2b1a95516f Name",
@@ -777,7 +777,7 @@
       {
         "key": "672e2e759b231e2b1a95516f Description",
         "source": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform.",
-        "translation": "BCM이 최초로 도입한 KMR 총열덮개의 배럴 너트 및 잠금 설계와 동일한 업계 선도적 구조를 채용한 MCMR 시리즈의 총열덮개로, 엠락 플랫폼에서 사수에게 높은 모듈성과 유연성을 제공합니다."
+        "translation": "MCMR 시리즈 총열덮개는 BCM이 KMR 총열덮개에서 처음 선보인 업계 선도적인 총열 고정 너트와 잠금 구조를 그대로 채용해, 엠락 플랫폼에서 다양한 장비를 조합할 수 있도록 합니다."
       },
       {
         "key": "672e2e759bff586ad22ecbc7 Name",
@@ -787,7 +787,7 @@
       {
         "key": "672e2e759bff586ad22ecbc7 Description",
         "source": "This Daniel Defense Grip-N-Rip AR-15 Ambidextrous Charging Handle is a lightweight, durable, and reliable method to charge your firearm.",
-        "translation": "다니엘 디펜스(Daniel Defense)의 Grip-N-Rip AR-15 양손잡이용 장전 손잡이로, 가볍고 내구성이 뛰어나며 신뢰할 수 있는 장전 수단입니다."
+        "translation": "다니엘 디펜스의 Grip-N-Rip AR-15 양손잡이용 장전 손잡이로, 가볍고 내구성이 뛰어나며 신뢰할 수 있는 장전 수단입니다."
       },
       {
         "key": "672e2e75a16c1d2034c384cf Name",
@@ -832,7 +832,7 @@
       {
         "key": "672e2e75a8d84451e1b9d793 Name",
         "source": "AR-15 ZipLine pistol grip",
-        "translation": "AR-15 ZipLine 권총손잡이"
+        "translation": "AR-15 집라인 권총손잡이"
       },
       {
         "key": "672e2e75a8d84451e1b9d793 Description",
@@ -887,7 +887,7 @@
       {
         "key": "672e2e75b0ab4fcbbf7dc471 Description",
         "source": "Premium (TGC Certified) tool box to store all of your tools and workshop components, produced by Painter.",
-        "translation": "페인터(Painter)가 제작한 고급형 TGC 인증 공구함으로, 모든 공구와 작업 부품을 보관할 수 있습니다."
+        "translation": "페인터가 제작한 고급형 TGC 인증 공구함으로, 모든 공구와 작업 부품을 보관할 수 있습니다."
       },
       {
         "key": "672e2e75b14ae1b5c91474b4 Name",
@@ -937,7 +937,7 @@
       {
         "key": "672e2e75b7f83e81f1dc5067 Description",
         "source": "The MOE SL-M Carbine Stock is a drop-in replacement buttstock for AR15/M4 Mil-Spec carbine buffer tubes. It was specifically developed for ultra-compact, PDW-style military platform requirements and for users desiring a smaller, lighter stock.",
-        "translation": "MOE SL-M 카빈 개머리판은 AR15/M4 밀스펙 카빈 버퍼 튜브용 드롭인 교체형 개머리판입니다. 초소형 PDW 스타일 군용 플랫폼이나 경량화를 원하는 사용자를 위해 특별히 개발되었습니다."
+        "translation": "MOE SL-M 카빈 개머리판은 AR-15/M4 군용 규격 카빈 완충관에 별도 가공 없이 교체 장착할 수 있습니다. 초소형 PDW 형태의 군용 플랫폼에 필요한 조건을 충족하고, 더 작고 가벼운 개머리판을 원하는 사용자를 위해 특별히 개발되었습니다."
       },
       {
         "key": "672e2e75b9082dbf88dd1dbd Name",
@@ -957,7 +957,7 @@
       {
         "key": "672e2e75ba73d87a448e3f13 Description",
         "source": "The polymer Magpul MOE2 pistol grip can be installed on any weapon compatible with AR-15 pistol grips. Thanks to the ergonomic shape and anti-slip texture, it makes the weapon grip and control more comfortably. The inside of the grip contains free space for spare parts, tools, batteries, and an accessories kit. Comes in black and flat dark earth.",
-        "translation": "폴리머 소재로 제작된 맥풀(Magpul) MOE2 권총손잡이는 AR-15 규격 권총손잡이 호환 무기라면 어디에나 장착할 수 있습니다. 인체공학적 형상과 미끄럼 방지 텍스처 덕분에 조작감과 제어성이 향상됩니다. 내부에는 예비 부품, 도구, 배터리, 액세서리 키트를 수납할 수 있는 공간이 있으며, 블랙과 FDE 색상으로 제공됩니다."
+        "translation": "폴리머 소재로 제작된 맥풀(Magpul) MOE2 권총손잡이는 AR-15 규격 권총손잡이 호환 무기라면 어디에나 장착할 수 있습니다. 인체공학적 형상과 미끄럼 방지 텍스처 덕분에 조작감과 제어성이 향상됩니다. 내부에는 예비 부품, 도구, 배터리, 액세서리 키트를 수납할 수 있는 공간이 있으며, 검은색과 사막색으로 제공됩니다."
       },
       {
         "key": "672e2e75ba8f56d981dc6e2c Name",
@@ -982,7 +982,7 @@
       {
         "key": "672e2e75bd4a44818c26b1b0 Description",
         "source": "Featuring the same industry leading barrel nut and lock up design as originally introduced on BCM's evolutionary KMR handguard, the MCMR Series of handguards gives the shooter modularity in the M-LOK platform.",
-        "translation": "BCM이 최초로 도입한 KMR 총열덮개의 배럴 너트 및 잠금 설계와 동일한 업계 선도적 구조를 채용한 MCMR 시리즈의 총열덮개로, 엠락 플랫폼에서 사수에게 높은 모듈성과 유연성을 제공합니다."
+        "translation": "MCMR 시리즈 총열덮개는 BCM이 KMR 총열덮개에서 처음 선보인 업계 선도적인 총열 고정 너트와 잠금 구조를 그대로 채용해, 엠락 플랫폼에서 다양한 장비를 조합할 수 있도록 합니다."
       },
       {
         "key": "672e2e75be2ea9998a388b8b Name",
@@ -1022,7 +1022,7 @@
       {
         "key": "672e2e75c24f8de5c9a1bdfc Name",
         "source": "AR-15 ZipLine reciever",
-        "translation": "AR-15 ZipLine 총몸"
+        "translation": "AR-15 집라인 총몸"
       },
       {
         "key": "672e2e75c24f8de5c9a1bdfc Description",
@@ -1052,7 +1052,7 @@
       {
         "key": "672e2e75c7c7c5232e513062 Name",
         "source": "AK AKademia Bastion transparent dust cover",
-        "translation": "AK 아카데미아 바스티온 투명 덮개"
+        "translation": "AK 아카데미아 바스티온 투명 먼지덮개"
       },
       {
         "key": "672e2e75c7c7c5232e513062 ShortName",
@@ -1062,17 +1062,17 @@
       {
         "key": "672e2e75c7c7c5232e513062 Description",
         "source": "The Bastion dust cover with an integrated Picatinny rail is compatible with all models of Kalashnikov automatic rifles and carbines based on the AK platform. Manufactured by AKademia. Transparent version.",
-        "translation": "피카티니 레일이 통합된 바스티온 덮개는 칼라시니코프(Kalashnikov) 자동소총 및 AK 플랫폼 기반 카빈의 모든 모델에 호환됩니다. 아카데미아(AKademia)에서 제조한 투명 버전입니다."
+        "translation": "피카티니 레일이 통합된 바스티온 먼지덮개는 칼라시니코프 자동소총과 AK 플랫폼 기반 카빈의 모든 모델에 호환됩니다. 아카데미아에서 제조한 투명형 제품입니다."
       },
       {
         "key": "672e2e75d122de1a20db31a5 Name",
         "source": "SureFire X300U-A Flashlight",
-        "translation": "슈어파이어 X300U-A 손전등"
+        "translation": "슈어파이어 X300U-A 전술 조명"
       },
       {
         "key": "672e2e75d122de1a20db31a5 Description",
         "source": "SureFire X300U-A is a more powerful version of the SureFire X300U. It is a compact WeaponLight for pistols and long guns, featuring an ultra-high-output LED that delivers 1,000 lumens of blinding white light with a focused beam that provides significant reach and peripheral illumination.",
-        "translation": "슈어파이어(SureFire) X300U-A는 X300U의 강화형 고출력 버전입니다. 권총과 장총 모두에 장착 가능한 콤팩트한 웨폰라이트로, 초고출력 LED가 1,000루멘의 강력한 백색광을 방출하며, 집중된 빔이 넓은 주변광을 제공하여 우수한 시야 확보를 가능하게 합니다."
+        "translation": "슈어파이어 X300U-A는 X300U보다 출력이 강화된 모델입니다. 권총과 장총에 사용할 수 있는 소형 전술 조명으로, 초고출력 LED가 1,000루멘의 강력한 백색광을 내며, 집중광과 넓은 주변광을 함께 제공해 먼 곳과 주변을 비출 수 있습니다."
       },
       {
         "key": "672e2e75d276dfa8dd76770c Name",
@@ -1097,7 +1097,7 @@
       {
         "key": "672e2e75d41d0e93c918096a Description",
         "source": "A drop-in replacement buttstock for AR-15/M16 carbines by Magpul Original Equipment. Uses mil-spec sized receiver extension tubes.",
-        "translation": "맥풀(Magpul) 오리지널 이큅먼트에서 제작한 AR-15/M16 카빈용 드롭인 교체형 개머리판입니다. 밀스펙 규격의 총몸 연장 튜브를 사용합니다."
+        "translation": "맥풀에서 제작한 AR-15/M16 카빈용 별도 가공 없이 교체 장착하는 개머리판입니다. 군용 규격의 총몸 연장 완충관을 사용합니다."
       },
       {
         "key": "672e2e75d89015cd6322030b Name",
@@ -1117,7 +1117,7 @@
       {
         "key": "672e2e75dad19c7115e2489e Name",
         "source": "AR-15 Strike Industries Advanced Receiver Extension buffer tube with adapter",
-        "translation": "AR-15 스트라이크 인더스트리즈 고급 총몸 익스텐션 버퍼 튜브 (어댑터 포함)"
+        "translation": "AR-15 스트라이크 인더스트리즈 어댑터 포함 고급형 총몸 연장 완충관"
       },
       {
         "key": "672e2e75dad19c7115e2489e ShortName",
@@ -1127,7 +1127,7 @@
       {
         "key": "672e2e75dad19c7115e2489e Description",
         "source": "The Advanced Receiver Extension buffer tube with adapter, Mil-Spec diameter will fit any AR-15-based carbine or rifle. The buffer tube has a distinctive scalloping that decreases friction with the stock and reduces weight while retaining strength in areas that get the most stress. Manufactured by Strike Industries.",
-        "translation": "밀스펙 직경의 어댑터가 포함된 고급 총몸 익스텐션 버퍼 튜브로, 모든 AR-15 계열 카빈 및 소총에 장착 가능합니다. 버퍼 튜브의 독특한 스칼럽 처리로 스톡과의 마찰을 줄이고 중량을 절감하면서도 스트레스가 집중되는 부위의 강도는 유지합니다. 스트라이크 인더스트리즈(Strike Industries)에서 제조합니다."
+        "translation": "어댑터가 포함된 군용 규격 직경의 고급형 총몸 연장 완충관으로, AR-15 계열 카빈과 소총에 장착할 수 있습니다. 특유의 오목 홈 구조로 개머리판과의 마찰 및 무게를 줄이면서 응력이 집중되는 부위의 강도는 유지합니다. 스트라이크 인더스트리즈에서 제조했습니다."
       },
       {
         "key": "672e2e75dbf780f902fd6d68 Name",
@@ -1172,7 +1172,7 @@
       {
         "key": "672e2e75e21492038fb1b118 Description",
         "source": "Stelio is a 4.6x30 mm suppressor produced by Painter (TGC).",
-        "translation": "스텔리오(Stelio)는 페인터가 제작한 4.6x30mm 소음기입니다."
+        "translation": "스텔리오는 페인터가 제작한 4.6x30mm 소음기입니다."
       },
       {
         "key": "672e2e75e2cb5715ab46ae15 Name",
@@ -1192,7 +1192,7 @@
       {
         "key": "672e2e75e352ae625453519b Description",
         "source": "Compact laser and flashlight device for mounting on picatinny rails.",
-        "translation": "피카티니 레일에 장착하는 소형 레이저·손전등 통합 장비입니다."
+        "translation": "피카티니 레일 장착용 소형 레이저·전술 조명 일체형 장비입니다."
       },
       {
         "key": "672e2e75e8c2736e43530008 Name",
@@ -1202,7 +1202,7 @@
       {
         "key": "672e2e75e8c2736e43530008 Description",
         "source": "Gemtech ONE-S (mini) sound suppressor designed for use with a 7.62x51 NATO, but also compatible with a most popular rifle calibers. Can only be installed on compatible devices.",
-        "translation": "젬텍(Gemtech) ONE-S(미니) 소음기는 7.62x51 NATO용으로 설계되었으며, 여러 인기 라이플 구경에도 호환됩니다. 호환되는 장치에만 장착할 수 있습니다."
+        "translation": "젬텍 ONE-S(미니) 소음기는 7.62x51 NATO 탄종용으로 설계됐지만, 널리 쓰이는 여러 소총 구경에도 호환됩니다. 호환되는 장치에만 장착할 수 있습니다."
       },
       {
         "key": "672e2e75e97f1888187ed37d Name",
@@ -1227,7 +1227,7 @@
       {
         "key": "672e2e75ea372126f4fcb874 ShortName",
         "source": "GF MOD3",
-        "translation": "GF 모드3"
+        "translation": "GF MOD3"
       },
       {
         "key": "672e2e75ea372126f4fcb874 Description",
@@ -1257,7 +1257,7 @@
       {
         "key": "672e2e75ebb3b5f3e2cb6291 Description",
         "source": "The unique snake scale pattern provides positive non-slip grip even when wet or oily. Made of an extremely durable space-age polymer, they are nearly unbreakable.",
-        "translation": "독특한 뱀 비늘 패턴이 젖거나 기름진 상태에서도 우수한 미끄럼 방지 그립을 제공합니다. 초고강도 우주용 폴리머로 제작되어 사실상 파손되지 않습니다."
+        "translation": "독특한 뱀 비늘 무늬 덕분에 젖거나 기름이 묻은 상태에서도 잘 미끄러지지 않고 단단히 잡을 수 있습니다. 내구성이 매우 뛰어난 첨단 폴리머로 만들어져 거의 파손되지 않습니다."
       },
       {
         "key": "672e2e75ec239cfca3bedf6d Name",
@@ -1277,12 +1277,12 @@
       {
         "key": "672e2e75ec4a3496b64346c5 Name",
         "source": "Surefire M640U-BK-PRO Flashlight",
-        "translation": "슈어파이어 M640U-프로 손전등"
+        "translation": "슈어파이어 M640U-BK-PRO 전술 조명"
       },
       {
         "key": "672e2e75ec4a3496b64346c5 Description",
         "source": "With its recoil-proof, ultra-high-output LED delivering 1000 lumens of blinding white light, the Scout Light Pro is ready for action. Its proprietary TIR lens shapes the light into a far-reaching beam with ample surround light for exceptional peripheral vision, making it ideal for medium to longer-range applications. SureFires new Low-Profile Mount (LPM) delivers unprecedented versatility, allowing the user to optimize the lights position relative to the rail.",
-        "translation": "반동에 강한 초고출력 LED로 1,000루멘의 강력한 백색광을 방출하는 스카우트 라이트 프로는 즉시 전투에 투입할 수 있는 손전등입니다. 독자적인 TIR 렌즈는 원거리까지 도달하는 빔을 형성하며, 넓은 주변광으로 탁월한 시야를 제공합니다. 슈어파이어(SureFire)의 신형 로우 프로파일 마운트(LPM)는 레일에 대한 위치 조정을 최적화할 수 있는 높은 호환성을 제공합니다."
+        "translation": "반동에 견디는 초고출력 LED로 1,000루멘의 강력한 백색광을 내는 스카우트 라이트 프로 전술 조명입니다. 독자적인 TIR 렌즈는 먼 거리까지 닿는 집중광과 주변광을 함께 제공해 주변 시야를 확보하며, 중·장거리에서 사용하기 적합합니다. 슈어파이어의 신형 저상형 마운트(LPM)는 레일을 기준으로 조명 위치를 조절할 수 있어 장착 유연성이 높습니다."
       },
       {
         "key": "672e2e75ecdecad1471639ad Name",
@@ -1297,7 +1297,7 @@
       {
         "key": "672e2e75ecdecad1471639ad Description",
         "source": "The unique snake scale pattern provides positive non-slip grip even when wet or oily. Made of an extremely durable space-age polymer, they are nearly unbreakable.",
-        "translation": "독특한 뱀 비늘 패턴이 젖거나 기름진 상태에서도 우수한 미끄럼 방지 그립을 제공합니다. 초고강도 우주용 폴리머로 제작되어 사실상 파손되지 않습니다."
+        "translation": "독특한 뱀 비늘 무늬 덕분에 젖거나 기름이 묻은 상태에서도 잘 미끄러지지 않고 단단히 잡을 수 있습니다. 내구성이 매우 뛰어난 첨단 폴리머로 만들어져 거의 파손되지 않습니다."
       },
       {
         "key": "672e2e75ed6ad7cc5028734f Name",
@@ -1322,32 +1322,32 @@
       {
         "key": "672e2e75f2da844c65b50d6a Description",
         "source": "Compact laser and flashlight device for mounting on picatinny rails.",
-        "translation": "피카티니 레일에 장착하는 소형 레이저·손전등 통합 장비입니다."
+        "translation": "피카티니 레일 장착용 소형 레이저·전술 조명 일체형 장비입니다."
       },
       {
         "key": "672e2e75f3418d66159240f8 Name",
         "source": "Strike Industries LINK grip",
-        "translation": "스트라이크 인더스트리즈 링크 손잡이"
+        "translation": "스트라이크 인더스트리즈 LINK 손잡이"
       },
       {
         "key": "672e2e75f3418d66159240f8 ShortName",
         "source": "LINK",
-        "translation": "링크"
+        "translation": "LINK"
       },
       {
         "key": "672e2e75f3418d66159240f8 Description",
         "source": "The Strike Industries LINK-CFG (Curved Fore Grip) design was derived from Cobra Tactical Fore Grip and features SIs LINK system which is mountable to both M-Lok and Keymod rails.",
-        "translation": "스트라이크 인더스트리즈(Strike Industries) LINK-CFG(커브드 전방 손잡이)는 코브라 전술용 손잡이 디자인에서 파생된 모델로, 엠락과 키모드 레일 모두에 장착 가능한 링크(LINK) 시스템을 특징으로 합니다."
+        "translation": "스트라이크 인더스트리즈의 LINK-CFG(곡선형 전방 손잡이)는 코브라 전술용 전방 손잡이에서 파생된 제품으로, 엠락과 키모드 레일 모두에 장착할 수 있는 LINK 시스템을 갖췄습니다."
       },
       {
         "key": "672e2e75f863ac94cae32632 Name",
         "source": "HK MP7 TGC stock buffer tube",
-        "translation": "HK MP7 TGC 버퍼 튜브"
+        "translation": "HK MP7 TGC 개머리판용 완충관"
       },
       {
         "key": "672e2e75f863ac94cae32632 Description",
         "source": "The TGC branded MP7 stock enables you to mount AR style stocks on your MP7.",
-        "translation": "TGC 브랜드의 MP7 개머리판 버퍼 튜브로, AR 스타일 개머리판을 MP7에 장착할 수 있도록 합니다."
+        "translation": "TGC 브랜드의 MP7 개머리판 부품으로, MP7에 AR 계열 개머리판을 장착할 수 있게 합니다."
       },
       {
         "key": "672e2e75fa61ef193bdbd7e6 Name",
@@ -1387,7 +1387,7 @@
       {
         "key": "67341526d1587cba81586e7f Name",
         "source": "Magpul M-LOK handstop foregrip",
-        "translation": "맥풀 엠락 핸드스톱 손잡이"
+        "translation": "맥풀 엠락 핸드스톱 전방 손잡이"
       },
       {
         "key": "67341526d1587cba81586e7f ShortName",
@@ -1397,12 +1397,12 @@
       {
         "key": "67341526d1587cba81586e7f Description",
         "source": "The M-LOK Hand Stop serves as a light weight, low-profile M-LOK slot index point for improved weapon control, or as a forward stop to prevent the shooters hand from reaching the hot front sight assembly or muzzle.",
-        "translation": "엠락 핸드스톱은 경량, 저프로파일 구조로 설계되어 사수의 무기 제어력을 향상시키거나, 사수의 손이 과열된 가늠쇠나 총구에 닿지 않도록 방지하는 전방 제한 지점 역할을 합니다."
+        "translation": "엠락 핸드스톱은 가볍고 돌출이 적은 엠락 슬롯용 손 위치 기준점으로, 총기 제어를 돕습니다. 또한 전방 손 멈춤턱 역할을 해 사수의 손이 뜨거워진 가늠쇠 조립체나 총구에 닿지 않도록 합니다."
       },
       {
         "key": "673d7aa5a2c68c0cfcec6b93 Name",
         "source": "Magpul M-LOK handstop foregrip (FDE)",
-        "translation": "맥풀 엠락 핸드스톱 손잡이 (사막색)"
+        "translation": "맥풀 엠락 핸드스톱 전방 손잡이 (사막색)"
       },
       {
         "key": "673d7aa5a2c68c0cfcec6b93 ShortName",
@@ -1412,7 +1412,7 @@
       {
         "key": "673d7aa5a2c68c0cfcec6b93 Description",
         "source": "The M-LOK Hand Stop serves as a light weight, low-profile M-LOK slot index point for improved weapon control, or as a forward stop to prevent the shooters hand from reaching the hot front sight assembly or muzzle.",
-        "translation": "엠락 핸드스톱은 경량, 저프로파일 구조로 설계되어 사수의 무기 제어력을 향상시키거나, 사수의 손이 과열된 가늠쇠나 총구에 닿지 않도록 방지하는 전방 제한 지점 역할을 합니다."
+        "translation": "엠락 핸드스톱은 가볍고 돌출이 적은 엠락 슬롯용 손 위치 기준점으로, 총기 제어를 돕습니다. 또한 전방 손 멈춤턱 역할을 해 사수의 손이 뜨거워진 가늠쇠 조립체나 총구에 닿지 않도록 합니다."
       },
       {
         "key": "674102e3b161458e6ee0531f Name",
@@ -1422,7 +1422,7 @@
       {
         "key": "674102e3b161458e6ee0531f Description",
         "source": "The DOT Mount by Reptilia is a lightweight, slim-line mounting solution for a variety of red dot optics. Machined from billet 7075-T6 aluminum with Milspec Type III hard anodized finish, the DOT Mount attaches to any M1913 Picatinny rail, and offers lower 1/3 co-witness with standard AR15-style back-up sights.",
-        "translation": "렙틸리아(Reptilia)의 DOT 마운트는 다양한 레드닷 조준기에 적합한 경량형 슬림 마운팅 솔루션입니다. 7075-T6 알루미늄 빌릿 가공 및 밀스펙 타입 III 하드 양극산화 처리로 제작되었으며, 모든 M1913 피카티니 레일에 장착 가능하고 표준 AR15 스타일 예비 조준기와 하단 1/3 코위트니스를 제공합니다."
+        "translation": "렙틸리아 DOT 마운트는 다양한 레드 도트 조준경에 사용하는 가볍고 얇은 마운트입니다. 7075-T6 알루미늄 소재를 통째로 절삭 가공하고 군용 규격의 III형 경질 양극산화 마감을 적용했습니다. M1913 피카티니 레일에 장착할 수 있으며, 표준 AR-15형 예비 기계식 조준기와 하단 1/3 위치에서 동시 조준이 가능합니다."
       },
       {
         "key": "67429a6fe31216a0757777e1 Name",
@@ -1432,7 +1432,7 @@
       {
         "key": "67429a6fe31216a0757777e1 Description",
         "source": "The SLR Mount is a lightweight, slim-line mounting solution for a variety of red dot optics. Machined from billet 7075-T6 aluminum with Milspec Type III hard anodized finish, the SLR mount attaches to any M1913 Picatinny rail, and offers lower 1/3 co-witness with standard AR15-style back-up sights.",
-        "translation": "SLR 마운트는 다양한 레드닷 조준기에 적합한 경량형 슬림 마운팅 솔루션입니다. 7075-T6 알루미늄 빌릿 가공 및 밀스펙 타입 III 하드 양극산화 처리로 제작되었으며, 모든 M1913 피카티니 레일에 장착 가능하고 표준 AR15 스타일 예비 조준기와 하단 1/3 코위트니스를 제공합니다."
+        "translation": "SLR 마운트는 다양한 레드 도트 조준경에 사용하는 가볍고 얇은 마운트입니다. 7075-T6 알루미늄 소재를 통째로 절삭 가공하고 군용 규격의 III형 경질 양극산화 마감을 적용했습니다. M1913 피카티니 레일에 장착할 수 있으며, 표준 AR-15형 예비 기계식 조준기와 하단 1/3 위치에서 동시 조준이 가능합니다."
       },
       {
         "key": "67a281fafa6f0dadd5211962 Name",
@@ -1442,12 +1442,12 @@
       {
         "key": "67a281fafa6f0dadd5211962 Description",
         "source": "The DD Magazine is the only AR-15 magazine worthy of the Daniel Defense name and is built with the same quality and standards as their world-class firearms. Its 32-round capacity for 5.56mm and 300 Blackout rounds is the most notable enhancement while maintaining the same size as industry-standard 30-round magazines.",
-        "translation": "DD 탄창은 다니엘 디펜스(Daniel Defense)의 이름에 걸맞은 유일한 AR-15 탄창으로, 자사의 세계적 수준의 화기와 동일한 품질 기준으로 제작되었습니다. 5.56mm와 300 블랙아웃 탄을 위한 32발 용량은 기존 30발 탄창 크기를 유지하면서도 향상된 성능을 제공합니다."
+        "translation": "DD 탄창은 다니엘 디펜스의 이름에 걸맞은 AR-15 탄창으로, 자사의 세계적 수준의 화기와 같은 품질 및 규격에 따라 제작되었습니다. 업계 표준 30발 탄창과 크기는 같으면서 5.56mm와 .300 블랙아웃 탄약을 32발까지 수용하는 점이 가장 두드러진 개선 사항입니다."
       },
       {
         "key": "67b09f2f8bad925404cd80bb Name",
         "source": "Wrapped multicam 5.56x45 silencer",
-        "translation": "랩드 멀티캠 5.56x45 소음기"
+        "translation": "멀티캠 커버를 씌운 5.56x45 소음기"
       },
       {
         "key": "67b09f2f8bad925404cd80bb ShortName",
@@ -1457,17 +1457,17 @@
       {
         "key": "67b09f2f8bad925404cd80bb Description",
         "source": "This wrapped silencer is designed for installation on AR or AK based 5.56x45 rifles. It is made of stainless steel and has a special coating that reduces the sound of shots.",
-        "translation": "이 랩드(Wrapped) 소음기는 AR 또는 AK 기반의 5.56x45 소총에 장착하도록 설계되었습니다. 스테인리스강으로 제작되었으며, 발사음 감소를 위한 특수 코팅이 적용되어 있습니다."
+        "translation": "외피로 감싼 이 소음기는 AR 또는 AK 계열의 5.56x45 소총에 장착하도록 설계되었습니다. 스테인리스강으로 제작되었으며 발사음을 줄이는 특수 코팅이 적용되어 있습니다."
       },
       {
         "key": "67b1eb6d91f8e59bc799beb1 Name",
         "source": "Surefire M640U-BK-PRO FDE Flashlight offset",
-        "translation": "슈어파이어 M640U-프로 오프셋 손전등 (사막색)"
+        "translation": "슈어파이어 M640U-BK-PRO 사막색 오프셋 전술 조명"
       },
       {
         "key": "67b1eb6d91f8e59bc799beb1 Description",
         "source": "With its recoil-proof, ultra-high-output LED delivering 1000 lumens of blinding white light, the Scout Light Pro is ready for action. Its proprietary TIR lens shapes the light into a far-reaching beam with ample surround light for exceptional peripheral vision, making it ideal for medium to longer-range applications. SureFires new Low-Profile Mount (LPM) delivers unprecedented versatility, allowing the user to optimize the lights position relative to the rail.",
-        "translation": "반동에 강한 초고출력 LED로 1,000루멘의 강력한 백색광을 방출하는 스카우트 라이트 프로는 즉시 전투에 투입할 수 있는 손전등입니다. 독자적인 TIR 렌즈는 원거리까지 도달하는 빔을 형성하며, 넓은 주변광으로 탁월한 시야를 제공합니다. 슈어파이어(SureFire)의 신형 로우 프로파일 마운트(LPM)는 레일에 대한 위치 조정을 최적화할 수 있는 높은 호환성을 제공합니다."
+        "translation": "반동에 견디는 초고출력 LED로 1,000루멘의 강력한 백색광을 내는 스카우트 라이트 프로 전술 조명입니다. 독자적인 TIR 렌즈는 먼 거리까지 닿는 집중광과 주변광을 함께 제공해 주변 시야를 확보하며, 중·장거리에서 사용하기 적합합니다. 슈어파이어의 신형 저상형 마운트(LPM)는 레일을 기준으로 조명 위치를 조절할 수 있어 장착 유연성이 높습니다."
       },
       {
         "key": "67b22feaecf38d826bb7dc43 Name",
@@ -1477,7 +1477,7 @@
       {
         "key": "67b22feaecf38d826bb7dc43 Description",
         "source": "The DD Magazine is the only AR-15 magazine worthy of the Daniel Defense name and is built with the same quality and standards as their world-class firearms. Its 32-round capacity for 5.56mm and 300 Blackout rounds is the most notable enhancement while maintaining the same size as industry-standard 30-round magazines.",
-        "translation": "DD 탄창은 다니엘 디펜스(Daniel Defense)의 이름에 걸맞은 유일한 AR-15 탄창으로, 자사의 세계적 수준의 화기와 동일한 품질 기준으로 제작되었습니다. 5.56mm와 300 블랙아웃 탄을 위한 32발 용량은 기존 30발 탄창 크기를 유지하면서도 향상된 성능을 제공합니다."
+        "translation": "DD 탄창은 다니엘 디펜스의 이름에 걸맞은 AR-15 탄창으로, 자사의 세계적 수준의 화기와 같은 품질 및 규격에 따라 제작되었습니다. 업계 표준 30발 탄창과 크기는 같으면서 5.56mm와 .300 블랙아웃 탄약을 32발까지 수용하는 점이 가장 두드러진 개선 사항입니다."
       },
       {
         "key": "67b3252d085fe3e32bc8eeb7 Name",
@@ -1487,7 +1487,7 @@
       {
         "key": "67b3252d085fe3e32bc8eeb7 Description",
         "source": "The DD Magazine is the only AR-15 magazine worthy of the Daniel Defense name and is built with the same quality and standards as their world-class firearms. Its 32-round capacity for 5.56mm and 300 Blackout rounds is the most notable enhancement while maintaining the same size as industry-standard 30-round magazines.",
-        "translation": "DD 탄창은 다니엘 디펜스(Daniel Defense)의 이름에 걸맞은 유일한 AR-15 탄창으로, 자사의 세계적 수준의 화기와 동일한 품질 기준으로 제작되었습니다. 5.56mm와 300 블랙아웃 탄을 위한 32발 용량은 기존 30발 탄창 크기를 유지하면서도 향상된 성능을 제공합니다."
+        "translation": "DD 탄창은 다니엘 디펜스의 이름에 걸맞은 AR-15 탄창으로, 자사의 세계적 수준의 화기와 같은 품질 및 규격에 따라 제작되었습니다. 업계 표준 30발 탄창과 크기는 같으면서 5.56mm와 .300 블랙아웃 탄약을 32발까지 수용하는 점이 가장 두드러진 개선 사항입니다."
       },
       {
         "key": "67b8d6cd220640e6846aed85 Name",
@@ -1507,7 +1507,7 @@
       {
         "key": "684ae8ebb048d86cbdf8d5d9 ShortName",
         "source": "R-DUCK",
-        "translation": "러버덕"
+        "translation": "R-DUCK"
       },
       {
         "key": "684ae8ebb048d86cbdf8d5d9 Description",
@@ -1532,7 +1532,7 @@
       {
         "key": "685009b24c99357a3da143e4 Description",
         "source": "A polymer handguard for the Velociraptor assault rifle. A modified version of the Tapco AK handguard based on the Galil AR handguard, designed to be installed over the suppressor shroud, preventing possible injury to the shooter's hands during firing. This version also take foregrips.",
-        "translation": "벨로시랩터 돌격소총용 폴리머 총열덮개입니다. 갈릴(AR) 총열덮개를 기반으로 한 탭코(Tapco) AK 총열덮개의 개량형으로, 소음기 덮개 위에 설치되어 사격 중 사수의 손을 보호합니다. 또한 전방 손잡이 장착이 가능합니다."
+        "translation": "벨로시랩터 돌격소총용 폴리머 총열덮개입니다. 갈릴 AR 총열덮개를 바탕으로 제작된 탭코 AK 총열덮개의 개량형으로, 소음기 덮개 위에 설치되어 사격 중 사수의 손을 보호합니다. 또한 전방 손잡이 장착이 가능합니다."
       },
       {
         "key": "672e2a1ab7a491bbacdaee50 Name",
@@ -1673,7 +1673,7 @@
       {
         "key": "684ae9d928526b5c284aacb6 ShortName",
         "source": "R-DUCK",
-        "translation": "러버덕",
+        "translation": "R-DUCK",
         "match_mode": "exact",
         "display_type": "default"
       },
@@ -1718,6 +1718,48 @@
         "translation": "집라인",
         "match_mode": "exact",
         "display_type": "default"
+      },
+      {
+        "key": "672e2e7505c0ffbaf790db95 ShortName",
+        "source": "SF Press",
+        "translation": "SF 압력 스위치",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "672e2e756174d5e5e9f677ee ShortName",
+        "source": "SF Press",
+        "translation": "SF 압력 스위치",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "672e2e7533a70f23dfe4c8bb ShortName",
+        "source": "SL-M FDE",
+        "translation": "SL-M FDE",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "672e2e75033ea9ca8bef91bc ShortName",
+        "source": "FAST Riser",
+        "translation": "FAST 라이저",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "672e2e755cebe435a3b4dba5 ShortName",
+        "source": "DD MAG",
+        "translation": "DD",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "67a281fafa6f0dadd5211962 ShortName",
+        "source": "DD MAG",
+        "translation": "DD",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "672e2e758808bacbb9d5abc4 ShortName",
+        "source": "AMMO",
+        "translation": "탄약 파우치",
+        "match_mode": "item_decorated"
       }
     ]
   }

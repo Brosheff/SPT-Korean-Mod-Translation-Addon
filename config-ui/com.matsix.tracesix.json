@@ -1,0 +1,866 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.matsix.tracesix",
+  "plugin_name": "TraceSix",
+  "mod_version": "1.0.0",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Glass",
+      "translation": "2. 유리"
+    },
+    {
+      "source": "3. Ray Tracing",
+      "translation": "3. 광선 추적"
+    },
+    {
+      "source": "4. Voxel World",
+      "translation": "4. 복셀 세계"
+    },
+    {
+      "source": "5. Debug",
+      "translation": "5. 디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Global illumination: sunlight, skylight and lamp light bounce off surfaces and light the world around them, in place of the game's flat ambient light. Off = the game's own lighting.",
+      "translation_display_name": "활성화",
+      "translation_description": "태양·하늘·조명의 빛이 표면에서 반사되어 주변을 밝히는 전역 조명입니다. 게임의 균일한 주변광을 대체합니다. 끄면 게임 기본 조명을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Toggle Key",
+      "source_display_name": "Toggle Key",
+      "source_description": "Switches Enabled off and on, to compare the picture with and without. Switched back on, the light fades in over about a second and a half.",
+      "translation_display_name": "활성화 전환 키",
+      "translation_description": "간접 조명을 켜고 끄며 화면을 비교합니다. 다시 켜면 약 1.5초에 걸쳐 빛이 나타납니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Strength",
+      "source_display_name": "Strength",
+      "source_description": "How bright the bounced light is. 1 = exactly what the game's own sun and sky give, which leaves shade and window-lit rooms darker than an eye would see them. Higher = rooms read more as they would to someone standing in them.",
+      "translation_display_name": "간접 조명 강도",
+      "translation_description": "반사된 빛의 밝기입니다. 1은 게임의 태양·하늘빛을 그대로 반영해 그늘과 창가 방이 실제 눈보다 어둡게 느껴질 수 있습니다. 높이면 실내가 더 자연스러운 밝기로 보입니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Detail Reach",
+      "source_display_name": "Detail Reach",
+      "source_description": "How far around you the finest (half-metre) light reaches, in metres. Beyond it coarser light takes over, which in large interiors can show as corners and walls brightening as you come up to them. 16 = closer in, with a sharper hand-over; the light updates cost about a third less and settle sooner.",
+      "translation_display_name": "고해상도 조명 거리",
+      "translation_description": "주변의 세밀한 0.5m 조명 셀이 적용되는 거리입니다(미터). 그 밖에서는 더 큰 셀을 사용해 큰 실내에서 접근할수록 벽·구석이 밝아지는 현상이 생길 수 있습니다. 16으로 낮추면 경계 전환이 가파르지만 업데이트 비용이 약 3분의 1 줄어듭니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Light Update Rate",
+      "source_display_name": "Light Update Rate",
+      "source_description": "How much of the light is recalculated every frame. Higher costs more; lower is cheaper, and the light then takes longer to settle after something changes (walking into a new area, the time of day).",
+      "translation_display_name": "조명 업데이트 비율",
+      "translation_description": "매 프레임 재계산하는 조명의 양입니다. 높으면 비용이 늘고 낮으면 절약되지만 이동·시간대 변화 후 조명이 안정되는 데 오래 걸립니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Lamp Light",
+      "source_display_name": "Lamp Light",
+      "source_description": "The map's lamps bounce their light too, and walls between a lamp and a surface block it. Off = sun and sky only. The lamps' own direct light is the game's either way.",
+      "translation_display_name": "전등 간접광",
+      "translation_description": "맵의 전등 빛도 표면에서 반사되고 벽에 의해 차단됩니다. 끄면 태양·하늘빛만 간접 조명에 포함합니다. 전등의 직접광은 어느 쪽이든 게임 기본값입니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Moving Lights",
+      "source_display_name": "Moving Lights",
+      "source_description": "Flashlights bounce their light too - yours and the nearest few others that are on - following the light every frame. Costs something only while such a light is on near you. Needs Lamp Light.",
+      "translation_display_name": "이동 광원",
+      "translation_description": "자신과 가까운 다른 사람의 손전등 빛도 매 프레임 반사광으로 계산합니다. 근처에서 손전등이 켜졌을 때만 추가 비용이 듭니다. 전등 간접광이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Indirect Light In Scopes",
+      "source_display_name": "Indirect Light In Scopes",
+      "source_description": "The scope's picture gets the bounced light too, so what you see through a scope is lit like what is around it. Costs a second, smaller pass while you look through a scope.",
+      "translation_display_name": "조준경 안 간접 조명",
+      "translation_description": "배율 조준경 영상에도 주변과 동일한 반사광을 적용합니다. 조준 중 작은 추가 렌더링 패스 비용이 발생합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "VR Support",
+      "source_display_name": "VR Support",
+      "source_description": "Runs the mod in VR (SPT-VR): the bounced light, each eye drawn on its own - about twice the flat screen's cost. The ray-traced light in VR also needs Ray Tracing In VR (EXPERIMENTAL), an advanced setting under Ray Tracing. Off = the game's own lighting in VR.",
+      "translation_display_name": "VR 지원",
+      "translation_description": "SPT-VR에서 눈마다 별도 간접 조명을 계산합니다. 일반 화면보다 비용이 약 두 배입니다. VR의 광선 추적 간접광은 실험적 VR 광선 추적 옵션도 필요합니다. 끄면 VR에서는 게임 기본 조명을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Open Doors And Windows",
+      "source_display_name": "Open Doors And Windows",
+      "source_description": "Keeps the door and window openings the game itself marks open in the light's copy of the world, so daylight reaches rooms whose windows are framed too finely for it. Takes effect as the area around you is rebuilt (walk about 15 m).",
+      "translation_display_name": "열린 문·창문 인식",
+      "translation_description": "게임이 열린 것으로 표시한 문과 창을 조명용 공간에서도 열려 있게 유지합니다. 창틀이 너무 복잡해도 햇빛이 실내에 들어올 수 있습니다. 주변 약 15m를 이동해 공간이 재구성될 때 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Maps Without Indirect Light",
+      "source_display_name": "Maps Without Indirect Light",
+      "source_description": "Maps the mod stays off on, by the game's own map names, separated by commas (the log names the map at the start of every raid). The Lab and the Labyrinth are sealed and lit by lamps alone, and look as intended with the game's own fill light. Read when a raid starts.",
+      "translation_display_name": "간접광 제외 맵",
+      "translation_description": "간접 조명을 끌 맵의 내부 이름을 쉼표로 나열합니다. 레이드 시작 시 읽으며 맵 이름은 로그에서 확인할 수 있습니다. 연구소·미궁처럼 밀폐된 맵은 기본 주변광이 더 자연스러울 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Glowing Surfaces Give Light",
+      "source_display_name": "Glowing Surfaces Give Light",
+      "source_description": "Glowing surfaces that have no lamp of their own - signs, screens, billboards, lit logos, Factory's daylit windows - give light too, bounced onto what is around them, as bright as the game draws them. The glow of a lamp's own fixture is left to that lamp's light. Switches at once; which surfaces glow is worked out when a raid starts.",
+      "translation_display_name": "발광 표면의 조명",
+      "translation_description": "간판·모니터·광고판·발광 로고·공장 창문처럼 자체 광원이 없는 발광 표면도 주변을 밝힙니다. 전등 부품의 발광은 전등 자체에 맡깁니다. 즉시 전환되며 어떤 표면이 빛나는지는 레이드 시작 시 판정합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Smooth Indirect Light",
+      "source_display_name": "Smooth Indirect Light",
+      "source_description": "Smooths the light along each surface before it goes on the picture, hiding the blocky edges of the light cells. Off = the cells as they are.",
+      "translation_display_name": "간접광 부드럽게",
+      "translation_description": "화면에 적용하기 전 각 표면의 조명을 평활화하여 셀 경계의 블록 현상을 숨깁니다. 끄면 원래 셀 형태가 보입니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "In-Between Detail",
+      "source_display_name": "In-Between Detail",
+      "source_description": "A level of 1 m light cells between the 0.5 m ones around you and the 2 m ones further out, so the light gets coarser in two small steps instead of one large one. No frame-time cost, about a third more video memory. Off = three levels.",
+      "translation_display_name": "중간 거리 조명 디테일",
+      "translation_description": "가까운 0.5m와 먼 2m 셀 사이에 1m 셀을 추가해 디테일이 점진적으로 감소합니다. 프레임 비용은 없지만 VRAM이 약 3분의 1 더 필요합니다. 끄면 세 단계만 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Rays Per Cell",
+      "source_display_name": "Rays Per Cell",
+      "source_description": "How many rays a light cell sends each time it updates. 32 doubles their cost, and is a little calmer in places lit from many directions at once.",
+      "translation_display_name": "셀당 광선 수",
+      "translation_description": "조명 셀이 업데이트될 때 발사하는 광선 수입니다. 32로 높이면 비용이 두 배가 되지만 여러 방향의 빛이 섞이는 곳에서 다소 안정적입니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Light Ray Budget",
+      "source_display_name": "Light Ray Budget",
+      "source_description": "At most this many in a hundred of the light cells updated in a frame send their rays; the rest wait for their next turn. Caps the cost in cluttered places, which then settle a little slower. Cells that have just come into reach always send theirs. 100 = no cap.",
+      "translation_display_name": "조명 광선 예산",
+      "translation_description": "한 프레임에 업데이트한 셀 100개 중 광선을 쏠 수 있는 셀 수의 상한입니다. 혼잡한 장면의 비용을 제한하지만 조명이 안정되기까지 오래 걸립니다. 새로 범위에 들어온 셀은 항상 광선을 발사합니다. 100은 제한 없음입니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Bounce Fill Lights",
+      "source_display_name": "Bounce Fill Lights",
+      "source_description": "The game's artists placed shadowless fill lights (named ...GI) beside many lamps, as a stand-in for the light that lamp bounces. On = those are bounced as well. Off = only where one is all that is lit of its lamp: elsewhere the mod already works out the lamp's bounce itself, and the stand-in adds to it. The game draws them either way.",
+      "translation_display_name": "보조 조명 반사",
+      "translation_description": "게임 제작자가 전등 옆에 두어 반사광을 흉내 낸 그림자 없는 보조광(...GI)도 반사광으로 계산합니다. 끄면 해당 전등의 실제 반사광을 이미 계산하는 곳에서 이중으로 더하지 않고, 보조광만 있는 곳에서만 사용합니다. 게임의 보조광 자체는 그대로 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Glow Lamp Distance",
+      "source_display_name": "Glow Lamp Distance",
+      "source_description": "Glowing Surfaces Give Light: a glowing surface with one of the game's lights within this many metres of it is taken to be lit by that light already (ceiling light strips, lamp panels: the game's lights sit on them) and gives no light of its own. 0 = every glowing surface that is not a lamp fixture. Read when a raid starts.",
+      "translation_display_name": "발광 표면·전등 근접 거리",
+      "translation_description": "발광 표면의 주변에 게임 조명이 이 거리 안에 있으면 이미 조명된 것으로 간주하고 자체 발광을 더하지 않습니다. 0은 전등 부품이 아닌 모든 발광 표면을 포함합니다. 레이드 시작 시 읽습니다.",
+      "values": []
+    },
+    {
+      "section": "2. Glass",
+      "key": "See-Through Glass Windows",
+      "source_display_name": "See-Through Glass Windows",
+      "source_description": "Makes the glass-block windows the game draws as solid walls see-through: what is behind them shows through, blurred and tinted by the glass, while the mortar between the blocks stays solid. Off = the game's solid look.",
+      "translation_display_name": "유리블록 창문 투명화",
+      "translation_description": "게임에서 불투명 벽처럼 표시하는 유리블록 창문을 투명하게 바꿉니다. 뒤쪽은 유리색으로 착색·흐림 처리하고 블록 사이 모르타르는 불투명하게 유지합니다. 끄면 기본 불투명 표시입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Glass",
+      "key": "Glass Transparency",
+      "source_display_name": "Glass Transparency",
+      "source_description": "See-Through Glass Windows: how much of what is behind the glass shows through. 0 = the game's solid look, 1 = only what is behind it (its reflections stay).",
+      "translation_display_name": "유리 투명도",
+      "translation_description": "유리블록 창문 뒤쪽이 얼마나 보이는지 설정합니다. 0은 기본 불투명, 1은 뒤쪽만 표시하며 반사는 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Glass",
+      "key": "Glass Tint",
+      "source_display_name": "Glass Tint",
+      "source_description": "See-Through Glass Windows: how much of the glass's own colour what is behind it (and the sunlight through it) takes. 0 = clear glass, 1 = the full colour.",
+      "translation_display_name": "유리 색조",
+      "translation_description": "유리 뒤쪽 장면과 통과하는 햇빛에 유리색을 입히는 정도입니다. 0은 무색, 1은 전체 색조입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Glass",
+      "key": "Glass Frost",
+      "source_display_name": "Glass Frost",
+      "source_description": "See-Through Glass Windows: how blurred what is seen through the glass is. 0 = clear, 1 = strongly frosted.",
+      "translation_display_name": "유리 불투명 흐림",
+      "translation_description": "유리를 통과해 보이는 장면의 흐림 정도입니다. 0은 투명, 1은 강한 반투명 효과입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Ray Tracing",
+      "source_display_name": "Ray Tracing",
+      "source_description": "Hardware ray tracing against the map's real geometry (needs a GPU and driver with DirectX ray tracing tier 1.1). When a raid starts with it on, the game pauses for a few seconds, once, while the map is read in; that takes about 1 GB of video memory until the raid ends (switched off mid-raid, it is kept until then). Off = the voxel light only.",
+      "translation_display_name": "광선 추적",
+      "translation_description": "맵의 실제 기하 구조를 이용하는 하드웨어 광선 추적입니다. DirectX 광선 추적 1.1을 지원하는 GPU와 드라이버가 필요합니다. 켠 상태로 레이드에 진입하면 맵 읽기에 몇 초가 걸리고 레이드 종료까지 약 1GB VRAM을 사용합니다. 중간에 꺼도 메모리는 유지됩니다. 끄면 복셀 조명만 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "RT Global Illumination",
+      "source_display_name": "RT Global Illumination",
+      "source_description": "The bounced light comes from the rays instead of the voxel lookup: shadowing and contact shading from the real geometry, with the voxel light cells answering for the light past the traced bounces and past Ray Length. Off = the voxel light, while the ray-traced shadows below keep working.",
+      "translation_display_name": "광선 추적 전역 조명",
+      "translation_description": "복셀 조회 대신 실제 기하 구조에 광선을 쏴 간접광과 접촉 그림자를 계산합니다. 광선 반사 횟수나 최대 거리 밖의 빛은 복셀 조명 셀이 맡습니다. 끄면 복셀 간접광을 사용하되 아래의 광선 추적 그림자는 계속 작동합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Pixel Step",
+      "source_display_name": "Pixel Step",
+      "source_description": "Rays are traced from one pixel in every N x N. 1 = every pixel (about four times the cost of 2), 2 = a quarter of them, 3 or 4 = cheaper and softer.",
+      "translation_display_name": "광선 추적 픽셀 간격",
+      "translation_description": "N×N픽셀마다 광선 하나를 발사합니다. 1은 모든 픽셀(2보다 약 네 배 비용), 2는 4픽셀 중 하나, 3~4는 비용이 낮지만 더 부드럽게 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Rays Per Pixel",
+      "source_display_name": "Rays Per Pixel",
+      "source_description": "Rays from each traced pixel per frame. More = less grain, about the whole cost again per ray.",
+      "translation_display_name": "픽셀당 광선 수",
+      "translation_description": "매 프레임 추적 픽셀에서 발사하는 광선 수입니다. 늘리면 입자 노이즈가 줄지만 광선 하나당 비용이 추가됩니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Traced Second Bounce",
+      "source_display_name": "Traced Second Bounce",
+      "source_description": "Where a ray hits, one more ray, so the second bounce also comes from the real geometry instead of the light cells: less light leaking through thin walls, at a noticeable cost and a little more grain.",
+      "translation_display_name": "두 번째 반사도 추적",
+      "translation_description": "첫 번째 광선 적중 후 광선을 한 번 더 발사하여 두 번째 반사도 실제 기하 구조로 계산합니다. 얇은 벽을 통과하는 빛이 줄지만 성능 비용과 약간의 노이즈가 증가합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Ray-Traced Textures",
+      "source_display_name": "Ray-Traced Textures",
+      "source_description": "Rays take the real colour of the textures they hit, and leaves, fences and grates stop rays only where they are solid. Off = the voxels' coarser colours. About 100 MB of video memory at the default Ray-Traced Texture Size. Takes effect at the next raid.",
+      "translation_display_name": "광선 추적 텍스처",
+      "translation_description": "광선이 맞은 표면의 실제 텍스처 색상을 사용하고 잎·울타리·격자의 뚫린 부분도 구분합니다. 끄면 더 거친 복셀색을 사용합니다. 기본 텍스처 크기에서 약 100MB VRAM이 필요하며 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Ray-Traced Direct Lamp Shadows",
+      "source_display_name": "Ray-Traced Direct Lamp Shadows",
+      "source_description": "The lamps' direct light is shadowed by the real geometry: no more lamp light through walls, shelves and floors (most of the game's lamps cast no shadow of their own). Each lamp keeps the game's look.",
+      "translation_display_name": "전등 직접광 광선 추적 그림자",
+      "translation_description": "전등의 직접광을 실제 기하 구조로 차폐해 벽·선반·바닥을 통과하는 빛을 막습니다. 대부분의 기본 게임 전등은 자체 그림자가 없습니다. 전등의 본래 색과 모습은 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Ray-Traced Sun Shadows",
+      "source_display_name": "Ray-Traced Sun Shadows",
+      "source_description": "Sun shadows traced against the map's real geometry: shadows as far as you can see, from small and thin things too, with edges that soften with distance from what casts them.",
+      "translation_display_name": "태양광 광선 추적 그림자",
+      "translation_description": "맵의 실제 기하 구조로 태양 그림자를 계산합니다. 얇고 작은 물체도 먼 거리까지 그림자를 드리우고 그림자 가장자리는 물체에서 멀수록 부드러워집니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Sun Shadow Mode",
+      "source_display_name": "Sun Shadow Mode",
+      "source_description": "How the ray-traced sun shadows go with the game's own. RayTracedWorld = the map's shadows come from the rays alone, and the game still shadows what the rays do not see (you, your gun, bots, grass, swaying leaves); the game's shadow pass also draws far less. Mixed = the darker of the two everywhere.",
+      "translation_display_name": "태양 그림자 방식",
+      "translation_description": "RayTracedWorld: 맵의 그림자는 광선 추적만 사용하고 플레이어·무기·봇·풀 등 광선 추적이 보지 못하는 대상은 게임 기본 그림자를 사용합니다. 기본 게임의 그림자 패스 비용도 줄어듭니다. Mixed: 두 그림자 중 어두운 것을 사용합니다.",
+      "values": [
+        {
+          "source": "RayTracedWorld",
+          "translation": "광선 추적 세계"
+        },
+        {
+          "source": "Mixed",
+          "translation": "혼합"
+        }
+      ]
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Ray-Traced Sun Shadows In Scopes",
+      "source_display_name": "Ray-Traced Sun Shadows In Scopes",
+      "source_description": "The scope's picture traces its own sun shadows, so what you see through a scope is shadowed like what is around it. Off = the scope has the game's shadows.",
+      "translation_display_name": "조준경 안 광선 추적 태양 그림자",
+      "translation_description": "배율 조준경 영상에서 별도의 태양 그림자를 추적해 주변과 같은 그림자가 나타납니다. 끄면 조준경에 게임 기본 그림자를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Stereo Blend In VR",
+      "source_display_name": "Stereo Blend In VR",
+      "source_description": "VR: each eye's ray-traced light is blended with the other eye's where both see the same surface and agree up to their noise (Philippi, Frisvad and Jensen 2023), so the leftover grain is the same in both eyes instead of shimmering between them. Where the eyes truly differ - a surface only one eye sees, an edge - each keeps its own. Costs one light pass an eye. Needs Ray Tracing In VR (EXPERIMENTAL). Off = each eye's light alone.",
+      "translation_display_name": "VR 양안 조명 혼합",
+      "translation_description": "VR에서 같은 표면을 보는 두 눈의 광선 추적 조명을 비교해 노이즈가 허용되는 범위에서 섞습니다. 서로 다른 표면·가장자리는 각각 유지합니다. 눈마다 추가 조명 패스가 필요하며 실험적 VR 광선 추적이 켜져 있어야 합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Ray Tracing In VR (EXPERIMENTAL)",
+      "source_display_name": "Ray Tracing In VR (EXPERIMENTAL)",
+      "source_description": "VR (SPT-VR, with VR Support on): the ray-traced light on the VR camera too, each eye traced on its own - about twice the flat screen's cost, and the eyes' grain can differ (Stereo Blend In VR evens it out). Ray-traced sun and lamp shadows, AO and reflections stay flat screen only. Off = VR keeps the voxel light, and while you play in VR the map is not read in for the rays (no pause at the raid's start, no video memory).",
+      "translation_display_name": "VR 광선 추적(실험적)",
+      "translation_description": "SPT-VR과 VR 지원이 활성화되면 양쪽 눈을 각각 광선 추적해 일반 화면보다 비용이 약 두 배입니다. 양안 노이즈 차이는 양안 혼합으로 줄일 수 있습니다. 태양·전등 그림자, AO, 반사는 VR에서 지원하지 않습니다. 끄면 복셀 조명만 사용하고 광선 추적용 맵 로드도 생략합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Ambient Occlusion",
+      "source_display_name": "Ambient Occlusion",
+      "source_description": "Fine contact shading on top of the ray-traced light, for what is smaller than its rays resolve (seams, the gap under a crate, where an object meets the floor). ScreenSpace = AOSix's AO (needs AOSix), which also covers bots and loot. RayTraced = short rays from every pixel: no screen-space halos, but only the map casts it. Off = none.",
+      "translation_display_name": "주변광 차폐 방식",
+      "translation_description": "광선 추적 조명에 작은 틈과 접촉부 그림자를 더합니다. ScreenSpace: AOSix의 AO를 사용하며 봇·전리품에도 적용합니다(AOSix 필요). RayTraced: 픽셀마다 짧은 광선을 쏘므로 화면 공간 후광이 없지만 맵만 차폐합니다. Off: 없음입니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "ScreenSpace",
+          "translation": "화면 공간"
+        },
+        {
+          "source": "RayTraced",
+          "translation": "광선 추적"
+        }
+      ]
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Ray Length",
+      "source_display_name": "Ray Length",
+      "source_description": "How far each ray looks, in metres. Past that, the light comes from the light cells. Longer costs more.",
+      "translation_display_name": "광선 최대 길이",
+      "translation_description": "광선이 탐색하는 최대 거리입니다(미터). 그 밖의 빛은 복셀 조명 셀에서 가져옵니다. 길수록 비용이 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Half-Rate Tracing",
+      "source_display_name": "Half-Rate Tracing",
+      "source_description": "Each frame only half of the traced pixels trace a new ray, in a checkerboard that swaps every frame; the others reuse their kept samples. Halves the tracing cost for a little more grain. Needs Reuse Ray Samples.",
+      "translation_display_name": "절반 비율 광선 추적",
+      "translation_description": "매 프레임 체크무늬 패턴의 절반 픽셀만 새 광선을 쏘고 나머지는 이전 표본을 재사용합니다. 비용을 절반으로 줄이지만 노이즈가 약간 증가합니다. 광선 표본 재사용이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Reuse Ray Samples",
+      "source_display_name": "Reuse Ray Samples",
+      "source_description": "ReSTIR GI: each traced pixel keeps the best of what its rays found, and takes over better finds from its last frame and from a neighbour (only where a ray confirms nothing is in the way). Much less grain in rooms lit by a lamp or a doorway.",
+      "translation_display_name": "광선 표본 재사용",
+      "translation_description": "ReSTIR GI 방식입니다. 각 픽셀이 유용한 광선 결과를 저장하고 이전 프레임·주변 픽셀의 더 좋은 표본을 차폐 검사 후 공유해 전등이나 출입구의 빛을 더 안정적으로 표현합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Reuse History",
+      "source_display_name": "Reuse History",
+      "source_description": "Reuse Ray Samples: how many frames a kept sample may stand for. More = calmer light, but a rare bright find lingers as a blotch around it. Fewer = blotches clear faster, a little more grain.",
+      "translation_display_name": "광선 표본 유지 프레임",
+      "translation_description": "재사용한 광선 표본을 유지할 수 있는 프레임 수입니다. 높이면 안정되지만 드문 밝은 표본이 얼룩으로 남을 수 있습니다. 낮으면 얼룩이 빨리 사라지는 대신 노이즈가 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Reuse Brightness Limit",
+      "source_display_name": "Reuse Brightness Limit",
+      "source_description": "Reuse Ray Samples: a sample taken over from a neighbour is left out where it would count more than this many times brighter or darker here (corners, where objects meet the floor). Lower = fewer bright specks there, a little less light shared.",
+      "translation_display_name": "재사용 표본 밝기 제한",
+      "translation_description": "이웃에게서 가져온 표본이 현 위치에서 이 배수 이상 밝거나 어두우면 제외합니다. 구석·바닥 접촉부의 밝은 점이 줄어들지만 공유되는 빛도 약간 감소합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Spread Ray Samples",
+      "source_display_name": "Spread Ray Samples",
+      "source_description": "Reuse Ray Samples: neighbours' finds also go into a lasting sample of each pixel, so a small bright area (the ground round a fire or a small lamp, seen from afar) spreads and settles instead of showing as blotches. Off = a neighbour's find is borrowed for one frame only.",
+      "translation_display_name": "광선 표본 확산",
+      "translation_description": "이웃 픽셀의 광선 결과를 지속 표본에도 반영해 멀리 보이는 작은 밝은 영역이 얼룩 없이 퍼지고 안정되게 합니다. 끄면 이웃 결과를 한 프레임만 빌립니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Guided Light Rays",
+      "source_display_name": "Guided Light Rays",
+      "source_description": "Half of each pixel's rays aim at the brightest points it and its neighbours have found (path guiding), weighted so the average light is unchanged. Small bright patches - the pool under a lamp - are found more often. Off by default: in dim rooms lit through a window it can make the light come and go in blobs.",
+      "translation_display_name": "유도 간접광 광선",
+      "translation_description": "광선 절반을 해당 픽셀과 이웃이 찾은 밝은 지점으로 보내 작은 광원 주변을 더 자주 탐색합니다. 가중치를 적용해 평균 밝기는 유지합니다. 창빛만 들어오는 어두운 방에서는 얼룩이 생길 수 있어 기본으로 꺼져 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Denoise",
+      "source_display_name": "Denoise",
+      "source_description": "Keeps each traced pixel's light over the frames before and blurs it along its own surface. Off = the raw rays of each frame (for comparison).",
+      "translation_display_name": "노이즈 제거",
+      "translation_description": "추적 픽셀의 빛을 여러 프레임에 걸쳐 누적한 뒤 같은 표면을 따라 흐립니다. 끄면 매 프레임의 원본 광선을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Pre-Blur",
+      "source_display_name": "Pre-Blur",
+      "source_description": "Denoise: each frame's light is blurred along its surface before it goes into the history (NVIDIA ReBLUR's pre-pass). A lucky bright ray no longer becomes a patch that sits, drifts and jumps - the boiling in dim rooms. Off = the history takes each frame's rays as they are.",
+      "translation_display_name": "누적 전 흐림",
+      "translation_description": "NVIDIA ReBLUR 방식으로 프레임의 빛을 이력에 넣기 전에 같은 표면에서 흐립니다. 드물게 밝은 광선이 오래 남아 이동하는 얼룩이 되는 문제를 줄입니다. 끄면 원본 광선을 그대로 누적합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Instant Light Switches",
+      "source_display_name": "Instant Light Switches",
+      "source_description": "Denoise: when a lamp or a flashlight switches on or off near you, the bounce light round it follows within a few frames instead of fading over about a second - where its light really changed, the history starts over, and the kept ray samples count for little for a moment. That area is a little grainier for a quarter of a second. Off = the history fades to the new light at its usual pace.",
+      "translation_display_name": "조명 변화 즉시 반영",
+      "translation_description": "주변 전등·손전등이 켜지거나 꺼지면 변경된 부분의 이력을 초기화하고 광선 표본 가중치를 잠시 낮춰 수 프레임 안에 반사광을 바꿉니다. 약 0.25초간 노이즈가 증가할 수 있습니다. 끄면 약 1초에 걸쳐 바뀝니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Stabilize Output",
+      "source_display_name": "Stabilize Output",
+      "source_description": "Denoise: the finished light is also averaged over the last frames (NVIDIA ReBLUR's temporal stabilization), which calms the fine shimmer the blur leaves. It may only differ from the frame's own light by about the grain, so a real change (a door, a lamp shot out) still shows at once. Off = each frame's denoised light as it is.",
+      "translation_display_name": "조명 출력 안정화",
+      "translation_description": "노이즈 제거가 끝난 빛을 이전 프레임과 한 번 더 평균해 미세한 깜빡임을 줄입니다. 실제 문 열림·전등 파손 변화는 즉시 따라가도록 편차를 제한합니다. 끄면 각 프레임 결과를 그대로 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Voxel Light For New Pixels",
+      "source_display_name": "Voxel Light For New Pixels",
+      "source_description": "Denoise: a surface that has just come into view (turning, walking backwards, a door opening) starts from the voxel light there, counted as this many frames, instead of from a single ray - the blotchy edges while you turn. The ray-traced light takes over as frames come in. Higher = smoother new areas, but they show the voxel light longer (in dim rooms it can be a little brighter or flatter). 0 = off.",
+      "translation_display_name": "새 픽셀의 복셀 조명",
+      "translation_description": "고개를 돌리거나 문이 열려 새로 나타난 표면을 광선 하나가 아닌 복셀 조명에서 시작하며 이 값만큼의 이력 프레임으로 취급합니다. 높이면 새 영역이 안정되지만 복셀 조명이 오래 남아 어둡고 평평하게 보일 수 있습니다. 0은 끔입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "History Frames",
+      "source_display_name": "History Frames",
+      "source_description": "How many frames of light a traced pixel keeps. More = smoother, but light that changes (a door opening, a cloud over the sun) takes longer to follow.",
+      "translation_display_name": "조명 이력 프레임",
+      "translation_description": "추적 픽셀이 유지할 조명 프레임 수입니다. 높이면 부드럽지만 문·구름 등 빛의 변화 반영이 늦어집니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Variance-Guided Denoising",
+      "source_display_name": "Variance-Guided Denoising",
+      "source_description": "A denoiser built like NVIDIA's ReLAX: it tracks how much each pixel's light varies and keeps a lone bright speck from being smeared into a blotch. Off = the standard denoiser, which keeps bounce shadows with Keep Bounce Shadows.",
+      "translation_display_name": "분산 기반 노이즈 제거",
+      "translation_description": "NVIDIA ReLAX와 유사하게 픽셀별 빛의 변동을 추적해 밝은 점 하나가 얼룩으로 번지는 것을 방지합니다. 끄면 일반 노이즈 제거기와 반사광 그림자 보존 설정을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Keep Bounce Shadows",
+      "source_display_name": "Keep Bounce Shadows",
+      "source_description": "With Variance-Guided Denoising off: how much the blur keeps the shadows bounced light casts (under a table, behind a crate, in corners). 0 = none kept. Higher = crisper bounce shadows, a little more grain along walls and in corners.",
+      "translation_display_name": "반사광 그림자 보존",
+      "translation_description": "분산 기반 노이즈 제거가 꺼졌을 때 흐림으로 지워지는 반사광 그림자를 보존합니다. 0은 보존하지 않으며 높이면 그림자가 선명해지지만 구석·벽의 노이즈가 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Cell Check Ray Limit",
+      "source_display_name": "Cell Check Ray Limit",
+      "source_description": "The most short rays a ray's end casts to find a light cell it can really see (which keeps light from leaking through thin walls). Past the limit that point takes no cell light: a little darker in clutter, never a leak. Higher = brighter in clutter, costs more there. 0 = no limit.",
+      "translation_display_name": "셀 확인 광선 상한",
+      "translation_description": "광선 종착점에서 실제로 볼 수 있는 조명 셀을 찾기 위해 추가로 쏘는 짧은 광선의 최대 수입니다. 상한에 도달하면 셀 조명을 받지 않아 혼잡한 곳이 어두울 수 있지만 벽을 통과한 빛은 막습니다. 높이면 밝아지지만 비용이 증가합니다. 0은 제한 없음입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Reuse Lamp Choices",
+      "source_display_name": "Reuse Lamp Choices",
+      "source_description": "Ray-Traced Direct Lamp Shadows: ReSTIR DI. The two lamps that light a point most are always traced; for the rest, each point keeps a record of the lamp worth tracing and takes over better ones from where it was last frame and from its neighbours, dropping lamps that turned out blocked - so in a room full of lamps the choice settles on the ones that really reach each point, instead of a new random one every frame. Off = one of the rest picked at random each frame.",
+      "translation_display_name": "전등 선택 재사용",
+      "translation_description": "전등 직접광의 ReSTIR DI 기능입니다. 가장 크게 영향을 주는 전등 두 개를 항상 추적하고, 나머지는 이전 프레임·이웃에서 유용한 전등을 재선택하며 가려진 광원은 제외합니다. 끄면 나머지 전등 하나를 프레임마다 무작위로 고릅니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Denoise Ray-Traced Shadows",
+      "source_display_name": "Denoise Ray-Traced Shadows",
+      "source_description": "The ray-traced sun and lamp shadows are filtered where they are still noisy - penumbras, spots lit by several lamps, the light of a moving flashlight - as AMD's FidelityFX shadow denoiser does it: each pixel keeps track of how much its shadow jumps about, the sun's keeps up to 32 frames where it is steady, and it is blurred along its own surface only where it still jumps, so sharp shadow edges stay sharp. Off = the shadows as accumulated.",
+      "translation_display_name": "광선 추적 그림자 노이즈 제거",
+      "translation_description": "태양·전등 그림자의 불안정한 반그림자와 여러 광원 구간을 표면별로 필터링합니다. 태양 그림자는 안정 구간에서 최대 32프레임을 누적하고 노이즈가 남은 곳만 흐려 선명한 경계는 유지합니다. 끄면 누적된 그림자를 그대로 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Sun Ray Length",
+      "source_display_name": "Sun Ray Length",
+      "source_description": "How far a ray toward the sun looks for something in the way, in metres.",
+      "translation_display_name": "태양 광선 길이",
+      "translation_description": "태양 방향으로 차폐물을 찾는 광선의 최대 거리입니다(미터).",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Sun Shadow Softness",
+      "source_display_name": "Sun Shadow Softness",
+      "source_description": "The sun's size in degrees: how quickly a shadow softens away from what casts it. 0.27 = the real sun; more = softer.",
+      "translation_display_name": "태양 그림자 부드러움",
+      "translation_description": "태양의 각지름(도)입니다. 그림자가 원인 물체에서 멀어질수록 부드러워지는 정도를 결정합니다. 0.27은 실제 태양 크기이며 높일수록 부드럽습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Sun Rays Skip Surfaces Facing Away",
+      "source_display_name": "Sun Rays Skip Surfaces Facing Away",
+      "source_description": "Surfaces facing away from the sun are put in shadow without a ray: cheaper, but leaves lit from behind go dark and the sunny sides of trees speckle.",
+      "translation_display_name": "역광 표면 광선 생략",
+      "translation_description": "태양 반대쪽을 향한 표면은 광선을 쏘지 않고 그림자로 처리해 성능을 절약합니다. 대신 뒤에서 비치는 잎이 어두워지거나 나무의 밝은 면에 점무늬가 생길 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Ray-Traced Texture Size",
+      "source_display_name": "Ray-Traced Texture Size",
+      "source_description": "Ray-Traced Textures: the size of each material's copy, in pixels. 128 = about 100 MB of video memory on a big map; 64 = a quarter of that, slightly blurrier ray-traced reflections. Takes effect at the next raid.",
+      "translation_display_name": "광선 추적 텍스처 크기",
+      "translation_description": "각 재질의 광선 추적용 복제 텍스처 크기입니다(픽셀). 128은 큰 맵에서 약 100MB VRAM, 64는 약 4분의 1을 사용하지만 반사가 조금 흐립니다. 다음 레이드부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Leaf Cover",
+      "source_display_name": "Leaf Cover",
+      "source_description": "With Ray-Traced Textures off: the chance that a ray hitting leaves, grates or fences is stopped. 0 = see-through, 1 = solid.",
+      "translation_display_name": "잎·격자 차폐 확률",
+      "translation_description": "광선 추적 텍스처가 꺼졌을 때 잎·격자·울타리에 닿은 광선이 차단될 확률입니다. 0은 통과, 1은 완전 차폐입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Ray-Traced AO Radius",
+      "source_display_name": "Ray-Traced AO Radius",
+      "source_description": "Ambient Occlusion = RayTraced: how far its rays look, in metres. Longer = wider shading.",
+      "translation_display_name": "광선 추적 AO 반경",
+      "translation_description": "AO가 RayTraced일 때 주변광 차폐 광선의 탐색 거리입니다(미터). 높이면 더 넓은 그림자를 만듭니다.",
+      "values": []
+    },
+    {
+      "section": "3. Ray Tracing",
+      "key": "Ray-Traced AO Rays",
+      "source_display_name": "Ray-Traced AO Rays",
+      "source_description": "Ambient Occlusion = RayTraced: rays from each pixel per frame. More = less grain while moving, about the whole cost again per ray.",
+      "translation_display_name": "광선 추적 AO 광선 수",
+      "translation_description": "AO가 RayTraced일 때 픽셀당 매 프레임 발사하는 광선 수입니다. 늘리면 움직일 때 노이즈가 줄지만 비용이 광선 수만큼 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "4. Voxel World",
+      "key": "One-Metre Voxels",
+      "source_display_name": "One-Metre Voxels",
+      "source_description": "A copy of the world in 1 m voxels, 128 m across, between the 0.5 m one around you and the 2 m one beyond: what lies 25 - 50 m away (the far end of a corridor, the rooms across a hall) is lit through finer voxels. About 25 MB of video memory, and one more volume rebuilt as you move (every 13 m or so).",
+      "translation_display_name": "1m 복셀 계층",
+      "translation_description": "가까운 0.5m 복셀과 먼 2m 복셀 사이에 폭 128m의 1m 복셀 세계를 추가합니다. 약 25~50m의 복도 끝·맞은편 방 등을 정밀하게 조명합니다. 약 25MB VRAM과 이동 중 추가 재구성이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "4. Voxel World",
+      "key": "Coarse Voxels From Full Detail",
+      "source_display_name": "Coarse Voxels From Full Detail",
+      "source_description": "The coarser voxel volumes (2 m and 8 m) are built from the same full-detail models as the detailed one. Off = from each object's simpler models where it has them, which can lack interior ceilings: a hall then looks roofless to the light until the detailed voxels reach it. Changing it during a raid reads the map again (the light drops out for some seconds).",
+      "translation_display_name": "고해상도 모델로 큰 복셀 생성",
+      "translation_description": "2m·8m 복셀도 단순화 모델 대신 전체 디테일 모델을 사용합니다. 단순 모델에서 천장이 빠진 실내가 외부처럼 밝아지는 문제를 줄입니다. 레이드 중 변경하면 맵을 다시 읽으며 잠시 조명이 사라집니다.",
+      "values": []
+    },
+    {
+      "section": "4. Voxel World",
+      "key": "Voxelise Collider-Layer Geometry",
+      "source_display_name": "Voxelise Collider-Layer Geometry",
+      "source_description": "The voxel world also takes the visible meshes the game keeps on its collision layer - Interchange's parking roof and floor are there. Off = left out: the garage is then open to the hall above for the light. Changing it during a raid reads the map again.",
+      "translation_display_name": "충돌 레이어 지오메트리 복셀화",
+      "translation_description": "게임의 충돌 레이어에 있는 가시 메시도 복셀화합니다. 예를 들어 인터체인지 주차장 지붕·바닥을 조명 차폐에 포함합니다. 변경하면 맵을 다시 읽습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Voxel World",
+      "key": "Voxelise Culling-Layer Geometry",
+      "source_display_name": "Voxelise Culling-Layer Geometry",
+      "source_description": "The voxel world also takes the visible meshes the game keeps on its culling layer - on Reserve every wall, floor and ceiling of the underground. Off = left out: Reserve's bunkers are then open to the sky for the light. Changing it during a raid reads the map again.",
+      "translation_display_name": "컬링 레이어 지오메트리 복셀화",
+      "translation_description": "게임의 컬링 레이어에 있는 가시 메시도 복셀화합니다. 예를 들어 리저브 지하 벙커의 벽·바닥·천장을 차폐합니다. 변경하면 맵을 다시 읽습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Voxel World",
+      "key": "Lamp Fixtures In The Voxel World",
+      "source_display_name": "Lamp Fixtures In The Voxel World",
+      "source_description": "The lamps' own meshes (shade, panel, pole) are part of the light's copy of the world. Off = left out (the game lets a lamp's light shine through its own fixture; kept in, a hanging lamp's panel can catch its own light). Changing it during a raid reads the map again.",
+      "translation_display_name": "전등 구조물 복셀화",
+      "translation_description": "전등갓·패널·기둥 등 전등 자체의 메시를 조명용 공간에 포함합니다. 켜면 전등이 자기 구조물에 막힐 수 있습니다. 레이드 중 변경 시 맵을 다시 읽습니다.",
+      "values": []
+    },
+    {
+      "section": "4. Voxel World",
+      "key": "Voxel Draws Per Frame",
+      "source_display_name": "Voxel Draws Per Frame",
+      "source_description": "How many meshes are drawn into a voxel volume per frame while it rebuilds. Higher finishes a rebuild in fewer frames and costs more in each of them.",
+      "translation_display_name": "프레임당 복셀 메시 수",
+      "translation_description": "복셀 공간을 재구성할 때 프레임마다 그리는 메시 수입니다. 높이면 적은 프레임 안에 끝나지만 프레임별 비용이 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Show Voxel World",
+      "source_display_name": "Show Voxel World",
+      "source_description": "Replaces the picture with the voxel copy of the world the light is traced through. Untinted = the fine volume (64 m), bluish = the middle one (256 m), reddish = the coarse one (1 km).",
+      "translation_display_name": "복셀 세계 표시",
+      "translation_description": "조명이 탐색하는 복셀 세계를 화면 대신 보여줍니다. 무색은 가까운 64m, 파란색은 중간 256m, 붉은색은 먼 1km 복셀 계층입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Show Indirect Light Only",
+      "source_display_name": "Show Indirect Light Only",
+      "source_description": "Replaces the picture with the bounced light alone, as it falls on white surfaces: no textures, no sun, no lamps.",
+      "translation_display_name": "간접 조명만 표시",
+      "translation_description": "텍스처·태양·전등을 제외하고 흰 표면에 닿는 반사광만 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Show Ray Traced Light",
+      "source_display_name": "Show Ray Traced Light",
+      "source_description": "With Ray Tracing on: replaces the picture with the ray-traced light alone, on white surfaces (keep Show Indirect Light Only off with it). Split = ray-traced on the left half, the voxel light on the right. AmbientOcclusion = the AO laid on the ray-traced light, white = none. Albedo = the colour the ray tracing takes for each surface (faint stripes = the voxels' colour; magenta = not in the ray-traced scene: the gun, bots, grass) - the light starts over when you leave it. AlbedoVsGame = that on the left, the game's surface colour on the right. Sources = each pixel's own ray by where its light came from: red the sun, green the lamps, blue the rest (light cells, second bounce). Guided = green where Guided Light Rays has something to aim by, red where a ray was aimed. ShadowGuide = Keep Bounce Shadows' guide. History = the frames each pixel's light holds: white = History Frames, black = none, red = under 4.",
+      "translation_display_name": "광선 추적 조명 표시",
+      "translation_description": "광선 추적이 켜졌을 때 흰 표면에 닿는 광선 추적 조명을 별도 표시합니다. 분할: 왼쪽 광선 추적·오른쪽 복셀. AO: 차폐가 흰색이면 없음. Albedo: 광선의 표면 색(자홍색은 추적 장면 제외). 비교: 왼쪽 광선 색·오른쪽 게임 색. Sources: 태양 빨강·전등 초록·나머지 파랑. Guided/ShadowGuide: 광선 유도와 그림자 보존 안내. History: 유지 프레임을 색상으로 표시합니다. 사용 후 조명이 재설정될 수 있습니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "Full",
+          "translation": "전체"
+        },
+        {
+          "source": "Split",
+          "translation": "분할"
+        },
+        {
+          "source": "AmbientOcclusion",
+          "translation": "앰비언트 오클루전"
+        },
+        {
+          "source": "Albedo",
+          "translation": "알베도"
+        },
+        {
+          "source": "AlbedoVsGame",
+          "translation": "알베도/게임 비교"
+        },
+        {
+          "source": "Sources",
+          "translation": "광원"
+        },
+        {
+          "source": "Guided",
+          "translation": "가이드"
+        },
+        {
+          "source": "ShadowGuide",
+          "translation": "그림자 가이드"
+        },
+        {
+          "source": "History",
+          "translation": "히스토리"
+        }
+      ]
+    },
+    {
+      "section": "5. Debug",
+      "key": "Show Edge Pixels",
+      "source_display_name": "Show Edge Pixels",
+      "source_description": "The bounced light alone, with the pixels marked that found no neighbour on their own surface in the quarter-size lookup: green = it took a near neighbour's light, yellow = it borrowed with none near.",
+      "translation_display_name": "경계 픽셀 표시",
+      "translation_description": "반사광만 표시하면서 축소된 조명 조회에서 같은 표면 이웃을 찾지 못한 픽셀을 강조합니다. 초록은 가까운 이웃에서 보간, 노랑은 가까운 이웃 없이 빌린 값입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Show Which Probes Answer",
+      "source_display_name": "Show Which Probes Answer",
+      "source_description": "Replaces the picture with where each pixel's light comes from: green = the 0.5 m light volume, blue-green = the 1 m one, yellow = the 2 m one, red = the 8 m one, blue = none of them (plain sky ambient). Darker = the surface counts as indoors.",
+      "translation_display_name": "조명 프로브 출처 표시",
+      "translation_description": "픽셀별 조명에 기여한 셀 계층을 색상으로 표시합니다. 초록=0.5m, 청록=1m, 노랑=2m, 빨강=8m, 파랑=셀 없음(하늘 주변광). 어두울수록 실내로 판정된 표면입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Glass View",
+      "source_display_name": "Glass View",
+      "source_description": "See-Through Glass Windows: the glass shows one part of its light alone. SunShadow = the sun's shadow on it (white lit, black shadowed; red = no sample of a pane there, magenta = none made this frame); IndirectLight = the bounced light on it; ProbeAmbient = the light probes' ambient; Reflections = its reflections; SunLight = the sun's light on it. Off = the glass.",
+      "translation_display_name": "유리 디버그 보기",
+      "translation_description": "투명 유리블록의 조명 요소만 표시합니다. SunShadow=태양 그림자(흰색 빛·검정 그림자·빨강 샘플 없음·자홍색 프레임 데이터 없음), IndirectLight=반사광, ProbeAmbient=프로브 주변광, Reflections=반사, SunLight=직접 태양광, Off=원래 유리입니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "SunShadow",
+          "translation": "태양 그림자"
+        },
+        {
+          "source": "IndirectLight",
+          "translation": "간접광"
+        },
+        {
+          "source": "ProbeAmbient",
+          "translation": "프로브 환경광"
+        },
+        {
+          "source": "Reflections",
+          "translation": "반사"
+        },
+        {
+          "source": "SunLight",
+          "translation": "태양광"
+        }
+      ]
+    },
+    {
+      "section": "5. Debug",
+      "key": "Mark Own Light Pass",
+      "source_display_name": "Mark Own Light Pass",
+      "source_description": "With Ray-Traced Direct Lamp Shadows on: the lamps' direct light (not the sun's) drawn in green, to see that TraceSix's copy of the game's light pass is the one in use. Leave off.",
+      "translation_display_name": "자체 조명 패스 표시",
+      "translation_description": "전등 직접광 광선 추적이 켜졌을 때 게임 조명 패스의 전등 직접광을 초록색으로 표시해 TraceSix 처리 여부를 확인합니다. 평소에는 끄세요.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Sun Rays Pass Their Own Object",
+      "source_display_name": "Sun Rays Pass Their Own Object",
+      "source_description": "A test for the ray-traced sun's flicker (a whole object black for a moment): a sun ray that meets the inside of an object within a few centimetres of where it starts passes through it. If the flicker stops with this on, the object's level of detail was the cause. (A single-sided wall or roof met from behind that close then lets the sun through.)",
+      "translation_display_name": "태양 광선 자기 물체 통과",
+      "translation_description": "물체 전체가 순간적으로 검게 변하는 광선 추적 그림자 깜빡임을 시험합니다. 시작점에서 몇 cm 안에 있는 같은 물체의 안쪽 면은 광선이 통과하게 합니다. 문제가 사라지면 물체의 LOD가 원인일 수 있습니다. 다만 단면 벽·지붕 뒤쪽으로 햇빛이 통과할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Log What The Voxels Hold Ahead",
+      "source_display_name": "Log What The Voxels Hold Ahead",
+      "source_description": "Tick while looking at something (a window, a doorway): writes to the log what a light ray from where you stand meets along your view in the voxel world, with the meshes there (unticks itself).",
+      "translation_display_name": "전방 복셀 정보 기록",
+      "translation_description": "창문·문을 바라보며 켜면 서 있는 위치에서 전방으로 발사한 조명 광선이 복셀 세계에서 만나는 메시를 기록합니다. 자동으로 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Log What Is Overhead",
+      "source_display_name": "Log What Is Overhead",
+      "source_description": "Tick while aiming at a surface: writes to the log whether the voxel world has something overhead there, and which meshes are there, in the voxel world or left out of it (unticks itself).",
+      "translation_display_name": "상부 구조물 기록",
+      "translation_description": "표면을 바라보며 켜면 그 위에 차폐물이 있는지와 복셀에 포함되거나 제외된 메시를 기록합니다. 자동으로 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Log Lamps Near Me",
+      "source_display_name": "Log Lamps Near Me",
+      "source_description": "Tick while standing near a lamp: writes to the log every lamp within 15 m - spot or point, its cone, range, cookie, and how the bounced light takes it (unticks itself).",
+      "translation_display_name": "주변 전등 기록",
+      "translation_description": "전등 근처에서 켜면 반경 15m의 점광원·스포트라이트·범위·쿠키와 간접 조명 적용 방식을 기록합니다. 자동으로 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Log Lamp Census",
+      "source_display_name": "Log Lamp Census",
+      "source_description": "Tick in a raid: writes to the log how many lamps the map has, how many the game draws for your view now, how many of those render a shadow map, and the nearest shadowed ones by name (unticks itself).",
+      "translation_display_name": "맵 전등 개수 기록",
+      "translation_description": "레이드에서 켜면 전체 전등 수, 현재 렌더링되는 전등 수, 그림자 맵을 만드는 전등 수와 가까운 그림자 전등을 기록합니다. 자동으로 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Log Light Lookup Under Me",
+      "source_display_name": "Log Light Lookup Under Me",
+      "source_description": "Tick while standing where the floor under you is lit wrongly (a doorway): writes to the log how the light lookup goes for that floor, step by step (unticks itself).",
+      "translation_display_name": "발밑 조명 조회 기록",
+      "translation_description": "출입구 등 발밑 지면의 조명이 이상할 때 켜면 해당 지면에 대한 조명 조회 과정을 단계별로 기록합니다. 자동으로 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Log Light Lookup Ahead",
+      "source_display_name": "Log Light Lookup Ahead",
+      "source_description": "Tick while aiming at a surface some way off that is lit wrongly: writes to the log which cell each light volume gives it and why the others are refused, what that cell holds, and which meshes around it are missing from the voxel world (unticks itself).",
+      "translation_display_name": "전방 조명 조회 기록",
+      "translation_description": "멀리 있는 표면의 조명이 이상할 때 바라보며 켜면 각 계층의 셀 선택·거부 이유·셀 데이터·누락 메시를 기록합니다. 자동으로 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Log Surface Ahead",
+      "source_display_name": "Log Surface Ahead",
+      "source_description": "With Ray Tracing on, tick while aiming at a surface whose ray-traced colour (Show Ray Traced Light = AlbedoVsGame) differs from the game's: writes to the log its meshes' materials, shaders and vertex colours, and the materials the ray tracing took for them (unticks itself).",
+      "translation_display_name": "전방 표면 기록",
+      "translation_description": "광선 추적이 켜진 상태에서 AlbedoVsGame 비교가 다른 표면을 바라보며 켜면 재질·셰이더·정점 색상과 광선 추적에서 선택한 재질을 기록합니다. 자동으로 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Log Character Meshes",
+      "source_display_name": "Log Character Meshes",
+      "source_description": "With Ray Tracing on, tick in a raid: writes to the log your character's meshes and what their vertex buffers hold, and whether this driver can share a buffer between the ray tracing and the game (unticks itself).",
+      "translation_display_name": "캐릭터 메시 기록",
+      "translation_description": "광선 추적이 켜진 레이드에서 켜면 캐릭터 메시·정점 버퍼와 드라이버의 광선 추적 버퍼 공유 가능 여부를 기록합니다. 자동으로 꺼집니다.",
+      "values": []
+    },
+    {
+      "section": "5. Debug",
+      "key": "Debug Log",
+      "source_display_name": "Debug Log",
+      "source_description": "Log every voxel volume rebuild (meshes, frames, time), now and then what the light volumes hold, and every 300 frames the ray tracing's GPU time and video memory.",
+      "translation_display_name": "디버그 로그",
+      "translation_description": "복셀 공간 재구성의 메시 수·프레임·시간, 조명 셀 상태 및 300프레임마다 광선 추적 GPU 시간·VRAM 사용량을 기록합니다.",
+      "values": []
+    }
+  ]
+}

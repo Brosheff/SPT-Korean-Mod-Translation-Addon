@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.20fpsguy.backpackgunslot",
+  "mod_name": "Backpack Gun Slot",
+  "mod_version": "1.0.1",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "backpackgunslot.ui.001",
+        "source": "ON PACK",
+        "translation": "배낭 총기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "backpackgunslot.ui.002",
+        "source": "Fits: ",
+        "translation": "장착 가능: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "backpackgunslot.ui.003",
+        "source": "pistols",
+        "translation": "권총",
+        "match_mode": "exact"
+      },
+      {
+        "id": "backpackgunslot.ui.004",
+        "source": "SMGs",
+        "translation": "기관단총",
+        "match_mode": "exact"
+      },
+      {
+        "id": "backpackgunslot.ui.005",
+        "source": "shotguns",
+        "translation": "산탄총",
+        "match_mode": "exact"
+      },
+      {
+        "id": "backpackgunslot.ui.006",
+        "source": "carbines",
+        "translation": "카빈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "backpackgunslot.ui.007",
+        "source": "assault rifles",
+        "translation": "돌격소총",
+        "match_mode": "exact"
+      },
+      {
+        "id": "backpackgunslot.ui.008",
+        "source": "marksman rifles",
+        "translation": "지정사수소총",
+        "match_mode": "exact"
+      },
+      {
+        "id": "backpackgunslot.ui.009",
+        "source": "sniper rifles",
+        "translation": "저격소총",
+        "match_mode": "exact"
+      },
+      {
+        "id": "backpackgunslot.ui.010",
+        "source": "machine guns",
+        "translation": "기관총",
+        "match_mode": "exact"
+      },
+      {
+        "id": "backpackgunslot.ui.011",
+        "source": "grenade launchers",
+        "translation": "유탄발사기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "backpackgunslot.ui.012",
+        "source": "special weapons",
+        "translation": "특수 무기",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

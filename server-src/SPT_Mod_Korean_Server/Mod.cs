@@ -62,7 +62,9 @@ public sealed class Mod(ISptLogger<Mod> logger, TradersTable tradersTable) : IOn
 
 
             EnableServerMessageHooks(logger);
-            logger.Info("SPT Mod Korean Server 1.0.4 loaded" + (SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
+            PitFireTeamMailHooks.Enable(translator, logger);
+            IsbWebUiHooks.Enable(translator);
+            logger.Info("SPT Mod Korean Server 1.0.5 loaded" + (SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
         }
         catch (Exception ex)
         {

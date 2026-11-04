@@ -9,7 +9,7 @@
       {
         "key": "69e61fe28a819d09900d74e5 Name",
         "source": "Carcano M1891 6.5x52 bolt-action rifle",
-        "translation": "Carcano M1891 6.5x52 볼트액션 소총",
+        "translation": "카르카노 M1891 6.5x52 볼트액션 소총",
         "match_mode": "item_decorated"
       },
       {
@@ -45,7 +45,7 @@
       {
         "key": "69edf6bcd573e25abc40203b Name",
         "source": "Carcano M1891/38 6.5x52 bolt-action rifle",
-        "translation": "Carcano M1891/38 6.5x52 볼트액션 소총"
+        "translation": "카르카노 M1891/38 6.5x52 볼트액션 소총"
       },
       {
         "key": "69edf6bcd573e25abc40203b Description",
@@ -55,7 +55,7 @@
       {
         "key": "69eea8b5a9682e6879a537d8 Name",
         "source": "Carcano M1891 6.5x52 bolt-action carbine",
-        "translation": "Carcano M1891 6.5x52 볼트액션 카빈"
+        "translation": "카르카노 M1891 6.5x52 볼트액션 카빈"
       },
       {
         "key": "69eea8b5a9682e6879a537d8 ShortName",
@@ -70,7 +70,7 @@
       {
         "key": "69ff209a73bcef4c7fbb4cea Name",
         "source": "Cei Rigotti 6.5x52 assault rifle",
-        "translation": "Cei Rigotti 6.5x52 돌격소총"
+        "translation": "체이 리고티 6.5x52 돌격소총"
       },
       {
         "key": "69ff209a73bcef4c7fbb4cea ShortName",
@@ -85,7 +85,7 @@
       {
         "key": "69ff3ca073bcef4c7fbb4cec Name",
         "source": "Cei Rigotti M1895 6.5x52 15 round magazine",
-        "translation": "15발, Cei Rigotti M1895 6.5x52 탄창"
+        "translation": "15발, 체이 리고티 M1895 6.5x52 탄창"
       },
       {
         "key": "69ff3ca073bcef4c7fbb4cec Description",
@@ -110,7 +110,7 @@
       {
         "key": "6a06fad8f86e3e091872c102 Name",
         "source": "M1928 Thompson .45 ACP 30-round magazine",
-        "translation": "30발, M1928 Thompson .45 ACP 탄창"
+        "translation": "30발, M1928 톰슨 .45 ACP 탄창"
       },
       {
         "key": "6a06fad8f86e3e091872c102 Description",
@@ -120,7 +120,7 @@
       {
         "key": "6a06febcf86e3e091872c104 Name",
         "source": "Thompson M1928A1 .45 ACP Submachine gun",
-        "translation": "Thompson M1928A1 .45 ACP 기관단총"
+        "translation": "톰슨 M1928A1 .45 ACP 기관단총"
       },
       {
         "key": "6a06febcf86e3e091872c104 Description",
@@ -130,7 +130,7 @@
       {
         "key": "6a098cb486f368092e4252e1 Name",
         "source": "Thompson M1A1 .45 ACP Submachine gun",
-        "translation": "Thompson M1A1 .45 ACP 기관단총"
+        "translation": "톰슨 M1A1 .45 ACP 기관단총"
       },
       {
         "key": "6a098cb486f368092e4252e1 Description",
@@ -145,7 +145,7 @@
       {
         "key": "6a09f02c86f368092e4252e6 Description",
         "source": "The final development of the M1918A2 was authorized on 30 June 1938. The FN-designed pistol grip and rate-reducer mechanism with two rates of automatic fire was shelved in favor of a rate-reducer mechanism designed by Springfield Armory, and housed in the butt stock. The Springfield Armory rate reducer also provided two selectable rates of fully automatic fire only, activated by engaging the selector toggle. Additionally, a skid-footed bipod was fitted to the muzzle end of the barrel, magazine guides were added to the front of the trigger guard, the hand guard was shortened, a heat shield was added to help the cooling process, a small separate stock rest (monopod) was included for attachment to the butt and the weapon's role was changed to that of a squad light machine gun. The BAR's rear sight scales were also modified to accommodate the newly standardized M2 ball ammunition with its lighter, flat-base bullet. The M1918A2's butt stock is approximately one inch (2.5 cm) longer than the M1918 BAR's butt stock. The M1918A2's barrel was also fitted with a new flash suppressor and fully adjustable iron sights. Towards the end of the war a barrel-mounted carrying handle was added",
-        "translation": "M1918A2의 최종 개량안은 1938년 6월 30일 승인되었습니다. FN이 설계한 권총손잡이와 2단 자동사격 속도 조절 장치는 보류되었고, 대신 스프링필드 조병창이 설계한 감속 장치가 개머리판 내부에 장착되었습니다. 이 감속 장치 역시 선택 레버 조작으로 두 가지 완전 자동 사격 속도를 선택할 수 있었습니다. 또한 총열 끝에는 미끄럼 방지 발이 달린 양각대가 장착되었고, 방아쇠울 앞쪽에는 탄창 가이드가 추가되었으며, 총열덮개는 짧아졌고 냉각을 돕는 방열판도 추가되었습니다. 개머리판에 부착할 수 있는 별도의 작은 지지대(모노포드)도 포함되었으며, 무기의 역할은 분대지원용 경기관총으로 변경되었습니다. BAR의 후방 조준기 눈금도 더 가볍고 평평한 탄두를 사용하는 표준화된 M2 볼 탄약에 맞게 수정되었습니다. M1918A2의 개머리판은 M1918 BAR의 개머리판보다 약 1인치(2.5cm) 더 깁니다. M1918A2의 총열에는 새로운 소염기와 완전 조절식 기계식 조준기도 장착되었습니다. 전쟁 말기에는 총열 장착식 운반 손잡이가 추가되었습니다."
+        "translation": "M1918A2의 최종 개량안은 1938년 6월 30일 승인되었습니다. FN이 설계한 권총손잡이와 2단 자동사격 속도 조절 장치는 보류되었고, 대신 스프링필드 조병창이 설계한 감속 장치가 개머리판 내부에 장착되었습니다. 이 감속 장치 역시 선택 레버 조작으로 두 가지 완전 자동 사격 속도를 선택할 수 있었습니다. 또한 총열 끝에는 스키드형 받침발이 달린 양각대가 장착되었고, 방아쇠울 앞쪽에는 탄창 가이드가 추가되었으며, 총열덮개는 짧아졌고 냉각을 돕는 방열판도 추가되었습니다. 개머리판에 부착할 수 있는 별도의 작은 지지대(모노포드)도 포함되었으며, 무기의 역할은 분대지원용 경기관총으로 변경되었습니다. BAR의 가늠자 거리 눈금도 더 가볍고 밑면이 평평한 탄두를 사용한 새 표준 M2 보통탄에 맞게 수정되었습니다. M1918A2의 개머리판은 M1918 BAR의 개머리판보다 약 1인치(2.5cm) 더 깁니다. M1918A2의 총열에는 새로운 소염기와 완전 조절식 기계식 조준기도 장착되었습니다. 전쟁 말기에는 총열 장착식 운반 손잡이가 추가되었습니다."
       },
       {
         "key": "6a0a256686f368092e4252e8 Description",
@@ -165,7 +165,7 @@
       {
         "key": "6a0a27ee86f368092e4252ee Name",
         "source": ".30-06 Springfield Red Tracer",
-        "translation": ".30-06 Springfield 적색 예광탄"
+        "translation": ".30-06 Springfield Red Tracer"
       },
       {
         "key": "6a0a27ee86f368092e4252ee Description",
@@ -200,7 +200,7 @@
       {
         "key": "6a0b33c5263dc294754193ff Name",
         "source": "Sturmgewehr 44 7.92x33mm Kurz Assault Rifle",
-        "translation": "Sturmgewehr 44 7.92x33mm Kurz 돌격소총"
+        "translation": "StG 44 7.92×33mm 쿠르츠 돌격소총"
       },
       {
         "key": "6a0b33c5263dc294754193ff Description",
@@ -210,7 +210,7 @@
       {
         "key": "6a0b88cfa02e563a2a145012 ShortName",
         "source": "Tracer",
-        "translation": "예광탄"
+        "translation": "Tracer"
       },
       {
         "key": "6a0b88cfa02e563a2a145012 Description",
@@ -220,7 +220,7 @@
       {
         "key": "6a0ce40499dfd9edaca1daa9 Name",
         "source": "Karabiner 98 kurz 7.92x57mm bolt-action rifle",
-        "translation": "Karabiner 98 kurz 7.92x57mm 볼트액션 소총"
+        "translation": "Kar98k 7.92x57mm 볼트액션 소총"
       },
       {
         "key": "6a0ce40499dfd9edaca1daa9 Description",
@@ -230,7 +230,7 @@
       {
         "key": "6a0ced4599dfd9edaca1daaa Name",
         "source": "Karabiner 98 kurz 7.92x57mm 5-round Magazine",
-        "translation": "5발, 카라비너 98 쿠르츠 7.92x57mm 탄창"
+        "translation": "5발, Kar98k 7.92x57mm 탄창"
       },
       {
         "key": "6a0ced4599dfd9edaca1daaa Description",
@@ -240,17 +240,17 @@
       {
         "key": "6a0e3acb42723bcd0581cf86 Name",
         "source": "RP-46 Rear Sight",
-        "translation": "RP-46 후방 조준기"
+        "translation": "RP-46 가늠자"
       },
       {
         "key": "6a0e3acb42723bcd0581cf86 ShortName",
         "source": "RP-46 RS",
-        "translation": "RP-46 후방가늠자"
+        "translation": "RP-46 가늠자"
       },
       {
         "key": "6a0e3acb42723bcd0581cf86 Description",
         "source": "A standard-issue rear sight for the RP-46 machine gun. Manufactured by V.A. Degtyarev Plant.",
-        "translation": "RP-46 기관총용 표준 지급 후방 조준기입니다. V.A. 데그차료프 공장에서 제작되었습니다."
+        "translation": "RP-46 기관총용 표준 지급 가늠자입니다. V.A. 데그탸료프 공장에서 제조했습니다."
       },
       {
         "key": "6a0e3acb42723bcd0581cf87 Name",
@@ -270,7 +270,7 @@
       {
         "key": "6a1ee17009ef9baf4bd3193b Name",
         "source": "Karabiner 98 kurz 7.92x57mm 20-round Trench Magazine",
-        "translation": "20발, Karabiner 98 kurz 7.92x57mm 참호 탄창"
+        "translation": "20발, Kar98k 7.92x57mm 참호 탄창"
       },
       {
         "key": "6a1ee17009ef9baf4bd3193b Description",

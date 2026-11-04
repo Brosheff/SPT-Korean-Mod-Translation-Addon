@@ -6,7 +6,7 @@ using HarmonyLib;
 
 namespace SPT.ModKoreanAddon
 {
-    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.4")]
+    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.5")]
     [BepInDependency("com.GoLani.koreanpatchfix", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("com.mpstark.dynamicmaps", BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin
@@ -16,6 +16,9 @@ namespace SPT.ModKoreanAddon
         private Harmony modUiHarmony;
         private Harmony configManagerHarmony;
         private Harmony smallUiHarmony;
+        private Harmony k9UiHarmony;
+        private Harmony pitFireTeamFontHarmony;
+        private bool pitFireTeamFontPending;
         private Harmony dynamicMapsHarmony;
         private Harmony casinoHarmony;
         private Harmony quartermasterHarmony;
@@ -161,6 +164,42 @@ namespace SPT.ModKoreanAddon
                 Logger.LogError("Small mod UI hooks disabled: " + ex.Message);
             }
 
+            // A PitFireTeam side-selection screen rebuilds its Add Teammate button
+            // from a different Unity template. Preserve the working Korean TMP font
+            // on that exact squad UI, separately from its own localization pipeline.
+            try
+            {
+                pitFireTeamFontHarmony = new Harmony("spt.korean.modtranslation.addon.pitfireteam-font");
+                var count = PitFireTeamButtonFontHooks.Enable(pitFireTeamFontHarmony, assemblies);
+                pitFireTeamFontPending = count == 0;
+                Logger.LogInfo("PitFireTeam squad label font hooks: " + count +
+                    (count == 0 ? " (PitFireTeam UI not found)." : " installed."));
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                PitFireTeamButtonFontHooks.Disable();
+                pitFireTeamFontHarmony?.UnpatchSelf();
+                Logger.LogWarning("PitFireTeam optional squad font hooks skipped: " + ex.Message);
+            }
+
+            // Keep K9's DOG display pipeline independent from every other small-UI plugin.
+            // This still runs if one of the other third-party optional hooks failed above.
+            try
+            {
+                k9UiHarmony = new Harmony("spt.korean.modtranslation.addon.k9-display");
+                var k9Hooks = K9CompanionUiHooks.Enable(k9UiHarmony, assemblies, data);
+                Logger.LogInfo("K9 Companion independent UI hooks: " + k9Hooks +
+                    (k9Hooks == 0 ? " (pending assembly/profile checks)." : " installed."));
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                K9CompanionUiHooks.Disable();
+                k9UiHarmony?.UnpatchSelf();
+                Logger.LogError("K9 Companion DOG display translation disabled: " + ex.Message);
+            }
+
             try
             {
                 casinoHarmony = new Harmony("spt.korean.modtranslation.addon.casino-write-time");
@@ -224,7 +263,7 @@ namespace SPT.ModKoreanAddon
             // Korean Patch Fix's custom kr/kr-en mode on its own. Send only the existing
             // CurrentCulture value; failure is isolated and leaves all client UI hooks intact.
             TrySyncServerCulture(lastCulture);
-            Logger.LogInfo("SPT Mod Korean Addon 1.0.4 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
+            Logger.LogInfo("SPT Mod Korean Addon 1.0.5 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
         }
 
         private void Update()
@@ -236,6 +275,30 @@ namespace SPT.ModKoreanAddon
             localePollFrames = 0;
 
             var culture = LocaleMode.Refresh();
+            // Retry the independently scoped K9 display hooks after delayed assembly load.
+            // This never controls or disables other translation families.
+            K9CompanionUiHooks.RetryPending();
+            // PitFireTeam may load after this addon's Start. Retry only while its
+            // scoped factory hooks are absent; never patch a global TMP setter.
+            if (pitFireTeamFontPending && pitFireTeamFontHarmony != null)
+            {
+                try
+                {
+                    var found = PitFireTeamButtonFontHooks.Enable(
+                        pitFireTeamFontHarmony, AppDomain.CurrentDomain.GetAssemblies());
+                    if (found > 0)
+                    {
+                        pitFireTeamFontPending = false;
+                        Logger.LogInfo("PitFireTeam deferred squad label font hooks: " + found + " installed.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    pitFireTeamFontPending = false;
+                    SPT.EditableTranslations.MinimalLog.WarnOnce("pit-squad-font-deferred", () =>
+                        "PitFireTeam deferred squad font hook failed: " + ex.Message);
+                }
+            }
 
             var changed = !string.Equals(culture, lastCulture, StringComparison.OrdinalIgnoreCase);
 
@@ -299,6 +362,10 @@ namespace SPT.ModKoreanAddon
             eightModsHarmony?.UnpatchSelf();
             ModUiLiteralHooks.Disable();
             SmallUiLiteralHooks.Disable();
+            K9CompanionUiHooks.Disable();
+            k9UiHarmony?.UnpatchSelf();
+            PitFireTeamButtonFontHooks.Disable();
+            pitFireTeamFontHarmony?.UnpatchSelf();
             CasinoUiHooks.Disable();
             casinoHarmony?.UnpatchSelf();
             DynamicMapsUiHooks.Disable();

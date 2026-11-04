@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
+using System.Runtime.CompilerServices;
 using HarmonyLib;
 using UnityEngine;
 using TMPro;
@@ -44,7 +45,21 @@ namespace SPT.ModKoreanAddon
         private const string IsbSfProfileId = "com.samc137.isbspecialforces";
         private const string IsbNotifierAssemblyName = "ISBNotify";
         private const string IsbSubtitleAssemblyName = "ISBSOF_Extras";
+        // Aishi 2.0.5: direct wardrobe UI labels (not item locale or clothing family data).
+        private const string RippersCasinoProfileId = "com.itsripper.ripperscasino";
+        private const string RippersCasinoAssemblyName = "RippersCasino.Client";
+        private const string TransmogProfileId = "com.fums.transmogged";
+        private const string TransmogAssemblyName = "transMOGGED";
+        private const string BackpackSlotProfileId = "com.20fpsguy.backpackgunslot";
+        private const string BackpackSlotAssemblyName = "BackpackGunSlot";
+        private const string AishiWardrobeProfileId = "com.samc137.aishi";
+        private const string AishiWardrobeAssemblyName = "AishiKeysV2";
         // Under Fire 1.0.0 registers its effect label from one exact Awake literal.
+        // Exact 2026-10-31 source-audited screen owners; no EFT-wide UI interceptions.
+        private const string FiveModPlateProfileId = "com.mybutthasarash.platedurability";
+        private const string FiveModForecastProfileId = "com.mybutthasarash.forecaster";
+        private const string FiveModPlateAssembly = "PlateDurabilityUI";
+        private const string FiveModForecastAssembly = "Forecaster";
         private const string UnderFireProfileId = "com.harmonyzt.underfire";
         private const string UnderFireAssemblyName = "UnderFire";
 
@@ -114,6 +129,25 @@ namespace SPT.ModKoreanAddon
             new Target("CookingGrenades", "CookingGrenades", "CookingGrenades.Patches.MenuScreenPatch", "PatchPostfix", 1),
             // SPT Casino 1.3.3: the cloned task-bar tooltip bypasses CasinoLobby.NewText.
             new Target("com.mybutthasarash.sptcasino", "Casino.Client", "Casino.Client.CasinoTab", "Neuter", 1),
+
+            // transMOGGED 1.0.0: source-audited inventory context menu and appearance picker surfaces.
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.Menu", "Postfix", 4),
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.Picker", "Build", 1),
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.Picker", "Grid", 2),
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.Picker", "UpdateState", 0),
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.Picker", "Filter", 1),
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.Picker", "Search", 1),
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.SpotlightPicker", "Draw", 1),
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.SpotlightCard", "Build", 2),
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.SpotlightCard", "Header", 4),
+            // transMOGGED 1.0.0: inspect-row and badge tooltips build their own visible
+            // dynamic text. Do not intercept item/template identifiers or saved look IDs.
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.Card", "Build", 2),
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.Card", "Tip", 2),
+            new Target("com.fums.transmogged", "transMOGGED", "Transmogged.LookTip", "Show", 1),
+            // RippersCasino 1.0.1 draws all static and dynamic captions through
+            // CasinoPlugin.Label. Translate only the final display argument in the
+            // exact Label prefix below; never transpile gameplay/screen methods.
 
             // ArenaMode 0.1.1: these two exact direct-literal surfaces do not have
             // final-output hooks. Character selection uses ArenaModeUiHooks instead.
@@ -246,6 +280,15 @@ namespace SPT.ModKoreanAddon
             // Never translate generated curve IDs or axis enum values, which are data, not captions.
             new Target("smallui.realismcurveeditor", "spt-realism-common-lib", "RealismCommonLib.Utils.CurveDrawer", "DrawGUI", 0),
             new Target("smallui.realismcurveeditor", "spt-realism-common-lib", "RealismCommonLib.Utils.CurveDrawer", "DrawContents", 0),
+            // Aishi 2.0.5: literal-only translations in its own wardrobe view.
+            // The variant count is concatenated by LateUpdate; translate its trailing caption only.
+            new Target(AishiWardrobeProfileId, AishiWardrobeAssemblyName, "AishiKeys.AishiWardrobeView", "LateUpdate", 0),
+            new Target(AishiWardrobeProfileId, AishiWardrobeAssemblyName, "AishiKeys.AishiWardrobeView", "CreateBack", 3),
+            // ISB SOF 2.0.2: Portuguese tooltip fallbacks in the exact Labs selector update.
+            new Target(IsbSfProfileId, IsbSubtitleAssemblyName, "ISBSSOFExtra.LabsVariantMenu", "UpdateButton", 0),
+            // ISB SOF 2.0.2 Fika mismatch warning: exact visible notification literal.
+            // Do not intercept the method's logger messages, content signatures, or Fika protocol.
+            new Target(IsbSfProfileId, IsbSubtitleAssemblyName, "ISBSSOFExtra.ISBSpecialForcesAudio", "CheckEventContent", 1),
             // ISB SOF Notifier 1.0.3: only the five actual notification builders.
             // Never alter role keys, spawn tracking, enum values or notification API globally.
             new Target(IsbSfProfileId, IsbNotifierAssemblyName, "ISBInfo.ISBInfoPlugin", "ShowCurrentAliveMessage", 0),
@@ -256,6 +299,12 @@ namespace SPT.ModKoreanAddon
             // EffectOptions.DisplayName = "Adrenaline" in the source-audited effect registration.
             // No generic EFT health panel/EffectManager interception. Requires patch before Awake runs.
             new Target(UnderFireProfileId, UnderFireAssemblyName, "UnderFire.Plugin", "Awake", 0),
+
+            // Plate Durability 1.0.0: its own constructed armor tooltip and worn-plate notification.
+            // These methods do not own the durability calculation or generic game tooltips.
+            new Target(FiveModPlateProfileId, FiveModPlateAssembly, "PlateDurabilityUI.PlateTooltip", "Build", 1),
+            new Target(FiveModPlateProfileId, FiveModPlateAssembly, "PlateDurabilityUI.PlateTooltip", "Row", 1),
+            new Target(FiveModPlateProfileId, FiveModPlateAssembly, "PlateDurabilityUI.PlateAlerts", "Poll", 0),
 
             // SOURCE3 Suomi-PRT 1.0.2: these are the only visible English literals that bypass
             // the mod's own L(...) localization helper. Scope both to their exact source methods.
@@ -272,6 +321,14 @@ namespace SPT.ModKoreanAddon
         private static readonly List<TrackedTextPropertyLabel> TextPropertyLabels = new List<TrackedTextPropertyLabel>();
         private static readonly MethodInfo RuntimeTranslator = typeof(SmallUiLiteralHooks).GetMethod(
             nameof(TranslateRuntime), BindingFlags.Static | BindingFlags.NonPublic);
+        // Aishi wardrobe caches English clothing names, descriptions and group families.
+        // Track only the inspected AishiWardrobeView instance and preserve its grouping data.
+        private sealed class AishiWardrobeCulture { internal string Value; }
+        private sealed class BackpackTooltipSource { internal string Value; }
+        private static readonly ConditionalWeakTable<object, BackpackTooltipSource> BackpackTooltipSources =
+            new ConditionalWeakTable<object, BackpackTooltipSource>();
+        private static readonly ConditionalWeakTable<object, AishiWardrobeCulture> AishiWardrobeCultures =
+            new ConditionalWeakTable<object, AishiWardrobeCulture>();
         private static Harmony harmony;
         private static EditableProfiles profiles;
         private static PropertyInfo bossNotifierInfoTextMeshProperty;
@@ -420,6 +477,25 @@ namespace SPT.ModKoreanAddon
                 .ToDictionary(g => g.Key, g => g.First(), StringComparer.OrdinalIgnoreCase);
 
             var total = 0;
+            if (profiles.HasRules(AishiWardrobeProfileId, Channel) &&
+                assemblies.TryGetValue(AishiWardrobeAssemblyName, out var aishiAssembly))
+                total += PatchAishiWardrobeLabels(aishiAssembly);
+
+            if (profiles.HasRules(BackpackSlotProfileId, Channel) &&
+                assemblies.TryGetValue(BackpackSlotAssemblyName, out var backpackAssembly))
+                total += PatchBackpackSlotDisplay(backpackAssembly);
+            if (profiles.HasRules(TransmogProfileId, Channel) &&
+                assemblies.TryGetValue(TransmogAssemblyName, out var transmogAssembly))
+                total += PatchTransmogDynamicDisplay(transmogAssembly);
+
+            if (profiles.HasRules(RippersCasinoProfileId, Channel) &&
+                assemblies.TryGetValue(RippersCasinoAssemblyName, out var rippersAssembly))
+                total += PatchRippersCasinoLabel(rippersAssembly);
+            // Presentation-only postfixes: input IDs and option values remain untouched.
+            if (profiles.HasRules(FiveModForecastProfileId, Channel) &&
+                assemblies.TryGetValue(FiveModForecastAssembly, out var forecastAssembly))
+                total += PatchFiveModForecast(forecastAssembly) + PatchFiveModRadar(forecastAssembly);
+
             foreach (var target in Targets)
             {
                 if (!profiles.HasRules(target.ProfileId, Channel)) continue;
@@ -431,7 +507,10 @@ namespace SPT.ModKoreanAddon
             // JSON at runtime. Patch only its explicit ResolveText(string,string) result.
             if (profiles.HasRules(IsbSfProfileId, Channel) &&
                 assemblies.TryGetValue(IsbSubtitleAssemblyName, out var isbSubtitleAssembly))
+            {
                 total += PatchIsbSubtitleLookup(isbSubtitleAssembly);
+                total += PatchIsbLabsMenuNotification(isbSubtitleAssembly);
+            }
 
             // SOURCE3 WikiLinks 2.0.0 builds its visible label as Localized("OPEN") + " WIKI".
             // Translate only the final rendered label so the internal action key "OPEN WIKI" remains untouched.
@@ -516,6 +595,7 @@ namespace SPT.ModKoreanAddon
                 harmony = null;
                 profiles = null;
                 PatchedMethods.Clear();
+                TransmogDynamicPatchedMethods.Clear();
                 GeneratedLabels.Clear();
                 TextPropertyLabels.Clear();
                 bossNotifierInfoTextMeshProperty = null;
@@ -567,7 +647,13 @@ namespace SPT.ModKoreanAddon
             foreach (var entry in textPropertyLabels)
             {
                 var target = entry.Target.Target;
-                if (target == null || !ApplyTextPropertyLabel(target, entry.ProfileId, entry.Source, data))
+                // transMOGGED rewrites these labels when the selected look changes.
+                // A cached source from a previous look must not replace newer text on
+                // a language change; let the next audited UI writer track its new source.
+                if (target == null ||
+                    (string.Equals(entry.ProfileId, TransmogProfileId, StringComparison.Ordinal) &&
+                     !IsCurrentTransmogLabelFromSource(target, entry.Source, data)) ||
+                    !ApplyTextPropertyLabel(target, entry.ProfileId, entry.Source, data))
                 {
                     staleText.Add(entry);
                     continue;
@@ -746,6 +832,8 @@ namespace SPT.ModKoreanAddon
                     StringComparison.OrdinalIgnoreCase);
                 var isIsbSubtitle = string.Equals(assemblyName, IsbSubtitleAssemblyName,
                     StringComparison.OrdinalIgnoreCase);
+                var isAishiWardrobe = string.Equals(assemblyName, AishiWardrobeAssemblyName,
+                    StringComparison.OrdinalIgnoreCase);
                 var isUnderFire = string.Equals(assemblyName, UnderFireAssemblyName,
                     StringComparison.OrdinalIgnoreCase);
                 // Limit late-load hooks to previously audited assemblies/methods;
@@ -754,11 +842,19 @@ namespace SPT.ModKoreanAddon
                     StringComparison.OrdinalIgnoreCase);
                 var isArmorExpert = string.Equals(assemblyName, "Liquidwarp.ArmorExpert",
                     StringComparison.OrdinalIgnoreCase);
+                var isTransmog = string.Equals(assemblyName, TransmogAssemblyName,
+                    StringComparison.OrdinalIgnoreCase);
+                var isBackpackSlot = string.Equals(assemblyName, BackpackSlotAssemblyName,
+                    StringComparison.OrdinalIgnoreCase);
+                var isRippersCasino = string.Equals(assemblyName, RippersCasinoAssemblyName,
+                    StringComparison.OrdinalIgnoreCase);
+                var isFiveModPlate = string.Equals(assemblyName, FiveModPlateAssembly, StringComparison.OrdinalIgnoreCase);
+                var isFiveModForecast = string.Equals(assemblyName, FiveModForecastAssembly, StringComparison.OrdinalIgnoreCase);
                 var isArenaMode = string.Equals(assemblyName, "maschine-ArenaMode.Client",
                     StringComparison.OrdinalIgnoreCase);
                 var isManimalTerminal = string.Equals(assemblyName, "ManimalTerminalClient",
                     StringComparison.OrdinalIgnoreCase);
-                if (!isDoomArcade && !isQuartermaster && !isArmorExpert && !isIsbNotifier && !isIsbSubtitle && !isUnderFire && !isArenaMode && !isManimalTerminal) return;
+                if (!isDoomArcade && !isQuartermaster && !isArmorExpert && !isIsbNotifier && !isIsbSubtitle && !isAishiWardrobe && !isUnderFire && !isArenaMode && !isManimalTerminal && !isBackpackSlot && !isRippersCasino && !isTransmog && !isFiveModPlate && !isFiveModForecast) return;
 
                 EditableProfiles data;
                 lock (Gate)
@@ -782,11 +878,25 @@ namespace SPT.ModKoreanAddon
                     return;
                 }
 
-                if (isIsbSubtitle)
+                if (isIsbSubtitle && data.HasRules(IsbSfProfileId, Channel))
                 {
-                    if (data.HasRules(IsbSfProfileId, Channel)) PatchIsbSubtitleLookup(assembly);
-                    return;
+                    PatchIsbSubtitleLookup(assembly);
+                    PatchIsbLabsMenuNotification(assembly);
                 }
+
+                if (isTransmog && data.HasRules(TransmogProfileId, Channel))
+                    PatchTransmogDynamicDisplay(assembly);
+                if (isBackpackSlot && data.HasRules(BackpackSlotProfileId, Channel))
+                    PatchBackpackSlotDisplay(assembly);
+                if (isRippersCasino && data.HasRules(RippersCasinoProfileId, Channel))
+                    PatchRippersCasinoLabel(assembly);
+                if (isFiveModForecast && data.HasRules(FiveModForecastProfileId, Channel))
+                {
+                    PatchFiveModForecast(assembly);
+                    PatchFiveModRadar(assembly);
+                }
+                if (isAishiWardrobe && data.HasRules(AishiWardrobeProfileId, Channel))
+                    PatchAishiWardrobeLabels(assembly);
 
                 // PatchTarget and PatchedMethods share the same duplicate guard as
                 // startup registration, so an assembly seen twice is not repatched.
@@ -805,6 +915,441 @@ namespace SPT.ModKoreanAddon
             {
                 SPT.EditableTranslations.MinimalLog.WarnOnce("SmallUiLiteralHooks:597", () => "Small UI late-load hook skipped: " + ex.Message);
             }
+        }
+
+        // RippersCasino 1.0.1: CasinoDrawing.Label is the one audited display-only
+        // gateway shared by buttons, status bar and all six game screens. Intercept
+        // its text argument only; never edit _message, table state, wire JSON or receipts.
+        // transMOGGED 1.0.0 builds numeric count/status text at runtime (for example
+        // "3 LOOKS" / "2 OF 5 LOOKS"). A literal transpiler cannot see these finished
+        // strings, so patch only the source-audited UI writers, after their own writes.
+        // This guard is deliberately separate from PatchedMethods: a method can have
+        // BOTH a constant-literal transpiler and a generated-text postfix.
+        private static readonly HashSet<MethodBase> TransmogDynamicPatchedMethods = new HashSet<MethodBase>();
+
+        private static int PatchTransmogDynamicDisplay(Assembly assembly)
+        {
+            var picker = assembly?.GetType("Transmogged.Picker", false);
+            var tip = assembly?.GetType("Transmogged.LookTip", false);
+            var card = assembly?.GetType("Transmogged.Card", false);
+            var spotlight = assembly?.GetType("Transmogged.SpotlightCard", false);
+            var n = 0;
+            n += PatchTransmogDisplayWriter(picker, "Build", 1, nameof(AfterTransmogPicker), false);
+            n += PatchTransmogDisplayWriter(picker, "Filter", 1, nameof(AfterTransmogPicker), false);
+            n += PatchTransmogDisplayWriter(picker, "UpdateState", 0, nameof(AfterTransmogPicker), false);
+            n += PatchTransmogDisplayWriter(tip, "Show", 1, nameof(AfterTransmogLookTip), false);
+            n += PatchTransmogDisplayWriter(card, "Build", 2, nameof(AfterTransmogCard), false);
+            n += PatchTransmogDisplayWriter(spotlight, "Header", 4, nameof(BeforeTransmogSpotlightHeader), true);
+            return n;
+        }
+
+        private static int PatchTransmogDisplayWriter(Type type, string name, int argumentCount,
+            string callback, bool prefix)
+        {
+            if (type == null) return 0;
+            MethodInfo method;
+            try
+            {
+                method = type.GetMethods(BindingFlags.Public | BindingFlags.NonPublic |
+                    BindingFlags.Instance | BindingFlags.Static | BindingFlags.DeclaredOnly)
+                    .SingleOrDefault(m => m.Name == name && m.GetParameters().Length == argumentCount &&
+                        m.ReturnType == typeof(void) && !m.IsAbstract && !m.ContainsGenericParameters);
+            }
+            catch (InvalidOperationException) { return 0; }
+            if (method == null) return 0;
+            lock (Gate)
+            {
+                if (!enabled || harmony == null || !TransmogDynamicPatchedMethods.Add(method)) return 0;
+            }
+            try
+            {
+                var patch = new HarmonyMethod(typeof(SmallUiLiteralHooks).GetMethod(callback,
+                    BindingFlags.Static | BindingFlags.NonPublic)) { priority = Priority.Last };
+                harmony.Patch(method, prefix: prefix ? patch : null, postfix: prefix ? null : patch);
+                return 1;
+            }
+            catch (Exception e)
+            {
+                lock (Gate) TransmogDynamicPatchedMethods.Remove(method);
+                SPT.EditableTranslations.MinimalLog.WarnOnce("transMOGGED:Dynamic:" + callback,
+                    () => "Scoped dynamic UI hook skipped: " + method.Name + " - " + e.Message);
+                return 0;
+            }
+        }
+
+        // Only explicit Picker text fields; never change item names, template IDs or search tokens.
+        private static void AfterTransmogPicker(object __instance)
+        {
+            if (__instance == null || profiles == null || !LocaleMode.IsKoreanMode()) return;
+            try
+            {
+                const BindingFlags flags = BindingFlags.NonPublic | BindingFlags.Instance;
+                foreach (var fieldName in new[] { "_count", "_state" })
+                {
+                    var text = __instance.GetType().GetField(fieldName, flags)?.GetValue(__instance) as TMP_Text;
+                    TranslateTransmogText(text);
+                }
+            }
+            catch (Exception e)
+            {
+                SPT.EditableTranslations.MinimalLog.WarnOnce("transMOGGED:PickerDisplay",
+                    () => "Picker display translation skipped: " + e.Message);
+            }
+        }
+
+        private static void AfterTransmogLookTip()
+        {
+            if (profiles == null || !LocaleMode.IsKoreanMode()) return;
+            try
+            {
+                var type = AppDomain.CurrentDomain.GetAssemblies()
+                    .FirstOrDefault(a => string.Equals(a.GetName().Name, TransmogAssemblyName,
+                        StringComparison.OrdinalIgnoreCase))?.GetType("Transmogged.LookTip", false);
+                if (type == null) return;
+                const BindingFlags flags = BindingFlags.Static | BindingFlags.NonPublic;
+                TranslateTransmogText(type.GetField("_title", flags)?.GetValue(null) as TMP_Text);
+                TranslateTransmogText(type.GetField("_name", flags)?.GetValue(null) as TMP_Text);
+            }
+            catch (Exception e)
+            {
+                SPT.EditableTranslations.MinimalLog.WarnOnce("transMOGGED:BadgeDisplay",
+                    () => "Badge display translation skipped: " + e.Message);
+            }
+        }
+
+        private static void AfterTransmogCard(object __0)
+        {
+            if (__0 == null || profiles == null || !LocaleMode.IsKoreanMode()) return;
+            try
+            {
+                const BindingFlags flags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
+                var compact = __0.GetType().GetField("_compactPanel", flags)?.GetValue(__0) as Transform;
+                var row = compact?.Find("transMOGGED.Row");
+                if (row == null) return;
+                foreach (var label in row.GetComponentsInChildren<TMP_Text>(true))
+                    TranslateTransmogText(label);
+            }
+            catch (Exception e)
+            {
+                SPT.EditableTranslations.MinimalLog.WarnOnce("transMOGGED:CardDisplay",
+                    () => "Inspection card display translation skipped: " + e.Message);
+            }
+        }
+
+        private static void BeforeTransmogSpotlightHeader(ref string __2)
+        {
+            if (profiles == null || !LocaleMode.IsKoreanMode() || string.IsNullOrEmpty(__2)) return;
+            try { __2 = profiles.Translate(TransmogProfileId, Channel, __2); }
+            catch (Exception e)
+            {
+                SPT.EditableTranslations.MinimalLog.WarnOnce("transMOGGED:SpotlightHeader",
+                    () => "Spotlight header translation skipped: " + e.Message);
+            }
+        }
+
+        private static void TranslateTransmogText(TMP_Text label)
+        {
+            if (label == null || profiles == null || string.IsNullOrEmpty(label.text)) return;
+            var source = label.text;
+            // Preserve the original English for kr -> en -> kr changes. Tracking only
+            // source-backed display labels avoids changing the selected appearance,
+            // item name/ID or the mod's saved data.
+            if (!profiles.CanTranslate(TransmogProfileId, Channel, source)) return;
+            TrackOrUpdateTextPropertyLabel(label, TransmogProfileId, source);
+            var translated = profiles.Translate(TransmogProfileId, Channel, source);
+            if (!string.Equals(translated, source, StringComparison.Ordinal))
+                label.text = translated;
+        }
+
+        private static bool IsCurrentTransmogLabelFromSource(
+            object target, string source, EditableProfiles data)
+        {
+            try
+            {
+                var property = target.GetType().GetProperty("text",
+                    BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+                var current = property?.GetValue(target, null) as string;
+                if (current == null) return false;
+                // If the mod has written a new status since we last saw it, discard
+                // this stale tracking entry rather than undo its live UI state.
+                return string.Equals(current, source, StringComparison.Ordinal) ||
+                    string.Equals(current, data.Translate(TransmogProfileId, Channel, source, "kr"), StringComparison.Ordinal) ||
+                    string.Equals(current, data.Translate(TransmogProfileId, Channel, source, "kr-en"), StringComparison.Ordinal) ||
+                    string.Equals(current, data.Translate(TransmogProfileId, Channel, source, "en"), StringComparison.Ordinal);
+            }
+            catch { return false; }
+        }
+
+        private static int PatchRippersCasinoLabel(Assembly assembly)
+        {
+            var type = assembly?.GetType("RippersCasino.Client.CasinoPlugin", false);
+            var method = type?.GetMethod("Label", BindingFlags.Instance | BindingFlags.NonPublic,
+                null, new[] { typeof(Rect), typeof(string), typeof(GUIStyle) }, null);
+            if (method == null || method.ReturnType != typeof(void)) return 0;
+            return PatchAdditionalDisplayMethod(method, nameof(BeforeRippersCasinoLabel), true);
+        }
+
+        private static void BeforeRippersCasinoLabel(ref string __1)
+        {
+            if (profiles == null || !LocaleMode.IsKoreanMode() || string.IsNullOrEmpty(__1)) return;
+            const string prefix = "AUTO  /  ";
+            if (__1.StartsWith(prefix, StringComparison.Ordinal))
+            {
+                // Status is display-only and may originate from a server response.
+                var status = __1.Substring(prefix.Length);
+                var translated = profiles.Translate(RippersCasinoProfileId, Channel, status);
+                __1 = "자동  /  " + translated;
+            }
+            else
+            {
+                // The cashier constructs its display line from a localized prefix,
+                // a numeric amount and an invariant currency code. The on-wire
+                // receipt and the original _message remain completely untouched.
+                var cash = TranslateRippersCasinoCashLabel(__1);
+                __1 = cash ?? profiles.Translate(RippersCasinoProfileId, Channel, __1);
+            }
+        }
+
+        private static string TranslateRippersCasinoCashLabel(string source)
+        {
+            var deposited = source.StartsWith("Deposited ", StringComparison.Ordinal);
+            var paid = !deposited && source.StartsWith("Paid ", StringComparison.Ordinal);
+            if (!deposited && !paid) return null;
+            var prefix = deposited ? "Deposited " : "Paid ";
+            if (!source.EndsWith(".", StringComparison.Ordinal)) return null;
+            var end = source.LastIndexOf(' ');
+            if (end <= prefix.Length) return null;
+            var currency = source.Substring(end + 1, source.Length - end - 2);
+            if (currency != "RUB" && currency != "USD" && currency != "EUR") return null;
+            var amount = source.Substring(prefix.Length, end - prefix.Length);
+            if (amount.Length == 0 || amount.Any(c => !char.IsDigit(c) && c != ',' && c != '.')) return null;
+            return (deposited ? "입금 완료: " : "지급 완료: ") + amount + " " + currency;
+        }
+
+        // BackpackGunSlot 1.1.0 renders the config's *raw* caption into the
+        // cloned SlotView each refresh. Localize only the default caption at the
+        // final display location; never change Plugin.Caption.Value / SlotName.Value.
+        private static int PatchBackpackSlotDisplay(Assembly assembly)
+        {
+            var binding = assembly?.GetType("BackpackGunSlot.BackpackSlotBinding", false);
+            var tooltip = assembly?.GetType("BackpackGunSlot.BackpackSlotTooltip", false);
+            var refresh = binding?.GetMethod("Refresh", BindingFlags.Instance | BindingFlags.NonPublic,
+                null, Type.EmptyTypes, null);
+            var enter = tooltip?.GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.DeclaredOnly)
+                .SingleOrDefault(m => m.Name == "OnPointerEnter" && m.GetParameters().Length == 1);
+            var count = 0;
+            if (refresh != null && refresh.ReturnType == typeof(void))
+                count += PatchAdditionalDisplayMethod(refresh, nameof(AfterBackpackSlotRefresh), false);
+            if (enter != null && enter.ReturnType == typeof(void))
+                count += PatchAdditionalDisplayMethod(enter, nameof(BeforeBackpackSlotTooltip), true);
+            return count;
+        }
+
+        // Exact source-verified UI method only; shared guard also handles late assemblies.
+        private static int PatchAdditionalDisplayMethod(MethodInfo method, string callback, bool prefix)
+        {
+            lock (Gate)
+            {
+                if (!enabled || harmony == null || !PatchedMethods.Add(method)) return 0;
+            }
+            try
+            {
+                var patch = new HarmonyMethod(typeof(SmallUiLiteralHooks).GetMethod(callback,
+                    BindingFlags.Static | BindingFlags.NonPublic)) { priority = Priority.Last };
+                harmony.Patch(method, prefix: prefix ? patch : null, postfix: prefix ? null : patch);
+                return 1;
+            }
+            catch (Exception ex)
+            {
+                lock (Gate) PatchedMethods.Remove(method);
+                SPT.EditableTranslations.MinimalLog.WarnOnce("SmallUiLiteralHooks:AdditionalDisplay:" + callback,
+                    () => "Scoped display patch skipped: " + method.DeclaringType?.FullName + "." + method.Name + " - " + ex.Message);
+                return 0;
+            }
+        }
+
+        private static void AfterBackpackSlotRefresh(object __instance)
+        {
+            if (__instance == null || profiles == null) return;
+            try
+            {
+                const BindingFlags flags = BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public;
+                var type = __instance.GetType();
+                var raw = type.GetField("_caption", flags)?.GetValue(__instance) as string;
+                if (!string.Equals(raw, "ON PACK", StringComparison.Ordinal)) return;
+                var slot = type.GetField("_view", flags)?.GetValue(__instance);
+                if (!(slot is Component component) || component == null) return;
+                var displayed = LocaleMode.IsKoreanMode()
+                    ? profiles.Translate(BackpackSlotProfileId, Channel, raw) : raw;
+                var slotType = component.GetType();
+                var primaryLabel = slotType.GetField("_headerText", flags)?.GetValue(slot);
+                SetBackpackHeaderText(primaryLabel, displayed);
+                if (primaryLabel is TMP_Text || primaryLabel is UnityEngine.UI.Text)
+                    TrackOrUpdateTextPropertyLabel(primaryLabel, BackpackSlotProfileId, raw);
+                var header = slotType.GetField("_slotHeader", flags)?.GetValue(slot);
+                if (header != null)
+                {
+                    var secondaryLabel = header.GetType().GetField("_headerText", flags)?.GetValue(header);
+                    SetBackpackHeaderText(secondaryLabel, displayed);
+                    if (secondaryLabel is TMP_Text || secondaryLabel is UnityEngine.UI.Text)
+                        TrackOrUpdateTextPropertyLabel(secondaryLabel, BackpackSlotProfileId, raw);
+                }
+            }
+            catch (Exception ex)
+            {
+                SPT.EditableTranslations.MinimalLog.WarnOnce("BackpackGunSlot:Header", () =>
+                    "Backpack slot header translation skipped: " + ex.Message);
+            }
+        }
+
+        private static void SetBackpackHeaderText(object header, string value)
+        {
+            if (header is TMP_Text tmp && tmp != null && !string.Equals(tmp.text, value, StringComparison.Ordinal))
+                tmp.text = value;
+            else if (header is UnityEngine.UI.Text legacy && legacy != null &&
+                     !string.Equals(legacy.text, value, StringComparison.Ordinal))
+                legacy.text = value;
+        }
+
+        // The tooltip binds its class names in English once and shows _text on hover.
+        // Cache the actual bound source and modify only that text, never Slot.Filters.
+        private static void BeforeBackpackSlotTooltip(object __instance)
+        {
+            if (__instance == null || profiles == null) return;
+            try
+            {
+                const BindingFlags flags = BindingFlags.Instance | BindingFlags.NonPublic;
+                var field = __instance.GetType().GetField("_text", flags);
+                var current = field?.GetValue(__instance) as string;
+                if (string.IsNullOrEmpty(current)) return;
+                var state = BackpackTooltipSources.GetValue(__instance, _ => new BackpackTooltipSource());
+                if (current.StartsWith("Fits: ", StringComparison.Ordinal)) state.Value = current;
+                var source = state.Value;
+                if (source == null || !source.StartsWith("Fits: ", StringComparison.Ordinal)) return;
+                if (!LocaleMode.IsKoreanMode()) { field.SetValue(__instance, source); return; }
+                var classes = source.Substring("Fits: ".Length).Split(new[] { ", " }, StringSplitOptions.None);
+                for (var i = 0; i < classes.Length; i++)
+                    classes[i] = profiles.Translate(BackpackSlotProfileId, Channel, classes[i]);
+                var prefix = profiles.Translate(BackpackSlotProfileId, Channel, "Fits: ");
+                field.SetValue(__instance, prefix + string.Join(", ", classes));
+            }
+            catch (Exception ex)
+            {
+                SPT.EditableTranslations.MinimalLog.WarnOnce("BackpackGunSlot:Tooltip", () =>
+                    "Backpack slot tooltip translation skipped: " + ex.Message);
+            }
+        }
+
+        // Aishi 2.0.5: source-audited AishiWardrobeView.LateUpdate only.
+        // Its Row objects retain the original strings while LateUpdate replaces visible
+        // names with cached row.Name / row.Family, so patch AFTER that method writes TMP.
+        private static int PatchAishiWardrobeLabels(Assembly assembly)
+        {
+            var type = assembly?.GetType("AishiKeys.AishiWardrobeView", false);
+            var method = type?.GetMethod("LateUpdate", BindingFlags.NonPublic | BindingFlags.Instance,
+                null, Type.EmptyTypes, null);
+            if (method == null || method.ReturnType != typeof(void) ||
+                type.GetField("_dirty", BindingFlags.NonPublic | BindingFlags.Instance) == null ||
+                type.GetField("_rows", BindingFlags.NonPublic | BindingFlags.Instance) == null)
+                return 0;
+            lock (Gate)
+            {
+                if (!enabled || harmony == null || !PatchedMethods.Add(method)) return 0;
+            }
+            try
+            {
+                harmony.Patch(method,
+                    prefix: new HarmonyMethod(typeof(SmallUiLiteralHooks).GetMethod(
+                        nameof(BeforeAishiWardrobeRefresh), BindingFlags.NonPublic | BindingFlags.Static)),
+                    postfix: new HarmonyMethod(typeof(SmallUiLiteralHooks).GetMethod(
+                        nameof(AfterAishiWardrobeRefresh), BindingFlags.NonPublic | BindingFlags.Static))
+                        { priority = Priority.Last },
+                    // This method also contains the pre-existing translated collapse caption.
+                    // It must receive BOTH patches under the single PatchedMethods guard.
+                    transpiler: new HarmonyMethod(typeof(SmallUiLiteralHooks).GetMethod(
+                        nameof(TranslateSmallUiLiterals), BindingFlags.NonPublic | BindingFlags.Static))
+                        { priority = Priority.Last });
+                return 1;
+            }
+            catch (Exception ex)
+            {
+                lock (Gate) PatchedMethods.Remove(method);
+                SPT.EditableTranslations.MinimalLog.WarnOnce("aishi-wardrobe-display-hook", () =>
+                    "Aishi wardrobe exact display hook skipped: " + ex.Message);
+                return 0;
+            }
+        }
+
+        private static void BeforeAishiWardrobeRefresh(object __instance, out bool __state)
+        {
+            __state = false;
+            if (__instance == null || profiles == null) return;
+            try
+            {
+                var dirtyField = __instance.GetType().GetField("_dirty",
+                    BindingFlags.NonPublic | BindingFlags.Instance);
+                if (dirtyField == null) return;
+                var state = AishiWardrobeCultures.GetValue(__instance, _ => new AishiWardrobeCulture());
+                var culture = LocaleMode.CurrentCulture() ?? "en";
+                if (!string.Equals(state.Value, culture, StringComparison.OrdinalIgnoreCase))
+                {
+                    state.Value = culture;
+                    // Refresh original cached labels on language change, without modifying
+                    // suite IDs, group memberships or any source data.
+                    dirtyField.SetValue(__instance, true);
+                }
+                // Aishi's LateUpdate only renders labels when _dirty is true.
+                // Skip scanning 301 rows every other frame.
+                __state = dirtyField.GetValue(__instance) is bool dirty && dirty;
+            }
+            catch (Exception ex)
+            {
+                SPT.EditableTranslations.MinimalLog.WarnOnce("aishi-wardrobe-refresh", () =>
+                    "Aishi wardrobe language refresh skipped: " + ex.Message);
+            }
+        }
+
+        private static void AfterAishiWardrobeRefresh(object __instance, bool __state)
+        {
+            if (!__state || __instance == null || profiles == null || !LocaleMode.IsKoreanMode()) return;
+            try
+            {
+                const BindingFlags flags = BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public;
+                var rows = __instance.GetType().GetField("_rows", flags)?.GetValue(__instance) as IEnumerable;
+                if (rows == null) return;
+                foreach (var row in rows)
+                {
+                    if (row == null) continue;
+                    var rowType = row.GetType();
+                    var item = rowType.GetField("Item", flags)?.GetValue(row) as Component;
+                    if (item == null || !item.gameObject.activeSelf) continue;
+                    var name = item.GetType().GetField("_clothingName", flags)?.GetValue(item) as TMP_Text;
+                    var description = item.GetType().GetField("_clothingDescription", flags)?.GetValue(item) as TMP_Text;
+                    var originalName = rowType.GetField("Name", flags)?.GetValue(row) as string;
+                    var family = rowType.GetField("Family", flags)?.GetValue(row) as string;
+                    var originalDescription = rowType.GetField("Description", flags)?.GetValue(row) as string;
+                    // Never translate group IDs or modify row.Family: it is used for grouping.
+                    if (name != null && (string.Equals(name.text, originalName, StringComparison.Ordinal) ||
+                                         string.Equals(name.text, family, StringComparison.Ordinal)))
+                        TranslateAishiWardrobeLabel(name);
+                    if (description != null && string.Equals(description.text, originalDescription, StringComparison.Ordinal))
+                        TranslateAishiWardrobeLabel(description);
+                }
+            }
+            catch (Exception ex)
+            {
+                SPT.EditableTranslations.MinimalLog.WarnOnce("aishi-wardrobe-labels", () =>
+                    "Aishi wardrobe labels left unchanged: " + ex.Message);
+            }
+        }
+
+        private static void TranslateAishiWardrobeLabel(TMP_Text label)
+        {
+            if (label == null || string.IsNullOrEmpty(label.text)) return;
+            var source = label.text;
+            if (!profiles.CanTranslate(AishiWardrobeProfileId, Channel, source)) return;
+            var translated = profiles.Translate(AishiWardrobeProfileId, Channel, source);
+            if (!string.Equals(source, translated, StringComparison.Ordinal)) label.text = translated;
         }
 
         private static int PatchIsbSubtitleLookup(Assembly assembly)
@@ -842,6 +1387,42 @@ namespace SPT.ModKoreanAddon
             if (string.IsNullOrEmpty(__result) || profiles == null || !LocaleMode.IsKoreanMode()) return;
             if (!profiles.CanTranslate(IsbSfProfileId, Channel, __result)) return;
             __result = profiles.Translate(IsbSfProfileId, Channel, __result);
+        }
+
+        // Only the ISB Labs selector's notification entry point: messages returned from
+        // Server/LabsVariants.cs arrive as runtime strings rather than IL constants.
+        private static int PatchIsbLabsMenuNotification(Assembly assembly)
+        {
+            var type = assembly?.GetType("ISBSSOFExtra.LabsVariantMenu", false);
+            var method = type?.GetMethod("Notify", BindingFlags.Static | BindingFlags.NonPublic,
+                null, new[] { typeof(string) }, null);
+            if (method == null || method.ReturnType != typeof(void)) return 0;
+
+            lock (Gate)
+            {
+                if (!enabled || harmony == null || !PatchedMethods.Add(method)) return 0;
+            }
+            try
+            {
+                harmony.Patch(method, prefix: new HarmonyMethod(typeof(SmallUiLiteralHooks).GetMethod(
+                    nameof(BeforeIsbLabsMenuNotification), BindingFlags.Static | BindingFlags.NonPublic))
+                    { priority = Priority.Last });
+                return 1;
+            }
+            catch (Exception ex)
+            {
+                lock (Gate) PatchedMethods.Remove(method);
+                SPT.EditableTranslations.MinimalLog.WarnOnce("ISB-Labs-notification-hook", () =>
+                    "ISB SOF Labs notification hook skipped: " + ex.Message);
+                return 0;
+            }
+        }
+
+        private static void BeforeIsbLabsMenuNotification(ref string __0)
+        {
+            if (string.IsNullOrEmpty(__0) || profiles == null || !LocaleMode.IsKoreanMode()) return;
+            if (profiles.CanTranslate(IsbSfProfileId, Channel, __0))
+                __0 = profiles.Translate(IsbSfProfileId, Channel, __0);
         }
 
         private static int PatchDoomArcadeMenu(Assembly assembly)
@@ -919,6 +1500,125 @@ namespace SPT.ModKoreanAddon
 
             if (!ApplyTextPropertyLabel(textTarget, DoomArcadeProfileId, source, profiles)) return;
             TrackOrUpdateTextPropertyLabel(textTarget, DoomArcadeProfileId, source);
+        }
+
+        // Five-mod display-only interception: never translate weather model strings inside
+        // Forecaster.Forecast.Read/Change (they drive state comparisons and glyph selection).
+        // Only finished TMP label output is touched, after Forecaster itself paints the UI.
+        private static int PatchFiveModForecast(Assembly assembly)
+        {
+            var type = assembly?.GetType("Forecaster.ForecastView", false);
+            if (type == null) return 0;
+            var method = type.GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                .FirstOrDefault(m => m.Name == "Show" && m.GetParameters().Length == 2);
+            if (method == null) return 0;
+            lock (Gate) { if (!enabled || harmony == null || !PatchedMethods.Add(method)) return 0; }
+            try
+            {
+                harmony.Patch(method, postfix: new HarmonyMethod(typeof(SmallUiLiteralHooks).GetMethod(
+                    nameof(AfterFiveModForecastShow), BindingFlags.Static | BindingFlags.NonPublic)));
+                return 1;
+            }
+            catch (Exception ex)
+            {
+                lock (Gate) PatchedMethods.Remove(method);
+                SPT.EditableTranslations.MinimalLog.WarnOnce("FiveModForecast:Show", () => "[FiveMod] Forecast display skipped: " + ex.Message);
+                return 0;
+            }
+        }
+
+        private static void AfterFiveModForecastShow(object __instance)
+        {
+            if (profiles == null || __instance == null) return;
+            try
+            {
+                var flags = BindingFlags.Instance | BindingFlags.NonPublic;
+                var type = __instance.GetType();
+                foreach (var name in new[] { "_heading", "_headText", "_wind" })
+                {
+                    var label = type.GetField(name, flags)?.GetValue(__instance) as TMP_Text;
+                    TranslateFiveModOutputLabel(label, FiveModForecastProfileId);
+                }
+            }
+            catch { /* UI must remain usable even if the mod changes its private fields. */ }
+        }
+
+        // RadarKey changes the readout text on each playback update; hook only its
+        // own painter, not the radar renderer or game/weather simulation.
+        private static int PatchFiveModRadar(Assembly assembly)
+        {
+            var type = assembly?.GetType("Forecaster.RadarKey", false);
+            if (type == null) return 0;
+            var total = 0;
+            const BindingFlags flags = BindingFlags.Static | BindingFlags.Instance |
+                BindingFlags.Public | BindingFlags.NonPublic;
+            foreach (var name in new[] { "Attach", "Update" })
+            {
+                var count = name == "Attach" ? 2 : 0;
+                var method = type.GetMethods(flags).FirstOrDefault(m => m.Name == name &&
+                    m.GetParameters().Length == count);
+                if (method == null) continue;
+                lock (Gate) { if (!enabled || harmony == null || !PatchedMethods.Add(method)) continue; }
+                try
+                {
+                    var callback = name == "Attach" ? nameof(AfterFiveModRadarAttach) : nameof(AfterFiveModRadarUpdate);
+                    harmony.Patch(method, postfix: new HarmonyMethod(typeof(SmallUiLiteralHooks).GetMethod(
+                        callback, BindingFlags.Static | BindingFlags.NonPublic)));
+                    total++;
+                }
+                catch (Exception ex)
+                {
+                    lock (Gate) PatchedMethods.Remove(method);
+                    SPT.EditableTranslations.MinimalLog.WarnOnce("FiveModRadar:" + name, () =>
+                        "[FiveMod] Radar UI hook skipped: " + ex.Message);
+                }
+            }
+            return total;
+        }
+
+        private static void AfterFiveModRadarAttach()
+        {
+            if (profiles == null) return;
+            try
+            {
+                var type = AppDomain.CurrentDomain.GetAssemblies()
+                    .FirstOrDefault(a => a.GetName().Name == FiveModForecastAssembly)?
+                    .GetType("Forecaster.RadarKey", false);
+                var instance = type?.GetField("_live", BindingFlags.Static | BindingFlags.NonPublic)?
+                    .GetValue(null);
+                if (instance == null) return;
+                var root = type.GetField("_keyRect", BindingFlags.Instance | BindingFlags.NonPublic)?
+                    .GetValue(instance) as Transform;
+                if (root == null) return;
+                foreach (var label in root.GetComponentsInChildren<TMP_Text>(true))
+                    TranslateFiveModOutputLabel(label, FiveModForecastProfileId);
+            }
+            catch { /* UI should remain functional if this optional presentation moves. */ }
+        }
+
+        private static void AfterFiveModRadarUpdate(object __instance)
+        {
+            if (profiles == null || __instance == null) return;
+            try
+            {
+                var type = __instance.GetType();
+                foreach (var name in new[] { "_fallingLabel", "_readoutText" })
+                {
+                    var label = type.GetField(name, BindingFlags.Instance | BindingFlags.NonPublic)?
+                        .GetValue(__instance) as TMP_Text;
+                    TranslateFiveModOutputLabel(label, FiveModForecastProfileId);
+                }
+            }
+            catch { }
+        }
+
+        private static void TranslateFiveModOutputLabel(TMP_Text label, string profileId)
+        {
+            if (label == null || profiles == null || string.IsNullOrEmpty(label.text)) return;
+            var source = label.text;
+            if (!profiles.CanTranslate(profileId, Channel, source)) return;
+            TrackOrUpdateTextPropertyLabel(label, profileId, source);
+            label.text = profiles.Translate(profileId, Channel, source, LocaleMode.CurrentCulture());
         }
 
         private static void TrackOrUpdateTextPropertyLabel(object target, string profileId, string source)
@@ -1094,6 +1794,10 @@ namespace SPT.ModKoreanAddon
             if (!rendered.EndsWith(" WIKI", StringComparison.Ordinal)) return rendered;
             return profiles.Translate(WikiLinksProfileId, Channel, "OPEN WIKI");
         }
+
+        // RippersCasino display arrays stay untouched. CasinoPlugin.Label receives
+        // their values for rendering, while PageNames is also used by performance
+        // logs. Translating the shared arrays would modify source-owned state.
 
         private static int PatchTarget(Assembly assembly, Target target)
         {
@@ -2461,7 +3165,7 @@ namespace SPT.ModKoreanAddon
             return profiles.Translate(profileId, Channel, source);
         }
 
-        private static bool ContainsTranslatableLiteral(MethodBase method, string profileId)
+        internal static bool ContainsTranslatableLiteral(MethodBase method, string profileId, EditableProfiles data = null)
         {
             MethodBody body;
             try { body = method?.GetMethodBody(); }
@@ -2491,7 +3195,7 @@ namespace SPT.ModKoreanAddon
                     try
                     {
                         var source = method.Module.ResolveString(BitConverter.ToInt32(il, operandStart));
-                        if (profiles?.CanTranslate(profileId, Channel, source) == true) return true;
+                        if ((data ?? profiles)?.CanTranslate(profileId, Channel, source) == true) return true;
                     }
                     catch { }
                 }

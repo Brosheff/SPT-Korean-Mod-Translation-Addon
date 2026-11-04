@@ -346,9 +346,17 @@ namespace SPT.ModKoreanAddon
             foreach (var instruction in instructions)
             {
                 yield return instruction;
+                // ConfigurationManager builds [Flags] labels via a LINQ projection:
+                // enumValues.Select(x => new { name = x.ToString(), val = ... }).
+                // Roslyn emits the ToString() call in a separate generated lambda,
+                // outside DrawFlagsField's transpiler. Translate the anonymous
+                // object's get_name() at the actual display site as well.
+                // ActiveValueRuntime only applies while this setting's flags drawer
+                // is active, and leaves source values untouched outside Korean mode.
                 if ((instruction.opcode == OpCodes.Call || instruction.opcode == OpCodes.Callvirt) &&
-                    instruction.operand is MethodInfo called && called.Name == "ToString" &&
-                    called.ReturnType == typeof(string) && called.GetParameters().Length == 0)
+                    instruction.operand is MethodInfo called && called.ReturnType == typeof(string) &&
+                    called.GetParameters().Length == 0 &&
+                    (called.Name == "ToString" || called.Name == "get_name"))
                     yield return new CodeInstruction(OpCodes.Call, ActiveValueRuntime);
             }
         }

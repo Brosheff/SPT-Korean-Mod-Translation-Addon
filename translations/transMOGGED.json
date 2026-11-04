@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.fums.transmogged",
+  "mod_name": "transMOGGED",
+  "mod_version": "1.0.0",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "transmogged.ui.001",
+        "source": "Transmog",
+        "translation": "외형 변경",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.002",
+        "source": "TRANSMOG",
+        "translation": "외형 변경",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.003",
+        "source": "CLOSE",
+        "translation": "닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.004",
+        "source": "APPLY",
+        "translation": "적용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.005",
+        "source": "Original",
+        "translation": "원래 외형",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.006",
+        "source": "Hide",
+        "translation": "숨기기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.007",
+        "source": "SEARCH",
+        "translation": "검색",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.008",
+        "source": "HIDDEN   <color=#6E706E>Not shown on your character. Stats, weight and everything else stay the real item's.</color>",
+        "translation": "숨김   <color=#6E706E>캐릭터에 보이지 않습니다. 능력치와 무게 등 모든 성능은 실제 아이템 그대로입니다.</color>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.009",
+        "source": "ITS OWN LOOK   <color=#6E706E>Only the look changes. Stats, weight and everything else stay the real item's.</color>",
+        "translation": "원래 외형   <color=#6E706E>외형만 변경됩니다. 능력치와 무게 등 모든 성능은 실제 아이템 그대로입니다.</color>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.010",
+        "source": "Original look",
+        "translation": "원래 외형",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.011",
+        "source": "Hidden on your character.",
+        "translation": "캐릭터에 표시되지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.012",
+        "source": "Its own look.",
+        "translation": "원래 외형입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.013",
+        "source": "Only the look changes. Stats, weight and everything else stay the real item's.",
+        "translation": "외형만 바뀝니다. 능력치와 무게 등 나머지는 실제 아이템 그대로 유지됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.014",
+        "source": "Search",
+        "translation": "검색",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.015",
+        "source": "No matches.",
+        "translation": "검색 결과가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.016",
+        "source": "Apply",
+        "translation": "적용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.017",
+        "source": "Close",
+        "translation": "닫기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.018",
+        "source": "Nothing else fits where this sits. Parts only take looks that could really go in the same slot, with room for everything mounted on them.",
+        "translation": "이 위치에 맞는 외형이 없습니다. 부착물은 같은 슬롯에 들어갈 수 있는 외형만 선택할 수 있으며, 장착된 부착물을 수용할 공간도 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.020",
+        "source": " LOOKS",
+        "translation": "개 외형",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.021",
+        "source": " looks",
+        "translation": "개 외형",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.ui.022",
+        "source": " OF ",
+        "translation": " / ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.extra.023",
+        "source": "NOTHING ELSE FITS WHERE THIS SITS\n<size=12>Parts only take looks that could really go in the same slot, with room for everything mounted on them.</size>",
+        "translation": "이 위치에 호환되는 다른 외형이 없습니다.\n<size=12>부착물은 같은 슬롯에 장착할 수 있고, 연결된 부착물까지 수용할 수 있는 외형만 사용할 수 있습니다.</size>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.extra.024",
+        "source": "Looks like: ",
+        "translation": "외형: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.extra.025",
+        "source": "Picked look ",
+        "translation": "선택한 외형 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.extra.026",
+        "source": " doesn't fit where it is now, so its own look shows.",
+        "translation": "은(는) 현재 위치에 맞지 않아 원래 외형이 표시됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.extra.027",
+        "source": "LOOKS LIKE  <color=#C5C3B2>",
+        "translation": "적용 외형  <color=#C5C3B2>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.extra.028",
+        "source": "</color>  DOESN'T FIT WHERE IT IS NOW, SO ITS OWN LOOK SHOWS",
+        "translation": "</color>  현재 위치에 맞지 않아 원래 외형으로 표시됩니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.extra.029",
+        "source": " PARTS  ·  SHOW",
+        "translation": "개 부착물  ·  펼치기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.extra.030",
+        "source": "HIDE",
+        "translation": "접기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.followup.031",
+        "source": "HIDDEN",
+        "translation": "숨김",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.followup.032",
+        "source": "REAL ITEM",
+        "translation": "실제 아이템",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.followup.033",
+        "source": "LOOKS LIKE",
+        "translation": "변경된 외형",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.followup.034",
+        "source": "Not shown on your character",
+        "translation": "캐릭터에 표시되지 않음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.followup.035",
+        "source": " PART",
+        "translation": "개 부품",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.followup.036",
+        "source": " PARTS",
+        "translation": "개 부품",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.followup.037",
+        "source": "PART",
+        "translation": "부품",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.followup.038",
+        "source": "PARTS",
+        "translation": "부품",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.followup.039",
+        "source": "<color=#BE96FF>Looks like</color>",
+        "translation": "<color=#BE96FF>변경된 외형</color>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.followup.040",
+        "source": "\n<color=#8C8C8C>Only the look changes.</color>",
+        "translation": "\n<color=#8C8C8C>외형만 변경됩니다.</color>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "transmogged.dynamic.041",
+        "source": "{count} LOOKS",
+        "translation": "외형 {count}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "transmogged.dynamic.042",
+        "source": "{shown} OF {total} LOOKS",
+        "translation": "전체 외형 {total}개 중 {shown}개 표시",
+        "match_mode": "template"
+      },
+      {
+        "id": "transmogged.dynamic.043",
+        "source": "{count} PARTS",
+        "translation": "부품 {count}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "transmogged.dynamic.044",
+        "source": "{count} PART",
+        "translation": "부품 {count}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "transmogged.dynamic.045",
+        "source": "{count} PARTS  ·  SHOW",
+        "translation": "부품 {count}개 · 펼치기",
+        "match_mode": "template"
+      },
+      {
+        "id": "transmogged.dynamic.046",
+        "source": "LOOKS LIKE  <color=#C5C3B2>{name}</color>",
+        "translation": "적용할 외형:  <color=#C5C3B2>{name}</color>",
+        "match_mode": "template"
+      },
+      {
+        "id": "transmogged.dynamic.047",
+        "source": "<color=#C5C3B2>{name}</color>  DOESN'T FIT WHERE IT IS NOW, SO ITS OWN LOOK SHOWS",
+        "translation": "<color=#C5C3B2>{name}</color>  현재 장착 위치에 맞지 않아 원래 외형이 표시됩니다.",
+        "match_mode": "template"
+      }
+    ]
+  }
+}

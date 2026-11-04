@@ -18,7 +18,9 @@ namespace SPT.ModKoreanAddon
         internal const string AchievementDescription = "achievement_description";
         internal const string AchievementCondition = "achievement_condition";
         private readonly HashSet<string> keys = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        private readonly HashSet<string> exactKeys = new HashSet<string>(StringComparer.Ordinal);
         private readonly Dictionary<string, string> nameSources = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+        private readonly Dictionary<string, string> exactNameSources = new Dictionary<string, string>(StringComparer.Ordinal);
         private readonly HashSet<string> traders = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
         internal LocaleDisplayRules(IEnumerable<TextRule> rows)
@@ -27,7 +29,9 @@ namespace SPT.ModKoreanAddon
             {
                 if (string.IsNullOrEmpty(row.key)) continue;
                 keys.Add(row.key);
+                exactKeys.Add(row.key);
                 if (!nameSources.ContainsKey(row.key)) nameSources.Add(row.key, row.source);
+                if (!exactNameSources.ContainsKey(row.key)) exactNameSources.Add(row.key, row.source);
                 var split = row.key.LastIndexOf(' ');
                 if (split < 1) continue;
                 var field = row.key.Substring(split + 1);
@@ -72,6 +76,11 @@ namespace SPT.ModKoreanAddon
             var split = (row.key ?? "").LastIndexOf(' ');
             if (split < 1) return null;
             var id = row.key.Substring(0, split);
+            // A lowercase item "description" may have its own lowercase "name"
+            // alongside a different uppercase "Name" (Black and Blue). Link to
+            // the corresponding exact spelling before using the legacy fallback.
+            if (row.key.Substring(split + 1) == "description" && exactKeys.Contains(id + " name"))
+                return id + " name";
             // Some clothing profiles use the bare item id as the name key.
             if (keys.Contains(id) && !keys.Contains(id + " Name")) return id;
             return id + " Name";
@@ -80,6 +89,7 @@ namespace SPT.ModKoreanAddon
         internal string NameSource(TextRule row)
         {
             var key = NameKey(row);
+            if (key != null && exactNameSources.TryGetValue(key, out var exactSource)) return exactSource;
             return key != null && nameSources.TryGetValue(key, out var source) ? source : null;
         }
 

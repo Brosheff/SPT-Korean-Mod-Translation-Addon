@@ -6,11 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>SPT_Mod_Korean_Server</AssemblyName>
     <RootNamespace>SPT_Mod_Korean_Server</RootNamespace>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <ReferenceRoot Condition="'$(ReferenceRoot)' == '' and '$(ADDON_REFERENCE_ROOT)' != ''">$(ADDON_REFERENCE_ROOT)</ReferenceRoot>
     <ReferenceRoot Condition="'$(ReferenceRoot)' == ''">$(MSBuildThisFileDirectory)..\..\references</ReferenceRoot>
     <ServerRefRoot>$(ReferenceRoot)\server</ServerRefRoot>
   </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Include="../../src/MinimalLog.cs" Link="MinimalLog.cs" />

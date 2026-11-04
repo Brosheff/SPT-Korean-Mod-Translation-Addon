@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.mybutthasarash.forecaster",
+  "mod_name": "SPT Forecaster",
+  "mod_version": "1.0.0",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "com.mybutthasarash.forecaster.ui.001",
+        "source": "Clear",
+        "translation": "맑음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.002",
+        "source": "Partly cloudy",
+        "translation": "구름 조금",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.003",
+        "source": "Overcast",
+        "translation": "흐림",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.004",
+        "source": "Stormy skies",
+        "translation": "먹구름",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.005",
+        "source": "Blizzard",
+        "translation": "눈보라",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.006",
+        "source": "Thunderstorm",
+        "translation": "뇌우",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.007",
+        "source": "Light snow",
+        "translation": "약한 눈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.008",
+        "source": "Snow",
+        "translation": "눈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.009",
+        "source": "Heavy snow",
+        "translation": "폭설",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.010",
+        "source": "Light rain",
+        "translation": "약한 비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.011",
+        "source": "Rain",
+        "translation": "비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.012",
+        "source": "Heavy rain",
+        "translation": "폭우",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.013",
+        "source": "Calm",
+        "translation": "바람 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.014",
+        "source": "Breezy",
+        "translation": "산들바람",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.015",
+        "source": "Strong wind",
+        "translation": "강풍",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.016",
+        "source": "Mist",
+        "translation": "박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.017",
+        "source": "Fog",
+        "translation": "안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.018",
+        "source": "Dense fog",
+        "translation": "짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.019",
+        "source": "Thick fog",
+        "translation": "매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.020",
+        "source": "FORECAST FOR THE {time} RAID:",
+        "translation": "{time} 레이드 예보:",
+        "match_mode": "template"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.021",
+        "source": " RAID:",
+        "translation": " 레이드 예보:",
+        "match_mode": "segment"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.022",
+        "source": "RAIN",
+        "translation": "비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.023",
+        "source": "SNOW",
+        "translation": "눈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.024",
+        "source": "FOG",
+        "translation": "안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.025",
+        "source": "CLOUD",
+        "translation": "구름",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.026",
+        "source": "RAID START",
+        "translation": "레이드 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.027",
+        "source": "RAID +",
+        "translation": "레이드 +",
+        "match_mode": "segment"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.028",
+        "source": " MIN",
+        "translation": "분",
+        "match_mode": "segment"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.029",
+        "source": "Waiting for the server's weather",
+        "translation": "서버 날씨 정보를 기다리는 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.030",
+        "source": "No forecast",
+        "translation": "예보 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.031",
+        "source": "Clear all raid",
+        "translation": "레이드 내내 맑음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.032",
+        "source": "Partly cloudy all raid",
+        "translation": "레이드 내내 구름 조금",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.033",
+        "source": "Overcast all raid",
+        "translation": "레이드 내내 흐림",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.034",
+        "source": "Stormy skies all raid",
+        "translation": "레이드 내내 먹구름",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.035",
+        "source": "Mist all raid",
+        "translation": "레이드 내내 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.036",
+        "source": "Fog all raid",
+        "translation": "레이드 내내 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.037",
+        "source": "Dense fog all raid",
+        "translation": "레이드 내내 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.038",
+        "source": "Thick fog all raid",
+        "translation": "레이드 내내 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.039",
+        "source": "Blizzard all raid",
+        "translation": "레이드 내내 눈보라",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.040",
+        "source": "Thunderstorm all raid",
+        "translation": "레이드 내내 뇌우",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.041",
+        "source": "Light snow all raid",
+        "translation": "레이드 내내 약한 눈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.042",
+        "source": "Snow all raid",
+        "translation": "레이드 내내 눈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.043",
+        "source": "Heavy snow all raid",
+        "translation": "레이드 내내 폭설",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.044",
+        "source": "Light rain all raid",
+        "translation": "레이드 내내 약한 비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.045",
+        "source": "Rain all raid",
+        "translation": "레이드 내내 비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.046",
+        "source": "Heavy rain all raid",
+        "translation": "레이드 내내 폭우",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.047",
+        "source": "Blizzard and mist",
+        "translation": "눈보라와 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.048",
+        "source": "Blizzard and mist all raid",
+        "translation": "레이드 내내 눈보라와 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.049",
+        "source": "Blizzard and fog",
+        "translation": "눈보라와 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.050",
+        "source": "Blizzard and fog all raid",
+        "translation": "레이드 내내 눈보라와 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.051",
+        "source": "Blizzard and dense fog",
+        "translation": "눈보라와 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.052",
+        "source": "Blizzard and dense fog all raid",
+        "translation": "레이드 내내 눈보라와 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.053",
+        "source": "Blizzard and thick fog",
+        "translation": "눈보라와 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.054",
+        "source": "Blizzard and thick fog all raid",
+        "translation": "레이드 내내 눈보라와 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.055",
+        "source": "Thunderstorm and mist",
+        "translation": "뇌우와 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.056",
+        "source": "Thunderstorm and mist all raid",
+        "translation": "레이드 내내 뇌우와 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.057",
+        "source": "Thunderstorm and fog",
+        "translation": "뇌우와 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.058",
+        "source": "Thunderstorm and fog all raid",
+        "translation": "레이드 내내 뇌우와 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.059",
+        "source": "Thunderstorm and dense fog",
+        "translation": "뇌우와 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.060",
+        "source": "Thunderstorm and dense fog all raid",
+        "translation": "레이드 내내 뇌우와 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.061",
+        "source": "Thunderstorm and thick fog",
+        "translation": "뇌우와 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.062",
+        "source": "Thunderstorm and thick fog all raid",
+        "translation": "레이드 내내 뇌우와 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.063",
+        "source": "Light snow and mist",
+        "translation": "약한 눈과 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.064",
+        "source": "Light snow and mist all raid",
+        "translation": "레이드 내내 약한 눈과 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.065",
+        "source": "Light snow and fog",
+        "translation": "약한 눈과 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.066",
+        "source": "Light snow and fog all raid",
+        "translation": "레이드 내내 약한 눈과 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.067",
+        "source": "Light snow and dense fog",
+        "translation": "약한 눈과 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.068",
+        "source": "Light snow and dense fog all raid",
+        "translation": "레이드 내내 약한 눈과 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.069",
+        "source": "Light snow and thick fog",
+        "translation": "약한 눈과 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.070",
+        "source": "Light snow and thick fog all raid",
+        "translation": "레이드 내내 약한 눈과 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.071",
+        "source": "Snow and mist",
+        "translation": "눈과 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.072",
+        "source": "Snow and mist all raid",
+        "translation": "레이드 내내 눈과 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.073",
+        "source": "Snow and fog",
+        "translation": "눈과 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.074",
+        "source": "Snow and fog all raid",
+        "translation": "레이드 내내 눈과 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.075",
+        "source": "Snow and dense fog",
+        "translation": "눈과 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.076",
+        "source": "Snow and dense fog all raid",
+        "translation": "레이드 내내 눈과 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.077",
+        "source": "Snow and thick fog",
+        "translation": "눈과 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.078",
+        "source": "Snow and thick fog all raid",
+        "translation": "레이드 내내 눈과 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.079",
+        "source": "Heavy snow and mist",
+        "translation": "폭설과 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.080",
+        "source": "Heavy snow and mist all raid",
+        "translation": "레이드 내내 폭설과 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.081",
+        "source": "Heavy snow and fog",
+        "translation": "폭설과 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.082",
+        "source": "Heavy snow and fog all raid",
+        "translation": "레이드 내내 폭설과 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.083",
+        "source": "Heavy snow and dense fog",
+        "translation": "폭설과 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.084",
+        "source": "Heavy snow and dense fog all raid",
+        "translation": "레이드 내내 폭설과 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.085",
+        "source": "Heavy snow and thick fog",
+        "translation": "폭설과 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.086",
+        "source": "Heavy snow and thick fog all raid",
+        "translation": "레이드 내내 폭설과 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.087",
+        "source": "Light rain and mist",
+        "translation": "약한 비와 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.088",
+        "source": "Light rain and mist all raid",
+        "translation": "레이드 내내 약한 비와 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.089",
+        "source": "Light rain and fog",
+        "translation": "약한 비와 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.090",
+        "source": "Light rain and fog all raid",
+        "translation": "레이드 내내 약한 비와 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.091",
+        "source": "Light rain and dense fog",
+        "translation": "약한 비와 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.092",
+        "source": "Light rain and dense fog all raid",
+        "translation": "레이드 내내 약한 비와 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.093",
+        "source": "Light rain and thick fog",
+        "translation": "약한 비와 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.094",
+        "source": "Light rain and thick fog all raid",
+        "translation": "레이드 내내 약한 비와 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.095",
+        "source": "Rain and mist",
+        "translation": "비와 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.096",
+        "source": "Rain and mist all raid",
+        "translation": "레이드 내내 비와 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.097",
+        "source": "Rain and fog",
+        "translation": "비와 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.098",
+        "source": "Rain and fog all raid",
+        "translation": "레이드 내내 비와 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.099",
+        "source": "Rain and dense fog",
+        "translation": "비와 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.100",
+        "source": "Rain and dense fog all raid",
+        "translation": "레이드 내내 비와 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.101",
+        "source": "Rain and thick fog",
+        "translation": "비와 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.102",
+        "source": "Rain and thick fog all raid",
+        "translation": "레이드 내내 비와 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.103",
+        "source": "Heavy rain and mist",
+        "translation": "폭우와 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.104",
+        "source": "Heavy rain and mist all raid",
+        "translation": "레이드 내내 폭우와 박무",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.105",
+        "source": "Heavy rain and fog",
+        "translation": "폭우와 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.106",
+        "source": "Heavy rain and fog all raid",
+        "translation": "레이드 내내 폭우와 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.107",
+        "source": "Heavy rain and dense fog",
+        "translation": "폭우와 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.108",
+        "source": "Heavy rain and dense fog all raid",
+        "translation": "레이드 내내 폭우와 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.109",
+        "source": "Heavy rain and thick fog",
+        "translation": "폭우와 매우 짙은 안개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "com.mybutthasarash.forecaster.ui.110",
+        "source": "Heavy rain and thick fog all raid",
+        "translation": "레이드 내내 폭우와 매우 짙은 안개",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

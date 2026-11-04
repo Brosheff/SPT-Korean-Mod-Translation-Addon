@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "source3.make_shotguns_great_again",
   "mod_name": "Make Shotguns Great Again!",
-  "mod_version": "1.19.0",
+  "mod_version": "1.20.0",
   "channels": {
     "locale": [
       {
@@ -35,7 +35,7 @@
       {
         "key": "69111e8fab39296e6f0f310a Description",
         "source": "A 12-gauge Flechette Kinghunter shell made in USA. The shell contains 10 flechettes made of tungsten alloy. You definitely don't want to be on the receiving end of the weapon loaded with it.",
-        "translation": "미국에서 제작된 12게이지 Flechette Kinghunter 산탄입니다. 탄피 안에는 텅스텐 합금으로 만든 플레셰트 10개가 들어 있습니다. 이 탄약을 장전한 무기의 표적이 되고 싶지는 않을 겁니다."
+        "translation": "미국에서 제작된 12게이지 플레셰트 킹헌터 탄약입니다. 탄피 안에는 텅스텐 합금으로 만든 플레셰트 10개가 들어 있습니다. 이 탄약을 장전한 무기의 표적이 되고 싶지는 않을 겁니다."
       },
       {
         "key": "691098356f593043295f6ddc Name",
@@ -50,7 +50,7 @@
       {
         "key": "691098356f593043295f6ddc Description",
         "source": "MP-12 is the legendary Soviet single-barreled rifle. This gun behaves perfectly in all weather conditions, no breakdowns or failures have ever been identified.",
-        "translation": "MP-12는 전설적인 소련제 단발 소총입니다. 어떤 기상 조건에서도 안정적으로 작동하며, 고장이나 기능 불량이 확인된 적이 없다고 알려져 있습니다."
+        "translation": "MP-12는 전설적인 소련제 단발 소총입니다. 어떤 기상 조건에서도 안정적으로 작동하며, 고장이나 기능 불량이 한 번도 확인되지 않았습니다."
       },
       {
         "key": "6995e5f38ebb130aec79e509 Name",
@@ -275,22 +275,22 @@
       {
         "key": "6911031c1e9fa1008ce6e1aa Description",
         "source": "A 12-gauge 00 buckshot shell by Winchester. The 00 buckshot is a 6-pellet shell, with each pellet being 8.4mm in diameter. The shell is designed for hunting and self-defense.",
-        "translation": "윈체스터(Winchester)에서 제작한 12게이지 00 벅샷입니다. 지름 8.4mm의 산탄 6개가 들어 있으며, 사냥과 자기방어용으로 설계되었습니다."
+        "translation": "윈체스터에서 제작한 12게이지 00 벅샷입니다. 지름 8.4mm의 산탄 6개가 들어 있으며, 사냥과 자기방어용으로 설계되었습니다."
       },
       {
         "key": "6910f8984a20c41289074652 Name",
         "source": "Benelli M3 Keymod Handguard",
-        "translation": "베넬리 M3 KeyMod 총열덮개"
+        "translation": "베넬리 M3 키모드 총열덮개"
       },
       {
         "key": "6910f8984a20c41289074652 ShortName",
         "source": "M3 Keymod",
-        "translation": "M3 KeyMod"
+        "translation": "M3 키모드"
       },
       {
         "key": "6910f8984a20c41289074652 Description",
         "source": "A Keymod handguard for the Benelli M3 shotgun, manufactured by Toni System.",
-        "translation": "토니 시스템(Toni System)에서 제조한 베넬리 M3 산탄총용 KeyMod 총열덮개입니다."
+        "translation": "토니 시스템(Toni System)에서 제조한 베넬리 M3 산탄총용 키모드 총열덮개입니다."
       },
       {
         "key": "6910e8d90b57259e9dd34f78 Name",
@@ -335,7 +335,7 @@
       {
         "key": "6a67d15e807645163d053cb0 Description",
         "source": "A modified version of the SP-81 signal pistol, re-chambered and reinforced to fire 23x75mm rounds. Originally designed by the V.A. Degtyarev Plant. Incompatible with flares and other signal ammunition.",
-        "translation": "SP-81 신호권총을 23x75mm 탄약을 발사할 수 있도록 재약실화하고 보강한 개조형입니다. 원형은 V.A. 데그차료프 공장에서 설계되었습니다. 조명탄을 비롯한 다른 신호탄과는 호환되지 않습니다."
+        "translation": "SP-81 신호권총을 23x75mm 탄약을 발사할 수 있도록 재약실화하고 보강한 개조형입니다. 원형은 V.A. 데그탸료프 공장에서 설계되었습니다. 조명탄을 비롯한 다른 신호탄과는 호환되지 않습니다."
       },
       {
         "key": "6910e1cbbd20f63a9791742e Name",
@@ -355,7 +355,7 @@
       {
         "key": "25c870f3b572c2f2db00bfb8 Name",
         "source": ".700 Nitro Express SP \"Mammoth\"",
-        "translation": ".700 Nitro Express SP \"맘모스\"",
+        "translation": ".700 Nitro Express SP \"Mammoth\"",
         "match_mode": "item_decorated"
       },
       {
@@ -371,7 +371,7 @@
       {
         "key": "2469576cb545e234792b3d35 Name",
         "source": ".700 Nitro Express AP \"Goliath\"",
-        "translation": ".700 Nitro Express AP \"골리앗\""
+        "translation": ".700 Nitro Express AP \"Goliath\""
       },
       {
         "key": "2469576cb545e234792b3d35 ShortName",
@@ -381,12 +381,12 @@
       {
         "key": "2469576cb545e234792b3d35 Description",
         "source": "An experimental armor-piercing .700 Nitro Express cartridge nicknamed \"Goliath\". A narrow, pointed hardened penetrator is held in a four-segment polymer sabot inside a brass case. This costly custom load trades some of the cartridge's devastating soft-target damage for substantially improved armor penetration.",
-        "translation": "“골리앗”이라는 별명이 붙은 실험형 .700 Nitro Express 철갑탄입니다. 가늘고 뾰족한 경화 관통자가 황동 탄피 안의 4분할 폴리머 사봇에 고정되어 있습니다. 값비싼 커스텀 탄약으로, 연질 표적에 대한 막대한 피해 일부를 희생하는 대신 장갑 관통력을 크게 높였습니다."
+        "translation": "“골리앗”이라는 별명이 붙은 실험형 .700 Nitro Express 철갑탄입니다. 가늘고 뾰족한 경화 관통체가 황동 탄피 안의 4분할 폴리머 사봇에 고정되어 있습니다. 값비싼 커스텀 탄약으로, 연질 표적에 대한 막대한 피해 일부를 희생하는 대신 장갑 관통력을 크게 높였습니다."
       },
       {
         "key": "dcbc76154efbfbc64506f30e Name",
         "source": ".700 Nitro Express buckshot \"Cerberus\"",
-        "translation": ".700 Nitro Express 벅샷 \"케르베로스\""
+        "translation": ".700 Nitro Express buckshot \"Cerberus\""
       },
       {
         "key": "dcbc76154efbfbc64506f30e ShortName",
@@ -396,12 +396,12 @@
       {
         "key": "dcbc76154efbfbc64506f30e Description",
         "source": "A custom multi-projectile .700 Nitro Express cartridge nicknamed \"Cerberus\". Eight heavy pellets replace the single rifle projectile, producing a devastating close-range spread at the cost of precision and armor penetration. A short red polymer closure and a red case band identify the load.",
-        "translation": "“케르베로스”라는 별명이 붙은 커스텀 다중 발사체 .700 Nitro Express 탄약입니다. 단일 소총 탄두 대신 무거운 산탄 8개를 사용해 근거리에서 파괴적인 탄막을 만들지만, 정밀도와 장갑 관통력은 떨어집니다. 짧은 적색 폴리머 마개와 탄피의 적색 띠로 구분할 수 있습니다."
+        "translation": "“케르베로스”라는 별명이 붙은 커스텀 다중 발사체 .700 Nitro Express 탄약입니다. 단일 소총 탄두 대신 무거운 산탄 8개를 사용해 근거리에서 강력하게 산탄이 퍼지지만, 정밀도와 장갑 관통력은 떨어집니다. 짧은 적색 폴리머 마개와 탄피의 적색 띠로 구분할 수 있습니다."
       },
       {
         "key": "6ac0247305055ccd3b93f729 Name",
         "source": "MP-18 7.62x54R 600mm threaded barrel",
-        "translation": "MP-18 7.62x54R 600mm 나사산 총열"
+        "translation": "MP-18 7.62x54R 600mm 나사산 가공 총열"
       },
       {
         "key": "6ac0247305055ccd3b93f729 ShortName",
@@ -416,7 +416,7 @@
       {
         "key": "6ac0f1e2277937dd42ac8774 Name",
         "source": "Rock Island Armory VR80 12ga semi-automatic shotgun",
-        "translation": "Rock Island Armory VR80 12게이지 반자동 산탄총"
+        "translation": "록아일랜드 아머리 VR80 12게이지 반자동 산탄총"
       },
       {
         "key": "6ac0f1e2277937dd42ac8774 ShortName",
@@ -426,7 +426,7 @@
       {
         "key": "6ac0f1e2277937dd42ac8774 Description",
         "source": "The VR80 is a gas-operated, magazine-fed 12 gauge semi-automatic shotgun marketed by Rock Island Armory. Its AR-style layout brings familiar controls and a flat-top optics rail to a shotgun platform. Detachable box magazines keep reloads straightforward, while the M-LOK handguard provides mounting points for accessories. This factory configuration uses a 508mm barrel and a stock with an integrated pistol grip.",
-        "translation": "VR80은 Rock Island Armory에서 판매하는 가스 작동식 탄창 급탄 12게이지 반자동 산탄총입니다. AR 계열과 비슷한 구조로 익숙한 조작계와 평평한 상부 광학 레일을 갖췄습니다. 탈착식 박스 탄창으로 재장전이 간편하며, M-LOK 총열덮개에는 각종 액세서리를 장착할 수 있습니다. 이 공장 출고형은 508mm 총열과 권총손잡이 일체형 개머리판을 사용합니다."
+        "translation": "VR80은 록아일랜드 아머리에서 판매하는 가스 작동식 탄창 급탄 12게이지 반자동 산탄총입니다. AR 계열과 비슷한 구조로 익숙한 조작계와 평평한 상부 광학 레일을 갖췄습니다. 탈착식 박스 탄창으로 재장전이 간편하며, 엠락 총열덮개에는 각종 액세서리를 장착할 수 있습니다. 이 공장 출고형은 508mm 총열과 권총손잡이 일체형 개머리판을 사용합니다."
       },
       {
         "key": "6ac0f1e2277937dd42ac8775 Name",
@@ -441,7 +441,7 @@
       {
         "key": "6ac0f1e2277937dd42ac8775 Description",
         "source": "A detachable 5-round box magazine for the Rock Island Armory VR80 12ga shotgun. The factory-capacity magazine keeps the weapon relatively compact and accepts 12/70 ammunition.",
-        "translation": "Rock Island Armory VR80 12게이지 산탄총용 탈착식 5발 박스 탄창입니다. 공장 표준 용량으로 무기의 크기를 비교적 작게 유지하며 12/70 탄약을 사용할 수 있습니다."
+        "translation": "록아일랜드 아머리 VR80 12게이지 산탄총용 탈착식 5발 박스 탄창입니다. 공장 표준 용량으로 무기의 크기를 비교적 작게 유지하며 12/70 탄약을 사용할 수 있습니다."
       },
       {
         "key": "6ac0f1e2277937dd42ac8776 Name",
@@ -456,7 +456,7 @@
       {
         "key": "6ac0f1e2277937dd42ac8776 Description",
         "source": "An extended 10-round box magazine for the Rock Island Armory VR80 12ga shotgun. It doubles the capacity of the factory 5-round magazine at the cost of a longer magazine body.",
-        "translation": "Rock Island Armory VR80 12게이지 산탄총용 확장형 10발 박스 탄창입니다. 공장 표준 5발 탄창의 두 배 용량을 제공하지만 탄창 몸체가 더 길어집니다."
+        "translation": "록아일랜드 아머리 VR80 12게이지 산탄총용 확장형 10발 박스 탄창입니다. 공장 표준 5발 탄창의 두 배 용량을 제공하지만 탄창 몸체가 더 길어집니다."
       },
       {
         "key": "6ac0f1e2277937dd42ac8777 Name",
@@ -471,7 +471,7 @@
       {
         "key": "6ac0f1e2277937dd42ac8777 Description",
         "source": "The factory polymer stock assembly for the Rock Island Armory VR80 shotgun. The stock and pistol grip form a single unit, with a rubber buttpad at the shoulder.",
-        "translation": "Rock Island Armory VR80 산탄총용 공장제 폴리머 개머리판 어셈블리입니다. 개머리판과 권총손잡이가 하나의 부품으로 구성되어 있으며 어깨 부분에는 고무 패드가 달려 있습니다."
+        "translation": "록아일랜드 아머리 VR80 산탄총용 공장제 폴리머 개머리판 어셈블리입니다. 개머리판과 권총손잡이가 하나의 부품으로 구성되어 있으며 어깨 부분에는 고무 패드가 달려 있습니다."
       },
       {
         "key": "6ac0f1e2277937dd42ac8778 Name",
@@ -486,7 +486,7 @@
       {
         "key": "6ac0f1e2277937dd42ac8778 Description",
         "source": "A 508mm (20 inch) factory-profile barrel for the Rock Island Armory VR80 12ga semi-automatic shotgun.",
-        "translation": "Rock Island Armory VR80 12게이지 반자동 산탄총용 508mm(20인치) 공장 규격 총열입니다."
+        "translation": "록아일랜드 아머리 VR80 12게이지 반자동 산탄총용 508mm(20인치) 공장 규격 총열입니다."
       },
       {
         "key": "6ac179398c908bb02fb9a036 Name",
@@ -501,22 +501,22 @@
       {
         "key": "6ac179398c908bb02fb9a036 Description",
         "source": "A 508mm (20 inch) factory-profile barrel for the Rock Island Armory VR80 12ga semi-automatic shotgun, with an internal thread at the muzzle for choke tubes and muzzle adapters.",
-        "translation": "Rock Island Armory VR80 12게이지 반자동 산탄총용 508mm(20인치) 공장 규격 총열입니다. 총구 내부에 초크 튜브와 총구 어댑터용 나사산이 가공되어 있습니다."
+        "translation": "록아일랜드 아머리 VR80 12게이지 반자동 산탄총용 508mm(20인치) 공장 규격 총열입니다. 총구 내부에 초크 튜브와 총구 어댑터용 나사산이 가공되어 있습니다."
       },
       {
         "key": "6ac0f1e2277937dd42ac8779 Name",
         "source": "VR80 M-LOK handguard",
-        "translation": "VR80 M-LOK 총열덮개"
+        "translation": "VR80 엠락 총열덮개"
       },
       {
         "key": "6ac0f1e2277937dd42ac8779 ShortName",
         "source": "VR80 M-LOK",
-        "translation": "VR80 M-LOK"
+        "translation": "VR80 엠락"
       },
       {
         "key": "6ac0f1e2277937dd42ac8779 Description",
         "source": "The factory aluminum M-LOK handguard for the Rock Island Armory VR80 shotgun. Its top rail accommodates sights, while M-LOK mounting points accept compatible grips and accessory mounts.",
-        "translation": "Rock Island Armory VR80 산탄총용 공장제 알루미늄 M-LOK 총열덮개입니다. 상부 레일에는 조준 장치를 장착할 수 있고, M-LOK 장착부에는 호환 손잡이와 액세서리 마운트를 설치할 수 있습니다."
+        "translation": "록아일랜드 아머리 VR80 산탄총용 공장제 알루미늄 엠락 총열덮개입니다. 상부 레일에는 조준 장치를 장착할 수 있고, 엠락 장착부에는 호환 손잡이와 액세서리 마운트를 설치할 수 있습니다."
       },
       {
         "key": "698530ba25d41819d0eee3ad",
@@ -765,7 +765,7 @@
       {
         "key": "6e3dfcf763fec3ef30a9e954 Name",
         "source": "Bailiff 410 revolver",
-        "translation": "베일리프 410 .410 리볼버",
+        "translation": "베일리프 410 리볼버",
         "match_mode": "item_decorated"
       },
       {
@@ -781,7 +781,7 @@
       {
         "key": "f214da7cd7c34d27f8086a1d Name",
         "source": "Bailiff 410 5-round cylinder",
-        "translation": "5발, 베일리프 410 .410/76 실린더",
+        "translation": "5발, 베일리프 410 실린더",
         "match_mode": "item_decorated"
       },
       {
@@ -829,7 +829,7 @@
       {
         "key": "a885d565511eb39be5d9ee7e Name",
         "source": "Monolith Arms P-12 12ga pump-action shotgun",
-        "translation": "모놀리스 암스 P-12 12게이지 불펍 펌프액션 산탄총",
+        "translation": "모놀리스 암스 P-12 12게이지 펌프액션 산탄총",
         "match_mode": "item_decorated"
       },
       {
@@ -915,7 +915,7 @@
       {
         "key": "606eedf13730da2369b2ca2e ShortName",
         "source": "590M forend",
-        "translation": "590M 펌프"
+        "translation": "590M 펌프 총열덮개"
       },
       {
         "key": "606eedf13730da2369b2ca2e Description",
@@ -995,7 +995,7 @@
       {
         "key": "0d02a125c0f623e82561b4dd ShortName",
         "source": "SCR-XII FDE",
-        "translation": "SCR-XII 사막색"
+        "translation": "SCR-XII FDE"
       },
       {
         "key": "0d02a125c0f623e82561b4dd Description",
@@ -1069,7 +1069,7 @@
       {
         "key": "09780e809ecc4a3897fc87b2 Name",
         "source": "Raging Judge .410 5-round cylinder",
-        "translation": "5발, 레이징 저지 .410/76 실린더",
+        "translation": "5발, 레이징 저지 .410 실린더",
         "match_mode": "item_decorated"
       },
       {
@@ -1224,7 +1224,7 @@
       {
         "key": "d6f4775ed6deafe2706de0d7 Description",
         "source": "A semi-automatic conversion of the TOZ KS-23 special carbine. The pump action gave way to a gas-operated bolt with a charging handle on the right side of a reworked receiver, and the magazine tube was extended to hold six 23x75mm shells. It keeps the 700mm barrel, forend, wooden stock and sights of the KS-23M, and accepts the same stocks and the Rusak sight on its dovetail rail.",
-        "translation": "TOZ KS-23 특수 카빈을 반자동으로 개조한 무기입니다. 펌프액션 대신 개조된 총몸 오른쪽에 장전 손잡이를 갖춘 가스 작동식 노리쇠를 사용하고, 관형 탄창을 23x75mm 탄약 6발 수용으로 연장했습니다. KS-23M의 700mm 총열과 총열덮개, 목재 개머리판, 조준기를 유지하며 도브테일 레일에는 같은 개머리판과 루사크 조준기를 장착할 수 있습니다."
+        "translation": "TOZ KS-23 특수 카빈을 반자동으로 개조한 무기입니다. 펌프액션 대신 개조된 총몸 오른쪽에 장전 손잡이를 갖춘 가스 작동식 노리쇠를 사용하고, 관형 탄창을 23x75mm 탄약 6발 수용으로 연장했습니다. KS-23M의 700mm 총열과 총열덮개, 목재 개머리판, 조준기를 유지합니다. KS-23M과 같은 개머리판도 사용할 수 있으며, 도브테일 레일에는 루사크 조준기를 장착할 수 있습니다."
       },
       {
         "key": "5db7c8f937454c211a9b6abf Name",
@@ -1240,7 +1240,7 @@
       {
         "key": "5db7c8f937454c211a9b6abf Description",
         "source": "A competition-tuned 12 gauge semi-automatic shotgun built by Taran Tactical Innovations on the Genesis Arms GEN-12, an AR-10 pattern shotgun upper with a short-recoil action. Made famous by John Wick: Chapter 4, it keeps the familiar AR controls, a right-side reciprocating charging knob and a full-length top rail, and feeds from dedicated box magazines. Modular like any AR: grips, buffer tubes, stocks and handguards can be swapped.",
-        "translation": "타란 택티컬 이노베이션스가 제네시스 암스 GEN-12를 기반으로 경기용으로 조정한 12게이지 반자동 산탄총입니다. GEN-12는 짧은 반동을 이용하는 AR-10형 산탄총 상부 총몸을 사용합니다. 영화 존 윅 4로 유명해진 이 무기는 익숙한 AR 조작계와 우측의 왕복식 장전 손잡이, 전장 길이의 상부 레일을 갖추고 전용 박스 탄창에서 급탄합니다. 다른 AR 계열 무기처럼 손잡이, 버퍼 튜브, 개머리판, 총열덮개를 교체할 수 있습니다."
+        "translation": "타란 택티컬 이노베이션스가 제네시스 암스 GEN-12를 기반으로 경기용으로 조정한 12게이지 반자동 산탄총입니다. GEN-12는 단주퇴식으로 작동하는 AR-10 계열 산탄총 상부 총몸을 사용합니다. 영화 존 윅 4로 유명해진 이 무기는 익숙한 AR 조작계와 우측의 왕복식 장전 손잡이, 전장 길이의 상부 레일을 갖추고 전용 박스 탄창에서 급탄합니다. 다른 AR 계열 무기처럼 손잡이, 완충관, 개머리판, 총열덮개를 교체할 수 있습니다."
       },
       {
         "key": "f00ba3722e268faae8e382a8 Name",
@@ -1256,7 +1256,7 @@
       {
         "key": "f00ba3722e268faae8e382a8 Description",
         "source": "The upper and lower receiver set of the Dracarys GEN-12 in JW4 Grey: a Genesis Arms 12 gauge short-recoil upper on an AR-10 pattern lower, with a full-length top rail.",
-        "translation": "JW4 회색 마감의 드라카리스 GEN-12 상·하부 총몸 세트입니다. AR-10 규격 하부 총몸에 제네시스 암스의 짧은 반동식 12게이지 상부 총몸을 결합했으며, 전장 길이의 상부 레일이 있습니다."
+        "translation": "JW4 회색 마감의 드라카리스 GEN-12 상·하부 총몸 세트입니다. AR-10 규격 하부 총몸에 제네시스 암스의 단주퇴식 12게이지 상부 총몸을 결합했으며, 전장 길이의 상부 레일이 있습니다."
       },
       {
         "key": "8194711ae34a9cd37c4a3033 Name",
@@ -1272,7 +1272,7 @@
       {
         "key": "8194711ae34a9cd37c4a3033 Description",
         "source": "The upper and lower receiver set of the Dracarys GEN-12 in Black: a Genesis Arms 12 gauge short-recoil upper on an AR-10 pattern lower, with a full-length top rail.",
-        "translation": "검은색 마감의 드라카리스 GEN-12 상·하부 총몸 세트입니다. AR-10 규격 하부 총몸에 제네시스 암스의 짧은 반동식 12게이지 상부 총몸을 결합했으며, 전장 길이의 상부 레일이 있습니다."
+        "translation": "검은색 마감의 드라카리스 GEN-12 상·하부 총몸 세트입니다. AR-10 규격 하부 총몸에 제네시스 암스의 단주퇴식 12게이지 상부 총몸을 결합했으며, 전장 길이의 상부 레일이 있습니다."
       },
       {
         "key": "85577e55463212a89ca5864c Name",
@@ -1283,12 +1283,12 @@
       {
         "key": "85577e55463212a89ca5864c ShortName",
         "source": "GEN-12 FDE",
-        "translation": "GEN-12 사막색"
+        "translation": "GEN-12 FDE"
       },
       {
         "key": "85577e55463212a89ca5864c Description",
         "source": "The upper and lower receiver set of the Dracarys GEN-12 in FDE: a Genesis Arms 12 gauge short-recoil upper on an AR-10 pattern lower, with a full-length top rail.",
-        "translation": "사막색 마감의 드라카리스 GEN-12 상·하부 총몸 세트입니다. AR-10 규격 하부 총몸에 제네시스 암스의 짧은 반동식 12게이지 상부 총몸을 결합했으며, 전장 길이의 상부 레일이 있습니다."
+        "translation": "사막색 마감의 드라카리스 GEN-12 상·하부 총몸 세트입니다. AR-10 규격 하부 총몸에 제네시스 암스의 단주퇴식 12게이지 상부 총몸을 결합했으며, 전장 길이의 상부 레일이 있습니다."
       },
       {
         "key": "6374b8ea6e2a1f031b8edb6f Name",
@@ -1331,7 +1331,7 @@
       {
         "key": "a5891b6421140c63068c27e9 ShortName",
         "source": "GEN-12 FDE",
-        "translation": "GEN-12 사막색"
+        "translation": "GEN-12 FDE"
       },
       {
         "key": "a5891b6421140c63068c27e9 Description",
@@ -1400,7 +1400,7 @@
       {
         "key": "5ea40da664d336517d40e641 Description",
         "source": "The BCM GUNFIGHTER Mod 0 stock for AR-15 buffer tubes, the factory stock of the Dracarys GEN-12.",
-        "translation": "AR-15 버퍼 튜브용 BCM GUNFIGHTER Mod 0 개머리판입니다. 드라카리스 GEN-12의 기본 개머리판입니다."
+        "translation": "AR-15 완충관용 BCM GUNFIGHTER Mod 0 개머리판입니다. 드라카리스 GEN-12의 기본 개머리판입니다."
       },
       {
         "key": "c51219273cbdb3d240faf698 Name",
@@ -1467,6 +1467,334 @@
         "source": "FDE",
         "translation": "사막색",
         "match_mode": "exact"
+      },
+      {
+        "key": "ccec315b9227caf97592e926 Name",
+        "source": ".410/65 lead birdshot",
+        "translation": ".410/65 lead birdshot",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "ccec315b9227caf97592e926 ShortName",
+        "source": ".410/65 birdshot",
+        "translation": ".410/65 birdshot",
+        "match_mode": "exact"
+      },
+      {
+        "key": "ccec315b9227caf97592e926 Description",
+        "source": "A .410/65 (2.5 inch) shotshell loaded with 15 fine lead pellets for small game and unarmored targets at short range.",
+        "translation": "가까운 거리에서 작은 사냥감이나 비장갑 표적을 공격하기 위해 가는 납 탄자 15개를 넣은 .410/65(2.5인치) 산탄입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "225fd87e0b4eadfdee2697b2 Name",
+        "source": ".410/65 000 buckshot",
+        "translation": ".410/65 000 buckshot",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "225fd87e0b4eadfdee2697b2 ShortName",
+        "source": ".410/65 000",
+        "translation": ".410/65 000",
+        "match_mode": "exact"
+      },
+      {
+        "key": "225fd87e0b4eadfdee2697b2 Description",
+        "source": "A .410/65 (2.5 inch) shotshell loaded with three large lead pellets. Each pellet hits hard, with limited armor penetration.",
+        "translation": "큰 납 산탄 세 개가 들어 있는 .410/65(2.5인치) 산탄총 탄약입니다. 산탄 한 개당 충격력은 크지만 방탄 관통력은 제한적입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "85a2114be976cd2e1cf0ebe7 Name",
+        "source": ".410/65 lead slug",
+        "translation": ".410/65 lead slug",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "85a2114be976cd2e1cf0ebe7 ShortName",
+        "source": ".410/65 slug",
+        "translation": ".410/65 slug",
+        "match_mode": "exact"
+      },
+      {
+        "key": "85a2114be976cd2e1cf0ebe7 Description",
+        "source": "A .410/65 (2.5 inch) shotshell carrying a single lead slug. It provides a more focused impact than shot loads, with modest armor penetration.",
+        "translation": "납 슬러그 탄두 한 개가 들어 있는 .410/65(2.5인치) 산탄총 탄약입니다. 일반 산탄보다 충격을 한곳에 집중시키지만 방탄 관통력은 높지 않습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "e4aff4a6ed02435103317634 Name",
+        "source": "ATI Omni Hybrid Maxx .410 semi-automatic shotgun",
+        "translation": "ATI Omni Hybrid Maxx .410 반자동 산탄총",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "e4aff4a6ed02435103317634 ShortName",
+        "source": "Omni Hybrid",
+        "translation": "Omni Hybrid",
+        "match_mode": "exact"
+      },
+      {
+        "key": "e4aff4a6ed02435103317634 Description",
+        "source": "The ATI Omni Hybrid Maxx is an AR-15 pattern semi-automatic shotgun in .410 bore, built on a mil-spec lower of steel-reinforced polymer. It runs a short-stroke piston with balanced gas, and any standard AR charging handle fits. The chamber takes 2.5-inch (65 mm) shells only, fed from 5 or 15 round box magazines. Complete, it weighs about 6.5 lb (2.95 kg).",
+        "translation": "ATI Omni Hybrid Maxx는 AR-15 형식의 .410 구경 반자동 산탄총입니다. 군용 규격의 강철 보강 폴리머 하부 총몸을 기반으로 하며, 가스 균형을 맞춘 단행정 피스톤 방식으로 작동합니다. 표준 AR 장전손잡이와 호환됩니다. 약실은 2.5인치(65mm) 탄만 사용할 수 있고 5발 또는 15발 용량의 박스형 탄창에서 공급받습니다. 완성된 총기의 무게는 약 6.5파운드(2.95kg)입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "ef21d7b5a73d86a57987cfa6 Name",
+        "source": "ATI Omni Hybrid .410 upper receiver",
+        "translation": "ATI Omni Hybrid .410 상부 총몸",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "ef21d7b5a73d86a57987cfa6 ShortName",
+        "source": "Omni .410 upper",
+        "translation": "Omni .410 상부",
+        "match_mode": "exact"
+      },
+      {
+        "key": "ef21d7b5a73d86a57987cfa6 Description",
+        "source": "The matte black aluminum upper receiver of the ATI Omni Hybrid .410. It keeps the standard AR-15 ejection port with dust cover, deflector and forward assist, and has a continuous Picatinny rail on top. The bolt carrier runs on a short-stroke piston.",
+        "translation": "ATI Omni Hybrid .410의 무광 검은색 알루미늄 상부 총몸입니다. 먼지덮개·탄피 반사판·전진 보조기가 있는 표준 AR-15 탄피 배출구와 상단의 일체형 피카티니 레일을 갖췄습니다. 노리쇠 뭉치는 단행정 피스톤으로 작동합니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "0a962b9a65639d5ada026e55 Name",
+        "source": "ATI Omni Hybrid .410 470mm barrel",
+        "translation": "ATI Omni Hybrid .410 470mm 총열",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "0a962b9a65639d5ada026e55 ShortName",
+        "source": "Omni 470mm",
+        "translation": "Omni 470mm",
+        "match_mode": "exact"
+      },
+      {
+        "key": "0a962b9a65639d5ada026e55 Description",
+        "source": "An 18.5 inch (470 mm) barrel for the ATI Omni Hybrid .410, chambered for 2.5-inch shells. Thin, straight profile with a matte black nitrided finish.",
+        "translation": "ATI Omni Hybrid .410용 18.5인치(470mm) 총열입니다. 2.5인치 탄을 사용하며, 얇고 곧은 형태에 무광 검은색 질화 표면 처리가 되어 있습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "327d19b939bc4232f1f8c7c2 Name",
+        "source": "ATI Omni Hybrid .410 birdcage muzzle device",
+        "translation": "ATI Omni Hybrid .410 버드케이지 총구 장치",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "327d19b939bc4232f1f8c7c2 ShortName",
+        "source": "Omni birdcage",
+        "translation": "Omni 버드케이지",
+        "match_mode": "exact"
+      },
+      {
+        "key": "327d19b939bc4232f1f8c7c2 Description",
+        "source": "A cylindrical muzzle device for the ATI Omni Hybrid .410, with four long rounded slots, three rings at the rear and a slightly domed front edge. It is a little wider than the barrel and shares its matte finish.",
+        "translation": "ATI Omni Hybrid .410용 원통형 총구 장치입니다. 둥글게 마감한 긴 슬롯 네 개, 후방의 고리 세 개, 약간 둥근 전면 가장자리가 있습니다. 총열보다 조금 굵고 같은 무광 표면을 갖췄습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "54534b29cf19897b371f1875 Name",
+        "source": "ATI Omni Hybrid 13-inch KeyMod handguard",
+        "translation": "ATI Omni Hybrid 13인치 키모드 총열덮개",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "54534b29cf19897b371f1875 ShortName",
+        "source": "Omni KeyMod 13\"",
+        "translation": "Omni 키모드 13\"",
+        "match_mode": "exact"
+      },
+      {
+        "key": "54534b29cf19897b371f1875 Description",
+        "source": "A free-floating 13 inch (330 mm) aluminum KeyMod handguard for the ATI Omni Hybrid .410, with a continuous Picatinny rail on top. Smooth matte black finish with no grip texture.",
+        "translation": "ATI Omni Hybrid .410용 13인치(330mm) 자유부동식 알루미늄 키모드 총열덮개입니다. 상단에는 연속된 피카티니 레일이 있고, 손잡이 무늬 없는 매끈한 무광 검은색 표면입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "c7f783cb3866db96458ca10c Name",
+        "source": "ATI Omni Hybrid .410 5-round magazine",
+        "translation": "5발, ATI Omni Hybrid .410 탄창",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "c7f783cb3866db96458ca10c ShortName",
+        "source": "Omni 5",
+        "translation": "Omni 5",
+        "match_mode": "exact"
+      },
+      {
+        "key": "c7f783cb3866db96458ca10c Description",
+        "source": "A black polymer 5-round box magazine for the ATI Omni Hybrid .410, with a red follower and a side slot that shows the spring. It only feeds 2.5-inch (65 mm) shells.",
+        "translation": "ATI Omni Hybrid .410용 검은색 폴리머 5발 박스형 탄창입니다. 빨간색 급탄판과 내부 스프링이 보이는 측면 슬롯을 갖추며 2.5인치(65mm) 탄만 공급합니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "f65d2aefab923f285c028532 Name",
+        "source": "ATI Omni Hybrid .410 15-round magazine",
+        "translation": "15발, ATI Omni Hybrid .410 탄창",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "f65d2aefab923f285c028532 ShortName",
+        "source": "Omni 15",
+        "translation": "Omni 15",
+        "match_mode": "exact"
+      },
+      {
+        "key": "f65d2aefab923f285c028532 Description",
+        "source": "A tall black polymer 15-round box magazine for the ATI Omni Hybrid .410, with a slight curve, a red follower and a column of numbered round-count holes. It only feeds 2.5-inch (65 mm) shells.",
+        "translation": "ATI Omni Hybrid .410용 길쭉한 검은색 폴리머 15발 박스형 탄창입니다. 약간 굽은 형태에 빨간색 급탄판과 탄약 수량을 표시하는 번호가 붙은 확인 구멍이 있습니다. 2.5인치(65mm) 탄만 공급합니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "266ec98c200331dfdeb0a47c Name",
+        "source": "Iver Johnson Champion 12ga single-barrel shotgun",
+        "translation": "아이버 존슨 Champion 12게이지 단발 산탄총",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "266ec98c200331dfdeb0a47c ShortName",
+        "source": "Champion",
+        "translation": "Champion",
+        "match_mode": "exact"
+      },
+      {
+        "key": "266ec98c200331dfdeb0a47c Description",
+        "source": "An American single-barrel break-action shotgun made by Iver Johnson's Arms & Cycle Works. A top lever opens the action, the external hammer has to be cocked by hand before each shot, and an automatic ejector throws the spent shell out when the barrel is opened. Fed with 12 gauge shells.",
+        "translation": "미국 아이버 존슨 암스 앤드 사이클 웍스에서 제작한 단총열 중절식 산탄총입니다. 상부 레버를 사용해 총열을 열고, 매 발사 전에 외부에 노출된 격철을 직접 젖혀야 합니다. 총열을 열면 자동 탄피 배출기가 사용한 탄피를 튕겨 냅니다. 12게이지 탄을 사용합니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "d1c053a77e552938ec42f21f Name",
+        "source": "Iver Johnson Champion 12ga 706mm barrel",
+        "translation": "아이버 존슨 Champion 12게이지 706mm 총열",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "d1c053a77e552938ec42f21f ShortName",
+        "source": "IJ 706mm",
+        "translation": "IJ 706mm",
+        "match_mode": "exact"
+      },
+      {
+        "key": "d1c053a77e552938ec42f21f Description",
+        "source": "A factory 706mm 12 gauge barrel for the Iver Johnson Champion shotgun, with the wooden forend attached.",
+        "translation": "아이버 존슨 Champion 산탄총용 706mm 12게이지 순정 총열이며 목제 앞손잡이가 부착되어 있습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "9ac02387dd66dc9cef4f801d Name",
+        "source": "Iver Johnson Champion 12ga 316mm barrel",
+        "translation": "아이버 존슨 Champion 12게이지 316mm 절단 총열",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "9ac02387dd66dc9cef4f801d ShortName",
+        "source": "IJ 316mm",
+        "translation": "IJ 316mm",
+        "match_mode": "exact"
+      },
+      {
+        "key": "9ac02387dd66dc9cef4f801d Description",
+        "source": "An Iver Johnson Champion 12 gauge barrel sawn off at home to 316mm, with the wooden forend attached. Shorter and lighter than the factory barrel, with a wider shot spread and a lower muzzle velocity.",
+        "translation": "아이버 존슨 Champion 12게이지 총열을 직접 톱으로 316mm 길이까지 잘라낸 개조품으로 목제 앞손잡이가 부착되어 있습니다. 순정 총열보다 짧고 가벼우나 산탄 확산 범위가 넓어지고 총구 초속이 감소합니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "ab59cea7510db6eb760f2553 Name",
+        "source": "Iver Johnson Champion wooden stock",
+        "translation": "아이버 존슨 Champion 목제 개머리판",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "ab59cea7510db6eb760f2553 ShortName",
+        "source": "IJ wood",
+        "translation": "IJ 목제",
+        "match_mode": "exact"
+      },
+      {
+        "key": "ab59cea7510db6eb760f2553 Description",
+        "source": "The standard wooden stock of the Iver Johnson Champion shotgun.",
+        "translation": "아이버 존슨 Champion 산탄총의 기본 목제 개머리판입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "9e62ca0c6d66c29b4609c5e9 Name",
+        "source": "Iver Johnson Champion cut-down grip",
+        "translation": "아이버 존슨 Champion 절단형 손잡이",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "9e62ca0c6d66c29b4609c5e9 ShortName",
+        "source": "IJ grip",
+        "translation": "IJ 손잡이",
+        "match_mode": "exact"
+      },
+      {
+        "key": "9e62ca0c6d66c29b4609c5e9 Description",
+        "source": "An Iver Johnson Champion stock sawn off just behind the wrist, leaving only a pistol-style grip. A homemade modification: the shotgun becomes much more compact, but it can no longer be shouldered.",
+        "translation": "아이버 존슨 Champion 개머리판의 손잡이 뒤쪽을 잘라 권총손잡이 부분만 남긴 자작 개조품입니다. 총기가 훨씬 짧아지지만 어깨에 견착할 수 없습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "de686d276fd5ffe7cbdaa4fa",
+        "source": "Shorty",
+        "translation": "쇼티",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "55bb7ef9a9ff2af8eae58403",
+        "source": "Stockless",
+        "translation": "개머리판 없음",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "3d294f0cf0b199c1835a1075",
+        "source": "Chop Shop",
+        "translation": "개조 작업장",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "d997ce9c5395eae8f545bcc5",
+        "source": "15",
+        "translation": "15",
+        "match_mode": "exact",
+        "display_type": "item_name"
       }
     ],
     "notifications": [

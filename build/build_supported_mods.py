@@ -12,6 +12,14 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG = dict(line.split('|', 1) for line in '''7Bpencil.TransparentSights|smallui.transparentsights
 7Bpencil.WeaponCamoAndStickers|7Bpencil.WeaponCamoAndStickers.UI
 com.20fpsguy.parmesan|Parmesan - Partizan Rework
+com.20fpsguy.backpackgunslot|Backpack Gun Slot
+com.matsix.aosix|AOSix
+com.matsix.fogsix|FogSix
+com.matsix.pomsix|POMSix
+com.matsix.reflectsix|ReflectSix
+com.matsix.tracesix|TraceSix
+com.fums.transmogged|com.fums.transmogged
+com.itsripper.ripperscasino|com.itsripper.ripperscasino
 ciallo.BetterThermalNightVision|Better Thermal & Night Vision
 com.custom.flashlightmodifier|Better Flashlights
 com.pein.headshotdarkness|Headshot Darkness
@@ -74,6 +82,9 @@ com.moxopixel.menuoverhaul|smallui.menuoverhaul
 com.mpstark.dynamicmaps|DynamicMaps
 com.mpstark.PlayerEncumbranceBar|Player Encumbrance Bar
 com.mybutthasarash.sptcasino|com.mybutthasarash.sptcasino
+com.mybutthasarash.platedurability|com.mybutthasarash.platedurability
+com.mybutthasarash.forecaster|com.mybutthasarash.forecaster
+com.amos.wristaccessories|com.amos.wristaccessories
 com.ozen.continuousloadammo|ContinuousLoadAmmo
 com.ozen.foldables|com.ozen.foldables
 com.ozen.magcheckinterrupt|MagCheckInterrupt
@@ -81,6 +92,8 @@ com.pein.battleambience|Battle Ambience
 com.pein.camerarecoilmod|Recoil Rework
 com.pein.shadowflickerfix|Shadow Flicker Fix
 com.ruafcomehome.tacticaltoaster|com.ruafcomehome.tacticaltoaster
+com.samc137.aishi|com.samc137.aishi
+ajdj100.pressurepads|PressurePads
 com.samc137.isbsofextras|com.samc137.isbspecialforces
 com.samc137.ISBinfo|com.samc137.isbspecialforces
 com.samc137.isbspecialforces|com.samc137.isbspecialforces
@@ -125,6 +138,7 @@ moxopixel.advanced.modding.lights|Advanced Modding Lights
 xyz.drakia.quickmovetocontainer|Quick Move To Container
 xyz.drakia.Sense|Sense
 xyz.drakia.waypoints|Waypoints
+jrs.k9companion|jrs.k9companion
 xyz.pit.fireteam|pitfireteam.trader.locale'''.splitlines())
 
 def load(p):

@@ -12,18 +12,27 @@ internal sealed class MessageTranslator
     private readonly Dictionary<string, ServerTextRules> byTrader;
     private readonly ServerTextRules? moddedInsuranceRules;
     private readonly ServerTextRules? serverMessageRules;
+    private readonly ServerTextRules? pitSquadMessageRules;
     private readonly TradersTable tradersTable;
+    private readonly Dictionary<string, string> isbWebHtml;
+    private readonly Dictionary<string, string> isbWebJs;
 
     private MessageTranslator(
         Dictionary<string, ServerTextRules> byTrader,
         ServerTextRules? moddedInsuranceRules,
         ServerTextRules? serverMessageRules,
-        TradersTable tradersTable)
+        ServerTextRules? pitSquadMessageRules,
+        TradersTable tradersTable,
+        Dictionary<string, string> isbWebHtml,
+        Dictionary<string, string> isbWebJs)
     {
         this.byTrader = byTrader;
         this.moddedInsuranceRules = moddedInsuranceRules;
         this.serverMessageRules = serverMessageRules;
+        this.pitSquadMessageRules = pitSquadMessageRules;
         this.tradersTable = tradersTable;
+        this.isbWebHtml = isbWebHtml;
+        this.isbWebJs = isbWebJs;
     }
 
     internal static MessageTranslator FromProfiles(
@@ -34,7 +43,10 @@ internal sealed class MessageTranslator
         var rowsByTrader = new Dictionary<string, List<TextRule>>(StringComparer.OrdinalIgnoreCase);
         var moddedInsuranceRows = new List<TextRule>();
         var serverMessageRows = new List<TextRule>();
+        var pitSquadMessageRows = new List<TextRule>();
         var modIds = new HashSet<string>(StringComparer.Ordinal);
+        var isbWebHtml = new Dictionary<string, string>(StringComparer.Ordinal);
+        var isbWebJs = new Dictionary<string, string>(StringComparer.Ordinal);
 
         foreach (var file in Directory.GetFiles(translationsDirectory, "*.json"))
         {
@@ -44,6 +56,23 @@ internal sealed class MessageTranslator
                 if (document is null || document.schema_version != 1 || document.target_spt != "4.1.6" ||
                     string.IsNullOrWhiteSpace(document.mod_id) || !modIds.Add(document.mod_id))
                     throw new InvalidDataException("Invalid profile/version");
+
+                // Reuse the existing small_ui channel; only explicit audited web resource
+                // fragments for this one mod are permitted here. No API response is touched.
+                if (string.Equals(document.mod_id, "com.samc137.isbspecialforces", StringComparison.Ordinal) &&
+                    document.channels.TryGetValue("small_ui", out var webRows))
+                {
+                    foreach (var row in webRows.Where(x => x.enabled && !string.IsNullOrEmpty(x.translation)))
+                    {
+                        Dictionary<string, string>? destination = row.id?.StartsWith("sf.web.html.", StringComparison.Ordinal) == true
+                            ? isbWebHtml : row.id?.StartsWith("sf.web.js.", StringComparison.Ordinal) == true ? isbWebJs : null;
+                        if (destination == null) continue;
+                        if (string.IsNullOrEmpty(row.source) || row.source == row.translation ||
+                            (row.match_mode != null && row.match_mode != "exact") ||
+                            !destination.TryAdd(row.source, row.translation!))
+                            throw new InvalidDataException("Invalid or duplicate ISB web display-only snippet");
+                    }
+                }
 
                 if (document.channels.TryGetValue("npc_messages", out var rows))
                 {
@@ -72,11 +101,16 @@ internal sealed class MessageTranslator
                     foreach (var row in serverRows.Where(x => x.enabled && !string.IsNullOrEmpty(x.translation)))
                     {
                         var mode = row.match_mode ?? "exact";
-                        if (mode is not ("exact" or "segment"))
-                            throw new InvalidDataException("server_messages only supports exact/segment");
+                        // Dynamic USER/SYSTEM text may contain an audited full-string
+                        // placeholder. The existing ServerTextRules implementation
+                        // verifies placeholder parity and anchors template matches.
+                        if (mode is not ("exact" or "segment" or "template"))
+                            throw new InvalidDataException("server_messages supports exact/segment/template only");
                         if (!string.IsNullOrWhiteSpace(row.trader_id))
                             throw new InvalidDataException("server_messages must not define trader_id");
                         serverMessageRows.Add(row);
+                        if (string.Equals(document.mod_id, "pitfireteam.trader.locale", StringComparison.Ordinal))
+                            pitSquadMessageRows.Add(row);
                     }
                 }
             }
@@ -92,7 +126,8 @@ internal sealed class MessageTranslator
             StringComparer.OrdinalIgnoreCase);
         var scoped = moddedInsuranceRows.Count > 0 ? new ServerTextRules(moddedInsuranceRows) : null;
         var serverScoped = serverMessageRows.Count > 0 ? new ServerTextRules(serverMessageRows) : null;
-        return new MessageTranslator(compiled, scoped, serverScoped, tradersTable);
+        var pitScoped = pitSquadMessageRows.Count > 0 ? new ServerTextRules(pitSquadMessageRows) : null;
+        return new MessageTranslator(compiled, scoped, serverScoped, pitScoped, tradersTable, isbWebHtml, isbWebJs);
     }
 
     internal string Translate(string? traderId, string source, string culture)
@@ -121,6 +156,25 @@ internal sealed class MessageTranslator
         if (string.IsNullOrEmpty(source) || serverMessageRules is null) return source;
         if (CultureRegistry.Normalize(culture) == CultureRegistry.Source) return source;
         return serverMessageRules.Translate(source, culture);
+    }
+
+    internal string TranslatePitSquadMessage(string source, string culture)
+    {
+        if (string.IsNullOrEmpty(source) || pitSquadMessageRules is null) return source;
+        if (CultureRegistry.Normalize(culture) == CultureRegistry.Source) return source;
+        return pitSquadMessageRules.Translate(source, culture);
+    }
+
+    // The caller verifies the complete, exact upstream embedded-resource hash before
+    // applying any snippet. Replacements are display-only literal fragments, never IDs,
+    // form paths, JSON request/response properties or security/session tokens.
+    internal string TranslateIsbWebResource(string source, bool javascript)
+    {
+        var snippets = javascript ? isbWebJs : isbWebHtml;
+        if (snippets.Count == 0) return source;
+        foreach (var pair in snippets)
+            source = source.Replace(pair.Key, pair.Value, StringComparison.Ordinal);
+        return source;
     }
 
     private bool IsModdedInsuranceProvider(string traderId)

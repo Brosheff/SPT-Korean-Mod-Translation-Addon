@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.matsix.reflectsix",
+  "plugin_name": "ReflectSix",
+  "mod_version": "1.0.1",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Look",
+      "translation": "외관"
+    },
+    {
+      "source": "Performance",
+      "translation": "성능"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Screen-space reflections on glossy surfaces (water, puddles, glass, wet ground). Works flatscreen and in VR (per-eye).",
+      "translation_display_name": "활성화",
+      "translation_description": "물·웅덩이·유리·젖은 지면 등 반짝이는 표면에 화면 공간 반사(SSR)를 적용합니다. 일반 화면과 VR(눈마다 별도 계산)에서 작동합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Reflections In Scopes",
+      "source_display_name": "Reflections In Scopes",
+      "source_description": "Reflections in the picture a magnified scope shows, too. While you aim through one the reflections are worked out a second time for that picture, so they cost about as much again as they do for the main view, in proportion to the scope picture's size. Off = a scope shows what the game shows without this mod. Thermal sights are always left alone.",
+      "translation_display_name": "조준경 내부 반사",
+      "translation_description": "배율 조준경 영상에도 반사를 계산합니다. 조준 시 조준경 화면에 대해 반사를 한 번 더 계산하므로 화면 크기에 비례해 추가 비용이 발생합니다. 끄면 게임의 기본 조준경 화면을 사용합니다. 열영상 조준경에는 적용하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Disable Tarkov SSR Render",
+      "source_display_name": "Disable Tarkov SSR Render",
+      "source_description": "Disables Tarkov's built in SSR",
+      "translation_display_name": "기본 게임 SSR 끄기",
+      "translation_description": "타르코프에 내장된 SSR 렌더링을 비활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Debug Log",
+      "source_display_name": "Debug Log",
+      "source_description": "Log diagnostics (reflection-probe census, shader-load status).",
+      "translation_display_name": "디버그 로그",
+      "translation_description": "반사 프로브 목록과 셰이더 로드 상태 등의 진단 정보를 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Debug View",
+      "source_display_name": "Debug View",
+      "source_description": "Fullscreen diagnostic overlays. Normals/Smoothness/SpecColor visualize the G-buffer inputs — check these FIRST if reflections misbehave: black/garbage means the tracer has no surface data at this hook. ReflectionMask/ReflectionOnly show what the tracer produces; HitDist shows how far each ray flew before hitting (black = miss).",
+      "translation_display_name": "디버그 화면",
+      "translation_description": "전체 화면 진단 표시입니다. 노멀·매끄러움·반사색은 G-버퍼 입력을 보여줍니다. 반사가 이상하면 먼저 확인하세요. 검거나 깨져 보이면 해당 훅에서 표면 데이터가 없습니다. 반사 마스크·반사만 표시는 계산 결과를, 적중 거리는 광선이 닿기까지 이동한 거리(검정: 미적중)를 표시합니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "Normals",
+          "translation": "법선"
+        },
+        {
+          "source": "Smoothness",
+          "translation": "매끄러움"
+        },
+        {
+          "source": "SpecColor",
+          "translation": "정반사 색상"
+        },
+        {
+          "source": "Depth",
+          "translation": "깊이"
+        },
+        {
+          "source": "ReflectionMask",
+          "translation": "반사 마스크"
+        },
+        {
+          "source": "ReflectionOnly",
+          "translation": "반사만"
+        },
+        {
+          "source": "HitDist",
+          "translation": "충돌 거리"
+        },
+        {
+          "source": "Coherence",
+          "translation": "법선 일관성"
+        },
+        {
+          "source": "FoliageMask",
+          "translation": "식생 마스크"
+        },
+        {
+          "source": "TraceEnd",
+          "translation": "광선 종료 이유"
+        },
+        {
+          "source": "ProbeRefl",
+          "translation": "프로브 반사"
+        },
+        {
+          "source": "SceneMip",
+          "translation": "장면 밉맵"
+        },
+        {
+          "source": "HistoryLength",
+          "translation": "히스토리 길이"
+        },
+        {
+          "source": "MotionCheck",
+          "translation": "모션 확인"
+        }
+      ]
+    },
+    {
+      "section": "General",
+      "key": "Log What SSR Costs",
+      "source_display_name": "Log What SSR Costs",
+      "source_description": "Tick and stand still for 144 seconds: the mod steps through 32 set-ups (off four times, everything as set, the frame's passes left out one after another, and the trace taken apart: without its upsample, with the march as it was - with and without its skip buffers - with the fast march refining every crossing, with half the ray steps, with one, with mirror rays only; then Half-Resolution Denoising off, blurs only, everything, off) and writes each one's frame time to the log, with the share of the picture that reflects and how the rays go (how they end, how many turns of the loop they run). The frame cap is lifted while it runs and the reflections come and go (unticks itself). Needs the rebuilt 'ssr' bundle.",
+      "translation_display_name": "SSR 성능 측정 로그",
+      "translation_description": "켜고 144초간 움직이지 마세요. 모드가 꺼짐·현재 설정·패스별 제외·광선 탐색 방식·단계 수·반해상도 노이즈 제거 등을 32가지 구성으로 바꿔 프레임 시간과 반사 영역·광선 통계를 기록합니다. 측정 중 프레임 제한이 풀리고 반사가 나타났다 사라집니다. 종료 후 자동 해제됩니다. 새 ssr 번들이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Intensity",
+      "source_display_name": "Intensity",
+      "source_description": "Strength of the reflections. 1 = physically-motivated (fresnel-weighted); lower if surfaces look like chrome mirrors, raise for a stylized wet look.",
+      "translation_display_name": "반사 강도",
+      "translation_description": "반사 밝기입니다. 1은 프레넬 효과를 반영한 물리 기반 값입니다. 표면이 거울처럼 보이면 낮추고, 강조된 젖은 질감을 원하면 높이세요.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Smoothness Cutoff",
+      "source_display_name": "Smoothness Cutoff",
+      "source_description": "Only surfaces at least this smooth (G-buffer smoothness) get reflections. Lower = more surfaces reflect (wet asphalt/concrete pick up soft reflections) but more rays traced; raise for glossy-only and a little more performance.",
+      "translation_display_name": "최소 매끄러움",
+      "translation_description": "G-버퍼의 표면 매끄러움이 이 값 이상인 표면에만 반사를 적용합니다. 낮추면 젖은 아스팔트나 콘크리트도 부드럽게 반사하지만 계산량이 늘고, 높이면 광택 표면만 반사해 성능이 좋아집니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Reflection Softness",
+      "source_display_name": "Reflection Softness",
+      "source_description": "Baseline blur for ALL reflections (in mip levels), on top of the roughness-driven glossy blur. 0 = razor sharp; ~0.5 = a subtle filmic soften; 1.5+ = visibly soft. Needs Glossy Reflections ON.",
+      "translation_display_name": "기본 반사 흐림",
+      "translation_description": "모든 반사에 적용하는 추가 흐림(밉 단계)입니다. 표면 거칠기 흐림 위에 적용합니다. 0은 매우 선명, 약 0.5는 약한 영화적 흐림, 1.5 이상은 뚜렷한 흐림입니다. 광택 반사가 켜져 있어야 합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Foliage Gloss Reduction",
+      "source_display_name": "Foliage Gloss Reduction",
+      "source_description": "Reduces the gloss/reflection on grass (can have an effect on other surfaces)",
+      "translation_display_name": "식생 반사광 감소",
+      "translation_description": "잔디의 광택과 반사를 줄입니다. 다른 표면에도 영향을 줄 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Rain Streaks On Walls",
+      "source_display_name": "Rain Streaks On Walls",
+      "source_description": "Adds a flowing down effect on vertical surfaces",
+      "translation_display_name": "벽면 빗물 자국",
+      "translation_description": "수직 표면에서 빗물이 아래로 흐르는 효과를 추가합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Edge Fade",
+      "source_display_name": "Edge Fade",
+      "source_description": "Screen-border band over which reflections fade out (hides rays running off-screen; in VR also hides the per-eye disagreement at the view edges).",
+      "translation_display_name": "화면 가장자리 감쇠",
+      "translation_description": "화면 가장자리에서 반사를 서서히 사라지게 하는 영역입니다. 화면 밖으로 나가는 광선과 VR의 좌우 눈 영상 차이를 숨깁니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Glossy Reflections",
+      "source_display_name": "Glossy Reflections",
+      "source_description": "Roughness-aware reflection blur (cone tracing against a prefiltered pyramid). Rougher surfaces reflect softer, and blur grows with hit distance, so contact points stay sharp while distant content goes soft. Also the spatial denoiser for Stochastic Reflections.",
+      "translation_display_name": "거칠기 기반 광택 반사",
+      "translation_description": "거칠기에 따라 사전 필터된 피라미드에서 원뿔형 반사 흐림을 계산합니다. 거친 표면과 멀리 있는 반사일수록 부드러워지며 접촉부는 선명하게 유지됩니다. 확률적 반사의 공간 노이즈 제거에도 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Glossy Blur Scale",
+      "source_display_name": "Glossy Blur Scale",
+      "source_description": "Multiplier on the roughness-driven blur cone. 1 = GGX-motivated width; raise for a softer, dreamier wet look, lower toward 0 for sharper reflections everywhere.",
+      "translation_display_name": "광택 흐림 배율",
+      "translation_description": "거칠기에 따른 반사 흐림 원뿔의 배율입니다. 1은 GGX 기반 폭이며, 높이면 더 부드럽고 낮춰 0에 가까워질수록 선명해집니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Glossy Anisotropy",
+      "source_display_name": "Glossy Anisotropy",
+      "source_description": "Grazing-angle stretch of the glossy blur — the elongated light streaks on wet streets at night. 0 = round blur only; 1 = full physical stretch. Head-on reflections are never affected. Needs Glossy Reflections ON.",
+      "translation_display_name": "광택 이방성",
+      "translation_description": "비껴보는 각도에서 반사 흐림이 길게 늘어나는 정도입니다. 젖은 야간 도로의 긴 빛줄기를 표현합니다. 0은 원형 흐림, 1은 물리적 최대 늘어남입니다. 정면 반사에는 영향을 주지 않으며 광택 반사가 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Stochastic Reflections (SSSR)",
+      "source_display_name": "Stochastic Reflections (SSSR)",
+      "source_description": "Trace REAL glossy reflections: each pixel's ray importance-samples its GGX roughness lobe (noise-rotated every frame) and a BRDF-weighted resolve shares rays between neighbouring pixels — parallax-correct roughness blur and contact hardening from the trace itself instead of the post-blur approximation. NEEDS Temporal Smoothing above ~0.8 to integrate the sample noise (at 0 you see raw grain). OFF = deterministic mirror rays + pyramid blur.",
+      "translation_display_name": "확률적 광택 반사(SSSR)",
+      "translation_description": "각 픽셀에서 GGX 거칠기 분포에 따른 광선을 매 프레임 무작위 회전해 추적합니다. 주변 픽셀 간 광선을 공유하고 BRDF 가중치로 결합해 반사된 형상과 접촉부를 실제 광선 기반으로 표현합니다. 노이즈 누적을 위해 시간 누적 평활화 0.8 이상을 권장합니다. 끄면 거울 광선과 피라미드 흐림을 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Specular AA",
+      "source_display_name": "Specular AA",
+      "source_description": "Geometric specular antialiasing. Detailed surfaces (brick mortar, gun rails) pack many differently-aimed micro-mirrors into a pixel once rain raises smoothness; this measures that sub-pixel variance and widens the reflection lobe to match, turning would-be specks into soft glints (energy-preserving blur). Mostly redundant now that the white-speck source is handled at the material level; adds softening. 0 = off.",
+      "translation_display_name": "정반사 안티앨리어싱",
+      "translation_description": "한 픽셀 안에 포함된 서로 다른 미세 표면 방향을 계산해 반사 로브를 넓혀 반짝이는 점을 부드럽게 합니다. 현재 재질 수준의 흰 점 억제와 기능이 일부 겹치므로 화면이 더 흐려질 수 있습니다. 0은 끔입니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Firefly Suppression",
+      "source_display_name": "Firefly Suppression",
+      "source_description": "Tames bright white speckles in reflections — reflections of the scene's own tiny hot pixels (streetlight sparkles, HDR specular highlights) that otherwise flicker as blinding dots. Clamps a reflected pixel's brightness relative to its neighbourhood, so real coherent lights stay bright while lone sparkles are reined in. 0 = off; 1 = strong.",
+      "translation_display_name": "반사 반짝임 억제",
+      "translation_description": "거리등·HDR 하이라이트 같은 아주 밝은 점이 반사에서 깜빡이는 현상을 줄입니다. 이웃 픽셀 밝기에 따라 단독 점만 제한하고 실제 일관된 광원은 유지합니다. 0은 끔, 1은 강한 억제입니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Foliage F0 Threshold",
+      "source_display_name": "Foliage F0 Threshold",
+      "source_description": "The specular-colour level at/below which a surface counts as grass (\"declares no specular response\"). Tune it with Debug View = FoliageMask: RED marks what this catches — raise until grass turns red, and stop before WATER does (real water sits around 0.02, glass around 0.04). Only matters when Foliage Gloss Reduction is above 0.",
+      "translation_display_name": "식생 F0 임계값",
+      "translation_description": "이 값 이하의 정반사색을 가진 표면을 잔디로 간주합니다. 디버그 화면의 식생 마스크에서 빨간색이 잔디를 표시할 때까지 올리되 물까지 포함하지 마세요(물 약 0.02, 유리 약 0.04). 식생 반사 감소가 0보다 높을 때만 작동합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Self-Reflection Exclusion",
+      "source_display_name": "Self-Reflection Exclusion",
+      "source_description": "Reflection rays ignore anything closer to the camera than this (metres). In VR your rendered body, arms, gun and wrist UI hover over the ground and can otherwise reflect as black body-shaped blobs in puddles when you look down — this treats near-camera depth as the viewer, not the world. 0 = off (viewmodel/body reflects again). Raise it if body blobs appear at extreme downward angles.",
+      "translation_display_name": "근접 자기 반사 제외",
+      "translation_description": "카메라에서 이 거리보다 가까운 물체를 반사 광선이 무시합니다(미터). VR에서 몸·팔·무기·손목 UI가 웅덩이에 검은 덩어리로 비치는 현상을 줄입니다. 0은 제외하지 않습니다. 아래를 볼 때 몸 모양의 반점이 보이면 높이세요.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Skim Rejection",
+      "source_display_name": "Skim Rejection",
+      "source_description": "Rejects grazing 'skim' hits — rays that clip the ground's own micro-bumps a metre or two ahead and paint dark ground where the real reflection (vehicle, building, sky) belongs; the ray marches on to its true target instead. This was the VR 'black bar'. The value is how decisively (metres) a ray must sink behind a surface to count as a real hit: too low = the bar returns, too high = thin/edge-on reflections disappear. 0 = off.",
+      "translation_display_name": "스침 적중 제거",
+      "translation_description": "광선이 가까운 지면 요철을 스치고 잘못 적중해 검은 막대를 만드는 현상을 억제합니다. 실제 적중으로 인정하려면 표면 뒤로 얼마나 들어가야 하는지(미터)를 설정합니다. 너무 낮으면 검은 막대가 재발하고 너무 높으면 얇거나 모서리 쪽 반사가 사라집니다. 0은 끔입니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Sky In Reflections",
+      "source_display_name": "Sky In Reflections",
+      "source_description": "Reflections always show the sky where they should: rays that reach sky ON SCREEN fetch it exactly (clouds included), and when the sky isn't in view, CloudSix's live sky map fills in — gated by a roof check so interiors never reflect phantom clouds. Needs CloudSix's 'Publish Sky For Reflections' for the not-on-screen half.",
+      "translation_display_name": "반사 속 하늘",
+      "translation_description": "화면 안의 하늘은 구름까지 정확히 반사하고, 보이지 않는 하늘은 CloudSix가 게시한 하늘 맵으로 채웁니다. 실내에 가짜 구름이 비치지 않도록 지붕 검사도 수행합니다. 화면 밖 하늘에는 CloudSix의 반사용 하늘 공개 설정이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Off-Screen Rays Through TraceSix",
+      "source_display_name": "Off-Screen Rays Through TraceSix",
+      "source_description": "With TraceSix running, a reflection ray that leaves the picture carries on through TraceSix's voxel world: a puddle under a roof mirrors the sky past the roof's edge and nothing through the roof itself (that part needs CloudSix's published sky). Off, or without TraceSix: the roof check decides, asked where the ray was last seen on screen. Scopes always use the roof check.",
+      "translation_display_name": "TraceSix 화면 밖 반사 광선",
+      "translation_description": "TraceSix가 실행 중이면 화면을 벗어난 반사 광선을 복셀 공간에서 계속 추적합니다. 지붕 아래 웅덩이에 지붕 너머 하늘을 정확히 반사하면서 지붕을 통과하지 않게 합니다. 끄거나 TraceSix가 없으면 화면 가장자리 위치에서 지붕 검사로 결정합니다. 조준경은 항상 지붕 검사를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Off-Screen Rays Soft Edges",
+      "source_display_name": "Off-Screen Rays Soft Edges",
+      "source_description": "The march through TraceSix's voxels blends the eight voxels around each sample, so the outline of an off-screen roof or wall in a puddle is a soft edge and not voxel stairs. About three times the voxel reads of the plain march. Off: one voxel a sample.",
+      "translation_display_name": "화면 밖 반사 경계 부드럽게",
+      "translation_description": "TraceSix 복셀을 탐색할 때 주변 8개 복셀을 혼합해 지붕·벽 윤곽의 계단 현상을 줄입니다. 단일 복셀 조회보다 약 세 배의 읽기 비용이 듭니다. 끄면 표본당 복셀 하나를 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Off-Screen Rays Ray-Traced",
+      "source_display_name": "Off-Screen Rays Ray-Traced",
+      "source_description": "With TraceSix's hardware ray tracing running (flatscreen), the rays that leave the picture are traced against the map's real triangles instead of marched through its voxels (the very ray that left): exact shapes, no light through thin walls or roofs, and an off-screen ray shows what it HIT - lit by TraceSix (the sun, lamps and bounce light there) - not only whether it reached the sky. Its colour comes from TraceSix's Ray-Traced Textures (a small copy of each texture; off = the voxels' coarser colours). Bots, loot and grass are not in it. Off, or without the ray tracing: the voxel march.",
+      "translation_display_name": "화면 밖 광선 추적 반사",
+      "translation_description": "TraceSix의 하드웨어 광선 추적이 켜진 일반 화면에서는 화면 밖으로 나가는 반사 광선을 복셀 대신 실제 지형 삼각형과 충돌 검사합니다. 얇은 벽·지붕을 통과하지 않고 맞은 표면에 TraceSix 조명을 적용합니다. 텍스처 품질은 TraceSix의 광선 추적 텍스처 설정을 따르며 봇·전리품·풀은 포함하지 않습니다. 사용 불가 시 복셀 탐색으로 돌아갑니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Reflections Ray-Traced Only",
+      "source_display_name": "Reflections Ray-Traced Only",
+      "source_description": "With Off-Screen Rays Ray-Traced running: no screen-space trace at all - every reflection is what a mirror ray from the surface hits in TraceSix's ray-traced scene (lit by TraceSix), or the sky past it. No screen-space faults (things that leave the picture, rays passing behind objects), but what is on screen is reflected in TraceSix's small texture copies instead of the picture's full detail (the voxels' colours with its Ray-Traced Textures off), and bots, loot and grass are not reflected. Rough surfaces are blurred as the screen-space ones are: each pixel traces a ray from its glossy lobe and the denoiser averages them. Without the ray tracing (VR, TraceSix's ray tracing off), or without CloudSix's published sky (the sky past what the rays hit): the normal reflections, with the ray-traced rays for what leaves the picture.",
+      "translation_display_name": "광선 추적 반사만 사용",
+      "translation_description": "TraceSix 하드웨어 광선 추적이 활성화되면 화면 공간 반사를 모두 생략하고 광선 추적 장면의 표면과 하늘만 반사합니다. 화면 밖 문제는 없지만 저해상도 텍스처를 사용하고 봇·전리품·풀은 반사되지 않습니다. 거친 표면은 광선과 노이즈 제거기로 흐립니다. 광선 추적·CloudSix 하늘 데이터가 없으면 일반 반사로 돌아갑니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Remove Baked Cube Reflections",
+      "source_display_name": "Remove Baked Cube Reflections",
+      "source_description": "Many of the game's surfaces - concrete and tiled floors, guns, gear - add a fixed pre-made picture of their surroundings (a cubemap) as a shine, the same in every room, day or night, and the real reflections then land on top of it. On = that shine is taken off every solid surface while ReflectSix is on; their own specular highlight stays. Off, or ReflectSix off: the game's shine is back. Glass and other see-through surfaces keep theirs.",
+      "translation_display_name": "기본 큐브맵 반사 제거",
+      "translation_description": "게임의 콘크리트·타일·무기·장비에 고정된 가짜 환경 큐브맵 광택을 제거합니다. ReflectSix가 켜진 동안 불투명 재질에 적용되며 원래의 정반사 하이라이트는 유지됩니다. 끄면 기본 광택으로 돌아가고 유리 등 투명 재질은 유지됩니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "New Denoiser",
+      "source_display_name": "New Denoiser",
+      "source_description": "Reworked glossy-reflection denoiser: filters only the reflected light and applies each pixel's own material afterwards (surface detail stays sharp), keeps history per pixel (checked against last frame's surface, short for mirror-like reflections so they cannot ghost, long for rough ones), and follows moving reflectors. Off = the previous denoiser, for comparison. Needs the rebuilt 'ssr' bundle; with an old bundle the previous path runs.",
+      "translation_display_name": "새 반사 노이즈 제거기",
+      "translation_description": "반사광만 필터링한 뒤 픽셀별 재질을 적용해 표면 디테일을 유지합니다. 이전 프레임의 표면과 비교해 거친 표면의 이력은 길게, 거울 같은 반사는 짧게 사용하고 움직이는 반사체도 추적합니다. 끄면 이전 노이즈 제거기를 사용합니다. 새 ssr 번들이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Rough Reflection Denoising",
+      "source_display_name": "Rough Reflection Denoising",
+      "source_description": "For reflections on rougher surfaces (New Denoiser with Stochastic Reflections on): each frame is blurred along the surface before it is added to the history, and the result once more after, wide where there is little history and about a pixel where there is a lot. Never wider than half of what the surface's own roughness blurs anyway, so sharp and contact reflections are left alone. Off = the denoiser as it was (noisier, and darker where a rough surface reflects something small and bright). Needs the rebuilt 'ssr' bundle.",
+      "translation_display_name": "거친 반사 노이즈 제거",
+      "translation_description": "확률적 반사와 새 노이즈 제거기에서 거친 표면만 누적 전후로 흐립니다. 이력이 적으면 넓게, 충분하면 약 한 픽셀만 흐리며 원래 거칠기 흐림의 절반을 넘지 않습니다. 접촉부와 선명한 반사는 유지합니다. 끄면 이전 방식(노이즈·어두운 작은 광원 문제)이 됩니다. 새 ssr 번들이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Stabilize Output",
+      "source_display_name": "Stabilize Output",
+      "source_description": "With Rough Reflection Denoising: the finished reflection is also averaged over the last frames (NVIDIA ReBLUR's temporal stabilization), which calms the grain rough surfaces keep - most with Half-Resolution Trace. It may only differ from the frame's own reflection by about that grain and follows the reflection's motion as the history does, so real changes still show at once. Off = each frame's denoised reflection as it is. Needs the rebuilt 'ssr' bundle.",
+      "translation_display_name": "최종 반사 안정화",
+      "translation_description": "거친 반사 노이즈 제거 결과를 이전 프레임과 추가 평균하여 잔여 입자를 안정화합니다. 특히 반해상도 광선 추적에서 효과가 큽니다. 실제 반사 변화는 즉시 따르도록 움직임과 편차를 제한합니다. 끄면 매 프레임 결과를 그대로 표시합니다. 새 ssr 번들이 필요합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Half-Resolution Denoising",
+      "source_display_name": "Half-Resolution Denoising",
+      "source_description": "Runs parts of the rough-reflection denoiser at half resolution (needs Rough Reflection Denoising). BlursOnly: the blur before the accumulation, for wide (rough) lobes only - narrow ones keep the full-resolution blur; a small saving, no change to sharp reflections. Everything: the resolve, both blurs and the accumulation with its history, upsampled once by depth and normal - the larger saving, and sharp mirror-like reflections become half resolution too (the full-resolution history is what rebuilt their detail from the half-resolution trace). Off = all at full resolution. Needs the rebuilt 'ssr' bundle.",
+      "translation_display_name": "반해상도 노이즈 제거",
+      "translation_description": "거친 반사의 노이즈 제거 일부를 반해상도로 수행합니다. 흐림만: 넓은 흐림만 절반 해상도로 처리하고 선명한 반사는 유지합니다. 전체: 해석·흐림·시간 누적까지 반해상도로 처리해 더 빠르지만 거울 반사도 반해상도가 됩니다. 끔은 전체 해상도이며 새 ssr 번들이 필요합니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "BlursOnly",
+          "translation": "블러만"
+        },
+        {
+          "source": "Everything",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Performance",
+      "key": "Temporal Smoothing",
+      "source_display_name": "Temporal Smoothing",
+      "source_description": "How much history the denoiser may accumulate. New Denoiser: 0.8 = up to 32 frames on the roughest surfaces and 4 on mirror-like ones; lower = less accumulation (more noise, faster response). 0 = off.",
+      "translation_display_name": "시간 누적 평활화",
+      "translation_description": "노이즈 제거기가 이전 프레임을 누적하는 정도입니다. 새 제거기에서 0.8은 거친 표면 최대 32프레임, 거울 표면 최대 4프레임을 사용합니다. 낮추면 반응이 빠르지만 노이즈가 늘고 0은 끔입니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Ray Steps",
+      "source_display_name": "Ray Steps",
+      "source_description": "March iteration budget per ray. Increases the reach of the ray across the screen.",
+      "translation_display_name": "광선 탐색 단계",
+      "translation_description": "광선 하나당 화면 공간 탐색 반복 횟수입니다. 높이면 화면에서 더 멀리 추적할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Max Distance",
+      "source_display_name": "Max Distance",
+      "source_description": "How far a reflected ray may travel, in metres. Reflections of things farther than this from the reflecting surface fade out.",
+      "translation_display_name": "반사 최대 거리",
+      "translation_description": "반사 광선이 이동할 수 있는 최대 거리입니다(미터). 반사 표면에서 이보다 멀리 있는 물체의 반사는 점차 사라집니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "March Stride",
+      "source_display_name": "March Stride",
+      "source_description": "Screen pixels between march samples. Smaller = finer contact detail and thinner reflected features, but shorter reach for the same Ray Steps; larger = longer reach, may step over very thin objects.",
+      "translation_display_name": "광선 탐색 간격",
+      "translation_description": "레이 마칭 표본 사이의 화면 픽셀 간격입니다. 작으면 세밀한 접촉부와 얇은 반사체가 잘 보이지만 같은 단계에서 도달 거리가 짧습니다. 크면 멀리 가지만 얇은 물체를 건너뛸 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Far Stride Growth",
+      "source_display_name": "Far Stride Growth",
+      "source_description": "The march stride GROWS by this factor per step (capped at 3x March Stride), so rays sample finely near their origin — where contact detail lives — and sweep the far field faster. ~3x the reach for the same Ray Steps; long rays stop dying mid-screen. Hits are still refined to sub-pixel precision; the trade is thin DISTANT objects between coarse samples. 1.0 = constant stride (old behavior).",
+      "translation_display_name": "원거리 탐색 간격 증가",
+      "translation_description": "광선이 진행할수록 표본 간격을 단계별로 늘립니다(최대 기본 간격의 3배). 가까운 곳은 정밀하게, 먼 곳은 빠르게 탐색해 같은 단계로 약 3배 더 멀리 갑니다. 얇은 먼 물체를 건너뛸 수 있습니다. 1은 고정 간격입니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Thickness",
+      "source_display_name": "Thickness",
+      "source_description": "How far (metres) a march sample may sink behind the depth buffer and still count as a hit. Too small = gaps in reflections of thin objects; too big = smeary streaks under objects.",
+      "translation_display_name": "적중 판정 두께",
+      "translation_description": "광선 표본이 깊이 버퍼 표면 뒤로 들어가도 적중으로 인정하는 최대 거리입니다(미터). 너무 낮으면 얇은 물체의 반사가 끊기고 너무 높으면 물체 아래에 반사가 번집니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Half-Resolution Trace",
+      "source_display_name": "Half-Resolution Trace",
+      "source_description": "Trace one ray per 2x2 pixels (quarter the rays): the biggest performance lever. With the New Denoiser the traced pixel rotates through each 2x2 block every frame and rays are shared between neighbours by their real probabilities, so detail converges back to full resolution within a few frames. Debug views always render full-res.",
+      "translation_display_name": "반해상도 광선 추적",
+      "translation_description": "2×2픽셀마다 광선 하나만 추적해 광선 수를 4분의 1로 줄입니다. 새 노이즈 제거기는 표본 위치를 프레임마다 바꾸고 이웃 광선을 공유하여 몇 프레임 뒤 전체 해상도 디테일을 복원합니다. 디버그 화면은 항상 전체 해상도로 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Off-Screen Ray Spacing",
+      "source_display_name": "Off-Screen Ray Spacing",
+      "source_description": "The rays that leave the picture are answered by TraceSix's voxels in a pass of their own: one march for every block of this many pixels a side, and each pixel takes its answer from the blocks around it. 4 = a quarter of the marches of half-resolution trace, 8 = a sixteenth; 1 or 2 = one for every traced ray. Larger blurs the outline of off-screen things in small puddles.",
+      "translation_display_name": "화면 밖 광선 간격",
+      "translation_description": "화면 밖 광선을 TraceSix 복셀로 처리할 때 이 픽셀 크기의 블록마다 한 번씩 탐색합니다. 4는 반해상도 대비 탐색 수 약 4분의 1, 8은 16분의 1입니다. 1~2는 광선마다 계산합니다. 높일수록 작은 웅덩이의 화면 밖 물체 윤곽이 흐려집니다.",
+      "values": []
+    },
+    {
+      "section": "Performance",
+      "key": "Ray March",
+      "source_display_name": "Ray March",
+      "source_description": "How a reflection ray is walked along the screen. Fast: every turn of the loop is one depth read for every ray, so no ray holds the others up, and a ray that is already behind something is not refined again at every sample. FastExact: the same loop with every crossing refined - the same hits as Previous, to compare the picture. Previous: the march as it was. Fast can place a reflection of something thinner than a march stride about a stride away from where Previous did. Needs the rebuilt 'ssr' bundle (an older one marches as before).",
+      "translation_display_name": "광선 탐색 방식",
+      "translation_description": "Fast: 반복당 광선마다 깊이를 한 번 읽고 이미 뒤쪽에 있는 광선을 매번 다시 세분화하지 않습니다. FastExact: 같은 방식이지만 모든 교차를 정밀화하여 이전 방식과 같은 적중을 얻습니다. Previous: 기존 탐색입니다. Fast는 탐색 간격보다 얇은 물체의 반사 위치가 달라질 수 있습니다. 새 ssr 번들이 필요합니다.",
+      "values": [
+        {
+          "source": "Fast",
+          "translation": "고속"
+        },
+        {
+          "source": "FastExact",
+          "translation": "고속 정밀"
+        },
+        {
+          "source": "Previous",
+          "translation": "기존 방식"
+        }
+      ]
+    }
+  ]
+}

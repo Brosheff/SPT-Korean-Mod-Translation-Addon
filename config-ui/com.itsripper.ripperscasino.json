@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.itsripper.ripperscasino",
+  "plugin_name": "itsRipper-RippersCasino",
+  "mod_version": "1.0.1",
+  "categories": [
+    {
+      "source": "Diagnostics",
+      "translation": "진단"
+    },
+    {
+      "source": "Audio",
+      "translation": "오디오"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Diagnostics",
+      "key": "Presentation",
+      "source_display_name": "Presentation",
+      "source_description": "Collect frame intervals and laptop diagnostics for troubleshooting.",
+      "translation_display_name": "화면 진단",
+      "translation_description": "문제 진단을 위해 프레임 간격과 노트북 화면의 진단 정보를 수집합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Volume",
+      "source_display_name": "Volume",
+      "source_description": "Independent casino volume.",
+      "translation_display_name": "카지노 음량",
+      "translation_description": "카지노 소리의 전체 음량을 별도로 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "EffectsVolume",
+      "source_display_name": "EffectsVolume",
+      "source_description": "Volume for buttons, wins and the cashier.",
+      "translation_display_name": "효과음 음량",
+      "translation_description": "버튼, 당첨, 계산대의 효과음 음량을 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "ReelsVolume",
+      "source_display_name": "ReelsVolume",
+      "source_description": "Volume for spinning reels.",
+      "translation_display_name": "릴 회전 음량",
+      "translation_description": "슬롯머신 릴이 회전하는 소리의 음량을 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "HideoutAttenuationDb",
+      "source_display_name": "HideoutAttenuationDb",
+      "source_description": "Quietens hideout ambience while the casino is open.",
+      "translation_display_name": "은신처 배경음 감소(dB)",
+      "translation_description": "카지노가 열려 있는 동안 은신처 배경음을 줄입니다.",
+      "values": []
+    },
+    {
+      "section": "Audio",
+      "key": "Muted",
+      "source_display_name": "Muted",
+      "source_description": "Mute casino audio without losing volume preferences.",
+      "translation_display_name": "카지노 음소거",
+      "translation_description": "음량 설정을 유지한 채 카지노 소리만 음소거합니다.",
+      "values": []
+    },
+    {
+      "section": "Diagnostics",
+      "key": "AudioOutput",
+      "source_display_name": "AudioOutput",
+      "source_description": "Log playback output probes on entry/spin for troubleshooting.",
+      "translation_display_name": "오디오 출력 진단",
+      "translation_description": "문제 확인을 위해 카지노 입장·회전 시 재생 출력 검사 결과를 로그에 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "Diagnostics",
+      "key": "SlowReels",
+      "source_display_name": "SlowReels",
+      "source_description": "Present slots and races at one fifth speed for interactive interruption testing. Does not change outcomes or transactions.",
+      "translation_display_name": "느린 릴 재생",
+      "translation_description": "슬롯과 경주의 표시 속도를 5분의 1로 낮춰 진행 중 중단 테스트를 수행합니다. 게임 결과와 거래 내용에는 영향을 주지 않습니다.",
+      "values": []
+    }
+  ]
+}

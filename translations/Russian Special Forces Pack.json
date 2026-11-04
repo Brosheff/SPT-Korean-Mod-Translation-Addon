@@ -9,7 +9,7 @@
       {
         "key": "6a8ada430d43213c92dbe371 Name",
         "source": "Kalashnikov AMB-17 9x39 special assault rifle",
-        "translation": "Kalashnikov AMB-17 9x39 특수 돌격소총",
+        "translation": "칼라시니코프 AMB-17 9x39 특수 돌격소총",
         "match_mode": "item_decorated"
       },
       {
@@ -20,12 +20,12 @@
       {
         "key": "6a9417f9e097b0c6ce414793 Name",
         "source": "Kalashnikov AM-17 Gen.3 5.45x39 assault rifle",
-        "translation": "Kalashnikov AM-17 Gen.3 5.45x39 돌격소총"
+        "translation": "칼라시니코프 AM-17 Gen.3 5.45x39 돌격소총"
       },
       {
         "key": "6a9417f9e097b0c6ce414793 Description",
         "source": "The Kalashnikov Concern AM-17 (Russian: Aвтомат Малогабаритный, romanized: Avtomat Malogabaritnyj, lit. 'Small-sized Automatic Rifle', GRAU index: 6P74) is a compact assault rifle chambered in 5.45×39mm intermediate cartridge, developed and manufactured by Kalashnikov Concern as a replacement to the AKS-74U. The AM-17 was first unveiled in the Russian Army Expo 2017 alongside the integrally suppressed AMB-17. Its development began in the late 2010s, and was based on the Yevgeny Dragunov MA compact assault rifle. In November 2024, the AM-17 has completed the acceptance trials. Serial production of the carbine is expected to begin in 2025. On September 1, 2025, Kalashnikov Concern reported that the first experimental batch of the AM-17 had been manufactured. Newer version developed for the conflict in tarkov, allows the use of m4 style pistolgrips.",
-        "translation": "칼라시니코프 콘체른 AM-17(러시아어: Aвтомат Малогабаритный, 로마자 표기: Avtomat Malogabaritnyj, 직역: ‘소형 자동소총’, GRAU 지수: 6P74)은 5.45x39mm 중간탄을 사용하는 소형 돌격소총으로, AKS-74U를 대체하기 위해 칼라시니코프 콘체른이 개발·생산했습니다. AM-17은 일체형 소음기 방식의 AMB-17과 함께 2017 러시아 Army Expo에서 처음 공개됐습니다. 개발은 2010년대 후반에 시작됐으며 예브게니 드라구노프의 MA 소형 돌격소총을 기반으로 합니다. 2024년 11월 AM-17은 인수 시험을 완료했고, 카빈의 양산은 2025년에 시작될 예정이었습니다. 2025년 9월 1일 칼라시니코프 콘체른은 AM-17의 첫 시험 생산분이 제조됐다고 발표했습니다. 타르코프 분쟁을 위해 개발된 신형 버전은 M4 방식 권총손잡이를 사용할 수 있습니다."
+        "translation": "칼라시니코프 콘체른 AM-17(러시아어: Aвтомат Малогабаритный, 로마자 표기: Avtomat Malogabaritnyj, 직역: ‘소형 자동소총’, GRAU 제식번호: 6P74)은 5.45x39mm 중간탄을 사용하는 소형 돌격소총으로, AKS-74U를 대체하기 위해 칼라시니코프 콘체른이 개발·생산했습니다. AM-17은 일체형 소음기 방식의 AMB-17과 함께 2017 러시아 Army Expo에서 처음 공개됐습니다. 개발은 2010년대 후반에 시작됐으며 예브게니 드라구노프의 MA 소형 돌격소총을 기반으로 합니다. 2024년 11월 AM-17은 인수 시험을 완료했고, 카빈의 양산은 2025년에 시작될 예정이었습니다. 2025년 9월 1일 칼라시니코프 콘체른은 AM-17의 첫 시험 생산분이 제조됐다고 발표했습니다. 타르코프 분쟁을 위해 개발된 신형 버전은 M4 방식 권총손잡이를 사용할 수 있습니다."
       },
       {
         "key": "6a9497c3e097b0c6ce414794 Name",
@@ -75,7 +75,7 @@
       {
         "key": "6a9499ede097b0c6ce41479c Description",
         "source": "Pistol grip for the AM-17 rifle, Generation 3. Improves ergonomics and handling.",
-        "translation": "AM-17 Gen.3 소총용 권총손잡이입니다. 인체공학성과 조작성을 향상합니다."
+        "translation": "AM-17 3세대 소총용 권총손잡이입니다. 인체공학성과 조작성을 향상합니다."
       },
       {
         "key": "6a949adce097b0c6ce41479e Name",
@@ -85,7 +85,7 @@
       {
         "key": "6a949adce097b0c6ce41479e Description",
         "source": "Muzzle brake for the AM-17 rifle, Generation 3. Reduces recoil and muzzle rise.",
-        "translation": "AM-17 Gen.3 소총용 총구제퇴기입니다. 반동과 총구 앙등을 줄여줍니다."
+        "translation": "AM-17 3세대 소총용 총구제퇴기입니다. 반동과 총구 앙등을 줄여줍니다."
       },
       {
         "key": "6a94a2cee097b0c6ce4147a0 Name",
@@ -155,7 +155,7 @@
       {
         "key": "6a94a460e097b0c6ce4147ac Description",
         "source": "An adapter for installing buffer tubes for the AM-17 rifle. Allows the use of Picatinny stocks and improves ergonomics.",
-        "translation": "AM-17 소총에 버퍼 튜브를 장착하기 위한 어댑터입니다. 피카티니 방식 개머리판을 사용할 수 있으며 인체공학성을 향상합니다."
+        "translation": "AM-17 소총에 완충관을 장착하기 위한 어댑터입니다. 피카티니 방식 개머리판을 사용할 수 있으며 인체공학성을 향상합니다."
       },
       {
         "key": "6a94a492e097b0c6ce4147ae Name",
@@ -165,7 +165,7 @@
       {
         "key": "6a94a492e097b0c6ce4147ae Description",
         "source": "Silencer for the AM-17 rifle, Generation 3. Reduces recoil and muzzle rise.",
-        "translation": "AM-17 Gen.3 소총용 소음기입니다. 반동과 총구 앙등을 줄여줍니다."
+        "translation": "AM-17 3세대 소총용 소음기입니다. 반동과 총구 앙등을 줄여줍니다."
       },
       {
         "key": "6a958051fb598539cc275e5c Name",
@@ -200,22 +200,22 @@
       {
         "key": "6a95e5adfb598539cc275e61 Name",
         "source": "Magpul MBUS Pro flip-up front sight",
-        "translation": "Magpul MBUS Pro 접이식 가늠쇠"
+        "translation": "맥풀 MBUS Pro 접이식 가늠쇠"
       },
       {
         "key": "6a95e5adfb598539cc275e61 Description",
         "source": "The MBUS Pro Sight – Front combines rugged, all-steel construction and absolutely dependable performance into an elevation-adjustable, easy-to-use backup sight that’s ready when your primary optic isn’t. Its small size minimizes snagging, adjusts quickly, and stays exactly where you need it. With two different front-post options, shooters can also switch from a maximum visibility width to one more suited for precision shooting",
-        "translation": "MBUS Pro 가늠쇠는 견고한 올스틸 구조와 높은 신뢰성을 갖춘 고도 조절식 예비 조준기입니다. 주 조준경을 사용할 수 없을 때 간편하게 사용할 수 있습니다. 작은 크기로 걸림을 줄이고 빠르게 조절할 수 있으며 설정한 위치를 안정적으로 유지합니다. 두 종류의 가늠쇠 포스트를 선택할 수 있어 높은 시인성이 필요한 폭과 정밀 사격에 적합한 폭 사이를 전환할 수 있습니다."
+        "translation": "MBUS Pro 가늠쇠는 견고한 올스틸 구조와 높은 신뢰성을 갖춘 상하 조절식 예비 조준기입니다. 주 조준경을 사용할 수 없을 때 간편하게 사용할 수 있습니다. 작은 크기로 걸림을 줄이고 빠르게 조절할 수 있으며 설정한 위치를 안정적으로 유지합니다. 두 종류의 가늠쇠 포스트를 선택할 수 있어 높은 시인성이 필요한 폭과 정밀 사격에 적합한 폭 사이를 전환할 수 있습니다."
       },
       {
         "key": "6a95e5d5fb598539cc275e63 Name",
         "source": "Magpul MBUS Pro flip-up rear sight",
-        "translation": "Magpul MBUS Pro 접이식 가늠자"
+        "translation": "맥풀 MBUS Pro 접이식 가늠자"
       },
       {
         "key": "6a95e5d5fb598539cc275e63 Description",
         "source": "The MBUS Pro Sight – Rear combines rugged, all-steel construction and absolutely dependable performance into an easy-to-use windage-adjustable backup sight that’s ready when your optic isn’t. Its small size minimizes snagging, adjusts quickly, and stays exactly where you need it. With two different aperture options, shooters can quickly change between close-range/low light situations and long-range targets.",
-        "translation": "MBUS Pro 가늠자는 견고한 올스틸 구조와 높은 신뢰성을 갖춘 편류 조절식 예비 조준기입니다. 주 조준경을 사용할 수 없을 때 간편하게 사용할 수 있습니다. 작은 크기로 걸림을 줄이고 빠르게 조절할 수 있으며 설정한 위치를 안정적으로 유지합니다. 두 종류의 조준 구멍을 선택할 수 있어 근거리·저조도 상황과 장거리 표적에 맞춰 빠르게 전환할 수 있습니다."
+        "translation": "MBUS Pro 가늠자는 견고한 올스틸 구조와 높은 신뢰성을 갖춘 좌우 조절식 예비 조준기입니다. 주 조준경을 사용할 수 없을 때 간편하게 사용할 수 있습니다. 작은 크기로 걸림을 줄이고 빠르게 조절할 수 있으며 설정한 위치를 안정적으로 유지합니다. 두 종류의 조준 구멍을 선택할 수 있어 근거리·저조도 상황과 장거리 표적에 맞춰 빠르게 전환할 수 있습니다."
       },
       {
         "key": "6a968b0a910dd21fbe9e374b Name",
@@ -255,7 +255,7 @@
       {
         "key": "6a9888aa03930f8d769fde27 Name",
         "source": "Kalashnikov AK-200 5.45x39 assault rifle",
-        "translation": "Kalashnikov AK-200 5.45x39 돌격소총"
+        "translation": "칼라시니코프 AK-200 5.45x39 돌격소총"
       },
       {
         "key": "6a9888aa03930f8d769fde27 Description",
@@ -275,12 +275,12 @@
       {
         "key": "6a98a91603930f8d769fde2b Name",
         "source": "AK-200 gas tube",
-        "translation": "AK-200 가스 튜브"
+        "translation": "AK-200 가스관"
       },
       {
         "key": "6a98a91603930f8d769fde2b Description",
         "source": "Gas tube for the AK-200 rifle.",
-        "translation": "AK-200 소총용 가스 튜브입니다."
+        "translation": "AK-200 소총용 가스관입니다."
       },
       {
         "key": "6a98a9d503930f8d769fde2d Name",
@@ -315,7 +315,7 @@
       {
         "key": "6a9954b397425139faf657d3 Name",
         "source": "Kalashnikov AK-205 5.45x39 assault rifle",
-        "translation": "Kalashnikov AK-205 5.45x39 돌격소총"
+        "translation": "칼라시니코프 AK-205 5.45x39 돌격소총"
       },
       {
         "key": "6a9954b397425139faf657d3 Description",
@@ -365,7 +365,7 @@
       {
         "key": "6a9b08815499040aee890f53 Name",
         "source": "PP-2000 9x19 Muzzle Brake",
-        "translation": "PP-2000 9x19 제퇴기"
+        "translation": "PP-2000 9x19 총구제퇴기"
       },
       {
         "key": "6a9b08815499040aee890f53 Description",
@@ -425,12 +425,12 @@
       {
         "key": "6a9bf1fed67da98b239147e5 Name",
         "source": "PP-2000 flashlight",
-        "translation": "PP-2000 손전등"
+        "translation": "PP-2000 전술 조명"
       },
       {
         "key": "6a9bf1fed67da98b239147e5 Description",
         "source": "A tactical flashlight designed for the PP-2000, providing enhanced visibility in low-light conditions.",
-        "translation": "PP-2000용으로 설계된 전술 손전등으로, 저조도 환경에서 시야를 향상합니다."
+        "translation": "PP-2000용으로 설계된 전술 조명으로, 저조도 환경에서 시야를 향상합니다."
       },
       {
         "key": "6a9d77d61b88e55ada72f237 Name",
@@ -475,12 +475,12 @@
       {
         "key": "6a9e7c7ba77d4b62cecda25a Name",
         "source": "Lebedev PLK 9x19 Compact pistol",
-        "translation": "Lebedev PLK 9x19 Compact 권총"
+        "translation": "레베데프 PLK 9x19 소형 권총"
       },
       {
         "key": "6a9e7c7ba77d4b62cecda25a Description",
         "source": "The compact PLK pistol is the first compact Russian-made sidearm chambered for 9x19 mm cartridges. The pistol allows using the full range of 9x19 mm combat, sporting and other cartridges, including 7N21 high-power armor-piercing cartridges. The compact size of the PLK makes it easy for concealed carry. Ambidextrous controls (safety, slide stop and magazine release button) allow for efficient right- and left-handed operation.",
-        "translation": "PLK 소형 권총은 9x19mm 탄약을 사용하는 러시아 최초의 국산 소형 보조화기입니다. 7N21 고위력 철갑탄을 포함해 9x19mm 전투용·스포츠용 및 기타 탄약 전반을 사용할 수 있습니다. 작은 크기 덕분에 은닉 휴대가 용이합니다. 안전장치, 슬라이드 멈치, 탄창 멈치가 양손잡이용으로 배치되어 오른손과 왼손 모두 효율적으로 조작할 수 있습니다."
+        "translation": "PLK 소형 권총은 9x19mm 탄약을 사용하는 러시아 최초의 국산 소형 보조화기입니다. 7N21 고위력 철갑탄을 포함해 9x19mm 전투용·스포츠용 및 기타 탄약 전반을 사용할 수 있습니다. 작은 크기 덕분에 은닉 휴대가 용이합니다. 안전장치, 슬라이드 멈치, 탄창 분리 버튼을 오른손과 왼손 어느 쪽에서도 조작할 수 있어 오른손잡이와 왼손잡이 모두 편리하게 사용할 수 있습니다."
       },
       {
         "key": "6a9e89a3a77d4b62cecda25b Name",
@@ -520,7 +520,7 @@
       {
         "key": "6a9ea420a77d4b62cecda261 Name",
         "source": "PLK Red Dot sight mount",
-        "translation": "PLK 도트 사이트 마운트"
+        "translation": "PLK 도트 조준경 마운트"
       },
       {
         "key": "6a9ea420a77d4b62cecda261 Description",
@@ -530,7 +530,7 @@
       {
         "key": "6aa07d6955c3a243f195ed5f Name",
         "source": "Chukavin SVCh 7.62x54R sniper rifle",
-        "translation": "Chukavin SVCh 7.62x54R 저격소총"
+        "translation": "추카빈 SVCh 7.62x54R 저격소총"
       },
       {
         "key": "6aa07d6955c3a243f195ed5f Description",
@@ -585,7 +585,7 @@
       {
         "key": "6aa1c95fa10e3944e7f07fdf Description",
         "source": "A 10-round 7.62x54R polymer magazine for SVD-based rifles.",
-        "translation": "SVD 계열 소총용 10발, 7.62x54R 폴리머 탄창입니다."
+        "translation": "SVD 계열 소총에 사용하는 7.62x54R 탄약용 10발들이 폴리머 탄창입니다."
       },
       {
         "key": "6aa1c9b4a10e3944e7f07fe1 Name",
@@ -595,7 +595,7 @@
       {
         "key": "6aa1c9b4a10e3944e7f07fe1 Description",
         "source": "Polymer handguard for the SVCh rifle. Provides M-lok for mounting accessories and improves ergonomics.",
-        "translation": "SVCh 소총용 폴리머 총열덮개입니다. 부착물 장착용 M-LOK 인터페이스를 제공하며 인체공학성을 향상합니다."
+        "translation": "SVCh 소총용 폴리머 총열덮개입니다. 부착물 장착용 엠락 인터페이스를 제공하며 인체공학성을 향상합니다."
       },
       {
         "key": "6aa1f17fa10e3944e7f07fe3 Name",
@@ -615,7 +615,7 @@
       {
         "key": "6aa59cd69d536417f3e88939 Description",
         "source": "The Vepr-12 is a multipurpose semi-automatic detachable-magazine shotgun, produced by Molot-Oruzhie Ltd. Early versions of the Vepr-12 were produced by Izhmash, with production moving to the Molot factory where the shotgun was redesigned and mass-produced. The Vepr-12 is intended to be a direct competitor to the widely popular Saiga-12 shotgun already produced by Izhmash.",
-        "translation": "Vepr-12는 Molot-Oruzhie Ltd.에서 생산한 다목적 반자동 분리식 탄창 산탄총입니다. 초기형 Vepr-12는 이즈마쉬에서 생산됐으나 이후 생산이 Molot 공장으로 옮겨졌고, 그곳에서 재설계와 양산이 이루어졌습니다. Vepr-12는 이즈마쉬가 이미 생산 중이던 대중적인 Saiga-12 산탄총의 직접적인 경쟁 모델을 목표로 개발되었습니다."
+        "translation": "Vepr-12는 Molot-Oruzhie Ltd.에서 생산한 다목적 반자동 산탄총으로, 탈착식 탄창을 사용합니다. 초기형 Vepr-12는 이즈마쉬에서 생산됐으나 이후 생산이 Molot 공장으로 옮겨졌고, 그곳에서 재설계와 양산이 이루어졌습니다. Vepr-12는 이즈마쉬가 이미 생산 중이던 대중적인 Saiga-12 산탄총의 직접적인 경쟁 모델을 목표로 개발되었습니다."
       },
       {
         "key": "6aa71fe78877550fb7ea7c59 Name",
@@ -660,12 +660,12 @@
       {
         "key": "6aa723118877550fb7ea7c61 Name",
         "source": "VPO-205 buffer tube adapter",
-        "translation": "VPO-205 버퍼 튜브 어댑터"
+        "translation": "VPO-205 완충관 어댑터"
       },
       {
         "key": "6aa723118877550fb7ea7c61 Description",
         "source": "Buffer tube adapter for the VPO-205 rifle.",
-        "translation": "VPO-205 산탄총용 버퍼 튜브 어댑터입니다."
+        "translation": "VPO-205 산탄총용 완충관 어댑터입니다."
       },
       {
         "key": "6aa725178877550fb7ea7c63 Name",
@@ -700,42 +700,42 @@
       {
         "key": "6aa728ec8877550fb7ea7c69 Name",
         "source": "Dissident Arms MOD2 Vepr-12 Handguard M-LOK",
-        "translation": "디시던트 암즈 MOD2 Vepr-12 M-LOK 총열덮개"
+        "translation": "디시던트 암즈 MOD2 Vepr-12 엠락 총열덮개"
       },
       {
         "key": "6aa728ec8877550fb7ea7c69 Description",
         "source": "Dissident Arms original accessory for the Vepr 12 Shotgun, featuring authentic mil-spec KeyMod and Magpul M-Lok attachment points.  Stretching out to a stunning 16″; this fore end creates the perfect balance of function and form, making it the longest and highest quality Vepr 12  handguard on the market. Hard coat anodized black.",
-        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 양극산화 마감입니다."
+        "translation": "디시던트 암스의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 키모드와 맥풀 엠락 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 경질 양극산화 블랙 마감입니다."
       },
       {
         "key": "6aa729718877550fb7ea7c6b Name",
         "source": "VPO-205 mlok medium handguard",
-        "translation": "VPO-205 중형 M-LOK 총열덮개"
+        "translation": "VPO-205 중형 엠락 총열덮개"
       },
       {
         "key": "6aa729718877550fb7ea7c6b Description",
         "source": "Mlok medium handguard for the VPO-205 rifle.",
-        "translation": "VPO-205 산탄총용 중형 M-LOK 총열덮개입니다."
+        "translation": "VPO-205 산탄총용 중형 엠락 총열덮개입니다."
       },
       {
         "key": "6aa72a4a8877550fb7ea7c6d Name",
         "source": "Dissident Arms MOD2 Vepr-12 Handguard Keymod",
-        "translation": "디시던트 암즈 MOD2 Vepr-12 KeyMod 총열덮개"
+        "translation": "디시던트 암즈 MOD2 Vepr-12 키모드 총열덮개"
       },
       {
         "key": "6aa72a4a8877550fb7ea7c6d Description",
         "source": "Dissident Arms original accessory for the Vepr 12 Shotgun, featuring authentic mil-spec KeyMod and Magpul M-Lok attachment points.  Stretching out to a stunning 16″; this fore end creates the perfect balance of function and form, making it the longest and highest quality Vepr 12  handguard on the market. Hard coat anodized black.",
-        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 양극산화 마감입니다."
+        "translation": "디시던트 암스의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 키모드와 맥풀 엠락 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 경질 양극산화 블랙 마감입니다."
       },
       {
         "key": "6aa72a998877550fb7ea7c6f Name",
         "source": "Dissident Arms MOD1 Vepr-12 Tubular Handguard",
-        "translation": "Dissident Arms MOD1 Vepr-12 관형 총열덮개"
+        "translation": "디시던트 암스 MOD1 Vepr-12 관형 총열덮개"
       },
       {
         "key": "6aa72a998877550fb7ea7c6f Description",
         "source": "Dissident Arms original accessory for the Vepr 12 Shotgun, featuring authentic mil-spec KeyMod and Magpul M-Lok attachment points.  Stretching out to a stunning 16″; this forend creates the perfect balance of function and form, making it the longest and highest quality Vepr 12  handguard on the market.  Hard coat anodized black.",
-        "translation": "Dissident Arms의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 KeyMod와 맥풀(Magpul) M-LOK 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 검은색 경질 양극산화 마감입니다."
+        "translation": "디시던트 암스의 Vepr-12 산탄총용 오리지널 부착물로, 군용 규격 키모드와 맥풀 엠락 장착부를 갖추고 있습니다. 길이는 무려 16인치로, 기능성과 형태의 균형을 갖추며 시판되는 Vepr-12 총열덮개 가운데 가장 길고 높은 품질을 지향합니다. 경질 양극산화 블랙 마감입니다."
       },
       {
         "key": "6aa72ae88877550fb7ea7c71 Name",
@@ -750,32 +750,32 @@
       {
         "key": "6aa72b458877550fb7ea7c73 Name",
         "source": "VPO-205 12ga 5-round magazine",
-        "translation": "5발, VPO-205 12ga 탄창"
+        "translation": "5발, VPO-205 12게이지 탄창"
       },
       {
         "key": "6aa72b458877550fb7ea7c73 Description",
         "source": "A 5-round 12ga polymer magazine for the VPO-205 rifle.",
-        "translation": "VPO-205 산탄총용 5발, 12게이지 폴리머 탄창입니다."
+        "translation": "VPO-205 산탄총용 12게이지 5발들이 폴리머 탄창입니다."
       },
       {
         "key": "6aa72b888877550fb7ea7c75 Name",
         "source": "VPO-205 12ga 10-round magazine",
-        "translation": "10발, VPO-205 12ga 탄창"
+        "translation": "10발, VPO-205 12게이지 탄창"
       },
       {
         "key": "6aa72b888877550fb7ea7c75 Description",
         "source": "A 10-round 12ga polymer magazine for the VPO-205 rifle.",
-        "translation": "VPO-205 산탄총용 10발, 12게이지 폴리머 탄창입니다."
+        "translation": "VPO-205 산탄총용 12게이지 10발들이 폴리머 탄창입니다."
       },
       {
         "key": "6aa72bc08877550fb7ea7c77 Name",
         "source": "VPO-205 12ga MaxRounds Powermag 20-round drum magazine",
-        "translation": "20발, VPO-205 12ga MaxRounds Powermag 드럼 탄창"
+        "translation": "20발, VPO-205 12게이지 MaxRounds Powermag 드럼 탄창"
       },
       {
         "key": "6aa72bc08877550fb7ea7c77 Description",
         "source": "The MaxRounds Powermag 20-shell drum magazine for VPO-205 and compatible weapons, intended for use with 12/76 or 12/70 shells.",
-        "translation": "VPO-205 및 호환 무기용 MaxRounds Powermag 20발 드럼 탄창으로, 12/76 또는 12/70 산탄을 사용하도록 설계되었습니다."
+        "translation": "VPO-205 및 호환 무기용 MaxRounds Powermag 20발 드럼 탄창으로, 12/76 또는 12/70 산탄총 탄약을 사용하도록 설계되었습니다."
       },
       {
         "key": "6aa72c138877550fb7ea7c79 Name",
@@ -785,7 +785,7 @@
       {
         "key": "6aa72c138877550fb7ea7c79 Description",
         "source": "A 25-round 12ga polymer drum magazine for the VPO-205 rifle.",
-        "translation": "VPO-205 산탄총용 25발, 12게이지 폴리머 드럼 탄창입니다."
+        "translation": "VPO-205 산탄총용 12게이지 25발들이 폴리머 드럼 탄창입니다."
       },
       {
         "key": "6aa72c988877550fb7ea7c7b Name",
@@ -998,7 +998,7 @@
       {
         "key": "6aac31fac35219b1cf4d2a84 Description",
         "source": "VKS (ВКС) or VSSK (ВССК) is a Russian bullpup, straight pull, magazine-fed sniper rifle chambered for the 12.7×55mm STs-130 subsonic round. The weapon is also known by the name VSSK and the additional name Vykhlop (Выхлоп), \"Exhaust\", which comes from the development program. It was developed in around 2002 for the special force units of FSB. The 12.7×55mm VKS silenced sniper rifle is intended for special operations that require silent firing and penetration much superior to that provided by 9×39mm VSS silenced sniper rifle. Typical targets for the VKS are combatants in heavy body armor or behind cover. The weapon uses an integral suppressor.",
-        "translation": "VKS(ВКС) 또는 VSSK(ВССК)는 12.7×55mm STs-130 아음속 탄약을 사용하는 러시아제 불펍식 직선식 노리쇠 저격소총입니다. VSSK라는 명칭 외에 개발 사업에서 유래한 비흘롭(Выхлоп, ‘배기’)이라는 이름으로도 알려져 있습니다. 2002년경 러시아 연방보안국(FSB) 특수부대를 위해 개발되었습니다. VKS 소음 저격소총은 9×39mm VSS 소음 저격소총보다 훨씬 높은 관통력과 조용한 사격이 필요한 특수작전을 위해 설계되었습니다. 주요 표적은 중장갑 방탄복을 착용하거나 엄폐물 뒤에 있는 적 전투원입니다. 일체형 소음기를 사용합니다.",
+        "translation": "VKS(ВКС) 또는 VSSK(ВССК)는 12.7×55mm STs-130 아음속 탄약을 사용하는 러시아제 불펍식 저격소총으로, 직선 당김식 노리쇠와 탄창 급탄 방식을 사용합니다. VSSK라는 명칭 외에 개발 사업에서 유래한 비흘롭(Выхлоп, ‘배기’)이라는 이름으로도 알려져 있습니다. 2002년경 러시아 연방보안국(FSB) 특수부대를 위해 개발되었습니다. VKS 소음 저격소총은 9×39mm VSS 소음 저격소총보다 훨씬 높은 관통력과 조용한 사격이 필요한 특수작전을 위해 설계되었습니다. 주요 표적은 중장갑 방탄복을 착용하거나 엄폐물 뒤에 있는 적 전투원입니다. 일체형 소음기를 사용합니다.",
         "match_mode": "item_decorated"
       },
       {
@@ -1219,7 +1219,7 @@
       {
         "key": "6ab2f75df59f2cb62a571427 Name",
         "source": "AR-15 ZenitCo Joker-2 11,2 inch free float handguard",
-        "translation": "AR-15 제니트코 Joker-2 11.2인치 프리플로팅 총열덮개",
+        "translation": "AR-15 제니트코 Joker-2 11.2인치 자유부동식 총열덮개",
         "match_mode": "item_decorated"
       },
       {
@@ -1232,7 +1232,7 @@
       {
         "key": "6ab2f75df59f2cb62a571427 Description",
         "source": "ZenitCo Joker-2 premium quality free float 11,2 inch AR-15 handguard kit. It features titanium barrel nut and extremely reliable Basis direct attachment system. Handguard is two pieces design. Guaranteed to work with included gas block or others with height of 1.35″ or lower. Joker brings a bit of AK reliability to AR-15 world.",
-        "translation": "제니트코 Joker-2는 AR-15용 고급 11.2인치 프리플로팅 총열덮개 키트입니다. 티타늄 총열 너트와 매우 안정적인 Basis 직접 장착 시스템을 갖추고 있습니다. 총열덮개는 두 부분으로 나뉘는 구조입니다. 동봉된 가스 블록이나 높이 1.35인치 이하인 다른 가스 블록과 함께 사용할 수 있도록 보장합니다. Joker는 AR-15 플랫폼에 AK의 신뢰성을 일부 더해줍니다.",
+        "translation": "제니트코 Joker-2는 AR-15용 고급 11.2인치 자유부동식 총열덮개 키트입니다. 티타늄 총열 너트와 매우 안정적인 Basis 직접 장착 시스템을 갖추고 있습니다. 총열덮개는 두 부분으로 나뉘는 구조입니다. 동봉된 가스 블록이나 높이 1.35인치 이하인 다른 가스 블록과 함께 사용할 수 있도록 보장합니다. Joker는 AR-15 플랫폼에 AK의 신뢰성을 일부 더해줍니다.",
         "match_mode": "item_decorated"
       },
       {
@@ -1325,7 +1325,7 @@
       {
         "key": "6a98a91603930f8d769fde2b ShortName",
         "source": "AK-200 gas",
-        "translation": "AK-200 가스 튜브",
+        "translation": "AK-200 가스관",
         "match_mode": "exact",
         "display_type": "default"
       },

@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "pitfireteam.trader.locale",
   "mod_name": "PIT Fireteam",
-  "mod_version": "0.10.3",
+  "mod_version": "1.1.0",
   "channels": {
     "locale": [
       {
@@ -40,6 +40,218 @@
         "translation": "분대원이 보내는 물품의 전달을 담당합니다.",
         "match_mode": "exact",
         "display_type": "default"
+      }
+    ],
+    "npc_messages": [
+      {
+        "id": "pit.mail.courier.return.01",
+        "source": "Items received from your teammate. Ready for you to claim.",
+        "translation": "분대원에게서 아이템이 도착했습니다. 수령하실 수 있습니다.",
+        "match_mode": "exact",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.return.02",
+        "source": "Your teammate transferred these. Awaiting your confirmation.",
+        "translation": "분대원이 아이템을 전달했습니다. 확인 후 수령해 주세요.",
+        "match_mode": "exact",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.return.03",
+        "source": "Your items are attached. Select 'Receive all' to collect them.",
+        "translation": "아이템을 첨부했습니다. '모두 받기'를 선택하여 수령하세요.",
+        "match_mode": "exact",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.return.04",
+        "source": "Transfer from your teammate completed. Items are ready to be claimed.",
+        "translation": "분대원의 아이템 전달이 완료됐습니다. 수령하실 수 있습니다.",
+        "match_mode": "exact",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.return.05",
+        "source": "All items from your teammate are prepared. Confirm to receive.",
+        "translation": "분대원이 보낸 모든 아이템이 준비됐습니다. 확인 후 수령해 주세요.",
+        "match_mode": "exact",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.return.06",
+        "source": "These were handed over by your teammate. Ready for pickup.",
+        "translation": "분대원이 전달한 아이템입니다. 수령하실 수 있습니다.",
+        "match_mode": "exact",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.removed",
+        "source": "Equipment from the removed teammate is ready for pickup.",
+        "translation": "제거된 분대원의 장비를 수령할 수 있습니다.",
+        "match_mode": "exact",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.previous",
+        "source": "Teammate's previous kit is ready for pickup.",
+        "translation": "분대원의 이전 장비를 수령할 수 있습니다.",
+        "match_mode": "exact",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.fence.cargo",
+        "source": "One of my men brought your things back. Here’s your stuff, as promised.",
+        "translation": "내 부하 하나가 자네 물건을 가져왔어. 약속대로 돌려주지.",
+        "match_mode": "exact",
+        "trader_id": "579dc571d53a0658a154fbec"
+      },
+      {
+        "id": "pit.mail.fence.transit",
+        "source": "One of my men is back. Thanks for looking out for him.",
+        "translation": "내 부하 하나가 돌아왔어. 잘 돌봐줘서 고맙군.",
+        "match_mode": "exact",
+        "trader_id": "579dc571d53a0658a154fbec"
+      },
+      {
+        "id": "pit.mail.courier.report.01",
+        "source": "Post-raid squad report:",
+        "translation": "레이드 종료 분대 보고:",
+        "match_mode": "segment",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.report.02",
+        "source": "All members did not make it.",
+        "translation": "모든 분대원이 탈출하지 못했습니다.",
+        "match_mode": "segment",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.report.03",
+        "source": "All members managed to extract.",
+        "translation": "모든 분대원이 탈출에 성공했습니다.",
+        "match_mode": "segment",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.report.04",
+        "source": "Made it out: ",
+        "translation": "탈출 성공: ",
+        "match_mode": "segment",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.report.05",
+        "source": "Lost: ",
+        "translation": "손실: ",
+        "match_mode": "segment",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      },
+      {
+        "id": "pit.mail.courier.report.06",
+        "source": "Extract route: ",
+        "translation": "탈출 경로: ",
+        "match_mode": "segment",
+        "trader_id": "67d3a28a3d6f4f7dbd09ed13"
+      }
+    ],
+    "server_messages": [
+      {
+        "id": "pit.user.team.01",
+        "source": "Nice! We managed to get out.",
+        "translation": "좋아! 우리 무사히 빠져나왔어.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.team.02",
+        "source": "And that's a wrap! We made it out.",
+        "translation": "이걸로 끝이네! 탈출했어.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.team.03",
+        "source": "Good run. Everyone made extract.",
+        "translation": "괜찮은 레이드였어. 모두 탈출했네.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.partial.01",
+        "source": "Well it's a shame about {0}, but at least the rest of us made it.",
+        "translation": "안타깝게도 {0}은(는) 못 나왔지만, 그래도 나머지는 탈출했어.",
+        "match_mode": "template"
+      },
+      {
+        "id": "pit.user.partial.02",
+        "source": "A few of us got clipped, but some managed to get out alive.",
+        "translation": "몇 명은 당했지만, 일부는 살아서 탈출했어.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.friendly.01",
+        "source": "Glad we made it. Thanks for letting me tag along.",
+        "translation": "무사히 나와서 다행이야. 같이 가게 해줘서 고마워.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.friendly.02",
+        "source": "Whew, glad I found you. Thanks for the help.",
+        "translation": "휴, 널 만나서 다행이었어. 도와줘서 고마워.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.friendly.03",
+        "source": "Thanks for the help. I hauled what I could back.",
+        "translation": "도와줘서 고마워. 가져올 수 있는 건 최대한 챙겨 왔어.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.traitor.01",
+        "source": "I trusted you. Guess that was my mistake.",
+        "translation": "널 믿었는데. 그게 내 실수였나 보네.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.traitor.02",
+        "source": "So that's how you treat someone who joined your side?",
+        "translation": "네 편이 된 사람을 이렇게 대하는 거야?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.traitor.03",
+        "source": "You picked me up just to put me down? Real classy.",
+        "translation": "영입해 놓고 직접 죽이려고 한 거야? 참 대단하네.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.traitor.04",
+        "source": "I had your back. You shot me in it.",
+        "translation": "네 뒤를 봐줬는데, 넌 내 등을 쐈군.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.jerk.01",
+        "source": "Same side, genius. Try checking your targets next time.",
+        "translation": "같은 편이야, 천재야. 다음엔 표적부터 확인해.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.jerk.02",
+        "source": "Friendly PMC. Friendly. The word means something.",
+        "translation": "우호 PMC라고. 우호. 그 말 뜻 몰라?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.jerk.03",
+        "source": "You shoot everyone wearing your colors, or was I special?",
+        "translation": "같은 색 입은 사람은 전부 쏘는 거야, 아니면 나만 특별한 거야?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pit.user.jerk.04",
+        "source": "Nice work. You killed one of your own.",
+        "translation": "잘했네. 네 편 하나 죽였어.",
+        "match_mode": "exact"
       }
     ]
   }

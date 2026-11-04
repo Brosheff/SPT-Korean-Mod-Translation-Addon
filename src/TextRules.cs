@@ -15,6 +15,15 @@ namespace SPT.EditableTranslations
         public Dictionary<string, List<TextRule>> channels { get; set; } = new Dictionary<string, List<TextRule>>();
     }
 
+    // A different current runtime source for the same verified locale key may
+    // describe a different item configuration. It requires its *own* translation,
+    // unlike source_variants (which must share the primary meaning/translation).
+    internal sealed class LocaleSourceAlternative
+    {
+        public string source { get; set; }
+        public string translation { get; set; }
+    }
+
     internal sealed class TextRule
     {
         public string id { get; set; }
@@ -22,6 +31,7 @@ namespace SPT.EditableTranslations
         public string source { get; set; }
         // Exact, per-key source variants verified against runtime or independently supplied locale snapshots.
         public List<string> source_variants { get; set; }
+        public List<LocaleSourceAlternative> source_alternatives { get; set; }
         public string translation { get; set; }
         public string translation_bilingual { get; set; }
         public string display_type { get; set; }

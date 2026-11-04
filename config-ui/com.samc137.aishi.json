@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.samc137.aishi",
+  "plugin_name": "AishiMasterKeyFunction",
+  "mod_version": "2.0.5",
+  "categories": [
+    {
+      "source": "Music",
+      "translation": "음악"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Music",
+      "key": "Pause or resume",
+      "source_display_name": "Pause or resume",
+      "source_description": "Pause/resume music. Only the two equipped Aishi music headsets can play.",
+      "translation_display_name": "음악 일시정지·재개",
+      "translation_description": "음악을 일시정지하거나 재개합니다. 아이시 전용 음악 헤드셋 두 종류를 장착한 경우에만 재생할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Music",
+      "key": "Open player",
+      "source_display_name": "Open player",
+      "source_description": "Toggle the music selector while inventory or a menu is open. Also available in the headset inspection window.",
+      "translation_display_name": "음악 플레이어 열기",
+      "translation_description": "인벤토리나 메뉴가 열린 상태에서 음악 선택 창을 열거나 닫습니다. 헤드셋 검사 화면에서도 사용할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Music",
+      "key": "Volume",
+      "source_display_name": "Volume",
+      "source_description": "Personal music volume; game and headset audio are unchanged.",
+      "translation_display_name": "음악 볼륨",
+      "translation_description": "개인 음악 볼륨을 조절합니다. 게임 및 헤드셋의 다른 소리는 변경되지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Music",
+      "key": "Play next track",
+      "source_display_name": "Play next track",
+      "source_description": "Continue with the next installed song when a track finishes.",
+      "translation_display_name": "다음 곡 자동 재생",
+      "translation_description": "현재 곡이 끝나면 설치된 다음 곡을 이어서 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "Music",
+      "key": "Shuffle playlist",
+      "source_display_name": "Shuffle playlist",
+      "source_description": "Shuffle the selected playlist without repeating the remaining tracks. Also available in the player.",
+      "translation_display_name": "재생 목록 무작위 재생",
+      "translation_description": "선택한 재생 목록의 남은 곡을 중복 없이 무작위 순서로 재생합니다. 플레이어에서도 설정할 수 있습니다.",
+      "values": []
+    }
+  ]
+}

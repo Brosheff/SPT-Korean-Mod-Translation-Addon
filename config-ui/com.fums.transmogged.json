@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.fums.transmogged",
+  "plugin_name": "Fums-transMOGGED",
+  "mod_version": "1.0.0",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "2. Weapon parts",
+      "translation": "2. 무기 부품"
+    },
+    {
+      "source": "3. Gear",
+      "translation": "3. 장비"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Show transmogged items with the look you picked. Off shows every item as it really is. Your picks are kept either way.",
+      "translation_display_name": "활성화",
+      "translation_description": "선택한 외형을 장비에 표시합니다. 끄면 모든 아이템이 실제 외형으로 표시되지만 선택한 외형 설정은 유지됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Show other players looks",
+      "source_display_name": "Show other players looks",
+      "source_description": "In Fika raids, show the looks other players running transMOGGED picked for their gear.",
+      "translation_display_name": "다른 플레이어 외형 표시",
+      "translation_description": "Fika 레이드에서 transMOGGED를 사용하는 다른 플레이어가 장비에 선택한 외형을 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Mark transmogged items",
+      "source_display_name": "Mark transmogged items",
+      "source_description": "Show a small violet tag with the barter arrows on transmogged items in the inventory, including on other players' items when you loot or inspect them.",
+      "translation_display_name": "외형 변경 아이템 표시",
+      "translation_description": "외형을 변경한 아이템에 교환 화살표가 있는 작은 보라색 표시를 붙입니다. 다른 플레이어의 아이템을 조사하거나 루팅할 때도 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Menu style",
+      "source_display_name": "Menu style",
+      "source_description": "Integrated: a Transmog line in the inspect window's stats and a picker that looks like the game's own windows. Spotlight: a violet Transmog card in the inspect window with each item's icon next to its look, and a standalone picker with big tiles.",
+      "translation_display_name": "외형 변경 메뉴 방식",
+      "translation_description": "통합형: 아이템 검사 창의 능력치 영역에 외형 변경 항목을 추가하고 게임의 기본 창과 비슷한 선택기를 사용합니다. 스포트라이트: 검사 창에 보라색 외형 카드와 아이콘을 표시하고 큰 타일을 사용하는 별도 선택기를 엽니다.",
+      "values": [
+        {
+          "source": "Integrated",
+          "translation": "통합형"
+        },
+        {
+          "source": "Spotlight",
+          "translation": "스포트라이트"
+        }
+      ]
+    },
+    {
+      "section": "1. General",
+      "key": "Inventory icons",
+      "source_display_name": "Inventory icons",
+      "source_description": "What item icons show: the real item, or its look. Hold Alt in the inventory to see the other one.",
+      "translation_display_name": "인벤토리 아이콘 표시",
+      "translation_description": "아이콘에 실제 아이템을 표시할지 변경한 외형을 표시할지 선택합니다. 인벤토리에서 Alt를 누르면 반대쪽 모습을 확인할 수 있습니다.",
+      "values": [
+        {
+          "source": "RealItem",
+          "translation": "실제 아이템"
+        },
+        {
+          "source": "Look",
+          "translation": "변경한 외형"
+        }
+      ]
+    },
+    {
+      "section": "1. General",
+      "key": "Looks follow",
+      "source_display_name": "Looks follow",
+      "source_description": "Slot: a plain item put in an equipment slot or gun slot takes the look last used there, if it fits. Item: a look stays on its one item, and replacements start plain. Either way, an item with its own look keeps it.",
+      "translation_display_name": "외형 적용 대상",
+      "translation_description": "슬롯: 장비나 총기 슬롯에 일반 아이템을 장착하면 호환되는 경우 그 슬롯에서 마지막으로 사용한 외형을 적용합니다. 아이템: 외형이 각 아이템에 고정되어 교체품은 기본 모습으로 시작합니다. 두 경우 모두 자체 외형이 있는 아이템은 이를 유지합니다.",
+      "values": [
+        {
+          "source": "Slot",
+          "translation": "슬롯"
+        },
+        {
+          "source": "Item",
+          "translation": "아이템"
+        }
+      ]
+    },
+    {
+      "section": "1. General",
+      "key": "Examined items only",
+      "source_display_name": "Examined items only",
+      "source_description": "Only offer looks of items your character has examined. Looks you already picked stay on.",
+      "translation_display_name": "조사한 아이템만 사용",
+      "translation_description": "캐릭터가 조사한 적 있는 아이템의 외형만 선택지로 제공합니다. 이전에 선택한 외형은 그대로 유지됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Stocks",
+      "source_display_name": "Stocks",
+      "source_description": "Allow transmogging stocks.",
+      "translation_display_name": "개머리판",
+      "translation_description": "개머리판 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Pistol grips",
+      "source_display_name": "Pistol grips",
+      "source_description": "Allow transmogging pistol grips.",
+      "translation_display_name": "권총손잡이",
+      "translation_description": "권총손잡이 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Foregrips",
+      "source_display_name": "Foregrips",
+      "source_description": "Allow transmogging foregrips.",
+      "translation_display_name": "전방손잡이",
+      "translation_description": "전방손잡이 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Handguards",
+      "source_display_name": "Handguards",
+      "source_description": "Allow transmogging handguards.",
+      "translation_display_name": "총열덮개",
+      "translation_description": "총열덮개 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Receivers",
+      "source_display_name": "Receivers",
+      "source_description": "Allow transmogging receivers. Upper receivers and dust covers.",
+      "translation_display_name": "리시버",
+      "translation_description": "상부 리시버와 먼지 덮개의 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Charging handles",
+      "source_display_name": "Charging handles",
+      "source_description": "Allow transmogging charging handles.",
+      "translation_display_name": "장전손잡이",
+      "translation_description": "장전손잡이 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Gas blocks",
+      "source_display_name": "Gas blocks",
+      "source_description": "Allow transmogging gas blocks.",
+      "translation_display_name": "가스블록",
+      "translation_description": "가스블록 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Muzzles",
+      "source_display_name": "Muzzles",
+      "source_description": "Allow transmogging muzzles. Flash hiders, brakes, compensators and adapters. They only look like other non-suppressors.",
+      "translation_display_name": "총구 장치",
+      "translation_description": "소염기·총구제퇴기·보정기·어댑터의 외형 변경을 허용합니다. 소음기가 아닌 장치끼리만 바꿀 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Suppressors",
+      "source_display_name": "Suppressors",
+      "source_description": "Allow transmogging suppressors. Suppressors only look like other suppressors.",
+      "translation_display_name": "소음기",
+      "translation_description": "소음기 외형 변경을 허용합니다. 소음기는 다른 소음기로만 바꿀 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Mounts",
+      "source_display_name": "Mounts",
+      "source_description": "Allow transmogging mounts. Rail mounts. The scope on top stays the real one.",
+      "translation_display_name": "마운트",
+      "translation_description": "레일 마운트 외형 변경을 허용합니다. 위에 장착한 조준경은 실제 장비를 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Rail covers",
+      "source_display_name": "Rail covers",
+      "source_description": "Allow transmogging rail covers.",
+      "translation_display_name": "레일 덮개",
+      "translation_description": "레일 덮개 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Ironsights",
+      "source_display_name": "Ironsights",
+      "source_description": "Allow transmogging ironsights. Only the same kind of sight, front or rear, that fits the slot.",
+      "translation_display_name": "기계식 조준기",
+      "translation_description": "해당 슬롯에 맞는 전방·후방의 같은 종류 조준기로만 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Barrels",
+      "source_display_name": "Barrels",
+      "source_description": "Allow transmogging barrels. Off by default: a barrel of another length moves where the muzzle (and the shot) sits on your gun.",
+      "translation_display_name": "총열",
+      "translation_description": "총열 외형 변경을 허용합니다. 기본적으로 꺼져 있으며 길이가 다른 총열은 총구와 발사 지점의 위치를 바꿀 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "2. Weapon parts",
+      "key": "Magazines",
+      "source_display_name": "Magazines",
+      "source_description": "Allow transmogging magazines. Only same-capacity magazines of the same caliber.",
+      "translation_display_name": "탄창",
+      "translation_description": "같은 구경·같은 장탄수를 가진 탄창끼리만 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Gear",
+      "key": "Headwear",
+      "source_display_name": "Headwear",
+      "source_description": "Allow transmogging headwear. Helmets and hats.",
+      "translation_display_name": "머리 장비",
+      "translation_description": "헬멧과 모자의 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Gear",
+      "key": "Rigs",
+      "source_display_name": "Rigs",
+      "source_description": "Allow transmogging rigs. Chest rigs, armored or not.",
+      "translation_display_name": "전술 조끼",
+      "translation_description": "방탄 여부와 관계없이 전술 조끼의 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Gear",
+      "key": "Backpacks",
+      "source_display_name": "Backpacks",
+      "source_description": "Allow transmogging backpacks.",
+      "translation_display_name": "배낭",
+      "translation_description": "배낭 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Gear",
+      "key": "Body armor",
+      "source_display_name": "Body armor",
+      "source_description": "Allow transmogging body armor.",
+      "translation_display_name": "방탄복",
+      "translation_description": "방탄복 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Gear",
+      "key": "Face covers",
+      "source_display_name": "Face covers",
+      "source_description": "Allow transmogging face covers.",
+      "translation_display_name": "안면 가리개",
+      "translation_description": "안면 가리개 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Gear",
+      "key": "Eyewear",
+      "source_display_name": "Eyewear",
+      "source_description": "Allow transmogging eyewear.",
+      "translation_display_name": "보안경·안경",
+      "translation_description": "눈 보호 장비 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Gear",
+      "key": "Headsets",
+      "source_display_name": "Headsets",
+      "source_description": "Allow transmogging headsets.",
+      "translation_display_name": "헤드셋",
+      "translation_description": "헤드셋 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Gear",
+      "key": "Armbands",
+      "source_display_name": "Armbands",
+      "source_description": "Allow transmogging armbands.",
+      "translation_display_name": "완장",
+      "translation_description": "완장 외형 변경을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Gear",
+      "key": "Belts",
+      "source_display_name": "Belts",
+      "source_description": "Allow transmogging belts. WTT Pack n Strap belts.",
+      "translation_display_name": "벨트",
+      "translation_description": "WTT Pack n Strap의 벨트 외형 변경을 허용합니다.",
+      "values": []
+    }
+  ]
+}

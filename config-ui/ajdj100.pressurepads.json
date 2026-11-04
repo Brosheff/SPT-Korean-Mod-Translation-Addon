@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "ajdj100.pressurepads",
+  "plugin_name": "PressurePads",
+  "mod_version": "1.1.3",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Flashlight",
+      "translation": "손전등"
+    },
+    {
+      "source": "Other",
+      "translation": "기타 장치"
+    },
+    {
+      "source": "Development",
+      "translation": "개발"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Advanced Mode",
+      "source_display_name": "Advanced Mode",
+      "source_description": "Hold the hotkey to activate the light temporarily, or double-tap it to toggle the light on or off.",
+      "translation_display_name": "고급 모드",
+      "translation_description": "단축키를 누르고 있으면 조명이 일시적으로 켜집니다. 단축키를 빠르게 두 번 누르면 조명을 켜거나 끕니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Skip toggle animation and sound",
+      "source_display_name": "Skip toggle animation and sound",
+      "source_description": "Toggle tactical devices without the click or toggle device animation.",
+      "translation_display_name": "전환 애니메이션 및 소리 생략",
+      "translation_description": "전술 장치를 전환할 때 클릭 소리와 장치 조작 애니메이션을 생략합니다.",
+      "values": []
+    },
+    {
+      "section": "Flashlight",
+      "key": "Flashlight Keybind",
+      "source_display_name": "Flashlight Keybind",
+      "source_description": "Hotkey for controlling white light flashlights",
+      "translation_display_name": "손전등 단축키",
+      "translation_description": "백색광 손전등을 조작하는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Flashlight",
+      "key": "Flashlight Modifier",
+      "source_display_name": "Flashlight Modifier",
+      "source_description": "Modifier key for switching flashlight modes",
+      "translation_display_name": "손전등 보조 키",
+      "translation_description": "손전등 모드를 전환할 때 함께 누르는 보조 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Other",
+      "key": "Other Keybind",
+      "source_display_name": "Other Keybind",
+      "source_description": "Hotkey for controlling IR and laser devices",
+      "translation_display_name": "적외선·레이저 단축키",
+      "translation_description": "적외선 및 레이저 장치를 조작하는 단축키입니다.",
+      "values": []
+    },
+    {
+      "section": "Other",
+      "key": "Other Modifier",
+      "source_display_name": "Other Modifier",
+      "source_description": "Modifier key for switching IR and laser device modes",
+      "translation_display_name": "적외선·레이저 보조 키",
+      "translation_description": "적외선 및 레이저 장치의 모드를 전환할 때 함께 누르는 보조 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Development",
+      "key": "Enable Logging",
+      "source_display_name": "Enable Logging",
+      "source_description": "Enables extra logging, doesnt do anything for gameplay.",
+      "translation_display_name": "추가 로그 활성화",
+      "translation_description": "추가 로그를 기록합니다. 게임 플레이에는 영향을 주지 않습니다.",
+      "values": []
+    }
+  ]
+}
