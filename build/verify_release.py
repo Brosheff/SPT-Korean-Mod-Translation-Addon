@@ -10,6 +10,7 @@ import re
 from pathlib import Path, PurePosixPath
 import sys
 import zipfile
+from profile_metadata import recorded_version
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 TOP_DIRS = ('BepInEx/plugins/SPT_Mod_Korean_Addon/', 'SPT_Runtime/user/mods/SPT_Mod_Korean_Server/')
@@ -28,6 +29,34 @@ def json_file(path):
         return result
     return json.loads(Path(path).read_text(encoding='utf-8-sig'), object_pairs_hook=check_pairs)
 
+def check_unreferenced_imgui_font_types(root):
+    """Fail early on direct UnityEngine.Font types with the project's trimmed refs.
+
+    This is a narrow preflight for the known CS1069 failure, NOT a substitute
+    for the dotnet client build performed by BUILD_DISTRIBUTION.ps1.
+    """
+    project = (root / 'SPT_Mod_Korean_Addon.csproj').read_text(encoding='utf-8-sig')
+    has_module = ('Include="UnityEngine.TextRenderingModule"' in project and
+                  (root / 'references/client/UnityEngine.TextRenderingModule.dll').is_file())
+    if has_module:
+        return []
+    errors = []
+    patterns = (
+        r'\b(?:UnityEngine\.)?Font\s*(?:\[\s*\])?\s+[A-Za-z_]\w*',
+        r'\b(?:typeof\s*\(\s*|FindObjectsOfTypeAll\s*<\s*)(?:UnityEngine\.)?Font\s*[)>]',
+        r'\b(?:UnityEngine\.)?FontStyle\s*\.',
+    )
+    for path in (root / 'src').rglob('*.cs'):
+        source = path.read_text(encoding='utf-8-sig')
+        # Ignore string literals and comments; both can mention the type without
+        # introducing an actual compile-time dependency.
+        source = re.sub(r'@"(?:[^"]|"")*"|\$?"(?:\\.|[^"\\])*"', '""', source)
+        source = re.sub(r'/\*[\s\S]*?\*/|//[^\n]*', '', source)
+        if any(re.search(pattern, source) for pattern in patterns):
+            errors.append(path.relative_to(root).as_posix() +
+                          ': direct UnityEngine.Font/FontStyle needs missing UnityEngine.TextRenderingModule; use ImguiFontCompat')
+    return errors
+
 def source_checks(root):
     errors = []
     for required in ('translations', 'config-ui', 'src', 'server-src', 'build',
@@ -41,8 +70,7 @@ def source_checks(root):
     for p in configs:
         try:
             doc = json_file(p)
-            if 'source_mod_version' in doc or not isinstance(doc.get('mod_version'), str) or not doc['mod_version'].strip():
-                errors.append(p.name + ': invalid/obsolete mod_version metadata')
+            recorded_version(doc)
             if doc.get('plugin_guid') != p.stem:
                 errors.append(p.name + ': plugin_guid differs from filename')
             if p.stem in guids:
@@ -89,8 +117,7 @@ def source_checks(root):
     for p in sorted((root / 'translations').glob('*.json')):
         try:
             doc = json_file(p)
-            if 'source_mod_version' in doc or not isinstance(doc.get('mod_version'), str) or not doc['mod_version'].strip():
-                errors.append(p.name + ': invalid/obsolete mod_version metadata')
+            recorded_version(doc)
             mod_id = doc.get('mod_id')
             if not mod_id:
                 errors.append(p.name + ': missing mod_id')
@@ -103,6 +130,7 @@ def source_checks(root):
     # tests passed. Catch basic C# delimiter damage before invoking dotnet.
     from check_csharp_delimiters import check_sources
     errors.extend(check_sources(root))
+    errors.extend(check_unreferenced_imgui_font_types(root))
     # Static checks for explicit capacities and identical-key/identical-source conflicts.
     # Different sources remain distinct candidates. Never report this as in-game proof.
     from audit_locale_integrity import audit

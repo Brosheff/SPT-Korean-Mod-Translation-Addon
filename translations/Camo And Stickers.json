@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "7Bpencil.WeaponCamoAndStickers.UI",
   "mod_name": "Camo And Stickers",
-  "mod_version": "1.9.2",
+  "mod_version": "1.20.0",
   "channels": {
     "ui_literals": [
       {
@@ -419,25 +419,169 @@
         "source": "Specular:",
         "translation": "반사광:",
         "match_mode": "exact"
-      }
-    ],
-    "external_ui_literals": [
+      },
       {
-        "id": "context_apply_paint",
+        "id": "editor_tooltip_01",
+        "source": "Delete",
+        "translation": "삭제",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_02",
+        "source": "Duplicate",
+        "translation": "복제",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_03",
+        "source": "Change Visibility",
+        "translation": "표시 여부 전환",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_04",
+        "source": "Move Lower",
+        "translation": "아래로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_05",
+        "source": "Move Higher",
+        "translation": "위로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_06",
+        "source": "Copy Paint Data",
+        "translation": "도색 데이터 복사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_07",
+        "source": "Paste Paint Data",
+        "translation": "도색 데이터 붙여넣기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_08",
+        "source": "Copy Eraser Data",
+        "translation": "지우개 데이터 복사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_09",
+        "source": "Paste Eraser Data",
+        "translation": "지우개 데이터 붙여넣기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_10",
+        "source": "Stencil Type: Static",
+        "translation": "스텐실 유형: 고정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_11",
+        "source": "Stencil Type: Equipment",
+        "translation": "스텐실 유형: 장비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_12",
+        "source": "Stencil Type: Weapon",
+        "translation": "스텐실 유형: 무기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_13",
+        "source": "Mirror Mode: Disabled",
+        "translation": "대칭 모드: 사용 안 함",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_14",
+        "source": "Mirror Mode: Enabled",
+        "translation": "대칭 모드: 사용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_15",
+        "source": "Mirror Mode: Enabled No Flip",
+        "translation": "대칭 모드: 사용(반전 없음)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_16",
+        "source": "Position",
+        "translation": "위치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_17",
+        "source": "Rotation",
+        "translation": "회전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_18",
+        "source": "Scale",
+        "translation": "크기 조절",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_19",
+        "source": "Texture UV Offset",
+        "translation": "텍스처 UV 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_20",
+        "source": "Texture UV Angle",
+        "translation": "텍스처 UV 각도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_21",
+        "source": "Texture UV Tiling",
+        "translation": "텍스처 UV 반복",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_22",
+        "source": "Mask UV Offset",
+        "translation": "마스크 UV 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_23",
+        "source": "Mask UV Angle",
+        "translation": "마스크 UV 각도",
+        "match_mode": "exact"
+      },
+      {
+        "id": "editor_tooltip_24",
+        "source": "Mask UV Tiling",
+        "translation": "마스크 UV 반복",
+        "match_mode": "exact"
+      },
+      {
+        "id": "context_display_apply_paint",
         "source": "APPLY PAINT",
         "translation": "도색 적용",
         "match_mode": "exact"
       },
       {
-        "id": "context_change_material",
+        "id": "context_display_change_material",
         "source": "CHANGE MATERIAL",
         "translation": "재질 변경",
         "match_mode": "exact"
-      },
+      }
+    ],
+    "external_ui_literals": [
       {
         "id": "paintable_items_tooltip",
-        "source": "Only following items can be painted: Weapons, Knives, Helmets, Facemasks, Containers",
-        "translation": "도색 가능: 무기, 칼, 헬멧, 안면 장비, 컨테이너",
+        "source": "Only following items can be painted: Weapons, Knives, Helmets, Facemasks, Containers, Vests, Backpacks, Armbands, Battle Belts",
+        "translation": "다음 아이템에만 도색할 수 있습니다: 무기, 칼, 헬멧, 안면 장비, 컨테이너, 조끼, 배낭, 완장, 전술 벨트",
         "match_mode": "exact"
       },
       {

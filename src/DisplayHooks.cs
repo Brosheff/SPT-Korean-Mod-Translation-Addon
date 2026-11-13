@@ -40,7 +40,13 @@ namespace SPT.ModKoreanAddon
                 ["com.manimal.icebreaker"] = "Icebreaker",
                 ["com.tyfon.hideoutinprogress"] = "HideoutInProgress",
                 ["com.manimal.terminal"] = "com.manimal.terminal",
-                ["com.vinihns.makeshotgunsgreatagain"] = "source3.make_shotguns_great_again"
+                ["com.vinihns.makeshotgunsgreatagain"] = "source3.make_shotguns_great_again",
+                ["jrs.hideoutinteriors"] = "jrs.hideoutinteriors",
+                ["com.kennerz.paphideoutmodule"] = "com.kennerz.paphideoutmodule",
+                ["com.kennerz.raygun"] = "com.kennerz.raygun",
+                ["com.kennerz.thundergun"] = "com.kennerz.thundergun",
+                ["jrs.k9companion"] = "jrs.k9companion",
+                ["com.minesettimi.territories"] = "com.minesettimi.territories"
             };
 
         private static readonly Dictionary<Assembly, string> ProfileByAssembly =
@@ -110,6 +116,14 @@ namespace SPT.ModKoreanAddon
                 if (string.Equals(profile, "BossNotifier", StringComparison.Ordinal) &&
                     (profiles.HasRules(profile, "notifications") || profiles.HasRules(profile, "notification_terms")))
                     input = TranslateBossNotifierNotification(input, culture);
+                // K9 has its own explicit language setting. Respect it even if
+                // the game's culture is Korean; only the K9-owned caller may use
+                // the K9 notification rules. Original Fika packets/logs are untouched.
+                else if (string.Equals(profile, "jrs.k9companion", StringComparison.Ordinal))
+                {
+                    if (K9CompanionLangHooks.AllowsKoreanNotice() && profiles.HasRules(profile, "notifications"))
+                        input = profiles.Translate(profile, "notifications", input, culture);
+                }
                 else if (profile != null && profiles.HasRules(profile, "notifications"))
                     input = profiles.Translate(profile, "notifications", input, culture);
 

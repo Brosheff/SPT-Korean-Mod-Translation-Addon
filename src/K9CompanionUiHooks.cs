@@ -60,6 +60,7 @@ namespace SPT.ModKoreanAddon
         private static EditableProfiles profiles;
         private static bool active;
         private static bool coreReady;
+        private static bool skippedModernLanguageSystem;
         private static FieldInfo[] displayFields;
         private static FieldInfo factsField, actionsField;
 
@@ -97,7 +98,7 @@ namespace SPT.ModKoreanAddon
         // Re-check idempotently on the normal locale poll; never touch other assemblies.
         internal static void RetryPending()
         {
-            lock (Gate) { if (!active || coreReady) return; }
+            lock (Gate) { if (!active || coreReady || skippedModernLanguageSystem) return; }
             try
             {
                 var assembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a => a != null &&
@@ -118,6 +119,7 @@ namespace SPT.ModKoreanAddon
                 if (active) AppDomain.CurrentDomain.AssemblyLoad -= OnAssemblyLoad;
                 active = false;
                 coreReady = false;
+                skippedModernLanguageSystem = false;
                 patcher = null;
                 profiles = null;
                 Installed.Clear();
@@ -144,6 +146,23 @@ namespace SPT.ModKoreanAddon
         private static int Patch(Assembly assembly)
         {
             const BindingFlags flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static;
+            // The legacy patch family targets K9 1.1.0 only. As of 1.3.2 the upstream
+            // client translates its own labels via Lang.T and has different display
+            // lifecycles; the old literal transpiler could force Korean into a selected
+            // non-Korean mod language. Do not patch any unknown/upgraded version until
+            // its language loader and final display paths are source-audited.
+            var pluginType = assembly.GetType("K9Companion.Plugin", false);
+            var versionField = pluginType?.GetField("Version", flags);
+            var declaredVersion = versionField != null && versionField.IsLiteral &&
+                versionField.FieldType == typeof(string) ? versionField.GetRawConstantValue() as string : null;
+            if (!string.Equals(declaredVersion, "1.1.0", StringComparison.Ordinal))
+            {
+                lock (Gate) skippedModernLanguageSystem = true;
+                SPT.EditableTranslations.MinimalLog.WarnOnce("K9UI:version-gate",
+                    () => "K9 legacy 1.1.0 DOG UI hooks skipped for upstream version " +
+                          (declaredVersion ?? "unidentified") + "; newer Lang.T integration pending.");
+                return 0;
+            }
             var screen = assembly.GetType("K9Companion.DogScreen", false);
             if (screen == null)
             {

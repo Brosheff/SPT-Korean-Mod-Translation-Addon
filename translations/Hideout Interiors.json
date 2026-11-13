@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "jrs.hideoutinteriors",
+  "mod_name": "Hideout Interiors",
+  "mod_version": "0.1.0",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "hideout-r002-ui-01",
+        "source": "DECORATE",
+        "translation": "은신처 꾸미기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-02",
+        "source": "DONE",
+        "translation": "완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-03",
+        "source": "MOVE",
+        "translation": "이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-04",
+        "source": "TURN",
+        "translation": "회전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-05",
+        "source": "RESET ALL",
+        "translation": "전체 초기화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-06",
+        "source": "Drag a thing into the hideout to put a copy there. Point at the hideout's things to pick them out.",
+        "translation": "물건을 은신처로 끌어와 복제본을 배치합니다. 은신처에 있는 물건을 가리켜 선택할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-07",
+        "source": "All",
+        "translation": "전체",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-08",
+        "source": "Storage",
+        "translation": "보관함",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-09",
+        "source": "Furniture",
+        "translation": "가구",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-10",
+        "source": "Lights",
+        "translation": "조명",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-11",
+        "source": "Electronics",
+        "translation": "전자기기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-12",
+        "source": "Food",
+        "translation": "식품",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-13",
+        "source": "Tools",
+        "translation": "도구",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-14",
+        "source": "Junk",
+        "translation": "잡동사니",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-15",
+        "source": "Other",
+        "translation": "기타",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-ui-16",
+        "source": "Hidden",
+        "translation": "숨긴 물건",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r002-tabs-hidden-count",
+        "source": "Hidden ({count})",
+        "translation": "숨긴 물건 ({count})",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-001",
+        "source": "<b>MOVING {what}</b> · belongs to {belong}\nLet go to put down · R: turn (Shift+R: 15°) · T: change whom it belongs to · Right-click: cancel · let go over the panel: put back",
+        "translation": "<b>{what} 이동 중</b> · 소속 구역: {belong}\n마우스 버튼 놓기: 배치 · R: 회전 (Shift+R: 15°) · T: 소속 구역 변경 · 오른쪽 클릭: 취소 · 패널 위에서 놓기: 되돌리기",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-002",
+        "source": "<b>MOVING {what}</b> · belongs to {belong}\nLet go to put down · R: turn (Shift+R: 15°) · T: change whom it belongs to · Right-click: cancel",
+        "translation": "<b>{what} 이동 중</b> · 소속 구역: {belong}\n마우스 버튼 놓기: 배치 · R: 회전 (Shift+R: 15°) · T: 소속 구역 변경 · 오른쪽 클릭: 취소",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-003",
+        "source": "<b>{what}</b> · turning about {axis} {angle}°\nLet go to put down · Ctrl: 15° steps · Right-click: cancel",
+        "translation": "<b>{what}</b> · {axis}축을 기준으로 {angle}° 회전 중\n마우스 버튼 놓기: 회전 완료 · Ctrl: 15° 간격 · 오른쪽 클릭: 취소",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-004",
+        "source": "<b>{what}</b> · at {at}\nDrag the {axis1} ring to turn about {axis2} (Ctrl: 15° steps) · {key}: move arrows",
+        "translation": "<b>{what}</b> · 위치 {at}\n{axis1}축 회전 고리를 드래그해 {axis2}축을 중심으로 회전 (Ctrl: 15° 간격) · {key}: 이동 화살표",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-005",
+        "source": "<b>{what}</b> · along {axis} {distance} m · at {at}\nLet go to put down · Ctrl: 5 cm steps · Right-click: cancel",
+        "translation": "<b>{what}</b> · {axis}축 방향 {distance} m · 위치 {at}\n마우스 버튼 놓기: 배치 · Ctrl: 5 cm 간격 · 오른쪽 클릭: 취소",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-006",
+        "source": "<b>{what}</b> · at {at}\nDrag the {axis1} arrow to move along {axis2} only (Ctrl: 5 cm steps) · {key}: turn rings",
+        "translation": "<b>{what}</b> · 위치 {at}\n{axis1}축 화살표를 드래그해 {axis2}축 방향으로만 이동 (Ctrl: 5 cm 간격) · {key}: 회전 고리",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-007",
+        "source": "<b>{area}</b>\nClick: the {name} belongs to {target} from now on (outlined with it, moving with it)",
+        "translation": "<b>{area}</b>\n클릭: 이제 {name}의 소속 구역을 {target}(으)로 변경합니다. 해당 구역과 함께 윤곽선이 표시되고 이동합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-008",
+        "source": "<b>{area}</b>\nClick: the {count} selected things belong to {target} from now on (outlined with it, moving with it)",
+        "translation": "<b>{area}</b>\n클릭: 선택한 물건 {count}개의 소속 구역을 {target}(으)로 변경합니다. 해당 구역과 함께 윤곽선이 표시되고 이동합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-009",
+        "source": "<b>{area}</b>\nSelect things first, then click this icon to give them to {target}",
+        "translation": "<b>{area}</b>\n먼저 물건을 선택한 다음 이 아이콘을 클릭하면 소속 구역이 {target}(으)로 바뀝니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-010",
+        "source": "<b>{name}</b> · {owner}\nDrag to move · R: turn · {key}: turn rings · T: puts down in {belong} · Click an area's icon: give to it · Delete: remove · Backspace: the game's spot · Esc: done",
+        "translation": "<b>{name}</b> · {owner}\n드래그: 이동 · R: 회전 · {key}: 회전 고리 · T: {belong}에 배치 · 구역 아이콘 클릭: 소속 변경 · Delete: 제거 · Backspace: 게임 기본 위치로 · Esc: 종료",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-011",
+        "source": "<b>{count} SELECTED</b>\nDrag to move · R: turn · {key}: turn rings · T: puts down in {belong} · Click an area's icon: give to it · Delete: remove · Backspace: the game's spot · Esc: done",
+        "translation": "<b>{count}개 선택됨</b>\n드래그: 이동 · R: 회전 · {key}: 회전 고리 · T: {belong}에 배치 · 구역 아이콘 클릭: 소속 변경 · Delete: 제거 · Backspace: 게임 기본 위치로 · Esc: 종료",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-012",
+        "source": "<b>{name}</b> · {owner}\nDrag to move · R: turn · {key}: move arrows · T: puts down in {belong} · Click an area's icon: give to it · Delete: remove · Backspace: the game's spot · Esc: done",
+        "translation": "<b>{name}</b> · {owner}\n드래그: 이동 · R: 회전 · {key}: 이동 화살표 · T: {belong}에 배치 · 구역 아이콘 클릭: 소속 변경 · Delete: 제거 · Backspace: 게임 기본 위치로 · Esc: 종료",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-013",
+        "source": "<b>{count} SELECTED</b>\nDrag to move · R: turn · {key}: move arrows · T: puts down in {belong} · Click an area's icon: give to it · Delete: remove · Backspace: the game's spot · Esc: done",
+        "translation": "<b>{count}개 선택됨</b>\n드래그: 이동 · R: 회전 · {key}: 이동 화살표 · T: {belong}에 배치 · 구역 아이콘 클릭: 소속 변경 · Delete: 제거 · Backspace: 게임 기본 위치로 · Esc: 종료",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-014",
+        "source": "<b>{name}</b> · {owner}\nDrag to move · R: turn · {key}: turn rings · T: puts down in {belong} · Click an area's icon: give to it · Delete: hide · Backspace: the game's spot · Esc: done",
+        "translation": "<b>{name}</b> · {owner}\n드래그: 이동 · R: 회전 · {key}: 회전 고리 · T: {belong}에 배치 · 구역 아이콘 클릭: 소속 변경 · Delete: 숨기기 · Backspace: 게임 기본 위치로 · Esc: 종료",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-015",
+        "source": "<b>{count} SELECTED</b>\nDrag to move · R: turn · {key}: turn rings · T: puts down in {belong} · Click an area's icon: give to it · Delete: hide · Backspace: the game's spot · Esc: done",
+        "translation": "<b>{count}개 선택됨</b>\n드래그: 이동 · R: 회전 · {key}: 회전 고리 · T: {belong}에 배치 · 구역 아이콘 클릭: 소속 변경 · Delete: 숨기기 · Backspace: 게임 기본 위치로 · Esc: 종료",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-016",
+        "source": "<b>{name}</b> · {owner}\nDrag to move · R: turn · {key}: move arrows · T: puts down in {belong} · Click an area's icon: give to it · Delete: hide · Backspace: the game's spot · Esc: done",
+        "translation": "<b>{name}</b> · {owner}\n드래그: 이동 · R: 회전 · {key}: 이동 화살표 · T: {belong}에 배치 · 구역 아이콘 클릭: 소속 변경 · Delete: 숨기기 · Backspace: 게임 기본 위치로 · Esc: 종료",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-017",
+        "source": "<b>{count} SELECTED</b>\nDrag to move · R: turn · {key}: move arrows · T: puts down in {belong} · Click an area's icon: give to it · Delete: hide · Backspace: the game's spot · Esc: done",
+        "translation": "<b>{count}개 선택됨</b>\n드래그: 이동 · R: 회전 · {key}: 이동 화살표 · T: {belong}에 배치 · 구역 아이콘 클릭: 소속 변경 · Delete: 숨기기 · Backspace: 게임 기본 위치로 · Esc: 종료",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-018",
+        "source": "<b>{name}</b> · {owner}\nClick to select · Shift+click to add · drag on the floor to box-select · Esc: done",
+        "translation": "<b>{name}</b> · {owner}\n클릭: 선택 · Shift+클릭: 추가 선택 · 바닥에서 드래그: 범위 선택 · Esc: 종료",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-019",
+        "source": "<b>DECOR MODE</b> · what you put down belongs to {belong} (T to change)\nPoint at a thing to outline it · click to select · drag on the floor to box-select · drag from the panel to add · Esc: done",
+        "translation": "<b>꾸미기 모드</b> · 배치한 물건의 소속 구역: {belong} (T: 변경)\n물건을 가리키면 윤곽선 표시 · 클릭: 선택 · 바닥에서 드래그: 범위 선택 · 패널에서 드래그: 복제본 추가 · Esc: 종료",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-020",
+        "source": "<b>{name}</b> · {owner}\n<size=13>Drag to move · arrows to move exactly</size>",
+        "translation": "<b>{name}</b> · {owner}\n<size=13>드래그: 이동 · 화살표: 정밀 이동</size>",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-021",
+        "source": "<b>{name}</b> · {owner}\n<size=13>Click to select · Shift+click to add</size>",
+        "translation": "<b>{name}</b> · {owner}\n<size=13>클릭: 선택 · Shift+클릭: 추가 선택</size>",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-022",
+        "source": "the area it belongs to now (not put in another)",
+        "translation": "기존 소속 구역 (다른 구역에 배치하지 않음)",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hideout-r003-023",
+        "source": "the area it belongs to now",
+        "translation": "현재 소속 구역",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hideout-r003-024",
+        "source": "the area it's put in",
+        "translation": "배치되는 구역",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hideout-r003-025",
+        "source": "no area: stays put",
+        "translation": "소속 구역 없음: 현재 위치 유지",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hideout-r003-026",
+        "source": "no area",
+        "translation": "소속 구역 없음",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hideout-r003-027",
+        "source": "decoration, new",
+        "translation": "장식품, 새로 배치함",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hideout-r003-028",
+        "source": "decoration, ",
+        "translation": "장식품, ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hideout-r003-029",
+        "source": " (the area it's put in)",
+        "translation": " (배치되는 구역)",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hideout-r003-030",
+        "source": "CLICK AGAIN",
+        "translation": "다시 클릭",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r003-031",
+        "source": "Decorate the hideout",
+        "translation": "은신처 꾸미기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r004-hidden-restore-hint",
+        "source": "click to show",
+        "translation": "클릭하여 다시 표시",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r005-search-placeholder",
+        "source": "Search...",
+        "translation": "검색...",
+        "match_mode": "exact"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "hideout-r003-032",
+        "source": "The hideout is as the game has it: {things} thing(s) back, {copies} decoration(s) gone.",
+        "translation": "은신처가 게임 기본 상태로 복원되었습니다. 물건 {things}개 복원, 장식품 {copies}개 제거.",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-033",
+        "source": "Select things first, then click an area's icon to give them to it.",
+        "translation": "먼저 물건을 선택한 다음 구역 아이콘을 클릭해 소속을 변경하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hideout-r003-034",
+        "source": "{name} couldn't be copied.",
+        "translation": "{name}을(를) 복제하지 못했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-035",
+        "source": "{name} belongs to {area} now.",
+        "translation": "{name}의 소속 구역이 {area}(으)로 변경되었습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "hideout-r003-036",
+        "source": "{count} things belong to {area} now.",
+        "translation": "물건 {count}개의 소속 구역이 {area}(으)로 변경되었습니다.",
+        "match_mode": "template"
+      }
+    ],
+    "decor_names": []
+  }
+}

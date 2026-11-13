@@ -612,6 +612,8 @@
       },
       {
         "id": "flip_test_help_3_3_2",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by flip_test_help; retained for source provenance.",
         "source": "Flip test - checks the anchor moves with the goggle:",
         "translation": "플립 테스트 - 고글과 함께 앵커가 움직이는지 확인합니다:",
         "match_mode": "exact"

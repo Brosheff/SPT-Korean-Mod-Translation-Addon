@@ -72,9 +72,12 @@ namespace SPT.ModKoreanAddon
             internal readonly string MethodName;
             internal readonly int ParameterCount;
             internal readonly bool IncludeNestedTypes;
+            // Only the explicitly audited Skipper click callback uses this option.
+            // Compiler-generated suffix numbers may differ between builds.
+            internal readonly bool GeneratedLambdaPrefix;
 
             internal Target(string profileId, string assemblyName, string typeName, string methodName,
-                int parameterCount = -1, bool includeNestedTypes = false)
+                int parameterCount = -1, bool includeNestedTypes = false, bool generatedLambdaPrefix = false)
             {
                 ProfileId = profileId;
                 AssemblyName = assemblyName;
@@ -82,6 +85,7 @@ namespace SPT.ModKoreanAddon
                 MethodName = methodName;
                 ParameterCount = parameterCount;
                 IncludeNestedTypes = includeNestedTypes;
+                GeneratedLambdaPrefix = generatedLambdaPrefix;
             }
         }
 
@@ -276,6 +280,12 @@ namespace SPT.ModKoreanAddon
             // SOURCE3 Menu Overhaul 1.3.0: custom TMP experience label created in this exact method.
             new Target("smallui.menuoverhaul", "MoxoPixel.MenuOverhaul", "MoxoPixel.MenuOverhaul.Helpers.Services.PlayerProfileViewService", "CreateExperienceRow", 1),
             new Target("smallui.skipper", "terkoiz-skipper", "Terkoiz.Skipper.QuestObjectiveViewPatch", "PatchPostfix", 5),
+            // Skipper 1.1.5 stores its confirmation description/caption in an
+            // OnClick lambda, not in PatchPostfix's own IL. Only the callback
+            // generated for that exact source method is eligible. Do not patch
+            // EFT.UI.ItemUiContext.ShowMessageWindow or other mods' click events.
+            new Target("smallui.skipper", "terkoiz-skipper", "Terkoiz.Skipper.QuestObjectiveViewPatch",
+                "<PatchPostfix>b__", includeNestedTypes: true, generatedLambdaPrefix: true),
             // SOURCE4 Realism Common Lib 0.0.2: dedicated curve editor IMGUI literals only.
             // Never translate generated curve IDs or axis enum values, which are data, not captions.
             new Target("smallui.realismcurveeditor", "spt-realism-common-lib", "RealismCommonLib.Utils.CurveDrawer", "DrawGUI", 0),
@@ -854,7 +864,10 @@ namespace SPT.ModKoreanAddon
                     StringComparison.OrdinalIgnoreCase);
                 var isManimalTerminal = string.Equals(assemblyName, "ManimalTerminalClient",
                     StringComparison.OrdinalIgnoreCase);
-                if (!isDoomArcade && !isQuartermaster && !isArmorExpert && !isIsbNotifier && !isIsbSubtitle && !isAishiWardrobe && !isUnderFire && !isArenaMode && !isManimalTerminal && !isBackpackSlot && !isRippersCasino && !isTransmog && !isFiveModPlate && !isFiveModForecast) return;
+                // Skipper can load after our initial scan; keep its hooks eligible
+                // for the same exact-target late-load registration.
+                var isSkipper = string.Equals(assemblyName, "terkoiz-skipper", StringComparison.OrdinalIgnoreCase);
+                if (!isSkipper && !isDoomArcade && !isQuartermaster && !isArmorExpert && !isIsbNotifier && !isIsbSubtitle && !isAishiWardrobe && !isUnderFire && !isArenaMode && !isManimalTerminal && !isBackpackSlot && !isRippersCasino && !isTransmog && !isFiveModPlate && !isFiveModForecast) return;
 
                 EditableProfiles data;
                 lock (Gate)
@@ -1829,7 +1842,13 @@ namespace SPT.ModKoreanAddon
                 foreach (var method in methods)
                 {
                     if (method == null || method.IsAbstract || method.ContainsGenericParameters) continue;
-                    if (target.MethodName != "*" && !string.Equals(method.Name, target.MethodName, StringComparison.Ordinal)) continue;
+                    if (target.GeneratedLambdaPrefix)
+                    {
+                        // A callback must be inside the audited owner, never its
+                        // direct methods or an unrelated compiler-generated type.
+                        if (type == rootType || !method.Name.StartsWith(target.MethodName, StringComparison.Ordinal)) continue;
+                    }
+                    else if (target.MethodName != "*" && !string.Equals(method.Name, target.MethodName, StringComparison.Ordinal)) continue;
                     if (target.ParameterCount >= 0 && method.GetParameters().Length != target.ParameterCount) continue;
                     if (!ContainsTranslatableLiteral(method, target.ProfileId)) continue;
 

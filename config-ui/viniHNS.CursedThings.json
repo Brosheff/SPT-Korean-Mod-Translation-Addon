@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "viniHNS.CursedThings",
+  "plugin_name": "CursedThings",
+  "mod_version": "0.1.0",
+  "categories": [
+    {
+      "source": "BFR .50 BMG",
+      "translation": "BFR .50 BMG"
+    },
+    {
+      "source": "Nuclear Grenade",
+      "translation": "핵 수류탄"
+    }
+  ],
+  "entries": [
+    {
+      "section": "BFR .50 BMG",
+      "key": "Enable Arm Strain",
+      "source_display_name": "Enable Arm Strain",
+      "source_description": "Holding up and firing the BFR .50 BMG tires your arms much faster than other weapons.",
+      "translation_display_name": "팔 스태미나 부담 활성화",
+      "translation_description": "BFR .50 BMG를 들고 조준하거나 발사하면 다른 총기보다 팔 스태미나가 훨씬 빠르게 소모됩니다.",
+      "values": []
+    },
+    {
+      "section": "BFR .50 BMG",
+      "key": "Aim Stamina Drain Multiplier",
+      "source_display_name": "Aim Stamina Drain Multiplier",
+      "source_description": "How many times faster arm stamina drains while aiming the BFR.",
+      "translation_display_name": "조준 시 팔 스태미나 소모 배율",
+      "translation_description": "BFR로 조준하는 동안 팔 스태미나가 소모되는 속도의 배율을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "BFR .50 BMG",
+      "key": "Arm Stamina Cost Per Shot",
+      "source_display_name": "Arm Stamina Cost Per Shot",
+      "source_description": "Arm stamina taken by each BFR shot, aiming or not (base arm stamina is 80).",
+      "translation_display_name": "발사당 팔 스태미나 소모량",
+      "translation_description": "조준 여부와 관계없이 BFR를 한 발 발사할 때마다 소모하는 팔 스태미나입니다(기본 팔 스태미나는 80입니다).",
+      "values": []
+    },
+    {
+      "section": "BFR .50 BMG",
+      "key": "Arm Recovery Delay After Shot",
+      "source_display_name": "Arm Recovery Delay After Shot",
+      "source_description": "Seconds after each BFR shot before arm stamina starts to recover.",
+      "translation_display_name": "발사 후 팔 스태미나 회복 지연",
+      "translation_description": "BFR를 발사한 뒤 팔 스태미나 회복이 시작될 때까지 걸리는 시간(초)입니다.",
+      "values": []
+    },
+    {
+      "section": "Nuclear Grenade",
+      "key": "Fuse Time",
+      "source_display_name": "Fuse Time",
+      "source_description": "Seconds from throw to detonation. Applies to the next nuke thrown.",
+      "translation_display_name": "신관 지연 시간",
+      "translation_description": "투척부터 폭발까지의 시간(초)입니다. 다음에 투척하는 핵 수류탄부터 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Nuclear Grenade",
+      "key": "Lethal Radius",
+      "source_display_name": "Lethal Radius",
+      "source_description": "Meters. Anyone inside dies, cover or not.",
+      "translation_display_name": "즉사 반경",
+      "translation_description": "미터 단위입니다. 이 반경 안에 있는 사람은 엄폐물의 유무와 관계없이 사망합니다.",
+      "values": []
+    },
+    {
+      "section": "Nuclear Grenade",
+      "key": "Heavy Damage Radius",
+      "source_display_name": "Heavy Damage Radius",
+      "source_description": "Meters. Between the lethal radius and this one, damage falls off with distance; solid cover cuts it to 30%.",
+      "translation_display_name": "중피해 반경",
+      "translation_description": "미터 단위입니다. 즉사 반경과 이 반경 사이에서는 거리가 멀수록 피해가 감소하며, 견고한 엄폐물 뒤에서는 피해량이 30%로 줄어듭니다.",
+      "values": []
+    },
+    {
+      "section": "Nuclear Grenade",
+      "key": "Shockwave Radius",
+      "source_display_name": "Shockwave Radius",
+      "source_description": "Meters. Reach of the flash (if you look at it), contusion, deafening and camera shake.",
+      "translation_display_name": "충격파 영향 반경",
+      "translation_description": "미터 단위입니다. 섬광(폭발을 바라본 경우), 뇌진탕, 청력 손상 및 카메라 흔들림이 미치는 범위입니다.",
+      "values": []
+    },
+    {
+      "section": "Nuclear Grenade",
+      "key": "Damage Thrower",
+      "source_display_name": "Damage Thrower",
+      "source_description": "If off, the player who threw the nuke takes no blast damage (flash and contusion still apply).",
+      "translation_display_name": "투척자 피해 적용",
+      "translation_description": "이 옵션을 끄면 수류탄을 던진 플레이어는 폭발 피해를 받지 않습니다(섬광과 뇌진탕 효과는 그대로 적용됩니다).",
+      "values": []
+    },
+    {
+      "section": "Nuclear Grenade",
+      "key": "Camera Shake",
+      "source_display_name": "Camera Shake",
+      "source_description": "Shake the camera when the shockwave reaches you.",
+      "translation_display_name": "카메라 흔들림",
+      "translation_description": "충격파가 플레이어에게 도달하면 카메라를 흔듭니다.",
+      "values": []
+    },
+    {
+      "section": "Nuclear Grenade",
+      "key": "Mushroom Cloud",
+      "source_display_name": "Mushroom Cloud",
+      "source_description": "Show the full blast effect (fireball, shockwave, mushroom cloud). Off: only the game's explosion and a light.",
+      "translation_display_name": "버섯구름 효과",
+      "translation_description": "화염구, 충격파 및 버섯구름을 포함한 전체 폭발 효과를 표시합니다. 끄면 게임 기본 폭발 효과와 빛만 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "Nuclear Grenade",
+      "key": "Effects Quality",
+      "source_display_name": "Effects Quality",
+      "source_description": "High: full smoke and the shockwave distortion. Low: half the smoke particles, no distortion.",
+      "translation_display_name": "효과 품질",
+      "translation_description": "높음: 연기 입자 전체와 충격파 왜곡 효과를 표시합니다. 낮음: 연기 입자 수가 절반으로 줄고 왜곡 효과는 표시되지 않습니다.",
+      "values": [
+        {
+          "source": "High",
+          "translation": "높음"
+        },
+        {
+          "source": "Low",
+          "translation": "낮음"
+        }
+      ]
+    },
+    {
+      "section": "Nuclear Grenade",
+      "key": "Sound Volume",
+      "source_display_name": "Sound Volume",
+      "source_description": "Volume of the blast, rumble and echoes (they reach you with the shockwave, at the speed of sound).",
+      "translation_display_name": "폭발음 음량",
+      "translation_description": "폭발음, 굉음 및 메아리의 음량을 조절합니다(이 소리들은 충격파와 함께 음속으로 도달합니다).",
+      "values": []
+    },
+    {
+      "section": "Nuclear Grenade",
+      "key": "Geiger Counter",
+      "source_display_name": "Geiger Counter",
+      "source_description": "Geiger counter clicks from the grenade while the fuse burns, faster in the last 5 seconds.",
+      "translation_display_name": "가이거 계수기",
+      "translation_description": "신관이 타는 동안 수류탄에서 가이거 계수기 소리가 나며, 마지막 5초에는 소리가 더 빨라집니다.",
+      "values": []
+    }
+  ]
+}

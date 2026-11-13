@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.viniHNS.M79",
+  "mod_name": "vini's M79",
+  "mod_version": "1.0.0",
+  "channels": {
+    "locale": [
+      {
+        "key": "06b165b82cb6183fa8c45d52 Name",
+        "source": "M79 40mm grenade launcher",
+        "translation": "M79 40mm 유탄발사기",
+        "match_mode": "item_decorated",
+        "display_type": "item_name"
+      },
+      {
+        "key": "06b165b82cb6183fa8c45d52 ShortName",
+        "source": "M79",
+        "translation": "M79"
+      },
+      {
+        "key": "06b165b82cb6183fa8c45d52 Description",
+        "source": "The M79 is a single-shot, break-action 40mm grenade launcher adopted by the US Army in 1961 and widely used in the Vietnam War, where it earned the nicknames \"Thumper\" and \"Blooper\". Pushing the latch on top of the receiver opens the breech and cocks the hammer; the spent case has to be pulled out by hand. Fires the full range of NATO standard 40x46mm low-velocity grenades. Manufactured by Springfield Armory.",
+        "translation": "M79는 1961년 미 육군에 채택되어 베트남 전쟁에서 널리 사용된 단발식 중절형 40mm 유탄발사기입니다. 당시 \"섬퍼(Thumper)\"와 \"블루퍼(Blooper)\"라는 별명을 얻었습니다. 총몸 위쪽의 걸쇠를 밀면 약실이 열리면서 격철이 젖혀지며, 발사한 탄피는 손으로 꺼내야 합니다. NATO 표준 40x46mm 저속 유탄을 모두 발사할 수 있습니다. 스프링필드 아머리에서 제조했습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "f1ad6e58b4bacd580b81bc18 Name",
+        "source": "M79 40mm 356mm barrel",
+        "translation": "M79 40mm 356mm 총열",
+        "display_type": "item_name"
+      },
+      {
+        "key": "f1ad6e58b4bacd580b81bc18 ShortName",
+        "source": "M79 barrel",
+        "translation": "M79 총열"
+      },
+      {
+        "key": "f1ad6e58b4bacd580b81bc18 Description",
+        "source": "The 356mm (14-inch) aluminium barrel of the M79 grenade launcher, hinged to the front of the receiver, with the wooden forend and the folding leaf sight mounted on it. ",
+        "translation": "M79 유탄발사기의 356mm(14인치) 알루미늄 총열입니다. 총몸 앞부분에 경첩식으로 연결되어 있으며, 목제 총열덮개와 접이식 가늠자가 장착되어 있습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "aaea0d077f0631db0985290a Name",
+        "source": "40x46mm R.I.P.",
+        "translation": "40x46mm R.I.P.",
+        "display_type": "item_name"
+      },
+      {
+        "key": "aaea0d077f0631db0985290a ShortName",
+        "source": "R.I.P 40mm",
+        "translation": "R.I.P 40mm"
+      },
+      {
+        "key": "aaea0d077f0631db0985290a Description",
+        "source": "A 40x46mm low-velocity cartridge loaded with a single 5000-grain solid copper projectile instead of a grenade. Eight pre-scored petals split apart on impact and tear through soft tissue, causing devastating wounds and heavy bleeding. Almost useless against body armor. Fits any 40x46mm launcher.",
+        "translation": "40x46mm 저속탄으로, 유탄 대신 5000그레인짜리 일체형 구리 탄자 한 발이 들어 있습니다. 미리 절개된 8개의 날개 부분이 충돌 시 갈라지며 연조직을 찢어 심각한 상처와 심한 출혈을 일으킵니다. 방탄복에는 거의 효과가 없습니다. 모든 40x46mm 유탄발사기에 사용할 수 있습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "956d95b681fc6f0014584840 Name",
+        "source": "40x46mm \"Hornet's Nest\" 7x 9x18PM PBM",
+        "translation": "40x46mm \"Hornet's Nest\" 7x 9x18PM PBM",
+        "display_type": "item_name"
+      },
+      {
+        "key": "956d95b681fc6f0014584840 ShortName",
+        "source": "Nest PBM",
+        "translation": "Nest PBM"
+      },
+      {
+        "key": "956d95b681fc6f0014584840 Description",
+        "source": "A machined aluminium 40mm sub-caliber insert with a brass base shaped like a standard 40x46mm case, factory-loaded with seven 9x18mm Makarov PBM armor-piercing cartridges. Fired from a 40mm launcher, all seven rounds leave at once, turning the launcher into a very short-range volley gun. Fits any 40x46mm launcher.",
+        "translation": "표준 40x46mm 탄피 모양의 황동 바닥부를 갖춘 40mm 알루미늄제 소구경 변환 삽입탄으로, 9x18mm 마카로프 PBM 철갑탄 7발이 공장에서 장전되어 있습니다. 40mm 유탄발사기로 발사하면 7발이 한꺼번에 발사되어 유탄발사기가 초근거리용 일제사격 무기처럼 작동합니다. 모든 40x46mm 유탄발사기에 사용할 수 있습니다.",
+        "display_type": "item_description"
+      }
+    ]
+  }
+}

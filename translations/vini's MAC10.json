@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.viniHNS.mac10",
+  "mod_name": "vini's MAC10",
+  "mod_version": "1.0.0",
+  "channels": {
+    "locale": [
+      {
+        "key": "07ee12f74a3bca828859a9a0 Name",
+        "source": "Ingram MAC-10 .45 ACP submachine gun",
+        "translation": "잉그램 MAC-10 .45 ACP 기관단총",
+        "match_mode": "item_decorated",
+        "display_type": "item_name"
+      },
+      {
+        "key": "07ee12f74a3bca828859a9a0 ShortName",
+        "source": "MAC-10",
+        "translation": "MAC-10"
+      },
+      {
+        "key": "07ee12f74a3bca828859a9a0 Description",
+        "source": "An American .45 ACP submachine gun with an open bolt system, designed by Gordon Ingram in the 1960s. Its simple stamped steel receiver, with the magazine housed in the pistol grip, makes it extremely compact, while its very high rate of fire makes it notoriously hard to control on full auto. Manufactured by Military Armament Corporation.",
+        "translation": "1960년대에 고든 잉그램이 설계한 미국제 .45 ACP 기관단총입니다. 오픈 볼트 방식으로 작동하며, 탄창을 권총손잡이 안에 수납하는 단순한 프레스 가공 강철 총몸 덕분에 크기가 매우 작습니다. 하지만 발사 속도가 매우 빨라 완전자동 사격 시 제어하기 어렵기로 유명합니다. 밀리터리 아머먼트 코퍼레이션에서 제조했습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "9b9e091c7e62b91005e261a3 Name",
+        "source": "MAC-10 .45 ACP 146mm threaded barrel",
+        "translation": "MAC-10 .45 ACP 146mm 나사산 총열",
+        "display_type": "item_name"
+      },
+      {
+        "key": "9b9e091c7e62b91005e261a3 ShortName",
+        "source": "MAC-10 146mm",
+        "translation": "MAC-10 146mm"
+      },
+      {
+        "key": "9b9e091c7e62b91005e261a3 Description",
+        "source": "A threaded 146mm barrel for the MAC-10 submachine gun, designed for mounting a sound suppressor. Manufactured by Military Armament Corporation.",
+        "translation": "MAC-10 기관단총에 소음기를 장착할 수 있도록 설계된 146mm 나사산 총열입니다. 밀리터리 아머먼트 코퍼레이션에서 제조했습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "7079461a80c0936c3ac6a72b Name",
+        "source": "MAC-10 .45 ACP 30-round magazine",
+        "translation": "30발, MAC-10 .45 ACP 탄창",
+        "display_type": "item_name"
+      },
+      {
+        "key": "7079461a80c0936c3ac6a72b ShortName",
+        "source": "MAC-10 30",
+        "translation": "MAC-10 30발"
+      },
+      {
+        "key": "7079461a80c0936c3ac6a72b Description",
+        "source": "A 30-round double-stack magazine for the MAC-10 submachine gun. Manufactured by Military Armament Corporation.",
+        "translation": "MAC-10 기관단총용 30발들이 복열 탄창입니다. 밀리터리 아머먼트 코퍼레이션에서 제조했습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "ffcf99818e224a2dd3c59565 Name",
+        "source": "MAC-10 telescoping wire stock",
+        "translation": "MAC-10 신축식 와이어 개머리판",
+        "display_type": "item_name"
+      },
+      {
+        "key": "ffcf99818e224a2dd3c59565 ShortName",
+        "source": "MAC-10 wire",
+        "translation": "MAC-10 와이어"
+      },
+      {
+        "key": "ffcf99818e224a2dd3c59565 Description",
+        "source": "A two-position telescoping stock with a folding wire buttplate for the MAC-10 submachine gun. When collapsed, the wire butt rests on top of the receiver, keeping the weapon compact. Manufactured by Military Armament Corporation.",
+        "translation": "MAC-10 기관단총용 2단계 신축식 개머리판으로, 접이식 와이어 견착판이 달려 있습니다. 개머리판을 접으면 와이어 견착판이 총몸 위에 놓이므로 총기를 작게 유지할 수 있습니다. 밀리터리 아머먼트 코퍼레이션에서 제조했습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "29163a27e90140a21758bc20 Name",
+        "source": "MAC-10 .45 ACP two-stage sound suppressor",
+        "translation": "MAC-10 .45 ACP 2단식 소음기",
+        "display_type": "item_name"
+      },
+      {
+        "key": "29163a27e90140a21758bc20 ShortName",
+        "source": "MAC-10 supp.",
+        "translation": "MAC-10 소음기"
+      },
+      {
+        "key": "29163a27e90140a21758bc20 Description",
+        "source": "A two-stage sound suppressor for the MAC-10 submachine gun, designed by Mitchell WerBell III. Manufactured by Sionics.",
+        "translation": "미첼 워벨 3세가 설계한 MAC-10 기관단총용 2단식 소음기입니다. 사이오닉스에서 제조했습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "f138ca3154b0997da24233a4 Name",
+        "source": "MAC-10 .45 ACP 146mm barrel with extension",
+        "translation": "MAC-10 .45 ACP 146mm 연장 부품 장착 총열",
+        "display_type": "item_name"
+      },
+      {
+        "key": "f138ca3154b0997da24233a4 ShortName",
+        "source": "MAC-10 ext.",
+        "translation": "MAC-10 연장 총열"
+      },
+      {
+        "key": "f138ca3154b0997da24233a4 Description",
+        "source": "A 146mm MAC-10 barrel fitted with a ventilated barrel extension screwed onto the muzzle threads. The extra length raises muzzle velocity and improves accuracy, and the vented shroud gives the support hand something to hold, at the cost of handling. The extension covers the threads, so no muzzle device can be mounted.",
+        "translation": "MAC-10용 146mm 총열로, 총구 나사산에 통풍구가 있는 총열 연장 부품을 결합했습니다. 길이가 늘어나 탄속과 명중률이 향상되고 통풍구가 있는 덮개를 보조 손으로 잡을 수 있지만, 조작성이 떨어집니다. 연장 부품이 나사산을 가리므로 다른 총구 부품은 장착할 수 없습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "41337e018ca1d7958245d676 Name",
+        "source": "MAC-10 railed barrel shroud (Single)",
+        "translation": "MAC-10 레일형 총열덮개 (단일형)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "41337e018ca1d7958245d676 ShortName",
+        "source": "Shroud S",
+        "translation": "총열덮개 S"
+      },
+      {
+        "key": "41337e018ca1d7958245d676 Description",
+        "source": "A barrel shroud for the MAC-10 that screws onto the muzzle threads and carries a Picatinny rail on top for tactical devices and sights.",
+        "translation": "MAC-10의 총구 나사산에 결합하는 총열덮개입니다. 상단에 피카티니 레일이 있어 전술 장비와 조준경을 장착할 수 있습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "f3070cdd696101a9c8d9334f Name",
+        "source": "MAC-10 railed barrel shroud (Tall)",
+        "translation": "MAC-10 레일형 총열덮개 (높은형)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "f3070cdd696101a9c8d9334f ShortName",
+        "source": "Shroud T",
+        "translation": "총열덮개 T"
+      },
+      {
+        "key": "f3070cdd696101a9c8d9334f Description",
+        "source": "A barrel shroud for the MAC-10 that screws onto the muzzle threads and carries a Picatinny rail on top for tactical devices and sights.",
+        "translation": "MAC-10의 총구 나사산에 결합하는 높은형 총열덮개입니다. 상단에 피카티니 레일이 있어 전술 장비와 조준경을 장착할 수 있습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "10f6ebd38e12775aa369ef6c Name",
+        "source": "MAC-10 railed barrel shroud (Tall Double)",
+        "translation": "MAC-10 레일형 총열덮개 (높은 이중형)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "10f6ebd38e12775aa369ef6c ShortName",
+        "source": "Shroud TD",
+        "translation": "총열덮개 TD"
+      },
+      {
+        "key": "10f6ebd38e12775aa369ef6c Description",
+        "source": "A barrel shroud for the MAC-10 that screws onto the muzzle threads and carries a Picatinny rail on top and bottom for tactical devices, sights and foregrips.",
+        "translation": "MAC-10의 총구 나사산에 결합하는 총열덮개입니다. 상단과 하단에 피카티니 레일이 있어 전술 장비와 조준경, 전방 손잡이를 장착할 수 있습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "109c978807f6ad147a1f4d97 Name",
+        "source": "MAC-10 railed barrel shroud (Large)",
+        "translation": "MAC-10 레일형 총열덮개 (대형)",
+        "display_type": "item_name"
+      },
+      {
+        "key": "109c978807f6ad147a1f4d97 ShortName",
+        "source": "Shroud L",
+        "translation": "총열덮개 L"
+      },
+      {
+        "key": "109c978807f6ad147a1f4d97 Description",
+        "source": "A barrel shroud for the MAC-10 that screws onto the muzzle threads and carries a Picatinny rail on top and bottom for tactical devices, sights and foregrips.",
+        "translation": "MAC-10의 총구 나사산에 결합하는 대형 총열덮개입니다. 상단과 하단에 피카티니 레일이 있어 전술 장비와 조준경, 전방 손잡이를 장착할 수 있습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "deb92bc917ce0accf706c480 Name",
+        "source": "MAC-10 3\" barrel extension",
+        "translation": "MAC-10 3인치 총열 연장 부품",
+        "display_type": "item_name"
+      },
+      {
+        "key": "deb92bc917ce0accf706c480 ShortName",
+        "source": "Ext. 3\"",
+        "translation": "연장 3인치"
+      },
+      {
+        "key": "deb92bc917ce0accf706c480 Description",
+        "source": "A 76mm steel tube that screws onto the MAC-10 muzzle threads and extends the barrel. The extra length gives the gas a little more time to push the bullet and adds weight at the muzzle, at the cost of handling.",
+        "translation": "MAC-10의 총구 나사산에 결합하여 총열을 연장하는 76mm 강철 관입니다. 길이가 늘어나 추진 가스가 탄두를 조금 더 오래 밀어 주며, 총구 쪽 무게가 증가하는 대신 조작성이 떨어집니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "33560a6e6e162847b8283a69 Name",
+        "source": "MAC-10 6\" barrel extension",
+        "translation": "MAC-10 6인치 총열 연장 부품",
+        "display_type": "item_name"
+      },
+      {
+        "key": "33560a6e6e162847b8283a69 ShortName",
+        "source": "Ext. 6\"",
+        "translation": "연장 6인치"
+      },
+      {
+        "key": "33560a6e6e162847b8283a69 Description",
+        "source": "A 152mm steel tube that screws onto the MAC-10 muzzle threads and extends the barrel. The extra length gives the gas a little more time to push the bullet and adds weight at the muzzle, at the cost of handling.",
+        "translation": "MAC-10의 총구 나사산에 결합하여 총열을 연장하는 152mm 강철 관입니다. 길이가 늘어나 추진 가스가 탄두를 조금 더 오래 밀어 주며, 총구 쪽 무게가 증가하는 대신 조작성이 떨어집니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "06cd2c8d958802b61ba33d7d Name",
+        "source": "MAC-10 9\" barrel extension",
+        "translation": "MAC-10 9인치 총열 연장 부품",
+        "display_type": "item_name"
+      },
+      {
+        "key": "06cd2c8d958802b61ba33d7d ShortName",
+        "source": "Ext. 9\"",
+        "translation": "연장 9인치"
+      },
+      {
+        "key": "06cd2c8d958802b61ba33d7d Description",
+        "source": "A 228mm steel tube that screws onto the MAC-10 muzzle threads and extends the barrel. The extra length gives the gas a little more time to push the bullet and adds weight at the muzzle, at the cost of handling.",
+        "translation": "MAC-10의 총구 나사산에 결합하여 총열을 연장하는 228mm 강철 관입니다. 길이가 늘어나 추진 가스가 탄두를 조금 더 오래 밀어 주며, 총구 쪽 무게가 증가하는 대신 조작성이 떨어집니다.",
+        "display_type": "item_description"
+      }
+    ]
+  }
+}

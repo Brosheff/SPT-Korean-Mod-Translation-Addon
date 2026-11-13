@@ -52,7 +52,7 @@ namespace SPT.ModKoreanAddon
                 }
                 catch (Exception ex)
                 {
-                    SPT.EditableTranslations.MinimalLog.WarnOnce("ConfigManagerProfiles:57", () => "[Config UI] Rejected " + Path.GetFileName(file) + ": " + ex.Message);
+                    SPT.EditableTranslations.MinimalLog.WarnOnce("config-profile-rejected:" + Path.GetFileName(file), () => "[Config UI] Rejected " + Path.GetFileName(file) + ": " + ex.Message);
                 }
             }
         }

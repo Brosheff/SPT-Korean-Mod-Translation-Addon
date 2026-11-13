@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.samc137.isbsofextras",
   "plugin_name": "ISB SOF Extras",
-  "mod_version": "2.0.2",
+  "mod_version": "2.0.4",
   "categories": [
     {
       "source": "USEC ISB Special Forces Audio Plugin Config",
@@ -91,24 +91,6 @@
       "values": []
     },
     {
-      "section": "USEC ISB Special Forces Audio Plugin Config",
-      "key": "Laboratory Announcements Volume",
-      "source_display_name": "Laboratory Announcements Volume",
-      "source_description": "Volume of the Laboratory intercom announcements, from 0 to 100. Changes apply in real time, even while an announcement is already playing.",
-      "translation_display_name": "연구소 안내 방송 음량",
-      "translation_description": "연구소 안내 방송 음량을 0~100 사이에서 설정합니다. 방송 재생 중에도 변경 사항이 즉시 적용됩니다.",
-      "values": []
-    },
-    {
-      "section": "USEC ISB Special Forces Audio Plugin Config",
-      "key": "ISB Radio Volume",
-      "source_display_name": "ISB Radio Volume",
-      "source_description": "Volume of all ISB radio communications, from 0 to 100. Changes apply in real time. even while an radios is already playing.",
-      "translation_display_name": "ISB 무전 음량",
-      "translation_description": "모든 ISB 무전 음량을 0~100 사이에서 설정합니다. 무전 재생 중에도 변경 사항이 즉시 적용됩니다.",
-      "values": []
-    },
-    {
       "section": "USEC ISB Special Forces Blackout Config",
       "key": "Laboratory Blackout Event Chance",
       "source_display_name": "Laboratory Blackout Event Chance",
@@ -124,15 +106,6 @@
       "source_description": "Keeps only the Hangar Gate and Parking Gate exfils available when the blackout starts.",
       "translation_display_name": "연구소 탈출구 제한",
       "translation_description": "정전이 시작되면 격납고 게이트와 주차장 게이트 탈출구만 이용할 수 있도록 제한합니다.",
-      "values": []
-    },
-    {
-      "section": "USEC ISB Special Forces Blackout Config",
-      "key": "Blackout Sound Volume",
-      "source_display_name": "Blackout Sound Volume",
-      "source_description": "Volume of the Blackout Event SFX, from 0 to 100.",
-      "translation_display_name": "정전 효과음 음량",
-      "translation_description": "정전 이벤트 효과음의 음량을 0~100 사이에서 설정합니다.",
       "values": []
     },
     {

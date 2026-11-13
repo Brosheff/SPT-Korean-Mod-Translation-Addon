@@ -125,6 +125,10 @@ $serverDll = Join-Path $root "server-src\SPT_Mod_Korean_Server\bin\$Configuratio
 Require-File $clientDll 'Compiled client DLL'
 Require-File $serverDll 'Compiled server DLL'
 
+Write-Host 'Running production C# loader contracts...' -ForegroundColor Cyan
+& (Join-Path $root 'build\run_runtime_contracts.ps1') -ReferenceRoot $refs -Configuration $Configuration
+if ($LASTEXITCODE -ne 0) { Fail 'Runtime loader contracts failed.' }
+
 Write-Host '[3/4] Creating release layout...' -ForegroundColor Cyan
 $distRoot = Join-Path $root '_dist'
 [System.IO.Directory]::CreateDirectory($distRoot) | Out-Null

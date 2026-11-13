@@ -1,0 +1,586 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.kennerz.raygun",
+  "mod_name": "Ray Gun",
+  "mod_version": "1.2.0",
+  "channels": {
+    "locale": [
+      {
+        "key": "6a7e5a71d9a1160000000001 Name",
+        "source": "Ray Gun",
+        "translation": "레이 건",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "key": "6a7e5a71d9a1160000000001 ShortName",
+        "source": "Ray Gun",
+        "translation": "레이 건",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7e5a71d9a1160000000001 Description",
+        "source": "A Group 935 wonder weapon. Fires bolts of green energy. Takes two cold fusion cells, ten shots each, and fits a holster.",
+        "translation": "935부대가 개발한 특수 무기입니다. 녹색 에너지 탄환을 발사합니다. 각각 10발을 사용할 수 있는 냉융합 셀 2개를 장전하며 홀스터에 휴대할 수 있습니다.",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000ca Name",
+        "source": "Cold Fusion Cell (10/10)",
+        "translation": "냉융합 셀 (10/10)",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000ca ShortName",
+        "source": "Cell",
+        "translation": "셀",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7e5a71d9a11600000000ca Description",
+        "source": "A Group 935 cold fusion cell with 10 of its 10 shots left. Loads into a Ray Gun's chamber like a shell. Full cells stack.",
+        "translation": "935부대의 냉융합 셀입니다. 총 10발 중 10발이 남아 있습니다. 산탄처럼 레이 건의 약실에 장전합니다. 충전량이 가득 찬 셀은 겹쳐 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c9 Name",
+        "source": "Cold Fusion Cell (9/10)",
+        "translation": "냉융합 셀 (9/10)",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c9 ShortName",
+        "source": "Cell 9",
+        "translation": "셀 9",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c9 Description",
+        "source": "A Group 935 cold fusion cell with 9 of its 10 shots left. Loads into a Ray Gun's chamber like a shell. Only full cells stack.",
+        "translation": "935부대의 냉융합 셀입니다. 총 10발 중 9발이 남아 있습니다. 산탄처럼 레이 건의 약실에 장전합니다. 충전량이 가득 찬 셀만 겹쳐 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c8 Name",
+        "source": "Cold Fusion Cell (8/10)",
+        "translation": "냉융합 셀 (8/10)",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c8 ShortName",
+        "source": "Cell 8",
+        "translation": "셀 8",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c8 Description",
+        "source": "A Group 935 cold fusion cell with 8 of its 10 shots left. Loads into a Ray Gun's chamber like a shell. Only full cells stack.",
+        "translation": "935부대의 냉융합 셀입니다. 총 10발 중 8발이 남아 있습니다. 산탄처럼 레이 건의 약실에 장전합니다. 충전량이 가득 찬 셀만 겹쳐 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c7 Name",
+        "source": "Cold Fusion Cell (7/10)",
+        "translation": "냉융합 셀 (7/10)",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c7 ShortName",
+        "source": "Cell 7",
+        "translation": "셀 7",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c7 Description",
+        "source": "A Group 935 cold fusion cell with 7 of its 10 shots left. Loads into a Ray Gun's chamber like a shell. Only full cells stack.",
+        "translation": "935부대의 냉융합 셀입니다. 총 10발 중 7발이 남아 있습니다. 산탄처럼 레이 건의 약실에 장전합니다. 충전량이 가득 찬 셀만 겹쳐 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c6 Name",
+        "source": "Cold Fusion Cell (6/10)",
+        "translation": "냉융합 셀 (6/10)",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c6 ShortName",
+        "source": "Cell 6",
+        "translation": "셀 6",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c6 Description",
+        "source": "A Group 935 cold fusion cell with 6 of its 10 shots left. Loads into a Ray Gun's chamber like a shell. Only full cells stack.",
+        "translation": "935부대의 냉융합 셀입니다. 총 10발 중 6발이 남아 있습니다. 산탄처럼 레이 건의 약실에 장전합니다. 충전량이 가득 찬 셀만 겹쳐 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c5 Name",
+        "source": "Cold Fusion Cell (5/10)",
+        "translation": "냉융합 셀 (5/10)",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c5 ShortName",
+        "source": "Cell 5",
+        "translation": "셀 5",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c5 Description",
+        "source": "A Group 935 cold fusion cell with 5 of its 10 shots left. Loads into a Ray Gun's chamber like a shell. Only full cells stack.",
+        "translation": "935부대의 냉융합 셀입니다. 총 10발 중 5발이 남아 있습니다. 산탄처럼 레이 건의 약실에 장전합니다. 충전량이 가득 찬 셀만 겹쳐 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c4 Name",
+        "source": "Cold Fusion Cell (4/10)",
+        "translation": "냉융합 셀 (4/10)",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c4 ShortName",
+        "source": "Cell 4",
+        "translation": "셀 4",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c4 Description",
+        "source": "A Group 935 cold fusion cell with 4 of its 10 shots left. Loads into a Ray Gun's chamber like a shell. Only full cells stack.",
+        "translation": "935부대의 냉융합 셀입니다. 총 10발 중 4발이 남아 있습니다. 산탄처럼 레이 건의 약실에 장전합니다. 충전량이 가득 찬 셀만 겹쳐 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c3 Name",
+        "source": "Cold Fusion Cell (3/10)",
+        "translation": "냉융합 셀 (3/10)",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c3 ShortName",
+        "source": "Cell 3",
+        "translation": "셀 3",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c3 Description",
+        "source": "A Group 935 cold fusion cell with 3 of its 10 shots left. Loads into a Ray Gun's chamber like a shell. Only full cells stack.",
+        "translation": "935부대의 냉융합 셀입니다. 총 10발 중 3발이 남아 있습니다. 산탄처럼 레이 건의 약실에 장전합니다. 충전량이 가득 찬 셀만 겹쳐 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c2 Name",
+        "source": "Cold Fusion Cell (2/10)",
+        "translation": "냉융합 셀 (2/10)",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c2 ShortName",
+        "source": "Cell 2",
+        "translation": "셀 2",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c2 Description",
+        "source": "A Group 935 cold fusion cell with 2 of its 10 shots left. Loads into a Ray Gun's chamber like a shell. Only full cells stack.",
+        "translation": "935부대의 냉융합 셀입니다. 총 10발 중 2발이 남아 있습니다. 산탄처럼 레이 건의 약실에 장전합니다. 충전량이 가득 찬 셀만 겹쳐 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c1 Name",
+        "source": "Cold Fusion Cell (1/10)",
+        "translation": "냉융합 셀 (1/10)",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c1 ShortName",
+        "source": "Cell 1",
+        "translation": "셀 1",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7e5a71d9a11600000000c1 Description",
+        "source": "A Group 935 cold fusion cell with 1 of its 10 shots left. Loads into a Ray Gun's chamber like a shell. Only full cells stack.",
+        "translation": "935부대의 냉융합 셀입니다. 총 10발 중 1발이 남아 있습니다. 산탄처럼 레이 건의 약실에 장전합니다. 충전량이 가득 찬 셀만 겹쳐 보관할 수 있습니다.",
+        "match_mode": "exact",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "key": "CaliberColdFusion",
+        "source": "Cold Fusion",
+        "translation": "냉융합",
+        "match_mode": "exact"
+      },
+      {
+        "key": "ColdFusion",
+        "source": "Cold Fusion",
+        "translation": "냉융합",
+        "match_mode": "exact"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "raygun.notifications.001",
+        "source": "Ray Gun bought.",
+        "translation": "레이 건을 구매했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.002",
+        "source": "Ray Gun bought and equipped.",
+        "translation": "레이 건을 구매하고 장착했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.003",
+        "source": "Ray Gun bought and equipped (draw it in the shooting range).",
+        "translation": "레이 건을 구매하고 장착했습니다. 사격장에서 꺼내 보세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.004",
+        "source": "Cold Fusion Cell bought. It's in your stash.",
+        "translation": "냉융합 셀을 구매했습니다. 보관함에서 확인할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.005",
+        "source": "The purchase didn't go through.",
+        "translation": "구매가 완료되지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.006",
+        "source": "Nothing to buy there.",
+        "translation": "해당 위치에서 구매할 수 있는 물품이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.007",
+        "source": "Not enough funds.",
+        "translation": "소지금이 부족합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.008",
+        "source": "No room in your stash.",
+        "translation": "보관함에 빈 공간이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.009",
+        "source": "Ray Gun will be in your normal gameplay after you restart the game and the server.",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서도 레이 건을 사용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.010",
+        "source": "Ray Gun will be removed from your normal gameplay after you restart the game and the server.",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서 레이 건이 제거됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.011",
+        "source": "Ray Gun will be in your normal gameplay once the game and the server have restarted (co-op: the host restarts the server).",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서도 레이 건을 사용할 수 있습니다. 협동 플레이에서는 호스트가 서버를 재시작해야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.012",
+        "source": "Ray Gun will be removed from your normal gameplay once the game and the server have restarted (co-op: the host restarts the server).",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서 레이 건이 제거됩니다. 협동 플레이에서는 호스트가 서버를 재시작해야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.013",
+        "source": "Couldn't reach the server to change Ray Gun. Try again in a moment.",
+        "translation": "레이 건 설정을 변경하기 위해 서버에 접속할 수 없습니다. 잠시 후 다시 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.014",
+        "source": "Saved. Change it any time in F12, under each mod's \"1. Normal gameplay\".",
+        "translation": "저장했습니다. 언제든 F12의 각 모드별 「1. 일반 게임」에서 변경할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.015",
+        "source": "Saved. It counts after you restart the game and the server.",
+        "translation": "저장했습니다. 게임과 서버를 재시작하면 적용됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.notifications.016",
+        "source": "Saved. It counts once the game and the server have restarted (co-op: the host restarts the server).",
+        "translation": "저장했습니다. 게임과 서버를 재시작하면 적용됩니다. 협동 플레이에서는 호스트가 서버를 재시작해야 합니다.",
+        "match_mode": "exact"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "raygun.interactions.001",
+        "source": "Ray Gun bought",
+        "translation": "레이 건 구매 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.interactions.002",
+        "source": "Buy Ray Gun ({price} ₽)",
+        "translation": "레이 건 구매 ({price} ₽)",
+        "match_mode": "template"
+      },
+      {
+        "id": "raygun.interactions.003",
+        "source": "Buy Cold Fusion Cell ({price} ₽)",
+        "translation": "냉융합 셀 구매 ({price} ₽)",
+        "match_mode": "template"
+      }
+    ],
+    "raygun_ui": [
+      {
+        "id": "raygun.raygun_ui.001",
+        "source": "REMOVE RAY GUN FROM YOUR NORMAL GAMEPLAY?",
+        "translation": "일반 게임에서 레이 건을 제거하시겠습니까?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.raygun_ui.002",
+        "source": "This removes what you got from it: <b>every Ray Gun and cold fusion cell you own (stash, mail, insurance), and the roubles you spent on them.</b>",
+        "translation": "이 기능으로 획득한 <b>레이 건과 냉융합 셀은 모두 제거됩니다(보관함·우편·보험 포함). 구매 비용은 환불되지 않습니다.</b>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.raygun_ui.003",
+        "source": "REMOVE IT",
+        "translation": "제거",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.raygun_ui.004",
+        "source": "KEEP IT",
+        "translation": "유지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.raygun_ui.005",
+        "source": "YOUR NORMAL GAMEPLAY",
+        "translation": "일반 게임 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.raygun_ui.006",
+        "source": "These mods are part of the <b>Dr K's SPZombies</b> mode and <b>always work there</b>. Do you also want them in your <b>normal gameplay</b>? Not sure? Leave them <b>off</b>: your normal game stays exactly as it was.",
+        "translation": "이 모드들은 <b>Dr K's SPZombies</b> 모드에 속하며 해당 모드에서는 <b>항상 작동합니다</b>. 일반 게임에서도 사용하시겠습니까? 확신이 서지 않는다면 <b>끔</b>을 선택하세요. 그러면 일반 게임은 변경되지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.raygun_ui.007",
+        "source": "Do you want these in your <b>normal gameplay</b>? Pick <b>off</b> to keep your normal game exactly as it was.",
+        "translation": "이 모드들을 <b>일반 게임</b>에서도 사용하시겠습니까? 기존 일반 게임을 그대로 유지하려면 <b>끔</b>을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.raygun_ui.008",
+        "source": "OFF",
+        "translation": "끔",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.raygun_ui.009",
+        "source": "ON",
+        "translation": "켬",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.raygun_ui.010",
+        "source": "CONFIRM",
+        "translation": "확인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.raygun_ui.011",
+        "source": "GOOD TO KNOW",
+        "translation": "알아두세요",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.012",
+        "source": "NEW",
+        "translation": "신규",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.013",
+        "source": "<b>Ray Gun:</b> turning it off in F12 or uninstalling it <b>removes every Ray Gun and cell from your stash</b> (no refund).",
+        "translation": "<b>레이 건:</b> F12에서 기능을 끄거나 모드를 삭제하면 <b>보관함에 있는 레이 건과 셀 전체가 제거됩니다</b>(환불 없음).",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.014",
+        "source": "A chalk wall buy and an ammo box appear in your hideout's side room once its wall is knocked down. Buy the Ray Gun and its cells with roubles and take it into your normal raids!",
+        "translation": "은신처 옆방의 벽을 철거하면 벽면 무기 구매 지점과 탄약 상자가 생깁니다. 루블로 레이 건과 셀을 구매해 일반 레이드에 가져갈 수 있습니다!",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.015",
+        "source": "• <b>The zombies mode keeps it</b>: it always works there.",
+        "translation": "• <b>좀비 모드에서는 계속 사용할 수 있습니다</b>. 해당 모드에서는 항상 작동합니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.016",
+        "source": "• <b>Co-op (Fika):</b> this only changes <b>your own</b> game and profile, not your friends'. It counts once the host restarts the server.",
+        "translation": "• <b>협동 플레이(Fika):</b> 친구의 게임이 아닌 <b>자신의</b> 게임과 프로필만 변경됩니다. 호스트가 서버를 재시작하면 적용됩니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.017",
+        "source": "• <b>It counts after you restart the game and the server.</b>",
+        "translation": "• <b>게임과 서버를 재시작한 뒤 적용됩니다.</b>",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.018",
+        "source": "• Turning it back on later starts it all fresh.",
+        "translation": "• 나중에 다시 켜면 처음부터 새로 시작됩니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.019",
+        "source": "• <b>Change it any time:</b> F12, each mod's <b>1. Normal gameplay</b>.",
+        "translation": "• <b>언제든 변경:</b> F12에서 각 모드의 <b>1. 일반 게임</b> 설정을 이용하세요.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.020",
+        "source": "• Turning one on again later starts it fresh.",
+        "translation": "• 나중에 다시 켜면 해당 모드가 처음부터 새로 시작됩니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.021",
+        "source": "• <b>Co-op (Fika):</b> everyone picks for themselves. Yours only changes <b>your own</b> game. Changes count once the host restarts the server.",
+        "translation": "• <b>협동 플레이(Fika):</b> 설정은 각자 선택하며, 변경 사항은 <b>자신의</b> 게임에만 적용됩니다. 호스트가 서버를 재시작해야 반영됩니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.022",
+        "source": "• <b>Changes count after you restart the game and the server.</b>",
+        "translation": "• <b>게임과 서버를 재시작해야 변경 사항이 반영됩니다.</b>",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.023",
+        "source": "every Ray Gun and cold fusion cell you own (stash, mail, insurance), and the roubles you spent on them.",
+        "translation": "보유 중인 레이 건과 냉융합 셀 전체(보관함·우편·보험 포함)가 제거되며, 구매 비용은 환불되지 않습니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "raygun.raygun_ui.024",
+        "source": "<b>Dr K's SPZombies</b>",
+        "translation": "<b>Dr K's SPZombies</b>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.raygun_ui.025",
+        "source": "<b>Ray Gun</b>",
+        "translation": "<b>레이 건</b>",
+        "match_mode": "segment"
+      }
+    ],
+    "ammo_ui": [
+      {
+        "id": "raygun.ammo_ui.001",
+        "source": "Empty",
+        "translation": "비어 있음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.ammo_ui.002",
+        "source": "1 charge left",
+        "translation": "충전량 1발 남음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.ammo_ui.003",
+        "source": "{count} charges left",
+        "translation": "충전량 {count}발 남음",
+        "match_mode": "template"
+      },
+      {
+        "id": "raygun.ammo_ui.004",
+        "source": "Automatic",
+        "translation": "자동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "raygun.ammo_ui.005",
+        "source": "Cold Fusion Cells",
+        "translation": "냉융합 셀",
+        "match_mode": "exact"
+      }
+    ],
+    "x2_description": [
+      {
+        "id": "raygun.x2_description.001",
+        "source": "A Group 935 cold fusion cell, charged up by Pack-a-Punch while it sits in Porter's X2 Ray Gun: it holds twenty shots here, {shots} of them left. Taken out of the gun it is an ordinary ten-shot cell again.",
+        "translation": "935부대의 냉융합 셀입니다. 포터의 X2 레이 건에 장전된 상태에서는 Pack-a-Punch 강화 효과로 20발까지 사용할 수 있으며, 현재 {shots}발이 남았습니다. 총에서 꺼내면 다시 일반 10발짜리 셀로 돌아갑니다.",
+        "match_mode": "template"
+      }
+    ]
+  }
+}

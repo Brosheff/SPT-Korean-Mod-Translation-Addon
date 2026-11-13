@@ -134,6 +134,22 @@ namespace SPT.ModKoreanAddon
             foreach (var type in types)
                 PatchType(type, ExternalChannel, ExternalTranspilerMethod, ref count, ref failed);
 
+            // Context menu keys are also used as dictionary identifiers. Never translate
+            // the "APPLY PAINT" / "CHANGE MATERIAL" ldstr values at their source.
+            // Only the second (display-caption) key argument in this specific button builder
+            // can be localized without mutating the interaction ID or callback.
+            if (assembly.GetName().Name == "7Bpencil.WeaponCamoAndStickers" &&
+                profiles.HasRules(ProfileId, UiChannel))
+            {
+                var contextType = assembly.GetType(
+                    "SevenBoldPencil.WeaponCamoAndStickers.Patch_InteractionButtonsContainer_CreateDynamicContextButton", false);
+                var contextMethod = contextType?.GetMethod("AddButton",
+                    BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.DeclaredOnly);
+                if (contextMethod != null)
+                    PatchMethod(contextMethod, UiChannel, ContextCaptionTranspilerMethod, ref count, ref failed,
+                        requireLiteral: false);
+            }
+
             // Equipment sticker start-position captions are display data created in Plugin's
             // instance constructor, not GUI literals. Patch only that constructor so a late-loaded
             // future instance starts localized without translating unrelated words such as "Back".
@@ -195,6 +211,50 @@ namespace SPT.ModKoreanAddon
             var count = 0;
             count += RefreshStringArrayField(resources, resourceType, "DecalSettingsToolbar", instanceFlags);
             count += RefreshStringArrayField(resources, resourceType, "DecalTypesToolbar", instanceFlags);
+
+            // CamoEditorStyle stores UnityEngine.GUIContent.tooltip strings once when the
+            // editor opens. Reconcile those cached captions as well when Korean mode
+            // changes, without touching GUIContent.text, textures, or click behavior.
+            // Source 1.20.0: Plugin.CamoEditor is Option<CamoEditor> with public
+            // HasValue/Value fields; CamoEditor.CamoEditorStyle is a public field.
+            var editorOption = pluginType.GetField("CamoEditor", instanceFlags)?.GetValue(instance);
+            var optionType = editorOption?.GetType();
+            var hasEditor = optionType?.GetField("HasValue", instanceFlags)?.GetValue(editorOption);
+            if (hasEditor is bool isPresent && isPresent)
+            {
+                var editor = optionType.GetField("Value", instanceFlags)?.GetValue(editorOption);
+                var style = editor?.GetType().GetField("CamoEditorStyle", instanceFlags)?.GetValue(editor);
+                count += RefreshEditorTooltips(style);
+            }
+            return count;
+        }
+
+        private static int RefreshEditorTooltips(object style)
+        {
+            if (style == null || style.GetType().FullName != "SevenBoldPencil.WeaponCamoAndStickers.CamoEditorStyle")
+                return 0;
+
+            const BindingFlags flags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
+            var count = 0;
+            foreach (var field in style.GetType().GetFields(flags))
+            {
+                if (field.FieldType.FullName != "UnityEngine.GUIContent") continue;
+
+                var content = field.GetValue(style);
+                if (content == null) continue;
+                var tooltipProperty = field.FieldType.GetProperty("tooltip", flags);
+                if (tooltipProperty == null || !tooltipProperty.CanRead || !tooltipProperty.CanWrite) continue;
+                var current = tooltipProperty.GetValue(content, null) as string;
+                if (current == null) continue;
+
+                var source = profiles?.RestoreExact(ProfileId, UiChannel, current) ?? current;
+                var desired = LocaleMode.IsKoreanMode()
+                    ? (profiles?.Translate(ProfileId, UiChannel, source) ?? source)
+                    : source;
+                if (string.Equals(current, desired, StringComparison.Ordinal)) continue;
+                tooltipProperty.SetValue(content, desired, null);
+                count++;
+            }
             return count;
         }
 
@@ -343,6 +403,7 @@ namespace SPT.ModKoreanAddon
         private static readonly HarmonyMethod UiTranspilerMethod = MakeTranspiler(nameof(TranslateUiLiterals));
         private static readonly HarmonyMethod ExternalTranspilerMethod = MakeTranspiler(nameof(TranslateExternalLiterals));
         private static readonly HarmonyMethod PlacementTranspilerMethod = MakeTranspiler(nameof(TranslatePlacementLiterals));
+        private static readonly HarmonyMethod ContextCaptionTranspilerMethod = MakeTranspiler(nameof(TranslateContextCaption));
         private static readonly MethodInfo UiRuntimeTranslator = typeof(ModUiLiteralHooks).GetMethod(nameof(TranslateUiRuntime), BindingFlags.Static | BindingFlags.NonPublic);
         private static readonly MethodInfo ExternalRuntimeTranslator = typeof(ModUiLiteralHooks).GetMethod(nameof(TranslateExternalRuntime), BindingFlags.Static | BindingFlags.NonPublic);
         private static readonly MethodInfo PlacementRuntimeTranslator = typeof(ModUiLiteralHooks).GetMethod(nameof(TranslatePlacementRuntime), BindingFlags.Static | BindingFlags.NonPublic);
@@ -383,12 +444,13 @@ namespace SPT.ModKoreanAddon
                 PatchMethod(method, channel, transpiler, ref count, ref failed);
         }
 
-        private static void PatchMethod(MethodBase method, string channel, HarmonyMethod transpiler, ref int count, ref int failed)
+        private static void PatchMethod(MethodBase method, string channel, HarmonyMethod transpiler, ref int count, ref int failed,
+            bool requireLiteral = true)
         {
             try
             {
                 if (method == null || method.IsAbstract || method.ContainsGenericParameters || method.GetMethodBody() == null) return;
-                if (!ContainsTranslatableLiteral(method, channel)) return;
+                if (requireLiteral && !ContainsTranslatableLiteral(method, channel)) return;
                 harmony.Patch(method, transpiler: transpiler);
                 count++;
             }
@@ -522,6 +584,39 @@ namespace SPT.ModKoreanAddon
         private static Type[] GetMethodArguments(MethodBase method)
         {
             return method != null && method.IsGenericMethod ? method.GetGenericArguments() : null;
+        }
+
+        // Source 1.20.0: Patch_InteractionButtonsContainer_CreateDynamicContextButton.AddButton
+        // passes interaction.Key twice to CreateContextButton. The first is the original
+        // identifier; the second is the visible caption. The method must still have
+        // exactly those two property/field reads or we leave it unchanged (fail open).
+        private static IEnumerable<CodeInstruction> TranslateContextCaption(IEnumerable<CodeInstruction> instructions)
+        {
+            var codes = instructions.ToList();
+            var reads = new List<int>();
+            for (var i = 0; i < codes.Count; i++)
+            {
+                var instruction = codes[i];
+                var isGetter = (instruction.opcode == OpCodes.Call || instruction.opcode == OpCodes.Callvirt)
+                    && instruction.operand is MethodInfo method
+                    && method.Name == "get_Key"
+                    && method.ReturnType == typeof(string);
+                var isField = instruction.opcode == OpCodes.Ldfld
+                    && instruction.operand is FieldInfo field
+                    && field.Name == "Key"
+                    && field.FieldType == typeof(string);
+                if (isGetter || isField) reads.Add(i);
+            }
+
+            if (reads.Count != 2)
+            {
+                SPT.EditableTranslations.MinimalLog.WarnOnce("camo-context-caption-shape", () =>
+                    "Weapon Camo & Stickers context button signature changed; caption translation skipped.");
+                return codes;
+            }
+
+            codes.Insert(reads[1] + 1, new CodeInstruction(OpCodes.Call, UiRuntimeTranslator));
+            return codes;
         }
 
         private static IEnumerable<CodeInstruction> TranslateUiLiterals(IEnumerable<CodeInstruction> instructions)

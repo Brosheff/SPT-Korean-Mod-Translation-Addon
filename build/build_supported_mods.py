@@ -6,10 +6,17 @@ documentation metadata only and never change runtime profile IDs or mod credits.
 import json
 import re
 from pathlib import Path
+from profile_metadata import recorded_version
 
 ROOT = Path(__file__).resolve().parents[1]
 # Exact config filenames -> stable mod_id, or readable F12-only name.
-CONFIG = dict(line.split('|', 1) for line in '''7Bpencil.TransparentSights|smallui.transparentsights
+CONFIG = dict(line.split('|', 1) for line in '''aero.binocularads|Aero.BinocularADS
+com.automaticweaponsmith|com.automaticweaponsmith
+com.fums.bettercursors|Fums-BetterCursors
+viniHNS.CursedThings|viniHNS.CursedThings
+com.dvize.Donuts|com.dvize.Donuts.UI
+jrs.hideoutinteriors|jrs.hideoutinteriors
+7Bpencil.TransparentSights|smallui.transparentsights
 7Bpencil.WeaponCamoAndStickers|7Bpencil.WeaponCamoAndStickers.UI
 com.20fpsguy.parmesan|Parmesan - Partizan Rework
 com.20fpsguy.backpackgunslot|Backpack Gun Slot
@@ -39,6 +46,7 @@ com.choochoo.tradermodding|ChooChoo.TraderModding
 com.cj.useFromAnywhere|smallui.useitemsanywhere
 com.danw.questingbots|QuestingBots
 com.danw.questingbotscustombotgenexample|QuestingBots
+com.dark.btrlightkeeperskipper|com.dark.btrlightkeeperskipper
 com.deadlauncher.FlexibleBuilds|Flexible Builds
 com.flir.increaselookdirection|Increase Look Direction
 com.fontaine.fovfix|Fontaine's FOV Fix
@@ -81,6 +89,7 @@ com.moxopixel.hideoutshootout|Hideout Shootout
 com.moxopixel.menuoverhaul|smallui.menuoverhaul
 com.mpstark.dynamicmaps|DynamicMaps
 com.mpstark.PlayerEncumbranceBar|Player Encumbrance Bar
+com.mybutthasarash.betterbepinex|BetterBepInEx
 com.mybutthasarash.sptcasino|com.mybutthasarash.sptcasino
 com.mybutthasarash.platedurability|com.mybutthasarash.platedurability
 com.mybutthasarash.forecaster|com.mybutthasarash.forecaster
@@ -97,7 +106,9 @@ ajdj100.pressurepads|PressurePads
 com.samc137.isbsofextras|com.samc137.isbspecialforces
 com.samc137.ISBinfo|com.samc137.isbspecialforces
 com.samc137.isbspecialforces|com.samc137.isbspecialforces
+com.sage.advancedmovement|Advanced Movement
 com.sage.incendiarygrenade|com.sage.incendiarygrenade
+com.sage.tutorialbackport|com.sage.tutorialbackport
 com.shaneeexd.thequartermaster|TheQuartermaster
 com.Shibatsu.DynamicExternalResolution|Dynamic External Resolution
 com.smajlec.lights|Smajlec Lights
@@ -124,6 +135,13 @@ com.vinihns.makeshotgunsgreatagain|source3.make_shotguns_great_again
 com.vultify.nvgsightdimmer|NVG Sight Dimmer
 com.wtt.armory|mod_51b0c77c9951
 com.wtt.commonlib|smallui.wttcommonlib
+com.yann.montretactique|com.yann.montretactique
+com.kennerz.perkbeverages|com.kennerz.perkbeverages
+com.kennerz.paphideoutmodule|com.kennerz.paphideoutmodule
+com.kennerz.raygun|com.kennerz.raygun
+com.kennerz.thundergun|com.kennerz.thundergun
+com.kennerz.zmcore|com.kennerz.zmcore
+com.minesettimi.territories|com.minesettimi.territories
 dev.oogabooga.spt-vagabond|Vagabond
 ekky.raidreview|RaidReview
 flir.iof|InventoryOrganizingFeatures
@@ -139,6 +157,7 @@ xyz.drakia.quickmovetocontainer|Quick Move To Container
 xyz.drakia.Sense|Sense
 xyz.drakia.waypoints|Waypoints
 jrs.k9companion|jrs.k9companion
+jrs.hideoutsiege|jrs.hideoutsiege
 xyz.pit.fireteam|pitfireteam.trader.locale'''.splitlines())
 
 def load(p):
@@ -146,12 +165,10 @@ def load(p):
 
 def read_version(doc, path):
     """Release metadata only; never use this as evidence of runtime compatibility."""
-    if 'source_mod_version' in doc:
-        raise ValueError(f'{path}: obsolete source_mod_version key (use mod_version)')
-    value = doc.get('mod_version')
-    if not isinstance(value, str) or not value.strip():
-        raise ValueError(f'{path}: missing nonempty mod_version')
-    return value.strip()
+    try:
+        return recorded_version(doc) or '미확인'
+    except ValueError as exc:
+        raise ValueError(f'{path}: {exc}') from exc
 
 
 def show_version(entry):
@@ -178,7 +195,7 @@ def render_supported_mods(root=ROOT):
         if not channels: continue
         scopes=[]
         if any(c in channels for c in ('locale','locale_source_fallback','locale_clone_suffix')): scopes.append('로케일')
-        if any(c in channels for c in ('small_ui','custom_ui','map_content','locale_additions','coti_dpad','ui_literals','external_ui_literals','equipment_placements','horse_racing_ui','casino_war_ui','dialogs')): scopes.append('UI')
+        if any(c in channels for c in ('small_ui','custom_ui','map_content','locale_additions','coti_dpad','ui_literals','external_ui_literals','equipment_placements','horse_racing_ui','casino_war_ui','dialogs','raygun_ui','thundergun_ui','ammo_ui','stats_ui','interactions','x2_description')): scopes.append('UI')
         if any(c in channels for c in ('notifications','notification_terms','error_screens','server_errors')): scopes.append('알림·오류')
         if any(c in channels for c in ('npc_messages','server_messages')): scopes.append('직접 메시지')
         mods[doc['mod_id']]={'name':doc['mod_name'].replace(' (상인정보만 번역)',''),'scope':scopes,'files':[p.relative_to(root).as_posix()],'versions':[('번역',p.name,read_version(doc,p))]}

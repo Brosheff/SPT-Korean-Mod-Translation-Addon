@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.kennerz.perkbeverages",
+  "mod_name": "Dr K's Perk Beverages",
+  "mod_version": "0.1.0",
+  "channels": {
+    "locale": [
+      {
+        "key": "6a7f9e4b0c0a115000000b01 Name",
+        "source": "Jugger-Nog",
+        "translation": "저거노그",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b01 ShortName",
+        "source": "Jugg",
+        "translation": "저거",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b01 Description",
+        "source": "A bottle of Jugger-Nog from Dr K's Perk Beverages. \"When you need some help to get by, something to make you feel strong... Reach for Jugger-Nog tonight!\" Best enjoyed cold, straight from the machine.",
+        "translation": "닥터 K의 특전 음료인 저거노그 한 병입니다. \"하루하루 버텨 나갈 힘이 필요할 때, 더 강해지고 싶을 때… 오늘 밤은 저거노그를 찾으세요!\" 기계에서 갓 뽑아 차갑게 마시면 가장 좋습니다.",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b02 Name",
+        "source": "Speed Cola",
+        "translation": "스피드 콜라",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b02 ShortName",
+        "source": "Speed",
+        "translation": "스피드",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b02 Description",
+        "source": "A bottle of Speed Cola from Dr K's Perk Beverages. \"Reload faster, hustle harder. Speed Cola!\" Best enjoyed cold, straight from the machine.",
+        "translation": "닥터 K의 특전 음료인 스피드 콜라 한 병입니다. \"재장전은 더 빠르게, 행동은 더 재빠르게. 스피드 콜라!\" 기계에서 갓 뽑아 차갑게 마시면 가장 좋습니다.",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b03 Name",
+        "source": "Double Tap Root Beer",
+        "translation": "더블 탭 루트 비어",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b03 ShortName",
+        "source": "2Tap",
+        "translation": "더블 탭",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b03 Description",
+        "source": "A bottle of Double Tap Root Beer from Dr K's Perk Beverages. \"Twice the shots from every pull. Double Tap Root Beer!\" Best enjoyed cold, straight from the machine.",
+        "translation": "닥터 K의 특전 음료인 더블 탭 루트 비어 한 병입니다. \"방아쇠를 한 번 당길 때마다 두 배로 쏘세요. 더블 탭 루트 비어!\" 기계에서 갓 뽑아 차갑게 마시면 가장 좋습니다.",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b04 Name",
+        "source": "Deadshot Daiquiri",
+        "translation": "데드샷 다이키리",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b04 ShortName",
+        "source": "Deadshot",
+        "translation": "데드샷",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b04 Description",
+        "source": "A bottle of Deadshot Daiquiri from Dr K's Perk Beverages. \"Keep your eye on the target. Deadshot Daiquiri!\" Best enjoyed cold, straight from the machine.",
+        "translation": "닥터 K의 특전 음료인 데드샷 다이키리 한 병입니다. \"표적에서 눈을 떼지 마세요. 데드샷 다이키리!\" 기계에서 갓 뽑아 차갑게 마시면 가장 좋습니다.",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b05 Name",
+        "source": "Stamin-Up",
+        "translation": "스태미너 업",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b05 ShortName",
+        "source": "Stamin",
+        "translation": "스태미너",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b05 Description",
+        "source": "A bottle of Stamin-Up from Dr K's Perk Beverages. \"Run further, run faster. Stamin-Up!\" Best enjoyed cold, straight from the machine.",
+        "translation": "닥터 K의 특전 음료인 스태미너 업 한 병입니다. \"더 멀리, 더 빠르게 달리세요. 스태미너 업!\" 기계에서 갓 뽑아 차갑게 마시면 가장 좋습니다.",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b06 Name",
+        "source": "Quick Revive",
+        "translation": "퀵 리바이브",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b06 ShortName",
+        "source": "Revive",
+        "translation": "리바이브",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b06 Description",
+        "source": "A bottle of Quick Revive from Dr K's Perk Beverages. \"Back on your feet in no time. Quick Revive!\" Best enjoyed cold, straight from the machine.",
+        "translation": "닥터 K의 특전 음료인 퀵 리바이브 한 병입니다. \"순식간에 다시 일어서세요. 퀵 리바이브!\" 기계에서 갓 뽑아 차갑게 마시면 가장 좋습니다.",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b07 Name",
+        "source": "Mule Kick",
+        "translation": "뮬 킥",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b07 ShortName",
+        "source": "Mule",
+        "translation": "뮬 킥",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b07 Description",
+        "source": "A bottle of Mule Kick from Dr K's Perk Beverages. \"Room for one more in your arsenal. Mule Kick!\" Best enjoyed cold, straight from the machine.",
+        "translation": "닥터 K의 특전 음료인 뮬 킥 한 병입니다. \"무기고에 한 자루 더 들일 여유를! 뮬 킥!\" 기계에서 갓 뽑아 차갑게 마시면 가장 좋습니다.",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b08 Name",
+        "source": "Widow's Wine",
+        "translation": "위도우 와인",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b08 ShortName",
+        "source": "Widow",
+        "translation": "위도우",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b08 Description",
+        "source": "A bottle of Widow's Wine from Dr K's Perk Beverages. \"A bite for anyone who gets too close. Widow's Wine!\" Best enjoyed cold, straight from the machine.",
+        "translation": "닥터 K의 특전 음료인 위도우 와인 한 병입니다. \"너무 가까이 다가오는 상대에게는 따끔한 한 입을! 위도우 와인!\" 기계에서 갓 뽑아 차갑게 마시면 가장 좋습니다.",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b09 Name",
+        "source": "PHD Flopper",
+        "translation": "PHD 플로퍼",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b09 ShortName",
+        "source": "PHD",
+        "translation": "PHD",
+        "seed_missing": true
+      },
+      {
+        "key": "6a7f9e4b0c0a115000000b09 Description",
+        "source": "A bottle of PHD Flopper from Dr K's Perk Beverages. \"Dive in and blow them away. PHD Flopper!\" Best enjoyed cold, straight from the machine.",
+        "translation": "닥터 K의 특전 음료인 PHD 플로퍼 한 병입니다. \"몸을 날려 적들을 폭발로 날려 버리세요. PHD 플로퍼!\" 기계에서 갓 뽑아 차갑게 마시면 가장 좋습니다.",
+        "seed_missing": true
+      }
+    ]
+  }
+}

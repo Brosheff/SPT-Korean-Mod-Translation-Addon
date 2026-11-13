@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.kennerz.paphideoutmodule",
+  "plugin_name": "Kenner-PaPHideoutModule",
+  "mod_version": "2.2.0",
+  "categories": [
+    {
+      "source": "1. Normal gameplay",
+      "translation": "1. 일반 게임"
+    },
+    {
+      "source": "1. Volume",
+      "translation": "1. 음량"
+    },
+    {
+      "source": "2. Gameplay",
+      "translation": "2. 게임플레이"
+    },
+    {
+      "source": "3. Machine",
+      "translation": "3. 기계"
+    },
+    {
+      "source": "4. Debug",
+      "translation": "4. 디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. Volume",
+      "key": "Machine hum",
+      "source_display_name": "Machine hum",
+      "source_description": "The running machine's hum while idle.",
+      "translation_display_name": "기계 대기음",
+      "translation_description": "작동 중인 기계가 대기 상태일 때 내는 낮은 소리의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Machine working hum",
+      "source_display_name": "Machine working hum",
+      "source_description": "The hum while a gun is being upgraded.",
+      "translation_display_name": "기계 가동음",
+      "translation_description": "무기를 강화하는 동안 기계가 내는 소리의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Jingle",
+      "source_display_name": "Jingle",
+      "source_description": "The Pack-a-Punch jingle the machine plays now and then.",
+      "translation_display_name": "징글",
+      "translation_description": "기계에서 가끔 재생되는 Pack-a-Punch 징글의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Sting",
+      "source_display_name": "Sting",
+      "source_description": "The sting when a gun goes into the machine.",
+      "translation_display_name": "삽입 효과음",
+      "translation_description": "무기를 기계에 넣을 때 나는 짧은 효과음의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Crunch",
+      "source_display_name": "Crunch",
+      "source_description": "The crunch when a gun goes into the machine.",
+      "translation_display_name": "기계 작동 충격음",
+      "translation_description": "무기를 기계에 넣을 때 나는 으스러지는 듯한 소리의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Power-on",
+      "source_display_name": "Power-on",
+      "source_description": "The machine's start-up when you turn it on.",
+      "translation_display_name": "전원 켜짐",
+      "translation_description": "기계의 전원을 켤 때 나는 시동음의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Deny",
+      "source_display_name": "Deny",
+      "source_description": "The buzz when the machine refuses (not enough money).",
+      "translation_display_name": "거부음",
+      "translation_description": "돈이 부족해 기계가 작업을 거부할 때 나는 경고음의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Purchase",
+      "source_display_name": "Purchase",
+      "source_description": "The \"cha-ching\" when an upgrade is paid for.",
+      "translation_display_name": "결제음",
+      "translation_description": "강화 비용을 지불했을 때 나는 결제 효과음의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Voice line",
+      "source_display_name": "Voice line",
+      "source_description": "Your character's \"Good work\" as the gun goes in (on top of the game's own).",
+      "translation_display_name": "캐릭터 음성",
+      "translation_description": "무기를 기계에 넣을 때 캐릭터가 내는 「잘했어」 음성의 음량입니다. 게임 기본 음성에 추가됩니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Pack-a-Punch shot",
+      "source_display_name": "Pack-a-Punch shot",
+      "source_description": "The Pack-a-Punch layer on shots from 115 Infused guns.",
+      "translation_display_name": "강화 무기 발사음",
+      "translation_description": "115 주입 무기를 발사할 때 겹쳐 재생되는 Pack-a-Punch 효과음의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Origins machine: upgrading",
+      "source_display_name": "Origins machine: upgrading",
+      "source_description": "The Origins machine's sound while a gun goes through it.",
+      "translation_display_name": "오리진 기계: 강화 중",
+      "translation_description": "오리진 기계에서 무기를 강화할 때 나는 소리의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Origins machine: idle hum",
+      "source_display_name": "Origins machine: idle hum",
+      "source_description": "The Origins machine's crystal hum while it's on (louder while it works).",
+      "translation_display_name": "오리진 기계: 대기음",
+      "translation_description": "오리진 기계가 켜져 있을 때 나는 수정 공명음의 음량입니다. 작동 중에는 더 커집니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Origins machine: power-on",
+      "source_display_name": "Origins machine: power-on",
+      "source_description": "The Origins machine's start-up when you turn it on.",
+      "translation_display_name": "오리진 기계: 전원 켜짐",
+      "translation_description": "오리진 기계의 전원을 켤 때 나는 시동음의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Pack-a-Punch shot tail",
+      "source_display_name": "Pack-a-Punch shot tail",
+      "source_description": "The tail that rings after each Pack-a-Punch shot (louder on pistols, shotguns and other slow guns). Above 1 makes it louder than the mod's own level (quiet on some guns).",
+      "translation_display_name": "강화 발사 잔향",
+      "translation_description": "강화 무기를 발사한 후 이어지는 잔향입니다. 권총·산탄총 등 발사 속도가 느린 무기에서 더 크게 들립니다. 1보다 높이면 모드 기본 음량보다 커집니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Pack-a-Punch shot (enemies)",
+      "source_display_name": "Pack-a-Punch shot (enemies)",
+      "source_description": "How loud the Pack-a-Punch shot is on enemies' 115 guns, compared with yours.",
+      "translation_display_name": "적의 강화 무기 발사음",
+      "translation_description": "플레이어의 강화 무기와 비교한 적의 115 무기 발사 효과음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Factory 115 rock hum",
+      "source_display_name": "Factory 115 rock hum",
+      "source_description": "The hum of the 115 fragments on Factory.",
+      "translation_display_name": "공장 115 암석 공명음",
+      "translation_description": "공장에 있는 115 파편의 공명음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "Hideout green rock hum",
+      "source_display_name": "Hideout green rock hum",
+      "source_description": "The hum of the green 115 rocks hidden in the hideout.",
+      "translation_display_name": "은신처 녹색 암석 공명음",
+      "translation_description": "은신처에 숨겨진 녹색 115 암석의 공명음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "115 rock pickup",
+      "source_display_name": "115 rock pickup",
+      "source_description": "The sound of picking up (Factory) or investigating (hideout) a 115 rock.",
+      "translation_display_name": "115 암석 획득음",
+      "translation_description": "공장에서 115 암석을 줍거나 은신처에서 조사할 때 나는 소리의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "1. Volume",
+      "key": "115 song",
+      "source_display_name": "115 song",
+      "source_description": "The song the hideout plays once the green rocks are investigated.",
+      "translation_display_name": "115 노래",
+      "translation_description": "은신처의 녹색 암석들을 조사한 후 재생되는 노래의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Gameplay",
+      "key": "Looks and sound only (no weapon bonuses)",
+      "source_display_name": "Looks and sound only (no weapon bonuses)",
+      "source_description": "Pack-a-Punched guns keep the camo, glow, sounds, tracers and muzzle flash, but not the damage, fire rate and recoil bonuses. The machine then costs 5,000 roubles, and an infused gun sells for 5,000 more instead of 500,000.",
+      "translation_display_name": "외형·음향만 적용(성능 강화 없음)",
+      "translation_description": "강화 무기의 위장무늬, 발광, 소리, 예광탄, 총구 화염은 유지하지만 피해량·발사 속도·반동 보너스는 적용하지 않습니다. 이 경우 강화 비용은 5,000루블이며, 강화 무기의 판매가는 일반 무기보다 5,000루블만 높아집니다(기본값은 500,000루블).",
+      "values": []
+    },
+    {
+      "section": "2. Gameplay",
+      "key": "Enemies can carry a 115 gun",
+      "source_display_name": "Enemies can carry a 115 gun",
+      "source_description": "Very rarely, an enemy (scav, PMC, raider, boss, goon...) spawns with a Pack-a-Punched gun. Kill them and bring it home and it stays 115 Infused.",
+      "translation_display_name": "적도 115 무기 소지 가능",
+      "translation_description": "매우 낮은 확률로 스캐브, PMC, 레이더, 보스, 로그 보스 3인조 등이 Pack-a-Punch 강화 무기를 들고 생성됩니다. 해당 적을 처치해 무기를 가져오면 강화 상태가 유지됩니다.",
+      "values": []
+    },
+    {
+      "section": "2. Gameplay",
+      "key": "Sally no Mustang (CHEAT)",
+      "source_display_name": "Sally no Mustang (CHEAT)",
+      "source_description": "CHEAT. Turns projectiles into grenades, like good old times. A Pack-a-Punched M1911A1 still loads .45 ACP, but every shot leaves the barrel as a 40mm M381 HE grenade: it arcs like one and explodes on impact. Mind the blast up close.",
+      "translation_display_name": "샐리 노 머스탱(치트)",
+      "translation_description": "치트 설정입니다. 예전처럼 투사체가 유탄으로 바뀝니다. 강화한 M1911A1에는 여전히 .45 ACP 탄약을 장전하지만, 발사하면 40mm M381 고폭 유탄이 날아가 곡선을 그리며 날고 충돌 시 폭발합니다. 가까운 거리에서 폭발에 주의하십시오.",
+      "values": []
+    },
+    {
+      "section": "3. Machine",
+      "key": "Machine model",
+      "source_display_name": "Machine model",
+      "source_description": "Default (the classic Pack-a-Punch) or the stone machine from Origins. The Origins one plays only its own sounds (no jingle or hum).",
+      "translation_display_name": "기계 모델",
+      "translation_description": "기본형(클래식 Pack-a-Punch) 또는 오리진의 석재 기계를 선택합니다. 오리진 기계는 자체 효과음만 재생하며 징글이나 기본 공명음은 사용하지 않습니다.",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "Origins",
+          "translation": "오리진"
+        }
+      ]
+    },
+    {
+      "section": "4. Debug",
+      "key": "Restart 115 Riddles",
+      "source_display_name": "Restart 115 Riddles",
+      "source_description": "Starts Mechanic's quest over (for rocks that got lost, or a quest finished before the rocks were mailed back). Only while the Pack-a-Punch isn't built. Any rocks you hold are taken back, and Mechanic offers the job again.",
+      "translation_display_name": "115의 수수께끼 다시 시작",
+      "translation_description": "잃어버린 암석이 있거나 반환 우편을 받기 전에 퀘스트를 완료했다면 메카닉의 임무를 다시 시작합니다. Pack-a-Punch가 아직 건설되지 않은 경우에만 사용할 수 있습니다. 소지한 암석을 회수하고 메카닉이 다시 의뢰합니다.",
+      "values": []
+    },
+    {
+      "section": "1. Normal gameplay",
+      "key": "Show in normal gameplay",
+      "source_display_name": "Show in normal gameplay",
+      "source_description": "On: A machine appears in your hideout's side room once its wall is knocked down. When the room opens, complete Mechanic's quest \"115 Riddles\" and you can use the Pack-a-Punch machine in your normal gameplay! Off: Pack-a-Punch is only in the zombies mode (where it always works). Turning it off removes what you got from it: your 115 Riddles quest progress, the built machine and the upgrades on your Pack-a-Punched guns (the guns stay, as normal guns). Counts after restarting the game and the server.",
+      "translation_display_name": "일반 게임에서 사용",
+      "translation_description": "켜면 은신처 옆방의 벽을 철거한 뒤 메카닉의 「115의 수수께끼」 퀘스트를 완료해 Pack-a-Punch 기계를 일반 레이드에서도 사용할 수 있습니다. 끄면 좀비 모드에서만 이용할 수 있으며, 기존 퀘스트 진행 상황과 설치된 기계, 강화 무기의 강화 효과는 제거됩니다. 무기 자체는 일반 무기로 남습니다. 게임과 서버를 재시작해야 적용됩니다.",
+      "values": []
+    }
+  ]
+}

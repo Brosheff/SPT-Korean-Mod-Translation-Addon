@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.dark.btrlightkeeperskipper",
+  "plugin_name": "Dark-BTRLightkeeperSkipper",
+  "mod_version": "1.1.0",
+  "_note": "BTR/Lightkeeper Skipper 1.1.0 client Plugin.InitConfiguration: F12 display metadata only. Internal section/key/config values are unchanged.",
+  "categories": [
+    {
+      "source": "Main",
+      "translation": "주요 설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Main",
+      "key": "1. Enabled",
+      "source_display_name": "1. Enabled",
+      "translation_display_name": "1. 활성화",
+      "source_description": "Enable Skip/Finish buttons for BTR Driver and Lightkeeper quests in the Tasks menu.",
+      "translation_description": "임무 화면에서 BTR 운전병과 등대지기 퀘스트의 건너뛰기 및 완료 버튼을 활성화합니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "2. Always display buttons",
+      "source_display_name": "2. Always display buttons",
+      "translation_display_name": "2. 버튼 항상 표시",
+      "source_description": "If enabled, Skip/Finish buttons are always visible. Otherwise hold the hotkey.",
+      "translation_description": "활성화하면 건너뛰기 및 완료 버튼이 항상 표시됩니다. 비활성화하면 단축키를 누르고 있는 동안만 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "3. Display hotkey",
+      "source_display_name": "3. Display hotkey",
+      "translation_display_name": "3. 표시 단축키",
+      "source_description": "Holding this key reveals Skip/Finish buttons (same idea as Skipper).",
+      "translation_description": "지정한 키를 누르고 있는 동안 건너뛰기 및 완료 버튼을 표시합니다(Skipper와 동일한 방식).",
+      "values": []
+    },
+    {
+      "section": "Main",
+      "key": "4. Show Finish button",
+      "source_display_name": "4. Show Finish button",
+      "translation_display_name": "4. 완료 버튼 표시",
+      "source_description": "When a BTR/Lightkeeper quest is ready to turn in, show a Finish button in the Tasks menu description.",
+      "translation_description": "BTR 운전병 또는 등대지기의 퀘스트가 제출 가능한 상태일 때 임무 화면 설명에 완료 버튼을 표시합니다.",
+      "values": []
+    }
+  ]
+}

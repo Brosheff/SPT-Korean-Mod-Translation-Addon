@@ -1,0 +1,637 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.kennerz.paphideoutmodule",
+  "mod_name": "Pack-a-Punch",
+  "mod_version": "2.2.0",
+  "channels": {
+    "locale": [
+      {
+        "key": "6650a115a115a115a115b115 name",
+        "source": "115 Riddles",
+        "translation": "115의 수수께끼",
+        "match_mode": "exact",
+        "display_type": "quest_title"
+      },
+      {
+        "key": "6650a115a115a115a115b115 description",
+        "source": "Hi Mercenary,\n\nI've been looking into some material I recovered from Factory. Found a few fragments scattered around the place. Doesn't look like anything I've seen before. Unusual density, strange surface structure, and the equipment I have isn't giving me any useful readings.\n\nI've also come across something else in the hideout. An old machine casing, stripped of its internals. Can't identify its original purpose, but the construction is unusual. The fragments I've recovered seem to match parts of it.\n\nI need more samples before I can figure out what we're dealing with. Check Factory. Look around carefully, especially in places where something might have been left behind. Bring me every fragment you find.\n\nDon't try to process them yourself. I want the material intact.",
+        "translation": "용병, 잘 지냈나?\n\n공장에서 회수한 물질을 조사하고 있었네. 이곳저곳에 흩어진 파편 몇 개를 찾았는데, 지금까지 본 것과는 전혀 달라. 밀도도 특이하고 표면 구조도 이상해. 내가 가진 장비로는 유용한 측정값조차 얻을 수 없더군.\n\n은신처에서도 다른 물건을 발견했네. 내부 부품이 뜯겨 나간 오래된 기계 외함이지. 원래 무슨 용도로 만든 것인지는 알 수 없지만, 구조가 범상치 않아. 회수한 파편들이 이 기계의 일부와 맞아떨어지는 것 같네.\n\n정체를 알아내려면 시료가 더 필요해. 공장으로 가서 꼼꼼히 수색해 보게. 특히 누군가 물건을 두고 갔을 법한 곳을 살펴보고, 발견하는 파편은 전부 가져와 주게.\n\n절대로 직접 가공하지 말게. 재료를 온전한 상태로 확보해야 하니까.",
+        "display_type": "quest_description"
+      },
+      {
+        "key": "6650a115a115a115a115b115 startedMessageText",
+        "source": "Hi Mercenary,\n\nI've been looking into some material I recovered from Factory. Found a few fragments scattered around the place. Doesn't look like anything I've seen before. Unusual density, strange surface structure, and the equipment I have isn't giving me any useful readings.\n\nI've also come across something else in the hideout. An old machine casing, stripped of its internals. Can't identify its original purpose, but the construction is unusual. The fragments I've recovered seem to match parts of it.\n\nI need more samples before I can figure out what we're dealing with. Check Factory. Look around carefully, especially in places where something might have been left behind. Bring me every fragment you find.\n\nDon't try to process them yourself. I want the material intact.",
+        "translation": "용병, 잘 지냈나?\n\n공장에서 회수한 물질을 조사하고 있었네. 이곳저곳에 흩어진 파편 몇 개를 찾았는데, 지금까지 본 것과는 전혀 달라. 밀도도 특이하고 표면 구조도 이상해. 내가 가진 장비로는 유용한 측정값조차 얻을 수 없더군.\n\n은신처에서도 다른 물건을 발견했네. 내부 부품이 뜯겨 나간 오래된 기계 외함이지. 원래 무슨 용도로 만든 것인지는 알 수 없지만, 구조가 범상치 않아. 회수한 파편들이 이 기계의 일부와 맞아떨어지는 것 같네.\n\n정체를 알아내려면 시료가 더 필요해. 공장으로 가서 꼼꼼히 수색해 보게. 특히 누군가 물건을 두고 갔을 법한 곳을 살펴보고, 발견하는 파편은 전부 가져와 주게.\n\n절대로 직접 가공하지 말게. 재료를 온전한 상태로 확보해야 하니까."
+      },
+      {
+        "key": "6650a115a115a115a115b115 successMessageText",
+        "source": "Good. These are exactly what I was looking for.\n\nI've compared the fragments with the casing I found in the hideout. The material matches. More importantly, the fragments appear to fit into the machine's existing structure. I still can't explain what the machine was designed to do, but I'm reasonably confident these pieces are part of the missing assembly.\n\nI've returned the fragments to you. Keep them safe. You'll need to install them into the machine yourself; I want to see what happens when the thing is finally operational.\n\nOne thing at a time. Get the machine assembled first. Then we'll find out what we've got.",
+        "translation": "좋아. 바로 내가 찾던 물건들이군.\n\n이 파편들을 은신처에서 발견한 기계 외함과 대조해 봤네. 재질이 일치해. 더 중요한 건, 파편들이 기계의 기존 구조에 꼭 들어맞는다는 거야. 이 기계가 원래 무슨 용도로 만들어졌는지는 여전히 모르지만, 이것들이 빠진 조립 부품의 일부라는 건 거의 확실하네.\n\n파편은 자네에게 돌려보냈네. 잘 보관하게. 직접 기계에 장착해야 할 테니까. 기계가 완전히 가동되면 무슨 일이 벌어질지 나도 보고 싶군.\n\n우선 한 가지씩 처리하지. 먼저 기계를 조립해 보게. 그다음에 정체를 알아보자고."
+      },
+      {
+        "key": "6650a115a115a115a115c101",
+        "source": "Find 115-infused rock fragments on Factory",
+        "translation": "공장에서 115 주입 암석 파편 찾기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "6650a115a115a115a115c201",
+        "source": "Hand over the collected fragments to Mechanic",
+        "translation": "수집한 파편을 메카닉에게 건네주기",
+        "display_type": "quest_objective"
+      },
+      {
+        "key": "hideout_area_115_name",
+        "source": "Pack-a-Punch",
+        "translation": "Pack-a-Punch"
+      },
+      {
+        "key": "hideout_area_115_stage_0_description",
+        "source": "Mechanic found a strange machine in this blocked off room... what does it do?",
+        "translation": "메카닉이 막혀 있던 이 방에서 정체불명의 기계를 발견했습니다. 도대체 무슨 장치일까요?"
+      },
+      {
+        "key": "hideout_area_115_stage_1_description",
+        "source": "Mechanic got the strange machine running. Feed it a gun and 500,000 roubles and it gives the gun back... different.",
+        "translation": "메카닉이 수수께끼의 기계를 가동했습니다. 무기와 500,000루블을 넣으면 무기를 돌려주지만… 이전과는 달라집니다."
+      },
+      {
+        "key": "6650a115a115a115a115f101 Name",
+        "source": "115-infused rock fragment #1",
+        "translation": "115 주입 암석 파편 #1",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f101 ShortName",
+        "source": "115 Rock 1",
+        "translation": "115 파편 1",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f101 Description",
+        "source": "A small, unusually dense rock fragment. A faint blue light pulses deep inside it. Mechanic wants it intact.",
+        "translation": "비정상적으로 밀도가 높은 작은 암석 파편입니다. 내부 깊은 곳에서 희미한 푸른빛이 맥동합니다. 메카닉은 훼손하지 말고 가져오라고 했습니다.",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f102 Name",
+        "source": "115-infused rock fragment #2",
+        "translation": "115 주입 암석 파편 #2",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f102 ShortName",
+        "source": "115 Rock 2",
+        "translation": "115 파편 2",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f102 Description",
+        "source": "A small, unusually dense rock fragment. A faint blue light pulses deep inside it. Mechanic wants it intact.",
+        "translation": "비정상적으로 밀도가 높은 작은 암석 파편입니다. 내부 깊은 곳에서 희미한 푸른빛이 맥동합니다. 메카닉은 훼손하지 말고 가져오라고 했습니다.",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f103 Name",
+        "source": "115-infused rock fragment #3",
+        "translation": "115 주입 암석 파편 #3",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f103 ShortName",
+        "source": "115 Rock 3",
+        "translation": "115 파편 3",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f103 Description",
+        "source": "A small, unusually dense rock fragment. A faint blue light pulses deep inside it. Mechanic wants it intact.",
+        "translation": "비정상적으로 밀도가 높은 작은 암석 파편입니다. 내부 깊은 곳에서 희미한 푸른빛이 맥동합니다. 메카닉은 훼손하지 말고 가져오라고 했습니다.",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f104 Name",
+        "source": "115-infused rock fragment #4",
+        "translation": "115 주입 암석 파편 #4",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f104 ShortName",
+        "source": "115 Rock 4",
+        "translation": "115 파편 4",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f104 Description",
+        "source": "A small, unusually dense rock fragment. A faint blue light pulses deep inside it. Mechanic wants it intact.",
+        "translation": "비정상적으로 밀도가 높은 작은 암석 파편입니다. 내부 깊은 곳에서 희미한 푸른빛이 맥동합니다. 메카닉은 훼손하지 말고 가져오라고 했습니다.",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f105 Name",
+        "source": "115-infused rock fragment #5",
+        "translation": "115 주입 암석 파편 #5",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f105 ShortName",
+        "source": "115 Rock 5",
+        "translation": "115 파편 5",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f105 Description",
+        "source": "A small, unusually dense rock fragment. A faint blue light pulses deep inside it. Mechanic wants it intact.",
+        "translation": "비정상적으로 밀도가 높은 작은 암석 파편입니다. 내부 깊은 곳에서 희미한 푸른빛이 맥동합니다. 메카닉은 훼손하지 말고 가져오라고 했습니다.",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f201 Name",
+        "source": "115-infused rock fragment #1",
+        "translation": "115 주입 암석 파편 #1",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f201 ShortName",
+        "source": "115 Rock 1",
+        "translation": "115 파편 1",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f201 Description",
+        "source": "A 115-infused rock fragment, returned by Mechanic. It seems to fit the strange machine in the side room.",
+        "translation": "메카닉이 돌려준 115 주입 암석 파편입니다. 옆방에 있는 기묘한 기계에 들어맞을 것 같습니다.",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f202 Name",
+        "source": "115-infused rock fragment #2",
+        "translation": "115 주입 암석 파편 #2",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f202 ShortName",
+        "source": "115 Rock 2",
+        "translation": "115 파편 2",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f202 Description",
+        "source": "A 115-infused rock fragment, returned by Mechanic. It seems to fit the strange machine in the side room.",
+        "translation": "메카닉이 돌려준 115 주입 암석 파편입니다. 옆방에 있는 기묘한 기계에 들어맞을 것 같습니다.",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f203 Name",
+        "source": "115-infused rock fragment #3",
+        "translation": "115 주입 암석 파편 #3",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f203 ShortName",
+        "source": "115 Rock 3",
+        "translation": "115 파편 3",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f203 Description",
+        "source": "A 115-infused rock fragment, returned by Mechanic. It seems to fit the strange machine in the side room.",
+        "translation": "메카닉이 돌려준 115 주입 암석 파편입니다. 옆방에 있는 기묘한 기계에 들어맞을 것 같습니다.",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f204 Name",
+        "source": "115-infused rock fragment #4",
+        "translation": "115 주입 암석 파편 #4",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f204 ShortName",
+        "source": "115 Rock 4",
+        "translation": "115 파편 4",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f204 Description",
+        "source": "A 115-infused rock fragment, returned by Mechanic. It seems to fit the strange machine in the side room.",
+        "translation": "메카닉이 돌려준 115 주입 암석 파편입니다. 옆방에 있는 기묘한 기계에 들어맞을 것 같습니다.",
+        "display_type": "item_description",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f205 Name",
+        "source": "115-infused rock fragment #5",
+        "translation": "115 주입 암석 파편 #5",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f205 ShortName",
+        "source": "115 Rock 5",
+        "translation": "115 파편 5",
+        "seed_missing": true
+      },
+      {
+        "key": "6650a115a115a115a115f205 Description",
+        "source": "A 115-infused rock fragment, returned by Mechanic. It seems to fit the strange machine in the side room.",
+        "translation": "메카닉이 돌려준 115 주입 암석 파편입니다. 옆방에 있는 기묘한 기계에 들어맞을 것 같습니다.",
+        "display_type": "item_description",
+        "seed_missing": true
+      }
+    ],
+    "npc_messages": [
+      {
+        "id": "pap.mechanic.built",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source": "This was an interesting find, mercenary... you owe me!",
+        "translation": "재미있는 발견이었네, 용병. 이제 자네가 내게 신세를 진 셈이지!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.mechanic.lost-rock",
+        "trader_id": "5a7c2eca46aef81a7ca2145d",
+        "source": "Oh, you silly mercenary. Lost one of the rocks already? I've kept a spare for you. Don't lose it this time, the machine can't be fitted without it.",
+        "translation": "이런, 덤벙대기는. 용병, 벌써 암석 하나를 잃어버린 건가? 여분을 하나 챙겨 뒀으니 보내 주겠네. 이번에는 잃어버리지 말게. 그게 없으면 기계를 완성할 수 없어.",
+        "match_mode": "exact"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "pap.f12.restart",
+        "source": "Restart quest",
+        "translation": "퀘스트 다시 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.title",
+        "source": "YOUR NORMAL GAMEPLAY",
+        "translation": "일반 게임 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.intro.zombies",
+        "source": "These mods are part of the <b>Dr K's SPZombies</b> mode and <b>always work there</b>. Do you also want them in your <b>normal gameplay</b>? Not sure? Leave them <b>off</b>: your normal game stays exactly as it was.",
+        "translation": "이 모드들은 <b>Dr K's SPZombies</b>에 포함되어 해당 모드에서는 <b>항상 작동합니다</b>. <b>일반 게임</b>에서도 사용하시겠습니까? 잘 모르겠다면 <b>끔</b>을 선택하세요. 기존 일반 게임은 달라지지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.intro.normal",
+        "source": "Do you want these in your <b>normal gameplay</b>? Pick <b>off</b> to keep your normal game exactly as it was.",
+        "translation": "이 모드들을 <b>일반 게임</b>에서도 사용하시겠습니까? 기존 일반 게임을 그대로 유지하려면 <b>끔</b>을 선택하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.off",
+        "source": "OFF",
+        "translation": "끔",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.on",
+        "source": "ON",
+        "translation": "켬",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.confirm",
+        "source": "CONFIRM",
+        "translation": "확인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.new",
+        "source": "NEW",
+        "translation": "신규",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.title.known",
+        "source": "<color=#ffd24a><b>GOOD TO KNOW</b></color>",
+        "translation": "<color=#ffd24a><b>알아두세요</b></color>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.what",
+        "source": "A machine appears in your hideout's side room once its wall is knocked down. When the room opens, complete Mechanic's quest \"115 Riddles\" and you can use the Pack-a-Punch machine in your normal gameplay!",
+        "translation": "은신처 옆방의 벽을 철거하면 기계가 등장합니다. 방이 열리면 메카닉의 「115의 수수께끼」 퀘스트를 완료해 일반 게임에서도 Pack-a-Punch 기계를 사용할 수 있습니다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.gone",
+        "source": "<b>Pack-a-Punch:</b> turning it off in F12 or uninstalling it turns your <b>115 Infused guns back into normal guns</b>, and your 115 Riddles progress and machine are gone.",
+        "translation": "<b>Pack-a-Punch:</b> F12에서 끄거나 모드를 제거하면 <b>115 강화 무기는 일반 무기로 돌아가고</b>, 「115의 수수께끼」 진행 상태와 기계가 사라집니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.common.change",
+        "source": "• <b>Change it any time:</b> F12, each mod's <b>1. Normal gameplay</b>.",
+        "translation": "• <b>언제든 변경 가능:</b> F12에서 각 모드의 <b>1. 일반 게임</b> 설정을 이용하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.common.restart",
+        "source": "• Turning one on again later starts it fresh.",
+        "translation": "• 나중에 다시 켜면 해당 모드가 처음부터 새로 시작됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.common.restart.server",
+        "source": "• <b>Changes count after you restart the game and the server.</b>",
+        "translation": "• <b>게임과 서버를 재시작한 뒤 변경 사항이 적용됩니다.</b>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.common.restart.fika",
+        "source": "• <b>Co-op (Fika):</b> everyone picks for themselves. Yours only changes <b>your own</b> game. Changes count once the host restarts the server.",
+        "translation": "• <b>협동 플레이(Fika):</b> 각자 설정을 선택하며, 자신의 게임에만 적용됩니다. 호스트가 서버를 재시작해야 변경 사항이 반영됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.confirm.title",
+        "source": "REMOVE PACK-A-PUNCH FROM YOUR NORMAL GAMEPLAY?",
+        "translation": "일반 게임에서 Pack-a-Punch를 제거하시겠습니까?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.confirm.intro",
+        "source": "This removes what you got from it: <b>your 115 Riddles quest progress, the built machine and the upgrades on your Pack-a-Punched guns (the guns stay, as normal guns).</b>",
+        "translation": "다음 내용이 제거됩니다: <b>「115의 수수께끼」 진행 상태, 건설한 기계, Pack-a-Punch로 강화한 무기의 강화 효과(무기는 일반 무기로 남습니다).</b>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.confirm.remove",
+        "source": "REMOVE IT",
+        "translation": "제거",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.confirm.keep",
+        "source": "KEEP IT",
+        "translation": "유지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.confirm.zombies",
+        "source": "• <b>The zombies mode keeps it</b>: it always works there.",
+        "translation": "• <b>좀비 모드에서는 계속 사용할 수 있습니다</b>. 해당 모드에서는 항상 작동합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.confirm.fika",
+        "source": "• <b>Co-op (Fika):</b> this only changes <b>your own</b> game and profile, not your friends'. It counts once the host restarts the server.",
+        "translation": "• <b>협동 플레이(Fika):</b> 친구가 아닌 <b>본인의</b> 게임과 프로필만 변경됩니다. 호스트가 서버를 재시작하면 적용됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.confirm.restart",
+        "source": "• <b>It counts after you restart the game and the server.</b>",
+        "translation": "• <b>게임과 서버를 재시작한 뒤 적용됩니다.</b>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.confirm.reset",
+        "source": "• Turning it back on later starts it all fresh.",
+        "translation": "• 나중에 다시 켜면 처음부터 새로 시작됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.prompt.name",
+        "source": "<b>Pack-a-Punch</b>",
+        "translation": "<b>Pack-a-Punch</b>",
+        "match_mode": "exact"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "pap.interact.take",
+        "source": "Take weapon ({seconds})",
+        "translation": "무기 꺼내기 ({seconds})",
+        "match_mode": "template"
+      },
+      {
+        "id": "pap.interact.tarp",
+        "source": "Covered by an old tarp",
+        "translation": "오래된 방수포로 덮여 있음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.interact.power",
+        "source": "No power",
+        "translation": "전원 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.interact.on",
+        "source": "Turn on",
+        "translation": "전원 켜기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.interact.busy",
+        "source": "The machine is busy...",
+        "translation": "기계 작동 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.interact.draw",
+        "source": "Draw a weapon",
+        "translation": "무기 꺼내기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.interact.drawing",
+        "source": "Drawing weapons...",
+        "translation": "무기를 꺼내는 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.interact.insert.first",
+        "source": "Draw a weapon to insert it",
+        "translation": "기계에 넣을 무기를 꺼내세요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.interact.repack",
+        "source": "Re-insert gun ({price} RUB)",
+        "translation": "무기 다시 넣기 ({price} RUB)",
+        "match_mode": "template"
+      },
+      {
+        "id": "pap.interact.infused",
+        "source": "Already 115 Infused",
+        "translation": "이미 115 강화됨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.interact.insert",
+        "source": "Insert gun ({price} RUB)",
+        "translation": "무기 넣기 ({price} RUB)",
+        "match_mode": "template"
+      },
+      {
+        "id": "pap.interact.rock",
+        "source": "Investigate",
+        "translation": "조사하기",
+        "match_mode": "exact"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "pap.notify.not.here",
+        "source": "The machine isn't in the hideout right now.",
+        "translation": "현재 은신처에 기계가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.move",
+        "source": "Machine moved to ({x}, {y}, {z}). Fine-tune it with Unity Explorer.",
+        "translation": "기계를 ({x}, {y}, {z}) 위치로 옮겼습니다. Unity Explorer로 위치를 미세 조정하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "pap.notify.server",
+        "source": "It can't reach the server.",
+        "translation": "서버에 연결할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.quest.failed",
+        "source": "Mechanic won't restart the job.",
+        "translation": "메카닉이 퀘스트를 다시 시작하지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.quest.restart",
+        "source": "Mechanic has the 115 Riddles job open again. If it doesn't show in your quests, restart the game.",
+        "translation": "메카닉의 「115의 수수께끼」 퀘스트를 다시 받을 수 있습니다. 임무 목록에 나타나지 않으면 게임을 재시작하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.gun.notfound",
+        "source": "The machine can't find that weapon in your equipment.",
+        "translation": "기계가 장비에서 해당 무기를 찾지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.no.money",
+        "source": "You need {amount} roubles.",
+        "translation": "{amount}루블이 필요합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "pap.notify.machine.no-server",
+        "source": "The machine refuses. It can't reach the server.",
+        "translation": "기계가 작동을 거부했습니다. 서버에 연결할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.machine.funds",
+        "source": "The machine refuses. You need {amount} roubles.",
+        "translation": "기계가 작동을 거부했습니다. {amount}루블이 필요합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "pap.notify.machine.refuse",
+        "source": "The machine refuses. {reason}",
+        "translation": "기계가 작동을 거부했습니다. {reason}",
+        "match_mode": "template"
+      },
+      {
+        "id": "pap.notify.gun.buzz",
+        "source": "{weapon}: the machine hums with power.",
+        "translation": "{weapon}: 기계가 힘차게 진동합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "pap.notify.gun.gone",
+        "source": "You left your {weapon} in the machine. It's gone.",
+        "translation": "기계에 {weapon}을(를) 두고 나왔습니다. 무기를 잃었습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "pap.notify.prompt.on",
+        "source": "Pack-a-Punch will be in your normal gameplay after you restart the game and the server.",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서 Pack-a-Punch를 사용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.prompt.off",
+        "source": "Pack-a-Punch will be removed from your normal gameplay after you restart the game and the server.",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서 Pack-a-Punch가 제외됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.prompt.on.fika",
+        "source": "Pack-a-Punch will be in your normal gameplay once the game and the server have restarted (co-op: the host restarts the server).",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서 Pack-a-Punch를 사용할 수 있습니다. 협동 플레이에서는 호스트가 서버를 재시작해야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.prompt.off.fika",
+        "source": "Pack-a-Punch will be removed from your normal gameplay once the game and the server have restarted (co-op: the host restarts the server).",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서 Pack-a-Punch가 제외됩니다. 협동 플레이에서는 호스트가 서버를 재시작해야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.prompt.failed",
+        "source": "Couldn't reach the server to change Pack-a-Punch. Try again in a moment.",
+        "translation": "Pack-a-Punch 설정을 변경하기 위해 서버에 연결할 수 없습니다. 잠시 후 다시 시도하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.prompt.saved",
+        "source": "Saved. Change it any time in F12, under each mod's \"1. Normal gameplay\".",
+        "translation": "저장했습니다. F12의 각 모드 「1. 일반 게임」에서 언제든 변경할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.prompt.saved.restart",
+        "source": "Saved. It counts after you restart the game and the server.",
+        "translation": "저장했습니다. 게임과 서버를 재시작하면 적용됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.prompt.saved.fika",
+        "source": "Saved. It counts once the game and the server have restarted (co-op: the host restarts the server).",
+        "translation": "저장했습니다. 게임과 서버를 재시작하면 적용됩니다. 협동 플레이에서는 호스트가 서버를 재시작해야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "pap.notify.strip.done",
+        "source": "{weapon}: the 115 fades.",
+        "translation": "{weapon}: 115 강화 효과가 사라졌습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "pap.notify.strip.no-response",
+        "source": "Couldn't strip {weapon}: no response from server",
+        "translation": "{weapon}의 115 강화를 제거하지 못했습니다: 서버에서 응답이 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "pap.notify.strip.fail",
+        "source": "Couldn't strip {weapon}: {reason}",
+        "translation": "{weapon}의 115 강화를 제거하지 못했습니다: {reason}",
+        "match_mode": "template"
+      }
+    ]
+  }
+}

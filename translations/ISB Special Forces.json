@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "com.samc137.isbspecialforces",
   "mod_name": "ISB Special Forces",
-  "mod_version": "2.0.2",
+  "mod_version": "2.0.4",
   "channels": {
     "locale": [
       {
@@ -144,8 +144,8 @@
       },
       {
         "key": "1d9f3fb317d15e2a77957327 description",
-        "source": "Contribute to the ISB and expel the Black Division forces from The Lab by completing the entire Aishi's quest line for the “Containment Breach” event.",
-        "translation": "\"격리 실패\" 이벤트에서 아이시의 퀘스트 연계를 모두 완료하여 ISB에 기여하고 연구소에서 블랙 디비전 병력을 몰아냅니다.",
+        "source": "Contribute to the ISB and expel the Black Division forces from The Lab by completing the entire questline for the “Containment Breach” event.",
+        "translation": "\"격리 실패\" 이벤트의 모든 퀘스트를 완료하여 ISB에 기여하고 연구소에서 블랙 디비전 병력을 몰아냅니다.",
         "match_mode": "exact",
         "display_type": "achievement_description",
         "seed_missing": true
@@ -888,8 +888,8 @@
       },
       {
         "key": "isb_takeover_keycard_disabled",
-        "source": "Card Reader unpowered. Activate the facility's auxiliary power, install a GreenBat battery, or use a modified battery with a toolset.",
-        "translation": "카드 판독기에 전원이 공급되지 않습니다. 시설 보조 전원을 가동하거나 GreenBat 배터리를 설치하거나, 공구 세트와 개조 배터리를 사용하십시오.",
+        "source": "Card Reader unpowered. Activate the facility's auxiliary power, install a GreenBat battery, or install a V2 Battery.",
+        "translation": "카드 판독기에 전원이 공급되지 않습니다. 시설 보조 전원을 가동하거나 GreenBat 배터리 또는 V2 배터리를 설치하십시오.",
         "display_type": "default",
         "seed_missing": true
       },
@@ -1035,8 +1035,8 @@
       },
       {
         "key": "isb_reader_install_modified",
-        "source": "Use Modified Battery (Requires a Toolset)",
-        "translation": "개조 배터리 사용(공구 세트 필요)",
+        "source": "Install V2 Battery",
+        "translation": "V2 배터리 설치",
         "display_type": "default",
         "seed_missing": true
       },
@@ -1714,15 +1714,15 @@
       },
       {
         "key": "isb_reader_install_low_frequency",
-        "source": "Use low-frequency battery (1 charge + toolset)",
-        "translation": "저주파 배터리 사용(충전 1회 + 공구 세트)",
+        "source": "Install V3 Battery",
+        "translation": "V3 배터리 설치",
         "display_type": "default",
         "seed_missing": true
       },
       {
         "key": "isb_reader_low_frequency_required",
-        "source": "This reader requires a modified low-frequency battery and a toolset.",
-        "translation": "이 판독기에는 개조 저주파 배터리와 공구 세트가 필요합니다.",
+        "source": "This reader requires a V3 Battery.",
+        "translation": "이 판독기에는 V3 배터리가 필요합니다.",
         "display_type": "default",
         "seed_missing": true
       },
@@ -3496,8 +3496,8 @@
       },
       {
         "key": "90ff0ceb9094a5f1c698cf7e",
-        "source": "Enable or Disable The Lab's Intercom Decontamination Announcement System (In One Raid)",
-        "translation": "한 번의 레이드에서 연구소의 구내방송 제독 안내 시스템을 켜거나 끄기",
+        "source": "Locate the Facility Emergency System Controllers in the Security Checkpoint in The Lab",
+        "translation": "연구소 보안 검문소에서 시설 비상 시스템 제어 장치 찾기",
         "match_mode": "exact",
         "display_type": "quest_objective",
         "seed_missing": true
@@ -4453,6 +4453,454 @@
         "match_mode": "exact",
         "display_type": "default",
         "seed_missing": true
+      },
+      {
+        "key": "ScavRole/chaosInsurgency",
+        "source": "CHAOS INSUR.",
+        "translation": "카오스 인서전시",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_activity_title",
+        "source": "=== ISB SOF ACTIVITY DETECTED ===",
+        "translation": "=== ISB 특수부대 활동 감지 ===",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_labs_operation",
+        "source": "An ISB Special Operation is currently in progress.",
+        "translation": "현재 ISB 특수 작전이 진행 중입니다.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_labs_operator_report",
+        "source": "A large number of ISB Operatives have been reported in the area.",
+        "translation": "이 지역에 다수의 ISB 요원이 출현했다는 보고가 접수되었습니다.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_caution",
+        "source": "Extreme caution is advised.",
+        "translation": "각별히 주의하십시오.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_labs_no_presence",
+        "source": "No active ISB presence is currently detected within the Laboratory.",
+        "translation": "현재 연구소에서 활동 중인 ISB 요원은 탐지되지 않았습니다.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_operation_report",
+        "source": "ISB SOF Operatives have been seen in your current raid.",
+        "translation": "현재 레이드에서 ISB 특수부대 요원이 목격되었습니다.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_caution_urgent",
+        "source": "Extreme caution is advised!",
+        "translation": "극도로 주의하십시오!",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_alive_total",
+        "source": "Total Alive ({0}):  {1}",
+        "translation": "생존 인원 합계 ({0}):  {1}",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_unknown_role",
+        "source": "ISB Unknown ({0})",
+        "translation": "미확인 ISB 요원 ({0})",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_whitetusk_remaining_title",
+        "source": "Remaining White Tusks:",
+        "translation": "남아 있는 화이트 터스크:",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_whitetusk_kia_title",
+        "source": "♦ === WHITE TUSK KIA === ♦",
+        "translation": "♦ === 화이트 터스크 전사 === ♦",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_eliminated",
+        "source": "{0} has been eliminated.",
+        "translation": "{0} 사망.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_whitetusk_all_eliminated",
+        "source": "All White Tusk operators have been eliminated.",
+        "translation": "모든 화이트 터스크 요원이 사망했습니다.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_operator_kia_title",
+        "source": "=== ISB MEMBER ELIMINATED ===",
+        "translation": "=== ISB 대원 사망 ===",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_operators_none_remaining",
+        "source": "No standard ISB operators remain active.",
+        "translation": "남아 있는 일반 ISB 요원이 없습니다.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_operators_remaining",
+        "source": "Remaining ISB operatives: {0}",
+        "translation": "남아 있는 ISB 요원: {0}",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_withdrawal",
+        "source": "No ISB Operatives remaining in the Current Raid. ISB HQ has ordered a complete withdrawal. You may rest, but remain on alert.",
+        "translation": "이번 레이드에 남아 있는 ISB 요원이 없습니다. ISB 본부가 전면 철수를 명령했습니다. 잠시 숨을 돌리셔도 좋지만, 경계는 유지하십시오.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_commander_alert_title",
+        "source": "✖ === ISB HIGH-VALUE TARGET DETECTED === ✖",
+        "translation": "✖ === ISB 고가치 표적 감지 === ✖",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_operation_active",
+        "source": "ISB's Operation still active in this raid.",
+        "translation": "이번 레이드에서는 ISB 작전이 아직 진행 중입니다.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_stay_alert",
+        "source": "Stay alert.",
+        "translation": "경계를 유지하십시오.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_commander_deployed",
+        "source": "Rumors suggest that a high-ranking ISB Commander was\ndeployed to your location. EXTREME CAUTION ADVISED.",
+        "translation": "ISB 고위 지휘관이\n귀하의 위치에 투입되었다는 소문이 있습니다. 극도로 주의하십시오.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_commander_taunt",
+        "source": "Survive, or make them regret.",
+        "translation": "살아남으십시오. 아니면 그들이 후회하게 만드십시오.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_commander_kia_title",
+        "source": "✖ === ISB HIGH-VALUE TARGET DOWN === ✖",
+        "translation": "✖ === ISB 고가치 표적 사망 === ✖",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_commander_kia_afterword",
+        "source": "You'll definitely make it to ISB HQ if you remember that.",
+        "translation": "그 사실을 기억해 둔다면 ISB 본부까지는 틀림없이 도달할 수 있을 겁니다.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13702",
+        "source": "Firefly (The King of Kings)",
+        "translation": "파이어플라이 (왕중왕)",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13703",
+        "source": "Vipper (The Riskrunner)",
+        "translation": "바이퍼 (위험을 무릅쓰는 자)",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13704",
+        "source": "Loghan (The Dreadnought)",
+        "translation": "로건 (드레드노트)",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13705",
+        "source": "Spearthrower (The Shadow Lord)",
+        "translation": "스피어스로어 (그림자의 군주)",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13715",
+        "source": "Evernight (The Chosen One)",
+        "translation": "에버나이트 (선택받은 자)",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13716",
+        "source": "Nemesis (The Dark Lord)",
+        "translation": "네메시스 (어둠의 군주)",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13706",
+        "source": "Zofia (The Deadeye)",
+        "translation": "조피아 (명사수)",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13709",
+        "source": "ISB Team Leader",
+        "translation": "ISB 팀장",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13710",
+        "source": "ISB Specialist",
+        "translation": "ISB 전문가",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13701",
+        "source": "ISB Operative",
+        "translation": "ISB 요원",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13711",
+        "source": "ISB Scout",
+        "translation": "ISB 정찰병",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13712",
+        "source": "ISB Heavy",
+        "translation": "ISB 중화기병",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13713",
+        "source": "ISB Assassin",
+        "translation": "ISB 암살자",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13714",
+        "source": "ISB Marksman",
+        "translation": "ISB 지정사수",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13707",
+        "source": "\"The Chosen One\"",
+        "translation": "\"선택받은 자\"",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_13708",
+        "source": "\"The Dark Lord\"",
+        "translation": "\"어둠의 군주\"",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13702",
+        "source": "Firefly",
+        "translation": "파이어플라이",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13703",
+        "source": "Vipper",
+        "translation": "바이퍼",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13704",
+        "source": "Loghan",
+        "translation": "로건",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13705",
+        "source": "Spearthrower",
+        "translation": "스피어스로어",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13715",
+        "source": "Evernight",
+        "translation": "에버나이트",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13716",
+        "source": "Nemesis",
+        "translation": "네메시스",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13706",
+        "source": "Zofia",
+        "translation": "조피아",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13709",
+        "source": "Team Leader",
+        "translation": "팀장",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13710",
+        "source": "Specialist",
+        "translation": "전문가",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13713",
+        "source": "Assassin",
+        "translation": "암살자",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13711",
+        "source": "Scout",
+        "translation": "정찰병",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13712",
+        "source": "Heavy",
+        "translation": "중화기병",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13714",
+        "source": "Marksman",
+        "translation": "지정사수",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "isb_notifier_role_short_13701",
+        "source": "Operative",
+        "translation": "요원",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
+      },
+      {
+        "key": "ISB/Labs/UnlockRequirement",
+        "source": "Complete the entire Containment Breach questline and earn Ms. VICTORIA to unlock Labs variants.",
+        "translation": "격리 실패 퀘스트 연계 임무를 모두 완료하고 Ms. VICTORIA를 획득해야 연구소 버전 선택 기능이 해금됩니다.",
+        "match_mode": "exact",
+        "display_type": "default",
+        "seed_missing": true
       }
     ],
     "small_ui": [
@@ -4770,6 +5218,8 @@
       },
       {
         "id": "sf.subtitle.ISB-LabsEventCB2.01",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.ISB-LabsEventCB.01; retained for source provenance.",
         "source": "<b>ISB Operative:</b> To everyone still hearing this: reality-bending events are common during containment breaches of this magnitude.",
         "translation": "<b>ISB 요원:</b> 아직 이 방송이 들리는 분께 알립니다. 이 정도 규모의 격리 실패 상황에서는 현실 변형 현상이 흔히 발생합니다.",
         "match_mode": "exact"
@@ -4986,6 +5436,8 @@
       },
       {
         "id": "sf.subtitle.announcement.DecontaminationProcess02.01",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.announcement.DecontaminationProcess05.01; retained for source provenance.",
         "source": "<b>C.A.S.S.I.E:</b> Danger.",
         "translation": "<b>C.A.S.S.I.E:</b> 위험.",
         "match_mode": "exact"
@@ -4998,6 +5450,8 @@
       },
       {
         "id": "sf.subtitle.announcement.DecontaminationProcess03.01",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.announcement.DecontaminationProcess05.01; retained for source provenance.",
         "source": "<b>C.A.S.S.I.E:</b> Danger.",
         "translation": "<b>C.A.S.S.I.E:</b> 위험.",
         "match_mode": "exact"
@@ -5010,6 +5464,8 @@
       },
       {
         "id": "sf.subtitle.announcement.DecontaminationProcess04.01",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.announcement.DecontaminationProcess05.01; retained for source provenance.",
         "source": "<b>C.A.S.S.I.E:</b> Danger.",
         "translation": "<b>C.A.S.S.I.E:</b> 위험.",
         "match_mode": "exact"
@@ -5034,6 +5490,8 @@
       },
       {
         "id": "sf.subtitle.announcement.DecontaminationProcess01_RU.01",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.announcement.DecontaminationProcess01.01; retained for source provenance.",
         "source": "<b>C.A.S.S.I.E:</b> Attention, all personnel.",
         "translation": "<b>C.A.S.S.I.E:</b> 전 직원에게 알립니다.",
         "match_mode": "exact"
@@ -5052,6 +5510,8 @@
       },
       {
         "id": "sf.subtitle.announcement.DecontaminationProcess02_RU.01",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.announcement.DecontaminationProcess05.01; retained for source provenance.",
         "source": "<b>C.A.S.S.I.E:</b> Danger.",
         "translation": "<b>C.A.S.S.I.E:</b> 위험.",
         "match_mode": "exact"
@@ -5064,6 +5524,8 @@
       },
       {
         "id": "sf.subtitle.announcement.DecontaminationProcess03_RU.01",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.announcement.DecontaminationProcess05.01; retained for source provenance.",
         "source": "<b>C.A.S.S.I.E:</b> Danger.",
         "translation": "<b>C.A.S.S.I.E:</b> 위험.",
         "match_mode": "exact"
@@ -5076,6 +5538,8 @@
       },
       {
         "id": "sf.subtitle.announcement.DecontaminationProcess04_RU.01",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.announcement.DecontaminationProcess05.01; retained for source provenance.",
         "source": "<b>C.A.S.S.I.E:</b> Danger.",
         "translation": "<b>C.A.S.S.I.E:</b> 위험.",
         "match_mode": "exact"
@@ -5088,6 +5552,8 @@
       },
       {
         "id": "sf.subtitle.announcement.DecontaminationProcess05_RU.01",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.announcement.DecontaminationProcess05.01; retained for source provenance.",
         "source": "<b>C.A.S.S.I.E:</b> Danger.",
         "translation": "<b>C.A.S.S.I.E:</b> 위험.",
         "match_mode": "exact"
@@ -5406,6 +5872,8 @@
       },
       {
         "id": "sf.subtitle.announcement.DeadManSwitchV2.03",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.announcement.DeadManSwitch.02; retained for source provenance.",
         "source": "<b>C.A.S.S.I.E:</b> The underground section of this facility will self-destruct in T-minus 90 seconds.",
         "translation": "<b>C.A.S.S.I.E:</b> 이 시설의 지하 구역은 90초 후 자폭합니다.",
         "match_mode": "exact"
@@ -5574,6 +6042,8 @@
       },
       {
         "id": "sf.subtitle.announcement.SCPWarn.sentence02",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.announcement.SCPWarn.sentence01; retained for source provenance.",
         "source": "<b>SCP Foundation Announcement:</b> Warning.",
         "translation": "<b>SCP 재단 방송:</b> 경고.",
         "match_mode": "exact"
@@ -5592,6 +6062,8 @@
       },
       {
         "id": "sf.subtitle.announcement.SCPWarn.sentence05",
+        "enabled": false,
+        "note": "Identical exact rule is supplied by sf.subtitle.announcement.SCPWarn.sentence03; retained for source provenance.",
         "source": "<b>SCP Foundation Announcement:</b> This is not a drill.",
         "translation": "<b>SCP 재단 방송:</b> 훈련 상황이 아닙니다.",
         "match_mode": "exact"

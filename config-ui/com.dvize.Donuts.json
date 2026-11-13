@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.dvize.Donuts",
+  "plugin_name": "SWAG + Donuts",
+  "mod_version": "4.0.4",
+  "categories": [
+    {
+      "source": "Config Settings",
+      "translation": "설정"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Config Settings",
+      "key": "Key To Enable/Disable Config Interface",
+      "source_display_name": "Key To Enable/Disable Config Interface",
+      "source_description": "Key to Enable/Disable Donuts Configuration Menu",
+      "translation_display_name": "Donuts 설정창 열기/닫기 키",
+      "translation_description": "Donuts 설정창을 열거나 닫는 단축키입니다.",
+      "values": []
+    }
+  ]
+}

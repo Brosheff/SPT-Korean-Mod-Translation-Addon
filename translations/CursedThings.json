@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "viniHNS.CursedThings",
+  "mod_name": "Cursed Things",
+  "mod_version": "0.1.0",
+  "channels": {
+    "locale": [
+      {
+        "key": "3b956603fbbab73ab62bd2db Name",
+        "source": "Bottle of Absolut vodka",
+        "translation": "앱솔루트 보드카 병",
+        "match_mode": "item_decorated",
+        "display_type": "item_name"
+      },
+      {
+        "key": "3b956603fbbab73ab62bd2db ShortName",
+        "source": "Absolut",
+        "translation": "앱솔루트"
+      },
+      {
+        "key": "3b956603fbbab73ab62bd2db Description",
+        "source": "A one-liter bottle of Absolut, the Swedish vodka from Åhus, in the clear glass bottle with the label printed straight on the glass. Twice the size of a Tarkovskaya and twice the trouble: it numbs pain for longer, but dries you out more and the hangover hits harder.",
+        "translation": "스웨덴 오후스(Åhus)에서 생산한 앱솔루트 보드카 1리터 병입니다. 투명한 유리병 표면에 라벨이 직접 인쇄되어 있습니다. 타르코프스카야 보드카보다 용량도 두 배, 골칫거리도 두 배입니다. 통증을 더 오래 둔화시키지만 탈수도 더 심하게 일으키고 숙취도 훨씬 지독합니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "b3dc388ec0d486a30fbbfb53 Name",
+        "source": "Magnum Research BFR .50 BMG",
+        "translation": "매그넘 리서치 BFR .50 BMG",
+        "display_type": "item_name"
+      },
+      {
+        "key": "b3dc388ec0d486a30fbbfb53 ShortName",
+        "source": "BFR .50",
+        "translation": "BFR .50"
+      },
+      {
+        "key": "b3dc388ec0d486a30fbbfb53 Description",
+        "source": "The BFR (Biggest Finest Revolver) is a stainless steel single-action revolver made in Minnesota by Magnum Research, the company behind the Desert Eagle. It is known for chambering cartridges usually reserved for rifles, such as .45-70 Government, in a five-round cylinder. This one-off build takes the long-frame design to its limit: the frame, cylinder and barrel were enlarged to take the 12.7x99mm NATO (.50 BMG) heavy machine gun cartridge, while the grip stayed close to standard size so it still fits the hand. The hammer must be cocked by hand before every shot, and the chambers are loaded and unloaded one at a time through the loading gate. Heavy, slow and brutal on the wrists.",
+        "translation": "BFR(Biggest Finest Revolver)은 데저트 이글을 만든 회사인 매그넘 리서치가 미국 미네소타주에서 제조하는 스테인리스강제 싱글액션 리볼버입니다. 5발 실린더에 .45-70 거버먼트처럼 보통 소총에 사용하는 탄약을 장전하는 것으로 알려져 있습니다. 이 특별 제작형은 긴 프레임 설계를 한계까지 확장했습니다. 프레임과 실린더, 총열을 12.7x99mm NATO(.50 BMG) 중기관총탄에 맞게 키우면서도 손에 쥘 수 있도록 손잡이 크기는 표준형에 가깝게 유지했습니다. 매 발사 전에 해머를 수동으로 젖혀야 하며, 장전구를 통해 약실에 한 발씩 장전하고 탄피를 하나씩 배출해야 합니다. 무겁고 느리며 손목에 엄청난 부담을 줍니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "8761425ea541ecd505a479ad Name",
+        "source": "BFR .50 BMG 5-round cylinder",
+        "translation": "BFR .50 BMG 5발 실린더",
+        "display_type": "item_name"
+      },
+      {
+        "key": "8761425ea541ecd505a479ad ShortName",
+        "source": "BFR cyl.",
+        "translation": "BFR 실린더"
+      },
+      {
+        "key": "8761425ea541ecd505a479ad Description",
+        "source": "A five-chamber .50 BMG cylinder for the BFR .50 BMG revolver.",
+        "translation": "BFR .50 BMG 리볼버용 .50 BMG 5발 실린더입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "fd3741820feaf281c62fceef Name",
+        "source": "Handcannon PZ",
+        "translation": "핸드캐넌 PZ",
+        "display_type": "item_name"
+      },
+      {
+        "key": "fd3741820feaf281c62fceef ShortName",
+        "source": "Handcannon",
+        "translation": "핸드캐넌"
+      },
+      {
+        "key": "fd3741820feaf281c62fceef Description",
+        "source": "The Handcannon PZ is a heavy single-action revolver chambered for 7.62x51 NATO, a full-power rifle cartridge. It has a stainless steel frame with a wooden grip, a five-round cylinder and a long, heavy barrel. The hammer must be cocked by hand before every shot, and the cylinder is loaded and emptied one chamber at a time through the loading gate on the right side, with the ejector rod pushing out each spent case. Part of the propellant gas escapes through the gap between the cylinder and the barrel, so the bullet leaves the muzzle slower than from a rifle and the blast is fierce.",
+        "translation": "핸드캐넌 PZ는 본격적인 소총탄인 7.62x51mm NATO 탄약을 사용하는 대형 싱글액션 리볼버입니다. 나무 손잡이가 달린 스테인리스강 프레임과 5발 실린더, 길고 무거운 총열을 갖추고 있습니다. 매 발사 전에 해머를 손으로 젖혀야 하며, 오른쪽 장전구를 통해 약실에 한 발씩 장전하고 탄피를 배출합니다. 이때 배출봉으로 사용한 탄피를 하나씩 밀어냅니다. 실린더와 총열 사이의 틈으로 추진 가스 일부가 빠져나가므로, 소총에서 발사할 때보다 탄속이 낮고 총구 폭풍이 강렬합니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "57d6c384a679bfbc994a98d4 Name",
+        "source": "Handcannon PZ 5-round 7.62x51 cylinder",
+        "translation": "핸드캐넌 PZ 7.62x51 5발 실린더",
+        "display_type": "item_name"
+      },
+      {
+        "key": "57d6c384a679bfbc994a98d4 ShortName",
+        "source": "HC cyl.",
+        "translation": "HC 실린더"
+      },
+      {
+        "key": "57d6c384a679bfbc994a98d4 Description",
+        "source": "A five-chamber 7.62x51 cylinder for the Handcannon PZ revolver.",
+        "translation": "핸드캐넌 PZ 리볼버용 7.62x51 5발 실린더입니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "b239ff5680843899b92c4214 Name",
+        "source": "M69 practice hand grenade",
+        "translation": "M69 연습용 수류탄",
+        "display_type": "item_name"
+      },
+      {
+        "key": "b239ff5680843899b92c4214 ShortName",
+        "source": "M69",
+        "translation": "M69"
+      },
+      {
+        "key": "b239ff5680843899b92c4214 Description",
+        "source": "The M69 is the practice version of the M67 hand grenade: same size, weight and handling, with a blue body that marks it as inert. The fuze still works, so after the delay it goes off with a sharp pop, and nothing else happens: no blast, no fragments, no damage. Made for training throws, and good for making someone very nervous. It cannot be set up as a tripwire.",
+        "translation": "M69는 M67 세열수류탄의 훈련용 버전으로, 크기와 무게, 취급 방식이 동일하며 파란색 몸체로 불활성 상태임을 나타냅니다. 신관은 여전히 작동하므로 지연 시간이 지나면 날카로운 터지는 소리만 납니다. 폭발 충격도, 파편도, 피해도 전혀 없습니다. 투척 훈련용으로 만들어졌지만 누군가를 잔뜩 긴장시키기에도 좋습니다. 인계철선 함정으로 설치할 수는 없습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "d8797e31362d4c6c7030190a Name",
+        "source": "Tactical nuclear hand grenade",
+        "translation": "전술 핵 수류탄",
+        "display_type": "item_name"
+      },
+      {
+        "key": "d8797e31362d4c6c7030190a ShortName",
+        "source": "NUKE",
+        "translation": "NUKE"
+      },
+      {
+        "key": "d8797e31362d4c6c7030190a Description",
+        "source": "A hand grenade that should not exist. The fuze takes 15 seconds, enough time to throw it far and run even farther. Anyone within 80 meters of the blast dies, cover or not; out to 160 meters the blast wave still tears apart whoever is not behind something solid, and the flash and the shockwave are felt hundreds of meters away. Do not look at it. It can be set up as a tripwire: the 15 second fuze starts when someone trips the wire.",
+        "translation": "존재해서는 안 되는 수류탄입니다. 신관 작동 시간은 15초로, 멀리 던지고 훨씬 더 멀리 달아날 정도의 시간은 있습니다. 폭발 지점에서 80m 이내에 있는 사람은 엄폐물의 유무와 관계없이 사망합니다. 160m 거리까지는 견고한 엄폐물 뒤에 있지 않은 사람을 폭풍이 여전히 찢어발기며, 섬광과 충격파는 수백 미터 밖에서도 느껴집니다. 폭발을 바라보지 마십시오. 인계철선 함정으로 설치할 수도 있으며, 누군가 철선을 건드리면 15초 신관이 작동하기 시작합니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "6766bdb3e654a22d0549ec85 Name",
+        "source": "Oil Filter Suppressor",
+        "translation": "오일 필터 소음기",
+        "display_type": "item_name"
+      },
+      {
+        "key": "6766bdb3e654a22d0549ec85 ShortName",
+        "source": "Oil Filter",
+        "translation": "오일 필터"
+      },
+      {
+        "key": "6766bdb3e654a22d0549ec85 Description",
+        "source": "The Oil Filter Suppressor is a popular choice for home-made suppressors. The oil filter is modified to accept a firearm barrel and baffles. The suppressor is effective at reducing the sound of a firearm, but is not as effective as a professionally manufactured suppressor.",
+        "translation": "오일 필터 소음기는 사제 소음기를 만들 때 널리 쓰이는 방식 중 하나입니다. 차량용 오일 필터를 개조해 총열에 결합하고 내부에 배플을 장착한 것입니다. 총성을 줄이는 데 효과가 있지만 전문 제조업체에서 만든 소음기만큼 효과적이지는 않습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "15e668ecb09109539eee5e6b Name",
+        "source": "PKM-12 belt-fed shotgun",
+        "translation": "PKM-12 벨트 급탄식 산탄총",
+        "display_type": "item_name"
+      },
+      {
+        "key": "15e668ecb09109539eee5e6b ShortName",
+        "source": "PKM-12",
+        "translation": "PKM-12"
+      },
+      {
+        "key": "15e668ecb09109539eee5e6b Description",
+        "source": "A PKM general-purpose machine gun rebuilt by a Tarkov workshop to run 12 gauge shells from a belt. The rifle barrel was swapped for a heavy smoothbore tube that takes Saiga-12 muzzle devices, and the 100-round box was enlarged to hold a 50-shell belt with widened links. Nobody asked for it, and nobody can stop it.",
+        "translation": "타르코프의 한 작업장에서 PKM 다목적 기관총을 개조해 12게이지 산탄을 탄띠로 급탄하도록 만든 총기입니다. 기존 소총탄용 총열을 사이가-12 총구 장치를 장착할 수 있는 두꺼운 활강총열로 교체했고, 100발 탄약통을 확장해 연결 고리가 넓어진 12게이지 탄띠 50발을 수납할 수 있도록 했습니다. 아무도 이런 총을 원한 적 없지만, 이제는 아무도 막을 수 없습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "f1356d48ee823965a7ae5be0 Name",
+        "source": "PKM-12 658mm 12ga smoothbore barrel",
+        "translation": "PKM-12 658mm 12게이지 활강총열",
+        "display_type": "item_name"
+      },
+      {
+        "key": "f1356d48ee823965a7ae5be0 ShortName",
+        "source": "PKM-12 658mm",
+        "translation": "PKM-12 658mm"
+      },
+      {
+        "key": "f1356d48ee823965a7ae5be0 Description",
+        "source": "A heavy 658mm smoothbore 12 gauge barrel for the PKM-12, with the PKM gas block, front sight and carry handle. The muzzle is threaded for Saiga-12 devices.",
+        "translation": "PKM-12용 658mm 중량급 12게이지 활강총열입니다. PKM 가스 블록과 가늠쇠, 운반 손잡이가 달려 있습니다. 총구에는 사이가-12용 장치를 장착할 수 있는 나사산이 있습니다.",
+        "display_type": "item_description"
+      },
+      {
+        "key": "0392e531b243fb263c40ffc6 Name",
+        "source": "PKM-12 12ga 50-round box",
+        "translation": "PKM-12 12게이지 50발 탄약통",
+        "display_type": "item_name"
+      },
+      {
+        "key": "0392e531b243fb263c40ffc6 ShortName",
+        "source": "PK-12 50",
+        "translation": "PK-12 50"
+      },
+      {
+        "key": "0392e531b243fb263c40ffc6 Description",
+        "source": "An enlarged PK ammo box holding a 50-shell belt of 12 gauge with widened links. Fits only the PKM-12.",
+        "translation": "연결 고리가 넓어진 12게이지 탄띠 50발을 수납할 수 있도록 확장한 PK 탄약통입니다. PKM-12에만 장착할 수 있습니다.",
+        "display_type": "item_description"
+      }
+    ]
+  }
+}

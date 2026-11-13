@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "jrs.k9companion",
   "mod_name": "K9Companion",
-  "mod_version": "1.1.0",
+  "mod_version": "1.3.2",
   "channels": {
     "locale": [
       {
@@ -121,15 +121,15 @@
       },
       {
         "key": "6a5d0c0c4fb9a3c5e1d20500",
-        "source": "Stash found in raid dog food in the ZB-016 bunker on Woods",
-        "translation": "삼림의 ZB-016 벙커에 레이드에서 발견한 개 사료 숨기기",
+        "source": "Stash dog food in the ZB-016 bunker on Woods",
+        "translation": "삼림의 ZB-016 벙커에 개 사료 숨기기",
         "match_mode": "exact",
         "display_type": "quest_objective"
       },
       {
         "key": "6a5d0c0c4fb9a3c5e1d20501",
-        "source": "Stash found in raid drinking water in the ZB-016 bunker on Woods",
-        "translation": "삼림의 ZB-016 벙커에 레이드에서 발견한 식수 숨기기",
+        "source": "Stash drinking water in the ZB-016 bunker on Woods",
+        "translation": "삼림의 ZB-016 벙커에 식수 숨기기",
         "match_mode": "exact",
         "display_type": "quest_objective"
       },
@@ -1064,8 +1064,8 @@
       },
       {
         "key": "6a5d0c0c4fb9a3c5e1d0d074 Description",
-        "source": "Armour class 2 over the chest and back, durability 30; the dog moves at 98% speed in it. Wear carries over between raids; repair it at a kennel with a Working Dog Station using aramid, Cordura or ripstop fabric, or KEKTAPE. A K9 action camera clips onto it. Carries a 4x4 load. Put it on your dog in the DOG tab and fill it like any container; it goes into PMC raids with the dog (look at the dog and press your interact key to open it) and comes home with you when you both make it out.",
-        "translation": "가슴과 등을 보호하는 방어구 등급 2, 내구도 30의 방탄조끼입니다. 착용 시 반려견의 이동 속도는 98%가 됩니다. 손상 상태는 레이드 사이에도 유지되며, 사역견 시설을 갖춘 견사에서 아라미드, 코듀라, 립스톱 천 또는 켁테이프으로 수리할 수 있습니다. K9 액션 카메라를 부착할 수 있습니다. 4×4칸의 물품을 수납합니다. DOG 탭에서 개에게 장착한 뒤 일반 보관함처럼 물품을 넣으십시오. PMC 레이드에 반려견과 함께 가져가며, 개를 바라보고 상호작용 키를 누르면 열 수 있습니다. 플레이어와 개가 모두 생존하여 탈출하면 내용물도 함께 돌아옵니다.",
+        "source": "Armour class 2 over the chest and back, durability 30; the dog moves at 98% speed in it. Wear carries over between raids; repair it at a kennel with a Working Dog Station using aramid, Cordura or ripstop fabric, or KEKTAPE. Carries a 4x4 load. Put it on your dog in the DOG tab and fill it like any container; it goes into PMC raids with the dog (look at the dog and press your interact key to open it) and comes home with you when you both make it out.",
+        "translation": "가슴과 등을 보호하는 방어구 등급 2, 내구도 30의 방탄조끼입니다. 착용 시 반려견의 이동 속도는 98%가 됩니다. 손상 상태는 레이드 사이에도 유지되며, 사역견 시설을 갖춘 견사에서 아라미드, 코듀라, 립스톱 천 또는 켁테이프로 수리할 수 있습니다. 4×4칸의 물품을 수납합니다. DOG 탭에서 개에게 장착한 뒤 일반 보관함처럼 물품을 넣으십시오. PMC 레이드에 반려견과 함께 가져가며, 개를 바라보고 상호작용 키를 누르면 열 수 있습니다. 플레이어와 개가 모두 생존하여 탈출하면 내용물도 함께 돌아옵니다.",
         "match_mode": "exact",
         "display_type": "item_description",
         "seed_missing": true
@@ -1087,8 +1087,8 @@
       },
       {
         "key": "6a5d0c0c4fb9a3c5e1d0d072 Description",
-        "source": "Armour class 5 over the chest and back, durability 60; the dog moves at 86% speed in it. Wear carries over between raids; repair it at a kennel with a Working Dog Station using aramid fiber or Cordura fabric. A K9 action camera clips onto it. Carries a 6x5 load. Put it on your dog in the DOG tab and fill it like any container; it goes into PMC raids with the dog (look at the dog and press your interact key to open it) and comes home with you when you both make it out.",
-        "translation": "가슴과 등을 보호하는 방어구 등급 5, 내구도 60의 방탄조끼입니다. 착용 시 반려견의 이동 속도는 86%가 됩니다. 손상 상태는 레이드 사이에도 유지되며, 사역견 시설을 갖춘 견사에서 아라미드 섬유 또는 코듀라 천으로 수리할 수 있습니다. K9 액션 카메라를 부착할 수 있습니다. 6×5칸의 물품을 수납합니다. DOG 탭에서 개에게 장착한 뒤 일반 보관함처럼 물품을 넣으십시오. PMC 레이드에 반려견과 함께 가져가며, 개를 바라보고 상호작용 키를 누르면 열 수 있습니다. 플레이어와 개가 모두 생존하여 탈출하면 내용물도 함께 돌아옵니다.",
+        "source": "Armour class 5 over the chest and back, durability 60; the dog moves at 86% speed in it. Wear carries over between raids; repair it at a kennel with a Working Dog Station using aramid fiber or Cordura fabric. Carries a 6x5 load. Put it on your dog in the DOG tab and fill it like any container; it goes into PMC raids with the dog (look at the dog and press your interact key to open it) and comes home with you when you both make it out.",
+        "translation": "가슴과 등을 보호하는 방어구 등급 5, 내구도 60의 방탄조끼입니다. 착용 시 반려견의 이동 속도는 86%가 됩니다. 손상 상태는 레이드 사이에도 유지되며, 사역견 시설을 갖춘 견사에서 아라미드 섬유 또는 코듀라 천으로 수리할 수 있습니다. 6×5칸의 물품을 수납합니다. DOG 탭에서 개에게 장착한 뒤 일반 보관함처럼 물품을 넣으십시오. PMC 레이드에 반려견과 함께 가져가며, 개를 바라보고 상호작용 키를 누르면 열 수 있습니다. 플레이어와 개가 모두 생존하여 탈출하면 내용물도 함께 돌아옵니다.",
         "match_mode": "exact",
         "display_type": "item_description",
         "seed_missing": true
@@ -2181,6 +2181,1832 @@
         "source": "Built",
         "translation": "건설 완료",
         "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-176",
+        "source": "Terrain",
+        "translation": "지형",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-177",
+        "source": "Belly strap",
+        "translation": "복부 고정끈",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-178",
+        "source": "Dog food bag",
+        "translation": "개 사료 가방",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-179",
+        "source": "Food bowl",
+        "translation": "사료 그릇",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-180",
+        "source": "Food dish",
+        "translation": "사료 그릇",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-181",
+        "source": "Food storage barrel",
+        "translation": "사료 보관통",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-182",
+        "source": "K9 armour cabinet",
+        "translation": "K9 방호 장비 보관함",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-183",
+        "source": "Toy box",
+        "translation": "장난감 상자",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-184",
+        "source": "Veterinary table",
+        "translation": "동물 진료대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-185",
+        "source": "Water bowl",
+        "translation": "물그릇",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-186",
+        "source": "Water dish",
+        "translation": "물그릇",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-194",
+        "source": "Can't open the jacket right now.",
+        "translation": "지금은 재킷을 열 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-195",
+        "source": "Dog gear icon {0}",
+        "translation": "반려견 장비 아이콘 {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-196",
+        "source": "Dog slot {0}",
+        "translation": "반려견 장비 슬롯 {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-197",
+        "source": "K9 gear {0}",
+        "translation": "K9 장비 {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-198",
+        "source": "The dog isn't wearing a jacket this raid.",
+        "translation": "이번 레이드에서 반려견이 재킷을 착용하지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-199",
+        "source": "DOWN",
+        "translation": "쓰러짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-200",
+        "source": "DOWN  {0}",
+        "translation": "쓰러짐  {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-201",
+        "source": "KILLED",
+        "translation": "사망",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-202",
+        "source": "CAMERA",
+        "translation": "카메라",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-203",
+        "source": "COLLAR",
+        "translation": "목줄",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-205",
+        "source": "HEAD",
+        "translation": "머리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-206",
+        "source": "Health {0}%   Hunger {1}%   Thirst {2}%",
+        "translation": "체력 {0}%   허기 {1}%   갈증 {2}%",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-207",
+        "source": "JACKET",
+        "translation": "재킷",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-208",
+        "source": "K9 dog row",
+        "translation": "반려견 행",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-209",
+        "source": "K9 paw",
+        "translation": "K9 발바닥 아이콘",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-210",
+        "source": "None",
+        "translation": "없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-214",
+        "source": "Stays home: {0}",
+        "translation": "견사에 남음: {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-215",
+        "source": "TAKE DOG: {0}",
+        "translation": "반려견 동행: {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-216",
+        "source": "{0}  LOADOUT",
+        "translation": "{0}  장비",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-217",
+        "source": "{0}NO",
+        "translation": "{0}아니요",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-218",
+        "source": "{0}YES",
+        "translation": "{0}예",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-219",
+        "source": "(Some of this is set by the server.)",
+        "translation": "(일부 설정은 서버에서 결정됩니다.)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-220",
+        "source": "+{0}% an hour",
+        "translation": "시간당 +{0}%",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-221",
+        "source": "<b>Class {0}</b>",
+        "translation": "<b>방탄 등급 {0}</b>",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-222",
+        "source": "<color=#9a9a94>No jacket</color>",
+        "translation": "<color=#9a9a94>재킷 없음</color>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-223",
+        "source": "<color=#9fc58a>ready to deploy</color>",
+        "translation": "<color=#9fc58a>출격 준비 완료</color>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-224",
+        "source": "<color=#c9705f>Dead</color>",
+        "translation": "<color=#c9705f>사망</color>",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-225",
+        "source": "Also goes for whoever shoots at you or it, up to {0} m away, unasked.",
+        "translation": "플레이어나 반려견을 공격한 적이 {0}m 이내에 있으면 명령 없이도 공격합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-229",
+        "source": "Armoured jackets need aramid fiber or Cordura fabric.",
+        "translation": "방호 재킷에는 아라미드 섬유 또는 코듀라 원단이 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-232",
+        "source": "Behaviour",
+        "translation": "행동 방식",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-234",
+        "source": "Building the {0}: {1}",
+        "translation": "{0} 건설 중: {1}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-235",
+        "source": "Class {0}",
+        "translation": "방탄 등급 {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-236",
+        "source": "click to wear",
+        "translation": "클릭하여 착용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-239",
+        "source": "COMES WITH YOU",
+        "translation": "함께 출격",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-240",
+        "source": "Dead",
+        "translation": "사망",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-243",
+        "source": "Dog outline",
+        "translation": "반려견 윤곽",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-244",
+        "source": "Drag a K9 jacket, goggles or collar into its slot; plates and an action camera onto the jacket. Jacket and goggles go into PMC raids with the dog and are lost if you die, or if it's killed and you don't take its gear off it; the collar is never lost.",
+        "translation": "K9 재킷·고글·목줄을 해당 슬롯으로, 방탄판과 액션 카메라는 재킷으로 드래그하십시오. 재킷과 고글은 반려견과 함께 PMC 레이드에 출격하며, 플레이어가 사망하거나 반려견이 죽은 뒤 장비를 회수하지 못하면 잃게 됩니다. 목줄은 잃지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-246",
+        "source": "drank the {0}.",
+        "translation": "{0}을(를) 마셨습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-250",
+        "source": "food {0}%  water {1}%",
+        "translation": "사료 {0}%  물 {1}%",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-256",
+        "source": "GROUP RAIDS",
+        "translation": "그룹 레이드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-259",
+        "source": "Healthy",
+        "translation": "건강",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-262",
+        "source": "Jacket",
+        "translation": "재킷",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-264",
+        "source": "Jacket repaired with the {0} (+{1}).",
+        "translation": "{0}(으)로 재킷을 수리했습니다 (+{1}).",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-265",
+        "source": "K9 dog",
+        "translation": "반려견",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-266",
+        "source": "K9 dog  ·  {0}",
+        "translation": "반려견  ·  {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-267",
+        "source": "K9 DOG tab",
+        "translation": "K9 DOG 탭",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-271",
+        "source": "LEVEL {0}",
+        "translation": "{0}단계",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-272",
+        "source": "Lining the bed takes a K9 fleece bed liner or 1 fleece fabric.",
+        "translation": "침대에 플리스 안감을 대려면 K9 플리스 침대 안감 또는 플리스 원단 1개가 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-275",
+        "source": "Needs aramid, Cordura or ripstop fabric, or KEKTAPE.",
+        "translation": "아라미드·코듀라·립스톱 원단 또는 KEKTAPE가 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-277",
+        "source": "Next: {0}",
+        "translation": "다음: {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-278",
+        "source": "Next: {0}  ·  ready to build in your Rest Space",
+        "translation": "다음: {0}  ·  은신처 휴식 공간에서 건설 가능",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-279",
+        "source": "Next: {0}  ·  {1}",
+        "translation": "다음: {0}  ·  {1}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-285",
+        "source": "No jacket",
+        "translation": "재킷 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-288",
+        "source": "No K9 veterinary kit on you or in {0}",
+        "translation": "소지품이나 {0}에 K9 수의용 구급상자가 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-289",
+        "source": "No room to put the current jacket away.",
+        "translation": "현재 재킷을 보관할 공간이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-301",
+        "source": "PRESET {0}",
+        "translation": "프리셋 {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-302",
+        "source": "Preset {0}",
+        "translation": "프리셋 {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-303",
+        "source": "Preset {0}: {1}.",
+        "translation": "프리셋 {0}: {1}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-304",
+        "source": "Put a jacket on the dog first, then save it here.",
+        "translation": "먼저 반려견에게 재킷을 입힌 다음 여기에 저장하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-305",
+        "source": "quest Trust Is Earned",
+        "translation": "'신뢰는 쌓는 것입니다' 퀘스트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-312",
+        "source": "shift-click to save the jacket on the dog",
+        "translation": "Shift+클릭하여 반려견에게 착용된 재킷 저장",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-314",
+        "source": "Speed {0}%",
+        "translation": "속도 {0}%",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-316",
+        "source": "STAYS HOME",
+        "translation": "견사에 남기기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-318",
+        "source": "Straight at anything within {0} m, and works its way in to anything further off.",
+        "translation": "{0}m 이내의 적에게는 곧장 돌격하고, 더 먼 적에게는 은밀하게 접근합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-320",
+        "source": "That jacket can't be moved there.",
+        "translation": "그 재킷은 해당 위치로 옮길 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-321",
+        "source": "That jacket is gone; the preset is cleared.",
+        "translation": "재킷이 사라져 프리셋을 초기화했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-322",
+        "source": "The dog is already wearing it.",
+        "translation": "반려견이 이미 착용하고 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-324",
+        "source": "The dog's bed is now a {0}",
+        "translation": "반려견의 침대가 {0}(으)로 변경되었습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-325",
+        "source": "The dog's gear isn't set up yet.",
+        "translation": "반려견 장비가 아직 설정되지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-327",
+        "source": "The jacket couldn't be moved.",
+        "translation": "재킷을 옮기지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-329",
+        "source": "The jacket slot couldn't be shown.",
+        "translation": "재킷 슬롯을 표시하지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-330",
+        "source": "The locker is set up the next time you start the game.",
+        "translation": "다음 게임 실행 시 보관함이 설치됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-332",
+        "source": "Thermal bedding takes a K9 thermal dog bed, or 2 ripstop fabric and 1 paracord.",
+        "translation": "보온 침구에는 K9 보온 침대 또는 립스톱 원단 2개와 파라코드 1개가 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-336",
+        "source": "Training takes a K9 training kit (Dr. Yang, loyalty level 2).",
+        "translation": "훈련하려면 K9 훈련 키트가 필요합니다(양 박사 우호도 2단계).",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-342",
+        "source": "Works its way in out of sight, then rushes the last few metres.",
+        "translation": "시야에 들키지 않고 접근하다가 마지막 몇 미터에서 돌진합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-345",
+        "source": "{0} ate the {1}.",
+        "translation": "{0}이(가) {1}을(를) 먹었습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-346",
+        "source": "{0} bowl filled with the {1}.",
+        "translation": "{0} 그릇에 {1}을(를) 채웠습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-347",
+        "source": "{0} in stock",
+        "translation": "재고 {0}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-348",
+        "source": "{0} items inside",
+        "translation": "내부 아이템 {0}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-349",
+        "source": "{0} m away.",
+        "translation": "{0}m 떨어짐",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-350",
+        "source": "{0} of 3",
+        "translation": "{0}/3",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-351",
+        "source": "{0} trained with the {1}: training level {2}",
+        "translation": "{0}이(가) {1}(으)로 훈련했습니다: 훈련 {2}단계",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-352",
+        "source": "{0} vet kit",
+        "translation": "{0}개 수의용 구급상자",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-353",
+        "source": "{0} vet kits",
+        "translation": "{0}개 수의용 구급상자",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-354",
+        "source": "{0} · worn",
+        "translation": "{0} · 착용 중",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-355",
+        "source": "{0}% as fast",
+        "translation": "기본 대비 속도 {0}%",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-356",
+        "source": "{0}'s jacket.",
+        "translation": "{0}의 재킷.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-357",
+        "source": "{0}, smells valuables up to {1}",
+        "translation": "{0}, {1} 이내의 귀중품을 냄새로 탐지",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-358",
+        "source": "{0}: it rests better.",
+        "translation": "{0}: 더 편안하게 휴식합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-359",
+        "source": "{0}: {1} item(s).",
+        "translation": "{0}: 아이템 {1}개.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-360",
+        "source": "{0}h {1}m left",
+        "translation": "남은 시간 {0}시간 {1}분",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-371",
+        "source": "Armour locker, jacket repairs, 2 equipment presets, better rest",
+        "translation": "방호 장비 보관함, 재킷 수리, 장비 프리셋 2개, 향상된 휴식",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-372",
+        "source": "Bed.",
+        "translation": "침대.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-373",
+        "source": "BUILD",
+        "translation": "건설",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-374",
+        "source": "Build the K9 Kennel first: then it can be moved.",
+        "translation": "먼저 K9 견사를 건설해야 이동할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-375",
+        "source": "Build the {0}",
+        "translation": "{0} 건설",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-378",
+        "source": "Dog bed and bowls, food and water, the dog's health and condition, deployment",
+        "translation": "반려견 침대와 사료·물그릇, 먹이와 물, 반려견의 건강·상태 및 출격 관리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-379",
+        "source": "furniture in the way",
+        "translation": "가구가 앞을 막고 있음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-381",
+        "source": "K9 KENNEL",
+        "translation": "K9 견사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-382",
+        "source": "K9 Kennel",
+        "translation": "K9 견사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-383",
+        "source": "K9 Kennel icon",
+        "translation": "K9 견사 아이콘",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-384",
+        "source": "K9 KENNEL UPGRADES",
+        "translation": "K9 견사 업그레이드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-385",
+        "source": "Ladder",
+        "translation": "사다리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-386",
+        "source": "Move the kennel with the paw over it on the overview.",
+        "translation": "개요 화면에서 견사 위 발바닥 아이콘을 사용해 견사를 이동하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-387",
+        "source": "Needs a dog: Dr. Yang's quest Trust Is Earned",
+        "translation": "반려견 필요: 양 박사의 '신뢰는 쌓는 것입니다' 퀘스트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-388",
+        "source": "no floor",
+        "translation": "바닥 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-389",
+        "source": "no floor where the bunk bed was",
+        "translation": "2층 침대가 있던 자리에 바닥 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-390",
+        "source": "no room for the kennel's furniture",
+        "translation": "견사 가구를 배치할 공간 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-391",
+        "source": "no room in front",
+        "translation": "앞쪽 공간 부족",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-392",
+        "source": "Requires Dr. Yang loyalty level {0}",
+        "translation": "양 박사 우호도 {0}단계 필요",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r002-393",
+        "source": "The bed is in the hideout.",
+        "translation": "침대가 은신처에 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-394",
+        "source": "Under construction",
+        "translation": "건설 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-395",
+        "source": "uneven floor",
+        "translation": "바닥이 평평하지 않음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-396",
+        "source": "uneven floor for the kennel's furniture",
+        "translation": "견사 가구를 놓을 바닥이 평평하지 않음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-397",
+        "source": "Veterinary station (+50% healing), 4 presets, faster recovery, military kennel",
+        "translation": "동물 진료소(치료 효과 +50%), 프리셋 4개, 회복 속도 증가, 군용 견사",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r002-locked",
+        "source": "LOCKED",
+        "translation": "잠김",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-001",
+        "source": "Call {0}",
+        "translation": "{0} 부르기",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-002",
+        "source": "Couldn't use the K9 veterinary kit.",
+        "translation": "K9 동물용 구급키트를 사용할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-003",
+        "source": "Couldn't use the K9 veterinary kit: restart the SPT server if you've just updated the mod.",
+        "translation": "K9 동물용 구급키트를 사용할 수 없습니다. 방금 모드를 업데이트했다면 SPT 서버를 다시 시작해 주십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-004",
+        "source": "Couldn't use the {0}",
+        "translation": "{0}을(를) 사용할 수 없습니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-005",
+        "source": "Feed{0}",
+        "translation": "먹이 주기{0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-006",
+        "source": "Fill food dish{0}",
+        "translation": "사료 그릇 채우기{0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-007",
+        "source": "Fill water dish{0}",
+        "translation": "물그릇 채우기{0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-008",
+        "source": "Food{0}",
+        "translation": "사료{0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-009",
+        "source": "Get closer to {0}",
+        "translation": "{0}에 더 가까이 다가가십시오",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-010",
+        "source": "Give water{0}",
+        "translation": "물 주기{0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-011",
+        "source": "No dog",
+        "translation": "반려견 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-012",
+        "source": "No dog food or meat",
+        "translation": "개 사료 또는 개고기 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-013",
+        "source": "No dog food or meat in your gear or the dog's jacket.",
+        "translation": "소지한 장비나 반려견 재킷에 개 사료 또는 개고기가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-014",
+        "source": "No dog food or meat in your stash or gear.",
+        "translation": "보관함이나 장비에 개 사료 또는 개고기가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-016",
+        "source": "No water",
+        "translation": "물 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-017",
+        "source": "No water in your gear or the dog's jacket.",
+        "translation": "소지한 장비나 반려견 재킷에 물이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-018",
+        "source": "No water in your stash or gear.",
+        "translation": "보관함이나 장비에 물이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-019",
+        "source": "Stop moving to treat {0}",
+        "translation": "{0}을(를) 치료하려면 움직이지 마십시오",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-020",
+        "source": "Survival needs are off",
+        "translation": "생존 욕구 비활성화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-022",
+        "source": "Take the kit first.",
+        "translation": "먼저 구급키트를 챙기십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-023",
+        "source": "That can't be given to the dog.",
+        "translation": "그 물건은 반려견에게 줄 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-024",
+        "source": "The food dish is full.",
+        "translation": "사료 그릇이 가득 찼습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-025",
+        "source": "The food is gone.",
+        "translation": "먹이가 없어졌습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-026",
+        "source": "The K9 veterinary kit is for a dog: you have none yet.",
+        "translation": "K9 동물용 구급키트는 반려견에게 사용하는 물건입니다. 아직 반려견이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-027",
+        "source": "The kennel isn't set up yet.",
+        "translation": "견사가 아직 준비되지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-028",
+        "source": "The kit is gone.",
+        "translation": "구급키트가 없어졌습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-029",
+        "source": "The water dish is full.",
+        "translation": "물그릇이 가득 찼습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-030",
+        "source": "This kit is empty.",
+        "translation": "이 구급키트는 비어 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-031",
+        "source": "Treating {0}",
+        "translation": "{0} 치료 중",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-032",
+        "source": "Treatment stopped.",
+        "translation": "치료를 중단했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-033",
+        "source": "Water{0}",
+        "translation": "물{0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-034",
+        "source": "You're already treating {0}",
+        "translation": "이미 {0}을(를) 치료하고 있습니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-036",
+        "source": "{0} ate the {1}",
+        "translation": "{0}이(가) {1}을(를) 먹었습니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-037",
+        "source": "{0} dish filled with {1}",
+        "translation": "{0} 그릇을 {1}(으)로 채웠습니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-038",
+        "source": "{0} drank the {1}",
+        "translation": "{0}이(가) {1}을(를) 마셨습니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-039",
+        "source": "{0} is already eating.",
+        "translation": "{0}이(가) 이미 먹는 중입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-040",
+        "source": "{0} is back on its feet, at {1}%.",
+        "translation": "{0}이(가) 다시 일어났습니다. 체력 {1}%.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-041",
+        "source": "{0} is dead.",
+        "translation": "{0}이(가) 죽었습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-042",
+        "source": "{0} is eating.",
+        "translation": "{0}이(가) 먹는 중입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-043",
+        "source": "{0} is fighting.",
+        "translation": "{0}이(가) 교전 중입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-044",
+        "source": "{0} is hungry.{1}",
+        "translation": "{0}이(가) 배고파합니다.{1}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-045",
+        "source": "{0} is in good health.",
+        "translation": "{0}의 건강 상태가 양호합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-046",
+        "source": "{0} is thirsty.{1}",
+        "translation": "{0}이(가) 목말라합니다.{1}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-047",
+        "source": "{0} isn't hungry.",
+        "translation": "{0}은(는) 배고프지 않습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-048",
+        "source": "{0} isn't hurt.",
+        "translation": "{0}은(는) 다치지 않았습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-049",
+        "source": "{0} isn't thirsty.",
+        "translation": "{0}은(는) 목마르지 않습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-050",
+        "source": "{0} It's slowing down.",
+        "translation": "{0} 속도가 느려지고 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-051",
+        "source": "{0} over first.",
+        "translation": "먼저 {0}을(를) 처리하십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-052",
+        "source": "{0} was treated (+{1}%): now at {2}%.",
+        "translation": "{0}을(를) 치료했습니다(+{1}%). 현재 체력 {2}%.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-053",
+        "source": "behind you",
+        "translation": "뒤쪽",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-054",
+        "source": "Breaking off.",
+        "translation": "추격 중단.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-055",
+        "source": "Can't get to the target.",
+        "translation": "목표 지점에 갈 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-056",
+        "source": "Can't reach the target.",
+        "translation": "목표물에 접근할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-057",
+        "source": "Gave up the chase.",
+        "translation": "추격을 포기했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-058",
+        "source": "Head",
+        "translation": "머리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-059",
+        "source": "Lost the target.",
+        "translation": "목표물을 놓쳤습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-060",
+        "source": "Neck",
+        "translation": "목",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-061",
+        "source": "Target down.",
+        "translation": "목표물 제압.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-062",
+        "source": "to your left",
+        "translation": "왼쪽",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-063",
+        "source": "to your right",
+        "translation": "오른쪽",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-064",
+        "source": "Too far from you.",
+        "translation": "플레이어와 너무 멀리 떨어져 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-065",
+        "source": "Torso",
+        "translation": "몸통",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-066",
+        "source": "You have {0} s.",
+        "translation": "남은 시간 {0}초.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-067",
+        "source": "{0} Coming back.",
+        "translation": "{0}이(가) 복귀 중입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-068",
+        "source": "{0} goes for {1}",
+        "translation": "{0}이(가) {1}을(를) 공격합니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-069",
+        "source": "{0} goes in!",
+        "translation": "{0}이(가) 돌진합니다!",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-070",
+        "source": "{0} growls: enemy {1}, about {2} m. Order Over There to send it in.",
+        "translation": "{0}이(가) 으르렁거립니다. 약 {2}m 거리에 적 {1}이(가) 있습니다. '저기로' 명령을 내려 공격하게 하십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-071",
+        "source": "{0} has been killed.",
+        "translation": "{0}이(가) 처치됐습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-072",
+        "source": "{0} has died of its wounds.",
+        "translation": "{0}이(가) 부상으로 죽었습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-073",
+        "source": "{0} is dead",
+        "translation": "{0} 사망",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-074",
+        "source": "{0} is down",
+        "translation": "{0} 쓰러짐",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-075",
+        "source": "{0} is down: revive it with a K9 veterinary kit.",
+        "translation": "{0}이(가) 쓰러졌습니다. K9 동물용 구급키트로 소생시키십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-076",
+        "source": "{0} is down: revive it with a K9 veterinary kit.{1}",
+        "translation": "{0}이(가) 쓰러졌습니다. K9 동물용 구급키트로 소생시키십시오.{1}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-077",
+        "source": "{0} is down: {1} s left to revive it.",
+        "translation": "{0} 쓰러짐: 소생까지 남은 시간 {1}초.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-078",
+        "source": "{0} is stalking {1}",
+        "translation": "{0}이(가) {1}에게 은밀히 접근 중입니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-079",
+        "source": "{0} is too badly hurt to fight.",
+        "translation": "{0}은(는) 부상이 심해 싸울 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-080",
+        "source": "{0} turns on {1}",
+        "translation": "{0}이(가) {1}을(를) 공격합니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-081",
+        "source": "{0}: nearer.",
+        "translation": "{0}: 더 가까이.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-082",
+        "source": "{0}: they're shooting at you.",
+        "translation": "{0}: 적이 플레이어에게 사격 중입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-083",
+        "source": "Aim at a hostile, or where to hunt, and try again.",
+        "translation": "적 또는 수색할 지점을 조준한 뒤 다시 시도하십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-084",
+        "source": "any enemy",
+        "translation": "모든 적",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-085",
+        "source": "Approach",
+        "translation": "접근 방식",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-086",
+        "source": "Approach: {0}",
+        "translation": "접근 방식: {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-087",
+        "source": "Attack: {0}",
+        "translation": "공격: {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-088",
+        "source": "Bring to me",
+        "translation": "내게 가져와",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-089",
+        "source": "Can't take its gear right now.",
+        "translation": "지금은 반려견의 장비를 가져올 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-092",
+        "source": "Come here",
+        "translation": "이리 와",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-093",
+        "source": "Come here!",
+        "translation": "이리 와!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-094",
+        "source": "Come here! {0} breaks off and stays with you for {1} s.",
+        "translation": "이리 와! {0}이(가) 교전을 중단하고 {1}초 동안 플레이어 곁에 머뭅니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-095",
+        "source": "defends you",
+        "translation": "플레이어 보호",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-097",
+        "source": "Dog: {0}",
+        "translation": "반려견: {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-098",
+        "source": "Feed",
+        "translation": "먹이",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-100",
+        "source": "Fetch (removed)",
+        "translation": "가져오기(제거됨)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-101",
+        "source": "Fill the {0} bowl ({1}%)",
+        "translation": "{0} 그릇 채우기({1}%)",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-102",
+        "source": "Follow",
+        "translation": "따라가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-105",
+        "source": "Get closer to the dog",
+        "translation": "반려견에게 더 가까이 다가가십시오",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-106",
+        "source": "Get closer to the dog.",
+        "translation": "반려견에게 더 가까이 다가가십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-109",
+        "source": "Go to bed",
+        "translation": "침대로 가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-110",
+        "source": "head gear",
+        "translation": "머리 장비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-111",
+        "source": "Its jacket couldn't be taken: {0}",
+        "translation": "반려견 재킷을 가져올 수 없습니다: {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-113",
+        "source": "Lie down",
+        "translation": "엎드려",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-118",
+        "source": "Name your dog",
+        "translation": "반려견 이름 지정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-119",
+        "source": "needs combat mode",
+        "translation": "전투 모드가 필요합니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-120",
+        "source": "no dog",
+        "translation": "반려견 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-121",
+        "source": "No jacket this raid",
+        "translation": "이번 레이드에 재킷 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-122",
+        "source": "no K9 veterinary kit",
+        "translation": "K9 동물용 구급키트 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-123",
+        "source": "No room in front of you for {0}",
+        "translation": "{0}을(를) 놓을 앞쪽 공간이 부족합니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-124",
+        "source": "No room in your gear for its {0}",
+        "translation": "장비에 반려견의 {0}을(를) 넣을 공간이 없습니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-125",
+        "source": "Not now{0}",
+        "translation": "지금은 불가능합니다{0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-126",
+        "source": "Nothing there. {0}",
+        "translation": "아무것도 없습니다. {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-127",
+        "source": "on order",
+        "translation": "명령에 따라서만",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-128",
+        "source": "Open jacket",
+        "translation": "재킷 열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-130",
+        "source": "Open {0}",
+        "translation": "{0} 열기",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-131",
+        "source": "Over there (attack)",
+        "translation": "저기로(공격)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-132",
+        "source": "Over there! ({0} m)",
+        "translation": "저기로! ({0}m)",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-133",
+        "source": "Over there! {0} goes hunting ({1} m).",
+        "translation": "저기로! {0}이(가) 사냥에 나섭니다({1}m).",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-134",
+        "source": "Over there! {0} {1} ({2} m).",
+        "translation": "저기로! {0}이(가) {1}({2}m).",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-135",
+        "source": "Pet {0}",
+        "translation": "{0} 쓰다듬기",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-137",
+        "source": "Revive {0}",
+        "translation": "{0} 소생",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-139",
+        "source": "Search (removed)",
+        "translation": "수색(제거됨)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-140",
+        "source": "set by the server",
+        "translation": "서버에서 지정함",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-141",
+        "source": "Sit",
+        "translation": "앉아",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-142",
+        "source": "Sit.",
+        "translation": "앉아.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-143",
+        "source": "Stay",
+        "translation": "기다려",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-145",
+        "source": "Take {0}",
+        "translation": "{0} 가져오기",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-146",
+        "source": "That isn't a valid target.",
+        "translation": "유효한 목표물이 아닙니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-147",
+        "source": "The dog can't get there.",
+        "translation": "반려견이 그곳으로 갈 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-148",
+        "source": "The dog can't reach that target.",
+        "translation": "반려견이 목표물에 접근할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-149",
+        "source": "The dog won't attack a friendly.",
+        "translation": "반려견은 아군을 공격하지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-150",
+        "source": "The {0} bowl is full",
+        "translation": "{0} 그릇이 가득 찼습니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-151",
+        "source": "Too far away (limit {0} m).",
+        "translation": "너무 멉니다(최대 {0}m).",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-152",
+        "source": "Use the DOG tab",
+        "translation": "DOG 탭을 사용하십시오",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-153",
+        "source": "When to attack",
+        "translation": "공격 대상",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-154",
+        "source": "You take {0}'s {1}. Get out alive and it's back on the dog.",
+        "translation": "{0}의 {1}을(를) 가져왔습니다. 살아서 탈출하면 반려견에게 돌아갑니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-155",
+        "source": "You've already taken its gear.",
+        "translation": "이미 반려견의 장비를 가져왔습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-156",
+        "source": "{0} and head gear",
+        "translation": "{0} 및 머리 장비",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-157",
+        "source": "{0} attacks on your order.",
+        "translation": "{0}은(는) 명령을 받았을 때만 공격합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-158",
+        "source": "{0} can't get there.",
+        "translation": "{0}이(가) 그곳에 갈 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-159",
+        "source": "{0} defends you: it goes for whoever shoots at you.",
+        "translation": "{0}은(는) 플레이어를 보호합니다. 플레이어를 공격하는 적에게 달려듭니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-160",
+        "source": "{0} goes for any enemy it detects.",
+        "translation": "{0}은(는) 발견한 모든 적을 공격합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-161",
+        "source": "{0} has found {1}",
+        "translation": "{0}이(가) {1}을(를) 발견했습니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-162",
+        "source": "{0} is bound in the game's Y-menu binds, so the mod's \"{1}\" key is off. Pick another key in F12, or unbind {2}.",
+        "translation": "{0}은(는) 게임의 Y 메뉴 단축키로 지정되어 있어 모드의 '{1}' 키가 비활성화됐습니다. F12에서 다른 키를 지정하거나 {2}의 바인딩을 해제하십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-163",
+        "source": "{0} is coming back.",
+        "translation": "{0}이(가) 돌아오는 중입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-164",
+        "source": "{0} is here.",
+        "translation": "{0}이(가) 곁에 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-165",
+        "source": "{0} searches the area ({1} places{2}",
+        "translation": "{0}이(가) 주변을 수색합니다({1}곳{2}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-166",
+        "source": "{0} smells something valuable: {1} ({2} m {3}).",
+        "translation": "{0}이(가) 값진 물건의 냄새를 맡았습니다: {1}({2}m {3}).",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-167",
+        "source": "{0} waits there.",
+        "translation": "{0}이(가) 그곳에서 기다립니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-168",
+        "source": "{0} wore no gear this raid.",
+        "translation": "{0}은(는) 이번 레이드에서 장비를 착용하지 않았습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-169",
+        "source": "{0}'s gear",
+        "translation": "{0}의 장비",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-170",
+        "source": "{0}, {1} inside{2}",
+        "translation": "{0}, 내부 물품 {1}{2}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-171",
+        "source": "{0}. Make room, or empty it first.",
+        "translation": "{0}. 공간을 확보하거나 먼저 내용물을 비우십시오.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-172",
+        "source": "{0}: Auto approach, straight at anything close, stalking the rest.",
+        "translation": "{0}: 자동 접근. 가까운 대상은 바로 공격하고 나머지는 은밀히 추적합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-173",
+        "source": "{0}: Direct approach, straight at them.",
+        "translation": "{0}: 직접 접근. 곧장 달려듭니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-174",
+        "source": "{0}: Stealth approach, working its way in out of sight.",
+        "translation": "{0}: 은밀 접근. 들키지 않도록 접근합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-175",
+        "source": " in a container",
+        "translation": " (컨테이너 안)",
+        "match_mode": "segment"
+      },
+      {
+        "id": "k9-132-r003-178",
+        "source": "Dog camera {0}",
+        "translation": "반려견 카메라 {0}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-182",
+        "source": "{0}REC  K9 CAM  {1}",
+        "translation": "{0}녹화 중  K9 카메라  {1}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-183",
+        "source": "Dog",
+        "translation": "반려견",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-184",
+        "source": "Badly injured",
+        "translation": "중상",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-185",
+        "source": "Critical",
+        "translation": "위독",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-186",
+        "source": "dogs don't come on Scav raids",
+        "translation": "스캐브 레이드에는 반려견을 데려갈 수 없습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-187",
+        "source": "dogs only come on solo raids, and this is a group raid",
+        "translation": "이 레이드는 그룹 레이드이므로 반려견은 솔로 레이드에만 동행할 수 있습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-188",
+        "source": "Hungry",
+        "translation": "배고픔",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-189",
+        "source": "Injured",
+        "translation": "부상",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-190",
+        "source": "Thirsty",
+        "translation": "갈증",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-191",
+        "source": "Unknown",
+        "translation": "알 수 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-192",
+        "source": "{0} is too badly hurt to deploy ({1}%)",
+        "translation": "{0}: 부상이 심해 레이드에 동행할 수 없습니다({1}%)",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r003-approach-auto",
+        "source": "auto",
+        "translation": "자동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-approach-stealth",
+        "source": "stealth",
+        "translation": "은밀",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r003-approach-direct",
+        "source": "direct",
+        "translation": "직접",
+        "match_mode": "exact"
+      },
+      {
+        "id": "k9-132-r005-camera-caption",
+        "source": "REC  K9 CAM",
+        "translation": "녹화 중  K9 카메라",
+        "match_mode": "exact"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "k9-132-r005-solo",
+        "source": "{0} stays out of this raid: solo raids only.",
+        "translation": "{0}은(는) 이번 레이드에 동행하지 않습니다. 단독 레이드에서만 동행할 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r005-fika-host-timeout",
+        "source": "Other players' dogs won't show this raid: the host didn't answer, so it hasn't got K9 Companion {0} (with K9Companion.Fika.dll). Everyone in the raid needs the same version, a headless host too.",
+        "translation": "호스트가 응답하지 않아 이번 레이드에서는 다른 플레이어의 반려견이 표시되지 않습니다. 호스트에 K9 Companion {0} 및 K9Companion.Fika.dll이 설치되어 있지 않은 것으로 판단됩니다. 헤드리스 호스트를 포함한 모든 참가자의 버전이 같아야 합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r005-fika-peer-version",
+        "source": "A player has K9 Companion {0} and you have {1}: you won't see each other's dogs. Everyone in the raid needs the same version.",
+        "translation": "다른 플레이어의 K9 Companion은 {0}, 현재 버전은 {1}입니다. 버전이 달라 서로의 반려견을 볼 수 없습니다. 레이드 참가자는 모두 동일한 버전을 사용해야 합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r005-fika-host-version",
+        "source": "Other players' dogs won't show this raid: the host has K9 Companion {0} and you have {1}. Everyone in the raid needs the same version, a headless host too.",
+        "translation": "이번 레이드에서는 다른 플레이어의 반려견이 표시되지 않습니다. 호스트의 K9 Companion 버전은 {0}, 현재 버전은 {1}입니다. 헤드리스 호스트를 포함한 모든 참가자의 버전이 같아야 합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r005-revive-notice",
+        "source": "{0} is down: revive it with a K9 veterinary kit.{1}",
+        "translation": "{0}이(가) 쓰러졌습니다. K9 동물용 구급키트로 소생시키십시오.{1}",
+        "match_mode": "template"
+      },
+      {
+        "id": "k9-132-r005-died-notice",
+        "source": "{0} has died of its wounds.",
+        "translation": "{0}이(가) 부상으로 죽었습니다.",
+        "match_mode": "template"
       }
     ]
   }

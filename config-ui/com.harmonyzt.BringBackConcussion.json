@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.harmonyzt.BringBackConcussion",
   "plugin_name": "Bring Back Concussion",
-  "mod_version": "1.2.0",
+  "mod_version": "1.2.2",
   "_note": "SPT 4.1.6 F12 Configuration Manager display-only Korean translation. Config keys and saved values are not modified.",
   "categories": [
     {
@@ -26,7 +26,7 @@
       "source_display_name": "Enable Death Headshot Sound",
       "source_description": "Enable/Disable visor/helmet hit sound effect upon death from headshot",
       "translation_display_name": "사망 헤드샷 소리 활성화",
-      "translation_description": "사망 헤드샷 소리 활성화 여부를 설정합니다.",
+      "translation_description": "헤드샷으로 사망했을 때 바이저 또는 헬멧 피격음을 재생할지 설정합니다.",
       "values": []
     },
     {
@@ -62,7 +62,7 @@
       "source_display_name": "Concussion Strength",
       "source_description": "Determines the strength of concussion effect",
       "translation_display_name": "뇌진탕 강도",
-      "translation_description": "뇌진탕 화면 효과의 강도를 설정합니다.",
+      "translation_description": "뇌진탕 효과의 강도를 설정합니다.",
       "values": []
     },
     {
@@ -80,7 +80,7 @@
       "source_display_name": "Tinnitus Effect",
       "source_description": "Enable/Disable tinnitus effect (tinnitus only occurs if no headset is equipped). To suppress tinnitus while flashed, keep Always Mitigate Tinnitus Effect checked",
       "translation_display_name": "이명 효과",
-      "translation_description": "이명 효과를 활성화합니다. 헤드셋을 착용하지 않은 경우에만 발생합니다. 섬광탄 피격 중 이명을 억제하려면 이명 효과 항상 완화를 켜십시오.",
+      "translation_description": "이명 효과를 켜거나 끕니다. 기본적으로 헤드셋을 착용하면 이명이 발생하지 않으며, 장비 검사 무시 옵션을 켜면 착용 여부를 무시합니다. 섬광 상태의 이명을 억제하려면 「섬광·뇌진탕 동시 발생 시 이명 완화」를 켜십시오.",
       "values": []
     },
     {
@@ -106,8 +106,8 @@
       "key": "Frag Grenades Always Concuss",
       "source_display_name": "Frag Grenades Always Concuss",
       "source_description": "Enable/Disable concussion by frag grenades. If disabled, will only use default BSG's logic for concussion from frag grenades",
-      "translation_display_name": "파편 수류탄이 항상 뇌진탕 유발",
-      "translation_description": "파편 수류탄 피격으로 모드의 뇌진탕 효과를 적용합니다. 끄면 BSG 기본 뇌진탕 판정만 사용합니다.",
+      "translation_display_name": "파편 수류탄 피격 시 뇌진탕 적용",
+      "translation_description": "파편 수류탄 피격에 따른 모드의 뇌진탕 효과를 켜거나 끕니다. 끄면 이 피격 경로에서는 BSG의 기본 뇌진탕 판정만 사용합니다. 근접 폭발로 인한 효과는 별도 설정에 따릅니다.",
       "values": []
     },
     {
@@ -142,8 +142,8 @@
       "key": "Ignore Tinnitus Equipment Checks",
       "source_display_name": "Ignore Tinnitus Equipment Checks",
       "source_description": "If enabled, tinnitus will play even if you have headset equipped. Overrides Tinnitus Effect setting when enabled.",
-      "translation_display_name": "헤드셋 착용 여부와 무관하게 이명 재생",
-      "translation_description": "헤드셋을 착용했어도 이명이 발생하도록 합니다. 켜면 이명 효과 설정에 우선합니다.",
+      "translation_display_name": "이명 장비 검사 무시",
+      "translation_description": "헤드셋을 착용해도 이명이 발생하도록 장비 검사를 건너뜁니다. 단, 「이명 효과」 자체가 꺼져 있으면 이명을 재생하지 않습니다.",
       "values": []
     },
     {
@@ -162,7 +162,7 @@
       "source_display_name": "Explosion Effect Radius",
       "source_description": "How close (in meters) an explosion must be to trigger the mod's concussion/tinnitus/sound cutoff effects. Overrides the grenade's own default explosion radius (not the damage itself)",
       "translation_display_name": "폭발 효과 반경",
-      "translation_description": "폭발에 따른 뇌진탕·이명·소리 차단 효과가 발생하는 거리(미터)입니다. 수류탄 자체의 기본 폭발 반경을 대체하지만 피해량에는 영향을 주지 않습니다."
+      "translation_description": "근처 폭발로 뇌진탕·이명·환경음 차단 효과가 발생하는 최대 거리(미터)입니다. 모드의 효과 판정에는 수류탄의 기본 폭발 반경 대신 이 값을 사용하지만 실제 폭발 피해는 변경하지 않습니다."
     },
     {
       "section": "General",
@@ -198,7 +198,25 @@
       "source_display_name": "Explosion Sound Fade In Time",
       "source_description": "Determines how many seconds the sound takes to fade back in after an explosion cut off",
       "translation_display_name": "폭발음 차단 후 소리 복귀 시간",
-      "translation_description": "폭발로 차단된 소리가 다시 들리기까지 걸리는 시간(초)입니다."
+      "translation_description": "폭발로 차단된 주변 소리가 점진적으로 원래 음량으로 돌아오는 데 걸리는 시간(초)을 설정합니다."
+    },
+    {
+      "section": "General",
+      "key": "Panic Stress Resistance XP",
+      "source_display_name": "Panic Stress Resistance XP",
+      "source_description": "Base Stress Resistance XP per new panic effect. Set to 0 to disable.",
+      "translation_display_name": "공황 시 스트레스 저항 경험치",
+      "translation_description": "머리 피격으로 새로운 공황 효과가 적용될 때 획득하는 스트레스 저항 경험치의 기본값입니다. 0으로 설정하면 경험치를 지급하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Misc",
+      "key": "Verbose Logging",
+      "source_display_name": "Verbose Logging",
+      "source_description": "Log headshot/explosion contusion events and suppression. Useful for reporting stuff to the dev. Leave disabled for normal play",
+      "translation_display_name": "상세 진단 로그",
+      "translation_description": "머리 피격·폭발에 따른 뇌진탕 발생과 효과 억제 내역을 자세히 기록합니다. 제작자에게 문제를 신고할 때 유용하며, 평소에는 끄는 것이 좋습니다.",
+      "values": []
     }
   ]
 }

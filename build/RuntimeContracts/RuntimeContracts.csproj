@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <ReferenceRoot Condition="'$(ReferenceRoot)' == '' and '$(ADDON_REFERENCE_ROOT)' != ''">$(ADDON_REFERENCE_ROOT)</ReferenceRoot>
+    <ReferenceRoot Condition="'$(ReferenceRoot)' == ''">$(MSBuildThisFileDirectory)..\..\references</ReferenceRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <!-- Compile the production loader, never a rewritten test implementation. -->
+    <Compile Include="..\..\src\EditableProfiles.cs;..\..\src\ConfigManagerProfiles.cs;..\..\src\ClientLocaleModOverlay.cs;..\..\src\LocaleDisplayRules.cs;..\..\src\LocaleMode.cs;..\..\src\LocaleText.cs;..\..\src\TextRules.cs;..\..\src\MinimalLog.cs;..\..\src\QuartermasterContractLocales.cs" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(ReferenceRoot)\client\Newtonsoft.Json.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

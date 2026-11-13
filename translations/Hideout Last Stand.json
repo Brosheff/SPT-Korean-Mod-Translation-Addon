@@ -1,0 +1,752 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "jrs.hideoutsiege",
+  "mod_name": "Tushonka: Hideout Last Stand",
+  "mod_version": "0.1.3",
+  "channels": {
+    "locale": [
+      {
+        "key": "Suburbs Name",
+        "source": "Your Hideout",
+        "translation": "내 은신처",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "Suburbs Description",
+        "source": "Your hideout is under attack. Hold it.",
+        "translation": "은신처가 공격받고 있습니다. 끝까지 방어하십시오.",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "5c0a5f6c86f774753654890e Name",
+        "source": "Stash",
+        "translation": "보관함",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "5c0a5f6c86f774753654890e ShortName",
+        "source": "Stash",
+        "translation": "보관함",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "5c0a5f6c86f774753654890e Description",
+        "source": "Your stash. Take what you need: what you take out and lose is gone from it. Whatever you put in here is in your real stash afterwards.",
+        "translation": "내 보관함입니다. 필요한 물품을 꺼내 사용할 수 있지만, 꺼낸 뒤 잃어버린 물품은 실제 보관함에서도 사라집니다. 이곳에 넣어 둔 물품은 방어전이 끝난 뒤에도 실제 보관함에 남습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "hls_r002_001",
+        "source": "HIDEOUT IS BEING INVADED",
+        "translation": "은신처가 공격받고 있습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_002",
+        "source": "START THE DEFENSE",
+        "translation": "방어전 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_003",
+        "source": "LATER",
+        "translation": "나중에",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_004",
+        "source": "NEXT INVASION",
+        "translation": "다음 침입",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_005",
+        "source": "CAM 03   FRONT ENTRANCE",
+        "translation": "카메라 03   정문",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_006",
+        "source": "REC",
+        "translation": "녹화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_007",
+        "source": "BREACH",
+        "translation": "돌파 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_008",
+        "source": "HOSTILES",
+        "translation": "남은 적",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_009",
+        "source": "LEAVING IN",
+        "translation": "퇴장까지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_010",
+        "source": "THE DOOR HELD",
+        "translation": "정문이 폭파를 버텼습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_011",
+        "source": "THEY'RE COMING THROUGH A WALL",
+        "translation": "적이 벽을 뚫고 들어오고 있습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_012",
+        "source": "THEY'RE AT THE EMERGENCY WALL",
+        "translation": "적이 비상 진입 벽에 접근했습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_013",
+        "source": "THEY'RE BREACHING YOUR DEFENCES",
+        "translation": "적이 방어시설을 돌파하고 있습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_014",
+        "source": "THEY'RE BREACHING",
+        "translation": "적이 돌파 중입니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_015",
+        "source": "BREACH STOPPED",
+        "translation": "돌파 저지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_016",
+        "source": "THEY'VE CUT THE POWER",
+        "translation": "적이 전력을 차단했습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_017",
+        "source": "HIDEOUT HELD",
+        "translation": "은신처 방어 성공",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_018",
+        "source": "HIDEOUT OVERRUN",
+        "translation": "은신처 함락",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_019",
+        "source": "Loot them: what you put in your stash or a bag from your racks is kept",
+        "translation": "적의 장비를 수집하세요. 보관함 또는 거치대에서 꺼낸 가방에 넣은 물품은 유지됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_020",
+        "source": "FINAL WAVE",
+        "translation": "최종 공세",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_021",
+        "source": "FINAL WAVE - RAIDERS",
+        "translation": "최종 공세 - 레이더",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_022",
+        "source": "FINAL WAVE - BLACK DIVISION",
+        "translation": "최종 공세 - 블랙 디비전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r002_023",
+        "source": "WAVE {wave}/{total} IN",
+        "translation": "{wave}/{total}차 공세 시작까지",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r002_024",
+        "source": "WAVE {wave}/{total}",
+        "translation": "{wave}/{total}차 공세",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r002_025",
+        "source": "{key}  LEAVE NOW",
+        "translation": "{key}  즉시 나가기",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r002_026",
+        "source": "WAVE {wave} - RAIDERS",
+        "translation": "{wave}차 공세 - 레이더",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r002_027",
+        "source": "WAVE {wave} - BLACK DIVISION",
+        "translation": "{wave}차 공세 - 블랙 디비전",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r002_028",
+        "source": "WAVE {wave}",
+        "translation": "{wave}차 공세",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r003_001",
+        "source": "Nothing left on this mannequin",
+        "translation": "마네킹에 남은 장비가 없습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_002",
+        "source": "Take Mannequin {number}'s loadout",
+        "translation": "마네킹 {number}번의 장비 일괄 수령",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r003_003",
+        "source": "Take",
+        "translation": "수령",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_004",
+        "source": "Swap for your {count}/{max} magazine",
+        "translation": "보유 중인 {count}/{max}발 탄창과 교환",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r003_005",
+        "source": "Loadout taken",
+        "translation": "장비를 모두 수령했습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_006",
+        "source": "Took {taken} of {total}  ·  no room for the rest",
+        "translation": "장비 {total}개 중 {taken}개를 수령했습니다  ·  나머지는 공간이 부족합니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r003_007",
+        "source": "No room",
+        "translation": "공간이 부족합니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_008",
+        "source": "Only between waves",
+        "translation": "공세 사이 휴식 시간에만 사용할 수 있습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_009",
+        "source": "Used: it'll be ready next break",
+        "translation": "이미 사용했습니다. 다음 휴식 시간에 다시 사용할 수 있습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_010",
+        "source": "Use the Medstation",
+        "translation": "의료시설 사용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_011",
+        "source": "Use the Nutrition Unit",
+        "translation": "식량시설 사용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_012",
+        "source": "Fed and watered",
+        "translation": "에너지와 수분을 보충했습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_013",
+        "source": "Patched up",
+        "translation": "치료를 마쳤습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_014",
+        "source": "Open stash",
+        "translation": "보관함 열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_015",
+        "source": "It's the host's stash",
+        "translation": "호스트의 보관함입니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_016",
+        "source": "Your stash isn't here",
+        "translation": "보관함을 사용할 수 없습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_017",
+        "source": "Caught in the wire",
+        "translation": "철조망에 걸렸습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_018",
+        "source": "Front door: can't reach the siege's server mod",
+        "translation": "정문: 방어전 서버 모드에 연결할 수 없습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_019",
+        "source": "Front door: fully reinforced",
+        "translation": "정문: 모든 강화가 완료되었습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_020",
+        "source": "Build reinforced front door",
+        "translation": "정문 보강판 설치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_021",
+        "source": "Build barred front door",
+        "translation": "정문 철제 빗장 설치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_022",
+        "source": "Reinforced front door: being built, {time} left",
+        "translation": "정문 보강판 설치 중 · 남은 시간 {time}",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r003_023",
+        "source": "Barred front door: being built, {time} left",
+        "translation": "정문 철제 빗장 설치 중 · 남은 시간 {time}",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r003_024",
+        "source": "Reinforced front door: being built",
+        "translation": "정문 보강판 설치 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_025",
+        "source": "Barred front door: being built",
+        "translation": "정문 철제 빗장 설치 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_026",
+        "source": "Build time: {time}",
+        "translation": "설치 시간: {time}",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r003_027",
+        "source": "Steel plate bolted over the front door: the first charge on it won't bring it down.",
+        "translation": "정문을 철판으로 보강합니다. 첫 번째 폭약으로는 정문을 파괴할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_028",
+        "source": "Steel bars across the reinforced door: it takes a third charge to bring it down.",
+        "translation": "보강된 정문에 철제 빗장을 설치합니다. 정문을 파괴하려면 세 번째 폭약이 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_029",
+        "source": "Locked: Build the reinforced front door first",
+        "translation": "잠김: 먼저 정문 보강판을 설치해야 합니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_030",
+        "source": "Locked: Needs Security level {level}",
+        "translation": "잠김: 보안 시설 {level}레벨이 필요합니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r003_031",
+        "source": "Build the reinforced front door first",
+        "translation": "먼저 정문 보강판을 설치해야 합니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_032",
+        "source": "Needs Security level {level}",
+        "translation": "보안 시설 {level}레벨이 필요합니다",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r003_033",
+        "source": "You don't have everything it needs in your stash.",
+        "translation": "보관함에 필요한 재료가 모두 갖춰져 있지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_034",
+        "source": "Couldn't start the upgrade (see the log).",
+        "translation": "강화를 시작하지 못했습니다. 로그를 확인해 주십시오.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_035",
+        "source": "Building the reinforced front door: ready in {time}.",
+        "translation": "정문 보강판을 설치 중입니다. {time} 후 완료됩니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r003_036",
+        "source": "Building the barred front door: ready in {time}.",
+        "translation": "정문 철제 빗장을 설치 중입니다. {time} 후 완료됩니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r003_037",
+        "source": "Defences",
+        "translation": "방어시설",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_038",
+        "source": "Defences ({count})",
+        "translation": "방어시설 ({count})",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r004_001",
+        "source": "WHAT THEY TOOK",
+        "translation": "빼앗긴 물품",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_002",
+        "source": "Your hideout",
+        "translation": "내 은신처",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_003",
+        "source": "Taken from your stash",
+        "translation": "보관함에서 빼앗긴 물품",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_004",
+        "source": "Wrecked in your hideout",
+        "translation": "은신처 시설 피해",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_005",
+        "source": "Health and physical condition",
+        "translation": "건강 및 신체 상태",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_006",
+        "source": "Your defences",
+        "translation": "은신처 방어 수준",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_007",
+        "source": "Nothing worth taking",
+        "translation": "빼앗긴 물품 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_008",
+        "source": "All told",
+        "translation": "총합",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_009",
+        "source": "Nothing they could get at",
+        "translation": "피해를 입은 시설 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_010",
+        "source": "To put it right",
+        "translation": "복구 방법",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_011",
+        "source": "Rebuild it in the hideout",
+        "translation": "은신처에서 다시 건설해야 합니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_012",
+        "source": "Health left",
+        "translation": "남은 체력",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_013",
+        "source": "Energy left",
+        "translation": "남은 에너지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_014",
+        "source": "Hydration left",
+        "translation": "남은 수분",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_015",
+        "source": "Before your next raid",
+        "translation": "다음 레이드 전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_016",
+        "source": "Heal up",
+        "translation": "치료받으세요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_017",
+        "source": "Security level",
+        "translation": "보안 시설 레벨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_018",
+        "source": "Most they could take",
+        "translation": "최대 약탈 물품 수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_019",
+        "source": "Medstation level",
+        "translation": "의료 시설 레벨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_020",
+        "source": "Health it kept you at",
+        "translation": "유지된 체력 비율",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_021",
+        "source": "A better Security station and they take less. A better Medstation and you come round less hurt.",
+        "translation": "보안 시설 레벨이 높을수록 약탈당하는 물품이 줄어듭니다. 의료 시설 레벨이 높을수록 피해 후 남는 체력이 늘어납니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_022",
+        "source": "With Security and the Medstation as good as they get, that's the least it could have cost.",
+        "translation": "보안 시설과 의료 시설이 최고 레벨이므로 피해를 더 줄일 수는 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_023",
+        "source": "NEXT",
+        "translation": "다음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_024",
+        "source": "BACK",
+        "translation": "뒤로",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_025",
+        "source": "Front door",
+        "translation": "정문",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_026",
+        "source": "Security",
+        "translation": "보안 시설",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_027",
+        "source": "Vents",
+        "translation": "환기 시설",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_028",
+        "source": "Illumination",
+        "translation": "조명 시설",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_029",
+        "source": "Reinforced → Plain",
+        "translation": "보강 상태 → 일반 상태",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_030",
+        "source": "Barred → Reinforced",
+        "translation": "철제 빗장 → 보강 상태",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r004_031",
+        "source": "level {before} → level {after}",
+        "translation": "{before}레벨 → {after}레벨",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r004_032",
+        "source": "{level} of 3",
+        "translation": "{level}/3레벨",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r005_nogo_notice",
+        "source": "You can't go that way",
+        "translation": "그쪽으로는 갈 수 없습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r005_generator_power_cut",
+        "source": "They've cut the power",
+        "translation": "적이 전력을 차단했습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r005_generator_on",
+        "source": "Turn on the generator",
+        "translation": "발전기 켜기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r005_generator_off",
+        "source": "Turn off the generator",
+        "translation": "발전기 끄기",
+        "match_mode": "exact"
+      }
+    ],
+    "decor_names": [
+      {
+        "id": "hls_r003_decor_001",
+        "source": "Sandbags",
+        "translation": "모래주머니",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_decor_002",
+        "source": "Mounted gun",
+        "translation": "거치 기관총",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_decor_003",
+        "source": "Steel barricade",
+        "translation": "철제 바리케이드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "hls_r003_decor_004",
+        "source": "Barbed wire",
+        "translation": "철조망",
+        "match_mode": "exact"
+      }
+    ],
+    "npc_messages": [
+      {
+        "id": "hls_r004_mail_01",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "source": "They overran your hideout. While you were down they went through your stash and took {items}. On the way out they wrecked your {damage}. You came round badly hurt: patch yourself up before your next raid.",
+        "translation": "놈들이 네 은신처를 덮쳤다. 네가 쓰러진 동안 보관함까지 뒤졌어. 가져간 물건: {items}. 파손된 시설: {damage}. 몸 상태도 엉망이니 다음 레이드에 나가기 전에 치료부터 받아라.",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r004_mail_02",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "source": "They overran your hideout. While you were down they went through your stash and took {items}. You came round badly hurt: patch yourself up before your next raid.",
+        "translation": "놈들이 네 은신처를 덮쳤다. 네가 쓰러진 동안 보관함까지 뒤졌어. 가져간 물건: {items}. 몸 상태도 엉망이니 다음 레이드에 나가기 전에 치료부터 받아라.",
+        "match_mode": "template"
+      },
+      {
+        "id": "hls_r004_mail_03",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "source": "nothing worth taking",
+        "translation": "가져갈 만한 물건 없음",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hls_r004_mail_04",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "source": "Front door (Reinforced to Plain)",
+        "translation": "정문 (보강 상태 → 일반 상태)",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hls_r004_mail_05",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "source": "Front door (Barred to Reinforced)",
+        "translation": "정문 (철제 빗장 → 보강 상태)",
+        "match_mode": "segment"
+      },
+      {
+        "id": "hls_r004_mail_06",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "source": "Security (level {was} to level {now})",
+        "translation": "보안 시설 ({was}레벨 → {now}레벨)",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "hls_r004_mail_07",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "source": "Vents (level {was} to level {now})",
+        "translation": "환기 시설 ({was}레벨 → {now}레벨)",
+        "match_mode": "segment_template"
+      },
+      {
+        "id": "hls_r004_mail_08",
+        "trader_id": "54cb50c76803fa8b248b4571",
+        "source": "Illumination (level {was} to level {now})",
+        "translation": "조명 시설 ({was}레벨 → {now}레벨)",
+        "match_mode": "segment_template"
+      }
+    ],
+    "server_messages": [
+      {
+        "id": "hls_r004_system_01",
+        "source": "Your stash was full, so here's what you put away in the siege that wouldn't fit.",
+        "translation": "보관함이 가득 찼습니다. 방어전 중 보관했지만 들어가지 못한 물품을 메시지로 보내드립니다.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

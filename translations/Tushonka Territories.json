@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.minesettimi.territories",
+  "mod_name": "Tushonka Territories",
+  "mod_version": "3.0.0",
+  "channels": {
+    "locale": [
+      {
+        "key": "UI/Quests/Conditions/Reputation",
+        "source": "Reach reputation with {0}",
+        "translation": "{0} 세력과의 평판 달성",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "TerritoryUpdated",
+        "source": "Territory data has been updated.",
+        "translation": "영토 정보가 갱신되었습니다.",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "TerritoryControlled",
+        "source": "Controlled By {0}",
+        "translation": "점령 세력: {0}",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "TerritoryContested",
+        "source": "Contested By {0}",
+        "translation": "분쟁 세력: {0}",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "HOSTILE",
+        "source": "HOSTILE",
+        "translation": "적대",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "NEUTRAL",
+        "source": "NEUTRAL",
+        "translation": "중립",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "FRIENDLY",
+        "source": "FRIENDLY",
+        "translation": "우호",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "FactionName none",
+        "source": "Nobody",
+        "translation": "없음",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "FactionName scav",
+        "source": "Scavengers",
+        "translation": "스캐브",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "FactionName rogue",
+        "source": "Rogues",
+        "translation": "로그",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "FactionName raider",
+        "source": "Raiders",
+        "translation": "레이더",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "FactionName cultist",
+        "source": "The Cult",
+        "translation": "컬티스트",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "FactionName blackdiv",
+        "source": "Black Division",
+        "translation": "블랙 디비전",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "FactionName ruaf",
+        "source": "RUAF",
+        "translation": "RUAF",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "FactionName untar",
+        "source": "UNTAR",
+        "translation": "UNTAR",
+        "match_mode": "exact",
+        "seed_missing": true
+      }
+    ],
+    "notifications": [
+      {
+        "id": "113ecf39f698bc9b",
+        "source": "Error loading Reputation tab button from bundle.",
+        "translation": "번들에서 평판 탭 버튼을 불러오지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "b4149dc469dd1c07",
+        "source": "Error loading Reputation screen from bundle.",
+        "translation": "번들에서 평판 화면을 불러오지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "7ed9614479fcd0e3",
+        "source": "Error loading territory map from bundle.",
+        "translation": "번들에서 영토 지도를 불러오지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "a70dce8c34de3302",
+        "source": "Error loading territory description from bundle.",
+        "translation": "번들에서 영토 설명을 불러오지 못했습니다.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

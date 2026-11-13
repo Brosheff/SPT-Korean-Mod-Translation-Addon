@@ -1,4 +1,4 @@
-# SPT Mod Korean Addon v1.0.5
+# SPT Mod Korean Addon v1.0.6
 
 SPT 4.1.6용 모드 한국어 번역 애드온입니다. 아이템·퀘스트 등의 로케일과 모드별 F12 설정, 일부 UI·메시지를 한국어로 표시합니다. 지원 범위는 모드와 버전에 따라 다릅니다.
 
@@ -19,9 +19,9 @@ https://sp-mod.com/mod/1629/spt-korean-project-locale-patcher
 - `BepInEx/plugins/SPT_Mod_Korean_Addon/translations/ISB Aishi - 2.0.3 Compatibility.json`
 - `BepInEx/plugins/SPT_Mod_Korean_Addon/translations/ISB Special Forces - 2.0.0 Compatibility.json`
 
-현재 1.0.5는 Aishi 2.0.5와 Special Forces 2.0.2를 기준으로 하며 위 파일은 필요하지 않습니다.
+현재 1.0.6 개발 소스의 번역 기준은 Aishi 2.0.7과 Special Forces 2.0.4이며, 위 구버전 호환 파일은 필요하지 않습니다. 실제 SPT 게임에서의 적용 검증은 별도로 필요합니다.
 
-1.0.5부터 WristAccessories 번역 지원은 제외됩니다. 이전 1.0.4를 설치한 경우 다음 **애드온 파일만** 기존 SPT 폴더에서 별도로 삭제해야 합니다. 덮어쓰기로는 삭제되지 않습니다.
+1.0.6부터 WristAccessories 번역 지원은 제외됩니다. 이전 1.0.4를 설치한 경우 다음 **애드온 파일만** 기존 SPT 폴더에서 별도로 삭제해야 합니다. 덮어쓰기로는 삭제되지 않습니다.
 
 - `BepInEx/plugins/SPT_Mod_Korean_Addon/translations/WristAccessories.json`
 - `BepInEx/plugins/SPT_Mod_Korean_Addon/config-ui/com.amos.wristaccessories.json`

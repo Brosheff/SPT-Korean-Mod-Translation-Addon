@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.minesettimi.territories",
+  "plugin_name": "Tushonka Territories",
+  "mod_version": "3.0.0",
+  "categories": [
+    {
+      "source": "Debug",
+      "translation": "디버그"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Debug",
+      "key": "Debug",
+      "source_display_name": "Debug",
+      "translation_display_name": "디버그 출력",
+      "source_description": "Enable bot spawn system and reputation debug printing.",
+      "translation_description": "봇 생성 시스템과 세력 평판의 디버그 로그 출력을 활성화합니다.",
+      "values": []
+    }
+  ]
+}

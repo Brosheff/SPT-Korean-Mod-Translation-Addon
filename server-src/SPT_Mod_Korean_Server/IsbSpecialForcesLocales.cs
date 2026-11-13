@@ -9,7 +9,7 @@ using SPTarkov.Server.Core.Models.Spt.Tables;
 
 namespace SPT_Mod_Korean_Server;
 
-// ISB Special Forces 2.0.2 registers English fallback values into every server
+// ISB Special Forces 2.0.4 registers English fallback values into every server
 // locale via WTT CommonLib's CreateCustomLocales/CreateCustomQuests transformers.
 // The client-only MergeGlobal hook cannot guarantee that a late server locale
 // registration makes its way into the displayed quest/map locale dictionary.
@@ -23,9 +23,18 @@ public sealed class IsbSpecialForcesLocales(
     IReadOnlyList<SptMod> installedMods) : IOnLoad
 {
     private const string ModGuid = "com.samc137.isbspecialforces";
-    private const string SourceVersion = "2.0.2";
+    private const string SourceVersion = "2.0.4";
     private const string ProfileName = "ISB Special Forces.json";
-    private sealed record Rule(string Source, string Korean, string DisplayType);
+    // Exact keys registered from C# by ISBAmnestyQuestPatch, not en.json.
+    internal static readonly string[] AmnestyKeys =
+    {
+        "ISB/Amnesty/name",
+        "ISB/Amnesty/description",
+        "ISB/Amnesty/startedMessageText",
+        "ISB/Amnesty/handover",
+        "ISB/Amnesty/successMessageText"
+    };
+    internal sealed record Rule(string Source, string Korean, string DisplayType);
 
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
@@ -38,13 +47,7 @@ public sealed class IsbSpecialForcesLocales(
                 return Task.CompletedTask;
             }
 
-            var assemblyDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)
-                ?? throw new InvalidOperationException("Missing server addon assembly directory");
-            var sptRoot = Path.GetFullPath(Path.Combine(assemblyDir, "../../../.."));
-            var profilePath = Path.Combine(sptRoot, "BepInEx", "plugins", "SPT_Mod_Korean_Addon", "translations", ProfileName);
-            if (!File.Exists(profilePath))
-                throw new FileNotFoundException("ISB Special Forces locale profile was not found", profilePath);
-            var rules = ReadRules(profilePath);
+            var rules = ReadRulesFromAddon();
             if (rules.Count == 0)
                 throw new InvalidDataException("No source-verified ISB locale seed rules");
 
@@ -89,14 +92,27 @@ public sealed class IsbSpecialForcesLocales(
         return Task.CompletedTask;
     }
 
-    private static bool IsKorean(string? locale) =>
+    internal static bool IsKorean(string? locale) =>
         string.Equals(locale, "kr", StringComparison.OrdinalIgnoreCase) ||
         string.Equals(locale, "kr-en", StringComparison.OrdinalIgnoreCase);
 
-    // Only the 2.0.2 profile's explicit, individually source-audited
+    // Shared by the early general transformer and the late Amnesty-only pass.
+    // Both consume the same version-checked translation profile; no second catalog.
+    internal static Dictionary<string, Rule> ReadRulesFromAddon(bool includeDynamicAmnesty = false)
+    {
+        var assemblyDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)
+            ?? throw new InvalidOperationException("Missing server addon assembly directory");
+        var sptRoot = Path.GetFullPath(Path.Combine(assemblyDir, "../../../.."));
+        var profilePath = Path.Combine(sptRoot, "BepInEx", "plugins", "SPT_Mod_Korean_Addon", "translations", ProfileName);
+        if (!File.Exists(profilePath))
+            throw new FileNotFoundException("ISB Special Forces locale profile was not found", profilePath);
+        return ReadRules(profilePath, includeDynamicAmnesty);
+    }
+
+    // Only the 2.0.4 profile's explicit, individually source-audited
     // seed_missing rules can populate server locales. The profile is the single
     // source of truth; never ship a second translated key/value catalog.
-    private static Dictionary<string, Rule> ReadRules(string path)
+    private static Dictionary<string, Rule> ReadRules(string path, bool includeDynamicAmnesty)
     {
         using var document = JsonDocument.Parse(File.ReadAllText(path));
         var root = document.RootElement;
@@ -114,9 +130,12 @@ public sealed class IsbSpecialForcesLocales(
                 lastMode = mode.GetString() ?? "";
             if (row.TryGetProperty("enabled", out var enabled) && enabled.ValueKind == JsonValueKind.False)
                 continue;
-            if (!row.TryGetProperty("seed_missing", out var seed) || seed.ValueKind != JsonValueKind.True)
-                continue;
             var key = row.GetProperty("key").GetString() ?? "";
+            var isSeed = row.TryGetProperty("seed_missing", out var seed) && seed.ValueKind == JsonValueKind.True;
+            // Dynamic Amnesty locale keys are supplied by the source C# transformer,
+            // not by an English JSON file. Never mark them seed_missing in data.
+            if (!isSeed && !(includeDynamicAmnesty && AmnestyKeys.Contains(key, StringComparer.Ordinal)))
+                continue;
             var source = row.GetProperty("source").GetString() ?? "";
             var translated = row.GetProperty("translation").GetString() ?? "";
             var display = row.TryGetProperty("display_type", out var d) ? d.GetString() ?? "default" : "default";
@@ -133,7 +152,7 @@ public sealed class IsbSpecialForcesLocales(
             "achievement_title" or "achievement_description" or "achievement_condition";
 
     // Mirror src/LocaleDisplayRules.Select for the ISB seed_missing display types.
-    private static string Format(Rule rule, string culture)
+    internal static string Format(Rule rule, string culture)
     {
         var korean = rule.Korean;
         var source = rule.Source;
@@ -163,5 +182,69 @@ public sealed class IsbSpecialForcesLocales(
             default:
                 return korean;
         }
+    }
+}
+
+// ISBAmnestyQuestPatch (PostLoad + 1100) registers a *later* locale transformer
+// that unconditionally rewrites its five nonempty quest strings in English.
+// The regular TraderRegistration + 2 pass must stay early for other consumers.
+// Reapply only these five verified strings after the original Amnesty transformer,
+// without changing the quest logic, IDs, other mods, or existing non-English values.
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 1101)]
+public sealed class IsbSpecialForcesAmnestyLocales(
+    ISptLogger<IsbSpecialForcesAmnestyLocales> logger,
+    LocaleTable localeTable,
+    IReadOnlyList<SptMod> installedMods) : IOnLoad
+{
+    private const string ModGuid = "com.samc137.isbspecialforces";
+    public Task OnLoadAsync(CancellationToken cancellationToken)
+    {
+        cancellationToken.ThrowIfCancellationRequested();
+        try
+        {
+            if (!installedMods.Any(m => string.Equals(m.ModMetadata.ModGuid, ModGuid, StringComparison.OrdinalIgnoreCase)))
+                return Task.CompletedTask;
+
+            var catalog = IsbSpecialForcesLocales.ReadRulesFromAddon(includeDynamicAmnesty: true);
+            var selected = new List<KeyValuePair<string, IsbSpecialForcesLocales.Rule>>();
+            foreach (var key in IsbSpecialForcesLocales.AmnestyKeys)
+            {
+                if (!catalog.TryGetValue(key, out var rule))
+                    throw new InvalidDataException("Missing source-verified ISB Amnesty locale rule: " + key);
+                selected.Add(new KeyValuePair<string, IsbSpecialForcesLocales.Rule>(key, rule));
+            }
+
+            foreach (var locale in localeTable.Global)
+            {
+                if (!IsbSpecialForcesLocales.IsKorean(locale.Key)) continue;
+                var localeName = locale.Key;
+                int firstLog = 0;
+                locale.Value.AddTransformer(localeData =>
+                {
+                    if (localeData == null) return localeData;
+                    int applied = 0;
+                    foreach (var pair in selected)
+                    {
+                        // Unlike the early seed pass, do not create an Amnesty key
+                        // if the originating quest transformer did not register it.
+                        if (!localeData.TryGetValue(pair.Key, out var current)) continue;
+                        if (!string.Equals(current, pair.Value.Source, StringComparison.Ordinal) &&
+                            !string.Equals(current, pair.Key, StringComparison.Ordinal)) continue;
+                        var korean = IsbSpecialForcesLocales.Format(pair.Value, localeName);
+                        if (string.Equals(current, korean, StringComparison.Ordinal)) continue;
+                        localeData[pair.Key] = korean;
+                        applied++;
+                    }
+                    if (Interlocked.Exchange(ref firstLog, 1) == 0)
+                        logger.Info($"[ISB Korean] {localeName}: {applied} late Amnesty locale values localized.");
+                    return localeData;
+                });
+            }
+        }
+        catch (Exception error)
+        {
+            logger.Warning("[ISB Korean] Late Amnesty locale adapter unavailable; other translations unchanged: " + error);
+        }
+        return Task.CompletedTask;
     }
 }

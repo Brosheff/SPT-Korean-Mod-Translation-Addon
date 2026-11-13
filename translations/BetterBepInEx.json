@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.mybutthasarash.betterbepinex",
+  "mod_name": "BetterBepInEx",
+  "mod_version": "1.0.4",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "betterbepinex_ui_001",
+        "source": "Close (F12)",
+        "translation": "닫기(F12)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_002",
+        "source": "Search every setting   Ctrl+F",
+        "translation": "모든 설정 검색   Ctrl+F",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_003",
+        "source": "Filter mods",
+        "translation": "모드 검색",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_004",
+        "source": "Mod Settings",
+        "translation": "모드 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_005",
+        "source": "Undo",
+        "translation": "실행 취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_006",
+        "source": "Redo",
+        "translation": "다시 실행",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_007",
+        "source": "Clear",
+        "translation": "지우기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_008",
+        "source": "Show advanced",
+        "translation": "고급 설정 표시",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_009",
+        "source": "List the settings, and the mods, that their authors mark as advanced or hide from the menu. They are tagged where they appear. Search always finds them.",
+        "translation": "제작자가 고급으로 지정했거나 숨긴 설정과 모드를 표시합니다. 해당 항목에는 표시가 붙으며, 검색 시에는 항상 검색 결과에 포함됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_010",
+        "source": "HIDDEN",
+        "translation": "숨김",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_011",
+        "source": "The mod's author keeps this setting off the menu, often to work around a conflict or another problem. Change it only if the author tells you to.",
+        "translation": "모드 제작자가 충돌이나 다른 문제를 피하려고 이 설정을 숨긴 경우가 많습니다. 제작자의 안내가 있을 때만 변경하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_012",
+        "source": "The author keeps these off the menu, often to fix a conflict or another problem. They show here because Show advanced is on. Change one only if the author tells you to.",
+        "translation": "모드 제작자가 충돌이나 다른 문제 때문에 숨긴 설정입니다. 고급 설정 표시가 켜져 있어 표시됩니다. 제작자의 안내가 있을 때만 변경하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_083",
+        "source": "HIDDEN BY THE MOD'S AUTHOR",
+        "translation": "모드 제작자가 숨긴 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_013",
+        "source": "Favorite",
+        "translation": "즐겨찾기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_014",
+        "source": "Listed under Favorites at the top of the mods list. Click to remove it.",
+        "translation": "모드 목록 상단의 즐겨찾기에 등록되어 있습니다. 클릭하면 즐겨찾기에서 제거합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_015",
+        "source": "Add to favorites",
+        "translation": "즐겨찾기에 추가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_016",
+        "source": "List this mod under Favorites at the top of the mods list",
+        "translation": "이 모드를 모드 목록 상단의 즐겨찾기에 추가합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_017",
+        "source": "Website",
+        "translation": "웹사이트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_018",
+        "source": "Open this mod's website",
+        "translation": "이 모드의 웹사이트를 엽니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_019",
+        "source": "Search this mod",
+        "translation": "이 모드의 설정 검색",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_020",
+        "source": "Screenshot",
+        "translation": "스크린샷",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_021",
+        "source": "Save a picture of this mod's settings and copy it, ready to paste into Discord",
+        "translation": "이 모드의 설정 화면을 이미지로 저장하고 복사해 Discord 등에 붙여 넣을 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_022",
+        "source": "Press a key or combination...   Esc cancels",
+        "translation": "지정할 키 또는 키 조합을 누르세요.   Esc: 취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_023",
+        "source": "Not bound",
+        "translation": "미지정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_024",
+        "source": "Unbind",
+        "translation": "키 지정 해제",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_025",
+        "source": "Click, then press the key or combination to bind",
+        "translation": "클릭한 뒤 지정할 키 또는 키 조합을 누르세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_026",
+        "source": "Click to change the color",
+        "translation": "클릭하여 색상을 변경합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_027",
+        "source": "Click to close",
+        "translation": "클릭하여 닫습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_028",
+        "source": "Search results",
+        "translation": "검색 결과",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_029",
+        "source": "Changed settings",
+        "translation": "변경된 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_030",
+        "source": "Keybinds",
+        "translation": "단축키",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_031",
+        "source": "FAVORITES",
+        "translation": "즐겨찾기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_032",
+        "source": "OTHER",
+        "translation": "기타",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_033",
+        "source": "Changed only",
+        "translation": "변경된 항목만",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_034",
+        "source": "All",
+        "translation": "전체",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_035",
+        "source": "No mod has a changed setting.",
+        "translation": "설정이 변경된 모드가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_036",
+        "source": "No mod matches.",
+        "translation": "조건에 맞는 모드가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_037",
+        "source": "No setting matches.",
+        "translation": "조건에 맞는 설정이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_038",
+        "source": "ADVANCED",
+        "translation": "고급",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_039",
+        "source": "READ ONLY",
+        "translation": "읽기 전용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_040",
+        "source": "Reset mod",
+        "translation": "모드 설정 초기화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_041",
+        "source": "Reset all",
+        "translation": "모두 초기화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_042",
+        "source": "Every setting that is not at its default, across all mods.",
+        "translation": "모든 모드에서 기본값과 다르게 변경된 설정을 표시합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_043",
+        "source": "Every setting is at its default.",
+        "translation": "모든 설정이 기본값입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_044",
+        "source": "Every key bound by a mod. No two settings share a key.",
+        "translation": "모드가 지정한 모든 단축키입니다. 중복 지정된 키는 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_045",
+        "source": "Every key bound by a mod. Keys that more than one setting uses come first; every mod bound to one reacts to it.",
+        "translation": "모드가 지정한 모든 단축키입니다. 여러 설정에 중복 지정된 키를 먼저 표시하며, 같은 키가 눌리면 해당 설정들이 모두 반응합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_046",
+        "source": "No mod has a keybind setting.",
+        "translation": "단축키 설정이 있는 모드가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_047",
+        "source": "This mod has no settings to change. It is listed so you can see everything that is loaded.",
+        "translation": "이 모드에는 변경할 설정이 없습니다. 설치되어 로드된 모드를 확인할 수 있도록 목록에 표시합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_048",
+        "source": "No setting in this mod matches the search.",
+        "translation": "이 모드에서 검색 조건에 맞는 설정을 찾지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_049",
+        "source": "Nothing here matches the filter.",
+        "translation": "필터에 맞는 항목이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_050",
+        "source": "This mod's author hides all of its settings or marks them advanced. Turn on Show advanced, at the top of the menu, to see them.",
+        "translation": "제작자가 이 모드의 모든 설정을 숨기거나 고급으로 지정했습니다. 상단의 고급 설정 표시를 켜면 확인할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_051",
+        "source": "Nothing matches. Every word has to appear in a mod's name, a setting's name, its section or its description.",
+        "translation": "검색 결과가 없습니다. 입력한 모든 단어가 모드 이름, 설정 이름, 분류 또는 설명 중에 포함되어야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_052",
+        "source": "Nothing to undo",
+        "translation": "실행 취소할 작업이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_053",
+        "source": "Nothing to redo",
+        "translation": "다시 실행할 작업이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_054",
+        "source": "Reset",
+        "translation": "초기화",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_055",
+        "source": "Back to ",
+        "translation": "기본값: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_056",
+        "source": "This setting failed to draw. The BepInEx log has the error.",
+        "translation": "설정 항목을 표시하지 못했습니다. 자세한 오류는 BepInEx 로그에서 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_057",
+        "source": "Same key as ",
+        "translation": "다음과 같은 키 사용: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_058",
+        "source": " more)",
+        "translation": "개 더)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_059",
+        "source": "Open the Keybinds page",
+        "translation": "단축키 페이지 열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_060",
+        "source": "Settings this list leaves out. Click to turn on Show advanced.",
+        "translation": "현재 목록에서 제외된 설정입니다. 클릭하면 고급 설정 표시를 켭니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_061",
+        "source": "Default: ",
+        "translation": "기본값: ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_062",
+        "source": "(empty)",
+        "translation": "(비어 있음)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_063",
+        "source": "on",
+        "translation": "켜짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_064",
+        "source": "off",
+        "translation": "꺼짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_065",
+        "source": "nothing",
+        "translation": "없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_066",
+        "source": "empty",
+        "translation": "비어 있음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_067",
+        "source": "MODS  ",
+        "translation": "모드 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_068",
+        "source": "mods  ",
+        "translation": "모드 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_069",
+        "source": "settings  ",
+        "translation": "설정 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_070",
+        "source": "changed  ",
+        "translation": "변경 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_071",
+        "source": "Show hidden mods  ",
+        "translation": "숨긴 모드 표시 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_072",
+        "source": "Hide hidden mods  ",
+        "translation": "숨긴 모드 접기 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_073",
+        "source": "All  ",
+        "translation": "전체 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_074",
+        "source": "Changed  ",
+        "translation": "변경 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_075",
+        "source": "Reset ",
+        "translation": "초기화 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_076",
+        "source": "Reset all ",
+        "translation": "전체 초기화 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_077",
+        "source": "reset ",
+        "translation": "초기화 ",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_078",
+        "source": " advanced",
+        "translation": "개 고급 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_079",
+        "source": "No screenshot: nothing was saved.",
+        "translation": "스크린샷을 저장하지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_080",
+        "source": "No screenshot: it could not be drawn (the BepInEx log has the error).",
+        "translation": "스크린샷 화면을 그리지 못했습니다. BepInEx 로그를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_081",
+        "source": "No screenshot: it could not be drawn offscreen.",
+        "translation": "화면 밖에 스크린샷을 그리지 못했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_082",
+        "source": "No screenshot: it could not be saved (the BepInEx log has the error).",
+        "translation": "스크린샷을 저장하지 못했습니다. BepInEx 로그를 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "betterbepinex_ui_template_001",
+        "source": "{settings} setting in {mods} mod",
+        "translation": "설정 {settings}개 / 모드 {mods}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_002",
+        "source": "{settings} settings in {mods} mod",
+        "translation": "설정 {settings}개 / 모드 {mods}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_003",
+        "source": "{settings} setting in {mods} mods",
+        "translation": "설정 {settings}개 / 모드 {mods}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_004",
+        "source": "{settings} settings in {mods} mods",
+        "translation": "설정 {settings}개 / 모드 {mods}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_005",
+        "source": "{shortcut}   used by {count} settings",
+        "translation": "{shortcut} · {count}개 설정에서 사용",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_006",
+        "source": "Undo {action}  (Ctrl+Z)",
+        "translation": "{action} 실행 취소(Ctrl+Z)",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_007",
+        "source": "Redo {action}  (Ctrl+Y)",
+        "translation": "{action} 다시 실행(Ctrl+Y)",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_008",
+        "source": "Undid {action}.",
+        "translation": "{action} 작업을 실행 취소했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_009",
+        "source": "Redid {action}.",
+        "translation": "{action} 작업을 다시 실행했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_010",
+        "source": "Reset {count} setting. Ctrl+Z undoes it.",
+        "translation": "설정 {count}개를 초기화했습니다. Ctrl+Z로 되돌릴 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_011",
+        "source": "Reset {count} settings. Ctrl+Z undoes it.",
+        "translation": "설정 {count}개를 초기화했습니다. Ctrl+Z로 되돌릴 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_012",
+        "source": "\"{value}\" is not a valid value for {setting}.",
+        "translation": "{setting}에 입력한 \"{value}\"은(는) 올바른 값이 아닙니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_013",
+        "source": "Kept {shortcut}.",
+        "translation": "기존 단축키 {shortcut}을(를) 유지했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_014",
+        "source": "{key} is not one of the keys {setting} accepts.",
+        "translation": "{setting} 설정에는 {key} 키를 지정할 수 없습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_015",
+        "source": "{setting} is now {shortcut}.",
+        "translation": "{setting} 단축키를 {shortcut}(으)로 설정했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_016",
+        "source": "Saved as {count} pictures in {folder}, opened for you.",
+        "translation": "이미지 {count}개를 {folder}에 저장하고 폴더를 열었습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_017",
+        "source": "Screenshot copied: paste it with Ctrl+V. Also saved in {folder}.",
+        "translation": "스크린샷을 복사했습니다. Ctrl+V로 붙여 넣을 수 있으며 {folder}에도 저장했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_018",
+        "source": "Screenshot saved in {folder}.",
+        "translation": "스크린샷을 {folder}에 저장했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_019",
+        "source": "No screenshot: {reason}.",
+        "translation": "스크린샷을 생성하지 못했습니다: {reason}.",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_020",
+        "source": "{shown} setting, all at their defaults.",
+        "translation": "설정 {shown}개 · 모두 기본값",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_021",
+        "source": "{shown} settings, all at their defaults.",
+        "translation": "설정 {shown}개 · 모두 기본값",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_022",
+        "source": "{shown} setting, {changed} changed from default (marked with a bar).",
+        "translation": "설정 {shown}개 · 기본값에서 변경한 항목 {changed}개(막대로 표시)",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_023",
+        "source": "{shown} settings, {changed} changed from default (marked with a bar).",
+        "translation": "설정 {shown}개 · 기본값에서 변경한 항목 {changed}개(막대로 표시)",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_024",
+        "source": "{shown} setting, all at their defaults.  {hidden} advanced not shown.",
+        "translation": "설정 {shown}개 · 모두 기본값 · 표시하지 않은 고급 설정 {hidden}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_025",
+        "source": "{shown} settings, all at their defaults.  {hidden} advanced not shown.",
+        "translation": "설정 {shown}개 · 모두 기본값 · 표시하지 않은 고급 설정 {hidden}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_026",
+        "source": "{shown} setting, {changed} changed from default (marked with a bar).  {hidden} advanced not shown.",
+        "translation": "설정 {shown}개 · 변경 {changed}개(막대 표시) · 표시하지 않은 고급 설정 {hidden}개",
+        "match_mode": "template"
+      },
+      {
+        "id": "betterbepinex_ui_template_027",
+        "source": "{shown} settings, {changed} changed from default (marked with a bar).  {hidden} advanced not shown.",
+        "translation": "설정 {shown}개 · 변경 {changed}개(막대 표시) · 표시하지 않은 고급 설정 {hidden}개",
+        "match_mode": "template"
+      }
+    ]
+  }
+}

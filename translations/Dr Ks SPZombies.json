@@ -1,0 +1,3190 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.kennerz.zmcore",
+  "mod_name": "Dr K's SPZombies",
+  "mod_version": "0.1.1",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "zm_r001_001",
+        "source": "SOLO",
+        "translation": "솔로 플레이",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_002",
+        "source": "CREATE LOBBY",
+        "translation": "로비 생성",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_003",
+        "source": "CUSTOMISE",
+        "translation": "캐릭터 꾸미기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_004",
+        "source": "MATCH REPORT",
+        "translation": "경기 보고서",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_005",
+        "source": "STATISTICS",
+        "translation": "통계",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_006",
+        "source": "GAME SETTINGS",
+        "translation": "게임 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_007",
+        "source": "ZOMBIES SETTINGS",
+        "translation": "좀비 모드 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_008",
+        "source": "EXIT ZOMBIES MODE",
+        "translation": "좀비 모드 나가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_009",
+        "source": "GAME MODE",
+        "translation": "게임 모드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_010",
+        "source": "ZOMBIES MODE",
+        "translation": "좀비 모드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_011",
+        "source": "PLAY ZOMBIES",
+        "translation": "좀비 모드 플레이",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_012",
+        "source": "CHANGE MAP",
+        "translation": "맵 변경",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_013",
+        "source": "More maps show here as they're installed.",
+        "translation": "다른 맵을 설치하면 이곳에 추가로 표시됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_014",
+        "source": "BACK",
+        "translation": "뒤로",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_015",
+        "source": "EXFIL",
+        "translation": "탈출",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r001_016",
+        "source": "ROUND BASED",
+        "translation": "라운드제",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_001",
+        "source": "ZOMBIES LOBBY",
+        "translation": "좀비 로비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_002",
+        "source": "START MATCH",
+        "translation": "경기 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_003",
+        "source": "READY UP",
+        "translation": "준비 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_004",
+        "source": "NOT READY",
+        "translation": "준비 안 됨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_ready_action",
+        "source": "Not ready",
+        "translation": "준비 취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_005",
+        "source": "CANCEL",
+        "translation": "취소",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_006",
+        "source": "LOBBY TYPE: PRIVATE",
+        "translation": "로비 유형: 비공개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_007",
+        "source": "LOBBY TYPE: OPEN",
+        "translation": "로비 유형: 공개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_012",
+        "source": "FIKA MODE: HOST",
+        "translation": "Fika 호스팅: 호스트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_013",
+        "source": "FIKA MODE: HEADLESS",
+        "translation": "Fika 호스팅: 헤드리스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_014",
+        "source": "FIKA MODE: HOST (NO HEADLESS FREE)",
+        "translation": "Fika 호스팅: 호스트 (사용 가능한 헤드리스 없음)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_018",
+        "source": "READY",
+        "translation": "준비 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_020",
+        "source": "Open slot",
+        "translation": "빈 자리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_021",
+        "source": "PLAYER {slot}",
+        "translation": "플레이어 {slot}",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_023",
+        "source": "(YOU)",
+        "translation": "(본인)",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_024",
+        "source": "STARTING MATCH",
+        "translation": "경기 시작 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_025",
+        "source": "STARTING...",
+        "translation": "시작 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_026",
+        "source": "MATCH STARTS IN {seconds}",
+        "translation": "{seconds}초 후 경기 시작",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_027",
+        "source": "Press CANCEL to stop the countdown.",
+        "translation": "카운트다운을 중지하려면 취소를 누르세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_028",
+        "source": "Get ready...",
+        "translation": "준비하세요...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_029",
+        "source": "Hosting the match...",
+        "translation": "경기를 호스팅하는 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_030",
+        "source": "{name} is hosting the match...",
+        "translation": "{name}님이 경기를 호스팅하고 있습니다...",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_031",
+        "source": "Invite players from the social list to fill the lobby.",
+        "translation": "소셜 목록에서 플레이어를 초대해 로비를 채우세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_032",
+        "source": "Everyone's ready: press START MATCH.",
+        "translation": "모두 준비했습니다. 경기 시작을 누르세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_033",
+        "source": "All players must be ready to start the match.",
+        "translation": "경기를 시작하려면 모든 플레이어가 준비해야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_034",
+        "source": "You're ready. {name} starts the match.",
+        "translation": "준비를 마쳤습니다. {name}님이 경기를 시작합니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_035",
+        "source": "Click on players for options",
+        "translation": "플레이어를 클릭하면 선택 메뉴가 열립니다.",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_036",
+        "source": "Headless is used only if one is free when the match starts; otherwise your game hosts.",
+        "translation": "경기가 시작될 때 사용 가능한 헤드리스 서버가 있으면 사용합니다. 없으면 본인 게임이 호스트합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_039",
+        "source": "SOCIAL",
+        "translation": "소셜",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_040",
+        "source": "(Powered by Fika)",
+        "translation": "(Fika 기반)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_041",
+        "source": "IN GAME",
+        "translation": "게임 중",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_042",
+        "source": "ONLINE",
+        "translation": "온라인",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_043",
+        "source": "OFFLINE",
+        "translation": "오프라인",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_044",
+        "source": "Nobody",
+        "translation": "플레이어 없음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_045",
+        "source": "LOADING...",
+        "translation": "불러오는 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_046",
+        "source": "IN LOBBY",
+        "translation": "로비 참가 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_047",
+        "source": "INVITED",
+        "translation": "초대함",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_048",
+        "source": "SENDING",
+        "translation": "전송 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_049",
+        "source": "ASKED",
+        "translation": "참가 요청함",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_050",
+        "source": "INVITE",
+        "translation": "초대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_051",
+        "source": "JOIN",
+        "translation": "참가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_052",
+        "source": "Zombies - In solo - ",
+        "translation": "좀비 모드 - 솔로 - ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_053",
+        "source": "Zombies - In game - ",
+        "translation": "좀비 모드 - 게임 중 - ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_054",
+        "source": "Zombies - In party - ",
+        "translation": "좀비 모드 - 로비 참가 - ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_055",
+        "source": "Zombies - In menu",
+        "translation": "좀비 모드 - 메뉴",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_056",
+        "source": "Normal mode - In menu",
+        "translation": "일반 모드 - 메뉴",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_057",
+        "source": "Normal mode - In raid - ",
+        "translation": "일반 모드 - 레이드 중 - ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_058",
+        "source": "Normal mode - In raid",
+        "translation": "일반 모드 - 레이드 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_059",
+        "source": " (round ",
+        "translation": " (라운드 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_060",
+        "source": " (missing ",
+        "translation": " (미설치 ",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_061",
+        "source": "Offline",
+        "translation": "오프라인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_062",
+        "source": "VIEW STATISTICS",
+        "translation": "통계 보기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_063",
+        "source": "INFO",
+        "translation": "정보",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_064",
+        "source": "KICK PLAYER",
+        "translation": "플레이어 추방",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_065",
+        "source": "JOIN LOBBY",
+        "translation": "로비 참가",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_066",
+        "source": "REQUEST SENT",
+        "translation": "요청 전송됨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_067",
+        "source": "REQUEST TO JOIN",
+        "translation": "참가 요청",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_068",
+        "source": "LEAVE LOBBY?",
+        "translation": "로비에서 나가시겠습니까?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_069",
+        "source": "Leaving will disband the lobby. Are you sure?",
+        "translation": "로비를 나가면 로비가 해산됩니다. 계속하시겠습니까?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_070",
+        "source": "Leaving will leave the group. Are you sure?",
+        "translation": "로비에서 나가시겠습니까?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_071",
+        "source": "LEAVE",
+        "translation": "나가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_072",
+        "source": "STAY",
+        "translation": "머무르기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_073",
+        "source": "CREATE A LOBBY?",
+        "translation": "로비를 만드시겠습니까?",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_074",
+        "source": "Inviting {name} needs a lobby. Create one and send the invite?",
+        "translation": "{name}님을 초대하려면 로비가 필요합니다. 로비를 만들고 초대장을 보내시겠습니까?",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_075",
+        "source": "CREATE",
+        "translation": "생성",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_076",
+        "source": "ZOMBIES INVITE",
+        "translation": "좀비 모드 초대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_077",
+        "source": "JOIN REQUEST",
+        "translation": "참가 요청",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_078",
+        "source": "<b>{name}</b> wants to join your lobby.",
+        "translation": "<b>{name}</b>님이 로비 참가를 요청했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_079",
+        "source": "ACCEPT",
+        "translation": "수락",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_080",
+        "source": "DECLINE",
+        "translation": "거절",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_081",
+        "source": "YES",
+        "translation": "예",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_082",
+        "source": "NO",
+        "translation": "아니요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_083",
+        "source": "OK",
+        "translation": "확인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_084",
+        "source": "<b>{name}</b> invited you to play zombies on <color=#{color}>{map}</color>.",
+        "translation": "<b>{name}</b>님이 좀비 모드의 <color=#{color}>{map}</color> 맵에 초대했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_085",
+        "source": "<b>{name}</b> invited you to play zombies.",
+        "translation": "<b>{name}</b>님이 좀비 모드에 초대했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_086",
+        "source": "<b>{name}</b> has invited you to their lobby. Do you wish to leave?\n<size=80%><color=#8a8680>Note: progress from this match will not be saved.</color></size>",
+        "translation": "<b>{name}</b>님이 로비로 초대했습니다. 현재 경기를 나가시겠습니까?\n<size=80%><color=#8a8680>참고: 현재 경기 진행 상황은 저장되지 않습니다.</color></size>",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_087",
+        "source": "You need these first (on SPT Forge):\n",
+        "translation": "먼저 SPT Forge에서 다음 모드를 설치해야 합니다:\n",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_089",
+        "source": "You're hosting a zombies lobby: back to the main menu to start the match.",
+        "translation": "좀비 로비를 호스팅 중입니다. 경기를 시작하려면 메인 메뉴로 돌아가세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_090",
+        "source": "You're in {name}'s zombies lobby: back to the main menu to ready up.",
+        "translation": "{name}님의 좀비 로비에 참가 중입니다. 준비하려면 메인 메뉴로 돌아가세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_091",
+        "source": "Hosting the match",
+        "translation": "경기 호스팅 중",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_092",
+        "source": "Joining the match",
+        "translation": "경기 참가 중",
+        "match_mode": "segment"
+      },
+      {
+        "id": "zm_r002_093",
+        "source": "<b>{name}</b> invited you to their zombies lobby  -  press <color=#{color}>ESC</color> to answer",
+        "translation": "<b>{name}</b>님이 좀비 로비에 초대했습니다. <color=#{color}>ESC</color>를 눌러 응답하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_094",
+        "source": "That party is full.",
+        "translation": "해당 로비가 가득 찼습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_095",
+        "source": "You were kicked from that party too many times: only the host can invite you back.",
+        "translation": "해당 로비에서 여러 번 추방당했습니다. 호스트가 다시 초대해야 참가할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_096",
+        "source": "That party is invite only.",
+        "translation": "해당 로비는 초대받은 플레이어만 참가할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_097",
+        "source": "That party isn't open any more.",
+        "translation": "해당 로비는 더 이상 참가할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_098",
+        "source": "That lobby is full.",
+        "translation": "해당 로비가 가득 찼습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_099",
+        "source": "You've already asked. Wait for the host.",
+        "translation": "이미 참가를 요청했습니다. 호스트의 응답을 기다리세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_100",
+        "source": "Asked {name} to join their lobby.",
+        "translation": "{name}님에게 로비 참가를 요청했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_101",
+        "source": "That lobby isn't open any more.",
+        "translation": "해당 로비는 더 이상 열려 있지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_102",
+        "source": "{name} declined your request to join.",
+        "translation": "{name}님이 참가 요청을 거절했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_103",
+        "source": "{name}'s lobby is full or starting.",
+        "translation": "{name}님의 로비가 가득 찼거나 경기가 시작 중입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_104",
+        "source": "{name} let you into their lobby.",
+        "translation": "{name}님이 로비 참가를 허용했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_105",
+        "source": "Slow down: one invite every few seconds.",
+        "translation": "초대는 몇 초 간격으로만 보낼 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_106",
+        "source": "The match is already starting.",
+        "translation": "이미 경기가 시작되고 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_107",
+        "source": "{name} is already in your party.",
+        "translation": "{name}님은 이미 로비에 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_108",
+        "source": "The party is full.",
+        "translation": "로비가 가득 찼습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_109",
+        "source": "{name} is busy (in a raid).",
+        "translation": "{name}님은 레이드 중입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_110",
+        "source": "{name} has invites off!",
+        "translation": "{name}님은 초대 수신을 꺼 두었습니다!",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_111",
+        "source": "{name} is in a match and was invited moments ago.",
+        "translation": "{name}님은 경기 중이며 방금 초대를 받았습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_112",
+        "source": "{name} already has your party's invite.",
+        "translation": "{name}님에게 이미 이 로비의 초대를 보냈습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_113",
+        "source": "{name} already has an invite waiting. Try again in a moment.",
+        "translation": "{name}님에게 대기 중인 초대가 있습니다. 잠시 후 다시 시도하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_114",
+        "source": "{name} said no. You can invite them again in {seconds} s.",
+        "translation": "{name}님이 초대를 거절했습니다. {seconds}초 후 다시 초대할 수 있습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_115",
+        "source": "Not everyone's ready.",
+        "translation": "아직 모두 준비하지 않았습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_116",
+        "source": "{name} stopped the countdown.",
+        "translation": "{name}님이 카운트다운을 중지했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_117",
+        "source": "{name} removed you from the party.",
+        "translation": "{name}님이 회원님을 로비에서 추방했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_118",
+        "source": "{name} was removed from the party.",
+        "translation": "{name}님이 로비에서 추방되었습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_119",
+        "source": "{name} declined your invite.",
+        "translation": "{name}님이 초대를 거절했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_120",
+        "source": "Countdown stopped: {name} isn't ready.",
+        "translation": "{name}님이 준비하지 않아 카운트다운이 중지되었습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_121",
+        "source": "Countdown stopped: nobody else is in the party.",
+        "translation": "로비에 다른 플레이어가 없어 카운트다운이 중지되었습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_122",
+        "source": "The match didn't start. Press START MATCH again.",
+        "translation": "경기가 시작되지 않았습니다. 경기 시작을 다시 누르세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_123",
+        "source": "Invite sent to {name}.",
+        "translation": "{name}님에게 초대를 보냈습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_124",
+        "source": "Invite sent to {name}: they'll see it when they're next on.",
+        "translation": "{name}님에게 초대를 보냈습니다. 다음 접속 시 초대가 표시됩니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_125",
+        "source": "{name} doesn't have the zombies mode: they've been sent a message saying what to get.",
+        "translation": "{name}님에게 좀비 모드가 없습니다. 필요한 모드 안내 메시지를 보냈습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_126",
+        "source": "{name} left the lobby: ready up again.",
+        "translation": "{name}님이 로비를 나갔습니다. 다시 준비해 주세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_127",
+        "source": "{name} disbanded the lobby.",
+        "translation": "{name}님이 로비를 해산했습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_128",
+        "source": "The last match didn't start (the host's game left it): the lobby is open again, ready up.",
+        "translation": "이전 경기가 시작되지 않았습니다(호스트 게임 종료). 로비가 다시 열렸으니 준비해 주세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_129",
+        "source": "The match never started (the host left): make or join a new lobby.",
+        "translation": "호스트가 나가 경기가 시작되지 않았습니다. 새 로비를 만들거나 다른 로비에 참가하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r002_130",
+        "source": "{name} didn't answer your invite.",
+        "translation": "{name}님이 초대에 응답하지 않았습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_color_142",
+        "source": "LOBBY TYPE: <color=#{color}>PRIVATE</color>",
+        "translation": "로비 유형: <color=#{color}>비공개</color>",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_color_143",
+        "source": "LOBBY TYPE: <color=#{color}>OPEN</color>",
+        "translation": "로비 유형: <color=#{color}>공개</color>",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_color_144",
+        "source": "FIKA MODE: <color=#{color}>HEADLESS</color>",
+        "translation": "Fika 호스팅: <color=#{color}>헤드리스</color>",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_color_145",
+        "source": "FIKA MODE: <color=#{color}>HOST</color>",
+        "translation": "Fika 호스팅: <color=#{color}>호스트</color>",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_exact_146",
+        "source": "HOST",
+        "translation": "호스트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_001",
+        "source": "Press",
+        "translation": "누르기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_002",
+        "source": "Hold",
+        "translation": "길게 누르기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_003",
+        "source": "to rebuild barrier",
+        "translation": "바리케이드 수리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_004",
+        "source": "to reload",
+        "translation": "재장전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_005",
+        "source": "Turn on the power",
+        "translation": "전원 켜기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_006",
+        "source": "to turn on the power",
+        "translation": "전원 켜기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_007",
+        "source": "Buy grenades",
+        "translation": "수류탄 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_008",
+        "source": "to buy grenades",
+        "translation": "수류탄 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_009",
+        "source": "Open door",
+        "translation": "문 열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_010",
+        "source": "to open door",
+        "translation": "문 열기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_011",
+        "source": "Clear debris",
+        "translation": "잔해 치우기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_012",
+        "source": "to clear debris",
+        "translation": "잔해 치우기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_013",
+        "source": "Mystery Box",
+        "translation": "미스터리 박스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_014",
+        "source": "to mystery Box",
+        "translation": "미스터리 박스 이용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_015",
+        "source": "Mystery Box...",
+        "translation": "미스터리 박스...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_016",
+        "source": "Mystery Box (getting the guns ready...)",
+        "translation": "미스터리 박스 (무기 준비 중...)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_017",
+        "source": "to mystery Box (getting the guns ready...)",
+        "translation": "미스터리 박스 (무기 준비 중...)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_018",
+        "source": "Quick Revive",
+        "translation": "퀵 리바이브",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_019",
+        "source": "Buy Quick Revive",
+        "translation": "퀵 리바이브 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_020",
+        "source": "to buy Quick Revive",
+        "translation": "퀵 리바이브 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_021",
+        "source": "Quick Revive (needs the power)",
+        "translation": "퀵 리바이브 (전원 필요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_022",
+        "source": "Quick Revive (you have it)",
+        "translation": "퀵 리바이브 (이미 보유)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_023",
+        "source": "Quick Revive (none left)",
+        "translation": "퀵 리바이브 (남은 횟수 없음)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_024",
+        "source": "Pack-a-Punch (needs the power)",
+        "translation": "팩어펀치 (전원 필요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_025",
+        "source": "Pack-a-Punch (hold a gun)",
+        "translation": "팩어펀치 (총기를 들고 사용하세요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_026",
+        "source": "Pack-a-Punch (already upgraded)",
+        "translation": "팩어펀치 (이미 강화한 무기)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_027",
+        "source": "Call the exfil (hold the basement)",
+        "translation": "탈출 요청 (지하실 방어)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_028",
+        "source": "to call the exfil (hold the basement)",
+        "translation": "탈출 요청 (지하실 방어)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_029",
+        "source": "EXFIL READY THIS ROUND!",
+        "translation": "이번 라운드에 탈출 가능!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_030",
+        "source": "YOU GOT OUT",
+        "translation": "탈출 성공",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_031",
+        "source": "EXFIL CLOSING",
+        "translation": "탈출구 폐쇄 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_032",
+        "source": "NOBODY HOLDING!",
+        "translation": "방어 구역에 아무도 없습니다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_033",
+        "source": "EXFIL VOTE",
+        "translation": "탈출 투표",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_034",
+        "source": "You voted YES",
+        "translation": "찬성에 투표했습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_035",
+        "source": "You voted NO",
+        "translation": "반대에 투표했습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_036",
+        "source": "Basement Exfil",
+        "translation": "지하실 탈출구",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_037",
+        "source": "Lever",
+        "translation": "레버 작동 대기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_038",
+        "source": "Closing",
+        "translation": "폐쇄 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_039",
+        "source": "Closed",
+        "translation": "폐쇄됨",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_040",
+        "source": "MAX AMMO!",
+        "translation": "탄약 최대 보충!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_041",
+        "source": "INSTA-KILL!",
+        "translation": "일격 처치!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_042",
+        "source": "DOUBLE POINTS!",
+        "translation": "점수 2배!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_043",
+        "source": "KA-BOOM!",
+        "translation": "대폭발!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_044",
+        "source": "CARPENTER!",
+        "translation": "바리케이드 전체 수리!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_045",
+        "source": "FIRE SALE!",
+        "translation": "특가 판매!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_046",
+        "source": "WIDOW'S KISS",
+        "translation": "위도우의 입맞춤",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_047",
+        "source": "MAX AMMO",
+        "translation": "탄약 최대 보충",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_048",
+        "source": "INSTA-KILL",
+        "translation": "일격 처치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_049",
+        "source": "DOUBLE POINTS",
+        "translation": "점수 2배",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_050",
+        "source": "KA-BOOM",
+        "translation": "대폭발",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_051",
+        "source": "CARPENTER",
+        "translation": "바리케이드 전체 수리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_052",
+        "source": "FIRE SALE",
+        "translation": "특가 판매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_053",
+        "source": "The exfil window has passed: next at round {round}.",
+        "translation": "탈출 시간이 지났습니다. 다음 탈출 기회는 {round}라운드입니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_054",
+        "source": "The team said no to the exfil this round.",
+        "translation": "이번 라운드의 탈출 투표가 부결되었습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_055",
+        "source": "Everyone voted yes: exfil called!",
+        "translation": "전원 찬성으로 탈출을 요청했습니다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_056",
+        "source": "Exfil vote failed: not this round.",
+        "translation": "탈출 투표가 부결되었습니다. 이번 라운드에는 탈출하지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_057",
+        "source": "Exfil called: hold the basement!",
+        "translation": "탈출 요청 완료! 지하실을 방어하세요!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_058",
+        "source": "The exfil is open: get in!",
+        "translation": "탈출구가 열렸습니다. 지금 들어가세요!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_059",
+        "source": "The exfil is closing!",
+        "translation": "탈출구가 닫히고 있습니다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_060",
+        "source": "SUCCESSFULLY EXFILED",
+        "translation": "탈출 성공",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_061",
+        "source": "EXFILTRATED",
+        "translation": "탈출 완료",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_062",
+        "source": "The basement exfil is open.",
+        "translation": "지하실 탈출구가 열렸습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_063",
+        "source": "The power is on.",
+        "translation": "전원이 켜졌습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_064",
+        "source": "Only in a zombies match.",
+        "translation": "좀비 모드 경기에서만 사용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_065",
+        "source": "Build the layout in a raid first.",
+        "translation": "먼저 레이드에서 배치를 생성하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_066",
+        "source": "Turn \"Build the layout in raids\" on in a raid first.",
+        "translation": "먼저 레이드에서 \"레이드 중 배치 생성\" 옵션을 켜세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_067",
+        "source": "No player start in this layout.",
+        "translation": "이 배치에는 플레이어 시작 지점이 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_068",
+        "source": "Jugger-Nog",
+        "translation": "저거노그",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_069",
+        "source": "Buy Jugger-Nog",
+        "translation": "저거노그 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_070",
+        "source": "to buy Jugger-Nog",
+        "translation": "저거노그 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_071",
+        "source": "Jugger-Nog (needs the power)",
+        "translation": "저거노그 (전원 필요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_072",
+        "source": "Jugger-Nog (you have it)",
+        "translation": "저거노그 (이미 보유)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_073",
+        "source": "Jugger-Nog ({count} perks at most)",
+        "translation": "저거노그 (특전 최대 {count}개)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_074",
+        "source": "Speed Cola",
+        "translation": "스피드 콜라",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_075",
+        "source": "Buy Speed Cola",
+        "translation": "스피드 콜라 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_076",
+        "source": "to buy Speed Cola",
+        "translation": "스피드 콜라 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_077",
+        "source": "Speed Cola (needs the power)",
+        "translation": "스피드 콜라 (전원 필요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_078",
+        "source": "Speed Cola (you have it)",
+        "translation": "스피드 콜라 (이미 보유)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_079",
+        "source": "Speed Cola ({count} perks at most)",
+        "translation": "스피드 콜라 (특전 최대 {count}개)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_080",
+        "source": "Double Tap Root Beer",
+        "translation": "더블 탭 루트 비어",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_081",
+        "source": "Buy Double Tap Root Beer",
+        "translation": "더블 탭 루트 비어 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_082",
+        "source": "to buy Double Tap Root Beer",
+        "translation": "더블 탭 루트 비어 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_083",
+        "source": "Double Tap Root Beer (needs the power)",
+        "translation": "더블 탭 루트 비어 (전원 필요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_084",
+        "source": "Double Tap Root Beer (you have it)",
+        "translation": "더블 탭 루트 비어 (이미 보유)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_085",
+        "source": "Double Tap Root Beer ({count} perks at most)",
+        "translation": "더블 탭 루트 비어 (특전 최대 {count}개)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_086",
+        "source": "Stamin-Up",
+        "translation": "스태미너 업",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_087",
+        "source": "Buy Stamin-Up",
+        "translation": "스태미너 업 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_088",
+        "source": "to buy Stamin-Up",
+        "translation": "스태미너 업 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_089",
+        "source": "Stamin-Up (needs the power)",
+        "translation": "스태미너 업 (전원 필요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_090",
+        "source": "Stamin-Up (you have it)",
+        "translation": "스태미너 업 (이미 보유)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_091",
+        "source": "Stamin-Up ({count} perks at most)",
+        "translation": "스태미너 업 (특전 최대 {count}개)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_092",
+        "source": "Deadshot Daiquiri",
+        "translation": "데드샷 다이키리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_093",
+        "source": "Buy Deadshot Daiquiri",
+        "translation": "데드샷 다이키리 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_094",
+        "source": "to buy Deadshot Daiquiri",
+        "translation": "데드샷 다이키리 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_095",
+        "source": "Deadshot Daiquiri (needs the power)",
+        "translation": "데드샷 다이키리 (전원 필요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_096",
+        "source": "Deadshot Daiquiri (you have it)",
+        "translation": "데드샷 다이키리 (이미 보유)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_097",
+        "source": "Deadshot Daiquiri ({count} perks at most)",
+        "translation": "데드샷 다이키리 (특전 최대 {count}개)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_098",
+        "source": "Mule Kick",
+        "translation": "뮬 킥",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_099",
+        "source": "Buy Mule Kick",
+        "translation": "뮬 킥 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_100",
+        "source": "to buy Mule Kick",
+        "translation": "뮬 킥 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_101",
+        "source": "Mule Kick (needs the power)",
+        "translation": "뮬 킥 (전원 필요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_102",
+        "source": "Mule Kick (you have it)",
+        "translation": "뮬 킥 (이미 보유)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_103",
+        "source": "Mule Kick ({count} perks at most)",
+        "translation": "뮬 킥 (특전 최대 {count}개)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_104",
+        "source": "Widow's Wine",
+        "translation": "위도우 와인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_105",
+        "source": "Buy Widow's Wine",
+        "translation": "위도우 와인 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_106",
+        "source": "to buy Widow's Wine",
+        "translation": "위도우 와인 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_107",
+        "source": "Widow's Wine (needs the power)",
+        "translation": "위도우 와인 (전원 필요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_108",
+        "source": "Widow's Wine (you have it)",
+        "translation": "위도우 와인 (이미 보유)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_109",
+        "source": "Widow's Wine ({count} perks at most)",
+        "translation": "위도우 와인 (특전 최대 {count}개)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_110",
+        "source": "PHD Flopper",
+        "translation": "PHD 플로퍼",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_111",
+        "source": "Buy PHD Flopper",
+        "translation": "PHD 플로퍼 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_112",
+        "source": "to buy PHD Flopper",
+        "translation": "PHD 플로퍼 구매",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_113",
+        "source": "PHD Flopper (needs the power)",
+        "translation": "PHD 플로퍼 (전원 필요)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_114",
+        "source": "PHD Flopper (you have it)",
+        "translation": "PHD 플로퍼 (이미 보유)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r003_115",
+        "source": "PHD Flopper ({count} perks at most)",
+        "translation": "PHD 플로퍼 (특전 최대 {count}개)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_116",
+        "source": "Pack-a-Punch ({player}'s turn)",
+        "translation": "팩어펀치 ({player}님 사용 중)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_117",
+        "source": "{weapon} (someone else's)",
+        "translation": "{weapon} (다른 플레이어 차례)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_118",
+        "source": "Exfil (round {round})",
+        "translation": "탈출 ({round}라운드)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_119",
+        "source": "to exfil (round {round})",
+        "translation": "탈출 ({round}라운드)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_120",
+        "source": "{count} ZOMBIE LEFT",
+        "translation": "남은 좀비 {count}마리",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_121",
+        "source": "{count} ZOMBIES LEFT",
+        "translation": "남은 좀비 {count}마리",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_122",
+        "source": "YOU GOT OUT  -  EXFIL CLOSES IN {time}",
+        "translation": "탈출 성공 - 탈출구 폐쇄까지 {time}",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_123",
+        "source": "EXFIL OPEN: GET IN  {time}",
+        "translation": "탈출구 개방! 진입하세요  {time}",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_124",
+        "source": "EXFILTRATING {seconds}",
+        "translation": "탈출 중 {seconds}초",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_125",
+        "source": "HOLD THE AREA  ({count} in)",
+        "translation": "방어 구역 유지 ({count}명 진입)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_126",
+        "source": "Leave through the basement?  {yes}/{needed} yes  ({seconds} s)",
+        "translation": "지하실에서 탈출하시겠습니까? 찬성 {yes}/{needed}표 ({seconds}초)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_127",
+        "source": "[{yesKey}] YES        [{noKey}] NO",
+        "translation": "[{yesKey}] 찬성        [{noKey}] 반대",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_128",
+        "source": "Round {round}+",
+        "translation": "{round}라운드 이후",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_129",
+        "source": "Round {round}",
+        "translation": "{round}라운드",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_130",
+        "source": "Hold {percent}% (empty)",
+        "translation": "방어 진행 {percent}% (구역 비어 있음)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_131",
+        "source": "Hold {percent}%",
+        "translation": "방어 진행 {percent}%",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_132",
+        "source": "Open {time}",
+        "translation": "개방됨 {time}",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_133",
+        "source": "EXFIL FAILED: next chance at round {round}",
+        "translation": "탈출 실패! 다음 기회: {round}라운드",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_134",
+        "source": "{name} got out!",
+        "translation": "{name}님이 탈출했습니다!",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_135",
+        "source": "Welcome back: {points} points.",
+        "translation": "복귀했습니다. 보유 점수: {points}점.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_136",
+        "source": "No zombies layout for {location} yet (maps\\{location}.json).",
+        "translation": "{location} 지역의 좀비 배치가 없습니다 (maps\\{location}.json).",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_137",
+        "source": "Zombies layout built: {blockers} blockers, {doors} doors and debris. {points} points.",
+        "translation": "좀비 배치 생성: 장애물 {blockers}개, 문·잔해 {doors}개. {points}점.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_138",
+        "source": "to revive {name}",
+        "translation": "{name} 소생",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_139",
+        "source": "Revive {name}",
+        "translation": "{name} 소생",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_140",
+        "source": "Quick Revive {count}/3",
+        "translation": "퀵 리바이브 {count}/3",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_141",
+        "source": "to buy ammo for {gun}",
+        "translation": "{gun} 탄약 구매",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_142",
+        "source": "Buy ammo for {gun}",
+        "translation": "{gun} 탄약 구매",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_143",
+        "source": "to take {gun}",
+        "translation": "{gun} 획득",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_144",
+        "source": "Take {gun}",
+        "translation": "{gun} 획득",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_145",
+        "source": "to pack-a-Punch {gun}",
+        "translation": "{gun} 팩어펀치 강화",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_146",
+        "source": "Pack-a-Punch {gun}",
+        "translation": "{gun} 팩어펀치 강화",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_147",
+        "source": "to buy {item}",
+        "translation": "{item} 구매",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r003_148",
+        "source": "Buy {item}",
+        "translation": "{item} 구매",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_001",
+        "source": "You will respawn next round  -  left / right click to switch player",
+        "translation": "다음 라운드에 부활합니다 - 마우스 좌/우 클릭으로 관전 대상을 변경하세요",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_002",
+        "source": "Watching {name}  -  You will respawn next round  -  left / right click to switch player",
+        "translation": "{name} 관전 중 - 다음 라운드에 부활합니다 - 마우스 좌/우 클릭으로 관전 대상을 변경하세요",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_003",
+        "source": "BEING REVIVED BY: {name}",
+        "translation": "{name}님이 소생시키는 중",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_004",
+        "source": "BLEEDING OUT",
+        "translation": "출혈로 사망하기까지",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_005",
+        "source": "REVIVING",
+        "translation": "소생 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_006",
+        "source": "to revive",
+        "translation": "소생",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_007",
+        "source": "Revive",
+        "translation": "소생",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_008",
+        "source": "GAME OVER",
+        "translation": "게임 오버",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_009",
+        "source": "You survived 1 round",
+        "translation": "1라운드 생존",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_010",
+        "source": "You survived {rounds} rounds",
+        "translation": "{rounds}라운드 생존",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_011",
+        "source": "EXFIL UNSUCCESSFUL",
+        "translation": "탈출 실패",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_012",
+        "source": "LOADING{dots}",
+        "translation": "불러오는 중{dots}",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_013",
+        "source": "PLAYER",
+        "translation": "플레이어",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_014",
+        "source": "SCORE",
+        "translation": "점수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_015",
+        "source": "POINTS",
+        "translation": "포인트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_016",
+        "source": "KILLS",
+        "translation": "처치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_017",
+        "source": "HEADSHOTS",
+        "translation": "헤드샷",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_018",
+        "source": "DOWNS",
+        "translation": "쓰러짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_019",
+        "source": "REVIVES",
+        "translation": "소생",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_020",
+        "source": "DOORS",
+        "translation": "문 개방",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_021",
+        "source": "SESSION TIME ELAPSED  {time}",
+        "translation": "플레이 경과 시간  {time}",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_022",
+        "source": "AFTER ACTION REPORT",
+        "translation": "전투 결과 보고서",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_023",
+        "source": "{map}   ·   1 round survived   ·   {time}   ·   {when}",
+        "translation": "{map}   ·   1라운드 생존   ·   {time}   ·   {when}",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_024",
+        "source": "{map}   ·   {rounds} rounds survived   ·   {time}   ·   {when}",
+        "translation": "{map}   ·   {rounds}라운드 생존   ·   {time}   ·   {when}",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_025",
+        "source": "NEXT",
+        "translation": "다음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_026",
+        "source": "EXPERIENCE",
+        "translation": "경험치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_027",
+        "source": "Rounds survived",
+        "translation": "생존 라운드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_028",
+        "source": "Zombies killed",
+        "translation": "좀비 처치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_029",
+        "source": "Headshot kills",
+        "translation": "헤드샷 처치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_030",
+        "source": "Knife kills",
+        "translation": "근접 무기 처치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_031",
+        "source": "Barrier boards rebuilt",
+        "translation": "바리케이드 판자 수리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_032",
+        "source": "Doors and debris opened",
+        "translation": "문·잔해 개방",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_033",
+        "source": "Points spent (per 1,000)",
+        "translation": "사용한 포인트 (1,000점당)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_034",
+        "source": "Teammates revived",
+        "translation": "팀원 소생",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_035",
+        "source": "Times downed",
+        "translation": "쓰러진 횟수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_036",
+        "source": "EXFIL BONUS (+{percent}%)",
+        "translation": "탈출 보너스 (+{percent}%)",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_037",
+        "source": "TOTAL XP",
+        "translation": "총 경험치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_038",
+        "source": "DR. K POINTS",
+        "translation": "Dr. K 포인트",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_039",
+        "source": "Your total: {points}",
+        "translation": "총 보유 포인트: {points}",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_040",
+        "source": "Banking...",
+        "translation": "포인트 저장 중...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_041",
+        "source": "Points not banked: server not reachable",
+        "translation": "포인트를 저장하지 못했습니다. 서버에 연결할 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_042",
+        "source": "{name}'S STATISTICS",
+        "translation": "{name}의 통계",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_043",
+        "source": "{name} hasn't played a zombies match yet",
+        "translation": "{name}님은 아직 좀비 모드 경기를 플레이하지 않았습니다.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_044",
+        "source": "No matches played yet",
+        "translation": "아직 플레이한 경기가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_045",
+        "source": "{count} match played",
+        "translation": "플레이한 경기: {count}회",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_046",
+        "source": "{count} matches played",
+        "translation": "플레이한 경기: {count}회",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_047",
+        "source": "MATCHES",
+        "translation": "경기 수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_048",
+        "source": "HIGHEST ROUND",
+        "translation": "최고 라운드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_049",
+        "source": "KNIFE KILLS",
+        "translation": "근접 무기 처치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_050",
+        "source": "BEST SCORE",
+        "translation": "최고 점수",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_051",
+        "source": "DOORS OPENED",
+        "translation": "개방한 문",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_052",
+        "source": "BOARDS REBUILT",
+        "translation": "수리한 판자",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_053",
+        "source": "TIME PLAYED",
+        "translation": "총 플레이 시간",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_054",
+        "source": "ROUNDS",
+        "translation": "라운드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r004_055",
+        "source": "LAST {count} MATCH",
+        "translation": "최근 경기 {count}회",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_056",
+        "source": "LAST {count} MATCHES",
+        "translation": "최근 경기 {count}회",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_057",
+        "source": "{hours}h {minutes}m",
+        "translation": "{hours}시간 {minutes}분",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r004_058",
+        "source": "{minutes}m {seconds}s",
+        "translation": "{minutes}분 {seconds}초",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r005_001",
+        "source": "ZOMBIES CONTROLS",
+        "translation": "좀비 모드 조작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_002",
+        "source": "KEYBINDS",
+        "translation": "키 설정",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_003",
+        "source": "SOUND",
+        "translation": "소리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_004",
+        "source": "EXIT",
+        "translation": "나가기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_005",
+        "source": "Back to defaults",
+        "translation": "기본값으로 복원",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_006",
+        "source": "press a key...",
+        "translation": "키를 누르세요...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_007",
+        "source": "HOLD",
+        "translation": "길게 누르기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_008",
+        "source": "TOGGLE",
+        "translation": "누를 때마다 전환",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_009",
+        "source": "ON",
+        "translation": "켜짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_010",
+        "source": "OFF",
+        "translation": "꺼짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_011",
+        "source": "Invites from other players",
+        "translation": "다른 플레이어의 초대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_012",
+        "source": "Mouse wheel: next gun / gun before. Esc: cancel, Backspace: none.",
+        "translation": "마우스 휠: 다음/이전 무기. Esc: 취소, Backspace: 키 지정 해제.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_013",
+        "source": "The same volumes as in F12. Changes save at once.",
+        "translation": "F12와 동일한 음량 설정이며 변경 즉시 저장됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_014",
+        "source": "MUSIC",
+        "translation": "음악",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_015",
+        "source": "MENUS AND NOTIFICATIONS",
+        "translation": "메뉴 및 알림",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_016",
+        "source": "ZOMBIES MATCH",
+        "translation": "좀비 경기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_017",
+        "source": "MYSTERY BOX",
+        "translation": "미스터리 박스",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_018",
+        "source": "PACK-A-PUNCH",
+        "translation": "팩어펀치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_019",
+        "source": "PERK MACHINES",
+        "translation": "특전 기계",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_020",
+        "source": "RAY GUN",
+        "translation": "레이 건",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_021",
+        "source": "THUNDERGUN",
+        "translation": "썬더건",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_022",
+        "source": "OTHER SOUNDS",
+        "translation": "기타 효과음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_023",
+        "source": "Move forward",
+        "translation": "앞으로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_024",
+        "source": "Move back",
+        "translation": "뒤로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_025",
+        "source": "Move left",
+        "translation": "왼쪽으로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_026",
+        "source": "Move right",
+        "translation": "오른쪽으로 이동",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_027",
+        "source": "Sprint",
+        "translation": "전력질주",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_028",
+        "source": "Sprint: hold or toggle",
+        "translation": "전력질주: 누르고 있기 / 전환",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_029",
+        "source": "Jump",
+        "translation": "점프",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_030",
+        "source": "Crouch",
+        "translation": "웅크리기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_031",
+        "source": "Crouch: hold or toggle",
+        "translation": "웅크리기: 누르고 있기 / 전환",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_032",
+        "source": "Prone",
+        "translation": "엎드리기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_033",
+        "source": "Throw lethal",
+        "translation": "살상 투척물 사용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_034",
+        "source": "Throw tactical",
+        "translation": "전술 투척물 사용",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_035",
+        "source": "Melee (knife)",
+        "translation": "근접 공격(칼)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_036",
+        "source": "Reload",
+        "translation": "재장전",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_037",
+        "source": "Use / buy / rebuild",
+        "translation": "사용 / 구매 / 수리",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_038",
+        "source": "Scoreboard (hold)",
+        "translation": "점수판(누르고 있는 동안)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_039",
+        "source": "Next gun (also wheel down)",
+        "translation": "다음 무기(휠 아래로도 가능)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_040",
+        "source": "Gun before (also wheel up)",
+        "translation": "이전 무기(휠 위로도 가능)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_041",
+        "source": "Secondary fire (launcher)",
+        "translation": "보조 발사(유탄발사기)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_042",
+        "source": "Exfil vote: yes",
+        "translation": "탈출 투표: 찬성",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_043",
+        "source": "Exfil vote: no",
+        "translation": "탈출 투표: 반대",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_044",
+        "source": "All box sounds",
+        "translation": "미스터리 박스 전체 효과음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_045",
+        "source": "Every mystery box sound together.",
+        "translation": "미스터리 박스의 모든 효과음을 함께 조절합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_046",
+        "source": "Lid",
+        "translation": "뚜껑",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_047",
+        "source": "The lid opening and closing.",
+        "translation": "뚜껑이 열리고 닫힐 때의 효과음입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_048",
+        "source": "Music box",
+        "translation": "오르골",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_049",
+        "source": "The music box tune while it spins.",
+        "translation": "미스터리 박스가 돌아가는 동안 재생되는 오르골 음악입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_050",
+        "source": "Spin",
+        "translation": "회전음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_051",
+        "source": "The guns spinning.",
+        "translation": "무기가 돌아갈 때의 효과음입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_052",
+        "source": "Teddy (laugh, bye bye)",
+        "translation": "테디베어(웃음·작별 인사)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_053",
+        "source": "The laugh and the \"bye bye\" when the teddy comes up.",
+        "translation": "테디베어가 나왔을 때의 웃음소리와 작별 인사 음성입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_054",
+        "source": "Box moving",
+        "translation": "박스 이동음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_055",
+        "source": "The whoosh, poof and disappearing as the box leaves, and its landing.",
+        "translation": "박스가 사라지고 이동한 뒤 도착할 때의 바람·순간이동·착지 효과음입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_056",
+        "source": "Menu button sounds",
+        "translation": "메뉴 버튼 효과음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_057",
+        "source": "The zombies menus' own sounds (hover, click, back, pop-ups, players joining and leaving, invites).",
+        "translation": "좀비 메뉴의 마우스 올림·클릭·뒤로 가기·팝업·참가·퇴장·초대 효과음 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_058",
+        "source": "Main menu music",
+        "translation": "메인 메뉴 음악",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_059",
+        "source": "Damned 2 (and the rare one) in the menu in zombies mode, on top of the game's music volume.",
+        "translation": "좀비 모드 메뉴에서 재생되는 Damned 2와 희귀 곡의 음량입니다. 게임 자체 음악 음량에 추가로 적용됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_060",
+        "source": "Enter / exit volume",
+        "translation": "모드 전환 효과음 음량",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_061",
+        "source": "The sound switching into and out of zombies mode, on top of the game's music volume.",
+        "translation": "좀비 모드에 진입하거나 나갈 때의 전환음입니다. 게임 자체 음악 음량이 함께 적용됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_062",
+        "source": "Music starts with the sound",
+        "translation": "전환 효과음과 음악 동시 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_063",
+        "source": "The music starts the moment you switch, fading in under the enter / exit sound (which plays at full). Off: the music comes in near the sound's end.",
+        "translation": "켜면 모드를 전환하는 순간 음악이 전환 효과음 아래에서 서서히 시작됩니다. 끄면 전환 효과음이 끝나갈 때 음악이 시작됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_064",
+        "source": "Music comes in early (s)",
+        "translation": "음악 조기 시작 시간(초)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_065",
+        "source": "How long before the enter / exit sound ends the next music starts, crossfading with it over that time.",
+        "translation": "전환 효과음이 끝나기 몇 초 전부터 다음 음악이 시작되어 그 시간 동안 크로스페이드할지 설정합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_066",
+        "source": "Menu video background",
+        "translation": "메뉴 동영상 배경",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_067",
+        "source": "Zombies mode's main menu plays its own video background behind the buttons (it fades over your chosen EFT background going in, and back out to it).",
+        "translation": "좀비 모드 메뉴의 버튼 뒤에 동영상 배경을 재생합니다. 모드 진입·종료 시 선택한 EFT 배경과 자연스럽게 전환합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_068",
+        "source": "Menu video brightness",
+        "translation": "메뉴 동영상 밝기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_069",
+        "source": "How bright the menu video is (lower: the buttons stand out more).",
+        "translation": "메뉴 동영상의 밝기를 설정합니다. 낮추면 버튼이 더 돋보입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_070",
+        "source": "All zombies sounds",
+        "translation": "전체 좀비 모드 효과음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_071",
+        "source": "Every zombies mode sound together (the box has its own section, the perk machines follow Perk Beverages' own volumes).",
+        "translation": "모든 좀비 모드 효과음의 음량을 함께 조절합니다. 미스터리 박스에는 별도의 설정이 있고, 특전 기계는 Perk Beverages 모드의 설정을 따릅니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_072",
+        "source": "Machine hum range (m)",
+        "translation": "기계 작동음 거리(m)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_073",
+        "source": "How far a perk machine's and Pack-a-Punch's hum carries.",
+        "translation": "특전 기계와 팩어펀치의 작동음이 들리는 거리입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_074",
+        "source": "Machine jingle range (m)",
+        "translation": "기계 징글 거리(m)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_075",
+        "source": "How far a perk machine's jingle, sting and sparks carry (and how near you must be for a jingle to play at all).",
+        "translation": "특전 기계의 징글·효과음·불꽃 소리가 들리는 거리이며, 징글이 재생될 수 있는 최대 접근 거리이기도 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_076",
+        "source": "Power switch",
+        "translation": "전원 스위치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_077",
+        "source": "The power coming on: the switch, the surge and the lights' hum.",
+        "translation": "전원 투입 시 스위치·전력 공급·조명 작동음의 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_078",
+        "source": "Doors and debris",
+        "translation": "문과 잔해",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_079",
+        "source": "Doors sliding open and debris clearing, with the lightning and slam.",
+        "translation": "문을 열거나 잔해를 치울 때의 번개 및 충격 효과음 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_080",
+        "source": "Barricades",
+        "translation": "바리케이드",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_081",
+        "source": "Boards torn off and slammed back on.",
+        "translation": "판자가 뜯기거나 다시 박힐 때의 효과음 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_082",
+        "source": "Zombies",
+        "translation": "좀비",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_083",
+        "source": "Zombies rising out of the dirt.",
+        "translation": "좀비가 땅에서 일어날 때의 효과음 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_084",
+        "source": "Power-ups",
+        "translation": "파워업",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_085",
+        "source": "Power-ups: the hum, the grab, the announcer.",
+        "translation": "파워업의 작동음·획득음·아나운서 음성 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_086",
+        "source": "Purchases",
+        "translation": "구매 효과음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_087",
+        "source": "The cha-ching and the wall buy's gun sliding out.",
+        "translation": "구매 시 결제음과 벽면 무기가 나오는 효과음 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_088",
+        "source": "Pack-a-Punch",
+        "translation": "팩어펀치",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_089",
+        "source": "Pack-a-Punch's machine: jingle, crunch, process, sting.",
+        "translation": "팩어펀치 기계의 징글·작동·가공·완료 효과음 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_090",
+        "source": "Widows Wine",
+        "translation": "위도우스 와인",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_091",
+        "source": "The web bursting and the cocoon.",
+        "translation": "거미줄이 터지고 고치가 만들어질 때의 효과음 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_092",
+        "source": "Lore lightning",
+        "translation": "로어 번개",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_093",
+        "source": "The placed lightning's crackle and thunder.",
+        "translation": "설치된 번개의 지직거림과 천둥 효과음 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_094",
+        "source": "Easter egg song",
+        "translation": "이스터에그 음악",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_095",
+        "source": "The map's easter egg song once every 115 rock is found.",
+        "translation": "맵의 이스터에그 돌 115개를 모두 찾았을 때 재생되는 음악의 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_096",
+        "source": "Loading screen music",
+        "translation": "로딩 화면 음악",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_097",
+        "source": "The music on the loading screen before the match.",
+        "translation": "경기 시작 전 로딩 화면에서 재생되는 음악의 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_098",
+        "source": "Round start and end music",
+        "translation": "라운드 시작·종료 음악",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_099",
+        "source": "The round start and round end music.",
+        "translation": "라운드 시작 및 종료 음악의 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_100",
+        "source": "Game over song",
+        "translation": "게임 오버 음악",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_101",
+        "source": "The song under the game over and its camera shots.",
+        "translation": "게임 오버 화면과 카메라 장면에서 재생되는 음악의 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_102",
+        "source": "Fire Sale music",
+        "translation": "파이어 세일 음악",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_103",
+        "source": "The Fire Sale's tune at the box while it lasts.",
+        "translation": "파이어 세일이 지속되는 동안 미스터리 박스에서 재생되는 음악의 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_104",
+        "source": "Cymbal Monkey song",
+        "translation": "심벌 몽키 음악",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_105",
+        "source": "The monkey's song while it plays on the ground.",
+        "translation": "심벌 몽키가 지면에서 작동하는 동안 재생되는 노래의 음량입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_106",
+        "source": "Map ambience",
+        "translation": "맵 환경음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_107",
+        "source": "The map's own ambience track, looped quietly under the whole match.",
+        "translation": "경기 내내 낮은 음량으로 반복 재생되는 맵 환경음입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_108",
+        "source": "NOTE:",
+        "translation": "안내:",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_109",
+        "source": "You can enter CHARACTER for this mode and equip what you like.",
+        "translation": "이 모드에서는 캐릭터 메뉴에서 원하는 장비를 착용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_110",
+        "source": "You will not lose any items on this character set up in zombies mode.",
+        "translation": "좀비 모드에서는 캐릭터에 착용한 아이템을 잃지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_111",
+        "source": "Guns will not be brought in though, so don't even try!",
+        "translation": "다만 총기는 가져올 수 없으니 시도하지 마세요!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r005_112",
+        "source": "Don't show me again",
+        "translation": "다시 표시하지 않음",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_001",
+        "source": "In the early rounds, let zombies climb in through the barricades before you kill them: only zombies that are inside can drop power-ups.",
+        "translation": "초반 라운드에서는 좀비가 바리케이드를 넘어 들어온 뒤 처치하세요. 실내에 들어온 좀비만 파워업을 떨어뜨릴 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_002",
+        "source": "Swapping to your other gun is faster than reloading.",
+        "translation": "재장전하는 것보다 다른 총기로 바꾸는 편이 빠릅니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_003",
+        "source": "Some 115 rocks are hidden around the map. Find them all and something special starts playing...",
+        "translation": "맵 곳곳에 115 돌이 숨겨져 있습니다. 전부 찾으면 특별한 음악이 시작됩니다...",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_004",
+        "source": "Rebuilding a barricade pays 10 points a board, up to 500 points a round.",
+        "translation": "바리케이드에 판자를 하나 설치할 때마다 10점을 얻으며, 라운드당 최대 500점까지 획득할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_005",
+        "source": "Knife kills are worth 130 points, headshot kills 100, other kills 50.",
+        "translation": "근접 무기로 처치하면 130점, 헤드샷으로 처치하면 100점, 그 외 처치는 50점을 얻습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_006",
+        "source": "Go prone in front of a perk machine for 100 free points, once per machine.",
+        "translation": "특전 자판기 앞에서 엎드리면 자판기마다 한 번씩 100점을 공짜로 얻습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_007",
+        "source": "Three slaps and you're down. Jugger-Nog lets you take five.",
+        "translation": "세 번 공격받으면 쓰러집니다. 저거노그를 마시면 다섯 번까지 버틸 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_008",
+        "source": "Get clear of the zombies for a few seconds and your slaps heal.",
+        "translation": "몇 초간 좀비의 공격을 피하면 받은 피해가 회복됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_009",
+        "source": "You lose every perk you hold if you go down.",
+        "translation": "쓰러지면 보유한 모든 특전을 잃습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_010",
+        "source": "Playing solo? Quick Revive picks you back up when you go down. You can buy it three times a match.",
+        "translation": "솔로 플레이 중이신가요? 퀵 리바이브가 쓰러진 캐릭터를 다시 일으켜 줍니다. 경기당 세 번까지 구매할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_011",
+        "source": "Speed Cola: reloads twice as fast and gets your gun out quicker.",
+        "translation": "스피드 콜라: 재장전 속도가 두 배로 빨라지고 총기를 더 빠르게 꺼낼 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_012",
+        "source": "Double Tap Root Beer: twice the damage and a faster rate of fire.",
+        "translation": "더블 탭 루트 비어: 피해량이 두 배가 되고 발사 속도가 빨라집니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_013",
+        "source": "Stamin-Up: run faster and sprint for longer.",
+        "translation": "스태민업: 더 빠르게 달리고 질주를 더 오래 유지할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_014",
+        "source": "Deadshot Daiquiri: your shots spread far less, so firing from the hip hits where you look.",
+        "translation": "데드샷 다이키리: 탄 퍼짐이 크게 줄어들어 지향 사격에서도 조준한 곳에 탄이 잘 맞습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_015",
+        "source": "Mule Kick: carry a third gun.",
+        "translation": "뮬 킥: 세 번째 총기를 휴대할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_016",
+        "source": "Without PHD Flopper, your own explosions hurt you. With it, your knife explodes too.",
+        "translation": "PHD 플로퍼가 없으면 자신의 폭발로 피해를 입습니다. 이 특전이 있으면 근접 공격에도 폭발 효과가 생깁니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_017",
+        "source": "Widow's Wine: when a zombie hits you, one of your grenades bursts into webs that hold every zombie nearby.",
+        "translation": "위도우즈 와인: 좀비에게 공격받으면 수류탄 한 발이 거미줄로 터져 주변 좀비들을 묶어 둡니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_018",
+        "source": "Pack-a-Punch (5000) makes a gun far stronger. Take it back within 15 seconds or it's gone.",
+        "translation": "팩어펀치(5000점)는 총기를 크게 강화합니다. 15초 안에 다시 가져가지 않으면 사라집니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_019",
+        "source": "The mystery box costs 950. If the teddy bear shows up, the box moves somewhere else.",
+        "translation": "미스터리 박스는 950점입니다. 곰 인형이 나오면 박스가 다른 위치로 이동합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_020",
+        "source": "Fire Sale: the mystery box costs 10 points while it lasts.",
+        "translation": "파이어 세일이 지속되는 동안 미스터리 박스 이용 가격은 10점입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_021",
+        "source": "Max Ammo refills every gun you carry and tops your grenades up to four.",
+        "translation": "맥스 아모는 보유한 모든 총기의 탄약을 보충하고 수류탄을 최대 네 발까지 채워 줍니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_022",
+        "source": "Nuke: every zombie on the map dies, and you get 400 points.",
+        "translation": "뉴크는 맵의 모든 좀비를 처치하고 400점을 줍니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_023",
+        "source": "Carpenter: every barricade is boarded up again, and you get 200 points.",
+        "translation": "카펜터는 모든 바리케이드에 판자를 다시 설치하고 200점을 줍니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_024",
+        "source": "Insta-Kill: any hit kills a zombie while it lasts.",
+        "translation": "인스타 킬이 지속되는 동안에는 어떤 공격으로든 좀비를 한 번에 처치할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_025",
+        "source": "Double Points: everything pays double while it lasts.",
+        "translation": "더블 포인트가 지속되는 동안 모든 점수 획득량이 두 배가 됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_026",
+        "source": "You get two grenades back every round. Hold the grenade key to cook one: it goes off five seconds after the pin comes out.",
+        "translation": "매 라운드 수류탄 두 발이 보충됩니다. 수류탄 키를 누르고 있으면 안전핀을 뽑고 투척을 지연시킬 수 있으며, 5초 뒤 폭발합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_027",
+        "source": "Your own grenades and explosions can hurt you (two slaps if you're right next to the blast), but never your teammates. PHD Flopper makes you immune.",
+        "translation": "자신의 수류탄과 폭발로는 피해를 입을 수 있지만 팀원은 피해를 입지 않습니다. 폭발 바로 옆에서는 두 번 공격받은 만큼 피해를 입습니다. PHD 플로퍼가 있으면 폭발 피해를 받지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_028",
+        "source": "From round 15, and every 5 rounds after, the exfil lever can be pulled. Hold the area until the bar fills, then get into the exfil zone to escape with bonus XP.",
+        "translation": "15라운드부터 매 5라운드마다 탈출 레버를 당길 수 있습니다. 구역을 지켜 진행 막대를 채운 뒤 탈출 지점으로 들어가면 추가 XP를 획득합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_029",
+        "source": "During the exfil the zombies never stop coming, and they all sprint. If nobody holds the area, the bar drains and the exfil can fail.",
+        "translation": "탈출 중에는 좀비가 끊임없이 나타나며 모두 질주합니다. 구역을 지키는 사람이 없으면 진행 막대가 줄어들고 탈출에 실패할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_030",
+        "source": "Throw a Cymbal Monkey and every zombie nearby goes for it instead of you.",
+        "translation": "심벌 몽키를 던지면 근처의 좀비들이 플레이어 대신 몽키를 쫓습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_031",
+        "source": "Every bullet that hits a zombie pays 10 points, so wounding before you finish them pays more.",
+        "translation": "좀비에게 명중한 탄환마다 10점을 받습니다. 마무리하기 전에 피해를 더 주면 점수를 더 얻을 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_032",
+        "source": "Zombies get tougher every round. Pack-a-Punch keeps your guns worth using.",
+        "translation": "라운드가 진행될수록 좀비가 강해집니다. 팩어펀치로 총기를 강화해 대응하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_033",
+        "source": "From round 18, some zombies start to sprint.",
+        "translation": "18라운드부터 일부 좀비가 질주하기 시작합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_034",
+        "source": "Aim for the head: headshots do three times the damage.",
+        "translation": "머리를 노리세요. 헤드샷은 세 배의 피해를 줍니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_035",
+        "source": "Every board slows them down: each one takes a zombie about three seconds to tear off.",
+        "translation": "판자 하나하나가 좀비의 진입을 늦춥니다. 좀비가 판자 한 장을 떼어내는 데 약 3초가 걸립니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_036",
+        "source": "A downed teammate gets back up if you hold {use} next to them for four seconds, two with Quick Revive.",
+        "translation": "쓰러진 팀원 옆에서 {use} 키를 4초간 누르면 소생시킬 수 있습니다. 퀵 리바이브가 있다면 2초면 됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_037",
+        "source": "Going down isn't the end: you still have a pistol, so keep shooting while you crawl.",
+        "translation": "쓰러졌다고 끝난 것은 아닙니다. 기어 다니면서도 권총으로 계속 싸울 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_038",
+        "source": "Doors and debris cost points, but they open new areas, and new zombies come with them.",
+        "translation": "문과 잔해를 치우려면 점수가 필요하지만 새로운 지역이 열리고, 그곳에서 좀비도 추가로 나타납니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_039",
+        "source": "The chalk outline on a wall shows the gun you can buy there.",
+        "translation": "벽의 분필 윤곽선은 해당 위치에서 구매할 수 있는 총기를 나타냅니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_040",
+        "source": "Your knife hits hard up close: it saves ammo in the early rounds.",
+        "translation": "근접 공격은 가까이서 강력합니다. 초반 라운드에는 탄약을 아끼는 데 도움이 됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_041",
+        "source": "Playing solo? Press Esc to pause the match.",
+        "translation": "솔로 플레이 중이신가요? Esc 키를 누르면 경기를 일시정지할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_042",
+        "source": "TIP",
+        "translation": "팁",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_043",
+        "source": "WAITING FOR PLAYERS",
+        "translation": "플레이어를 기다리는 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_044",
+        "source": "LOADING  {percent}%",
+        "translation": "불러오는 중  {percent}%",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r006_045",
+        "source": "Building the map",
+        "translation": "맵 구성 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_046",
+        "source": "Waiting for the raid",
+        "translation": "레이드 시작 대기 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_047",
+        "source": "Dropping in",
+        "translation": "진입 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_048",
+        "source": "Waiting for players",
+        "translation": "플레이어를 기다리는 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_049",
+        "source": "Lobby: start when everyone's in",
+        "translation": "로비: 전원 입장 시 시작",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_050",
+        "source": "Lobby: waiting for the host",
+        "translation": "로비: 호스트 대기 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_051",
+        "source": "Loading the map",
+        "translation": "맵 불러오는 중",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_052",
+        "source": "PAUSED BY THE PARTY LEADER",
+        "translation": "파티장이 경기를 일시정지했습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_053",
+        "source": "PAUSED BY HOST",
+        "translation": "호스트가 경기를 일시정지했습니다",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_054",
+        "source": "Ray Gun",
+        "translation": "레이 건",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_055",
+        "source": "Thundergun",
+        "translation": "썬더건",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_056",
+        "source": "Cymbal Monkey",
+        "translation": "심벌 몽키",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_057",
+        "source": "M32A1 (War Machine)",
+        "translation": "M32A1 (워 머신)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_058",
+        "source": "Mosin",
+        "translation": "모신 소총",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_059",
+        "source": "Desert Eagle L6",
+        "translation": "데저트 이글 L6",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_060",
+        "source": "Glock 18C",
+        "translation": "글록 18C",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_061",
+        "source": "Five-seveN MK2",
+        "translation": "파이브세븐 MK2",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_062",
+        "source": "SR-2M Veresk",
+        "translation": "SR-2M 베레스크",
+        "match_mode": "exact"
+      },
+      {
+        "id": "zm_r006_063",
+        "source": "PP-19-01 Vityaz",
+        "translation": "PP-19-01 비탸지",
+        "match_mode": "exact"
+      }
+    ],
+    "server_messages": [
+      {
+        "id": "zm_r002_srv_040",
+        "source": "{name} invited you to play Dr K's SPZombies on {map}. To join, get these mods on SPT Forge: {mods}. Then open PLAY, switch to ZOMBIES and look for the invite.",
+        "translation": "{name}님이 Dr K's SPZombies의 {map} 맵에 초대했습니다. 참여하려면 SPT Forge에서 다음 모드를 설치하세요: {mods}. 그다음 플레이 메뉴에서 좀비 모드로 전환하고 초대를 확인하세요.",
+        "match_mode": "template"
+      },
+      {
+        "id": "zm_r002_srv_041",
+        "source": "{name} invited you to play Dr K's SPZombies. To join, get these mods on SPT Forge: {mods}. Then open PLAY, switch to ZOMBIES and look for the invite.",
+        "translation": "{name}님이 Dr K's SPZombies에 초대했습니다. 참여하려면 SPT Forge에서 다음 모드를 설치하세요: {mods}. 그다음 플레이 메뉴에서 좀비 모드로 전환하고 초대를 확인하세요.",
+        "match_mode": "template"
+      }
+    ],
+    "locale": [
+      {
+        "key": "6a8f0e5b0c0a116000000c01 Name",
+        "source": "Cymbal Monkey",
+        "translation": "심벌 몽키",
+        "match_mode": "exact",
+        "seed_missing": true
+      },
+      {
+        "key": "6a8f0e5b0c0a116000000c01 ShortName",
+        "source": "Monkey",
+        "translation": "몽키",
+        "seed_missing": true
+      },
+      {
+        "key": "6a8f0e5b0c0a116000000c01 Description",
+        "source": "Wind it up and throw it. They can't resist the music.",
+        "translation": "태엽을 감아 던지세요. 좀비들은 이 음악을 거부하지 못합니다.",
+        "seed_missing": true
+      },
+      {
+        "key": "6a8f0e5b0c0a116000000d01 Name",
+        "source": "Pockets",
+        "translation": "좀비 모드 포켓",
+        "seed_missing": true
+      },
+      {
+        "key": "6a8f0e5b0c0a116000000d01 ShortName",
+        "source": "Pockets",
+        "translation": "포켓",
+        "seed_missing": true
+      },
+      {
+        "key": "6a8f0e5b0c0a116000000d01 Description",
+        "source": "Pockets",
+        "translation": "포켓입니다.",
+        "seed_missing": true
+      }
+    ]
+  }
+}

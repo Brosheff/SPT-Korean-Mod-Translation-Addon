@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.sage.tutorialbackport",
+  "plugin_name": "Tutorial Backport",
+  "mod_version": "1.1.0",
+  "categories": [
+    {
+      "source": "Tutorial",
+      "translation": "튜토리얼"
+    },
+    {
+      "source": "Intro",
+      "translation": "인트로"
+    },
+    {
+      "source": "Tapes",
+      "translation": "녹음테이프"
+    }
+  ],
+  "entries": [
+    {
+      "section": "Tutorial",
+      "key": "AutoLaunch",
+      "source_display_name": "AutoLaunch",
+      "source_description": "Start the tutorial raid automatically for a new profile",
+      "translation_display_name": "새 프로필에서 튜토리얼 자동 시작",
+      "translation_description": "새 프로필을 만들면 튜토리얼 레이드를 자동으로 시작합니다.",
+      "values": []
+    },
+    {
+      "section": "Intro",
+      "key": "PlayIntro",
+      "source_display_name": "PlayIntro",
+      "source_description": "Play the intro video when the tutorial raid starts",
+      "translation_display_name": "인트로 영상 재생",
+      "translation_description": "튜토리얼 레이드 시작 시 인트로 영상을 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "Intro",
+      "key": "SubtitleToggleKey",
+      "source_display_name": "SubtitleToggleKey",
+      "source_description": "Key that toggles the intro subtitles",
+      "translation_display_name": "자막 표시 전환 키",
+      "translation_description": "인트로 자막의 표시 여부를 전환하는 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Intro",
+      "key": "SkipKey",
+      "source_display_name": "SkipKey",
+      "source_description": "Hold to skip the intro",
+      "translation_display_name": "인트로 건너뛰기 키",
+      "translation_description": "길게 눌러 인트로를 건너뛰는 키입니다.",
+      "values": []
+    },
+    {
+      "section": "Intro",
+      "key": "SkipKeyAlternate",
+      "source_display_name": "SkipKeyAlternate",
+      "source_description": "Second key that also skips the intro when held (None to disable)",
+      "translation_display_name": "보조 건너뛰기 키",
+      "translation_description": "길게 눌러 인트로를 건너뛰는 두 번째 키입니다. 사용하지 않으려면 None으로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Tapes",
+      "key": "PlayStopKey",
+      "source_display_name": "PlayStopKey",
+      "source_description": "Plays the last tape you found / stops it; needs the audio recorder in your inventory",
+      "translation_display_name": "녹음테이프 재생·중지 키",
+      "translation_description": "마지막으로 발견한 녹음테이프를 재생하거나 중지합니다. 인벤토리에 음성 녹음기가 있어야 합니다.",
+      "values": []
+    },
+    {
+      "section": "Tapes",
+      "key": "Subtitles",
+      "source_display_name": "Subtitles",
+      "source_description": "Show subtitles while a tape plays",
+      "translation_display_name": "녹음테이프 자막 표시",
+      "translation_description": "녹음테이프를 재생하는 동안 자막을 표시합니다.",
+      "values": []
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "aero.binocularads",
+  "plugin_name": "Aero.BinocularADS",
+  "mod_version": "0.1.0",
+  "_note": "SPT 4.1.6 Configuration Manager display-only Korean translation. No saved keys or enum values are changed. Hidden Contract/Schema Version is intentionally excluded.",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Binocular Offset",
+      "translation": "양안 시차"
+    },
+    {
+      "source": "Appearance",
+      "translation": "시각 효과"
+    },
+    {
+      "source": "Bindon Aiming",
+      "translation": "Bindon 조준"
+    },
+    {
+      "source": "Rendering",
+      "translation": "렌더링"
+    },
+    {
+      "source": "Debug",
+      "translation": "디버그"
+    },
+    {
+      "source": "Defocus",
+      "translation": "초점 흐림"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Turns the whole binocular aiming effect on or off.",
+      "translation_display_name": "양안 조준 효과 활성화",
+      "translation_description": "양쪽 눈으로 조준할 때 적용되는 전체 시각 효과를 켜거나 끕니다.",
+      "values": []
+    },
+    {
+      "section": "Binocular Offset",
+      "key": "Eye Separation (cm)",
+      "source_display_name": "Eye Separation (cm)",
+      "source_description": "How far apart your eyes are. Bigger pushes the two gun images further apart; 0 merges them into one.",
+      "translation_display_name": "양안 간격 (cm)",
+      "translation_description": "양쪽 눈 사이의 간격을 설정합니다. 값을 높이면 겹쳐 보이는 두 총기 영상의 간격이 커지고, 0으로 설정하면 하나의 영상으로 합쳐집니다.",
+      "values": []
+    },
+    {
+      "section": "Binocular Offset",
+      "key": "Dominant Eye",
+      "source_display_name": "Dominant Eye",
+      "source_description": "The eye you aim with. Your sight picture stays lined up with it; the ghost gun image belongs to the other eye.",
+      "translation_display_name": "주조준안",
+      "translation_description": "조준에 사용하는 눈을 선택합니다. 조준경 영상은 선택한 눈에 맞춰 정렬되며, 반대쪽 눈의 총기 영상은 반투명한 잔상으로 표시됩니다.",
+      "values": [
+        {
+          "source": "Right",
+          "translation": "오른쪽"
+        },
+        {
+          "source": "Left",
+          "translation": "왼쪽"
+        }
+      ]
+    },
+    {
+      "section": "Binocular Offset",
+      "key": "Convergence Distance (m)",
+      "source_display_name": "Convergence Distance (m)",
+      "source_description": "How far away your eyes are looking. Close values swing the ghost image at an angle around that point; far values just slide it sideways.",
+      "translation_display_name": "시선 수렴 거리 (m)",
+      "translation_description": "양쪽 눈의 시선이 모이는 거리를 설정합니다. 가까운 값에서는 해당 지점을 중심으로 잔상 영상이 기울어지고, 먼 값에서는 주로 좌우로 이동합니다.",
+      "values": []
+    },
+    {
+      "section": "Appearance",
+      "key": "Magnified Sight Picture Opacity (%)",
+      "source_display_name": "Magnified Sight Picture Opacity (%)",
+      "source_description": "How solid the zoomed picture inside a scope is. Below 100 you see the world around the scope through it, like aiming with both eyes open.",
+      "translation_display_name": "배율 조준경 영상 불투명도 (%)",
+      "translation_description": "배율 조준경 내부의 확대 영상이 얼마나 불투명하게 표시되는지 설정합니다. 100% 미만에서는 양쪽 눈을 뜨고 조준하듯 확대 영상 너머로 주변 풍경이 비쳐 보입니다.",
+      "values": []
+    },
+    {
+      "section": "Appearance",
+      "key": "Overlap Opacity (%)",
+      "source_display_name": "Overlap Opacity (%)",
+      "source_description": "How solid the gun is where both eyes see it.",
+      "translation_display_name": "중첩 영역 불투명도 (%)",
+      "translation_description": "양쪽 눈의 총기 영상이 겹치는 영역이 얼마나 불투명하게 보이는지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Appearance",
+      "key": "Single Eye Opacity (%)",
+      "source_display_name": "Single Eye Opacity (%)",
+      "source_description": "How solid the gun is where only one eye sees it: the see-through edges on each side.",
+      "translation_display_name": "단안 영역 불투명도 (%)",
+      "translation_description": "한쪽 눈에만 보이는 총기 영역의 불투명도를 설정합니다. 총기 영상 양쪽 가장자리의 반투명한 부분에 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Appearance",
+      "key": "Dominant Eye Share (%)",
+      "source_display_name": "Dominant Eye Share (%)",
+      "source_description": "Where the two images overlap, how much comes from your aiming eye, so you can tell which image is yours. Doesn't change how solid the overlap is.",
+      "translation_display_name": "주조준안 영상 비중 (%)",
+      "translation_description": "두 총기 영상이 겹친 영역에서 조준하는 눈의 영상이 차지하는 비중을 설정합니다. 어느 영상이 주조준안의 것인지 구별하는 데 도움이 되며, 중첩 영역 전체의 불투명도는 바꾸지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Appearance",
+      "key": "Fade Time (s)",
+      "source_display_name": "Fade Time (s)",
+      "source_description": "How long the effect takes to fade in when you aim and out when you stop.",
+      "translation_display_name": "효과 전환 시간 (초)",
+      "translation_description": "조준을 시작할 때 효과가 서서히 나타나고 조준을 멈출 때 사라지는 데 걸리는 시간을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Appearance",
+      "key": "Transparent Arms",
+      "source_display_name": "Transparent Arms",
+      "source_description": "Your hands become see-through along with the gun instead of staying solid.",
+      "translation_display_name": "팔 투명화",
+      "translation_description": "총기와 함께 손과 팔도 반투명하게 표시합니다. 끄면 팔은 불투명하게 유지됩니다.",
+      "values": []
+    },
+    {
+      "section": "Appearance",
+      "key": "Double Arms",
+      "source_display_name": "Double Arms",
+      "source_description": "The ghost image gets hands too.",
+      "translation_display_name": "팔 잔상 표시",
+      "translation_description": "반대쪽 눈에 보이는 총기 잔상에도 손과 팔을 함께 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Bindon Aiming",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Adds to Magnified Sight Picture Opacity: while you turn or walk, the zoomed picture becomes more see-through so you can follow the world around the scope, and it returns to that opacity when your aim is steady. Off keeps the picture at Magnified Sight Picture Opacity at all times.",
+      "translation_display_name": "Bindon 조준 효과 활성화",
+      "translation_description": "배율 조준경 영상의 기본 불투명도에 움직임에 따른 조절 효과를 추가합니다. 시점을 돌리거나 걸으면 확대 영상이 더 투명해져 주변을 쉽게 살필 수 있고, 조준이 안정되면 기본 불투명도로 돌아옵니다. 끄면 움직이는 동안에도 배율 조준경 영상 불투명도 설정값을 유지합니다.",
+      "values": []
+    },
+    {
+      "section": "Bindon Aiming",
+      "key": "Moving Opacity (%)",
+      "source_display_name": "Moving Opacity (%)",
+      "source_description": "How solid the zoomed picture gets at most fade, while walking or turning fast. Never more solid than Magnified Sight Picture Opacity.",
+      "translation_display_name": "이동 중 불투명도 (%)",
+      "translation_description": "걷거나 빠르게 시점을 돌려 투명화 효과가 최대가 되었을 때 적용할 확대 영상의 불투명도입니다. 기본 배율 조준경 영상 불투명도보다 높아지지는 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Bindon Aiming",
+      "key": "Turn Dead Zone (deg/s)",
+      "source_display_name": "Turn Dead Zone (deg/s)",
+      "source_description": "Turning slower than this does not fade the picture, so following a moving target keeps it solid. Measured as the speed the view moves through the scope (turn speed times zoom), so it means the same on every scope.",
+      "translation_display_name": "회전 반응 제외 속도 (도/초)",
+      "translation_description": "시점 회전 속도가 이 값보다 낮으면 확대 영상이 더 투명해지지 않습니다. 움직이는 표적을 천천히 추적할 때 영상을 선명하게 유지합니다. 조준경 내부의 영상 이동 속도(시점 회전 속도 × 배율)를 기준으로 측정하므로 서로 다른 배율에서도 일관되게 작동합니다.",
+      "values": []
+    },
+    {
+      "section": "Bindon Aiming",
+      "key": "Turn Speed For Full Fade (deg/s)",
+      "source_display_name": "Turn Speed For Full Fade (deg/s)",
+      "source_description": "Turning at this speed through the scope (turn speed times zoom) fades the picture all the way to Moving Opacity; between the dead zone and this, the fade grows with speed.",
+      "translation_display_name": "최대 투명화 회전 속도 (도/초)",
+      "translation_description": "조준경 내부 영상의 이동 속도(시점 회전 속도 × 배율)가 이 값에 도달하면 이동 중 불투명도까지 낮아집니다. 회전 반응 제외 속도와 이 값 사이에서는 회전 속도가 빨라질수록 더 투명해집니다.",
+      "values": []
+    },
+    {
+      "section": "Bindon Aiming",
+      "key": "Dead Zone Release (%)",
+      "source_display_name": "Dead Zone Release (%)",
+      "source_description": "Once turning has started a fade, it keeps fading until the speed falls below this share of the dead zone, so a turn hovering around the dead zone does not flicker.",
+      "translation_display_name": "회전 반응 해제 비율 (%)",
+      "translation_description": "회전으로 투명화가 시작된 뒤에는 속도가 반응 제외 속도의 지정 비율 아래로 떨어질 때까지 투명화를 유지합니다. 회전 속도가 경계값 부근에서 오르내릴 때 화면이 깜빡이는 현상을 줄입니다.",
+      "values": []
+    },
+    {
+      "section": "Bindon Aiming",
+      "key": "Turn Fade Time (s)",
+      "source_display_name": "Turn Fade Time (s)",
+      "source_description": "How long a turn takes to reach its fade. A faster turn fades deeper in the same time, so it fades faster.",
+      "translation_display_name": "회전 투명화 시간 (초)",
+      "translation_description": "시점을 돌린 후 해당 회전 속도에 맞는 투명도에 도달하는 데 걸리는 시간입니다. 같은 시간에 더 빠르게 회전하면 투명화 폭이 커져 더 빠르게 투명해집니다.",
+      "values": []
+    },
+    {
+      "section": "Bindon Aiming",
+      "key": "Walk Fade Time (s)",
+      "source_display_name": "Walk Fade Time (s)",
+      "source_description": "How long walking takes to fade the picture to Moving Opacity.",
+      "translation_display_name": "보행 투명화 시간 (초)",
+      "translation_description": "걸을 때 확대 영상의 불투명도가 이동 중 불투명도 설정값까지 낮아지는 데 걸리는 시간을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Bindon Aiming",
+      "key": "Restore Time (s)",
+      "source_display_name": "Restore Time (s)",
+      "source_description": "How quickly the picture returns to Magnified Sight Picture Opacity once your aim and feet are still.",
+      "translation_display_name": "불투명도 복원 시간 (초)",
+      "translation_description": "시점과 발걸음이 모두 멈춰 조준이 안정되었을 때 확대 영상이 기본 배율 조준경 영상 불투명도로 돌아가는 데 걸리는 시간을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Bindon Aiming",
+      "key": "Walking Speed Threshold (m/s)",
+      "source_display_name": "Walking Speed Threshold (m/s)",
+      "source_description": "Moving faster than this counts as walking.",
+      "translation_display_name": "보행 판정 속도 (m/s)",
+      "translation_description": "이 속도보다 빠르게 이동하면 걷고 있는 상태로 판정합니다.",
+      "values": []
+    },
+    {
+      "section": "Rendering",
+      "key": "Weapon Ambient Occlusion",
+      "source_display_name": "Weapon Ambient Occlusion",
+      "source_description": "Gives the aimed gun the game's crevice shading, so it doesn't look flatter and brighter than at the hip. Off turns it off; Quarter, Half and Full set its quality. Half looks almost the same as Full for less cost.",
+      "translation_display_name": "총기 주변광 차폐",
+      "translation_description": "조준 중인 총기에 게임의 틈새 음영 효과를 적용하여 비조준 상태보다 평면적이거나 밝게 보이지 않도록 합니다. 끔은 효과를 비활성화하고, 1/4·1/2·전체는 품질을 설정합니다. 1/2은 전체와 거의 비슷한 화질을 더 적은 처리 비용으로 제공합니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "끔"
+        },
+        {
+          "source": "Quarter",
+          "translation": "1/4"
+        },
+        {
+          "source": "Half",
+          "translation": "1/2"
+        },
+        {
+          "source": "Full",
+          "translation": "전체"
+        }
+      ]
+    },
+    {
+      "section": "Rendering",
+      "key": "Block Sunlight Indoors",
+      "source_display_name": "Block Sunlight Indoors",
+      "source_description": "Stops the aimed gun being lit by the sun when you're indoors or in shadow.",
+      "translation_display_name": "실내 햇빛 차단",
+      "translation_description": "실내나 그늘에 있을 때 조준 중인 총기에 햇빛이 비치지 않도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "Rendering",
+      "key": "Sunlight Blend Time (s)",
+      "source_display_name": "Sunlight Blend Time (s)",
+      "source_description": "How quickly the gun changes between sunlit and shaded when you walk through a doorway.",
+      "translation_display_name": "햇빛 전환 시간 (초)",
+      "translation_description": "출입문을 통과할 때 총기가 햇빛을 받는 상태와 그늘진 상태 사이에서 밝기가 전환되는 데 걸리는 시간을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Rendering",
+      "key": "Match Screen Space Reflections",
+      "source_display_name": "Match Screen Space Reflections",
+      "source_description": "With the game's Screen Space Reflections on, stops the aimed gun shining brighter than at the hip. Auto does this only while the game's SSR is on and no other mod has replaced it with its own reflections; Always Off never does. Costs nothing noticeable.",
+      "translation_display_name": "화면 공간 반사 효과 일치",
+      "translation_description": "게임의 화면 공간 반사(SSR)가 켜져 있을 때 조준 중인 총기가 비조준 상태보다 더 밝게 반짝이지 않도록 보정합니다. 자동은 게임의 SSR이 켜져 있고 다른 모드가 자체 반사 효과로 대체하지 않았을 때만 적용합니다. 항상 끔은 보정을 적용하지 않습니다. 성능 부담은 체감하기 어려울 정도입니다.",
+      "values": [
+        {
+          "source": "Auto",
+          "translation": "자동"
+        },
+        {
+          "source": "AlwaysOff",
+          "translation": "항상 끔"
+        }
+      ]
+    },
+    {
+      "section": "Rendering",
+      "key": "Eye Buffer Scale (%)",
+      "source_display_name": "Eye Buffer Scale (%)",
+      "source_description": "Resolution of the gun images. Lower is cheaper and slightly softer.",
+      "translation_display_name": "양안 영상 해상도 비율 (%)",
+      "translation_description": "총기 영상의 렌더링 해상도를 설정합니다. 값을 낮추면 처리 부담이 줄어드는 대신 영상이 약간 부드럽고 흐릿해집니다.",
+      "values": []
+    },
+    {
+      "section": "Debug",
+      "key": "Enable Diagnostic Logging",
+      "source_display_name": "Enable Diagnostic Logging",
+      "source_description": "Writes extra detail to the log for bug reports.",
+      "translation_display_name": "진단 로그 활성화",
+      "translation_description": "오류 보고에 도움이 되는 추가 진단 정보를 로그에 기록합니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "Blurs the gun (never the world or the scope picture), the way a gun near your face is out of focus while you look past it.",
+      "translation_display_name": "총기 초점 흐림 활성화",
+      "translation_description": "눈앞의 총기 너머를 바라볼 때처럼 총기 자체에 초점 흐림 효과를 적용합니다. 주변 풍경이나 조준경 내부 영상에는 흐림 효과를 적용하지 않습니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Focus Offset (m)",
+      "source_display_name": "Focus Offset (m)",
+      "source_description": "Moves the sharp band nearer or farther.",
+      "translation_display_name": "초점 위치 보정 (m)",
+      "translation_description": "선명하게 보이는 깊이 영역을 더 가까이 또는 더 멀리 이동합니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Clear Depth Band (m)",
+      "source_display_name": "Clear Depth Band (m)",
+      "source_description": "How deep the sharp band is.",
+      "translation_display_name": "선명한 깊이 범위 (m)",
+      "translation_description": "총기가 선명하게 표시되는 깊이 영역의 폭을 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Falloff Distance (m)",
+      "source_display_name": "Falloff Distance (m)",
+      "source_description": "How quickly the gun blurs out beyond the sharp band.",
+      "translation_display_name": "흐림 전환 거리 (m)",
+      "translation_description": "선명한 깊이 영역을 벗어난 총기 영상이 얼마나 빠르게 흐려지는지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Clear Plane On Iron Sights Only",
+      "source_display_name": "Clear Plane On Iron Sights Only",
+      "source_description": "On: with scopes and red dots the whole gun is blurred, because your eye is on the reticle. Off: scopes and red dots also get a sharp band on the gun. Note: Focus Offset, Clear Depth Band and Falloff Distance never affect iron sights while Iron Sight Focus is on; they work with optics when this is off, and with iron sights when Iron Sight Focus is off.",
+      "translation_display_name": "기계식 조준기에서만 선명 영역 적용",
+      "translation_description": "켬: 조준점에 초점을 맞추는 배율 조준경과 도트 사이트에서는 총기 전체를 흐리게 표시합니다. 끔: 해당 광학 조준기에서도 총기에 선명한 깊이 영역이 생깁니다. 참고: 가늠쇠 초점 효과가 켜져 있으면 기계식 조준기에서는 초점 위치 보정·선명한 깊이 범위·흐림 전환 거리 설정이 적용되지 않습니다. 이 세 설정은 본 옵션을 끈 광학 조준기 또는 가늠쇠 초점 효과를 끈 기계식 조준기에서 작동합니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Outline Softness",
+      "source_display_name": "Outline Softness",
+      "source_description": "Whether the gun's outline blurs too (1) or stays crisp around a blurred inside (0).",
+      "translation_display_name": "총기 윤곽 흐림 정도",
+      "translation_description": "총기 윤곽까지 함께 흐리게 할지 설정합니다. 1이면 윤곽도 흐려지고, 0이면 내부만 흐려지면서 윤곽은 선명하게 유지됩니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Blur The Second Image Fully",
+      "source_display_name": "Blur The Second Image Fully",
+      "source_description": "Blurs the whole ghost image evenly; your non-aiming eye never focuses on the gun. Note: with iron-sight focus active, the ghost image is always fully blurred whatever this says, so it only matters with scopes/red dots or with iron-sight focus off.",
+      "translation_display_name": "반대쪽 눈의 영상 전체 흐림",
+      "translation_description": "반대쪽 눈에 보이는 총기 잔상 전체를 균일하게 흐리게 표시합니다. 조준하지 않는 눈은 총기에 초점을 맞추지 않는 것으로 처리합니다. 참고: 가늠쇠 초점 효과가 활성화된 기계식 조준기에서는 이 설정과 관계없이 잔상 전체가 흐려집니다. 따라서 이 옵션은 광학 조준기 또는 가늠쇠 초점 효과가 꺼진 상태에서만 영향을 줍니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Iron Sight Focus",
+      "source_display_name": "Iron Sight Focus",
+      "source_description": "With iron sights, only the front sight's tip is sharp and the rest of the gun is blurred. Note: needs the game's front-sight marker for that weapon; if it can't be found, the whole gun is blurred evenly instead. Iron Sight Sharp Radius, Fade Distance and Blur Curve only work while the front sight is found.",
+      "translation_display_name": "가늠쇠 초점 효과",
+      "translation_description": "기계식 조준기에서 가늠쇠 끝부분만 선명하게 표시하고 나머지 총기는 흐리게 처리합니다. 해당 무기의 게임 내 가늠쇠 위치 표시를 찾을 수 있어야 작동합니다. 찾지 못하면 총기 전체를 균일하게 흐리게 표시합니다. 가늠쇠 선명 영역 반경·흐림 전환 거리·흐림 곡선은 가늠쇠 위치를 찾았을 때만 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Iron Sight Sharp Radius (mm)",
+      "source_display_name": "Iron Sight Sharp Radius (mm)",
+      "source_description": "Size of the fully sharp spot around the front sight's tip.",
+      "translation_display_name": "가늠쇠 선명 영역 반경 (mm)",
+      "translation_description": "가늠쇠 끝부분 주변이 완전히 선명하게 표시되는 영역의 크기를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Iron Sight Fade Distance (mm)",
+      "source_display_name": "Iron Sight Fade Distance (mm)",
+      "source_description": "How far beyond the sharp spot the gun takes to reach full blur.",
+      "translation_display_name": "가늠쇠 흐림 전환 거리 (mm)",
+      "translation_description": "가늠쇠의 선명한 영역 바깥에서 최대 흐림 상태에 도달하기까지의 거리를 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Iron Sight Blur Curve",
+      "source_display_name": "Iron Sight Blur Curve",
+      "source_description": "Shape of that fade: 1 is even; above 1 stays sharp longer then drops; below 1 blurs fast then levels off.",
+      "translation_display_name": "가늠쇠 흐림 곡선",
+      "translation_description": "가늠쇠 주변의 흐림 전환 형태를 설정합니다. 1이면 균일하게 변하고, 1보다 크면 선명함이 오래 유지되다가 급격히 흐려지며, 1보다 작으면 빠르게 흐려진 뒤 변화가 완만해집니다.",
+      "values": []
+    },
+    {
+      "section": "Defocus",
+      "key": "Maximum Radius (pixels)",
+      "source_display_name": "Maximum Radius (pixels)",
+      "source_description": "How strong the blur is. Around 15 makes markings unreadable while the gun's shape stays clear; past about 25-30 it starts looking like copies instead of blur.",
+      "translation_display_name": "최대 흐림 반경 (픽셀)",
+      "translation_description": "총기 흐림 효과의 강도를 설정합니다. 약 15에서는 총기의 형태는 알아볼 수 있지만 표기는 읽기 어려워집니다. 약 25~30을 넘으면 자연스러운 흐림보다 여러 영상이 어긋나 겹친 것처럼 보일 수 있습니다.",
+      "values": []
+    }
+  ]
+}

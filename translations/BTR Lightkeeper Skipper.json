@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.dark.btrlightkeeperskipper",
+  "mod_name": "BTR/Lightkeeper Skipper",
+  "mod_version": "1.1.0",
+  "channels": {
+    "small_ui": [
+      {
+        "id": "skip_button",
+        "source": "SKIP",
+        "translation": "건너뛰기",
+        "match_mode": "exact",
+        "note": "퀘스트 목표에서 건너뛰기 버튼"
+      },
+      {
+        "id": "finish_button",
+        "source": "FINISH",
+        "translation": "완료하기",
+        "match_mode": "exact",
+        "note": "제출 가능한 퀘스트에서 완료 버튼"
+      },
+      {
+        "id": "skip_description",
+        "source": "Are you sure you want to autocomplete this quest objective?",
+        "translation": "이 퀘스트 목표를 자동으로 완료하시겠습니까?",
+        "match_mode": "exact",
+        "note": "퀘스트 목표 건너뛰기 확인창 본문"
+      },
+      {
+        "id": "finish_description",
+        "source": "Are you sure you want to finish this quest and claim rewards via trader message?",
+        "translation": "이 퀘스트를 완료하고 상인 메시지로 보상을 받으시겠습니까?",
+        "match_mode": "exact",
+        "note": "퀘스트 제출·우편 보상 확인창 본문"
+      },
+      {
+        "id": "confirmation",
+        "source": "Confirmation",
+        "translation": "확인",
+        "match_mode": "exact",
+        "note": "두 확인창의 제목"
+      }
+    ]
+  }
+}

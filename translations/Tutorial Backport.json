@@ -1,0 +1,832 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.sage.tutorialbackport",
+  "mod_name": "Tutorial Backport",
+  "mod_version": "1.1.0",
+  "channels": {
+    "locale": [
+      {
+        "key": "6526909b539ee574cb624991 Name",
+        "source": "Audio recorder",
+        "translation": "음성 녹음기",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "6526909b539ee574cb624991 ShortName",
+        "source": "Rec.",
+        "translation": "녹음기",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6526909b539ee574cb624991 Description",
+        "source": "A regular audio recorder. In Tarkov, they became widely used right after the city was cut off from the outside world.",
+        "translation": "일반적인 음성 녹음기입니다. 타르코프가 외부 세계와 단절된 직후부터 널리 사용되기 시작했습니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "68889a2f94cca0a80b070af1 Name",
+        "source": "BEAR commander's audio tape labeled \"For the BEARs\"",
+        "translation": "\"BEAR 대원들에게\"라고 적힌 BEAR 지휘관의 녹음테이프",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "68889a2f94cca0a80b070af1 ShortName",
+        "source": "BEARs",
+        "translation": "BEAR",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68889a2f94cca0a80b070af1 Description",
+        "source": "An audio tape containing important instructions left by our squad’s commander.",
+        "translation": "분대 지휘관이 남긴 중요한 지시 사항이 담긴 녹음테이프입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "68889aab3fcaf13e48003ba7 Name",
+        "source": "USEC commander's audio tape labeled \"For the USEC\"",
+        "translation": "\"USEC에게\"라고 적힌 USEC 지휘관의 녹음테이프",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "68889aab3fcaf13e48003ba7 ShortName",
+        "source": "USECs",
+        "translation": "USEC",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68889aab3fcaf13e48003ba7 Description",
+        "source": "An audio tape containing important instructions left by our squad’s commander.",
+        "translation": "분대 지휘관이 남긴 중요한 지시 사항이 담긴 녹음테이프입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "68889aca77aeb067290816f1 Name",
+        "source": "USEC operative's audio tape labeled \"Day 35\"",
+        "translation": "\"35일째\"라고 적힌 USEC 대원의 녹음테이프",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "68889aca77aeb067290816f1 ShortName",
+        "source": "Day 35",
+        "translation": "35일째",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "68889aca77aeb067290816f1 Description",
+        "source": "A personal audio tape on which a USEC operative recorded a conversation with their commander during a rest stop.",
+        "translation": "USEC 대원이 휴식 중 지휘관과 나눈 대화를 녹음한 개인 녹음테이프입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "6891bb203bbad2a6230f9be8 Name",
+        "source": "Note from USEC's corpse",
+        "translation": "USEC 대원의 시신에서 발견한 쪽지",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "6891bb203bbad2a6230f9be8 ShortName",
+        "source": "USEC body",
+        "translation": "USEC 시신",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6891bb203bbad2a6230f9be8 Description",
+        "source": "A note in which someone scolds a USEC operative for poor weapon maintenance.",
+        "translation": "무기 관리에 소홀했던 USEC 대원을 누군가가 호되게 꾸짖는 내용의 쪽지입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "6891bb67f674f551000a38d3 Name",
+        "source": "Escape route map from the TerraGroup office area",
+        "translation": "테라그룹 사무실 구역 탈출 경로 지도",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "6891bb67f674f551000a38d3 ShortName",
+        "source": "Exfils",
+        "translation": "탈출로",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6891bb67f674f551000a38d3 Description",
+        "source": "A map showing USEC retreat points from the TerraGroup office area. Judging by the tags, it was intercepted by the BEARs after the EMP blast.",
+        "translation": "테라그룹 사무실 구역에서 USEC의 철수 지점을 표시한 지도입니다. 남아 있는 표식을 보면 EMP 폭발 후 BEAR가 가로챈 것으로 보입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "6891bb83d7502d512502d160 Name",
+        "source": "Tarkov News Issue #142",
+        "translation": "타르코프 뉴스 제142호",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "6891bb83d7502d512502d160 ShortName",
+        "source": "TN #142",
+        "translation": "TN #142",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6891bb83d7502d512502d160 Description",
+        "source": "A newspaper issue featuring an article on the escalating conflict in Tarkov.",
+        "translation": "타르코프에서 격화되는 분쟁에 관한 기사를 실은 신문입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "6891bb9f81d0bf37b10249f4 Name",
+        "source": "Blue Fire witness note",
+        "translation": "블루 파이어 목격자 쪽지",
+        "match_mode": "exact",
+        "display_type": "item_name"
+      },
+      {
+        "key": "6891bb9f81d0bf37b10249f4 ShortName",
+        "source": "Blue Fire",
+        "translation": "블루 파이어",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "6891bb9f81d0bf37b10249f4 Description",
+        "source": "A mysterious note mentioning the EMP blast that occurred over the TerraGroup office.",
+        "translation": "테라그룹 사무실 상공에서 발생한 EMP 폭발을 언급하는 수수께끼 같은 쪽지입니다.",
+        "match_mode": "exact",
+        "display_type": "item_description"
+      },
+      {
+        "key": "LISTEN",
+        "source": "LISTEN",
+        "translation": "듣기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "READ",
+        "source": "READ",
+        "translation": "읽기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Recorder",
+        "source": "Play tape / Read note",
+        "translation": "테이프 재생 / 쪽지 읽기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "STOPTAPE",
+        "source": "STOP",
+        "translation": "중지",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tapes/AllTapesAddedToHandbook",
+        "source": "All tapes and notes were transferred to the handbook.",
+        "translation": "모든 녹음테이프와 쪽지가 핸드북으로 옮겨졌습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tapes/EquipRecorderMenu",
+        "source": "Equip recorder or upgrade Intelligence Center in the Hideout",
+        "translation": "녹음기를 장착하거나 은신처의 정보 시설을 업그레이드하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tapes/EquipRecorderRaid",
+        "source": "Equip recorder first",
+        "translation": "먼저 녹음기를 장착하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tapes/NoActiveRecorder",
+        "source": "Recorder is not playing",
+        "translation": "녹음기가 재생 중이지 않습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tapes/NoTapes",
+        "source": "No tapes",
+        "translation": "녹음테이프가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tapes/Pause",
+        "source": "Pause",
+        "translation": "일시 정지",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tapes/Playback{0}{1}",
+        "source": "Playing: {0}/{1}",
+        "translation": "재생 중: {0}/{1}",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tapes/RecorderIsActive",
+        "source": "Recorder is active",
+        "translation": "녹음기 작동 중",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tapes/Stop",
+        "source": "Stop",
+        "translation": "중지",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tapes/StopKey{0}",
+        "source": "Stop: ({0})",
+        "translation": "중지: ({0})",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tapes/transcript",
+        "source": "<b>Transcript:</b>",
+        "translation": "<b>녹취록:</b>",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/RepeatTutorialButton",
+        "source": "Repeat tutorial",
+        "translation": "튜토리얼 다시 진행",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/RepeatTutorialMessage",
+        "source": "Repeat tutorial?",
+        "translation": "튜토리얼을 다시 진행하시겠습니까?",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/SkipTutorialMessage",
+        "source": "Skip tutorial?",
+        "translation": "튜토리얼을 건너뛰시겠습니까?",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/SkipVideo",
+        "source": "Skip",
+        "translation": "건너뛰기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/ToggleSubtitles",
+        "source": "Subtitles",
+        "translation": "자막",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/ToggleSubtitlesOff",
+        "source": "Subtitles: Off",
+        "translation": "자막: 끔",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/ToggleSubtitlesOn",
+        "source": "Subtitles: On",
+        "translation": "자막: 켬",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_bleed-1",
+        "source": "Always pay close attention to your character's health",
+        "translation": "캐릭터의 건강 상태를 항상 주의 깊게 확인하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_bleed-2",
+        "source": "Assign various medical items to the quick access panel to quickly use them when necessary.",
+        "translation": "필요할 때 빠르게 사용할 수 있도록 여러 의료품을 빠른 사용 슬롯에 지정하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_bleed-3",
+        "source": "Character menu",
+        "translation": "캐릭터 메뉴",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_doors-1",
+        "source": "Opening doors",
+        "translation": "문 열기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_doors-2",
+        "source": "Some doors may need a corresponding key or keycard to open. You can’t open those by force.",
+        "translation": "일부 문은 해당 열쇠나 키카드가 있어야 열 수 있습니다. 이런 문은 힘으로 열 수 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_equip-1",
+        "source": "Equipment handling",
+        "translation": "장비 다루기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_equip-2",
+        "source": "The technical basement of this building has become a BEAR staging point for the TerraGroup office assault. There are likely lots of supplies. Grab everything you can, you might need it later.",
+        "translation": "이 건물의 기술 지하실은 테라그룹 사무실을 공격하는 BEAR의 집결지가 되었습니다. 보급품이 많이 있을 가능성이 높습니다. 나중에 필요할 수 있으니 챙길 수 있는 것은 모두 챙기세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_equip-3",
+        "source": "Open inventory",
+        "translation": "인벤토리 열기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_equip-4",
+        "source": "Pick up items",
+        "translation": "아이템 줍기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_examination-1",
+        "source": "Exploration",
+        "translation": "탐색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_examination-2",
+        "source": "Exploration pays off. Study dangerous areas from a distance, look for passages through buildings, locked doors, and underground tunnels to optimize your route. It'll help you avoid trouble and might just keep you alive.",
+        "translation": "탐색은 생존에 도움이 됩니다. 위험한 지역은 멀리서 살펴보고, 건물 사이의 통로와 잠긴 문, 지하 터널을 찾아 이동 경로를 계획하세요. 위험을 피하는 데 도움이 되고 목숨을 구할 수도 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_exit_zones-1",
+        "source": "Exits from locations",
+        "translation": "지역 탈출",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_exit_zones-2",
+        "source": "To leave the location, you need to find an extraction point. They are often marked with a green flare, flashlight, or other visual indicators. Some extractions may require money or specific items.",
+        "translation": "지역에서 빠져나가려면 탈출 지점을 찾아야 합니다. 탈출 지점은 녹색 신호탄이나 손전등 등으로 표시되는 경우가 많습니다. 일부 탈출 지점에서는 돈이나 특정 아이템이 필요합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_exit_zones-3",
+        "source": "List of available exits",
+        "translation": "이용 가능한 탈출 지점 목록",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_exits-1",
+        "source": "To leave, stay inside the extraction zone for a certain period of time until the extraction is complete.",
+        "translation": "탈출하려면 탈출이 완료될 때까지 일정 시간 동안 탈출 구역 안에 머물러야 합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_exits-2",
+        "source": "Some extractions may require money or specific items on you.",
+        "translation": "일부 탈출 지점은 돈이나 특정 아이템을 소지해야 이용할 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_final-1",
+        "source": "Escape the cordoned-off zone",
+        "translation": "봉쇄 구역에서 탈출하기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_final-2",
+        "source": "The extraction point from the Ground Zero is close. But without communication with command, no one knows how much time or effort it will take to get out of Tarkov. Most will die trying to evacuate. Yet those willing to see it through to the end might still have a chance.",
+        "translation": "그라운드 제로의 탈출 지점이 가깝습니다. 하지만 지휘부와 연락이 끊긴 지금, 타르코프에서 빠져나가는 데 얼마나 많은 시간과 노력이 들지는 아무도 모릅니다. 대다수는 대피하려다 목숨을 잃을 것입니다. 그래도 끝까지 포기하지 않는 사람에게는 기회가 있을지 모릅니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_fracture-1",
+        "source": "You have a fracture",
+        "translation": "골절이 발생했습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_fracture-2",
+        "source": "Assign various medical items to the quick access panel to quickly use them when necessary.",
+        "translation": "필요할 때 빠르게 사용할 수 있도록 여러 의료품을 빠른 사용 슬롯에 지정하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_fracture-3",
+        "source": "Character menu",
+        "translation": "캐릭터 메뉴",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_grenade-1",
+        "source": "Grenades",
+        "translation": "수류탄",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_grenade-2",
+        "source": "To pull out a grenade, it must be placed in your pockets or tactical rig. The quick access panel shows which grenade will be pulled out next.",
+        "translation": "수류탄을 꺼내려면 주머니나 전술 조끼에 넣어 두어야 합니다. 빠른 사용 슬롯에는 다음에 꺼낼 수류탄이 표시됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_grenade-3",
+        "source": "Pull out grenade",
+        "translation": "수류탄 꺼내기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_hydration-1",
+        "source": "Survival",
+        "translation": "생존",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_hydration-2",
+        "source": "Your hydration and energy gradually decrease during a raid.\nIf you ignore your PMC’s needs, you will start losing stamina and health, eventually leading to death.\nPlan ahead — bring extra supplies if you expect your next raid to be a long one.",
+        "translation": "레이드 중에는 수분과 에너지가 서서히 줄어듭니다.\nPMC의 생존에 필요한 상태를 관리하지 않으면 지구력과 체력이 감소하기 시작하며, 결국 사망에 이를 수 있습니다.\n다음 레이드가 길어질 것으로 예상된다면 보급품을 넉넉하게 준비하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_hydration-3",
+        "source": "Check character status",
+        "translation": "캐릭터 상태 확인",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_hydration-4",
+        "source": "Use item in inventory",
+        "translation": "인벤토리에서 아이템 사용",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_intro-1",
+        "source": "Strange explosion",
+        "translation": "의문의 폭발",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_intro-2",
+        "source": "During the assault on TerraGroup’s main office, a strange explosion cut off all contact with command. Now the goal is simple — get out of the city center.\nThe main team is already heading for extraction, but your commander left a tape with orders for anyone who got separated, along with some medicine and supplies. To assess the situation and plan your escape, you need to listen to the tape.\nIt seems some lights are dead. Luckily, your sidearm still has a working flashlight.",
+        "translation": "테라그룹 본사 공격 중 의문의 폭발이 발생해 지휘부와의 연락이 모두 끊겼습니다. 이제 목표는 단순합니다. 도심에서 빠져나가는 것입니다.\n주력 부대는 이미 탈출 지점으로 향하고 있지만, 지휘관이 낙오자를 위해 지시가 담긴 녹음테이프와 약품, 보급품을 남겨 두었습니다. 상황을 파악하고 탈출 계획을 세우려면 테이프를 들어야 합니다.\n일부 조명이 꺼진 것 같습니다. 다행히 보조 무기의 손전등은 아직 작동합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_intro-3",
+        "source": "Pick up the tape",
+        "translation": "녹음테이프 줍기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_intro-4",
+        "source": "Play last found tape",
+        "translation": "마지막으로 발견한 녹음테이프 재생",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_intro-5",
+        "source": "Toggle flashlight",
+        "translation": "손전등 켜기/끄기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_inventory-1",
+        "source": "You don’t know what’s ahead. Check your inventory and make sure you’re ready for combat.",
+        "translation": "앞으로 어떤 일이 벌어질지 알 수 없습니다. 인벤토리를 확인하고 전투 준비를 갖추세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_inventory-2",
+        "source": "Open inventory",
+        "translation": "인벤토리 열기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_inventory-3",
+        "source": "The Gear tab shows everything equipped on your PMC.",
+        "translation": "장비 탭에는 PMC가 착용하거나 장착한 모든 장비가 표시됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_inventory-4",
+        "source": "The Health tab shows your PMC's current health status.",
+        "translation": "건강 탭에는 PMC의 현재 건강 상태가 표시됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_inventory-5",
+        "source": "The Tasks tab shows all current missions and objectives.",
+        "translation": "임무 탭에는 현재 진행 중인 모든 임무와 목표가 표시됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_location_zones-1",
+        "source": "Points of interest",
+        "translation": "주요 지점",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_location_zones-2",
+        "source": "Your skills and experience are your best tools in this chaos. Learn and remember points of interest on different locations. Surviving means planning your raid and mapping your route ahead of time. Valuable loot in Tarkov doesn’t come easy — you’ll have to fight for it.",
+        "translation": "이 혼란 속에서 가장 믿을 만한 도구는 자신의 기술과 경험입니다. 각 지역의 주요 지점을 익히고 기억하세요. 살아남으려면 레이드에 앞서 이동 경로를 계획해야 합니다. 타르코프에서 값진 전리품을 손에 넣는 일은 쉽지 않습니다. 그것을 차지하려면 싸워야 할 것입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_loot_container-1",
+        "source": "Loot containers",
+        "translation": "컨테이너 수색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_loot_container-2",
+        "source": "You can search dead enemies, bags, crates, and other types of containers.\nNot every container holds valuable loot, but each one is worth checking.",
+        "translation": "죽은 적의 시신, 가방, 상자 등 여러 종류의 컨테이너를 수색할 수 있습니다.\n모든 컨테이너에 값진 전리품이 있는 것은 아니지만, 하나씩 확인해 볼 가치는 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_loot_container-3",
+        "source": "Search container",
+        "translation": "컨테이너 수색",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_loot_weapon-1",
+        "source": "Retention reload",
+        "translation": "탄창 보존 재장전",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_loot_weapon-2",
+        "source": "Quick reload",
+        "translation": "신속 재장전",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_loot_weapon-3",
+        "source": "Switch fire mode",
+        "translation": "발사 모드 전환",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_loot_weapon-4",
+        "source": "Check ammo in inserted magazine",
+        "translation": "장착된 탄창의 잔탄 확인",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_loot_weapon-5",
+        "source": "Toggle flashlight",
+        "translation": "손전등 켜기/끄기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_malf-1",
+        "source": "Fixing malfunctions",
+        "translation": "무기 작동 불량 해결",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_malf-2",
+        "source": "Your weapon is jammed. Inspect it, identify the cause, and fix it. Just a sidearm won’t cut it in a fight.",
+        "translation": "무기가 걸렸습니다. 무기를 점검해 원인을 파악하고 해결하세요. 권총 한 자루만으로는 전투에서 버티기 어렵습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_malf-3",
+        "source": "Inspect weapon",
+        "translation": "무기 점검",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_malf-4",
+        "source": "Check magazine",
+        "translation": "탄창 확인",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_malf-5",
+        "source": "Fix malfunction",
+        "translation": "작동 불량 해결",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_mines-1",
+        "source": "Landmines and tripwires",
+        "translation": "지뢰와 인계철선",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_mines-2",
+        "source": "In the Norvinsk region, everyone turned on each other in an instant. Watch out — enemies will set traps and ambush you at every turn.",
+        "translation": "노르빈스크 지역에서는 순식간에 모두가 서로에게 등을 돌렸습니다. 적들이 곳곳에 함정과 매복을 준비해 둘 수 있으니 조심하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_prefight-1",
+        "source": "Preparing for battle",
+        "translation": "전투 준비",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_prefight-2",
+        "source": "The last fight is barely over, and a new one is already coming. The Scavs — savage bandits and thugs — are hunting anyone who survived the blast. Get ready for a gunfight.",
+        "translation": "이전 교전이 겨우 끝났는데 또 다른 전투가 다가오고 있습니다. 폭발에서 살아남은 사람들을 잔혹한 약탈자와 폭력배인 스캐브들이 사냥하고 있습니다. 총격전에 대비하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_prefight-3",
+        "source": "Toggle flashlight",
+        "translation": "손전등 켜기/끄기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_prefight-4",
+        "source": "Switch fire mode",
+        "translation": "발사 모드 전환",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_prefight-5",
+        "source": "Select main weapon",
+        "translation": "주무기 선택",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_secret_zones-1",
+        "source": "Hidden paths",
+        "translation": "숨겨진 길",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_secret_zones-2",
+        "source": "Some paths may appear blocked-off, but they are actually passable.",
+        "translation": "막힌 것처럼 보이는 길 중에도 실제로는 지나갈 수 있는 곳이 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_time-1",
+        "source": "Time limit",
+        "translation": "시간 제한",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_time-2",
+        "source": "Keep an eye on the remaining raid time.\nIf you fail to leave the raid before the timer runs out, your character will gain the \"Missing in Action\" status and you will lose all the gear you brought with you and found during the raid.",
+        "translation": "레이드 남은 시간을 주의 깊게 확인하세요.\n시간이 다 될 때까지 레이드에서 탈출하지 못하면 캐릭터가 \"작전 중 실종\" 상태가 되며, 가지고 들어온 장비와 레이드 중 획득한 장비를 모두 잃게 됩니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_volting-1",
+        "source": "Vaulting over obstacles",
+        "translation": "장애물 넘기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_volting-2",
+        "source": "Tarkov is in ruins. Expect obstacles, barricades, and hidden ways out wherever you go.",
+        "translation": "타르코프는 폐허가 되었습니다. 어느 곳에나 장애물과 바리케이드, 숨겨진 탈출로가 있을 수 있습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_volting-3",
+        "source": "Climb over obstacle",
+        "translation": "장애물 넘기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_volting-4",
+        "source": "Crouch",
+        "translation": "앉기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "Tutorial/tutorial_trigger_volting-5",
+        "source": "Prone",
+        "translation": "엎드리기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "UI/NoteReader/PageCounter",
+        "source": "Pages",
+        "translation": "페이지",
+        "match_mode": "exact"
+      },
+      {
+        "key": "readnote",
+        "source": "Read",
+        "translation": "읽기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "start_exit1",
+        "source": "Exfil to Klimov Street",
+        "translation": "클리모프 거리로 탈출",
+        "match_mode": "exact"
+      },
+      {
+        "key": "tapes/Inactive",
+        "source": "No available recorder",
+        "translation": "사용 가능한 녹음기가 없습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "tapes/noteFoundNotify{0]",
+        "source": "Note found / Read ({0})",
+        "translation": "쪽지 발견 / 읽기 ({0})",
+        "match_mode": "exact"
+      },
+      {
+        "key": "tapes/tapeFoundNotify",
+        "source": "Tape found",
+        "translation": "녹음테이프 발견",
+        "match_mode": "exact"
+      },
+      {
+        "key": "tapes/tapeFoundNotify{0}",
+        "source": "Tape found / Play ({0})",
+        "translation": "녹음테이프 발견 / 재생 ({0})",
+        "match_mode": "exact"
+      },
+      {
+        "key": "TapesText/sound_info_recorder_tape_startmission_day35",
+        "source": "<color=#515352>USEC Operative:</color>\nCommander! How much longer do you reckon we'll be stuck here?\n\n<color=#515352>USEC Squad Leader:</color>\nFor as long as they tell us to. TerraGroup still has a fuckload of unclosed facilities in Tarkov.\n\n<color=#515352>USEC Operative:</color>\nYou think they’ll manage to pull everything out on time? Even with their resources, it sounds impossible.\n\n<color=#515352>USEC Squad Leader:</color>\nLet them set their priorities themselves. We’ve already got our hands full babysitting HVIs and hauling out TerraGroup’s docs. \n\n<color=#515352>USEC Operative:</color>\nBut still, even if everything is moved out, there will be hundreds of digital drives left behind… There’s no way to evacuate something like that in war conditions.\n\n<color=#515352>USEC Squad Leader:</color>\nThey're not gonna extract everything, okay? I heard TerraGroup has some kind of weapon that wipes data from the systems. All of it.\n\n<color=#515352>USEC Operative:</color>\nLike an EMP? Surely they’re gonna give us a heads-up, right? It would screw all our coordination.\n\n<color=#515352>USEC Squad Leader:</color>\nWhy would they hide this from us? Even if they do end up using this thing, it'll only be after we're evacuated. Without our PMC support, they wouldn't last long — they have no one but us.\n\n<color=#515352>USEC Operative:</color>\nWhat about those “contractors” we transferred the HVIs to? They looked quite serious. No, shady too. No insignias, no patches… Who are they anyway?\n\n<color=#515352>USEC Squad Leader:</color>\nThere is no info on them from the HQ, so clearly we shouldn't get involved in that shit. They might be linked to that specialist guy over at the lighthouse. Or perhaps they're just an escort crew from outside the border — our guys are stretched thin here. Either way, we can't trust them.\n\n<color=#515352>USEC Operative:</color>\nMakes you wonder how fast TerraGroup would’ve been screwed up without us involved… Especially now, when even some of our own commanders are straying away from their orders…\n\n<color=#515352>USEC Squad Leader:</color>\nListen, watch your mouth! Any other situation, and I'd have you deployed somewhere far worse! So shut up. SHUT UP!\n\n<color=#515352>USEC Operative:</color>\nUh, yes sir!",
+        "translation": "<color=#515352>USEC 대원:</color>\n분대장님! 대체 언제까지 이곳에 발이 묶여 있어야 합니까?\n\n<color=#515352>USEC 분대장:</color>\n위에서 나가라 할 때까지지. 테라그룹은 아직 타르코프에 정리하지 못한 시설이 빌어먹게도 수두룩하거든.\n\n<color=#515352>USEC 대원:</color>\n제시간에 전부 반출할 수 있을 것 같습니까? 테라그룹의 자원을 총동원해도 불가능해 보이는데요.\n\n<color=#515352>USEC 분대장:</color>\n우선순위는 그쪽에서 알아서 정하게 둬. 우린 요인들 보호하고 테라그룹 문서 빼돌리는 것만으로도 손이 모자라.\n\n<color=#515352>USEC 대원:</color>\n그래도 물자를 전부 옮긴다 해도 저장 장치가 수백 개는 남을 텐데요… 전쟁 중에 그런 것까지 모두 반출하는 건 무리입니다.\n\n<color=#515352>USEC 분대장:</color>\n전부 가져갈 생각이 없다는 거다. 알겠나? 테라그룹에 시스템의 데이터를 몽땅 지워 버리는 무기가 있다는 얘길 들었어. 남김없이 말이지.\n\n<color=#515352>USEC 대원:</color>\nEMP 같은 겁니까? 당연히 미리 통보는 해 주겠죠? 안 그러면 우리 작전 공조가 전부 엉망이 될 텐데요.\n\n<color=#515352>USEC 분대장:</color>\n그걸 우리한테 숨길 이유가 있겠냐? 설령 그 무기를 쓰더라도 우리가 철수한 뒤일 거다. 우리 PMC의 지원이 없으면 그놈들도 오래 못 버텨. 기댈 곳이라곤 우리뿐이니까.\n\n<color=#515352>USEC 대원:</color>\n그럼 우리가 요인들을 넘긴 그 \"계약업체 사람들\"은 뭡니까? 다들 심각한 표정이더군요. 아니, 수상하기도 했습니다. 부대 표식도 패치도 없고… 대체 정체가 뭡니까?\n\n<color=#515352>USEC 분대장:</color>\n본부에서도 그놈들에 관한 정보가 없다. 그러니 그 일엔 엮이지 않는 게 상책이야. 등대에 있는 그 전문가와 관련됐을 수도 있지. 아니면 국경 밖에서 온 호송팀일 수도 있고. 여기엔 우리 인력도 빠듯하잖아. 어느 쪽이든 믿을 놈들은 아니야.\n\n<color=#515352>USEC 대원:</color>\n우리가 없었으면 테라그룹이 얼마나 빨리 망했을지 생각하게 됩니다… 요즘은 우리 지휘관들 중에서도 명령을 어기고 제멋대로 움직이는 사람이 있으니까요…\n\n<color=#515352>USEC 분대장:</color>\n야, 입조심해! 다른 상황이었으면 널 훨씬 험한 곳으로 보내 버렸을 거다! 그러니 입 닥쳐. 닥치라고!\n\n<color=#515352>USEC 대원:</color>\n아, 예! 알겠습니다, 분대장님!",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "TapesText/sound_info_recorder_tape_startmission_forbears",
+        "source": "<color=#515352>Squad Leader:</color>\nTo all BEAR survivors! The explosion knocked out all our electronics, I repeat, our comms are out! Operation is canceled! Fall back to the evacuation points on your own! Move with caution. Code phrase - \"water is wet\"!",
+        "translation": "<color=#515352>분대장:</color>\nBEAR 생존자 전원에게 알린다! 폭발로 모든 전자 장비가 먹통이 됐다. 반복한다, 통신이 두절됐다! 작전은 취소한다! 각자 탈출 지점으로 철수하라! 이동 시 경계 태세를 유지해라. 암구호는 \"물은 젖어 있다\"다!",
+        "match_mode": "exact",
+        "display_type": "default"
+      },
+      {
+        "key": "TapesText/sound_info_recorder_tape_startmission_forusec",
+        "source": "<color=#515352>Squad Leader:</color>\nTo all USEC units! Blast killed all our electronics — no comm with the HQ. We’ve lost control of the facility. Evacuate through Exfil Three towards the port… Exfil Three! Expect enemy contact, proceed with caution. Any non-USEC individuals are to be considered hostile! Defend yourselves. Use sound judgment.",
+        "translation": "<color=#515352>분대장:</color>\nUSEC 전 부대에 알린다! 폭발로 모든 전자 장비가 나갔다. 본부와의 통신도 두절됐다. 시설 통제권을 상실했다. 항구 방면 3번 탈출 지점으로 철수하라… 3번 탈출 지점이다! 적과 조우할 수 있으니 경계하며 이동하라. USEC 소속이 아닌 자는 모두 적으로 간주한다! 스스로를 방어하고 상황에 맞게 판단하라.",
+        "match_mode": "exact",
+        "display_type": "default"
+      }
+    ],
+    "small_ui": [
+      {
+        "id": "intro_skip",
+        "source": "Skip",
+        "translation": "건너뛰기",
+        "match_mode": "exact"
+      },
+      {
+        "id": "intro_subtitles_on",
+        "source": "Subtitles: On",
+        "translation": "자막: 켜짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "intro_subtitles_off",
+        "source": "Subtitles: Off",
+        "translation": "자막: 꺼짐",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tape_kr_691343ce4ded41ee2bea97ff",
+        "source": "<b>분대장:</b> 폭발로 이해 모든 전자기기가 먹통이 됐다.",
+        "translation": "<b>분대장:</b> 폭발로 인해 모든 전자기기가 먹통이 됐다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tape_kr_6913452812748b69b284e206",
+        "source": "<b>분대장:</b> 암구호는 '물이 젖었다'다!",
+        "translation": "<b>분대장:</b> 암구호는 '물은 젖어 있다'로 한다!",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tape_kr_68b6dbfae852a369ef69cff3",
+        "source": "<b>USEC 대원:</b> 만에 하나 퇴출할 수 있다고 해도, 이미 드라이브가 수백 개는 남아있을겁니다… 지금같은 전시 상황에서 그걸 전부 다 빼내는 건 무리 같습니다.",
+        "translation": "<b>USEC 대원:</b> 다른 물건을 전부 반출한다 해도, 디지털 저장 장치는 수백 개가 남을 겁니다… 이런 전시 상황에서 그걸 전부 빼내는 건 불가능합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "tape_kr_68ea5554bb3c96a1b0486d78",
+        "source": "<b>USEC 분대장:</b> 본부에서도 그 놈들에 관한 정보가 없다. 그러니까 괜히 엮이지 않는 게 좋을 거다. 아마도 등대 쪽에 있다고 하는 그 '전문가'와 연관되있을 가능성이 높다.",
+        "translation": "<b>USEC 분대장:</b> 본부에서도 그놈들에 관한 정보가 없다. 그러니까 괜히 엮이지 않는 게 좋을 거다. 아마도 등대 쪽에 있다고 하는 그 '전문가'와 연관돼 있을 가능성이 높다.",
+        "match_mode": "exact"
+      }
+    ]
+  }
+}

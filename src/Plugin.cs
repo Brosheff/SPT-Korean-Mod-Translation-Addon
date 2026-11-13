@@ -6,7 +6,7 @@ using HarmonyLib;
 
 namespace SPT.ModKoreanAddon
 {
-    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.5")]
+    [BepInPlugin("spt.korean.modtranslation.addon", "SPT Mod Korean Addon", "1.0.6")]
     [BepInDependency("com.GoLani.koreanpatchfix", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("com.mpstark.dynamicmaps", BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin
@@ -15,8 +15,27 @@ namespace SPT.ModKoreanAddon
         private Harmony displayHarmony;
         private Harmony modUiHarmony;
         private Harmony configManagerHarmony;
+        private Harmony betterBepInExUiHarmony;
         private Harmony smallUiHarmony;
         private Harmony k9UiHarmony;
+        private Harmony papHideoutUiHarmony;
+        private Harmony raygunUiHarmony;
+        private Harmony thundergunUiHarmony;
+        private Harmony tutorialBackportUiHarmony;
+        private Harmony btrSkipperUiHarmony;
+        private Harmony k9LangHarmony;
+        private Harmony automaticWeaponsmithHarmony;
+        private Harmony swagDonutsHarmony;
+        private Harmony hideoutInteriorsHarmony;
+        private Harmony hideoutLastStandHarmony;
+        private Harmony kennerZombiesMenuHarmony;
+        private Harmony kennerZombiesLobbyHarmony;
+        private Harmony kennerZombiesGameHarmony;
+        private Harmony kennerZombiesResultsHarmony;
+        private Harmony kennerZombiesSettingsHarmony;
+        private Harmony kennerZombiesFinalHarmony;
+        private Harmony hideoutLastStandInteractionHarmony;
+        private Harmony hideoutLastStandDefeatHarmony;
         private Harmony pitFireTeamFontHarmony;
         private bool pitFireTeamFontPending;
         private Harmony dynamicMapsHarmony;
@@ -69,6 +88,21 @@ namespace SPT.ModKoreanAddon
                     smallUiHarmony?.UnpatchSelf();
                     smallUiHarmony = null;
                     Logger.LogWarning("Under Fire early display hook skipped: " + earlyError.Message);
+                }
+                // Install Donuts UI/error display patches as early as available;
+                // DependencyChecker may show its error before other plugins reach Start.
+                try
+                {
+                    swagDonutsHarmony = new Harmony("spt.korean.modtranslation.addon.swag-donuts-ui");
+                    SwagDonutsUiHooks.Enable(swagDonutsHarmony,
+                        AppDomain.CurrentDomain.GetAssemblies(), data);
+                }
+                catch (Exception earlyError)
+                {
+                    SwagDonutsUiHooks.Disable();
+                    swagDonutsHarmony?.UnpatchSelf();
+                    swagDonutsHarmony = null;
+                    Logger.LogWarning("Donuts early display hook skipped: " + earlyError.Message);
                 }
                 quartermasterCatalog = new QuartermasterContractLocales(addonRoot);
                 AddonBridge.Enable(harmony, originalAssembly, originalRoot, addonRoot, data);
@@ -142,9 +176,7 @@ namespace SPT.ModKoreanAddon
             catch (Exception ex)
             {
                 partial = true;
-                QuartermasterRuntimeHooks.Disable();
-            quartermasterHarmony?.UnpatchSelf();
-            ModUiLiteralHooks.Disable();
+                ModUiLiteralHooks.Disable();
                 modUiHarmony?.UnpatchSelf();
                 Logger.LogError("Third-party mod UI hooks disabled: " + ex.Message);
             }
@@ -162,6 +194,251 @@ namespace SPT.ModKoreanAddon
                 SmallUiLiteralHooks.Disable();
                 smallUiHarmony?.UnpatchSelf();
                 Logger.LogError("Small mod UI hooks disabled: " + ex.Message);
+            }
+
+            // AutomaticWeaponsmith owns a language-file-backed UI in its build editor.
+            // Hook only its Lang.T result; keep this family independent of other mod UI hooks.
+            try
+            {
+                automaticWeaponsmithHarmony = new Harmony("spt.korean.modtranslation.addon.automaticweaponsmith-ui");
+                var count = AutomaticWeaponsmithUiHooks.Enable(automaticWeaponsmithHarmony, assemblies, data);
+                Logger.LogInfo("AutomaticWeaponsmith UI translation hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                AutomaticWeaponsmithUiHooks.Disable();
+                automaticWeaponsmithHarmony?.UnpatchSelf();
+                Logger.LogWarning("AutomaticWeaponsmith optional UI translation disabled: " + ex.Message);
+            }
+
+            // Dr K's SPZombies R001: optional, version-guarded menu and map presentation.
+            try
+            {
+                kennerZombiesMenuHarmony = new Harmony("spt.korean.modtranslation.addon.kenner-zombies-menu");
+                var count = KennerZombiesMenuHooks.Enable(kennerZombiesMenuHarmony, assemblies, data);
+                Logger.LogInfo("SPZombies R001 menu hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                KennerZombiesMenuHooks.Disable();
+                kennerZombiesMenuHarmony?.UnpatchSelf();
+                Logger.LogWarning("SPZombies optional R001 menu translation disabled: " + ex.Message);
+            }
+
+            // Dr K's SPZombies R002: lobby and server-notice display only (separate owner).
+            try
+            {
+                kennerZombiesLobbyHarmony = new Harmony("spt.korean.modtranslation.addon.kenner-zombies-lobby");
+                var count = KennerZombiesLobbyHooks.Enable(kennerZombiesLobbyHarmony, assemblies, data);
+                Logger.LogInfo("SPZombies R002 lobby hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                KennerZombiesLobbyHooks.Disable();
+                kennerZombiesLobbyHarmony?.UnpatchSelf();
+                Logger.LogWarning("SPZombies optional R002 lobby translation disabled: " + ex.Message);
+            }
+
+            // SPZombies R003: in-raid display-only labels, notices, and extraction UI.
+            try
+            {
+                kennerZombiesGameHarmony = new Harmony("spt.korean.modtranslation.addon.kenner-zombies-game");
+                var count = KennerZombiesGameHooks.Enable(kennerZombiesGameHarmony, assemblies, data);
+                Logger.LogInfo("SPZombies R003 in-raid hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                KennerZombiesGameHooks.Disable();
+                kennerZombiesGameHarmony?.UnpatchSelf();
+                Logger.LogWarning("SPZombies optional R003 in-raid translation disabled: " + ex.Message);
+            }
+
+            // SPZombies R004: downed, game-over, report and statistics IMGUI display only.
+            try
+            {
+                kennerZombiesResultsHarmony = new Harmony("spt.korean.modtranslation.addon.kenner-zombies-results");
+                var count = KennerZombiesResultsHooks.Enable(kennerZombiesResultsHarmony, assemblies, data);
+                Logger.LogInfo("SPZombies R004 result and statistics hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                KennerZombiesResultsHooks.Disable();
+                kennerZombiesResultsHarmony?.UnpatchSelf();
+                Logger.LogWarning("SPZombies optional R004 result translation disabled: " + ex.Message);
+            }
+
+            // SPZombies R005: F12 uses config-ui; the separate in-menu keybind/sound
+            // pages need tightly scoped IMGUI display-only patches.
+            try
+            {
+                kennerZombiesSettingsHarmony = new Harmony("spt.korean.modtranslation.addon.kenner-zombies-settings");
+                var count = KennerZombiesSettingsHooks.Enable(kennerZombiesSettingsHarmony, assemblies, data);
+                Logger.LogInfo("SPZombies R005 settings UI hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                KennerZombiesSettingsHooks.Disable();
+                kennerZombiesSettingsHarmony?.UnpatchSelf();
+                Logger.LogWarning("SPZombies optional R005 settings translation disabled: " + ex.Message);
+            }
+
+            // SPZombies R006: source-audited tips, loading labels, pause labels and
+            // table gun names; the item locale rows use the existing overlay.
+            try
+            {
+                kennerZombiesFinalHarmony = new Harmony("spt.korean.modtranslation.addon.kenner-zombies-final");
+                var count = KennerZombiesFinalHooks.Enable(kennerZombiesFinalHarmony, assemblies, data);
+                Logger.LogInfo("SPZombies R006 display hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                KennerZombiesFinalHooks.Disable();
+                kennerZombiesFinalHarmony?.UnpatchSelf();
+                Logger.LogWarning("SPZombies optional R006 display translation disabled: " + ex.Message);
+            }
+
+            // Donuts 4.0.4: translate its own F9 drawing code, never its config values.
+            try
+            {
+                swagDonutsHarmony = new Harmony("spt.korean.modtranslation.addon.swag-donuts-ui");
+                var count = SwagDonutsUiHooks.Enable(swagDonutsHarmony, assemblies, data);
+                Logger.LogInfo("SWAG + Donuts UI display hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                SwagDonutsUiHooks.Disable();
+                swagDonutsHarmony?.UnpatchSelf();
+                Logger.LogWarning("SWAG + Donuts optional UI translation skipped: " + ex.Message);
+            }
+
+            // Pack-a-Punch 2.2.0 R001: only the F12 restart button's visible label.
+            // Shared normal-gameplay dialog remains for the separate R002 audit.
+            try
+            {
+                papHideoutUiHarmony = new Harmony("spt.korean.modtranslation.addon.pap-f12");
+                var count = PaPHideoutUiHooks.Enable(papHideoutUiHarmony, assemblies, data);
+                Logger.LogInfo("Pack-a-Punch F12 label hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                PaPHideoutUiHooks.Disable();
+                papHideoutUiHarmony?.UnpatchSelf();
+                Logger.LogWarning("Pack-a-Punch optional F12 label skipped: " + ex.Message);
+            }
+
+            // RayGunSPT 1.2.0: keep UI translation independent of other hook families.
+            try
+            {
+                raygunUiHarmony = new Harmony("spt.korean.modtranslation.addon.raygun-ui");
+                var count = RaygunUiHooks.Enable(raygunUiHarmony, assemblies, data);
+                Logger.LogInfo("RayGunSPT UI display hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                RaygunUiHooks.Disable();
+                raygunUiHarmony?.UnpatchSelf();
+                Logger.LogWarning("RayGunSPT optional UI translation skipped: " + ex.Message);
+            }
+
+            // ThunderGunSPT 1.2.0: independent source-identified UI, ammo and stats paths.
+            try
+            {
+                thundergunUiHarmony = new Harmony("spt.korean.modtranslation.addon.thundergun-ui");
+                var count = ThundergunUiHooks.Enable(thundergunUiHarmony, assemblies, data);
+                Logger.LogInfo("ThunderGunSPT UI display hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                ThundergunUiHooks.Disable();
+                thundergunUiHarmony?.UnpatchSelf();
+                Logger.LogWarning("ThunderGunSPT optional UI translation skipped: " + ex.Message);
+            }
+
+            // Tutorial Backport 1.1.0: intro TMP labels and its own hint/note/tape font surfaces.
+            try
+            {
+                tutorialBackportUiHarmony = new Harmony("spt.korean.modtranslation.addon.tutorial-backport-ui");
+                var count = TutorialBackportUiHooks.Enable(tutorialBackportUiHarmony, assemblies, data);
+                Logger.LogInfo("Tutorial Backport UI display hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                TutorialBackportUiHooks.Disable();
+                tutorialBackportUiHarmony?.UnpatchSelf();
+                Logger.LogWarning("Tutorial Backport optional display translation skipped: " + ex.Message);
+            }
+
+            // Hideout Interiors 0.1.0 R002: fixed TMP labels and category tabs only.
+            try
+            {
+                hideoutInteriorsHarmony = new Harmony("spt.korean.modtranslation.addon.hideout-interiors-ui");
+                var count = HideoutInteriorsUiHooks.Enable(hideoutInteriorsHarmony, assemblies, data);
+                Logger.LogInfo("Hideout Interiors R002 display hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                HideoutInteriorsUiHooks.Disable();
+                hideoutInteriorsHarmony?.UnpatchSelf();
+                Logger.LogWarning("Hideout Interiors optional static UI translation skipped: " + ex.Message);
+            }
+
+            // Hideout Last Stand: IMGUI menu/HUD labels are a distinct display path.
+            // Leave SiegeState.Banner (including the Fika payload) and menu input intact.
+            try
+            {
+                hideoutLastStandHarmony = new Harmony("spt.korean.modtranslation.addon.hideout-last-stand-ui");
+                var count = HideoutLastStandUiHooks.Enable(hideoutLastStandHarmony, assemblies, data);
+                Logger.LogInfo("Hideout Last Stand menu/HUD hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                HideoutLastStandUiHooks.Disable();
+                hideoutLastStandHarmony?.UnpatchSelf();
+                Logger.LogWarning("Hideout Last Stand optional menu/HUD translation skipped: " + ex.Message);
+            }
+
+            // R003: Hideout Last Stand mannequin/station/stash/door display-only actions.
+            try
+            {
+                hideoutLastStandInteractionHarmony = new Harmony("spt.korean.modtranslation.addon.hideout-last-stand-interactions");
+                var count = HideoutLastStandInteractionHooks.Enable(hideoutLastStandInteractionHarmony, assemblies, data);
+                Logger.LogInfo("Hideout Last Stand interaction display hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                HideoutLastStandInteractionHooks.Disable();
+                hideoutLastStandInteractionHarmony?.UnpatchSelf();
+                Logger.LogWarning("Hideout Last Stand interaction translation skipped: " + ex.Message);
+            }
+
+            // R004: copied EFT statistics/TMP path is separate from the IMGUI defeat fallback.
+            try
+            {
+                hideoutLastStandDefeatHarmony = new Harmony("spt.korean.modtranslation.addon.hideout-last-stand-defeat");
+                var count = HideoutLastStandDefeatHooks.Enable(hideoutLastStandDefeatHarmony, assemblies, data);
+                Logger.LogInfo("Hideout Last Stand defeat TMP hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                HideoutLastStandDefeatHooks.Disable();
+                hideoutLastStandDefeatHarmony?.UnpatchSelf();
+                Logger.LogWarning("Hideout Last Stand optional defeat TMP translation skipped: " + ex.Message);
             }
 
             // A PitFireTeam side-selection screen rebuilds its Add Teammate button
@@ -198,6 +475,23 @@ namespace SPT.ModKoreanAddon
                 K9CompanionUiHooks.Disable();
                 k9UiHarmony?.UnpatchSelf();
                 Logger.LogError("K9 Companion DOG display translation disabled: " + ex.Message);
+            }
+
+            // K9 1.3.2 translates through its own Lang.T(string) lookup. This is
+            // separate from the gated legacy 1.1.0 DOG display patches above.
+            try
+            {
+                k9LangHarmony = new Harmony("spt.korean.modtranslation.addon.k9-lang-132");
+                var k9LanguageHooks = K9CompanionLangHooks.Enable(k9LangHarmony, assemblies, data);
+                Logger.LogInfo("K9 Companion 1.3.2 language lookup hooks: " + k9LanguageHooks +
+                    (k9LanguageHooks == 0 ? " (pending assembly/profile/version checks)." : " installed."));
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                K9CompanionLangHooks.Disable();
+                k9LangHarmony?.UnpatchSelf();
+                Logger.LogWarning("K9 Companion 1.3.2 language lookup unavailable: " + ex.Message);
             }
 
             try
@@ -241,6 +535,22 @@ namespace SPT.ModKoreanAddon
                 Logger.LogError("The Quartermaster runtime hooks disabled: " + ex.Message);
             }
 
+            // BTR/Lightkeeper Skipper 1.1.0: only its Tasks-menu button text and
+            // compiled confirmation lambdas; quest progress and UI controls stay original.
+            try
+            {
+                btrSkipperUiHarmony = new Harmony("spt.korean.modtranslation.addon.btr-lightkeeper-skipper-ui");
+                var count = BtrLightkeeperSkipperUiHooks.Enable(btrSkipperUiHarmony, assemblies, data);
+                Logger.LogInfo("BTR/Lightkeeper Skipper UI hooks: " + count + " installed (optional).");
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                BtrLightkeeperSkipperUiHooks.Disable();
+                btrSkipperUiHarmony?.UnpatchSelf();
+                Logger.LogWarning("BTR/Lightkeeper Skipper display translation unavailable: " + ex.Message);
+            }
+
             // Configuration Manager is optional. We do not reference its assembly at compile time;
             // this display-only hook discovers it at runtime and leaves ConfigEntry/.cfg data untouched.
             try
@@ -249,21 +559,38 @@ namespace SPT.ModKoreanAddon
                 var configUi = new ConfigManagerProfiles(addonRoot);
                 var count = ConfigurationManagerHooks.Enable(configManagerHarmony, assemblies, configUi);
                 var customCount = F12CustomDrawerHooks.Enable(configManagerHarmony, assemblies);
+                var betterMenuCount = BetterBepInExF12Hooks.Enable(configManagerHarmony, assemblies, configUi);
             }
             catch (Exception ex)
             {
                 partial = true;
+                BetterBepInExF12Hooks.Disable();
                 F12CustomDrawerHooks.Disable();
                 ConfigurationManagerHooks.Disable();
                 configManagerHarmony?.UnpatchSelf();
                 Logger.LogError("Configuration Manager scaffold disabled: " + ex.Message);
             }
 
+            // BetterBepInEx's standalone IMGUI is a separate consumer from the F12 model.
+            // Keep its narrowly scoped display hooks in an independent Harmony owner.
+            try
+            {
+                betterBepInExUiHarmony = new Harmony("spt.korean.modtranslation.addon.betterbepinex-ui");
+                BetterBepInExUiHooks.Enable(betterBepInExUiHarmony, assemblies, data);
+            }
+            catch (Exception ex)
+            {
+                partial = true;
+                BetterBepInExUiHooks.Disable();
+                betterBepInExUiHarmony?.UnpatchSelf();
+                Logger.LogError("BetterBepInEx standalone UI hooks disabled: " + ex.Message);
+            }
+
             // Direct NPC messages are server-authored literals, so the server cannot infer
             // Korean Patch Fix's custom kr/kr-en mode on its own. Send only the existing
             // CurrentCulture value; failure is isolated and leaves all client UI hooks intact.
             TrySyncServerCulture(lastCulture);
-            Logger.LogInfo("SPT Mod Korean Addon 1.0.5 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
+            Logger.LogInfo("SPT Mod Korean Addon 1.0.6 loaded" + (partial || SPT.EditableTranslations.MinimalLog.HasWarnings ? " (with warnings)." : "."));
         }
 
         private void Update()
@@ -278,6 +605,8 @@ namespace SPT.ModKoreanAddon
             // Retry the independently scoped K9 display hooks after delayed assembly load.
             // This never controls or disables other translation families.
             K9CompanionUiHooks.RetryPending();
+            K9CompanionLangHooks.RetryPending();
+            K9CompanionLangHooks.RefreshDogGroupLabels();
             // PitFireTeam may load after this addon's Start. Retry only while its
             // scoped factory hooks are absent; never patch a global TMP setter.
             if (pitFireTeamFontPending && pitFireTeamFontHarmony != null)
@@ -323,12 +652,30 @@ namespace SPT.ModKoreanAddon
 
             try { ModUiLiteralHooks.RefreshLanguage(); }
             catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("Plugin:197", () => "Mod UI language refresh skipped: " + ex.Message); }
+            try { TutorialBackportUiHooks.RefreshLanguage(); }
+            catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("tutorial-backport-refresh", () => "Tutorial Backport UI refresh skipped: " + ex.Message); }
+            try { BtrLightkeeperSkipperUiHooks.RefreshLanguage(); }
+            catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("btr-skipper-refresh", () => "BTR/Lightkeeper Skipper button refresh skipped: " + ex.Message); }
             try { SmallUiLiteralHooks.RefreshLanguage(); }
             catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("Plugin:199", () => "Small UI language refresh skipped: " + ex.Message); }
             try { DynamicMapsUiHooks.RefreshLanguage(); }
             catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("Plugin:201", () => "Dynamic Maps UI language refresh skipped: " + ex.Message); }
+            try { KennerZombiesMenuHooks.RefreshLanguage(); }
+            catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("kenner-zombies-r001-refresh", () => "SPZombies language refresh skipped: " + ex.Message); }
+            try { HideoutInteriorsUiHooks.RefreshLanguage(); }
+            catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("hideout-interiors-r002-refresh", () => "Hideout Interiors language refresh skipped: " + ex.Message); }
+            try { HideoutLastStandInteractionHooks.RefreshLanguage(); }
+            catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("hideout-last-stand-r003-refresh", () => "Hideout Last Stand interaction refresh skipped: " + ex.Message); }
+            try { HideoutLastStandDefeatHooks.RefreshLanguage(); }
+            catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("hideout-last-stand-r004-refresh", () => "Hideout Last Stand defeat refresh skipped: " + ex.Message); }
+            try { HideoutLastStandUiHooks.RefreshLanguage(); }
+            catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("hideout-last-stand-r002-refresh", () => "Hideout Last Stand UI language refresh skipped: " + ex.Message); }
             try { ConfigurationManagerHooks.RefreshLanguage(); }
             catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("Plugin:203", () => "Configuration Manager language refresh skipped: " + ex.Message); }
+            try { BetterBepInExF12Hooks.RefreshLanguage(); }
+            catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("betterbepinex-refresh", () => "BetterBepInEx language refresh skipped: " + ex.Message); }
+            try { BetterBepInExUiHooks.RefreshLanguage(); }
+            catch (Exception ex) { SPT.EditableTranslations.MinimalLog.WarnOnce("betterbepinex-ui-refresh", () => "BetterBepInEx UI refresh skipped: " + ex.Message); }
 
         }
 
@@ -356,19 +703,60 @@ namespace SPT.ModKoreanAddon
 
         private void OnDestroy()
         {
+            QuartermasterRuntimeHooks.Disable();
+            quartermasterHarmony?.UnpatchSelf();
             FiveModsUiHooks.Disable();
             fiveModsHarmony?.UnpatchSelf();
             EightModsUiHooks.Disable();
             eightModsHarmony?.UnpatchSelf();
             ModUiLiteralHooks.Disable();
             SmallUiLiteralHooks.Disable();
+            AutomaticWeaponsmithUiHooks.Disable();
+            automaticWeaponsmithHarmony?.UnpatchSelf();
+            TutorialBackportUiHooks.Disable();
+            tutorialBackportUiHarmony?.UnpatchSelf();
+            BtrLightkeeperSkipperUiHooks.Disable();
+            btrSkipperUiHarmony?.UnpatchSelf();
+            ThundergunUiHooks.Disable();
+            thundergunUiHarmony?.UnpatchSelf();
+            PaPHideoutUiHooks.Disable();
+            papHideoutUiHarmony?.UnpatchSelf();
+            RaygunUiHooks.Disable();
+            raygunUiHarmony?.UnpatchSelf();
+            SwagDonutsUiHooks.Disable();
+            swagDonutsHarmony?.UnpatchSelf();
+            KennerZombiesFinalHooks.Disable();
+            kennerZombiesFinalHarmony?.UnpatchSelf();
+            KennerZombiesSettingsHooks.Disable();
+            kennerZombiesSettingsHarmony?.UnpatchSelf();
+            KennerZombiesResultsHooks.Disable();
+            kennerZombiesResultsHarmony?.UnpatchSelf();
+            KennerZombiesGameHooks.Disable();
+            kennerZombiesGameHarmony?.UnpatchSelf();
+            KennerZombiesLobbyHooks.Disable();
+            kennerZombiesLobbyHarmony?.UnpatchSelf();
+            KennerZombiesMenuHooks.Disable();
+            kennerZombiesMenuHarmony?.UnpatchSelf();
+            HideoutInteriorsUiHooks.Disable();
+            hideoutInteriorsHarmony?.UnpatchSelf();
+            HideoutLastStandUiHooks.Disable();
+            hideoutLastStandHarmony?.UnpatchSelf();
+            HideoutLastStandDefeatHooks.Disable();
+            hideoutLastStandDefeatHarmony?.UnpatchSelf();
+            HideoutLastStandInteractionHooks.Disable();
+            hideoutLastStandInteractionHarmony?.UnpatchSelf();
             K9CompanionUiHooks.Disable();
             k9UiHarmony?.UnpatchSelf();
+            K9CompanionLangHooks.Disable();
+            k9LangHarmony?.UnpatchSelf();
             PitFireTeamButtonFontHooks.Disable();
             pitFireTeamFontHarmony?.UnpatchSelf();
             CasinoUiHooks.Disable();
             casinoHarmony?.UnpatchSelf();
             DynamicMapsUiHooks.Disable();
+            BetterBepInExUiHooks.Disable();
+            betterBepInExUiHarmony?.UnpatchSelf();
+            BetterBepInExF12Hooks.Disable();
             F12CustomDrawerHooks.Disable();
             ConfigurationManagerHooks.Disable();
             harmony?.UnpatchSelf();

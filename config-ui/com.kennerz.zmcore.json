@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.kennerz.zmcore",
+  "plugin_name": "Kennerz-ZM_Core",
+  "mod_version": "0.1.1",
+  "categories": [
+    {
+      "source": "0. Main menu",
+      "translation": "0. 메인 메뉴"
+    },
+    {
+      "source": "2. Zombies sounds",
+      "translation": "2. 좀비 모드 효과음"
+    },
+    {
+      "source": "2b. Zombies music",
+      "translation": "2b. 좀비 모드 음악"
+    },
+    {
+      "source": "3. Mystery box volume",
+      "translation": "3. 미스터리 박스 음량"
+    },
+    {
+      "source": "3. Zombies controls",
+      "translation": "3. 좀비 모드 조작"
+    },
+    {
+      "source": "6. Scores on screen",
+      "translation": "6. 화면 점수판"
+    },
+    {
+      "source": "10. Zombies menu sounds",
+      "translation": "10. 좀비 메뉴 효과음"
+    }
+  ],
+  "entries": [
+    {
+      "section": "0. Main menu",
+      "key": "Host on a headless when one is free",
+      "source_display_name": "Host on a headless when one is free",
+      "source_description": "As the lobby's host: a free Fika headless hosts the match (smoother for everyone). Off: your own game hosts.",
+      "translation_display_name": "사용 가능한 헤드리스 서버에서 호스팅",
+      "translation_description": "로비 호스트일 때 사용 가능한 Fika 헤드리스 서버에서 경기를 진행합니다. 모든 참가자의 원활한 플레이에 도움이 됩니다. 끄면 자신의 게임에서 호스팅합니다.",
+      "values": []
+    },
+    {
+      "section": "0. Main menu",
+      "key": "Invite pop-ups",
+      "source_display_name": "Invite pop-ups",
+      "source_description": "Zombies invites from other players pop up. Off: nobody can invite you (they're told you have invites turned off).",
+      "translation_display_name": "초대 팝업",
+      "translation_description": "다른 플레이어의 좀비 모드 초대를 팝업으로 표시합니다. 끄면 다른 플레이어가 초대할 수 없으며, 상대에게 초대가 꺼져 있다는 안내가 표시됩니다.",
+      "values": []
+    },
+    {
+      "section": "0. Main menu",
+      "key": "Show the main menu note",
+      "source_display_name": "Show the main menu note",
+      "source_description": "The note at the top left of the zombies main menu about the character set-up (its \"Don't show me again\" box turns this off).",
+      "translation_display_name": "메인 메뉴 안내문 표시",
+      "translation_description": "좀비 모드 메인 메뉴의 왼쪽 위에 캐릭터 설정 안내문을 표시합니다. 안내문의 ‘다시 표시하지 않음’을 선택해 끌 수도 있습니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "All zombies sounds",
+      "source_display_name": "All zombies sounds",
+      "source_description": "Every zombies mode sound together (the box has its own section, the perk machines follow Perk Beverages' own volumes).",
+      "translation_display_name": "전체 좀비 모드 효과음",
+      "translation_description": "모든 좀비 모드 효과음의 음량을 함께 조절합니다. 미스터리 박스에는 별도의 설정이 있고, 특전 기계는 Perk Beverages 모드의 설정을 따릅니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "Barricades",
+      "source_display_name": "Barricades",
+      "source_description": "Boards torn off and slammed back on.",
+      "translation_display_name": "바리케이드",
+      "translation_description": "판자가 뜯기거나 다시 박힐 때의 효과음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "Doors and debris",
+      "source_display_name": "Doors and debris",
+      "source_description": "Doors sliding open and debris clearing, with the lightning and slam.",
+      "translation_display_name": "문과 잔해",
+      "translation_description": "문을 열거나 잔해를 치울 때의 번개 및 충격 효과음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "Lore lightning",
+      "source_display_name": "Lore lightning",
+      "source_description": "The placed lightning's crackle and thunder.",
+      "translation_display_name": "로어 번개",
+      "translation_description": "설치된 번개의 지직거림과 천둥 효과음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "Machine hum range (m)",
+      "source_display_name": "Machine hum range (m)",
+      "source_description": "How far a perk machine's and Pack-a-Punch's hum carries.",
+      "translation_display_name": "기계 작동음 거리(m)",
+      "translation_description": "특전 기계와 팩어펀치의 작동음이 들리는 거리입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "Machine jingle range (m)",
+      "source_display_name": "Machine jingle range (m)",
+      "source_description": "How far a perk machine's jingle, sting and sparks carry (and how near you must be for a jingle to play at all).",
+      "translation_display_name": "기계 징글 거리(m)",
+      "translation_description": "특전 기계의 징글·효과음·불꽃 소리가 들리는 거리이며, 징글이 재생될 수 있는 최대 접근 거리이기도 합니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "Pack-a-Punch",
+      "source_display_name": "Pack-a-Punch",
+      "source_description": "Pack-a-Punch's machine: jingle, crunch, process, sting.",
+      "translation_display_name": "팩어펀치",
+      "translation_description": "팩어펀치 기계의 징글·작동·가공·완료 효과음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "Power switch",
+      "source_display_name": "Power switch",
+      "source_description": "The power coming on: the switch, the surge and the lights' hum.",
+      "translation_display_name": "전원 스위치",
+      "translation_description": "전원 투입 시 스위치·전력 공급·조명 작동음의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "Power-ups",
+      "source_display_name": "Power-ups",
+      "source_description": "Power-ups: the hum, the grab, the announcer.",
+      "translation_display_name": "파워업",
+      "translation_description": "파워업의 작동음·획득음·아나운서 음성 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "Purchases",
+      "source_display_name": "Purchases",
+      "source_description": "The cha-ching and the wall buy's gun sliding out.",
+      "translation_display_name": "구매 효과음",
+      "translation_description": "구매 시 결제음과 벽면 무기가 나오는 효과음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "Widows Wine",
+      "source_display_name": "Widows Wine",
+      "source_description": "The web bursting and the cocoon.",
+      "translation_display_name": "위도우스 와인",
+      "translation_description": "거미줄이 터지고 고치가 만들어질 때의 효과음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2. Zombies sounds",
+      "key": "Zombies",
+      "source_display_name": "Zombies",
+      "source_description": "Zombies rising out of the dirt.",
+      "translation_display_name": "좀비",
+      "translation_description": "좀비가 땅에서 일어날 때의 효과음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2b. Zombies music",
+      "key": "Cymbal Monkey song",
+      "source_display_name": "Cymbal Monkey song",
+      "source_description": "The monkey's song while it plays on the ground.",
+      "translation_display_name": "심벌 몽키 음악",
+      "translation_description": "심벌 몽키가 지면에서 작동하는 동안 재생되는 노래의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2b. Zombies music",
+      "key": "Easter egg song",
+      "source_display_name": "Easter egg song",
+      "source_description": "The map's easter egg song once every 115 rock is found.",
+      "translation_display_name": "이스터에그 음악",
+      "translation_description": "맵의 이스터에그 돌 115개를 모두 찾았을 때 재생되는 음악의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2b. Zombies music",
+      "key": "Fire Sale music",
+      "source_display_name": "Fire Sale music",
+      "source_description": "The Fire Sale's tune at the box while it lasts.",
+      "translation_display_name": "파이어 세일 음악",
+      "translation_description": "파이어 세일이 지속되는 동안 미스터리 박스에서 재생되는 음악의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2b. Zombies music",
+      "key": "Game over song",
+      "source_display_name": "Game over song",
+      "source_description": "The song under the game over and its camera shots.",
+      "translation_display_name": "게임 오버 음악",
+      "translation_description": "게임 오버 화면과 카메라 장면에서 재생되는 음악의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2b. Zombies music",
+      "key": "Loading screen music",
+      "source_display_name": "Loading screen music",
+      "source_description": "The music on the loading screen before the match.",
+      "translation_display_name": "로딩 화면 음악",
+      "translation_description": "경기 시작 전 로딩 화면에서 재생되는 음악의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "2b. Zombies music",
+      "key": "Main menu music",
+      "source_display_name": "Main menu music",
+      "source_description": "Damned 2 (and the rare one) in the menu in zombies mode, on top of the game's music volume.",
+      "translation_display_name": "메인 메뉴 음악",
+      "translation_description": "좀비 모드 메뉴에서 재생되는 Damned 2와 희귀 곡의 음량입니다. 게임 자체 음악 음량에 추가로 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "2b. Zombies music",
+      "key": "Map ambience",
+      "source_display_name": "Map ambience",
+      "source_description": "The map's own ambience track, looped quietly under the whole match.",
+      "translation_display_name": "맵 환경음",
+      "translation_description": "경기 내내 낮은 음량으로 반복 재생되는 맵 환경음입니다.",
+      "values": []
+    },
+    {
+      "section": "2b. Zombies music",
+      "key": "Round start and end music",
+      "source_display_name": "Round start and end music",
+      "source_description": "The round start and round end music.",
+      "translation_display_name": "라운드 시작·종료 음악",
+      "translation_description": "라운드 시작 및 종료 음악의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Mystery box volume",
+      "key": "All box sounds",
+      "source_display_name": "All box sounds",
+      "source_description": "Every mystery box sound together.",
+      "translation_display_name": "미스터리 박스 전체 효과음",
+      "translation_description": "미스터리 박스의 모든 효과음을 함께 조절합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Mystery box volume",
+      "key": "Box moving",
+      "source_display_name": "Box moving",
+      "source_description": "The whoosh, poof and disappearing as the box leaves, and its landing.",
+      "translation_display_name": "박스 이동음",
+      "translation_description": "박스가 사라지고 이동한 뒤 도착할 때의 바람·순간이동·착지 효과음입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Mystery box volume",
+      "key": "Lid",
+      "source_display_name": "Lid",
+      "source_description": "The lid opening and closing.",
+      "translation_display_name": "뚜껑",
+      "translation_description": "뚜껑이 열리고 닫힐 때의 효과음입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Mystery box volume",
+      "key": "Music box",
+      "source_display_name": "Music box",
+      "source_description": "The music box tune while it spins.",
+      "translation_display_name": "오르골",
+      "translation_description": "미스터리 박스가 돌아가는 동안 재생되는 오르골 음악입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Mystery box volume",
+      "key": "Spin",
+      "source_display_name": "Spin",
+      "source_description": "The guns spinning.",
+      "translation_display_name": "회전음",
+      "translation_description": "무기가 돌아갈 때의 효과음입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Mystery box volume",
+      "key": "Teddy (laugh, bye bye)",
+      "source_display_name": "Teddy (laugh, bye bye)",
+      "source_description": "The laugh and the \"bye bye\" when the teddy comes up.",
+      "translation_display_name": "테디베어(웃음·작별 인사)",
+      "translation_description": "테디베어가 나왔을 때의 웃음소리와 작별 인사 음성입니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Crouch",
+      "source_display_name": "Crouch",
+      "source_description": "Crouch in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "웅크리기",
+      "translation_description": "좀비 경기에서 웅크리기 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Crouch held",
+      "source_display_name": "Crouch held",
+      "source_description": "On: hold the key to crouch; off: press once to start, again to stop.",
+      "translation_display_name": "웅크리기 길게 누르기",
+      "translation_description": "켜면 키를 누르고 있는 동안 웅크리기합니다. 끄면 한 번 눌러 시작하고 다시 눌러 종료합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Exfil vote: no",
+      "source_display_name": "Exfil vote: no",
+      "source_description": "Exfil vote: no in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "탈출 투표: 반대",
+      "translation_description": "좀비 경기에서 탈출 투표: 반대 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Exfil vote: yes",
+      "source_display_name": "Exfil vote: yes",
+      "source_description": "Exfil vote: yes in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "탈출 투표: 찬성",
+      "translation_description": "좀비 경기에서 탈출 투표: 찬성 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Gun before also wheel up",
+      "source_display_name": "Gun before also wheel up",
+      "source_description": "Gun before (also wheel up) in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "이전 무기(휠 위로도 가능)",
+      "translation_description": "좀비 경기에서 이전 무기(휠 위로도 가능) 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Jump",
+      "source_display_name": "Jump",
+      "source_description": "Jump in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "점프",
+      "translation_description": "좀비 경기에서 점프 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Melee knife",
+      "source_display_name": "Melee knife",
+      "source_description": "Melee (knife) in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "근접 공격(칼)",
+      "translation_description": "좀비 경기에서 근접 공격(칼) 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Move back",
+      "source_display_name": "Move back",
+      "source_description": "Move back in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "뒤로 이동",
+      "translation_description": "좀비 경기에서 뒤로 이동 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Move forward",
+      "source_display_name": "Move forward",
+      "source_description": "Move forward in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "앞으로 이동",
+      "translation_description": "좀비 경기에서 앞으로 이동 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Move left",
+      "source_display_name": "Move left",
+      "source_description": "Move left in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "왼쪽으로 이동",
+      "translation_description": "좀비 경기에서 왼쪽으로 이동 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Move right",
+      "source_display_name": "Move right",
+      "source_description": "Move right in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "오른쪽으로 이동",
+      "translation_description": "좀비 경기에서 오른쪽으로 이동 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Next gun also wheel down",
+      "source_display_name": "Next gun also wheel down",
+      "source_description": "Next gun (also wheel down) in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "다음 무기(휠 아래로도 가능)",
+      "translation_description": "좀비 경기에서 다음 무기(휠 아래로도 가능) 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Prone",
+      "source_display_name": "Prone",
+      "source_description": "Prone in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "엎드리기",
+      "translation_description": "좀비 경기에서 엎드리기 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Reload",
+      "source_display_name": "Reload",
+      "source_description": "Reload in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "재장전",
+      "translation_description": "좀비 경기에서 재장전 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Reload reminder",
+      "source_display_name": "Reload reminder",
+      "source_description": "Press (key) to reload shows under the crosshair once the mag is down to a quarter.",
+      "translation_display_name": "재장전 알림",
+      "translation_description": "탄창 잔탄이 4분의 1 이하가 되면 조준점 아래에 재장전 키를 누르라는 안내를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Scoreboard hold",
+      "source_display_name": "Scoreboard hold",
+      "source_description": "Scoreboard (hold) in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "점수판(누르고 있는 동안)",
+      "translation_description": "좀비 경기에서 점수판(누르고 있는 동안) 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Secondary fire launcher",
+      "source_display_name": "Secondary fire launcher",
+      "source_description": "Secondary fire (launcher) in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "보조 발사(유탄발사기)",
+      "translation_description": "좀비 경기에서 보조 발사(유탄발사기) 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Sprint",
+      "source_display_name": "Sprint",
+      "source_description": "Sprint in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "전력질주",
+      "translation_description": "좀비 경기에서 전력질주 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Sprint held",
+      "source_display_name": "Sprint held",
+      "source_description": "On: hold the key to sprint; off: press once to start, again to stop.",
+      "translation_display_name": "전력질주 길게 누르기",
+      "translation_description": "켜면 키를 누르고 있는 동안 전력질주합니다. 끄면 한 번 눌러 시작하고 다시 눌러 종료합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Throw lethal",
+      "source_display_name": "Throw lethal",
+      "source_description": "Throw lethal in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "살상 투척물 사용",
+      "translation_description": "좀비 경기에서 살상 투척물 사용 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Throw tactical",
+      "source_display_name": "Throw tactical",
+      "source_description": "Throw tactical in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "전술 투척물 사용",
+      "translation_description": "좀비 경기에서 전술 투척물 사용 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Zombies controls",
+      "key": "Use or buy or rebuild",
+      "source_display_name": "Use or buy or rebuild",
+      "source_description": "Use / buy / rebuild in a zombies match (also on the Esc menu's ZOMBIES CONTROLS page).",
+      "translation_display_name": "사용 / 구매 / 수리",
+      "translation_description": "좀비 경기에서 사용 / 구매 / 수리 동작에 사용할 키입니다. ESC 메뉴의 ‘좀비 모드 조작’ 화면에서도 변경할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "6. Scores on screen",
+      "key": "Player photos",
+      "source_display_name": "Player photos",
+      "source_description": "On: a photo of each player's own PMC (teammates photographed on your game). Off: their character portrait (players 1-4).",
+      "translation_display_name": "플레이어 사진",
+      "translation_description": "켜면 플레이어별 PMC 사진을 표시합니다(팀원 사진은 사용자 게임에서 촬영). 끄면 캐릭터 초상화(1~4번)를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "6. Scores on screen",
+      "key": "Show zombies left",
+      "source_display_name": "Show zombies left",
+      "source_description": "Under the round number: how many zombies are left this round (alive plus still to come). Handy.",
+      "translation_display_name": "남은 좀비 수 표시",
+      "translation_description": "라운드 번호 아래에 현재 라운드에서 남은 좀비 수(살아 있는 좀비와 아직 등장하지 않은 좀비)를 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "10. Zombies menu sounds",
+      "key": "Enter / exit volume",
+      "source_display_name": "Enter / exit volume",
+      "source_description": "The sound switching into and out of zombies mode, on top of the game's music volume.",
+      "translation_display_name": "모드 전환 효과음 음량",
+      "translation_description": "좀비 모드에 진입하거나 나갈 때의 전환음입니다. 게임 자체 음악 음량이 함께 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "10. Zombies menu sounds",
+      "key": "Menu button sounds",
+      "source_display_name": "Menu button sounds",
+      "source_description": "The zombies menus' own sounds (hover, click, back, pop-ups, players joining and leaving, invites).",
+      "translation_display_name": "메뉴 버튼 효과음",
+      "translation_description": "좀비 메뉴의 마우스 올림·클릭·뒤로 가기·팝업·참가·퇴장·초대 효과음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "10. Zombies menu sounds",
+      "key": "Menu video background",
+      "source_display_name": "Menu video background",
+      "source_description": "Zombies mode's main menu plays its own video background behind the buttons (it fades over your chosen EFT background going in, and back out to it).",
+      "translation_display_name": "메뉴 동영상 배경",
+      "translation_description": "좀비 모드 메뉴의 버튼 뒤에 동영상 배경을 재생합니다. 모드 진입·종료 시 선택한 EFT 배경과 자연스럽게 전환합니다.",
+      "values": []
+    },
+    {
+      "section": "10. Zombies menu sounds",
+      "key": "Menu video brightness",
+      "source_display_name": "Menu video brightness",
+      "source_description": "How bright the menu video is (lower: the buttons stand out more).",
+      "translation_display_name": "메뉴 동영상 밝기",
+      "translation_description": "메뉴 동영상의 밝기를 설정합니다. 낮추면 버튼이 더 돋보입니다.",
+      "values": []
+    },
+    {
+      "section": "10. Zombies menu sounds",
+      "key": "Music comes in early (s)",
+      "source_display_name": "Music comes in early (s)",
+      "source_description": "How long before the enter / exit sound ends the next music starts, crossfading with it over that time.",
+      "translation_display_name": "음악 조기 시작 시간(초)",
+      "translation_description": "전환 효과음이 끝나기 몇 초 전부터 다음 음악이 시작되어 그 시간 동안 크로스페이드할지 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "10. Zombies menu sounds",
+      "key": "Music starts with the sound",
+      "source_display_name": "Music starts with the sound",
+      "source_description": "The music starts the moment you switch, fading in under the enter / exit sound (which plays at full). Off: the music comes in near the sound's end.",
+      "translation_display_name": "전환 효과음과 음악 동시 시작",
+      "translation_description": "켜면 모드를 전환하는 순간 음악이 전환 효과음 아래에서 서서히 시작됩니다. 끄면 전환 효과음이 끝나갈 때 음악이 시작됩니다.",
+      "values": []
+    }
+  ]
+}

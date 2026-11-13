@@ -130,6 +130,23 @@ for path in sorted(root.glob('*.json')):
             errors.append(f'{path.name}: locale_additions[{i}] must use exact match_mode')
     for ch, rows in channels.items():
         counts[ch] = counts.get(ch, 0) + len(rows or [])
+        # Same active-row scope and uniqueness contract as production TextRules.
+        # Locale and server-only channels have their own matching/scoping rules.
+        if ch not in ('locale', 'locale_additions', 'locale_source_fallback',
+                      'locale_clone_suffix', 'reference_only', 'npc_messages', 'server_messages'):
+            ids, sources = set(), set()
+            for i, r in enumerate(rows or []):
+                if not r.get('enabled', True) or not r.get('translation'):
+                    continue
+                ident, source = r.get('id'), r.get('source')
+                if not isinstance(ident, str) or not ident.strip() or ident in ids:
+                    errors.append(f'{path.name}: {ch}[{i}] missing/duplicate active rule id')
+                if not isinstance(source, str) or not source or source in sources:
+                    errors.append(f'{path.name}: {ch}[{i}] empty/duplicate active source')
+                if isinstance(ident, str): ids.add(ident)
+                if isinstance(source, str): sources.add(source)
+                if r.get('match_mode', 'exact') not in ('exact', 'template', 'segment', 'segment_template', 'regex_segment', None):
+                    errors.append(f'{path.name}: {ch}[{i}] unsupported client match_mode')
         for i, r in enumerate(rows or []):
             source = r.get('source')
             translation = r.get('translation')

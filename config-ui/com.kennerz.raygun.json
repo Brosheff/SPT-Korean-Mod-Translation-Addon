@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.kennerz.raygun",
+  "plugin_name": "Kenner-Raygun",
+  "mod_version": "1.2.0",
+  "categories": [
+    {
+      "source": "1. Normal gameplay",
+      "translation": "1. 일반 게임"
+    },
+    {
+      "source": "Size",
+      "translation": "크기"
+    },
+    {
+      "source": "Volume",
+      "translation": "음량"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. Normal gameplay",
+      "key": "Show in normal gameplay",
+      "source_display_name": "Show in normal gameplay",
+      "source_description": "On: A chalk wall buy and an ammo box appear in your hideout's side room once its wall is knocked down. Buy the Ray Gun and its cells with roubles and take it into your normal raids! Off: Ray Gun is only in the zombies mode (where it always works). Turning it off removes what you got from it: every Ray Gun and cold fusion cell you own (stash, mail, insurance), and the roubles you spent on them. Counts after restarting the game and the server.",
+      "translation_display_name": "일반 게임에서 사용",
+      "translation_description": "활성화하면 은신처 옆방의 벽을 철거한 뒤 벽면 구매 지점과 탄약 상자에서 루블로 레이 건과 셀을 구매하고 일반 레이드에서 사용할 수 있습니다. 비활성화하면 좀비 모드에서만 이용할 수 있습니다. 비활성화 시 레이 건과 냉융합 셀 전체(보관함·우편·보험 포함)가 제거되며 구매 비용은 환불되지 않습니다. 게임과 서버를 재시작해야 변경 사항이 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "Size",
+      "key": "Size",
+      "source_display_name": "Size",
+      "source_description": "Default: smaller, fitted to sit like EFT's own guns. Large: full size, as the gun first shipped. Classic: placed and turned like the classic view of it.",
+      "translation_display_name": "무기 크기",
+      "translation_description": "기본: EFT 기존 총기처럼 화면에 맞춘 작은 크기. 대형: 최초 출시된 전체 크기. 클래식: 전통적인 레이 건 시점에 맞춘 위치와 회전.",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본"
+        },
+        {
+          "source": "Large",
+          "translation": "대형"
+        },
+        {
+          "source": "Classic",
+          "translation": "클래식"
+        }
+      ]
+    },
+    {
+      "section": "Volume",
+      "key": "Shot",
+      "source_display_name": "Shot",
+      "source_description": "The Ray Gun's shot.",
+      "translation_display_name": "발사음",
+      "translation_description": "레이 건의 발사음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "Volume",
+      "key": "Reload and handling",
+      "source_display_name": "Reload and handling",
+      "source_description": "Drawing, reloading, the cells going in and out, the dry click.",
+      "translation_display_name": "재장전·조작음",
+      "translation_description": "무기를 꺼내고 재장전하거나 셀을 넣고 빼는 소리, 빈 약실 클릭음의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "Volume",
+      "key": "Bolt impact",
+      "source_display_name": "Bolt impact",
+      "source_description": "The burst where a bolt lands.",
+      "translation_display_name": "에너지 탄환 충돌음",
+      "translation_description": "에너지 탄환이 충돌할 때 발생하는 폭발음 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "Volume",
+      "key": "Pickup",
+      "source_display_name": "Pickup",
+      "source_description": "The pickup sound when you take the Ray Gun off the ground.",
+      "translation_display_name": "획득음",
+      "translation_description": "바닥의 레이 건을 주울 때 재생되는 소리의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "Volume",
+      "key": "Purchase",
+      "source_display_name": "Purchase",
+      "source_description": "The \"cha-ching\" when you buy from the wall or the ammo box.",
+      "translation_display_name": "구매음",
+      "translation_description": "벽면 구매 지점이나 탄약 상자에서 구매할 때 재생되는 결제음의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "Volume",
+      "key": "Wall buy",
+      "source_display_name": "Wall buy",
+      "source_description": "The sound of the gun coming out of the chalk wall.",
+      "translation_display_name": "벽면 무기 획득음",
+      "translation_description": "벽에 그려진 무기 구매 지점에서 총을 꺼낼 때 재생되는 소리의 음량입니다.",
+      "values": []
+    },
+    {
+      "section": "Volume",
+      "key": "Deny",
+      "source_display_name": "Deny",
+      "source_description": "The buzz when a purchase is refused (not enough money, no room).",
+      "translation_display_name": "구매 거절음",
+      "translation_description": "소지금이나 보관함 공간이 부족해 구매가 거부될 때 재생되는 경고음의 음량입니다.",
+      "values": []
+    }
+  ]
+}

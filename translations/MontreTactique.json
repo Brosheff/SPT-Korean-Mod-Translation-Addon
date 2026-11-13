@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.yann.montretactique",
+  "mod_name": "King Watch",
+  "mod_version": "1.7.0",
+  "channels": {
+    "locale": [
+      {
+        "key": "6907a1f0c2b5a9d4e3f10001 Name",
+        "source": "King Watch",
+        "translation": "킹 워치",
+        "match_mode": "exact",
+        "display_type": "item_name",
+        "seed_missing": true
+      },
+      {
+        "key": "6907a1f0c2b5a9d4e3f10001 ShortName",
+        "source": "Watch",
+        "translation": "시계",
+        "seed_missing": true
+      },
+      {
+        "key": "6907a1f0c2b5a9d4e3f10001 Description",
+        "source": "Carabiner watch used to check the time in raid.",
+        "translation": "레이드 중 시간을 확인하는 데 사용하는 카라비너형 시계입니다.",
+        "display_type": "item_description",
+        "seed_missing": true
+      }
+    ]
+  }
+}

@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "mod_id": "com.samc137.aishi",
   "mod_name": "ISB Aishi",
-  "mod_version": "2.0.5",
+  "mod_version": "2.0.7",
   "scope": "Merged Korean translation workset from parts 01-15; clothing suite locales added using WTT CommonLib 3.0.6 exact registration keys.",
   "latest_user_overrides": {
     "uppercase_faction_acronyms": {
@@ -4445,8 +4445,8 @@
       },
       {
         "key": "6a4d24532666085a03d7b1e3 Description",
-        "source": "The HK MP7-SF is a submachine gun manufactured by Heckler & Koch that fires in semi-automatic mode. It is chambered for 4.6×30mm ammunition. It serves as an excellent compact, highly controllable weapon and is frequently used by the UK’s Ministry of Defense Police. This version has been modified to provide greater stability, better control, and the ability to fire in automatic mode. ",
-        "translation": "HK MP7-SF는 헤클러 & 코흐에서 제조한 반자동 사격 방식의 기관단총입니다. 4.6×30mm 탄약을 사용합니다. 작고 제어하기 쉬운 우수한 화기로, 영국 국방부 경찰에서 자주 사용됩니다. 이 버전은 안정성과 조작성을 높이고 자동 사격이 가능하도록 개조되었습니다. "
+        "source": "The HK MP7-SF is a submachine gun manufactured by Heckler & Koch that fires in semi-automatic mode. It is chambered for 4.6×30mm ammunition. It serves as an excellent compact, highly controllable weapon and is frequently used by the UK’s Ministry of Defense Police. This version has been modified to provide greater stability, better control, and the ability to fire in automatic mode. The stock assembly has been tampered with, making it impossible to unfold.",
+        "translation": "HK MP7-SF는 헤클러 & 코흐에서 제조한 반자동 사격 방식의 기관단총입니다. 4.6×30mm 탄약을 사용합니다. 작고 제어하기 쉬운 우수한 화기로, 영국 국방부 경찰에서 자주 사용됩니다. 이 버전은 안정성과 조작성을 높이고 자동 사격이 가능하도록 개조되었습니다. 개머리판 조립부를 개조한 탓에 펼칠 수 없습니다."
       },
       {
         "key": "69842a195bdc0574dbdf25ca Name",
@@ -11318,8 +11318,8 @@
       },
       {
         "key": "f3ea573061656070b2292e20",
-        "source": "Hand over 500,000 roubles to Fence",
-        "translation": "펜스에게 500,000루블 건네주기",
+        "source": "Hand over 2,000,000 roubles to Fence",
+        "translation": "펜스에게 2,000,000루블 건네주기",
         "match_mode": "exact",
         "display_type": "quest_objective"
       },
@@ -12681,8 +12681,8 @@
       },
       {
         "key": "be5f08f5165055df89511f06 Name",
-        "source": "Blue Force Gear PLATEminus V2 Plate Carrier (MultiCam)",
-        "translation": "블루 포스 기어 PLATEminus V2 플레이트 캐리어 (멀티캠)",
+        "source": "Blue Force Gear PLATEminus V2 Plate Carrier (Black Division)",
+        "translation": "블루 포스 기어 PLATEminus V2 플레이트 캐리어 (블랙 디비전)",
         "match_mode": "item_decorated"
       },
       {
@@ -19821,8 +19821,8 @@
       },
       {
         "key": "7400edf574275ab892637d76 Description",
-        "source": "Modified class 5 hybrid composite insert for the White Tusk Arctic EXFIL helmet. Integrated protection with 40 durability.",
-        "translation": "화이트 터스크 극지형 EXFIL 헬멧용 개조된 5등급 하이브리드 복합소재 인서트입니다. 내구도 40의 일체형 방호 기능을 제공합니다.",
+        "source": "Modified class 5 hybrid composite insert for the White Tusk Arctic EXFIL helmet. Integrated protection with 27 durability.",
+        "translation": "화이트 터스크 극지형 EXFIL 헬멧용 개조된 5등급 하이브리드 복합소재 인서트입니다. 내구도 27의 일체형 방호 기능을 제공합니다.",
         "match_mode": "item_decorated"
       },
       {
@@ -19839,8 +19839,8 @@
       },
       {
         "key": "7fde456712f75876aac4bd41 Description",
-        "source": "Modified class 5 hybrid composite insert for the White Tusk Arctic EXFIL helmet. Integrated protection with 40 durability.",
-        "translation": "화이트 터스크 극지형 EXFIL 헬멧용 개조된 5등급 하이브리드 복합소재 인서트입니다. 내구도 40의 일체형 방호 기능을 제공합니다.",
+        "source": "Modified class 5 hybrid composite insert for the White Tusk Arctic EXFIL helmet. Integrated protection with 27 durability.",
+        "translation": "화이트 터스크 극지형 EXFIL 헬멧용 개조된 5등급 하이브리드 복합소재 인서트입니다. 내구도 27의 일체형 방호 기능을 제공합니다.",
         "match_mode": "item_decorated"
       },
       {
@@ -33744,6 +33744,497 @@
         "match_mode": "exact",
         "display_type": "item_description",
         "name_key": "ca159cc5bcda5a77b0eb3a97 Name"
+      },
+      {
+        "key": "ffa5ee004c4d5f45b2572e76 Name",
+        "source": "Glock 17 pistol slide (FDE)",
+        "translation": "글록 17 권총 슬라이드 (사막색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "ffa5ee004c4d5f45b2572e76 ShortName",
+        "source": "G17",
+        "translation": "G17"
+      },
+      {
+        "key": "ffa5ee004c4d5f45b2572e76 Description",
+        "source": "A standard-issue slide for Glock 17 9x19 pistols.",
+        "translation": "글록 17 9x19 권총에 사용하는 표준형 슬라이드입니다."
+      },
+      {
+        "key": "447e27d346ba557fbca8ed64 Name",
+        "source": "Modified Glock 17 9x19 pistol",
+        "translation": "개조 글록 17 9x19 권총",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "447e27d346ba557fbca8ed64 ShortName",
+        "source": "Modified Glock 17",
+        "translation": "개조 글록 17"
+      },
+      {
+        "key": "447e27d346ba557fbca8ed64 Description",
+        "source": "Modified Glock 17 is an Austrian pistol designed by Glock company for the Austrian army purposes. Thanks to both its impressive combat characteristics and reliablity it gained wide recognition and popularity as a police, shooting sports and civilian self-defense weapon.",
+        "translation": "개조 글록 17은 글록사가 오스트리아군을 위해 설계한 오스트리아제 권총입니다. 우수한 전투 성능과 신뢰성을 바탕으로 경찰용, 사격 스포츠용 및 민간 호신용 무기로 널리 인정받고 인기를 얻었습니다."
+      },
+      {
+        "key": "c4c0c495808a57d29d8e0496 Name",
+        "source": "Modified Glock 17 9x19 pistol (FDE)",
+        "translation": "개조 글록 17 9x19 권총 (사막색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "c4c0c495808a57d29d8e0496 ShortName",
+        "source": "Modified Glock 17",
+        "translation": "개조 글록 17"
+      },
+      {
+        "key": "c4c0c495808a57d29d8e0496 Description",
+        "source": "Modified Glock 17 is an Austrian pistol designed by Glock company for the Austrian army purposes. Thanks to both its impressive combat characteristics and reliablity it gained wide recognition and popularity as a police, shooting sports and civilian self-defense weapon.",
+        "translation": "개조 글록 17은 글록사가 오스트리아군을 위해 설계한 오스트리아제 권총입니다. 우수한 전투 성능과 신뢰성을 바탕으로 경찰용, 사격 스포츠용 및 민간 호신용 무기로 널리 인정받고 인기를 얻었습니다."
+      },
+      {
+        "key": "2210de8d7b3e5d02b70e851a Name",
+        "source": "Modified GP-7 gas mask",
+        "translation": "개조 GP-7 방독면",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "2210de8d7b3e5d02b70e851a ShortName",
+        "source": "Modified GP-7",
+        "translation": "개조 GP-7"
+      },
+      {
+        "key": "2210de8d7b3e5d02b70e851a Description",
+        "source": "Modified The GP-7 civilian gas mask is a filtering means of individual protection of respiratory organs, eyes, and face skin.",
+        "translation": "개조된 GP-7 민간용 방독면은 호흡기와 눈, 얼굴 피부를 보호하는 여과식 개인 보호 장비입니다."
+      },
+      {
+        "key": "d42ca83bead35a4db91457a7 Name",
+        "source": "Modified GP-5 gas mask",
+        "translation": "개조 GP-5 방독면",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "d42ca83bead35a4db91457a7 ShortName",
+        "source": "Modified GP-5",
+        "translation": "개조 GP-5"
+      },
+      {
+        "key": "d42ca83bead35a4db91457a7 Description",
+        "source": "Modified The civil gas mask model 5 or GP-5 is a filtering agent for individual protection of the respiratory organs, eyes and skin of a person's face.",
+        "translation": "개조된 GP-5 민간용 방독면은 호흡기와 눈, 얼굴 피부를 보호하는 여과식 개인 보호 장비입니다."
+      },
+      {
+        "key": "eae1b78f028759df97ec2ba8 Name",
+        "source": "Respirator (Black)",
+        "translation": "방진 마스크 (검은색)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "eae1b78f028759df97ec2ba8 ShortName",
+        "source": "Respirator",
+        "translation": "방진 마스크"
+      },
+      {
+        "key": "eae1b78f028759df97ec2ba8 Description",
+        "source": "Respiratory mask or anti-aerosol respirator is a basic respiratory protective equipment.",
+        "translation": "호흡용 마스크 또는 에어로졸 방지 마스크는 기본적인 호흡기 보호 장비입니다."
+      },
+      {
+        "key": "caef0ceb83ad596fa1af957b Name",
+        "source": "Blue Force Gear PLATEminus V2 Plate Carrier (Chaos Insurgency)",
+        "translation": "블루 포스 기어 PLATEminus V2 플레이트 캐리어 (카오스 인서전시)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "caef0ceb83ad596fa1af957b ShortName",
+        "source": "PLATEminus V2",
+        "translation": "PLATEminus V2"
+      },
+      {
+        "key": "caef0ceb83ad596fa1af957b Description",
+        "source": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (Chaos Insurgency)",
+        "translation": "블루 포스 기어의 2세대 플레이트 캐리어로, SAPI/ESAPI 규격 방탄판을 수납하도록 설계되었습니다. 적외선 피탐지 특성을 낮춘 내수성 소재로 제작되었습니다. 신속 해제 버클을 사용하면 위급 상황에서 즉시 벗을 수 있습니다. 보강된 구조로 어떤 전투 환경에서도 안정적인 방호 성능을 제공합니다. 전통적인 플레이트 캐리어 구성으로 제공됩니다. (카오스 인서전시)"
+      },
+      {
+        "key": "96e9d70cd6515159b95b212d Name",
+        "source": "Blue Force Gear PLATEminus V2 Plate Carrier (Chaos Insurgency)",
+        "translation": "블루 포스 기어 PLATEminus V2 플레이트 캐리어 (카오스 인서전시)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "96e9d70cd6515159b95b212d ShortName",
+        "source": "PLATEminus V2",
+        "translation": "PLATEminus V2"
+      },
+      {
+        "key": "96e9d70cd6515159b95b212d Description",
+        "source": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (Chaos Insurgency)",
+        "translation": "블루 포스 기어의 2세대 플레이트 캐리어로, SAPI/ESAPI 규격 방탄판을 수납하도록 설계되었습니다. 적외선 피탐지 특성을 낮춘 내수성 소재로 제작되었습니다. 신속 해제 버클을 사용하면 위급 상황에서 즉시 벗을 수 있습니다. 보강된 구조로 어떤 전투 환경에서도 안정적인 방호 성능을 제공합니다. 전통적인 플레이트 캐리어 구성으로 제공됩니다. (카오스 인서전시)"
+      },
+      {
+        "key": "e6e6f1e3f09a5157b6fa5be6 Name",
+        "source": "Blue Force Gear PLATEminus V2 Plate Carrier (Chaos Insurgency)",
+        "translation": "블루 포스 기어 PLATEminus V2 플레이트 캐리어 (카오스 인서전시)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "e6e6f1e3f09a5157b6fa5be6 ShortName",
+        "source": "PLATEminus V2",
+        "translation": "PLATEminus V2"
+      },
+      {
+        "key": "e6e6f1e3f09a5157b6fa5be6 Description",
+        "source": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. This version is an exact replica of the plate carrier worn by the mysterious Arena champion known as Scourge. (Chaos Insurgency)",
+        "translation": "블루 포스 기어의 2세대 플레이트 캐리어로, SAPI/ESAPI 규격 방탄판을 수납하도록 설계되었습니다. 적외선 피탐지 특성을 낮춘 내수성 소재로 제작되었습니다. 신속 해제 버클을 사용하면 위급 상황에서 즉시 벗을 수 있습니다. 보강된 구조로 어떤 전투 환경에서도 안정적인 방호 성능을 제공합니다. 이 버전은 스커지라는 이름으로 알려진 정체불명의 아레나 챔피언이 착용한 플레이트 캐리어를 그대로 재현한 제품입니다. (카오스 인서전시)"
+      },
+      {
+        "key": "215e6f151d2157118d3e41df Name",
+        "source": "Blue Force Gear PLATEminus V2 Plate Carrier (Chaos Insurgency)",
+        "translation": "블루 포스 기어 PLATEminus V2 플레이트 캐리어 (카오스 인서전시)",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "215e6f151d2157118d3e41df ShortName",
+        "source": "PLATEminus V2",
+        "translation": "PLATEminus V2"
+      },
+      {
+        "key": "215e6f151d2157118d3e41df Description",
+        "source": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a rather unique pouch setup. (Chaos Insurgency)",
+        "translation": "블루 포스 기어의 2세대 플레이트 캐리어로, SAPI/ESAPI 규격 방탄판을 수납하도록 설계되었습니다. 적외선 피탐지 특성을 낮춘 내수성 소재로 제작되었습니다. 신속 해제 버클을 사용하면 위급 상황에서 즉시 벗을 수 있습니다. 보강된 구조로 어떤 전투 환경에서도 안정적인 방호 성능을 제공합니다. 독특한 파우치 구성으로 제공됩니다. (카오스 인서전시)"
+      },
+      {
+        "key": "c1ba6df54f1dcfdd088398a7 Name",
+        "source": "TerraGroup Labs USEC Intelligence Support Bureau Armory Room Key",
+        "translation": "테라그룹 연구소 USEC 정보지원국 무기고 열쇠",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "c1ba6df54f1dcfdd088398a7 ShortName",
+        "source": "ISB",
+        "translation": "ISB"
+      },
+      {
+        "key": "c1ba6df54f1dcfdd088398a7 Description",
+        "source": "A mechanical key that grants access to USEC ISB's arsenal of equipment inside the TerraGroup Laboratory.",
+        "translation": "테라그룹 연구소 내부에 있는 USEC ISB의 장비 무기고에 들어갈 수 있는 기계식 열쇠입니다."
+      },
+      {
+        "key": "d8d9671481acbcdb6cdc9b2b Name",
+        "source": "TerraGroup Labs Service Room Key",
+        "translation": "테라그룹 연구소 서비스실 열쇠",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "d8d9671481acbcdb6cdc9b2b ShortName",
+        "source": "Service",
+        "translation": "서비스실"
+      },
+      {
+        "key": "d8d9671481acbcdb6cdc9b2b Description",
+        "source": "A mechanical key to the service room marked for flammable materials in the east parking corridor.",
+        "translation": "동쪽 주차장 통로에서 인화성 물질 보관 표시가 붙은 서비스실을 여는 기계식 열쇠입니다."
+      },
+      {
+        "key": "68a5b9af76a25d8e6e0e2e56 Name",
+        "source": "Storage",
+        "translation": "보관함",
+        "match_mode": "item_decorated"
+      },
+      {
+        "key": "68a5b9af76a25d8e6e0e2e56 ShortName",
+        "source": "Storage",
+        "translation": "보관함"
+      },
+      {
+        "key": "68a5b9af76a25d8e6e0e2e56 Description",
+        "source": "TerraGroup storage.",
+        "translation": "테라그룹 보관함입니다."
+      },
+      {
+        "key": "aishi_music_player",
+        "source": "MUSIC PLAYER",
+        "translation": "음악 플레이어",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_title",
+        "source": "AISHI  /  PERSONAL AUDIO",
+        "translation": "아이시  /  개인 음악",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_noTrack",
+        "source": "NO TRACK SELECTED",
+        "translation": "선택한 곡 없음",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_previous",
+        "source": "PREVIOUS",
+        "translation": "이전 곡",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_play",
+        "source": "PLAY",
+        "translation": "재생",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_pause",
+        "source": "PAUSE",
+        "translation": "일시정지",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_next",
+        "source": "NEXT",
+        "translation": "다음 곡",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_shuffleOff",
+        "source": "SHUFFLE: OFF",
+        "translation": "무작위 재생: 꺼짐",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_shuffleOn",
+        "source": "SHUFFLE: ON",
+        "translation": "무작위 재생: 켜짐",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_volume",
+        "source": "VOLUME",
+        "translation": "볼륨",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_playlists",
+        "source": "PLAYLISTS",
+        "translation": "재생 목록",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_tracks",
+        "source": "TRACKS",
+        "translation": "곡 목록",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_refresh",
+        "source": "REFRESH",
+        "translation": "새로고침",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_newPlaylist",
+        "source": "New playlist folder...",
+        "translation": "새 재생 목록 폴더...",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_createPlaylist",
+        "source": "CREATE PLAYLIST",
+        "translation": "재생 목록 만들기",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_formats",
+        "source": "LOCAL PLAYBACK  /  WAV · OGG · MP3  /  FOLDERS INSIDE MUSIC",
+        "translation": "로컬 재생  /  WAV · OGG · MP3  /  Music 폴더 내 하위 폴더",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_empty",
+        "source": "This playlist is empty",
+        "translation": "이 재생 목록에는 곡이 없습니다",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_addFiles",
+        "source": "Add files to its folder inside Music, then REFRESH.",
+        "translation": "Music 폴더 안의 해당 폴더에 파일을 넣은 뒤 새로고침하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_connected",
+        "source": "HEADSET CONNECTED",
+        "translation": "헤드셋 연결됨",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_disconnected",
+        "source": "HEADSET NOT EQUIPPED",
+        "translation": "헤드셋 미장착",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_root",
+        "source": "Music (root)",
+        "translation": "Music (최상위 폴더)",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_equip",
+        "source": "Equip an Aishi music headset to listen.",
+        "translation": "음악을 들으려면 아이시 전용 음악 헤드셋을 장착하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_readPlaylists",
+        "source": "Cannot read playlists: ",
+        "translation": "재생 목록을 읽을 수 없습니다: ",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_emptyPath",
+        "source": "Empty playlist. Add music to Music/",
+        "translation": "빈 재생 목록입니다. 다음 폴더에 음악을 넣으세요: Music/",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_selectedPlaylist",
+        "source": "Playlist selected. Choose a track or press Play.",
+        "translation": "재생 목록을 선택했습니다. 곡을 선택하거나 재생을 누르세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_createError",
+        "source": "Cannot create playlist: ",
+        "translation": "재생 목록을 만들 수 없습니다: ",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_unequipped",
+        "source": "Music stopped: equip an Aishi music headset.",
+        "translation": "음악 재생이 중지되었습니다. 아이시 전용 음악 헤드셋을 장착하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_ready",
+        "source": "Headset connected. Press Play to listen.",
+        "translation": "헤드셋이 연결되었습니다. 재생을 눌러 음악을 들으세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_finished",
+        "source": "Track finished.",
+        "translation": "곡 재생이 끝났습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_addFormats",
+        "source": "Add WAV, OGG or MP3 files to this playlist folder, then Refresh.",
+        "translation": "이 재생 목록 폴더에 WAV, OGG 또는 MP3 파일을 넣은 뒤 새로고침하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_readMusic",
+        "source": "Cannot read Music folder: ",
+        "translation": "Music 폴더를 읽을 수 없습니다: ",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_playing",
+        "source": "Playing",
+        "translation": "재생 중",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_paused",
+        "source": "Paused",
+        "translation": "일시정지됨",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_selected",
+        "source": "Selected. Equip an Aishi music headset, then press Play.",
+        "translation": "곡을 선택했습니다. 아이시 전용 음악 헤드셋을 장착하고 재생을 누르세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_missing",
+        "source": "Missing file or file larger than 100 MB.",
+        "translation": "파일이 없거나 크기가 100MB를 초과합니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_loading",
+        "source": "Loading ",
+        "translation": "불러오는 중: ",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_playError",
+        "source": "Cannot play this file: ",
+        "translation": "이 파일을 재생할 수 없습니다: ",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_stopped",
+        "source": "Stopped",
+        "translation": "중지됨",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_notifyPaused",
+        "source": "Music paused",
+        "translation": "음악 일시정지",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_notifyResumed",
+        "source": "Music resumed",
+        "translation": "음악 재개",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_notifyPlaying",
+        "source": "Now playing: ",
+        "translation": "현재 재생 중: ",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_music_shortcuts",
+        "source": "PAUSE / RESUME  {0}     PLAYER  {1}",
+        "translation": "일시정지 / 재개  {0}     플레이어  {1}",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_helmet_out_of_power",
+        "source": "Helmet is out of power. Recharge it with a GreenBat lithium battery or a Modified GreenBat lithium battery.",
+        "translation": "헬멧의 전력이 소진되었습니다. GreenBat 리튬 배터리 또는 개조 GreenBat 리튬 배터리로 충전하세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_labs_card_destroyed",
+        "source": "This room's security protocol destroyed the chip on the card that was used.",
+        "translation": "이 방의 보안 프로토콜에 의해 사용한 카드의 칩이 파괴되었습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_tape_change_failed",
+        "source": "Could not change tape. Reopen the magazine menu.",
+        "translation": "테이프를 교체하지 못했습니다. 탄창 메뉴를 다시 여세요.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "aishi_anomaly_revealed",
+        "source": "Anomalous properties revealed.",
+        "translation": "변칙적 특성이 드러났습니다.",
+        "match_mode": "exact"
+      },
+      {
+        "key": "ddfadd6f6cc0c7b1c7b6ef9f",
+        "source": "Complete Jaeger's 'Rite of Passage' task",
+        "translation": "예거의 「통과 의례」 임무 완료하기",
+        "match_mode": "exact",
+        "display_type": "quest_objective"
       }
     ],
     "small_ui": [
@@ -35473,6 +35964,48 @@
         "id": "aishi.wardrobe.runtime.chaos-heavy-operative",
         "source": "Chaos Insurgency Heavy Operative (Multicam Black)",
         "translation": "카오스 인서전시 중장비 요원 (검은색 멀티캠)",
+        "match_mode": "exact"
+      },
+      {
+        "id": "aishi.wardrobe.family.chaos-insurgency",
+        "source": "Chaos Insurgency",
+        "translation": "카오스 인서전시",
+        "match_mode": "exact"
+      },
+      {
+        "id": "aishi.wardrobe.chaos.operative",
+        "source": "Chaos Insurgency Operative",
+        "translation": "카오스 인서전시 요원",
+        "match_mode": "exact"
+      },
+      {
+        "id": "aishi.wardrobe.chaos.red-right-hand-shirt",
+        "source": "Chaos Insurgency Red Right Hand Combat Shirt",
+        "translation": "카오스 인서전시 붉은 오른손 전투 셔츠입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "aishi.wardrobe.chaos.red-right-hand-trousers",
+        "source": "Chaos Insurgency Red Right Hand Tactical Trousers",
+        "translation": "카오스 인서전시 붉은 오른손 전술 바지입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "aishi.wardrobe.chaos.heavy-shirt",
+        "source": "Chaos Insurgency Heavy Operative Combat Shirt",
+        "translation": "카오스 인서전시 중장비 요원 전투 셔츠입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "aishi.wardrobe.chaos.heavy-trousers",
+        "source": "Chaos Insurgency Heavy Operative Tactical Trousers",
+        "translation": "카오스 인서전시 중장비 요원 전술 바지입니다.",
+        "match_mode": "exact"
+      },
+      {
+        "id": "aishi.wardrobe.chaos.infiltrator",
+        "source": "Chaos Insurgency Infiltrator",
+        "translation": "카오스 인서전시 침투 요원",
         "match_mode": "exact"
       }
     ],

@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "mod_id": "com.kennerz.thundergun",
+  "mod_name": "Thundergun",
+  "mod_version": "1.2.0",
+  "channels": {
+    "locale": [
+      {
+        "source": "Thundergun charge",
+        "translation": "Thundergun charge",
+        "match_mode": "exact",
+        "key": "6a7e5a71d9a1150000000004 Name",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "source": "Charge",
+        "translation": "Charge",
+        "match_mode": "exact",
+        "key": "6a7e5a71d9a1150000000004 ShortName",
+        "seed_missing": true
+      },
+      {
+        "source": "A sealed pulse of compressed air. Only exists inside a pressure cartridge.",
+        "translation": "압축 공기를 밀봉한 충전탄입니다. 압력 카트리지 내부에만 존재합니다.",
+        "match_mode": "exact",
+        "key": "6a7e5a71d9a1150000000004 Description",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "source": "Pressure Cartridge",
+        "translation": "압력 카트리지",
+        "match_mode": "exact",
+        "key": "6a7e5a71d9a1150000000002 Name",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "source": "Pressure",
+        "translation": "압력",
+        "match_mode": "exact",
+        "key": "6a7e5a71d9a1150000000002 ShortName",
+        "seed_missing": true
+      },
+      {
+        "source": "A Group 935 pressure cartridge for the Thundergun. Every charge in it must be fired before the gun lets it go, and it can't be refilled: a spent one is dead weight. A Pack-a-Punched Thundergun overcharges any cartridge loaded into it.",
+        "translation": "935부대가 개발한 썬더 건용 압력 카트리지입니다. 내부 충전탄을 모두 발사해야 총에서 분리할 수 있으며, 재충전할 수 없어 다 쓰면 무용지물이 됩니다. Pack-a-Punch로 강화한 썬더 건은 장전된 모든 카트리지를 과충전합니다.",
+        "match_mode": "exact",
+        "key": "6a7e5a71d9a1150000000002 Description",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "source": "Thundergun",
+        "translation": "썬더 건",
+        "match_mode": "exact",
+        "key": "6a7e5a71d9a1150000000001 Name",
+        "seed_missing": true,
+        "display_type": "item_name"
+      },
+      {
+        "source": "Thundergun",
+        "translation": "썬더 건",
+        "match_mode": "exact",
+        "key": "6a7e5a71d9a1150000000001 ShortName",
+        "seed_missing": true
+      },
+      {
+        "source": "A Group 935 wonder weapon. It fires a crushing blast of air that throws anything in front of it off its feet. Feeds from pressure cartridges.",
+        "translation": "935부대가 개발한 특수 무기입니다. 강력한 공기 충격파를 발사하여 전방의 대상을 날려 버립니다. 압력 카트리지를 탄약으로 사용합니다.",
+        "match_mode": "exact",
+        "key": "6a7e5a71d9a1150000000001 Description",
+        "seed_missing": true,
+        "display_type": "item_description"
+      },
+      {
+        "source": "Pressure Cartridge",
+        "translation": "압력 카트리지",
+        "match_mode": "exact",
+        "key": "CaliberPressure"
+      },
+      {
+        "source": "Pressure Cartridge",
+        "translation": "압력 카트리지",
+        "match_mode": "exact",
+        "key": "Pressure"
+      }
+    ],
+    "notifications": [
+      {
+        "source": "Thundergun bought.",
+        "translation": "썬더 건을 구매했습니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.001"
+      },
+      {
+        "source": "Thundergun bought and equipped.",
+        "translation": "썬더 건을 구매하고 장착했습니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.002"
+      },
+      {
+        "source": "Thundergun bought and equipped (draw it in the shooting range).",
+        "translation": "썬더 건을 구매하고 장착했습니다. 사격장에서 무기를 꺼내 보세요.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.003"
+      },
+      {
+        "source": "Pressure cartridge bought. It's in your stash.",
+        "translation": "압력 카트리지를 구매했습니다. 보관함에서 확인할 수 있습니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.004"
+      },
+      {
+        "source": "The purchase didn't go through.",
+        "translation": "구매가 완료되지 않았습니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.005"
+      },
+      {
+        "source": "Nothing to buy there.",
+        "translation": "해당 위치에서 구매할 수 있는 물품이 없습니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.006"
+      },
+      {
+        "source": "Not enough funds.",
+        "translation": "소지금이 부족합니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.007"
+      },
+      {
+        "source": "No room in your stash.",
+        "translation": "보관함에 빈 공간이 없습니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.008"
+      },
+      {
+        "source": "The canister still holds a charge. Fire it first.",
+        "translation": "카트리지에 충전탄이 남아 있습니다. 먼저 발사해 주세요.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.009"
+      },
+      {
+        "source": "A pressure cartridge stays in the Thundergun until it's spent.",
+        "translation": "압력 카트리지는 모두 소모할 때까지 썬더 건에서 분리할 수 없습니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.010"
+      },
+      {
+        "source": "The Thundergun has nothing to modify: its only part is the pressure cartridge.",
+        "translation": "썬더 건은 압력 카트리지 외에 교체하거나 개조할 부품이 없습니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.011"
+      },
+      {
+        "source": "Thundergun will be in your normal gameplay after you restart the game and the server.",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서도 썬더 건을 사용할 수 있습니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.012"
+      },
+      {
+        "source": "Thundergun will be removed from your normal gameplay after you restart the game and the server.",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서 썬더 건이 제거됩니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.013"
+      },
+      {
+        "source": "Thundergun will be in your normal gameplay once the game and the server have restarted (co-op: the host restarts the server).",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서도 썬더 건을 사용할 수 있습니다. 협동 플레이에서는 호스트가 서버를 재시작해야 합니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.014"
+      },
+      {
+        "source": "Thundergun will be removed from your normal gameplay once the game and the server have restarted (co-op: the host restarts the server).",
+        "translation": "게임과 서버를 재시작하면 일반 게임에서 썬더 건이 제거됩니다. 협동 플레이에서는 호스트가 서버를 재시작해야 합니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.015"
+      },
+      {
+        "source": "Couldn't reach the server to change Thundergun. Try again in a moment.",
+        "translation": "썬더 건 설정을 변경하기 위해 서버에 연결할 수 없습니다. 잠시 후 다시 시도해 주세요.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.016"
+      },
+      {
+        "source": "Saved. Change it any time in F12, under each mod's \"1. Normal gameplay\".",
+        "translation": "저장했습니다. 언제든 F12의 각 모드별 「1. 일반 게임」에서 변경할 수 있습니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.017"
+      },
+      {
+        "source": "Saved. It counts after you restart the game and the server.",
+        "translation": "저장했습니다. 게임과 서버를 재시작하면 적용됩니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.018"
+      },
+      {
+        "source": "Saved. It counts once the game and the server have restarted (co-op: the host restarts the server).",
+        "translation": "저장했습니다. 게임과 서버를 재시작하면 적용됩니다. 협동 플레이에서는 호스트가 서버를 재시작해야 합니다.",
+        "match_mode": "exact",
+        "id": "thundergun.notifications.019"
+      }
+    ],
+    "interactions": [
+      {
+        "source": "Thundergun bought",
+        "translation": "썬더 건 구매 완료",
+        "match_mode": "exact",
+        "id": "thundergun.interactions.001"
+      },
+      {
+        "source": "Buy Thundergun ({price} ₽)",
+        "translation": "썬더 건 구매 ({price} ₽)",
+        "match_mode": "template",
+        "id": "thundergun.interactions.002"
+      },
+      {
+        "source": "Buy Thundergun cartridge ({price} ₽)",
+        "translation": "썬더 건 카트리지 구매 ({price} ₽)",
+        "match_mode": "template",
+        "id": "thundergun.interactions.003"
+      }
+    ],
+    "thundergun_ui": [
+      {
+        "source": "REMOVE RAY GUN FROM YOUR NORMAL GAMEPLAY?",
+        "translation": "일반 게임에서 레이 건을 제거하시겠습니까?",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.001"
+      },
+      {
+        "source": "REMOVE IT",
+        "translation": "제거",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.002"
+      },
+      {
+        "source": "KEEP IT",
+        "translation": "유지",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.003"
+      },
+      {
+        "source": "YOUR NORMAL GAMEPLAY",
+        "translation": "일반 게임 설정",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.004"
+      },
+      {
+        "source": "These mods are part of the <b>Dr K's SPZombies</b> mode and <b>always work there</b>. Do you also want them in your <b>normal gameplay</b>? Not sure? Leave them <b>off</b>: your normal game stays exactly as it was.",
+        "translation": "이 모드들은 <b>Dr K's SPZombies</b> 모드에 속하며 해당 모드에서는 <b>항상 작동합니다</b>. 일반 게임에서도 사용하시겠습니까? 확신이 서지 않는다면 <b>끔</b>을 선택하세요. 그러면 일반 게임은 변경되지 않습니다.",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.005"
+      },
+      {
+        "source": "Do you want these in your <b>normal gameplay</b>? Pick <b>off</b> to keep your normal game exactly as it was.",
+        "translation": "이 모드들을 <b>일반 게임</b>에서도 사용하시겠습니까? 기존 일반 게임을 그대로 유지하려면 <b>끔</b>을 선택하세요.",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.006"
+      },
+      {
+        "source": "OFF",
+        "translation": "끔",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.007"
+      },
+      {
+        "source": "ON",
+        "translation": "켬",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.008"
+      },
+      {
+        "source": "CONFIRM",
+        "translation": "확인",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.009"
+      },
+      {
+        "source": "GOOD TO KNOW",
+        "translation": "알아두세요",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.010"
+      },
+      {
+        "source": "NEW",
+        "translation": "신규",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.011"
+      },
+      {
+        "source": "• <b>The zombies mode keeps it</b>: it always works there.",
+        "translation": "• <b>좀비 모드에서는 계속 사용할 수 있습니다</b>. 해당 모드에서는 항상 작동합니다.",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.012"
+      },
+      {
+        "source": "• <b>Co-op (Fika):</b> this only changes <b>your own</b> game and profile, not your friends'. It counts once the host restarts the server.",
+        "translation": "• <b>협동 플레이(Fika):</b> 친구의 게임이 아닌 <b>자신의</b> 게임과 프로필만 변경됩니다. 호스트가 서버를 재시작하면 적용됩니다.",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.013"
+      },
+      {
+        "source": "• <b>It counts after you restart the game and the server.</b>",
+        "translation": "• <b>게임과 서버를 재시작한 뒤 적용됩니다.</b>",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.014"
+      },
+      {
+        "source": "• Turning it back on later starts it all fresh.",
+        "translation": "• 나중에 다시 켜면 처음부터 새로 시작됩니다.",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.015"
+      },
+      {
+        "source": "• <b>Change it any time:</b> F12, each mod's <b>1. Normal gameplay</b>.",
+        "translation": "• <b>언제든 변경:</b> F12에서 각 모드의 <b>1. 일반 게임</b> 설정을 이용하세요.",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.016"
+      },
+      {
+        "source": "• Turning one on again later starts it fresh.",
+        "translation": "• 나중에 다시 켜면 해당 모드가 처음부터 새로 시작됩니다.",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.017"
+      },
+      {
+        "source": "• <b>Co-op (Fika):</b> everyone picks for themselves. Yours only changes <b>your own</b> game. Changes count once the host restarts the server.",
+        "translation": "• <b>협동 플레이(Fika):</b> 설정은 각자 선택하며, 변경 사항은 <b>자신의</b> 게임에만 적용됩니다. 호스트가 서버를 재시작해야 반영됩니다.",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.018"
+      },
+      {
+        "source": "• <b>Changes count after you restart the game and the server.</b>",
+        "translation": "• <b>게임과 서버를 재시작해야 변경 사항이 반영됩니다.</b>",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.019"
+      },
+      {
+        "source": "<b>Dr K's SPZombies</b>",
+        "translation": "<b>Dr K's SPZombies</b>",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.020"
+      },
+      {
+        "source": "REMOVE THUNDERGUN FROM YOUR NORMAL GAMEPLAY?",
+        "translation": "일반 게임에서 썬더 건을 제거하시겠습니까?",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.021"
+      },
+      {
+        "source": "This removes what you got from it: <b>every Thundergun and pressure cartridge you own (stash, mail, insurance), and the roubles you spent on them.</b>",
+        "translation": "이 기능으로 획득한 <b>썬더 건과 압력 카트리지 전체가 제거됩니다(보관함·우편·보험 포함). 구매 비용은 환불되지 않습니다.</b>",
+        "match_mode": "exact",
+        "id": "thundergun.thundergun_ui.022"
+      },
+      {
+        "source": "<b>Thundergun:</b> turning it off in F12 or uninstalling it <b>removes every Thundergun and cartridge from your stash</b> (no refund).",
+        "translation": "<b>썬더 건:</b> F12에서 기능을 끄거나 모드를 삭제하면 <b>보관함에 있는 썬더 건과 카트리지가 모두 제거됩니다</b>(환불 없음).",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.023"
+      },
+      {
+        "source": "A chalk wall buy and an ammo box appear in your hideout's side room once its wall is knocked down. Buy the Thundergun and its cartridges with roubles and take it into your normal raids!",
+        "translation": "은신처 옆방의 벽을 철거하면 벽면 무기 구매 지점과 탄약 상자가 생깁니다. 루블로 썬더 건과 카트리지를 구매하여 일반 레이드에 가져갈 수 있습니다!",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.024"
+      },
+      {
+        "source": "every Thundergun and pressure cartridge you own (stash, mail, insurance), and the roubles you spent on them.",
+        "translation": "보유 중인 썬더 건과 압력 카트리지 전체(보관함·우편·보험 포함)가 제거되며, 구매 비용은 환불되지 않습니다.",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.025"
+      },
+      {
+        "source": "<b>Thundergun</b>",
+        "translation": "<b>썬더 건</b>",
+        "match_mode": "segment",
+        "id": "thundergun.thundergun_ui.026"
+      }
+    ],
+    "ammo_ui": [
+      {
+        "source": "Pressure Cartridge",
+        "translation": "압력 카트리지",
+        "match_mode": "exact",
+        "id": "thundergun.ammo_ui.001"
+      },
+      {
+        "source": "Empty",
+        "translation": "비어 있음",
+        "match_mode": "exact",
+        "id": "thundergun.ammo_ui.002"
+      },
+      {
+        "source": "1 charge left",
+        "translation": "충전량 1발 남음",
+        "match_mode": "exact",
+        "id": "thundergun.ammo_ui.003"
+      },
+      {
+        "source": "{count} charges left",
+        "translation": "충전량 {count}발 남음",
+        "match_mode": "template",
+        "id": "thundergun.ammo_ui.004"
+      }
+    ],
+    "stats_ui": [
+      {
+        "source": "MOVEMENT SPEED",
+        "translation": "이동 속도",
+        "match_mode": "exact",
+        "id": "thundergun.stats_ui.001"
+      },
+      {
+        "source": "TURN SPEED",
+        "translation": "회전 속도",
+        "match_mode": "exact",
+        "id": "thundergun.stats_ui.002"
+      },
+      {
+        "source": " while held",
+        "translation": " (장착 중)",
+        "match_mode": "segment",
+        "id": "thundergun.stats_ui.003"
+      }
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.yann.montretactique",
+  "plugin_name": "Montre Mousqueton",
+  "mod_version": "1.10.1",
+  "categories": [
+    {
+      "source": "1. General",
+      "translation": "1. 일반"
+    },
+    {
+      "source": "3. Alerte",
+      "translation": "3. 경고"
+    },
+    {
+      "source": "4. Montre - Position",
+      "translation": "4. 시계 - 위치"
+    },
+    {
+      "source": "4b. Montre - Rotation de depart",
+      "translation": "4b. 시계 - 기본 회전"
+    },
+    {
+      "source": "4c. Montre - Rotation fine",
+      "translation": "4c. 시계 - 세부 회전"
+    },
+    {
+      "source": "5. Texte - Heure du jeu",
+      "translation": "5. 표시 - 게임 시간"
+    },
+    {
+      "source": "6. Texte - Temps de raid",
+      "translation": "6. 표시 - 남은 레이드 시간"
+    },
+    {
+      "source": "7. Lueur de lecran",
+      "translation": "7. 화면 발광"
+    },
+    {
+      "source": "9. Test",
+      "translation": "9. 테스트"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. General",
+      "key": "Afficher les secondes",
+      "source_display_name": "Afficher les secondes",
+      "source_description": "",
+      "translation_display_name": "초 표시",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "3. Alerte",
+      "key": "Bip de fin de raid",
+      "source_display_name": "Bip de fin de raid",
+      "source_description": "La montre fait pip-pip-pip-pip une fois quand il reste peu de temps.",
+      "translation_display_name": "레이드 종료 경고음",
+      "translation_description": "레이드 종료 시간이 얼마 남지 않았을 때 시계에서 짧은 경고음 4회를 한 번 재생합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Alerte",
+      "key": "Minutes avant la fin",
+      "source_display_name": "Minutes avant la fin",
+      "source_description": "Moment du bip.",
+      "translation_display_name": "종료 몇 분 전 경고",
+      "translation_description": "경고음을 재생할 레이드 종료 전 시간을 분 단위로 설정합니다.",
+      "values": []
+    },
+    {
+      "section": "3. Alerte",
+      "key": "Volume",
+      "source_display_name": "Volume",
+      "source_description": "",
+      "translation_display_name": "경고음 음량",
+      "translation_description": "",
+      "values": []
+    },
+    {
+      "section": "4. Montre - Position",
+      "key": "Taille",
+      "source_display_name": "Taille",
+      "source_description": "Taille de la montre (1 = taille du modele).",
+      "translation_display_name": "시계 크기",
+      "translation_description": "시계 크기를 설정합니다. 1은 원본 모델 크기입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Montre - Position",
+      "key": "Position X",
+      "source_display_name": "Position X",
+      "source_description": "Metres, par rapport a la paume gauche.",
+      "translation_display_name": "위치 X",
+      "translation_description": "왼손바닥을 기준으로 한 위치입니다. 단위는 미터입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Montre - Position",
+      "key": "Position Y",
+      "source_display_name": "Position Y",
+      "source_description": "Metres, par rapport a la paume gauche.",
+      "translation_display_name": "위치 Y",
+      "translation_description": "왼손바닥을 기준으로 한 위치입니다. 단위는 미터입니다.",
+      "values": []
+    },
+    {
+      "section": "4. Montre - Position",
+      "key": "Position Z",
+      "source_display_name": "Position Z",
+      "source_description": "Metres, par rapport a la paume gauche.",
+      "translation_display_name": "위치 Z",
+      "translation_description": "왼손바닥을 기준으로 한 위치입니다. 단위는 미터입니다.",
+      "values": []
+    },
+    {
+      "section": "4b. Montre - Rotation de depart",
+      "key": "Depart X",
+      "source_display_name": "Depart X",
+      "source_description": "Sert a remettre le cadran face au joueur. Essaie 90, -90 ou 180.",
+      "translation_display_name": "기본 회전 X",
+      "translation_description": "시계 문자판이 플레이어를 향하도록 초기 회전을 조정합니다. 90, -90 또는 180을 시도해 보세요.",
+      "values": []
+    },
+    {
+      "section": "4b. Montre - Rotation de depart",
+      "key": "Depart Y",
+      "source_display_name": "Depart Y",
+      "source_description": "Sert a remettre le cadran face au joueur. Essaie 90, -90 ou 180.",
+      "translation_display_name": "기본 회전 Y",
+      "translation_description": "시계 문자판이 플레이어를 향하도록 초기 회전을 조정합니다. 90, -90 또는 180을 시도해 보세요.",
+      "values": []
+    },
+    {
+      "section": "4b. Montre - Rotation de depart",
+      "key": "Depart Z",
+      "source_display_name": "Depart Z",
+      "source_description": "Sert a remettre le cadran face au joueur. Essaie 90, -90 ou 180.",
+      "translation_display_name": "기본 회전 Z",
+      "translation_description": "시계 문자판이 플레이어를 향하도록 초기 회전을 조정합니다. 90, -90 또는 180을 시도해 보세요.",
+      "values": []
+    },
+    {
+      "section": "4c. Montre - Rotation fine",
+      "key": "Retourner (comme une page)",
+      "source_display_name": "Retourner (comme une page)",
+      "source_description": "Tourne autour de l axe gauche-droite de la montre.",
+      "translation_display_name": "뒤집기 (책장 넘기듯)",
+      "translation_description": "시계의 좌우 방향 축을 중심으로 회전시킵니다.",
+      "values": []
+    },
+    {
+      "section": "4c. Montre - Rotation fine",
+      "key": "Pivoter (comme un cadran)",
+      "source_display_name": "Pivoter (comme un cadran)",
+      "source_description": "Tourne autour de l axe qui sort du cadran.",
+      "translation_display_name": "문자판 회전",
+      "translation_description": "문자판의 앞쪽으로 뻗는 축을 중심으로 회전시킵니다.",
+      "values": []
+    },
+    {
+      "section": "4c. Montre - Rotation fine",
+      "key": "Pencher (avant-arriere)",
+      "source_display_name": "Pencher (avant-arriere)",
+      "source_description": "Tourne autour de l axe haut-bas de la montre.",
+      "translation_display_name": "앞뒤 기울이기",
+      "translation_description": "시계의 위아래 방향 축을 중심으로 회전시킵니다.",
+      "values": []
+    },
+    {
+      "section": "1. General",
+      "key": "Deux-points clignotants",
+      "source_display_name": "Deux-points clignotants",
+      "source_description": "Les deux-points de l heure et du raid clignotent une fois par seconde.",
+      "translation_display_name": "콜론 깜박임",
+      "translation_description": "시계의 현재 시간과 남은 레이드 시간을 구분하는 콜론(:)이 1초마다 깜박입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Lueur de lecran",
+      "key": "Intensite lueur (1.7)",
+      "source_display_name": "Intensite lueur (1.7)",
+      "source_description": "0 = eteint, 1 = normal, 2 = tres lumineux. Multiplie la couleur du fond et des chiffres.",
+      "translation_display_name": "발광 강도 (1.7)",
+      "translation_description": "0은 꺼짐, 1은 보통, 2는 매우 밝음입니다. 배경색과 숫자 색상에 함께 적용됩니다.",
+      "values": []
+    },
+    {
+      "section": "7. Lueur de lecran",
+      "key": "Couleur du fond (vert)",
+      "source_display_name": "Couleur du fond (vert)",
+      "source_description": "Fond des deux zones, vert sombre. Le jeu eclaircit les couleurs : pars bas.",
+      "translation_display_name": "배경색 (초록색)",
+      "translation_description": "두 표시 영역의 배경색입니다. 기본값은 어두운 초록색입니다. 게임에서 색상이 더 밝게 보이므로 낮은 값부터 조절하세요.",
+      "values": []
+    },
+    {
+      "section": "7. Lueur de lecran",
+      "key": "Mode Indiglo (fond eclaire)",
+      "source_display_name": "Mode Indiglo (fond eclaire)",
+      "source_description": "true = le fond prend la couleur Indiglo, comme le retroeclairage d une montre.",
+      "translation_display_name": "인디글로 모드 (배경 조명)",
+      "translation_description": "활성화하면 시계의 백라이트처럼 배경색에 인디글로 색상을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "7. Lueur de lecran",
+      "key": "Couleur Indiglo",
+      "source_display_name": "Couleur Indiglo",
+      "source_description": "Couleur du fond quand le mode Indiglo est actif.",
+      "translation_display_name": "인디글로 색상",
+      "translation_description": "인디글로 모드가 활성화되었을 때 적용할 배경색입니다.",
+      "values": []
+    },
+    {
+      "section": "7. Lueur de lecran",
+      "key": "Couleur des chiffres",
+      "source_display_name": "Couleur des chiffres",
+      "source_description": "Couleur des chiffres de l heure et du raid.",
+      "translation_display_name": "숫자 색상",
+      "translation_description": "현재 시간과 레이드 시간에 표시되는 숫자 색상입니다.",
+      "values": []
+    },
+    {
+      "section": "5. Texte - Heure du jeu",
+      "key": "Decalage X",
+      "source_display_name": "Decalage X",
+      "source_description": "Deplace les chiffres dans le modele. Essaie de petits pas (0.01).",
+      "translation_display_name": "위치 보정 X",
+      "translation_description": "시계 모델 안에서 숫자의 위치를 이동합니다. 0.01처럼 작은 값으로 조정하세요.",
+      "values": []
+    },
+    {
+      "section": "5. Texte - Heure du jeu",
+      "key": "Decalage Y",
+      "source_display_name": "Decalage Y",
+      "source_description": "Deplace les chiffres dans le modele. Essaie de petits pas (0.01).",
+      "translation_display_name": "위치 보정 Y",
+      "translation_description": "시계 모델 안에서 숫자의 위치를 이동합니다. 0.01처럼 작은 값으로 조정하세요.",
+      "values": []
+    },
+    {
+      "section": "5. Texte - Heure du jeu",
+      "key": "Decalage Z",
+      "source_display_name": "Decalage Z",
+      "source_description": "Deplace les chiffres dans le modele. Essaie de petits pas (0.01).",
+      "translation_display_name": "위치 보정 Z",
+      "translation_description": "시계 모델 안에서 숫자의 위치를 이동합니다. 0.01처럼 작은 값으로 조정하세요.",
+      "values": []
+    },
+    {
+      "section": "6. Texte - Temps de raid",
+      "key": "Decalage X",
+      "source_display_name": "Decalage X",
+      "source_description": "Deplace les chiffres dans le modele. Essaie de petits pas (0.01).",
+      "translation_display_name": "위치 보정 X",
+      "translation_description": "시계 모델 안에서 숫자의 위치를 이동합니다. 0.01처럼 작은 값으로 조정하세요.",
+      "values": []
+    },
+    {
+      "section": "6. Texte - Temps de raid",
+      "key": "Decalage Y",
+      "source_display_name": "Decalage Y",
+      "source_description": "Deplace les chiffres dans le modele. Essaie de petits pas (0.01).",
+      "translation_display_name": "위치 보정 Y",
+      "translation_description": "시계 모델 안에서 숫자의 위치를 이동합니다. 0.01처럼 작은 값으로 조정하세요.",
+      "values": []
+    },
+    {
+      "section": "6. Texte - Temps de raid",
+      "key": "Decalage Z",
+      "source_display_name": "Decalage Z",
+      "source_description": "Deplace les chiffres dans le modele. Essaie de petits pas (0.01).",
+      "translation_display_name": "위치 보정 Z",
+      "translation_description": "시계 모델 안에서 숫자의 위치를 이동합니다. 0.01처럼 작은 값으로 조정하세요.",
+      "values": []
+    },
+    {
+      "section": "9. Test",
+      "key": "Touche pour noter les valeurs",
+      "source_display_name": "Touche pour noter les valeurs",
+      "source_description": "Ecrit dans le journal les valeurs de placement.",
+      "translation_display_name": "설정값 기록 단축키",
+      "translation_description": "시계의 위치 조정값을 로그에 기록합니다.",
+      "values": []
+    }
+  ]
+}

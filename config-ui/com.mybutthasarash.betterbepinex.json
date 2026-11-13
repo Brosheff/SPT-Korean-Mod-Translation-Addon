@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.mybutthasarash.betterbepinex",
+  "plugin_name": "BetterBepInEx",
+  "mod_version": "1.0.4",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Look",
+      "translation": "화면 표시"
+    },
+    {
+      "source": "Mods list",
+      "translation": "모드 목록"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Use the new menu",
+      "source_display_name": "Use the new menu",
+      "source_description": "Show this menu when F12 is pressed. Off brings back the stock menu straight away.",
+      "translation_display_name": "새 설정 메뉴 사용",
+      "translation_description": "F12를 누르면 이 설정 메뉴를 표시합니다. 끄면 즉시 기존 설정 메뉴로 돌아갑니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Hold the player still while open",
+      "source_display_name": "Hold the player still while open",
+      "source_description": "In raid, stop the player moving and the camera turning while the menu is open, the way the inventory does. The stock menu lets both through.",
+      "translation_display_name": "메뉴가 열린 동안 플레이어 고정",
+      "translation_description": "레이드 중 메뉴가 열려 있는 동안 인벤토리를 열었을 때처럼 이동과 카메라 회전을 막습니다. 기존 설정 메뉴는 두 동작을 허용합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Click outside to keep playing",
+      "source_display_name": "Click outside to keep playing",
+      "source_description": "Clicking outside the menu fades it and gives the game your mouse and keys back, so you can move around with it open. Click the menu to use it again; F12 still closes it. Off keeps the menu in front until you close it.",
+      "translation_display_name": "메뉴 바깥 클릭 시 게임 조작 허용",
+      "translation_description": "메뉴 바깥을 클릭하면 메뉴가 흐려지고 게임에서 마우스와 키보드를 다시 사용할 수 있습니다. 메뉴를 클릭하면 다시 조작할 수 있으며 F12로 메뉴를 닫을 수도 있습니다. 끄면 메뉴를 닫을 때까지 메뉴가 앞에 유지됩니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Opacity in the background",
+      "source_display_name": "Opacity in the background",
+      "source_description": "How see-through the menu is after clicking outside it. 1 is solid.",
+      "translation_display_name": "비활성 메뉴 불투명도",
+      "translation_description": "메뉴 바깥을 클릭한 뒤 메뉴가 얼마나 투명하게 보이는지 설정합니다. 1이면 완전히 불투명합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Dim the game behind the menu",
+      "source_display_name": "Dim the game behind the menu",
+      "source_description": "Darken the screen behind the menu.",
+      "translation_display_name": "메뉴 뒤 게임 화면 어둡게",
+      "translation_description": "메뉴 뒤에 보이는 게임 화면을 어둡게 합니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Show descriptions under settings",
+      "source_display_name": "Show descriptions under settings",
+      "source_description": "Print each setting's description under its name. Off shows it when you hover the name instead.",
+      "translation_display_name": "설정 아래에 설명 표시",
+      "translation_description": "각 설정 이름 아래에 설명을 표시합니다. 끄면 설정 이름 위에 마우스를 올렸을 때 설명이 나타납니다.",
+      "values": []
+    },
+    {
+      "section": "General",
+      "key": "Show hidden and advanced",
+      "source_display_name": "Show hidden and advanced",
+      "source_description": "Show settings and mods that their authors hide or mark as advanced. Set by the Show advanced button in the menu's title bar. Search always finds advanced settings.",
+      "translation_display_name": "숨김 및 고급 설정 표시",
+      "translation_description": "제작자가 숨기거나 고급으로 지정한 설정과 모드를 표시합니다. 메뉴 제목 표시줄의 고급 설정 표시 버튼으로 변경하며, 검색에서는 고급 설정이 항상 검색됩니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Theme",
+      "source_display_name": "Theme",
+      "source_description": "The menu's colours. Black suits OLED screens; High contrast is easiest to read.",
+      "translation_display_name": "메뉴 테마",
+      "translation_description": "메뉴의 색상 테마를 선택합니다. 검정은 OLED 화면에 적합하며, 고대비 테마는 글자를 가장 쉽게 구분할 수 있습니다.",
+      "values": [
+        {
+          "source": "Dark",
+          "translation": "어두운 테마"
+        },
+        {
+          "source": "Black (OLED)",
+          "translation": "검정(OLED)"
+        },
+        {
+          "source": "Grey",
+          "translation": "회색"
+        },
+        {
+          "source": "High contrast",
+          "translation": "고대비"
+        },
+        {
+          "source": "Tan",
+          "translation": "황갈색"
+        }
+      ]
+    },
+    {
+      "section": "Look",
+      "key": "Accent color",
+      "source_display_name": "Accent color",
+      "source_description": "The colour of switches, sliders, badges and the selected mod. EFT's tan by default.",
+      "translation_display_name": "강조 색상",
+      "translation_description": "스위치, 슬라이더, 배지, 선택한 모드에 사용할 색상을 설정합니다. 기본값은 EFT 특유의 황갈색입니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Category header color",
+      "source_display_name": "Category header color",
+      "source_description": "The colour of the headings that divide a mod's settings into categories, so you can tell at a glance which category you are in.",
+      "translation_display_name": "분류 제목 색상",
+      "translation_description": "모드 설정을 분류별로 나누는 제목의 색상을 설정합니다. 현재 어떤 분류를 보고 있는지 쉽게 구분할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Text size",
+      "source_display_name": "Text size",
+      "source_description": "Size of the text, on top of Menu scale: bigger text in the same window, or smaller.",
+      "translation_display_name": "글자 크기",
+      "translation_description": "메뉴 배율에 추가로 적용하는 글자 크기입니다. 창 크기는 유지하면서 글자만 크게 또는 작게 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Compact rows",
+      "source_display_name": "Compact rows",
+      "source_description": "Less space around each setting, so more fit on screen.",
+      "translation_display_name": "설정 행 간격 좁히기",
+      "translation_description": "각 설정 주위의 여백을 줄여 한 화면에 더 많은 설정이 보이도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "Mods list",
+      "key": "Sort mods by",
+      "source_display_name": "Sort mods by",
+      "source_description": "The order of the mods list. Recently opened puts the mods you opened last at the top, the next time the menu opens. Author groups each author's mods under their name.",
+      "translation_display_name": "모드 정렬 기준",
+      "translation_description": "모드 목록의 정렬 순서를 선택합니다. 최근에 연 모드는 다음에 메뉴를 열 때 목록 위쪽에 표시됩니다. 제작자 기준은 같은 제작자의 모드를 이름 아래에 묶습니다.",
+      "values": [
+        {
+          "source": "Name",
+          "translation": "이름"
+        },
+        {
+          "source": "Most changed",
+          "translation": "변경된 설정이 많은 순"
+        },
+        {
+          "source": "Most settings",
+          "translation": "설정이 많은 순"
+        },
+        {
+          "source": "Recently opened",
+          "translation": "최근에 연 순"
+        },
+        {
+          "source": "Author",
+          "translation": "제작자"
+        }
+      ]
+    },
+    {
+      "section": "Look",
+      "key": "Menu scale",
+      "source_display_name": "Menu scale",
+      "source_description": "Size of the menu text and controls. 1 is the normal size for your screen.",
+      "translation_display_name": "메뉴 배율",
+      "translation_description": "메뉴 글자와 조작 요소의 크기를 조절합니다. 1은 현재 화면에 맞는 기본 크기입니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Scale with screen resolution",
+      "source_display_name": "Scale with screen resolution",
+      "source_description": "Size the menu for your resolution, so it reads the same at 1080p, 1440p, ultrawide and 4K. Off draws it at 1080p size on any screen.",
+      "translation_display_name": "화면 해상도에 맞춰 크기 조정",
+      "translation_description": "1080p, 1440p, 울트라와이드, 4K에서도 같은 크기로 읽을 수 있도록 화면 해상도에 맞춰 메뉴 크기를 조정합니다. 끄면 모든 해상도에서 1080p 기준 크기로 표시합니다.",
+      "values": []
+    },
+    {
+      "section": "Look",
+      "key": "Font",
+      "source_display_name": "Font",
+      "source_description": "The menu's font. Tarkov is EFT's own, if the game has it loaded; the others come with Windows. A font that can't be found falls back to Default. If the menu text disappears, set this back to Default in BepInEx\\config\\com.mybutthasarash.betterbepinex.cfg.",
+      "translation_display_name": "글꼴",
+      "translation_description": "메뉴에 사용할 글꼴입니다. 타르코프 글꼴은 게임에 로드된 경우에만 사용하며 다른 글꼴은 Windows에 포함되어 있습니다. 글꼴을 찾지 못하면 기본 글꼴을 사용합니다. 메뉴 글자가 사라지면 BepInEx\\config\\com.mybutthasarash.betterbepinex.cfg에서 이 설정을 Default로 되돌리세요.",
+      "values": [
+        {
+          "source": "Default",
+          "translation": "기본 글꼴"
+        },
+        {
+          "source": "Tarkov (Bender)",
+          "translation": "타르코프(Bender)"
+        }
+      ]
+    },
+    {
+      "section": "Look",
+      "key": "Reset window position",
+      "source_display_name": "Reset window position",
+      "source_description": "Put the menu back in the middle of the screen at its default size.",
+      "translation_display_name": "창 위치 초기화",
+      "translation_description": "메뉴를 화면 중앙의 기본 위치와 크기로 되돌립니다.",
+      "values": []
+    }
+  ]
+}

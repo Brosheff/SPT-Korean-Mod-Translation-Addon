@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.automaticweaponsmith",
+  "plugin_name": "AutomaticWeaponsmith",
+  "mod_version": "1.0.2",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Optimizer",
+      "translation": "최적화"
+    },
+    {
+      "source": "Prices",
+      "translation": "가격"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Language",
+      "source_display_name": "Language",
+      "source_description": "Language of the mod. Files are in the lang folder of this mod. Restart the game to also change the names in this menu.",
+      "translation_display_name": "모드 언어",
+      "translation_description": "모드의 언어를 선택합니다. 언어 파일은 이 모드의 lang 폴더에 있습니다. 이 메뉴에 표시되는 이름까지 변경하려면 게임을 다시 시작해야 합니다.",
+      "values": [
+        {
+          "source": "en",
+          "translation": "영어"
+        }
+      ]
+    },
+    {
+      "section": "Optimizer",
+      "key": "Recoil weight (Balanced mode)",
+      "source_display_name": "Recoil weight (Balanced mode)",
+      "source_description": "Balanced mode only: how many ergonomics points 1 % less recoil is worth.",
+      "translation_display_name": "반동 가중치 (균형 모드)",
+      "translation_description": "균형 모드에서만 적용됩니다. 반동이 1% 감소하는 효과를 인체공학 수치 몇 점과 동일하게 평가할지 정합니다.",
+      "values": []
+    },
+    {
+      "section": "Optimizer",
+      "key": "Time limit (ms)",
+      "source_display_name": "Time limit (ms)",
+      "source_description": "After this time, part conflicts are solved quickly instead of perfectly.",
+      "translation_display_name": "계산 제한 시간 (밀리초)",
+      "translation_description": "설정한 시간이 지나면 부품 간 호환성 충돌을 완벽하게 탐색하는 대신 빠르게 처리합니다.",
+      "values": []
+    },
+    {
+      "section": "Optimizer",
+      "key": "Minimum ergonomics (Recoil mode)",
+      "source_display_name": "Minimum ergonomics (Recoil mode)",
+      "source_description": "In Recoil mode, ergonomics will not go below this value. 0 = off.",
+      "translation_display_name": "최소 인체공학 수치 (반동 모드)",
+      "translation_description": "반동 최소화 모드에서는 인체공학 수치가 이 값 아래로 내려가지 않습니다. 0은 제한 해제입니다.",
+      "values": []
+    },
+    {
+      "section": "Optimizer",
+      "key": "Allow grenade launchers",
+      "source_display_name": "Allow grenade launchers",
+      "source_description": "Allow underbarrel grenade launchers (much less recoil, but very heavy).",
+      "translation_display_name": "유탄발사기 허용",
+      "translation_description": "총열 하부 유탄발사기 장착을 허용합니다. 반동을 크게 줄일 수 있지만 무게가 많이 늘어납니다.",
+      "values": []
+    },
+    {
+      "section": "Optimizer",
+      "key": "Sight",
+      "source_display_name": "Sight",
+      "source_description": "Keep = your current sight stays on the weapon (if it does not fit, one of the same type is used). SameType = any sight of the same type (scope / red dot / iron sights). Any = no rule: if \"Always use an optic\" is off too, sights are removed.",
+      "translation_display_name": "조준경 선택 정책",
+      "translation_description": "기존 조준경 유지(Keep): 호환된다면 현재 조준경을 유지하고, 호환되지 않으면 같은 종류로 교체합니다. 같은 유형(SameType): 같은 종류(배율 조준경·도트 조준경·기계식 조준기) 중에서 선택합니다. 제한 없음(Any): 조준경 종류에 제한을 두지 않습니다. 광학 조준경 항상 사용 옵션까지 꺼져 있으면 조준경을 제거합니다.",
+      "values": [
+        {
+          "source": "Keep",
+          "translation": "기존 조준경 유지"
+        },
+        {
+          "source": "SameType",
+          "translation": "같은 유형"
+        },
+        {
+          "source": "Any",
+          "translation": "제한 없음"
+        }
+      ]
+    },
+    {
+      "section": "Optimizer",
+      "key": "Minimum magazine size",
+      "source_display_name": "Minimum magazine size",
+      "source_description": "Only used if the build has no magazine. Otherwise the magazine is at least as big as the current one.",
+      "translation_display_name": "최소 탄창 장탄수",
+      "translation_description": "총기에 탄창이 없는 경우에만 적용합니다. 탄창이 이미 있으면 기존 탄창 이상의 장탄수를 가진 탄창을 선택합니다.",
+      "values": []
+    },
+    {
+      "section": "Optimizer",
+      "key": "Always use an optic (no iron sights)",
+      "source_display_name": "Always use an optic (no iron sights)",
+      "source_description": "On = the build always gets one red dot, holo or scope. A new one comes from the list in optics.txt. Iron sights (and carry handles) are never used. Off = no sight is added, only your current one follows the Sight setting.",
+      "translation_display_name": "광학 조준경 항상 사용 (기계식 제외)",
+      "translation_description": "켜짐: 도트·홀로그램·배율 조준경 중 하나를 반드시 장착합니다. 새 조준경은 optics.txt 목록에서 선택하며 기계식 조준기와 운반 손잡이는 사용하지 않습니다. 꺼짐: 조준경을 새로 추가하지 않고, 기존 조준경에만 조준경 선택 정책을 적용합니다.",
+      "values": []
+    },
+    {
+      "section": "Optimizer",
+      "key": "Always add a flashlight",
+      "source_display_name": "Always add a flashlight",
+      "source_description": "On = the build always gets a flashlight (a flashlight or a tactical device with a white light).",
+      "translation_display_name": "전술 조명 항상 장착",
+      "translation_description": "켜짐: 손전등 또는 흰색 조명을 갖춘 전술 장치를 반드시 장착합니다.",
+      "values": []
+    },
+    {
+      "section": "Prices",
+      "key": "Allow barter trades",
+      "source_display_name": "Allow barter trades",
+      "source_description": "Also use trader offers that are paid with items instead of money.",
+      "translation_display_name": "물물교환 허용",
+      "translation_description": "화폐가 아닌 아이템을 지불하는 상인의 물물교환 매물도 사용합니다.",
+      "values": []
+    },
+    {
+      "section": "Prices",
+      "key": "Use budget limit",
+      "source_display_name": "Use budget limit",
+      "source_description": "On = the build may not cost more than the budget (parts from your stash are free).",
+      "translation_display_name": "예산 제한 사용",
+      "translation_description": "켜짐: 보관함에 이미 있는 부품은 무료로 계산하며, 새로 구매할 부품의 총액이 예산을 넘지 않도록 합니다.",
+      "values": []
+    },
+    {
+      "section": "Prices",
+      "key": "Budget (roubles)",
+      "source_display_name": "Budget (roubles)",
+      "source_description": "Maximum cost for all parts you need to buy.",
+      "translation_display_name": "예산 (루블)",
+      "translation_description": "구매해야 하는 모든 부품의 최대 비용을 설정합니다.",
+      "values": []
+    }
+  ]
+}

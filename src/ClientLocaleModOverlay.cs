@@ -69,7 +69,7 @@ namespace SPT.ModKoreanAddon
                     catch (Exception ex)
                     {
                         loadError = document.mod_id + ": " + ex.Message;
-                        SPT.EditableTranslations.MinimalLog.WarnOnce("ClientLocaleModOverlay:70", () => "[Editable JSON] Locale source fallbacks rejected: " + loadError);
+                        SPT.EditableTranslations.MinimalLog.WarnOnce("locale-fallback-rejected:" + document.mod_id, () => "[Editable JSON] Locale source fallbacks rejected: " + loadError);
                     }
                 }
 
@@ -138,7 +138,7 @@ namespace SPT.ModKoreanAddon
                     catch (Exception ex)
                     {
                         loadError = document.mod_id + ": " + ex.Message;
-                        SPT.EditableTranslations.MinimalLog.WarnOnce("ClientLocaleModOverlay:139", () => "[Editable JSON] Locale clone suffixes rejected: " + loadError);
+                        SPT.EditableTranslations.MinimalLog.WarnOnce("locale-clone-rejected:" + document.mod_id, () => "[Editable JSON] Locale clone suffixes rejected: " + loadError);
                     }
                 }
 
@@ -224,7 +224,7 @@ namespace SPT.ModKoreanAddon
                         candidates.Add(e.Value);
                     }
                 }
-                catch (Exception ex) { loadError = document.mod_id + ": " + ex.Message; SPT.EditableTranslations.MinimalLog.WarnOnce("ClientLocaleModOverlay:181", () => "[Editable JSON] Locale group rejected: " + loadError); }
+                catch (Exception ex) { loadError = document.mod_id + ": " + ex.Message; SPT.EditableTranslations.MinimalLog.WarnOnce("locale-group-rejected:" + document.mod_id, () => "[Editable JSON] Locale group rejected: " + loadError); }
             }
         }
 

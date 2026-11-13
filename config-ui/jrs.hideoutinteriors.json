@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "jrs.hideoutinteriors",
+  "plugin_name": "JRS-HideoutInteriors",
+  "mod_version": "0.1.0",
+  "categories": [
+    {
+      "source": "General",
+      "translation": "일반"
+    },
+    {
+      "source": "Decorating",
+      "translation": "꾸미기"
+    }
+  ],
+  "entries": [
+    {
+      "section": "General",
+      "key": "Areas things never join",
+      "source_display_name": "Areas things never join",
+      "source_description": "Areas (by type, comma-separated) that what you put down never joins on its own. The emergency wall's zone holds a whole room.",
+      "translation_display_name": "배치 시 자동 소속 제외 구역",
+      "translation_description": "배치한 물건이 자동으로 소속되지 않을 구역 유형을 쉼표로 구분해 지정합니다. 비상 벽의 구역은 방 하나 전체를 포함합니다.",
+      "values": []
+    },
+    {
+      "section": "Decorating",
+      "key": "Enabled",
+      "source_display_name": "Enabled",
+      "source_description": "A decor button on the hideout's overview: move the hideout's things a few at a time, give them to other areas, hide them, and put in copies of anything the hideout has.",
+      "translation_display_name": "은신처 꾸미기 활성화",
+      "translation_description": "은신처 개요 화면에 꾸미기 버튼을 추가합니다. 은신처의 물건을 한 번에 몇 개씩 이동하거나, 다른 구역에 소속시키거나, 숨기거나, 은신처에 있는 물건의 복제본을 배치할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "Decorating",
+      "key": "Gizmo size",
+      "source_display_name": "Gizmo size",
+      "source_description": "How big decor mode's move arrows and turn rings are (1 = as made).",
+      "translation_display_name": "조작 핸들 크기",
+      "translation_description": "꾸미기 모드에서 사용하는 이동 화살표와 회전 고리의 크기를 지정합니다. 1은 원래 크기입니다.",
+      "values": []
+    },
+    {
+      "section": "Decorating",
+      "key": "Gizmo thickness",
+      "source_display_name": "Gizmo thickness",
+      "source_description": "How thick the move arrows and turn rings are (1 = as made).",
+      "translation_display_name": "조작 핸들 두께",
+      "translation_description": "이동 화살표와 회전 고리의 두께를 지정합니다. 1은 원래 두께입니다.",
+      "values": []
+    },
+    {
+      "section": "Decorating",
+      "key": "Switch move / turn",
+      "source_display_name": "Switch move / turn",
+      "source_description": "The key that switches decor mode's gizmo between moving and turning.",
+      "translation_display_name": "이동·회전 전환 키",
+      "translation_description": "꾸미기 모드의 조작 핸들을 이동 모드와 회전 모드 사이에서 전환하는 키입니다.",
+      "values": []
+    }
+  ]
+}

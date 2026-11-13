@@ -53,7 +53,7 @@ namespace SPT.ModKoreanAddon
                 }
                 catch (Exception ex)
                 {
-                    SPT.EditableTranslations.MinimalLog.WarnOnce("EditableProfiles:55", () => "[Editable JSON] Rejected " + Path.GetFileName(file) + ": " + ex.Message);
+                    SPT.EditableTranslations.MinimalLog.WarnOnce("profile-rejected:" + Path.GetFileName(file), () => "[Editable JSON] Rejected " + Path.GetFileName(file) + ": " + ex.Message);
                 }
             }
         }

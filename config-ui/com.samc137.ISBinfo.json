@@ -3,7 +3,7 @@
   "target_spt": "4.1.6",
   "plugin_guid": "com.samc137.ISBinfo",
   "plugin_name": "ISB SOF Notifier",
-  "mod_version": "2.0.2",
+  "mod_version": "2.0.4",
   "categories": [
     {
       "source": "Settings for the ISB SOF Notifier plugin",

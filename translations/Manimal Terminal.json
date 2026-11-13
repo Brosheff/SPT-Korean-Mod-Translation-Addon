@@ -1699,21 +1699,25 @@
     ],
     "notifications": [
       {
+        "id": "terminal.equipment_confiscated",
         "source": "Port security has confiscated your equipment. It is locked in one of the terminal's equipment cabinets.",
         "translation": "항구 보안대가 장비를 압수했습니다. 터미널의 장비 캐비닛 중 한 곳에 보관되어 있습니다.",
         "match_mode": "exact"
       },
       {
+        "id": "terminal.power_restored",
         "source": "Power restored — the pump station panel is live",
         "translation": "전력이 복구되었습니다. 펌프장 제어판을 사용할 수 있습니다.",
         "match_mode": "exact"
       },
       {
+        "id": "terminal.repair_failed",
         "source": "Repair failed — the cabinet shocked you",
         "translation": "수리에 실패했습니다. 전기 캐비닛에서 감전되었습니다.",
         "match_mode": "exact"
       },
       {
+        "id": "terminal.panel_no_power",
         "source": "The panel has no power — repair the broken electrical cabinet first",
         "translation": "제어판에 전원이 들어오지 않습니다. 먼저 고장 난 전기 캐비닛을 수리하십시오.",
         "match_mode": "exact"

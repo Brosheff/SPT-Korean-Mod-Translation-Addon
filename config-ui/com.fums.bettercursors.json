@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "target_spt": "4.1.6",
+  "plugin_guid": "com.fums.bettercursors",
+  "plugin_name": "Fums-BetterCursors",
+  "mod_version": "1.0.0",
+  "categories": [
+    {
+      "source": "1. Cursor",
+      "translation": "1. 커서"
+    },
+    {
+      "source": "2. Colour",
+      "translation": "2. 색상"
+    },
+    {
+      "source": "3. Tools",
+      "translation": "3. 도구"
+    }
+  ],
+  "entries": [
+    {
+      "section": "1. Cursor",
+      "key": "Cursor set",
+      "source_display_name": "Cursor set",
+      "source_description": "Which cursors to use. Off: leave the game's cursor alone (the default). Game: the game's own cursors, drawn at the size below. The rest are the folders in BepInEx/plugins/BetterCursors/cursors. Add a folder of your own there and restart the game to see it here.",
+      "translation_display_name": "커서 세트",
+      "translation_description": "사용할 커서를 선택합니다. '변경 안 함'은 게임 커서를 그대로 유지하는 기본 설정입니다. '게임 기본 커서'는 게임의 원래 커서를 아래에서 지정한 크기로 그립니다. 나머지는 BepInEx/plugins/BetterCursors/cursors 폴더에 있는 커서 세트입니다. 해당 위치에 커서 폴더를 추가한 뒤 게임을 다시 시작하면 목록에 표시됩니다.",
+      "values": [
+        {
+          "source": "Off",
+          "translation": "변경 안 함"
+        },
+        {
+          "source": "Game",
+          "translation": "게임 기본 커서"
+        },
+        {
+          "source": "Classic Black",
+          "translation": "클래식 블랙"
+        },
+        {
+          "source": "Classic White",
+          "translation": "클래식 화이트"
+        },
+        {
+          "source": "Kenney Arrow",
+          "translation": "Kenney 화살표"
+        },
+        {
+          "source": "Kenney Bold",
+          "translation": "Kenney 굵은 커서"
+        },
+        {
+          "source": "Kenney Sci-Fi",
+          "translation": "Kenney SF"
+        },
+        {
+          "source": "Kenney Shaded",
+          "translation": "Kenney 음영"
+        },
+        {
+          "source": "Kenney Sharp",
+          "translation": "Kenney 선명한 커서"
+        },
+        {
+          "source": "Kenney Toon",
+          "translation": "Kenney 만화풍"
+        },
+        {
+          "source": "Tactical HD",
+          "translation": "택티컬 HD"
+        },
+        {
+          "source": "Windows Classic",
+          "translation": "Windows 클래식"
+        }
+      ]
+    },
+    {
+      "section": "1. Cursor",
+      "key": "Size (pixels)",
+      "source_display_name": "Size (pixels)",
+      "source_description": "How big the cursor is on screen, in pixels across its longest side. The game's own arrow is drawn at about 41.",
+      "translation_display_name": "커서 크기 (픽셀)",
+      "translation_description": "커서의 가장 긴 변을 기준으로 화면에 표시할 크기를 픽셀 단위로 지정합니다. 게임 기본 화살표 커서는 약 41픽셀 크기로 그려집니다.",
+      "values": []
+    },
+    {
+      "section": "1. Cursor",
+      "key": "Draw mode",
+      "source_display_name": "Draw mode",
+      "source_description": "Software: the game draws the cursor itself, at exactly the size above, whatever the Windows pointer size is. Hardware: Windows draws it, which follows the mouse a frame sooner, but Windows may stretch it to its own pointer size and blur it.",
+      "translation_display_name": "커서 그리기 방식",
+      "translation_description": "소프트웨어: Windows의 포인터 크기 설정과 관계없이 게임이 위에서 지정한 정확한 크기로 커서를 그립니다. 하드웨어: Windows가 커서를 그리므로 마우스 움직임을 한 프레임 더 빠르게 따라가지만, Windows의 포인터 크기에 맞춰 확대되면서 흐려질 수 있습니다.",
+      "values": [
+        {
+          "source": "Software",
+          "translation": "소프트웨어"
+        },
+        {
+          "source": "Hardware",
+          "translation": "하드웨어"
+        }
+      ]
+    },
+    {
+      "section": "2. Colour",
+      "key": "Hover style",
+      "source_display_name": "Hover style",
+      "source_description": "What the cursor does over something you can click, such as an item or a button. Normal: it keeps its shape and turns the hover colour. Hand: it turns into the set's pointing hand, in the cursor's colour, like a Windows link cursor. Hover colour isn't used with Hand.",
+      "translation_display_name": "마우스를 올렸을 때의 표시 방식",
+      "translation_description": "아이템이나 버튼처럼 클릭할 수 있는 대상 위에 커서를 올렸을 때의 표시 방식을 정합니다. 일반: 커서 모양을 유지하면서 호버 색상으로 바뀝니다. 손 모양: Windows의 링크 커서처럼 선택한 커서 세트의 가리키는 손 모양으로 바뀌며, 기본 커서 색상을 사용합니다. 손 모양을 선택하면 호버 색상은 적용되지 않습니다.",
+      "values": [
+        {
+          "source": "Normal",
+          "translation": "일반"
+        },
+        {
+          "source": "Hand",
+          "translation": "손 모양"
+        }
+      ]
+    },
+    {
+      "section": "2. Colour",
+      "key": "Colour",
+      "source_display_name": "Colour",
+      "source_description": "The cursor's colour, for every cursor but hover. The light parts of the cursor take the colour and dark outlines stay dark, so white leaves it as drawn. Click the colour to open its sliders, or type a hex code such as #4da3ff.",
+      "translation_display_name": "커서 색상",
+      "translation_description": "호버 상태를 제외한 모든 커서에 적용할 색상입니다. 커서의 밝은 부분은 지정한 색상으로 바뀌고 어두운 윤곽선은 그대로 유지되므로, 흰색으로 설정하면 원래 모양대로 표시됩니다. 색상 표시 영역을 클릭해 슬라이더를 열거나 #4da3ff 같은 16진수 색상 코드를 입력할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "2. Colour",
+      "key": "Hover colour",
+      "source_display_name": "Hover colour",
+      "source_description": "The cursor's colour when it's over something you can click, such as an item or a button. Only used when Hover style is Normal. Click the colour to open its sliders, or type a hex code such as #4da3ff.",
+      "translation_display_name": "호버 색상",
+      "translation_description": "아이템이나 버튼처럼 클릭할 수 있는 대상 위에 커서를 올렸을 때 사용할 색상입니다. 호버 표시 방식이 '일반'일 때만 적용됩니다. 색상 표시 영역을 클릭해 슬라이더를 열거나 #4da3ff 같은 16진수 색상 코드를 입력할 수 있습니다.",
+      "values": []
+    },
+    {
+      "section": "3. Tools",
+      "key": "Export game cursors",
+      "source_display_name": "Export game cursors",
+      "source_description": "Tick to save the game's own cursors as PNG files into cursors/Game Export, ready to edit or upscale. Restart the game to pick the folder as a set. Shown with the config manager's advanced settings.",
+      "translation_display_name": "게임 커서 내보내기",
+      "translation_description": "선택하면 게임의 기본 커서가 cursors/Game Export 폴더에 PNG 파일로 저장됩니다. 저장된 파일은 편집하거나 해상도를 높일 수 있습니다. 게임을 다시 시작하면 이 폴더를 커서 세트로 선택할 수 있습니다. F12 설정 관리자의 고급 설정을 펼쳐야 표시됩니다.",
+      "values": []
+    }
+  ]
+}
